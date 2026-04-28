@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleSP_Msg=2081
+NumLocaleSP_Msg=2210
 
 [SP_MSG]
 Msg1=[¬1] ha sido expulsado del clan ya que modificó su alineamiento.
@@ -2023,3 +2023,14 @@ Msg2078=Nivel de Jinete: ¬1.
 Msg2079=No puedes consumir un Nivel de Jinete menor al que poseés actualmente.
 Msg2080=¡La Runa que intentas usar es inválida! por favor, comunícate con un Administrador.
 Msg2081=No puedes usar la Runa estando dentro del Mesón.
+Msg2200=No posees los conocimientos necesarios para ejercer esta profesión.
+Msg2201=¡Has aprendido la profesión de ¬1! Ahora puedes utilizar sus herramientas.
+Msg2202=Has olvidado la profesión de ¬1. Tus conocimientos se han desvanecido.
+Msg2203=Ya conoces dos profesiones. Debes olvidar una antes de aprender otra nueva.
+Msg2204=Tu mente no puede soportar más cambios. Has alcanzado el límite de profesiones olvidadas.
+Msg2205=No puedes aprender más profesiones: has agotado los olvidos permitidos para este personaje.
+Msg2206=Ya dominas este arte. No necesitas leer este manual nuevamente.
+Msg2207=Tus manos no saben cómo operar este instrumento. Debes aprender la profesión primero.
+Msg2208=No puedes asignar puntos a una habilidad que no has aprendido a dominar.
+Msg2209=Solo estoy aquí para transmitir mi conocimiento y vender mis manuales, no compro baratijas.
+Msg2210=Los artesanos ahora deben forjar su propio destino. La clase Trabajador ya no está disponible.

@@ -3,7 +3,7 @@
 'Reorganización Masiva.
 
 [INIT]
-NumNPCs=1404
+NumNPCs=1412
 
 'SPOTS LIBRES<<<<<<<<<<<<<<<<<<<<<<<<<<<#
 '16 al 23  		Comerciantes			#
@@ -4102,7 +4102,7 @@ GiveEXPClan=3
 GiveGLD=770
 MinHP=11000
 MaxHP=11000
-MaxHIT=190	
+MaxHIT=190
 MinHIT=175
 DEF=0
 PoderAtaque=220
@@ -6437,8 +6437,8 @@ Sp14=217
 Sp15=217
 Sp16=293 'Dragon Invocado 
 Sp17=213 'Muro de espinas
-Sp18=213 
-Sp19=15 
+Sp18=213
+Sp19=15
 Sp20=293 'Dragon Invocado 
 CantidadInvocaciones=3
 SND1=30
@@ -6865,7 +6865,7 @@ MagicResistance=5
 MagicDef=0
 
 [NPC655] 
-Name=Espíritu del bosque 
+Name=Espíritu del bosque
 En_Name=Spirit of the Forest
 Head=0
 Body=4250
@@ -10279,7 +10279,7 @@ MagicDef=5
 [NPC998] 'Guybrush
 Name=Guybrush
 Desc=Hola, soy Guybrush Threepwood, un gran pirata!.
-Desc2= Texto de prueba
+Desc2=Texto de prueba
 ShowName=1
 NpcType=17
 Head=0
@@ -18223,7 +18223,7 @@ NPCLVL=23
 MagicDef=5
 
 [NPC1326]
-Name=Espíritu del bosque 
+Name=Espíritu del bosque
 En_name=Forest Spirit
 Body=4250
 BodyIdle=4253
@@ -20423,4 +20423,160 @@ MagicResistance=25
 
 
 
+
+
+'--------------> Maestros de Profesion <--------------
+[NPC1405]
+Name=Maestro Carpintero <Carpinteria>
+En_Name=Master Carpenter <Carpinteria>
+ShowName=1
+Desc=Un maestro que ensena su profesion a cambio de oro.
+Head=0
+Body=4107
+Heading=3
+Movement=1
+Comercia=1
+TipoItems=0
+PuedeInvocar=1
+Minimap=1
+RequireToggle=professions_learnable
+EsMaestroProfesion=1
+ProfesionEnsenada=21
+NROITEMS=2
+Obj1=4997-1000
+Obj2=5004-1000
+SoundOpen=700
+SoundClose=703
+
+[NPC1406]
+Name=Maestro Herrero <Herreria>
+En_Name=Master Blacksmith <Herreria>
+ShowName=1
+Desc=Un maestro que ensena su profesion a cambio de oro.
+Head=0
+Body=4107
+Heading=3
+Movement=1
+Comercia=1
+TipoItems=0
+PuedeInvocar=1
+Minimap=1
+RequireToggle=professions_learnable
+EsMaestroProfesion=1
+ProfesionEnsenada=20
+NROITEMS=2
+Obj1=4998-1000
+Obj2=5005-1000
+SoundOpen=700
+SoundClose=703
+
+[NPC1407]
+Name=Maestro Sastre <Sastreria>
+En_Name=Master Tailor <Sastreria>
+ShowName=1
+Desc=Un maestro que ensena su profesion a cambio de oro.
+Head=0
+Body=4107
+Heading=3
+Movement=1
+Comercia=1
+TipoItems=0
+PuedeInvocar=1
+Minimap=1
+RequireToggle=professions_learnable
+EsMaestroProfesion=1
+ProfesionEnsenada=23
+NROITEMS=2
+Obj1=4999-1000
+Obj2=5006-1000
+SoundOpen=700
+SoundClose=703
+
+[NPC1408]
+Name=Maestro Alquimista <Alquimia>
+En_Name=Master Alchemist <Alquimia>
+ShowName=1
+Desc=Un maestro que ensena su profesion a cambio de oro.
+Head=0
+Body=4107
+Heading=3
+Movement=1
+Comercia=1
+TipoItems=0
+PuedeInvocar=1
+Minimap=1
+RequireToggle=professions_learnable
+EsMaestroProfesion=1
+ProfesionEnsenada=22
+NROITEMS=2
+Obj1=5000-1000
+Obj2=5007-1000
+SoundOpen=700
+SoundClose=703
+
+[NPC1409]
+Name=Maestro Pescador <Pesca>
+En_Name=Master Fisherman <Pesca>
+ShowName=1
+Desc=Un maestro que ensena su profesion a cambio de oro.
+Head=0
+Body=4107
+Heading=3
+Movement=1
+Comercia=1
+TipoItems=0
+PuedeInvocar=1
+Minimap=1
+RequireToggle=professions_learnable
+EsMaestroProfesion=1
+ProfesionEnsenada=18
+NROITEMS=2
+Obj1=5001-1000
+Obj2=5008-1000
+SoundOpen=700
+SoundClose=703
+
+[NPC1410]
+Name=Maestro Lenador <Tala>
+En_Name=Master Woodcutter <Tala>
+ShowName=1
+Desc=Un maestro que ensena su profesion a cambio de oro.
+Head=0
+Body=4107
+Heading=3
+Movement=1
+Comercia=1
+TipoItems=0
+PuedeInvocar=1
+Minimap=1
+RequireToggle=professions_learnable
+EsMaestroProfesion=1
+ProfesionEnsenada=17
+NROITEMS=2
+Obj1=5002-1000
+Obj2=5009-1000
+SoundOpen=700
+SoundClose=703
+
+[NPC1411]
+Name=Maestro Minero <Mineria>
+En_Name=Master Miner <Mineria>
+ShowName=1
+Desc=Un maestro que ensena su profesion a cambio de oro.
+Head=0
+Body=4107
+Heading=3
+Movement=1
+Comercia=1
+TipoItems=0
+PuedeInvocar=1
+Minimap=1
+RequireToggle=professions_learnable
+EsMaestroProfesion=1
+ProfesionEnsenada=19
+NROITEMS=2
+Obj1=5003-1000
+Obj2=5010-1000
+SoundOpen=700
+SoundClose=703
 

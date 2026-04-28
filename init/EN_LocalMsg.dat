@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleEN_Msg=2081
+NumLocaleEN_Msg=2210
 
 [EN_MSG]
 Msg1=[¬1] has been kicked out of the clan because they changed their alignment.
@@ -2023,3 +2023,14 @@ Msg2078=Rider Level: ¬1.
 Msg2079=You cannot consume a Rider Level lower than the one you currently possess.
 Msg2080=The Rune you are trying to use is invalid! Please contact an Administrator.
 Msg2081=You cannot use the Rune while inside the Inn.
+Msg2200=You do not possess the necessary knowledge to practice this profession.
+Msg2201=You have learned the profession of ¬1! You can now use its tools.
+Msg2202=You have forgotten the profession of ¬1. Your knowledge has faded away.
+Msg2203=You already know two professions. You must forget one before learning a new one.
+Msg2204=Your mind cannot endure more changes. You have reached the limit of forgotten professions.
+Msg2205=You cannot learn more professions: you have exhausted the allowed forgets for this character.
+Msg2206=You already master this art. You do not need to read this manual again.
+Msg2207=Your hands do not know how to operate this instrument. You must learn the profession first.
+Msg2208=You cannot assign points to a skill you have not learned to master.
+Msg2209=I am only here to pass on my knowledge and sell my manuals, I do not buy trinkets.
+Msg2210=Craftsmen must now forge their own destiny. The Worker class is no longer available.

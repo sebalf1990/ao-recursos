@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=4996
+NumOBJs=5010
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
 'Objetos
@@ -72016,4 +72016,130 @@ Texto=Casco de Dragón Negro
 
 
 
+
+[OBJ4997]
+Name=Manual de Carpinteria
+GrhIndex=49210
+ObjType=1
+ProfesionId=21
+Valor=5000
+Crucial=1
+Texto=Un manual que ensena los secretos de la profesion de Carpinteria.
+
+[OBJ5004]
+Name=Pocion de Olvido (Carpinteria)
+GrhIndex=28748
+ObjType=11
+ProfesionId=21
+Valor=10000
+Crucial=1
+Texto=Bebe esta pocion para olvidar la profesion de Carpinteria.
+
+[OBJ4998]
+Name=Manual de Herreria
+GrhIndex=49210
+ObjType=1
+ProfesionId=20
+Valor=5000
+Crucial=1
+Texto=Un manual que ensena los secretos de la profesion de Herreria.
+
+[OBJ5005]
+Name=Pocion de Olvido (Herreria)
+GrhIndex=28748
+ObjType=11
+ProfesionId=20
+Valor=10000
+Crucial=1
+Texto=Bebe esta pocion para olvidar la profesion de Herreria.
+
+[OBJ4999]
+Name=Manual de Sastreria
+GrhIndex=49210
+ObjType=1
+ProfesionId=23
+Valor=5000
+Crucial=1
+Texto=Un manual que ensena los secretos de la profesion de Sastreria.
+
+[OBJ5006]
+Name=Pocion de Olvido (Sastreria)
+GrhIndex=28748
+ObjType=11
+ProfesionId=23
+Valor=10000
+Crucial=1
+Texto=Bebe esta pocion para olvidar la profesion de Sastreria.
+
+[OBJ5000]
+Name=Manual de Alquimia
+GrhIndex=49210
+ObjType=1
+ProfesionId=22
+Valor=5000
+Crucial=1
+Texto=Un manual que ensena los secretos de la profesion de Alquimia.
+
+[OBJ5007]
+Name=Pocion de Olvido (Alquimia)
+GrhIndex=28748
+ObjType=11
+ProfesionId=22
+Valor=10000
+Crucial=1
+Texto=Bebe esta pocion para olvidar la profesion de Alquimia.
+
+[OBJ5001]
+Name=Manual de Pesca
+GrhIndex=49210
+ObjType=1
+ProfesionId=18
+Valor=5000
+Crucial=1
+Texto=Un manual que ensena los secretos de la profesion de Pesca.
+
+[OBJ5008]
+Name=Pocion de Olvido (Pesca)
+GrhIndex=28748
+ObjType=11
+ProfesionId=18
+Valor=10000
+Crucial=1
+Texto=Bebe esta pocion para olvidar la profesion de Pesca.
+
+[OBJ5002]
+Name=Manual de Tala
+GrhIndex=49210
+ObjType=1
+ProfesionId=17
+Valor=5000
+Crucial=1
+Texto=Un manual que ensena los secretos de la profesion de Tala.
+
+[OBJ5009]
+Name=Pocion de Olvido (Tala)
+GrhIndex=28748
+ObjType=11
+ProfesionId=17
+Valor=10000
+Crucial=1
+Texto=Bebe esta pocion para olvidar la profesion de Tala.
+
+[OBJ5003]
+Name=Manual de Mineria
+GrhIndex=49210
+ObjType=1
+ProfesionId=19
+Valor=5000
+Crucial=1
+Texto=Un manual que ensena los secretos de la profesion de Mineria.
+
+[OBJ5010]
+Name=Pocion de Olvido (Mineria)
+GrhIndex=28748
+ObjType=11
+ProfesionId=19
+Valor=10000
+Crucial=1
+Texto=Bebe esta pocion para olvidar la profesion de Mineria.
 
