@@ -57,7 +57,7 @@
 
 
 [INIT]
-EffectCount=60
+EffectCount=62
 
 [EOT1] 'regeneracion 3
 Type=1
@@ -808,3 +808,21 @@ BuffType=5
 OnHitFx=0
 OnHitWAV=0
 ClientEffectTypeId=26
+
+[EOT61] 'minimap hostile npc radar - 30s buff
+Type=18
+TickTime=30000
+Ticks=1
+Limit=1
+Override=1
+BuffType=5
+ClientEffectTypeId=0
+
+[EOT62] 'Hechizo Detectar Personajes - radar de usuarios filtrado - 30s buff
+Type=19
+TickTime=30000
+Ticks=1
+Limit=1
+Override=1
+BuffType=5
+ClientEffectTypeId=0

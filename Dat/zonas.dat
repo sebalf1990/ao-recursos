@@ -1,11 +1,11 @@
 [Config]
-Cantidad=22
+Cantidad=24
 
 [MAPAS]
 Cantidad=839
 
 [Zona1]
-Nombre=Nuevo Mapa
+Nombre=Mapa 172
 Mapa=172
 Terreno=-1
 X1=17
@@ -38,7 +38,7 @@ Sonido5=
 ************** NUEVA ZONA **********************=
 
 [Zona2]
-Nombre=Nuevo Mapa
+Nombre=mapa 750
 Mapa=750
 Terreno=-1
 X1=29
@@ -73,13 +73,13 @@ Sonido5=
 ************** NUEVA ZONA **********************=
 
 [Zona3]
-Nombre=Zona4
+Nombre=mapa 751
 Mapa=751
-Terreno=1
-X1=35
-Y1=69
-X2=62
-Y2=85
+Terreno=-1
+X1=0
+Y1=0
+X2=0
+Y2=0
 Segura=0
 MagiaSinEfecto=0
 InviSinEfecto=0
@@ -91,10 +91,8 @@ NieblaG=0
 NieblaB=0
 Restringir=No
 Musica=0
-OcultarNombre=1
+OcultarNombre=0
 ZonaPatreon=0
-NivelMaximo=0
-NivelMinimo=0
 Musica1=
 Musica2=
 Musica3=
@@ -108,13 +106,13 @@ Sonido5=
 ************** NUEVA ZONA **********************=
 
 [Zona4]
-Nombre=Nuevo Mapa
+Nombre=758
 Mapa=751
 Terreno=-1
-X1=41
-Y1=32
-X2=54
-Y2=54
+X1=0
+Y1=0
+X2=0
+Y2=0
 Segura=0
 MagiaSinEfecto=0
 InviSinEfecto=0
@@ -124,11 +122,9 @@ Niebla=0
 NieblaR=0
 NieblaG=0
 NieblaB=0
-NivelMaximo=0
-NivelMinimo=0
 Restringir=No
 Musica=0
-OcultarNombre=1
+OcultarNombre=0
 ZonaPatreon=0
 Musica1=
 Musica2=
@@ -142,13 +138,13 @@ Sonido4=
 Sonido5=
 ************** NUEVA ZONA **********************=
 [Zona5]
-Nombre=Nuevo Mapa
+Nombre=Mapa 751
 Mapa=751
 Terreno=-1
-X1=37
-Y1=73
-X2=43
-Y2=84
+X1=0
+Y1=0
+X2=0
+Y2=0
 Segura=0
 MagiaSinEfecto=0
 InviSinEfecto=0
@@ -158,11 +154,9 @@ Niebla=0
 NieblaR=0
 NieblaG=0
 NieblaB=0
-NivelMaximo=0
-NivelMinimo=0
 Restringir=No
 Musica=0
-OcultarNombre=1
+OcultarNombre=0
 ZonaPatreon=0
 Musica1=
 Musica2=
@@ -176,7 +170,7 @@ Sonido4=
 Sonido5=
 ************** NUEVA ZONA **********************=
 [Zona6]
-Nombre=Nuevo Mapa
+Nombre=Mapa 112
 Mapa=112
 Terreno=-1
 X1=23
@@ -210,7 +204,7 @@ Sonido5=
 ************** NUEVA ZONA **********************=
 
 [Zona7]
-Nombre=Nuevo Mapa
+Nombre=Mapa 254
 Mapa=254
 Terreno=-1
 X1=72
@@ -244,7 +238,7 @@ Sonido5=
 ************** NUEVA ZONA **********************=
 
 [Zona8]
-Nombre=Nuevo Mapa
+Nombre=Mapa 112
 Mapa=112
 Terreno=-1
 X1=14
@@ -279,7 +273,7 @@ Sonido5=
 ************** NUEVA ZONA **********************=
 
 [Zona9]
-Nombre=Nuevo Mapa
+Nombre=Mapa 809
 Mapa=809
 Terreno=-1
 X1=36
@@ -314,7 +308,7 @@ Sonido5=
 ************** NUEVA ZONA **********************=
 
 [Zona10]
-Nombre=Nuevo Mapa
+Nombre=Mapa 771
 Mapa=771
 Terreno=-1
 X1=56
@@ -347,7 +341,7 @@ Sonido4=
 Sonido5=
 ************** NUEVA ZONA **********************=
 [Zona11]
-Nombre=Nuevo Mapa
+Nombre=Mapa 765
 Mapa=765
 Terreno=-1
 X1=32
@@ -381,7 +375,7 @@ Sonido4=
 Sonido5=
 ************** NUEVA ZONA **********************=
 [Zona12]
-Nombre=Nuevo Mapa
+Nombre=Mapa 765
 Mapa=765
 Terreno=-1
 X1=32
@@ -416,7 +410,7 @@ Sonido5=
 ************** NUEVA ZONA **********************=
 
 [Zona13]
-Nombre=Nuevo Mapa
+Nombre=Mapa 60
 Mapa=60
 Terreno=-1
 X1=48
@@ -449,7 +443,7 @@ Sonido5=
 ************** NUEVA ZONA **********************=
 
 [Zona14]
-Nombre=Nuevo Mapa
+Nombre=Mapa 93
 Mapa=93
 Terreno=-1
 X1=46
@@ -513,13 +507,13 @@ Sonido4=
 Sonido5=
 ************** NUEVA ZONA **********************=
 [Zona16]
-Nombre=Nuevo Mapa
+Nombre=Mapa 591
 Mapa=591
 Terreno=-1
-X1=33
-Y1=67
-X2=65
-Y2=88
+X1=0
+Y1=0
+X2=0
+Y2=0
 Segura=0
 MagiaSinEfecto=0
 InviSinEfecto=0
@@ -531,9 +525,7 @@ NieblaG=0
 NieblaB=0
 Restringir=No
 Musica=0
-OcultarNombre=1
-NivelMaximo=0
-NivelMinimo=0
+OcultarNombre=0
 Musica1=
 Musica2=
 Musica3=
@@ -549,10 +541,10 @@ Sonido5=
 Nombre=Ciudad Elfica
 Mapa=591
 Terreno=-1
-X1=38
-Y1=17
-X2=60
-Y2=53
+X1=0
+Y1=0
+X2=0
+Y2=0
 Segura=0
 MagiaSinEfecto=0
 InviSinEfecto=0
@@ -564,10 +556,21 @@ NieblaG=0
 NieblaB=0
 Restringir=No
 Musica=0
-OcultarNombre=1
+OcultarNombre=0
+Musica1=
+Musica2=
+Musica3=
+Musica4=
+Musica5=
+Sonido1=
+Sonido2=
+Sonido3=
+Sonido4=
+Sonido5=
+************** NUEVA ZONA **********************=
 
 [Zona18]
-Nombre=Nuevo Mapa
+Nombre=Mapa 825
 Mapa=825
 Terreno=-1
 X1=30
@@ -638,3 +641,56 @@ NieblaB=0
 Restringir=No
 Musica=0
 OcultarNombre=1
+
+[Zona23]
+Nombre=Mapa 320
+Mapa=320
+Terreno=-1
+X1=33
+Y1=42
+X2=35
+Y2=50
+Segura=1
+MagiaSinEfecto=1
+InviSinEfecto=0
+TieneNpcInvocacion=0
+ResuSinEfecto=0
+Niebla=0
+NieblaR=0
+NieblaG=0
+NieblaB=0
+Restringir=No
+Musica=0
+OcultarNombre=0
+Musica1=1
+Musica2=
+Musica3=
+Musica4=
+Musica5=
+Sonido1=
+Sonido2=
+Sonido3=
+Sonido4=
+Sonido5=
+************** NUEVA ZONA **********************=
+[Zona24]
+Nombre=Mapa 320
+Mapa=320
+Terreno=-1
+X1=33
+Y1=42
+X2=35
+Y2=50
+Segura=1
+MagiaSinEfecto=1
+InviSinEfecto=0
+TieneNpcInvocacion=0
+ResuSinEfecto=0
+Niebla=0
+NieblaR=0
+NieblaG=0
+NieblaB=0
+Restringir=No
+Musica=0
+OcultarNombre=1
+Musica1=1

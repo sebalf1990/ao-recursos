@@ -1,129 +1,123 @@
 [INIT]
-NumEscudos=102
+NumEscudos=139
 
-[ESC1]
-Std=1
-FileNum=2326
+[ESC1] 'Libre
 
-[ESC2]
+[ESC2] 'Nunca usar !!
 
-
-[ESC3]
-Std=1
-FileNum=2326
+[ESC3] 'Libre
 
 [ESC4]
-Std=1
-FileNum=2325
+Std=5
+FileNum=2102
 
 [ESC5]
-Std=1
-FileNum=2324
+Std=4
+FileNum=2102
 
 [ESC6]
-Std=1
-FileNum=2330
+Std=10
+FileNum=2102
 
 [ESC7]
-Std=1
-FileNum=2328
+Std=8
+FileNum=2102
 
 [ESC8]
-Std=1
-FileNum=2323
+Std=3
+FileNum=2102
 
 [ESC9]
-Std=1
-FileNum=2322
+Std=3
+FileNum=2103
 
 [ESC10]
-Std=2
-FileNum=2313
+Std=10
+FileNum=2101
 
 [ESC11]
-Std=1
-FileNum=2320
+Std=15
+FileNum=2101
 
 [ESC12]
-Std=2
-FileNum=2314
+Std=12
+FileNum=2101
 
 [ESC13]
 Std=2
 FileNum=2318
 
 [ESC14]
-Std=1
-FileNum=2317
+Std=13
+FileNum=2100
 
 [ESC15]
-Std=1
-FileNum=2329
+Std=9
+FileNum=2102
 
 [ESC16]
-Std=1
-FileNum=2316
+Std=12
+FileNum=2100
 
 [ESC17]
-Std=1
-FileNum=2315
+Std=13
+FileNum=2101
 
 [ESC18]
-Std=1
-FileNum=2314
+Std=11
+FileNum=2101
 
 [ESC19]
-Std=1
-FileNum=2313
+Std=9
+FileNum=2101
 
 [ESC20]
-Std=1
-FileNum=2312
+Std=11
+FileNum=2100
 
 [ESC21]
-Std=1
+Std=10
 FileNum=2311
 
 [ESC22]
-Std=1
-FileNum=2310
+Std=7
+FileNum=2101
 
 [ESC23]
-Std=1
-FileNum=2309
+Std=9
+FileNum=2100
 
 [ESC24]
-Std=2
-FileNum=2315
+Std=14
+FileNum=2101
 
 [ESC25]
-Std=1
-FileNum=2318
+Std=14
+FileNum=2100
 
 [ESC26]
-Std=1
-FileNum=2319
+Std=15
+FileNum=2100
 
 [ESC27]
-Std=2
-FileNum=2320
+Std=16
+FileNum=2101
 
 [ESC28]
-Std=1
-FileNum=2321
+Std=2
+FileNum=2102
 
 [ESC29]
 Std=1
 FileNum=2322
 
 [ESC30]
-Std=1
-FileNum=2327
+Std=7
+FileNum=2102
 
 [ESC31]
-Std=1
-FileNum=2304
-
+Std=5
+FileNum=2100
 
 [ESC32]
 Std=1
@@ -131,23 +125,23 @@ FileNum=2371
 
 [ESC33]
 Std=1
-FileNum=2372
+FileNum=2141
 
 [ESC34]
-Std=1
-FileNum=2373
+Std=2
+FileNum=2141
 
 [ESC35]
 Std=1
-FileNum=2374
-
-[ESC36]
-Std=1
 FileNum=2303
 
+[ESC36]
+Std=4
+FileNum=2100
+
 [ESC37]
-Std=1
-FileNum=2375
+Std=14
+FileNum=2103
 
 [ESC38]
 Std=1
@@ -158,20 +152,20 @@ Std=1
 FileNum=2377
 
 [ESC40]
-Std=1
-FileNum=2378
+Std=6
+FileNum=2104
 
 [ESC41]
-Std=1
-FileNum=2379
+Std=9
+FileNum=2104
 
 [ESC42]
-Std=1
-FileNum=2370
+Std=2
+FileNum=2104
 
 [ESC43]
 Std=1
-FileNum=2369
+FileNum=2104
 
 [ESC44]
 Std=1
@@ -186,221 +180,218 @@ Std=1
 FileNum=2366
 
 [ESC47]
-Std=1
-FileNum=2365
+Std=16
+FileNum=2104
 
 [ESC48]
-Std=1
-FileNum=2364
+Std=15
+FileNum=2104
 
 [ESC49]
-Std=1
-FileNum=2363
+Std=14
+FileNum=2104
 
 [ESC50]
-Std=1
-FileNum=2362
+Std=13
+FileNum=2104
 
 [ESC51]
-Std=1
-FileNum=2361
+Std=12
+FileNum=2104
 
 [ESC52]
-Std=1
-FileNum=2360
+Std=11
+FileNum=2104
 
 [ESC53]
 Std=1
-FileNum=2359
+FileNum=2344
 
 [ESC54]
-Std=1
-FileNum=2358
+Std=10
+FileNum=2104
 
 [ESC55]
-Std=1
-FileNum=2357
+Std=8
+FileNum=2104
 
 [ESC56]
-Std=1
-FileNum=2356
+Std=7
+FileNum=2104
 
-[ESC57]
-Std=1
-FileNum=2355
+[ESC57] 'Libre
+FileNum=2104
+Std=6
 
 [ESC58]
-Std=1
-FileNum=2354
+Std=5
+FileNum=2104
 
 [ESC59]
-Std=1
-FileNum=2353
+Std=9
+FileNum=2103
 
 [ESC60]
-Std=1
-FileNum=2352
+Std=3
+FileNum=2104
 
 [ESC61]
-Std=1
-FileNum=2351
+Std=4
+FileNum=2104
 
-[ESC62]
-Std=1
-FileNum=2350
+[ESC62] 'Libre
+FileNum=2102
+Std=2
 
 [ESC63]
 Std=1
-FileNum=2349
+FileNum=2102
 
 [ESC64]
-Std=1
-FileNum=2348
+Std=13
+FileNum=2103
 
 [ESC65]
-Std=1
-FileNum=2347
+Std=12
+FileNum=2103
 
 [ESC66]
-Std=1
-FileNum=2346
+Std=11
+FileNum=2103
 
 [ESC67]
-
-Std=1
-FileNum=2344
+Std=9
+FileNum=2103
 
 [ESC68]
-Std=1
-FileNum=2345
+Std=10
+FileNum=2103
 
 [ESC69]
-Std=1
-FileNum=2343
+Std=8
+FileNum=2103
 
 [ESC70]
-Std=1
-FileNum=2342
+Std=6
+FileNum=2102
 
 [ESC71]
-Std=1
-FileNum=2341
+Std=6
+FileNum=2103
 
 [ESC72]
-Std=1
-FileNum=2340
+Std=5
+FileNum=2103
 
 [ESC73]
-Std=1
-FileNum=2339
+Std=4
+FileNum=2103
 
 [ESC74]
 Std=1
-FileNum=2338
+FileNum=2300
 
 [ESC75]
-Std=1
-FileNum=2337
+Std=2
+FileNum=2103
 
 [ESC76]
 Std=1
-FileNum=2336
+FileNum=2103
 
 [ESC77]
-Std=1
-FileNum=2335
+Std=16
+FileNum=2102
 
 [ESC78]
-Std=1
-FileNum=2334
+Std=15
+FileNum=2102
 
 [ESC79]
-Std=1
-FileNum=2333
+Std=14
+FileNum=2102
 
 [ESC80]
-Std=1
-FileNum=2332
+Std=13
+FileNum=2102
 
 [ESC81]
-Std=1
-FileNum=2331
+Std=12
+FileNum=2102
 
 [ESC82]
 Std=1
-FileNum=2300
+FileNum=2101
 
 [ESC83]
 Std=2
-FileNum=2300
+FileNum=2101
 
 [ESC84]
-Std=3
-FileNum=2300
+Std=5
+FileNum=2101
 
 [ESC85]
-Std=4
-FileNum=2300
+Std=6
+FileNum=2101
 
 [ESC86]
-Std=1
-FileNum=2301
+Std=2
+FileNum=2100
 
 [ESC87]
-Std=1
-FileNum=2302
+Std=3
+FileNum=2100
 
 [ESC88]
-Std=1
-FileNum=2306
+Std=7
+FileNum=2100
 
 [ESC89]
-Std=1
-FileNum=2307
+Std=16
+FileNum=2100
 
 [ESC90]
-Std=1
-FileNum=2308
+Std=8
+FileNum=2100
 
 [ESC91]
-Std=2
-FileNum=2330
+Std=11
+FileNum=2102
 
-[ESC92]
-Std=2
-FileNum=2380
+[ESC92] 'Libre
 
 [ESC93]
-Std=2
-FileNum=2310
+Std=8
+FileNum=2101
 
 [ESC94]
-Std=1
-FileNum=2381
+Std=16
+FileNum=2105
 
 [ESC95]
-Std=1
-FileNum=2382
+Std=16
+FileNum=2103
 
 [ESC96]
 Std=1
-FileNum=2383
+FileNum=2106
 
 [ESC97]
-Std=1
-FileNum=2384
+Std=15
+FileNum=2103
 
 [ESC98]
-Std=1
-FileNum=2388
+Std=2
+FileNum=2106
 
 [ESC99]
-Std=1
-FileNum=2141
+Std=3
+FileNum=2101
 
 [ESC100]
-Std=2
-FileNum=2141
+Std=4
+FileNum=2101
 
 [ESC101]
 Std=1
@@ -409,3 +400,151 @@ FileNum=2100
 [ESC102]
 Std=10
 FileNum=2140
+
+[ESC103]
+Std=6
+FileNum=2100
+
+[ESC104]
+Std=1
+FileNum=2105
+
+[ESC105]
+Std=2
+FileNum=2105
+
+[ESC106]
+Std=3
+FileNum=2105
+
+[ESC107]
+Std=4
+FileNum=2105
+
+[ESC108]
+Std=5
+FileNum=2105
+
+[ESC109]
+Std=6
+FileNum=2105
+
+[ESC110]
+Std=7
+FileNum=2105
+
+[ESC111]
+Std=8
+FileNum=2105
+
+[ESC112]
+Std=9
+FileNum=2105
+
+[ESC113]
+Std=10
+FileNum=2105
+
+[ESC114]
+Std=11
+FileNum=2105
+
+[ESC115]
+Std=12
+FileNum=2105
+
+[ESC116]
+Std=13
+FileNum=2105
+
+[ESC117]
+Std=14
+FileNum=2105
+
+[ESC118]
+Std=15
+FileNum=2105
+
+[ESC119]
+Std=3
+FileNum=2106
+
+[ESC120]
+Std=4
+FileNum=2106
+
+[ESC121]
+Std=5
+FileNum=2106
+
+[ESC122]
+Std=6
+FileNum=2106
+
+[ESC123]
+Std=7
+FileNum=2106
+
+[ESC124]
+Std=8
+FileNum=2106
+
+[ESC125]
+Std=9
+FileNum=2106
+
+[ESC126]
+Std=10
+FileNum=2106
+
+[ESC127]
+Std=11
+FileNum=2106
+
+[ESC128]
+Std=12
+FileNum=2106
+
+[ESC129]
+Std=13
+FileNum=2106
+
+[ESC130]
+Std=14
+FileNum=2106
+
+[ESC131]
+Std=15
+FileNum=2106
+
+[ESC132]
+Std=16
+FileNum=2106
+
+[ESC133]
+Std=1
+FileNum=2142
+
+[ESC134]
+Std=5
+FileNum=2142
+
+[ESC135]
+Std=1
+FileNum=2107
+
+[ESC136]
+Std=2
+FileNum=2107
+
+[ESC137]
+Std=3
+FileNum=2107
+
+[ESC138]
+Std=4
+FileNum=2107
+
+[ESC139]
+Std=10
+FileNum=2100

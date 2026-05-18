@@ -19,7 +19,7 @@
 '4.....Terreno
 
 [INIT]
-NumeroHechizos=293
+NumeroHechizos=295
 
 ' ===Hechizos de entrenamiento posta [1 A 10]
 
@@ -48,6 +48,7 @@ StaRequerido=2
 Target=3
 IconoIndex=35684
 ParticleViaje=186
+IsBindable=1
 
 [HECHIZO2]
 Nombre=Flecha Mágica
@@ -1004,7 +1005,7 @@ en_TargetMsg=casted Implosion on you.
 en_PropioMsg=You casted Implosion on yourself.
 TargetEffectType=2
 Tipo=1
-FXgrh=12834
+FXgrh=4
 SubeHP=2
 MinHP=120
 MaxHP=130
@@ -2456,7 +2457,7 @@ en_HechizeroMsg=You casted Implosion on
 en_TargetMsg=has casted Implosion on you.
 en_PropioMsg=Casted Implosion on yourself.
 Tipo=1
-FXgrh=12834
+FXgrh=4
 SubeHP=2
 MinHP=70
 MaxHP=100
@@ -3781,3 +3782,59 @@ Invoca=1
 NumNpc=1332
 Cant=1
 Nowiki=1
+
+[HECHIZO294]
+Nombre=Detectar el Mal
+Desc=Revela en el minimapa la posición de los NPCs hostiles del mapa durante 30 segundos.
+PalabrasMagicas=DTC MAL EN
+HechizeroMsg=Has detectado las presencias hostiles en
+TargetMsg=lanzó Detectar el Mal sobre vos.
+en_name=Detect Evil
+en_Desc=Reveals on the minimap the position of all hostile NPCs in the current map for 30 seconds.
+PalabrasMagicas=DTC MAL EN
+en_HechizeroMsg=You sense the hostile presences nearby
+en_TargetMsg=has casted Detect Evil on you
+TargetEffectType=1
+Tipo=2
+WAV=16
+FXgrh=15
+loops=0
+MinSkill=0
+ManaRequerido=10
+StaRequerido=2
+Target=1
+IconoIndex=35684
+ParticleViaje=186
+EOTID=61
+
+
+' === Hechizo 295: Detectar Personajes (configurable) ===
+[HECHIZO295]
+Nombre=Detectar Personajes
+Desc=Revela en el minimapa la posicion de los personajes del mapa segun la mascara configurada durante 30 segundos.
+PalabrasMagicas=DTC PERS EN
+HechizeroMsg=Has detectado las presencias en
+TargetMsg=lanzo Detectar Personajes sobre vos.
+en_name=Detect Players
+en_Desc=Reveals on the minimap the position of players in the current map (filtered by faction) for 30 seconds.
+en_HechizeroMsg=You sense the presences nearby
+en_TargetMsg=has casted Detect Players on you
+TargetEffectType=1
+Tipo=2
+WAV=16
+FXgrh=15
+loops=0
+MinSkill=0
+ManaRequerido=10
+StaRequerido=2
+Target=1
+AutoLanzar=1
+IconoIndex=35684
+ParticleViaje=186
+EOTID=62
+CoolDown=1
+' Categorias a revelar (0/1). Cambiar para crear variantes.
+DetectaCiuda=1
+DetectaCrimi=1
+DetectaImpe=1
+DetectaCaos=1

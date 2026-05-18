@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleMsg=489
+NumLocaleMsg=493
 [Msg]
 Msg1=[¬1] ha sido expulsado del clan ya que modificó su alineamiento.
 Msg2=(Clan) [¬1] ha ingresado al juego.
@@ -434,7 +434,7 @@ Msg431=Debes tener una espada equipada para realizar esta acción.Msg427=Debes t
 Msg432=Debes tener una hacha arrojadiza equipada para realizar esta acción.
 Msg433=Estamos a punto de zarpar, pero no podremos llevarte ya que no tienes pasaje. Por favor, cómprale al vendedor en la ciudad.
 Msg434=Estamos a punto de zarpar con destino a Nix, solo esperamos la orden del capitán.
-Msg435=Estamos a punto de zarpar con destino a Forgat, solo esperamos la orden del capitán.
+Msg435=Estamos a punto de zarpar con destino a Arghal, solo esperamos la orden del capitán.
 Msg436=Gracias por viajar con nosotros. Has llegado a la ciudad de Nix.
 Msg437=Gracias por viajar con nosotros. Has llegado a la ciudad de Forgat.
 Msg438=ATENCIÓN: No bajes del barco cuando llegue el capitán, zarparemos inmediatamente.
@@ -489,3 +489,7 @@ Msg486=Se llevaron de premio ¬1 mondedas de oro cada uno!!!.
 Msg487=El precio de la inscripcion de es de ¬1 monedas de oro por participante.
 Msg488=¬1 finalizado, ganadores:
 Msg489=Contraseña incorrecta.
+Msg490=Estamos a punto de zarpar con destino a Forgat, solo esperamos la orden del capitán.
+Msg491=Gracias por viajar con nosotros. Has llegado a la ciudad de Arghal.
+Msg492=La runa que intentas usar es invalida, por favor comunicarse con un gm o avisar a soporte
+Msg493=No puedes usar la runa estando dentro del Meson
