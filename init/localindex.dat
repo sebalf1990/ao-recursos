@@ -28687,6 +28687,20 @@ NAME=Elaine
 PT_DESC=Ajude -me, onde você conseguiu Guybrush!
 PT_NAME=Elaine
 
+[NPC1815]
+BODY=2247
+DESC=pesca
+EN_DESC=Come boy, this is your time to learn to master the power you carry within.. Cheer up!
+EN_NAME=Eza Talrê <Quest>
+FR_DESC=Venez un garçon, c'est votre temps pour apprendre à dominer la puissance que vous transportez à l'intérieur. Oser!
+FR_NAME=Eza Talra <Quest>
+HEAD=73
+IT_DESC=Vieni un ragazzo, questo è il tuo momento di imparare a dominare il potere che porti dentro. Osa!
+IT_NAME=Eza Talrê <Quest>
+NAME=quest pesca
+PT_DESC=Venha um garoto, esta é a sua hora de aprender a dominar o poder que você carrega para dentro. Ouse!
+PT_NAME=Eza talrê <miss>
+
 [OBJ1]
 EN_NAME=Red Apple
 EN_TEXTO=Restores 10 hunger points

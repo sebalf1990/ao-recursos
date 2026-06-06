@@ -1,10 +1,10 @@
 [INIT]
-NUMEROHECHIZO=294
-NUMLOCALEMSG=2177
+NUMEROHECHIZO=307
+NUMLOCALEMSG=2210
 NUMMAPAS=750
-NUMNPCS=1803
-NUMOBJS=6260
-NUMQUESTS=258
+NUMNPCS=1814
+NUMOBJS=6291
+NUMQUESTS=260
 NUMSUGERENCIAS=6
 
 [MODRAZA]
@@ -2154,6 +2154,17 @@ Msg2174=The underworld portals have been opened!
 Msg2175=You have gained ¬1 faction points for the death of ¬2.
 Msg2176=Insufficient Patreon credits to perform this action. Visit https://www.patreon.com/nolandstudios for more information.
 Msg2177=Your faction doesn't allow you to perform this action.
+Msg2200=You do not know this profession.
+Msg2201=You learned the ¬1 profession.
+Msg2202=You forgot the ¬1 profession.
+Msg2203=You have reached the maximum number of professions. Forget one before learning another.
+Msg2204=You reached the forget limit for this character. You can no longer forget or learn another profession.
+Msg2205=You cannot learn more professions: you already used all allowed forgets.
+Msg2206=You already know this profession.
+Msg2207=You cannot use this item without learning the required profession.
+Msg2208=You cannot assign points to a profession you have not learned.
+Msg2209=This master does not buy items.
+Msg2210=The Worker class is not available while learnable professions are enabled.
 
 [QUEST1]
 Nombre=Descansar en paz
@@ -14218,6 +14229,58 @@ MinSkill=0
 ManaRequerido=10
 StaRequerido=2
 IconoIndex=35684
+
+[HECHIZO295]
+Nombre=Detect Players
+Desc=Reveals players in the minimap (30s).
+
+[HECHIZO296]
+Nombre=Minor Poison Dart
+Desc=Poisons the target with Minor Poison. TOGGLE26.
+
+[HECHIZO297]
+Nombre=Hemotoxin Dart
+Desc=Applies Hemotoxin (1 stack). TOGGLE26.
+
+[HECHIZO298]
+Nombre=Neurotoxin Dart
+Desc=Applies Neurotoxin (debuff). TOGGLE26.
+
+[HECHIZO299]
+Nombre=Purification
+Desc=Cleanses all poisons. TOGGLE26.
+
+[HECHIZO300]
+Nombre=Envenom Weapon Minor Poison
+Desc=Coats poisonable weapon with Minor Poison.
+
+[HECHIZO301]
+Nombre=Envenom Weapon Hemotoxin
+Desc=Coats poisonable weapon with Hemotoxin.
+
+[HECHIZO302]
+Nombre=Envenom Weapon Neurotoxin
+Desc=Coats poisonable weapon with Neurotoxin.
+
+[HECHIZO303]
+Nombre=Cure Minor Poison
+Desc=Cures Minor Poison from target.
+
+[HECHIZO304]
+Nombre=Cure Hemotoxin
+Desc=Cures Hemotoxin from target.
+
+[HECHIZO305]
+Nombre=Cure Neurotoxin
+Desc=Cures Neurotoxin from target.
+
+[HECHIZO306]
+Nombre=Combined Antidote
+Desc=Cures all 3 poisons from target.
+
+[HECHIZO307]
+Nombre=Auto-Envenenar Neuro Test
+Desc=Self-cast Neurotoxina TEST.
 
 [OBJ1]
 Name=Manzana Roja
@@ -55687,6 +55750,13 @@ Objtype=24
 Texto=Revela NPCs hostiles en el minimapa (30s).
 texto=Reveals hostile NPCs on the minimap (30s).
 
+[OBJ6261]
+Name=Test Poison Dagger
+GrhIndex=49167
+Valor=1
+Objtype=2
+Texto=Test dagger for Minor Poison TOGGLE26
+
 [NP263]
 Name=Imperial Priest
 NpcType=2
@@ -55715,6 +55785,138 @@ Sp1=34
 Sp2=9
 RangoSpell=6
 NoWiki=1
+
+[NPC1804]
+Name=Test Viper
+Head=0
+Body=4194
+BodyIdle=4195
+Ataque1=4193
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+Desc=Test viper for Minor Poison (TOGGLE26).
+
+[NPC1805]
+Name=Test Scorpion
+Head=0
+Body=4335
+BodyIdle=4334
+Ataque1=4333
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+Desc=Test scorpion for Hemotoxin (TOGGLE26).
+
+[NPC1806]
+Name=Test Spider
+Head=0
+Body=4208
+BodyIdle=4207
+Ataque1=4206
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+Desc=Test spider for Neurotoxin (TOGGLE26).
+
+[NPC1807]
+Name=Test Spider Immune Minor
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: immune to Minor Poison (TOGGLE26).
+
+[NPC1808]
+Name=Test Spider Immune Hemo
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: immune to Hemotoxin (TOGGLE26).
+
+[NPC1809]
+Name=Test Spider Immune Neuro
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: immune to Neurotoxin (TOGGLE26).
+
+[NPC1810]
+Name=Test Spider Resist Minor
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: R50% chance + 3 flat + 50% pct vs Minor Poison (TOGGLE26).
+
+[NPC1811]
+Name=Test Spider Resist Hemo
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: R50% chance + 3 flat + 50% pct vs Hemotoxin (TOGGLE26).
+
+[NPC1812]
+Name=Test Spider Resist Neuro
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: R50% chance + reductions vs Neurotoxin (TOGGLE26).
+
+[NPC1813]
+Name=Test Spider Immune Generic
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: immune to any poison (TOGGLE26).
+
+[NPC1814]
+Name=Test Spider Resist Generic
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: R50% chance + 3 flat + 50% pct vs any poison (TOGGLE26).
 
 [QUEST10]
 Nombre=El Encargo de Seraphia
@@ -56658,6 +56860,144 @@ Sugerencia4=Did you know that with the /events command you can find out which ev
 Sugerencia5=Did you know you can disable the game's default cursor in Options?
 Sugerencia6=Did you know that to talk globally you just have to enter ";" before your message?
 
+[OBJ6262]
+Name=Test Antipoison Ring
+GrhIndex=49262
+Objtype=35
+Texto=R50% chance + 2-4 flat + 50% pct for Minor Poison (TOGGLE26)
+
+[OBJ6263]
+Name=Test Minor Immunity Amulet
+GrhIndex=49141
+Objtype=21
+Texto=Total immunity to Minor Poison (TOGGLE26)
+
+[OBJ6264]
+Name=Test Hemotoxin Dagger
+GrhIndex=49167
+Objtype=2
+Texto=Test dagger for Hemotoxin (TOGGLE26)
+
+[OBJ6265]
+Name=Test AntiHemo Ring
+GrhIndex=49267
+Objtype=35
+Texto=R50% chance + 2-4 flat + 50% pct for Hemotoxin (TOGGLE26)
+
+[OBJ6266]
+Name=Test Neurotoxin Dagger
+GrhIndex=49167
+Objtype=2
+Texto=Test dagger for Neurotoxin (TOGGLE26)
+
+[OBJ6267]
+Name=Test Universal Antipoison Potion
+GrhIndex=28750
+Objtype=11
+Texto=Cures any new poison (TOGGLE26). 10s cooldown.
+
+[OBJ6268]
+Name=Test Partial AntiHemo Potion
+GrhIndex=28750
+Objtype=11
+Texto=Reduces 2 Hemo stacks (TOGGLE26). 5s cooldown.
+
+[OBJ6269]
+Name=Test Poisonable Dagger
+GrhIndex=49167
+Objtype=2
+Texto=Poisonable weapon (accepts family-1 vial). TOGGLE26.
+
+[OBJ6270]
+Name=Test Minor Poison Vial
+GrhIndex=28750
+Objtype=11
+Texto=Coats poisonable weapon with Minor Poison. 10 charges, 60s max. TOGGLE26.
+
+[OBJ6271]
+Name=Scroll: Minor Poison Dart
+GrhIndex=55490
+Objtype=24
+Texto=Teaches Minor Poison Dart (TOGGLE26).
+
+[OBJ6272]
+Name=Scroll: Hemotoxin Dart
+GrhIndex=55490
+Objtype=24
+Texto=Teaches Hemotoxin Dart (TOGGLE26).
+
+[OBJ6273]
+Name=Scroll: Neurotoxin Dart
+GrhIndex=55490
+Objtype=24
+Texto=Teaches Neurotoxin Dart (TOGGLE26).
+
+[OBJ6274]
+Name=Scroll: Purification
+GrhIndex=55490
+Objtype=24
+Texto=Teaches Purification (TOGGLE26).
+
+[OBJ6275]
+Name=Test Hemotoxin Vial
+GrhIndex=28750
+Objtype=11
+Texto=Coats poisonable weapon with Hemotoxin. 10 charges, 60s max. TOGGLE26.
+
+[OBJ6276]
+Name=Test Neurotoxin Vial
+GrhIndex=28750
+Objtype=11
+Texto=Coats poisonable weapon with Neurotoxin. 10 charges, 60s max. TOGGLE26.
+
+[OBJ6277]
+Name=Scroll: Envenom Weapon Minor
+GrhIndex=55490
+Objtype=24
+Texto=Teaches Envenom Weapon - Minor Poison (TOGGLE26).
+
+[OBJ6278]
+Name=Scroll: Envenom Weapon Hemo
+GrhIndex=55490
+Objtype=24
+Texto=Teaches Envenom Weapon - Hemotoxin (TOGGLE26).
+
+[OBJ6279]
+Name=Scroll: Envenom Weapon Neuro
+GrhIndex=55490
+Objtype=24
+Texto=Teaches Envenom Weapon - Neurotoxin (TOGGLE26).
+
+[OBJ6280]
+Name=Scroll: Cure Minor Poison
+GrhIndex=55490
+Objtype=24
+Texto=Teaches Cure Minor Poison (TOGGLE26).
+
+[OBJ6281]
+Name=Scroll: Cure Hemotoxin
+GrhIndex=55490
+Objtype=24
+Texto=Teaches Cure Hemotoxin (TOGGLE26).
+
+[OBJ6282]
+Name=Scroll: Cure Neurotoxin
+GrhIndex=55490
+Objtype=24
+Texto=Teaches Cure Neurotoxin (TOGGLE26).
+
+[OBJ6283]
+Name=Scroll: Combined Antidote
+GrhIndex=55490
+Objtype=24
+Texto=Teaches Combined Antidote (TOGGLE26).
+
+[OBJ6284]
+Name=Pergamino: Auto-Envenenar Neuro Test
+GrhIndex=55490
+Objtype=24
+Texto=Aprende Auto-Envenenar Neuro Test (TOGGLE26).
+
 [OBJ4977]
 
 Name=Implosion
@@ -56672,3 +57012,132 @@ Texto=Advanced damage spell (120 to 130)
 
 
 
+
+[OBJ6285]
+Name=Test Minor Poison Arrow
+GrhIndex=752
+Objtype=32
+MinHIT=1
+MaxHIT=1
+Valor=1
+Texto=Test arrow with fixed Minor Poison. TOGGLE26.
+
+[OBJ6286]
+Name=Test Hemotoxin Arrow
+GrhIndex=752
+Objtype=32
+MinHIT=1
+MaxHIT=1
+Valor=1
+Texto=Test arrow with fixed Hemotoxin. TOGGLE26.
+
+[OBJ6287]
+Name=Test Neurotoxin Arrow
+GrhIndex=752
+Objtype=32
+MinHIT=1
+MaxHIT=1
+Valor=1
+Texto=Test arrow with fixed Neurotoxin. TOGGLE26.
+
+[OBJ5179]
+Name=Essence of Fire
+GrhIndex=49085
+ObjType=29
+Texto=Item needed to craft the Fire Rune
+Valor=0
+
+[OBJ5180]
+Name=Essence of Water
+GrhIndex=49084
+ObjType=29
+Texto=Item needed to craft the Water Rune
+Valor=0
+
+[OBJ5181]
+Name=Essence of Earth
+GrhIndex=49082
+ObjType=29
+Texto=Item needed to craft the Earth Rune
+Valor=0
+
+[OBJ5182]
+Name=Essence of Wind
+GrhIndex=49083
+ObjType=29
+Texto=Item needed to craft the Wind Rune
+Valor=0
+
+[OBJ6288]
+Name=Fire Rune
+GrhIndex=52015
+ObjType=55
+Texto=Enchant a weapon with Fire element. It cannot be removed.
+ElementalTags=1
+Blodium=5000
+FireEssence=1
+SkHerreria=100
+Valor=0
+
+[OBJ6289]
+Name=Water Rune
+GrhIndex=52017
+ObjType=55
+Texto=Enchant a weapon with Water element. It cannot be removed.
+ElementalTags=2
+Blodium=5000
+WaterEssence=1
+SkHerreria=100
+Valor=0
+
+[OBJ6290]
+Name=Earth Rune
+GrhIndex=52018
+ObjType=55
+Texto=Enchant a weapon with Earth element. It cannot be removed.
+ElementalTags=4
+Blodium=5000
+EarthEssence=1
+SkHerreria=100
+Valor=0
+
+[OBJ6291]
+Name=Wind Rune
+GrhIndex=52016
+ObjType=55
+Texto=Enchant a weapon with Wind element. It cannot be removed.
+ElementalTags=8
+Blodium=5000
+WindEssence=1
+SkHerreria=100
+Valor=0
+[OBJ6250]
+Name=Scroll: Plane Portal
+GrhIndex=55485
+Valor=200000
+Objtype=24
+Texto=Teaches the Plane Portal spell.
+[OBJ6240]
+Name=Phoenix Feather
+GrhIndex=52032
+Valor=1
+Objtype=29
+Texto=Unique feather dropped by the Phoenix. Exchange it with Bromdir in Morgrim.
+[OBJ6241]
+Name=Phoenix Egg
+GrhIndex=55442
+Valor=1
+Objtype=48
+Texto=Ancestral Phoenix skins chest.
+[OBJ6242]
+Name=Phoenix Wings
+GrhIndex=49303
+Valor=1
+Objtype=38
+Texto=Decorative Phoenix wings (backpack-style skin).
+[QUEST259]
+Nombre=Ashes of the First Fire
+Desc=Bring me 10 Phoenix Feathers and I will give you a Phoenix Egg.
+[QUEST260]
+Nombre=Wings of the Eternal Fire
+Desc=Gather 20 Phoenix Feathers and I will forge Phoenix Wings.

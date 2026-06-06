@@ -1,10 +1,10 @@
 [INIT]
-NUMEROHECHIZO=295
-NUMLOCALEMSG=2177
+NUMEROHECHIZO=307
+NUMLOCALEMSG=2210
 NUMMAPAS=750
-NUMNPCS=1803
-NUMOBJS=6260
-NUMQUESTS=258
+NUMNPCS=1816
+NUMOBJS=6291
+NUMQUESTS=260
 NUMSUGERENCIAS=6
 
 [MODRAZA]
@@ -10171,6 +10171,22 @@ BodyIdle=6010
 NpcType=0
 NoMapInfo=1
 
+[NPC1815]
+Name=quest pesca
+Desc=pesca
+Body=141
+Head=74
+NpcType=17
+PuedeInvocar=1
+
+[NPC1816]
+Name=Subastador
+Desc=Subastador de objetos.
+Body=141
+Head=74
+NpcType=16
+PuedeInvocar=1
+
 [HECHIZO1]
 Nombre=Dardo Mágico
 Desc=Causa 14 a 18 puntos de daño a la víctima.
@@ -11640,6 +11656,54 @@ ManaRequerido=10
 StaRequerido=2
 IconoIndex=35684
 
+
+[HECHIZO296]
+Nombre=Dardo de Veneno Menor
+Desc=Envenena al objetivo con Veneno Menor. TOGGLE26.
+
+[HECHIZO297]
+Nombre=Dardo de Hemotoxina
+Desc=Aplica Hemotoxina (1 stack). TOGGLE26.
+
+[HECHIZO298]
+Nombre=Dardo de Neurotoxina
+Desc=Aplica Neurotoxina (debuff). TOGGLE26.
+
+[HECHIZO299]
+Nombre=Purificacion
+Desc=Limpia todos los venenos del objetivo. TOGGLE26.
+
+[HECHIZO300]
+Nombre=Envenenar Arma con Veneno Menor
+Desc=Unta arma envenenable con Veneno Menor.
+
+[HECHIZO301]
+Nombre=Envenenar Arma con Hemotoxina
+Desc=Unta arma envenenable con Hemotoxina.
+
+[HECHIZO302]
+Nombre=Envenenar Arma con Neurotoxina
+Desc=Unta arma envenenable con Neurotoxina.
+
+[HECHIZO303]
+Nombre=Curar Veneno Menor
+Desc=Cura Veneno Menor del objetivo.
+
+[HECHIZO304]
+Nombre=Curar Hemotoxina
+Desc=Cura Hemotoxina del objetivo.
+
+[HECHIZO305]
+Nombre=Curar Neurotoxina
+Desc=Cura Neurotoxina del objetivo.
+
+[HECHIZO306]
+Nombre=Antidoto Combinado
+Desc=Cura los 3 venenos del objetivo.
+
+[HECHIZO307]
+Nombre=Auto-Envenenar Neuro Test
+Desc=Self-cast Neurotoxina TEST.
 
 [OBJ1]
 Name=Manzana Roja
@@ -50540,6 +50604,13 @@ Valor=50
 Objtype=24
 Texto=Revela NPCs hostiles en el minimapa (30s).
 
+[OBJ6261]
+Name=Daga Envenenada Test
+GrhIndex=49167
+Valor=1
+Objtype=2
+Texto=Daga de prueba Veneno Menor TOGGLE26
+
 [NP263]
 Name=Sacerdote Imperial
 NpcType=2
@@ -50568,6 +50639,138 @@ Sp1=34
 Sp2=9
 RangoSpell=6
 NoWiki=1
+
+[NPC1804]
+Name=Vibora Test
+Head=0
+Body=4194
+BodyIdle=4195
+Ataque1=4193
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+Desc=Vibora de prueba para Veneno Menor (TOGGLE26).
+
+[NPC1805]
+Name=Escorpion Test
+Head=0
+Body=4335
+BodyIdle=4334
+Ataque1=4333
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+Desc=Escorpion de prueba para Hemotoxina (TOGGLE26).
+
+[NPC1806]
+Name=Arana Test
+Head=0
+Body=4208
+BodyIdle=4207
+Ataque1=4206
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+Desc=Arana de prueba para Neurotoxina (TOGGLE26).
+
+[NPC1807]
+Name=Arana Test Inmune Menor
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: inmune a Veneno Menor (TOGGLE26).
+
+[NPC1808]
+Name=Arana Test Inmune Hemo
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: inmune a Hemotoxina (TOGGLE26).
+
+[NPC1809]
+Name=Arana Test Inmune Neuro
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: inmune a Neurotoxina (TOGGLE26).
+
+[NPC1810]
+Name=Arana Test Resist Menor
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: R50% chance + 3 flat + 50% pct para Veneno Menor (TOGGLE26).
+
+[NPC1811]
+Name=Arana Test Resist Hemo
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: R50% chance + 3 flat + 50% pct para Hemotoxina (TOGGLE26).
+
+[NPC1812]
+Name=Arana Test Resist Neuro
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: R50% chance + reducciones para Neurotoxina (TOGGLE26).
+
+[NPC1813]
+Name=Arana Test Inmune General
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: inmune a cualquier veneno (TOGGLE26).
+
+[NPC1814]
+Name=Arana Test Resist General
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: R50% chance + 3 flat + 50% pct vs cualquier veneno (TOGGLE26).
 
 [QUEST10]
 Nombre=El Encargo de Seraphia
@@ -53618,6 +53821,17 @@ Msg2174=¡Los portales del inframundo han sido abiertos!
 Msg2175=Has ganado ¬1 puntos de facción por la muerte de ¬2.
 Msg2176=Insuficientes creditos Patreon para realizar esta acción. Visita https://www.patreon.com/nolandstudios para más información.
 Msg2177=Tu facción no te permite realizar esta acción.
+Msg2200=No conoces esta profesion.
+Msg2201=Aprendiste la profesion de ¬1.
+Msg2202=Olvidaste la profesion de ¬1.
+Msg2203=Ya alcanzaste el maximo de profesiones. Olvida una para aprender otra.
+Msg2204=Alcanzaste el maximo de olvidos para este personaje. Ya no podes olvidar ni aprender otra profesion.
+Msg2205=No podes aprender mas profesiones: ya usaste todos los olvidos permitidos.
+Msg2206=Ya conoces esta profesion.
+Msg2207=No podes usar este item sin aprender la profesion requerida.
+Msg2208=No podes asignar puntos a una profesion que no aprendiste.
+Msg2209=Este maestro no compra items.
+Msg2210=La clase Trabajador no esta disponible con profesiones aprendibles activas.
 
 [SP_SUGERENCIAS]
 Sugerencia1=¿Sabías quepodes meditar simplemente tocandotu barra de maná. ¡Probalo!
@@ -53626,6 +53840,144 @@ Sugerencia3=¿Sabías que haciendo click al nombre de un usuario en consola pod�
 Sugerencia4=¿Sabías que con el comando /eventos podés informarte sobre cuál y cuando será el próximo? ¡Controlá tu tiempo!
 Sugerencia5=¿Sabías que podés deshabilitar el cursor predeterminado del juego en Opciones?
 Sugerencia6=¿Sabías qué para hablar por global solamente tenés que introducir ";" antes de tu mensaje?
+
+[OBJ6262]
+Name=Anillo Antiveneno Test
+GrhIndex=49262
+Objtype=35
+Texto=R50% chance + 2-4 flat + 50% pct para Veneno Menor (TOGGLE26)
+
+[OBJ6263]
+Name=Collar Inmunidad Menor Test
+GrhIndex=49141
+Objtype=21
+Texto=Inmunidad total a Veneno Menor (TOGGLE26)
+
+[OBJ6264]
+Name=Daga Hemotoxina Test
+GrhIndex=49167
+Objtype=2
+Texto=Daga de prueba Hemotoxina (TOGGLE26)
+
+[OBJ6265]
+Name=Anillo Antihemo Test
+GrhIndex=49267
+Objtype=35
+Texto=R50% chance + 2-4 flat + 50% pct para Hemotoxina (TOGGLE26)
+
+[OBJ6266]
+Name=Daga Neurotoxina Test
+GrhIndex=49167
+Objtype=2
+Texto=Daga de prueba Neurotoxina (TOGGLE26)
+
+[OBJ6267]
+Name=Pocion Antiveneno Universal Test
+GrhIndex=28750
+Objtype=11
+Texto=Cura cualquier veneno nuevo (TOGGLE26). Cooldown 10s.
+
+[OBJ6268]
+Name=Pocion AntiHemo Parcial Test
+GrhIndex=28750
+Objtype=11
+Texto=Reduce 2 stacks de Hemo (TOGGLE26). Cooldown 5s.
+
+[OBJ6269]
+Name=Daga Envenenable Test
+GrhIndex=49167
+Objtype=2
+Texto=Arma envenenable (acepta vial familia 1). TOGGLE26.
+
+[OBJ6270]
+Name=Vial Veneno Menor Test
+GrhIndex=28750
+Objtype=11
+Texto=Unta arma envenenable con Veneno Menor. 10 cargas, 60s max. TOGGLE26.
+
+[OBJ6271]
+Name=Pergamino: Dardo de Veneno Menor
+GrhIndex=55490
+Objtype=24
+Texto=Aprende Dardo de Veneno Menor (TOGGLE26).
+
+[OBJ6272]
+Name=Pergamino: Dardo de Hemotoxina
+GrhIndex=55490
+Objtype=24
+Texto=Aprende Dardo de Hemotoxina (TOGGLE26).
+
+[OBJ6273]
+Name=Pergamino: Dardo de Neurotoxina
+GrhIndex=55490
+Objtype=24
+Texto=Aprende Dardo de Neurotoxina (TOGGLE26).
+
+[OBJ6274]
+Name=Pergamino: Purificacion
+GrhIndex=55490
+Objtype=24
+Texto=Aprende Purificacion (TOGGLE26).
+
+[OBJ6275]
+Name=Vial Hemotoxina Test
+GrhIndex=28750
+Objtype=11
+Texto=Unta arma envenenable con Hemotoxina. 10 cargas, 60s max. TOGGLE26.
+
+[OBJ6276]
+Name=Vial Neurotoxina Test
+GrhIndex=28750
+Objtype=11
+Texto=Unta arma envenenable con Neurotoxina. 10 cargas, 60s max. TOGGLE26.
+
+[OBJ6277]
+Name=Pergamino: Envenenar Arma Menor
+GrhIndex=55490
+Objtype=24
+Texto=Aprende Envenenar Arma con Veneno Menor (TOGGLE26).
+
+[OBJ6278]
+Name=Pergamino: Envenenar Arma Hemo
+GrhIndex=55490
+Objtype=24
+Texto=Aprende Envenenar Arma con Hemotoxina (TOGGLE26).
+
+[OBJ6279]
+Name=Pergamino: Envenenar Arma Neuro
+GrhIndex=55490
+Objtype=24
+Texto=Aprende Envenenar Arma con Neurotoxina (TOGGLE26).
+
+[OBJ6280]
+Name=Pergamino: Curar Veneno Menor
+GrhIndex=55490
+Objtype=24
+Texto=Aprende Curar Veneno Menor (TOGGLE26).
+
+[OBJ6281]
+Name=Pergamino: Curar Hemotoxina
+GrhIndex=55490
+Objtype=24
+Texto=Aprende Curar Hemotoxina (TOGGLE26).
+
+[OBJ6282]
+Name=Pergamino: Curar Neurotoxina
+GrhIndex=55490
+Objtype=24
+Texto=Aprende Curar Neurotoxina (TOGGLE26).
+
+[OBJ6283]
+Name=Pergamino: Antidoto Combinado
+GrhIndex=55490
+Objtype=24
+Texto=Aprende Antidoto Combinado (TOGGLE26).
+
+[OBJ6284]
+Name=Pergamino: Auto-Envenenar Neuro Test
+GrhIndex=55490
+Objtype=24
+Texto=Aprende Auto-Envenenar Neuro Test (TOGGLE26).
 
 [OBJ4977]
 
@@ -53641,3 +53993,132 @@ Texto=Hechizo de da?o avanzado (120 a 130)
 
 
 
+
+[OBJ6285]
+Name=Flecha Veneno Menor Test
+GrhIndex=752
+Objtype=32
+MinHIT=1
+MaxHIT=1
+Valor=1
+Texto=Flecha de prueba con Veneno Menor fijo. TOGGLE26.
+
+[OBJ6286]
+Name=Flecha Hemotoxina Test
+GrhIndex=752
+Objtype=32
+MinHIT=1
+MaxHIT=1
+Valor=1
+Texto=Flecha de prueba con Hemotoxina fija. TOGGLE26.
+
+[OBJ6287]
+Name=Flecha Neurotoxina Test
+GrhIndex=752
+Objtype=32
+MinHIT=1
+MaxHIT=1
+Valor=1
+Texto=Flecha de prueba con Neurotoxina fija. TOGGLE26.
+
+[OBJ5179]
+Name=Esencia de Fuego
+GrhIndex=49085
+ObjType=29
+Texto=Elemento necesario para craftear la Runa de Fuego
+Valor=0
+
+[OBJ5180]
+Name=Esencia de Agua
+GrhIndex=49084
+ObjType=29
+Texto=Elemento necesario para craftear la Runa de Agua
+Valor=0
+
+[OBJ5181]
+Name=Esencia de Tierra
+GrhIndex=49082
+ObjType=29
+Texto=Elemento necesario para craftear la Runa de Tierra
+Valor=0
+
+[OBJ5182]
+Name=Esencia de Viento
+GrhIndex=49083
+ObjType=29
+Texto=Elemento necesario para craftear la Runa de Viento
+Valor=0
+
+[OBJ6288]
+Name=Runa de Fuego
+GrhIndex=52015
+ObjType=55
+Texto=Encanta un arma con elemento Fuego. No se puede remover.
+ElementalTags=1
+Blodium=5000
+FireEssence=1
+SkHerreria=100
+Valor=0
+
+[OBJ6289]
+Name=Runa de Agua
+GrhIndex=52017
+ObjType=55
+Texto=Encanta un arma con elemento Agua. No se puede remover.
+ElementalTags=2
+Blodium=5000
+WaterEssence=1
+SkHerreria=100
+Valor=0
+
+[OBJ6290]
+Name=Runa de Tierra
+GrhIndex=52018
+ObjType=55
+Texto=Encanta un arma con elemento Tierra. No se puede remover.
+ElementalTags=4
+Blodium=5000
+EarthEssence=1
+SkHerreria=100
+Valor=0
+
+[OBJ6291]
+Name=Runa de Viento
+GrhIndex=52016
+ObjType=55
+Texto=Encanta un arma con elemento Viento. No se puede remover.
+ElementalTags=8
+Blodium=5000
+WindEssence=1
+SkHerreria=100
+Valor=0
+[OBJ6250]
+Name=Pergamino: Portal Planar
+GrhIndex=55485
+Valor=200000
+Objtype=24
+Texto=Ensena el hechizo Portal Planar.
+[OBJ6240]
+Name=Pluma de Fenix
+GrhIndex=52032
+Valor=1
+Objtype=29
+Texto=Pluma unica que deja el Fenix. Canjeala con Bromdir en Morgrim.
+[OBJ6241]
+Name=Huevo de Fenix
+GrhIndex=55442
+Valor=1
+Objtype=48
+Texto=Cofre ancestral de skins del Fenix.
+[OBJ6242]
+Name=Alas de Fenix
+GrhIndex=49303
+Valor=1
+Objtype=38
+Texto=Alas decorativas de Fenix (skin tipo mochila).
+[QUEST259]
+Nombre=Cenizas del Primer Fuego
+Desc=Traeme 10 Plumas de Fenix y te dare un Huevo de Fenix.
+[QUEST260]
+Nombre=Las Alas del Fuego Eterno
+Desc=Reune 20 Plumas de Fenix y forjare unas Alas de Fenix.

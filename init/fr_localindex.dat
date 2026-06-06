@@ -1,10 +1,10 @@
 [INIT]
-NUMEROHECHIZO=294
-NUMLOCALEMSG=2177
+NUMEROHECHIZO=307
+NUMLOCALEMSG=2210
 NUMMAPAS=750
-NUMNPCS=1803
-NUMOBJS=6260
-NUMQUESTS=258
+NUMNPCS=1814
+NUMOBJS=6291
+NUMQUESTS=260
 NUMSUGERENCIAS=6
 
 [MODRAZA]
@@ -2154,6 +2154,17 @@ Msg2174=Les portails des enfers ont été ouverts!
 Msg2175=Vous avez gagné ¬1 points de faction pour la mort de ¬2.
 Msg2176=Crédits Patreon insuffisants pour effectuer cette action. Visitez https://www.patreon.com/nolandstudios pour plus d'informations.
 Msg2177=Votre faction ne vous permet pas d'effectuer cette action.
+Msg2200=Vous n'avez pas appris cette profession.
+Msg2201=Vous avez appris la profession ?1.
+Msg2202=Vous avez oublie la profession ?1.
+Msg2203=Vous connaissez deja 2 professions. Oubliez-en une avant d en apprendre une autre.
+Msg2204=Vous avez atteint la limite d oublis pour ce personnage. Vous ne pouvez plus oublier ni apprendre une autre profession.
+Msg2205=Vous ne pouvez plus apprendre de professions: vous avez deja utilise tous les oublis autorises.
+Msg2206=Vous connaissez deja cette profession.
+Msg2207=Vous ne pouvez pas utiliser cet objet sans apprendre la profession requise.
+Msg2208=Vous ne pouvez pas attribuer de points a une profession non apprise.
+Msg2209=Ce maitre n'achete pas d'objets.
+Msg2210=La classe Travailleur n est pas disponible lorsque les professions apprenables sont actives.
 
 [QUEST1]
 Nombre=Descansar en paz
@@ -13744,6 +13755,58 @@ MinSkill=0
 ManaRequerido=10
 StaRequerido=2
 IconoIndex=35684
+
+[HECHIZO295]
+Nombre=Detecter Personnages
+Desc=Revele les personnages sur la minimappe (30s).
+
+[HECHIZO296]
+Nombre=Dard de Poison Mineur
+Desc=Empoisonne la cible avec Poison Mineur. TOGGLE26.
+
+[HECHIZO297]
+Nombre=Dard d Hemotoxine
+Desc=Applique Hemotoxine (1 stack). TOGGLE26.
+
+[HECHIZO298]
+Nombre=Dard de Neurotoxine
+Desc=Applique Neurotoxine (debuff). TOGGLE26.
+
+[HECHIZO299]
+Nombre=Purification
+Desc=Nettoie tous les poisons. TOGGLE26.
+
+[HECHIZO300]
+Nombre=Empoisonner Arme Poison Mineur
+Desc=Enduit arme empoisonnable avec Poison Mineur.
+
+[HECHIZO301]
+Nombre=Empoisonner Arme Hemotoxine
+Desc=Enduit arme empoisonnable avec Hemotoxine.
+
+[HECHIZO302]
+Nombre=Empoisonner Arme Neurotoxine
+Desc=Enduit arme empoisonnable avec Neurotoxine.
+
+[HECHIZO303]
+Nombre=Soigner Poison Mineur
+Desc=Soigne Poison Mineur.
+
+[HECHIZO304]
+Nombre=Soigner Hemotoxine
+Desc=Soigne Hemotoxine.
+
+[HECHIZO305]
+Nombre=Soigner Neurotoxine
+Desc=Soigne Neurotoxine.
+
+[HECHIZO306]
+Nombre=Antidote Combine
+Desc=Soigne les 3 poisons.
+
+[HECHIZO307]
+Nombre=Auto-Envenenar Neuro Test
+Desc=Self-cast Neurotoxina TEST.
 
 [OBJ1]
 Name=Manzana Roja
@@ -52636,6 +52699,13 @@ Valor=50
 Objtype=24
 Texto=Revela NPCs hostiles en el minimapa (30s).
 
+[OBJ6261]
+Name=Dague Empoisonnee Test
+GrhIndex=49167
+Valor=1
+Objtype=2
+Texto=Daga de prueba Veneno Menor TOGGLE26
+
 [NP263]
 Name=Sacerdote Imperial
 NpcType=2
@@ -52664,6 +52734,138 @@ Sp1=34
 Sp2=9
 RangoSpell=6
 NoWiki=1
+
+[NPC1804]
+Name=Vipere Test
+Head=0
+Body=4194
+BodyIdle=4195
+Ataque1=4193
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+Desc=Vipere de test pour Poison Mineur (TOGGLE26).
+
+[NPC1805]
+Name=Scorpion Test
+Head=0
+Body=4335
+BodyIdle=4334
+Ataque1=4333
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+Desc=Scorpion de test pour Hemotoxine (TOGGLE26).
+
+[NPC1806]
+Name=Araignee Test
+Head=0
+Body=4208
+BodyIdle=4207
+Ataque1=4206
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+Desc=Araignee de test pour Neurotoxine (TOGGLE26).
+
+[NPC1807]
+Name=Araignee Test Immune Mineur
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: immune au Poison Mineur (TOGGLE26).
+
+[NPC1808]
+Name=Araignee Test Immune Hemo
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: immune a la Hemotoxine (TOGGLE26).
+
+[NPC1809]
+Name=Araignee Test Immune Neuro
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: immune a la Neurotoxine (TOGGLE26).
+
+[NPC1810]
+Name=Araignee Test Resist Mineur
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: R50% chance + 3 flat + 50% pct vs Poison Mineur (TOGGLE26).
+
+[NPC1811]
+Name=Araignee Test Resist Hemo
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: R50% chance + 3 flat + 50% pct vs Hemotoxine (TOGGLE26).
+
+[NPC1812]
+Name=Araignee Test Resist Neuro
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: R50% chance + reductions vs Neurotoxine (TOGGLE26).
+
+[NPC1813]
+Name=Araignee Test Immune Generique
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: immune a tout poison (TOGGLE26).
+
+[NPC1814]
+Name=Araignee Test Resist Generique
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: R50% chance + 3 flat + 50% pct vs tout poison (TOGGLE26).
 
 [QUEST10]
 Nombre=El Encargo de Seraphia
@@ -53607,6 +53809,144 @@ Sugerencia4=Saviez-vous qu’avec la commande /events, vous pouvez savoir quel �
 Sugerencia5=Saviez-vous que vous pouvez désactiver le curseur par défaut du jeu dans les Options ?
 Sugerencia6=Saviez-vous que pour parler globalement, il suffit de saisir « ; » avant votre message ?
 
+[OBJ6262]
+Name=Anneau Antipoison Test
+GrhIndex=49262
+Objtype=35
+Texto=R50% chance + 2-4 flat + 50% pct pour Poison Mineur (TOGGLE26)
+
+[OBJ6263]
+Name=Amulette Immunite Mineur Test
+GrhIndex=49141
+Objtype=21
+Texto=Immunite totale au Poison Mineur (TOGGLE26)
+
+[OBJ6264]
+Name=Dague Hemotoxine Test
+GrhIndex=49167
+Objtype=2
+Texto=Daga de prueba Hemotoxina (TOGGLE26)
+
+[OBJ6265]
+Name=Anneau AntiHemo Test
+GrhIndex=49267
+Objtype=35
+Texto=R50% chance + 2-4 flat + 50% pct pour Hemotoxine (TOGGLE26)
+
+[OBJ6266]
+Name=Dague Neurotoxine Test
+GrhIndex=49167
+Objtype=2
+Texto=Daga de prueba Neurotoxina (TOGGLE26)
+
+[OBJ6267]
+Name=Potion Antipoison Universelle Test
+GrhIndex=28750
+Objtype=11
+Texto=Soigne tout poison nouveau (TOGGLE26). Cooldown 10s.
+
+[OBJ6268]
+Name=Potion AntiHemo Partielle Test
+GrhIndex=28750
+Objtype=11
+Texto=Reduit 2 stacks Hemo (TOGGLE26). Cooldown 5s.
+
+[OBJ6269]
+Name=Dague Empoisonnable Test
+GrhIndex=49167
+Objtype=2
+Texto=Arme empoisonnable (accepte vial famille 1). TOGGLE26.
+
+[OBJ6270]
+Name=Fiole Poison Mineur Test
+GrhIndex=28750
+Objtype=11
+Texto=Enduit arme empoisonnable avec Poison Mineur. 10 charges, 60s max. TOGGLE26.
+
+[OBJ6271]
+Name=Parchemin: Dard de Poison Mineur
+GrhIndex=55490
+Objtype=24
+Texto=Apprend Dard de Poison Mineur (TOGGLE26).
+
+[OBJ6272]
+Name=Parchemin: Dard d Hemotoxine
+GrhIndex=55490
+Objtype=24
+Texto=Apprend Dard d Hemotoxine (TOGGLE26).
+
+[OBJ6273]
+Name=Parchemin: Dard de Neurotoxine
+GrhIndex=55490
+Objtype=24
+Texto=Apprend Dard de Neurotoxine (TOGGLE26).
+
+[OBJ6274]
+Name=Parchemin: Purification
+GrhIndex=55490
+Objtype=24
+Texto=Apprend Purification (TOGGLE26).
+
+[OBJ6275]
+Name=Fiole Hemotoxine Test
+GrhIndex=28750
+Objtype=11
+Texto=Enduit arme empoisonnable avec Hemotoxine. 10 charges, 60s max. TOGGLE26.
+
+[OBJ6276]
+Name=Fiole Neurotoxine Test
+GrhIndex=28750
+Objtype=11
+Texto=Enduit arme empoisonnable avec Neurotoxine. 10 charges, 60s max. TOGGLE26.
+
+[OBJ6277]
+Name=Parchemin: Empoisonner Arme Mineur
+GrhIndex=55490
+Objtype=24
+Texto=Apprend Empoisonner Arme - Poison Mineur (TOGGLE26).
+
+[OBJ6278]
+Name=Parchemin: Empoisonner Arme Hemo
+GrhIndex=55490
+Objtype=24
+Texto=Apprend Empoisonner Arme - Hemotoxine (TOGGLE26).
+
+[OBJ6279]
+Name=Parchemin: Empoisonner Arme Neuro
+GrhIndex=55490
+Objtype=24
+Texto=Apprend Empoisonner Arme - Neurotoxine (TOGGLE26).
+
+[OBJ6280]
+Name=Parchemin: Soigner Poison Mineur
+GrhIndex=55490
+Objtype=24
+Texto=Apprend Soigner Poison Mineur (TOGGLE26).
+
+[OBJ6281]
+Name=Parchemin: Soigner Hemotoxine
+GrhIndex=55490
+Objtype=24
+Texto=Apprend Soigner Hemotoxine (TOGGLE26).
+
+[OBJ6282]
+Name=Parchemin: Soigner Neurotoxine
+GrhIndex=55490
+Objtype=24
+Texto=Apprend Soigner Neurotoxine (TOGGLE26).
+
+[OBJ6283]
+Name=Parchemin: Antidote Combine
+GrhIndex=55490
+Objtype=24
+Texto=Apprend Antidote Combine (TOGGLE26).
+
+[OBJ6284]
+Name=Pergamino: Auto-Envenenar Neuro Test
+GrhIndex=55490
+Objtype=24
+Texto=Aprende Auto-Envenenar Neuro Test (TOGGLE26).
+
 [OBJ4977]
 
 Name=Implosion
@@ -53621,3 +53961,132 @@ Texto=Sort de d?g?ts avanc? (120 ? 130)
 
 
 
+
+[OBJ6285]
+Name=Fleche Poison Mineur Test
+GrhIndex=752
+Objtype=32
+MinHIT=1
+MaxHIT=1
+Valor=1
+Texto=Fleche de test avec Poison Mineur fixe. TOGGLE26.
+
+[OBJ6286]
+Name=Fleche Hemotoxine Test
+GrhIndex=752
+Objtype=32
+MinHIT=1
+MaxHIT=1
+Valor=1
+Texto=Fleche de test avec Hemotoxine fixe. TOGGLE26.
+
+[OBJ6287]
+Name=Fleche Neurotoxine Test
+GrhIndex=752
+Objtype=32
+MinHIT=1
+MaxHIT=1
+Valor=1
+Texto=Fleche de test avec Neurotoxine fixe. TOGGLE26.
+
+[OBJ5179]
+Name=Essence de Feu
+GrhIndex=49085
+ObjType=29
+Texto=Objet requis pour fabriquer la Rune de Feu
+Valor=0
+
+[OBJ5180]
+Name=Essence Eau
+GrhIndex=49084
+ObjType=29
+Texto=Objet requis pour fabriquer la Rune Eau
+Valor=0
+
+[OBJ5181]
+Name=Essence de Terre
+GrhIndex=49082
+ObjType=29
+Texto=Objet requis pour fabriquer la Rune de Terre
+Valor=0
+
+[OBJ5182]
+Name=Essence de Vent
+GrhIndex=49083
+ObjType=29
+Texto=Objet requis pour fabriquer la Rune de Vent
+Valor=0
+
+[OBJ6288]
+Name=Rune de Feu
+GrhIndex=52015
+ObjType=55
+Texto=Enchante une arme avec element Feu. Non amovible.
+ElementalTags=1
+Blodium=5000
+FireEssence=1
+SkHerreria=100
+Valor=0
+
+[OBJ6289]
+Name=Rune Eau
+GrhIndex=52017
+ObjType=55
+Texto=Enchante une arme avec element Eau. Non amovible.
+ElementalTags=2
+Blodium=5000
+WaterEssence=1
+SkHerreria=100
+Valor=0
+
+[OBJ6290]
+Name=Rune de Terre
+GrhIndex=52018
+ObjType=55
+Texto=Enchante une arme avec element Terre. Non amovible.
+ElementalTags=4
+Blodium=5000
+EarthEssence=1
+SkHerreria=100
+Valor=0
+
+[OBJ6291]
+Name=Rune de Vent
+GrhIndex=52016
+ObjType=55
+Texto=Enchante une arme avec element Vent. Non amovible.
+ElementalTags=8
+Blodium=5000
+WindEssence=1
+SkHerreria=100
+Valor=0
+[OBJ6250]
+Name=Parchemin: Portail Planaire
+GrhIndex=55485
+Valor=200000
+Objtype=24
+Texto=Apprend le sort Portail Planaire.
+[OBJ6240]
+Name=Plume de Phenix
+GrhIndex=52032
+Valor=1
+Objtype=29
+Texto=Plume unique laissee par le Phenix. Echange-la avec Bromdir a Morgrim.
+[OBJ6241]
+Name=Oeuf de Phenix
+GrhIndex=55442
+Valor=1
+Objtype=48
+Texto=Coffre ancestral de skins du Phenix.
+[OBJ6242]
+Name=Ailes de Phenix
+GrhIndex=49303
+Valor=1
+Objtype=38
+Texto=Ailes decoratives de Phenix (skin type sac a dos).
+[QUEST259]
+Nombre=Cendres du Premier Feu
+Desc=Apporte-moi 10 Plumes de Phenix et je te donnerai un Oeuf de Phenix.
+[QUEST260]
+Nombre=Les Ailes du Feu Eternel
+Desc=Rassemble 20 Plumes de Phenix et je forgerai des Ailes de Phenix.

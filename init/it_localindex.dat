@@ -1,10 +1,10 @@
 [INIT]
-NUMEROHECHIZO=294
-NUMLOCALEMSG=2177
+NUMEROHECHIZO=307
+NUMLOCALEMSG=2210
 NUMMAPAS=750
-NUMNPCS=1803
-NUMOBJS=6260
-NUMQUESTS=258
+NUMNPCS=1814
+NUMOBJS=6291
+NUMQUESTS=260
 NUMSUGERENCIAS=6
 
 [MODRAZA]
@@ -2154,6 +2154,17 @@ Msg2174=I portali degli inferi sono stati aperti!
 Msg2175=Hai guadagnato ¬1 punti fazione per la morte di ¬2.
 Msg2176=Crediti Patreon insufficienti per eseguire questa azione. Visita https://www.patreon.com/nolandstudios per ulteriori informazioni.
 Msg2177=La tua fazione non ti permette di eseguire questa azione.
+Msg2200=Non hai appreso questa professione.
+Msg2201=Hai appreso la professione ?1.
+Msg2202=Hai dimenticato la professione ?1.
+Msg2203=Conosci gia 2 professioni. Dimenticane una prima di impararne un altra.
+Msg2204=Hai raggiunto il limite di dimenticanze per questo personaggio. Non puoi piu dimenticare o imparare un altra professione.
+Msg2205=Non puoi imparare altre professioni: hai gia usato tutte le dimenticanze consentite.
+Msg2206=Conosci gia questa professione.
+Msg2207=Non puoi usare questo oggetto senza aver appreso la professione richiesta.
+Msg2208=Non puoi assegnare punti a una professione che non hai appreso.
+Msg2209=Questo maestro non compra oggetti.
+Msg2210=La classe Lavoratore non e disponibile con professioni apprendibili attive.
 
 [QUEST1]
 Nombre=Descansar en paz
@@ -13744,6 +13755,58 @@ MinSkill=0
 ManaRequerido=10
 StaRequerido=2
 IconoIndex=35684
+
+[HECHIZO295]
+Nombre=Rileva Personaggi
+Desc=Rivela personaggi sulla minimappa (30s).
+
+[HECHIZO296]
+Nombre=Dardo di Veleno Minore
+Desc=Avvelena il bersaglio con Veleno Minore. TOGGLE26.
+
+[HECHIZO297]
+Nombre=Dardo di Emotossina
+Desc=Applica Emotossina (1 stack). TOGGLE26.
+
+[HECHIZO298]
+Nombre=Dardo di Neurotossina
+Desc=Applica Neurotossina (debuff). TOGGLE26.
+
+[HECHIZO299]
+Nombre=Purificazione
+Desc=Pulisce tutti i veleni. TOGGLE26.
+
+[HECHIZO300]
+Nombre=Avvelena Arma Veleno Minore
+Desc=Unge arma avvelenabile con Veleno Minore.
+
+[HECHIZO301]
+Nombre=Avvelena Arma Emotossina
+Desc=Unge arma avvelenabile con Emotossina.
+
+[HECHIZO302]
+Nombre=Avvelena Arma Neurotossina
+Desc=Unge arma avvelenabile con Neurotossina.
+
+[HECHIZO303]
+Nombre=Cura Veleno Minore
+Desc=Cura Veleno Minore.
+
+[HECHIZO304]
+Nombre=Cura Emotossina
+Desc=Cura Emotossina.
+
+[HECHIZO305]
+Nombre=Cura Neurotossina
+Desc=Cura Neurotossina.
+
+[HECHIZO306]
+Nombre=Antidoto Combinato
+Desc=Cura tutti i 3 veleni.
+
+[HECHIZO307]
+Nombre=Auto-Envenenar Neuro Test
+Desc=Self-cast Neurotoxina TEST.
 
 [OBJ1]
 Name=Manzana Roja
@@ -52636,6 +52699,13 @@ Valor=50
 Objtype=24
 Texto=Revela NPCs hostiles en el minimapa (30s).
 
+[OBJ6261]
+Name=Pugnale Avvelenato Test
+GrhIndex=49167
+Valor=1
+Objtype=2
+Texto=Daga de prueba Veneno Menor TOGGLE26
+
 [NP263]
 Name=Sacerdote Imperial
 NpcType=2
@@ -52664,6 +52734,138 @@ Sp1=34
 Sp2=9
 RangoSpell=6
 NoWiki=1
+
+[NPC1804]
+Name=Vipera Test
+Head=0
+Body=4194
+BodyIdle=4195
+Ataque1=4193
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+Desc=Vipera di test per Veleno Minore (TOGGLE26).
+
+[NPC1805]
+Name=Scorpione Test
+Head=0
+Body=4335
+BodyIdle=4334
+Ataque1=4333
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+Desc=Scorpione di test per Emotossina (TOGGLE26).
+
+[NPC1806]
+Name=Ragno Test
+Head=0
+Body=4208
+BodyIdle=4207
+Ataque1=4206
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+Desc=Ragno di test per Neurotossina (TOGGLE26).
+
+[NPC1807]
+Name=Ragno Test Immune Minore
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: immune al Veleno Minore (TOGGLE26).
+
+[NPC1808]
+Name=Ragno Test Immune Emo
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: immune all Emotossina (TOGGLE26).
+
+[NPC1809]
+Name=Ragno Test Immune Neuro
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: immune alla Neurotossina (TOGGLE26).
+
+[NPC1810]
+Name=Ragno Test Resist Minore
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: R50% chance + 3 flat + 50% pct per Veleno Minore (TOGGLE26).
+
+[NPC1811]
+Name=Ragno Test Resist Emo
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: R50% chance + 3 flat + 50% pct per Emotossina (TOGGLE26).
+
+[NPC1812]
+Name=Ragno Test Resist Neuro
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: R50% chance + riduzioni per Neurotossina (TOGGLE26).
+
+[NPC1813]
+Name=Ragno Test Immune Generico
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: immune a qualsiasi veleno (TOGGLE26).
+
+[NPC1814]
+Name=Ragno Test Resist Generico
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Attackable=1
+Hostile=1
+Desc=Test: R50% chance + 3 flat + 50% pct vs qualsiasi veleno (TOGGLE26).
 
 [QUEST10]
 Nombre=El Encargo de Seraphia
@@ -53607,6 +53809,144 @@ Sugerencia4=Sapevi che con il comando /events puoi scoprire quale evento e quand
 Sugerencia5=Sapevi che puoi disattivare il cursore predefinito del gioco nelle Opzioni?
 Sugerencia6=Sapevi che per parlare a livello globale basta inserire ";" prima del messaggio?
 
+[OBJ6262]
+Name=Anello Antiveleno Test
+GrhIndex=49262
+Objtype=35
+Texto=R50% chance + 2-4 flat + 50% pct per Veleno Minore (TOGGLE26)
+
+[OBJ6263]
+Name=Amuleto Immunita Minore Test
+GrhIndex=49141
+Objtype=21
+Texto=Immunita totale al Veleno Minore (TOGGLE26)
+
+[OBJ6264]
+Name=Pugnale Emotossina Test
+GrhIndex=49167
+Objtype=2
+Texto=Daga de prueba Hemotoxina (TOGGLE26)
+
+[OBJ6265]
+Name=Anello AntiEmo Test
+GrhIndex=49267
+Objtype=35
+Texto=R50% chance + 2-4 flat + 50% pct per Emotossina (TOGGLE26)
+
+[OBJ6266]
+Name=Pugnale Neurotossina Test
+GrhIndex=49167
+Objtype=2
+Texto=Daga de prueba Neurotoxina (TOGGLE26)
+
+[OBJ6267]
+Name=Pozione Antiveleno Universale Test
+GrhIndex=28750
+Objtype=11
+Texto=Cura ogni nuovo veleno (TOGGLE26). Cooldown 10s.
+
+[OBJ6268]
+Name=Pozione AntiEmo Parziale Test
+GrhIndex=28750
+Objtype=11
+Texto=Riduce 2 stack di Emo (TOGGLE26). Cooldown 5s.
+
+[OBJ6269]
+Name=Pugnale Avvelenabile Test
+GrhIndex=49167
+Objtype=2
+Texto=Arma avvelenabile (accetta vial famiglia 1). TOGGLE26.
+
+[OBJ6270]
+Name=Fialetta Veleno Minore Test
+GrhIndex=28750
+Objtype=11
+Texto=Unge arma avvelenabile con Veleno Minore. 10 cariche, 60s max. TOGGLE26.
+
+[OBJ6271]
+Name=Pergamena: Dardo di Veleno Minore
+GrhIndex=55490
+Objtype=24
+Texto=Insegna Dardo di Veleno Minore (TOGGLE26).
+
+[OBJ6272]
+Name=Pergamena: Dardo di Emotossina
+GrhIndex=55490
+Objtype=24
+Texto=Insegna Dardo di Emotossina (TOGGLE26).
+
+[OBJ6273]
+Name=Pergamena: Dardo di Neurotossina
+GrhIndex=55490
+Objtype=24
+Texto=Insegna Dardo di Neurotossina (TOGGLE26).
+
+[OBJ6274]
+Name=Pergamena: Purificazione
+GrhIndex=55490
+Objtype=24
+Texto=Insegna Purificazione (TOGGLE26).
+
+[OBJ6275]
+Name=Fialetta Emotossina Test
+GrhIndex=28750
+Objtype=11
+Texto=Unge arma avvelenabile con Emotossina. 10 cariche, 60s max. TOGGLE26.
+
+[OBJ6276]
+Name=Fialetta Neurotossina Test
+GrhIndex=28750
+Objtype=11
+Texto=Unge arma avvelenabile con Neurotossina. 10 cariche, 60s max. TOGGLE26.
+
+[OBJ6277]
+Name=Pergamena: Avvelena Arma Minore
+GrhIndex=55490
+Objtype=24
+Texto=Insegna Avvelena Arma - Veleno Minore (TOGGLE26).
+
+[OBJ6278]
+Name=Pergamena: Avvelena Arma Emo
+GrhIndex=55490
+Objtype=24
+Texto=Insegna Avvelena Arma - Emotossina (TOGGLE26).
+
+[OBJ6279]
+Name=Pergamena: Avvelena Arma Neuro
+GrhIndex=55490
+Objtype=24
+Texto=Insegna Avvelena Arma - Neurotossina (TOGGLE26).
+
+[OBJ6280]
+Name=Pergamena: Cura Veleno Minore
+GrhIndex=55490
+Objtype=24
+Texto=Insegna Cura Veleno Minore (TOGGLE26).
+
+[OBJ6281]
+Name=Pergamena: Cura Emotossina
+GrhIndex=55490
+Objtype=24
+Texto=Insegna Cura Emotossina (TOGGLE26).
+
+[OBJ6282]
+Name=Pergamena: Cura Neurotossina
+GrhIndex=55490
+Objtype=24
+Texto=Insegna Cura Neurotossina (TOGGLE26).
+
+[OBJ6283]
+Name=Pergamena: Antidoto Combinato
+GrhIndex=55490
+Objtype=24
+Texto=Insegna Antidoto Combinato (TOGGLE26).
+
+[OBJ6284]
+Name=Pergamino: Auto-Envenenar Neuro Test
+GrhIndex=55490
+Objtype=24
+Texto=Aprende Auto-Envenenar Neuro Test (TOGGLE26).
+
 [OBJ4977]
 
 Name=Implosione
@@ -53621,3 +53961,132 @@ Texto=Incantesimo di danno avanzato (120 a 130)
 
 
 
+
+[OBJ6285]
+Name=Freccia Veleno Minore Test
+GrhIndex=752
+Objtype=32
+MinHIT=1
+MaxHIT=1
+Valor=1
+Texto=Freccia di test con Veleno Minore fisso. TOGGLE26.
+
+[OBJ6286]
+Name=Freccia Emotossina Test
+GrhIndex=752
+Objtype=32
+MinHIT=1
+MaxHIT=1
+Valor=1
+Texto=Freccia di test con Emotossina fissa. TOGGLE26.
+
+[OBJ6287]
+Name=Freccia Neurotossina Test
+GrhIndex=752
+Objtype=32
+MinHIT=1
+MaxHIT=1
+Valor=1
+Texto=Freccia di test con Neurotossina fissa. TOGGLE26.
+
+[OBJ5179]
+Name=Essenza di Fuoco
+GrhIndex=49085
+ObjType=29
+Texto=Oggetto necessario per creare la Runa di Fuoco
+Valor=0
+
+[OBJ5180]
+Name=Essenza di Acqua
+GrhIndex=49084
+ObjType=29
+Texto=Oggetto necessario per creare la Runa di Acqua
+Valor=0
+
+[OBJ5181]
+Name=Essenza di Terra
+GrhIndex=49082
+ObjType=29
+Texto=Oggetto necessario per creare la Runa di Terra
+Valor=0
+
+[OBJ5182]
+Name=Essenza di Vento
+GrhIndex=49083
+ObjType=29
+Texto=Oggetto necessario per creare la Runa di Vento
+Valor=0
+
+[OBJ6288]
+Name=Runa di Fuoco
+GrhIndex=52015
+ObjType=55
+Texto=Incanta un arma con elemento Fuoco. Non rimovibile.
+ElementalTags=1
+Blodium=5000
+FireEssence=1
+SkHerreria=100
+Valor=0
+
+[OBJ6289]
+Name=Runa di Acqua
+GrhIndex=52017
+ObjType=55
+Texto=Incanta un arma con elemento Acqua. Non rimovibile.
+ElementalTags=2
+Blodium=5000
+WaterEssence=1
+SkHerreria=100
+Valor=0
+
+[OBJ6290]
+Name=Runa di Terra
+GrhIndex=52018
+ObjType=55
+Texto=Incanta un arma con elemento Terra. Non rimovibile.
+ElementalTags=4
+Blodium=5000
+EarthEssence=1
+SkHerreria=100
+Valor=0
+
+[OBJ6291]
+Name=Runa di Vento
+GrhIndex=52016
+ObjType=55
+Texto=Incanta un arma con elemento Vento. Non rimovibile.
+ElementalTags=8
+Blodium=5000
+WindEssence=1
+SkHerreria=100
+Valor=0
+[OBJ6250]
+Name=Pergamena: Portale Planare
+GrhIndex=55485
+Valor=200000
+Objtype=24
+Texto=Insegna l incantesimo Portale Planare.
+[OBJ6240]
+Name=Piuma di Fenice
+GrhIndex=52032
+Valor=1
+Objtype=29
+Texto=Piuma unica lasciata dalla Fenice. Scambiala con Bromdir a Morgrim.
+[OBJ6241]
+Name=Uovo di Fenice
+GrhIndex=55442
+Valor=1
+Objtype=48
+Texto=Forziere ancestrale di skin della Fenice.
+[OBJ6242]
+Name=Ali di Fenice
+GrhIndex=49303
+Valor=1
+Objtype=38
+Texto=Ali decorative di Fenice (skin tipo zaino).
+[QUEST259]
+Nombre=Ceneri del Primo Fuoco
+Desc=Portami 10 Piume di Fenice e ti daro un Uovo di Fenice.
+[QUEST260]
+Nombre=Le Ali del Fuoco Eterno
+Desc=Raccogli 20 Piume di Fenice e forgero delle Ali di Fenice.
