@@ -3,7 +3,7 @@
 'Reorganización Masiva.
 
 [INIT]
-NumNPCs=1803
+NumNPCs=1815
 
 'SPOTS LIBRES<<<<<<<<<<<<<<<<<<<<<<<<<<<#
 '16 al 23  		Comerciantes			#
@@ -9997,6 +9997,8 @@ MagicDef=10
 
 [NPC926] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Pixie de Tierra
+DropCount=1
+Drop1=5181-1000-1-1
 Body=5416
 Head=0
 BodyIdle=5414
@@ -10503,6 +10505,8 @@ MagicDef=0
 
 [NPC947] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Pixie de Fuego
+DropCount=1
+Drop1=5179-1000-1-1
 Body=5419
 Head=0
 BodyIdle=5417
@@ -10803,6 +10807,7 @@ MagicDef=0
 
 [NPC960]
 Name=Elemental Acuático
+ElementalTags=2
 En_Name=Water Elemental
 Head=0
 Heading=3
@@ -10828,6 +10833,7 @@ MagicDef=0
 
 [NPC961]
 Name=Elemental Terrestre
+ElementalTags=4
 En_Name=Earth Elemental
 Head=0
 Heading=3
@@ -10851,6 +10857,7 @@ MagicDef=0
 
 [NPC962]
 Name=Elemental de Fuego
+ElementalTags=1
 ShowName=0
 En_Name=Fire Elemental
 Head=0
@@ -10877,6 +10884,7 @@ MagicDef=0
 
 [NPC963]
 Name=Elemental de Viento
+ElementalTags=8
 ShowName=0
 En_Name=Wind Elemental
 Head=0
@@ -15751,6 +15759,7 @@ MagicDef=5
 
 [NPC1147] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Elemental de Viento Liberado
+ElementalTags=8
 Body=5497
 Head=0
 BodyIdle=5495
@@ -15803,6 +15812,7 @@ Alineacion=0
 
 [NPC1148] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Elemental de Fuego Liberado
+ElementalTags=1
 Body=5500
 Head=0
 BodyIdle=5498
@@ -17309,6 +17319,7 @@ MagicDef=0
 
 [NPC1226] 'Elemental que invoca el Devorador del inframundo
 Name=Elemental Infernal
+ElementalTags=1
 ShowName=0
 En_name=Infernal Elemental
 Head=0
@@ -21213,6 +21224,8 @@ Alineacion=0
 
 [NPC1362] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Pixie de Hielo
+DropCount=1
+Drop1=5180-1000-1-1
 Body=5391
 Head=0
 BodyIdle=5389
@@ -21576,6 +21589,9 @@ IntervaloRespawnMin=180
 
 [NPC1373]
 Name=Fenix
+DropCount=2
+Drop1=6240-1-1-1
+Drop2=6241-12-1-1
 ShowName=0
 Head=0
 Body=4174
@@ -22437,8 +22453,8 @@ Name=Maestro Carpintero <Carpinteria>
 En_Name=Master Carpenter <Carpinteria>
 ShowName=1
 Desc=Un maestro que ensena su profesion a cambio de oro.
-Head=0
-Body=4107
+Head=74
+Body=141
 Heading=3
 Movement=1
 Comercia=1
@@ -22459,8 +22475,8 @@ Name=Maestro Herrero <Herreria>
 En_Name=Master Blacksmith <Herreria>
 ShowName=1
 Desc=Un maestro que ensena su profesion a cambio de oro.
-Head=0
-Body=4107
+Head=74
+Body=141
 Heading=3
 Movement=1
 Comercia=1
@@ -22481,8 +22497,8 @@ Name=Maestro Sastre <Sastreria>
 En_Name=Master Tailor <Sastreria>
 ShowName=1
 Desc=Un maestro que ensena su profesion a cambio de oro.
-Head=0
-Body=4107
+Head=74
+Body=141
 Heading=3
 Movement=1
 Comercia=1
@@ -22503,8 +22519,8 @@ Name=Maestro Alquimista <Alquimia>
 En_Name=Master Alchemist <Alquimia>
 ShowName=1
 Desc=Un maestro que ensena su profesion a cambio de oro.
-Head=0
-Body=4107
+Head=74
+Body=141
 Heading=3
 Movement=1
 Comercia=1
@@ -22525,8 +22541,8 @@ Name=Maestro Pescador <Pesca>
 En_Name=Master Fisherman <Pesca>
 ShowName=1
 Desc=Un maestro que ensena su profesion a cambio de oro.
-Head=0
-Body=4107
+Head=74
+Body=141
 Heading=3
 Movement=1
 Comercia=1
@@ -22547,8 +22563,8 @@ Name=Maestro Lenador <Tala>
 En_Name=Master Woodcutter <Tala>
 ShowName=1
 Desc=Un maestro que ensena su profesion a cambio de oro.
-Head=0
-Body=4107
+Head=74
+Body=141
 Heading=3
 Movement=1
 Comercia=1
@@ -22569,8 +22585,8 @@ Name=Maestro Minero <Mineria>
 En_Name=Master Miner <Mineria>
 ShowName=1
 Desc=Un maestro que ensena su profesion a cambio de oro.
-Head=0
-Body=4107
+Head=74
+Body=141
 Heading=3
 Movement=1
 Comercia=1
@@ -23186,6 +23202,9 @@ Head=46
 NpcType=0
 ShowName=1
 Comercia=1
+NROITEMS=1
+Obj1=3791-1000
+TipoItems=4
 Heading=3
 Movement=1
 Attackable=0
@@ -23357,6 +23376,9 @@ ReSpawn=0
 
 [NPC21] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Bromdir <Quest>
+NumQuest=2
+QuestNumber1=259
+QuestNumber2=260
 Desc=¡El Fénix ha despertado nuevamente! Renace de sus cenizas cada cierto tiempo, tal como lo ha hecho desde antes de que Morgrim fuera tallada en la roca. Tráeme sus plumas, y yo forjaré para ti recompensas que solo el fuego eterno puede conceder.
 Body=531
 Head=329
@@ -23553,6 +23575,8 @@ ReSpawn=0
 ShowName=1
 [NPC817] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Pixie de Viento
+DropCount=1
+Drop1=5182-1000-1-1
 Body=5422
 Head=0
 BodyIdle=5420
@@ -26413,3 +26437,381 @@ ShowName=1
 '
 '
 '--- fin copia privada ---
+
+[NPC1804]'Vibora Test
+Name=Vibora Test
+ShowName=0
+en_Name=Test Viper
+Head=0
+BodyIdle=4195
+Body=4194
+Ataque1=4193
+Heading=3
+Movement=2
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=500
+MaxHP=500
+MaxHIT=5
+MinHIT=2
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=30
+PoderEvasion=10
+Humanoide=0
+NPCLVL=1
+PerfilVenenoAplica=Perfil_Vibora_Menor
+ChanceAplicarPct=100
+
+
+[NPC1805]'Escorpion Test
+Name=Escorpion Test
+ShowName=0
+en_Name=Test Scorpion
+Head=0
+BodyIdle=4334
+Body=4335
+Ataque1=4333
+Heading=3
+Movement=2
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=500
+MaxHP=500
+MaxHIT=5
+MinHIT=2
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=30
+PoderEvasion=10
+Humanoide=0
+NPCLVL=1
+PerfilVenenoAplica=Perfil_Escorpion_Hemo
+ChanceAplicarPct=100
+
+
+[NPC1806]'Arana Test
+Name=Arana Test
+ShowName=0
+en_Name=Test Spider
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=2
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=500
+MaxHP=500
+MaxHIT=1
+MinHIT=1
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=1
+PoderEvasion=1
+Humanoide=0
+NPCLVL=1
+PerfilVenenoAplica=Perfil_Arana_Neuro
+ChanceAplicarPct=100
+
+
+
+[NPC1807]'Arana Test (Inmune Menor)
+Name=Arana Test Inmune Menor
+ShowName=1
+en_Name=Test Spider Immune Minor
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=5000
+MaxHP=5000
+MaxHIT=0
+MinHIT=0
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=0
+PoderEvasion=0
+Humanoide=0
+NPCLVL=1
+InmunidadVenenoMenor=1
+
+
+[NPC1808]'Arana Test (Inmune Hemo)
+Name=Arana Test Inmune Hemo
+ShowName=1
+en_Name=Test Spider Immune Hemo
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=5000
+MaxHP=5000
+MaxHIT=0
+MinHIT=0
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=0
+PoderEvasion=0
+Humanoide=0
+NPCLVL=1
+InmunidadHemo=1
+
+
+[NPC1809]'Arana Test (Inmune Neuro)
+Name=Arana Test Inmune Neuro
+ShowName=1
+en_Name=Test Spider Immune Neuro
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=5000
+MaxHP=5000
+MaxHIT=0
+MinHIT=0
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=0
+PoderEvasion=0
+Humanoide=0
+NPCLVL=1
+InmunidadNeuro=1
+
+
+[NPC1810]'Arana Test (Resist Menor)
+Name=Arana Test Resist Menor
+ShowName=1
+en_Name=Test Spider Resist Minor
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=5000
+MaxHP=5000
+MaxHIT=0
+MinHIT=0
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=0
+PoderEvasion=0
+Humanoide=0
+NPCLVL=1
+ResistChanceVenenoMenorPct=50
+ResistDanoVenenoMenorFlat=3
+ResistDanoVenenoMenorPct=50
+
+
+[NPC1811]'Arana Test (Resist Hemo)
+Name=Arana Test Resist Hemo
+ShowName=1
+en_Name=Test Spider Resist Hemo
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=5000
+MaxHP=5000
+MaxHIT=0
+MinHIT=0
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=0
+PoderEvasion=0
+Humanoide=0
+NPCLVL=1
+ResistChanceHemoPct=50
+ResistDanoHemoFlat=3
+ResistDanoHemoPct=50
+
+
+[NPC1812]'Arana Test (Resist Neuro)
+Name=Arana Test Resist Neuro
+ShowName=1
+en_Name=Test Spider Resist Neuro
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=5000
+MaxHP=5000
+MaxHIT=0
+MinHIT=0
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=0
+PoderEvasion=0
+Humanoide=0
+NPCLVL=1
+ResistChanceNeuroPct=50
+ResistDanoNeuroFlat=3
+ResistDanoNeuroPct=50
+
+
+[NPC1813]'Arana Test (Inmune General)
+Name=Arana Test Inmune General
+ShowName=1
+en_Name=Test Spider Immune Generic
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=5000
+MaxHP=5000
+MaxHIT=0
+MinHIT=0
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=0
+PoderEvasion=0
+Humanoide=0
+NPCLVL=1
+InmunidadVenenoGenerica=1
+
+
+[NPC1814]'Arana Test (Resist General)
+Name=Arana Test Resist General
+ShowName=1
+en_Name=Test Spider Resist Generic
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=5000
+MaxHP=5000
+MaxHIT=0
+MinHIT=0
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=0
+PoderEvasion=0
+Humanoide=0
+NPCLVL=1
+ResistChanceVenenoGenericoPct=50
+ResistDanoVenenoGenericoFlat=3
+ResistDanoVenenoGenericoPct=50
+
+[NPC1815]
+Name=quest pesca
+NpcType=17
+Desc=pesca
+ShowName=1
+Head=74
+Heading=3
+Body=141
+Movement=1
+BackUp=0
+NumQuest=1
+QuestNumber1=84
+en_desc=Come boy this is your time to learn to master the power you carry within. Cheer up.
+[NPC1816]
+Name=Subastador
+NpcType=16
+Desc=Subastador de objetos.
+ShowName=1
+Head=74
+Heading=3
+Body=141
+Movement=1
+BackUp=0
+PuedeInvocar=1
+Minimap=1

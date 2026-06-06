@@ -1,5 +1,5 @@
 [INIT]
-NumLocalePT_Msg=2177
+NumLocalePT_Msg=2210
 
 [PT_MSG]
 Msg1=[¬1] foi expulso do clã ao modificar seu alinhamento.
@@ -2117,3 +2117,14 @@ Msg2174=Os portais do submundo foram abertos!
 Msg2175=Você ganhou ¬1 pontos de facção pela morte de ¬2.
 Msg2176=Créditos Patreon insuficientes para realizar esta ação. Visite https://www.patreon.com/nolandstudios para mais informações.
 Msg2177=Sua facção não permite que você execute esta ação.
+Msg2200=Voce nao aprendeu esta profissao.
+Msg2201=Voce aprendeu a profissao ?1.
+Msg2202=Voce esqueceu a profissao ?1.
+Msg2203=Voce ja conhece 2 profissoes. Esqueca uma antes de aprender outra.
+Msg2204=Voce atingiu o limite de esquecimentos deste personagem. Nao pode mais esquecer nem aprender outra profissao.
+Msg2205=Voce nao pode aprender mais profissoes: ja usou todos os esquecimentos permitidos.
+Msg2206=Voce ja conhece esta profissao.
+Msg2207=Voce nao pode usar este item sem aprender a profissao requerida.
+Msg2208=Voce nao pode atribuir pontos a uma profissao que nao aprendeu.
+Msg2209=Este mestre nao compra itens.
+Msg2210=A classe Trabalhador nao esta disponivel com profissoes aprendiveis ativas.

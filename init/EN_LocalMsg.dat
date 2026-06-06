@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleEN_Msg=2177
+NumLocaleEN_Msg=2210
 
 [EN_MSG]
 Msg1=[¬1] has been kicked out of the guild because they changed their alignment.
@@ -2117,3 +2117,14 @@ Msg2174=The underworld portals have been opened!
 Msg2175=You have gained ¬1 faction points for the death of ¬2.
 Msg2176=Insufficient Patreon credits to perform this action. Visit https://www.patreon.com/nolandstudios for more information.
 Msg2177=Your faction doesn't allow you to perform this action.
+Msg2200=You do not know this profession.
+Msg2201=You learned the ¬1 profession.
+Msg2202=You forgot the ¬1 profession.
+Msg2203=You have reached the maximum number of professions. Forget one before learning another.
+Msg2204=You reached the forget limit for this character. You can no longer forget or learn another profession.
+Msg2205=You cannot learn more professions: you already used all allowed forgets.
+Msg2206=You already know this profession.
+Msg2207=You cannot use this item without learning the required profession.
+Msg2208=You cannot assign points to a profession you have not learned.
+Msg2209=This master does not buy items.
+Msg2210=The Worker class is not available while learnable professions are enabled.

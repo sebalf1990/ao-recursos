@@ -1,5 +1,5 @@
 [INIT]
-NumBodies=6073
+NumBodies=6075
 [BODY1]
 Std=1
 FileNum=1005
@@ -32552,4 +32552,18 @@ FileNum=4229
 HeadOffsetX=0
 HeadOffsetY=-2
 Speed=0.5526
+
+[BODY6074]
+Std=1
+FileNum=0
+HeadOffsetX=0
+HeadOffsetY=-35
+
+
+[BODY6075]
+Std=1
+FileNum=0
+HeadOffsetX=0
+HeadOffsetY=-35
+
 

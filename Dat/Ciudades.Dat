@@ -116,18 +116,18 @@ EndY=42
 DestX=49
 DestY=62
 RequiredPassID=3791
-MAPA=790
+MAPA=289
 
 
 [ArghalDock]
-StartX=18
-StartY=64
-EndX=43
-EndY=70
-DestX=41
-DestY=50
+StartX=31
+StartY=46
+EndX=55
+EndY=52
+DestX=44
+DestY=73
 RequiredPassID=3791
-MAPA=151
+MAPA=420
 
 [BarcoNavegandoForgatNix]
 StartX=39
@@ -151,7 +151,7 @@ DestY=54
 DockX=53
 DockY=68
 RequiredPassID=3791
-MAPA=511
+MAPA=184
 
 [BarcoNavegandoArghalForgat]
 StartX=39
@@ -163,4 +163,4 @@ DestY=54
 DockX=53
 DockY=68
 RequiredPassID=3791
-MAPA=119
+MAPA=179

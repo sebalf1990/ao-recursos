@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleFR_Msg=2177
+NumLocaleFR_Msg=2210
 
 [FR_MSG]
 Msg1=[¬1] a été expulsé du clan car il modifiait son alignement.
@@ -2117,3 +2117,14 @@ Msg2174=Les portails des enfers ont été ouverts!
 Msg2175=Vous avez gagné ¬1 points de faction pour la mort de ¬2.
 Msg2176=Crédits Patreon insuffisants pour effectuer cette action. Visitez https://www.patreon.com/nolandstudios pour plus d'informations.
 Msg2177=Votre faction ne vous permet pas d'effectuer cette action.
+Msg2200=Vous n'avez pas appris cette profession.
+Msg2201=Vous avez appris la profession ?1.
+Msg2202=Vous avez oublie la profession ?1.
+Msg2203=Vous connaissez deja 2 professions. Oubliez-en une avant d en apprendre une autre.
+Msg2204=Vous avez atteint la limite d oublis pour ce personnage. Vous ne pouvez plus oublier ni apprendre une autre profession.
+Msg2205=Vous ne pouvez plus apprendre de professions: vous avez deja utilise tous les oublis autorises.
+Msg2206=Vous connaissez deja cette profession.
+Msg2207=Vous ne pouvez pas utiliser cet objet sans apprendre la profession requise.
+Msg2208=Vous ne pouvez pas attribuer de points a une profession non apprise.
+Msg2209=Ce maitre n'achete pas d'objets.
+Msg2210=La classe Travailleur n est pas disponible lorsque les professions apprenables sont actives.

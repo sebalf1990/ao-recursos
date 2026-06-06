@@ -57,7 +57,7 @@
 
 
 [INIT]
-EffectCount=62
+EffectCount=65
 
 [EOT1] 'regeneracion 3
 Type=1
@@ -826,3 +826,39 @@ Limit=1
 Override=1
 BuffType=5
 ClientEffectTypeId=0
+
+[EOT63] 'Veneno Menor - familia 1 - sistema nuevo (TOGGLE26)
+Type=20
+TickPowerMin=15
+TickPowerMax=15
+Ticks=10
+TickTime=2000
+Limit=4
+TickFX=32
+Override=1
+BuffType=2
+ClientEffectTypeId=43
+
+[EOT64] 'Veneno Hemotoxina - familia 2 - sistema nuevo (TOGGLE26)
+Type=21
+TickPowerMin=0
+TickPowerMax=3
+Ticks=10
+TickTime=2000
+Limit=4
+TickFX=32
+Override=1
+BuffType=2
+ClientEffectTypeId=44
+
+[EOT65] 'Veneno Neurotoxina - familia 3 - sistema nuevo (TOGGLE26)
+Type=22
+TickPowerMin=0
+TickPowerMax=0
+Ticks=10
+TickTime=2000
+Limit=4
+TickFX=32
+Override=1
+BuffType=2
+ClientEffectTypeId=45

@@ -7,3 +7,7 @@ Dat/AreasStats.ini
 /Mapas/.stversions
 OUTPUT/Configuracion.ini
 OUTPUT/Cuenta.ini
+
+# Backups sueltos: no van en el repo (ver docs/metodologia-y-filosofia.md)
+*.bak*
+*.pre_*

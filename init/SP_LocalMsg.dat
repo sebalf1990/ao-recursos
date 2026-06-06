@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleSP_Msg=2177
+NumLocaleSP_Msg=2210
 
 [SP_MSG]
 Msg1=[¬1] ha sido expulsado del clan ya que modificó su alineamiento.
@@ -2117,3 +2117,14 @@ Msg2174=¡Los portales del inframundo han sido abiertos!
 Msg2175=Has ganado ¬1 puntos de facción por la muerte de ¬2.
 Msg2176=Insuficientes creditos Patreon para realizar esta acción. Visita https://www.patreon.com/nolandstudios para más información.
 Msg2177=Tu facción no te permite realizar esta acción.
+Msg2200=No conoces esta profesion.
+Msg2201=Aprendiste la profesion de ¬1.
+Msg2202=Olvidaste la profesion de ¬1.
+Msg2203=Ya alcanzaste el maximo de profesiones. Olvida una para aprender otra.
+Msg2204=Alcanzaste el maximo de olvidos para este personaje. Ya no podes olvidar ni aprender otra profesion.
+Msg2205=No podes aprender mas profesiones: ya usaste todos los olvidos permitidos.
+Msg2206=Ya conoces esta profesion.
+Msg2207=No podes usar este item sin aprender la profesion requerida.
+Msg2208=No podes asignar puntos a una profesion que no aprendiste.
+Msg2209=Este maestro no compra items.
+Msg2210=La clase Trabajador no esta disponible con profesiones aprendibles activas.

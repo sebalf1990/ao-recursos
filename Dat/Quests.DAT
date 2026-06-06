@@ -1,5 +1,5 @@
 [INIT]
-NumQuests=258
+NumQuests=260
 
 '++++++++++++++> Aclaraciones <++++++++++++++
 '[QUEST*] se agrega el número libre posterior a la última quest creada
@@ -1296,7 +1296,7 @@ en_desc=The best royal bow available in this world.
 Nombre=Viejo lobo de mar
 Desc=Ando necesitando un suministro de anzuelos para mis clases de pesca con novatos pero desgraciadamente mi proveedor local se mudó a Nueva Esperanza. Los goblins suelen tener algunos de muy buena calidad ya que viven de roedores y pescados. Si me traes los suficientes puedo mejorar esa caña de pescar vieja que tienes y convertirla en algo realmente útil.
 DescFinal=Veo que tienes madera de pescador, podrías ser de gran utilidad para el gremio. si te interesa ve a hablar con mi hermano Ralph, podrás encontrarlo en los muelles de la ciudad la Banderbill.
-RequiredLevel=17
+RequiredLevel=1
 Repetible=1
 RequiredOBJs=2
 RequiredOBJ1=881-1
@@ -1304,6 +1304,7 @@ RequiredOBJ2=2159-20
 RewardOBJs=1
 RewardObj1=2121-1
 Trabajador=1
+RequiredProfession=18
 en_desc=I am in need of a supply of hooks for my fishing lessons with novices but unfortunately my local supplier moved to Nueva Esperanza. Goblins usually have some of very good quality since they live on rodents and fish. If you bring me enough I can improve that old fishing rod you have and turn it into something really useful.
 en_DescFinal=I see that you have fisherman's wood, you could be of great use to the guild. if you are interested go talk to my brother Ralph, you can find him on the docks of the city the Banderbill.
 
@@ -1634,6 +1635,7 @@ RewardOBJs=1
 RewardObj1=2133-1
 Repetible=1
 Trabajador=1
+RequiredProfession=18
 en_desc=So my brother has sent you, let's see..., let me see that rod!I see, it is of very good quality, but you will need something better than that to catch large fish. I offer you a deal!The fluids of the black spider that is in the drainage of the city provides an incredible resistance to the fishing lines. If you can get me a little I think I'll be able to make you a great cane.
 en_DescFinal=Take this cane you can tell the difference in a very short time. But be careful, catching large fish will not be easy.
 
@@ -1651,6 +1653,7 @@ RewardOBJs=1
 RewardObj1=2132-1
 Repetible=1
 Trabajador=1
+RequiredProfession=18
 en_desc=Come, I want to teach you something. This silver cane is a unique piece that has been passed down from generation to generation. I could give it to you if you fulfill a small order for me. A few days ago one of our fishing boats was attacked by pirates, we are all alive, but I have lost some very important family heirlooms for me. Hunt down those damn pirates, get them back, and I'll be indebted to you.
 en_DescFinal=You've made it! With this unique silver rod you will be the envy of every fisherman.
 
@@ -1665,6 +1668,7 @@ RequiredOBJ2=3537-1
 RewardOBJs=1
 RewardObj1=139-1
 Trabajador=1
+RequiredProfession=18
 en_desc=I see, you want to be part of our fishermen's guild. You'll need something better than that broken network for it. If you want I can improve it for you although I warn you that it will cost you a lot of money.
 
 [QUEST112]
@@ -2138,6 +2142,7 @@ RewardOBJs=1
 RewardObj1=3736-1   	'(Carro Principiante Pesca)
 Repetible=0
 Trabajador=1
+RequiredProfession=18
 RewardEXP=0
 RewardGLD=0
 en_desc=
@@ -2159,6 +2164,7 @@ Repetible=0
 RewardEXP=0
 RewardGLD=0
 Trabajador=1
+RequiredProfession=17
 en_desc=
 en_DescFinal=
 
@@ -2177,6 +2183,7 @@ Repetible=0
 RewardEXP=0
 RewardGLD=0
 Trabajador=1
+RequiredProfession=19
 en_desc=
 en_DescFinal=
 
@@ -2197,6 +2204,7 @@ RewardOBJs=1
 RewardObj1=3737-1     	'(Carro Reforzado Pescador)
 Repetible=0
 Trabajador=1
+RequiredProfession=18
 RewardEXP=0
 RewardGLD=0
 en_desc=
@@ -2222,6 +2230,7 @@ Repetible=0
 RewardEXP=0
 RewardGLD=0
 Trabajador=1
+RequiredProfession=17
 en_desc=
 en_DescFinal=
 
@@ -2243,6 +2252,7 @@ Repetible=0
 RewardEXP=0
 RewardGLD=0
 Trabajador=1
+RequiredProfession=19
 en_desc=
 en_DescFinal=
 
@@ -2270,6 +2280,7 @@ Repetible=0
 RewardEXP=0
 RewardGLD=0
 Trabajador=1
+RequiredProfession=18
 en_desc=
 en_DescFinal=
 
@@ -2291,6 +2302,7 @@ RewardOBJs=1
 RewardObj1=3735-1    	'(Carro Elite de Leñador)
 Repetible=0
 Trabajador=1
+RequiredProfession=17
 RewardEXP=0
 RewardGLD=0
 en_desc=
@@ -2315,6 +2327,7 @@ Repetible=0
 RewardEXP=0
 RewardGLD=0
 Trabajador=1
+RequiredProfession=19
 en_desc=
 en_DescFinal=
 
@@ -2413,6 +2426,7 @@ Repetible=1
 RewardEXP=0
 RewardGLD=0
 Trabajador=1
+RequiredProfession=17
 en_desc=
 en_DescFinal=
 
@@ -2429,6 +2443,7 @@ Repetible=1
 RewardEXP=0
 RewardGLD=0
 Trabajador=1
+RequiredProfession=17
 en_desc=
 en_DescFinal=
 
@@ -3069,3 +3084,25 @@ RewardOBJs=1
 RewardObj1=4327-1   'Receta de Energia
 en_Desc=To acquire the ability to create energy potions you will have to collect materials and eliminate certain creatures, talk to me again when you are done.
 en_DescFinal=Great job, here is your recipe, now you can create Energy Potions.
+
+[QUEST259]
+Nombre=Cenizas del Primer Fuego
+Desc=Traeme 10 Plumas de Fenix y te entregare un Huevo de Fenix, que guarda el poder ancestral de las llamas.
+DescFinal=Las cenizas guardan su poder. Aqui tienes tu Huevo de Fenix.
+RequiredLevel=1
+Repetible=1
+RequiredOBJs=1
+RequiredOBJ1=6240-10
+RewardOBJs=1
+RewardObj1=6241-1
+
+[QUEST260]
+Nombre=Las Alas del Fuego Eterno
+Desc=Reune 20 Plumas de Fenix y forjare para ti unas Alas de Fenix, simbolo del fuego eterno.
+DescFinal=El fuego eterno te acompana. Lleva con orgullo tus Alas de Fenix.
+RequiredLevel=1
+Repetible=0
+RequiredOBJs=1
+RequiredOBJ1=6240-20
+RewardOBJs=1
+RewardObj1=6242-1

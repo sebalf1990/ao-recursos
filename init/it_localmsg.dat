@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleIT_Msg=2177
+NumLocaleIT_Msg=2210
 
 [IT_MSG]
 Msg1=[¬1] è stato espulso dal clan mentre modificava il suo allineamento.
@@ -2117,3 +2117,14 @@ Msg2174=I portali degli inferi sono stati aperti!
 Msg2175=Hai guadagnato ¬1 punti fazione per la morte di ¬2.
 Msg2176=Crediti Patreon insufficienti per eseguire questa azione. Visita https://www.patreon.com/nolandstudios per ulteriori informazioni.
 Msg2177=La tua fazione non ti permette di eseguire questa azione.
+Msg2200=Non hai appreso questa professione.
+Msg2201=Hai appreso la professione ?1.
+Msg2202=Hai dimenticato la professione ?1.
+Msg2203=Conosci gia 2 professioni. Dimenticane una prima di impararne un altra.
+Msg2204=Hai raggiunto il limite di dimenticanze per questo personaggio. Non puoi piu dimenticare o imparare un altra professione.
+Msg2205=Non puoi imparare altre professioni: hai gia usato tutte le dimenticanze consentite.
+Msg2206=Conosci gia questa professione.
+Msg2207=Non puoi usare questo oggetto senza aver appreso la professione richiesta.
+Msg2208=Non puoi assegnare punti a una professione che non hai appreso.
+Msg2209=Questo maestro non compra oggetti.
+Msg2210=La classe Lavoratore non e disponibile con professioni apprendibili attive.
