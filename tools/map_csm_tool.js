@@ -168,8 +168,9 @@ function writeMapDat(data) {
     i32(data.extra2),
     writeString(data.salida),
     Buffer.from([data.lluvia, data.nieve, data.niebla]),
-    // VB6 UDT serialization leaves 8 trailing bytes after the string-bearing UDT.
-    Buffer.from([1, 0, 1, 0, 1, 0, 0, 0]),
+    // The server's t_MapDat (FileIO.bas) consumes exactly the fields above.
+    // Writing trailing bytes here shifts every later block and breaks NPC/OBJ
+    // loading server-side (fixed 2026-06-10, plan 10.003).
   ]);
 }
 
@@ -255,9 +256,9 @@ function parseMap(file) {
     lluvia: readU8(),
     nieve: readU8(),
     niebla: readU8(),
-    extra8: b.subarray(o, o + 8),
   };
-  o += 8;
+  // No trailing bytes: the server's t_MapDat ends at `niebla`. Official maps may
+  // carry trailing data after tile exits, which the server (and we) ignore.
 
   const blocked = [];
   for (let i = 0; i < header.blocked; i++) {
@@ -420,7 +421,9 @@ function validateMap(file, catalogs = null) {
   const npcs = catalogs?.npcs ?? parseNpcs();
   const grhIndex = catalogs?.grh ?? parseGrhIndex(path.join(INIT, "graficos.ind")).grhs;
   const parsed = parseMap(file);
-  if (parsed.bytesRead !== parsed.fileLength) throw new Error(`Parser consumed ${parsed.bytesRead}, file has ${parsed.fileLength}`);
+  // Official maps may have trailing data after the server-consumed blocks.
+  if (parsed.bytesRead > parsed.fileLength) throw new Error(`Parser consumed ${parsed.bytesRead}, file has ${parsed.fileLength}`);
+  if (parsed.bytesRead < parsed.fileLength) console.warn(`(info) ${path.basename(file)}: ${parsed.fileLength - parsed.bytesRead} trailing bytes ignored`);
 
   const layers = [parsed.layer1, parsed.layer2, parsed.layer3, parsed.layer4];
   for (const [layerIndex, layer] of layers.entries()) {
@@ -495,7 +498,7 @@ function main() {
     return printSummary({
       file: path.resolve(file),
       header: parsed.header,
-      mapDat: { ...parsed.mapDat, extra8: parsed.mapDat.extra8.toString("hex") },
+      mapDat: parsed.mapDat,
       bytesRead: parsed.bytesRead,
       fileLength: parsed.fileLength,
       waterTiles: parsed.waterTiles,
