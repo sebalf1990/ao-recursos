@@ -19,7 +19,7 @@
 '4.....Terreno
 
 [INIT]
-NumeroHechizos=307
+NumeroHechizos=412
 
 ' ===Hechizos de entrenamiento posta [1 A 10]
 
@@ -3811,7 +3811,7 @@ EOTID=61
 
 
 ' === Hechizo 295: Detectar Personajes (configurable) ===
-[HECHIZO295]
+[HECHIZO400]
 Nombre=Detectar Personajes
 Desc=Revela en el minimapa la posicion de los personajes del mapa segun la mascara configurada durante 30 segundos.
 PalabrasMagicas=DTC PERS EN
@@ -3841,7 +3841,7 @@ DetectaCrimi=1
 DetectaImpe=1
 DetectaCaos=1
 
-[HECHIZO296]
+[HECHIZO401]
 Nombre=Dardo de Veneno Menor
 Desc=Envenena al objetivo con Veneno Menor. TOGGLE26 test.
 PalabrasMagicas=DRD MEN
@@ -3874,7 +3874,7 @@ FactorPvP=1
 FactorPvE=1
 NoWiki=1
 
-[HECHIZO297]
+[HECHIZO402]
 Nombre=Dardo de Hemotoxina
 Desc=Aplica Hemotoxina al objetivo (1 stack inicial). TOGGLE26 test.
 PalabrasMagicas=DRD HEM
@@ -3914,7 +3914,7 @@ FactorPvP=1
 FactorPvE=1
 NoWiki=1
 
-[HECHIZO298]
+[HECHIZO403]
 Nombre=Dardo de Neurotoxina
 Desc=Aplica Neurotoxina al objetivo (debuff de combate). TOGGLE26 test.
 PalabrasMagicas=DRD NEU
@@ -3948,7 +3948,7 @@ FactorPvP=1
 FactorPvE=1
 NoWiki=1
 
-[HECHIZO299]
+[HECHIZO404]
 Nombre=Purificacion
 Desc=Limpia todos los venenos del objetivo. TOGGLE26.
 PalabrasMagicas=PUR VEN
@@ -3973,7 +3973,7 @@ IconoIndex=35684
 TipoHechizoVeneno=2
 NoWiki=1
 
-[HECHIZO300]
+[HECHIZO405]
 Nombre=Envenenar Arma con Veneno Menor
 Desc=Unta el arma envenenable del objetivo con Veneno Menor. 10 cargas, 60s max. TOGGLE26.
 PalabrasMagicas=UNT ARM MEN
@@ -4010,7 +4010,7 @@ FactorPvP=1
 FactorPvE=1
 NoWiki=1
 
-[HECHIZO301]
+[HECHIZO406]
 Nombre=Envenenar Arma con Hemotoxina
 Desc=Unta el arma envenenable del objetivo con Hemotoxina. 10 cargas, 60s max. TOGGLE26.
 PalabrasMagicas=UNT ARM HEM
@@ -4054,7 +4054,7 @@ FactorPvP=1
 FactorPvE=1
 NoWiki=1
 
-[HECHIZO302]
+[HECHIZO407]
 Nombre=Envenenar Arma con Neurotoxina
 Desc=Unta el arma envenenable del objetivo con Neurotoxina. 10 cargas, 60s max. TOGGLE26.
 PalabrasMagicas=UNT ARM NEU
@@ -4092,7 +4092,7 @@ FactorPvP=1
 FactorPvE=1
 NoWiki=1
 
-[HECHIZO303]
+[HECHIZO408]
 Nombre=Curar Veneno Menor
 Desc=Cura Veneno Menor del objetivo. TOGGLE26 test.
 PalabrasMagicas=CUR MEN
@@ -4115,7 +4115,7 @@ IconoIndex=32431
 CuraVenenoMenor=1
 NoWiki=1
 
-[HECHIZO304]
+[HECHIZO409]
 Nombre=Curar Hemotoxina
 Desc=Cura Hemotoxina del objetivo. TOGGLE26 test.
 PalabrasMagicas=CUR HEM
@@ -4138,7 +4138,7 @@ IconoIndex=32431
 CuraHemotoxina=1
 NoWiki=1
 
-[HECHIZO305]
+[HECHIZO410]
 Nombre=Curar Neurotoxina
 Desc=Cura Neurotoxina del objetivo. TOGGLE26 test.
 PalabrasMagicas=CUR NEU
@@ -4161,7 +4161,7 @@ IconoIndex=32431
 CuraNeurotoxina=1
 NoWiki=1
 
-[HECHIZO306]
+[HECHIZO411]
 Nombre=Antidoto Combinado
 Desc=Cura Veneno Menor, Hemotoxina y Neurotoxina del objetivo. TOGGLE26 test.
 PalabrasMagicas=ANT COM
@@ -4186,7 +4186,7 @@ CuraHemotoxina=1
 CuraNeurotoxina=1
 NoWiki=1
 
-[HECHIZO307]
+[HECHIZO412]
 Nombre=Auto-Envenenar Neuro Test
 Desc=Self-cast: te aplicas Neurotoxina. Solo para test TOGGLE26.
 PalabrasMagicas=AUTO NEU

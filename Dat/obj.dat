@@ -2,7 +2,7 @@
 
 
 [INIT]
-NumOBJs=6291
+NumOBJs=9013
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -78627,7 +78627,7 @@ Texto=Casco de Dragón Negro
 
 
 
-[OBJ4997]
+[OBJ9000]
 Name=Manual de Carpinteria
 GrhIndex=49210
 ObjType=1
@@ -78637,7 +78637,7 @@ Crucial=1
 Texto=Un manual que ensena los secretos de la profesion de Carpinteria.
 
 
-[OBJ5004]
+[OBJ9007]
 Name=Pocion de Olvido (Carpinteria)
 GrhIndex=28748
 ObjType=11
@@ -78647,7 +78647,7 @@ Crucial=1
 Texto=Bebe esta pocion para olvidar la profesion de Carpinteria.
 
 
-[OBJ4998]
+[OBJ9001]
 Name=Manual de Herreria
 GrhIndex=49210
 ObjType=1
@@ -78657,7 +78657,7 @@ Crucial=1
 Texto=Un manual que ensena los secretos de la profesion de Herreria.
 
 
-[OBJ5005]
+[OBJ9008]
 Name=Pocion de Olvido (Herreria)
 GrhIndex=28748
 ObjType=11
@@ -78667,7 +78667,7 @@ Crucial=1
 Texto=Bebe esta pocion para olvidar la profesion de Herreria.
 
 
-[OBJ4999]
+[OBJ9002]
 Name=Manual de Sastreria
 GrhIndex=49210
 ObjType=1
@@ -78677,7 +78677,7 @@ Crucial=1
 Texto=Un manual que ensena los secretos de la profesion de Sastreria.
 
 
-[OBJ5006]
+[OBJ9009]
 Name=Pocion de Olvido (Sastreria)
 GrhIndex=28748
 ObjType=11
@@ -78687,7 +78687,7 @@ Crucial=1
 Texto=Bebe esta pocion para olvidar la profesion de Sastreria.
 
 
-[OBJ5000]
+[OBJ9003]
 Name=Manual de Alquimia
 GrhIndex=49210
 ObjType=1
@@ -78697,7 +78697,7 @@ Crucial=1
 Texto=Un manual que ensena los secretos de la profesion de Alquimia.
 
 
-[OBJ5007]
+[OBJ9010]
 Name=Pocion de Olvido (Alquimia)
 GrhIndex=28748
 ObjType=11
@@ -78707,7 +78707,7 @@ Crucial=1
 Texto=Bebe esta pocion para olvidar la profesion de Alquimia.
 
 
-[OBJ5001]
+[OBJ9004]
 Name=Manual de Pesca
 GrhIndex=49210
 ObjType=1
@@ -78717,7 +78717,7 @@ Crucial=1
 Texto=Un manual que ensena los secretos de la profesion de Pesca.
 
 
-[OBJ5008]
+[OBJ9011]
 Name=Pocion de Olvido (Pesca)
 GrhIndex=28748
 ObjType=11
@@ -78727,7 +78727,7 @@ Crucial=1
 Texto=Bebe esta pocion para olvidar la profesion de Pesca.
 
 
-[OBJ5002]
+[OBJ9005]
 Name=Manual de Tala
 GrhIndex=49210
 ObjType=1
@@ -78737,7 +78737,7 @@ Crucial=1
 Texto=Un manual que ensena los secretos de la profesion de Tala.
 
 
-[OBJ5009]
+[OBJ9012]
 Name=Pocion de Olvido (Tala)
 GrhIndex=28748
 ObjType=11
@@ -78747,7 +78747,7 @@ Crucial=1
 Texto=Bebe esta pocion para olvidar la profesion de Tala.
 
 
-[OBJ5003]
+[OBJ9006]
 Name=Manual de Mineria
 GrhIndex=49210
 ObjType=1
@@ -78757,7 +78757,7 @@ Crucial=1
 Texto=Un manual que ensena los secretos de la profesion de Mineria.
 
 
-[OBJ5010]
+[OBJ9013]
 Name=Pocion de Olvido (Mineria)
 GrhIndex=28748
 ObjType=11
@@ -79926,7 +79926,7 @@ Name=Detectar Personajes
 GrhIndex=609
 Valor=50
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-HechizoIndex=295
+HechizoIndex=400
 CP1=GUERRERO
 CP2=CAZADOR
 CP3=TRABAJADOR
@@ -80250,7 +80250,7 @@ Valor=1
 Crucial=0
 Agarrable=0
 MinELV=1
-HechizoIndex=296
+HechizoIndex=401
 Objtype=24
 Texto=Aprende Dardo de Veneno Menor (TOGGLE26).
 en_Name=Scroll: Minor Poison Dart
@@ -80263,7 +80263,7 @@ Valor=1
 Crucial=0
 Agarrable=0
 MinELV=1
-HechizoIndex=297
+HechizoIndex=402
 Objtype=24
 Texto=Aprende Dardo de Hemotoxina (TOGGLE26).
 en_Name=Scroll: Hemotoxin Dart
@@ -80276,7 +80276,7 @@ Valor=1
 Crucial=0
 Agarrable=0
 MinELV=1
-HechizoIndex=298
+HechizoIndex=403
 Objtype=24
 Texto=Aprende Dardo de Neurotoxina (TOGGLE26).
 en_Name=Scroll: Neurotoxin Dart
@@ -80289,7 +80289,7 @@ Valor=1
 Crucial=0
 Agarrable=0
 MinELV=1
-HechizoIndex=299
+HechizoIndex=404
 Objtype=24
 Texto=Aprende Purificacion (TOGGLE26).
 en_Name=Scroll: Purification
@@ -80360,7 +80360,7 @@ Valor=1
 Crucial=0
 Agarrable=0
 MinELV=1
-HechizoIndex=300
+HechizoIndex=405
 Objtype=24
 Texto=Aprende Envenenar Arma con Veneno Menor (TOGGLE26).
 en_Name=Scroll: Envenom Weapon Minor
@@ -80373,7 +80373,7 @@ Valor=1
 Crucial=0
 Agarrable=0
 MinELV=1
-HechizoIndex=301
+HechizoIndex=406
 Objtype=24
 Texto=Aprende Envenenar Arma con Hemotoxina (TOGGLE26).
 en_Name=Scroll: Envenom Weapon Hemo
@@ -80386,7 +80386,7 @@ Valor=1
 Crucial=0
 Agarrable=0
 MinELV=1
-HechizoIndex=302
+HechizoIndex=407
 Objtype=24
 Texto=Aprende Envenenar Arma con Neurotoxina (TOGGLE26).
 en_Name=Scroll: Envenom Weapon Neuro
@@ -80399,7 +80399,7 @@ Valor=1
 Crucial=0
 Agarrable=0
 MinELV=1
-HechizoIndex=303
+HechizoIndex=408
 Objtype=24
 Texto=Aprende Curar Veneno Menor (TOGGLE26).
 en_Name=Scroll: Cure Minor Poison
@@ -80412,7 +80412,7 @@ Valor=1
 Crucial=0
 Agarrable=0
 MinELV=1
-HechizoIndex=304
+HechizoIndex=409
 Objtype=24
 Texto=Aprende Curar Hemotoxina (TOGGLE26).
 en_Name=Scroll: Cure Hemotoxin
@@ -80425,7 +80425,7 @@ Valor=1
 Crucial=0
 Agarrable=0
 MinELV=1
-HechizoIndex=305
+HechizoIndex=410
 Objtype=24
 Texto=Aprende Curar Neurotoxina (TOGGLE26).
 en_Name=Scroll: Cure Neurotoxin
@@ -80438,7 +80438,7 @@ Valor=1
 Crucial=0
 Agarrable=0
 MinELV=1
-HechizoIndex=306
+HechizoIndex=411
 Objtype=24
 Texto=Aprende Antidoto Combinado (TOGGLE26).
 en_Name=Scroll: Combined Antidote
@@ -80451,7 +80451,7 @@ Valor=1
 Crucial=0
 Agarrable=0
 MinELV=1
-HechizoIndex=307
+HechizoIndex=412
 Objtype=24
 Texto=Aprende Auto-Envenenar Neuro Test (TOGGLE26).
 en_Name=Scroll: Self-Neuro Test

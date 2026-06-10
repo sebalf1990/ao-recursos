@@ -3,7 +3,7 @@
 'Reorganización Masiva.
 
 [INIT]
-NumNPCs=1815
+NumNPCs=9006
 
 'SPOTS LIBRES<<<<<<<<<<<<<<<<<<<<<<<<<<<#
 '16 al 23  		Comerciantes			#
@@ -22448,7 +22448,7 @@ MagicResistance=25
 
 
 '--------------> Maestros de Profesion <--------------
-[NPC1405]
+[NPC9000]
 Name=Maestro Carpintero <Carpinteria>
 En_Name=Master Carpenter <Carpinteria>
 ShowName=1
@@ -22465,12 +22465,12 @@ RequireToggle=professions_learnable
 EsMaestroProfesion=1
 ProfesionEnsenada=21
 NROITEMS=2
-Obj1=4997-1000
-Obj2=5004-1000
+Obj1=9000-1000
+Obj2=9007-1000
 SoundOpen=700
 SoundClose=703
 
-[NPC1406]
+[NPC9001]
 Name=Maestro Herrero <Herreria>
 En_Name=Master Blacksmith <Herreria>
 ShowName=1
@@ -22487,12 +22487,12 @@ RequireToggle=professions_learnable
 EsMaestroProfesion=1
 ProfesionEnsenada=20
 NROITEMS=2
-Obj1=4998-1000
-Obj2=5005-1000
+Obj1=9001-1000
+Obj2=9008-1000
 SoundOpen=700
 SoundClose=703
 
-[NPC1407]
+[NPC9002]
 Name=Maestro Sastre <Sastreria>
 En_Name=Master Tailor <Sastreria>
 ShowName=1
@@ -22509,12 +22509,12 @@ RequireToggle=professions_learnable
 EsMaestroProfesion=1
 ProfesionEnsenada=23
 NROITEMS=2
-Obj1=4999-1000
-Obj2=5006-1000
+Obj1=9002-1000
+Obj2=9009-1000
 SoundOpen=700
 SoundClose=703
 
-[NPC1408]
+[NPC9003]
 Name=Maestro Alquimista <Alquimia>
 En_Name=Master Alchemist <Alquimia>
 ShowName=1
@@ -22531,12 +22531,12 @@ RequireToggle=professions_learnable
 EsMaestroProfesion=1
 ProfesionEnsenada=22
 NROITEMS=2
-Obj1=5000-1000
-Obj2=5007-1000
+Obj1=9003-1000
+Obj2=9010-1000
 SoundOpen=700
 SoundClose=703
 
-[NPC1409]
+[NPC9004]
 Name=Maestro Pescador <Pesca>
 En_Name=Master Fisherman <Pesca>
 ShowName=1
@@ -22553,12 +22553,12 @@ RequireToggle=professions_learnable
 EsMaestroProfesion=1
 ProfesionEnsenada=18
 NROITEMS=2
-Obj1=5001-1000
-Obj2=5008-1000
+Obj1=9004-1000
+Obj2=9011-1000
 SoundOpen=700
 SoundClose=703
 
-[NPC1410]
+[NPC9005]
 Name=Maestro Lenador <Tala>
 En_Name=Master Woodcutter <Tala>
 ShowName=1
@@ -22575,12 +22575,12 @@ RequireToggle=professions_learnable
 EsMaestroProfesion=1
 ProfesionEnsenada=17
 NROITEMS=2
-Obj1=5002-1000
-Obj2=5009-1000
+Obj1=9005-1000
+Obj2=9012-1000
 SoundOpen=700
 SoundClose=703
 
-[NPC1411]
+[NPC9006]
 Name=Maestro Minero <Mineria>
 En_Name=Master Miner <Mineria>
 ShowName=1
@@ -22597,8 +22597,8 @@ RequireToggle=professions_learnable
 EsMaestroProfesion=1
 ProfesionEnsenada=19
 NROITEMS=2
-Obj1=5003-1000
-Obj2=5010-1000
+Obj1=9006-1000
+Obj2=9013-1000
 SoundOpen=700
 SoundClose=703
 

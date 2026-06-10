@@ -1,9 +1,9 @@
 [INIT]
-NUMEROHECHIZO=307
+NUMEROHECHIZO=412
 NUMLOCALEMSG=2210
 NUMMAPAS=750
-NUMNPCS=1816
-NUMOBJS=6291
+NUMNPCS=9006
+NUMOBJS=9013
 NUMQUESTS=260
 NUMSUGERENCIAS=6
 
@@ -9577,7 +9577,7 @@ ORO=245
 MaxHIT=145
 MinHIT=120
 
-[NPC1405]
+[NPC9000]
 Name=Maestro Carpintero <Carpinteria>
 Desc=Un maestro que ensena su profesion a cambio de oro.
 Body=4107
@@ -9588,7 +9588,7 @@ NROITEMS=2
 Obj1=4997-1000
 Obj2=5004-1000
 
-[NPC1406]
+[NPC9001]
 Name=Maestro Herrero <Herreria>
 Desc=Un maestro que ensena su profesion a cambio de oro.
 Body=4107
@@ -9599,7 +9599,7 @@ NROITEMS=2
 Obj1=4998-1000
 Obj2=5005-1000
 
-[NPC1407]
+[NPC9002]
 Name=Maestro Sastre <Sastreria>
 Desc=Un maestro que ensena su profesion a cambio de oro.
 Body=4107
@@ -9610,7 +9610,7 @@ NROITEMS=2
 Obj1=4999-1000
 Obj2=5006-1000
 
-[NPC1408]
+[NPC9003]
 Name=Maestro Alquimista <Alquimia>
 Desc=Un maestro que ensena su profesion a cambio de oro.
 Body=4107
@@ -9621,7 +9621,7 @@ NROITEMS=2
 Obj1=5000-1000
 Obj2=5007-1000
 
-[NPC1409]
+[NPC9004]
 Name=Maestro Pescador <Pesca>
 Desc=Un maestro que ensena su profesion a cambio de oro.
 Body=4107
@@ -9632,7 +9632,7 @@ NROITEMS=2
 Obj1=5001-1000
 Obj2=5008-1000
 
-[NPC1410]
+[NPC9005]
 Name=Maestro Lenador <Tala>
 Desc=Un maestro que ensena su profesion a cambio de oro.
 Body=4107
@@ -9643,7 +9643,7 @@ NROITEMS=2
 Obj1=5002-1000
 Obj2=5009-1000
 
-[NPC1411]
+[NPC9006]
 Name=Maestro Minero <Mineria>
 Desc=Un maestro que ensena su profesion a cambio de oro.
 Body=4107
@@ -11645,7 +11645,7 @@ ManaRequerido=10
 StaRequerido=2
 IconoIndex=35684
 
-[HECHIZO295]
+[HECHIZO400]
 Nombre=Detectar Personajes
 Desc=Revela en el minimapa la posicion de los personajes del mapa segun la mascara configurada durante 30 segundos.
 PalabrasMagicas=DTC PERS EN
@@ -11657,51 +11657,51 @@ StaRequerido=2
 IconoIndex=35684
 
 
-[HECHIZO296]
+[HECHIZO401]
 Nombre=Dardo de Veneno Menor
 Desc=Envenena al objetivo con Veneno Menor. TOGGLE26.
 
-[HECHIZO297]
+[HECHIZO402]
 Nombre=Dardo de Hemotoxina
 Desc=Aplica Hemotoxina (1 stack). TOGGLE26.
 
-[HECHIZO298]
+[HECHIZO403]
 Nombre=Dardo de Neurotoxina
 Desc=Aplica Neurotoxina (debuff). TOGGLE26.
 
-[HECHIZO299]
+[HECHIZO404]
 Nombre=Purificacion
 Desc=Limpia todos los venenos del objetivo. TOGGLE26.
 
-[HECHIZO300]
+[HECHIZO405]
 Nombre=Envenenar Arma con Veneno Menor
 Desc=Unta arma envenenable con Veneno Menor.
 
-[HECHIZO301]
+[HECHIZO406]
 Nombre=Envenenar Arma con Hemotoxina
 Desc=Unta arma envenenable con Hemotoxina.
 
-[HECHIZO302]
+[HECHIZO407]
 Nombre=Envenenar Arma con Neurotoxina
 Desc=Unta arma envenenable con Neurotoxina.
 
-[HECHIZO303]
+[HECHIZO408]
 Nombre=Curar Veneno Menor
 Desc=Cura Veneno Menor del objetivo.
 
-[HECHIZO304]
+[HECHIZO409]
 Nombre=Curar Hemotoxina
 Desc=Cura Hemotoxina del objetivo.
 
-[HECHIZO305]
+[HECHIZO410]
 Nombre=Curar Neurotoxina
 Desc=Cura Neurotoxina del objetivo.
 
-[HECHIZO306]
+[HECHIZO411]
 Nombre=Antidoto Combinado
 Desc=Cura los 3 venenos del objetivo.
 
-[HECHIZO307]
+[HECHIZO412]
 Nombre=Auto-Envenenar Neuro Test
 Desc=Self-cast Neurotoxina TEST.
 
@@ -49848,98 +49848,98 @@ GrhIndex=11403
 ObjType=17
 Texto=Casco de Dragón Negro
 
-[OBJ4997]
+[OBJ9000]
 Name=Manual de Carpinteria
 GrhIndex=49210
 ObjType=1
 Valor=5000
 Texto=Un manual que ensena los secretos de la profesion de Carpinteria.
 
-[OBJ5004]
+[OBJ9007]
 Name=Pocion de Olvido (Carpinteria)
 GrhIndex=28748
 ObjType=11
 Valor=10000
 Texto=Bebe esta pocion para olvidar la profesion de Carpinteria.
 
-[OBJ4998]
+[OBJ9001]
 Name=Manual de Herreria
 GrhIndex=49210
 ObjType=1
 Valor=5000
 Texto=Un manual que ensena los secretos de la profesion de Herreria.
 
-[OBJ5005]
+[OBJ9008]
 Name=Pocion de Olvido (Herreria)
 GrhIndex=28748
 ObjType=11
 Valor=10000
 Texto=Bebe esta pocion para olvidar la profesion de Herreria.
 
-[OBJ4999]
+[OBJ9002]
 Name=Manual de Sastreria
 GrhIndex=49210
 ObjType=1
 Valor=5000
 Texto=Un manual que ensena los secretos de la profesion de Sastreria.
 
-[OBJ5006]
+[OBJ9009]
 Name=Pocion de Olvido (Sastreria)
 GrhIndex=28748
 ObjType=11
 Valor=10000
 Texto=Bebe esta pocion para olvidar la profesion de Sastreria.
 
-[OBJ5000]
+[OBJ9003]
 Name=Manual de Alquimia
 GrhIndex=49210
 ObjType=1
 Valor=5000
 Texto=Un manual que ensena los secretos de la profesion de Alquimia.
 
-[OBJ5007]
+[OBJ9010]
 Name=Pocion de Olvido (Alquimia)
 GrhIndex=28748
 ObjType=11
 Valor=10000
 Texto=Bebe esta pocion para olvidar la profesion de Alquimia.
 
-[OBJ5001]
+[OBJ9004]
 Name=Manual de Pesca
 GrhIndex=49210
 ObjType=1
 Valor=5000
 Texto=Un manual que ensena los secretos de la profesion de Pesca.
 
-[OBJ5008]
+[OBJ9011]
 Name=Pocion de Olvido (Pesca)
 GrhIndex=28748
 ObjType=11
 Valor=10000
 Texto=Bebe esta pocion para olvidar la profesion de Pesca.
 
-[OBJ5002]
+[OBJ9005]
 Name=Manual de Tala
 GrhIndex=49210
 ObjType=1
 Valor=5000
 Texto=Un manual que ensena los secretos de la profesion de Tala.
 
-[OBJ5009]
+[OBJ9012]
 Name=Pocion de Olvido (Tala)
 GrhIndex=28748
 ObjType=11
 Valor=10000
 Texto=Bebe esta pocion para olvidar la profesion de Tala.
 
-[OBJ5003]
+[OBJ9006]
 Name=Manual de Mineria
 GrhIndex=49210
 ObjType=1
 Valor=5000
 Texto=Un manual que ensena los secretos de la profesion de Mineria.
 
-[OBJ5010]
+[OBJ9013]
 Name=Pocion de Olvido (Mineria)
 GrhIndex=28748
 ObjType=11
