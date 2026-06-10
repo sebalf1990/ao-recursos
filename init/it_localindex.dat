@@ -2725,7 +2725,7 @@ Repetible=1
 Nombre=Viejo lobo de mar
 Desc=Ando necesitando un suministro de anzuelos para mis clases de pesca con novatos pero desgraciadamente mi proveedor local se mudó a Nueva Esperanza. Los goblins suelen tener algunos de muy buena calidad ya que viven de roedores y pescados. Si me traes los suficientes puedo mejorar esa caña de pescar vieja que tienes y convertirla en algo realmente útil.
 DescFinal=Veo que tienes madera de pescador, podrías ser de gran utilidad para el gremio. si te interesa ve a hablar con mi hermano Ralph, podrás encontrarlo en los muelles de la ciudad la Banderbill.
-RequiredLevel=17
+RequiredLevel=1
 Repetible=1
 
 [QUEST85]
@@ -3411,6 +3411,20 @@ Desc=Para adquirir la habilidad de crear pociones de ENERGIA tendrás que recole
 DescFinal=Estupendo trabajo, aquí tienes tu receta, ahora podrás crear Pociones de Energia.
 Repetible=0
 
+[QUEST259]
+Nombre=Cenizas del Primer Fuego
+Desc=Traeme 10 Plumas de Fenix y te entregare un Huevo de Fenix, que guarda el poder ancestral de las llamas.
+DescFinal=Las cenizas guardan su poder. Aqui tienes tu Huevo de Fenix.
+RequiredLevel=1
+Repetible=1
+
+[QUEST260]
+Nombre=Las Alas del Fuego Eterno
+Desc=Reune 20 Plumas de Fenix y forjare para ti unas Alas de Fenix, simbolo del fuego eterno.
+DescFinal=El fuego eterno te acompana. Lleva con orgullo tus Alas de Fenix.
+RequiredLevel=1
+Repetible=0
+
 [NPC1]
 Name=Juan <Sacerdote>
 Desc=¡Hola, hijo mio! Soy el Sacerdote de este pueblo. Si quieres ser resucitado, hazme click izquierdo y luego escribe /Resucitar
@@ -3579,6 +3593,8 @@ Body=281
 Head=46
 NpcType=0
 Comercia=1
+NROITEMS=1
+Obj1=3791-1000
 
 [NPC17]
 Name=Sacerdote Carcelario
@@ -6167,6 +6183,7 @@ BodyIdle=4087
 Ataque1=3078
 HP=100000
 Nivel=45
+Ataque2=3078
 EXP=100000
 MaxHIT=50
 MinHIT=65
@@ -11704,83 +11721,6 @@ ORO=245
 MaxHIT=145
 MinHIT=120
 
-[NPC9000]
-Name=Maestro Carpintero <Carpinteria>
-Desc=Un maestro que ensena su profesion a cambio de oro.
-Body=4107
-Head=0
-Comercia=1
-PuedeInvocar=1
-NROITEMS=2
-Obj1=4997-1000
-Obj2=5004-1000
-
-[NPC9001]
-Name=Maestro Herrero <Herreria>
-Desc=Un maestro que ensena su profesion a cambio de oro.
-Body=4107
-Head=0
-Comercia=1
-PuedeInvocar=1
-NROITEMS=2
-Obj1=4998-1000
-Obj2=5005-1000
-
-[NPC9002]
-Name=Maestro Sastre <Sastreria>
-Desc=Un maestro que ensena su profesion a cambio de oro.
-Body=4107
-Head=0
-Comercia=1
-PuedeInvocar=1
-NROITEMS=2
-Obj1=4999-1000
-Obj2=5006-1000
-
-[NPC9003]
-Name=Maestro Alquimista <Alquimia>
-Desc=Un maestro que ensena su profesion a cambio de oro.
-Body=4107
-Head=0
-Comercia=1
-PuedeInvocar=1
-NROITEMS=2
-Obj1=5000-1000
-Obj2=5007-1000
-
-[NPC9004]
-Name=Maestro Pescador <Pesca>
-Desc=Un maestro que ensena su profesion a cambio de oro.
-Body=4107
-Head=0
-Comercia=1
-PuedeInvocar=1
-NROITEMS=2
-Obj1=5001-1000
-Obj2=5008-1000
-
-[NPC9005]
-Name=Maestro Lenador <Tala>
-Desc=Un maestro que ensena su profesion a cambio de oro.
-Body=4107
-Head=0
-Comercia=1
-PuedeInvocar=1
-NROITEMS=2
-Obj1=5002-1000
-Obj2=5009-1000
-
-[NPC9006]
-Name=Maestro Minero <Mineria>
-Desc=Un maestro que ensena su profesion a cambio de oro.
-Body=4107
-Head=0
-Comercia=1
-PuedeInvocar=1
-NROITEMS=2
-Obj1=5003-1000
-Obj2=5010-1000
-
 [NPC1465]
 Name=Rondadora Ignea
 Body=5270
@@ -12298,6 +12238,175 @@ BodyIdle=6010
 NpcType=0
 NoMapInfo=1
 
+[NPC1804]
+Name=Vibora Test
+Body=4194
+Head=0
+BodyIdle=4195
+Ataque1=4193
+HP=500
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=5
+MinHIT=2
+NROITEMS=0
+
+[NPC1805]
+Name=Escorpion Test
+Body=4335
+Head=0
+BodyIdle=4334
+Ataque1=4333
+HP=500
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=5
+MinHIT=2
+NROITEMS=0
+
+[NPC1806]
+Name=Arana Test
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=500
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=1
+MinHIT=1
+NROITEMS=0
+
+[NPC1807]
+Name=Arana Test Inmune Menor
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC1808]
+Name=Arana Test Inmune Hemo
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC1809]
+Name=Arana Test Inmune Neuro
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC1810]
+Name=Arana Test Resist Menor
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC1811]
+Name=Arana Test Resist Hemo
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC1812]
+Name=Arana Test Resist Neuro
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC1813]
+Name=Arana Test Inmune General
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC1814]
+Name=Arana Test Resist General
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC1815]
+Name=quest pesca
+Desc=pesca
+Body=141
+Head=74
+NpcType=17
+
+[NPC1816]
+Name=Subastador
+Desc=Subastador de objetos.
+Body=141
+Head=74
+NpcType=16
+PuedeInvocar=1
+
 [HECHIZO1]
 Nombre=Dardo Mágico
 Desc=Causa 14 a 18 puntos de daño a la víctima.
@@ -12591,6 +12700,57 @@ ManaRequerido=300
 StaRequerido=44
 IconoIndex=35723
 
+[HECHIZO28]
+Nombre=Aturdir
+Desc=Impedisce all
+ManaRequerido=300
+MinSkill=60
+HechizeroMsg=Sei sbalordito a
+Cooldown=0
+IconoIndex=32417
+PalabrasMagicas=Är Stu
+PropioMsg=Sei sbalordito
+StaRequerido=75
+TargetMsg=Ti ha sbalordito.
+
+[HECHIZO29]
+Nombre=Devolver Movilidad
+Desc=Rimuovere la paralisi o l
+ManaRequerido=250
+MinSkill=45
+HechizeroMsg=Hai rimosso la paralisi a
+Cooldown=0
+IconoIndex=35723
+PalabrasMagicas=AN HOAX VORP
+PropioMsg=Hai rimosso la paralisi.
+StaRequerido=55
+TargetMsg=La paralisi è rimossa.
+
+[HECHIZO30]
+Nombre=Invisibilidad
+Desc=Diventa invisibile al bersaglio. Effetto non permanente.
+ManaRequerido=350
+MinSkill=87
+HechizeroMsg=Hai lanciato l
+Cooldown=0
+IconoIndex=35734
+PropioMsg=Sei diventato invisibile.
+StaRequerido=200
+TargetMsg=Ha lanciato l
+
+[HECHIZO31]
+Nombre=Curar Heridas Criticas
+Desc=Ripristina l
+ManaRequerido=75
+MinSkill=65
+HechizeroMsg=Hai curato criticamente
+Cooldown=0
+IconoIndex=32431
+PalabrasMagicas=MAX CORP SANCTIS
+PropioMsg=Hai guarito in modo critico.
+StaRequerido=55
+TargetMsg=Ti ha guarito in modo critico
+
 [HECHIZO32]
 Nombre=Incinerar
 Desc=Una llamarada incinerará al objetivo, causando un daño considerable rápidamente.
@@ -12602,6 +12762,105 @@ IconoIndex=32451
 MinSkill=100
 ManaRequerido=1500
 StaRequerido=300
+
+[HECHIZO33]
+Nombre=Invocar Esqueletos de Élite
+Desc=Invoca l
+ManaRequerido=450
+MinSkill=55
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=MoÎ Eli Cámus
+PropioMsg=Hai invocato scheletri
+StaRequerido=200
+
+[HECHIZO34]
+Nombre=Celeridad II
+Desc=Aumentare tra 3 e 7 punti l
+ManaRequerido=60
+MinSkill=75
+HechizeroMsg=Hai rilasciato la velocità
+Cooldown=0
+IconoIndex=35754
+PalabrasMagicas=YUP A INC
+PropioMsg=Hai rilasciato la velocità su di te.
+StaRequerido=45
+TargetMsg=Ha lanciato la velocità su di te.
+
+[HECHIZO35]
+Nombre=Fuerza II
+Desc=La forza del bersaglio aumenta tra 3 e 6 punti.
+ManaRequerido=55
+MinSkill=70
+HechizeroMsg=Hai rilasciato la forza
+Cooldown=0
+IconoIndex=32436
+PalabrasMagicas=Ar A kron
+PropioMsg=Hai rilasciato forza su di te.
+StaRequerido=40
+TargetMsg=Ha rilasciato forza su di te.
+
+[HECHIZO36]
+Nombre=Invocar Gorilas
+Desc=La natura ti aiuta! Tre gorilla forestali combatteranno per te.
+ManaRequerido=550
+MinSkill=63
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=Urku Banô Thar
+PropioMsg=Hai invocato i gorilla
+StaRequerido=215
+
+[HECHIZO37]
+Nombre=Celeridad Menor
+Desc=Aumenta entre 1 y 3 puntos la agilidad del objetivo.
+ManaRequerido=0
+MinSkill=0
+HechizeroMsg=Has lanzado Celeridad sobre
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=YUP A INC
+PropioMsg=Has lanzado Celeridad sobre ti.
+StaRequerido=0
+TargetMsg=ha lanzado Celeridad sobre ti.
+
+[HECHIZO38]
+Nombre=Fuerza Menor
+Desc=Aumenta entre 1 y 2 puntos la fuerza del objetivo.
+ManaRequerido=0
+MinSkill=0
+HechizeroMsg=Has lanzado Fuerza sobre
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=Ar A kron
+PropioMsg=Has lanzado Fuerza sobre ti.
+StaRequerido=0
+TargetMsg=ha lanzado Fuerza sobre ti.
+
+[HECHIZO39]
+Nombre=Ascua Fugaz
+Desc=Causa 35 a 45 puntos de daño a la víctima.
+ManaRequerido=0
+MinSkill=0
+HechizeroMsg=Has lanzado Ascua Fugaz sobre
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=TOR VAX EK
+StaRequerido=0
+TargetMsg=lanzó Ascua Fugaz sobre ti.
+
+[HECHIZO40]
+Nombre=Resplandor Igneo
+Desc=Causare da 45 a 55 punti di danno al bersaglio.
+ManaRequerido=150
+MinSkill=60
+HechizeroMsg=Hai rilasciato Glow
+Cooldown=0
+IconoIndex=35691
+PalabrasMagicas=FLAMMA RUM LUX
+PropioMsg=Hai rilasciato un bagliore su di te.
+StaRequerido=50
+TargetMsg=Ha lanciato Glow Over You.
 
 [HECHIZO41]
 Nombre=Tormenta de Fuego
@@ -12668,6 +12927,54 @@ MinSkill=100
 ManaRequerido=1500
 StaRequerido=350
 IconoIndex=35733
+
+[HECHIZO47]
+Nombre=Invocar Pixie Sagrada
+Desc=Invoca la forma física de una Pixie Sagrada.
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=Pix Sacred Rax
+PropioMsg=Has invocado una pixie sagrada.
+StaRequerido=0
+
+[HECHIZO48]
+Nombre=Invocar Goblin
+Desc=Invoca un aguerrido Goblin para que luche a tu lado.
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=Grimtäk Sil
+PropioMsg=Has invocado un Goblin
+StaRequerido=0
+
+[HECHIZO49]
+Nombre=Testeo Descarga Semimagicas
+Desc=Causa da 70 a 76 punti di danno alla vittima.
+ManaRequerido=460
+MinSkill=85
+HechizeroMsg=Hai lanciato l
+Cooldown=0
+IconoIndex=35713
+PalabrasMagicas=IM PAX
+PropioMsg=Hai lanciato l
+StaRequerido=100
+TargetMsg=Ha lanciato l
+
+[HECHIZO50]
+Nombre=Impacto Eléctrico
+Desc=Causa da 70 a 76 punti di danno alla vittima.
+ManaRequerido=460
+MinSkill=85
+HechizeroMsg=Hai lanciato un impatto elettrico su
+Cooldown=0
+IconoIndex=35713
+PalabrasMagicas=IM PAX RA
+PropioMsg=Hai lanciato un impatto elettrico su di te.
+StaRequerido=120
+TargetMsg=Ha lanciato un impatto elettrico su di te.
 
 [HECHIZO51]
 Nombre=Descarga Eléctrica
@@ -12765,6 +13072,343 @@ ManaRequerido=150
 StaRequerido=50
 IconoIndex=35691
 
+[HECHIZO59]
+Nombre=Rayo Elemental
+Desc=Causa da 76 a 83 punti di danno alla vittima.
+ManaRequerido=600
+MinSkill=87
+HechizeroMsg=Hai rilasciato il raggio elementare
+Cooldown=0
+IconoIndex=32423
+PalabrasMagicas=LEMENTA RAY
+PropioMsg=Hai lanciato un raggio elementare su di te.
+StaRequerido=135
+TargetMsg=Ha rilasciato un raggio elementare su di te.
+
+[HECHIZO60]
+Nombre=Magia de Humana No-Muerta
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35713
+StaRequerido=0
+TargetMsg=Ha lanciato una dannatamente preghiera su di te.
+
+[HECHIZO61]
+Nombre=Eco Ígneo (NPC)
+Desc=Causa da 40 a 50 punti di danno alla vittima.
+ManaRequerido=75
+MinSkill=63
+HechizeroMsg=Hai lanciato un
+Cooldown=0
+IconoIndex=35696
+PalabrasMagicas=MAGNIS X AR
+PropioMsg=Hai rilasciato un
+StaRequerido=35
+TargetMsg=Ha lanciato un
+
+[HECHIZO62]
+Nombre=Destello Malva (NPC)
+Desc=Causa da 40 a 55 punti di danno alla vittima.
+ManaRequerido=85
+MinSkill=67
+HechizeroMsg=Hai lanciato Malva Flash su
+Cooldown=0
+IconoIndex=35696
+PalabrasMagicas=LÜX MÄLV
+PropioMsg=Hai lanciato una palude su di te.
+StaRequerido=40
+TargetMsg=Ha lanciato Malva Flash su di te.
+
+[HECHIZO63]
+Nombre=Fractura Glacial (NPC)
+Desc=Causa de 45 a 50 puntos de daño a la víctima.
+ManaRequerido=0
+MinSkill=0
+HechizeroMsg=Has lanzado Fractura Glacial sobre
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=GLÄC X FRÄCT
+StaRequerido=0
+
+[HECHIZO64]
+Nombre=Aliento Carmesí (NPC)
+Desc=Causa de 50 a 55 puntos de daño a la víctima.
+ManaRequerido=0
+MinSkill=0
+HechizeroMsg=Has lanzado Aliento Carmesí sobre
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=RÜB X ÄNTH
+StaRequerido=0
+
+[HECHIZO65]
+Nombre=Energía Ancestral (NPC)
+Desc=Causa de 50 a 60 puntos de daño a la víctima.
+ManaRequerido=0
+MinSkill=0
+HechizeroMsg=Has lanzado Energía Ancestral sobre
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=PRÏM VÏR
+PropioMsg=Has lanzado Energía Ancestral sobre ti.
+StaRequerido=0
+TargetMsg=lanzó Energía Ancestral sobre vos.
+
+[HECHIZO66]
+Nombre=Invocar Huargo
+Desc=Invoca la forma física de un lobo para defenderte en combate.
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PropioMsg=Has invocado un Huargo.
+StaRequerido=0
+
+[HECHIZO67]
+Nombre=Invocar Oso Pardo
+Desc=Invoca la forma física de un oso para defenderte en combate.
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PropioMsg=Has invocado un Oso.
+StaRequerido=0
+
+[HECHIZO68]
+Nombre=Invocar Lobo Huargo
+Desc=Invoca la forma física de un lobo huargo para defenderte en combate.
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PropioMsg=Has invocado un Lobo Huargo.
+StaRequerido=0
+
+[HECHIZO69]
+Nombre=Invocar Ursidae
+Desc=Invoca la forma física de un oso grizzly para defenderte en combate.
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PropioMsg=Has invocado un Ursidae.
+StaRequerido=0
+
+[HECHIZO70]
+Nombre=Invocar Orco
+Desc=Invoca un Orco para que luche a tu lado.
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=Throk Val Gür
+PropioMsg=Has invocado un Orco
+StaRequerido=0
+
+[HECHIZO71]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO72]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO73]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO74]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO75]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO76]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO77]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO78]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO79]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO80]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO81]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO82]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO83]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO84]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO85]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO86]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO87]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO88]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO89]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO90]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO91]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO92]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO93]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO94]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO95]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO96]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO97]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO98]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO99]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
 [HECHIZO100]
 Nombre=Maldición de Kraken
 Desc=Causa 90 a 100 puntos de daño a la víctima.
@@ -12789,6 +13433,69 @@ ManaRequerido=350
 StaRequerido=250
 IconoIndex=35708
 Cooldown=15
+
+[HECHIZO102]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO103]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO104]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO105]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO106]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO107]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO108]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO109]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO110]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
 
 [HECHIZO111]
 Nombre=Muro de Espinas
@@ -12826,6 +13533,55 @@ MinSkill=100
 ManaRequerido=1200
 StaRequerido=190
 
+[HECHIZO114]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO115]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO116]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO117]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO118]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO119]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO120]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
 [HECHIZO121]
 Nombre=Partitura Maldita
 Desc=Baja la velocidad de movimiento del usuario, incluido su poder de combate, por 5 segundos en un radio de 4 tiles.
@@ -12849,6 +13605,62 @@ IconoIndex=32411
 MinSkill=100
 ManaRequerido=1020
 StaRequerido=190
+
+[HECHIZO123]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO124]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO125]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO126]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO127]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO128]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO129]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO130]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
 
 [HECHIZO131]
 Nombre=Destierro
@@ -12886,6 +13698,55 @@ ManaRequerido=940
 StaRequerido=140
 IconoIndex=32433
 
+[HECHIZO134]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO135]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO136]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO137]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO138]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO139]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO140]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
 [HECHIZO141]
 Nombre=Vacío Abisal
 Desc=Causa 115 a 120 puntos de daño.
@@ -12910,6 +13771,62 @@ IconoIndex=35756
 MinSkill=100
 ManaRequerido=350
 StaRequerido=250
+
+[HECHIZO143]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO144]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO145]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO146]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO147]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO148]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO149]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO150]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
 
 [HECHIZO151]
 Nombre=Grito Sanador
@@ -12954,6 +13871,325 @@ MinSkill=87
 ManaRequerido=500
 StaRequerido=300
 IconoIndex=35734
+
+[HECHIZO155]
+Nombre=Invocar Scyllas
+Desc=Invochi tre scyllas che preda il tuo obiettivo.
+ManaRequerido=575
+MinSkill=63
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=Scylla Impetum
+PropioMsg=Hai invocato scyllas
+StaRequerido=210
+
+[HECHIZO156]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO157]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO158]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO159]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO160]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO161]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO162]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO163]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO164]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO165]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO166]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO167]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO168]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO169]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO170]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO171]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO172]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO173]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO174]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO175]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO176]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO177]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO178]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO179]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO180]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO181]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO182]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO183]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO184]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO185]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO186]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO187]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO188]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO189]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO190]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO191]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO192]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO193]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO194]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO195]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO196]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO197]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO198]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO199]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
 
 [HECHIZO201]
 Nombre=Maldición del Bufón
@@ -13189,6 +14425,59 @@ IconoIndex=32423
 MinSkill=1
 ManaRequerido=1
 StaRequerido=1
+
+[HECHIZO222]
+Nombre=Magia del Mago Malvado
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=32408
+PalabrasMagicas=Rahma Nañarak O
+StaRequerido=0
+TargetMsg=Ha lanciato Apocalypse su di te.
+
+[HECHIZO223]
+Nombre=Tormenta de Fuego (Área)
+Desc=Causa da 50 a 70 punti di danno alla vittima.
+ManaRequerido=0
+MinSkill=0
+HechizeroMsg=Hai lanciato la tempesta di fuoco
+Cooldown=0
+IconoIndex=35713
+PalabrasMagicas=EN VAX ON TAR
+PropioMsg=Hai lanciato la tempesta di fuoco su di te.
+StaRequerido=0
+TargetMsg=Ha gettato la tempesta di fuoco su di te.
+
+[HECHIZO224]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO225]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO226]
+Nombre=Invocar Scylla Leviatán
+ManaRequerido=220
+MinSkill=50
+Cooldown=0
+IconoIndex=0
+StaRequerido=60
+
+[HECHIZO227]
+Nombre=Invocar Medusas (NPCS)
+ManaRequerido=220
+MinSkill=50
+Cooldown=0
+IconoIndex=0
+StaRequerido=60
 
 [HECHIZO228]
 Nombre=Invocar Elemental Infernal (NPCS)
@@ -13756,57 +15045,616 @@ ManaRequerido=10
 StaRequerido=2
 IconoIndex=35684
 
+[HECHIZO295]
+Nombre=Guinevere (RE)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Guinevere, a la batalla con Honor!
+StaRequerido=0
+
+[HECHIZO296]
+Nombre=Guinevere Descarga
+ManaRequerido=460
+MinSkill=85
+Cooldown=0
+IconoIndex=35713
+PalabrasMagicas=T
+StaRequerido=100
+TargetMsg=Ha rilasciato scosse elettriche su di te.
+
+[HECHIZO297]
+Nombre=Alden (RE)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Alden, a la batalla con Honor!
+StaRequerido=0
+
+[HECHIZO298]
+Nombre=Flechas de Alden
+ManaRequerido=30
+MinSkill=20
+Cooldown=0
+IconoIndex=32447
+PalabrasMagicas=REÍ AR
+StaRequerido=5
+TargetMsg=Ha lanciato con il suo arco magico.
+
+[HECHIZO299]
+Nombre=Lyanna (RE)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Lyanna, a la batalla con Honor!
+StaRequerido=0
+
+[HECHIZO300]
+Nombre=Gareth (RE)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Gareth, a la batalla con Honor!
+StaRequerido=0
+
+[HECHIZO301]
+Nombre=Espinas de Gareth
+ManaRequerido=1800
+MinSkill=100
+Cooldown=0
+IconoIndex=35717
+PalabrasMagicas=N
+StaRequerido=250
+TargetMsg=Ti ha immobilizzato.
+
+[HECHIZO302]
+Nombre=Ignición de Gareth
+ManaRequerido=1500
+MinSkill=100
+Cooldown=0
+IconoIndex=32451
+PalabrasMagicas=REÍ G
+StaRequerido=300
+TargetMsg=Ti ha incenerito.
+
+[HECHIZO303]
+Nombre=Aliento de Dragón (RE)
+ManaRequerido=1000
+MinSkill=100
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=ÖÄR NÏÄ RÖ
+StaRequerido=300
+TargetMsg=Ti ha lanciato Dragon Breath su di te.
+
+[HECHIZO304]
+Nombre=Fenris (RE)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Fenris, a la batalla con Honor!
+StaRequerido=0
+
+[HECHIZO305]
+Nombre=Sombrio (Fenris)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Lobos, a la batalla con Honor!
+StaRequerido=0
+
+[HECHIZO306]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO307]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO308]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO309]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO310]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO311]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO312]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO313]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO314]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO315]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO316]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO317]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO318]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO319]
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO320]
+Nombre=Mago Zephyr
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Zephyr!
+StaRequerido=0
+
+[HECHIZO321]
+Nombre=Druida Lyra
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Lyra!
+StaRequerido=0
+
+[HECHIZO322]
+Nombre=Barda Kaelith
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Kaelith!
+StaRequerido=0
+
+[HECHIZO323]
+Nombre=Clerigo Branok
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Branok!
+StaRequerido=0
+
+[HECHIZO324]
+Nombre=Asesino Roderic
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Roderic!
+StaRequerido=0
+
+[HECHIZO325]
+Nombre=BandidA Draven
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Draven!
+StaRequerido=0
+
+[HECHIZO326]
+Nombre=Paladin Elarion
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Elarion!
+StaRequerido=0
+
+[HECHIZO327]
+Nombre=Guerrero Thorin
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Thorin!
+StaRequerido=0
+
+[HECHIZO328]
+Nombre=Cazadora Thalindra
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Thalindra!
+StaRequerido=0
+
+[HECHIZO329]
+Nombre=Grito Sanador (BRANOK)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35731
+PalabrasMagicas=¡AGH, C
+StaRequerido=0
+
+[HECHIZO330]
+Nombre=Magia de Branok
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35713
+PalabrasMagicas=T
+StaRequerido=0
+TargetMsg=Ha rilasciato una scossa elettrica su di te.
+
+[HECHIZO331]
+Nombre=Magia de Kaelith
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35717
+PalabrasMagicas=SIVIARE DIAMONTO
+StaRequerido=0
+TargetMsg=ha lanciato il suo dannato punteggio
+
+[HECHIZO332]
+Nombre=Magia de Kaelith
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35713
+PalabrasMagicas=T
+StaRequerido=0
+TargetMsg=ha lanciato la sua scossa elettrica su di te.
+
+[HECHIZO333]
+Nombre=Magia de Kaelith
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35728
+PalabrasMagicas=Fre
+StaRequerido=0
+TargetMsg=Ti ha rallentato.
+
+[HECHIZO334]
+Nombre=Magia de Lyra
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO335]
+Nombre=Magia de Lyra
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35728
+StaRequerido=0
+TargetMsg=Ha rilasciato un raggio elementare su di te.
+
+[HECHIZO336]
+Nombre=Magia de Zephyr
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35728
+PalabrasMagicas=BUU
+StaRequerido=0
+TargetMsg=Ha lanciato l
+
+[HECHIZO337]
+Nombre=Magia de Zephyr
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=32451
+PalabrasMagicas=INCINERA CORPS
+StaRequerido=0
+TargetMsg=Ti ha incenerito.
+
+[HECHIZO338]
+Nombre=Magia de Zephyr
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=32408
+PalabrasMagicas=Rahma Nañarak O
+StaRequerido=0
+TargetMsg=Ha lanciato Apocalypse su di te.
+
+[HECHIZO339]
+Nombre=Slow Octavius
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35717
+PalabrasMagicas=MANTARE DIAMONTO
+StaRequerido=0
+TargetMsg=Ti ha rallentato.
+
+[HECHIZO340]
+Nombre=Receta Runa de Fuego
+Desc=¡Ya puedes encantar tus objetos con Fuego!
+IconoIndex=49101
+
+[HECHIZO341]
+Nombre=Receta Runa de Agua
+Desc=¡Ya puedes encantar tus objetos con Agua!
+IconoIndex=49100
+
+[HECHIZO342]
+Nombre=Receta Runa de Tierra
+Desc=¡Ya puedes encantar tus objetos con Tierra!
+IconoIndex=49098
+
+[HECHIZO343]
+Nombre=Receta Runa de Viento
+Desc=¡Ya puedes encantar tus objetos con Viento!
+IconoIndex=49099
+
+[HECHIZO344]
+Nombre=Receta Poción de Veneno
+Desc=¡Ya puedes hacer Pociones de Veneno! Recuerda tener en tu inventario una olla, un mortero, un frasco de alquimista y una cala venenosa.
+IconoIndex=74718
+
+[HECHIZO345]
+Nombre=Sangre Divina
+Desc=Adquieres poderes divinos de Sanación
+ManaRequerido=600
+Cooldown=15
+IconoIndex=74709
+StaRequerido=400
+
+[HECHIZO346]
+Nombre=Receta del Exoesqueleto Enano
+Desc=Ya puedes fabricar el gran Exoesqueleto Enano
+
+[HECHIZO347]
+Nombre=Activar Nucleo Enano
+Desc=Enciende los mecanismos de defensa del Exoesqueleto Enano proporcionando una gran defensa.
+ManaRequerido=0
+Cooldown=60
+IconoIndex=74708
+PalabrasMagicas=ENANUS ACTIVATUS
+PropioMsg=Has activado el nucleo enano.
+StaRequerido=350
+
+[HECHIZO348]
+Nombre=Rugido Arcano (NPC)
+Desc=Causa de 15 a 20 puntos de daño a la víctima.
+ManaRequerido=40
+MinSkill=30
+HechizeroMsg=Has lanzado Rugido Arcano sobre
+IconoIndex=74728
+PalabrasMagicas=RUG THAEL ARCAN
+StaRequerido=25
+
+[HECHIZO349]
+Nombre=Latido Ígneo (NPC)
+Desc=Causa de 30 a 40 puntos de daño a la víctima.
+ManaRequerido=70
+MinSkill=55
+HechizeroMsg=Has lanzado Latido Ígneo sobre
+IconoIndex=74723
+PalabrasMagicas=LUMEN X AR
+StaRequerido=45
+
 [HECHIZO400]
-Nombre=Rileva Personaggi
-Desc=Rivela personaggi sulla minimappa (30s).
+Nombre=Detectar Personajes
+Desc=Revela en el minimapa la posicion de los personajes del mapa segun la mascara configurada durante 30 segundos.
+PalabrasMagicas=DTC PERS EN
+HechizeroMsg=Has detectado las presencias en
+TargetMsg=lanzo Detectar Personajes sobre vos.
+MinSkill=0
+ManaRequerido=10
+StaRequerido=2
+IconoIndex=35684
+CoolDown=1
 
 [HECHIZO401]
-Nombre=Dardo di Veleno Minore
-Desc=Avvelena il bersaglio con Veleno Minore. TOGGLE26.
+Nombre=Dardo de Veneno Menor
+Desc=Envenena al objetivo con Veneno Menor. TOGGLE26 test.
+PalabrasMagicas=DRD MEN
+HechizeroMsg=Has lanzado Dardo de Veneno Menor sobre
+TargetMsg=lanzo Dardo de Veneno Menor sobre vos.
+PropioMsg=Has lanzado Dardo de Veneno Menor sobre ti.
+MinSkill=1
+ManaRequerido=50
+StaRequerido=10
+IconoIndex=35692
 
 [HECHIZO402]
-Nombre=Dardo di Emotossina
-Desc=Applica Emotossina (1 stack). TOGGLE26.
+Nombre=Dardo de Hemotoxina
+Desc=Aplica Hemotoxina al objetivo (1 stack inicial). TOGGLE26 test.
+PalabrasMagicas=DRD HEM
+HechizeroMsg=Has lanzado Dardo de Hemotoxina sobre
+TargetMsg=lanzo Dardo de Hemotoxina sobre vos.
+PropioMsg=Has lanzado Dardo de Hemotoxina sobre ti.
+MinSkill=1
+ManaRequerido=80
+StaRequerido=10
+IconoIndex=35692
 
 [HECHIZO403]
-Nombre=Dardo di Neurotossina
-Desc=Applica Neurotossina (debuff). TOGGLE26.
+Nombre=Dardo de Neurotoxina
+Desc=Aplica Neurotoxina al objetivo (debuff de combate). TOGGLE26 test.
+PalabrasMagicas=DRD NEU
+HechizeroMsg=Has lanzado Dardo de Neurotoxina sobre
+TargetMsg=lanzo Dardo de Neurotoxina sobre vos.
+PropioMsg=Has lanzado Dardo de Neurotoxina sobre ti.
+MinSkill=1
+ManaRequerido=80
+StaRequerido=10
+IconoIndex=35692
 
 [HECHIZO404]
-Nombre=Purificazione
-Desc=Pulisce tutti i veleni. TOGGLE26.
+Nombre=Purificacion
+Desc=Limpia todos los venenos del objetivo. TOGGLE26.
+PalabrasMagicas=PUR VEN
+HechizeroMsg=Has purificado a
+TargetMsg=te ha purificado.
+PropioMsg=Te has purificado.
+MinSkill=1
+ManaRequerido=100
+StaRequerido=10
+IconoIndex=35684
 
 [HECHIZO405]
-Nombre=Avvelena Arma Veleno Minore
-Desc=Unge arma avvelenabile con Veleno Minore.
+Nombre=Envenenar Arma con Veneno Menor
+Desc=Unta el arma envenenable del objetivo con Veneno Menor. 10 cargas, 60s max. TOGGLE26.
+PalabrasMagicas=UNT ARM MEN
+HechizeroMsg=Has untado el arma de
+TargetMsg=ha untado tu arma con Veneno Menor.
+PropioMsg=Has untado tu arma con Veneno Menor.
+MinSkill=1
+ManaRequerido=80
+StaRequerido=10
+IconoIndex=35692
 
 [HECHIZO406]
-Nombre=Avvelena Arma Emotossina
-Desc=Unge arma avvelenabile con Emotossina.
+Nombre=Envenenar Arma con Hemotoxina
+Desc=Unta el arma envenenable del objetivo con Hemotoxina. 10 cargas, 60s max. TOGGLE26.
+PalabrasMagicas=UNT ARM HEM
+HechizeroMsg=Has untado el arma de
+TargetMsg=ha untado tu arma con Hemotoxina.
+PropioMsg=Has untado tu arma con Hemotoxina.
+MinSkill=1
+ManaRequerido=120
+StaRequerido=10
+IconoIndex=35692
 
 [HECHIZO407]
-Nombre=Avvelena Arma Neurotossina
-Desc=Unge arma avvelenabile con Neurotossina.
+Nombre=Envenenar Arma con Neurotoxina
+Desc=Unta el arma envenenable del objetivo con Neurotoxina. 10 cargas, 60s max. TOGGLE26.
+PalabrasMagicas=UNT ARM NEU
+HechizeroMsg=Has untado el arma de
+TargetMsg=ha untado tu arma con Neurotoxina.
+PropioMsg=Has untado tu arma con Neurotoxina.
+MinSkill=1
+ManaRequerido=120
+StaRequerido=10
+IconoIndex=35692
 
 [HECHIZO408]
-Nombre=Cura Veleno Minore
-Desc=Cura Veleno Minore.
+Nombre=Curar Veneno Menor
+Desc=Cura Veneno Menor del objetivo. TOGGLE26 test.
+PalabrasMagicas=CUR MEN
+HechizeroMsg=Has curado a
+TargetMsg=te ha curado.
+PropioMsg=Te has curado.
+MinSkill=1
+ManaRequerido=40
+StaRequerido=5
+IconoIndex=32431
 
 [HECHIZO409]
-Nombre=Cura Emotossina
-Desc=Cura Emotossina.
+Nombre=Curar Hemotoxina
+Desc=Cura Hemotoxina del objetivo. TOGGLE26 test.
+PalabrasMagicas=CUR HEM
+HechizeroMsg=Has curado a
+TargetMsg=te ha curado.
+PropioMsg=Te has curado.
+MinSkill=1
+ManaRequerido=40
+StaRequerido=5
+IconoIndex=32431
 
 [HECHIZO410]
-Nombre=Cura Neurotossina
-Desc=Cura Neurotossina.
+Nombre=Curar Neurotoxina
+Desc=Cura Neurotoxina del objetivo. TOGGLE26 test.
+PalabrasMagicas=CUR NEU
+HechizeroMsg=Has curado a
+TargetMsg=te ha curado.
+PropioMsg=Te has curado.
+MinSkill=1
+ManaRequerido=40
+StaRequerido=5
+IconoIndex=32431
 
 [HECHIZO411]
-Nombre=Antidoto Combinato
-Desc=Cura tutti i 3 veleni.
+Nombre=Antidoto Combinado
+Desc=Cura Veneno Menor, Hemotoxina y Neurotoxina del objetivo. TOGGLE26 test.
+PalabrasMagicas=ANT COM
+HechizeroMsg=Has curado a
+TargetMsg=te ha curado los 3 venenos.
+PropioMsg=Te has curado los 3 venenos.
+MinSkill=1
+ManaRequerido=80
+StaRequerido=5
+IconoIndex=32431
 
 [HECHIZO412]
 Nombre=Auto-Envenenar Neuro Test
-Desc=Self-cast Neurotoxina TEST.
+Desc=Self-cast: te aplicas Neurotoxina. Solo para test TOGGLE26.
+PalabrasMagicas=AUTO NEU
+HechizeroMsg=Te has aplicado Neurotoxina.
+PropioMsg=Te has aplicado Neurotoxina.
+MinSkill=1
+ManaRequerido=20
+StaRequerido=5
+IconoIndex=35692
 
 [OBJ1]
 Name=Manzana Roja
@@ -14030,12 +15878,12 @@ RopajeElfoOscuro=1823
 RopajeEnano=4930
 RopajeOrco=1775
 RopajeGnomo=4930
-RopajeHumana=3139
-RopajeElfa=3139
-RopajeElfaOscura=1823
-RopajeEnana=2876
-RopajeOrca=1775
-RopajeGnoma=2876
+RopajeHumana=2047
+RopajeElfa=2047
+RopajeElfaOscura=3727
+RopajeEnana=2547
+RopajeOrca=3097
+RopajeGnoma=2547
 ObjType=3
 MAXDEF=12
 MINDEF=7
@@ -14058,12 +15906,12 @@ RopajeElfoOscuro=1532
 RopajeEnano=1177
 RopajeOrco=2546
 RopajeGnomo=1177
-RopajeHumana=2676
-RopajeElfa=2676
-RopajeElfaOscura=2720
-RopajeEnana=1170
-RopajeOrca=2704
-RopajeGnoma=1170
+RopajeHumana=2064
+RopajeElfa=2064
+RopajeElfaOscura=3744
+RopajeEnana=2564
+RopajeOrca=3114
+RopajeGnoma=2564
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -14083,12 +15931,12 @@ RopajeElfoOscuro=1533
 RopajeEnano=2544
 RopajeOrco=2547
 RopajeGnomo=2544
-RopajeHumana=2677
-RopajeElfa=2677
-RopajeElfaOscura=2721
-RopajeEnana=1152
-RopajeOrca=2705
-RopajeGnoma=1152
+RopajeHumana=2065
+RopajeElfa=2065
+RopajeElfaOscura=3745
+RopajeEnana=2565
+RopajeOrca=3115
+RopajeGnoma=2565
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -14108,12 +15956,12 @@ RopajeElfoOscuro=1534
 RopajeEnano=939
 RopajeOrco=2548
 RopajeGnomo=939
-RopajeHumana=885
-RopajeElfa=885
-RopajeElfaOscura=2722
-RopajeEnana=2690
-RopajeOrca=2706
-RopajeGnoma=2690
+RopajeHumana=2066
+RopajeElfa=2066
+RopajeElfaOscura=3746
+RopajeEnana=2566
+RopajeOrca=3116
+RopajeGnoma=2566
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -14133,12 +15981,12 @@ RopajeElfoOscuro=1535
 RopajeEnano=1156
 RopajeOrco=2549
 RopajeGnomo=1156
-RopajeHumana=1077
-RopajeElfa=1077
-RopajeElfaOscura=2723
-RopajeEnana=2691
-RopajeOrca=2707
-RopajeGnoma=2691
+RopajeHumana=2067
+RopajeElfa=2067
+RopajeElfaOscura=3747
+RopajeEnana=2567
+RopajeOrca=3117
+RopajeGnoma=2567
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -14216,12 +16064,12 @@ RopajeElfoOscuro=1536
 RopajeEnano=938
 RopajeOrco=2550
 RopajeGnomo=938
-RopajeHumana=2678
-RopajeElfa=2678
-RopajeElfaOscura=2724
-RopajeEnana=2692
-RopajeOrca=2708
-RopajeGnoma=2692
+RopajeHumana=2068
+RopajeElfa=2068
+RopajeElfaOscura=3748
+RopajeEnana=2568
+RopajeOrca=3118
+RopajeGnoma=2568
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -14314,12 +16162,12 @@ RopajeElfoOscuro=1653
 RopajeEnano=652
 RopajeOrco=1153
 RopajeGnomo=652
-RopajeHumana=185
-RopajeElfa=185
-RopajeElfaOscura=1653
-RopajeEnana=652
-RopajeOrca=1153
-RopajeGnoma=652
+RopajeHumana=2266
+RopajeElfa=2266
+RopajeElfaOscura=3782
+RopajeEnana=2797
+RopajeOrca=3365
+RopajeGnoma=2797
 ObjType=3
 MAXDEF=7
 MINDEF=5
@@ -14327,6 +16175,12 @@ Valor=1000
 Texto=Traje de Duque
 
 [OBJ56]
+RopajeElfa=2225
+RopajeGnoma=2740
+RopajeEnana=2740
+RopajeElfaOscura=3682
+RopajeHumana=2225
+RopajeOrca=3307
 Name=Vestido de Duquesa
 GrhIndex=2553
 ObjType=3
@@ -14365,12 +16219,12 @@ RopajeElfoOscuro=1537
 RopajeEnano=4712
 RopajeOrco=2551
 RopajeGnomo=4712
-RopajeHumana=2679
-RopajeElfa=2679
-RopajeElfaOscura=2725
-RopajeEnana=2693
-RopajeOrca=2709
-RopajeGnoma=2693
+RopajeHumana=2069
+RopajeElfa=2069
+RopajeElfaOscura=3749
+RopajeEnana=2569
+RopajeOrca=3119
+RopajeGnoma=2569
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -14390,12 +16244,12 @@ RopajeElfoOscuro=1538
 RopajeEnano=1142
 RopajeOrco=2552
 RopajeGnomo=1142
-RopajeHumana=3094
-RopajeElfa=3094
-RopajeElfaOscura=2726
-RopajeEnana=1162
-RopajeOrca=2710
-RopajeGnoma=1162
+RopajeHumana=2070
+RopajeElfa=2070
+RopajeElfaOscura=3750
+RopajeEnana=2570
+RopajeOrca=3120
+RopajeGnoma=2570
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -14415,12 +16269,12 @@ RopajeElfoOscuro=1539
 RopajeEnano=1178
 RopajeOrco=2553
 RopajeGnomo=1178
-RopajeHumana=2680
-RopajeElfa=2680
-RopajeElfaOscura=2727
-RopajeEnana=2695
-RopajeOrca=2711
-RopajeGnoma=2695
+RopajeHumana=2071
+RopajeElfa=2071
+RopajeElfaOscura=3751
+RopajeEnana=2571
+RopajeOrca=3121
+RopajeGnoma=2571
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -14545,12 +16399,12 @@ RopajeElfoOscuro=1541
 RopajeEnano=1165
 RopajeOrco=2555
 RopajeGnomo=1165
-RopajeHumana=2681
-RopajeElfa=2681
-RopajeElfaOscura=2729
-RopajeEnana=2697
-RopajeOrca=2713
-RopajeGnoma=2697
+RopajeHumana=2073
+RopajeElfa=2073
+RopajeElfaOscura=3753
+RopajeEnana=2573
+RopajeOrca=3123
+RopajeGnoma=2573
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -14570,12 +16424,12 @@ RopajeElfoOscuro=1542
 RopajeEnano=1172
 RopajeOrco=2556
 RopajeGnomo=1172
-RopajeHumana=2682
-RopajeElfa=2682
-RopajeElfaOscura=2730
-RopajeEnana=2698
-RopajeOrca=2714
-RopajeGnoma=2698
+RopajeHumana=2074
+RopajeElfa=2074
+RopajeElfaOscura=3754
+RopajeEnana=2574
+RopajeOrca=3124
+RopajeGnoma=2574
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -14595,12 +16449,12 @@ RopajeElfoOscuro=1543
 RopajeEnano=1174
 RopajeOrco=2557
 RopajeGnomo=1174
-RopajeHumana=2683
-RopajeElfa=2683
-RopajeElfaOscura=2731
-RopajeEnana=2699
-RopajeOrca=2715
-RopajeGnoma=2699
+RopajeHumana=2075
+RopajeElfa=2075
+RopajeElfaOscura=3755
+RopajeEnana=2575
+RopajeOrca=3125
+RopajeGnoma=2575
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -14620,12 +16474,12 @@ RopajeElfoOscuro=2110
 RopajeEnano=685
 RopajeOrco=2094
 RopajeGnomo=685
-RopajeHumana=260
-RopajeElfa=301
-RopajeElfaOscura=2110
-RopajeEnana=685
-RopajeOrca=2094
-RopajeGnoma=685
+RopajeHumana=2186
+RopajeElfa=2186
+RopajeElfaOscura=3627
+RopajeEnana=2685
+RopajeOrca=3252
+RopajeGnoma=2685
 ObjType=3
 MAXDEF=22
 MINDEF=15
@@ -14648,12 +16502,12 @@ RopajeElfoOscuro=1544
 RopajeEnano=1164
 RopajeOrco=2558
 RopajeGnomo=1164
-RopajeHumana=2684
-RopajeElfa=2684
-RopajeElfaOscura=2732
-RopajeEnana=2700
-RopajeOrca=2716
-RopajeGnoma=2700
+RopajeHumana=2076
+RopajeElfa=2076
+RopajeElfaOscura=3756
+RopajeEnana=2576
+RopajeOrca=3126
+RopajeGnoma=2576
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -14673,12 +16527,12 @@ RopajeElfoOscuro=1545
 RopajeEnano=1175
 RopajeOrco=2559
 RopajeGnomo=1175
-RopajeHumana=2685
-RopajeElfa=2685
-RopajeElfaOscura=2733
-RopajeEnana=2701
-RopajeOrca=2717
-RopajeGnoma=2701
+RopajeHumana=2077
+RopajeElfa=2077
+RopajeElfaOscura=3757
+RopajeEnana=2577
+RopajeOrca=3127
+RopajeGnoma=2577
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -14698,12 +16552,12 @@ RopajeElfoOscuro=1823
 RopajeEnano=4930
 RopajeOrco=1775
 RopajeGnomo=4930
-RopajeHumana=3139
-RopajeElfa=3139
-RopajeElfaOscura=1823
-RopajeEnana=2876
-RopajeOrca=1775
-RopajeGnoma=2876
+RopajeHumana=2047
+RopajeElfa=2047
+RopajeElfaOscura=3727
+RopajeEnana=2547
+RopajeOrca=3097
+RopajeGnoma=2547
 ObjType=3
 MAXDEF=12
 MINDEF=7
@@ -14719,12 +16573,12 @@ RopajeElfoOscuro=1823
 RopajeEnano=4930
 RopajeOrco=1775
 RopajeGnomo=4930
-RopajeHumana=3139
-RopajeElfa=3139
-RopajeElfaOscura=1823
-RopajeEnana=2876
-RopajeOrca=1775
-RopajeGnoma=2876
+RopajeHumana=2047
+RopajeElfa=2047
+RopajeElfaOscura=3727
+RopajeEnana=2547
+RopajeOrca=3097
+RopajeGnoma=2547
 ObjType=3
 MAXDEF=12
 MINDEF=7
@@ -15104,12 +16958,12 @@ RopajeElfoOscuro=2059
 RopajeEnano=714
 RopajeOrco=2043
 RopajeGnomo=714
-RopajeHumana=282
-RopajeElfa=282
-RopajeElfaOscura=2059
-RopajeEnana=2842
-RopajeOrca=2043
-RopajeGnoma=2842
+RopajeHumana=2339
+RopajeElfa=2339
+RopajeElfaOscura=3871
+RopajeEnana=2870
+RopajeOrca=3438
+RopajeGnoma=2870
 ObjType=3
 MAXDEF=43
 MINDEF=38
@@ -15590,11 +17444,11 @@ RopajeElfoOscuro=1516
 RopajeEnano=611
 RopajeOrco=1744
 RopajeGnomo=611
-RopajeHumana=1115
-RopajeElfa=1115
-RopajeElfaOscura=2529
+RopajeHumana=2016
+RopajeElfa=2016
+RopajeElfaOscura=3516
 RopajeEnana=2516
-RopajeOrca=2513
+RopajeOrca=3066
 RopajeGnoma=2516
 ObjType=3
 MAXDEF=11
@@ -15784,10 +17638,10 @@ RopajeOrco=2211
 RopajeGnomo=1184
 RopajeHumana=2095
 RopajeElfa=2095
-RopajeElfaOscura=1554
-RopajeEnana=2889
-RopajeOrca=2211
-RopajeGnoma=2889
+RopajeElfaOscura=3552
+RopajeEnana=2594
+RopajeOrca=3145
+RopajeGnoma=2594
 ObjType=3
 MAXDEF=1
 MINDEF=1
@@ -15823,12 +17677,12 @@ RopajeElfoOscuro=2056
 RopajeEnano=3038
 RopajeOrco=2040
 RopajeGnomo=3038
-RopajeHumana=279
-RopajeElfa=279
-RopajeElfaOscura=2056
-RopajeEnana=3038
-RopajeOrca=2040
-RopajeGnoma=3038
+RopajeHumana=2336
+RopajeElfa=2336
+RopajeElfaOscura=3868
+RopajeEnana=2867
+RopajeOrca=3435
+RopajeGnoma=2867
 ObjType=3
 MAXDEF=35
 MINDEF=27
@@ -16671,12 +18525,12 @@ RopajeElfoOscuro=1827
 RopajeEnano=551
 RopajeOrco=1779
 RopajeGnomo=551
-RopajeHumana=3086
-RopajeElfa=3086
-RopajeElfaOscura=1827
-RopajeEnana=1160
-RopajeOrca=1779
-RopajeGnoma=1160
+RopajeHumana=2051
+RopajeElfa=2051
+RopajeElfaOscura=3731
+RopajeEnana=2551
+RopajeOrca=3101
+RopajeGnoma=2551
 ObjType=3
 MAXDEF=30
 MINDEF=25
@@ -16832,12 +18686,12 @@ RopajeElfoOscuro=1525
 RopajeEnano=3268
 RopajeOrco=1753
 RopajeGnomo=3268
-RopajeHumana=2015
-RopajeElfa=2015
-RopajeElfaOscura=2538
-RopajeEnana=788
-RopajeOrca=2522
-RopajeGnoma=788
+RopajeHumana=2025
+RopajeElfa=2025
+RopajeElfaOscura=3525
+RopajeEnana=2525
+RopajeOrca=3075
+RopajeGnoma=2525
 ObjType=3
 MAXDEF=11
 MINDEF=7
@@ -17342,8 +19196,6 @@ Texto=Restaura 30 puntos de vida
 [OBJ462]
 Name=Vestido de Princesa
 GrhIndex=11495
-en_Name=Princess Dress
-NumRopaje=2229
 RopajeHumano=2229
 RopajeElfo=2229
 RopajeElfoOscuro=3686
@@ -17371,12 +19223,12 @@ RopajeElfoOscuro=1531
 RopajeEnano=52
 RopajeOrco=2545
 RopajeGnomo=52
-RopajeHumana=1079
-RopajeElfa=1079
-RopajeElfaOscura=2719
-RopajeEnana=3137
-RopajeOrca=2703
-RopajeGnoma=3137
+RopajeHumana=2063
+RopajeElfa=2063
+RopajeElfaOscura=3743
+RopajeEnana=2563
+RopajeOrca=3113
+RopajeGnoma=2563
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -17453,8 +19305,6 @@ Texto=Vestimentas de Bajo
 [OBJ467]
 Name=Estivalis
 GrhIndex=11494
-en_Name=Summer
-NumRopaje=2228
 RopajeHumano=2228
 RopajeElfo=2228
 RopajeElfoOscuro=3685
@@ -17476,8 +19326,6 @@ Texto=Estivalis
 [OBJ468]
 Name=Vestido de Condesa
 GrhIndex=11493
-en_Name=Countess Dress
-NumRopaje=2227
 RopajeHumano=2227
 RopajeElfo=2227
 RopajeElfoOscuro=3684
@@ -17490,12 +19338,6 @@ RopajeElfaOscura=3684
 RopajeEnana=2742
 RopajeOrca=3309
 RopajeGnoma=2742
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-RazaEnana=1
-RazaGnoma=1
 ObjType=3
 MAXDEF=13
 MINDEF=10
@@ -17623,12 +19465,12 @@ RopajeElfoOscuro=1809
 RopajeEnano=811
 RopajeOrco=1353
 RopajeGnomo=811
-RopajeHumana=2202
-RopajeElfa=2202
-RopajeElfaOscura=3643
-RopajeEnana=2701
-RopajeOrca=3268
-RopajeGnoma=2701
+RopajeHumana=2156
+RopajeElfa=2156
+RopajeElfaOscura=3613
+RopajeEnana=2655
+RopajeOrca=3222
+RopajeGnoma=2655
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -17665,12 +19507,12 @@ RopajeElfoOscuro=1546
 RopajeEnano=3105
 RopajeOrco=2560
 RopajeGnomo=3105
-RopajeHumana=2686
-RopajeElfa=2686
-RopajeElfaOscura=2734
-RopajeEnana=2702
-RopajeOrca=2718
-RopajeGnoma=2702
+RopajeHumana=2078
+RopajeElfa=2078
+RopajeElfaOscura=3758
+RopajeEnana=2578
+RopajeOrca=3128
+RopajeGnoma=2578
 ObjType=3
 MAXDEF=0
 MINDEF=0
@@ -17680,8 +19522,6 @@ Texto=Vestimenta Común (Bajo)
 [OBJ487]
 Name=Dama de las Tinieblas
 GrhIndex=41584
-en_Name=Lady of Darkness
-NumRopaje=208
 RopajeHumano=208
 RopajeElfo=208
 RopajeElfoOscuro=208
@@ -17744,8 +19584,6 @@ Valor=0
 [OBJ493]
 Name=Armadura de Placas Rojas (M)
 GrhIndex=3502
-en_Name=Red Plate Armor (M)
-NumRopaje=255
 RopajeHumano=255
 RopajeElfo=255
 RopajeElfoOscuro=2332
@@ -17782,12 +19620,12 @@ RopajeElfoOscuro=2299
 RopajeEnano=1683
 RopajeOrco=2071
 RopajeGnomo=1683
-RopajeHumana=48
-RopajeElfa=48
-RopajeElfaOscura=2299
-RopajeEnana=1683
-RopajeOrca=2071
-RopajeGnoma=1683
+RopajeHumana=2287
+RopajeElfa=2287
+RopajeElfaOscura=3803
+RopajeEnana=2818
+RopajeOrca=3386
+RopajeGnoma=2818
 ObjType=3
 MAXDEF=38
 MINDEF=35
@@ -17811,8 +19649,6 @@ GrhIndex=30867
 MAXDEF=22
 MINDEF=15
 Valor=7200
-en_Name=Chain Mail (Woman)
-NumRopaje=2058
 RopajeHumano=2058
 RopajeElfo=2058
 RopajeElfoOscuro=1834
@@ -17837,12 +19673,12 @@ RopajeElfoOscuro=1621
 RopajeEnano=758
 RopajeOrco=1302
 RopajeGnomo=758
-RopajeHumana=223
-RopajeElfa=201
-RopajeElfaOscura=1621
-RopajeEnana=2666
-RopajeOrca=3233
-RopajeGnoma=2666
+RopajeHumana=2142
+RopajeElfa=2142
+RopajeElfaOscura=3599
+RopajeEnana=2641
+RopajeOrca=3208
+RopajeGnoma=2641
 ObjType=3
 MAXDEF=38
 MINDEF=35
@@ -17862,12 +19698,12 @@ RopajeElfoOscuro=1544
 RopajeEnano=1164
 RopajeOrco=2558
 RopajeGnomo=1164
-RopajeHumana=2684
-RopajeElfa=2684
-RopajeElfaOscura=2732
-RopajeEnana=2700
-RopajeOrca=2716
-RopajeGnoma=2700
+RopajeHumana=2076
+RopajeElfa=2076
+RopajeElfaOscura=3756
+RopajeEnana=2576
+RopajeOrca=3126
+RopajeGnoma=2576
 ObjType=3
 MAXDEF=5
 MINDEF=3
@@ -17962,6 +19798,12 @@ PielOsoPardo=0
 PielOsoPolar=0
 
 [OBJ510]
+RopajeElfa=2246
+RopajeGnoma=2761
+RopajeEnana=2761
+RopajeElfaOscura=3703
+RopajeHumana=2246
+RopajeOrca=3328
 Name=Vestido Indulgente (H/E/EO-M)
 GrhIndex=11608
 ObjType=3
@@ -17985,7 +19827,6 @@ RopajeElfaOscura=3706
 RopajeEnana=2764
 RopajeOrca=3331
 RopajeGnoma=2764
-NumRopaje=2249
 ObjType=3
 MAXDEF=20
 MINDEF=15
@@ -18001,12 +19842,12 @@ RopajeElfoOscuro=1540
 RopajeEnano=1176
 RopajeOrco=2554
 RopajeGnomo=1176
-RopajeHumana=1078
-RopajeElfa=1078
-RopajeElfaOscura=2728
-RopajeEnana=2696
-RopajeOrca=2712
-RopajeGnoma=2696
+RopajeHumana=2072
+RopajeElfa=2072
+RopajeElfaOscura=3752
+RopajeEnana=2572
+RopajeOrca=3122
+RopajeGnoma=2572
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -18042,11 +19883,11 @@ RopajeElfoOscuro=1561
 RopajeEnano=1660
 RopajeOrco=2188
 RopajeGnomo=1660
-RopajeHumana=1061
-RopajeElfa=1061
-RopajeElfaOscura=4821
+RopajeHumana=2098
+RopajeElfa=2098
+RopajeElfaOscura=3555
 RopajeEnana=2597
-RopajeOrca=4805
+RopajeOrca=3148
 RopajeGnoma=2597
 ObjType=3
 MAXDEF=35
@@ -18067,12 +19908,12 @@ RopajeElfoOscuro=1530
 RopajeEnano=1341
 RopajeOrco=1758
 RopajeGnomo=1341
-RopajeHumana=1340
-RopajeElfa=1340
-RopajeElfaOscura=2543
-RopajeEnana=2511
-RopajeOrca=2527
-RopajeGnoma=2511
+RopajeHumana=2030
+RopajeElfa=2030
+RopajeElfaOscura=3530
+RopajeEnana=2530
+RopajeOrca=3080
+RopajeGnoma=2530
 ObjType=3
 MAXDEF=20
 MINDEF=15
@@ -18095,12 +19936,12 @@ RopajeElfoOscuro=1522
 RopajeEnano=3135
 RopajeOrco=1750
 RopajeGnomo=3135
-RopajeHumana=1035
-RopajeElfa=1035
-RopajeElfaOscura=2535
-RopajeEnana=3136
-RopajeOrca=2519
-RopajeGnoma=3136
+RopajeHumana=2022
+RopajeElfa=2022
+RopajeElfaOscura=3522
+RopajeEnana=2522
+RopajeOrca=3072
+RopajeGnoma=2522
 ObjType=3
 MAXDEF=25
 MINDEF=15
@@ -18144,12 +19985,12 @@ RopajeElfoOscuro=1521
 RopajeEnano=1141
 RopajeOrco=1749
 RopajeGnomo=1141
-RopajeHumana=2492
-RopajeElfa=2492
-RopajeElfaOscura=2534
-RopajeEnana=2502
-RopajeOrca=2518
-RopajeGnoma=2502
+RopajeHumana=2021
+RopajeElfa=2021
+RopajeElfaOscura=3521
+RopajeEnana=2521
+RopajeOrca=3071
+RopajeGnoma=2521
 ObjType=3
 MAXDEF=25
 MINDEF=15
@@ -18159,8 +20000,6 @@ Texto=Túnica Combinada
 [OBJ526]
 Name=Túnica Combinada (E/G-M)
 GrhIndex=11108
-en_Name=Combined Robe (E/G-M)
-NumRopaje=2502
 RopajeHumano=115
 RopajeElfo=115
 RopajeElfoOscuro=2534
@@ -18222,12 +20061,12 @@ RopajeElfoOscuro=1529
 RopajeEnano=3088
 RopajeOrco=1757
 RopajeGnomo=3088
-RopajeHumana=1096
-RopajeElfa=1096
-RopajeElfaOscura=2542
-RopajeEnana=2510
-RopajeOrca=2526
-RopajeGnoma=2510
+RopajeHumana=2029
+RopajeElfa=2029
+RopajeElfaOscura=3529
+RopajeEnana=2529
+RopajeOrca=3079
+RopajeGnoma=2529
 ObjType=3
 MAXDEF=20
 MINDEF=15
@@ -18271,6 +20110,7 @@ Agarrable=1
 Texto=Árbol
 
 [OBJ550]
+RopajeElfaOscura=3705
 Name=Vestido de Novia (Drow)
 GrhIndex=11704
 ObjType=3
@@ -18348,12 +20188,12 @@ RopajeElfoOscuro=1546
 RopajeEnano=3105
 RopajeOrco=2560
 RopajeGnomo=3105
-RopajeHumana=2686
-RopajeElfa=2686
-RopajeElfaOscura=2734
-RopajeEnana=2702
-RopajeOrca=2718
-RopajeGnoma=2702
+RopajeHumana=2078
+RopajeElfa=2078
+RopajeElfaOscura=3758
+RopajeEnana=2578
+RopajeOrca=3128
+RopajeGnoma=2578
 ObjType=3
 MAXDEF=0
 MINDEF=0
@@ -18370,9 +20210,15 @@ Valor=0
 Texto=Vestimentas de Baja (Newbie)
 
 [OBJ571]
+RopajeGnoma=2745
+RopajeEnana=2745
 Name=Vestido de Marquesa
 GrhIndex=11496
 ObjType=3
+RopajeHumana=2230
+RopajeElfa=2230
+RopajeElfaOscura=3687
+RopajeOrca=3312
 MAXDEF=3
 MINDEF=1
 Valor=100
@@ -18836,14 +20682,6 @@ RopajeElfaOscura=3680
 RopajeEnana=2738
 RopajeOrca=3305
 RopajeGnoma=2738
-NumRopaje=2223
-en_Name=Gala Dress (M)
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-RazaEnana=1
-RazaGnoma=1
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -18912,13 +20750,6 @@ GrhIndex=956
 ObjType=19
 Agarrable=1
 Texto=Escalera hacia abajo
-
-[OBJ668]
-Name=Harbinger Kin
-GrhIndex=892
-Objtype=2
-CreaGrh=20185:&HFF0000:0:241
-Texto=Harbinger Kin
 
 [OBJ672]
 Name=Teleport
@@ -20502,12 +22333,12 @@ RopajeElfoOscuro=1875
 RopajeEnano=1153
 RopajeOrco=1859
 RopajeGnomo=1153
-RopajeHumana=1216
-RopajeElfa=1216
-RopajeElfaOscura=2773
-RopajeEnana=2751
-RopajeOrca=2762
-RopajeGnoma=2751
+RopajeHumana=2088
+RopajeElfa=2088
+RopajeElfaOscura=3768
+RopajeEnana=2587
+RopajeOrca=3138
+RopajeGnoma=2587
 ObjType=3
 MAXDEF=10
 MINDEF=1
@@ -20554,12 +22385,12 @@ RopajeElfoOscuro=1874
 RopajeEnano=590
 RopajeOrco=1858
 RopajeGnomo=590
-RopajeHumana=2740
-RopajeElfa=2740
-RopajeElfaOscura=2772
-RopajeEnana=2750
-RopajeOrca=2761
-RopajeGnoma=2750
+RopajeHumana=2087
+RopajeElfa=2087
+RopajeElfaOscura=3767
+RopajeEnana=2586
+RopajeOrca=3137
+RopajeGnoma=2586
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -20567,6 +22398,8 @@ Valor=50
 Texto=Vestimenta Común Azul
 
 [OBJ971]
+RopajeEnana=2763
+RopajeGnoma=2763
 Name=Vestido de Novia (Bajas)
 GrhIndex=11668
 ObjType=3
@@ -20605,10 +22438,10 @@ RopajeOrco=1748
 RopajeGnomo=1143
 RopajeHumana=2020
 RopajeElfa=2020
-RopajeElfaOscura=2533
-RopajeEnana=2501
-RopajeOrca=2517
-RopajeGnoma=2501
+RopajeElfaOscura=3520
+RopajeEnana=2520
+RopajeOrca=3070
+RopajeGnoma=2520
 ObjType=3
 MAXDEF=1
 MINDEF=1
@@ -20676,11 +22509,11 @@ RopajeElfoOscuro=1825
 RopajeEnano=549
 RopajeOrco=1777
 RopajeGnomo=549
-RopajeHumana=2890
-RopajeElfa=2890
-RopajeElfaOscura=1825
+RopajeHumana=2049
+RopajeElfa=2049
+RopajeElfaOscura=3729
 RopajeEnana=2549
-RopajeOrca=1777
+RopajeOrca=3099
 RopajeGnoma=2549
 ObjType=3
 MAXDEF=15
@@ -21167,12 +23000,12 @@ RopajeElfoOscuro=1577
 RopajeEnano=1670
 RopajeOrco=2234
 RopajeGnomo=1670
-RopajeHumana=2115
-RopajeElfa=2115
-RopajeElfaOscura=4859
-RopajeEnana=1670
-RopajeOrca=4843
-RopajeGnoma=1670
+RopajeHumana=2114
+RopajeElfa=2114
+RopajeElfaOscura=3571
+RopajeEnana=2613
+RopajeOrca=3180
+RopajeGnoma=2613
 ObjType=3
 MAXDEF=18
 MINDEF=14
@@ -21457,12 +23290,12 @@ RopajeElfoOscuro=1959
 RopajeEnano=621
 RopajeOrco=1943
 RopajeGnomo=621
-RopajeHumana=56
-RopajeElfa=222
-RopajeElfaOscura=1959
-RopajeEnana=621
-RopajeOrca=1943
-RopajeGnoma=621
+RopajeHumana=2303
+RopajeElfa=2303
+RopajeElfaOscura=3819
+RopajeEnana=2834
+RopajeOrca=3402
+RopajeGnoma=2834
 ObjType=3
 MAXDEF=37
 MINDEF=27
@@ -21478,12 +23311,12 @@ RopajeElfoOscuro=1801
 RopajeEnano=803
 RopajeOrco=1345
 RopajeGnomo=803
-RopajeHumana=2194
-RopajeElfa=2194
-RopajeElfaOscura=3635
-RopajeEnana=2693
-RopajeOrca=3260
-RopajeGnoma=2693
+RopajeHumana=2157
+RopajeElfa=2157
+RopajeElfaOscura=3614
+RopajeEnana=2656
+RopajeOrca=3223
+RopajeGnoma=2656
 ObjType=3
 MAXDEF=47
 MINDEF=43
@@ -21499,12 +23332,12 @@ RopajeElfoOscuro=1801
 RopajeEnano=803
 RopajeOrco=1345
 RopajeGnomo=803
-RopajeHumana=2194
-RopajeElfa=2194
-RopajeElfaOscura=3635
-RopajeEnana=2693
-RopajeOrca=3260
-RopajeGnoma=2693
+RopajeHumana=2157
+RopajeElfa=2157
+RopajeElfaOscura=3614
+RopajeEnana=2656
+RopajeOrca=3223
+RopajeGnoma=2656
 ObjType=3
 MAXDEF=47
 MINDEF=43
@@ -21520,12 +23353,12 @@ RopajeElfoOscuro=1575
 RopajeEnano=1668
 RopajeOrco=2202
 RopajeGnomo=1668
-RopajeHumana=4775
-RopajeElfa=4775
-RopajeElfaOscura=4835
-RopajeEnana=4803
-RopajeOrca=4819
-RopajeGnoma=4803
+RopajeHumana=2112
+RopajeElfa=2112
+RopajeElfaOscura=3569
+RopajeEnana=2611
+RopajeOrca=3162
+RopajeGnoma=2611
 ObjType=3
 MAXDEF=11
 MINDEF=7
@@ -21660,9 +23493,9 @@ Name=Uniforme Imperial de Trabajador de 1ª Jerarquía
 GrhIndex=2660
 RopajeHumano=19
 RopajeElfo=19
-RopajeElfoOscuro=1864
+RopajeElfoOscuro=19
 RopajeEnano=580
-RopajeOrco=1848
+RopajeOrco=19
 RopajeGnomo=580
 RopajeHumana=2081
 RopajeElfa=2081
@@ -21672,30 +23505,9 @@ RopajeOrca=3131
 RopajeGnoma=2581
 ObjType=3
 MAXDEF=25
-MINDEF=0
+MINDEF=5
 Valor=10
 Texto=Uniforme Imperial de Trabajador de 1ª Jerarquía
-
-[OBJ1245]
-Name=Uniforme Imperial de Trabajador de 1ª Jerarquía (Bajos)
-GrhIndex=2660
-RopajeHumano=19
-RopajeElfo=19
-RopajeElfoOscuro=1864
-RopajeEnano=895
-RopajeOrco=1848
-RopajeGnomo=895
-RopajeHumana=912
-RopajeElfa=912
-RopajeElfaOscura=2766
-RopajeEnana=2744
-RopajeOrca=2755
-RopajeGnoma=2744
-ObjType=3
-MAXDEF=25
-MINDEF=0
-Valor=10
-Texto=Uniforme Imperial de Trabajador de 1ª Jerarquía (Bajos)
 
 [OBJ1246]
 Name=Hacha de Guerra Dos Filos
@@ -21767,8 +23579,14 @@ Valor=7200
 Texto=Cota de Mallas
 
 [OBJ1272]
+RopajeGnoma=2750
+RopajeEnana=2750
 Name=Vestimentas de Mujer
 GrhIndex=11501
+RopajeHumana=2235
+RopajeElfa=2235
+RopajeElfaOscura=3692
+RopajeOrca=3317
 ObjType=3
 MAXDEF=1
 MINDEF=1
@@ -21776,8 +23594,14 @@ Valor=50
 Texto=Vestimentas de Mujer
 
 [OBJ1273]
+RopajeGnoma=2747
+RopajeEnana=2747
 Name=Vestimenta de Mujer
 GrhIndex=11498
+RopajeHumana=2232
+RopajeElfa=2232
+RopajeElfaOscura=3689
+RopajeOrca=3314
 ObjType=3
 MAXDEF=1
 MINDEF=1
@@ -21788,8 +23612,14 @@ Sksastreria=10
 Texto=Vestimenta de Mujer
 
 [OBJ1274]
+RopajeGnoma=2748
+RopajeEnana=2748
 Name=Vestimentas de Mujer
 GrhIndex=11499
+RopajeHumana=2233
+RopajeElfa=2233
+RopajeElfaOscura=3690
+RopajeOrca=3315
 ObjType=3
 MAXDEF=1
 MINDEF=1
@@ -21848,8 +23678,14 @@ Texto=Casco Infernal
 Valor=30000
 
 [OBJ1283]
+RopajeGnoma=2750
+RopajeEnana=2750
 Name=Vestimentas de Mujer (Newbie)
 GrhIndex=11501
+RopajeHumana=2235
+RopajeElfa=2235
+RopajeElfaOscura=3692
+RopajeOrca=3317
 ObjType=3
 Valor=0
 MAXDEF=1
@@ -21857,8 +23693,14 @@ MINDEF=0
 Texto=Vestimentas de Mujer (Newbie)
 
 [OBJ1284]
+RopajeGnoma=2747
+RopajeEnana=2747
 Name=Vestimentas de Mujer (Newbie)
 GrhIndex=11498
+RopajeHumana=2232
+RopajeElfa=2232
+RopajeElfaOscura=3689
+RopajeOrca=3314
 ObjType=3
 Valor=0
 MAXDEF=1
@@ -21866,8 +23708,14 @@ MINDEF=1
 Texto=Vestimentas de Mujer (Newbie)
 
 [OBJ1285]
+RopajeGnoma=2748
+RopajeEnana=2748
 Name=Vestimentas de Mujer (Newbie)
 GrhIndex=11499
+RopajeHumana=2233
+RopajeElfa=2233
+RopajeElfaOscura=3690
+RopajeOrca=3315
 ObjType=3
 Valor=0
 MAXDEF=1
@@ -21925,12 +23773,12 @@ RopajeElfoOscuro=1527
 RopajeEnano=527
 RopajeOrco=1755
 RopajeGnomo=527
-RopajeHumana=1093
-RopajeElfa=1093
-RopajeElfaOscura=2540
-RopajeEnana=2508
-RopajeOrca=2524
-RopajeGnoma=2508
+RopajeHumana=2027
+RopajeElfa=2027
+RopajeElfaOscura=3527
+RopajeEnana=2527
+RopajeOrca=3077
+RopajeGnoma=2527
 ObjType=3
 MAXDEF=6
 MINDEF=4
@@ -21940,8 +23788,6 @@ Texto=Túnica Bordo
 [OBJ1328]
 Name=Armadura de Placas Azules (M)
 GrhIndex=3527
-en_Name=Blue Plate Armor (M)
-NumRopaje=4921
 RopajeHumano=4921
 RopajeElfo=4921
 RopajeElfoOscuro=4921
@@ -22074,15 +23920,6 @@ ObjType=44
 valor=0
 Texto=Te permite cabalgar.
 
-[OBJ1352]
-Name=Báculo (Newbie)
-GrhIndex=36143
-Objtype=2
-MinHIT=1
-MaxHIT=2
-Valor=0
-Texto=Báculo (Newbie)
-
 [OBJ1353]
 Name=Nudillos del Principiante
 GrhIndex=25678
@@ -22111,15 +23948,6 @@ Valor=0
 Proyectil=1
 Municiones=1
 Texto=Arco Simple (Newbies)
-
-[OBJ1356]
-Name=Báculo (Newbie)
-GrhIndex=36143
-Objtype=2
-MinHIT=1
-MaxHIT=2
-Valor=0
-Texto=Báculo (Newbie)
 
 [OBJ1357]
 Name=Flecha (Newbies)
@@ -22838,10 +24666,10 @@ RopajeOrco=1849
 RopajeGnomo=581
 RopajeHumana=2082
 RopajeElfa=2082
-RopajeElfaOscura=2767
-RopajeEnana=2745
-RopajeOrca=2756
-RopajeGnoma=2745
+RopajeElfaOscura=3762
+RopajeEnana=2582
+RopajeOrca=3132
+RopajeGnoma=2582
 ObjType=3
 MAXDEF=7
 MINDEF=2
@@ -22865,7 +24693,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Clérigo del Caos de 1ª Jerarquía
 
@@ -22886,7 +24714,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Clérigo del Caos de 1ª Jerarquía (Bajos)
 
@@ -22907,7 +24735,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Túnica de Mago del Caos de 1ª Jerarquía
 
@@ -22928,7 +24756,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Túnica de Mago del Caos de 1ª Jerarquía (Bajos)
 
@@ -22949,7 +24777,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Guerrero del Caos de 1ª Jerarquía
 
@@ -22970,7 +24798,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Guerrero del Caos de 1ª Jerarquía (Bajos)
 
@@ -22991,7 +24819,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Asesino del Caos de 1ª Jerarquía
 
@@ -23012,7 +24840,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Asesino del Caos de 1ª Jerarquía (Bajos)
 
@@ -23033,7 +24861,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Túnica de Bardo del Caos de 1ª Jerarquía
 
@@ -23054,7 +24882,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Túnica de Bardo del Caos de 1ª Jerarquía (Bajos)
 
@@ -23075,7 +24903,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Túnica de Druida del Caos de 1ª Jerarquía
 
@@ -23096,7 +24924,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Túnica de Druida del Caos de 1ª Jerarquía (Bajos)
 
@@ -23117,7 +24945,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Bandido del Caos de 1ª Jerarquía
 
@@ -23138,7 +24966,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Bandido del Caos de 1ª Jerarquía (Bajos)
 
@@ -23159,7 +24987,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Paladín del Caos de 1ª Jerarquía
 
@@ -23180,7 +25008,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Paladín del Caos de 1ª Jerarquía (Bajos)
 
@@ -23201,7 +25029,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Cazador del Caos de 1ª Jerarquía
 
@@ -23222,7 +25050,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Cazador del Caos de 1ª Jerarquía (Bajos)
 
@@ -23243,7 +25071,7 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Pirata del Caos de 1ª Jerarquía
 
@@ -23264,12 +25092,95 @@ RopajeOrca=2756
 RopajeGnoma=2745
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Pirata del Caos de 1ª Jerarquía (Bajos)
 
 [OBJ1522]
 Name=Armadura de Clérigo del Caos de 2ª Jerarquía
+GrhIndex=2929
+RopajeHumano=268
+RopajeElfo=268
+RopajeElfoOscuro=268
+RopajeEnano=768
+RopajeOrco=268
+RopajeGnomo=768
+RopajeHumana=2177
+RopajeElfa=2177
+RopajeElfaOscura=3865
+RopajeEnana=2676
+RopajeOrca=3243
+RopajeGnoma=2676
+ObjType=3
+MAXDEF=10
+MINDEF=5
+Valor=0
+Texto=Armadura de Clérigo del Caos de 2ª Jerarquía
+
+[OBJ1524]
+Name=Túnica de Mago del Caos de 2ª Jerarquía
+GrhIndex=3668
+RopajeHumano=161
+RopajeElfo=161
+RopajeElfoOscuro=161
+RopajeEnano=628
+RopajeOrco=161
+RopajeGnomo=628
+RopajeHumana=2118
+RopajeElfa=2118
+RopajeElfaOscura=3575
+RopajeEnana=2617
+RopajeOrca=3184
+RopajeGnoma=2617
+ObjType=3
+MAXDEF=10
+MINDEF=5
+Valor=0
+
+[OBJ1526]
+Name=Armadura de Guerrero del Caos de 2ª Jerarquía
+GrhIndex=47386
+RopajeHumano=266
+RopajeElfo=266
+RopajeElfoOscuro=266
+RopajeEnano=766
+RopajeOrco=266
+RopajeGnomo=766
+RopajeHumana=2175
+RopajeElfa=2175
+RopajeElfaOscura=3863
+RopajeEnana=2674
+RopajeOrca=3241
+RopajeGnoma=2674
+ObjType=3
+MAXDEF=10
+MINDEF=5
+Valor=0
+Texto=Armadura de Guerrero del Caos de 2ª Jerarquía
+
+[OBJ1528]
+Name=Armadura de Asesino del Caos de 2ª Jerarquía
+GrhIndex=3507
+RopajeHumano=267
+RopajeElfo=267
+RopajeElfoOscuro=267
+RopajeEnano=767
+RopajeOrco=267
+RopajeGnomo=767
+RopajeHumana=2176
+RopajeElfa=2176
+RopajeElfaOscura=3864
+RopajeEnana=2675
+RopajeOrca=3242
+RopajeGnoma=2675
+ObjType=3
+MAXDEF=10
+MINDEF=5
+Valor=0
+Texto=Armadura de Asesino del Caos de 2ª Jerarquía
+
+[OBJ1530]
+Name=Túnica de Bardo del Caos de 2ª Jerarquía
 GrhIndex=2929
 RopajeHumano=154
 RopajeElfo=154
@@ -23285,196 +25196,9 @@ RopajeOrca=3243
 RopajeGnoma=2676
 ObjType=3
 MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Armadura de Clérigo del Caos de 2ª Jerarquía
-
-[OBJ1523]
-Name=Armadura de Clérigo del Caos de 2ª Jerarquía (Bajos)
-GrhIndex=2611
-RopajeHumano=154
-RopajeElfo=154
-RopajeElfoOscuro=1574
-RopajeEnano=1667
-RopajeOrco=2201
-RopajeGnomo=1667
-RopajeHumana=4774
-RopajeElfa=4774
-RopajeElfaOscura=4834
-RopajeEnana=4802
-RopajeOrca=4818
-RopajeGnoma=4802
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Armadura de Clérigo del Caos de 2ª Jerarquía (Bajos)
-
-[OBJ1524]
-Name=Túnica de Mago del Caos de 2ª Jerarquía
-GrhIndex=3668
-RopajeHumano=169
-RopajeElfo=169
-RopajeElfoOscuro=1589
-RopajeEnano=765
-RopajeOrco=2246
-RopajeGnomo=765
-RopajeHumana=2118
-RopajeElfa=2118
-RopajeElfaOscura=3575
-RopajeEnana=2617
-RopajeOrca=3184
-RopajeGnoma=2617
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-
-[OBJ1525]
-Name=Túnica de Mago del Caos de 2ª Jerarquía (Bajos)
-GrhIndex=11569
-RopajeHumano=169
-RopajeElfo=169
-RopajeElfoOscuro=1589
-RopajeEnano=765
-RopajeOrco=2246
-RopajeGnomo=765
-RopajeHumana=1080
-RopajeElfa=1080
-RopajeElfaOscura=4871
-RopajeEnana=4839
-RopajeOrca=4855
-RopajeGnoma=4839
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-
-[OBJ1526]
-Name=Armadura de Guerrero del Caos de 2ª Jerarquía
-GrhIndex=47386
-RopajeHumano=268
-RopajeElfo=268
-RopajeElfoOscuro=2345
-RopajeEnano=1010
-RopajeOrco=2329
-RopajeGnomo=1010
-RopajeHumana=2175
-RopajeElfa=2175
-RopajeElfaOscura=3863
-RopajeEnana=2674
-RopajeOrca=3241
-RopajeGnoma=2674
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Armadura de Guerrero del Caos de 2ª Jerarquía
-
-[OBJ1527]
-Name=Armadura de Guerrero del Caos de 2ª Jerarquía (Bajos)
-GrhIndex=2929
-RopajeHumano=268
-RopajeElfo=268
-RopajeElfoOscuro=2345
-RopajeEnano=1010
-RopajeOrco=2329
-RopajeGnomo=1010
-RopajeHumana=265
-RopajeElfa=268
-RopajeElfaOscura=2345
-RopajeEnana=1010
-RopajeOrca=2329
-RopajeGnoma=1010
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Armadura de Guerrero del Caos de 2ª Jerarquía (Bajos)
-
-[OBJ1528]
-Name=Armadura de Asesino del Caos de 2ª Jerarquía
-GrhIndex=3507
-RopajeHumano=162
-RopajeElfo=162
-RopajeElfoOscuro=1582
-RopajeEnano=1673
-RopajeOrco=2239
-RopajeGnomo=1673
-RopajeHumana=2119
-RopajeElfa=2119
-RopajeElfaOscura=3576
-RopajeEnana=2618
-RopajeOrca=3185
-RopajeGnoma=2618
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Armadura de Asesino del Caos de 2ª Jerarquía
-
-[OBJ1529]
-Name=Armadura de Asesino del Caos de 2ª Jerarquía (Bajos)
-GrhIndex=3669
-RopajeHumano=162
-RopajeElfo=162
-RopajeElfoOscuro=1582
-RopajeEnano=1673
-RopajeOrco=2239
-RopajeGnomo=1673
-RopajeHumana=4780
-RopajeElfa=4780
-RopajeElfaOscura=4864
-RopajeEnana=1673
-RopajeOrca=4848
-RopajeGnoma=1673
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Armadura de Asesino del Caos de 2ª Jerarquía (Bajos)
-
-[OBJ1530]
-Name=Túnica de Bardo del Caos de 2ª Jerarquía
-GrhIndex=2929
-RopajeHumano=154
-RopajeElfo=154
-RopajeElfoOscuro=1574
-RopajeEnano=1667
-RopajeOrco=2201
-RopajeGnomo=1667
-RopajeHumana=2111
-RopajeElfa=2111
-RopajeElfaOscura=3568
-RopajeEnana=2610
-RopajeOrca=3161
-RopajeGnoma=2610
-ObjType=3
-MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Túnica de Bardo del Caos de 2ª Jerarquía
-
-[OBJ1531]
-Name=Túnica de Bardo del Caos de 2ª Jerarquía (Bajos)
-GrhIndex=2611
-RopajeHumano=154
-RopajeElfo=154
-RopajeElfoOscuro=1574
-RopajeEnano=1667
-RopajeOrco=2201
-RopajeGnomo=1667
-RopajeHumana=4774
-RopajeElfa=4774
-RopajeElfaOscura=4834
-RopajeEnana=4802
-RopajeOrca=4818
-RopajeGnoma=4802
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Túnica de Bardo del Caos de 2ª Jerarquía (Bajos)
 
 [OBJ1532]
 Name=Túnica de Druida del Caos de 2ª Jerarquía
@@ -23485,38 +25209,17 @@ RopajeElfoOscuro=1574
 RopajeEnano=1667
 RopajeOrco=2201
 RopajeGnomo=1667
-RopajeHumana=2111
-RopajeElfa=2111
-RopajeElfaOscura=3568
-RopajeEnana=2610
-RopajeOrca=3161
-RopajeGnoma=2610
+RopajeHumana=2118
+RopajeElfa=2118
+RopajeElfaOscura=3575
+RopajeEnana=2617
+RopajeOrca=3184
+RopajeGnoma=2617
 ObjType=3
 MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Túnica de Druida del Caos de 2ª Jerarquía
-
-[OBJ1533]
-Name=Túnica de Druida del Caos de 2ª Jerarquía (Bajos)
-GrhIndex=2611
-RopajeHumano=154
-RopajeElfo=154
-RopajeElfoOscuro=1574
-RopajeEnano=1667
-RopajeOrco=2201
-RopajeGnomo=1667
-RopajeHumana=4774
-RopajeElfa=4774
-RopajeElfaOscura=4834
-RopajeEnana=4802
-RopajeOrca=4818
-RopajeGnoma=4802
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Túnica de Druida del Caos de 2ª Jerarquía (Bajos)
 
 [OBJ1534]
 Name=Armadura de Bandido del Caos de 2ª Jerarquía
@@ -23527,48 +25230,27 @@ RopajeElfoOscuro=1582
 RopajeEnano=1673
 RopajeOrco=2239
 RopajeGnomo=1673
-RopajeHumana=2119
-RopajeElfa=2119
-RopajeElfaOscura=3576
-RopajeEnana=2618
-RopajeOrca=3185
-RopajeGnoma=2618
+RopajeHumana=2176
+RopajeElfa=2176
+RopajeElfaOscura=3864
+RopajeEnana=2675
+RopajeOrca=3242
+RopajeGnoma=2675
 ObjType=3
 MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Armadura de Bandido del Caos de 2ª Jerarquía
-
-[OBJ1535]
-Name=Armadura de Bandido del Caos de 2ª Jerarquía (Bajos)
-GrhIndex=3669
-RopajeHumano=162
-RopajeElfo=162
-RopajeElfoOscuro=1582
-RopajeEnano=1673
-RopajeOrco=2239
-RopajeGnomo=1673
-RopajeHumana=4780
-RopajeElfa=4780
-RopajeElfaOscura=4864
-RopajeEnana=1673
-RopajeOrca=4848
-RopajeGnoma=1673
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Armadura de Bandido del Caos de 2ª Jerarquía (Bajos)
 
 [OBJ1536]
 Name=Armadura de Paladín del Caos de 2ª Jerarquía
 GrhIndex=47386
-RopajeHumano=268
-RopajeElfo=268
-RopajeElfoOscuro=2345
-RopajeEnano=1010
-RopajeOrco=2329
-RopajeGnomo=1010
+RopajeHumano=266
+RopajeElfo=266
+RopajeElfoOscuro=266
+RopajeEnano=766
+RopajeOrco=266
+RopajeGnomo=766
 RopajeHumana=2175
 RopajeElfa=2175
 RopajeElfaOscura=3863
@@ -23577,30 +25259,9 @@ RopajeOrca=3241
 RopajeGnoma=2674
 ObjType=3
 MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Armadura de Paladín del Caos de 2ª Jerarquía
-
-[OBJ1537]
-Name=Armadura de Paladín del Caos de 2ª Jerarquía (Bajos)
-GrhIndex=2929
-RopajeHumano=268
-RopajeElfo=268
-RopajeElfoOscuro=2345
-RopajeEnano=1010
-RopajeOrco=2329
-RopajeGnomo=1010
-RopajeHumana=265
-RopajeElfa=268
-RopajeElfaOscura=2345
-RopajeEnana=1010
-RopajeOrca=2329
-RopajeGnoma=1010
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Armadura de Paladín del Caos de 2ª Jerarquía (Bajos)
 
 [OBJ1538]
 Name=Armadura de Cazador del Caos de 2ª Jerarquía
@@ -23611,38 +25272,17 @@ RopajeElfoOscuro=1582
 RopajeEnano=1673
 RopajeOrco=2239
 RopajeGnomo=1673
-RopajeHumana=2119
-RopajeElfa=2119
-RopajeElfaOscura=3576
-RopajeEnana=2618
-RopajeOrca=3185
-RopajeGnoma=2618
+RopajeHumana=2176
+RopajeElfa=2176
+RopajeElfaOscura=3864
+RopajeEnana=2675
+RopajeOrca=3242
+RopajeGnoma=2675
 ObjType=3
 MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Armadura de Cazador del Caos de 2ª Jerarquía
-
-[OBJ1539]
-Name=Armadura de Cazador del Caos de 2ª Jerarquía (Bajos)
-GrhIndex=3669
-RopajeHumano=162
-RopajeElfo=162
-RopajeElfoOscuro=1582
-RopajeEnano=1673
-RopajeOrco=2239
-RopajeGnomo=1673
-RopajeHumana=4780
-RopajeElfa=4780
-RopajeElfaOscura=4864
-RopajeEnana=1673
-RopajeOrca=4848
-RopajeGnoma=1673
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Armadura de Cazador del Caos de 2ª Jerarquía (Bajos)
 
 [OBJ1540]
 Name=Armadura de Pirata del Caos de 2ª Jerarquía
@@ -23653,15 +25293,15 @@ RopajeElfoOscuro=2345
 RopajeEnano=1010
 RopajeOrco=2329
 RopajeGnomo=1010
-RopajeHumana=265
-RopajeElfa=268
-RopajeElfaOscura=2345
-RopajeEnana=1010
-RopajeOrca=2329
-RopajeGnoma=1010
+RopajeHumana=2177
+RopajeElfa=2177
+RopajeElfaOscura=3865
+RopajeEnana=2676
+RopajeOrca=3243
+RopajeGnoma=2676
 ObjType=3
 MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Armadura de Pirata del Caos de 2ª Jerarquía
 
@@ -23682,7 +25322,7 @@ RopajeOrca=2329
 RopajeGnoma=1010
 ObjType=3
 MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Armadura de Pirata del Caos de 2ª Jerarquía (Bajos)
 
@@ -23703,7 +25343,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Clerigo Imperial de 1ª Jerarquía
 
@@ -23724,7 +25364,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Túnica de Clérigo Imperial de 1ª Jerarquía (Bajos)
 
@@ -23745,7 +25385,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Túnica de Mago Imperial de 1ª Jerarquía
 
@@ -23766,7 +25406,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Túnica de Mago Imperial de 1ª Jerarquía (Bajos)
 
@@ -23787,7 +25427,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Guerrero Imperial de 1ª Jerarquía
 
@@ -23808,7 +25448,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Guerrero Imperial de 1ª Jerarquía (Bajos)
 
@@ -23829,7 +25469,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Asesino Imperial de 1ª Jerarquía
 
@@ -23850,7 +25490,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Asesino Imperial de 1ª Jerarquía (Bajos)
 
@@ -23871,7 +25511,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Túnica de Bardo Imperial de 1ª Jerarquía
 
@@ -23892,7 +25532,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Túnica de Bardo Imperial de 1ª Jerarquía (Bajos)
 
@@ -23913,7 +25553,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Túnica de Druida Imperial de 1ª Jerarquía
 
@@ -23934,7 +25574,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Túnica de Druida Imperial de 1ª Jerarquía (Bajos)
 
@@ -23955,7 +25595,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Pirata Imperial de 1ª Jerarquía
 
@@ -23976,7 +25616,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Pirata Imperial de 1ª Jerarquía (Bajos)
 
@@ -23997,7 +25637,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Paladín Imperial de 1ª Jerarquía
 
@@ -24018,7 +25658,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Paladín Imperial de 1ª Jerarquía (Bajos)
 
@@ -24039,7 +25679,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Cazador Imperial de 1ª Jerarquía
 
@@ -24060,7 +25700,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Cazador Imperial de 1ª Jerarquía (Bajos)
 
@@ -24081,7 +25721,7 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Bandido Imperial de 1ª Jerarquía
 
@@ -24102,19 +25742,19 @@ RopajeOrca=2755
 RopajeGnoma=2744
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Armadura de Bandido Imperial de 1ª Jerarquía (Bajos)
 
 [OBJ1566]
 Name=Armadura de Clérigo Imperial de 2ª Jerarquía
 GrhIndex=1452
-RopajeHumano=337
-RopajeElfo=337
-RopajeElfoOscuro=2151
-RopajeEnano=1009
-RopajeOrco=2595
-RopajeGnomo=1009
+RopajeHumano=338
+RopajeElfo=338
+RopajeElfoOscuro=338
+RopajeEnano=835
+RopajeOrco=338
+RopajeGnomo=835
 RopajeHumana=2368
 RopajeElfa=2368
 RopajeElfaOscura=3665
@@ -24123,40 +25763,19 @@ RopajeOrca=3290
 RopajeGnoma=2723
 ObjType=3
 MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Armadura de Clérigo Imperial de 2ª Jerarquía
-
-[OBJ1567]
-Name=Túnica de Clérigo Imperial de 2ª Jerarquía (Bajos)
-GrhIndex=2645
-RopajeHumano=337
-RopajeElfo=337
-RopajeElfoOscuro=2151
-RopajeEnano=1009
-RopajeOrco=2595
-RopajeGnomo=1009
-RopajeHumana=337
-RopajeElfa=337
-RopajeElfaOscura=2151
-RopajeEnana=1009
-RopajeOrca=2595
-RopajeGnoma=1009
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Túnica de Clérigo Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1568]
 Name=Túnica de Mago Imperial de 2ª Jerarquía
 GrhIndex=3074
 RopajeHumano=165
 RopajeElfo=165
-RopajeElfoOscuro=1585
-RopajeEnano=1147
-RopajeOrco=2242
-RopajeGnomo=1147
+RopajeElfoOscuro=165
+RopajeEnano=632
+RopajeOrco=165
+RopajeGnomo=632
 RopajeHumana=2122
 RopajeElfa=2122
 RopajeElfaOscura=3579
@@ -24165,39 +25784,18 @@ RopajeOrca=3188
 RopajeGnoma=2621
 ObjType=3
 MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Túnica de Mago Imperial de 2ª Jerarquía
-
-[OBJ1569]
-Name=Túnica de Mago Imperial de 2ª Jerarquía (Bajos)
-GrhIndex=3074
-RopajeHumano=165
-RopajeElfo=165
-RopajeElfoOscuro=1585
-RopajeEnano=1147
-RopajeOrco=2242
-RopajeGnomo=1147
-RopajeHumana=4786
-RopajeElfa=4786
-RopajeElfaOscura=4867
-RopajeEnana=1147
-RopajeOrca=4851
-RopajeGnoma=1147
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Túnica de Mago Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1570]
 Name=Armadura de Guerrero Imperial de 2ª Jerarquía
 GrhIndex=19474
 RopajeHumano=344
 RopajeElfo=344
-RopajeElfoOscuro=2158
+RopajeElfoOscuro=344
 RopajeEnano=841
-RopajeOrco=2602
+RopajeOrco=344
 RopajeGnomo=841
 RopajeHumana=2374
 RopajeElfa=2374
@@ -24207,39 +25805,18 @@ RopajeOrca=3296
 RopajeGnoma=2729
 ObjType=3
 MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Armadura de Guerrero Imperial de 2ª Jerarquía
-
-[OBJ1571]
-Name=Armadura de Guerrero Imperial de 2ª Jerarquía (Bajos)
-GrhIndex=19474
-RopajeHumano=344
-RopajeElfo=344
-RopajeElfoOscuro=2158
-RopajeEnano=4695
-RopajeOrco=2602
-RopajeGnomo=4695
-RopajeHumana=344
-RopajeElfa=344
-RopajeElfaOscura=2158
-RopajeEnana=4695
-RopajeOrca=2602
-RopajeGnoma=4695
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Armadura de Guerrero Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1572]
 Name=Armadura de Asesino Imperial de 2ª Jerarquía
 GrhIndex=3130
-RopajeHumano=56
-RopajeElfo=56
-RopajeElfoOscuro=2307
+RopajeHumano=291
+RopajeElfo=291
+RopajeElfoOscuro=291
 RopajeEnano=785
-RopajeOrco=2079
+RopajeOrco=291
 RopajeGnomo=785
 RopajeHumana=2348
 RopajeElfa=2348
@@ -24249,40 +25826,19 @@ RopajeOrca=3447
 RopajeGnoma=2879
 ObjType=3
 MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Armadura de Asesino Imperial de 2ª Jerarquía
-
-[OBJ1573]
-Name=Armadura de Asesino Imperial de 2ª Jerarquía (Bajos)
-GrhIndex=72
-RopajeHumano=56
-RopajeElfo=56
-RopajeElfoOscuro=2307
-RopajeEnano=4735
-RopajeOrco=2079
-RopajeGnomo=4735
-RopajeHumana=56
-RopajeElfa=56
-RopajeElfaOscura=2307
-RopajeEnana=4735
-RopajeOrca=2079
-RopajeGnoma=4735
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Armadura de Asesino Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1574]
 Name=Túnica de Bardo Imperial de 2ª Jerarquía
 GrhIndex=2645
 RopajeHumano=337
 RopajeElfo=337
-RopajeElfoOscuro=2151
-RopajeEnano=1009
-RopajeOrco=2595
-RopajeGnomo=1009
+RopajeElfoOscuro=337
+RopajeEnano=834
+RopajeOrco=337
+RopajeGnomo=834
 RopajeHumana=2367
 RopajeElfa=2367
 RopajeElfaOscura=3664
@@ -24291,40 +25847,19 @@ RopajeOrca=3289
 RopajeGnoma=2722
 ObjType=3
 MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Túnica de Bardo Imperial de 2ª Jerarquía
-
-[OBJ1575]
-Name=Túnica de Bardo Imperial de 2ª Jerarquía (Bajos)
-GrhIndex=2645
-RopajeHumano=337
-RopajeElfo=337
-RopajeElfoOscuro=2151
-RopajeEnano=1009
-RopajeOrco=2595
-RopajeGnomo=1009
-RopajeHumana=337
-RopajeElfa=337
-RopajeElfaOscura=2151
-RopajeEnana=1009
-RopajeOrca=2595
-RopajeGnoma=1009
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Túnica de Bardo Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1576]
 Name=Túnica de Druida Imperial de 2ª Jerarquía
 GrhIndex=3074
-RopajeHumano=337
-RopajeElfo=337
-RopajeElfoOscuro=2151
-RopajeEnano=1009
-RopajeOrco=2595
-RopajeGnomo=1009
+RopajeHumano=165
+RopajeElfo=165
+RopajeElfoOscuro=165
+RopajeEnano=632
+RopajeOrco=165
+RopajeGnomo=632
 RopajeHumana=2122
 RopajeElfa=2122
 RopajeElfaOscura=3579
@@ -24333,30 +25868,9 @@ RopajeOrca=3188
 RopajeGnoma=2621
 ObjType=3
 MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Túnica de Druida Imperial de 2ª Jerarquía
-
-[OBJ1577]
-Name=Túnica de Druida Imperial de 2ª Jerarquía (Bajos)
-GrhIndex=2645
-RopajeHumano=337
-RopajeElfo=337
-RopajeElfoOscuro=2151
-RopajeEnano=1009
-RopajeOrco=2595
-RopajeGnomo=1009
-RopajeHumana=337
-RopajeElfa=337
-RopajeElfaOscura=2151
-RopajeEnana=1009
-RopajeOrca=2595
-RopajeGnoma=1009
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Túnica de Druida Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1578]
 Name=Armadura de Pirata Imperial de 2ª Jerarquía
@@ -24367,15 +25881,15 @@ RopajeElfoOscuro=2158
 RopajeEnano=4695
 RopajeOrco=2602
 RopajeGnomo=4695
-RopajeHumana=344
-RopajeElfa=344
-RopajeElfaOscura=2158
-RopajeEnana=4695
-RopajeOrca=2602
-RopajeGnoma=4695
+RopajeHumana=2374
+RopajeElfa=2374
+RopajeElfaOscura=3671
+RopajeEnana=2729
+RopajeOrca=3296
+RopajeGnoma=2729
 ObjType=3
 MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Armadura de Pirata Imperial de 2ª Jerarquía
 
@@ -24396,60 +25910,39 @@ RopajeOrca=2602
 RopajeGnoma=4695
 ObjType=3
 MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Armadura de Pirata Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1580]
 Name=Armadura de Paladín Imperial de 2ª Jerarquía
 GrhIndex=11664
-RopajeHumano=346
-RopajeElfo=346
-RopajeElfoOscuro=2160
-RopajeEnano=4917
-RopajeOrco=2604
-RopajeGnomo=4917
-RopajeHumana=2374
-RopajeElfa=2374
-RopajeElfaOscura=3671
-RopajeEnana=2729
-RopajeOrca=3296
-RopajeGnoma=2729
+RopajeHumano=344
+RopajeElfo=344
+RopajeElfoOscuro=344
+RopajeEnano=841
+RopajeOrco=344
+RopajeGnomo=841
+RopajeHumana=2376
+RopajeElfa=2376
+RopajeElfaOscura=3673
+RopajeEnana=2731
+RopajeOrca=3298
+RopajeGnoma=2731
 ObjType=3
 MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Armadura de Paladín Imperial de 2ª Jerarquía
-
-[OBJ1581]
-Name=Armadura de Paladín Imperial de 2ª Jerarquía (Bajos)
-GrhIndex=11664
-RopajeHumano=346
-RopajeElfo=346
-RopajeElfoOscuro=2160
-RopajeEnano=4917
-RopajeOrco=2604
-RopajeGnomo=4917
-RopajeHumana=346
-RopajeElfa=346
-RopajeElfaOscura=2160
-RopajeEnana=4917
-RopajeOrca=2604
-RopajeGnoma=4917
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Armadura de Paladín Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1582]
 Name=Armadura de Cazador Imperial de 2ª Jerarquía
 GrhIndex=3130
-RopajeHumano=56
-RopajeElfo=56
-RopajeElfoOscuro=2307
+RopajeHumano=291
+RopajeElfo=291
+RopajeElfoOscuro=291
 RopajeEnano=785
-RopajeOrco=2079
+RopajeOrco=291
 RopajeGnomo=785
 RopajeHumana=2348
 RopajeElfa=2348
@@ -24459,39 +25952,18 @@ RopajeOrca=3447
 RopajeGnoma=2879
 ObjType=3
 MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Armadura de Cazador Imperial de 2ª Jerarquía
-
-[OBJ1583]
-Name=Armadura de Cazador Imperial de 2ª Jerarquía (Bajos)
-GrhIndex=72
-RopajeHumano=56
-RopajeElfo=56
-RopajeElfoOscuro=2307
-RopajeEnano=4735
-RopajeOrco=2079
-RopajeGnomo=4735
-RopajeHumana=56
-RopajeElfa=56
-RopajeElfaOscura=2307
-RopajeEnana=4735
-RopajeOrca=2079
-RopajeGnoma=4735
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Armadura de Cazador Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1584]
 Name=Armadura de Bandido Imperial de 2ª Jerarquía
 GrhIndex=3130
-RopajeHumano=56
-RopajeElfo=56
-RopajeElfoOscuro=2307
+RopajeHumano=291
+RopajeElfo=291
+RopajeElfoOscuro=291
 RopajeEnano=785
-RopajeOrco=2079
+RopajeOrco=291
 RopajeGnomo=785
 RopajeHumana=2348
 RopajeElfa=2348
@@ -24501,30 +25973,9 @@ RopajeOrca=3447
 RopajeGnoma=2879
 ObjType=3
 MAXDEF=10
-MINDEF=0
+MINDEF=5
 Valor=0
 Texto=Armadura de Bandido Imperial de 2ª Jerarquía
-
-[OBJ1585]
-Name=Armadura de Bandido Imperial de 2ª Jerarquía (Bajos)
-GrhIndex=72
-RopajeHumano=56
-RopajeElfo=56
-RopajeElfoOscuro=2307
-RopajeEnano=4735
-RopajeOrco=2079
-RopajeGnomo=4735
-RopajeHumana=56
-RopajeElfa=56
-RopajeElfaOscura=2307
-RopajeEnana=4735
-RopajeOrca=2079
-RopajeGnoma=4735
-ObjType=3
-MAXDEF=10
-MINDEF=0
-Valor=0
-Texto=Armadura de Bandido Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1594]
 Name=Pergamino del Iniciante
@@ -25351,12 +26802,12 @@ RopajeElfoOscuro=2310
 RopajeEnano=1201
 RopajeOrco=2082
 RopajeGnomo=1201
-RopajeHumana=59
-RopajeElfa=59
-RopajeElfaOscura=2310
-RopajeEnana=1201
-RopajeOrca=2082
-RopajeGnoma=1201
+RopajeHumana=2298
+RopajeElfa=2298
+RopajeElfaOscura=3814
+RopajeEnana=2829
+RopajeOrca=3397
+RopajeGnoma=2829
 ObjType=3
 MAXDEF=43
 MINDEF=38
@@ -25372,12 +26823,12 @@ RopajeElfoOscuro=2310
 RopajeEnano=1201
 RopajeOrco=2082
 RopajeGnomo=1201
-RopajeHumana=59
-RopajeElfa=59
-RopajeElfaOscura=2310
-RopajeEnana=1201
-RopajeOrca=2082
-RopajeGnoma=1201
+RopajeHumana=2298
+RopajeElfa=2298
+RopajeElfaOscura=3814
+RopajeEnana=2829
+RopajeOrca=3397
+RopajeGnoma=2829
 ObjType=3
 MAXDEF=43
 MINDEF=38
@@ -25392,15 +26843,6 @@ MinHIT=15
 MaxHIT=20
 Valor=0
 Texto=Espada Legendaria Exclusiva de Guerreros
-
-[OBJ1806]
-Name=Báculo de Aqualin
-GrhIndex=36305
-Objtype=2
-MinHIT=7
-MaxHIT=15
-Valor=10125
-Texto=Báculo de Aqualin
 
 [OBJ1808]
 Name=Garra del Dragón Negro
@@ -25548,12 +26990,12 @@ RopajeElfoOscuro=2311
 RopajeEnano=1018
 RopajeOrco=2083
 RopajeGnomo=1018
-RopajeHumana=112
-RopajeElfa=60
-RopajeElfaOscura=2311
-RopajeEnana=1018
-RopajeOrca=2083
-RopajeGnoma=1018
+RopajeHumana=2299
+RopajeElfa=2299
+RopajeElfaOscura=3815
+RopajeEnana=2830
+RopajeOrca=3398
+RopajeGnoma=2830
 ObjType=3
 MAXDEF=42
 MINDEF=37
@@ -25619,12 +27061,12 @@ RopajeElfoOscuro=1812
 RopajeEnano=999
 RopajeOrco=1764
 RopajeGnomo=999
-RopajeHumana=2617
-RopajeElfa=2617
-RopajeElfaOscura=2665
-RopajeEnana=2633
-RopajeOrca=2649
-RopajeGnoma=2633
+RopajeHumana=2036
+RopajeElfa=2036
+RopajeElfaOscura=3536
+RopajeEnana=2536
+RopajeOrca=3086
+RopajeGnoma=2536
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -25640,12 +27082,12 @@ RopajeElfoOscuro=2373
 RopajeEnano=989
 RopajeOrco=2357
 RopajeGnomo=989
-RopajeHumana=1222
-RopajeElfa=1222
-RopajeElfaOscura=2373
-RopajeEnana=989
-RopajeOrca=2357
-RopajeGnoma=989
+RopajeHumana=2392
+RopajeElfa=2392
+RopajeElfaOscura=3722
+RopajeEnana=2780
+RopajeOrca=3347
+RopajeGnoma=2780
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -25661,12 +27103,12 @@ RopajeElfoOscuro=2371
 RopajeEnano=985
 RopajeOrco=2355
 RopajeGnomo=985
-RopajeHumana=1219
-RopajeElfa=1219
-RopajeElfaOscura=2371
-RopajeEnana=985
-RopajeOrca=2355
-RopajeGnoma=985
+RopajeHumana=2390
+RopajeElfa=2390
+RopajeElfaOscura=3720
+RopajeEnana=2778
+RopajeOrca=3345
+RopajeGnoma=2778
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -25691,12 +27133,12 @@ RopajeElfoOscuro=2376
 RopajeEnano=994
 RopajeOrco=2360
 RopajeGnomo=994
-RopajeHumana=1227
-RopajeElfa=1227
-RopajeElfaOscura=2376
-RopajeEnana=994
-RopajeOrca=2360
-RopajeGnoma=994
+RopajeHumana=2395
+RopajeElfa=2395
+RopajeElfaOscura=3725
+RopajeEnana=2783
+RopajeOrca=3350
+RopajeGnoma=2783
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -25784,12 +27226,12 @@ RopajeElfoOscuro=2025
 RopajeEnano=998
 RopajeOrco=2009
 RopajeGnomo=998
-RopajeHumana=2921
-RopajeElfa=2921
-RopajeElfaOscura=2958
-RopajeEnana=2932
-RopajeOrca=2942
-RopajeGnoma=2932
+RopajeHumana=2149
+RopajeElfa=2149
+RopajeElfaOscura=3606
+RopajeEnana=2648
+RopajeOrca=3215
+RopajeGnoma=2648
 ObjType=3
 MAXDEF=37
 MINDEF=33
@@ -25805,12 +27247,12 @@ RopajeElfoOscuro=1816
 RopajeEnano=1013
 RopajeOrco=1768
 RopajeGnomo=1013
-RopajeHumana=2621
-RopajeElfa=2621
-RopajeElfaOscura=2669
-RopajeEnana=2637
-RopajeOrca=2653
-RopajeGnoma=2637
+RopajeHumana=2040
+RopajeElfa=2040
+RopajeElfaOscura=3540
+RopajeEnana=2540
+RopajeOrca=3090
+RopajeGnoma=2540
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -25826,12 +27268,12 @@ RopajeElfoOscuro=2037
 RopajeEnano=997
 RopajeOrco=2021
 RopajeGnomo=997
-RopajeHumana=2927
-RopajeElfa=2927
-RopajeElfaOscura=2970
-RopajeEnana=1194
-RopajeOrca=2954
-RopajeGnoma=1194
+RopajeHumana=2161
+RopajeElfa=2161
+RopajeElfaOscura=3618
+RopajeEnana=2660
+RopajeOrca=3227
+RopajeGnoma=2660
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -25847,12 +27289,12 @@ RopajeElfoOscuro=1813
 RopajeEnano=1000
 RopajeOrco=1765
 RopajeGnomo=1000
-RopajeHumana=2618
-RopajeElfa=2618
-RopajeElfaOscura=2666
-RopajeEnana=2634
-RopajeOrca=2650
-RopajeGnoma=2634
+RopajeHumana=2037
+RopajeElfa=2037
+RopajeElfaOscura=3537
+RopajeEnana=2537
+RopajeOrca=3087
+RopajeGnoma=2537
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -26034,12 +27476,12 @@ RopajeElfoOscuro=1607
 RopajeEnano=654
 RopajeOrco=1155
 RopajeGnomo=654
-RopajeHumana=187
-RopajeElfa=187
-RopajeElfaOscura=1607
-RopajeEnana=654
-RopajeOrca=1155
-RopajeGnoma=654
+RopajeHumana=2268
+RopajeElfa=2268
+RopajeElfaOscura=3784
+RopajeEnana=2799
+RopajeOrca=3367
+RopajeGnoma=2799
 ObjType=3
 MAXDEF=7
 MINDEF=5
@@ -26064,12 +27506,12 @@ RopajeElfoOscuro=1819
 RopajeEnano=543
 RopajeOrco=1771
 RopajeGnomo=543
-RopajeHumana=2624
-RopajeElfa=2624
-RopajeElfaOscura=2672
-RopajeEnana=2640
-RopajeOrca=2656
-RopajeGnoma=2640
+RopajeHumana=2043
+RopajeElfa=2043
+RopajeElfaOscura=3543
+RopajeEnana=2543
+RopajeOrca=3093
+RopajeGnoma=2543
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -26083,12 +27525,12 @@ RopajeElfoOscuro=2068
 RopajeEnano=4903
 RopajeOrco=2052
 RopajeGnomo=4903
-RopajeHumana=220
-RopajeElfa=291
-RopajeElfaOscura=2068
-RopajeEnana=4903
-RopajeOrca=2052
-RopajeGnoma=4903
+RopajeHumana=2348
+RopajeElfa=2348
+RopajeElfaOscura=3880
+RopajeEnana=2879
+RopajeOrca=3447
+RopajeGnoma=2879
 Valor=0
 ObjType=3
 MAXDEF=47
@@ -26104,12 +27546,12 @@ RopajeElfoOscuro=2057
 RopajeEnano=774
 RopajeOrco=2041
 RopajeGnomo=774
-RopajeHumana=280
-RopajeElfa=280
-RopajeElfaOscura=2057
-RopajeEnana=774
-RopajeOrca=2041
-RopajeGnoma=774
+RopajeHumana=2337
+RopajeElfa=2337
+RopajeElfaOscura=3869
+RopajeEnana=2868
+RopajeOrca=3436
+RopajeGnoma=2868
 ObjType=3
 MAXDEF=47
 MINDEF=42
@@ -26176,10 +27618,10 @@ RopajeOrco=2237
 RopajeGnomo=1671
 RopajeHumana=2117
 RopajeElfa=2117
-RopajeElfaOscura=4862
-RopajeEnana=1671
+RopajeElfaOscura=3574
+RopajeEnana=2616
 RopajeOrca=3183
-RopajeGnoma=1671
+RopajeGnoma=2616
 ObjType=3
 MAXDEF=25
 MINDEF=26
@@ -26216,12 +27658,12 @@ RopajeElfoOscuro=2306
 RopajeEnano=4895
 RopajeOrco=2078
 RopajeGnomo=4895
-RopajeHumana=55
-RopajeElfa=55
-RopajeElfaOscura=2306
-RopajeEnana=4895
-RopajeOrca=2078
-RopajeGnoma=4895
+RopajeHumana=2294
+RopajeElfa=2294
+RopajeElfaOscura=3810
+RopajeEnana=2825
+RopajeOrca=3393
+RopajeGnoma=2825
 ObjType=3
 MAXDEF=30
 MINDEF=25
@@ -26237,12 +27679,12 @@ RopajeElfoOscuro=1726
 RopajeEnano=4911
 RopajeOrco=1226
 RopajeGnomo=4911
-RopajeHumana=83
-RopajeElfa=83
+RopajeHumana=2323
+RopajeElfa=2323
 RopajeElfaOscura=3839
-RopajeEnana=4911
+RopajeEnana=2854
 RopajeOrca=3422
-RopajeGnoma=4911
+RopajeGnoma=2854
 ObjType=3
 MAXDEF=15
 MINDEF=10
@@ -26285,12 +27727,12 @@ RopajeElfoOscuro=2334
 RopajeEnano=1707
 RopajeOrco=2318
 RopajeGnomo=1707
-RopajeHumana=257
-RopajeElfa=257
-RopajeElfaOscura=2334
-RopajeEnana=1707
-RopajeOrca=2318
-RopajeGnoma=1707
+RopajeHumana=2166
+RopajeElfa=2166
+RopajeElfaOscura=3854
+RopajeEnana=2665
+RopajeOrca=3232
+RopajeGnoma=2665
 ObjType=3
 MAXDEF=37
 MINDEF=30
@@ -26373,12 +27815,12 @@ RopajeElfoOscuro=1820
 RopajeEnano=544
 RopajeOrco=1772
 RopajeGnomo=544
-RopajeHumana=2625
-RopajeElfa=2625
-RopajeElfaOscura=2673
-RopajeEnana=2641
-RopajeOrca=2657
-RopajeGnoma=2641
+RopajeHumana=2044
+RopajeElfa=2044
+RopajeElfaOscura=3544
+RopajeEnana=2544
+RopajeOrca=3094
+RopajeGnoma=2544
 ObjType=3
 SkHerreria=100
 LingH=550
@@ -26452,12 +27894,12 @@ RopajeElfoOscuro=2300
 RopajeEnano=3260
 RopajeOrco=2072
 RopajeGnomo=3260
-RopajeHumana=175
-RopajeElfa=49
-RopajeElfaOscura=2300
-RopajeEnana=3260
-RopajeOrca=2072
-RopajeGnoma=3260
+RopajeHumana=2288
+RopajeElfa=2288
+RopajeElfaOscura=3804
+RopajeEnana=2819
+RopajeOrca=3387
+RopajeGnoma=2819
 ObjType=3
 MAXDEF=37
 MINDEF=30
@@ -26490,12 +27932,12 @@ RopajeElfoOscuro=1869
 RopajeEnano=1738
 RopajeOrco=2386
 RopajeGnomo=1738
-RopajeHumana=379
-RopajeElfa=379
-RopajeElfaOscura=1869
-RopajeEnana=1738
-RopajeOrca=2386
-RopajeGnoma=1738
+RopajeHumana=2358
+RopajeElfa=2358
+RopajeElfaOscura=3889
+RopajeEnana=2889
+RopajeOrca=3457
+RopajeGnoma=2889
 ObjType=3
 MAXDEF=34
 MINDEF=33
@@ -26514,12 +27956,12 @@ RopajeElfoOscuro=1868
 RopajeEnano=872
 RopajeOrco=2385
 RopajeGnomo=872
-RopajeHumana=378
-RopajeElfa=378
-RopajeElfaOscura=1868
-RopajeEnana=872
-RopajeOrca=2385
-RopajeGnoma=872
+RopajeHumana=2357
+RopajeElfa=2357
+RopajeElfaOscura=3888
+RopajeEnana=2888
+RopajeOrca=3456
+RopajeGnoma=2888
 ObjType=3
 MAXDEF=30
 MINDEF=30
@@ -26535,12 +27977,12 @@ RopajeElfoOscuro=1875
 RopajeEnano=1741
 RopajeOrco=2392
 RopajeGnomo=1741
-RopajeHumana=4936
-RopajeElfa=4936
-RopajeElfaOscura=1875
-RopajeEnana=1741
-RopajeOrca=2392
-RopajeGnoma=1741
+RopajeHumana=2364
+RopajeElfa=2364
+RopajeElfaOscura=3895
+RopajeEnana=2895
+RopajeOrca=3463
+RopajeGnoma=2895
 ObjType=3
 MAXDEF=34
 MINDEF=33
@@ -26580,8 +28022,8 @@ RopajeElfoOscuro=2031
 RopajeEnano=3103
 RopajeOrco=2015
 RopajeGnomo=3103
-RopajeHumana=1015
-RopajeElfa=1015
+RopajeHumana=2155
+RopajeElfa=2155
 RopajeElfaOscura=3612
 RopajeEnana=2654
 RopajeOrca=3221
@@ -26662,12 +28104,12 @@ RopajeElfoOscuro=1874
 RopajeEnano=878
 RopajeOrco=1418
 RopajeGnomo=878
-RopajeHumana=384
-RopajeElfa=384
-RopajeElfaOscura=1874
-RopajeEnana=878
-RopajeOrca=1418
-RopajeGnoma=878
+RopajeHumana=2363
+RopajeElfa=2363
+RopajeElfaOscura=3894
+RopajeEnana=2894
+RopajeOrca=3462
+RopajeGnoma=2894
 ObjType=3
 MAXDEF=35
 MINDEF=34
@@ -26686,12 +28128,12 @@ RopajeElfoOscuro=2130
 RopajeEnano=827
 RopajeOrco=2146
 RopajeGnomo=827
-RopajeHumana=332
-RopajeElfa=332
-RopajeElfaOscura=2130
-RopajeEnana=827
-RopajeOrca=2146
-RopajeGnoma=827
+RopajeHumana=2218
+RopajeElfa=2218
+RopajeElfaOscura=3659
+RopajeEnana=2717
+RopajeOrca=3284
+RopajeGnoma=2717
 ObjType=3
 MAXDEF=38
 MINDEF=35
@@ -26711,12 +28153,12 @@ RopajeElfoOscuro=2332
 RopajeEnano=3102
 RopajeOrco=2316
 RopajeGnomo=3102
-RopajeHumana=255
-RopajeElfa=255
-RopajeElfaOscura=2332
-RopajeEnana=3102
-RopajeOrca=2316
-RopajeGnoma=3102
+RopajeHumana=2164
+RopajeElfa=2164
+RopajeElfaOscura=3852
+RopajeEnana=2663
+RopajeOrca=3230
+RopajeGnoma=2663
 ObjType=3
 MAXDEF=21
 MINDEF=20
@@ -26732,12 +28174,12 @@ RopajeElfoOscuro=2335
 RopajeEnano=4949
 RopajeOrco=2319
 RopajeGnomo=4949
-RopajeHumana=258
-RopajeElfa=258
-RopajeElfaOscura=2335
-RopajeEnana=4949
-RopajeOrca=2319
-RopajeGnoma=4949
+RopajeHumana=2167
+RopajeElfa=2167
+RopajeElfaOscura=3855
+RopajeEnana=2666
+RopajeOrca=3233
+RopajeGnoma=2666
 ObjType=3
 MAXDEF=29
 MINDEF=26
@@ -26753,12 +28195,12 @@ RopajeElfoOscuro=2342
 RopajeEnano=603
 RopajeOrco=2326
 RopajeGnomo=603
-RopajeHumana=265
-RopajeElfa=265
-RopajeElfaOscura=2342
-RopajeEnana=603
-RopajeOrca=2326
-RopajeGnoma=603
+RopajeHumana=2174
+RopajeElfa=2174
+RopajeElfaOscura=3862
+RopajeEnana=2673
+RopajeOrca=3240
+RopajeGnoma=2673
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -26766,6 +28208,18 @@ Valor=0
 
 [OBJ1947]
 Name=Ropaje Festivo
+RopajeHumano=322
+RopajeElfo=322
+RopajeElfoOscuro=1815
+RopajeEnano=817
+RopajeOrco=1359
+RopajeGnomo=817
+RopajeHumana=2208
+RopajeElfa=2208
+RopajeElfaOscura=3649
+RopajeEnana=2707
+RopajeOrca=3274
+RopajeGnoma=2707
 GrhIndex=41638
 ObjType=3
 MAXDEF=6
@@ -26782,12 +28236,12 @@ RopajeElfoOscuro=1516
 RopajeEnano=611
 RopajeOrco=1744
 RopajeGnomo=611
-RopajeHumana=1115
-RopajeElfa=1115
-RopajeElfaOscura=2529
-RopajeEnana=2497
-RopajeOrca=2513
-RopajeGnoma=2497
+RopajeHumana=2016
+RopajeElfa=2016
+RopajeElfaOscura=3516
+RopajeEnana=2516
+RopajeOrca=3066
+RopajeGnoma=2516
 ObjType=3
 MAXDEF=11
 MINDEF=7
@@ -26803,12 +28257,12 @@ RopajeElfoOscuro=1705
 RopajeEnano=1685
 RopajeOrco=1205
 RopajeGnomo=1685
-RopajeHumana=221
-RopajeElfa=221
-RopajeElfaOscura=1705
-RopajeEnana=1685
-RopajeOrca=1205
-RopajeGnoma=1685
+RopajeHumana=2302
+RopajeElfa=2302
+RopajeElfaOscura=3818
+RopajeEnana=2833
+RopajeOrca=3401
+RopajeGnoma=2833
 ObjType=3
 MAXDEF=37
 MINDEF=27
@@ -26824,12 +28278,12 @@ RopajeElfoOscuro=2000
 RopajeEnano=623
 RopajeOrco=1231
 RopajeGnomo=623
-RopajeHumana=88
-RopajeElfa=88
-RopajeElfaOscura=2000
-RopajeEnana=623
-RopajeOrca=1231
-RopajeGnoma=623
+RopajeHumana=2328
+RopajeElfa=2328
+RopajeElfaOscura=3844
+RopajeEnana=2859
+RopajeOrca=3427
+RopajeGnoma=2859
 ObjType=3
 MAXDEF=15
 MINDEF=10
@@ -26916,12 +28370,12 @@ RopajeElfoOscuro=1710
 RopajeEnano=631
 RopajeOrco=1210
 RopajeGnomo=631
-RopajeHumana=226
-RopajeElfa=226
-RopajeElfaOscura=1710
-RopajeEnana=631
-RopajeOrca=1210
-RopajeGnoma=631
+RopajeHumana=2307
+RopajeElfa=2307
+RopajeElfaOscura=3823
+RopajeEnana=2838
+RopajeOrca=3406
+RopajeGnoma=2838
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -26937,12 +28391,12 @@ RopajeElfoOscuro=1639
 RopajeEnano=633
 RopajeOrco=2280
 RopajeGnomo=633
-RopajeHumana=219
-RopajeElfa=219
-RopajeElfaOscura=1639
-RopajeEnana=633
-RopajeOrca=2280
-RopajeGnoma=633
+RopajeHumana=2284
+RopajeElfa=2284
+RopajeElfaOscura=3800
+RopajeEnana=2815
+RopajeOrca=3383
+RopajeGnoma=2815
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -26964,7 +28418,6 @@ RopajeElfaOscura=3698
 RopajeEnana=2756
 RopajeOrca=3323
 RopajeGnoma=2756
-NumRopaje=2241
 ObjType=3
 MAXDEF=25
 MINDEF=20
@@ -27007,10 +28460,10 @@ RopajeOrco=2204
 RopajeGnomo=594
 RopajeHumana=2090
 RopajeElfa=2090
-RopajeElfaOscura=1547
-RopajeEnana=2884
-RopajeOrca=2204
-RopajeGnoma=2884
+RopajeElfaOscura=3547
+RopajeEnana=2589
+RopajeOrca=3140
+RopajeGnoma=2589
 ObjType=3
 MAXDEF=5
 MINDEF=4
@@ -27047,12 +28500,12 @@ RopajeElfoOscuro=1584
 RopajeEnano=3258
 RopajeOrco=2241
 RopajeGnomo=3258
-RopajeHumana=4782
-RopajeElfa=4782
-RopajeElfaOscura=4866
-RopajeEnana=3258
-RopajeOrca=4850
-RopajeGnoma=3258
+RopajeHumana=2121
+RopajeElfa=2121
+RopajeElfaOscura=3578
+RopajeEnana=2620
+RopajeOrca=3187
+RopajeGnoma=2620
 ObjType=3
 MAXDEF=11
 MINDEF=7
@@ -27087,12 +28540,12 @@ RopajeElfoOscuro=1708
 RopajeEnano=1686
 RopajeOrco=1208
 RopajeGnomo=1686
-RopajeHumana=224
-RopajeElfa=224
-RopajeElfaOscura=1708
-RopajeEnana=1686
-RopajeOrca=1208
-RopajeGnoma=1686
+RopajeHumana=2305
+RopajeElfa=2305
+RopajeElfaOscura=3821
+RopajeEnana=2836
+RopajeOrca=3404
+RopajeGnoma=2836
 ObjType=3
 MAXDEF=20
 MINDEF=15
@@ -27114,7 +28567,6 @@ RopajeElfaOscura=3701
 RopajeEnana=2759
 RopajeOrca=3326
 RopajeGnoma=2759
-NumRopaje=2244
 ObjType=3
 MAXDEF=3
 MINDEF=2
@@ -27147,6 +28599,7 @@ PielOsoPardo=0
 PielOsoPolar=0
 
 [OBJ1977]
+RopajeOrca=3315
 Name=Vestido de Mujer (ORCO)
 GrhIndex=11530
 ObjType=3
@@ -27158,7 +28611,6 @@ Valor=3200
 [OBJ1978]
 Name=Vestido Violeta (ORCO)
 GrhIndex=449
-NumRopaje=3335
 RopajeHumano=2253
 RopajeElfo=2253
 RopajeElfoOscuro=3710
@@ -27180,8 +28632,6 @@ Valor=3200
 [OBJ1979]
 Name=Vestido Rosado (ORCO)
 GrhIndex=450
-en_Name=Pink dress (ORC)
-NumRopaje=3335
 RopajeHumano=2253
 RopajeElfo=2253
 RopajeElfoOscuro=3710
@@ -27194,12 +28644,6 @@ RopajeElfaOscura=3710
 RopajeEnana=2768
 RopajeOrca=3335
 RopajeGnoma=2768
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-RazaEnana=1
-RazaGnoma=1
 ObjType=3
 MAXDEF=16
 MINDEF=13
@@ -27236,12 +28680,12 @@ RopajeElfoOscuro=1826
 RopajeEnano=669
 RopajeOrco=1778
 RopajeGnomo=669
-RopajeHumana=2891
-RopajeElfa=2891
-RopajeElfaOscura=1826
-RopajeEnana=2877
-RopajeOrca=1778
-RopajeGnoma=2877
+RopajeHumana=2050
+RopajeElfa=2050
+RopajeElfaOscura=3730
+RopajeEnana=2550
+RopajeOrca=3100
+RopajeGnoma=2550
 ObjType=3
 MAXDEF=4
 MINDEF=3
@@ -27257,11 +28701,11 @@ RopajeElfoOscuro=1829
 RopajeEnano=671
 RopajeOrco=1781
 RopajeGnomo=671
-RopajeHumana=2892
-RopajeElfa=2892
-RopajeElfaOscura=1829
+RopajeHumana=2053
+RopajeElfa=2053
+RopajeElfaOscura=3733
 RopajeEnana=2553
-RopajeOrca=1781
+RopajeOrca=3103
 RopajeGnoma=2553
 ObjType=3
 MAXDEF=16
@@ -27299,12 +28743,12 @@ RopajeElfoOscuro=1579
 RopajeEnano=675
 RopajeOrco=2236
 RopajeGnomo=675
-RopajeHumana=4779
-RopajeElfa=4779
-RopajeElfaOscura=4861
-RopajeEnana=675
-RopajeOrca=4845
-RopajeGnoma=675
+RopajeHumana=2116
+RopajeElfa=2116
+RopajeElfaOscura=3573
+RopajeEnana=2615
+RopajeOrca=3182
+RopajeGnoma=2615
 ObjType=3
 MAXDEF=18
 MINDEF=17
@@ -27312,6 +28756,12 @@ Texto=Túnica Infernal
 Valor=18000
 
 [OBJ1985]
+RopajeElfa=2231
+RopajeGnoma=2746
+RopajeEnana=2746
+RopajeElfaOscura=3688
+RopajeHumana=2231
+RopajeOrca=3313
 Name=Vestido de Condesa Negro (M)
 GrhIndex=11497
 ObjType=3
@@ -27323,7 +28773,6 @@ Valor=3600
 [OBJ1986]
 Name=Vestido Duquesa (M)
 GrhIndex=43582
-NumRopaje=2250
 RopajeHumano=2250
 RopajeElfo=2250
 RopajeElfoOscuro=3707
@@ -27351,12 +28800,12 @@ RopajeElfoOscuro=2331
 RopajeEnano=3091
 RopajeOrco=2315
 RopajeGnomo=3091
-RopajeHumana=254
-RopajeElfa=254
-RopajeElfaOscura=2331
-RopajeEnana=3091
-RopajeOrca=2315
-RopajeGnoma=3091
+RopajeHumana=2163
+RopajeElfa=2163
+RopajeElfaOscura=3851
+RopajeEnana=2662
+RopajeOrca=3229
+RopajeGnoma=2662
 ObjType=3
 MAXDEF=35
 MINDEF=27
@@ -27430,12 +28879,12 @@ RopajeElfoOscuro=2026
 RopajeEnano=426
 RopajeOrco=2010
 RopajeGnomo=426
-RopajeHumana=257
-RopajeElfa=241
-RopajeElfaOscura=2026
-RopajeEnana=426
-RopajeOrca=2010
-RopajeGnoma=426
+RopajeHumana=2150
+RopajeElfa=2150
+RopajeElfaOscura=3607
+RopajeEnana=2649
+RopajeOrca=3216
+RopajeGnoma=2649
 ObjType=3
 SkHerreria=100
 LingH=550
@@ -32107,12 +33556,12 @@ RopajeElfoOscuro=2369
 RopajeEnano=1734
 RopajeOrco=2353
 RopajeGnomo=1734
-RopajeHumana=880
-RopajeElfa=880
-RopajeElfaOscura=2369
-RopajeEnana=1734
-RopajeOrca=2353
-RopajeGnoma=1734
+RopajeHumana=2388
+RopajeElfa=2388
+RopajeElfaOscura=3718
+RopajeEnana=2776
+RopajeOrca=3343
+RopajeGnoma=2776
 ObjType=3
 MAXDEF=35
 MINDEF=30
@@ -32121,8 +33570,6 @@ Texto=Túnica Avernal
 [OBJ2783]
 Name=Armadura Lóbrera (M)
 GrhIndex=10720
-en_Name=Lobrera Armor (M)
-NumRopaje=2057
 RopajeHumano=2057
 RopajeElfo=2057
 RopajeElfoOscuro=2057
@@ -32144,8 +33591,6 @@ Texto=Armadura Lóbrera (M)
 [OBJ2786]
 Name=Armadura Magna (M)
 GrhIndex=10720
-en_Name=Magna Armor (M)
-NumRopaje=2057
 RopajeHumano=2057
 RopajeElfo=2057
 RopajeElfoOscuro=2057
@@ -32188,8 +33633,6 @@ Texto=Anillas Con Manto Verde (H/E/EO)
 [OBJ2802]
 Name=Cota de Mallas Larga (H/E/EO/M)
 GrhIndex=2560
-en_Name=Long Chain Mail (H/E/DE/M)
-NumRopaje=93
 RopajeHumano=93
 RopajeElfo=93
 RopajeElfoOscuro=2005
@@ -32217,12 +33660,12 @@ RopajeElfoOscuro=2103
 RopajeEnano=797
 RopajeOrco=2087
 RopajeGnomo=797
-RopajeHumana=294
-RopajeElfa=294
-RopajeElfaOscura=2103
-RopajeEnana=2687
-RopajeOrca=2087
-RopajeGnoma=2687
+RopajeHumana=2179
+RopajeElfa=2179
+RopajeElfaOscura=3620
+RopajeEnana=2678
+RopajeOrca=3245
+RopajeGnoma=2678
 ObjType=3
 MAXDEF=32
 MINDEF=25
@@ -32238,11 +33681,11 @@ RopajeElfoOscuro=1807
 RopajeEnano=1650
 RopajeOrco=1759
 RopajeGnomo=1650
-RopajeHumana=2612
-RopajeElfa=2612
-RopajeElfaOscura=2660
+RopajeHumana=2031
+RopajeElfa=2031
+RopajeElfaOscura=3531
 RopajeEnana=2531
-RopajeOrca=3050
+RopajeOrca=3352
 RopajeGnoma=2531
 ObjType=3
 MAXDEF=32
@@ -32259,12 +33702,12 @@ RopajeElfoOscuro=2312
 RopajeEnano=4741
 RopajeOrco=2084
 RopajeGnomo=4741
-RopajeHumana=61
-RopajeElfa=61
-RopajeElfaOscura=2312
-RopajeEnana=4741
-RopajeOrca=2084
-RopajeGnoma=4741
+RopajeHumana=2300
+RopajeElfa=2300
+RopajeElfaOscura=3816
+RopajeEnana=2831
+RopajeOrca=3399
+RopajeGnoma=2831
 ObjType=3
 MAXDEF=35
 MINDEF=23
@@ -32280,12 +33723,12 @@ RopajeElfoOscuro=1725
 RopajeEnano=725
 RopajeOrco=1225
 RopajeGnomo=725
-RopajeHumana=82
-RopajeElfa=82
-RopajeElfaOscura=1725
-RopajeEnana=725
-RopajeOrca=1225
-RopajeGnoma=725
+RopajeHumana=2322
+RopajeElfa=2322
+RopajeElfaOscura=3838
+RopajeEnana=2853
+RopajeOrca=3421
+RopajeGnoma=2853
 ObjType=3
 MAXDEF=25
 MINDEF=20
@@ -32301,14 +33744,12 @@ RopajeElfoOscuro=3830
 RopajeEnano=2845
 RopajeOrco=3413
 RopajeGnomo=2845
-RopajeHumana=82
-RopajeElfa=82
-RopajeElfaOscura=3830
-RopajeEnana=2845
-RopajeOrca=3413
-RopajeGnoma=2845
-en_Name=Winter Clothes (M)
-NumRopaje=82
+RopajeHumana=2322
+RopajeElfa=2322
+RopajeElfaOscura=3838
+RopajeEnana=2853
+RopajeOrca=3421
+RopajeGnoma=2853
 ObjType=3
 MAXDEF=25
 MINDEF=20
@@ -32480,12 +33921,12 @@ RopajeElfoOscuro=1597
 RopajeEnano=1145
 RopajeOrco=1228
 RopajeGnomo=1145
-RopajeHumana=177
-RopajeElfa=177
-RopajeElfaOscura=1597
-RopajeEnana=1145
-RopajeOrca=3424
-RopajeGnoma=1145
+RopajeHumana=2258
+RopajeElfa=2258
+RopajeElfaOscura=3774
+RopajeEnana=2789
+RopajeOrca=3357
+RopajeGnoma=2789
 ObjType=3
 MAXDEF=12
 MINDEF=7
@@ -32510,12 +33951,12 @@ RopajeElfoOscuro=2066
 RopajeEnano=1149
 RopajeOrco=2050
 RopajeGnomo=1149
-RopajeHumana=289
-RopajeElfa=289
-RopajeElfaOscura=2066
-RopajeEnana=1149
-RopajeOrca=2050
-RopajeGnoma=1149
+RopajeHumana=2346
+RopajeElfa=2346
+RopajeElfaOscura=3878
+RopajeEnana=2877
+RopajeOrca=3445
+RopajeGnoma=2877
 ObjType=3
 MAXDEF=0
 MINDEF=0
@@ -32549,12 +33990,12 @@ RopajeElfoOscuro=1868
 RopajeEnano=1151
 RopajeOrco=1852
 RopajeGnomo=1151
-RopajeHumana=2739
-RopajeElfa=2739
-RopajeElfaOscura=2770
-RopajeEnana=2748
-RopajeOrca=2759
-RopajeGnoma=2748
+RopajeHumana=2085
+RopajeElfa=2085
+RopajeElfaOscura=3765
+RopajeEnana=2585
+RopajeOrca=3135
+RopajeGnoma=2585
 ObjType=3
 MAXDEF=7
 MINDEF=5
@@ -32562,6 +34003,8 @@ Valor=1000
 Texto=Vestimenta de Servidumbre (E/G)
 
 [OBJ2827]
+RopajeEnana=2763
+RopajeGnoma=2763
 Name=Vestido de Novia (E/G-M)
 GrhIndex=11668
 ObjType=3
@@ -32585,7 +34028,6 @@ RopajeElfaOscura=3684
 RopajeEnana=2742
 RopajeOrca=3309
 RopajeGnoma=2742
-NumRopaje=2742
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -32685,8 +34127,6 @@ RopajeElfaOscura=1547
 RopajeEnana=2884
 RopajeOrca=2204
 RopajeGnoma=2884
-en_Name=Black Leather Dress
-NumRopaje=33
 ObjType=3
 MAXDEF=5
 MINDEF=3
@@ -32849,12 +34289,12 @@ RopajeElfoOscuro=1877
 RopajeEnano=1179
 RopajeOrco=1861
 RopajeGnomo=1179
-RopajeHumana=2741
-RopajeElfa=2741
-RopajeElfaOscura=2774
-RopajeEnana=2752
-RopajeOrca=2763
-RopajeGnoma=2752
+RopajeHumana=2089
+RopajeElfa=2089
+RopajeElfaOscura=3769
+RopajeEnana=2588
+RopajeOrca=3139
+RopajeGnoma=2588
 ObjType=3
 MAXDEF=5
 MINDEF=1
@@ -32891,12 +34331,12 @@ RopajeElfoOscuro=1867
 RopajeEnano=1181
 RopajeOrco=1851
 RopajeGnomo=1181
-RopajeHumana=2738
-RopajeElfa=2738
-RopajeElfaOscura=2769
-RopajeEnana=2747
-RopajeOrca=2758
-RopajeGnoma=2747
+RopajeHumana=2084
+RopajeElfa=2084
+RopajeElfaOscura=3764
+RopajeEnana=2584
+RopajeOrca=3134
+RopajeGnoma=2584
 ObjType=3
 MAXDEF=5
 MINDEF=3
@@ -32941,12 +34381,12 @@ RopajeElfoOscuro=2150
 RopajeEnano=4928
 RopajeOrco=2594
 RopajeGnomo=4928
-RopajeHumana=336
-RopajeElfa=336
-RopajeElfaOscura=2150
-RopajeEnana=1186
-RopajeOrca=2594
-RopajeGnoma=1186
+RopajeHumana=2366
+RopajeElfa=2366
+RopajeElfaOscura=3663
+RopajeEnana=2721
+RopajeOrca=3288
+RopajeGnoma=2721
 ObjType=3
 MAXDEF=20
 MINDEF=15
@@ -32968,8 +34408,6 @@ RopajeElfaOscura=2394
 RopajeEnana=1188
 RopajeOrca=2378
 RopajeGnoma=1188
-en_Name=Elegant Purple Dress (E/G-M)
-NumRopaje=1188
 ObjType=3
 MAXDEF=28
 MINDEF=20
@@ -33000,7 +34438,6 @@ RopajeElfaOscura=3682
 RopajeEnana=2740
 RopajeOrca=3307
 RopajeGnoma=2740
-NumRopaje=2740
 ObjType=3
 MAXDEF=35
 MINDEF=30
@@ -33070,10 +34507,10 @@ RopajeOrco=1749
 RopajeGnomo=1141
 RopajeHumana=2021
 RopajeElfa=2021
-RopajeElfaOscura=2534
-RopajeEnana=2502
-RopajeOrca=2518
-RopajeGnoma=2502
+RopajeElfaOscura=3521
+RopajeEnana=2521
+RopajeOrca=3071
+RopajeGnoma=2521
 ObjType=3
 MAXDEF=18
 MINDEF=14
@@ -33114,12 +34551,12 @@ RopajeElfoOscuro=2054
 RopajeEnano=1198
 RopajeOrco=2038
 RopajeGnomo=1198
-RopajeHumana=277
-RopajeElfa=277
-RopajeElfaOscura=2054
-RopajeEnana=1198
-RopajeOrca=2038
-RopajeGnoma=1198
+RopajeHumana=2334
+RopajeElfa=2334
+RopajeElfaOscura=3866
+RopajeEnana=2865
+RopajeOrca=3433
+RopajeGnoma=2865
 ObjType=3
 MAXDEF=20
 MINDEF=15
@@ -33156,12 +34593,12 @@ RopajeElfoOscuro=1634
 RopajeEnano=1199
 RopajeOrco=2275
 RopajeGnomo=1199
-RopajeHumana=214
-RopajeElfa=214
-RopajeElfaOscura=1634
-RopajeEnana=1199
-RopajeOrca=2275
-RopajeGnoma=1199
+RopajeHumana=2279
+RopajeElfa=2279
+RopajeElfaOscura=3795
+RopajeEnana=2810
+RopajeOrca=3378
+RopajeGnoma=2810
 ObjType=3
 MAXDEF=33
 MINDEF=25
@@ -33177,12 +34614,12 @@ RopajeElfoOscuro=1625
 RopajeEnano=1200
 RopajeOrco=2266
 RopajeGnomo=1200
-RopajeHumana=205
-RopajeElfa=205
-RopajeElfaOscura=1625
-RopajeEnana=1200
-RopajeOrca=2266
-RopajeGnoma=1200
+RopajeHumana=2270
+RopajeElfa=2270
+RopajeElfaOscura=3786
+RopajeEnana=2801
+RopajeOrca=3369
+RopajeGnoma=2801
 ObjType=3
 MAXDEF=30
 MINDEF=20
@@ -33198,12 +34635,12 @@ RopajeElfoOscuro=2004
 RopajeEnano=1699
 RopajeOrco=1988
 RopajeGnomo=1699
-RopajeHumana=92
-RopajeElfa=92
-RopajeElfaOscura=2004
-RopajeEnana=1699
-RopajeOrca=1988
-RopajeGnoma=1699
+RopajeHumana=2332
+RopajeElfa=2332
+RopajeElfaOscura=3848
+RopajeEnana=2863
+RopajeOrca=3431
+RopajeGnoma=2863
 ObjType=3
 MAXDEF=20
 MINDEF=15
@@ -33369,12 +34806,12 @@ RopajeElfoOscuro=1591
 RopajeEnano=1192
 RopajeOrco=2248
 RopajeGnomo=1192
-RopajeHumana=1217
-RopajeElfa=1217
-RopajeElfaOscura=4873
-RopajeEnana=4841
-RopajeOrca=4857
-RopajeGnoma=4841
+RopajeHumana=2128
+RopajeElfa=2128
+RopajeElfaOscura=3585
+RopajeEnana=2627
+RopajeOrca=3194
+RopajeGnoma=2627
 ObjType=3
 MAXDEF=23
 MINDEF=17
@@ -33399,12 +34836,12 @@ RopajeElfoOscuro=2371
 RopajeEnano=858
 RopajeOrco=2355
 RopajeGnomo=858
-RopajeHumana=1219
-RopajeElfa=1219
-RopajeElfaOscura=2371
-RopajeEnana=858
-RopajeOrca=2355
-RopajeGnoma=858
+RopajeHumana=2390
+RopajeElfa=2390
+RopajeElfaOscura=3720
+RopajeEnana=2778
+RopajeOrca=3345
+RopajeGnoma=2778
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -33462,12 +34899,12 @@ RopajeElfoOscuro=2373
 RopajeEnano=860
 RopajeOrco=2357
 RopajeGnomo=860
-RopajeHumana=1222
-RopajeElfa=1222
-RopajeElfaOscura=2373
-RopajeEnana=860
-RopajeOrca=2357
-RopajeGnoma=860
+RopajeHumana=2392
+RopajeElfa=2392
+RopajeElfaOscura=3722
+RopajeEnana=2780
+RopajeOrca=3347
+RopajeGnoma=2780
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -33504,12 +34941,12 @@ RopajeElfoOscuro=1630
 RopajeEnano=677
 RopajeOrco=2271
 RopajeGnomo=677
-RopajeHumana=210
-RopajeElfa=210
-RopajeElfaOscura=1630
-RopajeEnana=677
-RopajeOrca=2271
-RopajeGnoma=677
+RopajeHumana=2275
+RopajeElfa=2275
+RopajeElfaOscura=3791
+RopajeEnana=2806
+RopajeOrca=3374
+RopajeGnoma=2806
 ObjType=3
 MAXDEF=37
 MINDEF=33
@@ -33525,12 +34962,12 @@ RopajeElfoOscuro=2374
 RopajeEnano=1737
 RopajeOrco=2358
 RopajeGnomo=1737
-RopajeHumana=1224
-RopajeElfa=1224
-RopajeElfaOscura=2374
-RopajeEnana=1737
-RopajeOrca=2358
-RopajeGnoma=1737
+RopajeHumana=2393
+RopajeElfa=2393
+RopajeElfaOscura=3723
+RopajeEnana=2781
+RopajeOrca=3348
+RopajeGnoma=2781
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -33567,12 +35004,12 @@ RopajeElfoOscuro=2376
 RopajeEnano=863
 RopajeOrco=2360
 RopajeGnomo=863
-RopajeHumana=1227
-RopajeElfa=1227
-RopajeElfaOscura=2376
-RopajeEnana=863
-RopajeOrca=2360
-RopajeGnoma=863
+RopajeHumana=2395
+RopajeElfa=2395
+RopajeElfaOscura=3725
+RopajeEnana=2783
+RopajeOrca=3350
+RopajeGnoma=2783
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -33588,12 +35025,12 @@ RopajeElfoOscuro=2058
 RopajeEnano=781
 RopajeOrco=2042
 RopajeGnomo=781
-RopajeHumana=281
-RopajeElfa=281
-RopajeElfaOscura=2058
-RopajeEnana=2875
-RopajeOrca=2042
-RopajeGnoma=2875
+RopajeHumana=2338
+RopajeElfa=2338
+RopajeElfaOscura=3870
+RopajeEnana=2869
+RopajeOrca=3437
+RopajeGnoma=2869
 ObjType=3
 MAXDEF=16
 MINDEF=13
@@ -33630,12 +35067,12 @@ RopajeElfoOscuro=1811
 RopajeEnano=1653
 RopajeOrco=1763
 RopajeGnomo=1653
-RopajeHumana=2616
-RopajeElfa=2616
-RopajeElfaOscura=2664
-RopajeEnana=2632
-RopajeOrca=2648
-RopajeGnoma=2632
+RopajeHumana=2035
+RopajeElfa=2035
+RopajeElfaOscura=3535
+RopajeEnana=2535
+RopajeOrca=3085
+RopajeGnoma=2535
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -33672,12 +35109,12 @@ RopajeElfoOscuro=1812
 RopajeEnano=536
 RopajeOrco=1764
 RopajeGnomo=536
-RopajeHumana=2617
-RopajeElfa=2617
-RopajeElfaOscura=2665
-RopajeEnana=2633
-RopajeOrca=2649
-RopajeGnoma=2633
+RopajeHumana=2036
+RopajeElfa=2036
+RopajeElfaOscura=3536
+RopajeEnana=2536
+RopajeOrca=3086
+RopajeGnoma=2536
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -33693,12 +35130,12 @@ RopajeElfoOscuro=1813
 RopajeEnano=1000
 RopajeOrco=1765
 RopajeGnomo=1000
-RopajeHumana=2618
-RopajeElfa=2618
-RopajeElfaOscura=2666
-RopajeEnana=2634
-RopajeOrca=2650
-RopajeGnoma=2634
+RopajeHumana=2037
+RopajeElfa=2037
+RopajeElfaOscura=3537
+RopajeEnana=2537
+RopajeOrca=3087
+RopajeGnoma=2537
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -33714,12 +35151,12 @@ RopajeElfoOscuro=1814
 RopajeEnano=1004
 RopajeOrco=1766
 RopajeGnomo=1004
-RopajeHumana=2619
-RopajeElfa=2619
-RopajeElfaOscura=2667
-RopajeEnana=2635
-RopajeOrca=2651
-RopajeGnoma=2635
+RopajeHumana=2038
+RopajeElfa=2038
+RopajeElfaOscura=3538
+RopajeEnana=2538
+RopajeOrca=3088
+RopajeGnoma=2538
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -33735,12 +35172,12 @@ RopajeElfoOscuro=2399
 RopajeEnano=96
 RopajeOrco=2383
 RopajeGnomo=96
-RopajeHumana=1235
-RopajeElfa=1235
-RopajeElfaOscura=2399
-RopajeEnana=96
-RopajeOrca=2383
-RopajeGnoma=96
+RopajeHumana=2355
+RopajeElfa=2355
+RopajeElfaOscura=3886
+RopajeEnana=2886
+RopajeOrca=3454
+RopajeGnoma=2886
 ObjType=3
 MAXDEF=35
 MINDEF=30
@@ -33756,12 +35193,12 @@ RopajeElfoOscuro=1815
 RopajeEnano=1001
 RopajeOrco=1767
 RopajeGnomo=1001
-RopajeHumana=2620
-RopajeElfa=2620
-RopajeElfaOscura=2668
-RopajeEnana=2636
-RopajeOrca=2652
-RopajeGnoma=2636
+RopajeHumana=2039
+RopajeElfa=2039
+RopajeElfaOscura=3539
+RopajeEnana=2539
+RopajeOrca=3089
+RopajeGnoma=2539
 ObjType=3
 Valor=0
 MAXDEF=45
@@ -33777,12 +35214,12 @@ RopajeElfoOscuro=1608
 RopajeEnano=2592
 RopajeOrco=1156
 RopajeGnomo=2592
-RopajeHumana=188
-RopajeElfa=188
-RopajeElfaOscura=1608
-RopajeEnana=2592
-RopajeOrca=1156
-RopajeGnoma=2592
+RopajeHumana=2269
+RopajeElfa=2269
+RopajeElfaOscura=3785
+RopajeEnana=2800
+RopajeOrca=3368
+RopajeGnoma=2800
 ObjType=3
 MAXDEF=45
 MINDEF=40
@@ -33798,12 +35235,12 @@ RopajeElfoOscuro=1816
 RopajeEnano=1013
 RopajeOrco=1768
 RopajeGnomo=1013
-RopajeHumana=2621
-RopajeElfa=2621
-RopajeElfaOscura=2669
-RopajeEnana=2637
-RopajeOrca=2653
-RopajeGnoma=2637
+RopajeHumana=2040
+RopajeElfa=2040
+RopajeElfaOscura=3540
+RopajeEnana=2540
+RopajeOrca=3090
+RopajeGnoma=2540
 ObjType=3
 MAXDEF=40
 MINDEF=35
@@ -33840,12 +35277,12 @@ RopajeElfoOscuro=2003
 RopajeEnano=1016
 RopajeOrco=1234
 RopajeGnomo=1016
-RopajeHumana=91
-RopajeElfa=91
-RopajeElfaOscura=2003
-RopajeEnana=1016
-RopajeOrca=1234
-RopajeGnoma=1016
+RopajeHumana=2331
+RopajeElfa=2331
+RopajeElfaOscura=3847
+RopajeEnana=2862
+RopajeOrca=3430
+RopajeGnoma=2862
 ObjType=3
 MAXDEF=13
 MINDEF=10
@@ -33861,12 +35298,12 @@ RopajeElfoOscuro=1818
 RopajeEnano=1017
 RopajeOrco=1770
 RopajeGnomo=1017
-RopajeHumana=2623
-RopajeElfa=2623
-RopajeElfaOscura=2671
-RopajeEnana=2639
-RopajeOrca=2655
-RopajeGnoma=2639
+RopajeHumana=2042
+RopajeElfa=2042
+RopajeElfaOscura=3542
+RopajeEnana=2542
+RopajeOrca=3092
+RopajeGnoma=2542
 ObjType=3
 MAXDEF=42
 MINDEF=37
@@ -33951,12 +35388,12 @@ RopajeElfoOscuro=1527
 RopajeEnano=527
 RopajeOrco=1755
 RopajeGnomo=527
-RopajeHumana=1093
-RopajeElfa=1093
-RopajeElfaOscura=2540
-RopajeEnana=2508
-RopajeOrca=2524
-RopajeGnoma=2508
+RopajeHumana=2027
+RopajeElfa=2027
+RopajeElfaOscura=3527
+RopajeEnana=2527
+RopajeOrca=3077
+RopajeGnoma=2527
 ObjType=3
 MAXDEF=10
 MINDEF=5
@@ -34081,12 +35518,12 @@ RopajeElfoOscuro=2115
 RopajeEnano=800
 RopajeOrco=2099
 RopajeGnomo=800
-RopajeHumana=306
-RopajeElfa=306
-RopajeElfaOscura=2115
-RopajeEnana=800
-RopajeOrca=2099
-RopajeGnoma=800
+RopajeHumana=2191
+RopajeElfa=2191
+RopajeElfaOscura=3632
+RopajeEnana=2690
+RopajeOrca=3257
+RopajeGnoma=2690
 ObjType=3
 MAXDEF=5
 MINDEF=3
@@ -34185,27 +35622,6 @@ PielOsoPardo=0
 PielOsoPolar=0
 Texto=Ropa de Leñador
 
-[OBJ2919]
-Name=Túnica Roja (M)
-GrhIndex=59349
-RopajeHumano=121
-RopajeElfo=121
-RopajeElfoOscuro=1527
-RopajeEnano=556
-RopajeOrco=1755
-RopajeGnomo=556
-RopajeHumana=1093
-RopajeElfa=1093
-RopajeElfaOscura=2540
-RopajeEnana=2508
-RopajeOrca=2524
-RopajeGnoma=2508
-ObjType=3
-MAXDEF=11
-MINDEF=7
-Valor=2000
-Texto=Túnica Roja (M)
-
 [OBJ2920]
 Name=Túnica de Maga (M)
 GrhIndex=11104
@@ -34239,7 +35655,6 @@ Texto=Sírica Élfica Rojiza (H/E/EO-M)
 [OBJ2922]
 Name=Vestido Aurë (H/E/EO-M)
 GrhIndex=18229
-NumRopaje=2247
 RopajeHumano=2247
 RopajeElfo=2247
 RopajeElfoOscuro=3704
@@ -34261,18 +35676,18 @@ Texto=Vestido Aurë (H/E/EO-M)
 [OBJ2923]
 Name=Vestido de Gala Alcarinqua
 GrhIndex=11493
-RopajeHumano=0
-RopajeElfo=0
-RopajeElfoOscuro=0
-RopajeEnano=0
-RopajeOrco=0
-RopajeGnomo=0
-RopajeHumana=1
+RopajeHumano=2227
+RopajeElfo=2227
+RopajeElfoOscuro=3684
+RopajeEnano=2742
+RopajeOrco=3309
+RopajeGnomo=2742
+RopajeHumana=2227
 RopajeElfa=2227
-RopajeElfaOscura=2813
-RopajeEnana=2781
-RopajeOrca=2797
-RopajeGnoma=2781
+RopajeElfaOscura=3684
+RopajeEnana=2742
+RopajeOrca=3309
+RopajeGnoma=2742
 ObjType=3
 MAXDEF=7
 MINDEF=3
@@ -34282,7 +35697,6 @@ Texto=Vestido de Gala Alcarinqua
 [OBJ2924]
 Name=Vestido Caperucita (H/E/EO-M)
 GrhIndex=5280
-NumRopaje=2240
 RopajeHumano=2240
 RopajeElfo=2240
 RopajeElfoOscuro=3697
@@ -34304,8 +35718,6 @@ Texto=Vestido Caperucita (H/E/EO-M)
 [OBJ2925]
 Name=Atuendo de Bruja (H/E/EO-M)
 GrhIndex=18228
-en_Name=Witch Outfit (H/E/EO-M)
-NumRopaje=2251
 RopajeHumano=2251
 RopajeElfo=2251
 RopajeElfoOscuro=3708
@@ -34318,12 +35730,6 @@ RopajeElfaOscura=3708
 RopajeEnana=2766
 RopajeOrca=3333
 RopajeGnoma=2766
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-RazaEnana=1
-RazaGnoma=1
 ObjType=3
 MAXDEF=18
 MINDEF=14
@@ -34352,6 +35758,18 @@ Valor=1725
 Texto=Hábito de Ritual de Hombre
 
 [OBJ2927]
+RopajeElfoOscuro=3703
+RopajeOrco=3328
+RopajeElfo=2253
+RopajeEnano=2768
+RopajeGnomo=2768
+RopajeHumano=2253
+RopajeElfa=2253
+RopajeGnoma=2768
+RopajeEnana=2768
+RopajeElfaOscura=3703
+RopajeHumana=2253
+RopajeOrca=3328
 Name=Vestido de Claritos (H/E/EO-M)
 GrhIndex=18226
 ObjType=3
@@ -34378,12 +35796,12 @@ RopajeElfoOscuro=3696
 RopajeEnano=2754
 RopajeOrco=3321
 RopajeGnomo=2754
-RopajeHumana=1047
-RopajeElfa=1047
-RopajeElfaOscura=2861
-RopajeEnana=2829
-RopajeOrca=2845
-RopajeGnoma=2829
+RopajeHumana=2239
+RopajeElfa=2239
+RopajeElfaOscura=3696
+RopajeEnana=2754
+RopajeOrca=3321
+RopajeGnoma=2754
 ObjType=3
 MAXDEF=7
 MINDEF=5
@@ -34409,6 +35827,12 @@ Valor=50
 Texto=Vestimenta de Servidumbre (H/E/EO-M)
 
 [OBJ2932]
+RopajeElfa=2236
+RopajeGnoma=2751
+RopajeEnana=2751
+RopajeElfaOscura=3693
+RopajeHumana=2236
+RopajeOrca=3318
 Name=Vestido Indulgente Rojo (H/E/EO-M)
 GrhIndex=5281
 ObjType=3
@@ -34442,12 +35866,12 @@ RopajeElfoOscuro=2116
 RopajeEnano=1717
 RopajeOrco=2100
 RopajeGnomo=1717
-RopajeHumana=307
-RopajeElfa=307
-RopajeElfaOscura=2116
-RopajeEnana=1717
-RopajeOrca=2100
-RopajeGnoma=1717
+RopajeHumana=2184
+RopajeElfa=2184
+RopajeElfaOscura=3625
+RopajeEnana=2683
+RopajeOrca=3250
+RopajeGnoma=2683
 ObjType=3
 MAXDEF=4
 MINDEF=2
@@ -34469,7 +35893,6 @@ RopajeElfaOscura=3695
 RopajeEnana=2753
 RopajeOrca=3320
 RopajeGnoma=2753
-NumRopaje=2238
 ObjType=3
 MAXDEF=15
 MINDEF=6
@@ -34540,7 +35963,6 @@ Texto=Valya Silmeanar (H/E/EO)
 [OBJ2941]
 Name=Atuendo de Pueblerina (M)
 GrhIndex=5278
-NumRopaje=2223
 RopajeHumano=2223
 RopajeElfo=2223
 RopajeElfoOscuro=3680
@@ -34568,11 +35990,11 @@ RopajeElfoOscuro=3681
 RopajeEnano=2739
 RopajeOrco=3306
 RopajeGnomo=2739
-RopajeHumana=751
-RopajeElfa=751
-RopajeElfaOscura=2810
+RopajeHumana=2224
+RopajeElfa=2224
+RopajeElfaOscura=3681
 RopajeEnana=2739
-RopajeOrca=2794
+RopajeOrca=3306
 RopajeGnoma=2739
 ObjType=3
 MAXDEF=3
@@ -34601,27 +36023,6 @@ MINDEF=1
 Valor=100
 Texto=Ropaje Rupestre
 
-[OBJ2946]
-Name=Túnica Legendaria (H/E/EO-M)
-GrhIndex=2597
-RopajeHumano=141
-RopajeElfo=141
-RopajeElfoOscuro=1561
-RopajeEnano=1660
-RopajeOrco=2188
-RopajeGnomo=1660
-RopajeHumana=1061
-RopajeElfa=1061
-RopajeElfaOscura=4821
-RopajeEnana=4789
-RopajeOrca=4805
-RopajeGnoma=4789
-ObjType=3
-MAXDEF=35
-MINDEF=30
-Valor=21000
-Texto=Túnica Legendaria (H/E/EO-M)
-
 [OBJ2947]
 Name=Túnica de Gran Hechicera (H/E/EO-M)
 GrhIndex=17408
@@ -34640,12 +36041,12 @@ RopajeElfoOscuro=2298
 RopajeEnano=4912
 RopajeOrco=2070
 RopajeGnomo=4912
-RopajeHumana=38
-RopajeElfa=47
-RopajeElfaOscura=2298
-RopajeEnana=4912
-RopajeOrca=2070
-RopajeGnoma=4912
+RopajeHumana=2286
+RopajeElfa=2286
+RopajeElfaOscura=3802
+RopajeEnana=2817
+RopajeOrca=3385
+RopajeGnoma=2817
 ObjType=3
 MAXDEF=43
 MINDEF=38
@@ -34754,27 +36155,6 @@ MINDEF=23
 Valor=0
 Texto=Aumenta tu resistencia mágica un 1%
 
-[OBJ2955]
-Name=Túnica Azul (M)
-GrhIndex=2608
-RopajeHumano=117
-RopajeElfo=117
-RopajeElfoOscuro=1523
-RopajeEnano=1446
-RopajeOrco=1751
-RopajeGnomo=1446
-RopajeHumana=1109
-RopajeElfa=1109
-RopajeElfaOscura=2536
-RopajeEnana=2504
-RopajeOrca=2520
-RopajeGnoma=2504
-ObjType=3
-MAXDEF=11
-MINDEF=7
-Valor=2000
-Texto=Túnica Azul (M)
-
 [OBJ2956]
 Name=Puerta abierta
 GrhIndex=2417
@@ -34824,12 +36204,12 @@ Texto=Puerta cerrada con llave  comercio Banderbill
 [OBJ2962]
 Name=Túnica de Mago del Caos de 3ª Jerarquía
 GrhIndex=47413
-RopajeHumano=209
-RopajeElfo=209
-RopajeElfoOscuro=1629
-RopajeEnano=762
-RopajeOrco=2270
-RopajeGnomo=762
+RopajeHumano=198
+RopajeElfo=198
+RopajeElfoOscuro=198
+RopajeEnano=665
+RopajeOrco=198
+RopajeGnomo=665
 RopajeHumana=2139
 RopajeElfa=2139
 RopajeElfaOscura=3596
@@ -34838,30 +36218,9 @@ RopajeOrca=3205
 RopajeGnoma=2638
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Túnica de Mago del Caos de 3ª Jerarquía
-
-[OBJ2963]
-Name=Túnica de Mago del Caos de 3ª Jerarquía (Bajos)
-GrhIndex=59360
-RopajeHumano=209
-RopajeElfo=209
-RopajeElfoOscuro=1629
-RopajeEnano=762
-RopajeOrco=2270
-RopajeGnomo=762
-RopajeHumana=209
-RopajeElfa=209
-RopajeElfaOscura=1629
-RopajeEnana=762
-RopajeOrca=2270
-RopajeGnoma=762
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Túnica de Mago del Caos de 3ª Jerarquía (Bajos)
 
 [OBJ2964]
 Name=Túnica de Mago del Caos de 4ª Jerarquía
@@ -34880,30 +36239,9 @@ RopajeOrca=3210
 RopajeGnoma=2643
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Túnica de Mago del Caos de 4ª Jerarquía
-
-[OBJ2965]
-Name=Túnica de Mago del Caos de 4ª Jerarquía (Bajos)
-GrhIndex=3087
-RopajeHumano=203
-RopajeElfo=203
-RopajeElfoOscuro=1623
-RopajeEnano=3119
-RopajeOrco=1924
-RopajeGnomo=3119
-RopajeHumana=203
-RopajeElfa=203
-RopajeElfaOscura=1623
-RopajeEnana=3119
-RopajeOrca=1924
-RopajeGnoma=3119
-ObjType=3
-MAXDEF=15
-MINDEF=0
-Valor=0
-Texto=Túnica de Mago del Caos de 4ª Jerarquía (Bajos)
 
 [OBJ2966]
 Name=Túnica Avernal
@@ -34914,12 +36252,12 @@ RopajeElfoOscuro=1730
 RopajeEnano=1197
 RopajeOrco=1230
 RopajeGnomo=1197
-RopajeHumana=269
-RopajeElfa=269
-RopajeElfaOscura=1730
-RopajeEnana=1197
-RopajeOrca=1230
-RopajeGnoma=1197
+RopajeHumana=2327
+RopajeElfa=2327
+RopajeElfaOscura=3843
+RopajeEnana=2858
+RopajeOrca=3426
+RopajeGnoma=2858
 ObjType=3
 MAXDEF=37
 MINDEF=33
@@ -34950,12 +36288,12 @@ Texto=Túnica Avernal (Bajos)
 [OBJ2968]
 Name=Armadura de Clerigo del Caos de 3ª Jerarquía
 GrhIndex=22104
-RopajeHumano=263
-RopajeElfo=263
-RopajeElfoOscuro=2340
-RopajeEnano=1006
-RopajeOrco=2324
-RopajeGnomo=1006
+RopajeHumano=131
+RopajeElfo=131
+RopajeElfoOscuro=131
+RopajeEnano=537
+RopajeOrco=131
+RopajeGnomo=537
 RopajeHumana=2037
 RopajeElfa=2037
 RopajeElfaOscura=3537
@@ -34964,30 +36302,9 @@ RopajeOrca=3087
 RopajeGnoma=2537
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Armadura de Clerigo del Caos de 3ª Jerarquía
-
-[OBJ2969]
-Name=Armadura de Clerigo del Caos de 3ª Jerarquía (Bajos)
-GrhIndex=47332
-RopajeHumano=263
-RopajeElfo=263
-RopajeElfoOscuro=2340
-RopajeEnano=1006
-RopajeOrco=2324
-RopajeGnomo=1006
-RopajeHumana=263
-RopajeElfa=263
-RopajeElfaOscura=2340
-RopajeEnana=1006
-RopajeOrca=2324
-RopajeGnoma=1006
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Armadura de Clerigo del Caos de 3ª Jerarquía (Bajos)
 
 [OBJ2970]
 Name=Armadura de Clerigo del Caos de 4ª Jerarquía
@@ -35006,30 +36323,9 @@ RopajeOrca=3366
 RopajeGnoma=2798
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Armadura de Clerigo del Caos de 4ª Jerarquía
-
-[OBJ2971]
-Name=Armadura de Clerigo del Caos de 4ª Jerarquía (Bajos)
-GrhIndex=3515
-RopajeHumano=186
-RopajeElfo=186
-RopajeElfoOscuro=1606
-RopajeEnano=1677
-RopajeOrco=1891
-RopajeGnomo=1677
-RopajeHumana=186
-RopajeElfa=186
-RopajeElfaOscura=1606
-RopajeEnana=1677
-RopajeOrca=1891
-RopajeGnoma=1677
-ObjType=3
-MAXDEF=15
-MINDEF=0
-Valor=0
-Texto=Armadura de Clerigo del Caos de 4ª Jerarquía (Bajos)
 
 [OBJ2972]
 Name=Armadura de Guerrero del Caos de 3ª Jerarquía
@@ -35048,30 +36344,9 @@ RopajeOrca=3366
 RopajeGnoma=2798
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Armadura de Guerrero del Caos de 3ª Jerarquía
-
-[OBJ2973]
-Name=Armadura de Guerrero del Caos de 3ª Jerarquía (Bajos)
-GrhIndex=2661
-RopajeHumano=928
-RopajeElfo=928
-RopajeElfoOscuro=2395
-RopajeEnano=1008
-RopajeOrco=2379
-RopajeGnomo=1008
-RopajeHumana=928
-RopajeElfa=928
-RopajeElfaOscura=2395
-RopajeEnana=1008
-RopajeOrca=2379
-RopajeGnoma=1008
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Armadura de Guerrero del Caos de 3ª Jerarquía (Bajos)
 
 [OBJ2974]
 Name=Armadura de Guerrero del Caos de 4ª Jerarquía
@@ -35082,38 +36357,17 @@ RopajeElfoOscuro=1874
 RopajeEnano=4946
 RopajeOrco=2391
 RopajeGnomo=4946
-RopajeHumana=4945
-RopajeElfa=4945
-RopajeElfaOscura=1874
-RopajeEnana=4946
-RopajeOrca=2391
-RopajeGnoma=4946
+RopajeHumana=2363
+RopajeElfa=2363
+RopajeElfaOscura=3894
+RopajeEnana=2894
+RopajeOrca=3462
+RopajeGnoma=2894
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Armadura de Guerrero del Caos de 4ª Jerarquía
-
-[OBJ2975]
-Name=Armadura de Guerrero del Caos de 4ª Jerarquía (Bajos)
-GrhIndex=41260
-RopajeHumano=4945
-RopajeElfo=4945
-RopajeElfoOscuro=2407
-RopajeEnano=4946
-RopajeOrco=2391
-RopajeGnomo=4946
-RopajeHumana=4945
-RopajeElfa=4945
-RopajeElfaOscura=2407
-RopajeEnana=4946
-RopajeOrca=2391
-RopajeGnoma=4946
-ObjType=3
-MAXDEF=15
-MINDEF=0
-Valor=0
-Texto=Armadura de Guerrero del Caos de 4ª Jerarquía (Bajos)
 
 [OBJ2976]
 Name=Armadura de Asesino del Caos de 3ª Jerarquía
@@ -35126,36 +36380,15 @@ RopajeOrco=324
 RopajeGnomo=4893
 RopajeHumana=2210
 RopajeElfa=2210
-RopajeElfaOscura=3651
-RopajeEnana=2709
-RopajeOrca=3276
-RopajeGnoma=2709
+RopajeElfaOscura=3652
+RopajeEnana=2710
+RopajeOrca=3277
+RopajeGnoma=2710
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Armadura de Asesino del Caos de 3ª Jerarquía
-
-[OBJ2977]
-Name=Armadura de Asesino del Caos de 3ª Jerarquía (Bajos)
-GrhIndex=2662
-RopajeHumano=324
-RopajeElfo=324
-RopajeElfoOscuro=324
-RopajeEnano=4893
-RopajeOrco=324
-RopajeGnomo=4893
-RopajeHumana=324
-RopajeElfa=324
-RopajeElfaOscura=324
-RopajeEnana=4893
-RopajeOrca=324
-RopajeGnoma=4893
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Armadura de Asesino del Caos de 3ª Jerarquía (Bajos)
 
 [OBJ2978]
 Name=Armadura de Asesino del Caos de 4ª Jerarquía
@@ -35174,39 +36407,18 @@ RopajeOrca=3288
 RopajeGnoma=2721
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Armadura de Asesino del Caos de 4ª Jerarquía
-
-[OBJ2979]
-Name=Armadura de Asesino del Caos de 4ª Jerarquía (Bajos)
-GrhIndex=2717
-RopajeHumano=336
-RopajeElfo=336
-RopajeElfoOscuro=2150
-RopajeEnano=4928
-RopajeOrco=2594
-RopajeGnomo=4928
-RopajeHumana=336
-RopajeElfa=336
-RopajeElfaOscura=2150
-RopajeEnana=4928
-RopajeOrca=2594
-RopajeGnoma=4928
-ObjType=3
-MAXDEF=15
-MINDEF=0
-Valor=0
-Texto=Armadura de Asesino del Caos de 4ª Jerarquía (Bajos)
 
 [OBJ2980]
 Name=Armadura de Bandido del Caos de 3ª Jerarquía
 GrhIndex=2662
-RopajeHumano=325
-RopajeElfo=325
-RopajeElfoOscuro=2123
+RopajeHumano=324
+RopajeElfo=324
+RopajeElfoOscuro=324
 RopajeEnano=819
-RopajeOrco=2139
+RopajeOrco=324
 RopajeGnomo=819
 RopajeHumana=2210
 RopajeElfa=2210
@@ -35216,30 +36428,9 @@ RopajeOrca=3276
 RopajeGnoma=2709
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Armadura de Bandido del Caos de 3ª Jerarquía
-
-[OBJ2981]
-Name=Armadura de Bandido del Caos de 3ª Jerarquía (Bajos)
-GrhIndex=2928
-RopajeHumano=325
-RopajeElfo=325
-RopajeElfoOscuro=2123
-RopajeEnano=4733
-RopajeOrco=2139
-RopajeGnomo=4733
-RopajeHumana=325
-RopajeElfa=325
-RopajeElfaOscura=2123
-RopajeEnana=4733
-RopajeOrca=2139
-RopajeGnoma=4733
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Armadura de Bandido del Caos de 3ª Jerarquía (Bajos)
 
 [OBJ2982]
 Name=Armadura de Bandido del Caos de 4ª Jerarquía
@@ -35258,30 +36449,9 @@ RopajeOrca=3279
 RopajeGnoma=2712
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Armadura de Bandido del Caos de 4ª Jerarquía
-
-[OBJ2983]
-Name=Armadura de Bandido del Caos de 4ª Jerarquía (Bajos)
-GrhIndex=3141
-RopajeHumano=327
-RopajeElfo=327
-RopajeElfoOscuro=2125
-RopajeEnano=497
-RopajeOrco=2141
-RopajeGnomo=497
-RopajeHumana=327
-RopajeElfa=327
-RopajeElfaOscura=2125
-RopajeEnana=497
-RopajeOrca=2141
-RopajeGnoma=497
-ObjType=3
-MAXDEF=15
-MINDEF=0
-Valor=0
-Texto=Armadura de Bandido del Caos de 4ª Jerarquía (Bajos)
 
 [OBJ2984]
 Name=Armadura de Cazador del Caos de 3ª Jerarquía
@@ -35300,30 +36470,9 @@ RopajeOrca=3090
 RopajeGnoma=2540
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Armadura de Cazador del Caos de 3ª Jerarquía
-
-[OBJ2985]
-Name=Armadura de Cazador del Caos de 3ª Jerarquía (Bajos)
-GrhIndex=2661
-RopajeHumano=928
-RopajeElfo=928
-RopajeElfoOscuro=2395
-RopajeEnano=1008
-RopajeOrco=2379
-RopajeGnomo=1008
-RopajeHumana=928
-RopajeElfa=928
-RopajeElfaOscura=2395
-RopajeEnana=1008
-RopajeOrca=2379
-RopajeGnoma=1008
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Armadura de Cazador del Caos de 3ª Jerarquía (Bajos)
 
 [OBJ2986]
 Name=Armadura de Cazador del Caos de 4ª Jerarquía
@@ -35342,71 +36491,30 @@ RopajeOrca=3090
 RopajeGnoma=2540
 ObjType=3
 MAXDEF=15
-MINDEF=0
-Valor=0
-Texto=Armadura de Cazador del Caos de 4ª Jerarquía
-
-[OBJ2987]
-Name=Armadura de Cazador del Caos de 4ª Jerarquía (Bajos)
-GrhIndex=22100
-RopajeHumano=134
-RopajeElfo=134
-RopajeElfoOscuro=1816
-RopajeEnano=1013
-RopajeOrco=1768
-RopajeGnomo=1013
-RopajeHumana=2621
-RopajeElfa=2621
-RopajeElfaOscura=2669
-RopajeEnana=2637
-RopajeOrca=2653
-RopajeGnoma=2637
-MAXDEF=15
 MINDEF=10
 Valor=0
-Texto=Armadura de Cazador del Caos de 4ª Jerarquía (Bajos)
+Texto=Armadura de Cazador del Caos de 4ª Jerarquía
 
 [OBJ2988]
 Name=Armadura de Paladín del Caos de 3ª Jerarquía
 GrhIndex=2731
-RopajeHumano=266
-RopajeElfo=266
-RopajeElfoOscuro=2343
+RopajeHumano=375
+RopajeElfo=375
+RopajeElfoOscuro=375
 RopajeEnano=869
-RopajeOrco=2327
+RopajeOrco=375
 RopajeGnomo=869
-RopajeHumana=266
-RopajeElfa=266
-RopajeElfaOscura=2343
-RopajeEnana=2885
-RopajeOrca=2327
-RopajeGnoma=2885
+RopajeHumana=375
+RopajeElfa=375
+RopajeElfaOscura=375
+RopajeEnana=869
+RopajeOrca=375
+RopajeGnoma=869
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Armadura de Paladín del Caos de 3ª Jerarquía
-
-[OBJ2989]
-Name=Armadura de Paladín del Caos de 3ª Jerarquía (Bajos)
-GrhIndex=47386
-RopajeHumano=266
-RopajeElfo=266
-RopajeElfoOscuro=2343
-RopajeEnano=431
-RopajeOrco=2327
-RopajeGnomo=431
-RopajeHumana=266
-RopajeElfa=266
-RopajeElfaOscura=2343
-RopajeEnana=431
-RopajeOrca=2327
-RopajeGnoma=431
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Armadura de Paladín del Caos de 3ª Jerarquía (Bajos)
 
 [OBJ2990]
 Name=Armadura de Paladín del Caos de 4ª Jerarquía
@@ -35417,38 +36525,17 @@ RopajeElfoOscuro=2370
 RopajeEnano=1735
 RopajeOrco=2354
 RopajeGnomo=1735
-RopajeHumana=77
-RopajeElfa=3062
-RopajeElfaOscura=2370
-RopajeEnana=1735
-RopajeOrca=2354
-RopajeGnoma=1735
+RopajeHumana=2389
+RopajeElfa=2389
+RopajeElfaOscura=3719
+RopajeEnana=2777
+RopajeOrca=3344
+RopajeGnoma=2777
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Armadura de Paladín del Caos de 4ª Jerarquía
-
-[OBJ2991]
-Name=Armadura de Paladín del Caos de 4ª Jerarquía (Bajos)
-GrhIndex=1457
-RopajeHumano=3062
-RopajeElfo=3062
-RopajeElfoOscuro=2370
-RopajeEnano=1735
-RopajeOrco=2354
-RopajeGnomo=1735
-RopajeHumana=77
-RopajeElfa=3062
-RopajeElfaOscura=2370
-RopajeEnana=1735
-RopajeOrca=2354
-RopajeGnoma=1735
-ObjType=3
-MAXDEF=15
-MINDEF=0
-Valor=0
-Texto=Armadura de Paladín del Caos de 4ª Jerarquía (Bajos)
 
 [OBJ2992]
 Name=Armadura de Pirata del Caos de 3ª Jerarquía
@@ -35459,15 +36546,15 @@ RopajeElfoOscuro=2118
 RopajeEnano=815
 RopajeOrco=2134
 RopajeGnomo=815
-RopajeHumana=320
-RopajeElfa=320
-RopajeElfaOscura=2118
-RopajeEnana=1185
-RopajeOrca=2134
-RopajeGnoma=1185
+RopajeHumana=2206
+RopajeElfa=2206
+RopajeElfaOscura=3647
+RopajeEnana=2705
+RopajeOrca=3272
+RopajeGnoma=2705
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Armadura de Pirata del Caos de 3ª Jerarquía
 
@@ -35488,7 +36575,7 @@ RopajeOrca=2134
 RopajeGnoma=1185
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Armadura de Pirata del Caos de 3ª Jerarquía (Bajos)
 
@@ -35501,15 +36588,15 @@ RopajeElfoOscuro=1575
 RopajeEnano=1668
 RopajeOrco=2202
 RopajeGnomo=1668
-RopajeHumana=4775
-RopajeElfa=4775
-RopajeElfaOscura=4835
-RopajeEnana=4803
-RopajeOrca=4819
-RopajeGnoma=4803
+RopajeHumana=2112
+RopajeElfa=2112
+RopajeElfaOscura=3569
+RopajeEnana=2611
+RopajeOrca=3162
+RopajeGnoma=2611
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Armadura de Pirata del Caos de 4ª Jerarquía
 
@@ -35530,19 +36617,19 @@ RopajeOrca=4819
 RopajeGnoma=4803
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Armadura de Pirata del Caos de 4ª Jerarquía (Bajos)
 
 [OBJ2996]
 Name=Túnica de Druida del Caos de 3ª Jerarquía
 GrhIndex=11569
-RopajeHumano=211
-RopajeElfo=211
-RopajeElfoOscuro=1631
-RopajeEnano=653
-RopajeOrco=2272
-RopajeGnomo=653
+RopajeHumano=169
+RopajeElfo=169
+RopajeElfoOscuro=169
+RopajeEnano=636
+RopajeOrco=169
+RopajeGnomo=636
 RopajeHumana=2126
 RopajeElfa=2126
 RopajeElfaOscura=3583
@@ -35551,30 +36638,9 @@ RopajeOrca=3192
 RopajeGnoma=2625
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Túnica de Druida del Caos de 3ª Jerarquía
-
-[OBJ2997]
-Name=Túnica de Druida del Caos de 3ª Jerarquía (Bajos)
-GrhIndex=3089
-RopajeHumano=211
-RopajeElfo=211
-RopajeElfoOscuro=1631
-RopajeEnano=653
-RopajeOrco=2272
-RopajeGnomo=653
-RopajeHumana=222
-RopajeElfa=211
-RopajeElfaOscura=1631
-RopajeEnana=653
-RopajeOrca=2272
-RopajeGnoma=653
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Túnica de Druida del Caos de 3ª Jerarquía (Bajos)
 
 [OBJ2998]
 Name=Túnica de Druida del Caos de 4ª Jerarquía
@@ -35593,40 +36659,19 @@ RopajeOrca=3405
 RopajeGnoma=2837
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Túnica de Druida del Caos de 4ª Jerarquía
-
-[OBJ2999]
-Name=Túnica de Druida del Caos de 4ª Jerarquía (Bajos)
-GrhIndex=324
-RopajeHumano=225
-RopajeElfo=225
-RopajeElfoOscuro=1962
-RopajeEnano=641
-RopajeOrco=1946
-RopajeGnomo=641
-RopajeHumana=225
-RopajeElfa=225
-RopajeElfaOscura=1962
-RopajeEnana=641
-RopajeOrca=1946
-RopajeGnoma=641
-ObjType=3
-MAXDEF=15
-MINDEF=0
-Valor=0
-Texto=Túnica de Druida del Caos de 4ª Jerarquía (Bajos)
 
 [OBJ3000]
 Name=Túnica de Bardo del Caos de 3ª Jerarquía
 GrhIndex=14350
-RopajeHumano=1235
-RopajeElfo=1235
-RopajeElfoOscuro=1652
-RopajeEnano=96
-RopajeOrco=2383
-RopajeGnomo=96
+RopajeHumano=184
+RopajeElfo=184
+RopajeElfoOscuro=184
+RopajeEnano=651
+RopajeOrco=184
+RopajeGnomo=651
 RopajeHumana=2265
 RopajeElfa=2265
 RopajeElfaOscura=3781
@@ -35635,30 +36680,9 @@ RopajeOrca=3364
 RopajeGnoma=2796
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Túnica de Bardo del Caos de 3ª Jerarquía
-
-[OBJ3001]
-Name=Túnica de Bardo del Caos de 3ª Jerarquía (Bajos)
-GrhIndex=22103
-RopajeHumano=1235
-RopajeElfo=1235
-RopajeElfoOscuro=2399
-RopajeEnano=96
-RopajeOrco=2383
-RopajeGnomo=96
-RopajeHumana=1235
-RopajeElfa=1235
-RopajeElfaOscura=2399
-RopajeEnana=96
-RopajeOrca=2383
-RopajeGnoma=96
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Túnica de Bardo del Caos de 3ª Jerarquía (Bajos)
 
 [OBJ3002]
 Name=Túnica de Bardo del Caos de 4ª Jerarquía
@@ -35669,48 +36693,27 @@ RopajeElfoOscuro=2368
 RopajeEnano=1733
 RopajeOrco=2352
 RopajeGnomo=1733
-RopajeHumana=873
-RopajeElfa=873
-RopajeElfaOscura=2368
-RopajeEnana=1733
-RopajeOrca=2352
-RopajeGnoma=1733
+RopajeHumana=2387
+RopajeElfa=2387
+RopajeElfaOscura=3717
+RopajeEnana=2775
+RopajeOrca=3342
+RopajeGnoma=2775
 ObjType=3
 MAXDEF=30
-MINDEF=0
+MINDEF=23
 Valor=0
 Texto=Túnica de Bardo del Caos de 4ª Jerarquía
-
-[OBJ3003]
-Name=Túnica de Bardo del Caos de 4ª Jerarquía (Bajos)
-GrhIndex=30869
-RopajeHumano=873
-RopajeElfo=873
-RopajeElfoOscuro=2368
-RopajeEnano=1733
-RopajeOrco=2352
-RopajeGnomo=1733
-RopajeHumana=873
-RopajeElfa=873
-RopajeElfaOscura=2368
-RopajeEnana=1733
-RopajeOrca=2352
-RopajeGnoma=1733
-ObjType=3
-MAXDEF=30
-MINDEF=0
-Valor=0
-Texto=Túnica de Bardo del Caos de 4ª Jerarquía (Bajos)
 
 [OBJ3004]
 Name=Túnica de Mago Imperial de 3ª Jerarquía
 GrhIndex=3082
-RopajeHumano=220
-RopajeElfo=220
-RopajeElfoOscuro=1640
-RopajeEnano=605
-RopajeOrco=2281
-RopajeGnomo=605
+RopajeHumano=270
+RopajeElfo=270
+RopajeElfoOscuro=270
+RopajeEnano=664
+RopajeOrco=270
+RopajeGnomo=664
 RopajeHumana=2138
 RopajeElfa=2138
 RopajeElfaOscura=3595
@@ -35719,30 +36722,9 @@ RopajeOrca=3204
 RopajeGnoma=2637
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Túnica de Mago Imperial de 3ª Jerarquía
-
-[OBJ3005]
-Name=Túnica de Mago Imperial de 3ª Jerarquía (Bajos)
-GrhIndex=3094
-RopajeHumano=220
-RopajeElfo=220
-RopajeElfoOscuro=1640
-RopajeEnano=605
-RopajeOrco=2281
-RopajeGnomo=605
-RopajeHumana=220
-RopajeElfa=220
-RopajeElfaOscura=1640
-RopajeEnana=605
-RopajeOrca=2281
-RopajeGnoma=605
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Túnica de Mago Imperial de 3ª Jerarquía (Bajos)
 
 [OBJ3006]
 Name=Túnica de Mago Imperial de 4ª Jerarquía
@@ -35753,15 +36735,15 @@ RopajeElfoOscuro=1565
 RopajeEnano=1662
 RopajeOrco=2192
 RopajeGnomo=1662
-RopajeHumana=4765
-RopajeElfa=4765
-RopajeElfaOscura=4825
+RopajeHumana=2102
+RopajeElfa=2102
+RopajeElfaOscura=3559
 RopajeEnana=2601
-RopajeOrca=4809
+RopajeOrca=3152
 RopajeGnoma=2601
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Túnica de Mago Imperial de 4ª Jerarquía
 
@@ -35782,19 +36764,19 @@ RopajeOrca=4809
 RopajeGnoma=4793
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Túnica de Mago Imperial de 4ª Jerarquía (Bajos)
 
 [OBJ3008]
 Name=Túnica de Clérigo Imperial de 3ª Jerarquía
 GrhIndex=11661
-RopajeHumano=191
-RopajeElfo=191
-RopajeElfoOscuro=1611
-RopajeEnano=1678
-RopajeOrco=1033
-RopajeGnomo=1678
+RopajeHumano=127
+RopajeElfo=127
+RopajeElfoOscuro=127
+RopajeEnano=533
+RopajeOrco=127
+RopajeGnomo=533
 RopajeHumana=2033
 RopajeElfa=2033
 RopajeElfaOscura=3533
@@ -35803,30 +36785,9 @@ RopajeOrca=3083
 RopajeGnoma=2533
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Túnica de Clérigo Imperial de 3ª Jerarquía
-
-[OBJ3009]
-Name=Armadura de Clérigo Imperial de 3ª Jerarquía (Bajos)
-GrhIndex=3019
-RopajeHumano=191
-RopajeElfo=191
-RopajeElfoOscuro=1611
-RopajeEnano=1678
-RopajeOrco=1912
-RopajeGnomo=1678
-RopajeHumana=191
-RopajeElfa=191
-RopajeElfaOscura=1611
-RopajeEnana=1678
-RopajeOrca=1912
-RopajeGnoma=1678
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Armadura de Clerigo Imperial de 3ª Jerarquía (Bajos)
 
 [OBJ3010]
 Name=Túnica de Clérigo Imperial de 4ª Jerarquía
@@ -35837,15 +36798,15 @@ RopajeElfoOscuro=2163
 RopajeEnano=846
 RopajeOrco=2607
 RopajeGnomo=846
-RopajeHumana=349
-RopajeElfa=349
-RopajeElfaOscura=2163
-RopajeEnana=846
-RopajeOrca=2607
-RopajeGnoma=846
+RopajeHumana=2379
+RopajeElfa=2379
+RopajeElfaOscura=3676
+RopajeEnana=2734
+RopajeOrca=3301
+RopajeGnoma=2734
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Túnica de Clérigo Imperial de 4ª Jerarquía
 
@@ -35866,19 +36827,19 @@ RopajeOrca=2607
 RopajeGnoma=4698
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Armadura de Clerigo Imperial de 4ª Jerarquía (Bajos)
 
 [OBJ3012]
 Name=Armadura de Paladín Imperial de 3ª Jerarquía
 GrhIndex=19747
-RopajeHumano=343
-RopajeElfo=343
-RopajeElfoOscuro=2157
-RopajeEnano=4910
-RopajeOrco=2601
-RopajeGnomo=4910
+RopajeHumano=380
+RopajeElfo=380
+RopajeElfoOscuro=380
+RopajeEnano=874
+RopajeOrco=380
+RopajeGnomo=874
 RopajeHumana=2359
 RopajeElfa=2359
 RopajeElfaOscura=3890
@@ -35887,30 +36848,9 @@ RopajeOrca=3458
 RopajeGnoma=2890
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Armadura de Paladín Imperial de 3ª Jerarquía
-
-[OBJ3013]
-Name=Armadura de Paladín Imperial de 3ª Jerarquía (Bajos)
-GrhIndex=11658
-RopajeHumano=343
-RopajeElfo=343
-RopajeElfoOscuro=2157
-RopajeEnano=4910
-RopajeOrco=2601
-RopajeGnomo=4910
-RopajeHumana=343
-RopajeElfa=343
-RopajeElfaOscura=2157
-RopajeEnana=4910
-RopajeOrca=2601
-RopajeGnoma=4910
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Armadura de Paladín Imperial de 3ª Jerarquía (Bajos)
 
 [OBJ3014]
 Name=Armadura de Paladín Imperial de 4ª Jerarquía
@@ -35921,15 +36861,15 @@ RopajeElfoOscuro=2131
 RopajeEnano=828
 RopajeOrco=2147
 RopajeGnomo=828
-RopajeHumana=333
-RopajeElfa=333
-RopajeElfaOscura=2131
-RopajeEnana=828
-RopajeOrca=2147
-RopajeGnoma=828
+RopajeHumana=2219
+RopajeElfa=2219
+RopajeElfaOscura=3660
+RopajeEnana=2718
+RopajeOrca=3285
+RopajeGnoma=2718
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Armadura de Paladín Imperial de 4ª Jerarquía
 
@@ -35950,19 +36890,19 @@ RopajeOrca=2147
 RopajeGnoma=3049
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Armadura de Paladín Imperial de 4ª Jerarquía (Bajos)
 
 [OBJ3016]
 Name=Armadura de Guerrero Imperial de 3ª Jerarquía
 GrhIndex=11662
-RopajeHumano=169
-RopajeElfo=169
-RopajeElfoOscuro=1589
-RopajeEnano=765
-RopajeOrco=2246
-RopajeGnomo=765
+RopajeHumano=345
+RopajeElfo=345
+RopajeElfoOscuro=345
+RopajeEnano=842
+RopajeOrco=345
+RopajeGnomo=842
 RopajeHumana=2375
 RopajeElfa=2375
 RopajeElfaOscura=3672
@@ -35971,30 +36911,9 @@ RopajeOrca=3297
 RopajeGnoma=2730
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Armadura de Guerrero Imperial de 3ª Jerarquía
-
-[OBJ3017]
-Name=Armadura de Guerrero Imperial de 3ª Jerarquía (Bajos)
-GrhIndex=11569
-RopajeHumano=169
-RopajeElfo=169
-RopajeElfoOscuro=1589
-RopajeEnano=765
-RopajeOrco=2246
-RopajeGnomo=765
-RopajeHumana=1080
-RopajeElfa=1080
-RopajeElfaOscura=4871
-RopajeEnana=4839
-RopajeOrca=4855
-RopajeGnoma=4839
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Armadura de Guerrero Imperial de 3ª Jerarquía (Bajos)
 
 [OBJ3018]
 Name=Armadura de Guerrero Imperial de 4ª Jerarquía
@@ -36005,15 +36924,15 @@ RopajeElfoOscuro=2119
 RopajeEnano=771
 RopajeOrco=2135
 RopajeGnomo=771
-RopajeHumana=321
-RopajeElfa=321
-RopajeElfaOscura=2119
-RopajeEnana=771
-RopajeOrca=2135
-RopajeGnoma=771
+RopajeHumana=2207
+RopajeElfa=2207
+RopajeElfaOscura=3648
+RopajeEnana=2706
+RopajeOrca=3273
+RopajeGnoma=2706
 ObjType=3
 MAXDEF=33
-MINDEF=0
+MINDEF=27
 Valor=0
 Texto=Armadura de Guerrero Imperial de 4ª Jerarquía
 
@@ -36026,26 +36945,26 @@ RopajeElfoOscuro=2119
 RopajeEnano=771
 RopajeOrco=2135
 RopajeGnomo=771
-RopajeHumana=321
-RopajeElfa=321
-RopajeElfaOscura=2119
-RopajeEnana=771
-RopajeOrca=2135
-RopajeGnoma=771
+RopajeHumana=2207
+RopajeElfa=2207
+RopajeElfaOscura=3648
+RopajeEnana=2706
+RopajeOrca=3273
+RopajeGnoma=2706
 ObjType=3
 MAXDEF=33
-MINDEF=0
+MINDEF=27
 Valor=0
 Texto=Armadura de Guerrero Imperial de 4ª Jerarquía (Bajos)
 
 [OBJ3020]
 Name=Túnica de Druida Imperial de 3ª Jerarquía
 GrhIndex=3076
-RopajeHumano=183
-RopajeElfo=183
-RopajeElfoOscuro=1603
+RopajeHumano=168
+RopajeElfo=168
+RopajeElfoOscuro=168
 RopajeEnano=635
-RopajeOrco=1136
+RopajeOrco=168
 RopajeGnomo=635
 RopajeHumana=2125
 RopajeElfa=2125
@@ -36055,30 +36974,9 @@ RopajeOrca=3191
 RopajeGnoma=2624
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Túnica de Druida Imperial de 3ª Jerarquía
-
-[OBJ3021]
-Name=Túnica de Druida Imperial de 3ª Jerarquía (Bajos)
-GrhIndex=47548
-RopajeHumano=183
-RopajeElfo=183
-RopajeElfoOscuro=1603
-RopajeEnano=1448
-RopajeOrco=1888
-RopajeGnomo=1448
-RopajeHumana=183
-RopajeElfa=183
-RopajeElfaOscura=1603
-RopajeEnana=1448
-RopajeOrca=1888
-RopajeGnoma=1448
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Túnica de Druida Imperial de 3ª Jerarquía (Bajos)
 
 [OBJ3022]
 Name=Túnica de Druida Imperial de 4ª Jerarquía
@@ -36089,15 +36987,15 @@ RopajeElfoOscuro=2369
 RopajeEnano=1734
 RopajeOrco=2353
 RopajeGnomo=1734
-RopajeHumana=880
-RopajeElfa=880
-RopajeElfaOscura=2369
-RopajeEnana=1734
-RopajeOrca=2353
-RopajeGnoma=1734
+RopajeHumana=2388
+RopajeElfa=2388
+RopajeElfaOscura=3718
+RopajeEnana=2776
+RopajeOrca=3343
+RopajeGnoma=2776
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Túnica de Druida Imperial de 4ª Jerarquía
 
@@ -36118,19 +37016,19 @@ RopajeOrca=2353
 RopajeGnoma=1734
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Túnica de Druida Imperial de 4ª Jerarquía (Bajos)
 
 [OBJ3024]
 Name=Túnica de Bardo Imperial de 3ª Jerarquía
 GrhIndex=22099
-RopajeHumano=345
-RopajeElfo=345
-RopajeElfoOscuro=2159
-RopajeEnano=1007
-RopajeOrco=2603
-RopajeGnomo=1007
+RopajeHumano=188
+RopajeElfo=188
+RopajeElfoOscuro=188
+RopajeEnano=655
+RopajeOrco=188
+RopajeGnomo=655
 RopajeHumana=2269
 RopajeElfa=2269
 RopajeElfaOscura=3785
@@ -36139,30 +37037,9 @@ RopajeOrca=3368
 RopajeGnoma=2800
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Túnica de Bardo Imperial de 3ª Jerarquía
-
-[OBJ3025]
-Name=Túnica de Bardo Imperial de 3ª Jerarquía (Bajos)
-GrhIndex=11662
-RopajeHumano=345
-RopajeElfo=345
-RopajeElfoOscuro=2159
-RopajeEnano=1007
-RopajeOrco=2603
-RopajeGnomo=1007
-RopajeHumana=345
-RopajeElfa=345
-RopajeElfaOscura=2159
-RopajeEnana=1007
-RopajeOrca=2603
-RopajeGnoma=1007
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Túnica de Bardo Imperial de 3ª Jerarquía (Bajos)
 
 [OBJ3026]
 Name=Túnica de Bardo Imperial de 4ª Jerarquía
@@ -36173,15 +37050,15 @@ RopajeElfoOscuro=1632
 RopajeEnano=679
 RopajeOrco=2273
 RopajeGnomo=679
-RopajeHumana=212
-RopajeElfa=212
-RopajeElfaOscura=1632
-RopajeEnana=679
-RopajeOrca=2273
-RopajeGnoma=679
+RopajeHumana=2277
+RopajeElfa=2277
+RopajeElfaOscura=3793
+RopajeEnana=2808
+RopajeOrca=3376
+RopajeGnoma=2808
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Túnica de Bardo Imperial de 4ª Jerarquía
 
@@ -36202,19 +37079,19 @@ RopajeOrca=2273
 RopajeGnoma=4723
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Túnica de Bardo Imperial de 4ª Jerarquía (Bajos)
 
 [OBJ3028]
 Name=Armadura de Cazador Imperial de 3ª Jerarquía
 GrhIndex=11665
-RopajeHumano=291
-RopajeElfo=291
-RopajeElfoOscuro=2068
-RopajeEnano=4903
-RopajeOrco=2052
-RopajeGnomo=4903
+RopajeHumano=250
+RopajeElfo=250
+RopajeElfoOscuro=250
+RopajeEnano=750
+RopajeOrco=250
+RopajeGnomo=750
 RopajeHumana=2159
 RopajeElfa=2159
 RopajeElfaOscura=3616
@@ -36223,30 +37100,9 @@ RopajeOrca=3225
 RopajeGnoma=2658
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Armadura de Cazador Imperial de 3ª Jerarquía
-
-[OBJ3029]
-Name=Armadura de Cazador Imperial de 3ª Jerarquía (Bajos)
-GrhIndex=3130
-RopajeHumano=291
-RopajeElfo=291
-RopajeElfoOscuro=2068
-RopajeEnano=4903
-RopajeOrco=2052
-RopajeGnomo=4903
-RopajeHumana=220
-RopajeElfa=291
-RopajeElfaOscura=2068
-RopajeEnana=4903
-RopajeOrca=2052
-RopajeGnoma=4903
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Armadura de Cazador Imperial de 3ª Jerarquía (Bajos)
 
 [OBJ3030]
 Name=Armadura de Cazador Imperial de 4ª Jerarquía
@@ -36257,15 +37113,15 @@ RopajeElfoOscuro=2154
 RopajeEnano=4924
 RopajeOrco=2598
 RopajeGnomo=4924
-RopajeHumana=340
-RopajeElfa=340
-RopajeElfaOscura=2154
-RopajeEnana=4924
-RopajeOrca=2598
-RopajeGnoma=4924
+RopajeHumana=2370
+RopajeElfa=2370
+RopajeElfaOscura=3667
+RopajeEnana=2725
+RopajeOrca=3292
+RopajeGnoma=2725
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Armadura de Cazador Imperial de 4ª Jerarquía
 
@@ -36286,18 +37142,18 @@ RopajeOrca=2598
 RopajeGnoma=4924
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Armadura de Cazador Imperial de 4ª Jerarquía (Bajos)
 
 [OBJ3032]
 Name=Armadura de Asesino Imperial de 3ª Jerarquía
 GrhIndex=1450
-RopajeHumano=53
-RopajeElfo=53
-RopajeElfoOscuro=53
+RopajeHumano=320
+RopajeElfo=320
+RopajeElfoOscuro=320
 RopajeEnano=815
-RopajeOrco=53
+RopajeOrco=320
 RopajeGnomo=815
 RopajeHumana=2206
 RopajeElfa=2206
@@ -36307,30 +37163,9 @@ RopajeOrca=3272
 RopajeGnoma=2705
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Armadura de Asesino Imperial de 3ª Jerarquía
-
-[OBJ3033]
-Name=Armadura de Asesino Imperial de 3ª Jerarquía (Bajos)
-GrhIndex=1467
-RopajeHumano=53
-RopajeElfo=53
-RopajeElfoOscuro=53
-RopajeEnano=4689
-RopajeOrco=53
-RopajeGnomo=4689
-RopajeHumana=281
-RopajeElfa=53
-RopajeElfaOscura=53
-RopajeEnana=4689
-RopajeOrca=53
-RopajeGnoma=4689
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Armadura de Asesino Imperial de 3ª Jerarquía (Bajos)
 
 [OBJ3034]
 Name=Armadura de Asesino Imperial de 4ª Jerarquía
@@ -36341,15 +37176,15 @@ RopajeElfoOscuro=1713
 RopajeEnano=1687
 RopajeOrco=1213
 RopajeGnomo=1687
-RopajeHumana=229
-RopajeElfa=229
-RopajeElfaOscura=1713
-RopajeEnana=1687
-RopajeOrca=1213
-RopajeGnoma=1687
+RopajeHumana=2310
+RopajeElfa=2310
+RopajeElfaOscura=3826
+RopajeEnana=2841
+RopajeOrca=3409
+RopajeGnoma=2841
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Armadura de Asesino Imperial de 4ª Jerarquía
 
@@ -36370,19 +37205,19 @@ RopajeOrca=1950
 RopajeGnoma=1687
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Armadura de Asesino Imperial de 4ª Jerarquía (Bajos)
 
 [OBJ3036]
 Name=Armadura de Bandido Imperial de 3ª Jerarquía
 GrhIndex=47575
-RopajeHumano=62
-RopajeElfo=62
-RopajeElfoOscuro=2313
-RopajeEnano=1684
-RopajeOrco=2085
-RopajeGnomo=1684
+RopajeHumano=321
+RopajeElfo=321
+RopajeElfoOscuro=321
+RopajeEnano=816
+RopajeOrco=321
+RopajeGnomo=816
 RopajeHumana=2207
 RopajeElfa=2207
 RopajeElfaOscura=3648
@@ -36391,30 +37226,9 @@ RopajeOrca=3273
 RopajeGnoma=2706
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Armadura de Bandido Imperial de 3ª Jerarquía
-
-[OBJ3037]
-Name=Armadura de Bandido Imperial de 3ª Jerarquía (Bajos)
-GrhIndex=2655
-RopajeHumano=62
-RopajeElfo=62
-RopajeElfoOscuro=2313
-RopajeEnano=1684
-RopajeOrco=2085
-RopajeGnomo=1684
-RopajeHumana=62
-RopajeElfa=62
-RopajeElfaOscura=2313
-RopajeEnana=1684
-RopajeOrca=2085
-RopajeGnoma=1684
-ObjType=3
-MAXDEF=12
-MINDEF=0
-Valor=0
-Texto=Armadura de Bandido Imperial de 3ª Jerarquía (Bajos)
 
 [OBJ3038]
 Name=Armadura de Bandido Imperial de 4ª Jerarquía
@@ -36425,15 +37239,15 @@ RopajeElfoOscuro=1711
 RopajeEnano=659
 RopajeOrco=1211
 RopajeGnomo=659
-RopajeHumana=227
-RopajeElfa=227
-RopajeElfaOscura=1711
-RopajeEnana=659
-RopajeOrca=1211
-RopajeGnoma=659
+RopajeHumana=2308
+RopajeElfa=2308
+RopajeElfaOscura=3824
+RopajeEnana=2839
+RopajeOrca=3407
+RopajeGnoma=2839
 ObjType=3
 MAXDEF=30
-MINDEF=0
+MINDEF=23
 Valor=0
 Texto=Armadura de Bandido Imperial de 4ª Jerarquía
 
@@ -36446,15 +37260,15 @@ RopajeElfoOscuro=1964
 RopajeEnano=659
 RopajeOrco=1948
 RopajeGnomo=659
-RopajeHumana=227
-RopajeElfa=227
-RopajeElfaOscura=1964
-RopajeEnana=659
-RopajeOrca=1948
-RopajeGnoma=659
+RopajeHumana=2308
+RopajeElfa=2308
+RopajeElfaOscura=3824
+RopajeEnana=2839
+RopajeOrca=3407
+RopajeGnoma=2839
 ObjType=3
 MAXDEF=30
-MINDEF=0
+MINDEF=23
 Valor=0
 Texto=Armadura de Bandido Imperial de 4ª Jerarquía (Bajos)
 
@@ -36467,15 +37281,15 @@ RopajeElfoOscuro=2154
 RopajeEnano=4924
 RopajeOrco=2598
 RopajeGnomo=4924
-RopajeHumana=340
-RopajeElfa=340
-RopajeElfaOscura=2154
-RopajeEnana=4924
-RopajeOrca=2598
-RopajeGnoma=4924
+RopajeHumana=2370
+RopajeElfa=2370
+RopajeElfaOscura=3667
+RopajeEnana=2725
+RopajeOrca=3292
+RopajeGnoma=2725
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Armadura de Pirata Imperial de 3ª Jerarquía
 
@@ -36496,7 +37310,7 @@ RopajeOrca=2598
 RopajeGnoma=4924
 ObjType=3
 MAXDEF=12
-MINDEF=0
+MINDEF=7
 Valor=0
 Texto=Armadura de Pirata Imperial de 3ª Jerarquía (Bajos)
 
@@ -36509,15 +37323,15 @@ RopajeElfoOscuro=1608
 RopajeEnano=2592
 RopajeOrco=1156
 RopajeGnomo=2592
-RopajeHumana=188
-RopajeElfa=188
-RopajeElfaOscura=1608
-RopajeEnana=2592
-RopajeOrca=1156
-RopajeGnoma=2592
+RopajeHumana=2269
+RopajeElfa=2269
+RopajeElfaOscura=3785
+RopajeEnana=2800
+RopajeOrca=3368
+RopajeGnoma=2800
 ObjType=3
 MAXDEF=15
-MINDEF=0
+MINDEF=10
 Valor=0
 Texto=Armadura de Pirata Imperial de 4ª Jerarquía
 
@@ -36538,7 +37352,7 @@ RopajeOrca=3364
 RopajeGnoma=2592
 ObjType=3
 MAXDEF=30
-MINDEF=0
+MINDEF=25
 Valor=0
 Texto=Armadura de Pirata Imperial de 4ª Jerarquía (Bajos)
 
@@ -36619,12 +37433,12 @@ RopajeElfoOscuro=1599
 RopajeEnano=1012
 RopajeOrco=1884
 RopajeGnomo=1012
-RopajeHumana=179
-RopajeElfa=179
-RopajeElfaOscura=1599
-RopajeEnana=1012
-RopajeOrca=1884
-RopajeGnoma=1012
+RopajeHumana=2260
+RopajeElfa=2260
+RopajeElfaOscura=3776
+RopajeEnana=2791
+RopajeOrca=3359
+RopajeGnoma=2791
 ObjType=3
 MAXDEF=45
 MINDEF=40
@@ -36661,12 +37475,12 @@ RopajeElfoOscuro=1818
 RopajeEnano=1017
 RopajeOrco=1770
 RopajeGnomo=1017
-RopajeHumana=2623
-RopajeElfa=2623
-RopajeElfaOscura=2671
-RopajeEnana=2639
-RopajeOrca=2655
-RopajeGnoma=2639
+RopajeHumana=2042
+RopajeElfa=2042
+RopajeElfaOscura=3542
+RopajeEnana=2542
+RopajeOrca=3092
+RopajeGnoma=2542
 ObjType=3
 MAXDEF=42
 MINDEF=37
@@ -38233,12 +39047,12 @@ RopajeElfoOscuro=1633
 RopajeEnano=854
 RopajeOrco=2274
 RopajeGnomo=854
-RopajeHumana=213
-RopajeElfa=213
-RopajeElfaOscura=1633
-RopajeEnana=2774
-RopajeOrca=2274
-RopajeGnoma=2774
+RopajeHumana=2278
+RopajeElfa=2278
+RopajeElfaOscura=3794
+RopajeEnana=2809
+RopajeOrca=3377
+RopajeGnoma=2809
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -38253,12 +39067,12 @@ RopajeElfoOscuro=2069
 RopajeEnano=760
 RopajeOrco=2053
 RopajeGnomo=760
-RopajeHumana=292
-RopajeElfa=292
-RopajeElfaOscura=2069
-RopajeEnana=760
-RopajeOrca=2053
-RopajeGnoma=760
+RopajeHumana=2349
+RopajeElfa=2349
+RopajeElfaOscura=3881
+RopajeEnana=2880
+RopajeOrca=3448
+RopajeGnoma=2880
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -38273,12 +39087,12 @@ RopajeElfoOscuro=2366
 RopajeEnano=1731
 RopajeOrco=2350
 RopajeGnomo=1731
-RopajeHumana=871
-RopajeElfa=871
-RopajeElfaOscura=2366
-RopajeEnana=1731
-RopajeOrca=2350
-RopajeGnoma=1731
+RopajeHumana=2385
+RopajeElfa=2385
+RopajeElfaOscura=3715
+RopajeEnana=2773
+RopajeOrca=3340
+RopajeGnoma=2773
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -39280,6 +40094,8 @@ Texto=Túnica Gris 4
 
 [OBJ3389]
 Name=Daga de Mithril
+MinArmorPenetrationFlat=2
+MaxArmorPenetrationFlat=4
 GrhIndex=37709
 Objtype=2
 MinHIT=4
@@ -41790,19 +42606,6 @@ Valor=400
 Objtype=50
 Texto=Libro espíritu Demonio Amarilla
 
-[OBJ3703]
-Name=Hacha Vikinga
-GrhIndex=26188
-Objtype=2
-MinHIT=1
-MaxHIT=2
-Proyectil=1
-Municiones=0
-Valor=1500
-CD=10000
-CDType=5
-Texto=Hacha Vikinga
-
 [OBJ3704]
 Name=Hacha Vikinga +1
 GrhIndex=26189
@@ -42391,19 +43194,6 @@ Valor=1
 CD=3500
 CDType=7
 
-[OBJ3785]
-Name=Hacha Vikinga Principiante
-GrhIndex=26188
-Objtype=2
-MinHIT=1
-MaxHIT=1
-Proyectil=1
-Municiones=0
-Valor=500
-CD=10000
-CDType=5
-Texto=Hacha Vikinga Principiante
-
 [OBJ3786]
 Name=Agradecimiento de Astrid.
 GrhIndex=52199
@@ -42455,12 +43245,12 @@ RopajeElfoOscuro=1614
 RopajeEnano=1679
 RopajeOrco=1162
 RopajeGnomo=1679
-RopajeHumana=194
-RopajeElfa=194
-RopajeElfaOscura=1614
-RopajeEnana=1679
-RopajeOrca=1162
-RopajeGnoma=1679
+RopajeHumana=2135
+RopajeElfa=2135
+RopajeElfaOscura=3592
+RopajeEnana=2634
+RopajeOrca=3201
+RopajeGnoma=2634
 ObjType=3
 MAXDEF=0
 MINDEF=0
@@ -42582,6 +43372,8 @@ Valor=6300
 Name=Arpon
 GrhIndex=49058
 ObjType=53
+MinHIT=8
+MaxHIT=12
 Valor=1
 CD=20000
 CDType=9
@@ -42649,6 +43441,8 @@ CDType=10
 Name=Arpon principante
 GrhIndex=49058
 ObjType=53
+MinHIT=4
+MaxHIT=8
 CD=20000
 CDType=9
 
@@ -42789,15 +43583,6 @@ Valor=0
 CreaGRH=20170:-94700:5:1
 Texto=Espada Argentum
 
-[OBJ3836]
-Name=Rompecráneos
-GrhIndex=35981
-Objtype=2
-MinHIT=13
-MaxHIT=18
-Valor=0
-Texto=Rompecráneos
-
 [OBJ3837]
 Name=Arco del Tirador Maestro
 GrhIndex=38789
@@ -42812,6 +43597,8 @@ CreaGRH=20170:-94700:5:1
 
 [OBJ3838]
 Name=Daga del Eclipse
+MinArmorPenetrationFlat=2
+MaxArmorPenetrationFlat=4
 GrhIndex=995
 Objtype=2
 MinHIT=7
@@ -43854,12 +44641,12 @@ RopajeElfoOscuro=2025
 RopajeEnano=998
 RopajeOrco=2009
 RopajeGnomo=998
-RopajeHumana=2921
-RopajeElfa=2921
-RopajeElfaOscura=2958
-RopajeEnana=2932
-RopajeOrca=2942
-RopajeGnoma=2932
+RopajeHumana=2149
+RopajeElfa=2149
+RopajeElfaOscura=3606
+RopajeEnana=2648
+RopajeOrca=3215
+RopajeGnoma=2648
 ObjType=3
 Valor=0
 Texto=Túnica Dorkeana (Bajos)
@@ -46603,7 +47390,6 @@ RopajeElfaOscura=3706
 RopajeEnana=2764
 RopajeOrca=3331
 RopajeGnoma=2764
-NumRopaje=3706
 ObjType=3
 MAXDEF=20
 MINDEF=15
@@ -46619,12 +47405,12 @@ RopajeElfoOscuro=1808
 RopajeEnano=1651
 RopajeOrco=1760
 RopajeGnomo=1651
-RopajeHumana=1039
-RopajeElfa=1039
-RopajeElfaOscura=2661
-RopajeEnana=1150
-RopajeOrca=2645
-RopajeGnoma=1150
+RopajeHumana=2032
+RopajeElfa=2032
+RopajeElfaOscura=3532
+RopajeEnana=2532
+RopajeOrca=3082
+RopajeGnoma=2532
 ObjType=3
 MAXDEF=32
 MINDEF=25
@@ -46644,12 +47430,12 @@ RopajeElfoOscuro=2105
 RopajeEnano=790
 RopajeOrco=2089
 RopajeGnomo=790
-RopajeHumana=296
-RopajeElfa=296
-RopajeElfaOscura=2105
-RopajeEnana=790
-RopajeOrca=2089
-RopajeGnoma=790
+RopajeHumana=2181
+RopajeElfa=2181
+RopajeElfaOscura=3622
+RopajeEnana=2680
+RopajeOrca=3247
+RopajeGnoma=2680
 ObjType=3
 MAXDEF=1
 MINDEF=1
@@ -46708,9 +47494,9 @@ Name=Uniforme Imperial de 1ª Jerarquía
 GrhIndex=2660
 RopajeHumano=19
 RopajeElfo=19
-RopajeElfoOscuro=1864
+RopajeElfoOscuro=19
 RopajeEnano=580
-RopajeOrco=1848
+RopajeOrco=19
 RopajeGnomo=580
 RopajeHumana=2081
 RopajeElfa=2081
@@ -46720,7 +47506,7 @@ RopajeOrca=3131
 RopajeGnoma=2581
 ObjType=3
 MAXDEF=7
-MINDEF=0
+MINDEF=2
 Valor=0
 Texto=Uniforme Imperial de 1ª Jerarquía
 
@@ -46733,12 +47519,12 @@ RopajeElfoOscuro=1500
 RopajeEnano=955
 RopajeOrco=2170
 RopajeGnomo=955
-RopajeHumana=500
-RopajeElfa=500
-RopajeElfaOscura=2452
-RopajeEnana=2424
-RopajeOrca=2438
-RopajeGnoma=2424
+RopajeHumana=2000
+RopajeElfa=2000
+RopajeElfaOscura=3500
+RopajeEnana=2500
+RopajeOrca=3050
+RopajeGnoma=2500
 ObjType=3
 MAXDEF=7
 MINDEF=5
@@ -46754,8 +47540,8 @@ RopajeElfoOscuro=1504
 RopajeEnano=2167
 RopajeOrco=2172
 RopajeGnomo=2167
-RopajeHumana=504
-RopajeElfa=504
+RopajeHumana=2004
+RopajeElfa=2004
 RopajeElfaOscura=3504
 RopajeEnana=2504
 RopajeOrca=3054
@@ -46775,12 +47561,12 @@ RopajeElfoOscuro=1515
 RopajeEnano=1168
 RopajeOrco=1743
 RopajeGnomo=1168
-RopajeHumana=2017
-RopajeElfa=2017
-RopajeElfaOscura=2528
-RopajeEnana=2517
-RopajeOrca=2512
-RopajeGnoma=2517
+RopajeHumana=2015
+RopajeElfa=2015
+RopajeElfaOscura=3515
+RopajeEnana=2515
+RopajeOrca=3065
+RopajeGnoma=2515
 ObjType=3
 MAXDEF=11
 MINDEF=7
@@ -46796,12 +47582,12 @@ RopajeElfoOscuro=1516
 RopajeEnano=611
 RopajeOrco=1744
 RopajeGnomo=611
-RopajeHumana=1115
-RopajeElfa=1115
-RopajeElfaOscura=2529
-RopajeEnana=2497
-RopajeOrca=2513
-RopajeGnoma=2497
+RopajeHumana=2016
+RopajeElfa=2016
+RopajeElfaOscura=3516
+RopajeEnana=2516
+RopajeOrca=3066
+RopajeGnoma=2516
 ObjType=3
 MAXDEF=11
 MINDEF=7
@@ -46817,12 +47603,12 @@ RopajeElfoOscuro=1517
 RopajeEnano=2187
 RopajeOrco=1745
 RopajeGnomo=2187
-RopajeHumana=1108
-RopajeElfa=1108
-RopajeElfaOscura=2530
-RopajeEnana=2498
-RopajeOrca=2514
-RopajeGnoma=2498
+RopajeHumana=2017
+RopajeElfa=2017
+RopajeElfaOscura=3517
+RopajeEnana=2517
+RopajeOrca=3067
+RopajeGnoma=2517
 ObjType=3
 MAXDEF=11
 MINDEF=7
@@ -46840,10 +47626,10 @@ RopajeOrco=1747
 RopajeGnomo=3134
 RopajeHumana=2019
 RopajeElfa=2019
-RopajeElfaOscura=2532
-RopajeEnana=2500
-RopajeOrca=2516
-RopajeGnoma=2500
+RopajeElfaOscura=3519
+RopajeEnana=2519
+RopajeOrca=3069
+RopajeGnoma=2519
 ObjType=3
 MAXDEF=11
 MINDEF=7
@@ -46859,12 +47645,12 @@ RopajeElfoOscuro=1526
 RopajeEnano=1244
 RopajeOrco=1754
 RopajeGnomo=1244
-RopajeHumana=2109
-RopajeElfa=2109
-RopajeElfaOscura=2539
-RopajeEnana=2507
-RopajeOrca=2523
-RopajeGnoma=2507
+RopajeHumana=2026
+RopajeElfa=2026
+RopajeElfaOscura=3526
+RopajeEnana=2526
+RopajeOrca=3076
+RopajeGnoma=2526
 ObjType=3
 MAXDEF=11
 MINDEF=7
@@ -48065,12 +48851,12 @@ RopajeElfoOscuro=1593
 RopajeEnano=1144
 RopajeOrco=1141
 RopajeGnomo=1144
-RopajeHumana=173
-RopajeElfa=173
-RopajeElfaOscura=1593
-RopajeEnana=1144
-RopajeOrca=1141
-RopajeGnoma=1144
+RopajeHumana=2254
+RopajeElfa=2254
+RopajeElfaOscura=3770
+RopajeEnana=2785
+RopajeOrca=3353
+RopajeGnoma=2785
 ObjType=3
 MAXDEF=11
 MINDEF=7
@@ -51501,6 +52287,8 @@ Texto=Yelmo del Dragón Negro
 
 [OBJ4944]
 Name=Puñal del Dragón Negro (ASESINO)
+MinArmorPenetrationFlat=2
+MaxArmorPenetrationFlat=4
 GrhIndex=11377
 Objtype=2
 MinHIT=7
@@ -51825,6 +52613,13 @@ GrhIndex=11386
 ObjType=17
 Valor=80
 Texto=Casco Afilado
+
+[OBJ4977]
+Name=Implosi?n
+GrhIndex=609
+Valor=50
+Objtype=24
+Texto=Hechizo de da?o avanzado (120 a 130)
 
 [OBJ4978]
 Name=Sombrero Pirata
@@ -52692,19 +53487,338 @@ Texto=Llave Comercio de Morgrim Nro. 1
 GrhIndex=509
 ObjType=9
 
-[OBJ6260]
-Name=Detectar el Mal
+[OBJ5170]
+Name=Detectar Personajes
 GrhIndex=609
 Valor=50
 Objtype=24
-Texto=Revela NPCs hostiles en el minimapa (30s).
+Texto=Detectar Personajes
+
+[OBJ5179]
+Name=Esencia de Fuego
+Texto=Elemento necesario para craftear la Runa de Fuego
+GrhIndex=49085
+ObjType=29
+Valor=0
+
+[OBJ5180]
+Name=Esencia de Agua
+Texto=Elemento necesario para craftear la Runa de Agua
+GrhIndex=49084
+ObjType=29
+Valor=0
+
+[OBJ5181]
+Name=Esencia de Tierra
+Texto=Elemento necesario para craftear la Runa de Tierra
+GrhIndex=49082
+ObjType=29
+Valor=0
+
+[OBJ5182]
+Name=Esencia de Viento
+Texto=Elemento necesario para craftear la Runa de Viento
+GrhIndex=49083
+ObjType=29
+Valor=0
+
+[OBJ6250]
+Name=Pergamino: Portal Planar
+GrhIndex=55485
+Valor=200000
+Objtype=24
+Texto=Ensena el hechizo Portal Planar (te teletransporta al hub interplanar).
+
+[OBJ6240]
+Name=Pluma de Fenix
+GrhIndex=52032
+Valor=1
+Objtype=29
+Texto=Pluma unica que deja el Fenix al ser vencido. Canjeala con Bromdir en Morgrim. Se puede caer al morir.
+
+[OBJ6241]
+Name=Huevo de Fenix
+GrhIndex=55442
+Valor=1
+Objtype=48
+Texto=Cofre ancestral de skins del Fenix.
+
+[OBJ6242]
+Name=Alas de Fenix
+GrhIndex=49303
+Valor=1
+Objtype=38
+Texto=Alas decorativas de Fenix (skin tipo mochila). TODO: definir grh/anim de la skin.
 
 [OBJ6261]
-Name=Pugnale Avvelenato Test
+Name=Daga Envenenada Test
 GrhIndex=49167
-Valor=1
 Objtype=2
+MinHIT=2
+MaxHIT=5
+Valor=1
 Texto=Daga de prueba Veneno Menor TOGGLE26
+
+[OBJ6262]
+Name=Anillo Antiveneno Test
+GrhIndex=49262
+Objtype=35
+Agarrable=0
+Valor=1
+Texto=R50% chance + 2-4 flat + 50% pct para Veneno Menor (TOGGLE26)
+
+[OBJ6263]
+Name=Collar Inmunidad Menor Test
+GrhIndex=49141
+Objtype=21
+Agarrable=0
+Valor=1
+Texto=Inmunidad total a Veneno Menor (TOGGLE26)
+
+[OBJ6264]
+Name=Daga Hemotoxina Test
+GrhIndex=49167
+Objtype=2
+MinHIT=0
+MaxHIT=0
+Valor=1
+Agarrable=0
+Texto=Daga de prueba Hemotoxina (TOGGLE26)
+
+[OBJ6265]
+Name=Anillo Antihemo Test
+GrhIndex=49267
+Objtype=35
+Agarrable=0
+Valor=1
+Texto=R50% chance + 2-4 flat + 50% pct para Hemotoxina (TOGGLE26)
+
+[OBJ6266]
+Name=Daga Neurotoxina Test
+GrhIndex=49167
+Objtype=2
+MinHIT=0
+MaxHIT=0
+Valor=1
+Agarrable=0
+Texto=Daga de prueba Neurotoxina (TOGGLE26)
+
+[OBJ6267]
+Name=Pocion Antiveneno Universal Test
+GrhIndex=28750
+ObjType=11
+Valor=1
+Agarrable=0
+Texto=Cura cualquier veneno nuevo (TOGGLE26). Cooldown 10s.
+
+[OBJ6268]
+Name=Pocion AntiHemo Parcial Test
+GrhIndex=28750
+ObjType=11
+Valor=1
+Agarrable=0
+Texto=Reduce 2 stacks de Hemo (TOGGLE26). Cooldown 5s.
+
+[OBJ6269]
+Name=Daga Envenenable Test
+GrhIndex=49167
+Objtype=2
+MinHIT=2
+MaxHIT=5
+Valor=1
+Agarrable=0
+Texto=Arma envenenable (acepta cualquier vial). TOGGLE26.
+
+[OBJ6270]
+Name=Vial Veneno Menor Test
+GrhIndex=28750
+ObjType=11
+Valor=1
+Agarrable=0
+Texto=Unta arma envenenable con Veneno Menor. 10 cargas, 60s max. TOGGLE26.
+
+[OBJ6271]
+Name=Pergamino: Dardo de Veneno Menor
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Dardo de Veneno Menor (TOGGLE26).
+
+[OBJ6272]
+Name=Pergamino: Dardo de Hemotoxina
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Dardo de Hemotoxina (TOGGLE26).
+
+[OBJ6273]
+Name=Pergamino: Dardo de Neurotoxina
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Dardo de Neurotoxina (TOGGLE26).
+
+[OBJ6274]
+Name=Pergamino: Purificacion
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Purificacion (TOGGLE26).
+
+[OBJ6275]
+Name=Vial Hemotoxina Test
+GrhIndex=28750
+ObjType=11
+Valor=1
+Agarrable=0
+Texto=Unta arma envenenable con Hemotoxina. 10 cargas, 60s max. TOGGLE26.
+
+[OBJ6276]
+Name=Vial Neurotoxina Test
+GrhIndex=28750
+ObjType=11
+Valor=1
+Agarrable=0
+Texto=Unta arma envenenable con Neurotoxina. 10 cargas, 60s max. TOGGLE26.
+
+[OBJ6277]
+Name=Pergamino: Envenenar Arma Menor
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Envenenar Arma con Veneno Menor (TOGGLE26).
+
+[OBJ6278]
+Name=Pergamino: Envenenar Arma Hemo
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Envenenar Arma con Hemotoxina (TOGGLE26).
+
+[OBJ6279]
+Name=Pergamino: Envenenar Arma Neuro
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Envenenar Arma con Neurotoxina (TOGGLE26).
+
+[OBJ6280]
+Name=Pergamino: Curar Veneno Menor
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Curar Veneno Menor (TOGGLE26).
+
+[OBJ6281]
+Name=Pergamino: Curar Hemotoxina
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Curar Hemotoxina (TOGGLE26).
+
+[OBJ6282]
+Name=Pergamino: Curar Neurotoxina
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Curar Neurotoxina (TOGGLE26).
+
+[OBJ6283]
+Name=Pergamino: Antidoto Combinado
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Antidoto Combinado (TOGGLE26).
+
+[OBJ6284]
+Name=Pergamino: Auto-Envenenar Neuro Test
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Auto-Envenenar Neuro Test (TOGGLE26).
+
+[OBJ6285]
+Name=Flecha Veneno Menor Test
+GrhIndex=752
+Objtype=32
+MinHIT=1
+MaxHIT=1
+Valor=1
+Texto=Flecha de prueba con Veneno Menor fijo. TOGGLE26.
+
+[OBJ6286]
+Name=Flecha Hemotoxina Test
+GrhIndex=752
+Objtype=32
+MinHIT=1
+MaxHIT=1
+Valor=1
+Texto=Flecha de prueba con Hemotoxina fija. TOGGLE26.
+
+[OBJ6287]
+Name=Flecha Neurotoxina Test
+GrhIndex=752
+Objtype=32
+MinHIT=1
+MaxHIT=1
+Valor=1
+Texto=Flecha de prueba con Neurotoxina fija. TOGGLE26.
+
+[OBJ6288]
+Name=Runa de Fuego
+Texto=Encanta un arma con elemento Fuego. No se puede remover.
+GrhIndex=52015
+ObjType=55
+ElementalTags=1
+Blodium=5000
+FireEssence=1
+SkHerreria=100
+Valor=0
+
+[OBJ6289]
+Name=Runa de Agua
+Texto=Encanta un arma con elemento Agua. No se puede remover.
+GrhIndex=52017
+ObjType=55
+ElementalTags=2
+Blodium=5000
+WaterEssence=1
+SkHerreria=100
+Valor=0
+
+[OBJ6290]
+Name=Runa de Tierra
+Texto=Encanta un arma con elemento Tierra. No se puede remover.
+GrhIndex=52018
+ObjType=55
+ElementalTags=4
+Blodium=5000
+EarthEssence=1
+SkHerreria=100
+Valor=0
+
+[OBJ6291]
+Name=Runa de Viento
+Texto=Encanta un arma con elemento Viento. No se puede remover.
+GrhIndex=52016
+ObjType=55
+ElementalTags=8
+Blodium=5000
+WindEssence=1
+SkHerreria=100
+Valor=0
 
 [NP263]
 Name=Sacerdote Imperial
@@ -52735,137 +53849,82 @@ Sp2=9
 RangoSpell=6
 NoWiki=1
 
-[NPC1804]
-Name=Vipera Test
-Head=0
-Body=4194
-BodyIdle=4195
-Ataque1=4193
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Desc=Vipera di test per Veleno Minore (TOGGLE26).
+[NPC9000]
+Name=Maestro Carpintero <Carpinteria>
+Desc=Un maestro que ensena su profesion a cambio de oro.
+Body=141
+Head=74
+Comercia=1
+PuedeInvocar=1
+NROITEMS=2
+Obj1=9000-1000
+Obj2=9007-1000
 
-[NPC1805]
-Name=Scorpione Test
-Head=0
-Body=4335
-BodyIdle=4334
-Ataque1=4333
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Desc=Scorpione di test per Emotossina (TOGGLE26).
+[NPC9001]
+Name=Maestro Herrero <Herreria>
+Desc=Un maestro que ensena su profesion a cambio de oro.
+Body=141
+Head=74
+Comercia=1
+PuedeInvocar=1
+NROITEMS=2
+Obj1=9001-1000
+Obj2=9008-1000
 
-[NPC1806]
-Name=Ragno Test
-Head=0
-Body=4208
-BodyIdle=4207
-Ataque1=4206
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Desc=Ragno di test per Neurotossina (TOGGLE26).
+[NPC9002]
+Name=Maestro Sastre <Sastreria>
+Desc=Un maestro que ensena su profesion a cambio de oro.
+Body=141
+Head=74
+Comercia=1
+PuedeInvocar=1
+NROITEMS=2
+Obj1=9002-1000
+Obj2=9009-1000
 
-[NPC1807]
-Name=Ragno Test Immune Minore
-Head=0
-BodyIdle=4207
-Body=4208
-Ataque1=4206
-Heading=3
-Movement=3
-Attackable=1
-Hostile=1
-Desc=Test: immune al Veleno Minore (TOGGLE26).
+[NPC9003]
+Name=Maestro Alquimista <Alquimia>
+Desc=Un maestro que ensena su profesion a cambio de oro.
+Body=141
+Head=74
+Comercia=1
+PuedeInvocar=1
+NROITEMS=2
+Obj1=9003-1000
+Obj2=9010-1000
 
-[NPC1808]
-Name=Ragno Test Immune Emo
-Head=0
-BodyIdle=4207
-Body=4208
-Ataque1=4206
-Heading=3
-Movement=3
-Attackable=1
-Hostile=1
-Desc=Test: immune all Emotossina (TOGGLE26).
+[NPC9004]
+Name=Maestro Pescador <Pesca>
+Desc=Un maestro que ensena su profesion a cambio de oro.
+Body=141
+Head=74
+Comercia=1
+PuedeInvocar=1
+NROITEMS=2
+Obj1=9004-1000
+Obj2=9011-1000
 
-[NPC1809]
-Name=Ragno Test Immune Neuro
-Head=0
-BodyIdle=4207
-Body=4208
-Ataque1=4206
-Heading=3
-Movement=3
-Attackable=1
-Hostile=1
-Desc=Test: immune alla Neurotossina (TOGGLE26).
+[NPC9005]
+Name=Maestro Lenador <Tala>
+Desc=Un maestro que ensena su profesion a cambio de oro.
+Body=141
+Head=74
+Comercia=1
+PuedeInvocar=1
+NROITEMS=2
+Obj1=9005-1000
+Obj2=9012-1000
 
-[NPC1810]
-Name=Ragno Test Resist Minore
-Head=0
-BodyIdle=4207
-Body=4208
-Ataque1=4206
-Heading=3
-Movement=3
-Attackable=1
-Hostile=1
-Desc=Test: R50% chance + 3 flat + 50% pct per Veleno Minore (TOGGLE26).
-
-[NPC1811]
-Name=Ragno Test Resist Emo
-Head=0
-BodyIdle=4207
-Body=4208
-Ataque1=4206
-Heading=3
-Movement=3
-Attackable=1
-Hostile=1
-Desc=Test: R50% chance + 3 flat + 50% pct per Emotossina (TOGGLE26).
-
-[NPC1812]
-Name=Ragno Test Resist Neuro
-Head=0
-BodyIdle=4207
-Body=4208
-Ataque1=4206
-Heading=3
-Movement=3
-Attackable=1
-Hostile=1
-Desc=Test: R50% chance + riduzioni per Neurotossina (TOGGLE26).
-
-[NPC1813]
-Name=Ragno Test Immune Generico
-Head=0
-BodyIdle=4207
-Body=4208
-Ataque1=4206
-Heading=3
-Movement=3
-Attackable=1
-Hostile=1
-Desc=Test: immune a qualsiasi veleno (TOGGLE26).
-
-[NPC1814]
-Name=Ragno Test Resist Generico
-Head=0
-BodyIdle=4207
-Body=4208
-Ataque1=4206
-Heading=3
-Movement=3
-Attackable=1
-Hostile=1
-Desc=Test: R50% chance + 3 flat + 50% pct vs qualsiasi veleno (TOGGLE26).
+[NPC9006]
+Name=Maestro Minero <Mineria>
+Desc=Un maestro que ensena su profesion a cambio de oro.
+Body=141
+Head=74
+Comercia=1
+PuedeInvocar=1
+NROITEMS=2
+Obj1=9006-1000
+Obj2=9013-1000
 
 [QUEST10]
 Nombre=El Encargo de Seraphia
@@ -53809,284 +54868,3 @@ Sugerencia4=Sapevi che con il comando /events puoi scoprire quale evento e quand
 Sugerencia5=Sapevi che puoi disattivare il cursore predefinito del gioco nelle Opzioni?
 Sugerencia6=Sapevi che per parlare a livello globale basta inserire ";" prima del messaggio?
 
-[OBJ6262]
-Name=Anello Antiveleno Test
-GrhIndex=49262
-Objtype=35
-Texto=R50% chance + 2-4 flat + 50% pct per Veleno Minore (TOGGLE26)
-
-[OBJ6263]
-Name=Amuleto Immunita Minore Test
-GrhIndex=49141
-Objtype=21
-Texto=Immunita totale al Veleno Minore (TOGGLE26)
-
-[OBJ6264]
-Name=Pugnale Emotossina Test
-GrhIndex=49167
-Objtype=2
-Texto=Daga de prueba Hemotoxina (TOGGLE26)
-
-[OBJ6265]
-Name=Anello AntiEmo Test
-GrhIndex=49267
-Objtype=35
-Texto=R50% chance + 2-4 flat + 50% pct per Emotossina (TOGGLE26)
-
-[OBJ6266]
-Name=Pugnale Neurotossina Test
-GrhIndex=49167
-Objtype=2
-Texto=Daga de prueba Neurotoxina (TOGGLE26)
-
-[OBJ6267]
-Name=Pozione Antiveleno Universale Test
-GrhIndex=28750
-Objtype=11
-Texto=Cura ogni nuovo veleno (TOGGLE26). Cooldown 10s.
-
-[OBJ6268]
-Name=Pozione AntiEmo Parziale Test
-GrhIndex=28750
-Objtype=11
-Texto=Riduce 2 stack di Emo (TOGGLE26). Cooldown 5s.
-
-[OBJ6269]
-Name=Pugnale Avvelenabile Test
-GrhIndex=49167
-Objtype=2
-Texto=Arma avvelenabile (accetta vial famiglia 1). TOGGLE26.
-
-[OBJ6270]
-Name=Fialetta Veleno Minore Test
-GrhIndex=28750
-Objtype=11
-Texto=Unge arma avvelenabile con Veleno Minore. 10 cariche, 60s max. TOGGLE26.
-
-[OBJ6271]
-Name=Pergamena: Dardo di Veleno Minore
-GrhIndex=55490
-Objtype=24
-Texto=Insegna Dardo di Veleno Minore (TOGGLE26).
-
-[OBJ6272]
-Name=Pergamena: Dardo di Emotossina
-GrhIndex=55490
-Objtype=24
-Texto=Insegna Dardo di Emotossina (TOGGLE26).
-
-[OBJ6273]
-Name=Pergamena: Dardo di Neurotossina
-GrhIndex=55490
-Objtype=24
-Texto=Insegna Dardo di Neurotossina (TOGGLE26).
-
-[OBJ6274]
-Name=Pergamena: Purificazione
-GrhIndex=55490
-Objtype=24
-Texto=Insegna Purificazione (TOGGLE26).
-
-[OBJ6275]
-Name=Fialetta Emotossina Test
-GrhIndex=28750
-Objtype=11
-Texto=Unge arma avvelenabile con Emotossina. 10 cariche, 60s max. TOGGLE26.
-
-[OBJ6276]
-Name=Fialetta Neurotossina Test
-GrhIndex=28750
-Objtype=11
-Texto=Unge arma avvelenabile con Neurotossina. 10 cariche, 60s max. TOGGLE26.
-
-[OBJ6277]
-Name=Pergamena: Avvelena Arma Minore
-GrhIndex=55490
-Objtype=24
-Texto=Insegna Avvelena Arma - Veleno Minore (TOGGLE26).
-
-[OBJ6278]
-Name=Pergamena: Avvelena Arma Emo
-GrhIndex=55490
-Objtype=24
-Texto=Insegna Avvelena Arma - Emotossina (TOGGLE26).
-
-[OBJ6279]
-Name=Pergamena: Avvelena Arma Neuro
-GrhIndex=55490
-Objtype=24
-Texto=Insegna Avvelena Arma - Neurotossina (TOGGLE26).
-
-[OBJ6280]
-Name=Pergamena: Cura Veleno Minore
-GrhIndex=55490
-Objtype=24
-Texto=Insegna Cura Veleno Minore (TOGGLE26).
-
-[OBJ6281]
-Name=Pergamena: Cura Emotossina
-GrhIndex=55490
-Objtype=24
-Texto=Insegna Cura Emotossina (TOGGLE26).
-
-[OBJ6282]
-Name=Pergamena: Cura Neurotossina
-GrhIndex=55490
-Objtype=24
-Texto=Insegna Cura Neurotossina (TOGGLE26).
-
-[OBJ6283]
-Name=Pergamena: Antidoto Combinato
-GrhIndex=55490
-Objtype=24
-Texto=Insegna Antidoto Combinato (TOGGLE26).
-
-[OBJ6284]
-Name=Pergamino: Auto-Envenenar Neuro Test
-GrhIndex=55490
-Objtype=24
-Texto=Aprende Auto-Envenenar Neuro Test (TOGGLE26).
-
-[OBJ4977]
-
-Name=Implosione
-
-GrhIndex=609
-
-Valor=50
-
-Objtype=24
-
-Texto=Incantesimo di danno avanzato (120 a 130)
-
-
-
-
-[OBJ6285]
-Name=Freccia Veleno Minore Test
-GrhIndex=752
-Objtype=32
-MinHIT=1
-MaxHIT=1
-Valor=1
-Texto=Freccia di test con Veleno Minore fisso. TOGGLE26.
-
-[OBJ6286]
-Name=Freccia Emotossina Test
-GrhIndex=752
-Objtype=32
-MinHIT=1
-MaxHIT=1
-Valor=1
-Texto=Freccia di test con Emotossina fissa. TOGGLE26.
-
-[OBJ6287]
-Name=Freccia Neurotossina Test
-GrhIndex=752
-Objtype=32
-MinHIT=1
-MaxHIT=1
-Valor=1
-Texto=Freccia di test con Neurotossina fissa. TOGGLE26.
-
-[OBJ5179]
-Name=Essenza di Fuoco
-GrhIndex=49085
-ObjType=29
-Texto=Oggetto necessario per creare la Runa di Fuoco
-Valor=0
-
-[OBJ5180]
-Name=Essenza di Acqua
-GrhIndex=49084
-ObjType=29
-Texto=Oggetto necessario per creare la Runa di Acqua
-Valor=0
-
-[OBJ5181]
-Name=Essenza di Terra
-GrhIndex=49082
-ObjType=29
-Texto=Oggetto necessario per creare la Runa di Terra
-Valor=0
-
-[OBJ5182]
-Name=Essenza di Vento
-GrhIndex=49083
-ObjType=29
-Texto=Oggetto necessario per creare la Runa di Vento
-Valor=0
-
-[OBJ6288]
-Name=Runa di Fuoco
-GrhIndex=52015
-ObjType=55
-Texto=Incanta un arma con elemento Fuoco. Non rimovibile.
-ElementalTags=1
-Blodium=5000
-FireEssence=1
-SkHerreria=100
-Valor=0
-
-[OBJ6289]
-Name=Runa di Acqua
-GrhIndex=52017
-ObjType=55
-Texto=Incanta un arma con elemento Acqua. Non rimovibile.
-ElementalTags=2
-Blodium=5000
-WaterEssence=1
-SkHerreria=100
-Valor=0
-
-[OBJ6290]
-Name=Runa di Terra
-GrhIndex=52018
-ObjType=55
-Texto=Incanta un arma con elemento Terra. Non rimovibile.
-ElementalTags=4
-Blodium=5000
-EarthEssence=1
-SkHerreria=100
-Valor=0
-
-[OBJ6291]
-Name=Runa di Vento
-GrhIndex=52016
-ObjType=55
-Texto=Incanta un arma con elemento Vento. Non rimovibile.
-ElementalTags=8
-Blodium=5000
-WindEssence=1
-SkHerreria=100
-Valor=0
-[OBJ6250]
-Name=Pergamena: Portale Planare
-GrhIndex=55485
-Valor=200000
-Objtype=24
-Texto=Insegna l incantesimo Portale Planare.
-[OBJ6240]
-Name=Piuma di Fenice
-GrhIndex=52032
-Valor=1
-Objtype=29
-Texto=Piuma unica lasciata dalla Fenice. Scambiala con Bromdir a Morgrim.
-[OBJ6241]
-Name=Uovo di Fenice
-GrhIndex=55442
-Valor=1
-Objtype=48
-Texto=Forziere ancestrale di skin della Fenice.
-[OBJ6242]
-Name=Ali di Fenice
-GrhIndex=49303
-Valor=1
-Objtype=38
-Texto=Ali decorative di Fenice (skin tipo zaino).
-[QUEST259]
-Nombre=Ceneri del Primo Fuoco
-Desc=Portami 10 Piume di Fenice e ti daro un Uovo di Fenice.
-[QUEST260]
-Nombre=Le Ali del Fuoco Eterno
-Desc=Raccogli 20 Piume di Fenice e forgero delle Ali di Fenice.
