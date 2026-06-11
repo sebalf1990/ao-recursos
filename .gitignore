@@ -11,3 +11,6 @@ OUTPUT/Cuenta.ini
 # Backups sueltos: no van en el repo (ver docs/metodologia-y-filosofia.md)
 *.bak*
 *.pre_*
+
+# Bytecode de los scripts de tools
+__pycache__/
