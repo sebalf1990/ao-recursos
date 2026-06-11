@@ -3092,7 +3092,7 @@ DescFinal=Las cenizas guardan su poder. Aqui tienes tu Huevo de Fenix.
 RequiredLevel=1
 Repetible=1
 RequiredOBJs=1
-RequiredOBJ1=6240-10
+RequiredOBJ1=9015-10
 RewardOBJs=1
 RewardObj1=6241-1
 
@@ -3103,6 +3103,6 @@ DescFinal=El fuego eterno te acompana. Lleva con orgullo tus Alas de Fenix.
 RequiredLevel=1
 Repetible=0
 RequiredOBJs=1
-RequiredOBJ1=6240-20
+RequiredOBJ1=9015-20
 RewardOBJs=1
-RewardObj1=6242-1
+RewardObj1=9016-1
