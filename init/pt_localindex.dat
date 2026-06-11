@@ -12701,55 +12701,50 @@ StaRequerido=44
 IconoIndex=35723
 
 [HECHIZO28]
-Nombre=Aturdir
-Desc=Impede o usuário de se mover por 15 segundos. Se a vítima é um NPC, o efeito dura 90 segundos.
+Nombre=Atordoar
+Desc=Impede o usuário de se mover por 15 segundos. Se a vítima for um PNJ, o efeito dura 90 segundos.
+PalabrasMagicas=Är Stu'n suo
+HechizeroMsg=Você surpreendeu
+TargetMsg=surpreendeu você.
 ManaRequerido=300
-MinSkill=60
-HechizeroMsg=Você ficou surpreso a
-Cooldown=0
-IconoIndex=32417
-PalabrasMagicas=Är Stu
-PropioMsg=Você atordoado
 StaRequerido=75
-TargetMsg=Isso surpreendeu você.
+MinSkill=60
+IconoIndex=32417
 
 [HECHIZO29]
-Nombre=Devolver Movilidad
-Desc=Remova paralisia ou imobilização.
-ManaRequerido=250
-MinSkill=45
-HechizeroMsg=Você removeu a paralisia para
-Cooldown=0
-IconoIndex=35723
+Nombre=Mobilidade de Retorno
+Desc=Remove paralisia ou imobilização.
 PalabrasMagicas=AN HOAX VORP
-PropioMsg=Você removeu a paralisia.
-StaRequerido=55
-TargetMsg=A paralisia foi removida.
+HechizeroMsg=Você removeu a paralisia de
+TargetMsg=removeu sua paralisia.
+PropioMsg=Te has removido la parálisis.
+ManaRequerido=250
+StaRequerido=70
+MinSkill=45
+IconoIndex=35723
 
 [HECHIZO30]
-Nombre=Invisibilidad
-Desc=Torna -se invisível para o alvo. Efeito não permanente.
+Nombre=Invisibilidade
+Desc=Torna o alvo invisível. Efeito não permanente.
+HechizeroMsg=Você lançou Invisibilidade em
+TargetMsg=lançou Invisibilidade em você.
+PropioMsg=Te has vuelto invisible.
 ManaRequerido=350
-MinSkill=87
-HechizeroMsg=Você lançou a invisibilidade em
-Cooldown=0
-IconoIndex=35734
-PropioMsg=Você se tornou invisível.
 StaRequerido=200
-TargetMsg=Ele lançou a invisibilidade em você.
+MinSkill=87
+IconoIndex=35734
 
 [HECHIZO31]
-Nombre=Curar Heridas Criticas
-Desc=Restaure o usuário que você seleciona entre 40 e 65 pontos de vida
-ManaRequerido=75
-MinSkill=65
-HechizeroMsg=Você curou criticamente
-Cooldown=0
-IconoIndex=32431
+Nombre=Curar Feridas Críticas
+Desc=Restaura entre 50 e 65 pontos de saúde ao usuário selecionado.
 PalabrasMagicas=MAX CORP SANCTIS
-PropioMsg=Você curou criticamente.
-StaRequerido=55
+HechizeroMsg=Você curou criticamente
 TargetMsg=te curou criticamente
+PropioMsg=Te has curado criticamente.
+ManaRequerido=100
+StaRequerido=55
+MinSkill=65
+IconoIndex=32431
 
 [HECHIZO32]
 Nombre=Incinerar
@@ -12764,103 +12759,94 @@ ManaRequerido=1500
 StaRequerido=300
 
 [HECHIZO33]
-Nombre=Invocar Esqueletos de Élite
-Desc=Invoque a ajuda dos mortos! Três esqueletos de elite vão lutar por você.
-ManaRequerido=450
+Nombre=Invocar Múmia
+Desc=Canalize a magia necromântica dos antigos faraós! Invoque uma múmia para lutar por você.
+PalabrasMagicas=Ankhet Mortuum
+PropioMsg=Has invocado una Momia
+ManaRequerido=400
+StaRequerido=180
 MinSkill=55
-Cooldown=0
-IconoIndex=0
-PalabrasMagicas=MoÎ Eli Cámus
-PropioMsg=Você invocou esqueletos
-StaRequerido=200
+IconoIndex=74737
 
 [HECHIZO34]
-Nombre=Celeridad II
-Desc=Aumentar entre 3 e 7 pontos a agilidade do objetivo.
-ManaRequerido=60
-MinSkill=75
-HechizeroMsg=Você lançou velocidade em
-Cooldown=0
-IconoIndex=35754
+Nombre=Celeridade Maior
+Desc=Aumenta a agilidade do alvo em 3 a 9 pontos.
 PalabrasMagicas=YUP A INC
-PropioMsg=Você lançou velocidade em você.
-StaRequerido=45
-TargetMsg=Ele lançou velocidade em você.
+HechizeroMsg=Você lançou Celeridade em
+TargetMsg=lançou Celeridade em você.
+PropioMsg=Has lanzado Celeridad sobre ti.
+ManaRequerido=60
+StaRequerido=80
+MinSkill=75
+IconoIndex=35754
 
 [HECHIZO35]
-Nombre=Fuerza II
-Desc=A força do alvo aumenta entre 3 e 6 pontos.
-ManaRequerido=55
-MinSkill=70
-HechizeroMsg=Você lançou força em
-Cooldown=0
-IconoIndex=32436
+Nombre=Força Maior
+Desc=Aumenta a força do alvo em 3 a 6 pontos.
 PalabrasMagicas=Ar A kron
-PropioMsg=Você lançou força em você.
-StaRequerido=40
-TargetMsg=Ele lançou força em você.
+HechizeroMsg=Você lançou Força em
+TargetMsg=lançou Força sobre você.
+PropioMsg=Has lanzado Fuerza sobre ti.
+ManaRequerido=55
+StaRequerido=70
+MinSkill=70
+IconoIndex=32436
 
 [HECHIZO36]
-Nombre=Invocar Gorilas
-Desc=A natureza ajuda você! Três gorilas florestais vão lutar por você.
-ManaRequerido=550
-MinSkill=63
-Cooldown=0
-IconoIndex=0
+Nombre=Invocar Gorila
+Desc=A natureza te ajuda! Um gorila da floresta lutará por você.
 PalabrasMagicas=Urku Banô Thar
-PropioMsg=Você invocou gorilas
-StaRequerido=215
+PropioMsg=Has invocado un Gorila
+ManaRequerido=475
+StaRequerido=220
+MinSkill=63
+IconoIndex=74738
 
 [HECHIZO37]
-Nombre=Celeridad Menor
-Desc=Aumenta entre 1 y 3 puntos la agilidad del objetivo.
-ManaRequerido=0
-MinSkill=0
-HechizeroMsg=Has lanzado Celeridad sobre
-Cooldown=0
-IconoIndex=0
+Nombre=Celeridade Menor
+Desc=Aumenta a agilidade do alvo em 1 a 3 pontos.
 PalabrasMagicas=YUP A INC
+HechizeroMsg=Você lançou Celeridade em
+TargetMsg=lançou Celeridade em você.
 PropioMsg=Has lanzado Celeridad sobre ti.
-StaRequerido=0
-TargetMsg=ha lanzado Celeridad sobre ti.
+ManaRequerido=30
+StaRequerido=25
+MinSkill=40
+IconoIndex=35754
 
 [HECHIZO38]
-Nombre=Fuerza Menor
-Desc=Aumenta entre 1 y 2 puntos la fuerza del objetivo.
-ManaRequerido=0
-MinSkill=0
-HechizeroMsg=Has lanzado Fuerza sobre
-Cooldown=0
-IconoIndex=0
+Nombre=Força Menor
+Desc=Aumenta a força do alvo em 1 a 2 pontos.
 PalabrasMagicas=Ar A kron
+HechizeroMsg=Você lançou Força sobre si mesmo.
+TargetMsg=lançou Força sobre você.
 PropioMsg=Has lanzado Fuerza sobre ti.
-StaRequerido=0
-TargetMsg=ha lanzado Fuerza sobre ti.
+ManaRequerido=25
+StaRequerido=20
+MinSkill=35
+IconoIndex=32436
 
 [HECHIZO39]
-Nombre=Ascua Fugaz
-Desc=Causa 35 a 45 puntos de daño a la víctima.
-ManaRequerido=0
-MinSkill=0
-HechizeroMsg=Has lanzado Ascua Fugaz sobre
-Cooldown=0
-IconoIndex=0
+Nombre=Brasa Fugaz
+Desc=Causa de 35 a 45 pontos de dano à vítima.
 PalabrasMagicas=TOR VAX EK
-StaRequerido=0
-TargetMsg=lanzó Ascua Fugaz sobre ti.
+HechizeroMsg=Você lançou Brasa Fugaz em
+TargetMsg=lançar Brasa Fugaz em você.
+ManaRequerido=85
+StaRequerido=40
+MinSkill=45
+IconoIndex=35688
 
 [HECHIZO40]
-Nombre=Resplandor Igneo
-Desc=Causar 45 a 55 pontos de dano ao alvo.
-ManaRequerido=150
-MinSkill=60
-HechizeroMsg=Você lançou Glow On
-Cooldown=0
-IconoIndex=35691
+Nombre=Brilho Ardente
+Desc=Causa de 45 a 55 pontos de dano ao alvo selecionado.
 PalabrasMagicas=FLAMMA RUM LUX
-PropioMsg=Você lançou o brilho sobre você.
-StaRequerido=50
-TargetMsg=Ele lançou o brilho sobre você.
+HechizeroMsg=Você lançou Brilho Ardiente em
+TargetMsg=lançou Brilho Ardente em você.
+ManaRequerido=150
+StaRequerido=70
+MinSkill=60
+IconoIndex=35691
 
 [HECHIZO41]
 Nombre=Tormenta de Fuego
@@ -12930,25 +12916,22 @@ IconoIndex=35733
 
 [HECHIZO47]
 Nombre=Invocar Pixie Sagrada
-Desc=Invoca la forma física de una Pixie Sagrada.
-ManaRequerido=0
-MinSkill=0
-Cooldown=0
-IconoIndex=0
+Desc=Invoca a forma física de uma Pixie Sagrada.
 PalabrasMagicas=Pix Sacred Rax
 PropioMsg=Has invocado una pixie sagrada.
-StaRequerido=0
+ManaRequerido=1030
+StaRequerido=300
+MinSkill=80
 
 [HECHIZO48]
 Nombre=Invocar Goblin
-Desc=Invoca un aguerrido Goblin para que luche a tu lado.
-ManaRequerido=0
-MinSkill=0
-Cooldown=0
-IconoIndex=0
+Desc=Invoque um Goblin feroz para lutar ao seu lado.
 PalabrasMagicas=Grimtäk Sil
 PropioMsg=Has invocado un Goblin
-StaRequerido=0
+ManaRequerido=150
+StaRequerido=50
+MinSkill=30
+IconoIndex=74717
 
 [HECHIZO49]
 Nombre=Testeo Descarga Semimagicas
@@ -12964,17 +12947,16 @@ StaRequerido=100
 TargetMsg=Ele lançou o impacto final em você.
 
 [HECHIZO50]
-Nombre=Impacto Eléctrico
+Nombre=Impacto Elétrico
 Desc=Causa de 70 a 76 pontos de dano à vítima.
-ManaRequerido=460
-MinSkill=85
-HechizeroMsg=Você lançou o impacto elétrico em
-Cooldown=0
-IconoIndex=35713
 PalabrasMagicas=IM PAX RA
-PropioMsg=Você lançou o impacto elétrico em você.
+HechizeroMsg=Você lançou Impacto Elétrico em
+TargetMsg=lançou Impacto Elétrico em você.
+PropioMsg=Has lanzado Impacto Eléctrico sobre ti.
+ManaRequerido=460
 StaRequerido=120
-TargetMsg=Ele lançou o impacto elétrico em você.
+MinSkill=85
+IconoIndex=35713
 
 [HECHIZO51]
 Nombre=Descarga Eléctrica
@@ -13073,17 +13055,15 @@ StaRequerido=50
 IconoIndex=35691
 
 [HECHIZO59]
-Nombre=Rayo Elemental
-Desc=Causa de 76 a 83 pontos de dano à vítima.
-ManaRequerido=600
-MinSkill=87
-HechizeroMsg=Você lançou Ray Elementary On
-Cooldown=0
-IconoIndex=32423
+Nombre=Raio Elemental
+Desc=Causa de 77 a 83 pontos de dano à vítima.
 PalabrasMagicas=LEMENTA RAY
-PropioMsg=Você jogou Ray Elementar em você.
+HechizeroMsg=Você lançou Raio Elemental em
+TargetMsg=lançou Raio Elemental em você.
+ManaRequerido=600
 StaRequerido=135
-TargetMsg=Ele lançou Ray elementar em você.
+MinSkill=87
+IconoIndex=32423
 
 [HECHIZO60]
 Nombre=Magia de Humana No-Muerta
@@ -13096,40 +13076,37 @@ TargetMsg=Ele lançou maldita oração para você.
 
 [HECHIZO61]
 Nombre=Eco Ígneo (NPC)
-Desc=Causa de 40 a 50 pontos de dano à vítima.
-ManaRequerido=75
-MinSkill=63
-HechizeroMsg=Você lançou um eco ígneo
-Cooldown=0
-IconoIndex=35696
+Desc=Causa de 35 a 45 pontos de dano à vítima.
 PalabrasMagicas=MAGNIS X AR
-PropioMsg=Você lançou um eco ígneo em você.
-StaRequerido=35
+HechizeroMsg=Você lançou um eco ígneo
 TargetMsg=Ele lançou um eco ígneo em você.
+PropioMsg=Has lanzado un Eco Ígneo sobre ti.
+ManaRequerido=80
+StaRequerido=55
+MinSkill=63
+IconoIndex=74724
 
 [HECHIZO62]
-Nombre=Destello Malva (NPC)
-Desc=Causa de 40 a 55 pontos de dano à vítima.
-ManaRequerido=85
-MinSkill=67
-HechizeroMsg=Você lançou o Malva Flash
-Cooldown=0
-IconoIndex=35696
+Nombre=Brilho Malva (NPC)
+Desc=Causa de 40 a 45 pontos de dano à vítima.
 PalabrasMagicas=LÜX MÄLV
-PropioMsg=Você lançou um flash de pântano em você.
-StaRequerido=40
+HechizeroMsg=Você lançou o Malva Flash
 TargetMsg=Ele lançou Malva Flash em você.
+PropioMsg=Has lanzado un Destello Malva sobre ti.
+ManaRequerido=90
+StaRequerido=60
+MinSkill=67
+IconoIndex=35696
 
 [HECHIZO63]
-Nombre=Fractura Glacial (NPC)
-Desc=Causa de 45 a 50 puntos de daño a la víctima.
-ManaRequerido=0
-MinSkill=0
-HechizeroMsg=Has lanzado Fractura Glacial sobre
-Cooldown=0
-IconoIndex=0
+Nombre=Fratura Glacial (NPC)
+Desc=Causa de 45 a 50 pontos de dano à vítima.
 PalabrasMagicas=GLÄC X FRÄCT
-StaRequerido=0
+HechizeroMsg=Você iniciou o Fratura Glacial em
+ManaRequerido=100
+StaRequerido=65
+MinSkill=73
+IconoIndex=74726
 
 [HECHIZO64]
 Nombre=Aliento Carmesí (NPC)
@@ -13156,55 +13133,50 @@ StaRequerido=0
 TargetMsg=lanzó Energía Ancestral sobre vos.
 
 [HECHIZO66]
-Nombre=Invocar Huargo
-Desc=Invoca la forma física de un lobo para defenderte en combate.
-ManaRequerido=0
-MinSkill=0
-Cooldown=0
-IconoIndex=0
+Nombre=Invocar Warg
+Desc=Invoque a forma física de um lobo para se defender em combate.
 PropioMsg=Has invocado un Huargo.
-StaRequerido=0
+ManaRequerido=0
+StaRequerido=170
+MinSkill=0
+IconoIndex=74743
 
 [HECHIZO67]
-Nombre=Invocar Oso Pardo
-Desc=Invoca la forma física de un oso para defenderte en combate.
-ManaRequerido=0
-MinSkill=0
-Cooldown=0
-IconoIndex=0
+Nombre=Invocar Urso Marrom
+Desc=Invoque a forma física de um urso para se defender em combate.
 PropioMsg=Has invocado un Oso.
-StaRequerido=0
+ManaRequerido=0
+StaRequerido=170
+MinSkill=0
+IconoIndex=74744
 
 [HECHIZO68]
-Nombre=Invocar Lobo Huargo
-Desc=Invoca la forma física de un lobo huargo para defenderte en combate.
-ManaRequerido=0
-MinSkill=0
-Cooldown=0
-IconoIndex=0
+Nombre=Convocar Lobo Terrível
+Desc=Invoque a forma física de um lobo gigante para se defender em combate.
 PropioMsg=Has invocado un Lobo Huargo.
-StaRequerido=0
+ManaRequerido=0
+StaRequerido=350
+MinSkill=0
+IconoIndex=74743
 
 [HECHIZO69]
-Nombre=Invocar Ursidae
-Desc=Invoca la forma física de un oso grizzly para defenderte en combate.
-ManaRequerido=0
-MinSkill=0
-Cooldown=0
-IconoIndex=0
+Nombre=Invocar Ursídeos
+Desc=Invoque a forma física de um urso pardo para se defender em combate.
 PropioMsg=Has invocado un Ursidae.
-StaRequerido=0
+ManaRequerido=0
+StaRequerido=350
+MinSkill=0
+IconoIndex=74744
 
 [HECHIZO70]
-Nombre=Invocar Orco
-Desc=Invoca un Orco para que luche a tu lado.
-ManaRequerido=0
-MinSkill=0
-Cooldown=0
-IconoIndex=0
+Nombre=Invocar Orc
+Desc=Invoque o orc para lutar ao seu lado.
 PalabrasMagicas=Throk Val Gür
 PropioMsg=Has invocado un Orco
-StaRequerido=0
+ManaRequerido=180
+StaRequerido=80
+MinSkill=40
+IconoIndex=74739
 
 [HECHIZO71]
 ManaRequerido=0
@@ -13873,15 +13845,14 @@ StaRequerido=300
 IconoIndex=35734
 
 [HECHIZO155]
-Nombre=Invocar Scyllas
-Desc=Você invoca três Scyllas que atacarão seu objetivo.
-ManaRequerido=575
-MinSkill=63
-Cooldown=0
-IconoIndex=0
+Nombre=Invocar Scylla
+Desc=Invoca uma Scylla, rainha das águas amaldiçoadas, uma criatura ancestral que devora carne e alma.
 PalabrasMagicas=Scylla Impetum
-PropioMsg=Você invocou Scyllas
-StaRequerido=210
+PropioMsg=Has invocado una Scylla
+ManaRequerido=425
+StaRequerido=225
+MinSkill=63
+IconoIndex=7471
 
 [HECHIZO156]
 ManaRequerido=0
@@ -15483,23 +15454,23 @@ StaRequerido=350
 
 [HECHIZO348]
 Nombre=Rugido Arcano (NPC)
-Desc=Causa de 15 a 20 puntos de daño a la víctima.
-ManaRequerido=40
-MinSkill=30
-HechizeroMsg=Has lanzado Rugido Arcano sobre
-IconoIndex=74728
+Desc=Causa de 15 a 20 pontos de dano à vítima.
 PalabrasMagicas=RUG THAEL ARCAN
+HechizeroMsg=Você lançou Rugido Arcano em
+ManaRequerido=40
 StaRequerido=25
+MinSkill=30
+IconoIndex=74728
 
 [HECHIZO349]
-Nombre=Latido Ígneo (NPC)
-Desc=Causa de 30 a 40 puntos de daño a la víctima.
-ManaRequerido=70
-MinSkill=55
-HechizeroMsg=Has lanzado Latido Ígneo sobre
-IconoIndex=74723
+Nombre=Batimento Ardente (NPC)
+Desc=Causa de 30 a 40 pontos de dano à vítima.
 PalabrasMagicas=LUMEN X AR
+HechizeroMsg=Você iniciou o Fiery Heartbeat em
+ManaRequerido=70
 StaRequerido=45
+MinSkill=55
+IconoIndex=74723
 
 [HECHIZO400]
 Nombre=Detectar Personajes

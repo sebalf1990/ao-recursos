@@ -13104,53 +13104,48 @@ IconoIndex=35723
 [HECHIZO28]
 Nombre=Stun
 Desc=Prevents the user from moving for 15 seconds. If the victim is an NPC, the effect lasts 90 seconds.
-ManaRequerido=300
-MinSkill=60
+PalabrasMagicas=Är Stu'n suo
 HechizeroMsg=You stun
-Cooldown=0
-IconoIndex=32417
-PalabrasMagicas=Är Stu
-PropioMsg=You are stunned
-StaRequerido=75
 TargetMsg=You have been stunned by
+ManaRequerido=300
+StaRequerido=75
+MinSkill=60
+IconoIndex=32417
 
 [HECHIZO29]
 Nombre=Return Mobility
 Desc=Removes Paralyze or Immobilize.
-ManaRequerido=250
-MinSkill=45
-HechizeroMsg=You
-Cooldown=0
-IconoIndex=35723
 PalabrasMagicas=AN HOAX VORP
-PropioMsg=You
-StaRequerido=55
-TargetMsg=has cured you of your paralysis.
+HechizeroMsg=You
+TargetMsg=has healed you of your paralysis.
+PropioMsg=Te has removido la parálisis.
+ManaRequerido=250
+StaRequerido=70
+MinSkill=45
+IconoIndex=35723
 
 [HECHIZO30]
 Nombre=Invisibility
-Desc=Makes the target invisible. This effect isn
-ManaRequerido=350
-MinSkill=87
+Desc=Makes the target invisible. This effect isn't permanent.
 HechizeroMsg=You casted Invisibility on
-Cooldown=0
-IconoIndex=35734
-PropioMsg=You are now invisible.
-StaRequerido=200
 TargetMsg=casted Invisibility on you.
+PropioMsg=Te has vuelto invisible.
+ManaRequerido=350
+StaRequerido=200
+MinSkill=87
+IconoIndex=35734
 
 [HECHIZO31]
 Nombre=Heal Serious Wounds
-Desc=Restores between 40 and 65 health points to the user you select
-ManaRequerido=75
-MinSkill=65
-HechizeroMsg=You have critically cured
-Cooldown=0
-IconoIndex=32431
+Desc=Restores between 50 and 65 health points to the user you select
 PalabrasMagicas=MAX CORP SANCTIS
-PropioMsg=You have been critically cured.
+HechizeroMsg=You have critically healed
+TargetMsg=has healed you critically
+PropioMsg=Te has curado criticamente.
+ManaRequerido=100
 StaRequerido=55
-TargetMsg=has cured you critically
+MinSkill=65
+IconoIndex=32431
 
 [HECHIZO32]
 Nombre=Incinerar
@@ -13166,103 +13161,94 @@ ManaRequerido=1500
 StaRequerido=300
 
 [HECHIZO33]
-Nombre=Summon Elite Skeletons
-Desc=Summon the help of the dead! Three Elite Skeletons will fight for you.
-ManaRequerido=450
+Nombre=Summon Mummy
+Desc=Channel the necromantic magic of the ancient Pharaohs! Summon a Mummy to fight for you.
+PalabrasMagicas=Ankhet Mortuum
+PropioMsg=Has invocado una Momia
+ManaRequerido=400
+StaRequerido=180
 MinSkill=55
-Cooldown=0
-IconoIndex=0
-PalabrasMagicas=MoÎ Eli Cámus
-PropioMsg=You
-StaRequerido=200
+IconoIndex=74737
 
 [HECHIZO34]
-Nombre=Celerity II
-Desc=Increases between 3 and 7 points the agility of the target.
-ManaRequerido=60
-MinSkill=75
-HechizeroMsg=You casted Celerity on
-Cooldown=0
-IconoIndex=35754
+Nombre=Major Celerity
+Desc=Increases between 3 and 9 points the agility of the target.
 PalabrasMagicas=YUP A INC
-PropioMsg=You casted Celerity on yourself.
-StaRequerido=45
+HechizeroMsg=You casted Celerity on
 TargetMsg=has casted Celerity on you.
+PropioMsg=Has lanzado Celeridad sobre ti.
+ManaRequerido=60
+StaRequerido=80
+MinSkill=75
+IconoIndex=35754
 
 [HECHIZO35]
-Nombre=Strength II
+Nombre=Major Strength
 Desc=Increases between 3 and 6 points the strength of the target.
-ManaRequerido=55
-MinSkill=70
-HechizeroMsg=You casted Strength on
-Cooldown=0
-IconoIndex=32436
 PalabrasMagicas=Ar A kron
-PropioMsg=You casted Strength on yourself.
-StaRequerido=40
+HechizeroMsg=You casted Strength on
 TargetMsg=has casted Strength on you.
+PropioMsg=Has lanzado Fuerza sobre ti.
+ManaRequerido=55
+StaRequerido=70
+MinSkill=70
+IconoIndex=32436
 
 [HECHIZO36]
-Nombre=Summon Forest Gorillas
-Desc=Nature helps you! Three Forest Gorillas will fight for you.
-ManaRequerido=550
-MinSkill=63
-Cooldown=0
-IconoIndex=0
+Nombre=Summon Gorilla
+Desc=Nature helps you! A Forest Gorilla will fight for you.
 PalabrasMagicas=Urku Banô Thar
-PropioMsg=You
-StaRequerido=215
+PropioMsg=Has invocado un Gorila
+ManaRequerido=475
+StaRequerido=220
+MinSkill=63
+IconoIndex=74738
 
 [HECHIZO37]
-Nombre=Celeridad Menor
-Desc=Aumenta entre 1 y 3 puntos la agilidad del objetivo.
-ManaRequerido=0
-MinSkill=0
-HechizeroMsg=Has lanzado Celeridad sobre
-Cooldown=0
-IconoIndex=0
+Nombre=Minor Celerity
+Desc=Increases between 1 and 3 points the agility of the target.
 PalabrasMagicas=YUP A INC
+HechizeroMsg=You casted Celerity on
+TargetMsg=has casted Celerity on you.
 PropioMsg=Has lanzado Celeridad sobre ti.
-StaRequerido=0
-TargetMsg=ha lanzado Celeridad sobre ti.
+ManaRequerido=30
+StaRequerido=25
+MinSkill=40
+IconoIndex=35754
 
 [HECHIZO38]
-Nombre=Fuerza Menor
-Desc=Aumenta entre 1 y 2 puntos la fuerza del objetivo.
-ManaRequerido=0
-MinSkill=0
-HechizeroMsg=Has lanzado Fuerza sobre
-Cooldown=0
-IconoIndex=0
+Nombre=Minor Strength
+Desc=Increases between 1 and 2 points the strength of the target.
 PalabrasMagicas=Ar A kron
+HechizeroMsg=You casted Strength on
+TargetMsg=has casted Strength on you.
 PropioMsg=Has lanzado Fuerza sobre ti.
-StaRequerido=0
-TargetMsg=ha lanzado Fuerza sobre ti.
+ManaRequerido=25
+StaRequerido=20
+MinSkill=35
+IconoIndex=32436
 
 [HECHIZO39]
-Nombre=Ascua Fugaz
-Desc=Causa 35 a 45 puntos de daño a la víctima.
-ManaRequerido=0
-MinSkill=0
-HechizeroMsg=Has lanzado Ascua Fugaz sobre
-Cooldown=0
-IconoIndex=0
+Nombre=Fleeting Ember
+Desc=Deals 35 to 45 hit points to the victim.
 PalabrasMagicas=TOR VAX EK
-StaRequerido=0
-TargetMsg=lanzó Ascua Fugaz sobre ti.
+HechizeroMsg=You have cast Fleeting Ember on
+TargetMsg=cast Fleeting Ember on you.
+ManaRequerido=85
+StaRequerido=40
+MinSkill=45
+IconoIndex=35688
 
 [HECHIZO40]
 Nombre=Fiery Radiance
 Desc=Causes 45 to 55 hit points to the objective
-ManaRequerido=150
-MinSkill=60
-HechizeroMsg=You casted Fiery Glow on
-Cooldown=0
-IconoIndex=35691
 PalabrasMagicas=FLAMMA RUM LUX
-PropioMsg=You casted Fiery Glow on yourself.
-StaRequerido=50
+HechizeroMsg=You casted Fiery Glow on
 TargetMsg=casted Fiery Glow on you.
+ManaRequerido=150
+StaRequerido=70
+MinSkill=60
+IconoIndex=35691
 
 [HECHIZO41]
 Nombre=Tormenta de Fuego
@@ -13337,26 +13323,23 @@ StaRequerido=350
 IconoIndex=35733
 
 [HECHIZO47]
-Nombre=Invocar Pixie Sagrada
-Desc=Invoca la forma física de una Pixie Sagrada.
-ManaRequerido=0
-MinSkill=0
-Cooldown=0
-IconoIndex=0
+Nombre=Summon Sacred Pixie
+Desc=Summon the physical form of a Sacred Pixie.
 PalabrasMagicas=Pix Sacred Rax
 PropioMsg=Has invocado una pixie sagrada.
-StaRequerido=0
+ManaRequerido=1030
+StaRequerido=300
+MinSkill=80
 
 [HECHIZO48]
-Nombre=Invocar Goblin
-Desc=Invoca un aguerrido Goblin para que luche a tu lado.
-ManaRequerido=0
-MinSkill=0
-Cooldown=0
-IconoIndex=0
+Nombre=Summon Goblin
+Desc=Summon a fierce Goblin to fight by your side.
 PalabrasMagicas=Grimtäk Sil
 PropioMsg=Has invocado un Goblin
-StaRequerido=0
+ManaRequerido=150
+StaRequerido=50
+MinSkill=30
+IconoIndex=74717
 
 [HECHIZO49]
 Nombre=tESTING sPELL
@@ -13374,15 +13357,14 @@ TargetMsg=has casted Final Impact on you.
 [HECHIZO50]
 Nombre=Electric Impact
 Desc=Causes 70 to 76 hit points to the target.
-ManaRequerido=460
-MinSkill=85
-HechizeroMsg=You
-Cooldown=0
-IconoIndex=35713
 PalabrasMagicas=IM PAX RA
-PropioMsg=You casted Electric Impact on yourself.
-StaRequerido=120
+HechizeroMsg=You
 TargetMsg=has casted Electric Impact on you.
+PropioMsg=Has lanzado Impacto Eléctrico sobre ti.
+ManaRequerido=460
+StaRequerido=120
+MinSkill=85
+IconoIndex=35713
 
 [HECHIZO51]
 Nombre=Descarga Eléctrica
@@ -13490,16 +13472,14 @@ IconoIndex=35691
 
 [HECHIZO59]
 Nombre=Elemental Ray
-Desc=Causes 76 to 83 hit points to the target.
-ManaRequerido=600
-MinSkill=87
-HechizeroMsg=You
-Cooldown=0
-IconoIndex=32423
+Desc=Causes 77 to 83 hit points to the target.
 PalabrasMagicas=LEMENTA RAY
-PropioMsg=You casted Elemental Ray on yourself.
-StaRequerido=135
+HechizeroMsg=You
 TargetMsg=has casted Elemental Ray on you.
+ManaRequerido=600
+StaRequerido=135
+MinSkill=87
+IconoIndex=32423
 
 [HECHIZO60]
 Nombre=Undead Human Magic
@@ -13512,40 +13492,37 @@ TargetMsg=cast Cursed Prayer on you.
 
 [HECHIZO61]
 Nombre=Fire Echo (NPC)
-Desc=Causes from 40 to 50 hit points to the target.
-ManaRequerido=75
-MinSkill=63
-HechizeroMsg=You have cast Fire Echo on
-Cooldown=0
-IconoIndex=35696
+Desc=Causes from 35 to 45 hit points to the target.
 PalabrasMagicas=MAGNIS X AR
-PropioMsg=You have cast a Fire Echo on yourself.
-StaRequerido=35
+HechizeroMsg=You have cast Fire Echo on
 TargetMsg=launched Echo of Fire on you.
+PropioMsg=Has lanzado un Eco Ígneo sobre ti.
+ManaRequerido=80
+StaRequerido=55
+MinSkill=63
+IconoIndex=74724
 
 [HECHIZO62]
 Nombre=Mauve Flash (NPC)
-Desc=Causes from 40 to 55 hit points to the target.
-ManaRequerido=85
-MinSkill=67
-HechizeroMsg=You have cast Mauve Flash on
-Cooldown=0
-IconoIndex=35696
+Desc=Causes from 40 to 45 hit points to the target.
 PalabrasMagicas=LÜX MÄLV
-PropioMsg=You have cast a Mauve Flash on yourself.
-StaRequerido=40
+HechizeroMsg=You have cast Mauve Flash on
 TargetMsg=cast Mauve Flash upon you.
+PropioMsg=Has lanzado un Destello Malva sobre ti.
+ManaRequerido=90
+StaRequerido=60
+MinSkill=67
+IconoIndex=35696
 
 [HECHIZO63]
-Nombre=Fractura Glacial (NPC)
-Desc=Causa de 45 a 50 puntos de daño a la víctima.
-ManaRequerido=0
-MinSkill=0
-HechizeroMsg=Has lanzado Fractura Glacial sobre
-Cooldown=0
-IconoIndex=0
+Nombre=Glacial Fracture (NPC)
+Desc=Causes from 45 to 50 hit points to the target.
 PalabrasMagicas=GLÄC X FRÄCT
-StaRequerido=0
+HechizeroMsg=You have cast Glacial Fracture on
+ManaRequerido=100
+StaRequerido=65
+MinSkill=73
+IconoIndex=74726
 
 [HECHIZO64]
 Nombre=Aliento Carmesí (NPC)
@@ -13572,55 +13549,50 @@ StaRequerido=0
 TargetMsg=lanzó Energía Ancestral sobre vos.
 
 [HECHIZO66]
-Nombre=Invocar Huargo
-Desc=Invoca la forma física de un lobo para defenderte en combate.
-ManaRequerido=0
-MinSkill=0
-Cooldown=0
-IconoIndex=0
+Nombre=Summon Warg
+Desc=Summon the physical form of a wolf to defend yourself in combat.
 PropioMsg=Has invocado un Huargo.
-StaRequerido=0
+ManaRequerido=0
+StaRequerido=170
+MinSkill=0
+IconoIndex=74743
 
 [HECHIZO67]
-Nombre=Invocar Oso Pardo
-Desc=Invoca la forma física de un oso para defenderte en combate.
-ManaRequerido=0
-MinSkill=0
-Cooldown=0
-IconoIndex=0
+Nombre=Summon Brown Bear
+Desc=Summon the physical form of a bear to defend yourself in combat.
 PropioMsg=Has invocado un Oso.
-StaRequerido=0
+ManaRequerido=0
+StaRequerido=170
+MinSkill=0
+IconoIndex=74744
 
 [HECHIZO68]
-Nombre=Invocar Lobo Huargo
-Desc=Invoca la forma física de un lobo huargo para defenderte en combate.
-ManaRequerido=0
-MinSkill=0
-Cooldown=0
-IconoIndex=0
+Nombre=Summon Dire Wolf
+Desc=Summon the physical form of a direwolf to defend yourself in combat.
 PropioMsg=Has invocado un Lobo Huargo.
-StaRequerido=0
+ManaRequerido=0
+StaRequerido=350
+MinSkill=0
+IconoIndex=74743
 
 [HECHIZO69]
-Nombre=Invocar Ursidae
-Desc=Invoca la forma física de un oso grizzly para defenderte en combate.
-ManaRequerido=0
-MinSkill=0
-Cooldown=0
-IconoIndex=0
+Nombre=Evoca Ursidae
+Desc=Summon the physical form of a grizzly bear to defend yourself in combat.
 PropioMsg=Has invocado un Ursidae.
-StaRequerido=0
+ManaRequerido=0
+StaRequerido=350
+MinSkill=0
+IconoIndex=74744
 
 [HECHIZO70]
-Nombre=Invocar Orco
-Desc=Invoca un Orco para que luche a tu lado.
-ManaRequerido=0
-MinSkill=0
-Cooldown=0
-IconoIndex=0
+Nombre=Summon Orc
+Desc=Summon a Orc to fight alongside you.
 PalabrasMagicas=Throk Val Gür
 PropioMsg=Has invocado un Orco
-StaRequerido=0
+ManaRequerido=180
+StaRequerido=80
+MinSkill=40
+IconoIndex=74739
 
 [HECHIZO71]
 ManaRequerido=0
@@ -14304,15 +14276,14 @@ StaRequerido=300
 IconoIndex=35734
 
 [HECHIZO155]
-Nombre=Summon Scyllas
-Desc=You summon three Scyllas that will prey on your target.
-ManaRequerido=575
-MinSkill=63
-Cooldown=0
-IconoIndex=0
+Nombre=Summon Scylla
+Desc=Summons a Scylla, queen of the cursed waters, an ancient spawn that devours both flesh and soul.
 PalabrasMagicas=Scylla Impetum
-PropioMsg=You summoned Scyllas
-StaRequerido=210
+PropioMsg=Has invocado una Scylla
+ManaRequerido=425
+StaRequerido=225
+MinSkill=63
+IconoIndex=7471
 
 [HECHIZO156]
 ManaRequerido=0
@@ -15957,24 +15928,24 @@ PropioMsg=Has activado el nucleo enano.
 StaRequerido=350
 
 [HECHIZO348]
-Nombre=Rugido Arcano (NPC)
-Desc=Causa de 15 a 20 puntos de daño a la víctima.
-ManaRequerido=40
-MinSkill=30
-HechizeroMsg=Has lanzado Rugido Arcano sobre
-IconoIndex=74728
+Nombre=Arcane Roar (NPC)
+Desc=Causes 15 to 20 points of damage to the victim.
 PalabrasMagicas=RUG THAEL ARCAN
+HechizeroMsg=You have cast Arcane Roar upon
+ManaRequerido=40
 StaRequerido=25
+MinSkill=30
+IconoIndex=74728
 
 [HECHIZO349]
-Nombre=Latido Ígneo (NPC)
-Desc=Causa de 30 a 40 puntos de daño a la víctima.
-ManaRequerido=70
-MinSkill=55
-HechizeroMsg=Has lanzado Latido Ígneo sobre
-IconoIndex=74723
+Nombre=Fiery Heartbeat (NPC)
+Desc=Causes from 30 to 40 hit points to the target.
 PalabrasMagicas=LUMEN X AR
+HechizeroMsg=You have launched Fiery Heartbeat on
+ManaRequerido=70
 StaRequerido=45
+MinSkill=55
+IconoIndex=74723
 
 [HECHIZO400]
 Nombre=Detectar Personajes
