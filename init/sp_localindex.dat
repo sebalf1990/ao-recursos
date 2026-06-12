@@ -2,7 +2,7 @@
 NUMEROHECHIZO=412
 NUMLOCALEMSG=2210
 NUMMAPAS=750
-NUMNPCS=9006
+NUMNPCS=9009
 NUMOBJS=9038
 NUMQUESTS=260
 NUMSUGERENCIAS=6
@@ -1307,6 +1307,7 @@ BodyIdle=861
 NpcType=1
 PuedeInvocar=1
 Comercia=0
+NoMapInfo=1
 
 [NPC2]
 Name=Juan <Sacerdote>
@@ -1315,15 +1316,17 @@ Body=5814
 Head=0
 NpcType=1
 Comercia=0
+NoMapInfo=1
 
 [NPC3]
 Name=Banquero <Finanzas Goliath>
-Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath. Somos la más grande institución bancaria en Argentum, contamos con bancos en todas las ciudades del continente.
+Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
 Body=5821
 Head=0
 BodyIdle=4489
 NpcType=4
 PuedeInvocar=1
+NoMapInfo=1
 
 [NPC4]
 Name=Lilith <Maestra Alquimista>
@@ -1332,11 +1335,12 @@ Body=5827
 Head=0
 Comercia=1
 PuedeInvocar=1
-NROITEMS=10
-Obj1=38-10000
-Obj2=37-10000
-Obj3=36-10000
 NpcType=0
+NoMapInfo=1
+NROITEMS=7
+Obj1=37-1000
+Obj2=38-1000
+Obj3=36-1000
 
 [NPC5]
 Name=Daniel <Provisiones>
@@ -1347,9 +1351,9 @@ NpcType=0
 Comercia=1
 NoMapInfo=1
 NROITEMS=4
-Obj1=43-100
-Obj2=160-100
-Obj3=161-100
+Obj1=43-1000
+Obj2=160-1000
+Obj3=42-1000
 
 [NPC6]
 Name=Makarena <Tabernera>
@@ -1376,15 +1380,16 @@ Obj3=161-100
 [NPC8]
 Name=Fevien <Provisiones>
 Desc=¡Hola! Ven a ver estos productos, sólo aquí conseguirás las mejores provisiones de todas estas tierras.
+DescClose=¡Hasta pronto!
 Body=21
 Head=4
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=10
-Obj1=1-100
-Obj2=22-100
-Obj3=23-100
+NROITEMS=6
+Obj1=1-1000
+Obj2=22-1000
+Obj3=29-1000
 
 [NPC9]
 Name=Igor <Provisiones>
@@ -1392,10 +1397,8 @@ Desc=¡Hola, joven aventurero! Puedes revisar mis productos siempre que quieras.
 Body=5
 Head=701
 Comercia=1
-NROITEMS=10
-Obj1=1-100
-Obj2=22-100
-Obj3=23-100
+NROITEMS=1
+Obj1=3749-100
 
 [NPC10]
 Name=Granjero Norte <Provisiones>
@@ -1421,11 +1424,12 @@ Desc=¡Ey, tú! ¿Quieres trabajar? Acércate, tengo la herramienta necesaria pa
 Body=578
 Head=427
 Comercia=1
-NROITEMS=6
-Obj1=187-1
-Obj2=363-1
-Obj3=2818-1
 NpcType=0
+NoMapInfo=1
+NROITEMS=4
+Obj1=203-1000
+Obj2=1142-1000
+Obj3=390-1000
 
 [NPC13]
 Name=Baldric <Herrador>
@@ -1434,10 +1438,10 @@ Body=71
 Head=8
 NpcType=0
 Comercia=1
-NROITEMS=4
-Obj1=881-1
-Obj2=2183-1
-Obj3=138-1
+NROITEMS=9
+Obj1=5077-100
+Obj2=5078-100
+Obj3=5079-100
 
 [NPC14]
 Name=Thorek <Minero Experto>
@@ -1447,17 +1451,23 @@ Head=423
 NpcType=0
 Comercia=1
 NoMapInfo=1
+NROITEMS=3
+Obj1=203-1000
+Obj2=2818-1000
+Obj3=390-1000
 
 [NPC15]
 Name=Joseph <Mercader>
 Desc=¡Hola, bienvenido a mi tienda! Estoy interesado en todo tipo de productos. No olvides de pasar de vez en cuando, puede que mañana ya hayan comprado lo que estabas buscando!
-Body=78
-Head=30
+Body=45
+Head=14
 Comercia=1
-NROITEMS=2
-Obj1=534-1
-Obj2=197-1
 NpcType=0
+NoMapInfo=1
+NROITEMS=3
+Obj1=534-1000
+Obj2=199-1000
+Obj3=197-1000
 
 [NPC16]
 Name=Vhalek <Mercader del Muelle>
@@ -1466,8 +1476,10 @@ Body=281
 Head=46
 NpcType=0
 Comercia=1
-NROITEMS=1
-Obj1=3791-1000
+NROITEMS=6
+Obj1=3791-1
+Obj2=23-1
+Obj3=160-1
 
 [NPC17]
 Name=Sacerdote Carcelario
@@ -1484,6 +1496,10 @@ Body=1549
 Head=224
 NpcType=0
 Comercia=1
+NROITEMS=4
+Obj1=43-100
+Obj2=23-100
+Obj3=38-100
 
 [NPC19]
 Name=Lyra <Quest>
@@ -1521,16 +1537,17 @@ Head=77
 NpcType=24
 
 [NPC24]
-Name=Liliana <Alquimias de Principiante>
-Desc=¿Te has quedado sin pociones? Tengo algunas para ofrecerte, a un precio que te va a convenir… y mucho!
+Name=Lilith <Alquimias de Principiante>
+Desc=¿Te has quedado sin pociones? Tengo algunas para ofrecerte, a un precio que te va a convenir
+DescClose=¡Hasta pronto!
 Body=2101
-Head=0
+Head=69
+NpcType=0
 Comercia=1
-PuedeInvocar=1
 NROITEMS=5
-Obj1=1616-1
-Obj2=1617-1
-Obj3=1618-1
+Obj1=4336-1000
+Obj2=4335-1000
+Obj3=4337-1000
 
 [NPC25]
 Name=Godwin <Mercader de Monturas>
@@ -1539,6 +1556,8 @@ Body=69
 Head=6
 NpcType=0
 Comercia=1
+NROITEMS=1
+Obj1=653-10
 
 [NPC26]
 Name=McGlashan
@@ -1558,35 +1577,14 @@ Body=338
 Head=15
 NpcType=24
 
-[NPC30]
-Name=Capitan Wynne
-Body=132
-Head=604
-HP=9000
-EXP=17100
-ORO=990
-MaxHIT=160
-MinHIT=120
-NumQuiza=1
-QuizaDropea1=3175-1
-QuizaProb=100
-
-[NPC31]
-Name=Capitan Low
-Body=4150
-Head=0
-BodyIdle=4152
-Ataque1=4151
-HP=12000
-Comercia=0
-GiveEXPClan=3
-EXP=22800
-ORO=1200
-MaxHIT=220
-MinHIT=175
-NumQuiza=1
-QuizaDropea1=2237-1
-QuizaProb=375
+[NPC28]
+Name=Vendedor de Pasajes
+Desc=Interactua conmigo si quieres viajar por el mundo.
+Body=281
+Head=46
+NpcType=0
+Comercia=1
+NROITEMS=0
 
 [NPC36]
 Name=Rethor <Sastrería>
@@ -1618,6 +1616,10 @@ Head=4
 NpcType=0
 Comercia=1
 NoMapInfo=1
+NROITEMS=8
+Obj1=37-1000
+Obj2=38-1000
+Obj3=36-1000
 
 [NPC47]
 Name=Alquimista Caótico
@@ -1627,6 +1629,10 @@ Head=7
 NpcType=0
 Comercia=1
 NoMapInfo=1
+NROITEMS=8
+Obj1=37-1000
+Obj2=38-1000
+Obj3=36-1000
 
 [NPC48]
 Name=Ether <Mercader de Combate>
@@ -1634,9 +1640,10 @@ Desc=¿Deseas mejorar tu equipamiento inicial? Seguro que con esto podrás defen
 Body=17
 Head=32
 Comercia=1
-NROITEMS=2
-Obj1=1700-1
-Obj2=15-1
+NROITEMS=4
+Obj1=15-1
+Obj2=2-1
+Obj3=1700-1
 
 [NPC49]
 Name=Lyhn <Sastre de Nix>
@@ -1690,24 +1697,37 @@ Head=109
 NpcType=0
 Comercia=1
 NoMapInfo=1
+NROITEMS=7
+Obj1=198-100
+Obj2=127-100
+Obj3=361-100
 
 [NPC56]
-Name=Eldrin <Armero>
+Name=Elerion <Herrero Eterno>
 Desc=¡Bienvenidos a mi Forja! Aquí, la fortaleza elfa se forja en armas de incomparable belleza y poder.
+DescClose=¡Hasta luego!
 Body=326
-Head=106
 NpcType=0
 Comercia=1
+NROITEMS=7
+Obj1=3988-100
+Obj2=123-100
+Obj3=3987-100
 NoMapInfo=1
 
 [NPC57]
 Name=Lirenn <Herrera>
 Desc=¡Bienvenidos a mi Forja! Aqui, la destreza elfa te protegerá con las mejores armaduras y escudos.
+DescClose=¡Hasta luego!
 Body=275
 Head=67
 NpcType=0
 Comercia=1
 NoMapInfo=1
+NROITEMS=7
+Obj1=1713-100
+Obj2=1774-100
+Obj3=1761-100
 
 [NPC58]
 Name=Stavros <Tabernero>
@@ -1716,7 +1736,8 @@ Body=5826
 Head=0
 NpcType=0
 Comercia=1
-NROITEMS=3
+NoMapInfo=1
+NROITEMS=4
 Obj1=43-1000
 Obj2=160-1000
 Obj3=42-1000
@@ -1729,7 +1750,8 @@ Body=5829
 Head=0
 NpcType=0
 Comercia=1
-NROITEMS=3
+NoMapInfo=1
+NROITEMS=6
 Obj1=1-1000
 Obj2=22-1000
 Obj3=29-1000
@@ -1737,15 +1759,16 @@ Obj3=29-1000
 [NPC74]
 Name=Zonrie <Hechicero de Arghal>
 Desc=¡Tengo una gran variedad de hechizos!
+DescClose=¡Que la magia te acompañe!
 Body=124
 Head=118
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=15
-Obj1=2765-1
-Obj2=2766-1
-Obj3=1665-1
+NROITEMS=13
+Obj1=2765-100
+Obj2=2764-100
+Obj3=2763-100
 
 [NPC77]
 Name=Xyret
@@ -1825,10 +1848,10 @@ Head=11
 NpcType=17
 
 [NPC92]
-Name=Jacobo <Quest>
-Desc=¿Quieres ser un experto pescador?
+Name=Ofelia <Quest>
+Desc=¡Estoy desesperada, por favor ayudame!
 Body=1049
-Head=702
+Head=561
 NpcType=17
 
 [NPC93]
@@ -1902,15 +1925,16 @@ Obj3=161-100
 [NPC101]
 Name=Daena <Provisiones>
 Desc=¡Bienvenido a mi huerta! Tengo las mejores frutas de la zona. No podrás encontrarlas de mejor calidad.
+DescClose=¡Hasta luego!
 Body=1234
 Head=523
 NpcType=0
 Comercia=1
 NoMapInfo=1
 NROITEMS=10
-Obj1=1-100
-Obj2=22-100
-Obj3=23-100
+Obj1=1-1000
+Obj2=22-1000
+Obj3=29-1000
 
 [NPC102]
 Name=Mildred <Hechicero>
@@ -1919,10 +1943,11 @@ Body=124
 Head=117
 NpcType=0
 Comercia=1
-NROITEMS=3
+NoMapInfo=1
+NROITEMS=8
 Obj1=2765-100
 Obj2=2763-100
-Obj3=2467-100
+Obj3=2764-100
 
 [NPC103]
 Name=Bagul <Minero>
@@ -1954,19 +1979,16 @@ Head=501
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=1
+NROITEMS=2
 Obj1=534-1
+Obj2=199-1
 
 [NPC107]
-Name=Morgut
-Desc=¡Compro lo que el mar puede ofrecer!
+Name=Capitán Rowen <Quest>
+Desc=¡Alto ahí, ciudadano! Los exploradores regresaron del pantano con malas noticias. Trolls, abominaciones y los malditos guardas del pantano se están organizando. Si no actuamos pronto, Ullathorpe será el próximo objetivo.
 Body=249
-Head=500
-Comercia=1
-NROITEMS=3
-Obj1=881-1
-Obj2=2183-1
-Obj3=138-1
+Head=26
+NpcType=17
 
 [NPC108]
 Name=Branik <Quest>
@@ -2003,17 +2025,11 @@ MaxHIT=3
 MinHIT=1
 
 [NPC112]
-Name=Escorpión
-Body=4335
-Head=0
-BodyIdle=4334
-Ataque1=4333
-HP=30
-Comercia=0
-EXP=15
-ORO=8
-MaxHIT=10
-MinHIT=6
+Name=Kleric <Quest>
+Desc=¡El poder de Curar!
+Body=61
+Head=13
+NpcType=17
 
 [NPC113]
 Name=Agnome <Quest>
@@ -2072,6 +2088,7 @@ Desc=¿Quierés cortar arboles? Mi recomendación es que revises la sección Tal
 Body=589
 Head=312
 NpcType=0
+NoMapInfo=1
 
 [NPC121]
 Name=Carpintero <Wiki>
@@ -2079,6 +2096,7 @@ Desc=¡Puedes convertir tu madera en lo que tu quieras! Debes aprender sobre est
 Body=594
 Head=310
 NpcType=0
+NoMapInfo=1
 
 [NPC122]
 Name=Herrero
@@ -2086,6 +2104,7 @@ Desc=¿Quieres aprender a forjar tus items? ¡La información que necesitas se e
 Body=63
 Head=30
 NpcType=0
+NoMapInfo=1
 
 [NPC123]
 Name=Minero
@@ -2093,6 +2112,7 @@ Desc=Todo lo relacionado a la extracción de minerales en Argentum Online se enc
 Body=726
 Head=303
 NpcType=0
+NoMapInfo=1
 
 [NPC124]
 Name=Alquimista
@@ -2100,6 +2120,7 @@ Desc=¡El mundo de la Alquimia es maravilloso! Te recomiendo aprender todo lo re
 Body=2016
 Head=156
 NpcType=0
+NoMapInfo=1
 
 [NPC125]
 Name=Sastre
@@ -2107,6 +2128,7 @@ Desc=Existen varios tipos de pieles a lo largo de este Mundo, puedo enseñarte m
 Body=79
 Head=5
 NpcType=0
+NoMapInfo=1
 
 [NPC126]
 Name=Pescadora
@@ -2158,7 +2180,7 @@ NROITEMS=0
 [NPC252]
 Name=Maximus <Gobernador de Banderbill>
 Desc=Banderbill sigue siendo una ciudad muy grande, pero aún hay espacio para ciudadanos fieles al Rey Tancredo.
-Body=380
+Body=4002
 Head=27
 NpcType=12
 NoMapInfo=1
@@ -2167,7 +2189,7 @@ NROITEMS=0
 [NPC253]
 Name=Domus <Gobernador de Arkhein>
 Desc=¿Te interesaría convivir con el Mal?
-Body=375
+Body=4001
 Head=13
 NpcType=12
 NoMapInfo=1
@@ -2175,7 +2197,7 @@ NoMapInfo=1
 [NPC254]
 Name=Vanessa <Gobernadora de Lindos>
 Desc=Una isla pequeña con un corazon enorme.. ¡Este podria ser tu lugar!
-Body=2330
+Body=4004
 Head=151
 NpcType=12
 NoMapInfo=1
@@ -2184,24 +2206,23 @@ NROITEMS=0
 [NPC255]
 Name=Lady Élanor <Gobernadora de Arghal>
 Desc=¡Bienvenido a Arghal! Te recomiendo pasar la noche en nuestra ciudad. Cuando el sol se oculta, suele convertirse en un territorio muy peligroso.
-Body=2330
+Body=4008
 Head=373
 NpcType=12
 NoMapInfo=1
 NROITEMS=0
 
 [NPC256]
-Name=Njord <Gobernador de Forgat>
+Name=Jarl Njord <Gobernador de Forgat>
 Desc=¡Bienvenido a Forgat la tierra de los Vikingos!
-Body=138
-Head=324
+Body=4006
 NpcType=12
 NoMapInfo=1
 
 [NPC257]
 Name=Haleth <Gobernadora de Eldoria>
 Desc=¡Bienvenido a Eldoria la tierra de los Elfos!
-Body=382
+Body=4003
 Head=167
 NpcType=12
 NoMapInfo=1
@@ -2209,22 +2230,24 @@ NoMapInfo=1
 [NPC258]
 Name=Dhall <Gobernadora de Penthar>
 Desc=¡Bienvenido a Penthar la tierra de los Orcos!
-Body=381
+Body=4005
 Head=555
 NpcType=12
 NoMapInfo=1
 
+[NPC259]
+Name=Blorin <Gobernador de Morgrim>
+Desc=¡Bienvenido a Morgrim la tierra de los Enanos!
+Body=4009
+NpcType=12
+NoMapInfo=1
+
 [NPC260]
-Name=Guardia Imperial
-Desc=¡Larga vida al rey!
+Name=Camello <Quest>
+Desc=No puedo decirte exactamente qué haré con él... pero sé que su energía vale oro para quien pueda estudiarla.
 Body=2530
-Head=0
-HP=10000
-NpcType=2
-Comercia=0
-MaxHIT=250
-MinHIT=150
-NROITEMS=0
+Head=368
+NpcType=17
 
 [NPC261]
 Name=Guardia Imperial
@@ -2240,7 +2263,7 @@ NROITEMS=0
 
 [NPC262]
 Name=Sacerdote Imperial
-Desc=Ohhh hijo mío!! que la llama de la virtud arda en tu corazón!!!
+Desc=¡Oh, hijo mío! ¡Que la llama de la virtud arda en tu Corazón!
 Body=147
 Head=4
 HP=10000
@@ -2250,20 +2273,44 @@ MaxHIT=100
 MinHIT=100
 NROITEMS=0
 
+[NPC265]
+Name=Subastador
+Desc=Subastador
+Body=289
+Head=114
+NpcType=16
+
+[NPC266]
+Name=Guardia del Caos
+Body=4516
+HP=1500
+EXP=900
+MaxHIT=150
+MinHIT=70
+
 [NPC267]
 Name=Cabra
 Body=5018
 Head=0
 BodyIdle=5016
+Ataque1=5017
+HP=1000
 NpcType=0
+EXP=600
+ORO=0
+MaxHIT=75
+MinHIT=60
 
 [NPC268]
 Name=Guardian de la Montaña
 Desc=¡No permito criaturas en esta zona!
 Body=578
 Head=42
+HP=10000
 NpcType=13
 NoMapInfo=1
+MaxHIT=0
+MinHIT=0
 
 [NPC269]
 Name=Guardia de Entradas
@@ -2301,26 +2348,30 @@ MinHIT=150
 NROITEMS=0
 
 [NPC275]
-Name=Guardia Imperial Nix
+Name=Guardia Imperial de Nix
 Desc=Daré carcel a todos los criminales.
 Body=4113
-Head=0
 HP=10000
-NpcType=0
-Comercia=0
 MaxHIT=100
 MinHIT=100
 
 [NPC276]
 Name=Arquero Imperial
 Desc=Mi deber es resguardar las murallas de esta ciudad.
-Body=1219
+Body=364
 Head=31
 HP=7500
 NpcType=0
 Comercia=0
 MaxHIT=150
 MinHIT=100
+
+[NPC290]
+Name=Apostador
+Desc=Si deseas apostar, escribe /APOSTAR e ingresa la cantidad con la que jugarás.
+Body=36
+Head=9
+NpcType=7
 
 [NPC301]
 Name=Aelion <Rey de Eldoria>
@@ -2372,6 +2423,17 @@ NROITEMS=16
 Obj1=2843-100
 Obj2=2841-100
 Obj3=2829-100
+
+[NPC308]
+Name=Lagartija 2
+Body=4844
+HP=200000
+GIVEEXPCLAN=100
+MaxHIT=5000
+MinHIT=1000
+NumQuiza=1
+QUIZADROPEA1=1649
+QuizaProb=100
 
 [NPC400]
 Name=Abyssal
@@ -2586,6 +2648,15 @@ Body=152
 Head=21
 NpcType=17
 
+[NPC490]
+Name=Krix <Finanzas Goliath>
+Desc=¡Hola, bienvenido a la cadena de Finanzas Goliath!
+Body=5821
+Head=0
+NpcType=4
+NoMapInfo=1
+PuedeInvocar=1
+
 [NPC491]
 Name=Nuri <Finanzas Goliath>
 Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
@@ -2598,6 +2669,22 @@ NoMapInfo=1
 Name=Keldor <Finanzas Goliath>
 Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
 Body=5825
+Head=0
+NpcType=4
+NoMapInfo=1
+
+[NPC493]
+Name=Banquero Elfo <Finanzas Goliath>
+Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
+Body=5821
+Head=0
+NpcType=4
+NoMapInfo=1
+
+[NPC494]
+Name=Banquero Negro <Finanzas Goliath>
+Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
+Body=5821
 Head=0
 NpcType=4
 NoMapInfo=1
@@ -2628,24 +2715,29 @@ BodyIdle=4373
 Ataque1=4371
 HP=60
 Comercia=0
-EXP=72
-MaxHIT=15
-MinHIT=10
+EXP=30
+MaxHIT=12
+MinHIT=6
 QuizaProb=5
 NROITEMS=1
 Obj1=414-1
+ORO=3
+NpcType=0
+Nivel=5
 
 [NPC501]
-Name=Gallo
+Name=Gallina
 Body=5151
 Head=0
-HP=15
-Comercia=0
-EXP=18
+BodyIdle=5149
+Ataque1=5150
+HP=10
+NpcType=0
+EXP=5
+ORO=0
 MaxHIT=4
-MinHIT=1
-NROITEMS=1
-Obj1=26-1
+MinHIT=3
+Nivel=5
 
 [NPC502]
 Name=Serpiente
@@ -2653,39 +2745,62 @@ Body=4194
 Head=0
 BodyIdle=4195
 Ataque1=4193
-HP=22
+HP=30
 Comercia=0
-EXP=22
-ORO=5
-MaxHIT=6
+EXP=15
+ORO=1
+MaxHIT=7
 MinHIT=3
 NROITEMS=0
+NpcType=0
+Nivel=5
 
 [NPC503]
 Name=Tortuga Mediterranea
-Body=4455
+Body=5012
 Head=0
-BodyIdle=4456
-HP=400
-EXP=240
-MaxHIT=60
-MinHIT=35
+BodyIdle=5010
+Ataque1=5011
+HP=800
+EXP=400
+MaxHIT=47
+MinHIT=25
 NROITEMS=1
 Obj1=1700-1
+NumQuiza=1
+ORO=20
+QUIZADROPEA1=1700
+QuizaProb=8
+NpcType=0
+Nivel=20
 
 [NPC504]
 Name=Zombie Putrefacto
 Body=4937
 Head=0
 BodyIdle=4935
+Ataque1=4936
+HP=600
 NpcType=0
+EXP=300
+ORO=15
+MaxHIT=40
+MinHIT=25
+Nivel=15
 
 [NPC505]
 Name=Zombie Andante
 Body=4940
 Head=0
 BodyIdle=4938
+Ataque1=4939
+HP=450
 NpcType=0
+EXP=225
+ORO=8
+MaxHIT=30
+MinHIT=20
+Nivel=15
 
 [NPC506]
 Name=Murciélago
@@ -2693,35 +2808,42 @@ Body=4340
 Head=0
 BodyIdle=4340
 Ataque1=4339
-HP=15
+HP=20
 Comercia=0
-EXP=18
-ORO=3
-MaxHIT=3
-MinHIT=1
+EXP=10
+ORO=1
+MaxHIT=5
+MinHIT=3
+NpcType=0
+Nivel=5
 
 [NPC507]
 Name=Zombie
 Body=4946
 Head=0
-BodyIdle=4197
-Ataque1=4196
-HP=500
+BodyIdle=4944
+Ataque1=4945
+HP=300
 Comercia=0
-EXP=625
-ORO=40
-MaxHIT=30
-MinHIT=20
+EXP=150
+ORO=12
+MaxHIT=15
+MinHIT=8
+NpcType=0
 
 [NPC508]
-Name=Hormiga
+Name=Hormiga Roja
 Body=5228
 Head=0
-HP=8
-EXP=11
-MaxHIT=1
-MinHIT=1
-ORO=1
+BodyIdle=5226
+Ataque1=5227
+HP=200
+NpcType=0
+EXP=100
+ORO=14
+MaxHIT=28
+MinHIT=16
+Nivel=8
 
 [NPC509]
 Name=Escorpión
@@ -2729,49 +2851,60 @@ Body=4335
 Head=0
 BodyIdle=4334
 Ataque1=4333
-HP=30
+HP=50
 Comercia=0
-EXP=30
-ORO=9
-MaxHIT=10
-MinHIT=6
+EXP=25
+ORO=2
+MaxHIT=8
+MinHIT=5
+NpcType=0
+Nivel=5
 
 [NPC510]
 Name=Orco
 Body=5461
 Head=0
+BodyIdle=5459
+Ataque1=5460
 HP=800
 Comercia=0
-EXP=480
-MaxHIT=80
-MinHIT=50
+EXP=400
+MaxHIT=50
+MinHIT=35
 NumQuiza=1
 QuizaDropea1=3-1
 QuizaProb=5
+ORO=20
+NpcType=0
+Nivel=20
 
 [NPC511]
 Name=Rata
-Body=4381
+Body=5163
 Head=0
-BodyIdle=4380
-HP=15
-EXP=18
-ORO=5
-MaxHIT=5
+BodyIdle=5161
+Ataque1=5162
+HP=6
+EXP=3
+ORO=1
+MaxHIT=3
 MinHIT=2
+NpcType=0
+Nivel=5
 
 [NPC512]
-Name=Araña
+Name=Araña de Bosque
 Body=4208
 Head=0
 BodyIdle=4207
 Ataque1=4206
 HP=1000
-Comercia=0
-EXP=800
-ORO=100
+EXP=600
 MaxHIT=80
-MinHIT=60
+MinHIT=55
+ORO=35
+NpcType=0
+Nivel=20
 
 [NPC513]
 Name=Morvanna
@@ -2785,77 +2918,95 @@ EXP=2475
 ORO=110
 MaxHIT=135
 MinHIT=90
+Nivel=28
 
 [NPC514]
 Name=Esqueleto
 Body=5057
 Head=0
-HP=350
+BodyIdle=5055
+Ataque1=5056
+HP=300
 Comercia=0
-EXP=385
-ORO=35
-MaxHIT=15
-MinHIT=12
+EXP=150
+ORO=9
+MaxHIT=25
+MinHIT=19
 NROITEMS=0
+NpcType=0
 
 [NPC515]
 Name=Sirena
-Body=4051
-HP=3600
-EXP=4200
-MaxHIT=175
-MinHIT=100
+Body=5038
+BodyIdle=5036
+Ataque1=5037
+HP=3500
+EXP=2625
+MaxHIT=145
+MinHIT=80
 NumQuiza=3
 QuizaDropea1=394-1
 QuizaDropea2=394-2
 QuizaDropea3=394-3
 QuizaProb=3
-ORO=560
+ORO=95
+NpcType=0
+GiveEXPClan=1
+Nivel=28
 
 [NPC516]
 Name=Leviatán
 Body=5443
-BodyIdle=4529
-HP=6000
-EXP=9000
-GiveEXPClan=1
-ORO=800
-MaxHIT=180
-MinHIT=60
+BodyIdle=5441
+Ataque1=5442
+HP=6500
+EXP=5200
+GiveEXPClan=2
+ORO=185
+MaxHIT=215
+MinHIT=145
+NpcType=0
+Nivel=28
 
 [NPC517]
-Name=Lord Duende
+Name=Zulrik
 Body=5101
 Head=0
-HP=350
-EXP=350
-ORO=175
-MaxHIT=55
-MinHIT=40
+BodyIdle=5099
+Ataque1=5100
+HP=400
+NpcType=0
+EXP=200
+ORO=0
+MaxHIT=15
+MinHIT=5
 
 [NPC518]
-Name=Duende
+Name=Grunak
 Body=5098
 Head=0
-HP=150
-EXP=135
-ORO=30
-MaxHIT=25
-MinHIT=15
-NumQuiza=1
-QuizaDropea1=1648-1
-QuizaProb=100
+BodyIdle=5096
+Ataque1=5097
+HP=600
+NpcType=0
+EXP=300
+ORO=18
+MaxHIT=40
+MinHIT=28
+Nivel=15
 
 [NPC519]
-Name=Cisne Blanco
-Body=4006
+Name=Rikkar
+Body=5104
 Head=0
-HP=135
-Comercia=0
-EXP=120
-ORO=27
-MaxHIT=30
-MinHIT=5
+BodyIdle=5102
+Ataque1=5103
+HP=300
+NpcType=0
+EXP=150
+ORO=12
+MaxHIT=24
+MinHIT=12
 
 [NPC520]
 Name=Beholder
@@ -2863,31 +3014,44 @@ Body=4233
 Head=0
 BodyIdle=4233
 Ataque1=4232
-HP=2500
-EXP=3000
-ORO=200
-MaxHIT=135
-MinHIT=60
+HP=2000
+EXP=1400
+ORO=75
+MaxHIT=105
+MinHIT=75
+NpcType=0
+Nivel=20
 
 [NPC521]
 Name=Throgar
 Body=5122
 Head=0
 BodyIdle=5120
+Ataque1=5121
+HP=1400
 NpcType=0
+EXP=700
+ORO=63
+MaxHIT=80
+MinHIT=45
 
 [NPC522]
 Name=Goblin
 Body=4899
 Head=0
-HP=200
+BodyIdle=4897
+Ataque1=4898
+HP=150
 Comercia=0
-EXP=160
-MaxHIT=25
-MinHIT=15
+EXP=75
+MaxHIT=22
+MinHIT=12
 NumQuiza=1
-QuizaDropea1=1278-1
-QuizaProb=10
+QuizaDropea1=1278
+QuizaProb=133
+ORO=9
+NpcType=0
+Nivel=8
 
 [NPC523]
 Name=Zombie Guerrero
@@ -2901,6 +3065,7 @@ EXP=500
 ORO=45
 MaxHIT=55
 MinHIT=25
+Nivel=20
 
 [NPC524]
 Name=Esqueleto Arquero
@@ -2914,6 +3079,7 @@ EXP=660
 ORO=33
 MaxHIT=35
 MinHIT=18
+Nivel=20
 
 [NPC525]
 Name=Rodrick
@@ -2927,6 +3093,7 @@ ORO=75
 MaxHIT=130
 MinHIT=90
 GiveEXPClan=1
+Nivel=28
 
 [NPC526]
 Name=Holt
@@ -2940,6 +3107,7 @@ ORO=90
 MaxHIT=135
 MinHIT=95
 GiveEXPClan=1
+Nivel=28
 
 [NPC527]
 Name=Huargo Negro
@@ -2966,6 +3134,8 @@ ORO=0
 MaxHIT=35
 MinHIT=15
 Obj1=5997-1
+NROITEMS=1
+Nivel=15
 
 [NPC529]
 Name=Troll Ártico
@@ -2980,6 +3150,7 @@ ORO=120
 MaxHIT=160
 MinHIT=130
 GiveEXPClan=1
+Nivel=28
 
 [NPC530]
 Name=Goruk
@@ -2993,17 +3164,21 @@ ORO=100
 MaxHIT=135
 MinHIT=90
 GiveEXPClan=1
+Nivel=28
 
 [NPC531]
-Name=Beholder de Nieve
-Body=4231
-BodyIdle=4231
-Ataque1=4230
-HP=8000
-EXP=800
-ORO=4000
-MaxHIT=180
-MinHIT=150
+Name=Kryos
+Body=5437
+BodyIdle=5435
+Ataque1=5436
+HP=6000
+NpcType=0
+EXP=0
+GiveEXPClan=0
+ORO=0
+Nivel=28
+MaxHIT=190
+MinHIT=160
 
 [NPC532]
 Name=Gigante de Hielo
@@ -3017,20 +3192,22 @@ ORO=1100
 MaxHIT=235
 MinHIT=180
 GiveEXPClan=10
+Nivel=28
 
 [NPC533]
 Name=Mago Malvado
-Body=3134
+Body=530
 Head=401
-HP=3000
+HP=4000
 Comercia=0
-EXP=4400
-ORO=600
-MaxHIT=115
-MinHIT=100
+EXP=4000
+ORO=160
+MaxHIT=130
+MinHIT=90
 NumQuiza=1
 QuizaDropea1=1239-1
 QuizaProb=20
+NpcType=0
 
 [NPC534]
 Name=Bruja Escarlata
@@ -3058,6 +3235,7 @@ ORO=355
 MaxHIT=215
 MinHIT=175
 GiveEXPClan=3
+Nivel=32
 
 [NPC536]
 Name=Escarlath
@@ -3072,6 +3250,7 @@ ORO=950
 MaxHIT=215
 MinHIT=180
 GiveEXPClan=18
+Nivel=20
 
 [NPC537]
 Name=Gralthar
@@ -3082,13 +3261,14 @@ HP=1200
 NpcType=0
 EXP=750
 ORO=50
-MaxHIT=115
-MinHIT=80
+MaxHIT=85
+MinHIT=35
+Nivel=20
 
 [NPC538]
 Name=Euríale
 Body=4563
-HP=11000
+HP=8000
 Nivel=45
 Comercia=0
 EXP=22000
@@ -3100,15 +3280,18 @@ MinHIT=175
 [NPC540]
 Name=Medusa
 Body=4856
-HP=7000
-EXP=11250
-GiveEXPClan=2
-ORO=350
+BodyIdle=4855
+Ataque1=4857
+HP=8000
+EXP=10000
+GiveEXPClan=3
+ORO=200
 MaxHIT=160
 MinHIT=115
 NumQuiza=1
-QuizaDropea1=1149-1
+QuizaDropea1=2835
 QuizaProb=100
+NpcType=0
 
 [NPC541]
 Name=Ferrion
@@ -3127,6 +3310,12 @@ Name=Caballo Marrón
 Body=5181
 Head=0
 BodyIdle=5179
+Ataque1=5180
+HP=5000
+EXP=0
+ORO=0
+MaxHIT=250
+MinHIT=125
 
 [NPC543]
 Name=Caballo Blanco
@@ -3182,20 +3371,22 @@ Name=Mantarraya
 Body=4042
 HP=1600
 NpcType=0
-EXP=1850
-ORO=320
-MaxHIT=165
-MinHIT=110
+EXP=1200
+ORO=72
+MaxHIT=95
+MinHIT=85
 
 [NPC548]
 Name=Tiburón
 Body=4105
 HP=4500
 NpcType=0
-EXP=6500
-ORO=1000
-MaxHIT=100
-MinHIT=90
+EXP=3375
+ORO=230
+MaxHIT=165
+MinHIT=105
+GiveEXPClan=2
+Nivel=28
 
 [NPC549]
 Name=Infernus
@@ -3221,40 +3412,62 @@ Body=4328
 Head=0
 BodyIdle=4329
 Ataque1=4327
-HP=600
-EXP=750
-MaxHIT=100
-MinHIT=65
+HP=900
+EXP=450
+MaxHIT=55
+MinHIT=35
 NumQuiza=1
-QuizaDropea1=415-1
+QuizaDropea1=415
 QuizaProb=1
+NpcType=0
+ORO=0
+Nivel=20
 
 [NPC552]
 Name=Asesino
-Body=49
+Body=6043
 Head=639
-HP=1500
+BodyIdle=6041
+Ataque1=6042
+HP=800
 Comercia=0
-EXP=2100
-MaxHIT=140
-MinHIT=70
+EXP=400
+MaxHIT=40
+MinHIT=25
 NumQuiza=1
-QuizaDropea1=365-1
-QuizaProb=25
+QuizaDropea1=165
+QuizaProb=146
+ORO=15
+NpcType=0
+Nivel=20
 
 [NPC553]
 Name=Bandido
-Body=36
-Head=2
-HP=350
+Body=6046
+Head=211
+BodyIdle=6044
+Ataque1=6045
+HP=600
 Comercia=0
-EXP=315
-ORO=0
-MaxHIT=50
-MinHIT=25
+EXP=300
+ORO=12
+MaxHIT=35
+MinHIT=20
 NumQuiza=1
-QuizaDropea1=2907-1
-QuizaProb=4
+QuizaDropea1=1856
+QuizaProb=266
+NpcType=0
+Nivel=20
+
+[NPC554]
+Name=Mantarraya Tóxica
+Body=4042
+HP=1000
+EXP=750
+MaxHIT=70
+MinHIT=45
+ORO=40
+NpcType=0
 
 [NPC555]
 Name=Liche Brujo
@@ -3268,6 +3481,7 @@ EXP=1890
 ORO=80
 MaxHIT=125
 MinHIT=70
+Nivel=23
 
 [NPC556]
 Name=Fuego Fatuo
@@ -3281,89 +3495,109 @@ MinHIT=100
 
 [NPC557]
 Name=Liche
-Body=4090
-BodyIdle=4496
+Body=4868
+BodyIdle=4867
+Ataque1=4869
 HP=2000
-EXP=2800
-ORO=380
-MaxHIT=170
-MinHIT=120
+EXP=1400
+ORO=65
+MaxHIT=120
+MinHIT=70
+NpcType=0
+Nivel=23
 
 [NPC558]
 Name=Lobo Salvaje
 Body=5582
 Head=0
-BodyIdle=4277
-Ataque1=4275
-HP=90
+BodyIdle=5580
+Ataque1=5581
+HP=200
 Comercia=0
-EXP=54
-MaxHIT=23
-MinHIT=10
+EXP=100
+MaxHIT=18
+MinHIT=11
 NROITEMS=1
 Obj1=414-1
+NumQuiza=1
+QUIZADROPEA1=414
+QuizaProb=1
+NpcType=0
+ORO=3
+Nivel=20
 
 [NPC559]
 Name=Lobo Negro
-Body=4369
+Body=5576
 Head=0
-BodyIdle=4370
-Ataque1=4368
-HP=250
+BodyIdle=5574
+Ataque1=5575
+HP=500
 Comercia=0
 EXP=250
-MaxHIT=70
-MinHIT=55
-ORO=5
+MaxHIT=35
+MinHIT=20
+ORO=0
 NROITEMS=1
 Obj1=1146-1
+NumQuiza=1
+QUIZADROPEA1=1146
+QuizaProb=1
+NpcType=0
+Nivel=20
 
 [NPC560]
 Name=Ogro
 Body=5032
-BodyIdle=4494
-HP=2250
+BodyIdle=5030
+Ataque1=5031
+HP=3600
 Comercia=0
-EXP=3250
-MaxHIT=175
-MinHIT=65
+EXP=2880
+MaxHIT=130
+MinHIT=90
 NROITEMS=1
 Obj1=1848-1
+GiveEXPClan=1
+ORO=120
+NpcType=0
+Nivel=28
 
 [NPC561]
 Name=Ogro Guerrero
 Body=5029
-HP=4500
+BodyIdle=5027
+Ataque1=5028
+HP=5000
 Comercia=0
-EXP=6500
-ORO=462
-MaxHIT=190
-MinHIT=70
+EXP=4000
+ORO=125
+MaxHIT=185
+MinHIT=125
 NROITEMS=1
 Obj1=1848-1
+GiveEXPClan=1
+NpcType=0
+Nivel=28
 
 [NPC562]
-Name=Elfo No-Muerto
-Body=255
-Head=632
-HP=1000
-Comercia=0
-EXP=1175
-ORO=100
-MaxHIT=45
-MinHIT=40
+Name=Rathen <Quest>
+Desc=Si caminas entre sombras y dejas heridas que no sanan, quiza estés listo. Pero el verdadero dolor se aprende con sangre ajena... y paciencia.
+Body=1697
+Head=223
+NpcType=17
 
 [NPC563]
 Name=Lobo BATTLE TEST
 Body=4369
 Head=0
 BodyIdle=4370
-HP=1000
+HP=1
 NpcType=0
-EXP=1200
-ORO=110
-MaxHIT=50
-MinHIT=45
+EXP=0
+ORO=0
+MaxHIT=1
+MinHIT=1
 NROITEMS=0
 
 [NPC564]
@@ -3371,13 +3605,14 @@ Name=Capitan Wynne
 Body=132
 Head=604
 HP=9000
-EXP=17100
-ORO=990
+EXP=0
+ORO=0
 MaxHIT=160
 MinHIT=120
 NumQuiza=1
 QuizaDropea1=3175-1
 QuizaProb=100
+NpcType=0
 
 [NPC565]
 Name=Anubis
@@ -3390,6 +3625,14 @@ EXP=1960
 ORO=85
 MaxHIT=130
 MinHIT=60
+Nivel=20
+
+[NPC566]
+Name=Mezier <Quest>
+Desc=¡La Ciudad del Comercio está en problemas!
+Body=192
+Head=109
+NpcType=17
 
 [NPC567]
 Name=Calaveras
@@ -3397,28 +3640,43 @@ Body=4002
 HP=1
 Comercia=0
 
+[NPC568]
+Name=Humana No-Muerta
+Body=3704
+Head=629
+HP=300
+EXP=150
+MaxHIT=20
+MinHIT=15
+NumQuiza=1
+ORO=8
+QUIZADROPEA1=1239
+QuizaProb=125
+
 [NPC569]
-Name=Capitán Cedric
-Body=4003
-HP=20000
-EXP=30000
-GiveEXPClan=8
-ORO=0
-MaxHIT=220
-MinHIT=160
-NumQuiza=2
-QuizaDropea1=2860-1
-QuizaDropea2=2859-1
-QuizaProb=1
+Name=Cápitan Pyke
+Body=5563
+BodyIdle=5561
+Ataque1=5562
+HP=6000
+NpcType=0
+EXP=5400
+GiveEXPClan=3
+ORO=265
+MaxHIT=190
+MinHIT=150
+Nivel=28
 
 [NPC570]
 Name=Piet Heyn
-Body=3241
-HP=2000
-EXP=2800
-ORO=200
-MaxHIT=120
-MinHIT=110
+Body=285
+Head=26
+HP=3000
+EXP=2550
+ORO=125
+MaxHIT=125
+MinHIT=80
+NpcType=0
 
 [NPC571]
 Name=Delver <Quest>
@@ -3493,72 +3751,134 @@ ORO=105
 MaxHIT=190
 MinHIT=135
 GiveEXPClan=2
+Nivel=28
 
 [NPC576]
 Name=Cobra
 Body=4191
 Head=0
 BodyIdle=4192
+HP=110
 NpcType=0
+EXP=55
+ORO=7
+MaxHIT=16
+MinHIT=7
+Nivel=5
+
+[NPC577]
+Name=Aquilore Antártico
+Body=4239
+HP=2000
+EXP=2160
+MaxHIT=130
+MinHIT=80
+ORO=160
+
+[NPC578]
+Name=Tigre Antártico
+Body=4080
+HP=2800
+EXP=3248
+MaxHIT=60
+MinHIT=38
+ORO=120
+
+[NPC579]
+Name=Gorila Antártico
+Body=4493
+HP=3300
+EXP=3000
+MaxHIT=160
+MinHIT=115
+ORO=160
+
+[NPC580]
+Name=Pedro <Quest>
+Desc=He quedado varado aqui desde hace unos días, me alegra volver a ver a alguien por aqui!
+Body=615
+Head=328
 
 [NPC581]
 Name=Compi
 Body=4813
 Head=0
 BodyIdle=4812
+Ataque1=4814
+HP=500
 NpcType=0
+EXP=460
+ORO=12
+MaxHIT=45
+MinHIT=25
+Nivel=28
 
 [NPC582]
 Name=Compi Ambar
 Body=4816
 Head=0
 BodyIdle=4815
+Ataque1=4817
+HP=500
 NpcType=0
+MaxHIT=55
+MinHIT=35
+ORO=15
+EXP=450
+Nivel=28
 
 [NPC583]
-Name=Mono de Pirata
-Body=4228
+Name=Piraña de Costa
+Body=5482
 Head=0
-BodyIdle=4229
-Ataque1=4227
-HP=65
-Comercia=0
-EXP=50
-MaxHIT=14
-MinHIT=6
-NumQuiza=2
-QuizaDropea1=160-1
-QuizaDropea2=158-1
-QuizaProb=2
+BodyIdle=5480
+Ataque1=5481
+HP=50
+NpcType=0
+EXP=0
+ORO=0
+MaxHIT=90
+MinHIT=55
 
 [NPC584]
 Name=Rata Gigante
-Body=4014
+Body=5166
 Head=0
-HP=600
+BodyIdle=5164
+Ataque1=5165
+HP=500
 Comercia=0
-EXP=660
-ORO=54
-MaxHIT=70
-MinHIT=60
+EXP=250
+ORO=10
+MaxHIT=30
+MinHIT=15
+NpcType=0
 
 [NPC585]
 Name=Piraña
-Body=4015
+Body=5482
 Head=0
-HP=40
+BodyIdle=5480
+Ataque1=5481
+HP=250
 Comercia=0
-EXP=70
-MaxHIT=20
-MinHIT=15
+EXP=150
+MaxHIT=60
+MinHIT=25
+ORO=12
+NpcType=0
 
 [NPC586]
 Name=Galeón Fantasmal
 Body=4596
-HP=8000
-EXP=11200
-MaxHIT=125
-MinHIT=50
+HP=3500
+EXP=2800
+MaxHIT=150
+MinHIT=80
+GiveEXPClan=1
+ORO=120
+NpcType=0
+Nivel=28
 
 [NPC587]
 Name=Pyrrak
@@ -3572,84 +3892,95 @@ EXP=2100
 ORO=95
 MaxHIT=135
 MinHIT=45
+Nivel=20
 
 [NPC588]
 Name=Pirata Jack
-Body=4020
-HP=3000
+Body=282
+Head=32
+HP=3500
 Comercia=0
-EXP=4600
-ORO=300
-MaxHIT=120
-MinHIT=80
+EXP=2800
+ORO=150
+MaxHIT=90
+MinHIT=75
 NumQuiza=1
 QuizaDropea1=1863-1
 QuizaProb=2
+GiveEXPClan=1
+NpcType=0
 
 [NPC589]
-Name=Esquilax
+Name=Scylla
 Body=5488
 Head=0
-HP=30
-Comercia=0
-EXP=15
-ORO=4
-MaxHIT=15
-MinHIT=10
+BodyIdle=5486
+Ataque1=5487
+HP=125
+MaxHIT=35
+MinHIT=30
+NpcType=0
+EXP=0
+ORO=0
 
 [NPC590]
 Name=Dama Oscura
 Body=4018
-HP=10500
+HP=8000
 Nivel=45
 EXP=18900
-MaxHIT=175
-MinHIT=130
-ORO=1050
+MaxHIT=130
+MinHIT=100
+ORO=640
 
 [NPC591]
 Name=Bufón Caótico
 Body=292
 Head=631
-HP=15000
+HP=50000
 MaxHIT=260
 MinHIT=220
 NROITEMS=1
-Obj1=3146-1
+Obj1=3327-1
+NpcType=0
 
 [NPC592]
 Name=Bufón Real
 Body=213
 Head=55
-HP=15000
-MaxHIT=220
-MinHIT=170
+HP=50000
+MaxHIT=260
+MinHIT=220
 NROITEMS=1
-Obj1=3145-1
+Obj1=3328-1
+NpcType=0
 
 [NPC593]
-Name=Escorpión Califa
+Name=Escorpión Blanco
 Body=5594
 Head=0
-HP=750
-Comercia=0
-EXP=750
-ORO=185
-MaxHIT=57
-MinHIT=50
+BodyIdle=5592
+Ataque1=5593
+HP=1200
+EXP=600
+MaxHIT=65
+MinHIT=35
+ORO=32
+NpcType=0
 
 [NPC594]
 Name=Escorpión Negro
 Body=5591
 Head=0
 BodyIdle=5589
-HP=700
+Ataque1=5590
+HP=1200
 NpcType=0
 Comercia=0
-EXP=1100
-ORO=100
-MaxHIT=57
-MinHIT=50
+EXP=600
+ORO=32
+MaxHIT=65
+MinHIT=35
 
 [NPC595]
 Name=Azhurion
@@ -3663,13 +3994,43 @@ EXP=1960
 ORO=90
 MaxHIT=140
 MinHIT=50
+Nivel=20
 
 [NPC596]
 Name=Cofre de Recompensa Patreon
 Body=3897
 Head=0
+HP=1000
 NpcType=0
 NoMapInfo=1
+MaxHIT=40
+MinHIT=20
+
+[NPC597]
+Name=Colmillos
+Body=4819
+Head=0
+BodyIdle=4818
+Ataque1=4820
+HP=9500
+MaxHIT=250
+MinHIT=150
+ORO=480
+NpcType=0
+EXP=0
+
+[NPC598]
+Name=Tricetarops
+Body=4823
+Head=0
+BodyIdle=4822
+Ataque1=4821
+HP=9500
+MaxHIT=250
+MinHIT=150
+ORO=480
+NpcType=0
+EXP=0
 
 [NPC599]
 Name=Caja de naufragio
@@ -3712,77 +4073,92 @@ HP=1
 Comercia=0
 
 [NPC604]
-Name=Beholder
+Name=Franklin <Quest>
+Desc=¡Necesito de tu ayuda para conocer mas sobre la Medusa!
 Body=721
-BodyIdle=4074
-HP=2500
-EXP=2500
-ORO=625
-MaxHIT=200
-MinHIT=150
+Head=403
+NpcType=17
 
 [NPC605]
 Name=Araña Negra
 Body=5258
 Head=0
-BodyIdle=4425
-HP=1000
+BodyIdle=5256
+Ataque1=5257
+HP=1100
 Comercia=0
-EXP=1350
-ORO=50
-MaxHIT=125
-MinHIT=90
+EXP=660
+ORO=44
+MaxHIT=65
+MinHIT=45
+NpcType=0
+Nivel=20
 
 [NPC606]
 Name=Araña Roja
 Body=5255
 Head=0
-BodyIdle=4423
-HP=1000
+BodyIdle=5253
+Ataque1=5254
+HP=1100
 Comercia=0
-EXP=1350
+EXP=605
 ORO=50
-MaxHIT=125
-MinHIT=90
+MaxHIT=50
+MinHIT=25
+NpcType=0
+Nivel=20
 
 [NPC607]
 Name=Araña Verde
 Body=5261
 Head=0
-BodyIdle=4421
-HP=1000
+BodyIdle=5259
+Ataque1=5260
+HP=1100
 Comercia=0
-EXP=1350
-ORO=50
-MaxHIT=125
-MinHIT=90
+EXP=550
+ORO=55
+MaxHIT=50
+MinHIT=25
+NpcType=0
+Nivel=20
 
 [NPC608]
 Name=Horus
 Body=5139
 Head=0
 BodyIdle=5137
+Ataque1=5138
+HP=2600
 NpcType=0
+EXP=1820
+ORO=75
+Nivel=20
+MaxHIT=105
+MinHIT=65
 
 [NPC609]
 Name=Lagarto
 Body=4419
 Head=0
-HP=1200
+HP=400
 Comercia=0
-EXP=1560
-ORO=72
-MaxHIT=60
-MinHIT=50
+EXP=230
+ORO=18
+MaxHIT=45
+MinHIT=20
+NpcType=0
+Nivel=15
 
 [NPC610]
 Name=Grebdioz
 Body=4418
 Head=0
-HP=10000
+HP=8000
 Comercia=0
 EXP=18500
-ORO=1050
+ORO=640
 MaxHIT=180
 MinHIT=150
 
@@ -3792,12 +4168,14 @@ Body=4417
 Head=0
 BodyIdle=4417
 Ataque1=4417
-HP=750
+HP=300
 Comercia=0
-EXP=900
-ORO=60
-MaxHIT=80
-MinHIT=70
+EXP=150
+ORO=6
+MaxHIT=28
+MinHIT=15
+NpcType=0
+Nivel=8
 
 [NPC612]
 Name=Blanco
@@ -3867,26 +4245,47 @@ Name=Golem de Piedra
 Body=4875
 Head=0
 BodyIdle=4873
+Ataque1=4874
+HP=15000
 NpcType=0
 NROITEMS=1
 Obj1=3309-1
+EXP=15000
+GiveEXPClan=5
+ORO=750
+MaxHIT=270
+MinHIT=215
 
 [NPC622]
 Name=Griffo
 Body=4836
 Head=0
 BodyIdle=4848
+Ataque1=4835
+HP=5000
 NpcType=0
 NROITEMS=1
 Obj1=3310-1
+MaxHIT=450
+MinHIT=250
+EXP=0
+ORO=0
 
 [NPC623]
 Name=Zeraphon
 Body=5425
 BodyIdle=5423
+Ataque1=5424
+HP=30000
 NpcType=0
 NROITEMS=1
 Obj1=3311-1
+EXP=33000
+GiveEXPClan=30
+ORO=2750
+MaxHIT=225
+MinHIT=160
+Nivel=28
 
 [NPC624]
 Name=Esfera del Dragón 5
@@ -3899,9 +4298,16 @@ Obj1=3312-1
 Name=Verdanok
 Body=5044
 BodyIdle=5042
+Ataque1=5043
+HP=3500
 NpcType=0
 NROITEMS=1
 Obj1=3313-1
+EXP=2450
+ORO=100
+Nivel=20
+MaxHIT=145
+MinHIT=70
 
 [NPC626]
 Name=Esfera del Dragón 7
@@ -3931,135 +4337,141 @@ Head=0
 BodyIdle=4405
 
 [NPC631]
-Name=Kraken Gigante Body
+Name=Kraken NEW
 Body=4404
 BodyIdle=4404
-HP=35500
+HP=1000
 NpcType=19
-EXP=106500
-ORO=5600
-MaxHIT=250
-MinHIT=170
-GiveEXPClan=175
-NumQuiza=2
-QuizaDropea1=2237-1
-QuizaDropea2=2236-1
-QuizaProb=1
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC632]
-Name=Kraken Gigante 3
+Name=Tentáculo
 Body=4403
 BodyIdle=4403
-HP=35500
-MaxHIT=250
-MinHIT=170
-GiveEXPClan=175
+HP=200
+NoMapInfo=1
+NpcType=0
+MaxHIT=0
+MinHIT=0
 
 [NPC633]
-Name=Kraken Gigante 12
+Name=Tentáculo
 Body=4402
 BodyIdle=4402
-HP=35500
-MaxHIT=250
-MinHIT=170
-GiveEXPClan=175
+HP=200
+NoMapInfo=1
 NumQuiza=2
+QUIZADROPEA1=0
+QUIZADROPEA2=0
+NpcType=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC634]
-Name=Kraken Gigante 2
+Name=Tentáculo
 Body=4401
 BodyIdle=4401
-HP=35500
-MaxHIT=250
-MinHIT=170
-GiveEXPClan=175
-NumQuiza=2
+HP=200
+NoMapInfo=1
+NpcType=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC635]
-Name=Kraken Gigante 11
+Name=Tentáculo
 Body=4400
 BodyIdle=4400
-HP=35500
-MaxHIT=250
-MinHIT=170
-GiveEXPClan=175
+HP=200
+NoMapInfo=1
+NpcType=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC636]
-Name=Kraken Gigante 9
+Name=Tentáculo
 Body=4399
 BodyIdle=4399
-HP=35500
-MaxHIT=250
-MinHIT=170
-GiveEXPClan=175
+HP=200
+NoMapInfo=1
+NpcType=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC637]
-Name=Kraken Gigante 6
+Name=Tentáculo
 Body=4398
 BodyIdle=4398
-HP=35500
-MaxHIT=250
-MinHIT=170
-GiveEXPClan=175
+HP=200
+NoMapInfo=1
+NpcType=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC638]
-Name=Kraken Gigante 5
+Name=Tentáculo
 Body=4397
 BodyIdle=4397
-HP=35500
-MaxHIT=250
-MinHIT=170
-GiveEXPClan=175
+HP=200
+NoMapInfo=1
+NpcType=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC639]
-Name=Kraken Gigante 7
+Name=Tentáculo
 Body=4396
 BodyIdle=4396
-HP=35500
-MaxHIT=250
-MinHIT=170
-GiveEXPClan=175
+HP=200
+NoMapInfo=1
+NpcType=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC640]
-Name=Dragón Negro Legendario
+Name=Dragón Legendario
 Body=4394
 BodyIdle=4395
 Ataque1=4393
-HP=150000
-Nivel=45
-EXP=200000
-MaxHIT=110
-MinHIT=70
-NumQuiza=20
-QuizaDropea1=4962-1
-QuizaDropea2=4962-1
-QuizaDropea3=4962-1
-QuizaDropea4=4962-1
-QuizaDropea5=4961-1
-QuizaDropea6=4961-1
-QuizaDropea7=4961-1
-QuizaDropea8=4961-1
-QuizaDropea9=4961-1
-QuizaDropea10=4961-1
-QuizaDropea11=4960-1
-QuizaDropea12=4960-1
-QuizaDropea13=4960-1
-QuizaDropea14=4960-1
-QuizaDropea15=4960-1
-QuizaDropea16=4960-1
-QuizaProb=1
+HP=80000
+MaxHIT=180
+MinHIT=130
+NumQuiza=3
+QUIZADROPEA1=2236
+QUIZADROPEA2=2237
+QUIZADROPEA3=4960
+QuizaProb=100
+NpcType=0
+EXP=0
 
 [NPC641]
 Name=Araña New
 Body=4087
-BodyIdle=4087
-Ataque1=3078
+BodyIdle=4769
+Ataque1=4371
 HP=100000
 Nivel=45
-Ataque2=3078
-EXP=100000
+Ataque2=4485
+EXP=80000
 MaxHIT=50
 MinHIT=65
+NpcType=0
 
 [NPC642]
 Name=Leviatán Joven
@@ -4074,50 +4486,69 @@ MinHIT=40
 [NPC643]
 Name=Leviatán Pequeño
 Body=5452
-BodyIdle=4506
-HP=3500
-EXP=5000
-ORO=375
-MaxHIT=120
-MinHIT=40
+BodyIdle=5450
+Ataque1=5451
+HP=3000
+EXP=2550
+ORO=75
+MaxHIT=110
+MinHIT=65
+NpcType=0
+Nivel=28
 
 [NPC644]
 Name=Gúl Belthor
 Body=5015
+BodyIdle=5013
+Ataque1=5014
 HP=500000
 EXP=0
 ORO=0
 MaxHIT=300
 MinHIT=300
+NpcType=0
 
 [NPC645]
 Name=Momia
 Body=5136
-BodyIdle=4388
-HP=5000
-EXP=7000
-ORO=500
+BodyIdle=5134
+Ataque1=5135
+HP=2600
+EXP=1690
+ORO=70
 GiveEXPClan=1
-MaxHIT=150
+MaxHIT=140
 MinHIT=110
+NumQuiza=1
+QUIZADROPEA1=1682
+QuizaProb=300
+NpcType=0
+Nivel=20
 
 [NPC646]
 Name=Escarabajo Gigante
 Body=4387
-HP=3000
-EXP=3900
-ORO=315
-MaxHIT=120
-MinHIT=80
+HP=2300
+EXP=1495
+ORO=65
+MaxHIT=115
+MinHIT=105
+NumQuiza=1
+QUIZADROPEA1=239
+QuizaProb=200
+NpcType=0
+Nivel=20
 
 [NPC647]
 Name=Escarabajo
 Body=4386
-HP=2000
-EXP=2500
-ORO=220
-MaxHIT=75
-MinHIT=60
+HP=1800
+EXP=1170
+ORO=55
+MaxHIT=125
+MinHIT=65
+NpcType=0
+Nivel=20
 
 [NPC648]
 Name=Reydmon
@@ -4135,15 +4566,20 @@ Head=6
 NpcType=3
 
 [NPC650]
-Name=Rata
-Body=4381
+Name=Rata Negra
+Body=5160
 Head=0
-BodyIdle=4380
-HP=15
-EXP=5
-ORO=0
+BodyIdle=5158
+Ataque1=5159
+HP=150
+EXP=150
 MaxHIT=5
-MinHIT=2
+MinHIT=1
+NumQuiza=1
+QUIZADROPEA1=4977
+QuizaProb=1
+NpcType=0
+ORO=0
 
 [NPC651]
 Name=Vendedor de personajes
@@ -4158,25 +4594,21 @@ Body=4299
 Head=0
 BodyIdle=4300
 Ataque1=4298
-HP=3250
+HP=800
 Comercia=0
-EXP=4875
-ORO=100
-MaxHIT=95
-MinHIT=75
+EXP=440
+ORO=32
+MaxHIT=45
+MinHIT=30
+NpcType=0
+Nivel=20
 
 [NPC653]
-Name=Araña Ártica
-Body=4296
-Head=0
-BodyIdle=4297
-Ataque1=4295
-HP=3250
-Comercia=0
-EXP=4875
-ORO=100
-MaxHIT=95
-MinHIT=75
+Name=Entrenador de Combate
+Desc=Soy el Maestro de Armas personal. Si deseas aprender sobre tus daños, hazme doble click, invocaré un objetivo de defensa para que practiques!
+Body=254
+Head=6
+NpcType=3
 
 [NPC654]
 Name=Serpiente Albina
@@ -4198,12 +4630,14 @@ Body=4250
 Head=0
 BodyIdle=4253
 Ataque1=4251
-HP=1600
+HP=3500
 NpcType=0
-EXP=1900
-ORO=75
-MaxHIT=55
-MinHIT=45
+EXP=2975
+ORO=105
+MaxHIT=145
+MinHIT=85
+GiveEXPClan=1
+Nivel=28
 
 [NPC656]
 Name=Dactila
@@ -4211,12 +4645,14 @@ Body=4303
 Head=0
 BodyIdle=4301
 Ataque1=4302
-HP=4000
+HP=800
 Comercia=0
-EXP=3000
-ORO=300
-MaxHIT=95
-MinHIT=75
+EXP=400
+ORO=29
+MaxHIT=55
+MinHIT=30
+NpcType=0
+Nivel=20
 
 [NPC657]
 Name=Barril Flotante
@@ -4264,17 +4700,20 @@ MinHIT=110
 
 [NPC661]
 Name=Ursidae
-Body=4328
+Body=4930
 Head=0
-BodyIdle=4329
-Ataque1=4327
-HP=3000
-EXP=1500
-ORO=50
-MaxHIT=140
-MinHIT=70
+BodyIdle=4929
+Ataque1=4931
+HP=3800
+EXP=3040
+ORO=110
+MaxHIT=145
+MinHIT=100
 NROITEMS=1
 Obj1=415-1
+NpcType=0
+GiveEXPClan=1
+Nivel=28
 
 [NPC662]
 Name=Orius
@@ -4282,26 +4721,25 @@ Body=4331
 Head=0
 BodyIdle=4332
 Ataque1=4330
-HP=4000
-EXP=400
-ORO=800
-MaxHIT=160
-MinHIT=110
+HP=5000
+EXP=4000
+ORO=200
+MaxHIT=145
+MinHIT=100
 
 [NPC663]
-Name=Alacran
+Name=Alacrán
 Body=4338
 Head=0
 BodyIdle=4337
 Ataque1=4336
-HP=30
-Comercia=0
-EXP=30
-ORO=5
-MaxHIT=20
-MinHIT=15
-NROITEMS=1
-Obj1=2490-1
+HP=180
+NpcType=0
+EXP=90
+ORO=11
+MaxHIT=24
+MinHIT=13
+Nivel=8
 
 [NPC664]
 Name=Hotten
@@ -4309,12 +4747,14 @@ Body=4335
 Head=0
 BodyIdle=4334
 Ataque1=4333
-HP=50
+HP=130
 Comercia=0
-EXP=50
-ORO=15
-MaxHIT=35
-MinHIT=15
+EXP=65
+ORO=8
+MaxHIT=20
+MinHIT=10
+NpcType=0
+Nivel=5
 
 [NPC665]
 Name=Quiróptero
@@ -4335,15 +4775,17 @@ Body=4342
 Head=0
 BodyIdle=4343
 Ataque1=4341
-HP=360
+HP=120
 Comercia=0
-EXP=360
-ORO=20
-MaxHIT=38
-MinHIT=18
+EXP=60
+ORO=7
+MaxHIT=20
+MinHIT=8
 NumQuiza=1
 QuizaDropea1=2498-1
 QuizaProb=50
+NpcType=0
+Nivel=5
 
 [NPC667]
 Name=Naja
@@ -4367,11 +4809,13 @@ Body=4348
 Head=0
 BodyIdle=4349
 Ataque1=4347
-HP=2500
-EXP=1500
-ORO=70
-MaxHIT=80
-MinHIT=60
+HP=400
+EXP=150
+ORO=24
+MaxHIT=25
+MinHIT=22
+NpcType=0
+Nivel=15
 
 [NPC669]
 Name=Scramer Encapuchado
@@ -4379,11 +4823,13 @@ Body=4351
 Head=0
 BodyIdle=4352
 Ataque1=4350
-HP=2000
-EXP=1200
-ORO=50
-MaxHIT=60
-MinHIT=30
+HP=450
+EXP=225
+ORO=26
+MaxHIT=40
+MinHIT=25
+NpcType=0
+Nivel=15
 
 [NPC670]
 Name=Scramer Anciano
@@ -4391,23 +4837,27 @@ Body=4354
 Head=0
 BodyIdle=4355
 Ataque1=4353
-HP=3000
-EXP=1500
-ORO=80
-MaxHIT=150
-MinHIT=50
+HP=600
+EXP=300
+ORO=22
+MaxHIT=15
+MinHIT=8
+NpcType=0
+Nivel=15
 
 [NPC671]
-Name=Pequeño Scramer
+Name=Scramer
 Body=4357
 Head=0
 BodyIdle=4358
 Ataque1=4356
-HP=2700
-EXP=1350
-ORO=75
-MaxHIT=30
-MinHIT=20
+HP=900
+EXP=450
+MaxHIT=60
+MinHIT=45
+ORO=28
+NpcType=0
+Nivel=20
 
 [NPC672]
 Name=Coloso flora
@@ -4415,11 +4865,11 @@ Body=4360
 Head=0
 BodyIdle=4361
 Ataque1=4359
-HP=7700
+HP=400
 EXP=4000
-ORO=450
-MaxHIT=110
-MinHIT=70
+ORO=32
+MaxHIT=40
+MinHIT=25
 
 [NPC673]
 Name=Vulpes
@@ -4427,11 +4877,13 @@ Body=4363
 Head=0
 BodyIdle=4364
 Ataque1=4362
-HP=300
-EXP=300
-ORO=20
-MaxHIT=50
-MinHIT=35
+HP=150
+EXP=75
+ORO=9
+MaxHIT=22
+MinHIT=12
+NpcType=0
+Nivel=8
 
 [NPC674]
 Name=Colmillo Blanco
@@ -4458,20 +4910,24 @@ EXP=1500
 ORO=70
 MaxHIT=115
 MinHIT=85
+Nivel=28
 
 [NPC676]
-Name=Pequeño Lobo Gris
-Body=4372
+Name=Lobo Gris
+Body=5573
 Head=0
-BodyIdle=4373
-Ataque1=4371
-HP=400
-EXP=400
-ORO=20
-MaxHIT=65
-MinHIT=50
-NROITEMS=1
-Obj1=414-1
+BodyIdle=5571
+Ataque1=5572
+HP=200
+EXP=100
+MaxHIT=20
+MinHIT=10
+NumQuiza=1
+ORO=8
+QUIZADROPEA1=3596
+QuizaProb=150
+NpcType=0
+Nivel=8
 
 [NPC677]
 Name=Kairo
@@ -4485,6 +4941,7 @@ EXP=2240
 ORO=110
 MaxHIT=145
 MinHIT=120
+Nivel=20
 
 [NPC678]
 Name=Esqueleto Agresor
@@ -4498,22 +4955,23 @@ EXP=150
 ORO=12
 MaxHIT=37
 MinHIT=22
+NumQuiza=1
+QUIZADROPEA1=401
+QuizaProb=183
 
 [NPC679]
-Name=Araña
-Body=4208
+Name=Araña Misteriosa
+Body=4296
 Head=0
-BodyIdle=4207
-Ataque1=4206
-HP=1000
-Comercia=0
-EXP=800
-ORO=100
-MaxHIT=80
-MinHIT=60
-NumQuiza=1
-QuizaDropea1=3544-1
-QuizaProb=1000
+BodyIdle=4297
+Ataque1=4295
+HP=700
+EXP=385
+MaxHIT=65
+MinHIT=40
+ORO=28
+NpcType=0
+Nivel=15
 
 [NPC680]
 Name=Elanrullk
@@ -4525,13 +4983,15 @@ Name=Araña del Desierto
 Body=4303
 Head=0
 BodyIdle=4301
-HP=1000
+Ataque1=4302
+HP=500
 NpcType=0
 Comercia=0
-EXP=800
-ORO=100
-MaxHIT=80
-MinHIT=60
+EXP=250
+ORO=30
+MaxHIT=50
+MinHIT=30
+Nivel=15
 
 [NPC682]
 Name=Viejo libro de Eventos Bufónes
@@ -4563,10 +5023,10 @@ Body=5828
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=9
-Obj1=38-10000
-Obj2=37-10000
-Obj3=36-10000
+NROITEMS=5
+Obj1=37-1000
+Obj2=38-1000
+Obj3=36-1000
 
 [NPC686]
 Name=Jonas <Tabernero Penthar>
@@ -4596,10 +5056,9 @@ Desc=¡Compro lo que el mar puede ofrecer!
 Body=23
 Head=426
 Comercia=1
-NROITEMS=3
+NROITEMS=2
 Obj1=881-1
 Obj2=2183-1
-Obj3=138-1
 
 [NPC690]
 Name=Esqueleto Guardian
@@ -4607,31 +5066,38 @@ Body=4374
 Head=0
 BodyIdle=4375
 Ataque1=4273
-HP=1800
+HP=2500
 EXP=2340
-ORO=252
-MaxHIT=95
-MinHIT=80
+ORO=220
+MaxHIT=120
+MinHIT=70
 
 [NPC691]
-Name=Murciélago Gigante
+Name=Murciélago Invocado
 Body=4417
 Head=0
 BodyIdle=4417
 Ataque1=4417
-HP=150
+HP=200
+EXP=48
+MaxHIT=85
+MinHIT=55
+ORO=8
+NpcType=0
 Comercia=0
-EXP=60
-ORO=10
-MaxHIT=45
-MinHIT=25
 
 [NPC692]
 Name=Rata Gris
 Body=5163
 Head=0
 BodyIdle=5161
+Ataque1=5162
+HP=400
 NpcType=0
+EXP=400
+ORO=0
+MaxHIT=20
+MinHIT=5
 
 [NPC693]
 Name=Sacerdote Penthar
@@ -4688,14 +5154,25 @@ Name=Rata
 Body=5186
 Head=0
 BodyIdle=5185
+HP=10
 NpcType=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC718]
+Name=Eugenia <Quest>
+Desc=¿Crees que alguien como tu podría enfrentarse a esta temible bestia?
+Body=2196
+Head=172
+NpcType=17
 
 [NPC719]
-Name=Esbirra Demoníaca
-Body=4024
-HP=5000
-MaxHIT=135
-MinHIT=100
+Name=Explorador <Quest>
+Desc=Hay rumores sobre el escape de un temible Lobo de la Cueva de la Desolación, temo por los ciudadanos de Arghal y el futuro de la Ciudad. Necesitamos organizar las defensas. ¿Cuento con tu ayuda?
+Body=187
+Head=21
 
 [NPC720]
 Name=Enano de las Profundidades
@@ -4720,6 +5197,7 @@ EXP=2250
 ORO=95
 MaxHIT=135
 MinHIT=90
+Nivel=20
 
 [NPC722]
 Name=Espectro
@@ -4749,39 +5227,46 @@ MinHIT=15
 
 [NPC724]
 Name=Enviado de Nix
-Body=3075
+Body=4767
 Head=41
 HP=300000
 MaxHIT=160
 MinHIT=110
 NumQuiza=16
-QuizaDropea1=3702-1
-QuizaDropea2=3701-1
-QuizaDropea3=3700-1
-QuizaDropea4=3699-1
-QuizaDropea5=3698-1
-QuizaDropea6=3697-1
-QuizaDropea7=3696-1
-QuizaDropea8=3695-1
-QuizaDropea9=3694-1
-QuizaDropea10=3693-1
-QuizaDropea11=3692-1
-QuizaDropea12=3691-1
-QuizaDropea13=3390-1
-QuizaDropea14=3689-1
-QuizaDropea15=3688-1
-QuizaDropea16=3687-1
+QuizaDropea1=3702
+QuizaDropea2=3701
+QuizaDropea3=3700
+QuizaDropea4=3699
+QuizaDropea5=3698
+QuizaDropea6=3697
+QuizaDropea7=3696
+QuizaDropea8=3695
+QuizaDropea9=3694
+QuizaDropea10=3693
+QuizaDropea11=3692
+QuizaDropea12=3691
+QuizaDropea13=3390
+QuizaDropea14=3689
+QuizaDropea15=3688
+QuizaDropea16=3687
 NROITEMS=3
 Obj1=356-1
 OBJ2=2236-1
 OBJ3=2237-1
+NpcType=0
 
 [NPC725]
 Name=Espectro
 Body=5464
 Head=0
 BodyIdle=5462
+Ataque1=5463
+HP=75
 NpcType=0
+EXP=0
+ORO=0
+MaxHIT=50
+MinHIT=35
 
 [NPC750]
 Name=Frogian Azulino
@@ -4789,11 +5274,13 @@ Body=4293
 Head=0
 BodyIdle=4292
 Ataque1=4291
-HP=4150
-EXP=6225
-ORO=200
-MaxHIT=160
-MinHIT=60
+HP=1350
+EXP=810
+ORO=60
+MaxHIT=80
+MinHIT=50
+NpcType=0
+Nivel=20
 
 [NPC751]
 Name=Frogian Hechicero
@@ -4801,18 +5288,33 @@ Body=4290
 Head=0
 BodyIdle=4289
 Ataque1=4288
-HP=4150
-EXP=6225
-ORO=300
-MaxHIT=140
-MinHIT=40
+HP=1500
+EXP=900
+ORO=55
+MaxHIT=70
+MinHIT=35
+NumQuiza=1
+QUIZADROPEA1=1653
+QuizaProb=525
+NpcType=0
+Nivel=20
 
 [NPC752]
 Name=Laican
 Body=4804
 Head=0
 BodyIdle=4803
+Ataque1=4805
+HP=6500
 NpcType=0
+EXP=6500
+MaxHIT=145
+MinHIT=90
+NumQuiza=1
+ORO=450
+QUIZADROPEA1=1859
+QuizaProb=142
+Nivel=20
 
 [NPC753]
 Name=Frogian Reptiliano
@@ -4820,11 +5322,16 @@ Body=4287
 Head=0
 BodyIdle=4286
 Ataque1=4285
-HP=3000
-EXP=4000
-ORO=150
-MaxHIT=120
-MinHIT=20
+HP=1200
+EXP=720
+ORO=50
+MaxHIT=75
+MinHIT=45
+NumQuiza=1
+QUIZADROPEA1=239
+QuizaProb=200
+NpcType=0
+Nivel=20
 
 [NPC754]
 Name=Espíritu Poseído
@@ -4832,11 +5339,11 @@ Body=4246
 Head=0
 BodyIdle=4249
 Ataque1=4247
-HP=4000
+HP=8000
 EXP=2400
 ORO=200
-MaxHIT=160
-MinHIT=60
+MaxHIT=190
+MinHIT=150
 
 [NPC755]
 Name=Gigantor
@@ -4844,18 +5351,27 @@ Body=4245
 Head=0
 BodyIdle=4244
 Ataque1=4243
-HP=11000
-EXP=7000
-ORO=600
-MaxHIT=150
-MinHIT=50
+HP=30000
+EXP=33000
+ORO=2750
+MaxHIT=225
+MinHIT=160
+GiveEXPClan=30
+NpcType=0
+Nivel=28
 
 [NPC756]
 Name=Murciélago
 Body=4340
 Head=0
 BodyIdle=4340
+Ataque1=4339
+HP=50
 NpcType=0
+MaxHIT=10
+MinHIT=5
+EXP=0
+ORO=0
 
 [NPC800]
 Name=Jarron
@@ -4877,142 +5393,682 @@ Body=4323
 HP=1
 Comercia=0
 
+[NPC806]
+Name=Golem de Oro
+Body=4884
+Head=0
+BodyIdle=4882
+Ataque1=4883
+HP=3600
+EXP=4350
+ORO=150
+MaxHIT=95
+MinHIT=75
+
+[NPC807]
+Name=Golem de Tierra
+Body=4887
+Head=0
+BodyIdle=4885
+Ataque1=4886
+HP=3600
+EXP=4350
+ORO=150
+MaxHIT=95
+MinHIT=75
+
 [NPC808]
 Name=Kobold Azul
 Body=5404
 Head=0
 BodyIdle=5402
+Ataque1=5403
+HP=900
+EXP=450
+ORO=18
+MaxHIT=55
+MinHIT=30
+Nivel=20
+
+[NPC809]
+Name=Golem de Fuego
+Body=4893
+Head=0
+BodyIdle=4891
+Ataque1=4892
+HP=3600
+EXP=4350
+ORO=150
+MaxHIT=95
+MinHIT=75
+
+[NPC810]
+Name=Golem de Viento
+Body=4896
+Head=0
+BodyIdle=4894
+Ataque1=4895
+HP=3600
+EXP=4350
+ORO=150
+MaxHIT=95
+MinHIT=75
+
+[NPC811]
+Name=Glazrath
+Body=5394
+Head=0
+BodyIdle=5392
+Ataque1=5393
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC812]
 Name=Kobold Rojo
 Body=5407
 Head=0
 BodyIdle=5405
-HP=200
+Ataque1=5406
+HP=1100
 Comercia=0
-EXP=160
-ORO=0
-MaxHIT=25
-MinHIT=15
+EXP=550
+ORO=20
+MaxHIT=65
+MinHIT=40
+Nivel=20
 
 [NPC813]
 Name=Kobold Marron
 Body=5410
 Head=0
 BodyIdle=5408
+Ataque1=5409
+HP=1000
+EXP=500
+ORO=20
+MaxHIT=60
+MinHIT=35
 
 [NPC814]
 Name=Kobold Gris
 Body=5413
 Head=0
 BodyIdle=5411
-HP=200
+Ataque1=5412
+HP=1200
 Comercia=0
-EXP=160
-ORO=0
-MaxHIT=25
-MinHIT=15
+EXP=600
+ORO=24
+MaxHIT=70
+MinHIT=45
+Nivel=20
 
 [NPC815]
 Name=Miastrix
 Body=5440
 BodyIdle=5438
+Ataque1=5439
+HP=1800
 NpcType=0
+EXP=1080
+ORO=25
+Nivel=20
+MaxHIT=140
+MinHIT=85
 
 [NPC816]
 Name=Centinela de Coral
 Body=5551
 Head=0
 BodyIdle=5549
+Ataque1=5550
+HP=3000
+EXP=2700
+GiveEXPClan=1
+ORO=60
+MaxHIT=125
+MinHIT=65
+Nivel=30
 
 [NPC817]
 Name=Pixie de Viento
 Body=5422
 Head=0
 BodyIdle=5420
+Ataque1=5421
+HP=4400
 NpcType=0
+EXP=3300
+ORO=120
+Nivel=28
+MaxHIT=130
+MinHIT=90
+
+[NPC818]
+Name=Cirdan
+Body=5428
+Head=0
+BodyIdle=5426
+Ataque1=5427
+HP=3600
+EXP=4350
+ORO=150
+MaxHIT=95
+MinHIT=75
+
+[NPC819]
+Name=Flameborn
+Body=5431
+Head=0
+BodyIdle=5429
+Ataque1=5430
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC820]
+Name=Horror Tóxico
+Body=5434
+Head=0
+BodyIdle=5432
+Ataque1=5433
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC822]
 Name=Bruin
 Body=4930
 Head=0
 BodyIdle=4929
+Ataque1=4931
+HP=1600
+EXP=960
+ORO=65
+MaxHIT=110
+MinHIT=65
+Nivel=20
+
+[NPC823]
+Name=Luzlum
+Body=6070
+Head=0
+BodyIdle=6068
+Ataque1=6069
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC824]
+Name=Midhas
+Body=6073
+Head=0
+BodyIdle=6071
+Ataque1=6072
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC826]
+Name=Calabaza
+Body=4949
+Head=0
+BodyIdle=4947
+Ataque1=4948
+HP=3600
+EXP=4350
+ORO=150
+MaxHIT=95
+MinHIT=75
+
+[NPC827]
+Name=Calabaza espadachin
+Body=4955
+Head=0
+BodyIdle=4953
+Ataque1=4954
+HP=3600
+EXP=4350
+ORO=150
+MaxHIT=95
+MinHIT=75
+
+[NPC828]
+Name=Bruja
+Body=4957
+Head=0
+BodyIdle=4956
+Ataque1=4958
+HP=3600
+EXP=4350
+ORO=150
+MaxHIT=95
+MinHIT=75
 
 [NPC829]
 Name=Typhon
 Body=5449
 BodyIdle=5447
+Ataque1=5448
+HP=5500
 NpcType=0
+EXP=3850
+GiveEXPClan=2
+ORO=135
+Nivel=28
+MaxHIT=185
+MinHIT=150
 
 [NPC831]
 Name=Gallina Blanca
 Body=5154
 Head=0
 BodyIdle=5152
+Ataque1=5153
+HP=100
+EXP=50
+ORO=5
+MaxHIT=15
+MinHIT=7
 
 [NPC832]
 Name=Gallo
 Body=5157
 Head=0
 BodyIdle=5155
+Ataque1=5156
+HP=200
+EXP=100
+ORO=10
+MaxHIT=20
+MinHIT=9
+Nivel=8
+
+[NPC833]
+Name=Mecha
+Body=4974
+Head=0
+BodyIdle=4973
+Ataque1=4975
+HP=3600
+EXP=4350
+ORO=150
+MaxHIT=95
+MinHIT=75
+
+[NPC834]
+Name=Mecha Verde
+Body=4978
+Head=0
+BodyIdle=4976
+Ataque1=4977
+HP=3600
+EXP=4350
+ORO=150
+MaxHIT=95
+MinHIT=75
+
+[NPC835]
+Name=Mecha Gris
+Body=4984
+Head=0
+BodyIdle=4982
+Ataque1=4983
+HP=3600
+EXP=4350
+ORO=150
+MaxHIT=95
+MinHIT=75
+
+[NPC836]
+Name=Mecha marron
+Body=4987
+Head=0
+BodyIdle=4985
+Ataque1=4986
+HP=3600
+EXP=4350
+ORO=150
+MaxHIT=95
+MinHIT=75
+
+[NPC837]
+Name=Mecha Verde
+Body=4990
+Head=0
+BodyIdle=4988
+Ataque1=4989
+HP=3600
+EXP=4350
+ORO=150
+MaxHIT=95
+MinHIT=75
+
+[NPC838]
+Name=Mecha rosa
+Body=4993
+Head=0
+BodyIdle=4991
+Ataque1=4992
+HP=3600
+EXP=4350
+ORO=150
+MaxHIT=95
+MinHIT=75
+
+[NPC839]
+Name=Mecha Blanco
+Body=4981
+Head=0
+BodyIdle=4979
+Ataque1=4980
+HP=3600
+EXP=4350
+ORO=150
+MaxHIT=95
+MinHIT=75
+
+[NPC840]
+Name='Lobo Hielo'
+Body=5585
+Head=0
+BodyIdle=5583
+Ataque1=5584
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC841]
+Name=Piraña Test
+Body=5479
+Head=0
+BodyIdle=5477
+Ataque1=5478
+HP=1
+EXP=0
+ORO=0
+MaxHIT=1
+MinHIT=1
+
+[NPC842]
+Name='Lobo Fuego'
+Body=5588
+Head=0
+BodyIdle=5586
+Ataque1=5587
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC844]
 Name=Minertopo Guardián
 Body=5527
 Head=0
 BodyIdle=5525
+Ataque1=5526
+HP=800
+EXP=800
+ORO=35
+MaxHIT=120
+MinHIT=70
 
 [NPC845]
 Name=Minertopo
 Body=5529
 Head=0
 BodyIdle=5529
+HP=1
 
 [NPC846]
 Name=Minertopo
 Body=5529
 Head=0
 BodyIdle=5529
+HP=1
 
 [NPC847]
 Name=Minertopo
 Body=5529
 Head=0
 BodyIdle=5529
+HP=1
 
 [NPC848]
 Name=Minertopo
 Body=5529
 Head=0
 BodyIdle=5529
+HP=1
+
+[NPC849]
+Name='Salamandra'
+Body=5612
+Head=0
+BodyIdle=5610
+Ataque1=5611
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC850]
+Name='Deminio'
+Body=5615
+Head=0
+BodyIdle=5613
+Ataque1=5614
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC851]
+Name='Conjurador Igneo'
+Body=5618
+Head=0
+BodyIdle=5616
+Ataque1=5617
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC852]
+Name='Gargola de Fuego'
+Body=5624
+Head=0
+BodyIdle=5622
+Ataque1=5623
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC853]
+Name=Dorim II <Rey de Morgrim>
+Body=5660
+Head=0
+BodyIdle=5658
+Ataque1=5659
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC854]
+Name='Leon Blanco'
+Body=5630
+Head=0
+BodyIdle=5628
+Ataque1=5629
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC855]
+Name='Leon Negro'
+Body=5633
+Head=0
+BodyIdle=5631
+Ataque1=5632
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC856]
+Name='León de Fuego'
+Body=5636
+Head=0
+BodyIdle=5634
+Ataque1=5635
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC857]
+Name=Aelion <Rey de Eldoria>
+Body=5663
+Head=0
+BodyIdle=5661
+Ataque1=5662
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC858]
+Name=Gunnarof
+Body=6003
+Head=0
+BodyIdle=6001
+Ataque1=6002
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC859]
+Name=Escaldra
+Body=6006
+Head=0
+BodyIdle=6004
+Ataque1=6005
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC860]
+Name=Capitan Orla
+Body=5684
+Head=0
+BodyIdle=5682
+Ataque1=5683
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC861]
+Name=Marcoc
+Body=5687
+Head=0
+BodyIdle=5685
+Ataque1=5686
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC866]
+Name=Urghal
+Body=6055
+Head=0
+BodyIdle=6053
+Ataque1=6054
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC867]
+Name=Bjornulf <Rey de Forgat>
+Body=6058
+Head=0
+BodyIdle=6056
+Ataque1=6057
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC900]
 Name=Ululantis
 Body=4811
 Head=0
-BodyIdle=4280
-Ataque1=4278
-HP=4600
-EXP=3500
-ORO=150
-MaxHIT=110
-MinHIT=80
+BodyIdle=4809
+Ataque1=4810
+HP=1800
+EXP=990
+ORO=50
+MaxHIT=90
+MinHIT=45
 NROITEMS=1
 Obj1=414-1
+NpcType=0
+Nivel=20
 
 [NPC901]
 Name=Ferus
 Body=4808
 Head=0
-BodyIdle=4277
-Ataque1=4275
-HP=5000
-EXP=3000
-ORO=200
-MaxHIT=110
-MinHIT=80
+BodyIdle=4806
+Ataque1=4807
+HP=1800
+EXP=1080
+ORO=40
+MaxHIT=90
+MinHIT=45
 NROITEMS=1
 Obj1=414-1
+NumQuiza=1
+QUIZADROPEA1=239
+QuizaProb=250
+NpcType=0
+Nivel=20
 
 [NPC902]
 Name=Vulpes Gris
@@ -5020,27 +6076,33 @@ Body=4242
 Head=0
 BodyIdle=4241
 Ataque1=4240
-HP=3000
-EXP=2000
-ORO=175
-MaxHIT=100
-MinHIT=60
+HP=200
+EXP=100
+ORO=10
+MaxHIT=20
+MinHIT=10
+NpcType=0
+Nivel=8
 
 [NPC922]
 Name=Dragón Dorado
 Body=5509
-HP=10000
+BodyIdle=5507
+Ataque1=5508
+HP=7000
 Nivel=45
-ORO=660
-EXP=22000
-MaxHIT=70
-MinHIT=50
+ORO=130
+EXP=7350
+MaxHIT=240
+MinHIT=165
 NROITEMS=1
 Obj1=2534-2
 NumQuiza=2
 QuizaDropea1=2236-1
 QuizaDropea2=2237-1
 QuizaProb=80
+NpcType=0
+GiveEXPClan=3
 
 [NPC923]
 Name=Nocthral
@@ -5054,21 +6116,26 @@ ORO=850
 MaxHIT=200
 MinHIT=175
 GiveEXPClan=15
+Nivel=20
 
 [NPC924]
 Name=Dragón Rojo
 Body=5506
-HP=8000
+BodyIdle=5504
+Ataque1=5505
+HP=6000
 Nivel=45
-EXP=16800
-ORO=600
-MaxHIT=70
-MinHIT=50
+EXP=6300
+ORO=70
+MaxHIT=220
+MinHIT=145
 NROITEMS=1
 Obj1=2534-1
 NumQuiza=1
 QuizaDropea1=2236-1
 QuizaProb=100
+NpcType=0
+GiveEXPClan=2
 
 [NPC925]
 Name=Ninfa
@@ -5097,68 +6164,87 @@ EXP=2940
 ORO=115
 MaxHIT=125
 MinHIT=75
+Nivel=28
 
 [NPC927]
-Name=Cocodrilo
+Name=Chancho
 Body=5107
 Head=0
-HP=650
-Comercia=0
-EXP=650
-ORO=65
-MaxHIT=75
-MinHIT=50
+BodyIdle=5105
+Ataque1=5106
+HP=100
+NpcType=0
+EXP=50
+ORO=0
+MaxHIT=15
+MinHIT=7
 
 [NPC928]
-Name=Tortuga Mediterranea
-Body=4455
+Name=Tortuga
+Body=5012
 Head=0
-BodyIdle=4456
-HP=320
-EXP=192
-MaxHIT=60
-MinHIT=35
-NROITEMS=1
-Obj1=1700-1
+BodyIdle=5010
+Ataque1=5011
+HP=225
+EXP=113
+MaxHIT=25
+MinHIT=15
+ORO=9
+NpcType=0
 
 [NPC929]
 Name=Oso
 Body=4328
 Head=0
 BodyIdle=4329
+Ataque1=4327
+HP=300
 NpcType=0
+EXP=150
+MaxHIT=45
+MinHIT=25
+ORO=7
 
 [NPC930]
 Name=Vaca
 Body=5128
 Head=0
-HP=100
+BodyIdle=5126
+Ataque1=5127
+HP=200
 Comercia=0
 EXP=100
 ORO=0
-MaxHIT=45
-MinHIT=35
+MaxHIT=18
+MinHIT=9
+NpcType=0
 
 [NPC931]
 Name=Cuervo
 Body=5169
 Head=0
+BodyIdle=5167
+Ataque1=5168
 HP=50
 Comercia=0
-EXP=50
-ORO=15
-MaxHIT=13
-MinHIT=8
+EXP=25
+ORO=5
+MaxHIT=10
+MinHIT=5
+NpcType=0
+Nivel=5
 
 [NPC932]
-Name=Pato
+Name=Rata
 Body=5166
 Head=0
-HP=40
-Comercia=0
-EXP=30
-ORO=9
-MaxHIT=13
+BodyIdle=5164
+Ataque1=5165
+HP=350
+NpcType=0
+EXP=175
+ORO=0
+MaxHIT=10
 MinHIT=5
 
 [NPC933]
@@ -5176,7 +6262,14 @@ MinHIT=5
 Name=Dragón Negro
 Body=5503
 BodyIdle=5501
+Ataque1=5502
+HP=6700
 NpcType=0
+EXP=7035
+GiveEXPClan=2
+ORO=100
+MaxHIT=230
+MinHIT=150
 
 [NPC935]
 Name=Serpiente Collet
@@ -5184,13 +6277,15 @@ Body=4345
 Head=0
 BodyIdle=4346
 Ataque1=4344
-HP=30
+HP=40
 Comercia=0
-EXP=36
-ORO=6
-MaxHIT=9
-MinHIT=5
+EXP=20
+ORO=4
+MaxHIT=8
+MinHIT=4
 NROITEMS=0
+NpcType=0
+Nivel=5
 
 [NPC936]
 Name=Aguila
@@ -5198,12 +6293,13 @@ Body=4236
 Head=0
 BodyIdle=4235
 Ataque1=4234
-HP=120
+HP=200
 Comercia=0
-EXP=108
-ORO=21
+EXP=176
+ORO=16
 MaxHIT=25
 MinHIT=15
+NpcType=0
 
 [NPC938]
 Name=Cerdo
@@ -5220,25 +6316,35 @@ MinHIT=35
 Name=Tigre
 Body=4916
 Head=0
-BodyIdle=4098
-HP=600
+BodyIdle=4914
+Ataque1=4915
+HP=700
 Comercia=0
-EXP=750
+EXP=350
 ORO=0
-MaxHIT=100
-MinHIT=90
+MaxHIT=55
+MinHIT=45
 NROITEMS=1
 Obj1=4339-1
+NumQuiza=1
+QUIZADROPEA1=4339
+QuizaProb=1
+NpcType=0
+Nivel=20
 
 [NPC941]
-Name=Pavo Real
+Name=Avestruz
 Body=5148
 Head=0
-HP=15
-EXP=21
-ORO=0
-MaxHIT=6
-MinHIT=2
+BodyIdle=5146
+Ataque1=5147
+HP=100
+NpcType=0
+EXP=50
+ORO=9
+MaxHIT=18
+MinHIT=8
+Nivel=5
 
 [NPC942]
 Name=Sapo
@@ -5246,8 +6352,8 @@ Body=4069
 Head=0
 HP=25
 Comercia=0
-EXP=20
-ORO=5
+EXP=16
+ORO=4
 MaxHIT=8
 MinHIT=3
 
@@ -5265,13 +6371,13 @@ MinHIT=5
 [NPC944]
 Name=Golem Infernal
 Body=4546
-HP=49000
+HP=8000
 Nivel=45
 Comercia=0
 EXP=89000
 ORO=4000
-MaxHIT=300
-MinHIT=150
+MaxHIT=230
+MinHIT=210
 NumQuiza=1
 QuizaDropea1=2236-1
 QuizaProb=500
@@ -5280,23 +6386,30 @@ QuizaProb=500
 Name=Esqueleto Guerrero
 Body=5060
 Head=0
-HP=600
+BodyIdle=5058
+Ataque1=5059
+HP=800
 Comercia=0
-EXP=690
-ORO=57
-MaxHIT=25
-MinHIT=10
+EXP=400
+ORO=32
+MaxHIT=60
+MinHIT=40
+NpcType=0
+Nivel=20
 
 [NPC946]
-Name=Esqueleto Vigía
-Body=4023
+Name=Esqueleto Guardián
+Body=4374
 Head=0
+BodyIdle=4375
+Ataque1=4273
 HP=400
-Comercia=0
-EXP=480
-ORO=36
-MaxHIT=18
-MinHIT=13
+NpcType=0
+EXP=200
+ORO=13
+MaxHIT=45
+MinHIT=27
+Nivel=15
 
 [NPC947]
 Name=Pixie de Fuego
@@ -5310,13 +6423,21 @@ EXP=3450
 ORO=110
 MaxHIT=150
 MinHIT=95
+Nivel=28
 
 [NPC948]
 Name=Verraco Alfa
 Body=5125
 Head=0
 BodyIdle=5123
+Ataque1=5124
+HP=1200
 NpcType=0
+EXP=600
+ORO=0
+MaxHIT=65
+MinHIT=20
+Nivel=20
 
 [NPC949]
 Name=Verraco
@@ -5330,17 +6451,21 @@ EXP=500
 ORO=35
 MaxHIT=45
 MinHIT=15
+Nivel=20
 
 [NPC950]
-Name=Jabalí
+Name=Jabato
 Body=5113
 Head=0
-HP=515
-Comercia=0
-EXP=850
-ORO=100
-MaxHIT=80
-MinHIT=65
+BodyIdle=5111
+Ataque1=5112
+HP=800
+NpcType=0
+EXP=400
+ORO=25
+MaxHIT=35
+MinHIT=10
+Nivel=20
 
 [NPC951]
 Name=Calaveras
@@ -5358,6 +6483,17 @@ Comercia=0
 EXP=0
 ORO=0
 
+[NPC953]
+Name=Zombie Invocado
+Body=4943
+Head=0
+BodyIdle=4941
+Ataque1=4942
+HP=700
+NpcType=0
+MaxHIT=11
+MinHIT=8
+
 [NPC954]
 Name=Lapida
 Body=4533
@@ -5366,72 +6502,117 @@ Comercia=0
 EXP=0
 ORO=0
 
-[NPC957]
-Name=Piranha
-Body=4015
+[NPC955]
+Name=Verraco Invocado
+Body=5125
 Head=0
-HP=1
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=35
-MinHIT=30
+BodyIdle=5123
+Ataque1=5124
+HP=500
+NpcType=0
+MaxHIT=8
+MinHIT=5
 
-[NPC958]
-Name=Lobo
-Body=4372
+[NPC956]
+Name=Momia Invocada
+Body=5136
 Head=0
-BodyIdle=4373
-Ataque1=4371
-HP=100
-MaxHIT=20
-MinHIT=15
-
-[NPC959]
-Name=No-Muerto
-Body=4023
-Head=0
-HP=250
+BodyIdle=5134
+Ataque1=5135
+HP=125
+NpcType=0
 MaxHIT=35
 MinHIT=20
 
+[NPC957]
+Name=Piraña Invocada
+Body=5485
+Head=0
+BodyIdle=5483
+Ataque1=5484
+HP=110
+NpcType=0
+EXP=0
+ORO=0
+MaxHIT=30
+MinHIT=25
+
+[NPC958]
+Name=Lobo Invocado
+Body=5582
+Head=0
+BodyIdle=5580
+Ataque1=5581
+HP=300
+MaxHIT=3
+MinHIT=3
+NpcType=0
+
+[NPC959]
+Name=Esqueleto Invocado
+Body=5057
+Head=0
+BodyIdle=5055
+Ataque1=5056
+HP=70
+MaxHIT=25
+MinHIT=15
+NpcType=0
+
 [NPC960]
-Name=Elemental Acuático
+Name=Elemental de Agua
 Body=5494
 Head=0
-BodyIdle=4542
-HP=350
-MaxHIT=100
-MinHIT=85
+BodyIdle=5492
+Ataque1=5493
+HP=450
+MaxHIT=75
+MinHIT=60
+NpcType=0
 
 [NPC961]
-Name=Elemental Terrestre
+Name=Elemental de Tierra
 Body=5491
 Head=0
-BodyIdle=4543
-HP=350
-MaxHIT=100
-MinHIT=85
+BodyIdle=5489
+Ataque1=5490
+HP=450
+MaxHIT=75
+MinHIT=60
+NpcType=0
 
 [NPC962]
 Name=Elemental de Fuego
 Body=5500
 Head=0
-BodyIdle=4541
-HP=350
+BodyIdle=5498
+Ataque1=5499
+HP=650
+MaxHIT=85
+MinHIT=65
+NpcType=0
 
 [NPC963]
 Name=Elemental de Viento
 Body=5497
 Head=0
-BodyIdle=4540
-HP=350
+BodyIdle=5495
+Ataque1=5496
+HP=550
+MaxHIT=80
+MinHIT=65
+NpcType=0
 
 [NPC964]
-Name=Fuego Fatuo
-Body=4094
+Name=Goblin Invocado
+Body=5122
 Head=0
-HP=250
+BodyIdle=5120
+Ataque1=5121
+HP=900
+NpcType=0
+MaxHIT=14
+MinHIT=11
 
 [NPC965]
 Name=Wolfang
@@ -5439,33 +6620,56 @@ Body=4369
 Head=0
 BodyIdle=4370
 Ataque1=4368
-HP=250
+HP=80
 Comercia=0
-EXP=250
-ORO=150
-MaxHIT=25
-MinHIT=20
+EXP=40
+ORO=8
+MaxHIT=15
+MinHIT=7
 NROITEMS=1
 Obj1=414-3
+NpcType=0
+Nivel=5
+
+[NPC966]
+Name=Gorila Invocado
+Body=4919
+Head=0
+BodyIdle=4917
+Ataque1=4918
+HP=140
+MaxHIT=40
+MinHIT=30
+NpcType=0
 
 [NPC967]
 Name=Lobo Huargo
 Body=4369
 Head=0
 BodyIdle=4370
+HP=3500
 NpcType=0
+EXP=2450
+GiveEXPClan=1
+ORO=110
+MaxHIT=125
+MinHIT=75
+Nivel=28
 
 [NPC968]
 Name=Araña Ponzoñosa
 Body=4205
 Head=0
-BodyIdle=4527
-HP=2000
+BodyIdle=4204
+Ataque1=4203
+HP=1600
 Comercia=0
-EXP=2400
-ORO=200
-MaxHIT=100
-MinHIT=90
+EXP=640
+ORO=48
+MaxHIT=80
+MinHIT=55
+NpcType=0
+Nivel=20
 
 [NPC969]
 Name=Araña Poecilotheria
@@ -5474,7 +6678,7 @@ Head=0
 HP=1725
 Comercia=0
 EXP=2500
-ORO=275
+ORO=220
 MaxHIT=100
 MinHIT=75
 
@@ -5497,36 +6701,64 @@ Name=Faraon Zombie
 Body=5172
 Head=0
 BodyIdle=5170
+Ataque1=5171
+HP=3100
+EXP=2170
+ORO=115
+MaxHIT=135
+MinHIT=90
+Nivel=20
 
 [NPC972]
 Name=Coloso Mutante
 Body=5035
 Head=0
 BodyIdle=5033
+Ataque1=5034
+HP=2500
+EXP=1500
+ORO=200
+MaxHIT=160
+MinHIT=110
+NROITEMS=1
+Obj1=3894-5
+Nivel=20
 
 [NPC973]
 Name=Viuda Negra
 Body=5258
 Head=0
-BodyIdle=4523
-HP=2800
+BodyIdle=5256
+Ataque1=5257
+HP=2600
 Comercia=0
-EXP=3220
-ORO=308
-MaxHIT=125
-MinHIT=115
+EXP=1235
+ORO=117
+MaxHIT=105
+MinHIT=75
+NpcType=0
+Nivel=20
 
 [NPC975]
 Name=Araña Venenosa
 Body=4522
 Head=0
 BodyIdle=4521
-HP=2350
+HP=2400
 Comercia=0
-EXP=2585
-ORO=282
-MaxHIT=115
-MinHIT=95
+EXP=1080
+ORO=96
+MaxHIT=100
+MinHIT=70
+
+[NPC976]
+Name=Latrodectus
+Body=4526
+HP=3000
+EXP=1500
+MaxHIT=110
+MinHIT=80
+ORO=120
 
 [NPC977]
 Name=Zevkar
@@ -5538,79 +6770,112 @@ HP=4800
 NpcType=0
 EXP=3600
 ORO=115
-MaxHIT=210
-MinHIT=150
+MaxHIT=150
+MinHIT=115
 GiveEXPClan=2
+Nivel=28
 
 [NPC978]
-Name=Latrodectus
+Name=Esqueto Vikingo
 Body=5066
 Head=0
-BodyIdle=4525
-HP=3000
-Comercia=0
-EXP=3600
-ORO=300
-MaxHIT=135
-MinHIT=120
+BodyIdle=5064
+Ataque1=5065
+HP=3600
+EXP=4350
+ORO=150
+MaxHIT=95
+MinHIT=75
 
 [NPC979]
 Name=Mutante Arácnido
 Body=5264
 Head=0
-BodyIdle=4517
-HP=7000
+BodyIdle=5262
+Ataque1=5263
+HP=4000
 Comercia=0
-EXP=9100
-ORO=350
+EXP=2200
+ORO=280
 GiveEXPClan=1
-MaxHIT=220
-MinHIT=150
+MaxHIT=150
+MinHIT=115
+NumQuiza=1
+QUIZADROPEA1=2531
+QuizaProb=18
+NpcType=0
+Nivel=20
+
+[NPC980]
+Name=Esqueleto Boss
+Body=5069
+Head=0
+BodyIdle=5067
+Ataque1=5068
+HP=3600
+EXP=4350
+ORO=150
+MaxHIT=95
+MinHIT=75
 
 [NPC981]
-Name=Guardia del Caos
-Desc=Mataré a todos los ciudadanos.
+Name='Escorpion Fuego'
 Body=5597
 Head=0
-HP=10000
-NpcType=8
-Comercia=0
-MaxHIT=250
-MinHIT=150
-NROITEMS=0
+BodyIdle=5595
+Ataque1=5596
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC982]
+Name=Sortílego Arácnido
+Body=5255
+Head=0
+BodyIdle=5253
+Ataque1=5254
+HP=100000
+MaxHIT=170
+MinHIT=100
+NpcType=0
+EXP=0
+ORO=0
 
 [NPC983]
-Name=Pato nadando
+Name=Verdarra
 Body=4841
-Head=0
-HP=50
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=15
-MinHIT=5
+BodyIdle=4840
+HP=300
+NpcType=0
+EXP=150
+ORO=7
+MaxHIT=45
+MinHIT=25
 
 [NPC984]
-Name=Pato nadando
+Name=Zafirron
 Body=4844
-Head=0
-HP=50
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=15
-MinHIT=10
+BodyIdle=4843
+HP=300
+NpcType=0
+EXP=150
+ORO=7
+MaxHIT=45
+MinHIT=25
 
 [NPC985]
-Name=Pato nadando
+Name='Escorpion Grande'
 Body=5600
 Head=0
-HP=50
-Comercia=0
+BodyIdle=5598
+Ataque1=5599
+HP=3600
 EXP=0
 ORO=0
-MaxHIT=15
-MinHIT=10
+MaxHIT=0
+MinHIT=0
 
 [NPC986]
 Name=Pato nadando
@@ -5624,78 +6889,62 @@ MaxHIT=15
 MinHIT=10
 
 [NPC987]
-Name=Pato nadando
+Name=Thalanor <Quest>
+Desc=Pocos humanos caminan este bosque sin romper su armonía. Kael habló de vos. Pero hay un lugar donde incluso los elfos evitan cazar.
 Body=67
-Head=0
-HP=50
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=15
-MinHIT=10
+Head=131
+NpcType=17
 
 [NPC988]
-Name=Pato nadando
+Name=Kael el Rastreador <Quest>
+Desc=El bosque ya te reconoce, Cazador... pero todavía no te obedece. Si querés que las bestias luchen a tu lado, primero tenés que demostrar que entendés su espíritu.
 Body=68
-Head=0
-HP=50
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=15
-MinHIT=10
+Head=115
+NpcType=17
 
 [NPC989]
-Name=Pato nadando
+Name=Oso Pardo
 Body=4328
 Head=0
-HP=50
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=15
-MinHIT=10
+BodyIdle=4329
+Ataque1=4327
+HP=1500
+NpcType=0
+MaxHIT=10
+MinHIT=5
 
 [NPC990]
-Name=Lucky
+Name=Huargo
 Body=5116
 Head=0
-HP=70
-Comercia=0
-EXP=63
-ORO=7
-MaxHIT=15
-MinHIT=8
+BodyIdle=5114
+Ataque1=5115
+HP=750
+NpcType=0
+MaxHIT=25
+MinHIT=15
+
+[NPC991]
+Name=Ursidae
+Body=4930
+Head=0
+BodyIdle=4929
+Ataque1=4931
+HP=3000
+NpcType=0
+MaxHIT=35
+MinHIT=20
 
 [NPC992]
-Name=Kraken Gigante
+Name=Lobo Huargo
 Body=4369
-HP=100000
-EXP=50000
-GiveEXPClan=75
-ORO=0
-MaxHIT=270
-MinHIT=210
-NumQuiza=20
-QuizaDropea1=2236-1
-QuizaDropea2=2237-1
-QuizaDropea3=2236-1
-QuizaDropea4=2237-1
-QuizaDropea5=2236-1
-QuizaDropea6=2237-1
-QuizaDropea7=2236-1
-QuizaDropea8=2237-1
-QuizaDropea9=2236-1
-QuizaDropea10=2237-1
-QuizaDropea11=2236-1
-QuizaDropea12=2237-1
-QuizaDropea13=2236-1
-QuizaDropea14=2237-1
-QuizaDropea15=2236-1
-QuizaDropea16=2237-1
-QuizaProb=1
-NROITEMS=1
-OBJ1=409-1
+Head=0
+BodyIdle=4370
+Ataque1=4368
+HP=1500
+NpcType=0
+MaxHIT=50
+MinHIT=35
 
 [NPC993]
 Name=Isen <Ropaje Invernal>
@@ -5704,6 +6953,9 @@ Body=82
 Head=32
 NpcType=0
 Comercia=1
+NROITEMS=2
+Obj1=2807-1
+Obj2=2808-1
 
 [NPC994]
 Name=Alma en Llamas
@@ -5733,34 +6985,49 @@ Body=4331
 Head=0
 BodyIdle=4332
 Ataque1=4330
-HP=3500
-EXP=350
+HP=1700
+EXP=850
 ORO=0
-MaxHIT=160
-MinHIT=110
+MaxHIT=120
+MinHIT=90
 NROITEMS=1
 Obj1=416-1
+NumQuiza=1
+QUIZADROPEA1=416
+QuizaProb=1
+NpcType=0
 
 [NPC997]
 Name=Tigre de Bengala
 Body=4913
 Head=0
-HP=1250
+BodyIdle=4911
+Ataque1=4912
+HP=1400
 Comercia=0
-EXP=125
+EXP=700
 ORO=0
-MaxHIT=180
-MinHIT=110
+MaxHIT=115
+MinHIT=80
 NROITEMS=1
 Obj1=1145-1
+NumQuiza=1
+QUIZADROPEA1=1145
+QuizaProb=1
+NpcType=0
 
 [NPC998]
-Name=Guybrush
-Desc=Hola, soy Guybrush Threepwood, un gran pirata!.
+Name=Ursus
 Body=4331
 Head=0
-BodyIdle=4435
-NpcType=17
+BodyIdle=4332
+Ataque1=4330
+HP=450
+MaxHIT=70
+MinHIT=50
+NpcType=0
+EXP=0
+ORO=0
 
 [NPC999]
 Name=Elaine
@@ -5782,37 +7049,44 @@ MaxHIT=120
 MinHIT=80
 
 [NPC1001]
-Name=Esqueleto Dragón
+Name=Esqueleto Mercenario
 Body=4376
 Head=0
-HP=2500
-Comercia=0
-EXP=3000
-ORO=300
-MaxHIT=60
-MinHIT=45
+BodyIdle=4377
+Ataque1=4274
+HP=900
+NpcType=0
+EXP=450
+ORO=25
+MaxHIT=65
+MinHIT=35
+Nivel=20
 
 [NPC1002]
-Name=Esqueleto Mágico
+Name=Vaca Contaminada
 Body=5178
 Head=0
-HP=2000
-Comercia=0
-EXP=2600
-ORO=200
-MaxHIT=35
-MinHIT=20
+BodyIdle=5176
+Ataque1=5177
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC1003]
-Name=Liche Menor
+Name=Shalgar
 Body=5458
 Head=0
-HP=2200
-Comercia=0
-EXP=2750
-ORO=242
-MaxHIT=40
-MinHIT=30
+BodyIdle=5456
+Ataque1=5457
+HP=600
+NpcType=0
+EXP=300
+ORO=17
+MaxHIT=42
+MinHIT=28
+Nivel=15
 
 [NPC1004]
 Name=Monje
@@ -5844,6 +7118,13 @@ Body=123
 Head=5
 Comercia=0
 NROITEMS=0
+
+[NPC1008]
+Name=Esmeralda <Quest>
+Desc=¿Crees que alguien como tu podría enfrentar al famoso Gran Dragón Rojo? No lo creo...
+Body=183
+Head=172
+NpcType=17
 
 [NPC1009]
 Name=Maelgor <Quest>
@@ -5891,33 +7172,51 @@ NpcType=17
 [NPC1014]
 Name=Lynn
 Body=5515
-BodyIdle=4480
-HP=5500
-EXP=7200
-ORO=375
-MaxHIT=190
-MinHIT=160
+BodyIdle=5513
+Ataque1=5514
+HP=4000
+EXP=3600
+ORO=130
+MaxHIT=165
+MinHIT=115
+GiveEXPClan=1
+NpcType=0
+Nivel=30
 
 [NPC1015]
 Name=Kadru
 Body=5521
-BodyIdle=4479
-HP=5850
-EXP=9200
-GiveEXPClan=1
-ORO=400
-MaxHIT=220
-MinHIT=200
+BodyIdle=5519
+Ataque1=5520
+HP=5600
+EXP=5040
+GiveEXPClan=3
+ORO=265
+MaxHIT=175
+MinHIT=120
+NpcType=0
+Nivel=30
 
 [NPC1016]
 Name=Aksha
 Body=5518
-BodyIdle=4478
-HP=3850
-EXP=5600
-ORO=890
-MaxHIT=190
-MinHIT=155
+BodyIdle=5516
+Ataque1=5517
+HP=3500
+EXP=2625
+ORO=115
+MaxHIT=65
+MinHIT=45
+NpcType=0
+GiveEXPClan=1
+Nivel=30
+
+[NPC1017]
+Name=Snyder <Quest>
+Desc=Ando buscando quien logre desplegar su poder y sea capaz de ayudar tanto en tierra firme como en el mar. No tengo dudas que este será un valioso intercambio.
+Body=562
+Head=702
+NpcType=17
 
 [NPC1018]
 Name=Arkan <Quest>
@@ -5980,18 +7279,31 @@ MinHIT=215
 
 [NPC1025]
 Name=Esbirro Demoníaco
-Body=4025
-HP=5000
-MaxHIT=135
-MinHIT=100
+Body=5467
+BodyIdle=0
+Ataque1=0
+HP=3200
+MaxHIT=140
+MinHIT=90
+EXP=2650
+GiveEXPClan=1
+ORO=90
+NpcType=0
+Nivel=28
 
 [NPC1026]
 Name=Esbirra Demoníaca
-Body=4024
-HP=3000
-ORO=300
-MaxHIT=135
-MinHIT=100
+Body=5470
+BodyIdle=5468
+Ataque1=5469
+HP=3200
+ORO=105
+MaxHIT=140
+MinHIT=90
+EXP=2465
+GiveEXPClan=1
+NpcType=0
+Nivel=28
 
 [NPC1027]
 Name=Thelma
@@ -6009,10 +7321,11 @@ Ataque1=4190
 HP=1000
 Nivel=45
 Comercia=0
-EXP=750
-ORO=75
+EXP=600
+ORO=60
 MaxHIT=130
 MinHIT=90
+NpcType=0
 
 [NPC1029]
 Name=Patriarca Drake
@@ -6021,7 +7334,7 @@ BodyIdle=4467
 HP=12000
 Comercia=0
 EXP=18000
-ORO=1800
+ORO=1440
 MaxHIT=190
 MinHIT=130
 
@@ -6037,19 +7350,21 @@ ORO=105
 MaxHIT=190
 MinHIT=145
 GiveEXPClan=2
+Nivel=28
 
 [NPC1031]
-Name=Umbrax
+Name=Minotauro Umbrax
 Body=5078
 BodyIdle=5076
 Ataque1=5077
 HP=30000
 NpcType=0
 EXP=33000
+GiveEXPClan=30
 ORO=2750
 MaxHIT=225
 MinHIT=165
-GiveEXPClan=30
+Nivel=28
 
 [NPC1032]
 Name=Minotauro Joven
@@ -6062,6 +7377,7 @@ EXP=2100
 ORO=70
 MaxHIT=110
 MinHIT=75
+Nivel=28
 
 [NPC1033]
 Name=Minotauro Bárbaro
@@ -6074,6 +7390,7 @@ EXP=2400
 ORO=90
 MaxHIT=155
 MinHIT=110
+Nivel=28
 
 [NPC1034]
 Name=Minotauro Guerrero
@@ -6087,16 +7404,17 @@ ORO=95
 MaxHIT=175
 MinHIT=125
 GiveEXPClan=1
+Nivel=28
 
 [NPC1035]
 Name=Minero Exiliado
-Body=1001
-Head=645
-HP=2500
-EXP=2875
-ORO=350
-MaxHIT=120
-MinHIT=90
+Body=1728
+Head=634
+HP=2000
+EXP=1400
+ORO=110
+MaxHIT=105
+MinHIT=70
 NumQuiza=1
 QuizaDropea1=1271-1
 QuizaProb=40
@@ -6105,23 +7423,26 @@ QuizaProb=40
 Name=Tortuga Coriacea
 Body=4453
 BodyIdle=4454
-HP=400
-EXP=250
+HP=2500
+EXP=1750
 MaxHIT=100
 MinHIT=85
 NROITEMS=1
 Obj1=1700-1
+ORO=90
+NpcType=0
 
 [NPC1037]
-Name=Tortuga Marina
-Body=4451
-BodyIdle=4452
-HP=500
-EXP=425
-MaxHIT=110
-MinHIT=70
-NROITEMS=1
-Obj1=1700-1
+Name=Krugg
+Body=6025
+Head=0
+BodyIdle=6023
+Ataque1=6024
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC1038]
 Name=Van <Alquimista Inicial>
@@ -6131,10 +7452,10 @@ Head=29
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=9
-Obj1=38-10000
-Obj2=37-10000
-Obj3=36-10000
+NROITEMS=5
+Obj1=208-1000
+Obj2=209-1000
+Obj3=210-1000
 
 [NPC1039]
 Name=Sven <Sastre Polar>
@@ -6144,10 +7465,10 @@ Head=101
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=31
-Obj1=2901-1
-Obj2=1955-1
-Obj3=1982-1
+NROITEMS=8
+Obj1=2807-100
+Obj2=4343-100
+Obj3=520-100
 
 [NPC1040]
 Name=Cobra
@@ -6157,8 +7478,8 @@ BodyIdle=4445
 Ataque1=4445
 HP=350
 Comercia=0
-EXP=320
-ORO=35
+EXP=256
+ORO=28
 MaxHIT=40
 MinHIT=20
 NROITEMS=0
@@ -6167,27 +7488,38 @@ NROITEMS=0
 Name=Vorathis
 Body=5446
 BodyIdle=5444
+Ataque1=5445
+HP=8500
 NpcType=0
+EXP=9350
+GiveEXPClan=3
+ORO=175
+MaxHIT=245
+MinHIT=180
 
 [NPC1042]
 Name=Huargo
-Body=4029
+Body=5116
 Head=0
-HP=550
-EXP=385
-ORO=55
-MaxHIT=115
-MinHIT=100
+BodyIdle=5114
+Ataque1=5115
+HP=600
+EXP=300
+ORO=21
+MaxHIT=85
+MinHIT=40
+NpcType=0
+Nivel=15
 
 [NPC1043]
 Name=Reina Gorgona
 Body=4444
-HP=250000
+HP=80000
 Comercia=0
 EXP=125000
 GiveEXPClan=350
-MaxHIT=200
-MinHIT=150
+MaxHIT=300
+MinHIT=200
 NumQuiza=20
 QuizaDropea1=2236-1
 QuizaDropea2=2237-1
@@ -6208,53 +7540,40 @@ QuizaDropea16=2237-2
 QuizaProb=1
 
 [NPC1044]
-Name=Titan Lugubre
-Body=4010
-HP=200000
-EXP=100000
-MaxHIT=340
-MinHIT=260
-GiveEXPClan=125
-NROITEMS=1
-OBJ1=408-1
-NumQuiza=20
-QuizaDropea1=2236-1
-QuizaDropea2=2237-1
-QuizaDropea3=2236-1
-QuizaDropea4=2237-1
-QuizaDropea5=2236-1
-QuizaDropea6=2237-1
-QuizaDropea7=2236-1
-QuizaDropea8=2237-1
-QuizaDropea9=2236-1
-QuizaDropea10=2237-1
-QuizaDropea11=2236-1
-QuizaDropea12=2237-1
-QuizaDropea13=2236-1
-QuizaDropea14=2237-1
-QuizaDropea15=2236-1
-QuizaDropea16=2237-1
-QuizaProb=1
+Name=Rey Gigantor
+Body=4245
+HP=85000
+MaxHIT=170
+MinHIT=135
 
 [NPC1045]
-Name=Guarda del Pantano
-Body=4021
-HP=2700
-EXP=2160
-ORO=216
-MaxHIT=125
-MinHIT=85
+Name=Guardia del Pantano
+Body=5021
+BodyIdle=5019
+Ataque1=5020
+HP=1600
+NpcType=0
+EXP=1000
+ORO=64
+MaxHIT=100
+MinHIT=45
+Nivel=20
 
 [NPC1046]
 Name=Ent
 Body=4925
-BodyIdle=4361
-Ataque1=4359
-HP=1500
-EXP=1350
-ORO=90
-MaxHIT=90
-MinHIT=60
+BodyIdle=4923
+Ataque1=4924
+HP=5000
+EXP=4000
+ORO=165
+MaxHIT=105
+MinHIT=45
+NumQuiza=1
+QUIZADROPEA1=3466
+QuizaProb=46
+NpcType=0
+Nivel=28
 
 [NPC1047]
 Name=Espectro
@@ -6268,119 +7587,141 @@ ORO=125
 MaxHIT=160
 MinHIT=95
 GiveEXPClan=1
+Nivel=28
 
 [NPC1048]
 Name=Abominación
-Body=4019
-HP=1800
-EXP=1530
-ORO=126
-MaxHIT=105
-MinHIT=70
-
-[NPC1049]
-Name=Caballería de la Legión (Atacante)
-Body=5285
-Head=642
-HP=3700
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=250
-MinHIT=200
-
-[NPC1050]
-Name=Infantería de la Legión (Atacante)
-Body=132
-Head=637
-HP=2500
-EXP=0
-ORO=0
-MaxHIT=195
-MinHIT=155
-
-[NPC1051]
-Name=Arqueros de la Legión (Atacante)
-Body=129
-Head=685
-HP=5000
-EXP=0
-ORO=0
+Body=5026
+BodyIdle=5024
+Ataque1=5025
+HP=900
+EXP=540
+ORO=28
 MaxHIT=75
 MinHIT=50
+NpcType=0
+Nivel=20
+
+[NPC1049]
+Name=Crocky <Quest>
+Desc=¡Grrraaah... rrrghhh!... ¡Basta! ¡Deténganse, por favor, no me maten! Soy muy joven para morir. ¡Solo quería ser intimidante y evitar la pelea, por favor les diré todo lo que necesiten saber!
+Body=5285
+Head=0
+BodyIdle=5283
+Ataque1=5284
+HP=1
+NpcType=17
+BodyOnLand=5285
+BodyOnWater=5645
+BodyOnWaterIdle=5643
+Ataque2=5644
+EXP=0
+ORO=00
+MaxHIT=1
+MinHIT=1
+Nivel=20
+
+[NPC1050]
+Name=Syla
+Body=5288
+Head=0
+BodyIdle=5286
+Ataque1=5287
+HP=1
+BodyOnLand=5288
+BodyOnWater=5648
+BodyOnWaterIdle=5646
+Ataque2=5647
+EXP=0
+ORO=00
+MaxHIT=1
+MinHIT=1
+Nivel=20
+
+[NPC1051]
+Name=Kaelus
+Body=5297
+Head=0
+BodyIdle=5295
+Ataque1=5296
+HP=1
+BodyOnLand=5297
+BodyOnWater=5657
+BodyOnWaterIdle=5655
+Ataque2=5656
+EXP=0
+ORO=00
+MaxHIT=1
+MinHIT=1
+Nivel=20
 
 [NPC1052]
-Name=Explorador Vikingo
-Body=305
-Head=686
-HP=1050
-EXP=1320
-ORO=105
-MaxHIT=145
-MinHIT=120
-NumQuiza=1
-QuizaDropea1=1718-1
-QuizaProb=20
+Name=Gru <El Brujo>
+Body=5294
+Head=0
+BodyIdle=5292
+Ataque1=5293
+HP=1
+BodyOnLand=5294
+BodyOnWater=5654
+BodyOnWaterIdle=5652
+Ataque2=5653
+EXP=0
+ORO=00
+MaxHIT=1
+MinHIT=1
+Nivel=20
 
 [NPC1053]
-Name=Anomalía de Lodo
+Name=Nilus
 Body=5291
-HP=2000
-EXP=2500
-ORO=100
-MaxHIT=130
-MinHIT=90
+Head=0
+BodyIdle=5289
+Ataque1=5290
+HP=1
+BodyOnLand=5291
+BodyOnWater=5651
+BodyOnWaterIdle=5649
+Ataque2=5650
+EXP=0
+ORO=00
+MaxHIT=1
+MinHIT=1
+Nivel=20
 
 [NPC1054]
-Name=Bandolero de las Cloacas
-Body=66
-Head=35
-HP=1500
-EXP=1800
-ORO=105
-MaxHIT=110
-MinHIT=80
+Name=Karkadan
+Body=5298
 
 [NPC1055]
-Name=Reptaescama
+Name=Mordu
 Body=5282
-BodyIdle=4441
-HP=2500
-EXP=3500
-ORO=375
-MaxHIT=140
-MinHIT=100
+Head=0
+BodyIdle=5280
+Ataque1=5281
+HP=1
+BodyOnLand=5282
+BodyOnWater=5307
+BodyOnWaterIdle=5305
+Ataque2=5306
+EXP=0
+ORO=00
+MaxHIT=1
+MinHIT=1
+Nivel=20
 
 [NPC1056]
-Name=Har Nareth
+Name=Rakhar <El Tuerto>
 Body=5279
-BodyIdle=4439
-HP=100000
-Comercia=0
-EXP=50000
-GiveEXPClan=50
-MaxHIT=300
-MinHIT=250
-NROITEMS=1
-OBJ1=412-1
-NumQuiza=20
-QuizaDropea1=2236-1
-QuizaDropea2=2237-1
-QuizaDropea3=2236-1
-QuizaDropea4=2237-1
-QuizaDropea5=2236-1
-QuizaDropea6=2237-1
-QuizaDropea7=2236-1
-QuizaDropea8=2237-1
-QuizaDropea9=2236-1
-QuizaDropea10=2237-1
-QuizaDropea11=2236-1
-QuizaDropea12=2237-1
-QuizaDropea13=2236-1
-QuizaDropea14=2237-1
-QuizaDropea15=2236-1
-QuizaDropea16=2237-1
-QuizaProb=1
+Head=0
+BodyIdle=5277
+Ataque1=5278
+HP=1
+EXP=0
+ORO=00
+MaxHIT=1
+MinHIT=1
+Nivel=20
 
 [NPC1057]
 Name=Jarl Morngrim
@@ -6388,7 +7729,7 @@ Body=133
 Head=686
 HP=75000
 Comercia=0
-EXP=55000
+EXP=0
 MaxHIT=300
 MinHIT=250
 NumQuiza=4
@@ -6398,18 +7739,58 @@ QuizaDropea3=1080-1
 QuizaDropea4=1725-1
 QuizaProb=25
 GiveEXPClan=60
+NpcType=0
 
 [NPC1058]
 Name=Elias
 Desc=Habla conmigo si quieres amalgamar tus gemas.
 Body=590
 Head=462
+NpcType=0
 
 [NPC1059]
 Name=Grey el Coleccionista
 Desc=Colecciono todo tipo de objetos peculiares.
 Body=4056
 Head=0
+
+[NPC1060]
+Name=Sergio <Monturas>
+Desc=¿Cansado de andar a pie?
+Body=4784
+Head=602
+
+[NPC1061]
+Name=Fabian <Monturas>
+Desc=Mi hermano Sergio me habló de tí
+Body=4780
+Head=603
+
+[NPC1062]
+Name=Christian <Monturas>
+Desc=Mi hermano Fabian me habló de tí
+Body=4778
+Head=601
+
+[NPC1063]
+Name=Marcelo <Monturas>
+Desc=Mi hermano Christian me habló de tí
+Body=4787
+Head=600
+
+[NPC1064]
+Name=Guido <Monturas>
+Desc=Mi hermano Marcelo me habló de tí
+Body=4785
+Head=535
+
+[NPC1065]
+Name=Intercambio de Monturas
+Desc=Si habias conseguido una Mula, Caballo Marrón, Caballo Blanco, Montura del Combatiente o Caballo Palomino, tengo una propuesta para ti.
+DescClose=¡Hasta pronto!
+Body=73
+Head=536
+NpcType=17
 
 [NPC1066]
 Name=Holyrood <Quest>
@@ -6447,6 +7828,10 @@ Head=232
 NpcType=0
 Comercia=1
 NoMapInfo=1
+NROITEMS=7
+Obj1=2808-100
+Obj2=1985-100
+Obj3=510-100
 
 [NPC1076]
 Name=Martzia <Sastre Exótico>
@@ -6459,60 +7844,81 @@ Obj1=467-1
 Obj2=468-1
 Obj3=2928-1
 
+[NPC1078]
+Name=Grog
+Body=728
+Head=329
+HP=2200
+EXP=1540
+MaxHIT=135
+MinHIT=60
+ORO=88
+NpcType=0
+
 [NPC1079]
 Name=Luchador de las Minas
 Body=1079
 Head=512
+HP=800
 NpcType=0
+EXP=480
+MaxHIT=60
+MinHIT=32
+ORO=20
 
 [NPC1080]
 Name=Rethor <Sastre>
 Desc=¡Las mejores telas, no tienes nada que perder con estos precios!
+DescClose=¡Que lo disfrutes!
 Body=22
 Head=15
 Comercia=1
-NROITEMS=22
-Obj1=32-1
-Obj2=35-1
-Obj3=515-1
 NpcType=0
+NoMapInfo=1
+NROITEMS=13
+Obj1=32-1000
+Obj2=35-1000
+Obj3=964-1000
 
 [NPC1081]
-Name=Amarie <Sastre>
+Name=Gertha <Maestra Sastre>
 Desc=¡Calidad en pieles, solo para Damas!
+DescClose=¡Hasta pronto!
 Body=2223
-Head=177
-Comercia=1
-NROITEMS=21
-Obj1=1272-1
-Obj2=1274-1
-ObJ3=2927-1
 NpcType=0
+Comercia=1
+NROITEMS=8
+Obj1=1272-1000
+Obj2=1273-1000
+Obj3=2927-1000
+NoMapInfo=1
 
 [NPC1082]
-Name=Orke <Herrero>
+Name=Grom <Herrero Brutal>
 Desc=Harás respetar nuestra raza con estas armas!
+DescClose=¡Hasta pronto!
 Body=1339
-Head=508
+NpcType=0
+Comercia=1
+NROITEMS=15
+Obj1=30-100
+Obj2=998-100
+Obj3=2803-100
+NoMapInfo=1
+
+[NPC1083]
+Name=Clarice Coraza <Forjadora Experta>
+Desc=Un flacucho como tú necesita un buen acero allí fuera.
+DescClose=¡Hasta pronto!
+Body=2049
+Head=0
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=18
-Obj1=240-1
-Obj2=527-1
-Obj3=2843-1
-
-[NPC1083]
-Name=Khor <Herrero>
-Desc=Un flacucho como tú necesita un buen acero allí fuera.
-Body=2049
-Head=34
-Comercia=1
-NROITEMS=11
-Obj1=401-1
-Obj2=1792-1
-Obj3=3978-1
-NpcType=0
+NROITEMS=9
+Obj1=30-1000
+Obj2=998-1000
+Obj3=1715-1000
 
 [NPC1084]
 Name=Elvira <Quest>
@@ -6542,11 +7948,12 @@ Desc=¡Bienvenido! Trabajo todo tipo de leña. ¿En qué puedo ayudarte?
 Body=607
 Head=318
 Comercia=1
-NROITEMS=8
-Obj1=198-1
-Obj2=127-1
-Obj3=361-1
 NpcType=0
+NoMapInfo=1
+NROITEMS=8
+Obj1=198-1000
+Obj2=127-1000
+Obj3=2829-1000
 
 [NPC1087]
 Name=Baldros Featherwick <Investigador>
@@ -6560,17 +7967,16 @@ Obj2=35-1
 Obj3=515-1
 
 [NPC1088]
-Name=Leonardo <Pescador>
+Name=Cormac <Pescador>
 Desc=¡El mar tiene tanto por ofrecer! Revisa mis herramientas, puede que haya algo que te sirva.
 Body=218
-Head=421
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=21
-Obj1=1272-1
-Obj2=1274-1
-ObJ3=2927-1
+NROITEMS=4
+Obj1=881-1000
+Obj2=2183-1000
+Obj3=2789-1000
 
 [NPC1089]
 Name=Celyne <Sastre de Nix>
@@ -6591,10 +7997,10 @@ Head=20
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=11
-Obj1=401-1
-Obj2=1792-1
-Obj3=3978-1
+NROITEMS=3
+Obj1=881-100
+Obj2=2183-100
+Obj3=138-100
 
 [NPC1091]
 Name=Pablo <Sotano Patreon>
@@ -6615,10 +8021,10 @@ Head=116
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=15
-Obj1=2765-1
-Obj2=2766-1
-Obj3=1665-1
+NROITEMS=13
+Obj1=2765-100
+Obj2=2764-100
+Obj3=2763-100
 
 [NPC1093]
 Name=Halving <Carpintero de Nix>
@@ -6691,11 +8097,17 @@ Name=Borvat
 Body=6028
 Head=0
 BodyIdle=6026
+Ataque1=6027
+HP=3600
 Comercia=1
 NROITEMS=13
 Obj1=1665-1
 Obj2=1648-1
 Obj3=1659-1
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC1100]
 Name=Halving <Carpintero de Banderbill>
@@ -6734,41 +8146,58 @@ Name=Criptococo
 Body=4202
 Head=0
 BodyIdle=4201
+Ataque1=4200
+HP=550
 NpcType=0
 NROITEMS=11
 Obj1=2826-1
 Obj2=195-1
 Obj3=1226-1
+MaxHIT=80
+MinHIT=60
+EXP=0
+ORO=0
 
 [NPC1104]
 Name=Tiburón
 Body=4105
+HP=450
 NpcType=0
 NROITEMS=9
 Obj1=15-1
 Obj2=165-1
 Obj3=1094-1
+MaxHIT=70
+MinHIT=50
+EXP=0
+ORO=0
 
 [NPC1105]
 Name=Tortuga Marina
 Body=4451
 BodyIdle=4452
+HP=350
 NpcType=0
 NROITEMS=10
 Obj1=30-1
 Obj2=529-1
 Obj3=1004-1
+MaxHIT=60
+MinHIT=40
+EXP=0
+ORO=0
 
 [NPC1106]
-Name='Philip'
+Name=Philiph
 Body=6031
 Head=0
 BodyIdle=6029
-Comercia=1
-NROITEMS=13
-Obj1=1665-1
-Obj2=1648-1
-Obj3=1659-1
+Ataque1=6030
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC1107]
 Name=Desh <Quest>
@@ -6793,14 +8222,11 @@ Obj2=35-1
 Obj3=515-1
 
 [NPC1109]
-Name=Jadís <Sastre de Arghal>
-Desc=Siempre hay un roto para un descosido.
-Body=4567
-Comercia=1
-NROITEMS=21
-Obj1=1272-1
-Obj2=1274-1
-ObJ3=2927-1
+Name=Tony <Quest>
+Desc=¡Tengo unas misiones para ti!
+Body=1655
+Head=204
+NpcType=17
 
 [NPC1110]
 Name=Celyne <Sastre de Arghal>
@@ -6855,6 +8281,7 @@ Desc=¡Vino de Banderbill, cerveza de Arkhein y los mejores muebles de Ullathorp
 Body=599
 Head=312
 NpcType=0
+NoMapInfo=1
 
 [NPC1116]
 Name=Valdemar
@@ -6862,6 +8289,7 @@ Desc=¡Este terreno acaba de ser comprado, veremos que construye el nuevo dueño
 Body=80
 Head=14
 NpcType=0
+NoMapInfo=1
 
 [NPC1117]
 Name=Windall <Quest>
@@ -6904,10 +8332,10 @@ Head=0
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=15
-Obj1=2765-1
-Obj2=2766-1
-Obj3=1665-1
+NROITEMS=13
+Obj1=2763-100
+Obj2=2764-100
+Obj3=2766-100
 
 [NPC1121]
 Name=Malva <Quest>
@@ -6945,28 +8373,30 @@ ObJ3=2927-1
 [NPC1124]
 Name=Dominic <Armero>
 Desc=¡Son mis ultimas armas, aprovéchalas!
+DescClose=¡Hasta pronto!
 Body=295
 Head=27
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=18
-Obj1=240-1
-Obj2=527-1
-Obj3=2843-1
+NROITEMS=7
+Obj1=3988-1000
+Obj2=123-1000
+Obj3=3987-1000
 
 [NPC1125]
 Name=Khyo <Herreria>
 Desc=Me quedan algunos objetos por vender antes de marcharme de aquí.
+DescClose=¡Hasta pronto!
 Body=125
 Head=21
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=11
-Obj1=401-1
-Obj2=1792-1
-Obj3=3980-1
+NROITEMS=7
+Obj1=1713-1000
+Obj2=1774-1000
+Obj3=1761-1000
 
 [NPC1126]
 Name=Vulkano <Quest>
@@ -6987,10 +8417,10 @@ Head=29
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=17
-Obj1=2765-1
-Obj2=2766-1
-Obj3=1665-1
+NROITEMS=14
+Obj1=1651-100
+Obj2=1655-100
+Obj3=1654-100
 
 [NPC1128]
 Name=Neron <Armero>
@@ -7000,21 +8430,23 @@ Head=125
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=10
-Obj1=159-1
-Obj2=3988-1
-Obj3=1867-1
+NROITEMS=7
+Obj1=3988-100
+Obj2=123-100
+Obj3=3987-100
 
 [NPC1129]
-Name=Kurczak <Armaduras de Eleusis>
+Name=Kurzak <Herreria>
 Desc=Aquí encontrarás las mejores armaduras de estas frías tierras.
 Body=1697
-Head=312
+Head=202
+NpcType=0
 Comercia=1
-NROITEMS=29
-Obj1=1719-1
-Obj2=1715-1
-Obj3=1774-1
+NoMapInfo=1
+NROITEMS=10
+Obj1=1713-100
+Obj2=1774-100
+Obj3=1761-100
 
 [NPC1130]
 Name=Therwin <Magia>
@@ -7024,10 +8456,10 @@ Head=649
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=18
-Obj1=1659-1
-Obj2=1658-1
-Obj3=1660-1
+NROITEMS=17
+Obj1=1655-100
+Obj2=1654-100
+Obj3=1651-100
 
 [NPC1131]
 Name=Galving <Carpintero>
@@ -7037,10 +8469,10 @@ Head=317
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=10
-Obj1=198-1
-Obj2=127-1
-Obj3=361-1
+NROITEMS=9
+Obj1=198-1000
+Obj2=127-1000
+Obj3=361-1000
 
 [NPC1132]
 Name=Marie <Herrera>
@@ -7050,10 +8482,10 @@ Head=58
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=10
-Obj1=159-1
-Obj2=3988-1
-Obj3=1867-1
+NROITEMS=14
+Obj1=3988-100
+Obj2=123-100
+Obj3=3987-100
 
 [NPC1133]
 Name=Victarion <Armaduras Profesionales>
@@ -7113,44 +8545,64 @@ Obj3=2928-1
 Name=Camello
 Body=5639
 BodyIdle=5637
+Ataque1=5638
+HP=1700
 NpcType=0
 NROITEMS=10
 Obj1=2840-1
 Obj2=1988-1
 Obj3=3388-1
+EXP=1020
+ORO=55
+MaxHIT=100
+MinHIT=50
+Nivel=20
 
 [NPC1139]
 Name=Camello Marrón
 Body=5642
 BodyIdle=5640
+Ataque1=5641
+HP=1800
 NpcType=0
 NROITEMS=10
 Obj1=159-1
 Obj2=3988-1
 Obj3=1867-1
+EXP=1080
+ORO=60
+MaxHIT=105
+MinHIT=60
+Nivel=20
 
 [NPC1140]
 Name=León
 Body=5627
 BodyIdle=5625
-HP=600
+Ataque1=5626
+HP=1600
 NpcType=0
 Comercia=0
-EXP=750
-ORO=0
-MaxHIT=100
-MinHIT=90
+EXP=960
+ORO=48
+MaxHIT=110
+MinHIT=70
+Nivel=20
 
 [NPC1141]
 Name=Pantera Negra
 Body=4214
 Head=0
 BodyIdle=4213
+Ataque1=4212
+HP=650
 NpcType=0
 NROITEMS=4
 Obj1=30-1
 Obj2=84-1
 Obj3=998-1
+MaxHIT=90
+MinHIT=75
 
 [NPC1142]
 Name=Baradh <Minero de Penthar>
@@ -7158,10 +8610,10 @@ Desc=Las mejores herramientas para obtener minerales.
 Body=303
 Head=564
 Comercia=1
-NROITEMS=6
-Obj1=187-1
-Obj2=363-1
-Obj3=2818-1
+NROITEMS=4
+Obj1=203-1000
+Obj2=1142-1000
+Obj3=390-1000
 
 [NPC1143]
 Name=Fenrir <Magia>
@@ -7171,16 +8623,23 @@ Head=205
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=7
-Obj1=992-1
-Obj2=1797-1
-Obj3=469-1
+NROITEMS=8
+Obj1=3984-100
+Obj2=469-100
+Obj3=540-100
 
 [NPC1144]
 Name=Condor Andino
 Body=5053
 Head=0
 BodyIdle=5053
+Ataque1=5052
+HP=2000
+EXP=1700
+ORO=85
+Nivel=28
+MaxHIT=125
+MinHIT=90
 
 [NPC1145]
 Name=Dalyor <Habitante de Penthar>
@@ -7207,6 +8666,7 @@ EXP=1600
 ORO=85
 MaxHIT=135
 MinHIT=70
+Nivel=28
 
 [NPC1148]
 Name=Elemental de Fuego Liberado
@@ -7220,6 +8680,7 @@ EXP=1600
 ORO=85
 MaxHIT=135
 MinHIT=70
+Nivel=28
 
 [NPC1149]
 Name=Primal
@@ -7230,8 +8691,9 @@ HP=1500
 NpcType=0
 EXP=900
 ORO=45
-MaxHIT=135
-MinHIT=80
+MaxHIT=100
+MinHIT=55
+Nivel=20
 
 [NPC1150]
 Name=Elhandar <Quest>
@@ -7256,14 +8718,18 @@ NpcType=20
 
 [NPC1153]
 Name=Ghanly
-Body=634
+Body=6022
 Head=59
-HP=600
+BodyIdle=6020
+Ataque1=6021
+HP=3000
 Comercia=0
-EXP=600
-ORO=0
-MaxHIT=100
-MinHIT=75
+EXP=2400
+ORO=140
+MaxHIT=150
+MinHIT=95
+NpcType=0
+GiveEXPClan=1
 
 [NPC1154]
 Name=Fermin
@@ -7281,22 +8747,32 @@ NpcType=17
 Comercia=0
 
 [NPC1156]
-Name=Ciervo Ancestral
-Body=4392
-HP=4200
-EXP=5250
-ORO=420
-MaxHIT=160
-MinHIT=145
+Name=Albi
+Body=6067
+BodyIdle=6065
+Ataque1=6066
+HP=4000
+NpcType=0
+EXP=3600
+GiveEXPClan=1
+ORO=140
+Nivel=28
+MaxHIT=135
+MinHIT=80
 
 [NPC1157]
-Name=Ciervo Negro
-Body=4391
-HP=4000
-EXP=4800
-ORO=440
-MaxHIT=150
-MinHIT=140
+Name=Bramador
+Body=6064
+BodyIdle=6062
+Ataque1=6063
+HP=3200
+NpcType=0
+EXP=2560
+GiveEXPClan=1
+ORO=130
+Nivel=28
+MaxHIT=120
+MinHIT=70
 
 [NPC1158]
 Name=Tavuk <Talabartero>
@@ -7312,26 +8788,57 @@ Head=59
 NpcType=17
 
 [NPC1160]
-Name=Hiena Demoníaca
+Name=Kael
+Desc=No me mires demasiado tiempo... aquí las sombras escuchan más de lo que deberian.
 Body=1582
-HP=200
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=30
-MinHIT=20
+Head=213
+NpcType=17
+
+[NPC1161]
+Name=Serik
+Desc=No fijes tus ojos en los míos. Aquí, quienes observan demasiado... desaparecen.
+Body=19
+Head=106
+NpcType=17
 
 [NPC1162]
 Name=Mantis Marrón
 Body=5606
 BodyIdle=5604
+Ataque1=5605
+HP=1500
 NpcType=0
+EXP=900
+ORO=30
+MaxHIT=115
+MinHIT=65
+Nivel=20
 
 [NPC1163]
 Name=Mantis Verde
 Body=5603
 BodyIdle=5601
+Ataque1=5602
+HP=1800
 NpcType=0
+EXP=1080
+ORO=35
+MaxHIT=115
+MinHIT=65
+Nivel=20
+
+[NPC1164]
+Name=Aduin
+Desc=Ah... un viajero llega hasta estas islas barridas por el viento. Aquí, donde el cielo toca la tierra y las alas trazan destinos invisibles. Cuéntame... ¿Qué busca tu corazón?
+Body=771
+Head=310
+NpcType=17
+
+[NPC1165]
+Name=Bardo (Legendario)
+Desc=Equipamiento Legendario para Bardos
+Body=2041
+Head=51
 
 [NPC1166]
 Name=Aelder <Quest>
@@ -7344,13 +8851,44 @@ NpcType=17
 Name=Verdarra
 Body=4841
 BodyIdle=4840
+HP=1800
 NpcType=0
+EXP=1080
+ORO=55
+MaxHIT=90
+MinHIT=55
+Nivel=20
 
 [NPC1168]
 Name=Zafirron
 Body=4844
 BodyIdle=4843
+HP=1800
 NpcType=0
+EXP=1080
+ORO=55
+MaxHIT=85
+MinHIT=50
+Nivel=20
+
+[NPC1169]
+Name=Cazador (Legendario)
+Desc=Equipamiento Legendario para Cazadores
+Body=2042
+Head=102
+
+[NPC1170]
+Name=Guerrero (Legendario)
+Desc=Equipamiento Legendario para Guerreros
+Body=59
+Head=29
+
+[NPC1171]
+Name=Pretoria <Quest>
+Desc=¿Tienes el valor de enfrentar la oscuridad por un poder que puede cambiarlo todo?
+Body=2195
+Head=54
+NpcType=17
 
 [NPC1172]
 Name=Sheila <Quest>
@@ -7365,6 +8903,15 @@ Desc=¿Vienes por el Blodium? Ja.. Primero tendrás que ganártelo. Esta aldea n
 Body=728
 Head=327
 NpcType=17
+
+[NPC1178]
+Name=Grimbak <Finanzas Goliath>
+Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
+DescClose=¡Hasta luego!
+Body=592
+Head=460
+NpcType=4
+NoMapInfo=1
 
 [NPC1179]
 Name=Thirga Brumhilda <Quest>
@@ -7381,6 +8928,10 @@ Head=462
 NpcType=0
 Comercia=1
 NoMapInfo=1
+NROITEMS=7
+Obj1=3984-1000
+Obj2=469-1000
+Obj3=540-1000
 
 [NPC1181]
 Name=Brunna <Sastre>
@@ -7390,24 +8941,38 @@ Head=478
 NpcType=0
 Comercia=1
 NoMapInfo=1
+NROITEMS=6
+Obj1=2807-100
+Obj2=520-100
+Obj3=1089-100
 
 [NPC1182]
 Name=Grelka <Alquimista>
 Desc=¡Bienvenido! ¿Estás por viajar? Aquí encontrarás las mejores pociones.
+DescClose=¡Mas vale salir prevenidos!
 Body=2847
 Head=477
 NpcType=0
 Comercia=1
 NoMapInfo=1
+NROITEMS=7
+Obj1=37-1000
+Obj2=38-1000
+Obj3=36-1000
 
 [NPC1183]
 Name=Dwalin <Provisiones>
 Desc=¡Hola! Ven a ver estos productos, sólo aquí conseguirás las mejores provisiones de todas estas tierras.
+DescClose=¡Hasta pronto!
 Body=579
 Head=313
 NpcType=0
 Comercia=1
 NoMapInfo=1
+NROITEMS=10
+Obj1=1-1000
+Obj2=22-1000
+Obj3=29-1000
 
 [NPC1184]
 Name=Kargun <Resucitador>
@@ -7425,30 +8990,47 @@ Head=322
 NpcType=0
 Comercia=1
 NoMapInfo=1
+NROITEMS=2
+Obj1=534-1
+Obj2=199-1
 
 [NPC1186]
-Name=Thargrin <Armero>
+Name=Grum <Herrero Tenaz>
 Desc=¡Bienvenidos a mi Forja!
+DescClose=¡Hasta pronto!
 Body=537
-Head=327
 NpcType=0
 Comercia=1
 NoMapInfo=1
+NROITEMS=7
+Obj1=3988-100
+Obj2=123-100
+Obj3=3987-100
 
 [NPC1187]
-Name=Borin <Herreria>
+Name=Thrain <Martillo Incansable>
 Desc=¡Consigue aqui, solo lo mejor!
 Body=508
-Head=315
 NpcType=0
 Comercia=1
 NoMapInfo=1
+NROITEMS=7
+Obj1=1713-100
+Obj2=1774-100
+Obj3=1761-100
 
 [NPC1188]
 Name=Ho Ka Rdum <Quest>
-Desc=Temo por mi granja
+Desc=¡Temo por mi granja!
 Body=3129
 Head=555
+NpcType=17
+
+[NPC1189]
+Name=Laan <Quest>
+Desc=¡Tengo lo necesario para derrotar a los Nagas!
+Body=2142
+Head=52
 NpcType=17
 
 [NPC1191]
@@ -7462,25 +9044,49 @@ NpcType=17
 Name=Orco Cazador
 Body=1047
 Head=524
+HP=250
 NpcType=0
+EXP=125
+MaxHIT=21
+MinHIT=10
+NumQuiza=1
+ORO=5
+QUIZADROPEA1=3466
+QuizaProb=125
 
 [NPC1193]
 Name=Orco Embrujado
 Body=3103
 Head=525
+HP=300
 NpcType=0
+EXP=150
+MaxHIT=15
+MinHIT=6
+ORO=9
 
 [NPC1194]
 Name=Orca Granjera
 Body=3103
 Head=720
+HP=300
 NpcType=0
+EXP=150
+MaxHIT=25
+MinHIT=14
+ORO=12
 
 [NPC1195]
 Name=Orco Protector
 Body=1054
 Head=513
+HP=400
 NpcType=0
+EXP=200
+MaxHIT=35
+MinHIT=26
+ORO=6
+Nivel=15
 
 [NPC1196]
 Name=Orco Paladin
@@ -7520,7 +9126,7 @@ MinHIT=220
 
 [NPC1200]
 Name=Orco Nigromante
-Body=1217
+Body=2128
 Head=556
 HP=3500
 Comercia=0
@@ -7657,7 +9263,7 @@ MinHIT=200
 
 [NPC1213]
 Name=Rey Enano Capturado
-Body=968
+Body=747
 Head=643
 HP=500
 Comercia=0
@@ -7679,7 +9285,7 @@ MinHIT=200
 
 [NPC1215]
 Name=Rey Gnomo Capturado
-Body=985
+Body=858
 Head=644
 HP=500
 Comercia=0
@@ -7693,11 +9299,18 @@ Name=Amanita
 Body=4838
 Head=0
 BodyIdle=4838
+Ataque1=4839
+HP=2500
 NpcType=0
 NROITEMS=10
 Obj1=198-1
 Obj2=127-1
 Obj3=361-1
+EXP=1875
+MaxHIT=135
+MinHIT=75
+ORO=95
+Nivel=28
 
 [NPC1217]
 Name=Mercader <Shop Patreon>
@@ -7762,10 +9375,10 @@ Body=4088
 Head=0
 HP=1500
 Comercia=0
-EXP=1800
-ORO=180
-MaxHIT=65
-MinHIT=50
+EXP=900
+ORO=54
+MaxHIT=130
+MinHIT=70
 
 [NPC1225]
 Name=Sloane <Quest>
@@ -7786,22 +9399,24 @@ MaxHIT=40
 [NPC1227]
 Name=Galeón Fantasmal
 Body=4596
-HP=150
-MinHIT=15
-MaxHIT=30
+HP=350
+MinHIT=115
+MaxHIT=150
+NpcType=0
 
 [NPC1228]
 Name=Arquero Capturado
 Body=549
 Head=74
-HP=200
+HP=350
+NpcType=0
 
 [NPC1229]
 Name=Golem Capturado
 Body=4032
-HP=150
-MaxHIT=50
-MinHIT=20
+HP=230
+MaxHIT=150
+MinHIT=100
 
 [NPC1230]
 Name=Eulaccia
@@ -7833,7 +9448,7 @@ Body=124
 Head=122
 HP=4500
 EXP=4500
-ORO=350
+ORO=280
 MaxHIT=300
 MinHIT=200
 
@@ -7844,7 +9459,7 @@ Body=124
 Head=122
 HP=3000
 EXP=3000
-ORO=150
+ORO=120
 MaxHIT=160
 MinHIT=200
 
@@ -7855,7 +9470,7 @@ Body=124
 Head=116
 HP=2500
 EXP=3000
-ORO=370
+ORO=296
 MaxHIT=160
 MinHIT=75
 
@@ -7865,7 +9480,7 @@ Body=124
 Head=82
 HP=1750
 EXP=2200
-ORO=250
+ORO=200
 MaxHIT=160
 MinHIT=75
 
@@ -7875,77 +9490,77 @@ Body=124
 Head=82
 HP=1750
 EXP=2200
-ORO=250
+ORO=200
 MaxHIT=160
 MinHIT=75
 
 [NPC1238]
 Name=Asesina Impiadosa <Orden de las Sombras>
-Body=1340
+Body=2030
 Head=122
 HP=1750
 EXP=2200
-ORO=250
+ORO=200
 MaxHIT=160
 MinHIT=75
 
 [NPC1239]
 Name=Hechicera Oscura <Orden de las Sombras>
-Body=1340
+Body=2030
 Head=122
 HP=1750
 EXP=2200
-ORO=250
+ORO=200
 MaxHIT=160
 MinHIT=75
 
 [NPC1240]
 Name=Hechicera Impiadosa <Orden de las Sombras>
-Body=1340
+Body=2030
 Head=82
 HP=1750
 EXP=2200
-ORO=250
+ORO=200
 MaxHIT=160
 MinHIT=75
 
 [NPC1241]
 Name=Cazadora Letal <Orden de las Sombras>
-Body=1340
+Body=2030
 Head=82
 HP=1750
 EXP=2200
-ORO=250
+ORO=200
 MaxHIT=160
 MinHIT=75
 
 [NPC1242]
 Name=Hechicero Oscuro <Orden de las Sombras>
-Body=1341
+Body=530
 Head=90
 HP=1750
 EXP=2200
-ORO=250
+ORO=200
 MaxHIT=160
 MinHIT=75
 
 [NPC1243]
 Name=Guerrero Oscuro <Orden de las Sombras>
-Body=1341
+Body=530
 Head=90
 HP=1750
 EXP=2200
-ORO=250
+ORO=200
 MaxHIT=160
 MinHIT=75
 
 [NPC1244]
 Name=Verdugo Oscuro <Orden de las Sombras>
-Body=1341
+Body=530
 Head=82
 HP=1750
 EXP=2200
-ORO=250
+ORO=200
 MaxHIT=160
 MinHIT=75
 
@@ -7979,10 +9594,10 @@ Head=323
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=8
-Obj1=198-1
-Obj2=127-1
-Obj3=361-1
+NROITEMS=7
+Obj1=198-100
+Obj2=127-100
+Obj3=2829-100
 
 [NPC1248]
 Name=Akiria
@@ -8004,10 +9619,10 @@ Head=401
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=12
-Obj1=2765-1
-Obj2=2764-1
-Obj3=2763-1
+NROITEMS=4
+Obj1=3985-1000
+Obj2=3986-1000
+Obj3=1239-1000
 
 [NPC1250]
 Name=Kalé
@@ -8157,9 +9772,9 @@ Name=Troll Lúgubre
 Body=4378
 BodyIdle=4379
 Ataque1=4130
-HP=150000
-MaxHIT=340
-MinHIT=260
+HP=2000
+MaxHIT=85
+MinHIT=65
 NumQuiza=20
 QuizaDropea1=2236-1
 QuizaDropea2=2237-1
@@ -8181,17 +9796,21 @@ QuizaProb=1
 NROITEMS=1
 OBJ1=408-1
 GiveEXPClan=100
+NpcType=0
+EXP=1200
+ORO=75
+Nivel=20
 
 [NPC1266]
 Name=Golem de Piedra Mayor
 Body=4033
 Head=0
-HP=30000
+HP=8000
 Comercia=0
 EXP=52500
-ORO=6000
-MaxHIT=220
-MinHIT=200
+ORO=640
+MaxHIT=215
+MinHIT=150
 
 [NPC1267]
 Name=Oso Pardo
@@ -8206,40 +9825,48 @@ MinHIT=65
 [NPC1268]
 Name=Vendedor
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
+DescClose=¡Vuelve cuando quieras a comprar!
 Body=2049
 Head=34
 NpcType=0
 Comercia=1
 Obj1=2831-1
 Obj2=2832-1
+NROITEMS=2
 
 [NPC1269]
-Name=Tigre
+Name=Cañonero
 Body=281
-Head=0
-BodyIdle=4098
-HP=350
-Comercia=0
-MaxHIT=100
-MinHIT=90
+Head=615
+HP=3500
+MaxHIT=90
+MinHIT=65
+NpcType=0
+EXP=0
+ORO=0
 
 [NPC1270]
-Name=Huargo
-Body=4029
-Head=0
-HP=550
-MaxHIT=115
-MinHIT=100
+Name=Ballestero
+Body=281
+Head=615
+HP=3500
+MaxHIT=90
+MinHIT=65
+NpcType=0
+EXP=0
+ORO=0
 
 [NPC1271]
-Name=Sacerdotisa
-Desc=¡Hola hijo mio! Soy la sacerdotisa de estas tierras. Si quieres ser resucitado escribe /Resucitar o doble click izquierdo.
+Name=Vorgrash
 Body=6034
-Head=607
-BodyIdle=861
-NpcType=1
-PuedeInvocar=1
-Comercia=0
+Head=0
+BodyIdle=6032
+Ataque1=6033
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC1272]
 Name=Banquera <Finanzas>
@@ -8257,10 +9884,10 @@ Head=158
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=9
-Obj1=38-10000
-Obj2=37-10000
-Obj3=36-10000
+NROITEMS=5
+Obj1=208-1000
+Obj2=209-1000
+Obj3=210-1000
 
 [NPC1274]
 Name=Pandora <Hechicera>
@@ -8270,10 +9897,10 @@ Head=351
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=3
-Obj1=1800-1
-Obj2=3986-1
-Obj3=3985-1
+NROITEMS=4
+Obj1=3985-1000
+Obj2=3986-1000
+Obj3=1239-1000
 
 [NPC1275]
 Name=Euridice <Hechicera>
@@ -8283,10 +9910,10 @@ Head=69
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=9
-Obj1=2765-1
-Obj2=2766-1
-Obj3=1665-1
+NROITEMS=10
+Obj1=2763-100
+Obj2=2764-100
+Obj3=2766-100
 
 [NPC1276]
 Name=Adelle <Tabernera de Forgat>
@@ -8319,10 +9946,10 @@ Head=86
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=8
-Obj1=198-1
-Obj2=127-1
-Obj3=361-1
+NROITEMS=7
+Obj1=198-100
+Obj2=127-100
+Obj3=2829-100
 
 [NPC1279]
 Name=Hilda <Provisiones de Forgat>
@@ -8331,10 +9958,10 @@ Body=678
 Head=57
 Comercia=1
 PuedeInvocar=1
-NROITEMS=10
-Obj1=1-100
-Obj2=22-100
-Obj3=23-100
+NROITEMS=6
+Obj1=1-1000
+Obj2=22-1000
+Obj3=29-1000
 
 [NPC1280]
 Name=Renata <Herrera de Forgat>
@@ -8462,13 +10089,11 @@ NpcType=17
 Obj1=3703-1
 
 [NPC1295]
-Name=Astrid <Quest>
-Desc=Estudiaba la serpiente albina para poder extraer y sinterizar su veneno pero por un descuido ocurrió una catástrofe.
+Name=Astrid
+Desc=¡Estudiaba la Serpiente Albina para poder extraer y sinterizar su veneno, pero por un descuido ocurrió una catástrofe!
 Body=2191
 Head=78
-NROITEMS=1
 NpcType=17
-Obj1=3703-1
 
 [NPC1296]
 Name=Pequeño lobo gris
@@ -8548,22 +10173,21 @@ MinHIT=90
 
 [NPC1305]
 Name=Tiburón Cazamareas
-Body=4263
-BodyIdle=4262
-Ataque1=4262
+Body=1494
+BodyIdle=1495
+Ataque1=1495
 HP=450
 NpcType=0
 MaxHIT=100
 MinHIT=90
+EXP=450
 
 [NPC1306]
-Name=Valerius <Quest>
+Name=Plerius <Quest>
 Desc=Necesito que consigas los componentes del rito. Solo un paladín que los obtenga por sí mismo puede despertar su poder.
 Body=254
 Head=27
 NpcType=17
-NROITEMS=1
-Obj1=3791-10
 
 [NPC1307]
 Name=Zoltan <Quest>
@@ -8578,11 +10202,13 @@ Body=4261
 Head=0
 BodyIdle=4261
 Ataque1=4260
-HP=1600
-EXP=1900
-ORO=75
-MaxHIT=55
-MinHIT=45
+HP=2250
+EXP=1630
+ORO=70
+MaxHIT=105
+MinHIT=55
+NpcType=0
+Nivel=28
 
 [NPC1309]
 Name=Niscalo
@@ -8604,13 +10230,15 @@ Body=4257
 Head=0
 BodyIdle=4257
 Ataque1=4256
-HP=1600
-EXP=1900
-ORO=75
-MaxHIT=55
-MinHIT=45
+HP=2000
+EXP=1400
+ORO=60
+MaxHIT=110
+MinHIT=50
 NROITEMS=1
 Obj1=3833-1
+NpcType=0
+Nivel=28
 
 [NPC1311]
 Name=Elfer <Mercader>
@@ -8621,18 +10249,19 @@ NpcType=0
 Comercia=1
 NoMapInfo=1
 NROITEMS=2
-Obj1=534-1
-Obj2=197-1
+Obj1=534-100
+Obj2=199-100
 
 [NPC1312]
 Name=Rowan
 Body=55
 Head=115
 HP=5000
-EXP=8500
-ORO=500
+EXP=0
+ORO=400
 MaxHIT=260
 MinHIT=140
+NpcType=0
 
 [NPC1313]
 Name=Torgath <Quest>
@@ -8720,12 +10349,13 @@ NpcType=17
 
 [NPC1325]
 Name=Mago Pirata
-Body=1096
+Body=2029
 Head=604
-BodyIdle=1096
+BodyIdle=2029
 HP=10000
 MaxHIT=160
 MinHIT=115
+NpcType=0
 
 [NPC1326]
 Name=Espíritu del bosque
@@ -8738,21 +10368,23 @@ MinHIT=115
 
 [NPC1327]
 Name=Marino Cazador
-Body=4896
+Body=2052
 Head=604
 HP=10000
 MaxHIT=120
 MinHIT=90
+NpcType=0
 
 [NPC1328]
 Name=Capitan
 Body=5563
 Head=0
-BodyIdle=4152
-Ataque1=4151
+BodyIdle=5561
+Ataque1=5562
 HP=60000
 MaxHIT=200
 MinHIT=120
+NpcType=0
 
 [NPC1329]
 Name=BattleServer
@@ -8761,10 +10393,11 @@ Body=74
 Head=27
 NpcType=0
 Comercia=1
-NROITEMS=3
-Obj1=534-100
-Obj2=199-100
-Obj3=197-100
+NROITEMS=28
+Obj1=534-1
+Obj2=199-1
+Obj3=197-1
+NoMapInfo=1
 
 [NPC1330]
 Name=Vendedor de Sets
@@ -8785,67 +10418,116 @@ Head=272
 NpcType=17
 
 [NPC1332]
-Name=Dragón Invocado
+Name=Hormiga Amarilla
 Body=5231
-HP=300
-MaxHIT=80
-MinHIT=50
+Head=0
+BodyIdle=5229
+Ataque1=5230
+HP=400
+EXP=260
+ORO=6
+MaxHIT=42
+MinHIT=26
+Nivel=15
 
 [NPC1333]
 Name=Hormiga Verde
 Body=5237
 Head=0
 BodyIdle=5235
+Ataque1=5236
+HP=400
+EXP=220
+ORO=10
+MaxHIT=40
+MinHIT=28
+Nivel=15
 
 [NPC1334]
 Name=Hormiga Negra
 Body=5234
 Head=0
 BodyIdle=5232
+Ataque1=5233
+HP=400
 NROITEMS=31
 Obj1=3771-1
 Obj2=3773-1
 Obj3=3774-1
+EXP=240
+ORO=8
+MaxHIT=38
+MinHIT=30
+Nivel=15
 
 [NPC1335]
 Name=Hormiga Berseker
 Body=5249
 Head=0
 BodyIdle=5247
+Ataque1=5248
+HP=1000
 NROITEMS=21
 Obj1=1272-1
 Obj2=1274-1
 ObJ3=2927-1
+EXP=600
+ORO=45
+MaxHIT=70
+MinHIT=40
+Nivel=20
 
 [NPC1336]
 Name=Hormiga Guerrera
 Body=5240
 Head=0
 BodyIdle=5238
+Ataque1=5239
+HP=800
 NROITEMS=18
 Obj1=240-1
 Obj2=527-1
 Obj3=2843-1
+EXP=520
+ORO=28
+MaxHIT=60
+MinHIT=38
+Nivel=20
 
 [NPC1337]
 Name=Hormiga Azul
 Body=5243
 Head=0
 BodyIdle=5241
+Ataque1=5242
+HP=600
 NROITEMS=21
 Obj1=32-1
 Obj2=35-1
 Obj3=515-1
+EXP=360
+ORO=18
+MaxHIT=50
+MinHIT=35
+Nivel=15
 
 [NPC1338]
 Name=Gaia
 Body=5246
 Head=0
 BodyIdle=5244
+Ataque1=5245
+HP=8000
 NROITEMS=8
 Obj1=198-1
 Obj2=127-1
 Obj3=361-1
+EXP=8000
+GiveEXPClan=8
+ORO=575
+MaxHIT=95
+MinHIT=60
+Nivel=20
 
 [NPC1339]
 Name=Maestro Entomus <Investigador>
@@ -8862,10 +10544,10 @@ Head=40
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=18
-Obj1=240-1
-Obj2=527-1
-Obj3=2843-1
+NROITEMS=7
+Obj1=4343-1000
+Obj2=1089-1000
+Obj3=1955-1000
 
 [NPC1341]
 Name=Faelion <Sastre>
@@ -8875,10 +10557,10 @@ Head=106
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=21
-Obj1=32-1
-Obj2=35-1
-Obj3=515-1
+NROITEMS=6
+Obj1=4343-100
+Obj2=520-100
+Obj3=1089-100
 
 [NPC1342]
 Name=Finrod <Tabernero de Eldoria>
@@ -8894,16 +10576,16 @@ Obj3=161-100
 
 [NPC1343]
 Name=Thessalia <Alquimista>
-Desc=¡Hola! Bienvenido a mi cabaña. Tengo a la venta la mas amplia gama de pociones para tu viaje.
+Desc=Tengo a la venta la mas amplia gama de pociones para tu viaje.
 Body=2250
 Head=155
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=10
-Obj1=38-10000
-Obj2=37-10000
-Obj3=36-10000
+NROITEMS=5
+Obj1=37-1000
+Obj2=38-1000
+Obj3=36-1000
 
 [NPC1344]
 Name=Erevan <Hechicera de Eldoria>
@@ -8911,10 +10593,10 @@ Desc=¡Soy experta en las artes arcanas. Tengo una gran variedad de hechizos ava
 Body=1093
 Head=158
 Comercia=1
-NROITEMS=3
-Obj1=1800-1
-Obj2=3986-1
-Obj3=3985-1
+NROITEMS=7
+Obj1=3984-1
+Obj2=469-1
+Obj3=540-1
 
 [NPC1345]
 Name=Thalin <Hechicera de Eldoria>
@@ -8924,10 +10606,10 @@ Head=0
 NpcType=0
 Comercia=1
 NoMapInfo=1
-NROITEMS=9
-Obj1=2765-1
-Obj2=2766-1
-Obj3=1665-1
+NROITEMS=22
+Obj1=1651-100
+Obj2=1655-100
+Obj3=1654-100
 
 [NPC1346]
 Name=Josephelf <Mercader Eldoria>
@@ -8937,7 +10619,7 @@ Head=109
 Comercia=1
 NROITEMS=2
 Obj1=534-1
-Obj2=197-1
+Obj2=199-1
 
 [NPC1347]
 Name=Ghelf <Provisiones de Eldoria>
@@ -8968,10 +10650,9 @@ Desc=Aquí encontrarás las mejores armaduras de estas tierras.
 Body=74
 Head=106
 Comercia=1
-NROITEMS=5
-Obj1=30-1
-Obj2=529-1
-Obj3=1004-1
+NROITEMS=2
+Obj1=534-1
+Obj2=199-1
 
 [NPC1350]
 Name=Golksu <Sacerdote>
@@ -8987,14 +10668,18 @@ Body=4239
 Head=0
 BodyIdle=4238
 Ataque1=4237
-HP=1200
+HP=500
 Comercia=0
-EXP=120
-ORO=0
+EXP=125
+ORO=35
 MaxHIT=70
 MinHIT=40
 NROITEMS=1
 Obj1=2551-1
+NumQuiza=1
+QUIZADROPEA1=2551
+QuizaProb=5
+NpcType=0
 
 [NPC1352]
 Name=Aquilore
@@ -9002,15 +10687,16 @@ Body=4236
 Head=0
 BodyIdle=4235
 Ataque1=4234
-HP=2500
+HP=250
 Comercia=0
-EXP=1500
-ORO=100
-MaxHIT=70
-MinHIT=40
+EXP=125
+ORO=8
+MaxHIT=30
+MinHIT=20
+NpcType=0
 
 [NPC1353]
-Name=Suido
+Name=Suido Ártico
 Body=5379
 Head=0
 BodyIdle=5377
@@ -9018,10 +10704,11 @@ Ataque1=5378
 HP=4500
 NpcType=0
 EXP=3375
+GiveEXPClan=1
 ORO=115
 MaxHIT=140
 MinHIT=95
-GiveEXPClan=1
+Nivel=32
 
 [NPC1354]
 Name=Eyewarden Ártico
@@ -9029,27 +10716,29 @@ Body=4231
 Head=0
 BodyIdle=4231
 Ataque1=4230
-HP=7000
+HP=6000
 Comercia=0
-EXP=4000
-ORO=400
-MaxHIT=170
-MinHIT=70
+EXP=6000
+ORO=275
+MaxHIT=190
+MinHIT=155
+GiveEXPClan=3
+NpcType=0
+Nivel=32
 
 [NPC1355]
-Name=Scramer Pícaron
-Body=4348
+Name=Ghoul de Hielo
+Body=5385
 Head=0
-BodyIdle=4349
-Ataque1=4347
-HP=2500
-EXP=1250
-ORO=70
-MaxHIT=80
-MinHIT=60
-NumQuiza=1
-QuizaDropea1=3713-1
-QuizaProb=1000
+BodyIdle=5383
+Ataque1=5384
+HP=3000
+NpcType=0
+EXP=2850
+ORO=95
+MaxHIT=110
+MinHIT=85
+Nivel=32
 
 [NPC1356]
 Name=Escorpión Azul
@@ -9064,6 +10753,7 @@ ORO=120
 MaxHIT=115
 MinHIT=90
 GiveEXPClan=1
+Nivel=32
 
 [NPC1357]
 Name=Mono Capuchino
@@ -9071,12 +10761,14 @@ Body=4228
 Head=0
 BodyIdle=4229
 Ataque1=4227
-HP=300
+HP=1000
 Comercia=0
-EXP=255
-ORO=45
-MaxHIT=35
-MinHIT=25
+EXP=700
+ORO=19
+MaxHIT=40
+MinHIT=15
+NpcType=0
+Nivel=20
 
 [NPC1358]
 Name=Mono Tití
@@ -9084,12 +10776,13 @@ Body=4225
 Head=0
 BodyIdle=4226
 Ataque1=4224
-HP=250
+HP=350
 Comercia=0
-EXP=225
-ORO=30
-MaxHIT=25
-MinHIT=15
+EXP=0
+ORO=0
+MaxHIT=40
+MinHIT=35
+NpcType=0
 
 [NPC1359]
 Name=Antilope
@@ -9097,12 +10790,13 @@ Body=4222
 Head=0
 BodyIdle=4223
 Ataque1=4221
-HP=2925
+HP=350
 Comercia=0
-EXP=4400
-ORO=100
-MaxHIT=100
-MinHIT=65
+EXP=0
+ORO=0
+MaxHIT=60
+MinHIT=40
+NpcType=0
 
 [NPC1360]
 Name=Antilope Negro
@@ -9110,12 +10804,13 @@ Body=4219
 Head=0
 BodyIdle=4220
 Ataque1=4218
-HP=3325
+HP=450
 Comercia=0
-EXP=5000
-ORO=150
-MaxHIT=120
-MinHIT=80
+EXP=0
+ORO=0
+MaxHIT=70
+MinHIT=50
+NpcType=0
 
 [NPC1361]
 Name=Pantera
@@ -9143,6 +10838,7 @@ ORO=150
 MaxHIT=240
 MinHIT=180
 GiveEXPClan=2
+Nivel=32
 
 [NPC1363]
 Name=Dovu
@@ -9150,25 +10846,28 @@ Body=4210
 Head=0
 BodyIdle=4211
 Ataque1=4209
-HP=2000
+HP=1500
 Comercia=0
-EXP=3000
-ORO=200
-MaxHIT=100
-MinHIT=75
+EXP=900
+ORO=26
+MaxHIT=65
+MinHIT=25
+NpcType=0
+Nivel=20
 
 [NPC1364]
-Name=Araña Cazadora
-Body=4208
+Name=Golem de Hielo
+Body=4890
 Head=0
-BodyIdle=4207
-Ataque1=4206
-HP=3600
-Comercia=0
-EXP=5400
-ORO=150
-MaxHIT=95
-MinHIT=75
+BodyIdle=4888
+Ataque1=4889
+HP=40000
+NpcType=0
+EXP=44000
+GiveEXPClan=40
+ORO=3500
+MaxHIT=235
+MinHIT=175
 
 [NPC1365]
 Name=Araña Silvestre
@@ -9179,7 +10878,7 @@ Ataque1=4203
 HP=3600
 Comercia=0
 EXP=5400
-ORO=150
+ORO=120
 MaxHIT=95
 MinHIT=75
 
@@ -9196,6 +10895,10 @@ ORO=210
 MaxHIT=155
 MinHIT=95
 GiveEXPClan=2
+NumQuiza=1
+QUIZADROPEA1=409
+QuizaProb=550
+Nivel=28
 
 [NPC1367]
 Name=Velocirraptor
@@ -9210,6 +10913,7 @@ ORO=105
 MaxHIT=120
 MinHIT=75
 GiveEXPClan=1
+Nivel=28
 
 [NPC1368]
 Name=Tiranosaurio Magnus
@@ -9219,10 +10923,11 @@ BodyIdle=4182
 Ataque1=4183
 HP=9500
 Comercia=0
-EXP=22325
-ORO=600
+EXP=0
+ORO=480
 MaxHIT=250
 MinHIT=150
+NpcType=0
 
 [NPC1369]
 Name=Hiena Marrón
@@ -9230,12 +10935,13 @@ Body=4179
 Head=0
 BodyIdle=4180
 Ataque1=4178
-HP=2000
+HP=300
 Comercia=0
-EXP=1500
-ORO=40
-MaxHIT=80
-MinHIT=60
+EXP=165
+ORO=14
+MaxHIT=35
+MinHIT=18
+NpcType=0
 
 [NPC1370]
 Name=Hiena Gris
@@ -9243,12 +10949,14 @@ Body=4176
 Head=0
 BodyIdle=4177
 Ataque1=4175
-HP=3000
+HP=400
 Comercia=0
-EXP=2000
-ORO=80
-MaxHIT=80
-MinHIT=60
+EXP=230
+ORO=20
+MaxHIT=40
+MinHIT=20
+NpcType=0
+Nivel=15
 
 [NPC1371]
 Name=Esqueleto de la Noche
@@ -9258,7 +10966,7 @@ BodyIdle=4377
 Ataque1=4274
 HP=8000
 EXP=6000
-ORO=500
+ORO=400
 MaxHIT=80
 MinHIT=60
 
@@ -9270,7 +10978,7 @@ BodyIdle=4375
 Ataque1=4273
 HP=10000
 EXP=7000
-ORO=600
+ORO=480
 MaxHIT=120
 MinHIT=60
 
@@ -9279,11 +10987,12 @@ Name=Fenix
 Body=4174
 Head=0
 BodyIdle=4173
-Ataque1=1
+Ataque1=4173
 HP=1
 Comercia=0
-MaxHIT=95
-MinHIT=75
+MaxHIT=0
+MinHIT=0
+NpcType=0
 
 [NPC1374]
 Name=Ent Élfico
@@ -9298,32 +11007,34 @@ ORO=2750
 MaxHIT=225
 MinHIT=160
 GiveEXPClan=30
+Nivel=28
 
 [NPC1375]
-Name=Ciervo
-Body=4171
+Name=Cervatillo
+Body=6061
 Head=0
-BodyIdle=4172
-Ataque1=4170
+BodyIdle=6059
+Ataque1=6060
 HP=2800
 NpcType=0
 EXP=2100
 ORO=115
+Nivel=28
 MaxHIT=105
 MinHIT=80
 
 [NPC1376]
-Name=Oso Pardout
-Body=4328
+Name=Cervatillo
+Body=6061
 Head=0
-BodyIdle=4329
-Ataque1=4327
-HP=600
-MaxHIT=100
-MinHIT=65
-NumQuiza=1
-QuizaDropea1=415-1
-QuizaProb=1
+BodyIdle=6059
+Ataque1=6060
+HP=350
+NpcType=0
+EXP=0
+ORO=0
+MaxHIT=60
+MinHIT=40
 
 [NPC1377]
 Name=Megafolia
@@ -9361,10 +11072,11 @@ BodyIdle=4164
 Ataque1=4162
 HP=3600
 Comercia=0
-EXP=4350
-ORO=150
+EXP=3480
+ORO=120
 MaxHIT=95
 MinHIT=75
+NpcType=0
 
 [NPC1380]
 Name=Pterodactilo Rojo
@@ -9374,10 +11086,11 @@ BodyIdle=4161
 Ataque1=4159
 HP=3600
 Comercia=0
-EXP=4350
-ORO=150
+EXP=3480
+ORO=120
 MaxHIT=95
 MinHIT=75
+NpcType=0
 
 [NPC1381]
 Name=Pterodactilo
@@ -9387,10 +11100,11 @@ BodyIdle=4158
 Ataque1=4156
 HP=3600
 Comercia=0
-EXP=4350
-ORO=150
+EXP=3480
+ORO=120
 MaxHIT=95
 MinHIT=75
+NpcType=0
 
 [NPC1382]
 Name=Cephalosauro
@@ -9400,21 +11114,20 @@ BodyIdle=4154
 Ataque1=4155
 HP=3600
 Comercia=0
-EXP=4350
-ORO=150
+EXP=3480
+ORO=120
 MaxHIT=95
 MinHIT=75
+NpcType=0
 
 [NPC1383]
-Name=Tigre
-Body=4109
-Head=0
-BodyIdle=4098
-HP=350
-Comercia=0
-ORO=55
-MaxHIT=100
-MinHIT=90
+Name=Demonio Gris
+Body=4013
+HP=1500
+EXP=900
+MaxHIT=115
+MinHIT=85
+ORO=52
 
 [NPC1384]
 Name=New Pirata
@@ -9424,23 +11137,26 @@ BodyIdle=4152
 Ataque1=4151
 HP=3600
 Comercia=0
-EXP=4350
-ORO=150
+EXP=3480
+ORO=120
 MaxHIT=95
 MinHIT=75
 
 [NPC1385]
 Name=Pirata Cañonero
-Body=301
-Head=604
-HP=2200
-EXP=2900
-ORO=220
-MaxHIT=120
-MinHIT=80
+Body=281
+Head=615
+HP=3500
+EXP=2800
+ORO=125
+MaxHIT=90
+MinHIT=65
 NumQuiza=1
 QuizaDropea1=1863-1
 QuizaProb=3
+NpcType=0
+GiveEXPClan=1
+Nivel=28
 
 [NPC1386]
 Name=Organizador de eventos
@@ -9459,7 +11175,7 @@ Obj1=4321-1
 [NPC1388]
 Name=Araucaria de Semilla
 Body=4148
-HP=1
+HP=100
 NpcType=0
 NROITEMS=1
 Obj1=4320-20
@@ -9491,10 +11207,15 @@ Obj1=4317-1
 [NPC1392]
 Name=Arbusto de Flores Rojas
 Body=4144
-HP=1
+HP=200
 NpcType=0
 NROITEMS=1
 Obj1=4316-20
+NumQuiza=3
+QUIZADROPEA1=4316
+QUIZADROPEA2=4316
+QUIZADROPEA3=4316
+QuizaProb=1
 
 [NPC1393]
 Name=Lobelia Oscura
@@ -9515,7 +11236,7 @@ Obj1=4314-20
 [NPC1395]
 Name=Cala de Triple Brote
 Body=4140
-HP=1
+HP=100
 NpcType=0
 NROITEMS=1
 Obj1=4313-1
@@ -9587,78 +11308,383 @@ Body=4128
 Head=0
 BodyIdle=4129
 Ataque1=4127
-HP=3500
+HP=1400
 Comercia=0
-EXP=3500
-ORO=245
-MaxHIT=145
-MinHIT=120
+EXP=840
+ORO=63
+MaxHIT=115
+MinHIT=65
+NumQuiza=1
+QUIZADROPEA1=408
+QuizaProb=575
+NpcType=0
+Nivel=20
+
+[NPC1405]
+Name=Reina Eleanor
+Desc=¡Levantaos, fieles soldados! Juntos resistiremos y defenderemos nuestra tierra gran honor frente a estos invasores
+Body=289
+Head=151
+HP=20000
+MaxHIT=100
+MinHIT=75
+
+[NPC1406]
+Name=Galahad
+Desc=¡Listo para servir, mi Reina!
+Body=243
+Head=712
+HP=750
+MaxHIT=180
+MinHIT=150
+
+[NPC1407]
+Name=Guinevere
+Desc=¡Lista para servir, mi Reina!
+Body=2306
+Head=69
+HP=750
+MaxHIT=190
+MinHIT=130
+
+[NPC1408]
+Name=Alden
+Desc=¡Listo para servir, mi Reina!
+Body=261
+Head=127
+HP=750
+MaxHIT=50
+MinHIT=45
+
+[NPC1409]
+Name=Lyanna
+Desc=¡Lista para servir, mi Reina!
+Body=2313
+Head=170
+HP=750
+MaxHIT=170
+MinHIT=130
+
+[NPC1410]
+Name=Gareth
+Desc=¡Listo para servir, mi Reina!
+Body=668
+Head=618
+HP=750
+MaxHIT=80
+MinHIT=60
+
+[NPC1411]
+Name=Fenris
+Desc=¡Listo para servir, mi Reina!
+Body=2624
+Head=411
+HP=750
+MaxHIT=190
+MinHIT=130
+
+[NPC1412]
+Name=Sombrio
+Body=4072
+HP=400
+MaxHIT=140
+MinHIT=115
+
+[NPC1449]
+Name=Pantera Invocada
+Body=4217
+Head=0
+BodyIdle=4216
+Ataque1=4215
+HP=150
+MaxHIT=60
+MinHIT=40
+NpcType=0
+
+[NPC1450]
+Name=Isis
+Body=2098
+Head=775
+HP=1500
+NpcType=0
+MaxHIT=2
+MinHIT=1
+
+[NPC1451]
+Name=Satis
+Body=2099
+Head=179
+HP=1500
+NpcType=0
+MaxHIT=10
+MinHIT=5
+
+[NPC1452]
+Name=Hathor
+Body=2598
+Head=356
+HP=1500
+NpcType=0
+MaxHIT=90
+MinHIT=60
+
+[NPC1453]
+Name=Orghaz
+Body=6037
+Head=0
+BodyIdle=6035
+Ataque1=6036
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+
+[NPC1454]
+Name=Sekhmet
+Body=1691
+Head=268
+HP=1200
+NpcType=0
+MaxHIT=130
+MinHIT=110
+
+[NPC1455]
+Name=Anhur
+Body=1691
+Head=800
+HP=1200
+NpcType=0
+MaxHIT=175
+MinHIT=155
+
+[NPC1456]
+Name=Osiris
+Body=262
+Head=26
+HP=1200
+NpcType=0
+MaxHIT=190
+MinHIT=165
+
+[NPC1457]
+Name=Seth
+Body=689
+Head=306
+HP=1500
+NpcType=0
+MaxHIT=225
+MinHIT=190
+
+[NPC1458]
+Name=Menhit
+Body=1046
+Head=512
+HP=1500
+NpcType=0
+MaxHIT=190
+MinHIT=145
+
+[NPC1459]
+Name=Thrukha
+Body=6040
+Head=0
+BodyIdle=6038
+Ataque1=6039
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC1465]
 Name=Rondadora Ignea
 Body=5270
 Head=0
 BodyIdle=5268
+Ataque1=5269
+HP=2000
 NpcType=0
+EXP=1200
+ORO=45
+MaxHIT=85
+MinHIT=60
+Nivel=20
 
 [NPC1466]
 Name=Criomante de Cristal
 Body=5267
 Head=0
 BodyIdle=5265
+Ataque1=5266
+HP=2000
 NpcType=0
+EXP=1200
+ORO=45
+MaxHIT=85
+MinHIT=60
+Nivel=20
 
 [NPC1467]
 Name=Madre Espora
 Body=5276
 Head=0
 BodyIdle=5274
+Ataque1=5275
+HP=2000
 NpcType=0
+EXP=1200
+ORO=45
+MaxHIT=85
+MinHIT=60
+Nivel=20
 
 [NPC1468]
 Name=Centella Errante
 Body=5273
 Head=0
 BodyIdle=5271
+Ataque1=5272
+HP=2000
 NpcType=0
+EXP=1200
+ORO=45
+MaxHIT=85
+MinHIT=60
+Nivel=20
 
 [NPC1469]
 Name=Tortuga Titán
 Body=5252
 Head=0
 BodyIdle=5250
+Ataque1=5251
+HP=4000
+EXP=3600
+GiveEXPClan=1
+ORO=150
+Nivel=28
+MaxHIT=150
+MinHIT=80
 
 [NPC1470]
 Name=Pyrot
 Body=5006
 Head=0
 BodyIdle=5004
+Ataque1=5005
+HP=5200
+EXP=3900
+GiveEXPClan=2
+ORO=85
+MaxHIT=235
+MinHIT=175
+Nivel=30
 
 [NPC1471]
 Name=Hydrot
 Body=5009
 Head=0
 BodyIdle=5007
+Ataque1=5008
+HP=5200
+EXP=3900
+GiveEXPClan=2
+ORO=85
+MaxHIT=235
+MinHIT=175
+Nivel=30
 
 [NPC1472]
 Name=Geot
 Body=5003
 Head=0
 BodyIdle=5001
+Ataque1=5002
+HP=5200
+EXP=3900
+GiveEXPClan=2
+ORO=85
+MaxHIT=235
+MinHIT=175
+Nivel=30
 
 [NPC1473]
 Name=Eolot
 Body=5000
 Head=0
 BodyIdle=4998
+Ataque1=4999
+HP=5200
+EXP=3900
+GiveEXPClan=2
+ORO=85
+MaxHIT=235
+MinHIT=175
+Nivel=30
+
+[NPC1474]
+Name=Portador de Fuego
+Body=4961
+Head=0
+BodyIdle=4959
+Ataque1=4960
+HP=4000
+EXP=2000
+GiveEXPClan=1
+ORO=120
+MaxHIT=155
+MinHIT=115
+
+[NPC1475]
+Name=Portador de Agua
+Body=4963
+Head=0
+BodyIdle=4962
+Ataque1=4964
+HP=4000
+EXP=2000
+GiveEXPClan=1
+ORO=120
+MaxHIT=155
+MinHIT=115
+
+[NPC1476]
+Name=Portador de Tierra
+Body=4967
+Head=0
+BodyIdle=4965
+Ataque1=4966
+HP=4000
+EXP=2000
+GiveEXPClan=1
+ORO=120
+MaxHIT=155
+MinHIT=115
+
+[NPC1477]
+Name=Portador de Viento
+Body=4969
+Head=0
+BodyIdle=4968
+Ataque1=4970
+HP=4000
+EXP=2000
+GiveEXPClan=1
+ORO=120
+MaxHIT=155
+MinHIT=115
 
 [NPC1500]
-Name=Armero Real
+Name=Aurum <Herrero Real>
 Desc=El equipamiento ideal para un Ciudadano como tú.
 Body=344
-Head=9
 NpcType=0
 Comercia=1
+NROITEMS=17
+Obj1=30-1000
+Obj2=998-1000
+Obj3=2803-1000
 NoMapInfo=1
 
 [NPC1501]
@@ -9669,37 +11695,69 @@ Head=8
 NpcType=0
 Comercia=1
 NoMapInfo=1
+NROITEMS=8
+Obj1=1963-1000
+Obj2=1900-1000
+Obj3=1901-1000
 
 [NPC1502]
 Name=Guardia Real
 Body=5554
 Head=0
 BodyIdle=5552
+Ataque1=5553
+HP=1000
 NpcType=2
 NoMapInfo=1
+MaxHIT=200
+MinHIT=100
 
 [NPC1503]
 Name=Guardia Real
 Body=5554
 Head=0
 BodyIdle=5552
+Ataque1=5553
+HP=1000
 NpcType=2
 NoMapInfo=1
+MaxHIT=200
+MinHIT=100
 
 [NPC1504]
 Name=Guardia Real
 Body=5554
 Head=0
 BodyIdle=5552
+Ataque1=5553
+HP=1000
 NpcType=2
+NoMapInfo=1
+MaxHIT=200
+MinHIT=100
+
+[NPC1505]
+Name=Guardia Real
+Body=5554
+Head=0
+BodyIdle=5552
+Ataque1=5553
+HP=1000
+NpcType=2
+MaxHIT=200
+MinHIT=100
 NoMapInfo=1
 
 [NPC1506]
 Name=Hechicero Real
 Body=5672
 BodyIdle=5670
+Ataque1=5671
+HP=2000
 NpcType=2
 NoMapInfo=1
+MaxHIT=80
+MinHIT=50
 
 [NPC1510]
 Name=Aurelian <Sacerdote de Banderbill>
@@ -9718,6 +11776,10 @@ Head=0
 NpcType=0
 Comercia=1
 NoMapInfo=1
+NROITEMS=21
+Obj1=2765-100
+Obj2=2763-100
+Obj3=2764-100
 
 [NPC1549]
 Name=Mercader <Facciones>
@@ -9728,12 +11790,15 @@ NpcType=0
 Comercia=1
 
 [NPC1550]
-Name=Armero Legionario
+Name=Malek <Herrero Oscuro>
 Desc=El equipamiento ideal para un Criminal como tú.
 Body=1766
-Head=224
 NpcType=0
 Comercia=1
+NROITEMS=17
+Obj1=30-1000
+Obj2=998-1000
+Obj3=2803-1000
 NoMapInfo=1
 
 [NPC1551]
@@ -9744,44 +11809,80 @@ Head=205
 NpcType=0
 Comercia=1
 NoMapInfo=1
+NROITEMS=8
+Obj1=1963-1000
+Obj2=1900-1000
+Obj3=1901-1000
 
 [NPC1552]
 Name=Guardia Legión
 Body=5557
 Head=0
 BodyIdle=5555
+Ataque1=5556
+HP=1000
 NpcType=8
 NoMapInfo=1
+MaxHIT=200
+MinHIT=100
 
 [NPC1553]
 Name=Guardia Legión
 Body=5557
 Head=0
 BodyIdle=5555
+Ataque1=5556
+HP=1000
 NpcType=8
 NoMapInfo=1
+MaxHIT=200
+MinHIT=100
 
 [NPC1554]
 Name=Guardia Legión
 Body=5557
 Head=0
 BodyIdle=5555
+Ataque1=5556
+HP=1000
 NpcType=8
+NoMapInfo=1
+MaxHIT=200
+MinHIT=100
+
+[NPC1555]
+Name=Guardia Legión
+Body=5557
+Head=0
+BodyIdle=5555
+Ataque1=5556
+HP=1000
+NpcType=8
+MaxHIT=200
+MinHIT=100
 NoMapInfo=1
 
 [NPC1556]
 Name=Hechicero Legión
 Body=5675
 BodyIdle=5673
+Ataque1=5674
+HP=2000
 NpcType=8
 NoMapInfo=1
+MaxHIT=80
+MinHIT=50
 
 [NPC1557]
 Name=Hechicero Legión
 Body=5675
 BodyIdle=5673
+Ataque1=5674
+HP=2000
 NpcType=8
 NoMapInfo=1
+MaxHIT=80
+MinHIT=50
 
 [NPC1560]
 Name=Vorn <Sacerdote de Arkhein>
@@ -9798,6 +11899,10 @@ Head=0
 NpcType=0
 Comercia=1
 NoMapInfo=1
+NROITEMS=21
+Obj1=2765-1000
+Obj2=2763-100
+Obj3=2764-100
 
 [NPC1599]
 Name=Mercader <Facciones>
@@ -9807,29 +11912,69 @@ Head=519
 NpcType=0
 Comercia=1
 
+[NPC1600]
+Name=Krampus
+Body=5310
+Head=0
+BodyIdle=5308
+Ataque1=5309
+HP=200000
+EXP=0
+ORO=0
+MaxHIT=200
+MinHIT=100
+
 [NPC1601]
 Name=Frostrion
 Body=5313
 Head=0
 BodyIdle=5311
+Ataque1=5312
+HP=1200
+EXP=0
+ORO=0
+MaxHIT=65
+MinHIT=40
+Nivel=15
 
 [NPC1602]
 Name=Frosty
 Body=5316
 Head=0
 BodyIdle=5314
+Ataque1=5315
+HP=1000
+EXP=0
+ORO=0
+MaxHIT=55
+MinHIT=35
+Nivel=15
 
 [NPC1603]
 Name=Eryndor
 Body=5319
 Head=0
 BodyIdle=5317
+Ataque1=5318
+HP=500
+EXP=0
+ORO=0
+MaxHIT=25
+MinHIT=10
+Nivel=15
 
 [NPC1604]
 Name=Cascanueces
 Body=5322
 Head=0
 BodyIdle=5320
+Ataque1=5321
+HP=750
+EXP=0
+ORO=0
+MaxHIT=45
+MinHIT=30
+Nivel=15
 
 [NPC1605]
 Name=Olaf <Quest>
@@ -9843,48 +11988,104 @@ Name=Frostrion
 Body=5313
 Head=0
 BodyIdle=5311
+Ataque1=5312
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=125
+MinHIT=90
+Nivel=25
 
 [NPC1607]
 Name=Frosty
 Body=5316
 Head=0
 BodyIdle=5314
+Ataque1=5315
+HP=3000
+EXP=0
+ORO=0
+MaxHIT=120
+MinHIT=85
+Nivel=25
 
 [NPC1608]
 Name=Eryndor
 Body=5319
 Head=0
 BodyIdle=5317
+Ataque1=5318
+HP=2000
+EXP=0
+ORO=0
+MaxHIT=65
+MinHIT=30
+Nivel=25
 
 [NPC1609]
 Name=Cascanueces
 Body=5322
 Head=0
 BodyIdle=5320
+Ataque1=5321
+HP=2400
+EXP=0
+ORO=0
+MaxHIT=115
+MinHIT=80
+Nivel=25
 
 [NPC1610]
 Name=Frostrion
 Body=5313
 Head=0
 BodyIdle=5311
+Ataque1=5312
+HP=6000
+EXP=0
+ORO=0
+MaxHIT=200
+MinHIT=165
+Nivel=35
 
 [NPC1611]
 Name=Frosty
 Body=5316
 Head=0
 BodyIdle=5314
+Ataque1=5315
+HP=5600
+EXP=0
+ORO=0
+MaxHIT=190
+MinHIT=160
+Nivel=35
 
 [NPC1612]
 Name=Eryndor
 Body=5319
 Head=0
 BodyIdle=5317
+Ataque1=5318
+HP=4200
+EXP=0
+ORO=0
+MaxHIT=95
+MinHIT=65
+Nivel=35
 
 [NPC1613]
 Name=Cascanueces
 Body=5322
 Head=0
 BodyIdle=5320
+Ataque1=5321
+HP=4700
+EXP=0
+ORO=0
+MaxHIT=175
+MinHIT=145
+Nivel=35
 
 [NPC1614]
 Name=Hakon <Quest>
@@ -9924,12 +12125,28 @@ Head=0
 BodyIdle=5331
 NpcType=0
 
+[NPC1619]
+Name=Niva
+Desc=L
+Body=5332
+Head=0
+BodyIdle=5332
+NpcType=0
+
 [NPC1620]
 Name=Eirik
 Desc=L
 Body=5331
 Head=0
 BodyIdle=5331
+NpcType=0
+
+[NPC1621]
+Name=Niva
+Desc=L
+Body=5332
+Head=0
+BodyIdle=5332
 NpcType=0
 
 [NPC1622]
@@ -10009,18 +12226,51 @@ Name=Mimic
 Body=5359
 Head=0
 BodyIdle=5357
+Ataque1=5358
+HP=300
+Nivel=15
+EXP=0
+ORO=0
+MaxHIT=95
+MinHIT=50
 
 [NPC1632]
 Name=Mimic
 Body=5359
 Head=0
 BodyIdle=5357
+Ataque1=5358
+HP=650
+Nivel=25
+EXP=0
+ORO=0
+MaxHIT=140
+MinHIT=90
 
 [NPC1633]
 Name=Mimic
 Body=5359
 Head=0
 BodyIdle=5357
+Ataque1=5358
+HP=1000
+Nivel=35
+EXP=0
+ORO=0
+MaxHIT=180
+MinHIT=145
+
+[NPC1634]
+Name='mantis de fuego'
+Body=5609
+Head=0
+BodyIdle=5607
+Ataque1=5608
+HP=3600
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 
 [NPC1635]
 Name=Arkhavel <Tejedor>
@@ -10055,230 +12305,290 @@ Name=Guardia Elfico
 Body=5666
 Head=0
 BodyIdle=5664
+Ataque1=5665
+HP=1000
 NpcType=0
 NoMapInfo=1
+MaxHIT=200
+MinHIT=100
 
 [NPC1701]
 Name=Hechicero Elfico
 Body=5678
 BodyIdle=5676
+Ataque1=5677
+HP=2000
 NpcType=0
 NoMapInfo=1
+MaxHIT=80
+MinHIT=50
 
 [NPC1750]
 Name=Guardia Enano
 Body=5669
 Head=0
 BodyIdle=5667
+Ataque1=5668
+HP=1000
 NpcType=0
 NoMapInfo=1
+MaxHIT=200
+MinHIT=100
 
 [NPC1751]
 Name=Ballestero Enano
 Body=5681
 BodyIdle=5679
+Ataque1=5680
+HP=2000
 NpcType=0
 NoMapInfo=1
+MaxHIT=80
+MinHIT=50
+
+[NPC1799]
+Name='Pirata Elfa'
+Body=6009
+Head=0
+BodyIdle=6007
+Ataque1=6008
+HP=3600
+MaxHIT=95
+MinHIT=75
 
 [NPC1800]
 Name=Hechicera Orca
 Body=6015
 BodyIdle=6013
+Ataque1=6014
+HP=2000
 NpcType=0
 NoMapInfo=1
+MaxHIT=80
+MinHIT=50
 
 [NPC1801]
 Name=Guardia Orco
 Body=6012
 Head=0
 BodyIdle=6010
+Ataque1=6011
+HP=1000
 NpcType=0
 NoMapInfo=1
+MaxHIT=200
+MinHIT=100
 
 [NPC1802]
 Name=Guardia Orco
 Body=6012
 Head=0
 BodyIdle=6010
+Ataque1=6011
+HP=1000
 NpcType=0
 NoMapInfo=1
+MaxHIT=200
+MinHIT=100
 
 [NPC1803]
 Name=Guardia Orco
 Body=6012
 Head=0
 BodyIdle=6010
+Ataque1=6011
+HP=1000
+NpcType=0
+NoMapInfo=1
+MaxHIT=200
+MinHIT=100
+
+[NPC1804]
+Name=Nagrakh <Senescal de Penthar>
+Desc=-Rey? Aquí no hay un Rey, yo soy quien da las órdenes!
+Body=5835
 NpcType=0
 NoMapInfo=1
 
-[NPC1804]
-Name=Vibora Test
-Body=4194
-Head=0
-BodyIdle=4195
-Ataque1=4193
-HP=500
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=5
-MinHIT=2
-NROITEMS=0
-
 [NPC1805]
-Name=Escorpion Test
-Body=4335
-Head=0
-BodyIdle=4334
-Ataque1=4333
-HP=500
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=5
-MinHIT=2
-NROITEMS=0
-
-[NPC1806]
-Name=Arana Test
-Body=4208
-Head=0
-BodyIdle=4207
-Ataque1=4206
-HP=500
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=1
-MinHIT=1
-NROITEMS=0
+Name=Caspian <Artesano del Cuero>
+Desc=Vendo pieles
+DescClose=Vuelve pronto
+Body=5820
+NpcType=0
+Comercia=1
+NoMapInfo=1
 
 [NPC1807]
-Name=Arana Test Inmune Menor
+Name=Mara <Aventurera Viajera>
+Desc=Vendo pieles
+DescClose=Vuelve pronto
 Body=4208
-Head=0
-BodyIdle=4207
-Ataque1=4206
-HP=5000
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
-NROITEMS=0
+NpcType=0
+Comercia=1
+NoMapInfo=1
 
 [NPC1808]
-Name=Arana Test Inmune Hemo
-Body=4208
-Head=0
-BodyIdle=4207
-Ataque1=4206
-HP=5000
-Comercia=0
+Name=Dragón Nuevo
+Body=6075
+BodyIdle=6075
+Ataque1=6074
+HP=80000
+NpcType=0
 EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
-NROITEMS=0
+MaxHIT=180
+MinHIT=130
 
 [NPC1809]
-Name=Arana Test Inmune Neuro
+Name=Dragón Nuevo
 Body=4208
-Head=0
 BodyIdle=4207
 Ataque1=4206
-HP=5000
-Comercia=0
+HP=80000
+NpcType=0
 EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
-NROITEMS=0
+MaxHIT=180
+MinHIT=130
 
 [NPC1810]
-Name=Arana Test Resist Menor
+Name=Cano <El Eterno Chitero>
+Desc=No debí haber hecho eso, me merezco estar eternamente pudriendome en esta celda.
 Body=4208
 Head=0
-BodyIdle=4207
-Ataque1=4206
-HP=5000
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
-NROITEMS=0
+NpcType=0
+NoMapInfo=1
 
 [NPC1811]
-Name=Arana Test Resist Hemo
+Name=Emilio Dedos Rápidos
+Desc=No debí haber hecho eso, me merezco estar eternamente pudriendome en esta celda.
 Body=4208
 Head=0
-BodyIdle=4207
-Ataque1=4206
-HP=5000
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
-NROITEMS=0
+NpcType=0
+NoMapInfo=1
 
 [NPC1812]
-Name=Arana Test Resist Neuro
+Name=Mhor <Herrero Vikingo>
+Desc=Un flacucho como tú necesita un buen acero allí fuera.
+DescClose=¡Hasta pronto!
 Body=4208
 Head=0
-BodyIdle=4207
-Ataque1=4206
-HP=5000
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
-NROITEMS=0
+NpcType=0
+Comercia=1
+NoMapInfo=1
+NROITEMS=9
+Obj1=30-1000
+Obj2=998-1000
+Obj3=1715-1000
 
 [NPC1813]
-Name=Arana Test Inmune General
+Name=Heracio <Maestro Herrero>
+Desc=Un flacucho como tú necesita un buen acero allí fuera.
+DescClose=¡Hasta pronto!
 Body=4208
 Head=0
-BodyIdle=4207
-Ataque1=4206
-HP=5000
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
-NROITEMS=0
+NpcType=0
+Comercia=1
+NoMapInfo=1
+NROITEMS=9
+Obj1=30-1000
+Obj2=998-1000
+Obj3=1715-1000
 
 [NPC1814]
-Name=Arana Test Resist General
-Body=4208
+Name=Gru Chaman
+Body=5294
 Head=0
-BodyIdle=4207
-Ataque1=4206
-HP=5000
-Comercia=0
+BodyIdle=5292
+Ataque1=5293
+HP=1
+BodyOnLand=5294
+BodyOnWater=5654
+BodyOnWaterIdle=5652
+Ataque2=5653
 EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
-NROITEMS=0
+ORO=00
+MaxHIT=1
+MinHIT=1
+Nivel=20
 
 [NPC1815]
-Name=quest pesca
-Desc=pesca
-Body=141
-Head=74
-NpcType=17
+Name=Gru Chaman
+Body=5294
+Head=0
+BodyIdle=5292
+Ataque1=5293
+HP=1
+BodyOnLand=5294
+BodyOnWater=5654
+BodyOnWaterIdle=5652
+Ataque2=5653
+EXP=0
+ORO=00
+MaxHIT=1
+MinHIT=1
+Nivel=20
 
 [NPC1816]
-Name=Subastador
-Desc=Subastador de objetos.
-Body=141
-Head=74
-NpcType=16
-PuedeInvocar=1
+Name=Gru Chaman
+Body=5294
+Head=0
+BodyIdle=5292
+Ataque1=5293
+HP=1
+BodyOnLand=5294
+BodyOnWater=5654
+BodyOnWaterIdle=5652
+Ataque2=5653
+EXP=0
+ORO=00
+MaxHIT=1
+MinHIT=1
+Nivel=20
+
+[NPC1817]
+Name=Ilusión de Crocky <Quest>
+Desc=¡Grrraaah... rrrghhh!... ¡Basta! ¡Deténganse, por favor, no me maten! Soy muy joven para morir. ¡Solo quería ser intimidante y evitar la pelea, por favor les diré todo lo que necesiten saber!
+Body=5285
+Head=0
+BodyIdle=5283
+Ataque1=5284
+HP=1
+NpcType=17
+BodyOnLand=5285
+BodyOnWater=5645
+BodyOnWaterIdle=5643
+Ataque2=5644
+EXP=0
+ORO=00
+MaxHIT=1
+MinHIT=1
+Nivel=20
+
+[NPC1818]
+Name=Capitán Real
+Body=5554
+Head=0
+BodyIdle=5552
+Ataque1=5553
+NpcType=17
+NoMapInfo=1
+
+[NPC1819]
+Name=Emisario Sombrío
+Body=5557
+Head=0
+BodyIdle=5555
+Ataque1=5556
+NpcType=17
+NoMapInfo=1
+
+[NPC1900]
+Name=Marinero de Prueba
+Desc=¿A dónde quieres viajar?
+DescClose=¡Buen viaje!
+Body=2058
+Head=77
+NpcType=26
 
 [HECHIZO1]
 Nombre=Dardo Mágico
@@ -62125,8 +64435,8 @@ Texto=Aprende Curar Veneno Menor (TOGGLE26).
 [NP263]
 Name=Sacerdote Imperial
 NpcType=2
-Desc=¡Oh hijo mío! ¡Que la llama de la virtud arda en tu corazón!
-Head=5
+Desc=¡Oh, hijo mío! ¡Que la llama de la virtud arda en tu Corazón!
+Head=4
 Body=147
 Heading=3
 Movement=2
@@ -62134,7 +64444,7 @@ Attackable=1
 Comercia=0
 Hostile=1
 MinHP=9550
-MaxHP=9550
+MaxHP=10000
 MaxHIT=100
 MinHIT=100
 PosOrig=1
@@ -62227,6 +64537,48 @@ PuedeInvocar=1
 NROITEMS=2
 Obj1=9006-1000
 Obj2=9013-1000
+
+[NPC9007]
+Name=Vibora Test
+Body=4194
+Head=0
+BodyIdle=4195
+Ataque1=4193
+HP=500
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=5
+MinHIT=2
+NROITEMS=0
+
+[NPC9008]
+Name=Escorpion Test
+Body=4335
+Head=0
+BodyIdle=4334
+Ataque1=4333
+HP=500
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=5
+MinHIT=2
+NROITEMS=0
+
+[NPC9009]
+Name=Arana Test
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=500
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=1
+MinHIT=1
+NROITEMS=0
 
 [QUEST10]
 Nombre=El Encargo de Seraphia
