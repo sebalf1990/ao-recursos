@@ -2,7 +2,7 @@
 
 
 [INIT]
-NumOBJs=9016
+NumOBJs=9038
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -78999,17 +78999,11 @@ ObjType=41
 Valor=0
 
 
-[OBJ6241]
+[OBJ6241] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Cofre de Armas Navideñas
-GrhIndex=49244
-Valor=1
-Objtype=48
-CantItem=1
-Item1=6242
 Texto=Este cofre contiene armas únicas del evento de Navidad.
-en_name=Phoenix Egg
-en_texto=Ancestral Phoenix skins chest.
-NoWiki=0
+GrhIndex=49244
+ObjType=48
 Agarrable=0
 
 [OBJ6242] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
@@ -79159,44 +79153,26 @@ MaxHit=0
 MinHit=0
 
 
-[OBJ6272]
+[OBJ6272] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Invocar Lobo 1
-GrhIndex=609
-Valor=0
-Crucial=0
-Agarrable=0
-MinELV=1
-HechizoIndex=402
-Objtype=24
 Texto=Invoca en la tierra un Elemental que te ayudará en el combate contra otros NPCs.
-en_Name=Scroll: Hemotoxin Dart
-NoWiki=1
+GrhIndex=609
+ObjType=24
+Valor=0
 
-[OBJ6273]
+[OBJ6273] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Invocar Oso 1
-GrhIndex=609
-Valor=0
-Crucial=0
-Agarrable=0
-MinELV=1
-HechizoIndex=403
-Objtype=24
 Texto=Invoca en la tierra un Elemental que te ayudará en el combate contra otros NPCs.
-en_Name=Scroll: Neurotoxin Dart
-NoWiki=1
+GrhIndex=609
+ObjType=24
+Valor=0
 
-[OBJ6274]
+[OBJ6274] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Invocar Lobo 2
-GrhIndex=609
-Valor=0
-Crucial=0
-Agarrable=0
-MinELV=1
-HechizoIndex=404
-Objtype=24
 Texto=Invoca en la tierra un Elemental que te ayudará en el combate contra otros NPCs.
-en_Name=Scroll: Purification
-NoWiki=1
+GrhIndex=609
+ObjType=24
+Valor=0
 
 [OBJ6275] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Invocar Oso 2
@@ -90312,3 +90288,414 @@ Texto=Alas decorativas de Fenix (skin tipo mochila). TODO: definir grh/anim de l
 en_name=Phoenix Wings
 en_texto=Decorative Phoenix wings (backpack-style skin).
 NoWiki=0
+
+[OBJ9017] 'Reubicado de OBJ6241 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Huevo de Fenix
+GrhIndex=55442
+Valor=1
+Objtype=48
+CantItem=1
+Item1=6242
+Texto=Cofre ancestral de skins del Fenix.
+en_name=Phoenix Egg
+en_texto=Ancestral Phoenix skins chest.
+NoWiki=0
+
+[OBJ9018] 'Reubicado de OBJ6250 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Pergamino: Portal Planar
+GrhIndex=55485
+Valor=200000
+Crucial=0
+CP1=BANDIDO
+CP2=LADRON
+CP3=PIRATA
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PALADIN
+CP7=DRUIDA
+CP8=BARDO
+CP9=ASESINO
+CP10=GUERRERO
+CP11=CLERIGO
+MinELV=1
+HechizoIndex=46
+Objtype=24
+Texto=Ensena el hechizo Portal Planar (te teletransporta al hub interplanar).
+en_name=Scroll: Plane Portal
+en_texto=Teaches the Plane Portal spell.
+NoWiki=0
+
+[OBJ9019] 'Reubicado de OBJ6261 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Daga Envenenada Test
+GrhIndex=49167
+Objtype=2
+MinHIT=2
+MaxHIT=5
+Subtipo=10
+FamiliaVeneno=1
+ChanceAplicarPct=100
+TickIntervaloMs=2000
+DuracionMs=20000
+DanoModo=0
+DanoMin=15
+DanoMax=15
+FactorPvP=1
+FactorPvE=1
+Valor=1
+Anim=68
+Crucial=0
+MinELV=1
+peso=5
+Texto=Daga de prueba Veneno Menor TOGGLE26
+en_name=Test Poison Dagger
+WeaponType=2
+
+[OBJ9020] 'Reubicado de OBJ6262 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Anillo Antiveneno Test
+GrhIndex=49262
+Objtype=35
+Crucial=0
+Agarrable=0
+ResistChanceVenenoMenorPct=50
+ResistDanoVenenoMenorMinFlat=2
+ResistDanoVenenoMenorMaxFlat=4
+ResistDanoVenenoMenorMinPct=50
+ResistDanoVenenoMenorMaxPct=50
+Valor=1
+peso=1
+Texto=R50% chance + 2-4 flat + 50% pct para Veneno Menor (TOGGLE26)
+en_Name=Test Antipoison Ring
+NoWiki=1
+
+[OBJ9021] 'Reubicado de OBJ6263 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Collar Inmunidad Menor Test
+GrhIndex=49141
+Objtype=21
+Crucial=0
+Agarrable=0
+InmunidadVenenoMenor=1
+Valor=1
+peso=1
+Texto=Inmunidad total a Veneno Menor (TOGGLE26)
+en_Name=Test Minor Immunity Amulet
+NoWiki=1
+
+[OBJ9022] 'Reubicado de OBJ6264 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Daga Hemotoxina Test
+GrhIndex=49167
+Objtype=2
+MinHIT=0
+MaxHIT=0
+Subtipo=10
+FamiliaVeneno=2
+ChanceAplicarPct=100
+TickIntervaloMs=2000
+DuracionMs=20000
+DanoModo=0
+DanoMin=0
+DanoMax=0
+DanoPorStackModo=0
+DanoPorStackMin=3
+DanoPorStackMax=3
+StacksMax=6
+GolpesQueSumanStacks=1
+IntervaloDecayStackMs=4000
+RefrescaTimerAlStackear=0
+FactorPvP=1
+FactorPvE=1
+Valor=1
+Anim=68
+Crucial=0
+Agarrable=0
+MinELV=1
+peso=5
+Texto=Daga de prueba Hemotoxina (TOGGLE26)
+en_Name=Test Hemotoxin Dagger
+WeaponType=2
+NoWiki=1
+
+[OBJ9023] 'Reubicado de OBJ6265 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Anillo Antihemo Test
+GrhIndex=49267
+Objtype=35
+Crucial=0
+Agarrable=0
+ResistChanceHemoPct=50
+ResistDanoHemoMinFlat=2
+ResistDanoHemoMaxFlat=4
+ResistDanoHemoMinPct=50
+ResistDanoHemoMaxPct=50
+Valor=1
+MinELV=1
+peso=1
+Texto=R50% chance + 2-4 flat + 50% pct para Hemotoxina (TOGGLE26)
+en_Name=Test AntiHemo Ring
+NoWiki=1
+
+[OBJ9024] 'Reubicado de OBJ6266 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Daga Neurotoxina Test
+GrhIndex=49167
+Objtype=2
+MinHIT=0
+MaxHIT=0
+Subtipo=10
+FamiliaVeneno=3
+ChanceAplicarPct=100
+TickIntervaloMs=2000
+DuracionMs=20000
+PenalidadPunteriaPct=100
+PenalidadEvasionPct=100
+ChancePifiaHechizoPct=85
+RegenManaReduccionPct=100
+FactorPvP=1
+FactorPvE=1
+Valor=1
+Anim=68
+Crucial=0
+Agarrable=0
+MinELV=1
+peso=5
+Texto=Daga de prueba Neurotoxina (TOGGLE26)
+en_Name=Test Neurotoxin Dagger
+WeaponType=2
+NoWiki=1
+
+[OBJ9025] 'Reubicado de OBJ6267 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Pocion Antiveneno Universal Test
+GrhIndex=28750
+ObjType=11
+TipoPocion=25
+CuraMenor=1
+CuraHemo=1
+CuraNeuro=1
+PoisonCooldownMs=10000
+Valor=1
+Crucial=0
+Agarrable=0
+SND1=135
+Texto=Cura cualquier veneno nuevo (TOGGLE26). Cooldown 10s.
+en_Name=Test Universal Antipoison Potion
+NoWiki=1
+
+[OBJ9026] 'Reubicado de OBJ6268 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Pocion AntiHemo Parcial Test
+GrhIndex=28750
+ObjType=11
+TipoPocion=25
+CuraMenor=0
+CuraHemo=2
+CuraHemoValor=2
+CuraNeuro=0
+PoisonCooldownMs=5000
+Valor=1
+Crucial=0
+Agarrable=0
+SND1=135
+Texto=Reduce 2 stacks de Hemo (TOGGLE26). Cooldown 5s.
+en_Name=Test Partial AntiHemo Potion
+NoWiki=1
+
+[OBJ9027] 'Reubicado de OBJ6269 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Daga Envenenable Test
+GrhIndex=49167
+Objtype=2
+MinHIT=2
+MaxHIT=5
+Subtipo=11
+Valor=1
+Anim=68
+Crucial=0
+Agarrable=0
+MinELV=1
+peso=5
+Texto=Arma envenenable (acepta cualquier vial). TOGGLE26.
+en_Name=Test Poisonable Dagger
+WeaponType=2
+NoWiki=1
+
+[OBJ9028] 'Reubicado de OBJ6270 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Vial Veneno Menor Test
+GrhIndex=28750
+ObjType=11
+TipoPocion=24
+FamiliaVeneno=1
+CargasQueOtorga=10
+ChancePorGolpePct=100
+DuracionMaximaUntadoMs=60000
+ChanceAplicarPct=100
+TickIntervaloMs=2000
+DuracionMs=20000
+DanoModo=0
+DanoMin=10
+DanoMax=10
+FactorPvP=1
+FactorPvE=1
+Valor=1
+Crucial=0
+Agarrable=0
+SND1=135
+Texto=Unta arma envenenable con Veneno Menor. 10 cargas, 60s max. TOGGLE26.
+en_Name=Test Minor Poison Vial
+NoWiki=1
+
+[OBJ9029] 'Reubicado de OBJ6271 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Pergamino: Dardo de Veneno Menor
+GrhIndex=55490
+Valor=1
+Crucial=0
+Agarrable=0
+MinELV=1
+HechizoIndex=401
+Objtype=24
+Texto=Aprende Dardo de Veneno Menor (TOGGLE26).
+en_Name=Scroll: Minor Poison Dart
+NoWiki=1
+
+[OBJ9030] 'Reubicado de OBJ6272 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Pergamino: Dardo de Hemotoxina
+GrhIndex=55490
+Valor=1
+Crucial=0
+Agarrable=0
+MinELV=1
+HechizoIndex=402
+Objtype=24
+Texto=Aprende Dardo de Hemotoxina (TOGGLE26).
+en_Name=Scroll: Hemotoxin Dart
+NoWiki=1
+
+[OBJ9031] 'Reubicado de OBJ6273 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Pergamino: Dardo de Neurotoxina
+GrhIndex=55490
+Valor=1
+Crucial=0
+Agarrable=0
+MinELV=1
+HechizoIndex=403
+Objtype=24
+Texto=Aprende Dardo de Neurotoxina (TOGGLE26).
+en_Name=Scroll: Neurotoxin Dart
+NoWiki=1
+
+[OBJ9032] 'Reubicado de OBJ6274 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Pergamino: Purificacion
+GrhIndex=55490
+Valor=1
+Crucial=0
+Agarrable=0
+MinELV=1
+HechizoIndex=404
+Objtype=24
+Texto=Aprende Purificacion (TOGGLE26).
+en_Name=Scroll: Purification
+NoWiki=1
+
+[OBJ9033] 'Reubicado de OBJ6275 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Vial Hemotoxina Test
+GrhIndex=28750
+ObjType=11
+TipoPocion=24
+FamiliaVeneno=2
+CargasQueOtorga=10
+ChancePorGolpePct=100
+DuracionMaximaUntadoMs=60000
+ChanceAplicarPct=100
+TickIntervaloMs=2000
+DuracionMs=20000
+DanoModo=0
+DanoMin=0
+DanoMax=0
+DanoPorStackModo=0
+DanoPorStackMin=3
+DanoPorStackMax=3
+StacksMax=6
+GolpesQueSumanStacks=1
+IntervaloDecayStackMs=4000
+RefrescaTimerAlStackear=0
+FactorPvP=1
+FactorPvE=1
+Valor=1
+Crucial=0
+Agarrable=0
+SND1=135
+Texto=Unta arma envenenable con Hemotoxina. 10 cargas, 60s max. TOGGLE26.
+en_Name=Test Hemotoxin Vial
+NoWiki=1
+
+[OBJ9034] 'Reubicado de OBJ6276 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Vial Neurotoxina Test
+GrhIndex=28750
+ObjType=11
+TipoPocion=24
+FamiliaVeneno=3
+CargasQueOtorga=10
+ChancePorGolpePct=100
+DuracionMaximaUntadoMs=60000
+ChanceAplicarPct=100
+TickIntervaloMs=2000
+DuracionMs=20000
+PenalidadPunteriaPct=30
+PenalidadEvasionPct=30
+RegenManaReduccionPct=50
+ChancePifiaHechizoPct=30
+FactorPvP=1
+FactorPvE=1
+Valor=1
+Crucial=0
+Agarrable=0
+SND1=135
+Texto=Unta arma envenenable con Neurotoxina. 10 cargas, 60s max. TOGGLE26.
+en_Name=Test Neurotoxin Vial
+NoWiki=1
+
+[OBJ9035] 'Reubicado de OBJ6277 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Pergamino: Envenenar Arma Menor
+GrhIndex=55490
+Valor=1
+Crucial=0
+Agarrable=0
+MinELV=1
+HechizoIndex=405
+Objtype=24
+Texto=Aprende Envenenar Arma con Veneno Menor (TOGGLE26).
+en_Name=Scroll: Envenom Weapon Minor
+NoWiki=1
+
+[OBJ9036] 'Reubicado de OBJ6278 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Pergamino: Envenenar Arma Hemo
+GrhIndex=55490
+Valor=1
+Crucial=0
+Agarrable=0
+MinELV=1
+HechizoIndex=406
+Objtype=24
+Texto=Aprende Envenenar Arma con Hemotoxina (TOGGLE26).
+en_Name=Scroll: Envenom Weapon Hemo
+NoWiki=1
+
+[OBJ9037] 'Reubicado de OBJ6279 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Pergamino: Envenenar Arma Neuro
+GrhIndex=55490
+Valor=1
+Crucial=0
+Agarrable=0
+MinELV=1
+HechizoIndex=407
+Objtype=24
+Texto=Aprende Envenenar Arma con Neurotoxina (TOGGLE26).
+en_Name=Scroll: Envenom Weapon Neuro
+NoWiki=1
+
+[OBJ9038] 'Reubicado de OBJ6280 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+Name=Pergamino: Curar Veneno Menor
+GrhIndex=55490
+Valor=1
+Crucial=0
+Agarrable=0
+MinELV=1
+HechizoIndex=408
+Objtype=24
+Texto=Aprende Curar Veneno Menor (TOGGLE26).
+en_Name=Scroll: Cure Minor Poison
+NoWiki=1

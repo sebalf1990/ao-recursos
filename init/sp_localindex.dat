@@ -3,7 +3,7 @@ NUMEROHECHIZO=412
 NUMLOCALEMSG=2210
 NUMMAPAS=750
 NUMNPCS=9006
-NUMOBJS=9016
+NUMOBJS=9038
 NUMQUESTS=260
 NUMSUGERENCIAS=6
 
@@ -55889,10 +55889,9 @@ Valor=0
 
 [OBJ6241]
 Name=Cofre de Armas Navideñas
-GrhIndex=49244
-Valor=1
-Objtype=48
 Texto=Este cofre contiene armas únicas del evento de Navidad.
+GrhIndex=49244
+ObjType=48
 Agarrable=0
 
 [OBJ6242]
@@ -56032,27 +56031,24 @@ MinHit=0
 
 [OBJ6272]
 Name=Invocar Lobo 1
-GrhIndex=609
-Valor=0
-Agarrable=0
-Objtype=24
 Texto=Invoca en la tierra un Elemental que te ayudará en el combate contra otros NPCs.
+GrhIndex=609
+ObjType=24
+Valor=0
 
 [OBJ6273]
 Name=Invocar Oso 1
-GrhIndex=609
-Valor=0
-Agarrable=0
-Objtype=24
 Texto=Invoca en la tierra un Elemental que te ayudará en el combate contra otros NPCs.
+GrhIndex=609
+ObjType=24
+Valor=0
 
 [OBJ6274]
 Name=Invocar Lobo 2
-GrhIndex=609
-Valor=0
-Agarrable=0
-Objtype=24
 Texto=Invoca en la tierra un Elemental que te ayudará en el combate contra otros NPCs.
+GrhIndex=609
+ObjType=24
+Valor=0
 
 [OBJ6275]
 Name=Invocar Oso 2
@@ -61944,6 +61940,187 @@ GrhIndex=49303
 Valor=1
 Objtype=38
 Texto=Alas decorativas de Fenix (skin tipo mochila). TODO: definir grh/anim de la skin.
+
+[OBJ9017]
+Name=Huevo de Fenix
+GrhIndex=55442
+Valor=1
+Objtype=48
+Texto=Cofre ancestral de skins del Fenix.
+
+[OBJ9018]
+Name=Pergamino: Portal Planar
+GrhIndex=55485
+Valor=200000
+Objtype=24
+Texto=Ensena el hechizo Portal Planar (te teletransporta al hub interplanar).
+
+[OBJ9019]
+Name=Daga Envenenada Test
+GrhIndex=49167
+Objtype=2
+MinHIT=2
+MaxHIT=5
+Valor=1
+Texto=Daga de prueba Veneno Menor TOGGLE26
+
+[OBJ9020]
+Name=Anillo Antiveneno Test
+GrhIndex=49262
+Objtype=35
+Agarrable=0
+Valor=1
+Texto=R50% chance + 2-4 flat + 50% pct para Veneno Menor (TOGGLE26)
+
+[OBJ9021]
+Name=Collar Inmunidad Menor Test
+GrhIndex=49141
+Objtype=21
+Agarrable=0
+Valor=1
+Texto=Inmunidad total a Veneno Menor (TOGGLE26)
+
+[OBJ9022]
+Name=Daga Hemotoxina Test
+GrhIndex=49167
+Objtype=2
+MinHIT=0
+MaxHIT=0
+Valor=1
+Agarrable=0
+Texto=Daga de prueba Hemotoxina (TOGGLE26)
+
+[OBJ9023]
+Name=Anillo Antihemo Test
+GrhIndex=49267
+Objtype=35
+Agarrable=0
+Valor=1
+Texto=R50% chance + 2-4 flat + 50% pct para Hemotoxina (TOGGLE26)
+
+[OBJ9024]
+Name=Daga Neurotoxina Test
+GrhIndex=49167
+Objtype=2
+MinHIT=0
+MaxHIT=0
+Valor=1
+Agarrable=0
+Texto=Daga de prueba Neurotoxina (TOGGLE26)
+
+[OBJ9025]
+Name=Pocion Antiveneno Universal Test
+GrhIndex=28750
+ObjType=11
+Valor=1
+Agarrable=0
+Texto=Cura cualquier veneno nuevo (TOGGLE26). Cooldown 10s.
+
+[OBJ9026]
+Name=Pocion AntiHemo Parcial Test
+GrhIndex=28750
+ObjType=11
+Valor=1
+Agarrable=0
+Texto=Reduce 2 stacks de Hemo (TOGGLE26). Cooldown 5s.
+
+[OBJ9027]
+Name=Daga Envenenable Test
+GrhIndex=49167
+Objtype=2
+MinHIT=2
+MaxHIT=5
+Valor=1
+Agarrable=0
+Texto=Arma envenenable (acepta cualquier vial). TOGGLE26.
+
+[OBJ9028]
+Name=Vial Veneno Menor Test
+GrhIndex=28750
+ObjType=11
+Valor=1
+Agarrable=0
+Texto=Unta arma envenenable con Veneno Menor. 10 cargas, 60s max. TOGGLE26.
+
+[OBJ9029]
+Name=Pergamino: Dardo de Veneno Menor
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Dardo de Veneno Menor (TOGGLE26).
+
+[OBJ9030]
+Name=Pergamino: Dardo de Hemotoxina
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Dardo de Hemotoxina (TOGGLE26).
+
+[OBJ9031]
+Name=Pergamino: Dardo de Neurotoxina
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Dardo de Neurotoxina (TOGGLE26).
+
+[OBJ9032]
+Name=Pergamino: Purificacion
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Purificacion (TOGGLE26).
+
+[OBJ9033]
+Name=Vial Hemotoxina Test
+GrhIndex=28750
+ObjType=11
+Valor=1
+Agarrable=0
+Texto=Unta arma envenenable con Hemotoxina. 10 cargas, 60s max. TOGGLE26.
+
+[OBJ9034]
+Name=Vial Neurotoxina Test
+GrhIndex=28750
+ObjType=11
+Valor=1
+Agarrable=0
+Texto=Unta arma envenenable con Neurotoxina. 10 cargas, 60s max. TOGGLE26.
+
+[OBJ9035]
+Name=Pergamino: Envenenar Arma Menor
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Envenenar Arma con Veneno Menor (TOGGLE26).
+
+[OBJ9036]
+Name=Pergamino: Envenenar Arma Hemo
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Envenenar Arma con Hemotoxina (TOGGLE26).
+
+[OBJ9037]
+Name=Pergamino: Envenenar Arma Neuro
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Envenenar Arma con Neurotoxina (TOGGLE26).
+
+[OBJ9038]
+Name=Pergamino: Curar Veneno Menor
+GrhIndex=55490
+Valor=1
+Agarrable=0
+Objtype=24
+Texto=Aprende Curar Veneno Menor (TOGGLE26).
 
 [NP263]
 Name=Sacerdote Imperial
