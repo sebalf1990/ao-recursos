@@ -429,12 +429,12 @@ Body=2522
 Heading=3
 Movement=1
 NpcType=17
-NumQuest=1
-QuestNumber1=2
 Minimap=1
 
 
 '--------------> Minería <--------------
+NumQuest=1
+QuestNumber1=2
 
 [NPC12]
 Name=Durgan <Minero>
@@ -528,14 +528,6 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 Heading=3
-NumQuest=7
-QuestNumber1=124
-QuestNumber2=71
-QuestNumber3=70
-QuestNumber4=72
-QuestNumber5=128
-QuestNumber6=129
-QuestNumber7=153
 
 
 '--------------> Vendedor General <--------------
@@ -545,6 +537,14 @@ Obj1=203-1000
 Obj2=2818-1000
 Obj3=390-1000
 Obj4=2920-1000
+NumQuest=7
+QuestNumber1=124
+QuestNumber2=71
+QuestNumber3=70
+QuestNumber4=72
+QuestNumber5=128
+QuestNumber6=129
+QuestNumber7=153
 [NPC15]
 Name=Joseph <Mercader>
 En_name=Joseph <Merchant>
@@ -1010,6 +1010,9 @@ Obj1=43-1000
 Obj2=160-1000
 Obj3=42-1000
 Obj4=161-1000
+NumQuest=2
+QuestNumber1=52
+QuestNumber2=25
 
 [NPC59]
 Name=Ines <Cocinera>
@@ -1034,6 +1037,9 @@ Obj3=29-1000
 Obj4=21-1000
 Obj5=23-1000
 Obj6=28-1000
+NumQuest=2
+QuestNumber1=49
+QuestNumber2=51
 
 [NPC60]'Libre
 
@@ -1179,10 +1185,10 @@ Heading=3
 Body=1099
 Movement=1
 BackUp=0
+en_desc=Come boy this is your time to learn to master the power you carry within. Cheer up.
 NumQuest=2
 QuestNumber1=27
 QuestNumber2=28
-en_desc=Come boy this is your time to learn to master the power you carry within. Cheer up.
 
 
 [NPC86]'Desactivada Quest58 por falta de NPC
@@ -1195,9 +1201,9 @@ Heading=3
 Body=962
 Movement=1
 BackUp=0
+en_desc=I am looking for someone who manages to deploy his power and is able to help both on land and at sea. I have no doubt that this will be a valuable exchange.
 NumQuest=1
 QuestNumber1=31
-en_desc=I am looking for someone who manages to deploy his power and is able to help both on land and at sea. I have no doubt that this will be a valuable exchange.
 
 [NPC87]
 Name=Dalgleish <Quest>
@@ -1210,11 +1216,11 @@ Heading=3
 Body=942
 Movement=1
 BackUp=0
+Testonly=1
 NumQuest=3
 QuestNumber1=48
 QuestNumber2=59
 QuestNumber3=60
-Testonly=1
 
 [NPC88]
 Name=Bothwell <Quest>
@@ -1244,9 +1250,9 @@ Heading=3
 Body=17
 Movement=1
 BackUp=0
+en_desc=O for all the kings and gods! I need help to combat this torture.
 NumQuest=1
 QuestNumber1=63
-en_desc=O for all the kings and gods! I need help to combat this torture.
 
 [NPC90]
 Name=Darnley <Quest>
@@ -1272,10 +1278,10 @@ Heading=3
 Body=91
 Movement=1
 BackUp=0
+en_desc=There are many creatures that need to be fought in this world. You are the one to do it. Start!
 NumQuest=2
 QuestNumber1=99
 QuestNumber2=101
-en_desc=There are many creatures that need to be fought in this world. You are the one to do it. Start!
 
 [NPC92] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=1049
@@ -1305,9 +1311,9 @@ Heading=3
 Body=125
 Movement=1
 BackUp=0
+en_desc=Do you have free time to listen to some songs?
 NumQuest=1
 QuestNumber1=90
-en_desc=Do you have free time to listen to some songs?
 
 [NPC94]
 Name=Mezier <Quest>
@@ -1320,15 +1326,15 @@ Body=192
 Arma=48
 Movement=1
 BackUp=0
-NumQuest=3
-QuestNumber1=62
-QuestNumber2=74
-QuestNumber3=44
 en_desc=I was looking for an adventurer like you. Of course you will be well rewarded.
 
 
 ' === BLOQUE PRIVADO ORIGINAL DE NPC95 (preservado para migracion futura de quests) ===
 ' Fecha resync: 2026-05-06
+NumQuest=3
+QuestNumber1=62
+QuestNumber2=74
+QuestNumber3=44
 ' [NPC95]
 ' Name=Montaigne <Quest>
 ' Desc=El mejor acero del reino.
@@ -1364,10 +1370,10 @@ ReSpawn=0
 Escudo=5
 Heading=3
 Alineacion=0
+DisabledInBattleServer=1
 NumQuest=2
 QuestNumber1=80
 QuestNumber2=94
-DisabledInBattleServer=1
 [NPC96]
 Name=Morthon <Quest>
 Desc=El mejor acero del reino.
@@ -1382,11 +1388,11 @@ Attackable=0
 Hostile=0
 Alineacion=0
 ReSpawn=0
-NumQuest=1
-QuestNumber1=81
 en_desc=The best steel in the kingdom.
 
 '--------------------------NPC Orcos Ciudad de Phentar------------------------------
+NumQuest=1
+QuestNumber1=81
 
 [NPC97] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Yarl <Sacerdote de Penthar>
@@ -1633,11 +1639,11 @@ Attackable=0
 Hostile=0
 Alineacion=0
 ReSpawn=0
-NumQuest=1
-QuestNumber1=81
 en_desc=Try orc steel, maybe you'll be surprised.
 
 --------------------NPC para ciudades-------------------------------
+NumQuest=1
+QuestNumber1=81
 
 [NPC111] 'Murcielago | RESYNC sp_localindex
 Name=Costhas <Quest>
@@ -1726,12 +1732,12 @@ Attackable=0
 Hostile=0
 Alineacion=0
 ReSpawn=0
-NumQuest=1
-QuestNumber1=80
 en_desc=Try orc steel, maybe you'll be surprised.
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=1
+QuestNumber1=80
 
 [NPC115]
 Name=Gamora <Quest>
@@ -1747,12 +1753,12 @@ Attackable=0
 Hostile=0
 Alineacion=0
 ReSpawn=0
-NumQuest=1
-QuestNumber1=81
 en_desc=I have the most powerful Orc steel for you.
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=1
+QuestNumber1=81
 
 
 [NPC117]
@@ -1763,8 +1769,6 @@ Body=268
 Heading=3
 Movement=1
 Minimap=1
-NumQuest=1
-QuestNumber1=228
 NpcType=17
 ShowName=1
 en_desc=How the hell did you get in here?
@@ -1772,6 +1776,8 @@ NoWiki=1
 NPCLVL=39
 MagicResistance=97
 MagicDef=15
+NumQuest=1
+QuestNumber1=228
 
 [NPC118]
 Name=Carol <Quest>
@@ -2666,9 +2672,6 @@ ReSpawn=0
 Heading=3
 Alineacion=0
 BackUp=0
-NumQuest=2
-QuestNumber1=17
-QuestNumber2=43
 IntervaloMovimiento=300
 'CaminataLen=9
 'Caminata1=0:0:10000
@@ -2684,6 +2687,9 @@ NPCLVL=6
 MagicResistance=15
 MagicDef=0
 DisabledInBattleServer=1
+NumQuest=2
+QuestNumber1=17
+QuestNumber2=43
 
 [NPC404]
 Name=Roman <Quest>
@@ -2700,12 +2706,12 @@ Hostile=0
 Alineacion=0
 Comercia=0
 BackUp=0
-NumQuest=1
-QuestNumber1=18
 en_desc=Hello traveler. I need help, we could make an exchange.
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=1
+QuestNumber1=18
 
 
 [NPC405] 'RESYNC desde sp_localindex.dat (lote3 pat B)
@@ -2722,11 +2728,11 @@ ReSpawn=0
 Heading=3
 Alineacion=0
 BackUp=0
-NumQuest=1
-QuestNumber1=29
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=1
+QuestNumber1=29
 
 [NPC406]
 Name=Robbie <Quest>
@@ -2744,9 +2750,6 @@ Hostile=0
 Alineacion=0
 Comercia=0
 BackUp=0
-NumQuest=2
-QuestNumber1=1
-QuestNumber2=127
 IntervaloMovimiento=300
 'CaminataLen=5
 'Caminata1=5:0:3000
@@ -2758,6 +2761,9 @@ en_desc=I'm really scared, I can't go back there
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=2
+QuestNumber1=1
+QuestNumber2=127
 
 [NPC407] 'RESYNC desde sp_localindex.dat (lote3 pat B)
 Name=Makrom <Quest>
@@ -2773,15 +2779,15 @@ ReSpawn=0
 Heading=3
 Alineacion=0
 BackUp=0
+CaminataLen=2
+Caminata1=0:-3:9000
+Caminata2=0:0:9000
 NumQuest=5
 QuestNumber1=190
 QuestNumber2=191
 QuestNumber3=192
 QuestNumber4=193
 QuestNumber5=194
-CaminataLen=2
-Caminata1=0:-3:9000
-Caminata2=0:0:9000
 
 [NPC408]
 Name=Romina <Quest>
@@ -2800,12 +2806,12 @@ Hostile=0
 Alineacion=0
 Comercia=0
 BackUp=0
-NumQuest=1
-QuestNumber1=135
 en_desc=I've got missions for you!
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=1
+QuestNumber1=135
 
 
 [NPC409]
@@ -2825,16 +2831,16 @@ Hostile=0
 Alineacion=0
 Comercia=0
 BackUp=0
+en_desc=Your gaze tells me that the dark legends of the south do not cower you. We need a great explorer. Are you?
+NPCLVL=6
+MagicResistance=15
+MagicDef=0
 NumQuest=5
 QuestNumber1=3
 QuestNumber2=6
 QuestNumber3=8
 QuestNumber4=9
 QuestNumber5=12
-en_desc=Your gaze tells me that the dark legends of the south do not cower you. We need a great explorer. Are you?
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
 
 
 [NPC410]'Desactivada quest57 por falta de npc
@@ -2852,9 +2858,6 @@ Hostile=0
 Alineacion=0
 Comercia=0
 BackUp=0
-NumQuest=2
-QuestNumber1=54
-QuestNumber2=56
 IntervaloMovimiento=300
 CaminataLen=2
 Caminata1=0:-66:3000
@@ -2863,6 +2866,9 @@ en_desc=A new face! What a pleasure to see you, I introduce myself, I am Otis. P
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=2
+QuestNumber1=54
+QuestNumber2=56
 
 [NPC411]
 Name=Astan <Quest>
@@ -2880,12 +2886,12 @@ Hostile=0
 Alineacion=0
 Comercia=0
 BackUp=0
-NumQuest=1
-QuestNumber1=11
 en_desc=You're scared, and I love being here!
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=1
+QuestNumber1=11
 
 [NPC412]
 Name=John Silver <Quest>
@@ -2904,12 +2910,12 @@ Hostile=0
 Alineacion=0
 Comercia=0
 BackUp=0
-NumQuest=1
-QuestNumber1=15
 en_desc=My parrot has escaped! Ah, sorry. I hadn't seen you.
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=1
+QuestNumber1=15
 
 [NPC413]
 Name=Galar
@@ -2942,16 +2948,16 @@ Attackable=0
 ReSpawn=0
 Hostile=0
 Alineacion=0
+en_desc=If you need help in this great universe, talk to me.
+NPCLVL=6
+MagicResistance=15
+MagicDef=0
 NumQuest=5
 QuestNumber1=38
 QuestNumber2=39
 QuestNumber3=40
 QuestNumber4=41
 QuestNumber5=42
-en_desc=If you need help in this great universe, talk to me.
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
 
 [NPC419]
 Name=Trevor <Quest>
@@ -2971,10 +2977,6 @@ Hostile=0
 Alineacion=0
 Comercia=0
 BackUp=0
-NumQuest=3
-QuestNumber1=36
-QuestNumber2=37
-QuestNumber3=93
 IntervaloMovimiento=300
 CaminataLen=2
 Caminata1=0:0:3000
@@ -2983,6 +2985,10 @@ en_desc=Hello, I am in charge of the security of this city.
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=3
+QuestNumber1=36
+QuestNumber2=37
+QuestNumber3=93
 
 [NPC420]
 Name=Cold <Ciudadano de Eleusis>
@@ -3020,6 +3026,9 @@ ReSpawn=0
 Arma=48
 Heading=3
 BackUp=0
+NPCLVL=6
+MagicResistance=15
+MagicDef=0
 NumQuest=6
 QuestNumber1=137
 QuestNumber2=138
@@ -3027,9 +3036,6 @@ QuestNumber3=139
 QuestNumber4=140
 QuestNumber5=141
 QuestNumber6=142
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
 
 [NPC423]
 Name=Coltrane <Quest>
@@ -3047,12 +3053,12 @@ Hostile=0
 Alineacion=0
 Comercia=0
 BackUp=0
-NumQuest=1
-QuestNumber1=34
 en_desc=I have run out of resources.
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=1
+QuestNumber1=34
 
 [NPC424]
 Name=Eldariel <Quest>
@@ -3068,12 +3074,12 @@ ReSpawn=0
 Hostile=0
 Alineacion=0
 Comercia=0
-NumQuest=1
-QuestNumber1=33
 en_desc=I'll take out the other eye!
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=1
+QuestNumber1=33
 
 [NPC425]
 Name=Ulises <Quest>
@@ -3090,12 +3096,12 @@ Hostile=0
 Alineacion=0
 Comercia=0
 BackUp=0
-NumQuest=1
-QuestNumber=26
 en_desc=Come about I have work for you.
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=1
+QuestNumber=26
 
 [NPC426] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Dragga <Quest>
@@ -3111,11 +3117,11 @@ ReSpawn=0
 Heading=3
 Alineacion=0
 BackUp=0
-NumQuest=1
-QuestNumber1=64
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=1
+QuestNumber1=64
 [NPC427] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Zero <Quest>
 Desc=En mis manos poseo algo que puede ser de tu conveniencia.
@@ -3132,11 +3138,11 @@ Arma=1
 Escudo=36
 Alineacion=0
 BackUp=0
-NumQuest=1
-QuestNumber1=65
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=1
+QuestNumber1=65
 [NPC431]
 Name=Altair <Quest>
 NpcType=17
@@ -3152,8 +3158,6 @@ Hostile=0
 Alineacion=0
 Comercia=0
 BackUp=0
-NumQuest=1
-QuestNumber1=55
 en_desc=! Here you are! I know we will manage to do something with those pirates!
 NPCLVL=6
 MagicResistance=15
@@ -3161,6 +3165,8 @@ MagicDef=0
 
 
 '--------------> CENTINELAS (NO CAMBIAR INDEX) <--------------
+NumQuest=1
+QuestNumber1=55
 [NPC498] ' Checkeador de macros
 Name=Centinela
 En_name=Sentinel
@@ -3255,11 +3261,6 @@ Obj1=414-1
 IntervaloAtaque=1800
 IntervaloRespawn=60
 SubeSupervivencia=1
-NumDropQuest=4
-DropQuest1=10-2494-1-1
-DropQuest2=6-2496-1-1
-DropQuest3=9-2494-1-1
-DropQuest4=183-2481-1-1
 Humanoide=0
 NPCLVL=6
 GiveGLD=3
@@ -3267,6 +3268,11 @@ NpcType=0
 DropCount=1
 Drop1=2481-1-1-1
 Nivel=5
+NumDropQuest=4
+DropQuest1=10-2494-1-1
+DropQuest2=6-2496-1-1
+DropQuest3=9-2494-1-1
+DropQuest4=183-2481-1-1
 
 
 [NPC501] 'Realineado a oficial 2026-06-08 (slot repropuesto)
@@ -3327,15 +3333,15 @@ NROITEMS=0
 AguaValida=0
 PoderAtaque=12
 PoderEvasion=10
-NumDropQuest=2
-DropQuest1=9-2492-1-1
-DropQuest2=9-2479-1-3
 Humanoide=0
 NPCLVL=2
 NpcType=0
 Nivel=5
 DropCount=1
 Drop1=2479-1-1-1
+NumDropQuest=2
+DropQuest1=9-2492-1-1
+DropQuest2=9-2479-1-3
 
 
 [NPC503]
@@ -3400,15 +3406,15 @@ MaxHIT=5
 MinHIT=3
 PoderAtaque=9
 PoderEvasion=8
-NumDropQuest=2
-DropQuest1=8-2480-1-1
-DropQuest2=6-2496-1-1
 Humanoide=0
 NPCLVL=2
 NpcType=0
 Nivel=5
 DropCount=1
 Drop1=2480-1-1-1
+NumDropQuest=2
+DropQuest1=8-2480-1-1
+DropQuest2=6-2496-1-1
 
 
 
@@ -3496,12 +3502,12 @@ PoderEvasion=15
 SubeSupervivencia=1
 Humanoide=0
 NPCLVL=2
-NumDropQuest=1
-DropQuest1=142-2494-1-1
 NpcType=0
 Nivel=5
 DropCount=1
 Drop1=2494-1-1-1
+NumDropQuest=1
+DropQuest1=142-2494-1-1
 
 
 
@@ -3872,8 +3878,6 @@ PoderEvasion=25
 NumQuiza=1
 QuizaDropea1=1278
 QuizaProb=133
-NumDropQuest=1
-DropQuest1=84-2159-1-3
 Humanoide=0
 NPCLVL=9
 MagicResistance=23
@@ -3887,6 +3891,8 @@ NpcType=0
 Nivel=8
 DropCount=1
 Drop1=1278-133-1-1
+NumDropQuest=1
+DropQuest1=84-2159-1-3
 '[NPC523]
 'Name=Pirata Ladrón
 'en_Name=Thief Pirate
@@ -4056,6 +4062,8 @@ Alineacion=0
 Nivel=28
 PoderAtaque=140
 PoderEvasion=130
+NumDropQuest=1
+DropQuest1=33-2655-1-25
 '[NPC526]
 'Name=Filibustero Viejo
 'en_Name=Old Filibuster
@@ -4113,6 +4121,8 @@ Alineacion=0
 Nivel=28
 PoderAtaque=145
 PoderEvasion=125
+NumDropQuest=1
+DropQuest1=33-2655-1-15
 '[NPC527]
 'Name=Huargo Invernal
 'en_Name=Snow Direwolf
@@ -4292,6 +4302,8 @@ Drop1=407-1000-1-1
 Nivel=28
 PoderAtaque=200
 PoderEvasion=160
+NumDropQuest=1
+DropQuest1=43-2230-1-2
 '[NPC530]
 'Name=Gorila Blanco
 'en_name=White Gorilla
@@ -4344,6 +4356,8 @@ Alineacion=0
 Nivel=28
 PoderAtaque=220
 PoderEvasion=145
+NumDropQuest=1
+DropQuest1=45-2271-1-2
 
 [NPC531] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Kryos
@@ -4418,6 +4432,9 @@ Drop2=3394-1-1-1
 Nivel=28
 PoderAtaque=225
 PoderEvasion=170
+NumDropQuest=2
+DropQuest1=46-2739-1-2
+DropQuest2=46-3575-1-2
 
 [NPC533]'
 Name=Mago Malvado
@@ -4564,6 +4581,8 @@ Alineacion=0
 Nivel=32
 PoderAtaque=245
 PoderEvasion=180
+NumDropQuest=1
+DropQuest1=37-2262-1-1
 '[NPC536]
 'Name=Golem de Piedra
 'en_name=Stone Golem
@@ -4620,6 +4639,8 @@ Alineacion=0
 Nivel=20
 PoderAtaque=240
 PoderEvasion=130
+NumDropQuest=1
+DropQuest1=37-2262-1-1
 '[NPC537]
 'Name=Lord Orco
 'en_Name=Lord Orc
@@ -4695,12 +4716,12 @@ LanzaSpells=2
 Sp1=25
 Sp2=51
 Veneno=3
-NumDropQuest=1
-DropQuest1=27-2218-1-1
 Humanoide=1
 NPCLVL=25
 MagicResistance=63
 MagicDef=10
+NumDropQuest=1
+DropQuest1=27-2218-1-1
 
 [NPC540]
 Name=Medusa
@@ -4726,8 +4747,6 @@ LanzaSpells=2
 Sp1=51
 Sp2=26
 IntervaloLanzarHechizo=7000
-NumDropQuest=1
-DropQuest1=49-2218-1-1
 NumQuiza=1
 QuizaDropea1=2835
 QuizaProb=100
@@ -4742,6 +4761,8 @@ Ataque1=4857
 NpcType=0
 DropCount=1
 Drop1=2846-100-1-1
+NumDropQuest=1
+DropQuest1=49-2218-1-1
 '[NPC541]
 'Name=Golem de Hierro
 'en_name=Iron Golem
@@ -5033,12 +5054,12 @@ PoderAtaque=230
 PoderEvasion=125
 AguaValida=1
 TierraInvalida=1
-NumDropQuest=1
-DropQuest1=31-2138-1-2
 Humanoide=0
 NPCLVL=10
 MagicResistance=25
 MagicDef=0
+NumDropQuest=1
+DropQuest1=31-2138-1-2
 
 [NPC548]
 Name=Tiburón
@@ -5179,8 +5200,6 @@ NumQuiza=1
 QuizaDropea1=415
 QuizaProb=1
 miedo=5
-NumDropQuest=1
-DropQuest1=90-2182-1-10
 SubeSupervivencia=1
 Humanoide=0
 NPCLVL=11
@@ -5193,6 +5212,8 @@ DropCount=3
 Drop1=415-100-1-10
 Drop2=415-10-1-5
 Drop3=415-1-1-1
+NumDropQuest=1
+DropQuest1=90-2182-1-10
 
 [NPC552]
 Name=Asesino
@@ -5224,8 +5245,6 @@ NumQuiza=1
 QuizaDropea1=165
 QuizaProb=146
 LocaleID=193
-NumDropQuest=1
-DropQuest1=17-2738-1-1
 Humanoide=1
 NPCLVL=30
 MagicResistance=30
@@ -5238,6 +5257,8 @@ DropCount=2
 Drop1=165-120-1-1
 Drop2=1721-32-1-1
 Nivel=20
+NumDropQuest=1
+DropQuest1=17-2738-1-1
 
 [NPC553]
 Name=Bandido
@@ -5267,9 +5288,6 @@ miedo=5
 SND1=2046
 SND3=2036
 LocaleID=192
-NumDropQuest=2
-DropQuest1=16-2757-1-1
-DropQuest2=31-2554-1-1
 
 Humanoide=1
 NPCLVL=11
@@ -5282,6 +5300,9 @@ Nivel=20
 DropCount=2
 Drop1=1856-250-1-1
 Drop2=1721-40-1-1
+NumDropQuest=2
+DropQuest1=16-2757-1-1
+DropQuest2=31-2554-1-1
 
 [NPC554] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=4042
@@ -5357,6 +5378,8 @@ Alineacion=0
 Nivel=23
 PoderAtaque=130
 PoderEvasion=110
+NumDropQuest=1
+DropQuest1=23-2707-1-1
 
 [NPC556] 'NPC
 Name=Fuego Fatuo
@@ -5446,10 +5469,6 @@ IntervaloAtaque=1800
 'NumQuiza=1
 'QuizaDropea1=1778-1
 'QuizaProb=25
-NumDropQuest=3
-DropQuest1=10-2494-1-1
-DropQuest2=6-2496-1-1
-DropQuest3=9-2494-1-1
 Humanoide=0
 NPCLVL=6
 MagicResistance=15
@@ -5463,6 +5482,10 @@ Nivel=20
 DropCount=2
 Drop1=414-100-1-5
 Drop2=414-1-1-1
+NumDropQuest=3
+DropQuest1=10-2494-1-1
+DropQuest2=6-2496-1-1
+DropQuest3=9-2494-1-1
 
 [NPC559]
 Name=Lobo Negro
@@ -5778,13 +5801,13 @@ DEF=0
 PoderAtaque=80
 PoderEvasion=150
 Humanoide=1
-NumDropQuest=1
-DropQuest1=107-3323-1-1
 NPCLVL=22
 MagicResistance=55
 MagicDef=5
 Head=26
 NpcType=0
+NumDropQuest=1
+DropQuest1=107-3323-1-1
 
 [NPC571] 'RESYNC desde sp_localindex.dat (mapa34 collision fix)
 Name=Delver <Quest>
@@ -5980,6 +6003,8 @@ Alineacion=0
 Nivel=28
 PoderAtaque=230
 PoderEvasion=150
+NumDropQuest=1
+DropQuest1=51-2488-1-1
 
 [NPC576] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Cobra
@@ -6297,8 +6322,6 @@ IntervaloLanzarHechizo=5000
 NumQuiza=1
 QuizaDropea1=1863-1
 QuizaProb=2
-NumDropQuest=1
-DropQuest1=107-3322-1-1
 Humanoide=1
 NPCLVL=19
 MagicResistance=47
@@ -6306,6 +6329,8 @@ MagicDef=10
 GiveEXPClan=1
 Head=32
 NpcType=0
+NumDropQuest=1
+DropQuest1=107-3322-1-1
 
 [NPC589] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=5488
@@ -6740,14 +6765,14 @@ Veneno=6
 PoderAtaque=105
 PoderEvasion=67
 Humanoide=0
-NumDropQuest=1
-DropQuest1=106-3324-1-1
 NPCLVL=12
 MagicResistance=30
 MagicDef=0
 Ataque1=5257
 NpcType=0
 Nivel=20
+NumDropQuest=1
+DropQuest1=106-3324-1-1
 
 [NPC606] 'Araña Veneno a distancia
 Name=Araña Roja
@@ -7623,8 +7648,6 @@ MinHIT=110
 PoderAtaque=160
 PoderEvasion=105
 DEF=0
-NumDropQuest=1
-DropQuest1=151-3531-1-1
 NPCLVL=28
 NumQuiza=1
 QUIZADROPEA1=1682
@@ -7632,6 +7655,8 @@ QuizaProb=300
 Ataque1=5135
 NpcType=0
 Nivel=20
+NumDropQuest=1
+DropQuest1=151-3531-1-1
 
 
 
@@ -7654,8 +7679,6 @@ MinHIT=105
 DEF=0
 PoderAtaque=150
 PoderEvasion=100
-NumDropQuest=1
-DropQuest1=151-3532-1-1
 NPCLVL=20
 NumQuiza=1
 QUIZADROPEA1=239
@@ -7664,6 +7687,8 @@ NpcType=0
 Nivel=20
 DropCount=1
 Drop1=239-100-1-1
+NumDropQuest=1
+DropQuest1=151-3532-1-1
 
 
 [NPC647]
@@ -7685,11 +7710,11 @@ MinHIT=65
 DEF=0
 PoderAtaque=115
 PoderEvasion=95
-NumDropQuest=1
-DropQuest1=151-3533-1-1
 NPCLVL=17
 NpcType=0
 Nivel=20
+NumDropQuest=1
+DropQuest1=151-3533-1-1
 
 
 
@@ -7849,12 +7874,12 @@ AguaValida=0
 PoderAtaque=30
 PoderEvasion=10
 SubeSupervivencia=0
-NumDropQuest=1
-DropQuest1=10-2598-1-1
 Humanoide=0
 NPCLVL=2
 MagicResistance=5
 MagicDef=0
+NumDropQuest=1
+DropQuest1=10-2598-1-1
 
 [NPC655] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Espíritu del Bosque
@@ -7951,11 +7976,11 @@ PoderAtaque=0
 PoderEvasion=0
 DEF=0
 Humanoide=0
-NumDropQuest=1
-DropQuest1=178-2098-2-2
 NPCLVL=1
 MagicResistance=3
 MagicDef=0
+NumDropQuest=1
+DropQuest1=178-2098-2-2
 
 [NPC658]
 Name=Caja Flotante
@@ -7980,12 +8005,12 @@ PoderAtaque=1
 PoderEvasion=1
 DEF=1
 Humanoide=0
-NumDropQuest=1
 IntervaloRespawn=3000
-DropQuest1=175-3795-2-2
 NPCLVL=1
 MagicResistance=3
 MagicDef=0
+NumDropQuest=1
+DropQuest1=175-3795-2-2
 
 
 
@@ -8012,12 +8037,12 @@ PoderAtaque=1
 PoderEvasion=1
 DEF=1
 Humanoide=0
-NumDropQuest=1
 IntervaloRespawn=3000
-DropQuest1=175-3796-2-2
 NPCLVL=1
 MagicResistance=3
 MagicDef=0
+NumDropQuest=1
+DropQuest1=175-3796-2-2
 
 [NPC660]'Barril flotante 3
 Name=Barril Flotante
@@ -8303,13 +8328,13 @@ AttackRange=10
 PreferedRange=5
 ProjectileType=1
 Humanoide=1
-NumDropQuest=1
-DropQuest1=194-2728-1-2
 NPCLVL=12
 MagicResistance=30
 MagicDef=0
 NpcType=0
 Nivel=15
+NumDropQuest=1
+DropQuest1=194-2728-1-2
 
 
 [NPC669] Scramer encapuchado
@@ -8335,9 +8360,6 @@ PoderAtaque=90
 PoderEvasion=55
 AguaValida=0
 Humanoide=1
-NumDropQuest=2
-DropQuest1=210-2511-1-2
-DropQuest2=196-3847-1-2
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
@@ -8345,6 +8367,9 @@ IntervaloRespawn=360
 IntervaloRespawnMin=180
 NpcType=0
 Nivel=15
+NumDropQuest=2
+DropQuest1=210-2511-1-2
+DropQuest2=196-3847-1-2
 
 
 [NPC670] Scramer anciano
@@ -8374,16 +8399,16 @@ IntervaloLanzarHechizo=3000
 PoderAtaque=100
 PoderEvasion=60
 Humanoide=1
-NumDropQuest=4
-DropQuest1=199-2702-1-2
-DropQuest2=211-2490-1-2
-DropQuest3=236-2490-1-2
-DropQuest4=195-3844-1-2
 NPCLVL=7
 MagicResistance=17
 MagicDef=0
 NpcType=0
 Nivel=15
+NumDropQuest=4
+DropQuest1=199-2702-1-2
+DropQuest2=211-2490-1-2
+DropQuest3=236-2490-1-2
+DropQuest4=195-3844-1-2
 
 
 
@@ -8465,8 +8490,6 @@ MinHIT=12
 Domable=120
 PoderAtaque=37
 PoderEvasion=25
-NumDropQuest=1
-DropQuest1=198-2701-2-2
 AguaValida=0
 Humanoide=0
 NPCLVL=6
@@ -8477,6 +8500,8 @@ MagicDef=0
 '--- COPIA PRIVADA ORIGINAL NPC674 (Colmillo blanco) antes de oficializar; cliente oficial era Colmillo Blanco ---
 NpcType=0
 Nivel=8
+NumDropQuest=1
+DropQuest1=198-2701-2-2
 '[NPC674] Colmillo blanco
 'Name=Colmillo blanco
 'en_Name=White Fang
@@ -8533,6 +8558,8 @@ Alineacion=0
 '--- COPIA PRIVADA ORIGINAL NPC675 (Líder de la Manada) antes de oficializar; cliente oficial era Colmillo Blanco ---
 PoderAtaque=200
 PoderEvasion=140
+NumDropQuest=1
+DropQuest1=209-3972-1-2
 '[NPC675] Lobo gris
 'Name=Líder de la Manada
 'En_Name=Herd Leader
@@ -8679,6 +8706,10 @@ Alineacion=0
 Nivel=20
 PoderAtaque=170
 PoderEvasion=115
+NumDropQuest=3
+DropQuest1=212-2529-1-20
+DropQuest1=224-2529-1-20
+DropQuest3=225-2529-1-20
 '[NPC678] Esqueleto agresor
 'Name=Esqueleto agresor
 'en_Name=Aggressor Skeleton
@@ -8741,6 +8772,7 @@ DropCount=1
 Drop1=401-183-1-1
 PoderAtaque=92
 PoderEvasion=40
+NumDropQuest=3
 
 [NPC679] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=4296
@@ -9069,8 +9101,6 @@ Attackable=0
 NpcType=17
 Hostile=0
 Alineacion=0
-NumQuest=1
-QuestNumber1=110
 ReSpawn=0
 ShowName=1
 Minimap=1
@@ -9078,6 +9108,8 @@ en_desc=I can sense that you need my help. Tell me.
 NPCLVL=1
 MagicResistance=3
 MagicDef=0
+NumQuest=1
+QuestNumber1=110
 
 [NPC695]
 Name=Teggar <Quest>
@@ -9089,14 +9121,14 @@ Attackable=0
 NpcType=17
 Hostile=0
 Alineacion=0
-NumQuest=1
-QuestNumber1=102
 ReSpawn=0
 ShowName=1
 en_desc=Welcome warrior! I was waiting for you.
 NPCLVL=1
 MagicResistance=3
 MagicDef=0
+NumQuest=1
+QuestNumber1=102
 
 [NPC696]
 Name=Anco <Quest>
@@ -9108,14 +9140,14 @@ Attackable=0
 NpcType=17
 Hostile=0
 Alineacion=0
-NumQuest=1
-QuestNumber1=102
 ReSpawn=0
 ShowName=1
 en_desc=Welcome warrior! I was waiting for you.
 NPCLVL=1
 MagicResistance=3
 MagicDef=0
+NumQuest=1
+QuestNumber1=102
 
 
 
@@ -9130,6 +9162,12 @@ Attackable=0
 NpcType=17
 Hostile=0
 Alineacion=0
+ReSpawn=0
+ShowName=1
+en_desc=Here I see you! I think you're coming for me.
+NPCLVL=1
+MagicResistance=3
+MagicDef=0
 NumQuest=7
 QuestNumber1=109
 QuestNumber2=103
@@ -9138,12 +9176,6 @@ QuestNumber4=111
 QuestNumber5=248
 QuestNumber6=249
 QuestNumber7=45
-ReSpawn=0
-ShowName=1
-en_desc=Here I see you! I think you're coming for me.
-NPCLVL=1
-MagicResistance=3
-MagicDef=0
 
 [NPC698]
 Name=Antoine <Quest>
@@ -9156,14 +9188,14 @@ Attackable=0
 NpcType=17
 Hostile=0
 Alineacion=0
-NumQuest=1
-QuestNumber1=108
 ReSpawn=0
 ShowName=1
 en_desc=What do you want? Not everyone belongs to the fishermen's guild. Let me see you.
 NPCLVL=1
 MagicResistance=3
 MagicDef=0
+NumQuest=1
+QuestNumber1=108
 
 
 [NPC699]
@@ -9177,15 +9209,15 @@ Attackable=0
 NpcType=17
 Hostile=0
 Alineacion=0
-NumQuest=2
-QuestNumber1=106
-QuestNumber2=107
 ReSpawn=0
 ShowName=1
 en_desc=I see, my brother Jacobo has always had a good eye to recognize great fishermen.
 NPCLVL=1
 MagicResistance=3
 MagicDef=0
+NumQuest=2
+QuestNumber1=106
+QuestNumber2=107
 
 [NPC700] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Rata
@@ -9338,6 +9370,8 @@ Drop1=1679-840-1-1
 Drop2=1680-840-1-1
 PoderAtaque=165
 PoderEvasion=120
+NumDropQuest=0
+DropQuest1=142-3482-1-2
 '[NPC722]
 'Name=Cazadora Letal <Orden de las Sombras>
 'En_Name=Lethal Huntress <Shadow Order>
@@ -9618,8 +9652,6 @@ AguaValida=0
 PoderAtaque=105
 PoderEvasion=70
 Humanoide=1
-NumDropQuest=1
-DropQuest1=214-2231-1-2
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
@@ -9632,6 +9664,8 @@ NpcType=0
 Nivel=20
 DropCount=1
 Drop1=239-200-1-1
+NumDropQuest=1
+DropQuest1=214-2231-1-2
 
 [NPC754] 
 Name=Espíritu Poseído
@@ -9662,16 +9696,16 @@ Humanoide=1
 LanzaSpells=1
 Sp1=51
 IntervaloRespawn=60
-NumDropQuest=3
-DropQuest1=219-1997-1-2
-DropQuest2=216-2681-1-2
-DropQuest3=214-2231-1-2
 NPCLVL=15
 MagicResistance=37
 MagicDef=10
 AguaValida=0
 IntervaloRespawn=360
 IntervaloRespawnMin=180
+NumDropQuest=3
+DropQuest1=219-1997-1-2
+DropQuest2=216-2681-1-2
+DropQuest3=214-2231-1-2
 
 [NPC755]'new gigante
 Name=Gigantor
@@ -9777,11 +9811,11 @@ Caminata2=60:0:0
 Caminata3=60:11:0
 Caminata4=-12:11:0
 Caminata5=-12:0:0
-NumDropQuest=1
-DropQuest1=181-3330-1-1
 NPCLVL=13
 MagicResistance=33
 MagicDef=0
+NumDropQuest=1
+DropQuest1=181-3330-1-1
 
 
 [NPC900] Lobo gris nuevo
@@ -10069,10 +10103,6 @@ PoderEvasion=200
 LanzaSpells=1
 Sp1=51
 IntervaloLanzarHechizo=4000
-NumDropQuest=3
-DropQuest1=29-2214-1-1
-DropQuest2=29-2276-1-2
-DropQuest3=29-2205-1-3
 NumQuiza=2
 QuizaDropea1=469-1
 QuizaDropea2=540-1
@@ -10083,6 +10113,10 @@ MagicResistance=75
 MagicDef=10
 
 '--- COPIA PRIVADA ORIGINAL NPC926 (Hada Oscura) antes de oficializar; cliente oficial era Pixie de Tierra ---
+NumDropQuest=3
+DropQuest1=29-2214-1-1
+DropQuest2=29-2276-1-2
+DropQuest3=29-2205-1-3
 '[NPC926]
 'Name=Hada Oscura
 'En_Name=Dark Fairy
@@ -10254,12 +10288,12 @@ PoderAtaque=18
 PoderEvasion=15
 domable=70
 NPCLVL=10
-NumDropQuest=1
-DropQuest1=155-2553-1-1
 BodyIdle=5167
 Ataque1=5168
 NpcType=0
 Nivel=5
+NumDropQuest=1
+DropQuest1=155-2553-1-1
 
 [NPC932] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Rata
@@ -10352,14 +10386,14 @@ AguaValida=0
 PoderAtaque=15
 PoderEvasion=12
 SubeSupervivencia=1
-NumDropQuest=1
-DropQuest1=139-4300-1-1
 Humanoide=0
 NPCLVL=2
 NpcType=0
 Nivel=5
 DropCount=1
 Drop1=890-10-1-1
+NumDropQuest=1
+DropQuest1=139-4300-1-1
 
 [NPC936]
 Name=Aguila
@@ -10584,8 +10618,6 @@ MinHIT=40
 DEF=0
 PoderAtaque=80
 PoderEvasion=50
-NumDropQuest=1
-DropQuest1=1-2529-1-1
 Humanoide=1
 NPCLVL=7
 MagicResistance=17
@@ -10594,6 +10626,8 @@ BodyIdle=5058
 Ataque1=5059
 NpcType=0
 Nivel=20
+NumDropQuest=1
+DropQuest1=1-2529-1-1
 
 [NPC946] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Esqueleto Guardián
@@ -11377,8 +11411,6 @@ DEF=0
 Veneno=10
 PoderAtaque=180
 PoderEvasion=110
-NumDropQuest=1
-DropQuest1=20-2531-5-1
 IntervaloRespawn=300
 IntervaloRespawnMin=300
 Humanoide=0
@@ -11393,6 +11425,8 @@ NpcType=0
 DropCount=1
 Drop1=2531-18-1-1
 Nivel=20
+NumDropQuest=1
+DropQuest1=20-2531-5-1
 
 [NPC981] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name='Escorpion Fuego'
@@ -12041,6 +12075,10 @@ Hostile=0
 ReSpawn=0
 Heading=3
 Alineacion=0
+NPCLVL=24
+MagicResistance=60
+MagicDef=5
+DisabledInBattleServer=1
 NumQuest=9
 QuestNumber1=105 'Casco
 QuestNumber2=66 'Casco
@@ -12051,10 +12089,6 @@ QuestNumber6=79 'Baston
 QuestNumber7=82 'Arco
 QuestNumber8=85 'Montura Combatientes
 QuestNumber9=73 'Montura Hechiceros
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-DisabledInBattleServer=1
 [NPC1013]
 Name=Ezzyr <Equipamiento Real>
 En_Name=Ezzyr <Royal Equipment>
@@ -12069,6 +12103,12 @@ Attackable=0
 Hostile=0
 Alineacion=0
 ReSpawn=0
+en_desc=Surrender your body to goodness and you will feel a unique aura.
+NPCLVL=24
+MagicResistance=60
+MagicDef=5
+
+' Nagas, Dungeón Horacio '
 NumQuest=9
 QuestNumber1=68 'Casco
 QuestNumber2=159 'Casco
@@ -12079,12 +12119,6 @@ QuestNumber6=78 'Baston
 QuestNumber7=83 'Arco
 QuestNumber8=88 'Montura Combatientes
 QuestNumber9=86 'Montura Hechiceros
-en_desc=Surrender your body to goodness and you will feel a unique aura.
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
-' Nagas, Dungeón Horacio '
 
 [NPC1014]
 Name=Lynn
@@ -12110,8 +12144,6 @@ DEF=0
 Snd3=141
 Snd2=345
 Snd1=2114
-NumDropQuest=1
-DropQuest1=53-1396-1-7
 Humanoide=1
 NPCLVL=24
 MagicResistance=60
@@ -12120,6 +12152,8 @@ GiveEXPClan=1
 Ataque1=5514
 NpcType=0
 Nivel=30
+NumDropQuest=1
+DropQuest1=53-1396-1-7
 
 [NPC1015]
 Name=Kadru
@@ -12146,8 +12180,6 @@ DEF=0
 Snd3=138
 Snd2=345
 Snd1=2114
-NumDropQuest=1
-DropQuest1=53-1396-1-7
 Humanoide=1
 NPCLVL=27
 MagicResistance=67
@@ -12155,6 +12187,8 @@ MagicDef=10
 Ataque1=5520
 NpcType=0
 Nivel=30
+NumDropQuest=1
+DropQuest1=53-1396-1-7
 
 [NPC1016]
 Name=Aksha
@@ -12184,8 +12218,6 @@ PoderEvasion=150
 Snd1=2114
 Snd2=345
 Snd3=2028
-NumDropQuest=1
-DropQuest1=53-1396-1-10
 Humanoide=1
 NPCLVL=26
 MagicResistance=65
@@ -12199,6 +12231,8 @@ Ataque1=5517
 NpcType=0
 GiveEXPClan=1
 Nivel=30
+NumDropQuest=1
+DropQuest1=53-1396-1-10
 '[NPC1020]
 'Name=Banshee
 'Body=666
@@ -15394,8 +15428,6 @@ Hostile=1
 ReSpawn=0
 Heading=3
 Alineacion=0
-NumQuest=1
-QuestNumber1=134
 NPCLVL=24
 MagicResistance=60
 MagicDef=5
@@ -15409,6 +15441,8 @@ MinHIT=90
 MinHp=2000
 PoderAtaque=180
 PoderEvasion=125
+NumQuest=1
+QuestNumber1=134
 [NPC1145] ' Futuro NPC quest penthar
 Name=Dalyor <Habitante de Penthar>
 Desc=Bienvenido a Penthar!
@@ -15622,12 +15656,12 @@ Casco=23
 Heading=3
 Movement=1
 BackUp=0
-NumQuest=1
-QuestNumber1=112
 en_desc=So many things to do and get and always with so little time! umGr...
 NPCLVL=30
 MagicResistance=75
 MagicDef=10
+NumQuest=1
+QuestNumber1=112
 
 
 [NPC1151]
@@ -15643,17 +15677,17 @@ Casco=78
 Heading=3
 Movement=1
 BackUp=0
+en_desc=Trust is very valuable in these times and I have heard a lot about you.
+NPCLVL=30
+MagicResistance=75
+MagicDef=10
+TestOnly=1
 NumQuest=5
 QuestNumber1=131
 QuestNumber2=120
 QuestNumber3=121
 QuestNumber4=130
 QuestNumber5=122
-en_desc=Trust is very valuable in these times and I have heard a lot about you.
-NPCLVL=30
-MagicResistance=75
-MagicDef=10
-TestOnly=1
 
 
 [NPC1152] 'RESYNC desde sp_localindex.dat (fase B)
@@ -15823,11 +15857,11 @@ Casco=21
 Heading=3
 Movement=1
 BackUp=0
-NumQuest=1
-QuestNumber1=127
 NPCLVL=27
 MagicResistance=67
 MagicDef=10
+NumQuest=1
+QuestNumber1=127
 
 [NPC1160] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Kael
@@ -16234,9 +16268,6 @@ Arma=133
 Heading=3
 Movement=1
 Attackable=0
-NumQuest=2
-QuestNumber1=132
-QuestNumber2=116
 'QuestNumber3=118
 'QuestNumber4=119
 'QuestNumber5=133
@@ -16244,6 +16275,9 @@ en_desc=I fear for my farm
 NPCLVL=2
 MagicResistance=5
 MagicDef=0
+NumQuest=2
+QuestNumber1=132
+QuestNumber2=116
 
 
 [NPC1189] 'Realineado a oficial 2026-06-08 (slot repropuesto)
@@ -16382,11 +16416,11 @@ MaxHIT=250
 MinHIT=200
 PoderAtaque=300
 PoderEvasion=200
-NumDropQuest=1
-DropQuest1=142-3480-1-2
 NPCLVL=30
 MagicResistance=75
 MagicDef=10
+NumDropQuest=1
+DropQuest1=142-3480-1-2
 
 [NPC1197]
 Name=Orco Guerrero
@@ -16410,11 +16444,11 @@ MaxHIT=300
 MinHIT=200
 PoderAtaque=350
 PoderEvasion=185
-NumDropQuest=1
-DropQuest1=142-3483-1-2
 NPCLVL=29
 MagicResistance=73
 MagicDef=10
+NumDropQuest=1
+DropQuest1=142-3483-1-2
 
 [NPC1198]
 Name=Orco Asesino
@@ -16437,11 +16471,11 @@ MaxHIT=350
 MinHIT=100
 PoderAtaque=275
 PoderEvasion=185
-NumDropQuest=1
-DropQuest1=142-3484-1-2
 NPCLVL=29
 MagicResistance=73
 MagicDef=10
+NumDropQuest=1
+DropQuest1=142-3484-1-2
 
 [NPC1199]
 Name=Orco Arquero
@@ -16464,11 +16498,11 @@ MaxHIT=250
 MinHIT=220
 PoderAtaque=400
 PoderEvasion=150
-NumDropQuest=1
-DropQuest1=142-3485-1-2
 NPCLVL=22
 MagicResistance=55
 MagicDef=5
+NumDropQuest=1
+DropQuest1=142-3485-1-2
 
 [NPC1200]
 Name=Orco Nigromante
@@ -16492,12 +16526,12 @@ MinHIT=200
 PoderAtaque=400
 PoderEvasion=255
 CantidadInvocaciones=4
-NumDropQuest=1
-DropQuest1=142-3482-1-2
 AfectaParalisis=1
 NPCLVL=36
 MagicResistance=90
 MagicDef=15
+NumDropQuest=1
+DropQuest1=142-3482-1-2
 
 [NPC1201]
 Name=Mercader Clerigo
@@ -16829,15 +16863,15 @@ PoderEvasion=200
 IntervaloAtaque=400
 Humanoide=1
 AfectaParalisis=1
+NPCLVL=30
+MagicResistance=75
+MagicDef=10
 NumDropQuest=5
 DropQuest1=142-3480-6
 DropQuest2=142-3485-4
 DropQuest3=142-3490-4
 DropQuest4=142-3494-4
 DropQuest5=142-3500-4
-NPCLVL=30
-MagicResistance=75
-MagicDef=10
 
 [NPC1212] 'Npc para que invoque el nigromante orco
 Name=Rey Humano Capturado
@@ -16865,15 +16899,15 @@ PoderEvasion=200
 IntervaloAtaque=400
 Humanoide=1
 AfectaParalisis=1
+NPCLVL=30
+MagicResistance=75
+MagicDef=10
 NumDropQuest=5
 DropQuest1=143-3481-1-6
 DropQuest2=143-3486-1-4
 DropQuest3=143-3491-1-4
 DropQuest4=143-3495-1-4
-DropQuest5=143-3502-1-4
-NPCLVL=30
-MagicResistance=75
-MagicDef=10
+DropQuest5=143-3501-1-4
 
 
 [NPC1213] 'Npc para que invoque el nigromante orco
@@ -16902,15 +16936,15 @@ PoderEvasion=200
 IntervaloAtaque=400
 Humanoide=1
 AfectaParalisis=1
+NPCLVL=30
+MagicResistance=75
+MagicDef=10
 NumDropQuest=5
 DropQuest1=144-3482-1-6
 DropQuest2=144-3487-1-4
 DropQuest3=144-3492-1-4
 DropQuest4=144-3496-1-4
 DropQuest5=144-3502-1-4
-NPCLVL=30
-MagicResistance=75
-MagicDef=10
 
 
 
@@ -16940,15 +16974,15 @@ PoderEvasion=200
 IntervaloAtaque=400
 Humanoide=1
 AfectaParalisis=1
+NPCLVL=30
+MagicResistance=75
+MagicDef=10
 NumDropQuest=5
 DropQuest1=145-3483-1-6
 DropQuest2=145-3488-1-4
 DropQuest3=145-3493-1-4
 DropQuest4=145-3497-1-4
 DropQuest5=145-3503-1-4
-NPCLVL=30
-MagicResistance=75
-MagicDef=10
 
 
 
@@ -16977,15 +17011,15 @@ PoderEvasion=200
 IntervaloAtaque=400
 Humanoide=1
 AfectaParalisis=1
+NPCLVL=30
+MagicResistance=75
+MagicDef=10
+NoWiki=1
 NumDropQuest=4
 DropQuest1=146-3485-1-6
 DropQuest2=146-3489-1-4
 DropQuest3=146-3498-1-4
 DropQuest4=146-3504-1-4
-NPCLVL=30
-MagicResistance=75
-MagicDef=10
-NoWiki=1
 
 
 [NPC1216] 'RESYNC desde sp_localindex.dat (fase B)
@@ -17106,13 +17140,13 @@ Escudo=43
 Heading=3
 Movement=1
 Attackable=0
-NumQuest=1
-QuestNumber1=142
 SoundOpen=1219
 en_desc=We have managed to get rid of the subjects of Gul Belthor thanks to the union of our forces. But not all happiness is complete.
 NPCLVL=42
 MagicResistance=100
 MagicDef=15
+NumQuest=1
+QuestNumber1=142
 
 
 [NPC1220]
@@ -17137,8 +17171,6 @@ MaxHIT=250
 MinHIT=200
 PoderAtaque=400
 PoderEvasion=355
-NumDropQuest=1
-DropQuest1=142-3481-1-2
 LanzaSpells=3
 Sp1=219
 Sp2=217
@@ -17148,6 +17180,8 @@ AfectaParalisis=1
 NPCLVL=42
 MagicResistance=100
 MagicDef=15
+NumDropQuest=1
+DropQuest1=142-3481-1-2
 
 
 [NPC1221]'Libre
@@ -17166,11 +17200,11 @@ Escudo=0
 Heading=3
 Movement=1
 Attackable=0
-NumQuest=1
-QuestNumber1=155
 NPCLVL=7
 MagicResistance=17
 MagicDef=0
+NumQuest=1
+QuestNumber1=155
 
 
 
@@ -17199,9 +17233,9 @@ PoderAtaque=60
 PoderEvasion=30
 SubeSupervivencia=0
 Humanoide=0
+NPCLVL=7
 NumDropQuest=1
 DropQuest1=151-3530-1-1
-NPCLVL=7
 
 
 
@@ -17229,9 +17263,9 @@ Veneno=3
 PoderAtaque=100
 PoderEvasion=75
 Humanoide=0
+NPCLVL=13
 NumDropQuest=1
 DropQuest1=151-3529-1-1
-NPCLVL=13
 
 
 
@@ -17245,12 +17279,12 @@ Heading=3
 Body=759
 Movement=1
 BackUp=0
-NumQuest=1
-QuestNumber1=53
 en_desc=Hey you Have you ever seen a Naga? Help me with this and you will see what it is.
 NPCLVL=12
 MagicResistance=30
 MagicDef=0
+NumQuest=1
+QuestNumber1=53
 
 [NPC1226] 'Elemental que invoca el Devorador del inframundo
 Name=Elemental Infernal
@@ -17384,13 +17418,13 @@ Hostile=0
 ShowName=1
 IntervaloRespawn=60
 AguaValida=0
-NumDropQuest=2
-DropQuest1=153-3538-1-3
-DropQuest2=154-3538-1-3
 NPCLVL=28
 MagicResistance=70
 MagicDef=10
 TestOnly=1
+NumDropQuest=2
+DropQuest1=153-3538-1-3
+DropQuest2=154-3538-1-3
 
 [NPC1231]'Desactivada la quest 155 por falta de npc
 Name=Kandal
@@ -19014,13 +19048,13 @@ Escudo=0
 Heading=3
 Movement=1
 Attackable=0
+NPCLVL=22
+MagicResistance=55
+MagicDef=5
 NumQuest=3
 QuestNumber1=144
 QuestNumber2=147
 QuestNumber3=150
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
 
 [NPC1284]
 Name=Rengal <Quest>
@@ -19036,13 +19070,13 @@ Escudo=0
 Heading=3
 Movement=1
 Attackable=0
+NPCLVL=22
+MagicResistance=55
+MagicDef=5
 NumQuest=3
 QuestNumber1=145
 QuestNumber2=148
 QuestNumber3=151
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
 
 [NPC1285]
 Name=Fisch <Quest>
@@ -19058,13 +19092,13 @@ Escudo=0
 Heading=3
 Movement=1
 Attackable=0
+NPCLVL=22
+MagicResistance=55
+MagicDef=5
 NumQuest=3
 QuestNumber1=143
 QuestNumber2=146
 QuestNumber3=149
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
 
 
 [NPC1286]
@@ -19081,12 +19115,12 @@ Escudo=0
 Heading=3
 Movement=1
 Attackable=0
-NumQuest=2
-QuestNumber1=157
-QuestNumber2=158
 NPCLVL=22
 MagicResistance=55
 MagicDef=5
+NumQuest=2
+QuestNumber1=157
+QuestNumber2=158
 
 [NPC1287]
 Name=Marinero Robusto
@@ -19133,13 +19167,13 @@ Heading=3
 Movement=1
 NpcType=17
 ShowName=1
-NumQuest=2
-QuestNumber1=161
-QuestNumber2=162
 en_Desc=Welcome, I work with Sacred elements!
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=2
+QuestNumber1=161
+QuestNumber2=162
 
 [NPC1289] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Xanthe <Sacerdotisa>
@@ -19165,13 +19199,13 @@ Head=55
 Heading=3
 Movement=1
 ShowName=1
-NumQuest=1
-QuestNumber1=163
 NpcType=17
 en_desc=Damn Sigmud... I think I'm too late.
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=1
+QuestNumber1=163
 
 [NPC1291]
 Name=Escritorio <Quest>
@@ -19182,13 +19216,13 @@ Body=4284
 ShowName=1
 Heading=3
 Movement=0
-NumQuest=1
-QuestNumber1=164
 NpcType=17
 en_desc=This old book seems to have what you were looking for!
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=1
+QuestNumber1=164
 
 [NPC1292]
 Name=Biblioteca <Quest>
@@ -19199,13 +19233,13 @@ Body=4283
 ShowName=1
 Heading=3
 Movement=0
-NumQuest=1
-QuestNumber1=165
 NpcType=17
 en_desc=This old book seems to have what you were looking for!
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+NumQuest=1
+QuestNumber1=165
 
 [NPC1293]
 Name=Olaf <Armero de Forgat>
@@ -19285,10 +19319,6 @@ Body=2233
 Heading=3
 Movement=1
 Minimap=1
-NumQuest=3
-QuestNumber1=170
-QuestNumber2=171
-QuestNumber3=250
 NpcType=17
 ShowName=1
 en_desc=Welcome to the New Adventurous Continent, I have two orders for you to discover and become familiar with in these unknown lands...
@@ -19296,6 +19326,10 @@ NoWiki=1
 NPCLVL=22
 MagicResistance=55
 MagicDef=5
+NumQuest=3
+QuestNumber1=170
+QuestNumber2=171
+QuestNumber3=250
 
 [NPC1298]
 Name=Aurora <Quest>
@@ -19305,10 +19339,6 @@ Body=2232
 Heading=3
 Movement=1
 Minimap=1
-NumQuest=3
-QuestNumber1=172
-QuestNumber2=173
-QuestNumber3=250
 NpcType=17
 ShowName=1
 en_desc=Blessed are the eyes that see you, I needed a person willing to fight against some cursed creatures that have me trapped...
@@ -19316,6 +19346,10 @@ NoWiki=1
 NPCLVL=22
 MagicResistance=55
 MagicDef=5
+NumQuest=3
+QuestNumber1=172
+QuestNumber2=173
+QuestNumber3=250
 
 [NPC1299]
 Name=Barril
@@ -19331,11 +19365,11 @@ MaxHP=1
 OrigPos=1
 IntervaloRespawn=60
 NumQuiza=1
-NumDropQuest=1
-DropQuest1=179-3798-2-2
 NPCLVL=22
 MagicResistance=55
 MagicDef=5
+NumDropQuest=1
+DropQuest1=179-3798-2-2
 
 [NPC1300]'(Quest Recoleccion Playa Aurora)
 Name=Restos Misteriosos
@@ -19366,9 +19400,6 @@ Body=254
 Heading=3
 Movement=1
 Minimap=1
-NumQuest=2
-QuestNumber1=174
-QuestNumber2=175
 NpcType=17
 ShowName=1
 en_desc=Blessed are the eyes that see you, I needed a person willing to fight against some cursed creatures that have me trapped...
@@ -19376,6 +19407,9 @@ NoWiki=1
 NPCLVL=22
 MagicResistance=55
 MagicDef=5
+NumQuest=2
+QuestNumber1=174
+QuestNumber2=175
 
 [NPC1302]
 Name=Garret <Quest>
@@ -19385,9 +19419,6 @@ Body=4078
 Heading=3
 Movement=1
 Minimap=1
-NumQuest=2
-QuestNumber1=176
-QuestNumber2=177
 NpcType=17
 ShowName=1
 en_desc=Whoa, whoa! You are about to enter to the cave of desolation, I have information that can be of great help if you want to survive in there.
@@ -19395,6 +19426,9 @@ NoWiki=1
 NPCLVL=22
 MagicResistance=55
 MagicDef=5
+NumQuest=2
+QuestNumber1=176
+QuestNumber2=177
 
 [NPC1303]
 Name=Heinrich <Quest>
@@ -19404,9 +19438,6 @@ Body=20
 Heading=3
 Movement=1
 Minimap=1
-NumQuest=2
-QuestNumber1=178
-QuestNumber2=179
 NpcType=17
 ShowName=1
 en_desc=Welcome to my humble abode, I am very thirsty and I need an adventurous and brave person like you.
@@ -19417,6 +19448,9 @@ MagicDef=5
 
 
 '--- COPIA PRIVADA ORIGINAL NPC1304 (Tiburón Océanico) antes de oficializar; cliente oficial era Tiburón de Altamar ---
+NumQuest=2
+QuestNumber1=178
+QuestNumber2=179
 '[NPC1304] 
 'Name=Tiburón Océanico
 'En_name=Oceanic Shark
@@ -19525,9 +19559,6 @@ Body=568
 Heading=3
 Movement=1
 Minimap=1
-NumQuest=2
-QuestNumber1=180
-QuestNumber2=181
 NpcType=17
 ShowName=1
 en_desc=Hello traveler, I have some missions to make your journey more entertaining.
@@ -19536,6 +19567,9 @@ NPCLVL=15
 MagicResistance=37
 MagicDef=10
 TestOnly=1
+NumQuest=2
+QuestNumber1=180
+QuestNumber2=181
 
 [NPC1308] Bisporus (Rojo)
 Name=Bisporus
@@ -19887,13 +19921,13 @@ Movement=1
 Minimap=1
 NpcType=17
 ShowName=1
-NumQuest=1
-QuestNumber1=136
 en_desc=I can make you a powerful spell.
 NoWiki=1
 NPCLVL=23
 MagicResistance=57
 MagicDef=5
+NumQuest=1
+QuestNumber1=136
 
 
 [NPC1325]
@@ -20053,6 +20087,10 @@ Obj1=534-1
 Obj2=199-1
 Obj3=197-1
 NoMapInfo=1
+NumQuest=3
+QuestNumber1=222
+QuestNumber2=247
+QuestNumber3=223
 
 [NPC1330]
 Name=Vendedor de Sets
@@ -20148,14 +20186,14 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 Heading=3
+NPCLVL=6
+MagicResistance=15
+MagicDef=0
 NumQuest=4
 QuestNumber1=154
 QuestNumber2=163
 QuestNumber3=164
 QuestNumber4=165
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
 [NPC1332] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Hormiga Amarilla
 Body=5231
@@ -22021,8 +22059,6 @@ LanzaSpells=1
 Sp1=256
 PoderAtaque=70
 PoderEvasion=145
-NumDropQuest=1
-DropQuest1=33-2655-1-25
 NumQuiza=1
 QuizaDropea1=1863-1
 QuizaProb=3
@@ -22033,6 +22069,8 @@ MagicDef=10
 NpcType=0
 GiveEXPClan=1
 Nivel=28
+NumDropQuest=1
+DropQuest1=33-2655-1-25
 
 [NPC1386]
 Name=Organizador de eventos
@@ -22307,6 +22345,9 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 Heading=3
+NPCLVL=23
+MagicResistance=57
+MagicDef=5
 NumQuest=9
 QuestNumber1=10
 QuestNumber2=251
@@ -22317,9 +22358,6 @@ QuestNumber6=254
 QuestNumber7=253
 QuestNumber8=257
 QuestNumber9=258
-NPCLVL=23
-MagicResistance=57
-MagicDef=5
 
 [NPC1402]
 Name=Papa Noel
@@ -23581,8 +23619,8 @@ ReSpawn=0
 [NPC21] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Bromdir <Quest>
 NumQuest=2
-QuestNumber1=259
-QuestNumber2=260
+QuestNumber1=374
+QuestNumber2=375
 Desc=¡El Fénix ha despertado nuevamente! Renace de sus cenizas cada cierto tiempo, tal como lo ha hecho desde antes de que Morgrim fuera tallada en la roca. Tráeme sus plumas, y yo forjaré para ti recompensas que solo el fuego eterno puede conceder.
 Body=531
 Head=329
