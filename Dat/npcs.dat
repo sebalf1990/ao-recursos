@@ -1291,6 +1291,8 @@ it_Desc=Sono disperato, per favore aiutami!
 it_Name=Ofelia <Quest>
 pt_Desc=Estou desesperado, por favor me ajude!
 pt_Name=Ofelia <miss>
+NumQuest=1
+QuestNumber1=84
 
 [NPC93]
 Name=Bael el Bardo <Quest>
@@ -3292,6 +3294,9 @@ PoderEvasion=5
 en_Name=Hen
 pt_Name=Galinha
 fr_Name=Poule
+NumDropQuest=2
+DropQuest1=6-2496-1-1
+DropQuest2=9-2495-1-1
 
 [NPC502]'Serpiente cobra
 Name=Serpiente
@@ -3585,6 +3590,8 @@ en_Name=Spider
 fr_Name=Araignée forestière
 it_Name=Spider forestale
 pt_Name=Aranha da floresta
+NumDropQuest=1
+DropQuest1=17-2484-1-1
 
 '[NPC513] 'Bruja Nueva Pitonisa
 'Name=Hechicera
@@ -3790,6 +3797,8 @@ PoderAtaque=65
 PoderEvasion=42
 en_Name=Barbarian Goblin
 fr_Name=Gobelin Barbare
+NumDropQuest=1
+DropQuest1=61-2685-1-1
 
 [NPC519] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Rikkar
@@ -10473,6 +10482,8 @@ PoderEvasion=22
 en_Name=Ostrich
 fr_Name=Autruche
 it_Name=Struzzo
+NumDropQuest=1
+DropQuest1=137-2552-1-1
 
 [NPC942] 'Sapo
 Name=Sapo
@@ -10794,6 +10805,8 @@ Attackable=1
 Hostile=1
 PoderAtaque=70
 PoderEvasion=50
+NumDropQuest=1
+DropQuest1=24-2576-1-1
 
 [NPC951]
 Name=Calaveras
@@ -25151,6 +25164,8 @@ GiveGLD=00
 MaxHIT=1
 MinHIT=1
 Nivel=20
+NumQuest=1
+QuestNumber1=84
 
 [NPC1816] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Gru Chaman
