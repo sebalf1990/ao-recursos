@@ -43,7 +43,6 @@ NumNPCs=9009
 '---------------------para futuras actualizaciones del juego------------------------------
 '-----------------------------------------------------------------------------------------
 
-
 '++++++++++++++> Aclaraciones <++++++++++++++
 
 'NPCs que figuran en info del mundo
@@ -163,7 +162,6 @@ Snd3=Muerte de la criatura
 'AddToMapAiList
 'confirmar=Nueva inteligencia AI que falta definir
 
-
 'PosOrig
 '0=Ignora la posición original
 '1=Al dejar de atacar al npc vuelve a su posición original
@@ -174,7 +172,6 @@ Snd3=Muerte de la criatura
 'MagicResistance
 'definir SARASA
 
-
 'MagicDef
 'definir SARASA
 
@@ -184,7 +181,6 @@ Snd3=Muerte de la criatura
 'IntervaloMovimiento
 'Cuanto mas bajo el valor mas rapido se mueve
 'Falta obtener relación con el Speed de cuerpos.dat
-
 
 '---------------------------> Vendedores comunes 1 al 19 <---------------------------
 
@@ -269,7 +265,6 @@ Minimap=1
 'Frasco de Alquimista
 'Olla de Alquimista
 
-
 '--------------> Bebidas <--------------
 NpcType=0
 NoMapInfo=1
@@ -325,7 +320,6 @@ Obj4=42-100
 SoundOpen=214
 SoundClose=215
 
-
 [NPC7]
 Name=Jonas <Tabernero>
 En_Name=Jonas <Innkeeper>
@@ -340,7 +334,6 @@ Comercia=1
 Minimap=1
 SoundOpen=601
 SoundClose=603
-
 
 '--------------> Comidas <--------------
 TipoItems=13
@@ -391,7 +384,6 @@ NROITEMS=2
 Obj1=3748-100
 Obj2=3749-100
 
-
 [NPC10]
 Name=Granjero Norte <Provisiones>
 En_Name=North Farmer <Provisions>
@@ -431,7 +423,6 @@ Movement=1
 NpcType=17
 Minimap=1
 
-
 '--------------> Minería <--------------
 NumQuest=1
 QuestNumber1=2
@@ -450,7 +441,6 @@ Minimap=1
 ShowName=1
 SoundOpen=601
 SoundClose=606
-
 
 '--------------> Pescados <--------------
 NpcType=0
@@ -529,7 +519,6 @@ Hostile=0
 ReSpawn=0
 Heading=3
 
-
 '--------------> Vendedor General <--------------
 TipoItems=23
 NROITEMS=4
@@ -550,8 +539,6 @@ Movement=1
 Comercia=1
 SoundOpen=600
 Minimap=1
-
-
 
 NpcType=0
 NoMapInfo=1
@@ -599,10 +586,7 @@ en_desc=I buy what the sea can offer!
 
 '--------------> Vendedores by OX <--------------
 
-
 '--------------> Armaduras Por ciudad del 30 al 39 <--------------
-
-
 
 [NPC32]'Libre
 
@@ -684,14 +668,11 @@ Obj16=2829-1
 Obj17=1981-1
 en_desc=The best fabrics in the best city, nothing to lose with these prices.
 
-
 [NPC38]'Libre
 
 [NPC39]'Libre
 
 [NPC40]'Libre
-
-
 
 [NPC42]'Libre
 
@@ -775,8 +756,6 @@ Obj2=2-1
 Obj3=1700-1
 Obj4=3492-1
 
-
-
 [NPC49]
 Name=Lyhn <Sastre de Nix>
 En_Name=Lyhn <Tailer of Nix>
@@ -859,7 +838,6 @@ TestOnly=1
 [NPC51]'Libre
 
 [NPC52]'Libre
-
 
 [NPC53]
 Name=Sioris <Sastre Exotico>
@@ -1041,9 +1019,7 @@ Obj6=28-1000
 
 [NPC66]'Libre
 
-
 [NPC67]'Libre
-
 
 [NPC68]'Libre
 
@@ -1055,9 +1031,7 @@ Obj6=28-1000
 
 [NPC71]'Libre
 
-
 [NPC72]'Libre
-
 
 [NPC73]'Libre
 
@@ -1172,7 +1146,6 @@ Body=1099
 Movement=1
 BackUp=0
 en_desc=Come boy this is your time to learn to master the power you carry within. Cheer up.
-
 
 [NPC86]'Desactivada Quest58 por falta de NPC
 Name=Snyder <Quest>
@@ -1300,7 +1273,6 @@ Arma=48
 Movement=1
 BackUp=0
 en_desc=I was looking for an adventurer like you. Of course you will be well rewarded.
-
 
 ' === BLOQUE PRIVADO ORIGINAL DE NPC95 (preservado para migracion futura de quests) ===
 ' Fecha resync: 2026-05-06
@@ -1520,7 +1492,6 @@ SoundOpen=601
 SoundClose=606
 en_desc=Are you interested in mining? I have all the necessary tools.
 
-
 [NPC104]
 Name=Mebag <Pescador>
 En_Name=Mebag <Fisherman>
@@ -1540,8 +1511,6 @@ ShowName=1
 Obj2=2183-1
 Obj3=138-1
 en_desc=Here you will get the best that the sea can offer!
-
-
 
 [NPC105] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Durrot <Mercader>
@@ -1741,7 +1710,6 @@ MagicDef=0
 NumQuest=1
 QuestNumber1=81
 
-
 [NPC117]
 Name=Grindal <Quest>
 Desc=¿Cómo demonios entraste aqui?
@@ -1804,7 +1772,6 @@ MagicDef=15
 '-----------------------------------------------------------------------------------------
 '-----------------------------------------------------------------------------------------
 
-
 '--------------> Gobernadores Por ciudad del 250 al 259 <--------------
 DisabledInBattleServer=1
 NumQuest=1
@@ -1849,8 +1816,6 @@ en_desc=The city of commerce is always looking for new members.
 NPCLVL=39
 MagicResistance=97
 MagicDef=15
-
-
 
 [NPC251]
 Name=Conrad <Gobernador de Nix>
@@ -1951,8 +1916,6 @@ GobernadorDe=5
 NPCLVL=39
 MagicResistance=97
 MagicDef=15
-
-
 
 '--------------> Guardias Buenos del 260 al 269 <--------------
 
@@ -2068,7 +2031,6 @@ Sp1=34
 Sp2=9
 RangoSpell=6
 NoWiki=1
-
 
 [NPC267] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Cabra
@@ -2240,7 +2202,6 @@ NPCLVL=39
 MagicResistance=97
 MagicDef=15
 
-
 '------------------>Guardias con recorridos de Nix>------------------
 
 [NPC275] 'Realineado a oficial 2026-06-08 (slot repropuesto)
@@ -2297,12 +2258,7 @@ NPCLVL=45
 MagicResistance=100
 MagicDef=15
 
-
-
-
-
 '--------------> NPCS comunes del 300 al 399 <--------------
-
 
 '--------------> Apuestas <--------------
 [NPC301] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
@@ -2696,7 +2652,6 @@ MagicDef=0
 NumQuest=1
 QuestNumber1=18
 
-
 [NPC405] 'RESYNC desde sp_localindex.dat (lote3 pat B)
 Name=Henry <Quest>
 Desc=La leña élfica mantiene a flote nuestros barcos, pero esos malditos ciervos ancestrales están volviendo locos a mis hombres.
@@ -2792,7 +2747,6 @@ MagicDef=0
 NumQuest=1
 QuestNumber1=135
 
-
 [NPC409]
 Name=Bowkrag <Quest>
 NpcType=17
@@ -2818,7 +2772,6 @@ NumQuest=3
 QuestNumber1=3
 QuestNumber2=6
 QuestNumber3=8
-
 
 [NPC410]'Desactivada quest57 por falta de npc
 Name=Otis <Quest>
@@ -3127,7 +3080,6 @@ NPCLVL=6
 MagicResistance=15
 MagicDef=0
 
-
 '--------------> CENTINELAS (NO CAMBIAR INDEX) <--------------
 [NPC498] ' Checkeador de macros
 Name=Centinela
@@ -3176,11 +3128,6 @@ en_desc=I am the Sentinel, guardian of resources. Right click on me if you are w
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-
-
-
-
-
 
 '-----------------------------------------------------------------------------------------
 '-----------------------------------------------------------------------------------------
@@ -3235,7 +3182,6 @@ DropQuest1=10-2494-1-1
 DropQuest2=6-2496-1-1
 DropQuest3=9-2494-1-1
 DropQuest4=183-2481-1-1
-
 
 [NPC501] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Gallina
@@ -3304,7 +3250,6 @@ Drop1=2479-1-1-1
 NumDropQuest=2
 DropQuest1=9-2492-1-1
 DropQuest2=9-2479-1-3
-
 
 [NPC503]
 Name=Tortuga Mediterranea
@@ -3377,8 +3322,6 @@ Drop1=2480-1-1-1
 NumDropQuest=2
 DropQuest1=8-2480-1-1
 DropQuest2=6-2496-1-1
-
-
 
 [NPC507] 'Zombie
 Name=Zombie
@@ -3471,8 +3414,6 @@ Drop1=2494-1-1-1
 NumDropQuest=1
 DropQuest1=142-2494-1-1
 
-
-
 [NPC510] 'Orco
 Name=Orco
 ShowName=0
@@ -3532,7 +3473,6 @@ NPCLVL=2
 Ataque1=5162
 NpcType=0
 Nivel=5
-
 
 [NPC512] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=4208
@@ -5493,7 +5433,6 @@ Drop1=1146-100-1-5
 Drop2=1146-1-1-1
 Nivel=20
 
-
 [NPC560] 'Ogro
 Name=Ogro
 ShowName=0
@@ -5625,7 +5564,6 @@ QuizaDropea1=3175-1
 QuizaProb=100
 Humanoide=1
 NPCLVL=16
-
 
 '--- COPIA PRIVADA ORIGINAL NPC565 (Capitan Low) antes de oficializar; cliente oficial era Anubis ---
 NpcType=0
@@ -5845,7 +5783,6 @@ DontHitVisiblePlayers=1
 PosOrig=1
 NumQuest=1
 QuestNumber1=322
-
 
 [NPC572] 'RESYNC desde sp_localindex.dat (validacion Ullathorpe extras quest collision)
 Name=Khemet <Quest>
@@ -6398,7 +6335,6 @@ MagicResistance=75
 MagicDef=10
 NpcType=0
 
-
 [NPC592]
 Name=Bufón Real
 ShowName=0
@@ -6434,7 +6370,6 @@ NPCLVL=31
 MagicResistance=77
 MagicDef=10
 NpcType=0
-
 
 [NPC593] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=5594
@@ -6631,7 +6566,6 @@ NPCLVL=30
 MagicResistance=75
 MagicDef=10
 
-
 '*******************NUEVOS NPCS*********************
 
 [NPC600]'Rey Arkhein
@@ -6704,7 +6638,6 @@ IntervaloRespawn=20
 NPCLVL=30
 MagicResistance=75
 MagicDef=10
-
 
 [NPC604] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=721
@@ -6789,7 +6722,6 @@ MagicDef=0
 Ataque1=5254
 NpcType=0
 Nivel=20
-
 
 [NPC607] 'Araña colmillos a distancia
 Name=Araña Verde
@@ -6908,7 +6840,6 @@ Humanoide=0
 NPCLVL=12
 MagicResistance=30
 MagicDef=0
-
 
 [NPC611] 'murcielago gigante
 Name=Murciélago Gigante
@@ -7104,7 +7035,6 @@ NPCLVL=38
 MagicResistance=95
 MagicDef=15
 TESTONLY=1
-
 
 [NPC621] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Golem de Piedra
@@ -7513,7 +7443,6 @@ MagicResistance=97
 MagicDef=15
 NpcType=0
 
-
 [NPC642]
 Name=Leviatán Joven
 ShowName=0
@@ -7640,8 +7569,6 @@ Nivel=20
 NumDropQuest=1
 DropQuest1=151-3531-1-1
 
-
-
 [NPC646]
 Name=Escarabajo Gigante
 ShowName=0
@@ -7672,7 +7599,6 @@ Drop1=239-100-1-1
 NumDropQuest=1
 DropQuest1=151-3532-1-1
 
-
 [NPC647]
 Name=Escarabajo
 ShowName=0
@@ -7698,8 +7624,6 @@ Nivel=20
 NumDropQuest=1
 DropQuest1=151-3533-1-1
 
-
-
 [NPC648]
 Name=Reydmon
 Desc=¿Has oído las noticias? Los representantes de todas las razas y los reyes de ambas facciones se han reunido en el Mesón Hostigado. Esto nunca había pasado en la historia… Están reclutando soldados para una gran batalla según escuche. ¡No pierdas tiempo y ve!
@@ -7721,7 +7645,6 @@ en_desc=Have you heard the news? Representatives of all races and kings of both 
 NPCLVL=2
 MagicResistance=5
 MagicDef=0
-
 
 [NPC649]
 Name=Entrenador
@@ -7994,8 +7917,6 @@ MagicDef=0
 NumDropQuest=1
 DropQuest1=175-3795-2-2
 
-
-
 [NPC659]'Caja Flotante 2
 Name=Caja Flotante
 En_Name=Floating Box
@@ -8092,7 +8013,6 @@ NpcType=0
 GiveEXPClan=1
 Nivel=28
 
-
 [NPC662] 'Oso Polar
 Name=Orius
 ShowName=0
@@ -8125,7 +8045,6 @@ NPCLVL=22
 MagicResistance=55
 MagicDef=5
 AguaValida=0
-
 
 [NPC663] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Alacrán
@@ -8178,7 +8097,6 @@ MagicDef=0
 NpcType=0
 Nivel=5
 
-
 [NPC665] Quiróptero
 Name=Quiróptero
 ShowName=0
@@ -8207,7 +8125,6 @@ Humanoide=0
 NPCLVL=7
 MagicResistance=17
 MagicDef=0
-
 
 [NPC666] Elapidae
 Name=Elapidae
@@ -8246,7 +8163,6 @@ MagicDef=0
 NpcType=0
 Nivel=5
 
-
 [NPC667] Cobra roja
 Name=Naja
 ShowName=0
@@ -8281,7 +8197,6 @@ QuizaProb=50
 NPCLVL=4
 MagicResistance=10
 MagicDef=0
-
 
 [NPC668] Scramer Picaro 
 Name=Scramer Pícaro
@@ -8318,7 +8233,6 @@ Nivel=15
 NumDropQuest=1
 DropQuest1=194-2728-1-2
 
-
 [NPC669] Scramer encapuchado
 Name=Scramer Encapuchado
 ShowName=0
@@ -8352,7 +8266,6 @@ Nivel=15
 NumDropQuest=2
 DropQuest1=210-2511-1-2
 DropQuest2=196-3847-1-2
-
 
 [NPC670] Scramer anciano
 Name=Scramer Anciano
@@ -8391,8 +8304,6 @@ DropQuest1=199-2702-1-2
 DropQuest2=211-2490-1-2
 DropQuest3=236-2490-1-2
 DropQuest4=195-3844-1-2
-
-
 
 [NPC671] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=4357
@@ -8477,7 +8388,6 @@ Humanoide=0
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-
 
 '--- COPIA PRIVADA ORIGINAL NPC674 (Colmillo blanco) antes de oficializar; cliente oficial era Colmillo Blanco ---
 NpcType=0
@@ -9125,8 +9035,6 @@ NPCLVL=1
 MagicResistance=3
 MagicDef=0
 
-
-
 [NPC697]
 Name=Rudoph <Quest>
 Desc=¡Aqui te veo! Creo que vienes por mi.
@@ -9168,7 +9076,6 @@ MagicResistance=3
 MagicDef=0
 NumQuest=1
 QuestNumber1=108
-
 
 [NPC699]
 Name=Ralph <Quest>
@@ -9536,8 +9443,6 @@ IntervaloRespawnMin=180
 NpcType=0
 Nivel=20
 
-
-
 [NPC751] 
 Name=Frogian Hechicero
 ShowName=0
@@ -9713,7 +9618,6 @@ MagicDef=10
 IntervaloRespawn=360
 IntervaloRespawnMin=180
 
-
 '**********************Obj para destruir ***************************
 GiveEXPClan=30
 NpcType=0
@@ -9791,7 +9695,6 @@ MagicDef=0
 NumDropQuest=1
 DropQuest1=181-3330-1-1
 
-
 [NPC900] Lobo gris nuevo
 Name=Ululantis
 ShowName=0
@@ -9823,7 +9726,6 @@ IntervaloRespawn=360
 IntervaloRespawnMin=180
 NpcType=0
 Nivel=20
-
 
 [NPC901] Lobo gris nuevo
 Name=Ferus
@@ -9890,8 +9792,6 @@ AguaValida=0
 NpcType=0
 Nivel=8
 
-
-
 [NPC922]
 Name=Dragón Dorado
 ShowName=0
@@ -9931,7 +9831,6 @@ QuizaProb=80
 NPCLVL=39
 MagicResistance=0
 MagicDef=0
-
 
 '--- COPIA PRIVADA ORIGINAL NPC923 (Dragón Cárdeno) antes de oficializar; cliente oficial era Nocthral ---
 BodyIdle=5507
@@ -10052,7 +9951,6 @@ GiveEXPClan=2
 DropCount=1
 Drop1=465-1-1-1
 DisabledInBattleServer=1
-
 
 [NPC925]
 Name=Ninfa
@@ -10463,7 +10361,6 @@ DropCount=3
 Drop1=4339-100-1-10
 Drop2=4339-10-1-5
 Drop3=4339-1-1-1
-
 
 [NPC940]'Libre
 
@@ -11117,9 +11014,6 @@ NPCLVL=6
 NpcType=0
 Nivel=5
 
-
-
-
 [NPC968] 'Araña gigante azul
 Name=Araña Ponzoñosa
 ShowName=0
@@ -11488,7 +11382,6 @@ NPCLVL=10
 MagicResistance=25
 MagicDef=0
 
-
 [NPC987] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Thalanor <Quest>
 Desc=Pocos humanos caminan este bosque sin romper su armonía. Kael habló de vos. Pero hay un lugar donde incluso los elfos evitan cazar.
@@ -11722,7 +11615,6 @@ DropCount=2
 Drop1=1145-100-1-5
 Drop2=1145-1-1-1
 
-
 [NPC998] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=4331
 MaxHp=450
@@ -11764,8 +11656,6 @@ MagicResistance=75
 MagicDef=10
 NoWiki=1
 
-
-
 [NPC1000]
 Name=Nadador
 En_Name=Swimmer
@@ -11790,7 +11680,6 @@ PoderEvasion=45
 NPCLVL=10
 MagicResistance=25
 MagicDef=0
-
 
 [NPC1001] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Esqueleto Mercenario
@@ -12197,7 +12086,6 @@ NPCLVL=26
 MagicResistance=65
 MagicDef=10
 
-
 'Nuevos NPCS Magma'
 
 '--- COPIA PRIVADA ORIGINAL NPC1020 (Banshee) antes de oficializar; cliente oficial era Morgrath <Quest> ---
@@ -12501,7 +12389,6 @@ NPCLVL=15
 MagicResistance=37
 MagicDef=10
 
-
 [NPC1028]
 Name=Serpiente de Euríale
 ShowName=0
@@ -12560,8 +12447,6 @@ DEF=25
 PoderAtaque=250
 PoderEvasion=250
 IntervaloRespawn=300
-
-
 
 '--- COPIA PRIVADA ORIGINAL NPC1030 (Duohorn) antes de oficializar; cliente oficial era Minotauro ---
 '[NPC1030]
@@ -12933,7 +12818,6 @@ Obj3=210-1000
 Obj4=211-1000
 Obj5=212-1000
 
-
 [NPC1039] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Sven <Sastre Polar>
 Desc=¡Las mejores vestimentas que podrás conseguir!
@@ -13094,7 +12978,6 @@ MagicDef=15
 DontHitVisiblePlayers=1
 PosOrig=1
 OrigPos=1
-
 
 'Nuevos NPCS PANTANO'
 
@@ -13432,7 +13315,6 @@ MagicResistance=75
 MagicDef=10
 NpcType=0
 
-
 [NPC1058]
 Name=Elias
 Desc=Habla conmigo si quieres amalgamar tus gemas.
@@ -13463,7 +13345,6 @@ en_desc=I collect all kinds of peculiar objects.
 NPCLVL=24
 MagicResistance=60
 MagicDef=5
-
 
 [NPC1076]
 Name=Martzia <Sastre Exótico>
@@ -13519,7 +13400,6 @@ en_desc=The best fabrics in the best city, nothing to lose with these prices.
 NPCLVL=24
 MagicResistance=60
 MagicDef=5
-
 
 NpcType=0
 DescClose=¡Que lo disfrutes!
@@ -13779,7 +13659,6 @@ en_desc=I have the best clothes and tunics for bass of all the lands!
 NPCLVL=24
 MagicResistance=60
 MagicDef=5
-
 
 [NPC1090] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Leo <Pescador>
@@ -14360,7 +14239,6 @@ en_desc=The best fabrics in the best city, nothing to lose with these prices.
 NPCLVL=24
 MagicResistance=60
 MagicDef=5
-
 
 [NPC1109] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=1655
@@ -15686,7 +15564,6 @@ MagicDef=10
 NumQuest=1
 QuestNumber1=112
 
-
 [NPC1151]
 Name=Lempard <Quest>
 NpcType=17
@@ -15711,7 +15588,6 @@ QuestNumber2=120
 QuestNumber3=121
 QuestNumber4=130
 QuestNumber5=122
-
 
 [NPC1152] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Viejo Libro de Pesca
@@ -15759,7 +15635,6 @@ Ataque1=6021
 NpcType=0
 GiveEXPClan=1
 
-
 [NPC1154] 'Fermin
 Name=Fermin
 Desc=Si crees que tienes lo necesario para convertirte en el mejor pescador, acepta mi desafio!. Varios como tu lo están intentando. Puedes registar tus capturas en el "Viejo libro de pesca""."
@@ -15795,7 +15670,6 @@ en_desc=Everything is very quiet by the fishing port!
 NPCLVL=16
 MagicResistance=40
 MagicDef=10
-
 
 [NPC1156] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Albi
@@ -16327,7 +16201,6 @@ MagicResistance=5
 MagicDef=0
 NumQuest=1
 QuestNumber1=132
-
 
 [NPC1189] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=2142
@@ -16966,7 +16839,6 @@ DropQuest3=143-3491-1-4
 DropQuest4=143-3495-1-4
 DropQuest5=143-3501-1-4
 
-
 [NPC1213] 'Npc para que invoque el nigromante orco
 Name=Rey Enano Capturado
 ShowName=0
@@ -17002,8 +16874,6 @@ DropQuest2=144-3487-1-4
 DropQuest3=144-3492-1-4
 DropQuest4=144-3496-1-4
 DropQuest5=144-3502-1-4
-
-
 
 [NPC1214] 'Npc para que invoque el nigromante orco
 Name=Rey Oscuro Capturado
@@ -17041,8 +16911,6 @@ DropQuest3=145-3493-1-4
 DropQuest4=145-3497-1-4
 DropQuest5=145-3503-1-4
 
-
-
 [NPC1215] 'Npc para que invoque el nigromante orco
 Name=Rey Gnomo Capturado
 ShowName=0
@@ -17077,7 +16945,6 @@ DropQuest1=146-3485-1-6
 DropQuest2=146-3489-1-4
 DropQuest3=146-3498-1-4
 DropQuest4=146-3504-1-4
-
 
 [NPC1216] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Amanita
@@ -17137,7 +17004,6 @@ en_desc=I have items and I am willing to exchange them for whatever Patreon cred
 NPCLVL=42
 MagicResistance=100
 MagicDef=15
-
 
 [NPC1218]
 Name=Mercader Mago II
@@ -17205,7 +17071,6 @@ MagicDef=15
 NumQuest=1
 QuestNumber1=142
 
-
 [NPC1220]
 Name=Orco Hechicero
 ShowName=0
@@ -17240,7 +17105,6 @@ MagicDef=15
 NumDropQuest=1
 DropQuest1=142-3481-1-2
 
-
 [NPC1221]'Libre
 
 [NPC1222]
@@ -17262,8 +17126,6 @@ MagicResistance=17
 MagicDef=0
 NumQuest=1
 QuestNumber1=155
-
-
 
 [NPC1223]'Para piramide
 Name=Escorpión
@@ -17294,8 +17156,6 @@ NPCLVL=7
 NumDropQuest=1
 DropQuest1=151-3530-1-1
 
-
-
 [NPC1224] 'Para Piramide
 Name=Escorpión Califa
 ShowName=0
@@ -17323,8 +17183,6 @@ Humanoide=0
 NPCLVL=13
 NumDropQuest=1
 DropQuest1=151-3529-1-1
-
-
 
 [NPC1225]
 Name=Sloane <Quest>
@@ -17544,7 +17402,6 @@ MagicResistance=70
 MagicDef=10
 TestOnly=1
 
-
 [NPC1234]
 Name=Verdugo Oscuro <Orden de las Sombras>
 ShowName=0
@@ -17573,7 +17430,6 @@ NPCLVL=17
 MagicResistance=43
 MagicDef=10
 TestOnly=1
-
 
 [NPC1235]
 Name=Asesino Impieadoso <Orden de las Sombras>
@@ -17609,7 +17465,6 @@ NPCLVL=31
 MagicResistance=40
 MagicDef=10
 TestOnly=1
-
 
 [NPC1236]
 Name=Arquero <Orden de las Sombras>
@@ -17662,7 +17517,6 @@ Humanoide=1
 NPCLVL=17
 MagicResistance=43
 MagicDef=10
-
 
 [NPC1238]
 Name=Asesina Impiadosa <Orden de las Sombras>
@@ -17742,7 +17596,6 @@ NPCLVL=17
 MagicResistance=43
 MagicDef=10
 
-
 [NPC1241]
 Name=Cazadora Letal <Orden de las Sombras>
 ShowName=0
@@ -17795,7 +17648,6 @@ NPCLVL=17
 MagicResistance=43
 MagicDef=10
 
-
 [NPC1243]
 Name=Guerrero Oscuro <Orden de las Sombras>
 ShowName=0
@@ -17821,7 +17673,6 @@ Humanoide=1
 NPCLVL=17
 MagicResistance=43
 MagicDef=10
-
 
 [NPC1244]
 Name=Verdugo Oscuro <Orden de las Sombras>
@@ -18049,7 +17900,6 @@ NPCLVL=15
 MagicResistance=37
 MagicDef=10
 
-
 [NPC1251]
 Name=Serin
 Desc=Siempre hay un roto para un descosido.
@@ -18171,8 +18021,6 @@ MagicResistance=37
 MagicDef=10
 TestOnly=1
 
-
-
 [NPC1255]
 Name=Keke <Caos segunda jerarquia>
 ShowName=1
@@ -18212,7 +18060,6 @@ NPCLVL=15
 MagicResistance=37
 MagicDef=10
 TestOnly=1
-
 
 [NPC1256]
 Name=Keke <Caos tercera jerarquia>
@@ -18254,7 +18101,6 @@ MagicResistance=37
 MagicDef=10
 TestOnly=1
 
-
 [NPC1257]
 Name=Keke <Caos cuarta jerarquia>
 ShowName=1
@@ -18294,7 +18140,6 @@ NPCLVL=15
 MagicResistance=37
 MagicDef=10
 TestOnly=1
-
 
 [NPC1258]
 Name=Keke <Caos quinta jerarquia>
@@ -18336,7 +18181,6 @@ MagicResistance=37
 MagicDef=10
 TestOnly=1
 
-
 [NPC1259]
 Name=Keke <Armada primera jerarquia>
 ShowName=1
@@ -18376,7 +18220,6 @@ NPCLVL=15
 MagicResistance=37
 MagicDef=10
 TestOnly=1
-
 
 [NPC1260]
 Name=Keke <Armada segunda jerarquia>
@@ -18418,7 +18261,6 @@ MagicResistance=37
 MagicDef=10
 TestOnly=1
 
-
 [NPC1261]
 Name=Keke <Armada tercer jerarquia>
 ShowName=1
@@ -18459,7 +18301,6 @@ MagicResistance=37
 MagicDef=10
 TestOnly=1
 
-
 [NPC1262]
 Name=Keke <Armada cuarta jerarquia>
 ShowName=1
@@ -18499,7 +18340,6 @@ NPCLVL=15
 MagicResistance=37
 MagicDef=10
 TestOnly=1
-
 
 [NPC1263]
 Name=Keke <Armada quinta jerarquia>
@@ -18675,7 +18515,6 @@ NPCLVL=0
 MagicResistance=0
 MagicDef=0
 
-
 [NPC1267] 'para invocar druida
 Name=Oso Pardo
 ShowName=0
@@ -18704,7 +18543,6 @@ Humanoide=0
 NPCLVL=11
 MagicResistance=27
 MagicDef=0
-
 
 '--- COPIA PRIVADA ORIGINAL NPC1268 (Tiburón) antes de oficializar; cliente oficial era Vendedor ---
 '[NPC1268] 'para invocar druida
@@ -19157,7 +18995,6 @@ QuestNumber1=143
 QuestNumber2=146
 QuestNumber3=149
 
-
 [NPC1286]
 Name=LucAstilla <Quest>
 Desc=¡Chssss, Aquí amigo!, puedo cepillar toda esa leña por ti en un instante y ahorrarte mucho tiempo
@@ -19498,7 +19335,6 @@ NPCLVL=22
 MagicResistance=55
 MagicDef=5
 
-
 '--- COPIA PRIVADA ORIGINAL NPC1304 (Tiburón Océanico) antes de oficializar; cliente oficial era Tiburón de Altamar ---
 NumQuest=2
 QuestNumber1=178
@@ -19737,7 +19573,6 @@ DropCount=1
 Drop1=5999-1-1-3
 DisabledInBattleServer=1
 
-
 [NPC1311] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Elfer <Mercader>
 Desc=¡Todo lo que buscas y más!
@@ -19898,7 +19733,6 @@ NPCLVL=23
 MagicResistance=57
 MagicDef=5
 
-
 [NPC1320]
 Name=Havoc <Quest>
 Desc=Pssst, acercate, tengo información que podría serte útil.
@@ -19947,7 +19781,6 @@ NPCLVL=23
 MagicResistance=57
 MagicDef=5
 
-
 [NPC1323]
 Name=Hjalmar <Quest>
 Desc=Puedo convertirte en un instrumento poderoso de la voluntad divina.
@@ -19963,7 +19796,6 @@ NoWiki=1
 NPCLVL=23
 MagicResistance=57
 MagicDef=5
-
 
 [NPC1324]
 Name=Aria <Quest>
@@ -19982,7 +19814,6 @@ MagicResistance=57
 MagicDef=5
 NumQuest=1
 QuestNumber1=136
-
 
 [NPC1325]
 Name=Mago Pirata
@@ -20891,7 +20722,6 @@ QuizaProb=5
 NpcType=0
 DropCount=1
 Drop1=2551-5-1-1
-
 
 [NPC1352]'aguila nueva
 Name=Aquilore
@@ -21985,7 +21815,6 @@ MagicResistance=25
 NoWiki=1
 NpcType=0
 
-
 [NPC1381]
 Name=Pterodactilo
 ShowName=0
@@ -22189,7 +22018,6 @@ NROITEMS=1
 Obj1=4319-1
 TESTONLY=1
 
-
 [NPC1390]' Hojas de Rin
 Name=Helecho de Rin
 En_Name=Rhine Fern
@@ -22263,7 +22091,6 @@ MaxHP=1
 NROITEMS=1
 Obj1=4315-20
 
-
 [NPC1394]' Cola de Zorro
 Name=Feather Marron
 En_Name=Feather Brown
@@ -22278,7 +22105,6 @@ MaxHP=1
 NPCLVL=1
 NROITEMS=1
 Obj1=4314-20
-
 
 [NPC1395] 'RESYNC desde sp_localindex.dat (lote3 cosmetico)
 Name=Cala de Triple Brote
@@ -22313,7 +22139,6 @@ NPCLVL=1
 NROITEMS=1
 Obj1=4312-20
 
-
 [NPC1397]' Esporas Silvestre
 Name=Hongo de Semillas
 En_Name=Seed Fungus
@@ -22346,7 +22171,6 @@ MaxHP=1
 NPCLVL=1
 NROITEMS=1
 Obj1=4310-20
-
 
 [NPC1399]'Raíz Carmesi
 Name=Viejo tronco de Raices
@@ -22457,89 +22281,6 @@ PoderAtaque=155
 PoderEvasion=94
 NPCLVL=10
 MagicResistance=25
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 '--------------> Maestros de Profesion <--------------
 NumQuiza=1
@@ -22816,7 +22557,6 @@ Hostile=0
 Alineacion=0
 NumQuest=1
 QuestNumber1=334
-
 
 [NPC27] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Guardia de Arena
@@ -25331,7 +25071,6 @@ Comercia=1
 TipoItems=100
 NROITEMS=0
 
-
 [NPC259] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Blorin <Gobernador de Morgrim>
 Desc=¡Bienvenido a Morgrim la tierra de los Enanos!
@@ -25339,14 +25078,12 @@ Body=4009
 NpcType=12
 NoMapInfo=1
 
-
 [NPC265] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Subastador
 Desc=Subastador
 Body=289
 Head=114
 NpcType=16
-
 
 [NPC266] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=4516
@@ -25361,14 +25098,12 @@ fr_Name=Garde du chaos
 it_Name=Chaos Guard
 pt_Name=Guarda do caos
 
-
 [NPC290] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Apostador
 Desc=Si deseas apostar, escribe /APOSTAR e ingresa la cantidad con la que jugarás.
 Body=36
 Head=9
 NpcType=7
-
 
 [NPC308] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=4844
@@ -25386,7 +25121,6 @@ fr_Name=Lézard 2
 it_Name=Lizard 2
 pt_Name=Lizard 2
 
-
 [NPC490] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Krix <Finanzas Goliath>
 Desc=¡Hola, bienvenido a la cadena de Finanzas Goliath!
@@ -25396,7 +25130,6 @@ NpcType=4
 NoMapInfo=1
 PuedeInvocar=1
 
-
 [NPC493] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Banquero Elfo <Finanzas Goliath>
 Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
@@ -25405,7 +25138,6 @@ Head=0
 NpcType=4
 NoMapInfo=1
 
-
 [NPC494] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Banquero Negro <Finanzas Goliath>
 Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
@@ -25413,7 +25145,6 @@ Body=5821
 Head=0
 NpcType=4
 NoMapInfo=1
-
 
 [NPC568] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=3704
@@ -25433,7 +25164,6 @@ fr_Name=Non-muerta humain
 it_Name=Non-Muerta umano
 pt_Name=Não-muerta humano
 
-
 [NPC806] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Golem de Oro
 Body=4884
@@ -25446,7 +25176,6 @@ GiveEXP=4350
 GiveGLD=150
 MaxHIT=95
 MinHIT=75
-
 
 [NPC807] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Golem de Tierra
@@ -25461,7 +25190,6 @@ GiveGLD=150
 MaxHIT=95
 MinHIT=75
 
-
 [NPC809] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Golem de Fuego
 Body=4893
@@ -25474,7 +25202,6 @@ GiveEXP=4350
 GiveGLD=150
 MaxHIT=95
 MinHIT=75
-
 
 [NPC810] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Golem de Viento
@@ -25489,7 +25216,6 @@ GiveGLD=150
 MaxHIT=95
 MinHIT=75
 
-
 [NPC811] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Glazrath
 Body=5394
@@ -25502,7 +25228,6 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-
 
 [NPC818] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Cirdan
@@ -25517,7 +25242,6 @@ GiveGLD=150
 MaxHIT=95
 MinHIT=75
 
-
 [NPC819] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Flameborn
 Body=5431
@@ -25530,7 +25254,6 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-
 
 [NPC820] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Horror Tóxico
@@ -25545,7 +25268,6 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-
 [NPC823] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Luzlum
 Body=6070
@@ -25558,7 +25280,6 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-
 
 [NPC824] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Midhas
@@ -25573,7 +25294,6 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-
 [NPC826] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Calabaza
 Body=4949
@@ -25586,7 +25306,6 @@ GiveEXP=4350
 GiveGLD=150
 MaxHIT=95
 MinHIT=75
-
 
 [NPC827] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Calabaza espadachin
@@ -25601,7 +25320,6 @@ GiveGLD=150
 MaxHIT=95
 MinHIT=75
 
-
 [NPC828] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Bruja
 Body=4957
@@ -25614,7 +25332,6 @@ GiveEXP=4350
 GiveGLD=150
 MaxHIT=95
 MinHIT=75
-
 
 [NPC833] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Mecha
@@ -25629,7 +25346,6 @@ GiveGLD=150
 MaxHIT=95
 MinHIT=75
 
-
 [NPC834] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Mecha Verde
 Body=4978
@@ -25642,7 +25358,6 @@ GiveEXP=4350
 GiveGLD=150
 MaxHIT=95
 MinHIT=75
-
 
 [NPC835] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Mecha Gris
@@ -25657,7 +25372,6 @@ GiveGLD=150
 MaxHIT=95
 MinHIT=75
 
-
 [NPC836] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Mecha marron
 Body=4987
@@ -25670,7 +25384,6 @@ GiveEXP=4350
 GiveGLD=150
 MaxHIT=95
 MinHIT=75
-
 
 [NPC837] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Mecha Verde
@@ -25685,7 +25398,6 @@ GiveGLD=150
 MaxHIT=95
 MinHIT=75
 
-
 [NPC838] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Mecha rosa
 Body=4993
@@ -25698,7 +25410,6 @@ GiveEXP=4350
 GiveGLD=150
 MaxHIT=95
 MinHIT=75
-
 
 [NPC839] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Mecha Blanco
@@ -25713,7 +25424,6 @@ GiveGLD=150
 MaxHIT=95
 MinHIT=75
 
-
 [NPC840] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name='Lobo Hielo'
 Body=5585
@@ -25726,7 +25436,6 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-
 
 [NPC841] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Piraña Test
@@ -25741,7 +25450,6 @@ GiveGLD=0
 MaxHIT=1
 MinHIT=1
 
-
 [NPC842] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name='Lobo Fuego'
 Body=5588
@@ -25754,7 +25462,6 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-
 
 [NPC849] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name='Salamandra'
@@ -25769,7 +25476,6 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-
 [NPC850] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name='Deminio'
 Body=5615
@@ -25782,7 +25488,6 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-
 
 [NPC851] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name='Conjurador Igneo'
@@ -25797,7 +25502,6 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-
 [NPC852] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name='Gargola de Fuego'
 Body=5624
@@ -25810,7 +25514,6 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-
 
 [NPC853] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Dorim II <Rey de Morgrim>
@@ -25825,7 +25528,6 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-
 [NPC854] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name='Leon Blanco'
 Body=5630
@@ -25838,7 +25540,6 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-
 
 [NPC855] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name='Leon Negro'
@@ -25853,7 +25554,6 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-
 [NPC856] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name='León de Fuego'
 Body=5636
@@ -25866,7 +25566,6 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-
 
 [NPC857] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Aelion <Rey de Eldoria>
@@ -25881,7 +25580,6 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-
 [NPC858] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Gunnarof
 Body=6003
@@ -25894,7 +25592,6 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-
 
 [NPC859] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Escaldra
@@ -25909,7 +25606,6 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-
 [NPC860] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Capitan Orla
 Body=5684
@@ -25922,7 +25618,6 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-
 
 [NPC861] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Marcoc
@@ -25937,7 +25632,6 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-
 [NPC866] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Urghal
 Body=6055
@@ -25951,7 +25645,6 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-
 [NPC867] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Bjornulf <Rey de Forgat>
 Body=6058
@@ -25964,7 +25657,6 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-
 
 [NPC955] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Verraco Invocado
@@ -25988,7 +25680,6 @@ pt_Name=Javali Invocado
 fr_Name=Sanglier Invoqué
 it_Name=Cinghiale Evocato
 
-
 [NPC956] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Momia Invocada
 Body=5136
@@ -26010,7 +25701,6 @@ en_Name=Summoned Mummy
 pt_Name=Múmia invocada
 fr_Name=Momie invoquée
 it_Name=Mummia evocata
-
 
 [NPC966] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=4919
@@ -26034,7 +25724,6 @@ fr_Name=Gorille invoqué
 it_Name=Gorilla ha invocato
 pt_Name=Gorila invocou
 
-
 [NPC976] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=4526
 GiveEXP=1500
@@ -26049,7 +25738,6 @@ fr_Name=Latrodectus
 it_Name=Latrodectus
 pt_Name=Latrodectus
 
-
 [NPC980] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Esqueleto Boss
 Body=5069
@@ -26062,7 +25750,6 @@ GiveEXP=4350
 GiveGLD=150
 MaxHIT=95
 MinHIT=75
-
 
 [NPC982] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=5255
@@ -26082,7 +25769,6 @@ fr_Name=Arachnid sortílego
 it_Name=Arachnid Sortílego
 pt_Name=Arachnid Sortílego
 
-
 [NPC991] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Ursidae
 Body=4930
@@ -26100,7 +25786,6 @@ Attackable=1
 Hostile=1
 PoderAtaque=160
 PoderEvasion=150
-
 
 [NPC1008] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=183
@@ -26120,7 +25805,6 @@ NumQuest=2
 QuestNumber1=25
 QuestNumber2=195
 
-
 [NPC1017] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=562
 Desc=Ando buscando quien logre desplegar su poder y sea capaz de ayudar tanto en tierra firme como en el mar. No tengo dudas que este será un valioso intercambio.
@@ -26139,7 +25823,6 @@ NumQuest=2
 QuestNumber1=31
 QuestNumber2=10
 
-
 [NPC1060] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=4784
 Desc=¿Cansado de andar a pie?
@@ -26153,7 +25836,6 @@ it_Desc=Stanco di camminare a piedi?
 it_Name=Sergio <Monturas>
 pt_Desc=Cansado de andar a pé?
 pt_Name=Sergio <Monturas>
-
 
 [NPC1061] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=4780
@@ -26169,7 +25851,6 @@ it_Name=Fabian <menziona>
 pt_Desc=Meu irmão Sergio me contou sobre você
 pt_Name=Fabian <Mentures>
 
-
 [NPC1062] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=4778
 Desc=Mi hermano Fabian me habló de tí
@@ -26183,7 +25864,6 @@ it_Desc=Mio fratello Fabian mi ha parlato di te
 it_Name=Christian <Mounts>
 pt_Desc=Meu irmão Fabian me contou sobre você
 pt_Name=Cristão <Mounts>
-
 
 [NPC1063] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=4787
@@ -26199,7 +25879,6 @@ it_Name=Marcelo <Dougles>
 pt_Desc=Meu irmão Christian me contou sobre você
 pt_Name=Marcelo <Dougles>
 
-
 [NPC1064] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=4785
 Desc=Mi hermano Marcelo me habló de tí
@@ -26214,7 +25893,6 @@ it_Name=Guido <Mounts>
 pt_Desc=Meu irmão Marcelo me contou sobre você
 pt_Name=Guido <Mounts>
 
-
 [NPC1065] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Intercambio de Monturas
 Desc=Si habias conseguido una Mula, Caballo Marrón, Caballo Blanco, Montura del Combatiente o Caballo Palomino, tengo una propuesta para ti.
@@ -26228,7 +25906,6 @@ QuestNumber2=266
 QuestNumber3=267
 QuestNumber4=268
 QuestNumber5=269
-
 
 [NPC1078] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=728
@@ -26245,7 +25922,6 @@ en_Name=Grog
 fr_Name=Grog
 it_Name=Grog
 pt_Name=Grog
-
 
 [NPC1405] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=289
@@ -26265,7 +25941,6 @@ it_Name=Queen Eleanor
 pt_Desc=Levante -nos, soldados fiéis! Juntos, resistiremos e defenderemos nossa grande honra contra esses invasores
 pt_Name=Rainha Eleanor
 
-
 [NPC1406] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=243
 Desc=¡Listo para servir, mi Reina!
@@ -26283,7 +25958,6 @@ it_Desc=Pronto a servire, mia regina!
 it_Name=Galahad
 pt_Desc=Pronto para servir, minha rainha!
 pt_Name=Galahad
-
 
 [NPC1407] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=2306
@@ -26303,7 +25977,6 @@ it_Name=Ginevra
 pt_Desc=Lista para servir, minha rainha!
 pt_Name=Guinevere
 
-
 [NPC1408] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=261
 Desc=¡Listo para servir, mi Reina!
@@ -26321,7 +25994,6 @@ it_Desc=Pronto a servire, mia regina!
 it_Name=Alden
 pt_Desc=Pronto para servir, minha rainha!
 pt_Name=Alden
-
 
 [NPC1409] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=2313
@@ -26341,7 +26013,6 @@ it_Name=Lyanna
 pt_Desc=Lista para servir, minha rainha!
 pt_Name=Lyanna
 
-
 [NPC1410] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=668
 Desc=¡Listo para servir, mi Reina!
@@ -26359,7 +26030,6 @@ it_Desc=Pronto a servire, mia regina!
 it_Name=Gareth
 pt_Desc=Pronto para servir, minha rainha!
 pt_Name=Gareth
-
 
 [NPC1411] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=2624
@@ -26379,7 +26049,6 @@ it_Name=Fenris
 pt_Desc=Pronto para servir, minha rainha!
 pt_Name=Fenris
 
-
 [NPC1412] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=4072
 MaxHp=400
@@ -26391,7 +26060,6 @@ en_Name=Gloomy
 fr_Name=Sombre
 it_Name=Cupola
 pt_Name=Sombrio
-
 
 [NPC1449] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=4217
@@ -26409,7 +26077,6 @@ fr_Name=Panther invoqué
 it_Name=Panther invocata
 pt_Name=Pantera invocou
 
-
 [NPC1450] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Isis
 Body=2098
@@ -26419,7 +26086,6 @@ MinHp=1500
 NpcType=0
 MaxHIT=2
 MinHIT=1
-
 
 [NPC1451] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Satis
@@ -26431,7 +26097,6 @@ NpcType=0
 MaxHIT=10
 MinHIT=5
 
-
 [NPC1452] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Hathor
 Body=2598
@@ -26441,7 +26106,6 @@ MinHp=1500
 NpcType=0
 MaxHIT=90
 MinHIT=60
-
 
 [NPC1453] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Orghaz
@@ -26456,7 +26120,6 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-
 [NPC1454] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Sekhmet
 Body=1691
@@ -26466,7 +26129,6 @@ MinHp=1200
 NpcType=0
 MaxHIT=130
 MinHIT=110
-
 
 [NPC1455] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Anhur
@@ -26478,7 +26140,6 @@ NpcType=0
 MaxHIT=175
 MinHIT=155
 
-
 [NPC1456] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Osiris
 Body=262
@@ -26488,7 +26149,6 @@ MinHp=1200
 NpcType=0
 MaxHIT=190
 MinHIT=165
-
 
 [NPC1457] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Seth
@@ -26500,7 +26160,6 @@ NpcType=0
 MaxHIT=225
 MinHIT=190
 
-
 [NPC1458] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Menhit
 Body=1046
@@ -26510,7 +26169,6 @@ MinHp=1500
 NpcType=0
 MaxHIT=190
 MinHIT=145
-
 
 [NPC1459] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Thrukha
@@ -26524,7 +26182,6 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-
 
 [NPC1474] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Portador de Fuego
@@ -26542,7 +26199,6 @@ MinHIT=115
 DropCount=1
 Drop1=5179-800-1-1
 
-
 [NPC1475] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Portador de Agua
 Body=4963
@@ -26558,7 +26214,6 @@ MaxHIT=155
 MinHIT=115
 DropCount=1
 Drop1=5180-800-1-1
-
 
 [NPC1476] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Portador de Tierra
@@ -26576,7 +26231,6 @@ MinHIT=115
 DropCount=1
 Drop1=5181-800-1-1
 
-
 [NPC1477] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Portador de Viento
 Body=4969
@@ -26593,7 +26247,6 @@ MinHIT=115
 DropCount=1
 Drop1=5182-800-1-1
 
-
 [NPC1505] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Guardia Real
 Body=5554
@@ -26606,7 +26259,6 @@ NpcType=2
 MaxHIT=200
 MinHIT=100
 NoMapInfo=1
-
 
 [NPC1555] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Guardia Legión
@@ -26621,7 +26273,6 @@ MaxHIT=200
 MinHIT=100
 NoMapInfo=1
 
-
 [NPC1600] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Krampus
 Body=5310
@@ -26635,7 +26286,6 @@ GiveGLD=0
 MaxHIT=200
 MinHIT=100
 
-
 [NPC1619] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Niva
 Desc=L
@@ -26644,7 +26294,6 @@ Head=0
 BodyIdle=5332
 NpcType=0
 
-
 [NPC1621] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Niva
 Desc=L
@@ -26652,7 +26301,6 @@ Body=5332
 Head=0
 BodyIdle=5332
 NpcType=0
-
 
 [NPC1634] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name='mantis de fuego'
@@ -26667,7 +26315,6 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-
 [NPC1799] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name='Pirata Elfa'
 Body=6009
@@ -26678,7 +26325,6 @@ MaxHp=3600
 MinHp=3600
 MaxHIT=95
 MinHIT=75
-
 
 [NPC1817] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Ilusión de Crocky <Quest>
@@ -26705,7 +26351,6 @@ QuestNumber2=367
 QuestNumber3=368
 QuestNumber4=369
 
-
 [NPC1818] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Capitán Real
 Body=5554
@@ -26717,7 +26362,6 @@ NoMapInfo=1
 NumQuest=2
 QuestNumber1=370
 QuestNumber2=371
-
 
 [NPC1819] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Emisario Sombrío
@@ -26731,7 +26375,6 @@ NumQuest=2
 QuestNumber1=370
 QuestNumber2=371
 
-
 [NPC1900] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Marinero de Prueba
 Desc=¿A dónde quieres viajar?
@@ -26739,7 +26382,6 @@ DescClose=¡Buen viaje!
 Body=2058
 Head=77
 NpcType=26
-
 
 ' ---- Customs reubicados (colision con slots oficiales) ----
 
@@ -26774,8 +26416,6 @@ NPCLVL=1
 PerfilVenenoAplica=Perfil_Vibora_Menor
 ChanceAplicarPct=100
 
-
-
 [NPC9008] 'Reubicado de NPC1805 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3)
 Name=Escorpion Test
 ShowName=0
@@ -26806,8 +26446,6 @@ Humanoide=0
 NPCLVL=1
 PerfilVenenoAplica=Perfil_Escorpion_Hemo
 ChanceAplicarPct=100
-
-
 
 [NPC9009] 'Reubicado de NPC1806 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3)
 Name=Arana Test
@@ -26840,61 +26478,3 @@ NPCLVL=1
 PerfilVenenoAplica=Perfil_Arana_Neuro
 ChanceAplicarPct=100
 
-[NPC30] 'Restaurado: mapas aun lo spawnean (equiparacion de mapas, plan 10.001)
-Name=Capitan Wynne
-ShowName=0
-En_Name=Captain Wynne
-Head=604
-Body=132
-Arma=160
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=17100
-GiveGLD=990
-MinHP=9000
-MaxHP=9000
-MaxHIT=160
-MinHIT=120
-LanzaSpells=1
-Sp1=256
-PoderAtaque=70
-PoderEvasion=115
-NumQuiza=1
-QuizaDropea1=3175-1
-QuizaProb=100
-Humanoide=1
-NPCLVL=16
-
-[NPC31] 'Restaurado: mapas aun lo spawnean (equiparacion de mapas, plan 10.001)
-Name=Capitan Low
-ShowName=0
-en_name=Captain Low
-Head=0
-Body=4150
-BodyIdle=4152
-Ataque1=4151
-CastAnimation=0
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Comercia=0
-Alineacion=0
-Veneno=6
-GiveEXPClan=3
-GiveEXP=22800
-GiveGLD=1200
-MinHP=12000
-MaxHP=12000
-MaxHIT=220
-MinHIT=175
-PoderAtaque=250
-PoderEvasion=150
-NumQuiza=1
-QuizaDropea1=2237-1
-QuizaProb=375
-NPCLVL=10
-MagicResistance=25
