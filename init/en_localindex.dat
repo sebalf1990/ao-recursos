@@ -39801,7 +39801,6 @@ GrhIndex=50928
 ObjType=8
 Texto=Peligro!!! Usted esta ingresando a zona pirata!!!
 Agarrable=1
-texto=Danger!!! You are entering  pirate zone!!!
 
 [OBJ2466]
 Name=Cartel teatro El Juglar
@@ -42928,13 +42927,12 @@ Valor=0
 Texto=Vestido Elegante Púrpura (E/G-M)
 
 [OBJ2851]
-Name=Shaman Robe (E/G)
+Name=Túnica de Shaman (E/G)
 GrhIndex=43474
 ObjType=3
 MAXDEF=30
-MINDEF=25
+MINDEF=20
 Valor=0
-Texto=Túnica de Shaman (E/G)
 
 [OBJ2852]
 Name=Turquoise Gala Dress
@@ -49802,14 +49800,12 @@ Texto=Cambia tu apariencia con esta mascara
 texto=Change your appearance with this mask
 
 [OBJ3418]
-Name=Mask 11
+Name=Máscara Elfa 5
 GrhIndex=62153
 ObjType=41
 MAXDEF=0
 MINDEF=0
 Valor=400
-Texto=Cambia tu apariencia con esta mascara
-texto=Change your appearance with this mask
 
 [OBJ3420]
 Name=Mask 12

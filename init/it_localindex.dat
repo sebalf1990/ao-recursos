@@ -41411,13 +41411,12 @@ Valor=0
 Texto=Vestido Elegante Púrpura (E/G-M)
 
 [OBJ2851]
-Name=Traje Seductor de Pitonisa (E/G-M)
+Name=Túnica de Shaman (E/G)
 GrhIndex=43474
 ObjType=3
 MAXDEF=30
-MINDEF=25
+MINDEF=20
 Valor=0
-Texto=Túnica de Shaman (E/G)
 
 [OBJ2852]
 Name=Vestido de Gala Turquesa
@@ -47933,7 +47932,6 @@ ObjType=41
 MAXDEF=0
 MINDEF=0
 Valor=400
-Texto=Cambia tu apariencia con esta mascara
 
 [OBJ3420]
 Name=Máscara Drow 1
