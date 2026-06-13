@@ -19,7 +19,7 @@
 '4.....Terreno
 
 [INIT]
-NumeroHechizos=307
+NumeroHechizos=412
 
 ' ===Hechizos de entrenamiento posta [1 A 10]
 
@@ -48,8 +48,6 @@ StaRequerido=2
 Target=3
 IconoIndex=35684
 ParticleViaje=186
-IsBindable=1
-Cooldown=10
 
 [HECHIZO2]
 Nombre=Flecha Mágica
@@ -355,7 +353,6 @@ StaRequerido=5
 IconoIndex=32431
 Target=3
 TargetEffectType=1
-NeuroInpifiable=1
 
 [HECHIZO14]
 Nombre=Resucitar
@@ -1007,7 +1004,7 @@ en_TargetMsg=casted Implosion on you.
 en_PropioMsg=You casted Implosion on yourself.
 TargetEffectType=2
 Tipo=1
-FXgrh=4
+FXgrh=12834
 SubeHP=2
 MinHP=120
 MaxHP=130
@@ -1019,7 +1016,6 @@ Target=3
 Particle=88
 TimeParticula=1
 Nowiki=1
-
 
 [HECHIZO55]
 Nombre=Lamento de la Banshee
@@ -1624,7 +1620,6 @@ NoWiki=1
 ' ===Hechizos de NPCS [200 A 250]
 
 [HECHIZO200]
-
 
 [HECHIZO201]
 Nombre=Maldición del Bufón
@@ -2459,7 +2454,7 @@ en_HechizeroMsg=You casted Implosion on
 en_TargetMsg=has casted Implosion on you.
 en_PropioMsg=Casted Implosion on yourself.
 Tipo=1
-FXgrh=4
+FXgrh=12834
 SubeHP=2
 MinHP=70
 MaxHP=100
@@ -2507,9 +2502,7 @@ en_Desc=Increase the speed of the character.
 
 [HECHIZO240]'Libre
 
-
 [HECHIZO241]'Libre
-
 
 [HECHIZO242]
 Nombre=Restauración 3
@@ -2570,7 +2563,7 @@ NoWiki=1
 [HECHIZO244]
 Nombre=Falange
 Desc=Concentra al usuario en la defensa, reduciento 40% del daño recibido y reciendo 40% del daño realizado.
-PalabrasMagicas=falange
+PalabrasMagicas=
 HechizeroMsg=Has usa Falange sobre
 TargetMsg=ha usado Falange sobre ti.
 PropioMsg=Has usado Falange sobre ti.
@@ -2584,7 +2577,7 @@ WAV=230
 FXgrh=145
 TimeParticula=40
 ManaRequerido=0
-StaRequerido=0
+StaRequerido=5000
 IconoIndex=32474
 Target=1
 autolanzar=1
@@ -2600,7 +2593,7 @@ NoWiki=1
 [HECHIZO245]
 Nombre=Corte Extendido
 Desc=Golpea hasta 3 enemigos enfrente tuyo en cada golpe.
-PalabrasMagicas=corte extendido
+PalabrasMagicas=
 HechizeroMsg=
 TargetMsg=
 PropioMsg=
@@ -2614,7 +2607,7 @@ WAV=230
 FXgrh=0
 TimeParticula=40
 ManaRequerido=0
-StaRequerido=1
+StaRequerido=5000
 IconoIndex=74693
 Target=1
 autolanzar=1
@@ -2628,7 +2621,7 @@ NoWiki=1
 [HECHIZO246]
 Nombre=Provocar
 Desc=Provoca a los enemigos cercanos forzandolos a atacarte..
-PalabrasMagicas=Provocar
+PalabrasMagicas=
 HechizeroMsg=
 TargetMsg=te ha provocado.
 PropioMsg=Has usado Provocar sobre ti.
@@ -2642,7 +2635,7 @@ WAV=230
 FXgrh=145
 TimeParticula=40
 ManaRequerido=0
-StaRequerido=1
+StaRequerido=5000
 IconoIndex=74708
 RemueveInvisibilidadParcial=1
 Target=1
@@ -2742,7 +2735,7 @@ Nowiki=1
 [HECHIZO250]
 Nombre=Danza de Flechas
 Desc=Dispara varias flechas en una dirección
-PalabrasMagicas=Danza de Flechas
+PalabrasMagicas=
 HechizeroMsg=Has lanzado Danza de Flechas
 TargetMsg=
 PropioMsg=Has lanzado Danza de Flechas sobre ti.
@@ -2753,7 +2746,7 @@ en_TargetMsg=
 en_PropioMsg=
 Tipo=9
 WAV=0
-StaRequerido=5
+StaRequerido=5000
 IconoIndex=74692
 Target=4
 CdEffectId=14
@@ -2794,7 +2787,7 @@ NoWiki=1
 [HECHIZO252]
 Nombre=Eco Veloz
 Desc=Concede un impulso temporal a la velocidad de movimiento a medida que los ecos potencian al personaje, impulsándolo hacia adelante.
-PalabrasMagicas=Eco Veloz
+PalabrasMagicas=
 HechizeroMsg=Has iniciado el Eco Veloz
 TargetMsg=
 PropioMsg=Has iniciado el Eco Veloz.
@@ -2805,7 +2798,7 @@ en_TargetMsg=
 en_PropioMsg=
 Tipo=2
 WAV=0
-StaRequerido=5
+StaRequerido=5000
 IconoIndex=74725
 Target=1
 ManaRequerido=50
@@ -2930,7 +2923,7 @@ WAV=1111
 FXgrh=0
 MinSkill=85
 ManaRequerido=450
-StaRequerido=5
+StaRequerido=5000
 TimeParticula=0
 IconoIndex=74696
 Target=3
@@ -2955,7 +2948,7 @@ TimeParticula=0
 IconoIndex=74705
 Target=1
 Cooldown=20
-StaRequerido=5
+StaRequerido=5000
 RequireTargetOnLand=1
 CdEffectId=27
 EOTID=30
@@ -2980,7 +2973,7 @@ RequireTargetOnLand=1
 Target=1
 Cooldown=20
 CdEffectId=28
-StaRequerido=5
+StaRequerido=5000
 EOTID=31
 CancelActiveEffect=1
 IsBindable=1
@@ -3109,7 +3102,7 @@ NoWiki=1
 [HECHIZO265]
 Nombre=Desplazamiento Veloz
 Desc=Aceleras tu movimientos por unos segundos
-PalabrasMagicas=Desplazamiento Veloz
+PalabrasMagicas=
 HechizeroMsg=
 TargetMsg=
 PropioMsg=
@@ -3127,7 +3120,6 @@ CdEffectId=34
 EOTID=35
 IsBindable=1
 NoWiki=1
-
 
 [HECHIZO266]
 Nombre=Desgarro
@@ -3337,7 +3329,7 @@ NoWiki=1
 [HECHIZO274]
 Nombre=Afilar
 Desc=Aumenta el filo de tu arma
-PalabrasMagicas=Desplazamiento Veloz
+PalabrasMagicas=
 HechizeroMsg=
 TargetMsg=
 PropioMsg=
@@ -3345,7 +3337,7 @@ Tipo=2
 autolanzar=1
 WAV=0
 FXgrh=0
-StaRequerido=5
+StaRequerido=5000
 TimeParticula=0
 IconoIndex=74718
 Target=1
@@ -3359,7 +3351,7 @@ NoWiki=1
 [HECHIZO275]
 Nombre=Afilar Avanzado
 Desc=Aumenta el filo de tu arma
-PalabrasMagicas=Afilar Avanzado
+PalabrasMagicas=
 HechizeroMsg=
 TargetMsg=
 PropioMsg=
@@ -3367,7 +3359,7 @@ Tipo=2
 autolanzar=1
 WAV=0
 FXgrh=0
-StaRequerido=5
+StaRequerido=5000
 TimeParticula=0
 IconoIndex=74718
 Target=1
@@ -3377,7 +3369,6 @@ EOTID=50
 IsSkill=1
 IsBindable=1
 NoWiki=1
-
 
 [HECHIZO276]
 Nombre=Afilar Superior
@@ -3811,7 +3802,7 @@ EOTID=61
 
 
 ' === Hechizo 295: Detectar Personajes (configurable) ===
-[HECHIZO295]
+[HECHIZO400]
 Nombre=Detectar Personajes
 Desc=Revela en el minimapa la posicion de los personajes del mapa segun la mascara configurada durante 30 segundos.
 PalabrasMagicas=DTC PERS EN
@@ -3841,7 +3832,7 @@ DetectaCrimi=1
 DetectaImpe=1
 DetectaCaos=1
 
-[HECHIZO296]
+[HECHIZO401]
 Nombre=Dardo de Veneno Menor
 Desc=Envenena al objetivo con Veneno Menor. TOGGLE26 test.
 PalabrasMagicas=DRD MEN
@@ -3874,7 +3865,7 @@ FactorPvP=1
 FactorPvE=1
 NoWiki=1
 
-[HECHIZO297]
+[HECHIZO402]
 Nombre=Dardo de Hemotoxina
 Desc=Aplica Hemotoxina al objetivo (1 stack inicial). TOGGLE26 test.
 PalabrasMagicas=DRD HEM
@@ -3914,7 +3905,7 @@ FactorPvP=1
 FactorPvE=1
 NoWiki=1
 
-[HECHIZO298]
+[HECHIZO403]
 Nombre=Dardo de Neurotoxina
 Desc=Aplica Neurotoxina al objetivo (debuff de combate). TOGGLE26 test.
 PalabrasMagicas=DRD NEU
@@ -3948,7 +3939,7 @@ FactorPvP=1
 FactorPvE=1
 NoWiki=1
 
-[HECHIZO299]
+[HECHIZO404]
 Nombre=Purificacion
 Desc=Limpia todos los venenos del objetivo. TOGGLE26.
 PalabrasMagicas=PUR VEN
@@ -3973,7 +3964,7 @@ IconoIndex=35684
 TipoHechizoVeneno=2
 NoWiki=1
 
-[HECHIZO300]
+[HECHIZO405]
 Nombre=Envenenar Arma con Veneno Menor
 Desc=Unta el arma envenenable del objetivo con Veneno Menor. 10 cargas, 60s max. TOGGLE26.
 PalabrasMagicas=UNT ARM MEN
@@ -4010,7 +4001,7 @@ FactorPvP=1
 FactorPvE=1
 NoWiki=1
 
-[HECHIZO301]
+[HECHIZO406]
 Nombre=Envenenar Arma con Hemotoxina
 Desc=Unta el arma envenenable del objetivo con Hemotoxina. 10 cargas, 60s max. TOGGLE26.
 PalabrasMagicas=UNT ARM HEM
@@ -4054,7 +4045,7 @@ FactorPvP=1
 FactorPvE=1
 NoWiki=1
 
-[HECHIZO302]
+[HECHIZO407]
 Nombre=Envenenar Arma con Neurotoxina
 Desc=Unta el arma envenenable del objetivo con Neurotoxina. 10 cargas, 60s max. TOGGLE26.
 PalabrasMagicas=UNT ARM NEU
@@ -4092,7 +4083,7 @@ FactorPvP=1
 FactorPvE=1
 NoWiki=1
 
-[HECHIZO303]
+[HECHIZO408]
 Nombre=Curar Veneno Menor
 Desc=Cura Veneno Menor del objetivo. TOGGLE26 test.
 PalabrasMagicas=CUR MEN
@@ -4115,7 +4106,7 @@ IconoIndex=32431
 CuraVenenoMenor=1
 NoWiki=1
 
-[HECHIZO304]
+[HECHIZO409]
 Nombre=Curar Hemotoxina
 Desc=Cura Hemotoxina del objetivo. TOGGLE26 test.
 PalabrasMagicas=CUR HEM
@@ -4138,7 +4129,7 @@ IconoIndex=32431
 CuraHemotoxina=1
 NoWiki=1
 
-[HECHIZO305]
+[HECHIZO410]
 Nombre=Curar Neurotoxina
 Desc=Cura Neurotoxina del objetivo. TOGGLE26 test.
 PalabrasMagicas=CUR NEU
@@ -4161,7 +4152,7 @@ IconoIndex=32431
 CuraNeurotoxina=1
 NoWiki=1
 
-[HECHIZO306]
+[HECHIZO411]
 Nombre=Antidoto Combinado
 Desc=Cura Veneno Menor, Hemotoxina y Neurotoxina del objetivo. TOGGLE26 test.
 PalabrasMagicas=ANT COM
@@ -4186,7 +4177,7 @@ CuraHemotoxina=1
 CuraNeurotoxina=1
 NoWiki=1
 
-[HECHIZO307]
+[HECHIZO412]
 Nombre=Auto-Envenenar Neuro Test
 Desc=Self-cast: te aplicas Neurotoxina. Solo para test TOGGLE26.
 PalabrasMagicas=AUTO NEU
@@ -4216,4 +4207,2266 @@ RegenManaReduccionPct=50
 FactorPvP=1
 FactorPvE=1
 NoWiki=1
+
+' =====================================================================
+' Hechizos reconstruidos del localindex oficial (Steam 2026-06-08).
+' El repo publico de ao-org no incluye su logica server (capado).
+' Campos de combate ausentes => el hechizo no hace efecto hasta completar.
+' Plan 10.001 Fase 3, batch hechizos.
+' =====================================================================
+[HECHIZO28] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Aturdir
+Desc=Evita que el usuario se mueva durante 15 segundos. Si la víctima es un NPC, el efecto dura 90 segundos.
+PalabrasMagicas=Är Stu'n suo
+HechizeroMsg=Has aturdido a
+TargetMsg=te ha aturdido.
+Tipo=2
+Target=3
+TargetEffectType=2
+ManaRequerido=300
+StaRequerido=75
+MinSkill=60
+WAV=2627
+Fxgrh=56
+Loops=0
+IconoIndex=32417
+en_Nombre=Stun
+en_Desc=Prevents the user from moving for 15 seconds. If the victim is an NPC, the effect lasts 90 seconds.
+en_HechizeroMsg=You stun
+en_TargetMsg=You have been stunned by
+pt_Nombre=Atordoar
+pt_Desc=Impede o usuário de se mover por 15 segundos. Se a vítima for um PNJ, o efeito dura 90 segundos.
+pt_HechizeroMsg=Você surpreendeu
+pt_TargetMsg=surpreendeu você.
+fr_Nombre=Étourdir
+fr_Desc=Il empêche l'utilisateur de se déplacer pendant 15 secondes. Si la victime est un PNJ, l'effet dure 90 secondes.
+fr_HechizeroMsg=Vous avez stupéfait
+fr_TargetMsg=Cela vous a stupéfait.
+it_Nombre=Stordire
+it_Desc=Impedisce all'utente di spostarsi per 15 secondi. Se la vittima è un NPC, l'effetto dura 90 secondi.
+it_HechizeroMsg=Sei sbalordito a
+it_TargetMsg=Ti ha sbalordito.
+
+[HECHIZO29] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Devolver Movilidad
+Desc=Remueve la parálisis o inmovilización.
+PalabrasMagicas=AN HOAX VORP
+HechizeroMsg=Le has removido la parálisis a
+TargetMsg=te ha removido la parálisis.
+PropioMsg=Te has removido la parálisis.
+Tipo=2
+Target=3
+TargetEffectType=1
+ManaRequerido=250
+StaRequerido=70
+MinSkill=45
+WAV=110
+Loops=0
+IconoIndex=35723
+en_Nombre=Return Mobility
+en_Desc=Removes Paralyze or Immobilize.
+en_HechizeroMsg=You've healed  of their paralysis.
+en_TargetMsg=has healed you of your paralysis.
+pt_Nombre=Mobilidade de Retorno
+pt_Desc=Remove paralisia ou imobilização.
+pt_HechizeroMsg=Você removeu a paralisia de
+pt_TargetMsg=removeu sua paralisia.
+fr_Nombre=Retourner la mobilité
+fr_Desc=Supprimer la paralysie ou l'immobilisation.
+fr_HechizeroMsg=Vous avez supprimé la paralysie pour
+fr_TargetMsg=La paralysie a supprimé.
+it_Nombre=Restituzione della mobilità
+it_Desc=Rimuovere la paralisi o l'immobilizzazione.
+it_HechizeroMsg=Hai rimosso la paralisi a
+it_TargetMsg=La paralisi è rimossa.
+
+[HECHIZO30] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Invisibilidad
+Desc=Vuelve invisible al objetivo. Efecto no permanente.
+HechizeroMsg=Has lanzado Invisibilidad sobre
+TargetMsg=lanzó Invisibilidad sobre vos.
+PropioMsg=Te has vuelto invisible.
+Tipo=2
+Target=1
+TargetEffectType=1
+ManaRequerido=350
+StaRequerido=200
+MinSkill=87
+WAV=16
+IconoIndex=35734
+en_Nombre=Invisibility
+en_Desc=Makes the target invisible. This effect isn't permanent.
+en_HechizeroMsg=You casted Invisibility on
+en_TargetMsg=casted Invisibility on you.
+pt_Nombre=Invisibilidade
+pt_Desc=Torna o alvo invisível. Efeito não permanente.
+pt_HechizeroMsg=Você lançou Invisibilidade em
+pt_TargetMsg=lançou Invisibilidade em você.
+fr_Nombre=Invisibilité
+fr_Desc=Il devient invisible pour la cible. Effet non permanent.
+fr_HechizeroMsg=Vous avez lancé l'invisibilité sur
+fr_TargetMsg=Il a lancé l'invisibilité sur vous.
+it_Nombre=Invisibilità
+it_Desc=Diventa invisibile al bersaglio. Effetto non permanente.
+it_HechizeroMsg=Hai lanciato l'invisibilità su
+it_TargetMsg=Ha lanciato l'invisibilità su di te.
+
+[HECHIZO31] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Curar Heridas Criticas
+Desc=Restaura entre 50 y 65 puntos de vida al usuario que selecciones
+PalabrasMagicas=MAX CORP SANCTIS
+HechizeroMsg=Has curado criticamente a
+TargetMsg=te ha curado criticamente
+PropioMsg=Te has curado criticamente.
+Tipo=1
+SubeHP=1
+MinHP=50
+MaxHP=65
+Target=3
+TargetEffectType=1
+ManaRequerido=100
+StaRequerido=55
+MinSkill=65
+WAV=18
+Fxgrh=107
+Loops=0
+IconoIndex=32431
+en_Nombre=Heal Serious Wounds
+en_Desc=Restores between 50 and 65 health points to the user you select
+en_HechizeroMsg=You have critically healed
+en_TargetMsg=has healed you critically
+pt_Nombre=Curar Feridas Críticas
+pt_Desc=Restaura entre 50 e 65 pontos de saúde ao usuário selecionado.
+pt_HechizeroMsg=Você curou criticamente
+pt_TargetMsg=te curou criticamente
+fr_Nombre=Guérir les blessures critiques
+fr_Desc=Restaurez l'utilisateur que vous sélectionnez entre 50 et 65 points de vie
+fr_HechizeroMsg=Vous avez guéri de manière critique
+fr_TargetMsg=vous a guéri de manière critique
+it_Nombre=Guarire ferite critiche
+it_Desc=Ripristina l'utente che selezioni tra 50 e 65 punti di vita
+it_HechizeroMsg=Hai curato criticamente
+it_TargetMsg=Ti ha guarito in modo critico
+
+[HECHIZO33] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Invocar Momia
+Desc=¡Canaliza la magia necromántica de los antiguos Faraones! Invoca una Momia que peleará por tí.
+PalabrasMagicas=Ankhet Mortuum
+PropioMsg=Has invocado una Momia
+Tipo=4
+Target=4
+ManaRequerido=400
+StaRequerido=180
+MinSkill=55
+WAV=932
+Fxgrh=0
+Loops=0
+IconoIndex=74737
+IsBindable=1
+en_Nombre=Summon Mummy
+en_Desc=Channel the necromantic magic of the ancient Pharaohs! Summon a Mummy to fight for you.
+pt_Nombre=Invocar Múmia
+pt_Desc=Canalize a magia necromântica dos antigos faraós! Invoque uma múmia para lutar por você.
+fr_Nombre=Invoquer Maman
+fr_Desc=Invoquez la magie nécromantique des anciens pharaons ! Invoquez une momie qui combattra pour vous.
+it_Nombre=Evoca la Mummia
+it_Desc=Sfrutta la magia necromantica degli antichi faraoni! Evoca una mummia che combatterà per te.
+
+[HECHIZO34] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Celeridad Mayor
+Desc=Aumenta entre 3 y 9 puntos la agilidad del objetivo.
+PalabrasMagicas=YUP A INC
+HechizeroMsg=Has lanzado Celeridad sobre
+TargetMsg=ha lanzado Celeridad sobre ti.
+PropioMsg=Has lanzado Celeridad sobre ti.
+Tipo=1
+Target=1
+TargetEffectType=1
+ManaRequerido=60
+StaRequerido=80
+MinSkill=75
+WAV=17
+Fxgrh=0
+Loops=0
+IconoIndex=35754
+en_Nombre=Major Celerity
+en_Desc=Increases between 3 and 9 points the agility of the target.
+en_HechizeroMsg=You casted Celerity on
+en_TargetMsg=has casted Celerity on you.
+pt_Nombre=Celeridade Maior
+pt_Desc=Aumenta a agilidade do alvo em 3 a 9 pontos.
+pt_HechizeroMsg=Você lançou Celeridade em
+pt_TargetMsg=lançou Celeridade em você.
+fr_Nombre=Vitesse Majeure
+fr_Desc=Augmenter entre 3 et 9 points l'agilité de l'objectif.
+fr_HechizeroMsg=Vous avez libéré la vitesse
+fr_TargetMsg=Il a lancé la vitesse sur vous.
+it_Nombre=Velocità Maggiore
+it_Desc=Aumentare tra 3 e 9 punti l'agilità dell'obiettivo.
+it_HechizeroMsg=Hai rilasciato la velocità
+it_TargetMsg=Ha lanciato la velocità su di te.
+
+[HECHIZO35] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Fuerza Mayor
+Desc=Aumenta entre 3 y 6 puntos la fuerza del objetivo.
+PalabrasMagicas=Ar A kron
+HechizeroMsg=Has lanzado Fuerza sobre
+TargetMsg=ha lanzado Fuerza sobre ti.
+PropioMsg=Has lanzado Fuerza sobre ti.
+Tipo=1
+Target=1
+TargetEffectType=1
+ManaRequerido=55
+StaRequerido=70
+MinSkill=70
+WAV=112
+Fxgrh=0
+Loops=0
+IconoIndex=32436
+en_Nombre=Major Strength
+en_Desc=Increases between 3 and 6 points the strength of the target.
+en_HechizeroMsg=You casted Strength on
+en_TargetMsg=has casted Strength on you.
+pt_Nombre=Força Maior
+pt_Desc=Aumenta a força do alvo em 3 a 6 pontos.
+pt_HechizeroMsg=Você lançou Força em
+pt_TargetMsg=lançou Força sobre você.
+fr_Nombre=Force Majeure
+fr_Desc=La force de la cible augmente entre 3 et 6 points.
+fr_HechizeroMsg=Vous avez libéré la force sur
+fr_TargetMsg=Il vous a libéré la force.
+it_Nombre=Forza Maggiore
+it_Desc=La forza del bersaglio aumenta tra 3 e 6 punti.
+it_HechizeroMsg=Hai rilasciato la forza
+it_TargetMsg=Ha rilasciato forza su di te.
+
+[HECHIZO36] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Invocar Gorila
+Desc=¡La naturaleza te ayuda! Un Gorila de Bosque combatirá para ti.
+PalabrasMagicas=Urku Banô Thar
+PropioMsg=Has invocado un Gorila
+Tipo=4
+Target=4
+ManaRequerido=475
+StaRequerido=220
+MinSkill=63
+WAV=3
+Fxgrh=0
+Loops=0
+IconoIndex=74738
+IsBindable=1
+en_Nombre=Summon Gorilla
+en_Desc=Nature helps you! A Forest Gorilla will fight for you.
+pt_Nombre=Invocar Gorila
+pt_Desc=A natureza te ajuda! Um gorila da floresta lutará por você.
+fr_Nombre=Invoquer un Gorille
+fr_Desc=La nature vous aide ! Un gorille des forêts se battra pour vous.
+it_Nombre=Evoca Gorilla
+it_Desc=La natura ti aiuta! Un gorilla della foresta combatterà per te.
+
+[HECHIZO37] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Celeridad Menor
+Desc=Aumenta entre 1 y 3 puntos la agilidad del objetivo.
+PalabrasMagicas=YUP A INC
+HechizeroMsg=Has lanzado Celeridad sobre
+TargetMsg=ha lanzado Celeridad sobre ti.
+PropioMsg=Has lanzado Celeridad sobre ti.
+Tipo=1
+Target=1
+TargetEffectType=1
+ManaRequerido=30
+StaRequerido=25
+MinSkill=40
+WAV=17
+Fxgrh=0
+Loops=0
+IconoIndex=35754
+en_Nombre=Minor Celerity
+en_Desc=Increases between 1 and 3 points the agility of the target.
+en_HechizeroMsg=You casted Celerity on
+en_TargetMsg=has casted Celerity on you.
+pt_Nombre=Celeridade Menor
+pt_Desc=Aumenta a agilidade do alvo em 1 a 3 pontos.
+pt_HechizeroMsg=Você lançou Celeridade em
+pt_TargetMsg=lançou Celeridade em você.
+fr_Nombre=Vitesse Mineure
+fr_Desc=Augmente entre 1 et 3 points l'agilité de l'objectif.
+fr_HechizeroMsg=Vous avez libéré la vitesse
+fr_TargetMsg=Il a lancé la vitesse sur vous.
+it_Nombre=Velocità Minore
+it_Desc=Aumenta tra 1 e 3 punti l'agilità dell'obiettivo.
+it_HechizeroMsg=Hai rilasciato la velocità
+it_TargetMsg=Ha lanciato la velocità su di te.
+
+[HECHIZO38] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Fuerza Menor
+Desc=Aumenta entre 1 y 2 puntos la fuerza del objetivo.
+PalabrasMagicas=Ar A kron
+HechizeroMsg=Has lanzado Fuerza sobre
+TargetMsg=ha lanzado Fuerza sobre ti.
+PropioMsg=Has lanzado Fuerza sobre ti.
+Tipo=1
+Target=1
+TargetEffectType=1
+ManaRequerido=25
+StaRequerido=20
+MinSkill=35
+WAV=112
+Fxgrh=0
+Loops=0
+IconoIndex=32436
+en_Nombre=Minor Strength
+en_Desc=Increases between 1 and 2 points the strength of the target.
+en_HechizeroMsg=You casted Strength on
+en_TargetMsg=has casted Strength on you.
+pt_Nombre=Força Menor
+pt_Desc=Aumenta a força do alvo em 1 a 2 pontos.
+pt_HechizeroMsg=Você lançou Força sobre si mesmo.
+pt_TargetMsg=lançou Força sobre você.
+fr_Nombre=Force Mineure
+fr_Desc=La force de la cible augmente entre 1 et 2 points.
+fr_HechizeroMsg=Vous avez libéré la force sur
+fr_TargetMsg=Il vous a libéré la force.
+it_Nombre=Forza Minore
+it_Desc=La forza del bersaglio aumenta tra 1 e 2 punti.
+it_HechizeroMsg=Hai rilasciato la forza
+it_TargetMsg=Ha rilasciato forza su di te.
+
+[HECHIZO39] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Ascua Fugaz
+Desc=Causa 35 a 45 puntos de daño a la víctima.
+PalabrasMagicas=TOR VAX EK
+HechizeroMsg=Has lanzado Ascua Fugaz sobre
+TargetMsg=lanzó Ascua Fugaz sobre ti.
+Tipo=1
+SubeHP=2
+MinHP=35
+MaxHP=45
+Target=1
+TargetEffectType=2
+ManaRequerido=85
+StaRequerido=40
+MinSkill=45
+WAV=159
+Fxgrh=21
+IconoIndex=35688
+en_Nombre=Fleeting Ember
+en_Desc=Deals 35 to 45 hit points to the victim.
+en_HechizeroMsg=You have cast Fleeting Ember on
+en_TargetMsg=cast Fleeting Ember on you.
+pt_Nombre=Brasa Fugaz
+pt_Desc=Causa de 35 a 45 pontos de dano à vítima.
+pt_HechizeroMsg=Você lançou Brasa Fugaz em
+pt_TargetMsg=lançar Brasa Fugaz em você.
+fr_Nombre=Braise fugace
+fr_Desc=Causer 35 à 45 points de dommage à la victime.
+fr_HechizeroMsg=Vous avez lancé Braise fugace sur
+fr_TargetMsg=lance Braise fugace sur toi.
+it_Nombre=Brace fugace
+it_Desc=Causare da 35 a 45 punti di danno alla vittima.
+it_HechizeroMsg=Hai lanciato Brace fugace su
+it_TargetMsg=lancia su di te la Brace fugace.
+
+[HECHIZO40] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Resplandor Igneo
+Desc=Causa 45 a 55 puntos de daño al objetivo que selecciones.
+PalabrasMagicas=FLAMMA RUM LUX
+HechizeroMsg=Has lanzado Resplandor Igneo sobre
+TargetMsg=lanzó Resplandor Igneo sobre vos.
+Tipo=1
+SubeHP=2
+MinHP=45
+MaxHP=55
+Target=3
+TargetEffectType=2
+ManaRequerido=150
+StaRequerido=70
+MinSkill=60
+WAV=2628
+Fxgrh=101
+Loops=0
+IconoIndex=35691
+en_Nombre=Fiery Radiance
+en_Desc=Causes 45 to 55 hit points to the objective
+en_HechizeroMsg=You casted Fiery Glow on
+en_TargetMsg=casted Fiery Glow on you.
+pt_Nombre=Brilho Ardente
+pt_Desc=Causa de 45 a 55 pontos de dano ao alvo selecionado.
+pt_HechizeroMsg=Você lançou Brilho Ardiente em
+pt_TargetMsg=lançou Brilho Ardente em você.
+fr_Nombre=Igneo Glow
+fr_Desc=Cause 45 à 55 points de dégâts à la cible.
+fr_HechizeroMsg=Vous avez libéré l'éclat
+fr_TargetMsg=Il a lancé Glow sur vous.
+it_Nombre=Igmeo bagliore
+it_Desc=Causare da 45 a 55 punti di danno al bersaglio.
+it_HechizeroMsg=Hai rilasciato Glow
+it_TargetMsg=Ha lanciato Glow Over You.
+
+[HECHIZO47] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Invocar Pixie Sagrada
+Desc=Invoca la forma física de una Pixie Sagrada.
+PalabrasMagicas=Pix Sacred Rax
+PropioMsg=Has invocado una pixie sagrada.
+Tipo=4
+Target=4
+ManaRequerido=1030
+StaRequerido=300
+MinSkill=80
+WAV=927
+Fxgrh=0
+Loops=0
+IsBindable=1
+en_Nombre=Summon Sacred Pixie
+en_Desc=Summon the physical form of a Sacred Pixie.
+pt_Nombre=Invocar Pixie Sagrada
+pt_Desc=Invoca a forma física de uma Pixie Sagrada.
+fr_Nombre=Invoquer la Pixie sacrée
+fr_Desc=Invoque la forme physique d'une Pixie sacrée.
+it_Nombre=Invocare la Pixie Sacra
+it_Desc=Invoca la forma fisica di una Pixie Sacra.
+
+[HECHIZO48] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Invocar Goblin
+Desc=Invoca un aguerrido Goblin para que luche a tu lado.
+PalabrasMagicas=Grimtäk Sil
+PropioMsg=Has invocado un Goblin
+Tipo=4
+Target=4
+ManaRequerido=150
+StaRequerido=50
+MinSkill=30
+WAV=931
+Fxgrh=0
+Loops=0
+IconoIndex=74717
+IsBindable=1
+en_Nombre=Summon Goblin
+en_Desc=Summon a fierce Goblin to fight by your side.
+pt_Nombre=Invocar Goblin
+pt_Desc=Invoque um Goblin feroz para lutar ao seu lado.
+fr_Nombre=Invoquer un Gobelin
+fr_Desc=Invoquez un gobelin féroce pour combattre à vos côtés.
+it_Nombre=Evoca Goblin
+it_Desc=Evoca un feroce Goblin che combatterà al tuo fianco.
+
+[HECHIZO49] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Testeo Descarga Semimagicas
+Desc=Causa de 70 a 76 puntos de daño sobre la víctima.
+ManaRequerido=460
+MinSkill=85
+HechizeroMsg=Has lanzado Impacto Final sobre
+Cooldown=0
+IconoIndex=35713
+PalabrasMagicas=IM PAX
+PropioMsg=Has lanzado Impacto Final sobre ti.
+StaRequerido=100
+TargetMsg=lanzó Impacto Final sobre vos.
+en_Nombre=tESTING sPELL
+en_Desc=Causes 70 to 76 hit points to the target.
+en_HechizeroMsg=You
+en_PropioMsg=You casted Final Impact on yourself.
+en_TargetMsg=has casted Final Impact on you.
+pt_Desc=Causa de 70 a 76 pontos de dano à vítima.
+pt_HechizeroMsg=Você lançou o impacto final em
+pt_PropioMsg=Você lançou o impacto final em você.
+pt_TargetMsg=Ele lançou o impacto final em você.
+fr_Desc=Cause de 70 à 76 points de dégâts à la victime.
+fr_HechizeroMsg=Vous avez lancé un impact final sur
+fr_PropioMsg=Vous avez lancé l
+fr_TargetMsg=Il a lancé l
+it_Desc=Causa da 70 a 76 punti di danno alla vittima.
+it_HechizeroMsg=Hai lanciato l
+it_PropioMsg=Hai lanciato l
+it_TargetMsg=Ha lanciato l
+
+[HECHIZO50] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Impacto Eléctrico
+Desc=Causa de 70 a 76 puntos de daño sobre la víctima.
+PalabrasMagicas=IM PAX RA
+HechizeroMsg=Has lanzado Impacto Eléctrico sobre
+TargetMsg=lanzó Impacto Eléctrico sobre vos.
+PropioMsg=Has lanzado Impacto Eléctrico sobre ti.
+Tipo=1
+SubeHP=2
+MinHP=70
+MaxHP=76
+Target=3
+TargetEffectType=2
+ManaRequerido=460
+StaRequerido=120
+MinSkill=85
+WAV=113
+Loops=0
+IconoIndex=35713
+en_Nombre=Electric Impact
+en_Desc=Causes 70 to 76 hit points to the target.
+en_HechizeroMsg=You've casted Electric Impact on
+en_TargetMsg=has casted Electric Impact on you.
+pt_Nombre=Impacto Elétrico
+pt_Desc=Causa de 70 a 76 pontos de dano à vítima.
+pt_HechizeroMsg=Você lançou Impacto Elétrico em
+pt_TargetMsg=lançou Impacto Elétrico em você.
+fr_Nombre=Impact électrique
+fr_Desc=Cause de 70 à 76 points de dégâts à la victime.
+fr_HechizeroMsg=Vous avez lancé un impact électrique sur
+fr_TargetMsg=Il a lancé un impact électrique sur vous.
+it_Nombre=Impatto elettrico
+it_Desc=Causa da 70 a 76 punti di danno alla vittima.
+it_HechizeroMsg=Hai lanciato un impatto elettrico su
+it_TargetMsg=Ha lanciato un impatto elettrico su di te.
+
+[HECHIZO59] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Rayo Elemental
+Desc=Causa de 77 a 83 puntos de daño sobre la víctima.
+PalabrasMagicas=LEMENTA RAY
+HechizeroMsg=Has lanzado Rayo Elemental sobre
+TargetMsg=lanzó Rayo Elemental sobre vos.
+Tipo=1
+SubeHP=2
+MinHP=77
+MaxHP=83
+Target=3
+TargetEffectType=2
+ManaRequerido=600
+StaRequerido=135
+MinSkill=87
+WAV=113
+Fxgrh=104
+IconoIndex=32423
+en_Nombre=Elemental Ray
+en_Desc=Causes 77 to 83 hit points to the target.
+en_HechizeroMsg=You've casted Elemental Ray on
+en_TargetMsg=has casted Elemental Ray on you.
+pt_Nombre=Raio Elemental
+pt_Desc=Causa de 77 a 83 pontos de dano à vítima.
+pt_HechizeroMsg=Você lançou Raio Elemental em
+pt_TargetMsg=lançou Raio Elemental em você.
+fr_Nombre=Rayon élémentaire
+fr_Desc=Cause de 77 à 83 points de dégâts à la victime.
+fr_HechizeroMsg=Vous avez publié le rayon élémentaire sur
+fr_TargetMsg=Il a libéré le rayon élémentaire sur vous.
+it_Nombre=Raggio elementare
+it_Desc=Causa da 77 a 83 punti di danno alla vittima.
+it_HechizeroMsg=Hai rilasciato il raggio elementare
+it_TargetMsg=Ha rilasciato un raggio elementare su di te.
+
+[HECHIZO60] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Magia de Humana No-Muerta
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35713
+StaRequerido=0
+TargetMsg=lanzó Oración Maldita sobre vos.
+en_Nombre=Undead Human Magic
+en_TargetMsg=cast Cursed Prayer on you.
+pt_TargetMsg=Ele lançou maldita oração para você.
+fr_TargetMsg=Il a lancé une putain de prière sur vous.
+it_TargetMsg=Ha lanciato una dannatamente preghiera su di te.
+
+[HECHIZO61] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Eco Ígneo (NPC)
+Desc=Causa de 35 a 45 puntos de daño a la víctima.
+PalabrasMagicas=MAGNIS X AR
+HechizeroMsg=Has lanzado Eco Ígneo sobre
+TargetMsg=lanzó Eco Ígneo sobre vos.
+PropioMsg=Has lanzado un Eco Ígneo sobre ti.
+Tipo=1
+SubeHP=2
+MinHP=35
+MaxHP=45
+Target=2
+TargetEffectType=2
+ManaRequerido=80
+StaRequerido=55
+MinSkill=63
+WAV=448
+Fxgrh=0
+Loops=0
+IconoIndex=74724
+IsBindable=1
+en_Nombre=Fire Echo (NPC)
+en_Desc=Causes from 35 to 45 hit points to the target.
+en_HechizeroMsg=You have cast Fire Echo on
+en_TargetMsg=launched Echo of Fire on you.
+pt_Nombre=Eco Ígneo (NPC)
+pt_Desc=Causa de 35 a 45 pontos de dano à vítima.
+pt_HechizeroMsg=Você lançou um eco ígneo
+pt_TargetMsg=Ele lançou um eco ígneo em você.
+fr_Nombre=Igneo echo (npc)
+fr_Desc=Cause de 35 à 45 points de dégâts à la victime.
+fr_HechizeroMsg=Vous avez lancé un écho igné
+fr_TargetMsg=Il vous a lancé un écho igné.
+it_Nombre=Igneo echo (NPC)
+it_Desc=Causa da 35 a 45 punti di danno alla vittima.
+it_HechizeroMsg=Hai lanciato un'eco ignea
+it_TargetMsg=Ha lanciato un'eco ignea su di te.
+
+[HECHIZO62] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Destello Malva (NPC)
+Desc=Causa de 40 a 45 puntos de daño a la víctima.
+PalabrasMagicas=LÜX MÄLV
+HechizeroMsg=Has lanzado Destello Malva sobre
+TargetMsg=lanzó Destello Malva sobre vos.
+PropioMsg=Has lanzado un Destello Malva sobre ti.
+Tipo=1
+SubeHP=2
+MinHP=40
+MaxHP=45
+Target=2
+TargetEffectType=2
+ManaRequerido=90
+StaRequerido=60
+MinSkill=67
+WAV=448
+Fxgrh=0
+Loops=0
+IconoIndex=35696
+IsBindable=1
+en_Nombre=Mauve Flash (NPC)
+en_Desc=Causes from 40 to 45 hit points to the target.
+en_HechizeroMsg=You have cast Mauve Flash on
+en_TargetMsg=cast Mauve Flash upon you.
+pt_Nombre=Brilho Malva (NPC)
+pt_Desc=Causa de 40 a 45 pontos de dano à vítima.
+pt_HechizeroMsg=Você lançou o Malva Flash
+pt_TargetMsg=Ele lançou Malva Flash em você.
+fr_Nombre=Malva Flash (NPC)
+fr_Desc=Cause de 40 à 45 points de dégâts à la victime.
+fr_HechizeroMsg=Vous avez lancé Malva Flash sur
+fr_TargetMsg=Il a lancé Malva Flash sur vous.
+it_Nombre=Malva Flash (NPC)
+it_Desc=Causa da 40 a 45 punti di danno alla vittima.
+it_HechizeroMsg=Hai lanciato Malva Flash su
+it_TargetMsg=Ha lanciato Malva Flash su di te.
+
+[HECHIZO63] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Fractura Glacial (NPC)
+Desc=Causa de 45 a 50 puntos de daño a la víctima.
+PalabrasMagicas=GLÄC X FRÄCT
+HechizeroMsg=Has lanzado Fractura Glacial sobre
+Tipo=1
+SubeHP=2
+MinHP=45
+MaxHP=50
+Target=2
+TargetEffectType=2
+ManaRequerido=100
+StaRequerido=65
+MinSkill=73
+WAV=448
+Fxgrh=109
+Loops=0
+IconoIndex=74726
+IsBindable=1
+en_Nombre=Glacial Fracture (NPC)
+en_Desc=Causes from 45 to 50 hit points to the target.
+en_HechizeroMsg=You have cast Glacial Fracture on
+pt_Nombre=Fratura Glacial (NPC)
+pt_Desc=Causa de 45 a 50 pontos de dano à vítima.
+pt_HechizeroMsg=Você iniciou o Fratura Glacial em
+fr_Nombre=Fracture Glaciaire (NPC)
+fr_Desc=Cause de 45 à 50 points de dégâts à la victime.
+fr_HechizeroMsg=Vous avez lancé Fracture Glaciaire sur
+it_Nombre=Frattura Glaciale (NPC)
+it_Desc=Causa da 45 a 50 punti di danno alla vittima.
+it_HechizeroMsg=Hai lanciato Frattura Glaciale su
+
+[HECHIZO64] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Aliento Carmesí (NPC)
+Desc=Causa de 50 a 55 puntos de daño a la víctima.
+ManaRequerido=0
+MinSkill=0
+HechizeroMsg=Has lanzado Aliento Carmesí sobre
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=RÜB X ÄNTH
+StaRequerido=0
+
+[HECHIZO65] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Energía Ancestral (NPC)
+Desc=Causa de 50 a 60 puntos de daño a la víctima.
+ManaRequerido=0
+MinSkill=0
+HechizeroMsg=Has lanzado Energía Ancestral sobre
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=PRÏM VÏR
+PropioMsg=Has lanzado Energía Ancestral sobre ti.
+StaRequerido=0
+TargetMsg=lanzó Energía Ancestral sobre vos.
+
+[HECHIZO66] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Invocar Huargo
+Desc=Invoca la forma física de un lobo para defenderte en combate.
+PropioMsg=Has invocado un Huargo.
+Tipo=4
+Target=4
+ManaRequerido=0
+StaRequerido=170
+MinSkill=0
+WAV=926
+Fxgrh=0
+Loops=0
+IconoIndex=74743
+IsBindable=1
+en_Nombre=Summon Warg
+en_Desc=Summon the physical form of a wolf to defend yourself in combat.
+pt_Nombre=Invocar Warg
+pt_Desc=Invoque a forma física de um lobo para se defender em combate.
+fr_Nombre=Invocation de Warg
+fr_Desc=Invoquez la forme physique d'un loup pour vous défendre au combat.
+it_Nombre=Evoca Warg
+it_Desc=Evoca la forma fisica di un lupo per difenderti in combattimento.
+
+[HECHIZO67] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Invocar Oso Pardo
+Desc=Invoca la forma física de un oso para defenderte en combate.
+PropioMsg=Has invocado un Oso.
+Tipo=4
+Target=4
+ManaRequerido=0
+StaRequerido=170
+MinSkill=0
+WAV=926
+Fxgrh=0
+Loops=0
+IconoIndex=74744
+IsBindable=1
+en_Nombre=Summon Brown Bear
+en_Desc=Summon the physical form of a bear to defend yourself in combat.
+pt_Nombre=Invocar Urso Marrom
+pt_Desc=Invoque a forma física de um urso para se defender em combate.
+fr_Nombre=Invoquer un ours brun
+fr_Desc=Invoquez la forme physique d'un ours pour vous défendre au combat.
+it_Nombre=Evoca l'orso bruno
+it_Desc=Evoca la forma fisica di un orso per difenderti in combattimento.
+
+[HECHIZO68] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Invocar Lobo Huargo
+Desc=Invoca la forma física de un lobo huargo para defenderte en combate.
+PropioMsg=Has invocado un Lobo Huargo.
+Tipo=4
+Target=4
+ManaRequerido=0
+StaRequerido=350
+MinSkill=0
+WAV=926
+Fxgrh=0
+Loops=0
+IconoIndex=74743
+IsBindable=1
+en_Nombre=Summon Dire Wolf
+en_Desc=Summon the physical form of a direwolf to defend yourself in combat.
+pt_Nombre=Convocar Lobo Terrível
+pt_Desc=Invoque a forma física de um lobo gigante para se defender em combate.
+fr_Nombre=Invoquer le loup sinistre
+fr_Desc=Invoquez la forme physique d'un loup-garou pour vous défendre au combat.
+it_Nombre=Evoca il Lupo Terribile
+it_Desc=Evoca la forma fisica di un metalupo per difenderti in combattimento.
+
+[HECHIZO69] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Invocar Ursidae
+Desc=Invoca la forma física de un oso grizzly para defenderte en combate.
+PropioMsg=Has invocado un Ursidae.
+Tipo=4
+Target=4
+ManaRequerido=0
+StaRequerido=350
+MinSkill=0
+WAV=926
+Fxgrh=0
+Loops=0
+IconoIndex=74744
+IsBindable=1
+en_Nombre=Evoca Ursidae
+en_Desc=Summon the physical form of a grizzly bear to defend yourself in combat.
+pt_Nombre=Invocar Ursídeos
+pt_Desc=Invoque a forma física de um urso pardo para se defender em combate.
+fr_Nombre=Invoquer les Ursidae
+fr_Desc=Invoquez la forme physique d'un grizzly pour vous défendre au combat.
+it_Nombre=Evoca Ursidae
+it_Desc=Evoca la forma fisica di un orso grizzly per difenderti in combattimento.
+
+[HECHIZO70] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Invocar Orco
+Desc=Invoca un Orco para que luche a tu lado.
+PalabrasMagicas=Throk Val Gür
+PropioMsg=Has invocado un Orco
+Tipo=4
+Target=4
+ManaRequerido=180
+StaRequerido=80
+MinSkill=40
+WAV=931
+Fxgrh=0
+Loops=0
+IconoIndex=74739
+IsBindable=1
+en_Nombre=Summon Orc
+en_Desc=Summon a Orc to fight alongside you.
+pt_Nombre=Invocar Orc
+pt_Desc=Invoque o orc para lutar ao seu lado.
+fr_Nombre=Invoquer un Orc
+fr_Desc=Invoquez d'un orc pour qu'il combatte à vos côtés.
+it_Nombre=Evoca Orco
+it_Desc=Evoca uno orco che combatterà al tuo fianco.
+
+[HECHIZO71] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO72] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO73] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO74] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO75] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO76] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO77] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO78] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO79] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO80] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO81] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO82] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO83] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO84] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO85] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO86] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO87] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO88] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO89] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO90] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO91] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO92] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO93] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO94] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO95] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO96] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO97] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO98] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO99] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO102] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO103] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO104] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO105] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO106] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO107] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO108] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO109] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO110] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO114] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO115] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO116] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO117] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO118] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO119] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO120] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO123] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO124] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO125] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO126] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO127] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO128] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO129] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO130] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO134] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO135] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO136] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO137] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO138] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO139] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO140] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO143] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO144] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO145] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO146] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO147] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO148] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO149] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO150] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO155] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Invocar Scylla
+Desc=Invoca una Scylla, reina de las aguas malditas, engendro ancestral que devora tanto carne como alma.
+PalabrasMagicas=Scylla Impetum
+PropioMsg=Has invocado una Scylla
+Tipo=4
+Target=4
+ManaRequerido=425
+StaRequerido=225
+MinSkill=63
+WAV=3
+Fxgrh=0
+Loops=0
+IconoIndex=7471
+IsBindable=1
+en_Nombre=Summon Scylla
+en_Desc=Summons a Scylla, queen of the cursed waters, an ancient spawn that devours both flesh and soul.
+pt_Nombre=Invocar Scylla
+pt_Desc=Invoca uma Scylla, rainha das águas amaldiçoadas, uma criatura ancestral que devora carne e alma.
+fr_Nombre=Invoquer Scylla
+fr_Desc=Invoque une Scylla, reine des eaux maudites, une ancienne créature qui dévore à la fois la chair et l'âme.
+it_Nombre=Evoca Scyllaa
+it_Desc=Evoca Scylla, regina delle acque maledette, un'antica creatura che divora sia la carne che l'anima.
+
+[HECHIZO156] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO157] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO158] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO159] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO160] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO161] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO162] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO163] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO164] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO165] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO166] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO167] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO168] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO169] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO170] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO171] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO172] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO173] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO174] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO175] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO176] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO177] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO178] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO179] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO180] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO181] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO182] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO183] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO184] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO185] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO186] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO187] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO188] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO189] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO190] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO191] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO192] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO193] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO194] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO195] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO196] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO197] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO198] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO199] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO222] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Magia del Mago Malvado
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=32408
+PalabrasMagicas=Rahma Nañarak O
+StaRequerido=0
+TargetMsg=lanzó Apocalípsis sobre vos.
+en_Nombre=Evil Magician Spell
+en_TargetMsg=casted Apocalypse on you
+pt_TargetMsg=Ele lançou o Apocalypse em você.
+fr_TargetMsg=Il a lancé Apocalypse sur vous.
+it_TargetMsg=Ha lanciato Apocalypse su di te.
+
+[HECHIZO223] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Tormenta de Fuego (Área)
+Desc=Causa de 50 a 70 puntos de daño sobre la víctima.
+ManaRequerido=0
+MinSkill=0
+HechizeroMsg=Has lanzado Tormenta de Fuego sobre
+Cooldown=0
+IconoIndex=35713
+PalabrasMagicas=EN VAX ON TAR
+PropioMsg=Has lanzado Tormenta de Fuego sobre ti.
+StaRequerido=0
+TargetMsg=lanzó Tormenta de Fuego sobre vos.
+en_Nombre=Firestorm (Área)
+en_Desc=Causes 50 to 70 hit points to the objective
+en_HechizeroMsg=You casted Firestorm on
+en_PropioMsg=You casted Firestorm on yourself.
+en_TargetMsg=casted Firestorm on you.
+pt_Desc=Causa de 50 a 70 pontos de dano à vítima.
+pt_HechizeroMsg=Você jogou o fogo de fogo
+pt_PropioMsg=Você jogou uma tempestade de fogo em você.
+pt_TargetMsg=Ele jogou uma tempestade de fogo sobre você.
+fr_Desc=Cause de 50 à 70 points de dégâts à la victime.
+fr_HechizeroMsg=Vous avez jeté une tempête de feu
+fr_PropioMsg=Vous avez jeté une tempête de feu sur vous.
+fr_TargetMsg=Il a lancé une tempête de feu sur vous.
+it_Desc=Causa da 50 a 70 punti di danno alla vittima.
+it_HechizeroMsg=Hai lanciato la tempesta di fuoco
+it_PropioMsg=Hai lanciato la tempesta di fuoco su di te.
+it_TargetMsg=Ha gettato la tempesta di fuoco su di te.
+
+[HECHIZO224] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO225] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO226] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Invocar Scylla Leviatán
+ManaRequerido=220
+MinSkill=50
+Cooldown=0
+IconoIndex=0
+StaRequerido=60
+en_Nombre=Summon Leviathan Scylla
+
+[HECHIZO227] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Invocar Medusas (NPCS)
+ManaRequerido=220
+MinSkill=50
+Cooldown=0
+IconoIndex=0
+StaRequerido=60
+en_Nombre=Summon Medusa (NPCS)
+
+[HECHIZO295] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Guinevere (RE)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Guinevere, a la batalla con Honor!
+StaRequerido=0
+
+[HECHIZO296] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Guinevere Descarga
+ManaRequerido=460
+MinSkill=85
+Cooldown=0
+IconoIndex=35713
+PalabrasMagicas=T
+StaRequerido=100
+TargetMsg=lanzó Descarga Eléctrica sobre vos.
+en_Nombre=Guinevere Electric Shock
+en_TargetMsg=has casted Electric Discharge on you.
+pt_TargetMsg=Ele lançou choque elétrico em você.
+fr_TargetMsg=Il vous a libéré un choc électrique.
+it_TargetMsg=Ha rilasciato scosse elettriche su di te.
+
+[HECHIZO297] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Alden (RE)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Alden, a la batalla con Honor!
+StaRequerido=0
+
+[HECHIZO298] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Flechas de Alden
+ManaRequerido=30
+MinSkill=20
+Cooldown=0
+IconoIndex=32447
+PalabrasMagicas=REÍ AR
+StaRequerido=5
+TargetMsg=lanzó con su Arco Mágico.
+en_TargetMsg=He launched with his magical arch.
+pt_TargetMsg=Ele lançou com seu arco mágico.
+fr_TargetMsg=Il a lancé avec son arc magique.
+it_TargetMsg=Ha lanciato con il suo arco magico.
+
+[HECHIZO299] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Lyanna (RE)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Lyanna, a la batalla con Honor!
+StaRequerido=0
+
+[HECHIZO300] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Gareth (RE)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Gareth, a la batalla con Honor!
+StaRequerido=0
+
+[HECHIZO301] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Espinas de Gareth
+ManaRequerido=1800
+MinSkill=100
+Cooldown=0
+IconoIndex=35717
+PalabrasMagicas=N
+StaRequerido=250
+TargetMsg=te ha inmovilizado.
+en_Nombre=Gareth
+en_TargetMsg=has immobilized you.
+pt_TargetMsg=Ele imobilizou você.
+fr_TargetMsg=Il vous a immobilisé.
+it_TargetMsg=Ti ha immobilizzato.
+
+[HECHIZO302] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Ignición de Gareth
+ManaRequerido=1500
+MinSkill=100
+Cooldown=0
+IconoIndex=32451
+PalabrasMagicas=REÍ G
+StaRequerido=300
+TargetMsg=te ha incinerado.
+en_Nombre=Gareth Ignition
+en_TargetMsg=has incinerated you.
+pt_TargetMsg=Ele incinerou você.
+fr_TargetMsg=Il vous a incinéré.
+it_TargetMsg=Ti ha incenerito.
+
+[HECHIZO303] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Aliento de Dragón (RE)
+ManaRequerido=1000
+MinSkill=100
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=ÖÄR NÏÄ RÖ
+StaRequerido=300
+TargetMsg=lanzó Aliento de Dragón sobre vos.
+en_Nombre=Dragon
+en_TargetMsg=has casted Dragon
+pt_TargetMsg=Ele lançou o Dragon Breath em você.
+fr_TargetMsg=Il a lancé Dragon Breath sur vous.
+it_TargetMsg=Ti ha lanciato Dragon Breath su di te.
+
+[HECHIZO304] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Fenris (RE)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Fenris, a la batalla con Honor!
+StaRequerido=0
+
+[HECHIZO305] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Sombrio (Fenris)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Lobos, a la batalla con Honor!
+StaRequerido=0
+
+[HECHIZO306] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO307] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO308] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO309] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO310] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO311] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO312] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO313] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO314] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO315] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO316] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO317] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO318] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO319] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+
+[HECHIZO320] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Mago Zephyr
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Zephyr!
+StaRequerido=0
+
+[HECHIZO321] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Druida Lyra
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Lyra!
+StaRequerido=0
+
+[HECHIZO322] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Barda Kaelith
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Kaelith!
+StaRequerido=0
+
+[HECHIZO323] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Clerigo Branok
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Branok!
+StaRequerido=0
+
+[HECHIZO324] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Asesino Roderic
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Roderic!
+StaRequerido=0
+
+[HECHIZO325] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=BandidA Draven
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Draven!
+StaRequerido=0
+
+[HECHIZO326] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Paladin Elarion
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Elarion!
+StaRequerido=0
+
+[HECHIZO327] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Guerrero Thorin
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Thorin!
+StaRequerido=0
+
+[HECHIZO328] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Cazadora Thalindra
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+PalabrasMagicas=¡Thalindra!
+StaRequerido=0
+
+[HECHIZO329] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Grito Sanador (BRANOK)
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35731
+PalabrasMagicas=¡AGH, C
+StaRequerido=0
+en_Nombre=Healing Scream (BRANOK)
+
+[HECHIZO330] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Magia de Branok
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35713
+PalabrasMagicas=T
+StaRequerido=0
+TargetMsg=lanzó una Descarga Eléctrica sobre tí.
+en_Nombre=Branok
+en_TargetMsg=launched an Electric Shock on you.
+pt_TargetMsg=Ele lançou um choque elétrico em você.
+fr_TargetMsg=Il vous a libéré un choc électrique.
+it_TargetMsg=Ha rilasciato una scossa elettrica su di te.
+
+[HECHIZO331] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Magia de Kaelith
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35717
+PalabrasMagicas=SIVIARE DIAMONTO
+StaRequerido=0
+TargetMsg=lanzó su Partitura Maldita
+en_Nombre=Kaelith
+en_TargetMsg=released his Cursed Score
+pt_TargetMsg=lançou sua maldita pontuação
+fr_TargetMsg=a lancé son putain de score
+it_TargetMsg=ha lanciato il suo dannato punteggio
+
+[HECHIZO332] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Magia de Kaelith
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35713
+PalabrasMagicas=T
+StaRequerido=0
+TargetMsg=launched his Electric Shock on you.
+en_Nombre=Kaelith
+en_TargetMsg=launched His electric shock on you.
+pt_TargetMsg=Lançou seu choque elétrico em você.
+fr_TargetMsg=lancé son choc électrique sur vous.
+it_TargetMsg=ha lanciato la sua scossa elettrica su di te.
+
+[HECHIZO333] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Magia de Kaelith
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35728
+PalabrasMagicas=Fre
+StaRequerido=0
+TargetMsg=te ha ralentizado.
+en_Nombre=Kaelith
+en_TargetMsg=has slowed you down.
+pt_TargetMsg=Ele diminuiu você.
+fr_TargetMsg=Cela vous a ralenti.
+it_TargetMsg=Ti ha rallentato.
+
+[HECHIZO334] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Magia de Lyra
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=0
+StaRequerido=0
+en_Nombre=Lyra
+
+[HECHIZO335] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Magia de Lyra
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35728
+StaRequerido=0
+TargetMsg=lanzó Rayo Elemental sobre vos.
+en_Nombre=Lyra
+en_TargetMsg=has casted Elemental Ray on you.
+pt_TargetMsg=Ele lançou Ray elementar em você.
+fr_TargetMsg=Il a libéré le rayon élémentaire sur vous.
+it_TargetMsg=Ha rilasciato un raggio elementare su di te.
+
+[HECHIZO336] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Magia de Zephyr
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35728
+PalabrasMagicas=BUU
+StaRequerido=0
+TargetMsg=lanzó Implosión sobre vos.
+en_Nombre=Lyra
+en_TargetMsg=cast Implosion on you.
+pt_TargetMsg=Ele lançou a implosão em você.
+fr_TargetMsg=Il vous a lancé l
+it_TargetMsg=Ha lanciato l
+
+[HECHIZO337] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Magia de Zephyr
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=32451
+PalabrasMagicas=INCINERA CORPS
+StaRequerido=0
+TargetMsg=te ha incinerado.
+en_Nombre=Zephyr
+en_TargetMsg=has incinerated you.
+pt_TargetMsg=Ele incinerou você.
+fr_TargetMsg=Il vous a incinéré.
+it_TargetMsg=Ti ha incenerito.
+
+[HECHIZO338] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Magia de Zephyr
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=32408
+PalabrasMagicas=Rahma Nañarak O
+StaRequerido=0
+TargetMsg=lanzó Apocalípsis sobre vos.
+en_Nombre=Zephyr
+en_TargetMsg=casted Apocalypse on you
+pt_TargetMsg=Ele lançou o Apocalypse em você.
+fr_TargetMsg=Il a lancé Apocalypse sur vous.
+it_TargetMsg=Ha lanciato Apocalypse su di te.
+
+[HECHIZO339] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Slow Octavius
+ManaRequerido=0
+MinSkill=0
+Cooldown=0
+IconoIndex=35717
+PalabrasMagicas=MANTARE DIAMONTO
+StaRequerido=0
+TargetMsg=te ha ralentizado.
+en_Nombre=Slow Octavius
+en_TargetMsg=has slowed you.
+pt_TargetMsg=Ele diminuiu você.
+fr_TargetMsg=Cela vous a ralenti.
+it_TargetMsg=Ti ha rallentato.
+
+[HECHIZO340] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Receta Runa de Fuego
+Desc=¡Ya puedes encantar tus objetos con Fuego!
+IconoIndex=49101
+
+[HECHIZO341] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Receta Runa de Agua
+Desc=¡Ya puedes encantar tus objetos con Agua!
+IconoIndex=49100
+
+[HECHIZO342] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Receta Runa de Tierra
+Desc=¡Ya puedes encantar tus objetos con Tierra!
+IconoIndex=49098
+
+[HECHIZO343] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Receta Runa de Viento
+Desc=¡Ya puedes encantar tus objetos con Viento!
+IconoIndex=49099
+
+[HECHIZO344] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Receta Poción de Veneno
+Desc=¡Ya puedes hacer Pociones de Veneno! Recuerda tener en tu inventario una olla, un mortero, un frasco de alquimista y una cala venenosa.
+IconoIndex=74718
+
+[HECHIZO345] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Sangre Divina
+Desc=Adquieres poderes divinos de Sanación
+ManaRequerido=600
+Cooldown=15
+IconoIndex=74709
+StaRequerido=400
+
+[HECHIZO346] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Receta del Exoesqueleto Enano
+Desc=Ya puedes fabricar el gran Exoesqueleto Enano
+
+[HECHIZO347] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+Nombre=Activar Nucleo Enano
+Desc=Enciende los mecanismos de defensa del Exoesqueleto Enano proporcionando una gran defensa.
+ManaRequerido=0
+Cooldown=60
+IconoIndex=74708
+PalabrasMagicas=ENANUS ACTIVATUS
+PropioMsg=Has activado el nucleo enano.
+StaRequerido=350
+
+[HECHIZO348] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Rugido Arcano (NPC)
+Desc=Causa de 15 a 20 puntos de daño a la víctima.
+PalabrasMagicas=RUG THAEL ARCAN
+HechizeroMsg=Has lanzado Rugido Arcano sobre
+Tipo=1
+SubeHP=2
+MinHP=15
+MaxHP=20
+Target=2
+TargetEffectType=2
+ManaRequerido=40
+StaRequerido=25
+MinSkill=30
+WAV=16
+Fxgrh=73
+Loops=0
+ParticleViaje=186
+IconoIndex=74728
+IsBindable=1
+en_Nombre=Arcane Roar (NPC)
+en_Desc=Causes 15 to 20 points of damage to the victim.
+en_HechizeroMsg=You have cast Arcane Roar upon
+pt_Nombre=Rugido Arcano (NPC)
+pt_Desc=Causa de 15 a 20 pontos de dano à vítima.
+pt_HechizeroMsg=Você lançou Rugido Arcano em
+fr_Nombre=Rugissement Arcanique (NPC)
+fr_Desc=Inflige de 15 à 20 points de dégâts à la victime.
+fr_HechizeroMsg=Vous avez lancé Rugissement arcanique sur
+it_Nombre=Ruggito Arcano (NPC)
+it_Desc=Provoca da 15 a 20 punti di danno alla vittima.
+it_HechizeroMsg=Hai lanciato Ruggito Arcano su
+
+[HECHIZO349] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
+Nombre=Latido Ígneo (NPC)
+Desc=Causa de 30 a 40 puntos de daño a la víctima.
+PalabrasMagicas=LUMEN X AR
+HechizeroMsg=Has lanzado Latido Ígneo sobre
+Tipo=1
+SubeHP=2
+MinHP=30
+MaxHP=40
+Target=2
+TargetEffectType=2
+ManaRequerido=70
+StaRequerido=45
+MinSkill=55
+WAV=448
+Fxgrh=21
+Loops=0
+IconoIndex=74723
+IsBindable=1
+en_Nombre=Fiery Heartbeat (NPC)
+en_Desc=Causes from 30 to 40 hit points to the target.
+en_HechizeroMsg=You have launched Fiery Heartbeat on
+pt_Nombre=Batimento Ardente (NPC)
+pt_Desc=Causa de 30 a 40 pontos de dano à vítima.
+pt_HechizeroMsg=Você iniciou o Fiery Heartbeat em
+fr_Nombre=Battement Enflammé (NPC)
+fr_Desc=Cause de 30 à 40 points de dégâts à la victime.
+fr_HechizeroMsg=Vous avez lancé Fiery Heartbeat sur
+it_Nombre=Battito Ardente (NPC)
+it_Desc=Causa da 30 a 40 punti di danno alla vittima.
+it_HechizeroMsg=Hai lanciato Fiery Heartbeat su
 
