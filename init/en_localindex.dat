@@ -4,7 +4,7 @@ NUMLOCALEMSG=2210
 NUMMAPAS=750
 NUMNPCS=9009
 NUMOBJS=9063
-NUMQUESTS=375
+NUMQUESTS=901
 NUMSUGERENCIAS=6
 
 [MODRAZA]
@@ -4566,14 +4566,14 @@ DescFinal=Bien, haz acabado con las alimañas, te lo agradezco!
 Repetible=1
 RequiredLevel=25
 
-[QUEST374]
+[QUEST900]
 Nombre=Cenizas del Primer Fuego
 Desc=Traeme 10 Plumas de Fenix y te entregare un Huevo de Fenix, que guarda el poder ancestral de las llamas.
 DescFinal=Las cenizas guardan su poder. Aqui tienes tu Huevo de Fenix.
 RequiredLevel=1
 Repetible=1
 
-[QUEST375]
+[QUEST901]
 Nombre=Las Alas del Fuego Eterno
 Desc=Reune 20 Plumas de Fenix y forjare para ti unas Alas de Fenix, simbolo del fuego eterno.
 DescFinal=El fuego eterno te acompana. Lleva con orgullo tus Alas de Fenix.

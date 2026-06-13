@@ -537,14 +537,6 @@ Obj1=203-1000
 Obj2=2818-1000
 Obj3=390-1000
 Obj4=2920-1000
-NumQuest=7
-QuestNumber1=124
-QuestNumber2=71
-QuestNumber3=70
-QuestNumber4=72
-QuestNumber5=128
-QuestNumber6=129
-QuestNumber7=153
 [NPC15]
 Name=Joseph <Mercader>
 En_name=Joseph <Merchant>
@@ -1010,9 +1002,6 @@ Obj1=43-1000
 Obj2=160-1000
 Obj3=42-1000
 Obj4=161-1000
-NumQuest=2
-QuestNumber1=52
-QuestNumber2=25
 
 [NPC59]
 Name=Ines <Cocinera>
@@ -1037,9 +1026,6 @@ Obj3=29-1000
 Obj4=21-1000
 Obj5=23-1000
 Obj6=28-1000
-NumQuest=2
-QuestNumber1=49
-QuestNumber2=51
 
 [NPC60]'Libre
 
@@ -1186,9 +1172,6 @@ Body=1099
 Movement=1
 BackUp=0
 en_desc=Come boy this is your time to learn to master the power you carry within. Cheer up.
-NumQuest=2
-QuestNumber1=27
-QuestNumber2=28
 
 
 [NPC86]'Desactivada Quest58 por falta de NPC
@@ -1202,8 +1185,6 @@ Body=962
 Movement=1
 BackUp=0
 en_desc=I am looking for someone who manages to deploy his power and is able to help both on land and at sea. I have no doubt that this will be a valuable exchange.
-NumQuest=1
-QuestNumber1=31
 
 [NPC87]
 Name=Dalgleish <Quest>
@@ -1217,10 +1198,6 @@ Body=942
 Movement=1
 BackUp=0
 Testonly=1
-NumQuest=3
-QuestNumber1=48
-QuestNumber2=59
-QuestNumber3=60
 
 [NPC88]
 Name=Bothwell <Quest>
@@ -1232,13 +1209,6 @@ Heading=3
 Body=247
 Movement=1
 BackUp=0
-NumQuest=6
-QuestNumber1=75 'Armas
-QuestNumber2=76 'Armaduras
-QuestNumber3=77 'Cascos
-QuestNumber4=98 'Escudos
-QuestNumber5=50 'Poción de cara Legendaria
-QuestNumber6=87 'borrar proxima temporada
 
 [NPC89]
 Name=Holyrood <Quest>
@@ -1251,8 +1221,6 @@ Body=17
 Movement=1
 BackUp=0
 en_desc=O for all the kings and gods! I need help to combat this torture.
-NumQuest=1
-QuestNumber1=63
 
 [NPC90]
 Name=Darnley <Quest>
@@ -1263,10 +1231,6 @@ Heading=3
 Body=126
 Movement=1
 BackUp=0
-NumQuest=3
-QuestNumber1=95
-QuestNumber2=96
-QuestNumber3=97
 
 [NPC91]
 Name=Reiz Ez <Quest>
@@ -1279,9 +1243,18 @@ Body=91
 Movement=1
 BackUp=0
 en_desc=There are many creatures that need to be fought in this world. You are the one to do it. Start!
-NumQuest=2
-QuestNumber1=99
-QuestNumber2=101
+NumQuest=11
+QuestNumber1=343
+QuestNumber2=344
+QuestNumber3=345
+QuestNumber4=346
+QuestNumber5=347
+QuestNumber6=348
+QuestNumber7=349
+QuestNumber8=350
+QuestNumber9=351
+QuestNumber10=352
+QuestNumber11=353
 
 [NPC92] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=1049
@@ -1298,7 +1271,7 @@ it_Name=Ofelia <Quest>
 pt_Desc=Estou desesperado, por favor me ajude!
 pt_Name=Ofelia <miss>
 NumQuest=1
-QuestNumber1=84
+QuestNumber1=119
 
 [NPC93]
 Name=Bael el Bardo <Quest>
@@ -1331,10 +1304,6 @@ en_desc=I was looking for an adventurer like you. Of course you will be well rew
 
 ' === BLOQUE PRIVADO ORIGINAL DE NPC95 (preservado para migracion futura de quests) ===
 ' Fecha resync: 2026-05-06
-NumQuest=3
-QuestNumber1=62
-QuestNumber2=74
-QuestNumber3=44
 ' [NPC95]
 ' Name=Montaigne <Quest>
 ' Desc=El mejor acero del reino.
@@ -1371,9 +1340,8 @@ Escudo=5
 Heading=3
 Alineacion=0
 DisabledInBattleServer=1
-NumQuest=2
+NumQuest=1
 QuestNumber1=80
-QuestNumber2=94
 [NPC96]
 Name=Morthon <Quest>
 Desc=El mejor acero del reino.
@@ -1600,6 +1568,8 @@ Desc=¡Alto ahí, ciudadano! Los exploradores regresaron del pantano con malas n
 Body=249
 Head=26
 NpcType=17
+NumQuest=1
+QuestNumber1=45
 
 [NPC108] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Branik <Quest>
@@ -1613,6 +1583,8 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+NumQuest=1
+QuestNumber1=46
 [NPC109] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Eldric <Quest>
 Desc=No deberías estar aquí... pero si has llegado hasta este lugar, tal vez aún quede esperanza. Las criptas de Marabel han sido profanadas. Orcos salvajes, liches y brujos impíos deambulan sin control. Si deseas oro y experiencia, ayúdame a reducir su número antes de que el mal se extienda más allá de estas paredes.
@@ -1625,6 +1597,8 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+NumQuest=1
+QuestNumber1=47
 [NPC110]
 Name=Grimrot <Quest>
 Desc=Prueba el acero Orco, tal vez te lleves una sorpresa.
@@ -1672,6 +1646,8 @@ Humanoide=0
 NPCLVL=2
 MagicResistance=5
 MagicDef=0
+NumQuest=1
+QuestNumber1=326
 [NPC112] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=61
 Desc=¡El poder de Curar!
@@ -1686,6 +1662,8 @@ it_Desc=Il potere di curare!
 it_Name=KLERIC <Quest>
 pt_Desc=O poder de curar!
 pt_Name=KLERIC <Imss>
+NumQuest=1
+QuestNumber1=142
 
 [NPC113] 'RESYNC desde sp_localindex.dat (validacion Ullathorpe extras quest collision)
 Name=Agnome <Quest>
@@ -1718,6 +1696,9 @@ SubeSupervivencia=0
 NPCLVL=5
 MagicResistance=5
 MagicDef=0
+NumQuest=2
+QuestNumber1=318
+QuestNumber2=160
 [NPC114]
 Name=Grimrot <Quest>
 Desc=Prueba el acero Orco, tal vez te lleves una sorpresa.
@@ -1776,8 +1757,6 @@ NoWiki=1
 NPCLVL=39
 MagicResistance=97
 MagicDef=15
-NumQuest=1
-QuestNumber1=228
 
 [NPC118]
 Name=Carol <Quest>
@@ -1828,6 +1807,8 @@ MagicDef=15
 
 '--------------> Gobernadores Por ciudad del 250 al 259 <--------------
 DisabledInBattleServer=1
+NumQuest=1
+QuestNumber1=325
 [NPC250]
 Name=Robert <Gobernador de Ullathorpe>
 En_Name=Robert <Governor of Ullathorpe>
@@ -1981,6 +1962,9 @@ Desc=No puedo decirte exactamente qué haré con él... pero sé que su energía
 Body=2530
 Head=368
 NpcType=17
+NumQuest=2
+QuestNumber1=337
+QuestNumber2=338
 
 [NPC261]
 Name=Guardia Imperial
@@ -2687,9 +2671,8 @@ NPCLVL=6
 MagicResistance=15
 MagicDef=0
 DisabledInBattleServer=1
-NumQuest=2
-QuestNumber1=17
-QuestNumber2=43
+NumQuest=1
+QuestNumber1=58
 
 [NPC404]
 Name=Roman <Quest>
@@ -2761,9 +2744,8 @@ en_desc=I'm really scared, I can't go back there
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=2
+NumQuest=1
 QuestNumber1=1
-QuestNumber2=127
 
 [NPC407] 'RESYNC desde sp_localindex.dat (lote3 pat B)
 Name=Makrom <Quest>
@@ -2782,12 +2764,9 @@ BackUp=0
 CaminataLen=2
 Caminata1=0:-3:9000
 Caminata2=0:0:9000
-NumQuest=5
+NumQuest=2
 QuestNumber1=190
-QuestNumber2=191
-QuestNumber3=192
-QuestNumber4=193
-QuestNumber5=194
+QuestNumber2=193
 
 [NPC408]
 Name=Romina <Quest>
@@ -2835,12 +2814,10 @@ en_desc=Your gaze tells me that the dark legends of the south do not cower you. 
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=5
+NumQuest=3
 QuestNumber1=3
 QuestNumber2=6
 QuestNumber3=8
-QuestNumber4=9
-QuestNumber5=12
 
 
 [NPC410]'Desactivada quest57 por falta de npc
@@ -2866,9 +2843,8 @@ en_desc=A new face! What a pleasure to see you, I introduce myself, I am Otis. P
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=2
-QuestNumber1=54
-QuestNumber2=56
+NumQuest=1
+QuestNumber1=56
 
 [NPC411]
 Name=Astan <Quest>
@@ -2952,12 +2928,8 @@ en_desc=If you need help in this great universe, talk to me.
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=5
+NumQuest=1
 QuestNumber1=38
-QuestNumber2=39
-QuestNumber3=40
-QuestNumber4=41
-QuestNumber5=42
 
 [NPC419]
 Name=Trevor <Quest>
@@ -2985,10 +2957,8 @@ en_desc=Hello, I am in charge of the security of this city.
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=3
+NumQuest=1
 QuestNumber1=36
-QuestNumber2=37
-QuestNumber3=93
 
 [NPC420]
 Name=Cold <Ciudadano de Eleusis>
@@ -3029,13 +2999,9 @@ BackUp=0
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=6
-QuestNumber1=137
-QuestNumber2=138
-QuestNumber3=139
-QuestNumber4=140
-QuestNumber5=141
-QuestNumber6=142
+NumQuest=2
+QuestNumber1=139
+QuestNumber2=137
 
 [NPC423]
 Name=Coltrane <Quest>
@@ -3100,8 +3066,6 @@ en_desc=Come about I have work for you.
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=1
-QuestNumber=26
 
 [NPC426] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Dragga <Quest>
@@ -3165,8 +3129,6 @@ MagicDef=0
 
 
 '--------------> CENTINELAS (NO CAMBIAR INDEX) <--------------
-NumQuest=1
-QuestNumber1=55
 [NPC498] ' Checkeador de macros
 Name=Centinela
 En_name=Sentinel
@@ -5171,6 +5133,9 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+NumQuest=2
+QuestNumber1=166
+QuestNumber2=317
 [NPC551]
 Name=Oso Pardo
 ShowName=0
@@ -5602,6 +5567,8 @@ Body=1697
 Head=223
 NpcType=17
 DisabledInBattleServer=1
+NumQuest=1
+QuestNumber1=17
 
 [NPC563] 'RESYNC desde sp_localindex.dat (mapa34 collision fix)
 Name=Lobo BATTLE TEST
@@ -5734,6 +5701,9 @@ it_Desc=La città di commercio è nei guai!
 it_Name=Mezier <stro>
 pt_Desc=A cidade do comércio está com problemas!
 pt_Name=Mezier <Stro>
+NumQuest=2
+QuestNumber1=62
+QuestNumber2=74
 
 [NPC567]
 Name=Calaveras
@@ -5873,6 +5843,8 @@ MagicResistance=50
 MagicDef=5
 DontHitVisiblePlayers=1
 PosOrig=1
+NumQuest=1
+QuestNumber1=322
 
 
 [NPC572] 'RESYNC desde sp_localindex.dat (validacion Ullathorpe extras quest collision)
@@ -5915,6 +5887,8 @@ MagicResistance=33
 MagicDef=0
 NoWiki=1
 DisabledInBattleServer=1
+NumQuest=1
+QuestNumber1=154
 [NPC573]
 Name=Abdul el Tallador <Quest>
 Desc=El jade no miente, solo espera al artesano correcto. Pocos en Ullathorpe entienden el valor de las reliquias del desierto. Si ya sobreviviste a la Pirámide, quizá tengas lo necesario para escuchar mi historia.
@@ -5928,6 +5902,8 @@ Attackable=0
 Hostile=0
 Alineacion=0
 DisabledInBattleServer=1
+NumQuest=1
+QuestNumber1=155
 
 [NPC574] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Heral <Quest>
@@ -5942,6 +5918,10 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 '--- COPIA PRIVADA ORIGINAL NPC575 (Azhran) antes de oficializar; cliente oficial era Gorath ---
+NumQuest=3
+QuestNumber1=169
+QuestNumber2=321
+QuestNumber3=156
 '[NPC575]
 'Name=Azhran
 'ShowName=1
@@ -6740,6 +6720,8 @@ it_Desc=Ho bisogno del tuo aiuto per saperne di più sulla medusa!
 it_Name=Franklin <stro>
 pt_Desc=Preciso da sua ajuda para aprender mais sobre a água -viva!
 pt_Name=Franklin <Stro>
+NumQuest=1
+QuestNumber1=49
 
 [NPC605] 'Araña Drenaje 1
 Name=Araña Negra
@@ -9108,8 +9090,6 @@ en_desc=I can sense that you need my help. Tell me.
 NPCLVL=1
 MagicResistance=3
 MagicDef=0
-NumQuest=1
-QuestNumber1=110
 
 [NPC695]
 Name=Teggar <Quest>
@@ -9127,8 +9107,6 @@ en_desc=Welcome warrior! I was waiting for you.
 NPCLVL=1
 MagicResistance=3
 MagicDef=0
-NumQuest=1
-QuestNumber1=102
 
 [NPC696]
 Name=Anco <Quest>
@@ -9146,8 +9124,6 @@ en_desc=Welcome warrior! I was waiting for you.
 NPCLVL=1
 MagicResistance=3
 MagicDef=0
-NumQuest=1
-QuestNumber1=102
 
 
 
@@ -9168,14 +9144,10 @@ en_desc=Here I see you! I think you're coming for me.
 NPCLVL=1
 MagicResistance=3
 MagicDef=0
-NumQuest=7
+NumQuest=3
 QuestNumber1=109
 QuestNumber2=103
 QuestNumber3=104
-QuestNumber4=111
-QuestNumber5=248
-QuestNumber6=249
-QuestNumber7=45
 
 [NPC698]
 Name=Antoine <Quest>
@@ -9268,6 +9240,8 @@ it_Desc=Pensi che qualcuno come te potrebbe affrontare questa temibile bestia?
 it_Name=Eugenia <stro>
 pt_Desc=Você acha que alguém como se pudesse enfrentar essa fera temível?
 pt_Name=Eugenia <Stro>
+NumQuest=1
+QuestNumber1=52
 
 [NPC719] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=187
@@ -11522,6 +11496,8 @@ Body=67
 Head=131
 NpcType=17
 DisabledInBattleServer=1
+NumQuest=1
+QuestNumber1=324
 
 [NPC988] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Kael el Rastreador <Quest>
@@ -11530,6 +11506,8 @@ Body=68
 Head=115
 NpcType=17
 DisabledInBattleServer=1
+NumQuest=1
+QuestNumber1=323
 
 [NPC989] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Oso Pardo
@@ -11959,6 +11937,8 @@ Caminata10=8:0:5000
 NPCLVL=13
 MagicResistance=33
 MagicDef=0
+NumQuest=1
+QuestNumber1=287
 [NPC1007]
 Name=Guardián de Gulfas
 En_Name=Gulfas Guardian
@@ -12025,6 +12005,8 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+NumQuest=1
+QuestNumber1=288
 
 [NPC1011] 'RESYNC desde sp_localindex.dat (lote2 colisiones)
 Name=Mortivar <Quest>
@@ -12062,6 +12044,8 @@ MagicResistance=60
 MagicDef=5
 
 'Sastres Faccionarios'
+NumQuest=1
+QuestNumber1=288
 [NPC1012] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Tiberius <Equipamiento Legionario>
 Desc=Lo mejor que podrás conseguir en este mundo, solo para los más dignos seguidores del Señor del Caos.
@@ -12079,16 +12063,10 @@ NPCLVL=24
 MagicResistance=60
 MagicDef=5
 DisabledInBattleServer=1
-NumQuest=9
-QuestNumber1=105 'Casco
-QuestNumber2=66 'Casco
-QuestNumber3=67 'Escudo
-QuestNumber4=221 'Escudo
-QuestNumber5=92 'Daga
-QuestNumber6=79 'Baston
-QuestNumber7=82 'Arco
-QuestNumber8=85 'Montura Combatientes
-QuestNumber9=73 'Montura Hechiceros
+NumQuest=3
+QuestNumber1=105
+QuestNumber2=66
+QuestNumber3=340
 [NPC1013]
 Name=Ezzyr <Equipamiento Real>
 En_Name=Ezzyr <Royal Equipment>
@@ -12109,16 +12087,10 @@ MagicResistance=60
 MagicDef=5
 
 ' Nagas, Dungeón Horacio '
-NumQuest=9
-QuestNumber1=68 'Casco
-QuestNumber2=159 'Casco
-QuestNumber3=80 'Escudo
-QuestNumber4=94 'Escudo
-QuestNumber5=91 'Daga
-QuestNumber6=78 'Baston
-QuestNumber7=83 'Arco
-QuestNumber8=88 'Montura Combatientes
-QuestNumber9=86 'Montura Hechiceros
+NumQuest=3
+QuestNumber1=68
+QuestNumber2=94
+QuestNumber3=340
 
 [NPC1014]
 Name=Lynn
@@ -12282,6 +12254,8 @@ Hostile=0
 ReSpawn=0
 
 '--- COPIA PRIVADA ORIGINAL NPC1021 (Jinete de la Guerra) antes de oficializar; cliente oficial era Eldren <Quest> ---
+NumQuest=1
+QuestNumber1=289
 '[NPC1021]
 'Name=Jinete de la Guerra
 'En_Name=War Horseman
@@ -12323,6 +12297,8 @@ Hostile=0
 ReSpawn=0
 
 '--- COPIA PRIVADA ORIGINAL NPC1022 (Jinete de la muerte) antes de oficializar; cliente oficial era Eldrak <Quest> ---
+NumQuest=1
+QuestNumber1=290
 '[NPC1022]
 'Name=Jinete de la muerte
 'En_Name=Death Horseman
@@ -12362,6 +12338,8 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+NumQuest=1
+QuestNumber1=291
 
 [NPC1023] 'RESYNC desde sp_localindex.dat (validacion Ullathorpe extras quest collision)
 Name=Sahret <Quest>
@@ -12390,6 +12368,8 @@ Humanoide=1
 NPCLVL=45
 MagicResistance=100
 MagicDef=15
+NumQuest=1
+QuestNumber1=292
 [NPC1024] 'RESYNC desde sp_localindex.dat (validacion Ullathorpe extras quest collision)
 Name=Vaelor <Quest>
 NpcType=17
@@ -12421,6 +12401,8 @@ NPCLVL=45
 MagicResistance=100
 MagicDef=15
 DisabledInBattleServer=1
+NumQuest=1
+QuestNumber1=293
 [NPC1025]
 Name=Esbirro Demoníaco
 ShowName=0
@@ -13277,6 +13259,19 @@ GiveGLD=00
 MaxHIT=1
 MinHIT=1
 Nivel=20
+NumQuest=12
+QuestNumber1=354
+QuestNumber2=355
+QuestNumber3=356
+QuestNumber4=357
+QuestNumber5=358
+QuestNumber6=359
+QuestNumber7=360
+QuestNumber8=361
+QuestNumber9=362
+QuestNumber10=363
+QuestNumber11=364
+QuestNumber12=365
 
 [NPC1050] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Syla
@@ -13618,6 +13613,8 @@ NPCLVL=24
 MagicResistance=60
 MagicDef=5
 DisabledInBattleServer=1
+NumQuest=1
+QuestNumber1=329
 
 [NPC1085] 'RESYNC desde sp_localindex.dat (mapa34 collision fix)
 Name=Jacobo <Quest>
@@ -13653,6 +13650,8 @@ Obj15=3577-1
 NPCLVL=24
 MagicResistance=60
 MagicDef=5
+NumQuest=1
+QuestNumber1=327
 
 [NPC1086]
 Name=Halving <Carpintero>
@@ -13724,6 +13723,8 @@ NPCLVL=24
 MagicResistance=60
 MagicDef=5
 DisabledInBattleServer=1
+NumQuest=1
+QuestNumber1=44
 [NPC1088] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Cormac <Pescador>
 Desc=¡El mar tiene tanto por ofrecer! Revisa mis herramientas, puede que haya algo que te sirva.
@@ -14314,6 +14315,8 @@ Obj8=480-10000
 NPCLVL=24
 MagicResistance=60
 MagicDef=5
+NumQuest=1
+QuestNumber1=41
 [NPC1108]
 Name=Rethor <Sastre de Arghal>
 Desc=Las mejores telas en la mejor ciudad, nada que perder con estos precios.
@@ -14371,6 +14374,10 @@ it_Desc=Ho alcune missioni per te!
 it_Name=Tony <stro>
 pt_Desc=Eu tenho algumas missões para você!
 pt_Name=Tony <Stro>
+NumQuest=3
+QuestNumber1=163
+QuestNumber2=200
+QuestNumber3=201
 
 [NPC1110]
 Name=Celyne <Sastre de Arghal>
@@ -14441,6 +14448,8 @@ Obj11=9-1
 NPCLVL=24
 MagicResistance=60
 MagicDef=5
+NumQuest=1
+QuestNumber1=140
 [NPC1112] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Azhara <Quest>
 Desc=¿Tienes la fuerza necesaria para ayudarme?
@@ -14465,6 +14474,8 @@ Obj5=1278-1
 NPCLVL=24
 MagicResistance=60
 MagicDef=5
+NumQuest=1
+QuestNumber1=141
 [NPC1113]
 Name=Sylas <Quest>
 Desc=Hola, si te sobra un poco de tiempo para charlar conmigo, tengo buenas noticias para ti.
@@ -14493,6 +14504,8 @@ Movement=1
 Attackable=0
 Hostile=0
 Alineacion=0
+NumQuest=1
+QuestNumber1=37
 
 [NPC1115]
 Name=Thorgin
@@ -14559,6 +14572,8 @@ NPCLVL=24
 MagicResistance=60
 MagicDef=5
 DisabledInBattleServer=1
+NumQuest=1
+QuestNumber1=204
 [NPC1118] Penthar
 Name=Naz <Armero de Penthar>
 ShowName=1
@@ -14682,6 +14697,8 @@ Obj8=480-10000
 NPCLVL=24
 MagicResistance=60
 MagicDef=5
+NumQuest=1
+QuestNumber1=232
 [NPC1122] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Zalkor <Quest>
 Desc=Esa maldita plaga carnívora está amenazando al puerto.
@@ -14722,6 +14739,8 @@ Obj22=886-1
 NPCLVL=24
 MagicResistance=60
 MagicDef=5
+NumQuest=1
+QuestNumber1=206
 [NPC1123] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Magnis <Quest>
 Desc=Fui atacado al Sur de esta ciudad, no tuve mas noticias sobre quienes viajaban conmigo..
@@ -14761,6 +14780,8 @@ Obj21=886-1
 NPCLVL=24
 MagicResistance=60
 MagicDef=5
+NumQuest=1
+QuestNumber1=233
 [NPC1124] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Dominic <Armero>
 Desc=¡Son mis ultimas armas, aprovéchalas!
@@ -14843,6 +14864,8 @@ NPCLVL=24
 MagicResistance=60
 MagicDef=5
 DisabledInBattleServer=1
+NumQuest=1
+QuestNumber1=249
 [NPC1127] 'RESYNC desde sp_localindex.dat (lote3 cosmetico)
 Name=Khadgar <Hechicero>
 Desc=¡Todo lo referido a la Magia, en un solo lugar!
@@ -15441,8 +15464,6 @@ MinHIT=90
 MinHp=2000
 PoderAtaque=180
 PoderEvasion=125
-NumQuest=1
-QuestNumber1=134
 [NPC1145] ' Futuro NPC quest penthar
 Name=Dalyor <Habitante de Penthar>
 Desc=Bienvenido a Penthar!
@@ -15860,8 +15881,6 @@ BackUp=0
 NPCLVL=27
 MagicResistance=67
 MagicDef=10
-NumQuest=1
-QuestNumber1=127
 
 [NPC1160] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Kael
@@ -15869,6 +15888,10 @@ Desc=No me mires demasiado tiempo... aquí las sombras escuchan más de lo que d
 Body=1582
 Head=213
 NpcType=17
+NumQuest=3
+QuestNumber1=212
+QuestNumber2=210
+QuestNumber3=273
 
 [NPC1161] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Serik
@@ -15876,6 +15899,10 @@ Desc=No fijes tus ojos en los míos. Aquí, quienes observan demasiado... desapa
 Body=19
 Head=106
 NpcType=17
+NumQuest=3
+QuestNumber1=213
+QuestNumber2=211
+QuestNumber3=274
 
 [NPC1162] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Mantis Marrón
@@ -15927,6 +15954,9 @@ Desc=Ah... un viajero llega hasta estas islas barridas por el viento. Aquí, don
 Body=771
 Head=310
 NpcType=17
+NumQuest=2
+QuestNumber1=209
+QuestNumber2=276
 
 [NPC1165] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=2041
@@ -15954,6 +15984,8 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+NumQuest=1
+QuestNumber1=172
 [NPC1167] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Verdarra
 Body=4841
@@ -16029,6 +16061,11 @@ Body=2195
 Head=54
 NpcType=17
 DisabledInBattleServer=1
+NumQuest=4
+QuestNumber1=330
+QuestNumber2=331
+QuestNumber3=332
+QuestNumber4=333
 
 [NPC1172] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Sheila <Quest>
@@ -16043,6 +16080,10 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 DisabledInBattleServer=1
+NumQuest=3
+QuestNumber1=270
+QuestNumber2=271
+QuestNumber3=272
 [NPC1173] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Viejo Forjador <Quest>
 Desc=¿Vienes por el Blodium? Ja.. Primero tendrás que ganártelo. Esta aldea no cayó por el frío, muchacho.
@@ -16056,6 +16097,8 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 DisabledInBattleServer=1
+NumQuest=1
+QuestNumber1=30
 [NPC1174]'Libre
 
 [NPC1175]'Libre
@@ -16086,6 +16129,11 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 DisabledInBattleServer=1
+NumQuest=4
+QuestNumber1=279
+QuestNumber2=280
+QuestNumber3=281
+QuestNumber4=282
 [NPC1180] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Thaldris <Hechicera>
 Desc=¡Tengo gran variedad de Objetos Mágicos destinados al combate!
@@ -16275,9 +16323,8 @@ en_desc=I fear for my farm
 NPCLVL=2
 MagicResistance=5
 MagicDef=0
-NumQuest=2
+NumQuest=1
 QuestNumber1=132
-QuestNumber2=116
 
 
 [NPC1189] 'Realineado a oficial 2026-06-08 (slot repropuesto)
@@ -16294,6 +16341,8 @@ it_Desc=Ho ciò di cui ho bisogno per sconfiggere i Nagas!
 it_Name=Laan <Quest>
 pt_Desc=Eu tenho o que preciso para derrotar os Nagas!
 pt_Name=LAAN <Imiss>
+NumQuest=1
+QuestNumber1=165
 
 [NPC1190]'Libre
 
@@ -16309,6 +16358,8 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+NumQuest=1
+QuestNumber1=199
 [NPC1192] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Orco Cazador
 Body=1047
@@ -16579,6 +16630,10 @@ Attackable=0
 Hostile=0
 Alineacion=0
 DisabledInBattleServer=1
+NumQuest=3
+QuestNumber1=174
+QuestNumber2=175
+QuestNumber3=153
 
 [NPC1203]
 Name=Mercader Mago
@@ -19171,9 +19226,8 @@ en_Desc=Welcome, I work with Sacred elements!
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=2
+NumQuest=1
 QuestNumber1=161
-QuestNumber2=162
 
 [NPC1289] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Xanthe <Sacerdotisa>
@@ -19326,10 +19380,6 @@ NoWiki=1
 NPCLVL=22
 MagicResistance=55
 MagicDef=5
-NumQuest=3
-QuestNumber1=170
-QuestNumber2=171
-QuestNumber3=250
 
 [NPC1298]
 Name=Aurora <Quest>
@@ -19550,6 +19600,8 @@ Body=254
 Head=27
 NpcType=17
 DisabledInBattleServer=1
+NumQuest=1
+QuestNumber1=339
 
 [NPC1307]
 Name=Zoltan <Quest>
@@ -20087,10 +20139,6 @@ Obj1=534-1
 Obj2=199-1
 Obj3=197-1
 NoMapInfo=1
-NumQuest=3
-QuestNumber1=222
-QuestNumber2=247
-QuestNumber3=223
 
 [NPC1330]
 Name=Vendedor de Sets
@@ -20189,11 +20237,8 @@ Heading=3
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=4
-QuestNumber1=154
-QuestNumber2=163
-QuestNumber3=164
-QuestNumber4=165
+NumQuest=1
+QuestNumber1=198
 [NPC1332] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Hormiga Amarilla
 Body=5231
@@ -20493,6 +20538,8 @@ Movement=1
 Attackable=0
 Hostile=0
 Alineacion=0
+NumQuest=1
+QuestNumber1=285
 
 [NPC1340] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Ferrut <Sastre>
@@ -20763,6 +20810,8 @@ Obj11=9-1
 NPCLVL=24
 MagicResistance=60
 MagicDef=5
+NumQuest=1
+QuestNumber1=286
 [NPC1349]
 Name=Bort <Herrero de Eldoria>
 En_Name=Bort <Eldoria Blacksmith>
@@ -22348,16 +22397,15 @@ Heading=3
 NPCLVL=23
 MagicResistance=57
 MagicDef=5
-NumQuest=9
-QuestNumber1=10
+NumQuest=8
+QuestNumber1=188
 QuestNumber2=251
 QuestNumber3=252
-QuestNumber4=232
+QuestNumber4=250
 QuestNumber5=255
 QuestNumber6=254
 QuestNumber7=253
-QuestNumber8=257
-QuestNumber9=258
+QuestNumber8=248
 
 [NPC1402]
 Name=Papa Noel
@@ -22665,6 +22713,8 @@ Movement=1
 Attackable=0
 Hostile=0
 Alineacion=0
+NumQuest=1
+QuestNumber1=319
 
 [NPC120]
 Name=Talador
@@ -22762,6 +22812,8 @@ Movement=1
 Attackable=0
 Hostile=0
 Alineacion=0
+NumQuest=1
+QuestNumber1=334
 
 
 [NPC27] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
@@ -22808,6 +22860,8 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+NumQuest=1
+QuestNumber1=320
 
 [NPC126] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Pescadora
@@ -22835,6 +22889,8 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+NumQuest=1
+QuestNumber1=218
 
 [NPC432] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Alaric von Nix <Quest>
@@ -22849,6 +22905,9 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 DisabledInBattleServer=1
+NumQuest=2
+QuestNumber1=231
+QuestNumber2=230
 
 [NPC1502] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Guardia Real
@@ -23105,6 +23164,8 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+NumQuest=1
+QuestNumber1=219
 
 [NPC1552] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Guardia Legión
@@ -23304,6 +23365,8 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+NumQuest=1
+QuestNumber1=328
 
 [NPC1636] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Lyren <Maestra Telar>
@@ -23317,6 +23380,8 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+NumQuest=1
+QuestNumber1=335
 
 [NPC505] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Zombie Andante
@@ -23427,6 +23492,8 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 DisabledInBattleServer=1
+NumQuest=1
+QuestNumber1=48
 
 [NPC16] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Vhalek <Mercader del Muelle>
@@ -23490,6 +23557,8 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+NumQuest=1
+QuestNumber1=28
 
 [NPC257] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Haleth <Gobernadora de Eldoria>
@@ -23541,6 +23610,8 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+NumQuest=1
+QuestNumber1=40
 
 [NPC429] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Adha <Quest>
@@ -23554,6 +23625,8 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+NumQuest=1
+QuestNumber1=116
 
 [NPC256] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Jarl Njord <Gobernador de Forgat>
@@ -23574,6 +23647,8 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+NumQuest=1
+QuestNumber1=336
 
 [NPC1638] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Vikingo Vigia
@@ -23618,9 +23693,6 @@ ReSpawn=0
 
 [NPC21] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Bromdir <Quest>
-NumQuest=2
-QuestNumber1=374
-QuestNumber2=375
 Desc=¡El Fénix ha despertado nuevamente! Renace de sus cenizas cada cierto tiempo, tal como lo ha hecho desde antes de que Morgrim fuera tallada en la roca. Tráeme sus plumas, y yo forjaré para ti recompensas que solo el fuego eterno puede conceder.
 Body=531
 Head=329
@@ -23632,6 +23704,11 @@ Hostile=0
 ReSpawn=0
 ShowName=1
 DisabledInBattleServer=1
+NumQuest=4
+QuestNumber1=314
+QuestNumber2=315
+QuestNumber3=900
+QuestNumber4=901
 [NPC23] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Guardia de Arena
 Desc=¡Demuestra tu valor en combate! El ingreso al siguiente mapa cuesta 1500 monedas de oro. Escribe /ARENA para ingresar.
@@ -23691,6 +23768,8 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 ShowName=1
+NumQuest=1
+QuestNumber1=118
 [NPC491] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Nuri <Finanzas Goliath>
 Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
@@ -24132,6 +24211,8 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 ShowName=1
+NumQuest=1
+QuestNumber1=341
 [NPC1041] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Vorathis
 Body=5446
@@ -24165,6 +24246,8 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 ShowName=1
+NumQuest=1
+QuestNumber1=63
 [NPC1067] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Celeris <Jinetero>
 Desc=¡Saludos, viajero! No todos los caminos se recorren a pie, y los verdaderos aventureros cabalgan con el viento a su favor. Si quieres dominar el arte de los jinetes y exprimir cada brizna de velocidad de tu montura, estás en el lugar correcto.
@@ -24178,6 +24261,13 @@ Hostile=0
 ReSpawn=0
 ShowName=1
 DisabledInBattleServer=1
+NumQuest=6
+QuestNumber1=256
+QuestNumber2=257
+QuestNumber3=258
+QuestNumber4=259
+QuestNumber5=260
+QuestNumber6=261
 [NPC1068] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Reiz Ez <Quest>
 Desc=Llevo horas perdido aqui adentro..
@@ -24190,6 +24280,8 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 ShowName=1
+NumQuest=1
+QuestNumber1=99
 [NPC1079] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Luchador de las Minas
 Body=1079
@@ -25202,8 +25294,6 @@ GiveGLD=00
 MaxHIT=1
 MinHIT=1
 Nivel=20
-NumQuest=1
-QuestNumber1=84
 
 [NPC1816] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Gru Chaman
@@ -26024,6 +26114,9 @@ it_Desc=Pensi che qualcuno come tu possa affrontare il famoso drago rosso? Non c
 it_Name=Esmeralda <Quest>
 pt_Desc=Você acha que alguém como se pudesse enfrentar o famoso dragão vermelho? Eu não acredito nisso ...
 pt_Name=Esmeralda <Imiss>
+NumQuest=2
+QuestNumber1=25
+QuestNumber2=195
 
 
 [NPC1017] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
@@ -26040,6 +26133,9 @@ it_Desc=Sto cercando chi riesce a mostrare il suo potere ed è in grado di aiuta
 it_Name=Snyder <Quest>
 pt_Desc=Procuro quem consegue mostrar seu poder e é capaz de ajudar tanto na principal quanto no mar. Não tenho dúvidas de que essa será uma troca valiosa.
 pt_Name=Snyder <itement>
+NumQuest=2
+QuestNumber1=31
+QuestNumber2=10
 
 
 [NPC1060] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
@@ -26124,6 +26220,12 @@ DescClose=¡Hasta pronto!
 Body=73
 Head=536
 NpcType=17
+NumQuest=5
+QuestNumber1=265
+QuestNumber2=266
+QuestNumber3=267
+QuestNumber4=268
+QuestNumber5=269
 
 
 [NPC1078] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
@@ -26595,6 +26697,11 @@ GiveGLD=00
 MaxHIT=1
 MinHIT=1
 Nivel=20
+NumQuest=4
+QuestNumber1=366
+QuestNumber2=367
+QuestNumber3=368
+QuestNumber4=369
 
 
 [NPC1818] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
@@ -26605,6 +26712,9 @@ BodyIdle=5552
 Ataque1=5553
 NpcType=17
 NoMapInfo=1
+NumQuest=2
+QuestNumber1=370
+QuestNumber2=371
 
 
 [NPC1819] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
@@ -26615,6 +26725,9 @@ BodyIdle=5555
 Ataque1=5556
 NpcType=17
 NoMapInfo=1
+NumQuest=2
+QuestNumber1=370
+QuestNumber2=371
 
 
 [NPC1900] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)

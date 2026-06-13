@@ -1,5 +1,5 @@
 [INIT]
-NumQuests=375
+NumQuests=901
 
 [QUEST1]
 Nombre=Descanso Final
@@ -8728,7 +8728,7 @@ PermittedFactions=48
 DescAudio=1138
 DescFinalAudio=1139
 
-[QUEST374] 'Reubicada de QUEST259 por colision con quest oficial; custom nuestra (plan 10.001 fase 3)
+[QUEST900] 'Custom nuestra; movida de 374 (el set oficial ya usa 374+)
 Nombre=Cenizas del Primer Fuego
 Desc=Traeme 10 Plumas de Fenix y te entregare un Huevo de Fenix, que guarda el poder ancestral de las llamas.
 DescFinal=Las cenizas guardan su poder. Aqui tienes tu Huevo de Fenix.
@@ -8739,7 +8739,7 @@ RequiredOBJ1=9015-10
 RewardOBJs=1
 RewardObj1=9017-1
 
-[QUEST375] 'Reubicada de QUEST260 por colision con quest oficial; custom nuestra (plan 10.001 fase 3)
+[QUEST901] 'Custom nuestra; movida de 375 (el set oficial ya usa 374+)
 Nombre=Las Alas del Fuego Eterno
 Desc=Reune 20 Plumas de Fenix y forjare para ti unas Alas de Fenix, simbolo del fuego eterno.
 DescFinal=El fuego eterno te acompana. Lleva con orgullo tus Alas de Fenix.
