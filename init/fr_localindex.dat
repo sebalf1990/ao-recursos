@@ -4564,6 +4564,55 @@ DescFinal=Bien, haz acabado con las alimañas, te lo agradezco!
 Repetible=1
 RequiredLevel=25
 
+[QUEST380]
+Nombre=L'Offrande de Dolgrin
+Desc=Les quatre éléments ne se dominent pas. Ils se rassemblent. Depuis que les nains de Morgrim ont déchiffré le langage des essences, ils savent que le feu, la terre, le vent et l'eau ne sont pas des forces séparées : ce sont des fragments d'un même pouvoir ancien. Dolgrin passe des années à attendre ceux capables de forger ce que peu osent rassembler. Apportez-moi dix Runes Élémentaires de chaque élément et je vous donnerai quelque chose qui ne se trouve nulle part ailleurs dans le monde connu.
+DescFinal=Les runes ont trouvé leur forme. Le coffre est à vous... pour l'instant. Mais les éléments ne cessent jamais de circuler, et Dolgrin n'arrête jamais d'attendre. Si un jour vous en rassemblez suffisamment à nouveau, vous savez où me trouver.
+Repetible=1
+PosMap=591
+
+[QUEST381]
+Nombre=Le Cavalier du Feu
+Desc=Tous ceux qui cherchent le Cheval de Feu ne le méritent pas. Dolgrin le sait. C'est pourquoi le vouloir ne suffit pas : il faut le prouver. Quarante Runes Élémentaires de Feu. C'est ce qu'il faut pour que les flammes reconnaissent leur cavalier. Ce n'est pas un chemin facile, mais celui qui arrive ici avec ce fardeau... sait déjà ce qu'est le feu de l'intérieur.
+DescFinal=Les flammes vous ont reconnu. Le Cheval de Feu est à vous. Traitez-le bien... ou il ne vous le pardonnera pas.
+Repetible=0
+PosMap=591
+
+[QUEST382]
+Nombre=Le Cavalier de la Terre
+Desc=La terre ne se conquiert pas. Elle se gagne avec patience, avec effort, avec un poids accumulé pas à pas. Dolgrin ne remettra pas le Cheval de Terre à celui qui n'a pas porté ce fardeau. Quarante Runes Élémentaires de Terre. Chacune est une preuve silencieuse que vous êtes prêt à construire ce que les autres abandonnent à mi-chemin.
+DescFinal=La terre vous a accepté. Le Cheval de Terre est à vous. Aussi solide que les racines de Morgrim elle-même.
+Repetible=0
+PosMap=591
+
+[QUEST383]
+Nombre=Le Cavalier du Vent
+Desc=Le vent n'attend pas. Il ne pardonne ni le doute ni la lenteur. Le Cheval de Vent choisit ceux qui avancent avec détermination, ceux qui ne s'arrêtent pas quand le chemin devient difficile. Quarante Runes Élémentaires de Vent. Si vous êtes arrivé jusqu'ici avec elles, le vent vous connaît déjà. Il ne reste plus qu'à ce qu'il vous reconnaisse comme sien.
+DescFinal=Le vent vous a choisi. Le Cheval de Vent est à vous. Que rien ni personne ne vous arrête.
+Repetible=0
+PosMap=591
+
+[QUEST384]
+Nombre=Le Cavalier de la Glace
+Desc=La glace ne brûle pas et ne souffle pas. Elle attend. Et dans cette attente, elle juge. Le Cheval de Glace ne se remet pas à celui qui arrive à la hâte ni à celui qui cherche le pouvoir sans le comprendre. Quarante Runes Élémentaires d'Eau. Le froid reconnaît ceux qui ont appris à tenir bon dans le silence, ceux que le temps ne plie pas. Êtes-vous l'un d'eux ?
+DescFinal=La glace vous a reconnu. Le Cheval de Glace est à vous. Aussi éternel et serein que les profondeurs dont il est né.
+Repetible=0
+PosMap=591
+
+[QUEST385]
+Nombre=Réduire les Forces
+Desc=Soldat ! Les Gardes Légionnaires qui protègent Arkhein portent un bracelet rouge et noir, symbole de leur serment à la Légion. Si vous parveniez à leur arracher ce bracelet, ce serait un coup direct à leur moral et une victoire pour le Royaume. Ce ne sera pas facile ? ils ne le cèdent pas sans se battre... mais si la fortune vous sourit, l'un d'eux le laissera tomber. Apportez-le moi, et le Royaume vous récompensera avec une Potion de Points de Faction. Pour l'Honneur du Royaume !
+DescFinal=Je le savais. Je savais que vous en étiez capable. Ce bracelet est bien plus qu'un objet ? c'est la preuve que les forces de la Légion ne sont pas invincibles. Le Royaume n'oublie pas ceux qui se battent pour lui. Voici votre récompense, bien méritée.
+Repetible=1
+RequiredLevel=25
+
+[QUEST386]
+Nombre=Réduire les Forces
+Desc=Écoutez-moi bien. Les Gardes Royaux de Banderbill portent un bracelet bleu, marque de leur servilité envers le monarque corrompu qui opprime ces terres. Leur arracher ce bracelet n'est pas seulement un acte de guerre... c'est un message. Un message que personne au service de ce roi n'est en sécurité. Il ne tombera pas facilement ? vous devrez combattre et attendre que l'ombre vous favorise. Mais si vous y parvenez, je vous récompenserai avec une Potion de Points de Faction. L'ombre vous guidera.
+DescFinal=Bien joué. Ce bracelet bleu, qu'ils portaient autrefois avec tant de fierté, est maintenant entre les mains de la Légion. C'est exactement ce dont nous avions besoin. Votre loyauté ne passe pas inaperçue. Prenez votre récompense.
+Repetible=1
+RequiredLevel=25
+
 [QUEST900]
 Nombre=Cenizas del Primer Fuego
 Desc=Traeme 10 Plumas de Fenix y te entregare un Huevo de Fenix, que guarda el poder ancestral de las llamas.

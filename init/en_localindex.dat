@@ -4566,6 +4566,55 @@ DescFinal=Bien, haz acabado con las alimañas, te lo agradezco!
 Repetible=1
 RequiredLevel=25
 
+[QUEST380]
+Nombre=Dolgrin's Offering
+Desc=The four elements are not to be mastered. They are to be gathered. Since the dwarves of Morgrim deciphered the language of essences, they have known that fire, earth, wind and water are not separate forces: they are fragments of the same ancient power. Dolgrin has spent years waiting for those capable of forging what few dare to bring together. Bring me ten Elemental Runes of each element and I will give you something that cannot be found anywhere else in the known world.
+DescFinal=The runes have found their form. The chest is yours... for now. But the elements never stop flowing, and Dolgrin never stops waiting. If one day you gather enough again, you know where to find me.
+Repetible=1
+PosMap=591
+
+[QUEST381]
+Nombre=The Fire Rider
+Desc=Not everyone who seeks the Fire Horse deserves it. Dolgrin knows this. That is why wanting it is not enough: it must be proven. Forty Elemental Runes of Fire. That is what it takes for the flames to recognize their rider. It is not an easy path, but whoever arrives here carrying that burden... already knows what fire feels like from within.
+DescFinal=The flames recognized you. The Fire Horse is yours. Treat it well... or it will not forgive you.
+Repetible=0
+PosMap=591
+
+[QUEST382]
+Nombre=The Earth Rider
+Desc=Earth is not conquered. It is earned with patience, with effort, with weight accumulated step by step. Dolgrin will not hand over the Earth Horse to one who has not carried that burden. Forty Elemental Runes of Earth. Each one is a silent proof that you are willing to build what others abandon halfway.
+DescFinal=The earth accepted you. The Earth Horse is yours. As firm as the roots of Morgrim itself.
+Repetible=0
+PosMap=591
+
+[QUEST383]
+Nombre=The Wind Rider
+Desc=The wind does not wait. It does not forgive doubt or slowness. The Wind Horse chooses those who move with purpose, those who do not stop when the path grows difficult. Forty Elemental Runes of Wind. If you arrived here carrying them, the wind already knows you. All that remains is for it to claim you as its own.
+DescFinal=The wind chose you. The Wind Horse is yours. Let nothing and no one stop you.
+Repetible=0
+PosMap=591
+
+[QUEST384]
+Nombre=The Ice Rider
+Desc=Ice does not burn nor blow. It waits. And in that waiting, it judges. The Ice Horse is not given to those who arrive in haste or who seek power without understanding it. Forty Elemental Runes of Water. The cold recognizes those who have learned to stand firm in silence, those whom time does not bend. Are you one of them?
+DescFinal=The ice recognized you. The Ice Horse is yours. As eternal and serene as the depths from which it was born.
+Repetible=0
+PosMap=591
+
+[QUEST385]
+Nombre=Reduce the Forces
+Desc=Soldier! The Legion Guards who protect Arkhein wear a red and black bracelet, a symbol of their oath to the Legion. If you managed to take that bracelet from them, it would be a direct blow to their morale and a victory for the Kingdom. It won't be easy ? they don't give it up without a fight... but if fortune favors you, one of them will drop it. Bring it to me, and the Kingdom will reward you with a Faction Points Potion. For the Honor of the Kingdom!
+DescFinal=I knew it. I knew you could do it. This bracelet is much more than an object ? it is proof that the Legion's forces are not invincible. The Kingdom does not forget those who fight for it. Here is your reward, well earned.
+Repetible=1
+RequiredLevel=25
+
+[QUEST386]
+Nombre=Reduce the Forces
+Desc=Listen carefully. The Royal Guards of Banderbill wear a blue bracelet, a mark of their servitude to the corrupt monarch who oppresses these lands. Taking that bracelet from them is not just an act of war... it's a message. A message that no one who serves that king is safe. It won't fall easily ? you'll have to fight and wait for the shadow to favor you. But if you manage it, I will reward you with a Faction Points Potion. The shadow will guide you.
+DescFinal=Well done. This blue bracelet, which they once wore with such pride, is now in the hands of the Legion. That is exactly what we needed. Your loyalty does not go unnoticed. Take your reward.
+Repetible=1
+RequiredLevel=25
+
 [QUEST900]
 Nombre=Cenizas del Primer Fuego
 Desc=Traeme 10 Plumas de Fenix y te entregare un Huevo de Fenix, que guarda el poder ancestral de las llamas.

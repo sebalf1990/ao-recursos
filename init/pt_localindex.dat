@@ -4564,6 +4564,55 @@ DescFinal=Bien, haz acabado con las alimañas, te lo agradezco!
 Repetible=1
 RequiredLevel=25
 
+[QUEST380]
+Nombre=A Oferta de Dolgrin
+Desc=Os quatro elementos não se dominam. Eles se reúnem. Desde que os anões de Morgrim decifraram a linguagem das essências, sabem que o fogo, a terra, o vento e a água não são forças separadas: são fragmentos de um mesmo poder antigo. Dolgrin passa anos esperando por aqueles capazes de forjar o que poucos se atrevem a reunir. Traga-me dez Runas Elementais de cada elemento e lhe darei algo que não se encontra em nenhum outro lugar do mundo conhecido.
+DescFinal=As runas encontraram sua forma. O cofre é seu... por enquanto. Mas os elementos nunca param de fluir, e Dolgrin nunca para de esperar. Se algum dia você reunir o suficiente novamente, já sabe onde me encontrar.
+Repetible=1
+PosMap=591
+
+[QUEST381]
+Nombre=O Cavaleiro do Fogo
+Desc=Nem todos os que buscam o Cavalo de Fogo o merecem. Dolgrin sabe disso. Por isso não basta querer: é preciso provar. Quarenta Runas Elementais de Fogo. É isso que é necessário para que as chamas reconheçam seu cavaleiro. Não é um caminho fácil, mas quem chega até aqui carregando esse peso... já sabe o que é o fogo por dentro.
+DescFinal=As chamas te reconheceram. O Cavalo de Fogo é seu. Trate-o bem... ou ele não te perdoará.
+Repetible=0
+PosMap=591
+
+[QUEST382]
+Nombre=O Cavaleiro da Terra
+Desc=A terra não se conquista. Se ganha com paciência, com esforço, com peso acumulado passo a passo. Dolgrin não entregará o Cavalo de Terra a quem não tenha carregado esse peso. Quarenta Runas Elementais de Terra. Cada uma é uma prova silenciosa de que você está disposto a construir o que outros abandonam no meio do caminho.
+DescFinal=A terra te aceitou. O Cavalo de Terra é seu. Tão firme quanto as raízes da própria Morgrim.
+Repetible=0
+PosMap=591
+
+[QUEST383]
+Nombre=O Cavaleiro do Vento
+Desc=O vento não espera. Não perdoa a dúvida nem a lentidão. O Cavalo de Vento escolhe aqueles que se movem com propósito, que não param quando o caminho se complica. Quarenta Runas Elementais de Vento. Se você chegou até aqui com elas, o vento já te conhece. Falta apenas que ele te reconheça como seu.
+DescFinal=O vento te escolheu. O Cavalo de Vento é seu. Que nada nem ninguém te detenha.
+Repetible=0
+PosMap=591
+
+[QUEST384]
+Nombre=O Cavaleiro do Gelo
+Desc=O gelo não arde nem sopra. Espera. E nessa espera, julga. O Cavalo de Gelo não se entrega a quem chega com pressa nem a quem busca poder sem compreendê-lo. Quarenta Runas Elementais de Água. O frio reconhece aqueles que aprenderam a se sustentar em silêncio, aqueles que o tempo não dobra. Você é um deles?
+DescFinal=O gelo te reconheceu. O Cavalo de Gelo é seu. Tão eterno e sereno quanto as profundezas das quais nasceu.
+Repetible=0
+PosMap=591
+
+[QUEST385]
+Nombre=Reduzir as Forças
+Desc=Soldado! Os Guardas Legionários que protegem Arkhein usam um brazalete vermelho e preto, símbolo de seu juramento à Legião. Se conseguisse arrancar esse brazalete deles, seria um golpe direto em seu moral e uma vitória para o Reino. Não será fácil ? eles não o entregam sem lutar... mas se a sorte estiver ao seu lado, um deles o deixará cair. Traga-o para mim e o Reino o recompensará com uma Poção de Pontos de Facção. Pela Honra do Reino!
+DescFinal=Eu sabia. Sabia que você era capaz. Este brazalete é muito mais do que um objeto ? é a prova de que as forças da Legião não são invencíveis. O Reino não esquece aqueles que lutam por ele. Aqui está sua recompensa, bem merecida.
+Repetible=1
+RequiredLevel=25
+
+[QUEST386]
+Nombre=Reduzir as Forças
+Desc=Ouça com atenção. Os Guardas Reais de Banderbill usam um brazalete azul, marca de sua servidão ao monarca corrupto que oprime estas terras. Tirar esse brazalete deles não é apenas um ato de guerra... é uma mensagem. Uma mensagem de que ninguém que sirva a esse rei está seguro. Não cairá facilmente ? você terá que lutar e esperar que a sombra o favoreça. Mas se conseguir, vou recompensá-lo com uma Poção de Pontos de Facção. A sombra irá guiá-lo.
+DescFinal=Muito bem. Este brazalete azul, que antes usavam com tanto orgulho, agora está nas mãos da Legião. É exatamente o que precisávamos. Sua lealdade não passa despercebida. Pegue sua recompensa.
+Repetible=1
+RequiredLevel=25
+
 [QUEST900]
 Nombre=Cenizas del Primer Fuego
 Desc=Traeme 10 Plumas de Fenix y te entregare un Huevo de Fenix, que guarda el poder ancestral de las llamas.

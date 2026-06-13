@@ -12063,10 +12063,11 @@ NPCLVL=24
 MagicResistance=60
 MagicDef=5
 DisabledInBattleServer=1
-NumQuest=3
+NumQuest=4
 QuestNumber1=105
 QuestNumber2=66
 QuestNumber3=340
+QuestNumber4=386
 [NPC1013]
 Name=Ezzyr <Equipamiento Real>
 En_Name=Ezzyr <Royal Equipment>
@@ -12087,10 +12088,11 @@ MagicResistance=60
 MagicDef=5
 
 ' Nagas, Dungeón Horacio '
-NumQuest=3
+NumQuest=4
 QuestNumber1=68
 QuestNumber2=94
 QuestNumber3=340
+QuestNumber4=385
 
 [NPC1014]
 Name=Lynn

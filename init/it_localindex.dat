@@ -4564,6 +4564,55 @@ DescFinal=Bien, haz acabado con las alimañas, te lo agradezco!
 Repetible=1
 RequiredLevel=25
 
+[QUEST380]
+Nombre=L'Offerta di Dolgrin
+Desc=I quattro elementi non si dominano. Si riuniscono. Da quando i nani di Morgrim hanno decifrato il linguaggio delle essenze, sanno che il fuoco, la terra, il vento e l'acqua non sono forze separate: sono frammenti di uno stesso potere antico. Dolgrin trascorre anni ad aspettare coloro capaci di forgiare ciò che pochi osano riunire. Portami dieci Rune Elementali di ogni elemento e ti darò qualcosa che non si trova in nessun altro luogo del mondo conosciuto.
+DescFinal=Le rune hanno trovato la loro forma. Il forziere è tuo... per ora. Ma gli elementi non smettono mai di scorrere, e Dolgrin non smette mai di aspettare. Se un giorno riunirai di nuovo abbastanza, sai già dove trovarmi.
+Repetible=1
+PosMap=591
+
+[QUEST381]
+Nombre=Il Cavaliere del Fuoco
+Desc=Non tutti coloro che cercano il Cavallo di Fuoco lo meritano. Dolgrin lo sa. Ecco perché volerlo non basta: bisogna dimostrarlo. Quaranta Rune Elementali di Fuoco. È questo ciò che serve perché le fiamme riconoscano il loro cavaliere. Non è un percorso facile, ma chi arriva fin qui con quel peso... sa già cosa significa il fuoco dentro di sé.
+DescFinal=Le fiamme ti hanno riconosciuto. Il Cavallo di Fuoco è tuo. Trattalo bene... o non te lo perdonerà.
+Repetible=0
+PosMap=591
+
+[QUEST382]
+Nombre=Il Cavaliere della Terra
+Desc=La terra non si conquista. Si guadagna con pazienza, con fatica, con un peso accumulato passo dopo passo. Dolgrin non consegnerà il Cavallo di Terra a chi non ha portato quel peso. Quaranta Rune Elementali di Terra. Ognuna è una prova silenziosa che sei disposto a costruire ciò che gli altri abbandonano a metà strada.
+DescFinal=La terra ti ha accettato. Il Cavallo di Terra è tuo. Saldo come le radici di Morgrim stessa.
+Repetible=0
+PosMap=591
+
+[QUEST383]
+Nombre=Il Cavaliere del Vento
+Desc=Il vento non aspetta. Non perdona il dubbio né la lentezza. Il Cavallo del Vento sceglie coloro che si muovono con determinazione, che non si fermano quando il cammino si fa difficile. Quaranta Rune Elementali di Vento. Se sei arrivato fin qui con esse, il vento ti conosce già. Manca solo che ti riconosca come suo.
+DescFinal=Il vento ti ha scelto. Il Cavallo del Vento è tuo. Che nulla e nessuno ti fermi.
+Repetible=0
+PosMap=591
+
+[QUEST384]
+Nombre=Il Cavaliere del Ghiaccio
+Desc=Il ghiaccio non brucia né soffia. Aspetta. E in quell'attesa, giudica. Il Cavallo di Ghiaccio non si consegna a chi arriva di fretta né a chi cerca potere senza comprenderlo. Quaranta Rune Elementali d'Acqua. Il freddo riconosce coloro che hanno imparato a reggersi nel silenzio, coloro che il tempo non piega. Sei uno di loro?
+DescFinal=Il ghiaccio ti ha riconosciuto. Il Cavallo di Ghiaccio è tuo. Eterno e sereno come le profondità da cui è nato.
+Repetible=0
+PosMap=591
+
+[QUEST385]
+Nombre=Ridurre le Forze
+Desc=Soldato! Le Guardie Legionarie che proteggono Arkhein indossano un bracciale rosso e nero, simbolo del loro giuramento alla Legione. Se riuscissi a strappar loro quel bracciale, sarebbe un colpo diretto al loro morale e una vittoria per il Regno. Non sarà facile ? non lo cedono senza combattere... ma se la fortuna ti assiste, una di esse lo lascerà cadere. Portamelo, e il Regno ti ricompenserà con una Pozione di Punti Fazione. Per l'Onore del Regno!
+DescFinal=Lo sapevo. Sapevo che eri in grado di farcela. Questo bracciale è molto più di un oggetto ? è la prova che le forze della Legione non sono invincibili. Il Regno non dimentica chi combatte per lui. Ecco la tua ricompensa, ben guadagnata.
+Repetible=1
+RequiredLevel=25
+
+[QUEST386]
+Nombre=Ridurre le Forze
+Desc=Ascoltami bene. Le Guardie Reali di Banderbill indossano un bracciale azzurro, segno della loro sudditanza al monarca corrotto che opprime queste terre. Togliere loro quel bracciale non è solo un atto di guerra... è un messaggio. Un messaggio che nessuno al servizio di quel re è al sicuro. Non cadrà facilmente ? dovrai combattere e sperare che l'ombra ti favorisca. Ma se ci riesci, ti ricompenserò con una Pozione di Punti Fazione. L'ombra ti guiderà.
+DescFinal=Ben fatto. Questo bracciale azzurro, che un tempo indossavano con tanto orgoglio, è ora nelle mani della Legione. È esattamente ciò di cui avevamo bisogno. La tua lealtà non passa inosservata. Prendi la tua ricompensa.
+Repetible=1
+RequiredLevel=25
+
 [QUEST900]
 Nombre=Cenizas del Primer Fuego
 Desc=Traeme 10 Plumas de Fenix y te entregare un Huevo de Fenix, que guarda el poder ancestral de las llamas.
