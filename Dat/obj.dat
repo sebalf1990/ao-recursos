@@ -70454,7 +70454,7 @@ Name=Gorro Navideño
 Texto=¡Feliz Navidad! Objeto consumible.
 GrhIndex=11422
 ObjType=41
-Anim=308
+Anim=319
 Valor=0
 
 [OBJ6241] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
