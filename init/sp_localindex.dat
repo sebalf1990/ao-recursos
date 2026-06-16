@@ -2,7 +2,7 @@
 NUMEROHECHIZO=412
 NUMLOCALEMSG=2210
 NUMMAPAS=750
-NUMNPCS=9009
+NUMNPCS=9017
 NUMOBJS=9063
 NUMQUESTS=901
 NUMSUGERENCIAS=6
@@ -3457,7 +3457,7 @@ NpcType=17
 [NPC261]
 Name=Guardia Imperial
 Desc=¡Viva el rey Tancredo!
-Body=4113
+Body=5554
 Head=0
 HP=10000
 NpcType=2
@@ -3555,7 +3555,7 @@ NROITEMS=0
 [NPC275]
 Name=Guardia Imperial de Nix
 Desc=Daré carcel a todos los criminales.
-Body=4113
+Body=5554
 HP=10000
 MaxHIT=100
 MinHIT=100
@@ -4982,7 +4982,7 @@ ORO=160
 
 [NPC578]
 Name=Tigre Antártico
-Body=4080
+Body=4913
 HP=2800
 EXP=3248
 MaxHIT=60
@@ -4991,7 +4991,7 @@ ORO=120
 
 [NPC579]
 Name=Gorila Antártico
-Body=4493
+Body=4922
 HP=3300
 EXP=3000
 MaxHIT=160
@@ -12327,7 +12327,7 @@ NpcType=0
 
 [NPC1383]
 Name=Demonio Gris
-Body=4013
+Body=5467
 HP=1500
 EXP=900
 MaxHIT=115
@@ -13628,16 +13628,17 @@ NoMapInfo=1
 Name=Mara <Aventurera Viajera>
 Desc=Vendo pieles
 DescClose=Vuelve pronto
-Body=4208
+Body=2522
+Head=351
 NpcType=0
 Comercia=1
 NoMapInfo=1
 
 [NPC1808]
 Name=Dragón Nuevo
-Body=6075
-BodyIdle=6075
-Ataque1=6074
+Body=5506
+BodyIdle=5504
+Ataque1=5505
 HP=80000
 NpcType=0
 EXP=0
@@ -13646,9 +13647,9 @@ MinHIT=130
 
 [NPC1809]
 Name=Dragón Nuevo
-Body=4208
-BodyIdle=4207
-Ataque1=4206
+Body=5509
+BodyIdle=5507
+Ataque1=5508
 HP=80000
 NpcType=0
 EXP=0
@@ -13658,16 +13659,16 @@ MinHIT=130
 [NPC1810]
 Name=Cano <El Eterno Chitero>
 Desc=No debí haber hecho eso, me merezco estar eternamente pudriendome en esta celda.
-Body=4208
-Head=0
+Body=55
+Head=74
 NpcType=0
 NoMapInfo=1
 
 [NPC1811]
 Name=Emilio Dedos Rápidos
 Desc=No debí haber hecho eso, me merezco estar eternamente pudriendome en esta celda.
-Body=4208
-Head=0
+Body=14
+Head=305
 NpcType=0
 NoMapInfo=1
 
@@ -13675,8 +13676,8 @@ NoMapInfo=1
 Name=Mhor <Herrero Vikingo>
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
-Body=4208
-Head=0
+Body=71
+Head=8
 NpcType=0
 Comercia=1
 NoMapInfo=1
@@ -13689,8 +13690,8 @@ Obj3=1715-1000
 Name=Heracio <Maestro Herrero>
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
-Body=4208
-Head=0
+Body=71
+Head=8
 NpcType=0
 Comercia=1
 NoMapInfo=1
@@ -65584,6 +65585,118 @@ EXP=0
 ORO=0
 MaxHIT=1
 MinHIT=1
+NROITEMS=0
+
+[NPC9010]
+Name=Arana Test Inmune Menor
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC9011]
+Name=Arana Test Inmune Hemo
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC9012]
+Name=Arana Test Inmune Neuro
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC9013]
+Name=Arana Test Resist Menor
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC9014]
+Name=Arana Test Resist Hemo
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC9015]
+Name=Arana Test Resist Neuro
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC9016]
+Name=Arana Test Inmune General
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC9017]
+Name=Arana Test Resist General
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 NROITEMS=0
 
 [NAMEMAPA]

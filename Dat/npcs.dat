@@ -3,7 +3,7 @@
 'Reorganización Masiva.
 
 [INIT]
-NumNPCs=9009
+NumNPCs=9017
 
 'SPOTS LIBRES<<<<<<<<<<<<<<<<<<<<<<<<<<<#
 '16 al 23  		Comerciantes			#
@@ -1936,7 +1936,7 @@ En_name=Imperial Guard
 NpcType=2
 Desc=¡Viva el rey Tancredo!
 Head=0
-Body=4113
+Body=5554
 Heading=3
 Movement=2
 Attackable=1
@@ -2205,7 +2205,7 @@ MagicDef=15
 '------------------>Guardias con recorridos de Nix>------------------
 
 [NPC275] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=4113
+Body=5554
 Desc=Daré carcel a todos los criminales.
 MaxHp=10000
 MinHp=10000
@@ -5959,7 +5959,7 @@ it_Name=Antartic Aquilorere
 pt_Name=Antártico Aquilore
 
 [NPC578] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=4080
+Body=4913
 GiveEXP=3248
 MaxHp=2800
 MinHp=2800
@@ -5973,7 +5973,7 @@ it_Name=Tigre antartica
 pt_Name=Tigre Antártico
 
 [NPC579] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=4493
+Body=4922
 GiveEXP=3000
 MaxHp=3300
 MinHp=3300
@@ -21876,7 +21876,7 @@ NoWiki=1
 NpcType=0
 
 [NPC1383] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=4013
+Body=5467
 GiveEXP=900
 MaxHp=1500
 MinHp=1500
@@ -24900,16 +24900,18 @@ NoMapInfo=1
 Name=Mara <Aventurera Viajera>
 Desc=Vendo pieles
 DescClose=Vuelve pronto
-Body=4208
+Body=2522
+Head=351
 NpcType=0
 Comercia=1
 NoMapInfo=1
 
 [NPC1808] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Dragón Nuevo
-Body=6075
-BodyIdle=6075
-Ataque1=6074
+Body=5506
+Movement=2
+BodyIdle=5504
+Ataque1=5505
 MaxHp=80000
 MinHp=80000
 NpcType=0
@@ -24923,9 +24925,10 @@ Drop3=4960-100-1-1
 
 [NPC1809] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Dragón Nuevo
-Body=4208
-BodyIdle=4207
-Ataque1=4206
+Body=5509
+Movement=2
+BodyIdle=5507
+Ataque1=5508
 MaxHp=80000
 MinHp=80000
 NpcType=0
@@ -24940,16 +24943,16 @@ Drop3=4960-100-1-1
 [NPC1810] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Cano <El Eterno Chitero>
 Desc=No debí haber hecho eso, me merezco estar eternamente pudriendome en esta celda.
-Body=4208
-Head=0
+Body=55
+Head=74
 NpcType=0
 NoMapInfo=1
 
 [NPC1811] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Emilio Dedos Rápidos
 Desc=No debí haber hecho eso, me merezco estar eternamente pudriendome en esta celda.
-Body=4208
-Head=0
+Body=14
+Head=305
 NpcType=0
 NoMapInfo=1
 
@@ -24957,8 +24960,8 @@ NoMapInfo=1
 Name=Mhor <Herrero Vikingo>
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
-Body=4208
-Head=0
+Body=71
+Head=8
 NpcType=0
 Comercia=1
 NoMapInfo=1
@@ -24981,8 +24984,8 @@ Obj12=1855-1000
 Name=Heracio <Maestro Herrero>
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
-Body=4208
-Head=0
+Body=71
+Head=8
 NpcType=0
 Comercia=1
 NoMapInfo=1
@@ -26478,3 +26481,250 @@ NPCLVL=1
 PerfilVenenoAplica=Perfil_Arana_Neuro
 ChanceAplicarPct=100
 
+[NPC9010] 'Arana-test recreada del 6/6 (ex-NPC1807, clobbereada por sync 6/8); plan 15.001
+Name=Arana Test Inmune Menor
+ShowName=1
+en_Name=Test Spider Immune Minor
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=5000
+MaxHP=5000
+MaxHIT=0
+MinHIT=0
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=0
+PoderEvasion=0
+Humanoide=0
+NPCLVL=1
+InmunidadVenenoMenor=1
+
+[NPC9011] 'Arana-test recreada del 6/6 (ex-NPC1808, clobbereada por sync 6/8); plan 15.001
+Name=Arana Test Inmune Hemo
+ShowName=1
+en_Name=Test Spider Immune Hemo
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=5000
+MaxHP=5000
+MaxHIT=0
+MinHIT=0
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=0
+PoderEvasion=0
+Humanoide=0
+NPCLVL=1
+InmunidadHemo=1
+
+[NPC9012] 'Arana-test recreada del 6/6 (ex-NPC1809, clobbereada por sync 6/8); plan 15.001
+Name=Arana Test Inmune Neuro
+ShowName=1
+en_Name=Test Spider Immune Neuro
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=5000
+MaxHP=5000
+MaxHIT=0
+MinHIT=0
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=0
+PoderEvasion=0
+Humanoide=0
+NPCLVL=1
+InmunidadNeuro=1
+
+[NPC9013] 'Arana-test recreada del 6/6 (ex-NPC1810, clobbereada por sync 6/8); plan 15.001
+Name=Arana Test Resist Menor
+ShowName=1
+en_Name=Test Spider Resist Minor
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=5000
+MaxHP=5000
+MaxHIT=0
+MinHIT=0
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=0
+PoderEvasion=0
+Humanoide=0
+NPCLVL=1
+ResistChanceVenenoMenorPct=50
+ResistDanoVenenoMenorFlat=3
+ResistDanoVenenoMenorPct=50
+
+[NPC9014] 'Arana-test recreada del 6/6 (ex-NPC1811, clobbereada por sync 6/8); plan 15.001
+Name=Arana Test Resist Hemo
+ShowName=1
+en_Name=Test Spider Resist Hemo
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=5000
+MaxHP=5000
+MaxHIT=0
+MinHIT=0
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=0
+PoderEvasion=0
+Humanoide=0
+NPCLVL=1
+ResistChanceHemoPct=50
+ResistDanoHemoFlat=3
+ResistDanoHemoPct=50
+
+[NPC9015] 'Arana-test recreada del 6/6 (ex-NPC1812, clobbereada por sync 6/8); plan 15.001
+Name=Arana Test Resist Neuro
+ShowName=1
+en_Name=Test Spider Resist Neuro
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=5000
+MaxHP=5000
+MaxHIT=0
+MinHIT=0
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=0
+PoderEvasion=0
+Humanoide=0
+NPCLVL=1
+ResistChanceNeuroPct=50
+ResistDanoNeuroFlat=3
+ResistDanoNeuroPct=50
+
+[NPC9016] 'Arana-test recreada del 6/6 (ex-NPC1813, clobbereada por sync 6/8); plan 15.001
+Name=Arana Test Inmune General
+ShowName=1
+en_Name=Test Spider Immune Generic
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=5000
+MaxHP=5000
+MaxHIT=0
+MinHIT=0
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=0
+PoderEvasion=0
+Humanoide=0
+NPCLVL=1
+InmunidadVenenoGenerica=1
+
+[NPC9017] 'Arana-test recreada del 6/6 (ex-NPC1814, clobbereada por sync 6/8); plan 15.001
+Name=Arana Test Resist General
+ShowName=1
+en_Name=Test Spider Resist Generic
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=5000
+MaxHP=5000
+MaxHIT=0
+MinHIT=0
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=0
+PoderEvasion=0
+Humanoide=0
+NPCLVL=1
+ResistChanceVenenoGenericoPct=50
+ResistDanoVenenoGenericoFlat=3
+ResistDanoVenenoGenericoPct=50
