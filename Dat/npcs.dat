@@ -5959,7 +5959,7 @@ it_Name=Antartic Aquilorere
 pt_Name=Antártico Aquilore
 
 [NPC578] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=4916
+Body=4913
 GiveEXP=3248
 MaxHp=2800
 MinHp=2800
@@ -5973,7 +5973,7 @@ it_Name=Tigre antartica
 pt_Name=Tigre Antártico
 
 [NPC579] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=4919
+Body=4922
 GiveEXP=3000
 MaxHp=3300
 MinHp=3300
@@ -24960,7 +24960,7 @@ NoMapInfo=1
 Name=Mhor <Herrero Vikingo>
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
-Body=1339
+Body=71
 Head=8
 NpcType=0
 Comercia=1
