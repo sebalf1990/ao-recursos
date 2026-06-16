@@ -3457,7 +3457,7 @@ NpcType=17
 [NPC261]
 Name=Guardia Imperial
 Desc=¡Viva el rey Tancredo!
-Body=4113
+Body=5554
 Head=0
 HP=10000
 NpcType=2
@@ -3555,7 +3555,7 @@ NROITEMS=0
 [NPC275]
 Name=Guardia Imperial de Nix
 Desc=Daré carcel a todos los criminales.
-Body=4113
+Body=5554
 HP=10000
 MaxHIT=100
 MinHIT=100
@@ -4982,7 +4982,7 @@ ORO=160
 
 [NPC578]
 Name=Tigre Antártico
-Body=4080
+Body=4916
 HP=2800
 EXP=3248
 MaxHIT=60
@@ -4991,7 +4991,7 @@ ORO=120
 
 [NPC579]
 Name=Gorila Antártico
-Body=4493
+Body=4919
 HP=3300
 EXP=3000
 MaxHIT=160
@@ -13628,14 +13628,14 @@ NoMapInfo=1
 Name=Mara <Aventurera Viajera>
 Desc=Vendo pieles
 DescClose=Vuelve pronto
-Body=4208
+Body=2522
 NpcType=0
 Comercia=1
 NoMapInfo=1
 
 [NPC1808]
 Name=Dragón Nuevo
-Body=6075
+Body=5506
 BodyIdle=6075
 Ataque1=6074
 HP=80000
@@ -13646,7 +13646,7 @@ MinHIT=130
 
 [NPC1809]
 Name=Dragón Nuevo
-Body=4208
+Body=5509
 BodyIdle=4207
 Ataque1=4206
 HP=80000
@@ -13658,7 +13658,7 @@ MinHIT=130
 [NPC1810]
 Name=Cano <El Eterno Chitero>
 Desc=No debí haber hecho eso, me merezco estar eternamente pudriendome en esta celda.
-Body=4208
+Body=55
 Head=0
 NpcType=0
 NoMapInfo=1
@@ -13666,7 +13666,7 @@ NoMapInfo=1
 [NPC1811]
 Name=Emilio Dedos Rápidos
 Desc=No debí haber hecho eso, me merezco estar eternamente pudriendome en esta celda.
-Body=4208
+Body=14
 Head=0
 NpcType=0
 NoMapInfo=1
@@ -13675,7 +13675,7 @@ NoMapInfo=1
 Name=Mhor <Herrero Vikingo>
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
-Body=4208
+Body=1339
 Head=0
 NpcType=0
 Comercia=1
@@ -13689,7 +13689,7 @@ Obj3=1715-1000
 Name=Heracio <Maestro Herrero>
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
-Body=4208
+Body=71
 Head=0
 NpcType=0
 Comercia=1

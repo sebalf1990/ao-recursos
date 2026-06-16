@@ -1936,7 +1936,7 @@ En_name=Imperial Guard
 NpcType=2
 Desc=¡Viva el rey Tancredo!
 Head=0
-Body=4113
+Body=5554
 Heading=3
 Movement=2
 Attackable=1
@@ -2205,7 +2205,7 @@ MagicDef=15
 '------------------>Guardias con recorridos de Nix>------------------
 
 [NPC275] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=4113
+Body=5554
 Desc=Daré carcel a todos los criminales.
 MaxHp=10000
 MinHp=10000
@@ -5959,7 +5959,7 @@ it_Name=Antartic Aquilorere
 pt_Name=Antártico Aquilore
 
 [NPC578] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=4080
+Body=4916
 GiveEXP=3248
 MaxHp=2800
 MinHp=2800
@@ -5973,7 +5973,7 @@ it_Name=Tigre antartica
 pt_Name=Tigre Antártico
 
 [NPC579] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=4493
+Body=4919
 GiveEXP=3000
 MaxHp=3300
 MinHp=3300
@@ -24900,14 +24900,14 @@ NoMapInfo=1
 Name=Mara <Aventurera Viajera>
 Desc=Vendo pieles
 DescClose=Vuelve pronto
-Body=4208
+Body=2522
 NpcType=0
 Comercia=1
 NoMapInfo=1
 
 [NPC1808] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Dragón Nuevo
-Body=6075
+Body=5506
 BodyIdle=6075
 Ataque1=6074
 MaxHp=80000
@@ -24923,7 +24923,7 @@ Drop3=4960-100-1-1
 
 [NPC1809] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Dragón Nuevo
-Body=4208
+Body=5509
 BodyIdle=4207
 Ataque1=4206
 MaxHp=80000
@@ -24940,7 +24940,7 @@ Drop3=4960-100-1-1
 [NPC1810] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Cano <El Eterno Chitero>
 Desc=No debí haber hecho eso, me merezco estar eternamente pudriendome en esta celda.
-Body=4208
+Body=55
 Head=0
 NpcType=0
 NoMapInfo=1
@@ -24948,7 +24948,7 @@ NoMapInfo=1
 [NPC1811] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Emilio Dedos Rápidos
 Desc=No debí haber hecho eso, me merezco estar eternamente pudriendome en esta celda.
-Body=4208
+Body=14
 Head=0
 NpcType=0
 NoMapInfo=1
@@ -24957,7 +24957,7 @@ NoMapInfo=1
 Name=Mhor <Herrero Vikingo>
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
-Body=4208
+Body=1339
 Head=0
 NpcType=0
 Comercia=1
@@ -24981,7 +24981,7 @@ Obj12=1855-1000
 Name=Heracio <Maestro Herrero>
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
-Body=4208
+Body=71
 Head=0
 NpcType=0
 Comercia=1
