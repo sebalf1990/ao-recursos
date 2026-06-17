@@ -2,7 +2,7 @@
 NUMEROHECHIZO=412
 NUMLOCALEMSG=2210
 NUMMAPAS=750
-NUMNPCS=9009
+NUMNPCS=9017
 NUMOBJS=9063
 NUMQUESTS=901
 NUMSUGERENCIAS=6
@@ -5624,7 +5624,7 @@ Name=Guardia Imperial
 name=Imperial Guard
 Desc=¡Viva el rey Tancredo!
 desc=Long live King Tancredo!
-Body=4113
+Body=5554
 Head=0
 HP=10000
 NpcType=2
@@ -5725,7 +5725,7 @@ NROITEMS=0
 [NPC275]
 Name=Nix Imperial Guard
 Desc=I will jail all criminals.
-Body=4113
+Body=5554
 HP=10000
 MaxHIT=100
 MinHIT=100
@@ -7193,7 +7193,7 @@ ORO=160
 
 [NPC578]
 Name=Antarctic Tiger
-Body=4080
+Body=4913
 HP=2800
 EXP=3248
 MaxHIT=60
@@ -7202,7 +7202,7 @@ ORO=120
 
 [NPC579]
 Name=Antarctic Gorilla
-Body=4493
+Body=4922
 HP=3300
 EXP=3000
 MaxHIT=160
@@ -14692,7 +14692,7 @@ NpcType=0
 
 [NPC1383]
 Name=Gray Demon
-Body=4013
+Body=5467
 HP=1500
 EXP=900
 MaxHIT=115
@@ -15996,16 +15996,17 @@ NoMapInfo=1
 Name=Mara <Aventurera Viajera>
 Desc=Vendo pieles
 DescClose=Vuelve pronto
-Body=4208
+Body=2522
+Head=351
 NpcType=0
 Comercia=1
 NoMapInfo=1
 
 [NPC1808]
 Name=Dragón Nuevo
-Body=6075
-BodyIdle=6075
-Ataque1=6074
+Body=5506
+BodyIdle=5504
+Ataque1=5505
 HP=80000
 NpcType=0
 EXP=0
@@ -16014,9 +16015,9 @@ MinHIT=130
 
 [NPC1809]
 Name=Dragón Nuevo
-Body=4208
-BodyIdle=4207
-Ataque1=4206
+Body=5509
+BodyIdle=5507
+Ataque1=5508
 HP=80000
 NpcType=0
 EXP=0
@@ -16026,16 +16027,16 @@ MinHIT=130
 [NPC1810]
 Name=Cano <El Eterno Chitero>
 Desc=No debí haber hecho eso, me merezco estar eternamente pudriendome en esta celda.
-Body=4208
-Head=0
+Body=55
+Head=74
 NpcType=0
 NoMapInfo=1
 
 [NPC1811]
 Name=Emilio Dedos Rápidos
 Desc=No debí haber hecho eso, me merezco estar eternamente pudriendome en esta celda.
-Body=4208
-Head=0
+Body=14
+Head=305
 NpcType=0
 NoMapInfo=1
 
@@ -16043,8 +16044,8 @@ NoMapInfo=1
 Name=Mhor <Herrero Vikingo>
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
-Body=4208
-Head=0
+Body=71
+Head=8
 NpcType=0
 Comercia=1
 NoMapInfo=1
@@ -16057,8 +16058,8 @@ Obj3=1715-1000
 Name=Heracio <Maestro Herrero>
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
-Body=4208
-Head=0
+Body=71
+Head=8
 NpcType=0
 Comercia=1
 NoMapInfo=1
@@ -23515,12 +23516,24 @@ Valor=0
 
 [OBJ462]
 Name=Princess dress
-GrhIndex=25618
+GrhIndex=11495
 ObjType=3
 MAXDEF=3
 MINDEF=2
 Valor=150
 Texto=Vestido de Princesa
+RopajeElfa=2229
+RopajeElfaOscura=3686
+RopajeElfo=0
+RopajeElfoOscuro=0
+RopajeEnana=2744
+RopajeEnano=0
+RopajeGnoma=2744
+RopajeGnomo=0
+RopajeHumana=2229
+RopajeHumano=0
+RopajeOrca=3311
+RopajeOrco=0
 
 [OBJ463]
 Name=Basic Vestment
@@ -23577,12 +23590,24 @@ Valor=690
 
 [OBJ468]
 Name=Countess Dress
-GrhIndex=25672
+GrhIndex=11493
 ObjType=3
 MAXDEF=13
 MINDEF=10
 Valor=2400
 Texto=Vestido de Condesa
+RopajeElfa=2227
+RopajeElfaOscura=3684
+RopajeElfo=2227
+RopajeElfoOscuro=3684
+RopajeEnana=2742
+RopajeEnano=2742
+RopajeGnoma=2742
+RopajeGnomo=2742
+RopajeHumana=2227
+RopajeHumano=2227
+RopajeOrca=3309
+RopajeOrco=3309
 
 [OBJ469]
 Name=Laúd Mágico
@@ -23783,7 +23808,7 @@ Texto=Vestimenta Común (Bajo)
 
 [OBJ487]
 Name=Dama de las Tinieblas
-GrhIndex=763
+GrhIndex=41584
 ObjType=3
 MAXDEF=38
 MINDEF=35
@@ -23793,6 +23818,18 @@ LingP=350
 LingO=150
 SkHerreria=100
 Texto=Dama de las Tinieblas
+RopajeHumano=208
+RopajeElfo=208
+RopajeElfoOscuro=208
+RopajeEnano=208
+RopajeOrco=208
+RopajeGnomo=208
+RopajeHumana=208
+RopajeElfa=208
+RopajeElfaOscura=208
+RopajeEnana=208
+RopajeOrca=208
+RopajeGnoma=208
 
 [OBJ488]
 Name=White Lady (Woman)
@@ -23924,12 +23961,24 @@ name=Door closed
 
 [OBJ499]
 Name=Cota de Mallas (Mujer)
-GrhIndex=775
+GrhIndex=30867
 MAXDEF=22
 MINDEF=15
 Valor=7200
 ObjType=3
 Texto=Cota de Mallas (Mujer)
+RopajeHumano=2058
+RopajeElfo=2058
+RopajeElfoOscuro=1834
+RopajeEnano=1159
+RopajeOrco=1786
+RopajeGnomo=1159
+RopajeHumana=2058
+RopajeElfa=2058
+RopajeElfaOscura=1834
+RopajeEnana=1159
+RopajeOrca=1786
+RopajeGnoma=1159
 
 [OBJ500]
 Name=Burnished armor (E/G)
@@ -24638,12 +24687,24 @@ GrhIndex=0
 
 [OBJ571]
 Name=Marquise Dress
-GrhIndex=25591
+GrhIndex=11496
 ObjType=3
 MAXDEF=3
 MINDEF=1
 Valor=100
 Texto=Vestido de Marquesa
+RopajeElfa=2230
+RopajeElfaOscura=3687
+RopajeElfo=2230
+RopajeElfoOscuro=3687
+RopajeEnana=2745
+RopajeEnano=2745
+RopajeGnoma=2745
+RopajeGnomo=2745
+RopajeHumana=2230
+RopajeHumano=2230
+RopajeOrca=3312
+RopajeOrco=3312
 
 [OBJ572]
 Name=Botella de Agua (Newbie)
@@ -27623,12 +27684,14 @@ GrhIndex=0
 
 [OBJ971]
 Name=Wedding Dress (E/G)
-GrhIndex=25983
+GrhIndex=11668
 ObjType=3
 MAXDEF=25
 MINDEF=20
 Valor=120000
 Texto=Vestido de Novia (Bajas)
+RopajeEnana=2763
+RopajeGnoma=2763
 
 [OBJ972]
 GrhIndex=0
@@ -27784,7 +27847,7 @@ Texto=Objeto consumible.
 
 [OBJ997]
 Name=Escamas del Dragón Negro
-GrhIndex=36575
+GrhIndex=11376
 ObjType=16
 MAXDEF=14
 MINDEF=8
@@ -27823,7 +27886,7 @@ Texto=Escudo Infernal
 
 [OBJ1000]
 Name=Escudo de Plata
-GrhIndex=37975
+GrhIndex=89934
 ObjType=16
 MAXDEF=2
 MINDEF=5
@@ -29771,7 +29834,7 @@ RopajeOrco=0
 
 [OBJ1273]
 Name=Woman Vestment
-GrhIndex=21647
+GrhIndex=11499
 ObjType=3
 MAXDEF=1
 MINDEF=1
@@ -29780,10 +29843,22 @@ PielLobo=2
 PielOsoPardo=0
 Sksastreria=10
 Texto=Vestimenta de Mujer
+RopajeElfa=2233
+RopajeElfaOscura=3690
+RopajeElfo=0
+RopajeElfoOscuro=0
+RopajeEnana=2748
+RopajeEnano=0
+RopajeGnoma=2748
+RopajeGnomo=0
+RopajeHumana=2233
+RopajeHumano=0
+RopajeOrca=3315
+RopajeOrco=0
 
 [OBJ1274]
 Name=Woman vestment
-GrhIndex=21674
+GrhIndex=11499
 ObjType=3
 MAXDEF=1
 MINDEF=1
@@ -29791,6 +29866,12 @@ Valor=50
 PielLobo=6
 PielOsoPardo=0
 Texto=Vestimentas de Mujer
+RopajeGnoma=2748
+RopajeEnana=2748
+RopajeHumana=2233
+RopajeElfa=2233
+RopajeElfaOscura=3690
+RopajeOrca=3315
 
 [OBJ1275]
 Name=Corona de Flores
@@ -29856,30 +29937,48 @@ GrhIndex=0
 
 [OBJ1283]
 Name=Woman vestment (Newbies)
-GrhIndex=21620
+GrhIndex=11501
 ObjType=3
 Valor=0
 MAXDEF=1
 MINDEF=0
 Texto=Vestimentas de Mujer (Newbie)
+RopajeGnoma=2750
+RopajeEnana=2750
+RopajeHumana=2235
+RopajeElfa=2235
+RopajeElfaOscura=3692
+RopajeOrca=3317
 
 [OBJ1284]
 Name=Woman vestment (Newbies)
-GrhIndex=21647
+GrhIndex=11498
 ObjType=3
 Valor=0
 MAXDEF=1
 MINDEF=1
 Texto=Vestimentas de Mujer (Newbie)
+RopajeGnoma=2747
+RopajeEnana=2747
+RopajeHumana=2232
+RopajeElfa=2232
+RopajeElfaOscura=3689
+RopajeOrca=3314
 
 [OBJ1285]
 Name=Woman vestment (Newbies)
-GrhIndex=21674
+GrhIndex=11499
 ObjType=3
 Valor=0
 MAXDEF=1
 MINDEF=1
 Texto=Vestimentas de Mujer (Newbie)
+RopajeGnoma=2748
+RopajeEnana=2748
+RopajeHumana=2233
+RopajeElfa=2233
+RopajeElfaOscura=3690
+RopajeOrca=3315
 
 [OBJ1286]
 GRHINDEX=0
@@ -30051,7 +30150,7 @@ GRHINDEX=0
 
 [OBJ1328]
 Name=Armadura de Placas Azules (M)
-GrhIndex=25373
+GrhIndex=3527
 ObjType=3
 MAXDEF=45
 MINDEF=40
@@ -30061,6 +30160,18 @@ LingP=250
 LingO=100
 SkHerreria=80
 Texto=Armadura de Placas Azules (M)
+RopajeHumano=4921
+RopajeElfo=4921
+RopajeElfoOscuro=4921
+RopajeEnano=4921
+RopajeOrco=4921
+RopajeGnomo=4921
+RopajeHumana=4921
+RopajeElfa=4921
+RopajeElfaOscura=4921
+RopajeEnana=4921
+RopajeOrca=4921
+RopajeGnoma=4921
 
 [OBJ1329]
 GrhIndex=0
@@ -33714,7 +33825,7 @@ Texto=Escudo de la Legión Oscura
 
 [OBJ1715]
 Name=Escudo de Hierro
-GrhIndex=4198
+GrhIndex=86119
 ObjType=16
 MAXDEF=4
 MINDEF=3
@@ -33752,7 +33863,7 @@ Texto=Escudo Vikingo
 
 [OBJ1719]
 Name=Buckler
-GrhIndex=29125
+GrhIndex=9633
 ObjType=16
 MAXDEF=3
 MINDEF=2
@@ -33792,7 +33903,7 @@ MinDef=4
 
 [OBJ1723]
 Name=Adarga Natural (Cazador)
-GrhIndex=29137
+GrhIndex=89936
 ObjType=16
 MAXDEF=2
 MINDEF=2
@@ -34928,7 +35039,7 @@ Texto=Espada de los milagros
 
 [OBJ1863]
 Name=Espada Pirata
-GrhIndex=37844
+GrhIndex=563
 Objtype=2
 MinHIT=6
 MaxHIT=8
@@ -36238,7 +36349,7 @@ Valor=2000
 
 [OBJ1968]
 Name=Corona de Plata
-GrhIndex=85599
+GrhIndex=11420
 ObjType=17
 Valor=0
 Texto=Casi que pareces de la nobleza.
@@ -36248,7 +36359,7 @@ texto=You almost look like the nobility.
 
 [OBJ1969]
 Name=Corona de Bronce
-GrhIndex=85603
+GrhIndex=11421
 CreaGRH=20170:-11700:5:1
 ObjType=17
 Valor=0
@@ -42047,7 +42158,7 @@ Texto=Túnica Avernal
 
 [OBJ2783]
 Name=Armadura Lóbrera (M)
-GrhIndex=770
+GrhIndex=10720
 ObjType=3
 MAXDEF=25
 MINDEF=15
@@ -42061,7 +42172,7 @@ GrhIndex=0
 
 [OBJ2786]
 Name=Armadura Magna (M)
-GrhIndex=798
+GrhIndex=10720
 ObjType=3
 MAXDEF=25
 MINDEF=15
@@ -42183,12 +42294,24 @@ RopajeOrco=1203
 
 [OBJ2802]
 Name=Cota de Mallas Larga (H/E/EO/M)
-GrhIndex=4323
+GrhIndex=2560
 ObjType=3
 MAXDEF=17
 MINDEF=13
 Valor=4200
 Texto=Cota de Mallas Larga (H/E/EO/M)
+RopajeHumano=93
+RopajeElfo=93
+RopajeElfoOscuro=2005
+RopajeEnano=1700
+RopajeOrco=93
+RopajeGnomo=1700
+RopajeHumana=93
+RopajeElfa=93
+RopajeElfaOscura=2005
+RopajeEnana=1700
+RopajeOrca=93
+RopajeGnoma=1700
 
 [OBJ2803]
 Name=Armadura Maghtere
@@ -42563,12 +42686,14 @@ Texto=Vestimenta de Servidumbre (E/G)
 
 [OBJ2827]
 Name=Wedding Dress (E/G-M)
-GrhIndex=4040
+GrhIndex=11668
 ObjType=3
 MAXDEF=2
 MINDEF=1
 Valor=100000
 Texto=Vestido de Novia (E/G-M)
+RopajeEnana=2763
+RopajeGnoma=2763
 
 [OBJ2828]
 Name=Blue Gala Dress (E/G)
@@ -44232,19 +44357,19 @@ RopajeOrco=0
 
 [OBJ2923]
 Name=Alarinqua Gala Dress
-GrhIndex=11508
-RopajeHumano=2227
-RopajeElfo=2227
-RopajeElfoOscuro=3684
-RopajeEnano=2742
-RopajeOrco=3309
-RopajeGnomo=2742
-RopajeHumana=1
+GrhIndex=11493
+RopajeHumano=0
+RopajeElfo=0
+RopajeElfoOscuro=0
+RopajeEnano=0
+RopajeOrco=0
+RopajeGnomo=0
+RopajeHumana=2227
 RopajeElfa=2227
-RopajeElfaOscura=2813
-RopajeEnana=2781
-RopajeOrca=2797
-RopajeGnoma=2781
+RopajeElfaOscura=3684
+RopajeEnana=2742
+RopajeOrca=3309
+RopajeGnoma=2742
 ObjType=3
 MAXDEF=7
 MINDEF=3
@@ -44731,7 +44856,7 @@ Texto=Manto Oscuro (Bajos)
 
 [OBJ2953]
 Name=Corona de Druida
-GrhIndex=49135
+GrhIndex=884
 ObjType=17
 MAXDEF=10
 MINDEF=8
@@ -48706,7 +48831,7 @@ Texto=Objeto consumible.
 
 [OBJ3294]
 Name=Escudo de Argentina
-GrhIndex=619
+GrhIndex=86143
 ObjType=16
 MAXDEF=0
 MINDEF=0
@@ -48717,7 +48842,7 @@ Texto=Escudo de Argentina
 
 [OBJ3295]
 Name=Escudo Cap America
-GrhIndex=9426
+GrhIndex=86144
 ObjType=16
 MAXDEF=0
 MINDEF=0
@@ -53212,7 +53337,7 @@ Texto=Extracto de Comatus
 
 [OBJ3834]
 Name=Fauces de la Destrucción
-GrhIndex=30863
+GrhIndex=86202
 Objtype=2
 MinHIT=12
 MaxHIT=19
@@ -53344,7 +53469,7 @@ Texto=Piedra Nocturna
 
 [OBJ3848]
 Name=Escudo de la Oscuridad
-GrhIndex=2680
+GrhIndex=86120
 ObjType=16
 MAXDEF=8
 MINDEF=12
@@ -54514,7 +54639,7 @@ SKHerreria=60
 
 [OBJ3988]
 Name=Saber
-GrhIndex=563
+GrhIndex=86197
 Objtype=2
 MinHIT=6
 MaxHIT=11
@@ -70604,6 +70729,118 @@ EXP=0
 ORO=0
 MaxHIT=1
 MinHIT=1
+NROITEMS=0
+
+[NPC9010]
+Name=Test Spider Immune Minor
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC9011]
+Name=Test Spider Immune Hemo
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC9012]
+Name=Test Spider Immune Neuro
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC9013]
+Name=Test Spider Resist Minor
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC9014]
+Name=Test Spider Resist Hemo
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC9015]
+Name=Test Spider Resist Neuro
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC9016]
+Name=Test Spider Immune Generic
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
+NROITEMS=0
+
+[NPC9017]
+Name=Test Spider Resist Generic
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=5000
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=0
+MinHIT=0
 NROITEMS=0
 
 [NAMEMAPA]
