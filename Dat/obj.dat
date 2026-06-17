@@ -6732,7 +6732,7 @@ Valor=0
 [OBJ462]
 Name=Vestido de Princesa
 NumRopaje=2229
-GrhIndex=25618
+GrhIndex=11495
 ObjType=3
 RazaDrow=1
 RazaElfa=1
@@ -6745,6 +6745,18 @@ Mujer=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Vestido de Princesa
 en_Name=Princess dress
+RopajeElfa=2229
+RopajeElfaOscura=3686
+RopajeElfo=0
+RopajeElfoOscuro=0
+RopajeEnana=2744
+RopajeEnano=0
+RopajeGnoma=2744
+RopajeGnomo=0
+RopajeHumana=2229
+RopajeHumano=0
+RopajeOrca=3311
+RopajeOrco=0
 
 [OBJ463]
 Name=Vestimenta Común
@@ -6829,7 +6841,7 @@ it_Texto=Un collezionista potrebbe pagare una fortuna!
 Name=Vestido de Condesa
 MinELV=1
 NumRopaje=2227
-GrhIndex=25672
+GrhIndex=11493
 ObjType=3
 RazaDrow=1
 RazaElfa=1
@@ -6850,6 +6862,18 @@ CP6=PALADIN
 CP9=ASESINO
 CP10=GUERRERO
 en_Name=Countess Dress
+RopajeElfa=2227
+RopajeElfaOscura=3684
+RopajeElfo=2227
+RopajeElfoOscuro=3684
+RopajeEnana=2742
+RopajeEnano=2742
+RopajeGnoma=2742
+RopajeGnomo=2742
+RopajeHumana=2227
+RopajeHumano=2227
+RopajeOrca=3309
+RopajeOrco=3309
 
 [OBJ469]
 Name=Laúd Mágico
@@ -7139,7 +7163,7 @@ Texto=Vestimenta Común (Bajo)
 [OBJ487]
 Name=Dama de las Tinieblas
 NumRopaje=208
-GrhIndex=763
+GrhIndex=41584
 ObjType=3
 RazaDrow=1
 RazaElfa=1
@@ -7167,6 +7191,18 @@ peso=300
 subastable=1
 Crucial=0
 Texto=Dama de las Tinieblas
+RopajeHumano=208
+RopajeElfo=208
+RopajeElfoOscuro=208
+RopajeEnano=208
+RopajeOrco=208
+RopajeGnomo=208
+RopajeHumana=208
+RopajeElfa=208
+RopajeElfaOscura=208
+RopajeEnana=208
+RopajeOrca=208
+RopajeGnoma=208
 
 [OBJ488]
 Name=White Lady (M)
@@ -7275,7 +7311,7 @@ ExtraStr=Puerta cerrada
 [OBJ499]
 Name=Cota de Mallas (Mujer)
 NumRopaje=2058
-GrhIndex=775
+GrhIndex=30867
 MAXDEF=22
 MINDEF=15
 Valor=7200
@@ -7292,6 +7328,18 @@ MinELV=1
 peso=100
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Cota de Mallas (Mujer)
+RopajeHumano=2058
+RopajeElfo=2058
+RopajeElfoOscuro=1834
+RopajeEnano=1159
+RopajeOrco=1786
+RopajeGnomo=1159
+RopajeHumana=2058
+RopajeElfa=2058
+RopajeElfaOscura=1834
+RopajeEnana=1159
+RopajeOrca=1786
+RopajeGnoma=1159
 
 [OBJ500]
 Name=Armadura Bruñida
@@ -8141,7 +8189,7 @@ GRHINDEX=0
 [OBJ571]
 Name=Vestido de Marquesa
 NumRopaje=2230
-GrhIndex=25591
+GrhIndex=11496
 ObjType=3
 RazaDrow=1
 RazaElfa=1
@@ -8154,6 +8202,18 @@ Mujer=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Vestido de Marquesa
 en_Name=Marquise Dress
+RopajeElfa=2230
+RopajeElfaOscura=3687
+RopajeElfo=2230
+RopajeElfoOscuro=3687
+RopajeEnana=2745
+RopajeEnano=2745
+RopajeGnoma=2745
+RopajeGnomo=2745
+RopajeHumana=2230
+RopajeHumano=2230
+RopajeOrca=3312
+RopajeOrco=3312
 
 [OBJ572]
 Name=Botella de Agua (Newbie)
@@ -12246,7 +12306,7 @@ en_Name=Basic Vestment blue
 [OBJ971]
 Name=Vestido de Novia (Bajas)
 NumRopaje=2763
-GrhIndex=25983
+GrhIndex=11668
 ObjType=3
 MAXDEF=25
 MINDEF=20
@@ -12257,6 +12317,8 @@ RazaEnana=1
 RazaGnoma=1
 Texto=Vestido de Novia (Bajas)
 en_Name=Wedding Dress (E/G)
+RopajeEnana=2763
+RopajeGnoma=2763
 
 [OBJ974]
 Name=Anillo del Ladrón (+10)
@@ -12419,7 +12481,7 @@ Name=Escamas del Dragón Negro
 Anim=101
 MinELV=1
 NumRopaje=2
-GrhIndex=36575
+GrhIndex=11376
 ObjType=16
 Subtipo=2
 MAXDEF=14
@@ -12485,9 +12547,9 @@ Porcentaje=100
 
 [OBJ1000]
 Name=Escudo de Plata
-Anim=18
+Anim=74
 NumRopaje=2
-GrhIndex=37975
+GrhIndex=89934
 ObjType=16
 Subtipo=2
 MAXDEF=2
@@ -14472,7 +14534,7 @@ RopajeOrco=0
 [OBJ1273]
 Name=Vestimenta de Mujer
 NumRopaje=2232
-GrhIndex=21647
+GrhIndex=11499
 ObjType=3
 RazaDrow=1
 RazaElfa=1
@@ -14489,11 +14551,23 @@ PielOsoPardo=0
 Sksastreria=10
 Texto=Vestimenta de Mujer
 en_Name=Woman Vestment
+RopajeElfa=2233
+RopajeElfaOscura=3690
+RopajeElfo=0
+RopajeElfoOscuro=0
+RopajeEnana=2748
+RopajeEnano=0
+RopajeGnoma=2748
+RopajeGnomo=0
+RopajeHumana=2233
+RopajeHumano=0
+RopajeOrca=3315
+RopajeOrco=0
 
 [OBJ1274]
 Name=Vestimentas de Mujer
 NumRopaje=2233
-GrhIndex=21674
+GrhIndex=11499
 ObjType=3
 RazaDrow=1
 RazaElfa=1
@@ -14512,6 +14586,12 @@ Texto=Vestimentas de Mujer
 '**************************** ítems PARA CABEZAS ****************************
 
 '--------------> Ornamentos <--------------
+RopajeGnoma=2748
+RopajeEnana=2748
+RopajeHumana=2233
+RopajeElfa=2233
+RopajeElfaOscura=3690
+RopajeOrca=3315
 
 [OBJ1275]
 Name=Corona de Flores
@@ -14627,7 +14707,7 @@ Nowiki=1
 [OBJ1283]
 Name=Vestimentas de Mujer (Newbie)
 NumRopaje=2235
-GrhIndex=21620
+GrhIndex=11501
 ObjType=3
 RazaDrow=1
 RazaElfa=1
@@ -14641,11 +14721,17 @@ newbie=1
 Instransferible=1
 Texto=Vestimentas de Mujer (Newbie)
 en_Name=Woman vestment (Newbies)
+RopajeGnoma=2750
+RopajeEnana=2750
+RopajeHumana=2235
+RopajeElfa=2235
+RopajeElfaOscura=3692
+RopajeOrca=3317
 
 [OBJ1284]
 Name=Vestimentas de Mujer (Newbie)
 NumRopaje=2232
-GrhIndex=21647
+GrhIndex=11498
 ObjType=3
 RazaDrow=1
 RazaElfa=1
@@ -14659,11 +14745,17 @@ newbie=1
 Instransferible=1
 Texto=Vestimentas de Mujer (Newbie)
 en_Name=Woman vestment (Newbies)
+RopajeGnoma=2747
+RopajeEnana=2747
+RopajeHumana=2232
+RopajeElfa=2232
+RopajeElfaOscura=3689
+RopajeOrca=3314
 
 [OBJ1285]
 Name=Vestimentas de Mujer (Newbie)
 NumRopaje=2233
-GrhIndex=21674
+GrhIndex=11499
 ObjType=3
 RazaDrow=1
 RazaElfa=1
@@ -14677,6 +14769,12 @@ newbie=1
 Instransferible=1
 Texto=Vestimentas de Mujer (Newbie)
 en_Name=Woman vestment (Newbies)
+RopajeGnoma=2748
+RopajeEnana=2748
+RopajeHumana=2233
+RopajeElfa=2233
+RopajeElfaOscura=3690
+RopajeOrca=3315
 
 [OBJ1286]
 GRHINDEX=0
@@ -14852,10 +14950,10 @@ GRHINDEX=0
 [OBJ1327]
 GRHINDEX=0
 
-[OBJ1328] 'no se usa actualmente
+[OBJ1328] 'no se usa actualmente - BORRAR 16.001: race-split deprecado, icono+ropaje basura (6/6 sin fuente)
 Name=Armadura de Placas Azules (M)
 NumRopaje=4921
-GrhIndex=25373
+GrhIndex=3527
 ObjType=3
 RazaDrow=1
 RazaElfa=1
@@ -14882,6 +14980,18 @@ MinELV=1
 peso=200
 Crucial=0
 Texto=Armadura de Placas Azules (M)
+RopajeHumano=4921
+RopajeElfo=4921
+RopajeElfoOscuro=4921
+RopajeEnano=4921
+RopajeOrco=4921
+RopajeGnomo=4921
+RopajeHumana=4921
+RopajeElfa=4921
+RopajeElfaOscura=4921
+RopajeEnana=4921
+RopajeOrca=4921
+RopajeGnoma=4921
 
 [OBJ1333]
 Name=Montura Real de Combatientes
@@ -20571,9 +20681,9 @@ Texto=Escudo de la Legión Oscura
 
 [OBJ1715]
 Name=Escudo de Hierro
-Anim=30
+Anim=53
 NumRopaje=2
-GrhIndex=4198
+GrhIndex=86119
 ObjType=16
 Subtipo=2
 MAXDEF=4
@@ -20652,7 +20762,7 @@ Texto=Escudo Vikingo
 Name=Rodela
 Anim=16
 NumRopaje=2
-GrhIndex=29125
+GrhIndex=9633
 ObjType=16
 MAXDEF=3
 MINDEF=2
@@ -20701,7 +20811,7 @@ Name=Adarga Natural (Cazador)
 Anim=44
 MinELV=1
 NumRopaje=2
-GrhIndex=29137
+GrhIndex=89936
 ObjType=16
 MAXDEF=2
 MINDEF=2
@@ -22685,7 +22795,7 @@ WeaponType=1
 
 [OBJ1863]
 Name=Espada Pirata
-GrhIndex=37844
+GrhIndex=563
 Anim=114
 MinELV=1
 Objtype=2
@@ -24563,7 +24673,7 @@ en_Name=Brown Robe
 Name=Corona de Plata
 Anim=227
 NumRopaje=2
-GrhIndex=85599
+GrhIndex=11420
 ObjType=17
 Subtipo=1
 Valor=0
@@ -24578,7 +24688,7 @@ en_texto=You almost look like the nobility.
 Name=Corona de Bronce
 Anim=228
 NumRopaje=2
-GrhIndex=85603
+GrhIndex=11421
 CreaGRH=20170:-11700:5:1
 ObjType=17
 Subtipo=1
@@ -32285,7 +32395,7 @@ en_Name=Avernal Robe
 Name=Armadura Lóbrera (M)
 MinELV=1
 NumRopaje=2057
-GrhIndex=770
+GrhIndex=10720
 ObjType=3
 RazaDrow=1
 RazaElfa=1
@@ -32311,10 +32421,10 @@ CP9=ASESINO
 CP10=GUERRERO
 CP12=MAGO
 
-[OBJ2786]
+[OBJ2786] 'BORRAR 16.001: variante (M) race-split legacy, orca usa body humano, sin arte por raza
 Name=Armadura Magna (M)
 NumRopaje=2057
-GrhIndex=798
+GrhIndex=10720
 ObjType=3
 RazaDrow=1
 RazaElfa=1
@@ -32373,11 +32483,11 @@ it_Texto=Difesa 22/24
 pt_Name=Shell composto
 pt_Texto=Defesa 22/24
 
-[OBJ2802]
+[OBJ2802] 'BORRAR 16.001: variante (H/E/EO/M) race-split legacy, orca usa body humano, sin arte por raza
 Name=Cota de Mallas Larga (H/E/EO/M)
 MinELV=1
 NumRopaje=93
-GrhIndex=4323
+GrhIndex=2560
 ObjType=3
 RazaDrow=1
 RazaElfa=1
@@ -32398,6 +32508,18 @@ CP8=BARDO
 CP9=ASESINO
 CP12=MAGO
 Texto=Cota de Mallas Larga (H/E/EO/M)
+RopajeHumano=93
+RopajeElfo=93
+RopajeElfoOscuro=2005
+RopajeEnano=1700
+RopajeOrco=93
+RopajeGnomo=1700
+RopajeHumana=93
+RopajeElfa=93
+RopajeElfaOscura=2005
+RopajeEnana=1700
+RopajeOrca=93
+RopajeGnoma=1700
 
 [OBJ2803]
 Name=Armadura Maghtere
@@ -32857,10 +32979,10 @@ Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 en_Name=Servitude Vestment (E/G)
 Texto=Vestimenta de Servidumbre (E/G)
 
-[OBJ2827]
+[OBJ2827] 'BORRAR 16.001: variante (E/G-M) race-split legacy marcada para borrar
 Name=Vestido de Novia (E/G-M)
 NumRopaje=1154
-GrhIndex=4040
+GrhIndex=11668
 ObjType=3
 MAXDEF=2
 MINDEF=1
@@ -32871,6 +32993,8 @@ RazaGnoma=1
 Mujer=1
 en_Name=Wedding Dress (E/G-M)
 Texto=Vestido de Novia (E/G-M)
+RopajeEnana=2763
+RopajeGnoma=2763
 
 [OBJ2828]
 Name=Vestido de Gala Azul
@@ -35403,19 +35527,19 @@ RopajeOrco=0
 
 [OBJ2923]
 Name=Vestido de Gala Alcarinqua
-GrhIndex=11508
-RopajeHumano=2227
-RopajeElfo=2227
-RopajeElfoOscuro=3684
-RopajeEnano=2742
-RopajeOrco=3309
-RopajeGnomo=2742
-RopajeHumana=1
+GrhIndex=11493
+RopajeHumano=0
+RopajeElfo=0
+RopajeElfoOscuro=0
+RopajeEnano=0
+RopajeOrco=0
+RopajeGnomo=0
+RopajeHumana=2227
 RopajeElfa=2227
-RopajeElfaOscura=2813
-RopajeEnana=2781
-RopajeOrca=2797
-RopajeGnoma=2781
+RopajeElfaOscura=3684
+RopajeEnana=2742
+RopajeOrca=3309
+RopajeGnoma=2742
 ObjType=3
 RazaDrow=1
 RazaElfa=1
@@ -36227,7 +36351,7 @@ Texto=Manto Oscuro (Bajos)
 Name=Corona de Druida
 Anim=8
 NumRopaje=2
-GrhIndex=49135
+GrhIndex=884
 ObjType=17
 Subtipo=1
 ResistenciaMagica=8
@@ -43317,7 +43441,7 @@ Name=Escudo de Argentina
 Anim=97
 MinELV=1
 NumRopaje=2
-GrhIndex=619
+GrhIndex=86143
 ObjType=16
 MAXDEF=0
 MINDEF=0
@@ -43338,7 +43462,7 @@ Name=Escudo Cap America
 Anim=95
 MinELV=1
 NumRopaje=2
-GrhIndex=9426
+GrhIndex=86144
 ObjType=16
 MAXDEF=0
 MINDEF=0
@@ -51283,7 +51407,7 @@ Texto=Extracto de Comatus
 [OBJ3834]'Item Tier MAX para Bandido
 Name=Fauces de la Destrucción
 Anim=164
-GrhIndex=30863
+GrhIndex=86202
 Objtype=2
 Subtipo=2
 MinHIT=12
@@ -51555,7 +51679,7 @@ Texto=Piedra Nocturna
 Name=Escudo de la Oscuridad
 Anim=7
 NumRopaje=2
-GrhIndex=2680
+GrhIndex=86120
 MinELV=1
 ObjType=16
 MAXDEF=8
@@ -53809,8 +53933,8 @@ SKHerreria=60
 
 [OBJ3988]
 Name=Espada celta
-GrhIndex=563
-Anim=43
+GrhIndex=86197
+Anim=71
 Objtype=2
 MinHIT=6
 MaxHIT=11
