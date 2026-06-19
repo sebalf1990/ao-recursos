@@ -1513,6 +1513,8 @@ ReSpawn=0
 Heading=3
 [NPC98] 'RESYNC desde sp_localindex.dat (lote2 colisiones)
 Name=Nargog <Finanzas Goliath>
+SoundOpen=602
+SoundClose=609
 Desc=Hola, bienvenido a la cadena de finanzas Goliath.
 Body=5822
 Head=0
@@ -1526,6 +1528,8 @@ ReSpawn=0
 Heading=3
 [NPC99] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Banquero Enano <Finanzas Goliath>
+SoundOpen=700
+SoundClose=703
 Desc=Hola, bienvenido a la cadena de finanzas Goliath.
 Body=5823
 Head=0
@@ -1581,6 +1585,8 @@ en_desc=I notice in your gaze that you need something fresh, you have come to th
 
 [NPC101] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Daena <Provisiones>
+SoundOpen=600
+SoundClose=607
 IT_Desc=Benvenuti nel mio giardino! Ho i migliori frutti della zona. Non sarai in grado di trovarli di qualità migliore.
 FR_Desc=Bienvenue dans mon jardin! J'ai les meilleurs fruits de la région. Vous ne pourrez pas les trouver de meilleure qualité.
 PT_Desc=Bem -vindo ao meu jardim! Eu tenho as melhores frutas da área. Você não poderá encontrá -los em melhor qualidade.
@@ -1695,6 +1701,7 @@ en_desc=Here you will get the best that the sea can offer!
 
 [NPC105] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Durrot <Mercader>
+SoundOpen=600
 IT_Desc=Ciao! Sono interessato a tutti i tipi di prodotti.
 FR_Desc=Bonjour! Je suis intéressé par toutes sortes de produits.
 PT_Desc=Olá! Estou interessado em todos os tipos de produtos.
@@ -1722,6 +1729,7 @@ TipoItems=100
 
 [NPC107] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Capitán Rowen <Quest>
+SoundOpen=600
 Desc=¡Alto ahí, ciudadano! Los exploradores regresaron del pantano con malas noticias. Trolls, abominaciones y los malditos guardas del pantano se están organizando. Si no actuamos pronto, Ullathorpe será el próximo objetivo.
 Body=249
 Head=26
@@ -1933,6 +1941,8 @@ MagicDef=15
 
 [NPC119] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Bertram <Quest>
+SoundOpen=2195
+SoundClose=2190
 Desc=¡Otro aventurero que ha sobrevivido lo suficiente como para llegar hasta aquí! Si tus pasos te llevan al Dungeon Dragón, quizá podamos hacer negocios. Las bestias que allí habitan guardan piedras que ningún joyero común puede trabajar... pero yo no soy un joyero común.
 Body=2559
 Head=312
@@ -8978,6 +8988,8 @@ MagicDef=0
 
 [NPC685] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Grakka <Alquimista>
+SoundOpen=700
+SoundClose=703
 IT_Desc=Con le mie pozioni, la razza Orca dominerà questo mondo!
 FR_Desc=Avec mes potions, la race Orca dominera ce monde!
 PT_Desc=Com minhas poções, a raça Orca dominará este mundo!
@@ -13666,6 +13678,8 @@ TipoItems=17
 
 [NPC1081] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Gertha <Maestra Sastre>
+SoundOpen=702
+SoundClose=703
 Head=0
 Desc=¡Calidad en pieles, solo para Damas!
 DescClose=¡Hasta pronto!
@@ -13719,6 +13733,8 @@ TipoItems=2
 
 [NPC1084] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Elvira <Quest>
+SoundOpen=2193
+SoundClose=2188
 Desc=¿Así que tú eres el que ayudó al viejo Jacobo con sus anzuelos?
 Body=2746
 Head=456
@@ -13960,6 +13976,8 @@ TipoItems=1
 
 [NPC1091] 'RESYNC desde sp_localindex.dat (mapa34 collision fix)
 Name=Pablo <Sotano Patreon>
+SoundOpen=2193
+SoundClose=2188
 Desc=¡Bienvenido! Si eres suscriptor Patreon, puedes acceder al Sotano de esta casa.
 Body=2029
 Head=117
@@ -14370,6 +14388,8 @@ PoderAtaque=240
 PoderEvasion=160
 [NPC1104] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Tiburón
+SoundOpen=2200
+SoundClose=2201
 Body=4105
 NpcType=0
 ShowName=1
@@ -14407,6 +14427,8 @@ PoderAtaque=220
 PoderEvasion=155
 [NPC1105] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Tortuga Marina
+SoundOpen=2194
+SoundClose=2189
 Body=4451
 BodyIdle=4452
 NpcType=0
@@ -14583,6 +14605,8 @@ MagicDef=5
 
 [NPC1111] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Zaldiva <Quest>
+SoundOpen=2202
+SoundClose=2204
 Desc=¿Tienes la agilidad necesaria para ayudarme?
 Body=2314
 Head=171
@@ -14615,6 +14639,8 @@ NumQuest=1
 QuestNumber1=140
 [NPC1112] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Azhara <Quest>
+SoundOpen=2195
+SoundClose=2190
 Desc=¿Tienes la fuerza necesaria para ayudarme?
 Body=2029
 Head=61
@@ -14915,6 +14941,8 @@ NumQuest=1
 QuestNumber1=206
 [NPC1123] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Magnis <Quest>
+SoundOpen=702
+SoundClose=703
 Desc=Fui atacado al Sur de esta ciudad, no tuve mas noticias sobre quienes viajaban conmigo..
 Body=122
 Head=35
@@ -15034,6 +15062,8 @@ DescClose=¡Hasta pronto!
 TipoItems=2
 [NPC1126] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Vulkano <Quest>
+SoundOpen=2195
+SoundClose=2190
 Desc=Pocos han enfrentado tal furia y vivido para contarlo.
 Body=224
 Head=105
@@ -15508,6 +15538,8 @@ PoderAtaque=165
 PoderEvasion=95
 [NPC1139] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Camello Marrón
+SoundOpen=2203
+SoundClose=2205
 Body=5642
 BodyIdle=5640
 NpcType=0
@@ -15547,6 +15579,8 @@ PoderAtaque=165
 PoderEvasion=95
 [NPC1140] 'RESYNC desde sp_localindex.dat (fase B)
 Name=León
+SoundOpen=2196
+SoundClose=2191
 Body=5627
 BodyIdle=5625
 NpcType=0
@@ -15575,6 +15609,8 @@ Ataque1=5626
 Nivel=20
 [NPC1141] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Pantera Negra
+SoundOpen=2193
+SoundClose=2188
 Body=4214
 Head=0
 BodyIdle=4213
@@ -16595,7 +16631,7 @@ TipoItems=2
 
 [NPC1187] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Thrain <Martillo Incansable>
-Head=34
+Head=0
 SoundOpen=1029
 IT_Desc=Prendi solo il meglio qui!
 FR_Desc=Trouve seulement le meilleur ici !
@@ -16606,7 +16642,7 @@ FR_Name=Thrain <Marteau Infatigable>
 PT_Name=Thrain <Martelo Incansável>
 en_Name=Thrain <Untiring Hammer>
 Desc=¡Consigue aqui, solo lo mejor!
-Body=508
+Body=6083
 NpcType=0
 Comercia=1
 NROITEMS=7
@@ -20087,6 +20123,7 @@ DisabledInBattleServer=1
 
 [NPC1311] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Elfer <Mercader>
+SoundOpen=600
 Desc=¡Todo lo que buscas y más!
 Body=7
 Head=132
@@ -20635,6 +20672,7 @@ PoderAtaque=50
 PoderEvasion=30
 [NPC1334] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Hormiga Negra
+SoundOpen=600
 Body=5234
 Head=0
 BodyIdle=5232
@@ -20695,6 +20733,8 @@ PoderEvasion=32
 
 [NPC1335] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Hormiga Berseker
+SoundOpen=702
+SoundClose=703
 Body=5249
 Head=0
 BodyIdle=5247
@@ -20873,6 +20913,8 @@ PoderAtaque=220
 PoderEvasion=100
 [NPC1339]
 Name=Maestro Entomus <Investigador>
+SoundOpen=702
+SoundClose=703
 Desc=¡Oh, viajero! Justo a quien esperaba. Algo terrible sucede bajo nuestros pies. Las Hormigas del nuevo Hormiguero que rodea Ullathorpe están creciendo en número... y en agresividad. Necesito muestras, ¡urgentemente! Si tienes el coraje para adentrarte en esos túneles, podría recompensarte por tu ayuda.
 Head=29
 Body=206
@@ -21179,6 +21221,8 @@ MagicDef=5
 
 [NPC1348] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Donato <Herborista>
+SoundOpen=2200
+SoundClose=2201
 Desc=Llegas en buen momento... Estoy en medio de una investigación crucial, pero las ranas de esa maldita cueva al norte, la frogiana, no me dejan acercarme. Necesito un ingrediente muy especial que solo crece allí dentro. ¿Te animás a darme una mano y traerme lo que necesito?
 Body=794
 Head=402
@@ -25592,8 +25636,8 @@ PT_Name=Mhor <Ferreiro Viking>
 en_Name=Mhor <Viking Blacksmith>
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
-Body=71
-Head=34
+Body=6081
+Head=0
 NpcType=0
 Comercia=1
 NROITEMS=12
@@ -25624,8 +25668,8 @@ PT_Name=Heracio <Mestre Ferreiro>
 en_Name=Heracio <Master Blacksmith>
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
-Body=71
-Head=34
+Body=6089
+Head=0
 NpcType=0
 Comercia=1
 NROITEMS=12

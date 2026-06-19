@@ -1,5 +1,5 @@
 [INIT]
-NumBodies=6075
+NumBodies=6089
 [BODY1]
 Std=1
 FileNum=1005
@@ -32056,6 +32056,42 @@ Walk3=89909 ' d
 Walk4=89909 ' d
 HeadOffsetX=0
 HeadOffsetY=0
+AnimateOnIdle=1
+
+[BODY6081]
+Walk1=27891	 ' arriba
+Walk2=27891	 ' derecha
+Walk3=27891	 ' abajo
+Walk4=27891	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.010
+AnimateOnIdle=1
+
+[BODY6083]
+Walk1=28298	 ' arriba
+Walk2=28298	 ' derecha
+Walk3=28298	 ' abajo
+Walk4=28298	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.010
+AnimateOnIdle=1
+
+[BODY6089]
+Walk1=29320	 ' arriba
+Walk2=29320	 ' derecha
+Walk3=29320	 ' abajo
+Walk4=29320	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.010
 AnimateOnIdle=1
 
 [BODY6001]
