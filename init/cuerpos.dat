@@ -32013,6 +32013,51 @@ HeadOffsetX=24
 HeadOffsetY=-40
 AnimateOnIdle=1
 
+[BODY5830]
+Walk1=89912 ' d
+Walk2=89912 ' d
+Walk3=89912 ' d
+Walk4=89912 ' d
+HeadOffsetX=24
+HeadOffsetY=-40
+AnimateOnIdle=1
+
+[BODY5833]
+Walk1=89914 ' d
+Walk2=89914 ' d
+Walk3=89914 ' d
+Walk4=89914 ' d
+HeadOffsetX=24
+HeadOffsetY=-40
+AnimateOnIdle=1
+
+[BODY5831]
+Walk1=89916 ' d
+Walk2=89916 ' d
+Walk3=89916 ' d
+Walk4=89916 ' d
+HeadOffsetX=25
+HeadOffsetY=-45
+AnimateOnIdle=1
+
+[BODY5832]
+Walk1=89913 ' d
+Walk2=89913 ' d
+Walk3=89913 ' d
+Walk4=89913 ' d
+HeadOffsetX=24
+HeadOffsetY=-40
+AnimateOnIdle=1
+
+[BODY5834]
+Walk1=89909 ' d
+Walk2=89909 ' d
+Walk3=89909 ' d
+Walk4=89909 ' d
+HeadOffsetX=0
+HeadOffsetY=0
+AnimateOnIdle=1
+
 [BODY6001]
 Std=199
 FileNum=4016

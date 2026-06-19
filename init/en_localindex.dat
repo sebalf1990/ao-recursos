@@ -4660,32 +4660,31 @@ PuedeInvocar=1
 NoMapInfo=1
 
 [NPC4]
-Name=Lilith <Maestra Alquimista>
-Desc=¡Bienvenido! ¿Estás por viajar? Aquí encontrarás las mejores pociones.
-desc=Welcome! Are you about to travel? Here you will find the best potions.
+Name=Lilith <Master Alchemist>
+Desc=Welcome! Are you about to travel? Here you will find the best potions.
 Body=5827
 Head=0
 Comercia=1
-PuedeInvocar=1
-NpcType=0
-NoMapInfo=1
 NROITEMS=8
 Obj1=37-1000
 Obj2=38-1000
 Obj3=36-1000
+PuedeInvocar=1
+NpcType=0
+NoMapInfo=1
 
 [NPC5]
-Name=Daniel <Provisiones>
-Desc=Ey, tu! Noto en tu mirada que necesitas algo fresco. ¡Has llegado al lugar correcto!
+Name=Daniel <Provisions>
+Desc=Hey, you! I notice in your eyes that you need something fresh. You?ve come to the right place!
 Body=25
 Head=32
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=4
 Obj1=43-1000
 Obj2=160-1000
 Obj3=42-1000
+NoMapInfo=1
 
 [NPC6]
 Name=Makarena <Innkeeper>
@@ -4700,10 +4699,11 @@ Obj3=161-100
 
 [NPC7]
 Name=Jonas <Innkeeper>
-Desc=¡Hola! Bienvenido al famoso Mesón Hostigado. ¿Qué deseas beber?
-desc=Hello! Welcome to the famous Inn Harassed. What do you want to drink?
+Desc=Hello! Welcome to the famous Inn Harassed. What do you want to drink?
+DescClose=¡Hasta luego!
 Body=26
 Head=28
+NpcType=0
 Comercia=1
 NROITEMS=4
 Obj1=43-100
@@ -4711,25 +4711,26 @@ Obj2=160-100
 Obj3=161-100
 
 [NPC8]
-Name=Fevien <Provisiones>
-Desc=¡Hola! Ven a ver estos productos, sólo aquí conseguirás las mejores provisiones de todas estas tierras.
+Name=Fevien <Provisions>
+Desc=Hello! Come and see this products, only here will you get the best provisions of all these lands.
 DescClose=¡Hasta pronto!
 Body=21
 Head=4
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=6
 Obj1=1-1000
 Obj2=22-1000
 Obj3=29-1000
+NoMapInfo=1
 
 [NPC9]
-Name=Igor <Provisiones>
-name=Igor <Provisions>
-Desc=Hello, young adventurer! You can check my products whenever you want. Remember that if you are hungry, you will soon run out of energy… By the way, have you talked to my friend Makrom yet?
+Name=Igor <provisions>
+Desc=Hello, young adventurer! I must warn you: if you are hungry or thirsty, you will soon run out of energy... By the way, have you talked to Makrom yet?
+DescClose=¡Hasta pronto!
 Body=5
 Head=701
+NpcType=0
 Comercia=1
 NROITEMS=2
 Obj1=3748-100
@@ -4737,10 +4738,11 @@ Obj2=3749-100
 
 [NPC10]
 Name=North Farmer <Provisions>
-Desc=¡Bienvenido a mi huerta! Tengo las mejores frutas de la zona. No podrás encontrarlas de mejor calidad.
-desc=Welcome to my garden! I have the best fruits in the area. You will not be able to find them of better quality.
+Desc=Welcome to my garden! I have the best fruits in the area. You will not be able to find them of better quality.
+DescClose=¡Hasta luego!
 Body=66
 Head=604
+NpcType=0
 Comercia=1
 NROITEMS=10
 Obj1=1-100
@@ -4755,21 +4757,21 @@ Head=58
 NpcType=17
 
 [NPC12]
-Name=Rivers <Miner>
-Desc=Come closer, I have the necessary tools to obtain minerals in this world
+Name=Durgan <Miner>
+Desc=Hey you! Want to work? Come closer, I have the necessary tool to extract the minerals in this world!
 Body=578
 Head=427
 Comercia=1
-NpcType=0
-NoMapInfo=1
 NROITEMS=4
 Obj1=203-1000
 Obj2=1142-1000
 Obj3=390-1000
+NpcType=0
+NoMapInfo=1
 
 [NPC13]
-Name=Baldric <Herrador>
-Desc=Soy el Herrador de estas tierras. Mejora tu Jinete, gana velocidad y conquista cada ruta con estilo y poder.
+Name=Baldric <Farrier>
+Desc=I am the Farrier of these lands. Upgrade your Rider, gain speed, and conquer every route with style and power.
 Body=71
 Head=8
 NpcType=0
@@ -4780,35 +4782,34 @@ Obj2=5078-100
 Obj3=5079-100
 
 [NPC14]
-Name=Thorek <Minero Experto>
+Name=Thorek <Expert Miner>
 Desc=¡Puedo ofrecerte algo mejor que ese piquete básico!
 Body=273
 Head=423
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=4
 Obj1=203-1000
 Obj2=2818-1000
 Obj3=390-1000
+NoMapInfo=1
 
 [NPC15]
-Name=Joseph <Mercader>
-name=Joseph <Merchant>
+Name=Joseph <Merchant>
 Desc=Hello, welcome to my store! I am interested in all kinds of products. Don't forget to stop by from time to time, tomorrow they may already have bought what you were looking for!
 Body=45
 Head=14
 Comercia=1
-NpcType=0
-NoMapInfo=1
 NROITEMS=3
 Obj1=534-1000
 Obj2=199-1000
 Obj3=197-1000
+NpcType=0
+NoMapInfo=1
 
 [NPC16]
-Name=Vhalek <Mercader del Muelle>
-Desc=Interactua conmigo si quieres viajar por los muelles de Nix, Arghal y Forgat. Una vez que hayas comprado mi boleto, súbete al barco y espera unos segundos.. ¡el Capitán ya está por zarpar!
+Name=Vhalek <Dock Merchant>
+Desc=Interact with me if you want to travel to the docks of Nix, Arghal, and Forgat. Once you've bought my ticket, hop aboard and wait a few seconds... the Captain is about to set sail!
 Body=281
 Head=46
 NpcType=0
@@ -4827,8 +4828,8 @@ NpcType=1
 NoMapInfo=1
 
 [NPC18]
-Name=Rusk <Preso>
-Desc=No mires las cadenas. Mira el tiempo. Cada ciertos minutos los espectros se mueven... y yo también. Si vuelves antes de que lleguen, tendré algo para ti: un sable que aún corta, agua para no caer, pan para seguir andando… y pociones. Unas curan. Otras matan. Elige bien.
+Name=Rusk <Prisoner>
+Desc=No mires las cadenas. Mira el tiempo. Cada ciertos minutos los espectros se mueven... y yo también. Si vuelves antes de que lleguen, tendré algo para ti: un sable que aún corta, agua para no caer, pan para seguir andando... y pociones. Unas curan. Otras matan. Elige bien.
 Body=1549
 Head=224
 NpcType=0
@@ -4874,8 +4875,8 @@ Head=77
 NpcType=24
 
 [NPC24]
-Name=Lilith <Alquimias de Principiante>
-Desc=¿Te has quedado sin pociones? Tengo algunas para ofrecerte, a un precio que te va a convenir
+Name=Lilith <Beginner Alchemies>
+Desc=Have you run out of potions? I have some to offer you, at a price that will suit you.
 DescClose=¡Hasta pronto!
 Body=2101
 Head=69
@@ -4887,7 +4888,7 @@ Obj2=4335-1000
 Obj3=4337-1000
 
 [NPC25]
-Name=Godwin <Mercader de Monturas>
+Name=Godwin <Saddle Seller>
 Desc=Si quieres montar, deberás pagar muy bien por ello.
 Body=69
 Head=6
@@ -4918,13 +4919,14 @@ Head=15
 NpcType=24
 
 [NPC28]
-Name=Vendedor de Pasajes
+Name=Ticket Seller
 Desc=Interactua conmigo si quieres viajar por el mundo.
 Body=281
 Head=46
 NpcType=0
 Comercia=1
-NROITEMS=0
+NROITEMS=1
+Obj1=6300-10000
 
 [NPC36]
 Name=Rethor <Sastrería>
@@ -4952,36 +4954,37 @@ Obj2=32-1
 Obj3=32-1
 
 [NPC46]
-Name=Alquimista Real
+Name=Royal Alchemist
 Desc=¡Las mejores Alquimias de este Reino!
 Body=165
 Head=4
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=9
 Obj1=37-1000
 Obj2=38-1000
 Obj3=36-1000
+NoMapInfo=1
 
 [NPC47]
-Name=Alquimista Caótico
+Name=Chaotic Alchemist
 Desc=¡Con estas Alquimias podrás esparcir el Mal!
 Body=161
 Head=7
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=9
 Obj1=37-1000
 Obj2=38-1000
 Obj3=36-1000
+NoMapInfo=1
 
 [NPC48]
 Name=Ether <Combat Merchant>
 Desc=Do you want to improve your starting equipment? Surely with this you will be able to defend yourself better
 Body=17
 Head=32
+NpcType=0
 Comercia=1
 NROITEMS=4
 Obj1=15-1
@@ -5039,17 +5042,17 @@ Obj2=2906-1
 Obj3=964-1
 
 [NPC55]
-Name=Thaladir <Carpintero>
+Name=Thaladir <Carpenter>
 Desc=¡Bienvenidos a mi Taller! Aquí la madera se transforma en objetos artesanales de incomparable elegancia y poder.
 Body=40
 Head=109
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=8
 Obj1=198-100
 Obj2=127-100
 Obj3=361-100
+NoMapInfo=1
 
 [NPC56]
 Name=Elerion <Herrero Eterno>
@@ -5072,52 +5075,52 @@ Body=275
 Head=67
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=7
 Obj1=1713-100
 Obj2=1774-100
 Obj3=1761-100
+NoMapInfo=1
 
 [NPC58]
-Name=Stavros <Tabernero>
+Name=Stavros <Innkeeper>
 Desc=Ey, tu! Noto en tu mirada que necesitas algo fresco. ¡Has llegado al lugar correcto!
 Body=5826
 Head=0
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=4
 Obj1=43-1000
 Obj2=160-1000
 Obj3=42-1000
+NoMapInfo=1
 
 [NPC59]
-Name=Ines <Cocinera>
+Name=Ines <Cook>
 Desc=¡Hola! Ven a ver estos productos, sólo aquí conseguirás las mejores provisiones de todas estas tierras.
 DescClose=¡Hasta pronto!
 Body=5829
 Head=0
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=6
 Obj1=1-1000
 Obj2=22-1000
 Obj3=29-1000
+NoMapInfo=1
 
 [NPC74]
-Name=Zonrie <Hechicero de Arghal>
+Name=Zonrie <Arghal Sorcerero>
 Desc=¡Tengo una gran variedad de hechizos!
 DescClose=¡Que la magia te acompañe!
 Body=124
 Head=118
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=15
 Obj1=2765-100
 Obj2=2764-100
 Obj3=2763-100
+NoMapInfo=1
 
 [NPC77]
 Name=Xyret
@@ -5283,31 +5286,31 @@ Obj2=160-100
 Obj3=161-100
 
 [NPC101]
-Name=Daena <Provisiones>
+Name=Daena <Provisions>
 Desc=¡Bienvenido a mi huerta! Tengo las mejores frutas de la zona. No podrás encontrarlas de mejor calidad.
 DescClose=¡Hasta luego!
 Body=1234
 Head=523
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=10
 Obj1=1-1000
 Obj2=22-1000
 Obj3=29-1000
+NoMapInfo=1
 
 [NPC102]
-Name=Mildred <Hechicero>
+Name=Mildred <Sorcerer>
 Desc=¡Bienvenido a mi tienda! Ofrezco los hechizos básicos de este mundo.
 Body=124
 Head=117
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=10
 Obj1=2765-100
 Obj2=2763-100
 Obj3=2467-100
+NoMapInfo=1
 
 [NPC103]
 Name=Bagul <Minero>
@@ -5335,16 +5338,16 @@ Obj2=2183-1
 Obj3=138-1
 
 [NPC105]
-Name=Durrot <Mercader>
+Name=Durrot <Merchant>
 Desc=¡Hola! Estoy interesado en todo tipo de productos.
 Body=1235
 Head=501
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=2
 Obj1=534-1
 Obj2=199-1
+NoMapInfo=1
 
 [NPC107]
 Name=Capitán Rowen <Quest>
@@ -5531,8 +5534,8 @@ NpcType=17
 Name=Robert <Governor of Ullathorpe>
 Desc=La ciudad del comercio siempre busca nuevos integrantes.
 desc=The city of commerce is always looking for new members.
-Body=90
-Head=22
+Body=4000
+Head=0
 NpcType=12
 Comercia=0
 NROITEMS=0
@@ -5541,8 +5544,8 @@ NROITEMS=0
 Name=Robert <Governor of Ullathorpe>
 Desc=¿Quieres ser ciudadano del mejor puerto de este mundo?
 desc=Do you want to be a citizen of the best port in this world?
-Body=90
-Head=23
+Body=4007
+Head=0
 NpcType=12
 Comercia=0
 NROITEMS=0
@@ -5551,7 +5554,7 @@ NROITEMS=0
 Name=Maximus <Gobernador de Banderbill>
 Desc=Banderbill sigue siendo una ciudad muy grande, pero aún hay espacio para ciudadanos fieles al Rey Tancredo.
 Body=4002
-Head=27
+Head=0
 NpcType=12
 NoMapInfo=1
 NROITEMS=0
@@ -5560,7 +5563,7 @@ NROITEMS=0
 Name=Domus <Gobernador de Arkhein>
 Desc=¿Te interesaría convivir con el Mal?
 Body=4001
-Head=13
+Head=0
 NpcType=12
 NoMapInfo=1
 
@@ -5568,7 +5571,7 @@ NoMapInfo=1
 Name=Vanessa <Gobernadora de Lindos>
 Desc=Una isla pequeña con un corazon enorme.. ¡Este podria ser tu lugar!
 Body=4004
-Head=151
+Head=0
 NpcType=12
 NoMapInfo=1
 NROITEMS=0
@@ -5577,7 +5580,7 @@ NROITEMS=0
 Name=Lady Élanor <Gobernadora de Arghal>
 Desc=¡Bienvenido a Arghal! Te recomiendo pasar la noche en nuestra ciudad. Cuando el sol se oculta, suele convertirse en un territorio muy peligroso.
 Body=4008
-Head=373
+Head=0
 NpcType=12
 NoMapInfo=1
 NROITEMS=0
@@ -5586,6 +5589,7 @@ NROITEMS=0
 Name=Jarl Njord <Gobernador de Forgat>
 Desc=¡Bienvenido a Forgat la tierra de los Vikingos!
 Body=4006
+Head=0
 NpcType=12
 NoMapInfo=1
 
@@ -5593,7 +5597,7 @@ NoMapInfo=1
 Name=Haleth <Gobernadora de Eldoria>
 Desc=¡Bienvenido a Eldoria la tierra de los Elfos!
 Body=4003
-Head=167
+Head=0
 NpcType=12
 NoMapInfo=1
 
@@ -5601,7 +5605,7 @@ NoMapInfo=1
 Name=Dhall <Gobernadora de Penthar>
 Desc=¡Bienvenido a Penthar la tierra de los Orcos!
 Body=4005
-Head=555
+Head=0
 NpcType=12
 NoMapInfo=1
 
@@ -5609,14 +5613,17 @@ NoMapInfo=1
 Name=Blorin <Gobernador de Morgrim>
 Desc=¡Bienvenido a Morgrim la tierra de los Enanos!
 Body=4009
+Head=0
 NpcType=12
 NoMapInfo=1
 
 [NPC260]
 Name=Camello <Quest>
 Desc=No puedo decirte exactamente qué haré con él... pero sé que su energía vale oro para quien pueda estudiarla.
-Body=2530
-Head=368
+Body=5639
+Head=0
+BodyIdle=5637
+Ataque1=5638
 NpcType=17
 
 [NPC261]
@@ -6834,7 +6841,7 @@ Nivel=20
 [NPC552]
 Name=Assassin
 Body=6043
-Head=639
+Head=0
 BodyIdle=6041
 Ataque1=6042
 HP=800
@@ -6852,7 +6859,7 @@ Nivel=20
 [NPC553]
 Name=Bandit
 Body=6046
-Head=211
+Head=0
 BodyIdle=6044
 Ataque1=6045
 HP=600
@@ -8455,16 +8462,16 @@ NpcType=4
 PuedeInvocar=1
 
 [NPC685]
-Name=Grakka <Alquimista>
+Name=Grakka <Alchemist>
 Desc=Con mis pociones, la raza Orca dominará este Mundo.
 Body=5828
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=6
 Obj1=37-1000
 Obj2=38-1000
 Obj3=36-1000
+NoMapInfo=1
 
 [NPC686]
 Name=Jonas <Tabernero Penthar>
@@ -8491,11 +8498,11 @@ Obj2=22-100
 Obj3=23-100
 
 [NPC689]
-Name=Glasyan Penthar
-Desc=¡Compro lo que el mar puede ofrecer!
-desc=I buy what the sea can offer!
-Body=23
-Head=426
+Name=Glasyan <Fisherman>
+Desc=I buy what the sea can offer!
+Body=1222
+Head=520
+NpcType=0
 Comercia=1
 NROITEMS=2
 Obj1=881-1
@@ -10395,7 +10402,7 @@ MaxHIT=50
 MinHIT=35
 
 [NPC993]
-Name=Isen <Ropaje Invernal>
+Name=Isen <Winter clothing>
 Desc=¡Haz tu compra antes de que el invierno nos atrape!
 Body=82
 Head=32
@@ -10900,30 +10907,30 @@ MaxHIT=0
 MinHIT=0
 
 [NPC1038]
-Name=Van <Alquimista Inicial>
+Name=Van <Alchimista Iniziale>
 Desc=¡Bienvenido! Tengo un producto muy especial para tus aventuras.
 Body=91
 Head=29
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=5
 Obj1=208-1000
 Obj2=209-1000
 Obj3=210-1000
+NoMapInfo=1
 
 [NPC1039]
-Name=Sven <Sastre Polar>
+Name=Sven <Polar Tailor>
 Desc=¡Las mejores vestimentas que podrás conseguir!
 Body=82
 Head=101
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=8
 Obj1=2807-100
 Obj2=4343-100
 Obj3=520-100
+NoMapInfo=1
 
 [NPC1040]
 Name=Cobra
@@ -11278,17 +11285,17 @@ Head=412
 NpcType=17
 
 [NPC1070]
-Name=Ruma <Sastre Femenino>
-Desc=¡Los mejores vestidos que podrás conseguir!
+Name=Ruma <Female Tailor>
+Desc=The best dresses you can get!
 Body=221
 Head=232
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=7
 Obj1=2808-100
 Obj2=1985-100
 Obj3=510-100
+NoMapInfo=1
 
 [NPC1076]
 Name=Martzia <Sastre Exótico>
@@ -11325,25 +11332,25 @@ MinHIT=32
 ORO=20
 
 [NPC1080]
-Name=Rethor <Sastre>
-Desc=¡Las mejores telas, no tienes nada que perder con estos precios!
-desc=The best fabrics in the best city, nothing to lose with these prices.
+Name=Rethor <Tailor>
+Desc=The best fabrics, you have nothing to lose with these prices!
 DescClose=¡Que lo disfrutes!
 Body=22
 Head=15
 Comercia=1
-NpcType=0
-NoMapInfo=1
 NROITEMS=14
 Obj1=32-1000
 Obj2=35-1000
 Obj3=964-1000
+NpcType=0
+NoMapInfo=1
 
 [NPC1081]
 Name=Gertha <Maestra Sastre>
 Desc=¡Calidad en pieles, solo para Damas!
 DescClose=¡Hasta pronto!
-Body=2223
+Body=5834
+Head=0
 NpcType=0
 Comercia=1
 NROITEMS=8
@@ -11369,15 +11376,15 @@ NoMapInfo=1
 Name=Clarice Coraza <Forjadora Experta>
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
-Body=2049
+Body=5830
 Head=0
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=12
 Obj1=30-1000
 Obj2=998-1000
 Obj3=1715-1000
+NoMapInfo=1
 
 [NPC1084]
 Name=Elvira <Quest>
@@ -11402,18 +11409,17 @@ Obj2=2766-1
 Obj3=1665-1
 
 [NPC1086]
-Name=Halving <Carpintero>
-Desc=¡Bienvenido! Trabajo todo tipo de leña. ¿En qué puedo ayudarte?
-desc=Welcome. I work all kinds of firewood.
+Name=Halving <Carpenter>
+Desc=Welcome! I work with all types of firewood, how can I help you?
 Body=607
 Head=318
 Comercia=1
-NpcType=0
-NoMapInfo=1
 NROITEMS=8
 Obj1=198-1000
 Obj2=127-1000
 Obj3=2829-1000
+NpcType=0
+NoMapInfo=1
 
 [NPC1087]
 Name=Baldros Featherwick <Investigador>
@@ -11427,16 +11433,16 @@ Obj2=35-1
 Obj3=515-1
 
 [NPC1088]
-Name=Cormac <Pescador>
+Name=Cormac <Fisherman>
 Desc=¡El mar tiene tanto por ofrecer! Revisa mis herramientas, puede que haya algo que te sirva.
-Body=218
+Body=5833
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=4
 Obj1=881-1000
 Obj2=2183-1000
 Obj3=2789-1000
+NoMapInfo=1
 
 [NPC1089]
 Name=Celyne <Sastre de Nix>
@@ -11451,17 +11457,17 @@ Obj2=9044-1
 Obj3=2843-1
 
 [NPC1090]
-Name=Leo <Pescador>
-Desc=¡El mar tiene tanto por ofrecer! Revisa mis herramientas, puede que haya algo que te sirva.
+Name=Leo <Fisherman>
+Desc=The sea has too much to offer! Check my tools, there may be something that helps you.
 Body=40
 Head=20
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=3
 Obj1=881-100
 Obj2=2183-100
 Obj3=138-100
+NoMapInfo=1
 
 [NPC1091]
 Name=Pablo <Sotano Patreon>
@@ -11475,17 +11481,17 @@ Obj2=529-1
 Obj3=1004-1
 
 [NPC1092]
-Name=Zonrie <Hechicero de Nix>
+Name=Zonrie <Sorcerero de Nix>
 Desc=¡Tengo una gran variedad de hechizos!
 Body=124
 Head=116
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=15
 Obj1=2765-100
 Obj2=2764-100
 Obj3=2763-100
+NoMapInfo=1
 
 [NPC1093]
 Name=Halving <Carpintero de Nix>
@@ -11800,17 +11806,17 @@ Obj2=529-1
 Obj3=1004-1
 
 [NPC1120]
-Name=Skabrot <Hechicero de Penthar>
+Name=Skabrot <penthar sorcerer>
 Desc=Mira estos hechizos, tal vez alguno pueda interesarte.
 Body=5817
 Head=0
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=15
 Obj1=2763-100
 Obj2=2764-100
 Obj3=2766-100
+NoMapInfo=1
 
 [NPC1121]
 Name=Malva <Quest>
@@ -11846,32 +11852,32 @@ Obj2=1274-1
 ObJ3=2927-1
 
 [NPC1124]
-Name=Dominic <Armero>
+Name=Dominic <Gunsmith>
 Desc=¡Son mis ultimas armas, aprovéchalas!
 DescClose=¡Hasta pronto!
-Body=295
+Body=5831
 Head=27
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=7
 Obj1=3988-1000
 Obj2=123-1000
 Obj3=3987-1000
+NoMapInfo=1
 
 [NPC1125]
-Name=Khyo <Herreria>
+Name=Khyo <Smithy>
 Desc=Me quedan algunos objetos por vender antes de marcharme de aquí.
 DescClose=¡Hasta pronto!
 Body=125
 Head=21
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=7
 Obj1=1713-1000
 Obj2=1774-1000
 Obj3=1761-1000
+NoMapInfo=1
 
 [NPC1126]
 Name=Vulkano <Quest>
@@ -11885,30 +11891,30 @@ Obj2=529-1
 Obj3=1004-1
 
 [NPC1127]
-Name=Khadgar <Hechicero>
+Name=Khadgar <Sorcerer>
 Desc=¡Todo lo referido a la Magia, en un solo lugar!
 Body=143
 Head=29
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=14
 Obj1=1651-100
 Obj2=1655-100
 Obj3=1654-100
+NoMapInfo=1
 
 [NPC1128]
-Name=Neron <Armero>
+Name=Nero <Weapons>
 Desc=El único forjador de Armas en estas frías tierras.
 Body=82
 Head=125
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=7
 Obj1=3988-100
 Obj2=123-100
 Obj3=3987-100
+NoMapInfo=1
 
 [NPC1129]
 Name=Kurzak <Herreria>
@@ -11917,37 +11923,37 @@ Body=1697
 Head=202
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=11
 Obj1=1713-100
 Obj2=1774-100
 Obj3=1761-100
+NoMapInfo=1
 
 [NPC1130]
-Name=Therwin <Magia>
+Name=Therwin <Magic>
 Desc=¡Los mejores hechizos de este planeta, en un solo lugar!
 Body=1681
 Head=649
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=19
 Obj1=1655-100
 Obj2=1654-100
 Obj3=1651-100
+NoMapInfo=1
 
 [NPC1131]
-Name=Galving <Carpintero>
+Name=Galving <Carpenter>
 Desc=Te ofrezco una herramienta ideal para la zona élfica.
 Body=556
 Head=317
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=10
 Obj1=198-1000
 Obj2=127-1000
 Obj3=361-1000
+NoMapInfo=1
 
 [NPC1132]
 Name=Marie <Herrera>
@@ -11956,11 +11962,11 @@ Body=2160
 Head=58
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=14
 Obj1=3988-100
 Obj2=123-100
 Obj3=3987-100
+NoMapInfo=1
 
 [NPC1133]
 Name=Victarion <Armaduras Profesionales>
@@ -12085,11 +12091,11 @@ MaxHIT=90
 MinHIT=75
 
 [NPC1142]
-Name=Baradh <Minero de Penthar>
-Desc=Las mejores herramientas para obtener minerales.
-desc=The best tools to obtain minerals
-Body=303
+Name=Baradh <Miner>
+Desc=The best tools to obtain minerals
+Body=1339
 Head=564
+NpcType=0
 Comercia=1
 NROITEMS=4
 Obj1=203-1000
@@ -12103,11 +12109,11 @@ Body=1529
 Head=205
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=11
 Obj1=3984-100
 Obj2=469-100
 Obj3=540-100
+NoMapInfo=1
 
 [NPC1144]
 Name=Condor Andino
@@ -12204,7 +12210,7 @@ NpcType=20
 [NPC1153]
 Name=Ghanly
 Body=6022
-Head=59
+Head=0
 BodyIdle=6020
 Ataque1=6021
 HP=3000
@@ -12409,58 +12415,58 @@ Head=453
 NpcType=17
 
 [NPC1180]
-Name=Thaldris <Hechicera>
+Name=Thaldris <Sorceress>
 Desc=¡Tengo gran variedad de Objetos Mágicos destinados al combate!
 Body=2835
 Head=462
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=9
 Obj1=3984-1000
 Obj2=469-1000
 Obj3=540-1000
+NoMapInfo=1
 
 [NPC1181]
-Name=Brunna <Sastre>
+Name=Brunna <Tailor>
 Desc=¡Las mejores vestimentas que podrás conseguir!
 Body=2840
 Head=478
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=6
 Obj1=2807-100
 Obj2=520-100
 Obj3=1089-100
+NoMapInfo=1
 
 [NPC1182]
-Name=Grelka <Alquimista>
+Name=Grelka <Alchemist>
 Desc=¡Bienvenido! ¿Estás por viajar? Aquí encontrarás las mejores pociones.
 DescClose=¡Mas vale salir prevenidos!
 Body=2847
 Head=477
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=8
 Obj1=37-1000
 Obj2=38-1000
 Obj3=36-1000
+NoMapInfo=1
 
 [NPC1183]
-Name=Dwalin <Provisiones>
+Name=Dwalin <Provisions>
 Desc=¡Hola! Ven a ver estos productos, sólo aquí conseguirás las mejores provisiones de todas estas tierras.
 DescClose=¡Hasta pronto!
 Body=579
 Head=313
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=10
 Obj1=1-1000
 Obj2=22-1000
 Obj3=29-1000
+NoMapInfo=1
 
 [NPC1184]
 Name=Kargun <Resucitador>
@@ -12471,41 +12477,42 @@ NpcType=0
 NoMapInfo=1
 
 [NPC1185]
-Name=Korin <Mercader>
+Name=Korin <Merchant>
 Desc=¡Hola, bienvenido a mi tienda! Estoy interesado en todo tipo de productos. No olvides de pasar de vez en cuando, puede que mañana ya hayan comprado lo que estabas buscando!
 Body=574
 Head=322
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=2
 Obj1=534-1
 Obj2=199-1
+NoMapInfo=1
 
 [NPC1186]
-Name=Grum <Herrero Tenaz>
+Name=Grum <Tenacious Blacksmith>
 Desc=¡Bienvenidos a mi Forja!
 DescClose=¡Hasta pronto!
-Body=537
+Body=5832
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=7
 Obj1=3988-100
 Obj2=123-100
 Obj3=3987-100
+NoMapInfo=1
 
 [NPC1187]
-Name=Thrain <Martillo Incansable>
+Name=Thrain <Untiring Hammer>
 Desc=¡Consigue aqui, solo lo mejor!
 Body=508
+Head=34
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=7
 Obj1=1713-100
 Obj2=1774-100
 Obj3=1761-100
+NoMapInfo=1
 
 [NPC1188]
 Name=Ho Ka Rdum <Quest>
@@ -12861,7 +12868,7 @@ MinHIT=200
 Name=Horus <Quest>
 Desc=I see that you are trying to unravel the secrets of Anubis' camera.It has been many years since the last time you tried. I can help you if you want, but I recommend that you look for more warriors. You alone will not be able to end it. r. It has been many years since you last tried. I can help you if you want, but I recommend you look for more warriors. You just can't finish him off.
 Body=671
-Head=14
+Head=0
 NpcType=17
 
 [NPC1223]
@@ -13108,17 +13115,17 @@ Obj2=30-1
 Obj3=1004-1
 
 [NPC1247]
-Name=Said <Carpintero>
+Name=Said <Carpenter>
 Desc=Quedan pocos arboles en esta zona..
 Body=607
 Head=323
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=7
 Obj1=198-100
 Obj2=127-100
 Obj3=2829-100
+NoMapInfo=1
 
 [NPC1248]
 Name=Akiria
@@ -13134,17 +13141,17 @@ Obj2=37-10000
 Obj3=36-10000
 
 [NPC1249]
-Name=Gaara <Magia>
+Name=Gaara <Magic>
 Desc=Puedo ofrecerte algunos instrumentos mágicos
 Body=619
 Head=401
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=6
 Obj1=1800-1000
 Obj2=3985-1000
 Obj3=3986-1000
+NoMapInfo=1
 
 [NPC1250]
 Name=Kalé
@@ -13404,56 +13411,56 @@ NpcType=4
 NoMapInfo=1
 
 [NPC1273]
-Name=Erika <Alquimista de Forgat>
+Name=Erika <Forgat Alchemist>
 Desc=Hola! Bienvenido a mi cabaña. Tengo a la venta la mas amplia gama de pociones para tu viaje.
 Body=3313
 Head=158
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=5
 Obj1=208-1000
 Obj2=209-1000
 Obj3=210-1000
+NoMapInfo=1
 
 [NPC1274]
-Name=Pandora <Hechicera>
+Name=Pandora <Sorceress>
 Desc=¡Soy experta en las Artes Arcanas! Prueba mis productos, tendrás un gran beneficio mágico!
 Body=2522
 Head=351
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=6
 Obj1=1800-1000
 Obj2=3985-1000
 Obj3=3986-1000
+NoMapInfo=1
 
 [NPC1275]
-Name=Euridice <Hechicera>
+Name=Eurydice <Sorceress>
 Desc=¡Bienvenido a mi Tienda! ¡Poseo los pergaminos arcanos mas buscados por los jovenes hechiceros de este mundo!
 Body=2015
 Head=69
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=10
 Obj1=2763-100
 Obj2=2764-100
 Obj3=2766-100
+NoMapInfo=1
 
 [NPC1276]
-Name=Adelle <Forgat Innkeeper>
-Desc=Si lo que buscás es algo fresco, estás en el lugar indicado. Qué querés tomar?
-desc=If what you are looking for is something fresh, you are in the right place. What do you want to drink?
+Name=Adelle <Tavern Keeper>
+Desc=If what you are looking for is something fresh, you are in the right place! What do you want to drink?
 Body=46
 Head=727
+NpcType=0
 Comercia=1
-PuedeInvocar=1
 NROITEMS=4
 Obj1=43-100
 Obj2=160-100
 Obj3=161-100
+PuedeInvocar=1
 
 [NPC1277]
 Name=Amora <Forgat Fisherwoman>
@@ -13468,29 +13475,30 @@ Obj2=2183-1
 Obj3=138-1
 
 [NPC1278]
-Name=Susan <Carpintera>
+Name=Susan <Carpenter>
 Desc=¡Bienvenido a la carpintería de Forgat!
 Body=69
 Head=86
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=7
 Obj1=198-100
 Obj2=127-100
 Obj3=2829-100
+NoMapInfo=1
 
 [NPC1279]
-Name=Hilda <Forgat Provisions>
-Desc=¡Hola! Vendo una gran variedad de provisiones!
-Body=678
+Name=Hilda <Provisions>
+Desc=¡Vendo una gran variedad de provisiones!
+Body=2250
 Head=57
+NpcType=0
 Comercia=1
-PuedeInvocar=1
 NROITEMS=6
 Obj1=1-1000
 Obj2=22-1000
 Obj3=29-1000
+PuedeInvocar=1
 
 [NPC1280]
 Name=Renata <Forgat Blacksmith>
@@ -14098,30 +14106,30 @@ Head=29
 NpcType=17
 
 [NPC1340]
-Name=Ferrut <Sastre>
+Name=Ferrut <Tailor>
 Desc=Estamos muy lejos de las grandes ciudades, esto es lo mejor que te puedo ofrecer
 Body=111
 Head=40
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=7
 Obj1=4343-1000
 Obj2=1089-1000
 Obj3=1955-1000
+NoMapInfo=1
 
 [NPC1341]
-Name=Faelion <Sastre>
+Name=Faelion <Tailor>
 Desc=Las mejores telas en la mejor ciudad, nada que perder con estos precios.
 Body=123
 Head=106
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=6
 Obj1=4343-100
 Obj2=520-100
 Obj3=1089-100
+NoMapInfo=1
 
 [NPC1342]
 Name=Finrod <Innkeeper of Eldoria>
@@ -14137,24 +14145,24 @@ Obj2=160-100
 Obj3=161-100
 
 [NPC1343]
-Name=Thessalia <Alquimista>
+Name=Thessalia <Alchemist>
 Desc=Tengo a la venta la mas amplia gama de pociones para tu viaje.
 Body=2250
 Head=155
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=5
 Obj1=37-1000
 Obj2=38-1000
 Obj3=36-1000
+NoMapInfo=1
 
 [NPC1344]
-Name=Erevan <Sorceress of Eldoria>
-Desc=¡Soy experta en las artes arcanas. Tengo una gran variedad de hechizos avanzados para tí!
-desc=I am an expert in the arcane arts. I have a wide variety of advanced spells for you!
-Body=1093
+Name=Erevan <Sorceress>
+Desc=I am an expert in the Arcane Arts! Try my products, you will have a great magical benefit!
+Body=2027
 Head=158
+NpcType=0
 Comercia=1
 NROITEMS=9
 Obj1=3984-1
@@ -14162,25 +14170,24 @@ Obj2=469-1
 Obj3=540-1
 
 [NPC1345]
-Name=Thalin <Hechicera de Eldoria>
+Name=Thalin <Sorceress of Eldoria>
 Desc=¡Bienvenido a mi Tienda! ¡Poseo los pergaminos arcanos mas buscados por los hechiceros de este mundo!
 Body=5818
 Head=0
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=25
 Obj1=1651-100
 Obj2=1655-100
 Obj3=1654-100
+NoMapInfo=1
 
 [NPC1346]
-Name=Josephelf <Mercader Eldoria>
-name=Josephelf <Merchant Eldoria>
-Desc=¡Hola! Estoy interesado en todo tipo de productos y vendo boletos a Jourmut.
-desc=Hello! I am interested in all kinds of products.
+Name=Josephelf <Merchant>
+Desc=Hello! I am interested in all kinds of products.
 Body=14
 Head=109
+NpcType=0
 Comercia=1
 NROITEMS=2
 Obj1=534-1
@@ -14210,11 +14217,11 @@ Obj2=1792-1
 Obj3=3980-1
 
 [NPC1349]
-Name=Bort <Eldoria Blacksmith>
-Desc=Aquí encontrarás las mejores armaduras de estas tierras.
-desc=Here you will find the best armor of these lands.
-Body=74
-Head=106
+Name=Josephelf <Merchant of Eldoria>
+Desc=Hello! I am interested in all kinds of products.
+Body=1529
+Head=213
+NpcType=0
 Comercia=1
 NROITEMS=2
 Obj1=534-1
@@ -15342,17 +15349,17 @@ NpcType=1
 NoMapInfo=1
 
 [NPC1511]
-Name=Cleff <Hechicero de Banderbill>
+Name=Cleff <Sorcerer of Banderbill>
 Desc=¡Tengo gran variedad de hechizos!
 Body=5815
 Head=0
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=23
 Obj1=2765-100
 Obj2=2763-100
 Obj3=2764-100
+NoMapInfo=1
 
 [NPC1549]
 Name=Mercader <Facciones>
@@ -15465,17 +15472,17 @@ Head=0
 NpcType=1
 
 [NPC1561]
-Name=Ligno <Hechicero de Arkhein>
+Name=Ligno <Sorcerer of Arkhein>
 Desc=Tengo gran variedad de hechizos!
 Body=5816
 Head=0
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=23
 Obj1=2765-1000
 Obj2=2763-100
 Obj3=2764-100
+NoMapInfo=1
 
 [NPC1599]
 Name=Mercader <Facciones>
@@ -16041,32 +16048,32 @@ NpcType=0
 NoMapInfo=1
 
 [NPC1812]
-Name=Mhor <Herrero Vikingo>
+Name=Mhor <Viking Blacksmith>
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
 Body=71
-Head=8
+Head=34
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=12
 Obj1=30-1000
 Obj2=998-1000
 Obj3=1715-1000
+NoMapInfo=1
 
 [NPC1813]
-Name=Heracio <Maestro Herrero>
+Name=Heracio <Master Blacksmith>
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
 Body=71
-Head=8
+Head=34
 NpcType=0
 Comercia=1
-NoMapInfo=1
 NROITEMS=12
 Obj1=30-1000
 Obj2=998-1000
 Obj3=1715-1000
+NoMapInfo=1
 
 [NPC1814]
 Name=Gru Chaman
@@ -19509,16 +19516,16 @@ name=Red Apple
 texto=Restores 10 hunger points
 
 [OBJ2]
-Name=Espada Larga
+Name=Long Sword
+texto=To fight against creatures and users
 GrhIndex=49167
-Objtype=2
-MinHIT=2
-MaxHIT=7
-Valor=775
-Texto=Espada Larga
+ObjType=2
+MinHit=3
+MaxHit=5
+Valor=800
+Texto=Para combatir contra criaturas y usuarios
 LingH=20
 SkHerreria=25
-name=Long sword
 
 [OBJ3]
 Name=Hacha Orca
@@ -19623,18 +19630,18 @@ ObjType=4
 Agarrable=1
 
 [OBJ15]
-Name=Daga
+Name=Dagger
+texto=Damage 1/2
 GrhIndex=5603
-Objtype=2
-MinHIT=1
-MaxHIT=2
+ObjType=2
+MinHit=1
+MaxHit=2
 Valor=60
 SkHerreria=0
 LingH=3
 LingP=0
 LingO=0
 Texto=Daño 1/2
-name=Daga Común
 
 [OBJ16]
 Name=Puerta abierta
@@ -19754,26 +19761,28 @@ name=Watermelon
 texto=Restores 50 hunger points
 
 [OBJ30]
-Name=Armadura de Cuero
+Name=Leather Armor
+texto=Defense 7/11
+PIELLOBO=75
+SkSastreria=25
 GrhIndex=274
 RopajeHumano=63
 RopajeElfo=63
-RopajeElfoOscuro=1823
-RopajeEnano=4930
-RopajeOrco=1775
-RopajeGnomo=4930
-RopajeHumana=3139
-RopajeElfa=3139
-RopajeElfaOscura=1823
-RopajeEnana=2876
-RopajeOrca=1775
-RopajeGnoma=2876
+RopajeElfoOscuro=1547
+RopajeEnano=547
+RopajeOrco=1047
+RopajeGnomo=547
+RopajeHumana=2047
+RopajeElfa=2047
+RopajeElfaOscura=1547
+RopajeEnana=2547
+RopajeOrca=1047
+RopajeGnoma=2547
 ObjType=3
-MAXDEF=12
-MINDEF=7
-Valor=2500
-Texto=Armadura de Cuero
-name=Leather Armor
+MaxDef=11
+MinDef=7
+Valor=1350
+Texto=Defensa 7/11
 
 [OBJ31]
 Name=Árbol Pino
@@ -19784,29 +19793,29 @@ Texto=Árbol Pino
 name=Tree
 
 [OBJ32]
-Name=Vestimenta Común
+Name=Basic Vestment
+texto=Common clothing
 GrhIndex=2728
 RopajeHumano=2
 RopajeElfo=2
-RopajeElfoOscuro=1532
-RopajeEnano=1177
-RopajeOrco=2546
-RopajeGnomo=1177
-RopajeHumana=2676
-RopajeElfa=2676
-RopajeElfaOscura=2720
-RopajeEnana=1170
-RopajeOrca=2704
-RopajeGnoma=1170
+RopajeElfoOscuro=1564
+RopajeEnano=563
+RopajeOrco=1064
+RopajeGnomo=563
+RopajeHumana=2064
+RopajeElfa=2064
+RopajeElfaOscura=3744
+RopajeEnana=2564
+RopajeOrca=3114
+RopajeGnoma=2564
 ObjType=3
-MAXDEF=2
-MINDEF=1
+MaxDef=1
+MinDef=1
 Valor=30
 SKSastreria=2
 PielLobo=1
 PielOsoPardo=0
 PielOsoPolar=0
-name=Basic Vestment
 Texto=Vestimenta Común
 
 [OBJ33]
@@ -19815,8 +19824,9 @@ MaxHit=3
 MinHit=1
 Name=Sword
 ObjType=2
-Texto=To fight against creatures and users
+Texto=Para combatir contra criaturas y usuarios
 Valor=360
+texto=To fight against creatures and users
 
 [OBJ34]
 GrhIndex=28852
@@ -19826,65 +19836,62 @@ ObjType=1
 Valor=12
 
 [OBJ35]
-Name=Vestimenta Común
+Name=Basic Vestment
+texto=Common clothing
 GrhIndex=15122
 RopajeHumano=5
 RopajeElfo=5
-RopajeElfoOscuro=1535
-RopajeEnano=1156
-RopajeOrco=2549
-RopajeGnomo=1156
-RopajeHumana=1077
-RopajeElfa=1077
-RopajeElfaOscura=2723
-RopajeEnana=2691
-RopajeOrca=2707
-RopajeGnoma=2691
+RopajeElfoOscuro=1567
+RopajeEnano=566
+RopajeOrco=1067
+RopajeGnomo=566
+RopajeHumana=2067
+RopajeElfa=2067
+RopajeElfaOscura=3747
+RopajeEnana=2567
+RopajeOrca=3117
+RopajeGnoma=2567
 ObjType=3
-MAXDEF=2
-MINDEF=1
+MaxDef=1
+MinDef=1
 Valor=30
 SKSastreria=2
 PielLobo=1
 PielOsoPardo=0
 PielOsoPolar=0
-name=Basic Vestment
 Texto=Vestimenta Común
 
 [OBJ36]
-Name=Poción de Agilidad
+Name=Agility Potion
 GrhIndex=28751
 ObjType=11
-Valor=60
-Texto=Aumenta tu agilidad entre 3 y 5 puntos
-name=Agility Potion
-texto=Increase your agility between 3 and 5 points
+Valor=36
+Texto=Aumenta tu agilidad entre 2 y 4 puntos
+texto=Increase your agility between 2 and 4 points
 
 [OBJ37]
-Name=Poción de Maná
+Name=Mana Potion
 GrhIndex=28754
 ObjType=11
-Valor=14
+Valor=20
 Texto=Restaura un 5% de tu maná
-name=Mana Potion
 texto=Restore 5% of your mana
 
 [OBJ38]
 Name=Health Potion
 GrhIndex=28748
 ObjType=11
-Valor=18
+Valor=24
 Texto=Restaura 27 puntos de vida
 texto=Restores 27 Health points
 
 [OBJ39]
-Name=Poción de Fuerza
+Name=Strength Potion
 GrhIndex=28752
 ObjType=11
-Valor=60
-Texto=Aumenta tu fuerza entre 3 y 5 puntos
-name=Strength Potion
-texto=Increase your strength between 3 and 5 points
+Valor=32
+Texto=Aumenta tu fuerza entre 2 y 5 puntos
+texto=Increase your strength between 2 and 5 points
 
 [OBJ40]
 Name=Flauta Élfica
@@ -20019,33 +20026,47 @@ Valor=0
 Texto=¡Con esta llave podrás abrir tu Casa Patreon!
 
 [OBJ55]
-Name=Duke outfit
+Name=Duke Outfit
+texto=Duke Outfit
 GrhIndex=26139
 RopajeHumano=185
 RopajeElfo=185
-RopajeElfoOscuro=1605
-RopajeEnano=4898
+RopajeElfoOscuro=1653
+RopajeEnano=652
 RopajeOrco=1153
-RopajeGnomo=4898
+RopajeGnomo=652
 RopajeHumana=185
 RopajeElfa=185
-RopajeElfaOscura=1605
-RopajeEnana=4898
-RopajeOrca=3365
-RopajeGnoma=4898
+RopajeElfaOscura=1653
+RopajeEnana=652
+RopajeOrca=1153
+RopajeGnoma=652
 ObjType=3
-MAXDEF=7
-MINDEF=5
-Valor=1000
+MaxDef=7
+MinDef=4
+Valor=820
 Texto=Traje de Duque
 
 [OBJ56]
 Name=Duchess Dress
+texto=Duchess dress
+RopajeOrco=0
+RopajeOrca=3307
+RopajeHumano=0
+RopajeHumana=2225
+RopajeGnomo=0
+RopajeGnoma=2740
+RopajeEnano=0
+RopajeEnana=2740
+RopajeElfoOscuro=0
+RopajeElfo=0
+RopajeElfaOscura=3682
+RopajeElfa=2225
 GrhIndex=2553
 ObjType=3
-MAXDEF=7
-MINDEF=5
-Valor=1000
+MaxDef=7
+MinDef=4
+Valor=820
 Texto=Vestido de Duquesa
 
 [OBJ57]
@@ -20697,33 +20718,35 @@ Texto=Esta honorable casa pertenece a
 texto=This honorable house belongs to
 
 [OBJ123]
-Name=Espada Vikinga
+Name=Viking Sword
+texto=Damage 8/12
 GrhIndex=36386
-Objtype=2
-MinHIT=5
-MaxHIT=15
-Valor=7000
-LingH=50
+ObjType=2
+MinHit=8
+MaxHit=12
+Valor=6000
+LingH=100
 LingP=0
 LingO=0
-SkHerreria=70
-Texto=Espada Vikinga
+SkHerreria=55
+Texto=Daño 8/12
 
 [OBJ124]
 Name=Katana
+texto=Damage 13/15
 GrhIndex=3498
-Objtype=2
-MinHIT=8
-MaxHIT=16
-Valor=8000
-LingH=90
-LingP=0
+ObjType=2
+MinHit=13
+MaxHit=15
+Valor=12000
+LingH=85
+LingP=110
 Lingo=0
-SkHerreria=75
-Texto=Katana
+SkHerreria=85
+Texto=Daño 13/15
 
 [OBJ125]
-Name=black potion
+Name=Black potion
 GrhIndex=55359
 ObjType=11
 Valor=1500
@@ -20732,7 +20755,7 @@ texto=You die when you consume it. Useful for drastic cases.
 
 [OBJ126]
 Name=Silver Sword
-Texto=Damage 13/19
+Texto=Daño 13/19
 GrhIndex=713
 ObjType=2
 Valor=19200
@@ -20741,13 +20764,15 @@ LingH=140
 LingP=220
 MaxHit=19
 MinHit=13
+texto=Damage 13/19
 
 [OBJ127]
-Name=Hacha de Leñador
+Name=Lumberjack Ax
+texto=Felling tool
 GrhIndex=52002
-Objtype=18
-Valor=200
-Texto=Herramienta de tala.
+ObjType=18
+Valor=600
+Texto=Herramienta de tala
 
 [OBJ128]
 Name=Blodium deposit
@@ -20778,40 +20803,43 @@ Info=Yacimiento De Blodium
 
 [OBJ131]
 Name=Zafiro Sword
-Texto=Damage 12/18
+Texto=Daño 13/18
 GrhIndex=86206
 ObjType=2
 Valor=18600
-SKHerreria=100
+SkHerreria=100
 LingH=130
 LingP=220
 MaxHit=18
 MinHit=13
+texto=Damage 13/18
 
 [OBJ132]
-Name=Casco de Hierro Completo
+Name=Full Iron Helmet
+texto=Defense 17/20
 GrhIndex=559
 ObjType=17
-MAXDEF=20
-MINDEF=15
-LingH=105
-LingP=0
+MaxDef=20
+MinDef=17
+LingH=65
+LingP=40
 LingO=0
-SkHerreria=65
-Valor=22500
-Texto=Casco de Hierro Completo
+SkHerreria=80
+Valor=7500
+Texto=Defensa 17/20
 
 [OBJ133]
 Name=Aurora
-Texto=Damage 12/15
+Texto=Daño 12/15
 GrhIndex=36521
 ObjType=2
 Valor=12000
-SKHerreria=85
+SkHerreria=85
 LingH=85
 LingP=110
 MaxHit=15
 MinHit=12
+texto=Damage 12/15
 
 [OBJ134]
 Name=Mule Horseshoe
@@ -20856,21 +20884,22 @@ LingH=110
 LingP=220
 MaxHit=17
 MinHit=13
-Name=Espada del Abismo
+Name=Sword of the Abyss
+texto=Damage 13/17
 ObjType=2
 SkHerreria=100
 Texto=Daño 13/17
 Valor=17400
 
 [OBJ138]
-Name=fishing net
+Name=Fishing Net
 GrhIndex=52140
 ObjType=18
-Valor=20000
+Valor=15000
 Texto=Herramienta de pesca, solo utilizable en altamar.
 texto=Fishing tool, only usable on the high seas.
 CD=30000
-CDType=5
+CDTYPE=5
 
 [OBJ139]
 CD=30000
@@ -21020,17 +21049,18 @@ Texto=Restaura 10 puntos de hambre
 texto=Restores 10 hunger points
 
 [OBJ159]
-Name=Hacha de Bárbaro
+Name=Barbarian Ax
+texto=Damage 9/14
 GrhIndex=583
-Objtype=2
-MinHIT=8
-MaxHIT=15
-Valor=7500
-LingH=55
+ObjType=2
+MinHit=9
+MaxHit=14
+Valor=6600
+LingH=110
 LingP=0
 LingO=0
-SkHerreria=70
-Texto=Hacha de Bárbaro
+SkHerreria=60
+Texto=Daño 9/14
 
 [OBJ160]
 Name=Cerveza
@@ -21065,39 +21095,40 @@ Madera=3
 Texto=Cuchara de Madera
 
 [OBJ164]
-Name=Espada Corta
+Name=Short Sword
 GrhIndex=588
-Objtype=2
-MinHIT=4
-MaxHIT=5
-Valor=7000
-LingH=50
+ObjType=2
+MinHit=3
+MaxHit=4
+Valor=5100
+LingH=85
 LingP=0
 LingO=0
-SkHerreria=25
-Texto=Apuñala
-texto=stab
+SkHerreria=45
+Texto=Arma corta con chance de Apuñalar
+texto=Short weapon with chance to Stab
 
 [OBJ165]
-Name=Daga +1
+Name=Dagger +1
+texto=Damage 1/3
 GrhIndex=51996
-Objtype=2
-MinHIT=3
-MaxHIT=4
-Valor=700
-LingH=10
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=1800
+LingH=30
 LingP=0
 LingO=0
 SkHerreria=15
-Texto=Daga +1
+Texto=Daño 1/3
 
 [OBJ166]
-Name=Antidote Poison
+Name=Antidote
 GrhIndex=28750
 ObjType=11
 Valor=30
 Texto=Cura el veneno del usuario que la consume.
-texto=Cure the poison.
+texto=Cures the poison of the user who consumes it.
 
 [OBJ167]
 Name=ArmChair
@@ -21114,11 +21145,11 @@ Texto=Silla
 
 [OBJ169]
 Name=Energy Potion
-GrhIndex=38288
+GrhIndex=28753
 ObjType=11
-Valor=100
-Texto=Restaura entre 5 y 9 puntos de energía.
-texto=Restore between 5 and 9 energy points.
+Valor=26
+Texto=Restaura entre 5 y 15 puntos de energía.
+texto=Restore between 5 and 15 energy points.
 
 [OBJ170]
 Name=Batida Clothing (Woman)
@@ -21273,10 +21304,11 @@ Texto=Puerta cerrada con llave fuerte Ullathorpe
 
 [OBJ187]
 Name=Miner's Pick
+texto=Tool needed for mining
 GrhIndex=52001
-Objtype=18
-Valor=210
-Texto=Herramienta de minería.
+ObjType=18
+Valor=600
+Texto=Herramienta necesaria para minar
 
 [OBJ188]
 Name=Yacimiento de Hierro
@@ -21349,7 +21381,8 @@ Texto=Special wood, it can serve you for a mission.
 Valor=0
 
 [OBJ196]
-Name=Wizard Robe
+Name=Grey Robe
+texto=Defense 5/7
 GrhIndex=11104
 RopajeHumano=110
 RopajeElfo=110
@@ -21364,8 +21397,8 @@ RopajeEnana=2516
 RopajeOrca=3066
 RopajeGnoma=2516
 ObjType=3
-MAXDEF=7
-MINDEF=5
+MaxDef=7
+MinDef=5
 Valor=900
 Texto=Defensa 5/7
 SKSastreria=25
@@ -21374,35 +21407,37 @@ PielOsoPardo=0
 PielOsoPolar=0
 
 [OBJ197]
-Name=Swimwear
+Name=Swimsuit
 GrhIndex=14200
 ObjType=31
-Valor=8000
-MinHIT=0
+Valor=9000
+MinHit=0
 MaxHIT=0
-MINDEF=1
-MAXDEF=1
-Texto=Te permite nadar, cerca de las costas y zonas autorizadas. Requiere 5 Skills de navegación.
-texto=It allows you to swim, near the coasts and authorized areas. Requires 5 Navigation Skills.
+MinDef=0
+MaxDef=0
+Texto=Te permite nadar cerca de las costas.
+texto=It allows you to swim near the coasts.
 
 [OBJ198]
 Name=Saw
+texto=Carpentry tool
 GrhIndex=52000
-Objtype=18
-Valor=140
+ObjType=18
+Valor=12000
 LingH=14
 SkHerreria=12
 Texto=Herramienta de carpintería
 
 [OBJ199]
-Name=Special Rubber suit
+Name=Special Rubber Suit
+MinHit=0
 GrhIndex=621
 ObjType=31
-Valor=250
-MINDEF=1
-MAXDEF=1
-Texto=Te permite Caminar en el Drenaje
-texto=Allows You to Walk in the Drainage
+Valor=20000
+MinDef=0
+MaxDef=0
+Texto=Te permite caminar en aguas contaminadas.
+texto=It allows you to walk in polluted waters.
 
 [OBJ200]
 GrhIndex=579
@@ -21423,10 +21458,11 @@ GrhIndex=0
 
 [OBJ203]
 Name=Miner's Picket
-Texto=Deposit extraction tool.
+Texto=Herramienta de extracción de yacimiento.
 GrhIndex=52001
 ObjType=18
 Valor=1800
+texto=Deposit extraction tool.
 
 [OBJ204]
 Name=Cofre de Hechizos Legendarios
@@ -21487,7 +21523,8 @@ Valor=24
 
 [OBJ212]
 GrhIndex=49194
-Name=Antídoto (I)
+Name=Antidoto (B)
+texto=Cures the poison of the user who consumes it.
 ObjType=11
 Texto=Cura el veneno del usuario que la consume.
 Valor=18
@@ -21632,24 +21669,27 @@ Agarrable=0
 
 [OBJ238]
 Name=Blue Robe
+texto=Defense 8/10
+PIELLOBO=75
+SkSastreria=30
 GrhIndex=2608
 RopajeHumano=117
 RopajeElfo=117
 RopajeElfoOscuro=1523
 RopajeEnano=523
-RopajeOrco=1751
+RopajeOrco=1023
 RopajeGnomo=523
-RopajeHumana=1109
-RopajeElfa=1109
-RopajeElfaOscura=2536
-RopajeEnana=2504
-RopajeOrca=2520
-RopajeGnoma=2504
+RopajeHumana=2023
+RopajeElfa=2023
+RopajeElfaOscura=3523
+RopajeEnana=2523
+RopajeOrca=3073
+RopajeGnoma=2523
 ObjType=3
-MAXDEF=11
-MINDEF=7
-Valor=2000
-Texto=Túnica Azul
+MaxDef=10
+MinDef=8
+Valor=1350
+Texto=Defensa 8/10
 
 [OBJ239]
 Name=Supply Chest
@@ -21660,22 +21700,23 @@ Agarrable=0
 
 [OBJ240]
 Name=Green Vestment
+texto=Green Vestment
 GrhIndex=10120
 RopajeHumano=40
 RopajeElfo=40
-RopajeElfoOscuro=1554
-RopajeEnano=1184
-RopajeOrco=2211
-RopajeGnomo=1184
+RopajeElfoOscuro=1602
+RopajeEnano=601
+RopajeOrco=1102
+RopajeGnomo=601
 RopajeHumana=2095
 RopajeElfa=2095
-RopajeElfaOscura=1554
-RopajeEnana=2889
-RopajeOrca=2211
-RopajeGnoma=2889
+RopajeElfaOscura=1602
+RopajeEnana=2594
+RopajeOrca=1102
+RopajeGnoma=2594
 ObjType=3
-MAXDEF=1
-MINDEF=1
+MaxDef=1
+MinDef=1
 Valor=30
 SKSastreria=0
 PielLobo=7
@@ -22643,52 +22684,58 @@ Agarrable=1
 Texto=Teleport a Banderbill
 
 [OBJ359]
-Name=Cota de Mallas
+Name=Chain Mail
+texto=Defense 15/19
+LingH=65
+SkHerreria=55
 GrhIndex=30867
 RopajeHumano=74
 RopajeElfo=74
-RopajeElfoOscuro=1834
-RopajeEnano=1182
-RopajeOrco=1786
-RopajeGnomo=1182
+RopajeElfoOscuro=1558
+RopajeEnano=558
+RopajeOrco=1058
+RopajeGnomo=558
 RopajeHumana=2058
 RopajeElfa=2058
-RopajeElfaOscura=1834
-RopajeEnana=1159
-RopajeOrca=1786
-RopajeGnoma=1159
+RopajeElfaOscura=1558
+RopajeEnana=2558
+RopajeOrca=1058
+RopajeGnoma=2558
 ObjType=3
-MAXDEF=22
-MINDEF=15
-Valor=7200
-Texto=Cota de Mallas
+MaxDef=19
+MinDef=15
+Valor=3900
+Texto=Defensa 15/19
 
 [OBJ360]
-Name=Hunter armor
+Name=Hunter Armor
+texto=Defense 23/25
+LingH=125
+SkHerreria=75
 GrhIndex=1462
 RopajeHumano=67
 RopajeElfo=67
-RopajeElfoOscuro=1827
+RopajeElfoOscuro=1551
 RopajeEnano=551
-RopajeOrco=1779
+RopajeOrco=1051
 RopajeGnomo=551
-RopajeHumana=3086
-RopajeElfa=3086
-RopajeElfaOscura=1827
-RopajeEnana=1160
-RopajeOrca=1779
-RopajeGnoma=1160
+RopajeHumana=2051
+RopajeElfa=2051
+RopajeElfaOscura=1551
+RopajeEnana=2551
+RopajeOrca=1051
+RopajeGnoma=2551
 ObjType=3
-MAXDEF=30
-MINDEF=25
-Valor=15000
-Texto=Armadura de Cazador
+MaxDef=25
+MinDef=23
+Valor=7500
+Texto=Defensa 23/25
 
 [OBJ361]
-Name=Hacha Élfica
+Name=Elven Ax
 GrhIndex=44361
-Objtype=18
-Valor=2000
+ObjType=18
+Valor=3000
 Texto=Necesaria para talar leña élfica.
 texto=Necessary to cut down elven firewood.
 
@@ -22703,30 +22750,31 @@ texto=Musical instrument.
 [OBJ363]
 Name=Gold Miner Pickaxe
 GrhIndex=44469
-Objtype=18
-Valor=2000
+ObjType=18
+Valor=6000
 LingH=20
 SkHerreria=18
-Texto=Necesario para minar en yacimientos de oro.
-texto=Necessary for mining in gold deposits.
+Texto=Herramienta necesaria para minar en yacimientos de oro
+texto=Necessary tool for mining in gold deposits
 
 [OBJ364]
 GrhIndex=0
 
 [OBJ365]
-Name=Daga +2
+Name=Dagger +2
+texto=Damage 2/5
 GrhIndex=711
-Objtype=2
-MinHIT=3
-MaxHIT=6
-Valor=7000
-Texto=Daga +2
-LingH=50
-SkHerreria=35
+ObjType=2
+MinHit=2
+MaxHit=5
+Valor=5700
+Texto=Daño 2/5
+LingH=95
+SkHerreria=50
 
 [OBJ366]
 Name=Dagger +3
-Texto=Damage 3/6
+Texto=Daño 3/6
 GrhIndex=35792
 ObjType=2
 Valor=12600
@@ -22735,13 +22783,14 @@ LingH=95
 LingP=110
 MaxHit=6
 MinHit=3
-MaxArmorPenetrationFlat=10
-MinArmorPenetrationFlat=5
-ExtraCritAndStabChance=5
+MAXARMORPENETRATIONFLAT=10
+MINARMORPENETRATIONFLAT=5
+EXTRACRITANDSTABCHANCE=5
+texto=Damage 3/6
 
 [OBJ367]
 Name=Dagger +4
-Texto=Damage 4/7
+Texto=Daño 4/7
 GrhIndex=8493
 ObjType=2
 Valor=18000
@@ -22750,9 +22799,10 @@ LingH=150
 LingP=200
 MaxHit=7
 MinHit=4
-MaxArmorPenetrationFlat=10
-MinArmorPenetrationFlat=5
-ExtraCritAndStabChance=10
+MAXARMORPENETRATIONFLAT=10
+MINARMORPENETRATIONFLAT=5
+EXTRACRITANDSTABCHANCE=10
+texto=Damage 4/7
 
 [OBJ368]
 Name=Stone
@@ -22852,7 +22902,8 @@ texto=All your skills go back to zero and you can reassign. (Not valid Clan Foun
 GrhIndex=0
 
 [OBJ381]
-Name=Brown Robe
+Name=Red Robe
+texto=Defense 6/8
 GrhIndex=2724
 RopajeHumano=109
 RopajeElfo=109
@@ -22867,12 +22918,12 @@ RopajeEnana=2515
 RopajeOrca=3065
 RopajeGnoma=2515
 ObjType=3
-MAXDEF=8
-MINDEF=6
+MaxDef=8
+MinDef=6
 Valor=1200
 Texto=Defensa 6/8
-PielLobo=65
-SKSastreria=25
+PIELLOBO=65
+SkSastreria=25
 
 [OBJ382]
 Name=Blue Dress
@@ -22937,10 +22988,11 @@ Texto=Herramienta obsoleta
 
 [OBJ390]
 Name=Blacksmith Hammer
-Texto=Tool needed to forge items
+Texto=Herramienta necesaria para forjar items
 GrhIndex=38135
 ObjType=18
 Valor=10000
+texto=Tool needed to forge items
 
 [OBJ391]
 Name=Bastón de los Elementos
@@ -22989,38 +23041,42 @@ texto=The movements of the target become slow.
 
 [OBJ398]
 Name=Master Saber
-Texto=Damage 10/16
+Texto=Daño 10/16
 GrhIndex=37844
 ObjType=2
 Valor=10500
-SKHerreria=85
+SkHerreria=85
 LingH=75
 LingP=100
 MaxHit=16
 MinHit=10
+texto=Damage 10/16
 
 [OBJ399]
-Name=Cimitarra
+Name=Scimitar
+texto=Damage 9/14
+LingP=100
 GrhIndex=6961
-Objtype=2
-MinHIT=7
-MaxHIT=15
-Valor=10000
-LingH=100
-SkHerreria=55
-Texto=Cimitarra
+ObjType=2
+MinHit=9
+MaxHit=14
+Valor=11400
+LingH=90
+SkHerreria=85
+Texto=Daño 9/14
 
 [OBJ400]
 Name=Falcata
-Texto=Damage 12/16
+Texto=Daño 12/16
 GrhIndex=1207
 ObjType=2
 Valor=16800
-SKHerreria=100
+SkHerreria=100
 LingH=145
 LingP=190
 MaxHit=16
 MinHit=12
+texto=Damage 12/16
 
 [OBJ401]
 GrhIndex=44037
@@ -23029,24 +23085,24 @@ MaxHit=9
 MinHit=6
 Name=Stone Axe
 ObjType=2
-SKHerreria=25
-Texto=Damage 4/9
+SkHerreria=25
+Texto=Daño 6/9
 Valor=2400
+texto=Damage 6/9
 
 [OBJ402]
-Name=Espada MataDragones
-name=Dragon Slayer Sword
+Name=Dragonslayer Sword
 GrhIndex=6729
-Objtype=2
-MinHIT=1
-MaxHIT=2
-Valor=100000
+ObjType=2
+MinHit=1
+MaxHit=2
+Valor=0
 LingH=500
 LingP=400
-LingO=300
+LingO=250
 SkHerreria=100
-Texto=Único instrumento para acabar con el Gran Dragón Rojo.
-texto=Only instrument to end the Great Red Dragon.
+Texto=Único instrumento para acabar con el Gran Dragón.
+texto=The only instrument to defeat the Great Dragon.
 
 [OBJ403]
 Name=Espada de Héroes
@@ -23537,28 +23593,29 @@ RopajeOrco=0
 
 [OBJ463]
 Name=Basic Vestment
-GrhIndex=2727
-RopajeHumano=1
-RopajeElfo=1
-RopajeElfoOscuro=1531
-RopajeEnano=52
-RopajeOrco=2545
-RopajeGnomo=52
-RopajeHumana=1079
-RopajeElfa=1079
-RopajeElfaOscura=2719
-RopajeEnana=3137
-RopajeOrca=2703
-RopajeGnoma=3137
+texto=Basic clothing
+GrhIndex=15123
+RopajeHumano=6
+RopajeElfo=6
+RopajeElfoOscuro=1568
+RopajeEnano=567
+RopajeOrco=1068
+RopajeGnomo=567
+RopajeHumana=2068
+RopajeElfa=2068
+RopajeElfaOscura=3748
+RopajeEnana=2568
+RopajeOrca=3118
+RopajeGnoma=2568
 ObjType=3
-MAXDEF=2
-MINDEF=1
+MaxDef=1
+MinDef=1
 Valor=30
 SKSastreria=2
 PielLobo=1
 PielOsoPardo=0
 PielOsoPolar=0
-Texto=Vestimenta Común
+Texto=Vestimenta básica
 
 [OBJ464]
 GrhIndex=55486
@@ -23648,27 +23705,28 @@ Agarrable=1
 Texto=Hongos
 
 [OBJ474]
-Name=Barca
+Name=Boat
+MinHit=0
 GrhIndex=4547
 ObjType=31
-Madera=25000
-Valor=75000
-Texto=Requiere 70 puntos en navegación.
-texto=Requires 70 points in navigation.
+Madera=20000
+Valor=30000
+Texto=Requiere 70 puntos en Navegar
+texto=Requires 70 points in Sailing
 
 [OBJ475]
-Name=Galera
+Name=Galley
 GrhIndex=11568
 ObjType=31
-Madera=30000
-Maderaelfica=4000
-Valor=110000
-MinHIT=5
-MaxHIT=10
-MINDEF=5
-MAXDEF=10
-Texto=Requiere 80 En Navegación, Exclusivo Para Piratas y Trabajadores.
-texto=Requires 80 on Navigation, Exclusive for Pirates and Workers.
+Madera=5000
+MaderaElfica=20000
+Valor=67500
+MinHit=5
+MaxHit=10
+MinDef=5
+MaxDef=10
+Texto=Requiere 80 en Navegar, navío exclusivo para Trabajadores.
+texto=Requires 80 in Sail, exclusive ship for Workers.
 
 [OBJ476]
 Name=Galeón
@@ -23712,27 +23770,28 @@ ObjType=31
 Valor=0
 
 [OBJ479]
-Name=Single bow
+Name=Simple Bow
 GrhIndex=17525
-Objtype=2
-MinHIT=1
-MaxHIT=3
-Valor=1400
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=600
 Madera=200
 Proyectil=1
 Municiones=1
-Texto=Damage 1/3
+Texto=Daño 1/3
+texto=Damage 1/3
 
 [OBJ480]
-Name=Flecha
-GrhIndex=752
-Objtype=32
-MinHIT=1
-MaxHIT=1
-Valor=6
+Name=Arrow
+GrhIndex=278
+ObjType=32
+MinHit=1
+MaxHit=4
+Valor=3
 Madera=1
-Texto=Daño 1/1
-texto=Damage 1/1
+Texto=Daño 1/4
+texto=Damage 1/4
 
 [OBJ481]
 Name=Red Dragon Armor
@@ -23881,37 +23940,38 @@ Texto=Puerta abierta
 name=Open door
 
 [OBJ495]
-Name=Armadura Escarlata
-Texto=Armadura Escarlata
+Name=Scarlet Armor
+texto=Defense 34/38
+Texto=Defensa 34/38
 GrhIndex=1466
 RopajeHumano=48
 RopajeElfo=48
-RopajeElfoOscuro=2299
-RopajeEnano=1683
-RopajeOrco=2071
-RopajeGnomo=1683
+RopajeElfoOscuro=1690
+RopajeEnano=689
+RopajeOrco=1190
+RopajeGnomo=689
 RopajeHumana=48
 RopajeElfa=48
-RopajeElfaOscura=2299
-RopajeEnana=1683
-RopajeOrca=2071
-RopajeGnoma=1683
+RopajeElfaOscura=1690
+RopajeEnana=689
+RopajeOrca=1190
+RopajeGnoma=689
 ObjType=3
-MAXDEF=38
-MINDEF=35
-Valor=55000
-LingH=550
-LingP=350
+MaxDef=38
+MinDef=34
+Valor=20400
+LingH=115
+LingP=150
 LingO=150
 SkHerreria=100
 
 [OBJ496]
 Name=Armor of Light
-Texto=Defense 33/35
+Texto=Defensa 31/35
 GrhIndex=3505
 ObjType=3
 Valor=19800
-SKHerreria=100
+SkHerreria=100
 LingH=105
 LingP=150
 MaxDef=35
@@ -23928,6 +23988,7 @@ RopajeHumana=2171
 RopajeHumano=262
 RopajeOrca=3237
 RopajeOrco=1306
+texto=Defense 31/35
 
 [OBJ497]
 Name=Armadura de la Tiniebla
@@ -24121,15 +24182,16 @@ PielOsoPolar=0
 GrhIndex=0
 
 [OBJ510]
-Name=Indulgent Dress (H/E/EO-M)
+Name=Indulgent Dress
+texto=Defense 13/17
 GrhIndex=11608
 ObjType=3
-MAXDEF=17
-MINDEF=13
+MaxDef=17
+MinDef=13
 Valor=3900
 Texto=Defensa 13/17
-PielOsoPardo=43
-SKSastreria=45
+PIELOSOPARDO=43
+SkSastreria=45
 RopajeElfa=2246
 RopajeElfaOscura=3703
 RopajeElfo=0
@@ -24174,29 +24236,29 @@ Texto=Vestido de Bruja (H/E/EO-M)
 GrhIndex=0
 
 [OBJ515]
-Name=Vestimenta Común
+Name=Basic Vestment
+texto=Basic Vestment
 GrhIndex=15125
 RopajeHumano=10
 RopajeElfo=10
-RopajeElfoOscuro=1540
-RopajeEnano=1176
-RopajeOrco=2554
-RopajeGnomo=1176
-RopajeHumana=1078
-RopajeElfa=1078
-RopajeElfaOscura=2728
-RopajeEnana=2696
-RopajeOrca=2712
-RopajeGnoma=2696
+RopajeElfoOscuro=1572
+RopajeEnano=571
+RopajeOrco=1072
+RopajeGnomo=571
+RopajeHumana=2072
+RopajeElfa=2072
+RopajeElfaOscura=3752
+RopajeEnana=2572
+RopajeOrca=3122
+RopajeGnoma=2572
 ObjType=3
-MAXDEF=2
-MINDEF=1
+MaxDef=2
+MinDef=1
 Valor=30
 SKSastreria=2
 PielLobo=1
 PielOsoPardo=0
 PielOsoPolar=0
-name=Basic Vestment
 Texto=Vestimenta Común
 
 [OBJ516]
@@ -24240,49 +24302,53 @@ RopajeGnoma=2696
 
 [OBJ519]
 Name=Legendary Robe
+texto=Defense 28/32
 GrhIndex=2597
 RopajeHumano=141
 RopajeElfo=141
-RopajeElfoOscuro=1561
-RopajeEnano=1660
-RopajeOrco=2188
-RopajeGnomo=1660
-RopajeHumana=1061
-RopajeElfa=1061
-RopajeElfaOscura=4821
+RopajeElfoOscuro=1609
+RopajeEnano=608
+RopajeOrco=1109
+RopajeGnomo=608
+RopajeHumana=2098
+RopajeElfa=2098
+RopajeElfaOscura=3555
 RopajeEnana=2597
-RopajeOrca=4805
+RopajeOrca=3148
 RopajeGnoma=2597
 ObjType=3
-MAXDEF=35
-MINDEF=30
-Texto=Túnica Legendaria
-Valor=15000
-SKSastreria=100
+MaxDef=32
+MinDef=28
+Texto=Defensa 28/32
+Valor=18000
+SkSastreria=100
 PielLobo=45
 PielOsoPardo=25
-PielOsoPolar=3
+PIELOSOPOLAR=70
 
 [OBJ520]
 Name=Black Robe
+texto=Defense 13/17
+PIELOSOPARDO=43
+SkSastreria=45
 GrhIndex=10118
 RopajeHumano=124
 RopajeElfo=124
 RopajeElfoOscuro=1530
-RopajeEnano=1341
-RopajeOrco=1758
-RopajeGnomo=1341
-RopajeHumana=1340
-RopajeElfa=1340
-RopajeElfaOscura=2543
-RopajeEnana=2511
-RopajeOrca=2527
-RopajeGnoma=2511
+RopajeEnano=530
+RopajeOrco=1030
+RopajeGnomo=530
+RopajeHumana=2030
+RopajeElfa=2030
+RopajeElfaOscura=3530
+RopajeEnana=2530
+RopajeOrca=3080
+RopajeGnoma=2530
 ObjType=3
-MAXDEF=20
-MINDEF=15
-Valor=7000
-Texto=Túnica Negra
+MaxDef=17
+MinDef=13
+Valor=3900
+Texto=Defensa 13/17
 
 [OBJ521]
 Name=Árbol
@@ -24375,24 +24441,27 @@ RopajeOrco=1212
 
 [OBJ530]
 Name=Druid Robe
+texto=Defense 19/21
+PIELOSOPARDO=60
+SkSastreria=75
 GrhIndex=10117
 RopajeHumano=123
 RopajeElfo=123
 RopajeElfoOscuro=1529
-RopajeEnano=3088
-RopajeOrco=1757
-RopajeGnomo=3088
-RopajeHumana=1096
-RopajeElfa=1096
-RopajeElfaOscura=2542
-RopajeEnana=2510
-RopajeOrca=2526
-RopajeGnoma=2510
+RopajeEnano=529
+RopajeOrco=1029
+RopajeGnomo=529
+RopajeHumana=2029
+RopajeElfa=2029
+RopajeElfaOscura=3529
+RopajeEnana=2529
+RopajeOrca=3079
+RopajeGnoma=2529
 ObjType=3
-MAXDEF=20
-MINDEF=15
-Valor=7000
-Texto=Túnica de Druida
+MaxDef=21
+MinDef=19
+Valor=5400
+Texto=Defensa 19/21
 
 [OBJ531]
 Name=Dark Druid Robe
@@ -24554,35 +24623,37 @@ ObjType=100
 Valor=0
 
 [OBJ551]
-Name=Flecha +2
-GrhIndex=755
-Objtype=32
-MinHIT=3
-MaxHIT=4
-Valor=18
+Name=Arrow +2
+GrhIndex=752
+ObjType=32
+MinHit=3
+MaxHit=4
+Valor=9
 Texto=Daño 3/4
 Madera=3
 texto=Damage 3/4
 
 [OBJ552]
-Name=Flecha Élfica
-GrhIndex=754
-Objtype=32
-MinHIT=4
-MaxHIT=5
-Valor=0
-maderaelfica=3
-Texto=Daño 5/6
-texto=Damage 5/6
+Name=Elven Arrow
+Madera=1
+GrhIndex=279
+ObjType=32
+MinHit=4
+MaxHit=5
+Valor=15
+MaderaElfica=2
+Texto=Daño 4/5
+texto=Damage 4/5
 
 [OBJ553]
-Name=Flecha +3
+Name=Arrow +3
+MaderaElfica=1
 GrhIndex=753
-Objtype=32
-MinHIT=3
-MaxHIT=5
-Valor=36
-Madera=6
+ObjType=32
+MinHit=3
+MaxHit=5
+Valor=12
+Madera=2
 Texto=Daño 3/5
 texto=Damage 3/5
 
@@ -24687,11 +24758,12 @@ GrhIndex=0
 
 [OBJ571]
 Name=Marquise Dress
+texto=Marquise Dress
 GrhIndex=11496
 ObjType=3
-MAXDEF=3
-MINDEF=1
-Valor=100
+MaxDef=4
+MinDef=2
+Valor=270
 Texto=Vestido de Marquesa
 RopajeElfa=2230
 RopajeElfaOscura=3687
@@ -24758,103 +24830,92 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ580]
-Name=Fuego Artificial I
+Name=Fireworks
 GrhIndex=32456
 ObjType=11
 Texto=¡Festeja!
 Valor=1
 texto=Party!
-name=Fireworks
 
 [OBJ581]
-Name=Fuego Artificial II
+Name=Fireworks
 GrhIndex=32457
 ObjType=11
 Texto=¡Festeja!
 Valor=1
 texto=Party!
-name=Fireworks
 
 [OBJ582]
-Name=Fuego Artificial III
+Name=Fireworks
 GrhIndex=32458
 ObjType=11
 Texto=¡Festeja!
 Valor=1
 texto=Party!
-name=Fireworks
 
 [OBJ583]
-Name=Fuego Artificial IV
+Name=Fireworks
 GrhIndex=32459
 ObjType=11
 Texto=¡Festeja!
 Valor=1
 texto=Party!
-name=Fireworks
 
 [OBJ584]
-Name=Fuego Artificial V
+Name=Fireworks
 GrhIndex=32460
 ObjType=11
 Texto=¡Festeja!
 Valor=1
 texto=Party!
-name=Fireworks
 
 [OBJ585]
-Name=Fuego Artificial VI
+Name=Fireworks
 GrhIndex=32461
 ObjType=11
 Texto=¡Festeja!
 Valor=1
 texto=Party!
-name=Fireworks
 
 [OBJ586]
-Name=Fuego Artificial VII
+Name=Fireworks
 GrhIndex=32462
 ObjType=11
 Texto=¡Festeja!
 Valor=1
 texto=Party!
-name=Fireworks
 
 [OBJ587]
-Name=Bengala de Humo amarilla
+Name=Yellow Smoke Bombs
 GrhIndex=32464
 ObjType=11
 Texto=¡Festeja!
 Valor=1
 texto=Party!
-name=Yellow Smoke Bombs
 
 [OBJ588]
-Name=Bengala de Humo roja
+Name=Red Smoke Bombs
 GrhIndex=32466
 ObjType=11
 Texto=¡Festeja!
 Valor=1
 texto=Party!
-name=Red Smoke Bombs
 
 [OBJ589]
-Name=Bengala de Humo Azul
+Name=Blue Smoke Bombs
 GrhIndex=32465
 ObjType=11
 Texto=¡Festeja!
 Valor=1
 texto=Party!
-name=Blue Smoke Bombs
 
 [OBJ590]
-Name=Bengala de Humo Gris
+Name=Gray Smoke Bombs
 GrhIndex=32467
 ObjType=11
 Texto=¡Festeja!
 Valor=1
 texto=Party!
-name=Gray Smoke Bombs
 
 [OBJ591]
 GrhIndex=0
@@ -24863,40 +24924,36 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ593]
-Name=Bengala de Humo Verde
+Name=Green Smoke Bombs
 GrhIndex=32468
 ObjType=11
 Texto=¡Festeja!
 Valor=1
 texto=Party!
-name=Green Smoke Bombs
 
 [OBJ594]
-Name=Bengala de Humo Rosa
+Name=Rose Smoke Bombs
 GrhIndex=32469
 ObjType=11
 Texto=¡Festeja!
 Valor=1
 texto=Party!
-name=Rose Smoke Bombs
 
 [OBJ595]
-Name=Bengala de Humo Negro
+Name=Black Smoke Bombs
 GrhIndex=32471
 ObjType=11
 Texto=¡Festeja!
 Valor=1
 texto=Party!
-name=Black Smoke Bombs
 
 [OBJ596]
-Name=Bengala de Humo Naranja
+Name=Orange Smoke Bombs
 GrhIndex=32470
 ObjType=11
 Texto=¡Festeja!
 Valor=1
 texto=Party!
-name=Orange Smoke Bombs
 
 [OBJ597]
 GrhIndex=0
@@ -24911,17 +24968,18 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ601]
-Name=Casco de Plata
+Name=Silver Helmet
+texto=Defense 22/25
 GrhIndex=49541
 ObjType=17
-MAXDEF=25
-MINDEF=20
-Valor=50000
-SkHerreria=75
-LingH=180
-LingP=210
+MaxDef=25
+MinDef=22
+Valor=12000
+SkHerreria=100
+LingH=110
+LingP=60
 LingO=60
-Texto=Casco de Plata
+Texto=Defensa 22/25
 
 [OBJ602]
 GrhIndex=0
@@ -25332,10 +25390,11 @@ GrhIndex=0
 
 [OBJ653]
 Name=Unicornio
-Texto=It allows you to ride a unicorn
+Texto=Te permite montar un Unicornio
 GrhIndex=32742
 ObjType=44
 Valor=2000000
+texto=It allows you to ride a unicorn
 
 [OBJ654]
 Name=Survivor Earring
@@ -25347,10 +25406,11 @@ texto=Increase your survival skill by 25 points.
 
 [OBJ655]
 Name=Rat Mount
-Texto=Allows you to ride a Rat
+Texto=Te permite montar una Rata
 GrhIndex=24694
 ObjType=44
 Valor=0
+texto=Allows you to ride a Rat
 
 [OBJ656]
 Name=Spear
@@ -25366,17 +25426,19 @@ Texto=Lanza
 
 [OBJ657]
 Name=Bear Mount
-Texto=Allows you to ride a Bear
+Texto=Te permite montar un Oso
 GrhIndex=1192
 ObjType=44
 Valor=15000
+texto=Allows you to ride a Bear
 
 [OBJ658]
 Name=Armored Bear Mount
-Texto=Allows you to ride a Bear
+Texto=Te permite montar un Oso
 GrhIndex=1193
 ObjType=44
 Valor=15000
+texto=Allows you to ride a Bear
 
 [OBJ659]
 Name=MONTURA FUEGO
@@ -27022,12 +27084,12 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ881]
-Name=Caña de Pesca
+Name=Fishing Rod
 GrhIndex=48908
 ObjType=18
-valor=1200
+Valor=1200
 Texto=Herramienta básica de Pesca
-texto=Basic fishing tool.
+texto=Basic Fishing Tool
 
 [OBJ882]
 GRHINDEX=0
@@ -27048,20 +27110,22 @@ SkHerreria=12
 Texto=Herramienta de botánica
 
 [OBJ886]
-Name=Costurero
+Name=Sewing Box
+texto=Tailoring Tool
 GrhIndex=983
-Objtype=18
-Valor=500
-Texto=Herramienta de sastrería
+ObjType=18
+Valor=6000
+Texto=Herramienta de Sastrería
 
 [OBJ887]
 Name=Cooking pot
+texto=Tool needed to create Alchemy potions
 GrhIndex=49016
-Objtype=18
+ObjType=18
 Valor=10000
 LingH=10
 SkHerreria=12
-Texto=Herramienta de alquimia
+Texto=Herramienta necesaria para crear pociones de Alquimia
 
 [OBJ888]
 Name=Raiz
@@ -27608,7 +27672,8 @@ Texto=Árbol Élfico
 name=Elven Tree
 
 [OBJ964]
-Name=Basic Vestment blue
+Name=Villager Outfit
+texto=Villager Outfit
 GrhIndex=11102
 RopajeHumano=29
 RopajeElfo=29
@@ -27623,8 +27688,8 @@ RopajeEnana=2586
 RopajeOrca=3137
 RopajeGnoma=2586
 ObjType=3
-MAXDEF=2
-MINDEF=1
+MaxDef=2
+MinDef=1
 Valor=80
 Texto=Vestimenta de Aldeano
 
@@ -27804,29 +27869,30 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ992]
-Name=Wizard hat
+Name=Apprentice Hat
 GrhIndex=4464
 ObjType=17
-MAXDEF=7
-MINDEF=5
+MaxDef=7
+MinDef=5
 Valor=1800
 Texto=Defensa 5/7, aumenta un 3% tu Resistencia Mágica
-SKSastreria=70
+SkSastreria=70
 PielLoboNegro=28
 PielTigreBengala=3
-texto=Increases your magic resistance by 5%
-PielTigre=24
+texto=Defense 5/7, increases your Magic Resistance by 3%
+PIELTIGRE=24
 
 [OBJ993]
 Name=Wizard Hat
-Texto=Defense 8/10, increases your Magic Resistance by 5%
+Texto=Defensa 8/10, aumenta un 5% tu Resistencia Mágica
 GrhIndex=17516
 ObjType=17
 Valor=3600
 MaxDef=10
 MinDef=8
-SKSastreria=70
-PielTigre=48
+SkSastreria=70
+PIELTIGRE=48
+texto=Defense 8/10, increases your Magic Resistance by 5%
 
 [OBJ994]
 GrhIndex=0
@@ -27855,25 +27921,28 @@ Valor=30000
 Texto=Escamas del Dragón Negro
 
 [OBJ998]
-Name=Leather Armor
+Name=Blue Leather Armor
+texto=Defense 8/12
+PIELLOBO=85
+SkSastreria=30
 GrhIndex=40720
 RopajeHumano=65
 RopajeElfo=65
-RopajeElfoOscuro=1825
+RopajeElfoOscuro=1549
 RopajeEnano=549
-RopajeOrco=1777
+RopajeOrco=1049
 RopajeGnomo=549
-RopajeHumana=2890
-RopajeElfa=2890
-RopajeElfaOscura=1825
+RopajeHumana=2049
+RopajeElfa=2049
+RopajeElfaOscura=1549
 RopajeEnana=2549
-RopajeOrca=1777
+RopajeOrca=1049
 RopajeGnoma=2549
 ObjType=3
-MAXDEF=15
-MINDEF=10
-Valor=3000
-Texto=Armadura de Cuero
+MaxDef=12
+MinDef=8
+Valor=1500
+Texto=Defensa 8/12
 
 [OBJ999]
 Name=Escudo Infernal
@@ -28070,17 +28139,17 @@ name=Rabbit mask
 texto=Change your appearance with this mask
 
 [OBJ1019]
-Name=Energy Potion
+Name=Energy Potion (Alchemy)
 GrhIndex=28727
 ObjType=11
 Valor=42
 SkPociones=30
 SemillasPros=1
-FrascoAlq=1
-Mortero=1
+FRASCOALQ=1
+MORTERO=1
 Hechizo=289
 Texto=Restaura entre 12 y 25 puntos de energía.
-texto=Restore between 5 and 9 energy points.
+texto=Restores between 12 and 25 energy points.
 
 [OBJ1020]
 Name=Máscara Locomia
@@ -28471,7 +28540,7 @@ Texto=Casco Sajón de Bronce
 
 [OBJ1081]
 Name=GM Tunic
-Texto=GM dress
+Texto=Vestimenta de GM
 GrhIndex=71
 ObjType=3
 Valor=0
@@ -28489,6 +28558,7 @@ RopajeHumana=2101
 RopajeHumano=144
 RopajeOrca=3151
 RopajeOrco=1112
+texto=GM dress
 
 [OBJ1082]
 GrhIndex=0
@@ -28531,27 +28601,28 @@ Texto=Túnica de Nigromante (Bajos)
 
 [OBJ1089]
 Name=Necromancer Robe
-GrhIndex=24994
-RopajeHumano=157
-RopajeElfo=157
-RopajeElfoOscuro=1577
-RopajeEnano=1670
-RopajeOrco=2234
-RopajeGnomo=1670
-RopajeHumana=2114
-RopajeElfa=2114
-RopajeElfaOscura=4859
-RopajeEnana=1670
-RopajeOrca=4843
-RopajeGnoma=1670
+texto=Defense 15/17
+GrhIndex=73
+RopajeHumano=158
+RopajeElfo=158
+RopajeElfoOscuro=1626
+RopajeEnano=625
+RopajeOrco=1126
+RopajeGnomo=625
+RopajeHumana=2115
+RopajeElfa=2115
+RopajeElfaOscura=3572
+RopajeEnana=2614
+RopajeOrca=3181
+RopajeGnoma=2614
 ObjType=3
-MAXDEF=18
-MINDEF=14
-Valor=5000
-Texto=Túnica de Nigromante
-SKSastreria=55
+MaxDef=17
+MinDef=15
+Valor=4200
+Texto=Defensa 15/17
+SkSastreria=55
 PielLobo=70
-PielOsoPardo=10
+PIELOSOPARDO=46
 PielOsoPolar=0
 
 [OBJ1090]
@@ -28638,11 +28709,11 @@ Texto=Damage 7/15
 
 [OBJ1098]
 Name=Gala Plates
-Texto=Defense 25/29
+Texto=Defensa 28/30
 GrhIndex=3502
 ObjType=3
 Valor=12300
-SKHerreria=90
+SkHerreria=90
 LingH=100
 LingP=70
 MaxDef=30
@@ -28659,14 +28730,15 @@ RopajeHumana=2164
 RopajeHumano=255
 RopajeOrca=3230
 RopajeOrco=1299
+texto=Defense 28/30
 
 [OBJ1099]
 Name=Plate Armor
-Texto=Defense 24/26
+Texto=Defensa 25/27
 GrhIndex=2604
 ObjType=3
 Valor=11400
-SKHerreria=90
+SkHerreria=90
 LingH=85
 LingP=70
 MaxDef=27
@@ -28683,6 +28755,7 @@ RopajeHumana=2162
 RopajeHumano=253
 RopajeOrca=3228
 RopajeOrco=1297
+texto=Defense 25/27
 
 [OBJ1100]
 Name=Branok's Armor
@@ -29026,23 +29099,24 @@ GRHINDEX=0
 
 [OBJ1142]
 Name=Miner Clothes
+texto=Miner clothes
 GrhIndex=85183
 RopajeHumano=17
 RopajeElfo=17
-RopajeElfoOscuro=1862
-RopajeEnano=649
-RopajeOrco=1846
-RopajeGnomo=649
-RopajeHumana=2735
-RopajeElfa=2735
-RopajeElfaOscura=2764
-RopajeEnana=2742
-RopajeOrca=2753
-RopajeGnoma=2742
+RopajeElfoOscuro=1579
+RopajeEnano=578
+RopajeOrco=1079
+RopajeGnomo=578
+RopajeHumana=2079
+RopajeElfa=2079
+RopajeElfaOscura=3759
+RopajeEnana=2579
+RopajeOrca=3129
+RopajeGnoma=2579
 ObjType=3
-MAXDEF=12
-MINDEF=7
-Valor=2200
+MaxDef=11
+MinDef=7
+Valor=1800
 Texto=Ropa de Minero
 
 [OBJ1143]
@@ -29577,37 +29651,38 @@ Valor=750
 Texto=Sombrero Azul de Mago
 
 [OBJ1239]
-Name=Apprentice hat
+Name=Starter Hat
 GrhIndex=4463
 ObjType=17
-MAXDEF=5
-MINDEF=3
+MaxDef=5
+MinDef=3
 Valor=900
 Texto=Defensa 3/5, aumenta tu Resistencia Mágica un 1%
-texto=Increases your magic resistance by 3%
-SKSastreria=40
-PielLoboNegro=15
+texto=Defense 3/5, increases your Magic Resistance by 1%
+SkSastreria=40
+PIELLOBONEGRO=15
 
 [OBJ1240]
-Name=1st Hierarchy Legionary Uniform
+Name=Legionnaire's Uniform for 1st Hierarchy Workers
+texto=Defense 5/10
 GrhIndex=2659
 RopajeHumano=20
 RopajeElfo=20
-RopajeElfoOscuro=1865
+RopajeElfoOscuro=1582
 RopajeEnano=581
-RopajeOrco=1849
+RopajeOrco=1082
 RopajeGnomo=581
 RopajeHumana=2082
 RopajeElfa=2082
-RopajeElfaOscura=2767
-RopajeEnana=2745
-RopajeOrca=2756
-RopajeGnoma=2745
+RopajeElfaOscura=3762
+RopajeEnana=2582
+RopajeOrca=3132
+RopajeGnoma=2582
 ObjType=3
-MAXDEF=25
-MINDEF=5
-Valor=10
-Texto=Uniforme Legionario de Trabajador de 1ª Jerarquía
+MaxDef=10
+MinDef=5
+Valor=None
+Texto=Defensa 5/10
 
 [OBJ1241]
 Name=Uniforme Legionario de Trabajador de 1ª Jerarquía (Bajos)
@@ -29643,25 +29718,26 @@ Valor=3500
 Texto=Hacha de Hierro Vieja
 
 [OBJ1244]
-Name=Imperial Worker Uniform of the 1st Hierarchy
+Name=Imperial Uniform of 1st Hierarchy Worker
+texto=Defense 5/10
 GrhIndex=2660
 RopajeHumano=19
 RopajeElfo=19
-RopajeElfoOscuro=1864
+RopajeElfoOscuro=1581
 RopajeEnano=580
-RopajeOrco=1848
+RopajeOrco=1081
 RopajeGnomo=580
 RopajeHumana=2081
 RopajeElfa=2081
-RopajeElfaOscura=2766
-RopajeEnana=2744
-RopajeOrca=2755
-RopajeGnoma=2744
+RopajeElfaOscura=3761
+RopajeEnana=2581
+RopajeOrca=3131
+RopajeGnoma=2581
 ObjType=3
-MAXDEF=25
-MINDEF=5
-Valor=10
-Texto=Uniforme Imperial de Trabajador de 1ª Jerarquía
+MaxDef=10
+MinDef=5
+Valor=None
+Texto=Defensa 5/10
 
 [OBJ1245]
 Name=Uniforme Imperial de Trabajador de 1ª Jerarquía (Bajos)
@@ -29686,7 +29762,7 @@ Texto=Uniforme Imperial de Trabajador de 1ª Jerarquía (Bajos)
 
 [OBJ1246]
 Name=Two-Edged War Ax
-Texto=Damage 11/17
+Texto=Daño 11/17
 GrhIndex=44091
 ObjType=2
 Valor=13200
@@ -29695,6 +29771,7 @@ LingH=90
 LingP=120
 MaxHit=17
 MinHit=11
+texto=Damage 11/17
 
 [OBJ1247]
 GrhIndex=0
@@ -29812,11 +29889,12 @@ Valor=7200
 Texto=Cota de Mallas
 
 [OBJ1272]
-Name=Woman vestment
+Name=Woman Vestment
+texto=Woman Vestment
 GrhIndex=11500
 ObjType=3
-MAXDEF=1
-MINDEF=1
+MaxDef=1
+MinDef=1
 Valor=30
 Texto=Vestimenta de Mujer
 RopajeElfa=2234
@@ -29834,11 +29912,12 @@ RopajeOrco=0
 
 [OBJ1273]
 Name=Woman Vestment
+texto=Woman Vestment
 GrhIndex=11499
 ObjType=3
-MAXDEF=1
-MINDEF=1
-Valor=50
+MaxDef=1
+MinDef=1
+Valor=30
 PielLobo=2
 PielOsoPardo=0
 Sksastreria=10
@@ -29905,17 +29984,18 @@ name=Barbarian headpiece
 texto=Change your appearance with this mask
 
 [OBJ1278]
-Name=Casco de Hierro
+Name=Iron Helmet
+texto=Defense 6/8
 GrhIndex=21690
 ObjType=17
-MINDEF=4
-MAXDEF=7
-Valor=1000
-Texto=Casco de Hierro
-LingH=20
+MinDef=6
+MaxDef=8
+Valor=1500
+Texto=Defensa 6/8
+LingH=25
 LingP=0
 LingO=0
-SkHerreria=30
+SkHerreria=20
 
 [OBJ1279]
 Name=Casco Infernal
@@ -30284,18 +30364,19 @@ texto=It allows you to ride.
 
 [OBJ1347]
 Name=Armored Gryphon
-Texto=Allows you to fly on a powerful Gryphon
+Texto=Te permite volar en un poderoso Grifo
 GrhIndex=38383
 ObjType=44
 Valor=15000
+texto=Allows you to fly on a powerful Gryphon
 
 [OBJ1348]
-Name=Reinforced Saddle (E/G-Warriors)
+Name=War Gryphon
 GrhIndex=38384
 ObjType=44
-valor=15000
+Valor=15000
 Texto=Te permite volar en un poderoso Grifo
-texto=It allows you to ride.
+texto=Allows you to fly on a powerful Gryphon
 
 [OBJ1349]
 Name=Sorcerer Legionary Saddle
@@ -30323,10 +30404,11 @@ texto=It allows you to ride.
 
 [OBJ1352]
 Name=Gryphon
-Texto=Allows you to fly on a powerful Gryphon
+Texto=Te permite volar en un poderoso Grifo
 GrhIndex=38382
 ObjType=44
 Valor=10000
+texto=Allows you to fly on a powerful Gryphon
 
 [OBJ1353]
 Name=Beginner Knuckles
@@ -31272,7 +31354,8 @@ Agarrable=1
 Texto=Estandarte de las Hordas del Caos
 
 [OBJ1493]
-Name=1st Hierarchy Legionary Uniform
+Name=Legionary Uniform (1st Hierarchy)
+texto=Defense 5/7
 GrhIndex=2659
 RopajeHumano=20
 RopajeElfo=20
@@ -31287,8 +31370,8 @@ RopajeEnana=2582
 RopajeOrca=3132
 RopajeGnoma=2582
 ObjType=3
-MAXDEF=7
-MINDEF=5
+MaxDef=7
+MinDef=5
 Valor=40000
 Texto=Defensa 5/7
 
@@ -31737,7 +31820,8 @@ GRHINDEX=0
 GRHINDEX=0
 
 [OBJ1522]
-Name=2nd Hierarchy Chaos Cleric Armor
+Name=Chaos Cleric Armor (2nd Hierarchy)
+texto=Defense 7/10
 GrhIndex=2929
 RopajeHumano=268
 RopajeElfo=268
@@ -31752,8 +31836,8 @@ RopajeEnana=768
 RopajeOrca=1312
 RopajeGnoma=768
 ObjType=3
-MAXDEF=10
-MINDEF=7
+MaxDef=10
+MinDef=7
 Valor=40000
 Texto=Defensa 7/10
 
@@ -31779,7 +31863,8 @@ Valor=0
 Texto=Armadura de Clérigo del Caos de 2ª Jerarquía (Bajos)
 
 [OBJ1524]
-Name=2nd Hierarchy Chaos Mage Robe
+Name=Chaos Mage Robe (2nd Hierarchy)
+texto=Defense 6/9
 GrhIndex=3668
 RopajeHumano=161
 RopajeElfo=161
@@ -31794,8 +31879,8 @@ RopajeEnana=2617
 RopajeOrca=3184
 RopajeGnoma=2617
 ObjType=3
-MAXDEF=9
-MINDEF=6
+MaxDef=9
+MinDef=6
 Valor=0
 Texto=Defensa 6/9
 
@@ -31820,7 +31905,8 @@ MINDEF=5
 Valor=0
 
 [OBJ1526]
-Name=2nd Hierarchy Chaos Warrior Armor
+Name=Chaos Warrior Armor (2nd Hierarchy)
+texto=Defense 8/11
 GrhIndex=47386
 RopajeHumano=266
 RopajeElfo=266
@@ -31835,8 +31921,8 @@ RopajeEnana=2674
 RopajeOrca=3241
 RopajeGnoma=2674
 ObjType=3
-MAXDEF=11
-MINDEF=8
+MaxDef=11
+MinDef=8
 Valor=0
 Texto=Defensa 8/11
 
@@ -31862,7 +31948,8 @@ Valor=0
 Texto=Armadura de Guerrero del Caos de 2ª Jerarquía (Bajos)
 
 [OBJ1528]
-Name=2nd Hierarchy Chaos Assassin Armor
+Name=Chaos Assassin Armor (2nd Hierarchy)
+texto=Defense 7/10
 GrhIndex=3507
 RopajeHumano=267
 RopajeElfo=267
@@ -31877,8 +31964,8 @@ RopajeEnana=2675
 RopajeOrca=3242
 RopajeGnoma=2675
 ObjType=3
-MAXDEF=10
-MINDEF=7
+MaxDef=10
+MinDef=7
 Valor=0
 Texto=Defensa 7/10
 
@@ -31904,7 +31991,8 @@ Valor=0
 Texto=Armadura de Asesino del Caos de 2ª Jerarquía (Bajos)
 
 [OBJ1530]
-Name=2nd Hierarchy Chaos Bard Robe
+Name=Chaos Bard Armor (2nd Hierarchy)
+texto=Defense 6/9
 GrhIndex=2929
 RopajeHumano=268
 RopajeElfo=268
@@ -31919,8 +32007,8 @@ RopajeEnana=2676
 RopajeOrca=3243
 RopajeGnoma=2676
 ObjType=3
-MAXDEF=9
-MINDEF=6
+MaxDef=9
+MinDef=6
 Valor=40000
 Texto=Defensa 6/9
 
@@ -31946,7 +32034,8 @@ Valor=0
 Texto=Túnica de Bardo del Caos de 2ª Jerarquía (Bajos)
 
 [OBJ1532]
-Name=2nd Hierarchy Chaos Druid Robe
+Name=Chaos Druid Robe (2nd Hierarchy)
+texto=Defense 6/9
 GrhIndex=3668
 RopajeHumano=161
 RopajeElfo=161
@@ -31961,8 +32050,8 @@ RopajeEnana=2617
 RopajeOrca=3184
 RopajeGnoma=2617
 ObjType=3
-MAXDEF=9
-MINDEF=6
+MaxDef=9
+MinDef=6
 Valor=0
 Texto=Defensa 6/9
 
@@ -31988,7 +32077,8 @@ Valor=0
 Texto=Túnica de Druida del Caos de 2ª Jerarquía (Bajos)
 
 [OBJ1534]
-Name=2nd Hierarchy Chaos Bandit Armor
+Name=Chaos Bandit Armor (2nd Hierarchy)
+texto=Defense 7/10
 GrhIndex=3507
 RopajeHumano=267
 RopajeElfo=267
@@ -32003,8 +32093,8 @@ RopajeEnana=2675
 RopajeOrca=3242
 RopajeGnoma=2675
 ObjType=3
-MAXDEF=10
-MINDEF=7
+MaxDef=10
+MinDef=7
 Valor=0
 Texto=Defensa 7/10
 
@@ -32030,7 +32120,8 @@ Valor=0
 Texto=Armadura de Bandido del Caos de 2ª Jerarquía (Bajos)
 
 [OBJ1536]
-Name=2nd Hierarchy Chaos Paladín armor
+Name=Chaos Paladín Armor (2nd Hierarchy)
+texto=Defense 8/11
 GrhIndex=47386
 RopajeHumano=266
 RopajeElfo=266
@@ -32045,8 +32136,8 @@ RopajeEnana=2674
 RopajeOrca=3241
 RopajeGnoma=2674
 ObjType=3
-MAXDEF=11
-MINDEF=8
+MaxDef=11
+MinDef=8
 Valor=40000
 Texto=Defensa 8/11
 
@@ -32072,7 +32163,8 @@ Valor=0
 Texto=Armadura de Paladín del Caos de 2ª Jerarquía (Bajos)
 
 [OBJ1538]
-Name=2nd Hierarchy Chaos Hunter Armor
+Name=Chaos Hunter Armor (2nd Hierarchy)
+texto=Defense 8/11
 GrhIndex=3507
 RopajeHumano=267
 RopajeElfo=267
@@ -32087,8 +32179,8 @@ RopajeEnana=2675
 RopajeOrca=3242
 RopajeGnoma=2675
 ObjType=3
-MAXDEF=11
-MINDEF=8
+MaxDef=11
+MinDef=8
 Valor=0
 Texto=Defensa 8/11
 
@@ -32588,7 +32680,8 @@ GRHINDEX=0
 GRHINDEX=0
 
 [OBJ1566]
-Name=2nd Hierarchy Imperial Cleric Robe
+Name=Imperial Cleric's Robe (2nd Hierarchy)
+texto=Defense 7/10
 GrhIndex=1452
 RopajeHumano=338
 RopajeElfo=338
@@ -32603,8 +32696,8 @@ RopajeEnana=2723
 RopajeOrca=3290
 RopajeGnoma=2723
 ObjType=3
-MAXDEF=10
-MINDEF=7
+MaxDef=10
+MinDef=7
 Valor=0
 Texto=Defensa 7/10
 
@@ -32630,7 +32723,8 @@ Valor=0
 Texto=Túnica de Clérigo Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1568]
-Name=2nd Hierarchy Imperial Mage Robe
+Name=Imperial Mage Robe (2nd Hierarchy)
+texto=Defense 6/9
 GrhIndex=3074
 RopajeHumano=165
 RopajeElfo=165
@@ -32645,8 +32739,8 @@ RopajeEnana=632
 RopajeOrca=3188
 RopajeGnoma=632
 ObjType=3
-MAXDEF=9
-MINDEF=6
+MaxDef=9
+MinDef=6
 Valor=0
 Texto=Defensa 6/9
 
@@ -32672,7 +32766,8 @@ Valor=0
 Texto=Túnica de Mago Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1570]
-Name=2nd Hierarchy Imperial Warrior Armor
+Name=Imperial Warrior Armor (2nd Hierarchy)
+texto=Defense 8/11
 GrhIndex=19474
 RopajeHumano=344
 RopajeElfo=344
@@ -32687,8 +32782,8 @@ RopajeEnana=841
 RopajeOrca=1381
 RopajeGnoma=841
 ObjType=3
-MAXDEF=11
-MINDEF=8
+MaxDef=11
+MinDef=8
 Valor=0
 Texto=Defensa 8/11
 
@@ -32714,7 +32809,8 @@ Valor=0
 Texto=Armadura de Guerrero Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1572]
-Name=2nd Hierarchy Imperial Assassin Armor
+Name=Imperial Assassin Armor (2nd Hierarchy)
+texto=Defense 7/10
 GrhIndex=3130
 RopajeHumano=291
 RopajeElfo=291
@@ -32729,8 +32825,8 @@ RopajeEnana=2879
 RopajeOrca=3447
 RopajeGnoma=2879
 ObjType=3
-MAXDEF=10
-MINDEF=7
+MaxDef=10
+MinDef=7
 Valor=0
 Texto=Defensa 7/10
 
@@ -32756,7 +32852,8 @@ Valor=0
 Texto=Armadura de Asesino Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1574]
-Name=2nd Hierarchy Imperial Bard Robe
+Name=Imperial Bard's Robe (2nd Hierarchy)
+texto=Defense 6/9
 GrhIndex=2645
 RopajeHumano=337
 RopajeElfo=337
@@ -32771,8 +32868,8 @@ RopajeEnana=2722
 RopajeOrca=3289
 RopajeGnoma=2722
 ObjType=3
-MAXDEF=9
-MINDEF=6
+MaxDef=9
+MinDef=6
 Valor=0
 Texto=Defensa 6/9
 
@@ -32798,7 +32895,8 @@ Valor=0
 Texto=Túnica de Bardo Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1576]
-Name=2nd Hierarchy Imperial Druid Robe
+Name=Imperial Druid Robe (2nd Hierarchy)
+texto=Defense 6/9
 GrhIndex=3074
 RopajeHumano=165
 RopajeElfo=165
@@ -32813,8 +32911,8 @@ RopajeEnana=632
 RopajeOrca=3188
 RopajeGnoma=632
 ObjType=3
-MAXDEF=9
-MINDEF=6
+MaxDef=9
+MinDef=6
 Valor=0
 Texto=Defensa 6/9
 
@@ -32882,7 +32980,8 @@ Valor=0
 Texto=Armadura de Pirata Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1580]
-Name=2nd Hierarchy Imperial Paladin Armor
+Name=Imperial Paladin Armor (2nd Hierarchy)
+texto=Defense 8/11
 GrhIndex=19474
 RopajeHumano=344
 RopajeElfo=344
@@ -32897,8 +32996,8 @@ RopajeEnana=841
 RopajeOrca=1381
 RopajeGnoma=841
 ObjType=3
-MAXDEF=11
-MINDEF=8
+MaxDef=11
+MinDef=8
 Valor=0
 Texto=Defensa 8/11
 
@@ -32924,7 +33023,8 @@ Valor=0
 Texto=Armadura de Paladín Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1582]
-Name=2nd Hierarchy Imperial Hunter Armor
+Name=Imperial Hunter Armor (2nd Hierarchy)
+texto=Defense 8/11
 GrhIndex=3130
 RopajeHumano=291
 RopajeElfo=291
@@ -32939,8 +33039,8 @@ RopajeEnana=2879
 RopajeOrca=3447
 RopajeGnoma=2879
 ObjType=3
-MAXDEF=11
-MINDEF=8
+MaxDef=11
+MinDef=8
 Valor=0
 Texto=Defensa 8/11
 
@@ -32966,7 +33066,8 @@ Valor=0
 Texto=Armadura de Cazador Imperial de 2ª Jerarquía (Bajos)
 
 [OBJ1584]
-Name=2nd Hierarchy Imperial Bandit Armor
+Name=Imperial Bandit Armor (2nd Hierarchy)
+texto=Defense 7/10
 GrhIndex=3130
 RopajeHumano=291
 RopajeElfo=291
@@ -32981,8 +33082,8 @@ RopajeEnana=2879
 RopajeOrca=3447
 RopajeGnoma=2879
 ObjType=3
-MAXDEF=10
-MINDEF=7
+MaxDef=10
+MinDef=7
 Valor=0
 Texto=Defensa 7/10
 
@@ -33061,22 +33162,20 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ1601]
-Name=Poción de cambio de cara
+Name=Face Change Potion
 GrhIndex=32171
 ObjType=11
-Valor=600
-Texto=Modifica la cara actual del usuario a una nueva al azar, no cae.
-name=Face change potion
-texto=Modify the user
+Valor=800
+Texto=Modifica aleatoriamente la cara actual del usuario, no se cae.
+texto=Randomly modifies the user's current face, does not fall.
 
 [OBJ1602]
-Name=Poción de cambio de sexo
+Name=Sex Change Potion
 GrhIndex=32173
 ObjType=11
-Texto=Cambia al usuario al sexo opuesto.
+Texto=Cambia al usuario al sexo opuesto, no se cae.
 Valor=600
-name=Sex change potion
-texto=Changes the user to the opposite gender.
+texto=Changes the user to the opposite gender, does not fall.
 
 [OBJ1603]
 GrhIndex=0
@@ -33708,23 +33807,25 @@ Valor=0
 Texto=Escudo Arcano
 
 [OBJ1700]
-Name=Escudo de Tortuga
+Name=Turtle Shield
+texto=Defense 1/2
 GrhIndex=712
 ObjType=16
-MAXDEF=2
-MINDEF=1
-Valor=300
-Texto=Escudo de Tortuga
+MaxDef=2
+MinDef=1
+Valor=150
+Texto=Defensa 1/2
 
 [OBJ1701]
 GrhIndex=0
 
 [OBJ1702]
-Name=Escudo del Valle
+Name=Shield of the Valley
+texto=Defense 7/9
 GrhIndex=86163
 ObjType=16
-MAXDEF=9
-MINDEF=7
+MaxDef=9
+MinDef=7
 Valor=6000
 SkHerreria=100
 LingP=30
@@ -33809,10 +33910,11 @@ Texto=Defensa 3/5
 GrhIndex=86137
 ObjType=16
 Valor=1080
-SKHerreria=50
+SkHerreria=50
 LingH=18
 MaxDef=5
 MinDef=3
+texto=Defensa 3/5
 
 [OBJ1714]
 Name=Escudo de la Legión Oscura
@@ -33824,15 +33926,16 @@ Valor=50000
 Texto=Escudo de la Legión Oscura
 
 [OBJ1715]
-Name=Escudo de Hierro
+Name=Iron Shield
+texto=Defense 1/3
 GrhIndex=86119
 ObjType=16
-MAXDEF=4
-MINDEF=3
-Valor=2300
-SkHerreria=55
-LingH=30
-Texto=Escudo de Hierro
+MaxDef=3
+MinDef=1
+Valor=600
+SkHerreria=15
+LingH=10
+Texto=Defensa 1/3
 
 [OBJ1716]
 Name=Escudo Incognito
@@ -33863,12 +33966,13 @@ Texto=Escudo Vikingo
 
 [OBJ1719]
 Name=Buckler
+texto=Defense 2/3
 GrhIndex=9633
 ObjType=16
-MAXDEF=3
-MINDEF=2
-Valor=1150
-Madera=200
+MaxDef=4
+MinDef=2
+Valor=900
+Madera=300
 Texto=Defensa 2/3
 
 [OBJ1720]
@@ -33882,17 +33986,18 @@ Texto=Escudo de Huesos
 
 [OBJ1721]
 Name=Wooden Shield
-Texto=Defense 1/3
+Texto=Defensa 1/2
 GrhIndex=9632
 ObjType=16
 Valor=480
 Madera=160
 MaxDef=2
 MinDef=1
+texto=Defense 1/2
 
 [OBJ1722]
 Name=Reinforced Buckler
-Texto=Defense 3/5
+Texto=Defensa 4/6
 GrhIndex=86169
 ObjType=16
 Valor=3600
@@ -33900,6 +34005,7 @@ Madera=800
 MaderaElfica=200
 MaxDef=6
 MinDef=4
+texto=Defense 4/6
 
 [OBJ1723]
 Name=Adarga Natural (Cazador)
@@ -33912,14 +34018,16 @@ name=Natural Shield (Hunter)
 Texto=Adarga Natural (Cazador)
 
 [OBJ1724]
-Name=Escudo de Roble
-GrhIndex=86145
+Name=Oak Shield
+MaderaElfica=500
+GrhIndex=86171
 ObjType=16
-MAXDEF=7
-MINDEF=5
-Valor=5500
-Madera=4200
-Texto=Defence 5/7
+MaxDef=8
+MinDef=6
+Valor=5400
+Madera=800
+Texto=Defensa 6/8
+texto=Defense 6/8
 
 [OBJ1725]
 Name=Escudo de Morngrim
@@ -34091,15 +34199,16 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ1758]
-Name=Casco de Oso
+Name=Bear Helmet
+texto=Defense 14/16, increases your Magic Resistance by 7%.
 GrhIndex=4498
 ObjType=17
-MAXDEF=16
-MINDEF=14
+MaxDef=16
+MinDef=14
 Valor=6600
 Texto=Defensa 14/16, aumenta tu Resistencia Mágica en un 7%
-SKSastreria=80
-PielTigreBengala=37
+SkSastreria=80
+PIELTIGREBENGALA=37
 
 [OBJ1759]
 Name=Aureola Karvy
@@ -34114,13 +34223,16 @@ Texto=Aureola Karvy
 GrhIndex=0
 
 [OBJ1761]
-Name=Casco de Hierro Reforzado
-GrhIndex=4069
+Name=Reinforced Iron Helmet
+texto=Defense 12/15
+LingH=45
+SkHerreria=63
+GrhIndex=11427
 ObjType=17
-MAXDEF=13
-MINDEF=8
-Valor=6000
-Texto=Casco de Hierro Reforzado
+MaxDef=15
+MinDef=12
+Valor=2700
+Texto=Defensa 12/15
 
 [OBJ1762]
 Name=Celada de Caballero
@@ -34156,31 +34268,33 @@ Texto=Casco Perseo
 GrhIndex=0
 
 [OBJ1767]
-Name=Casco de Cazador
+Name=Hunter Helmet
+texto=Defense 21/23
 GrhIndex=4496
 ObjType=17
-MAXDEF=20
-MINDEF=15
-Valor=18900
-SkHerreria=75
-LingH=105
-LingP=0
+MaxDef=23
+MinDef=21
+Valor=11400
+SkHerreria=100
+LingH=100
+LingP=60
 LingO=0
-Texto=Casco de Cazador
+Texto=Defensa 21/23
 
 [OBJ1768]
 GrhIndex=0
 
 [OBJ1769]
-Name=Capucha Reforzada
+Name=Elite Hood
+texto=Defense 16/18
 GrhIndex=4492
 ObjType=17
-MAXDEF=18
-MINDEF=16
+MaxDef=18
+MinDef=16
 Valor=7200
 Texto=Defensa 16/18
-SKSastreria=85
-PielTigreBengala=40
+SkSastreria=85
+PIELTIGREBENGALA=40
 PielLoboNegro=10
 PielLobo=0
 
@@ -34203,13 +34317,16 @@ Valor=6750
 Texto=Casco Rosado
 
 [OBJ1774]
-Name=Capucha de Cuero
+Name=Leather Hood
+texto=Defense 10/12
+PIELTIGRE=32
+SkSastreria=60
 GrhIndex=4503
 ObjType=17
-MAXDEF=10
-MINDEF=5
-Valor=2500
-Texto=Capucha de Cuero
+MaxDef=12
+MinDef=10
+Valor=2400
+Texto=Defensa 10/12
 
 [OBJ1775]
 GrhIndex=0
@@ -34292,14 +34409,16 @@ Texto=Daga
 GrhIndex=0
 
 [OBJ1788]
-Name=Báculo Engarzado
+Name=Embedded Staff
+Madera=1000
 GrhIndex=35819
-Objtype=2
-MinHIT=1
-MaxHIT=1
-Valor=12000
-Texto=Increase your magic damage by 7%
-maderaelfica=900
+ObjType=2
+MinHit=1
+MaxHit=1
+Valor=11400
+Texto=Aumenta tu Daño Mágico en un 9%
+texto=Increase your Magic Damage by 9%
+MaderaElfica=2400
 
 [OBJ1789]
 GrhIndex=0
@@ -34324,16 +34443,17 @@ Texto=Harbinger Kin
 
 [OBJ1792]
 Name=Saber
+texto=Damage 5/8
 GrhIndex=563
-Objtype=2
-MinHIT=5
-MaxHIT=8
-Valor=3000
-LingH=30
+ObjType=2
+MinHit=5
+MaxHit=8
+Valor=1200
+LingH=20
 LingP=0
 LingO=0
-SkHerreria=30
-Texto=Sable
+SkHerreria=20
+Texto=Daño 5/8
 
 [OBJ1793]
 GrhIndex=0
@@ -34348,14 +34468,15 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ1797]
-Name=Bastón Nudoso
+Name=Knotted Staff
 GrhIndex=8492
-Objtype=2
-MinHIT=1
-MaxHIT=1
-Valor=7500
-Texto=Increase your magic damage by 5%
-Madera=1200
+ObjType=2
+MinHit=1
+MaxHit=1
+Valor=5400
+Texto=Aumenta tu Daño Mágico un 4%
+texto=Increase your Magic Damage by 4%
+Madera=1800
 
 [OBJ1798]
 GrhIndex=0
@@ -34376,8 +34497,9 @@ MaxHit=1
 MinHit=1
 Name=Wooden Staff
 ObjType=2
-Texto=Increase your Magic Damage by 3%
+Texto=Aumenta tu Daño Mágico un 2%
 Valor=1200
+texto=Increase your Magic Damage by 2%
 
 [OBJ1801]
 GrhIndex=0
@@ -34506,66 +34628,72 @@ MaxHit=11
 MinHit=7
 Name=Cutlass
 ObjType=2
-SKHerreria=30
-Texto=Damage 6/9
+SkHerreria=30
+Texto=Daño 7/11
 Valor=2700
+texto=Damage 7/11
 
 [OBJ1818]
 Name=Greasword
-Texto=Two-handed weapon, shield not allowed. Damage 7/11
+Texto=Arma de dos manos, no permite usar escudo.
 GrhIndex=25196
 ObjType=2
 Valor=3300
-SKHerreria=35
+SkHerreria=35
 LingH=55
 MaxHit=13
 MinHit=8
+texto=Two-handed weapon, shield not allowed.
 
 [OBJ1819]
 Name=Long Ax
-Texto=Damage 7/10
+Texto=Daño 8/12
 GrhIndex=44010
 ObjType=2
 Valor=3000
-SKHerreria=35
+SkHerreria=35
 LingH=50
 MaxHit=12
 MinHit=8
+texto=Damage 8/12
 
 [OBJ1820]
 Name=War Mace
-Texto=Two-handed weapon.
+Texto=Arma de dos manos.
 GrhIndex=6959
 ObjType=2
 Valor=7200
-SKHerreria=65
+SkHerreria=65
 LingH=120
 MaxHit=15
 MinHit=11
+texto=Two-handed weapon.
 
 [OBJ1821]
 Name=Jade Leaf
-Texto=Two-handed weapon, shield not allowed. Damage 12/18
+Texto=Arma de dos manos, no permite usar escudo. Daño 12/18
 GrhIndex=8491
 ObjType=2
 Valor=13500
-SKHerreria=85
+SkHerreria=85
 LingH=95
 LingP=120
 MaxHit=18
 MinHit=12
+texto=Two-handed weapon, shield not allowed. Damage 12/18
 
 [OBJ1822]
 Name=Igneous Leaf
-Texto=Two-handed weapon, shield not allowed. Damage 14/20
+Texto=Arma de dos manos, no permite usar escudo. Daño 14/20
 GrhIndex=35900
 ObjType=2
 Valor=19800
-SKHerreria=100
+SkHerreria=100
 LingH=150
 LingP=220
 MaxHit=20
 MinHit=14
+texto=Two-handed weapon, shield not allowed. Damage 14/20
 
 [OBJ1823]
 Name=Bastón de la Eterna Noche
@@ -34588,7 +34716,7 @@ Texto=Espada electrica
 
 [OBJ1825]
 Name=Mithril Knuckle
-Texto=Damage 10/12
+Texto=Daño 10/12
 GrhIndex=86202
 ObjType=2
 Valor=18000
@@ -34597,7 +34725,8 @@ LingH=150
 LingP=200
 MaxHit=12
 MinHit=10
-ExtraCritAndStabChance=10
+EXTRACRITANDSTABCHANCE=10
+texto=Damage 10/12
 
 [OBJ1826]
 Name=Adamantium Knuckles
@@ -34964,26 +35093,27 @@ GrhIndex=0
 
 [OBJ1855]
 Name=Knuckle
-Texto=Damage 3/5
+Texto=Daño 3/5
 GrhIndex=44577
 ObjType=2
 Valor=1800
-SKHerreria=25
+SkHerreria=25
 LingH=35
 MaxHit=5
 MinHit=3
+texto=Damage 3/5
 
 [OBJ1856]
-Name=Bronze knuckles
+Name=Bronze Knuckle
 GrhIndex=25678
-Objtype=2
-MaxHIT=7
-MinHIT=5
+ObjType=2
+MaxHit=7
+MinHit=5
 Valor=3000
 Texto=Daño 5/7
-texto=Fist weapon that raises the Skills combat without weapons.
+texto=Damage 5/7
 LingH=50
-SKHerreria=25
+SkHerreria=25
 
 [OBJ1857]
 GrhIndex=0
@@ -34992,7 +35122,8 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ1859]
-Name=Wolf Mantle
+Name=Wolf Cloak
+texto=Defense 13/17
 GrhIndex=10731
 RopajeHumano=108
 RopajeElfo=108
@@ -35007,14 +35138,14 @@ RopajeEnana=2514
 RopajeOrca=3064
 RopajeGnoma=2514
 ObjType=3
-MAXDEF=1
-MINDEF=1
-Valor=10000
+MaxDef=17
+MinDef=11
+Valor=3900
 SKSastreria=65
 PielLobo=80
 PielOsoPardo=15
 PielOsoPolar=1
-Texto=Manto de Lobo
+Texto=Defensa 11/17
 
 [OBJ1860]
 Name=Espada Gris
@@ -35077,16 +35208,17 @@ Valor=30000
 Texto=Bastón Calavera
 
 [OBJ1867]
-Name=Compund bow
+Name=Compund Bow
 GrhIndex=38735
-Objtype=2
-MinHIT=7
-MaxHIT=9
-Valor=6000
-Madera=900
+ObjType=2
+MinHit=4
+MaxHit=8
+Valor=4800
+Madera=1600
 Proyectil=1
 Municiones=1
-Texto=Damage 7/9
+Texto=Daño 4/8
+texto=Damage 4/8
 
 [OBJ1868]
 Name=Empire bow
@@ -35101,7 +35233,7 @@ Texto=Arco del Imperio
 
 [OBJ1869]
 Name=Master Bow
-Texto=Damage 5/9
+Texto=Daño 5/9
 GrhIndex=38897
 ObjType=2
 Valor=11100
@@ -35111,18 +35243,21 @@ Proyectil=1
 MaxHit=9
 MinHit=5
 Municiones=1
+texto=Damage 5/9
 
 [OBJ1870]
-Name=Oak bow
+Name=Oak Bow
+MaderaElfica=2200
 GrhIndex=38816
-Objtype=2
-MinHIT=8
-MaxHIT=11
-Valor=13000
-Madera=2000
+ObjType=2
+MinHit=6
+MaxHit=10
+Valor=12000
+Madera=600
 Proyectil=1
 Municiones=1
-Texto=Damage 8/11
+Texto=Daño 6/10
+texto=Damage 6/10
 
 [OBJ1871]
 Name=Hell bow
@@ -35156,16 +35291,18 @@ Municiones=1
 Texto=Arco de los Vientos
 
 [OBJ1876]
-Name=Hunter's bow
+Name=Hunter's Bow
+Madera=2000
 GrhIndex=38789
-Objtype=2
-MinHIT=9
-MaxHIT=12
-MaderaElfica=1000
-Valor=0
+ObjType=2
+MinHit=7
+MaxHit=12
+MaderaElfica=3000
+Valor=15000
 Proyectil=1
 Municiones=1
-Texto=Damage 9/13
+Texto=Daño 7/12
+texto=Damage 7/12
 
 [OBJ1877]
 GrhIndex=0
@@ -35242,7 +35379,7 @@ MaxDef=6
 MinDef=4
 Name=Garment with Blue Cloak
 ObjType=3
-Texto=Garment with Blue Cloak
+Texto=Ropaje con Capa Azul
 Valor=680
 RopajeElfa=2158
 RopajeElfaOscura=3615
@@ -35256,27 +35393,29 @@ RopajeHumana=2158
 RopajeHumano=249
 RopajeOrca=3224
 RopajeOrco=1249
+texto=Garment with Blue Cloak
 
 [OBJ1901]
 Name=Garment with Green Cloak
+texto=Green layer clothes
 GrhIndex=39154
 RopajeHumano=187
 RopajeElfo=187
-RopajeElfoOscuro=1607
+RopajeElfoOscuro=1655
 RopajeEnano=654
 RopajeOrco=1155
 RopajeGnomo=654
 RopajeHumana=187
 RopajeElfa=187
-RopajeElfaOscura=1607
-RopajeEnana=2799
-RopajeOrca=3367
-RopajeGnoma=2799
+RopajeElfaOscura=1655
+RopajeEnana=654
+RopajeOrca=1155
+RopajeGnoma=654
 ObjType=3
-MAXDEF=7
-MINDEF=5
+MaxDef=6
+MinDef=4
 Texto=Ropaje con Capa Verde
-Valor=1000
+Valor=680
 
 [OBJ1902]
 Name=Armadura luchador
@@ -35353,29 +35492,30 @@ Texto=Posee resistencia mágica.
 texto=It has magic resistance.
 
 [OBJ1907]
-Name=Cota del Gran Cazador
+Name=Great Hunter's Coat
+texto=Defense 32/36
 GrhIndex=39478
 RopajeHumano=140
 RopajeElfo=140
-RopajeElfoOscuro=1822
-RopajeEnano=4904
-RopajeOrco=1774
-RopajeGnomo=4904
-RopajeHumana=2627
-RopajeElfa=2627
-RopajeElfaOscura=2675
-RopajeEnana=2643
-RopajeOrca=2659
-RopajeGnoma=2643
+RopajeElfoOscuro=1546
+RopajeEnano=546
+RopajeOrco=1046
+RopajeGnomo=546
+RopajeHumana=2046
+RopajeElfa=2046
+RopajeElfaOscura=3546
+RopajeEnana=2546
+RopajeOrca=3096
+RopajeGnoma=2546
 SkHerreria=100
-LingH=350
-LingP=250
+LingH=110
+LingP=150
 LingO=50
-Valor=50000
+Valor=20100
 ObjType=3
-MAXDEF=37
-MINDEF=32
-Texto=Cota del Gran Cazador
+MaxDef=36
+MinDef=32
+Texto=Defensa 32/36
 
 [OBJ1908]
 Name=Cota del Gran Cazador (Bajos)
@@ -35445,48 +35585,52 @@ Texto=Armadura Pesada (Bajos)
 Valor=15000
 
 [OBJ1911]
-Name=Armadura Pesada
+Name=Heavy Armor
+texto=Defense 21/23
+LingH=115
+SkHerreria=75
 GrhIndex=32633
 RopajeHumano=55
 RopajeElfo=55
-RopajeElfoOscuro=2306
-RopajeEnano=4895
-RopajeOrco=2078
-RopajeGnomo=4895
+RopajeElfoOscuro=1697
+RopajeEnano=697
+RopajeOrco=1197
+RopajeGnomo=697
 RopajeHumana=55
 RopajeElfa=55
-RopajeElfaOscura=2306
-RopajeEnana=4895
-RopajeOrca=2078
-RopajeGnoma=4895
+RopajeElfaOscura=1697
+RopajeEnana=697
+RopajeOrca=1197
+RopajeGnoma=697
 ObjType=3
-MAXDEF=30
-MINDEF=25
-Texto=Armadura Pesada
-Valor=15000
+MaxDef=23
+MinDef=21
+Texto=Defensa 21/23
+Valor=6900
 
 [OBJ1912]
-Name=Blacksmith Armor
+Name=Blacksmith's Armor
+texto=Defense 13/16
 GrhIndex=2644
 RopajeHumano=83
 RopajeElfo=83
 RopajeElfoOscuro=1726
-RopajeEnano=4911
+RopajeEnano=726
 RopajeOrco=1226
-RopajeGnomo=4911
-RopajeHumana=83
-RopajeElfa=83
+RopajeGnomo=726
+RopajeHumana=2323
+RopajeElfa=2323
 RopajeElfaOscura=3839
-RopajeEnana=4911
+RopajeEnana=2854
 RopajeOrca=3422
-RopajeGnoma=4911
+RopajeGnoma=2854
 ObjType=3
-MAXDEF=15
-MINDEF=10
-Texto=Armadura de Herrero
-Valor=3000
-LingH=75
-SkHerreria=58
+MaxDef=16
+MinDef=13
+Texto=Defensa 13/16
+Valor=2100
+LingH=35
+SkHerreria=30
 
 [OBJ1913]
 GrhIndex=0
@@ -35593,25 +35737,28 @@ Valor=3000
 Texto=Armadura de Cuero Azul (Bajos)
 
 [OBJ1921]
-Name=Knight breastplate
-GrhIndex=43690
-RopajeHumano=682
-RopajeElfo=682
-RopajeElfoOscuro=1838
+Name=Knight's Breastplate
+texto=Defense 19/21
+LingH=90
+SkHerreria=60
+GrhIndex=2656
+RopajeHumano=70
+RopajeElfo=70
+RopajeElfoOscuro=1554
 RopajeEnano=554
-RopajeOrco=1790
+RopajeOrco=1054
 RopajeGnomo=554
-RopajeHumana=682
-RopajeElfa=682
-RopajeElfaOscura=1838
+RopajeHumana=2054
+RopajeElfa=2054
+RopajeElfaOscura=3734
 RopajeEnana=2554
-RopajeOrca=1790
+RopajeOrca=3104
 RopajeGnoma=2554
 ObjType=3
-MAXDEF=24
-MINDEF=23
-Texto=Peto de Caballero
-Valor=4000
+MaxDef=21
+MinDef=19
+Texto=Defensa 19/21
+Valor=5400
 
 [OBJ1922]
 Name=Coraza de la Iluminación
@@ -35702,29 +35849,30 @@ Valor=20000
 Texto=Armadura Empírea (Bajos)
 
 [OBJ1929]
-Name=Shadow armor
+Name=Shadows Armor
+texto=Defense 30/34
 GrhIndex=24424
 RopajeHumano=49
 RopajeElfo=49
-RopajeElfoOscuro=2300
-RopajeEnano=3260
-RopajeOrco=2072
-RopajeGnomo=3260
-RopajeHumana=175
+RopajeElfoOscuro=1691
+RopajeEnano=690
+RopajeOrco=1191
+RopajeGnomo=690
+RopajeHumana=49
 RopajeElfa=49
-RopajeElfaOscura=2300
-RopajeEnana=3260
-RopajeOrca=2072
-RopajeGnoma=3260
+RopajeElfaOscura=1691
+RopajeEnana=690
+RopajeOrca=1191
+RopajeGnoma=690
 ObjType=3
-MAXDEF=37
-MINDEF=30
-Texto=Armadura de las Sombras
+MaxDef=34
+MinDef=30
+Texto=Defensa 30/34
 SkHerreria=100
-LingH=300
-LingP=200
+LingH=95
+LingP=150
 LingO=30
-Valor=50000
+Valor=19200
 
 [OBJ1930]
 Name=Casco de Minero
@@ -35939,29 +36087,30 @@ LingO=7
 Texto=Armadura Dragón Negro +1
 
 [OBJ1941]
-Name=Ciénaga armor
+Name=Marsh Armor
+texto=Defense 30/34
 GrhIndex=41368
 RopajeHumano=332
 RopajeElfo=332
-RopajeElfoOscuro=2130
+RopajeElfoOscuro=1825
 RopajeEnano=827
-RopajeOrco=2146
+RopajeOrco=1370
 RopajeGnomo=827
 RopajeHumana=332
 RopajeElfa=332
-RopajeElfaOscura=2130
-RopajeEnana=2717
-RopajeOrca=2146
-RopajeGnoma=2717
+RopajeElfaOscura=1825
+RopajeEnana=827
+RopajeOrca=1370
+RopajeGnoma=827
 ObjType=3
-MAXDEF=38
-MINDEF=35
-Valor=55000
+MaxDef=34
+MinDef=30
+Valor=19500
 SkHerreria=100
-LingH=550
-LingP=350
+LingH=100
+LingP=150
 LingO=150
-Texto=Armadura de la Ciénaga
+Texto=Defensa 30/34
 
 [OBJ1942]
 GrhIndex=0
@@ -36100,27 +36249,28 @@ texto=Only usable by high-level druids.
 
 [OBJ1955]
 Name=Ocher Robe
+texto=Defense 15/19
 GrhIndex=67
 RopajeHumano=88
 RopajeElfo=88
-RopajeElfoOscuro=2000
-RopajeEnano=623
+RopajeElfoOscuro=1731
+RopajeEnano=731
 RopajeOrco=1231
-RopajeGnomo=623
+RopajeGnomo=731
 RopajeHumana=88
 RopajeElfa=88
-RopajeElfaOscura=2000
-RopajeEnana=623
-RopajeOrca=3427
-RopajeGnoma=623
+RopajeElfaOscura=1731
+RopajeEnana=731
+RopajeOrca=1231
+RopajeGnoma=731
 ObjType=3
-MAXDEF=15
-MINDEF=10
-Texto=Túnica Ocre
-Valor=3000
-SKSastreria=45
+MaxDef=19
+MinDef=15
+Texto=Defensa 15/19
+Valor=4500
+SkSastreria=55
 PielLobo=60
-PielOsoPardo=5
+PIELOSOPARDO=50
 PielOsoPolar=0
 
 [OBJ1956]
@@ -36233,7 +36383,8 @@ Valor=0
 Texto=Túnica Enraigada
 
 [OBJ1961]
-Name=Natural Robe (Woman)
+Name=Natural Robe
+texto=Defense 17/19
 GrhIndex=79
 RopajeHumano=0
 RopajeElfo=0
@@ -36248,11 +36399,11 @@ RopajeEnana=2756
 RopajeOrca=3323
 RopajeGnoma=2756
 ObjType=3
-MAXDEF=19
-MINDEF=17
+MaxDef=19
+MinDef=17
 SkSastreria=60
 PielLobo=80
-PielOsoPardo=53
+PIELOSOPARDO=53
 PielOsoPolar=1
 Texto=Defensa 17/19
 Valor=4800
@@ -36280,24 +36431,25 @@ Valor=10000
 
 [OBJ1963]
 Name=Crier Vestment
+texto=Preacher clothing
 GrhIndex=10119
 RopajeHumano=33
 RopajeElfo=33
-RopajeElfoOscuro=1547
+RopajeElfoOscuro=1595
 RopajeEnano=594
-RopajeOrco=2204
+RopajeOrco=1095
 RopajeGnomo=594
 RopajeHumana=2090
 RopajeElfa=2090
-RopajeElfaOscura=1547
-RopajeEnana=2884
-RopajeOrca=2204
-RopajeGnoma=2884
+RopajeElfaOscura=1595
+RopajeEnana=2589
+RopajeOrca=1095
+RopajeGnoma=2589
 ObjType=3
-MAXDEF=5
-MINDEF=4
+MaxDef=5
+MinDef=4
 Texto=Vestimenta de Pregonero
-Valor=600
+Valor=510
 
 [OBJ1964]
 Name=Atuendo Musical (Bajos)
@@ -36430,36 +36582,37 @@ Name=Clothes of clan
 GrhIndex=46974
 RopajeHumano=24
 RopajeElfo=24
-RopajeElfoOscuro=1869
-RopajeEnano=3101
-RopajeOrco=1853
-RopajeGnomo=3101
+RopajeElfoOscuro=1586
+RopajeEnano=585
+RopajeOrco=1086
+RopajeGnomo=585
 RopajeHumana=24
 RopajeElfa=24
-RopajeElfaOscura=1869
-RopajeEnana=3101
-RopajeOrca=1853
-RopajeGnoma=3101
+RopajeElfaOscura=1586
+RopajeEnana=585
+RopajeOrca=1086
+RopajeGnoma=585
 ObjType=3
-MAXDEF=5
-MINDEF=3
+MaxDef=4
+MinDef=2
 Texto=Ropa de Clan
-Valor=500
+Valor=270
 SKSastreria=10
 PielLobo=20
 PielOsoPardo=0
 PielOsoPolar=0
-texto=clan clothing
+texto=Clan Clothing
 
 [OBJ1976]
 GrhIndex=0
 
 [OBJ1977]
-Name=Woman Dress (ORC)
+Name=Prisoner's Clothing
+texto=Prison clothes
 GrhIndex=2603
 ObjType=3
-MAXDEF=1
-MINDEF=1
+MaxDef=1
+MinDef=1
 Texto=Ropa de prisión
 Valor=90
 RopajeElfa=2094
@@ -36516,24 +36669,25 @@ Valor=1624
 
 [OBJ1981]
 Name=Vestment combined
+texto=Combined clothing
 GrhIndex=452
 RopajeHumano=66
 RopajeElfo=66
-RopajeElfoOscuro=1826
-RopajeEnano=669
-RopajeOrco=1778
-RopajeGnomo=669
-RopajeHumana=2891
-RopajeElfa=2891
-RopajeElfaOscura=1826
-RopajeEnana=2877
-RopajeOrca=1778
-RopajeGnoma=2877
+RopajeElfoOscuro=1550
+RopajeEnano=550
+RopajeOrco=1050
+RopajeGnomo=550
+RopajeHumana=2050
+RopajeElfa=2050
+RopajeElfaOscura=3730
+RopajeEnana=2550
+RopajeOrca=3100
+RopajeGnoma=2550
 ObjType=3
-MAXDEF=4
-MINDEF=3
+MaxDef=3
+MinDef=2
 Texto=Vestimenta Combinada
-Valor=400
+Valor=180
 
 [OBJ1982]
 Name=Desert garb
@@ -36601,15 +36755,16 @@ Texto=Túnica Infernal
 Valor=18000
 
 [OBJ1985]
-Name=Countess Dress Black (M)
+Name=Countess Dress Black
+texto=Defense 13/15
 GrhIndex=11497
 ObjType=3
-MAXDEF=15
-MINDEF=13
+MaxDef=15
+MinDef=13
 Texto=Defensa 13/15
 Valor=3600
-PielOsoPardo=40
-SKSastreria=45
+PIELOSOPARDO=40
+SkSastreria=45
 RopajeElfa=2231
 RopajeElfaOscura=3688
 RopajeElfo=0
@@ -36633,29 +36788,30 @@ Texto=Vestido Duquesa (M)
 Valor=6000
 
 [OBJ1987]
-Name=Armadura de Placas Completa
+Name=Full Plate Armor
+texto=Defense 27/29
 GrhIndex=1469
 RopajeHumano=254
 RopajeElfo=254
-RopajeElfoOscuro=2331
-RopajeEnano=3091
-RopajeOrco=2315
-RopajeGnomo=3091
+RopajeElfoOscuro=1754
+RopajeEnano=754
+RopajeOrco=1298
+RopajeGnomo=754
 RopajeHumana=254
 RopajeElfa=254
-RopajeElfaOscura=2331
-RopajeEnana=3091
-RopajeOrca=2315
-RopajeGnoma=3091
+RopajeElfaOscura=1754
+RopajeEnana=754
+RopajeOrca=1298
+RopajeGnoma=754
 ObjType=3
-MAXDEF=35
-MINDEF=27
-Valor=30000
-LingH=210
-LingP=0
+MaxDef=29
+MinDef=27
+Valor=12000
+LingH=95
+LingP=70
 LingO=0
-SkHerreria=76
-Texto=Armadura de Placas Completa
+SkHerreria=90
+Texto=Defensa 27/29
 
 [OBJ1988]
 Name=Desert Garb (E/G)
@@ -37085,7 +37241,8 @@ Valor=1
 Texto=Huesos Pescado
 
 [OBJ2087]
-Name=Cadáver de pescado
+Name=Fish carcass
+texto=A fish in poor condition with no commercial value.
 GrhIndex=48874
 ObjType=100
 Valor=3
@@ -37100,12 +37257,12 @@ Texto=Restaura 25 puntos de hambre
 texto=Restores 25 hunger points
 
 [OBJ2089]
-Name=Lisa
+Name=Mullet
 GrhIndex=48942
 ObjType=1
-Valor=5
-Texto=Restaura 10 puntos de hambre
-texto=Restores 10 hunger points
+Valor=3
+Texto=Restaura 5 puntos de hambre
+texto=Restores 5 hunger points
 
 [OBJ2090]
 Name=Herring
@@ -37124,28 +37281,28 @@ Texto=Restaura 20 puntos de hambre
 texto=Restores 20 hunger points
 
 [OBJ2092]
-Name=Camarón
+Name=Shrimp
 GrhIndex=48950
 ObjType=1
-Valor=26
-Texto=Restaura 10 puntos de hambre
-texto=Restores 10 hunger points
+Valor=18
+Texto=Restaura 70 puntos de hambre
+texto=Restores 70 hunger points
 
 [OBJ2093]
-Name=Bagre de Mar
+Name=Sea Catfish
 GrhIndex=48880
 ObjType=1
-Valor=20
-Texto=Restaura 30 puntos de hambre
-texto=Restores 30 hunger points
+Valor=5
+Texto=Restaura 15 puntos de hambre
+texto=Restores 15 hunger points
 
 [OBJ2094]
-Name=Rock Fish
+Name=Rockfish
 GrhIndex=48892
 ObjType=1
-Valor=5
-Texto=Restaura 35 puntos de hambre
-texto=Restores 35 hunger points
+Valor=7
+Texto=Restaura 10 puntos de hambre
+texto=Restores 10 hunger points
 
 [OBJ2095]
 GrhIndex=0
@@ -37184,24 +37341,24 @@ Name=Bluefin
 GrhIndex=48887
 ObjType=1
 Valor=12
-Texto=Restaura 25 puntos de hambre
-texto=Restores 25 hunger points
+Texto=Restaura 35 puntos de hambre
+texto=Restores 35 hunger points
 
 [OBJ2101]
 Name=Salmon
 GrhIndex=48888
 ObjType=1
-Valor=14
-Texto=Restaura 25 puntos de hambre
-texto=Restores 25 hunger points
+Valor=4
+Texto=Restaura 10 puntos de hambre
+texto=Restores 10 hunger points
 
 [OBJ2102]
 Name=Kelp
 GrhIndex=48889
 ObjType=1
-Valor=5
-Texto=Restaura 25 puntos de hambre
-texto=Restores 25 hunger points
+Valor=11
+Texto=Restaura 20 puntos de hambre
+texto=Restores 20 hunger points
 
 [OBJ2103]
 Name=Red Grouper
@@ -37242,7 +37399,7 @@ Texto=Restaura 15 puntos de hambre
 texto=Restores 15 hunger points
 
 [OBJ2108]
-Name=Giant Lobster
+Name=Giant Lobster (S)
 GrhIndex=48926
 ObjType=1
 Valor=20
@@ -37271,12 +37428,12 @@ Valor=550
 Texto=Red de barco
 
 [OBJ2112]
-Name=Cardumen
+Name=School of Fish
 GrhIndex=48899
 ObjType=1
-Valor=12
-Texto=Restaura 55 puntos de hambre
-texto=Restores 55 hunger points
+Valor=16
+Texto=Restaura 60 puntos de hambre
+texto=Restores 60 hunger points
 
 [OBJ2113]
 Name=Violet Fish
@@ -37338,12 +37495,12 @@ texto=fishing tool
 GrhIndex=0
 
 [OBJ2121]
-Name=Caña de Pesca Silvestre
+Name=Wild Fishing Rod
 GrhIndex=48907
 ObjType=18
-valor=3600
+Valor=3600
 Texto=Herramienta de Pesca reforzada
-texto=Reinforced fishing tool.
+texto=Reinforced Fishing Tool
 
 [OBJ2122]
 Name=Fishing machete
@@ -37433,12 +37590,12 @@ Texto=Herramienta de pesca para expertos.
 texto=Fishing tool for experts.
 
 [OBJ2133]
-Name=Caña de Pesca Marina
+Name=Marine Fishing Rod
 GrhIndex=48920
 ObjType=18
-valor=5400
+Valor=5400
 Texto=Herramienta de Pesca avanzada
-texto=Fishing tool for experts.
+texto=Advanced Fishing Tool
 
 [OBJ2134]
 Name=Treble hook
@@ -37530,10 +37687,10 @@ Texto=Restaura 25 puntos de hambre
 texto=Restores 25 hunger points
 
 [OBJ2145]
-Name=Calamar Grande
+Name=Large Squid
 GrhIndex=48932
 ObjType=1
-Valor=15
+Valor=10
 Texto=Restaura 25 puntos de hambre
 texto=Restores 25 hunger points
 
@@ -37549,7 +37706,7 @@ texto=Restores 25 hunger points
 Name=Octopus
 GrhIndex=48934
 ObjType=1
-Valor=28
+Valor=20
 Texto=Restaura 75 puntos de hambre
 texto=Restores 75 hunger points
 
@@ -37562,12 +37719,12 @@ Texto=Restaura 25 puntos de hambre
 texto=Restores 25 hunger points
 
 [OBJ2149]
-Name=Marine Prawn
+Name=Marine Prawn (S)
 GrhIndex=48936
 ObjType=1
 Valor=135
 Texto=Restaura 100 puntos de hambre
-texto=Restores 25 hunger points
+texto=Restores 100 hunger points
 
 [OBJ2150]
 Name=Chum Fish
@@ -37581,23 +37738,23 @@ texto=Restores 25 hunger points
 Name=bass
 GrhIndex=48938
 ObjType=1
-Valor=10
-Texto=Restaura 40 puntos de hambre pero quizás esté en mal estado.
-texto=It restores 40 hunger points but may be in poor condition.
+Valor=13
+Texto=Restaura 50 puntos de hambre
+texto=Restores 50 hunger points
 
 [OBJ2152]
-Name=Bottom Grouper Fish
+Name=Deepwater Grouper (S)
 GrhIndex=48939
 ObjType=1
 Valor=240
 Texto=Restaura 100 puntos de hambre
-texto=Restores 25 hunger points
+texto=Restores 100 hunger points
 
 [OBJ2153]
-Name=Blowfish
+Name=Pufferfish
 GrhIndex=48940
 ObjType=1
-Valor=10
+Valor=6
 Texto=Restaura 25 puntos de hambre
 texto=Restores 25 hunger points
 
@@ -37613,9 +37770,9 @@ texto=Restores 25 hunger points
 Name=Tiger Fish
 GrhIndex=48876
 ObjType=1
-Valor=8
-Texto=Restaura 25 puntos de hambre
-texto=Restores 25 hunger points
+Valor=6
+Texto=Restaura 20 puntos de hambre
+texto=Restores 20 hunger points
 
 [OBJ2156]
 Name=Crab leg
@@ -37661,9 +37818,9 @@ texto=Restores 25 hunger points
 Name=Fungu
 GrhIndex=48948
 ObjType=1
-Valor=8
-Texto=Restaura 25 puntos de hambre
-texto=Restores 25 hunger points
+Valor=9
+Texto=Restaura 20 puntos de hambre
+texto=Restores 20 hunger points
 
 [OBJ2162]
 Name=Jack
@@ -37674,12 +37831,12 @@ Texto=Restaura 25 puntos de hambre
 texto=Restores 25 hunger points
 
 [OBJ2163]
-Name=Corvina Rubia
+Name=Golden Croaker
 GrhIndex=48879
 ObjType=1
-Valor=7
-Texto=Restaura 25 puntos de hambre
-texto=Restores 25 hunger points
+Valor=8
+Texto=Restaura 15 puntos de hambre
+texto=Restores 15 hunger points
 
 [OBJ2164]
 Name=Cofre
@@ -37829,11 +37986,11 @@ texto=Quest item
 
 [OBJ2183]
 Name=Fishing Line
-GrhIndex=48970
+GrhIndex=49116
 ObjType=18
-valor=100
-Texto=Herramienta de pesca
-texto=fishing tool
+Valor=120
+Texto=Objeto necesario para reparar la Caña de Pesca
+texto=Item needed to repair a fishing rod
 
 [OBJ2184]
 Name=Brazalete Azul
@@ -37862,9 +38019,10 @@ Valor=6000
 Texto=Brazalete Rojo
 
 [OBJ2187]
-Name=Collar Azul
+Name=Blue necklace
+texto=A magical object prized by merchants
 GrhIndex=49130
-Objtype=100
+ObjType=100
 MinHIT=0
 MaxHIT=0
 Valor=1200
@@ -38034,10 +38192,11 @@ Texto=Ballesta
 
 [OBJ2214]
 Name=Torn cloth
-Texto=A useless piece of cloth
+Texto=Un trozo de tela inservible
 GrhIndex=38214
 ObjType=100
 Valor=6
+texto=A useless piece of cloth
 
 [OBJ2215]
 Name=Amulet +5
@@ -38613,9 +38772,10 @@ ObjType=30
 Texto=Amuleto de los muertos
 
 [OBJ2314]
-Name=Golden Ring
+Name=Gold ring
+texto=A valuable jewel lost in the water.
 GrhIndex=49258
-valor=600
+Valor=600
 ObjType=100
 Texto=Una joya valiosa perdida en el agua.
 
@@ -40870,7 +41030,7 @@ Texto=Saco de cereal
 
 [OBJ2598]
 Name=Prism Knuckle
-Texto=Damage 8/11
+Texto=Daño 8/11
 GrhIndex=44253
 ObjType=2
 Valor=12600
@@ -40879,7 +41039,8 @@ LingH=95
 LingP=110
 MaxHit=11
 MinHit=8
-ExtraCritAndStabChance=5
+EXTRACRITANDSTABCHANCE=5
+texto=Damage 8/11
 
 [OBJ2599]
 Name=Bag
@@ -42276,8 +42437,8 @@ MaxDef=24
 MinDef=22
 Name=Composite Breastplate
 ObjType=3
-SKHerreria=75
-Texto=Defense 22/24
+SkHerreria=75
+Texto=Defensa 22/24
 Valor=7200
 RopajeElfa=2300
 RopajeElfaOscura=3816
@@ -42291,6 +42452,7 @@ RopajeHumana=2300
 RopajeHumano=61
 RopajeOrca=3399
 RopajeOrco=1203
+texto=Defense 22/24
 
 [OBJ2802]
 Name=Cota de Mallas Larga (H/E/EO/M)
@@ -42314,7 +42476,8 @@ RopajeOrca=93
 RopajeGnoma=1700
 
 [OBJ2803]
-Name=Armadura Maghtere
+Name=Maghtere Armor
+texto=Defense 11/15
 GrhIndex=3135
 RopajeHumano=303
 RopajeElfo=303
@@ -42329,15 +42492,16 @@ RopajeEnana=2687
 RopajeOrca=3254
 RopajeGnoma=2687
 ObjType=3
-MAXDEF=15
-MINDEF=11
+MaxDef=15
+MinDef=11
 Valor=1800
 Texto=Defensa 11/15
 LingH=30
-SKHerreria=40
+SkHerreria=40
 
 [OBJ2804]
-Name=Caranthir armor
+Name=Caranthir Armor
+texto=Defense 24/26
 GrhIndex=4197
 RopajeHumano=125
 RopajeElfo=125
@@ -42352,13 +42516,13 @@ RopajeEnana=2531
 RopajeOrca=3352
 RopajeGnoma=2531
 ObjType=3
-MAXDEF=26
-MINDEF=24
+MaxDef=26
+MinDef=24
 Valor=7800
 Texto=Defensa 24/26
 LingH=130
 LingP=110
-SKHerreria=75
+SkHerreria=75
 
 [OBJ2805]
 Name=Coraza Compuesta (H/E/EO)
@@ -42403,7 +42567,8 @@ Texto=¡Skin exclusiva del Gran Dragón!
 Valor=0
 
 [OBJ2807]
-Name=Winter clothing
+Name=Winter Clothing
+texto=Defense 10/14
 GrhIndex=2926
 RopajeHumano=82
 RopajeElfo=82
@@ -42413,18 +42578,19 @@ RopajeOrco=1225
 RopajeGnomo=725
 RopajeHumana=82
 RopajeElfa=82
-RopajeElfaOscura=3838
-RopajeEnana=2853
-RopajeOrca=3421
-RopajeGnoma=2853
+RopajeElfaOscura=1725
+RopajeEnana=725
+RopajeOrca=1225
+RopajeGnoma=725
 ObjType=3
-MAXDEF=25
-MINDEF=20
-Valor=14000
-Texto=Ropaje Invernal
+MaxDef=14
+MinDef=10
+Valor=4800
+Texto=Defensa 10/14
 
 [OBJ2808]
-Name=Winter Clothes (M)
+Name=Winter Clothing (female)
+texto=Defense 10/14
 GrhIndex=2927
 RopajeHumano=0
 RopajeElfo=0
@@ -42439,8 +42605,8 @@ RopajeEnana=2845
 RopajeOrca=3413
 RopajeGnoma=2845
 ObjType=3
-MAXDEF=14
-MINDEF=10
+MaxDef=14
+MinDef=10
 Valor=4800
 Texto=Defensa 10/14
 
@@ -42536,7 +42702,8 @@ Valor=0
 Texto=Alifafe de Pirata (E/G)
 
 [OBJ2818]
-Name=Mine Fighter Garb (E/G)
+Name=Mine Fighter
+texto=Defense 21/23
 GrhIndex=39748
 RopajeHumano=274
 RopajeElfo=274
@@ -42551,17 +42718,17 @@ RopajeEnana=2856
 RopajeOrca=3424
 RopajeGnoma=2856
 ObjType=3
-MAXDEF=23
-MINDEF=21
+MaxDef=23
+MinDef=21
 Valor=6000
 Texto=Defensa 21/23
-SKHerreria=60
+SkHerreria=60
 LingH=100
 
 [OBJ2819]
 GrhIndex=3126
 Name=Polar Traveler Coat
-Texto=Defense 16/20
+Texto=Defensa 16/20
 ObjType=3
 Valor=12000
 MaxDef=20
@@ -42578,10 +42745,11 @@ RopajeElfaOscura=3877
 RopajeEnana=2876
 RopajeOrca=3444
 RopajeGnoma=2876
+texto=Defense 16/20
 
 [OBJ2820]
 Name=Imperial Polar Uniform (4th Hierarchy)
-Texto=Defense 3/7
+Texto=Defensa 3/7
 ObjType=3
 Valor=0
 MaxDef=7
@@ -42599,10 +42767,11 @@ RopajeElfaOscura=3826
 RopajeEnana=2841
 RopajeOrca=3409
 RopajeGnoma=2841
+texto=Defense 3/7
 
 [OBJ2821]
 Name=Legionary Polar Uniform (4th Hierarchy)
-Texto=Defense 3/7
+Texto=Defensa 3/7
 ObjType=3
 Valor=0
 MaxDef=7
@@ -42620,6 +42789,7 @@ RopajeElfaOscura=3828
 RopajeEnana=2843
 RopajeOrca=3411
 RopajeGnoma=2843
+texto=Defense 3/7
 
 [OBJ2822]
 Name=Praetorian Royal Robe (E/G)
@@ -42718,24 +42888,25 @@ Texto=Vestido de Gala Azul (E/G)
 
 [OBJ2829]
 Name=Lumberjack Clothes
-GrhIndex=40072
-RopajeHumano=76
-RopajeElfo=76
-RopajeElfoOscuro=1836
-RopajeEnano=1157
-RopajeOrco=1788
-RopajeGnomo=1157
-RopajeHumana=2896
-RopajeElfa=2896
-RopajeElfaOscura=1836
+texto=Defense 7/12
+GrhIndex=3659
+RopajeHumano=46
+RopajeElfo=46
+RopajeElfoOscuro=1608
+RopajeEnano=607
+RopajeOrco=1108
+RopajeGnomo=607
+RopajeHumana=46
+RopajeElfa=46
+RopajeElfaOscura=1608
 RopajeEnana=607
-RopajeOrca=1788
+RopajeOrca=1108
 RopajeGnoma=607
 ObjType=3
-MAXDEF=4
-MINDEF=3
-Valor=400
-Texto=Ropa de Leñador
+MaxDef=12
+MinDef=7
+Valor=2200
+Texto=Defensa 7/12
 
 [OBJ2830]
 Name=Gabán de Cuero Pequeño
@@ -43677,7 +43848,8 @@ Valor=0
 Texto=Armadura de Elder
 
 [OBJ2889]
-Name=Atuendo de Erendil
+Name=Erendil's Outfit
+texto=Defense 17/19
 GrhIndex=41692
 RopajeHumano=287
 RopajeElfo=287
@@ -43692,12 +43864,12 @@ RopajeEnana=2875
 RopajeOrca=3443
 RopajeGnoma=2875
 ObjType=3
-MAXDEF=19
-MINDEF=17
+MaxDef=19
+MinDef=17
 Valor=4800
 Texto=Defensa 17/19
-PielOsoPardo=53
-SKSastreria=60
+PIELOSOPARDO=53
+SkSastreria=60
 
 [OBJ2890]
 Name=Mantle of Agony
@@ -44023,24 +44195,25 @@ Texto=Ropa de Leñador (H/E/EO)
 
 [OBJ2907]
 Name=Beggar clothes
+texto=Defense 3/5
 GrhIndex=59347
 RopajeHumano=36
 RopajeElfo=36
-RopajeElfoOscuro=1550
-RopajeEnano=1655
-RopajeOrco=2207
-RopajeGnomo=1655
+RopajeElfoOscuro=1598
+RopajeEnano=597
+RopajeOrco=1098
+RopajeGnomo=597
 RopajeHumana=2093
 RopajeElfa=2093
-RopajeElfaOscura=1550
-RopajeEnana=2887
-RopajeOrca=2207
-RopajeGnoma=2887
+RopajeElfaOscura=1598
+RopajeEnana=2592
+RopajeOrca=1098
+RopajeGnoma=2592
 ObjType=3
-MAXDEF=5
-MINDEF=3
-Valor=600
-Texto=Ropa de Pordiosero
+MaxDef=5
+MinDef=2
+Valor=330
+Texto=Defensa 3/5
 
 [OBJ2908]
 Name=Pink Rube
@@ -44086,22 +44259,23 @@ Texto=Túnica Larga Oscura
 
 [OBJ2910]
 Name=Basic Vestment
+texto=Common clothing
 GrhIndex=59353
 RopajeHumano=44
 RopajeElfo=44
-RopajeElfoOscuro=1558
-RopajeEnano=1656
-RopajeOrco=2215
-RopajeGnomo=1656
+RopajeElfoOscuro=1606
+RopajeEnano=605
+RopajeOrco=1106
+RopajeGnomo=605
 RopajeHumana=44
 RopajeElfa=44
-RopajeElfaOscura=1558
-RopajeEnana=1656
-RopajeOrca=2215
-RopajeGnoma=1656
+RopajeElfaOscura=1606
+RopajeEnana=605
+RopajeOrca=1106
+RopajeGnoma=605
 ObjType=3
-MAXDEF=2
-MINDEF=1
+MaxDef=2
+MinDef=1
 Valor=50
 Texto=Vestimenta Común
 
@@ -44132,44 +44306,46 @@ Texto=Ropa de Burgués Turquesa
 
 [OBJ2912]
 Name=Blue navigator Clothes
+texto=Navigator
 GrhIndex=59355
 RopajeHumano=80
 RopajeElfo=80
 RopajeElfoOscuro=1723
-RopajeEnano=1692
+RopajeEnano=723
 RopajeOrco=1223
-RopajeGnomo=1692
+RopajeGnomo=723
 RopajeHumana=80
 RopajeElfa=80
 RopajeElfaOscura=1723
-RopajeEnana=1692
+RopajeEnana=723
 RopajeOrca=1223
-RopajeGnoma=1692
+RopajeGnoma=723
 ObjType=3
-MAXDEF=5
-MINDEF=3
-Valor=500
+MaxDef=5
+MinDef=3
+Valor=420
 Texto=Ropa Azul de Navegante
 
 [OBJ2913]
 Name=Leather Clothes
+texto=Leather clothes
 GrhIndex=59356
 RopajeHumano=79
 RopajeElfo=79
 RopajeElfoOscuro=1722
-RopajeEnano=1691
+RopajeEnano=722
 RopajeOrco=1222
-RopajeGnomo=1691
+RopajeGnomo=722
 RopajeHumana=79
 RopajeElfa=79
 RopajeElfaOscura=1722
-RopajeEnana=1691
+RopajeEnana=722
 RopajeOrca=1222
-RopajeGnoma=1691
+RopajeGnoma=722
 ObjType=3
-MAXDEF=5
-MINDEF=3
-Valor=500
+MaxDef=5
+MinDef=3
+Valor=420
 Texto=Ropa de Cuero
 
 [OBJ2914]
@@ -44194,36 +44370,37 @@ Valor=500
 Texto=Traje de Gala
 
 [OBJ2915]
-Name=Workwear
+Name=Worker Clothing
+texto=Worker Clothing
 GrhIndex=59358
 RopajeHumano=38
 RopajeElfo=38
-RopajeElfoOscuro=1552
-RopajeEnano=1658
-RopajeOrco=2209
-RopajeGnomo=1658
+RopajeElfoOscuro=1600
+RopajeEnano=599
+RopajeOrco=1100
+RopajeGnomo=599
 RopajeHumana=38
 RopajeElfa=38
-RopajeElfaOscura=1552
-RopajeEnana=1658
-RopajeOrca=2209
-RopajeGnoma=1658
+RopajeElfaOscura=1600
+RopajeEnana=599
+RopajeOrca=1100
+RopajeGnoma=599
 ObjType=3
-MAXDEF=3
-MINDEF=2
-Valor=80
+MaxDef=3
+MinDef=1
+Valor=90
 Texto=Ropa de Trabajador
 
 [OBJ2916]
 Name=Dark Attire
-Texto=Defense 23/25
+Texto=Defensa 23/25
 GrhIndex=442
 ObjType=3
 Valor=10200
 MaxDef=25
 MinDef=23
-SKSastreria=85
-PielOsoPolar=40
+SkSastreria=85
+PIELOSOPOLAR=40
 RopajeElfa=2305
 RopajeElfaOscura=3821
 RopajeElfo=224
@@ -44236,6 +44413,7 @@ RopajeHumana=2305
 RopajeHumano=224
 RopajeOrca=3404
 RopajeOrco=1208
+texto=Defense 23/25
 
 [OBJ2917]
 Name=Champion Mantle
@@ -44281,13 +44459,13 @@ RopajeOrco=1056
 
 [OBJ2919]
 Name=Lumberjack Armor
-Texto=Defense 16/20
+Texto=Defensa 16/20
 GrhIndex=446
 ObjType=3
 Valor=4200
 MaxDef=20
 MinDef=16
-SKHerreria=55
+SkHerreria=55
 LingH=70
 RopajeElfa=2056
 RopajeElfaOscura=3736
@@ -44301,11 +44479,12 @@ RopajeHumana=2056
 RopajeHumano=72
 RopajeOrca=3106
 RopajeOrco=1056
+texto=Defense 16/20
 
 [OBJ2920]
 GrhIndex=24508
 Name=Expert Miner's Quota
-Texto=Defense 20/22
+Texto=Defensa 25/27
 RopajeElfa=2290
 RopajeElfaOscura=3806
 RopajeElfo=51
@@ -44320,10 +44499,11 @@ RopajeOrca=3389
 RopajeOrco=1193
 ObjType=3
 Valor=8100
-SKHerreria=75
+SkHerreria=75
 LingH=135
 MaxDef=27
 MinDef=25
+texto=Defense 20/22
 
 [OBJ2921]
 Name=Reddish Elven Sirica (H/E/EO-M)
@@ -44356,7 +44536,8 @@ RopajeOrca=3329
 RopajeOrco=0
 
 [OBJ2923]
-Name=Alarinqua Gala Dress
+Name=Alcarinqua Gala Dress
+texto=Alcarinqua Gala Dress
 GrhIndex=11493
 RopajeHumano=0
 RopajeElfo=0
@@ -44371,9 +44552,9 @@ RopajeEnana=2742
 RopajeOrca=3309
 RopajeGnoma=2742
 ObjType=3
-MAXDEF=7
-MINDEF=3
-Valor=800
+MaxDef=6
+MinDef=4
+Valor=680
 Texto=Vestido de Gala Alcarinqua
 
 [OBJ2924]
@@ -44416,11 +44597,12 @@ Valor=1725
 Texto=Hábito de Ritual de Hombre
 
 [OBJ2927]
-Name=Light dress (H/E/EO-M)
+Name=Claritos Dress
+texto=Claritos Dress
 GrhIndex=18226
 ObjType=3
-MAXDEF=3
-MINDEF=2
+MaxDef=3
+MinDef=2
 Valor=180
 Texto=Vestido de Claritos
 RopajeHumano=0
@@ -44447,6 +44629,7 @@ Texto=Vestido de Elfa Empatica (H/E/EO-M)
 
 [OBJ2929]
 Name=Little red riding hood dress (H/E/EO-M)
+texto=Red Little Red Riding Hood (H/E/EO-M)
 GrhIndex=18232
 RopajeHumano=2239
 RopajeElfo=2239
@@ -44454,15 +44637,15 @@ RopajeElfoOscuro=3696
 RopajeEnano=2754
 RopajeOrco=3321
 RopajeGnomo=2754
-RopajeHumana=1047
-RopajeElfa=1047
-RopajeElfaOscura=2861
-RopajeEnana=2829
-RopajeOrca=2845
-RopajeGnoma=2829
+RopajeHumana=2239
+RopajeElfa=2239
+RopajeElfaOscura=3696
+RopajeEnana=2754
+RopajeOrca=3321
+RopajeGnoma=2754
 ObjType=3
-MAXDEF=7
-MINDEF=5
+MaxDef=7
+MinDef=5
 Valor=1000
 Texto=Vestido de Caperucita Roja (H/E/EO-M)
 
@@ -44497,15 +44680,16 @@ Valor=50
 Texto=Vestimenta de Servidumbre (H/E/EO-M)
 
 [OBJ2932]
-Name=Red Indulgent Dress (H/E/EO-M)
+Name=Red Indulgent Dress
+texto=Defense 15/19
 GrhIndex=5281
 ObjType=3
-MAXDEF=19
-MINDEF=15
+MaxDef=19
+MinDef=15
 Valor=4500
-SKSastreria=55
+SkSastreria=55
 PielLobo=70
-PielOsoPardo=50
+PIELOSOPARDO=50
 PielOsoPolar=0
 Texto=Defensa 15/19
 RopajeElfa=2236
@@ -44522,11 +44706,12 @@ RopajeOrca=3318
 RopajeOrco=3318
 
 [OBJ2933]
-Name=Escudo de Plata
+Name=Silver Shield
+texto=Defense 5/7
 GrhIndex=9631
 ObjType=16
-MAXDEF=7
-MINDEF=5
+MaxDef=7
+MinDef=5
 Valor=4200
 LingH=40
 LingP=20
@@ -44576,15 +44761,16 @@ Valor=3720
 Texto=Vestido Middleton (M)
 
 [OBJ2936]
-Name=Sensual Wedding Dress (M)
+Name=Wedding Dress
+texto=Defense 15/17
 GrhIndex=11610
 ObjType=3
-MAXDEF=17
-MINDEF=15
+MaxDef=17
+MinDef=15
 Valor=4200
 Texto=Defensa 15/17
-PielOsoPardo=46
-SKSastreria=55
+PIELOSOPARDO=46
+SkSastreria=55
 RopajeElfa=2248
 RopajeElfaOscura=3705
 RopajeElfo=0
@@ -44672,7 +44858,8 @@ Valor=300
 Texto=Atuendo de Pueblerina (M)
 
 [OBJ2942]
-Name=Villager clothes (M)
+Name=Villager Clothes
+texto=Villager Clothes
 GrhIndex=5277
 RopajeHumano=0
 RopajeElfo=0
@@ -44687,8 +44874,8 @@ RopajeEnana=2739
 RopajeOrca=3306
 RopajeGnoma=2739
 ObjType=3
-MAXDEF=5
-MINDEF=3
+MaxDef=5
+MinDef=3
 Valor=420
 Texto=Ropa de Aldeana
 
@@ -44948,7 +45135,8 @@ Texto=Puerta cerrada con llave  comercio Banderbill
 texto=Only Authorized will be able to enter
 
 [OBJ2962]
-Name=3rd Hierarchy Chaos Mage Robe
+Name=Chaos Mage Robe (3nd Hierarchy)
+texto=Defense 8/12
 GrhIndex=47413
 RopajeHumano=198
 RopajeElfo=198
@@ -44963,8 +45151,8 @@ RopajeEnana=2638
 RopajeOrca=3205
 RopajeGnoma=2638
 ObjType=3
-MAXDEF=12
-MINDEF=8
+MaxDef=12
+MinDef=8
 Valor=0
 Texto=Defensa 8/12
 
@@ -45074,7 +45262,8 @@ Valor=0
 Texto=Túnica Avernal (Bajos)
 
 [OBJ2968]
-Name=3rd Hierarchy Chaos Cleric Armor
+Name=Chaos Cleric Armor (3nd Hierarchy)
+texto=Defense 9/13
 GrhIndex=22104
 RopajeHumano=131
 RopajeElfo=131
@@ -45089,8 +45278,8 @@ RopajeEnana=2537
 RopajeOrca=3087
 RopajeGnoma=2537
 ObjType=3
-MAXDEF=13
-MINDEF=9
+MaxDef=13
+MinDef=9
 Valor=0
 Texto=Defensa 9/13
 
@@ -45158,7 +45347,8 @@ Valor=0
 Texto=Armadura de Clerigo del Caos de 4ª Jerarquía (Bajos)
 
 [OBJ2972]
-Name=3rd Hierarchy Chaos Warrior Armor
+Name=Chaos Warrior Armor (3nd Hierarchy)
+texto=Defense 10/14
 GrhIndex=3515
 RopajeHumano=186
 RopajeElfo=186
@@ -45173,8 +45363,8 @@ RopajeEnana=2798
 RopajeOrca=3366
 RopajeGnoma=2798
 ObjType=3
-MAXDEF=14
-MINDEF=10
+MaxDef=14
+MinDef=10
 Valor=0
 Texto=Defensa 10/14
 
@@ -45242,7 +45432,8 @@ Valor=0
 Texto=Armadura de Guerrero del Caos de 4ª Jerarquía (Bajos)
 
 [OBJ2976]
-Name=3rd Hierarchy Chaos Assassin Armor
+Name=Chaos Assassin Armor (3nd Hierarchy)
+texto=Defense 9/13
 GrhIndex=2928
 RopajeHumano=325
 RopajeElfo=325
@@ -45257,8 +45448,8 @@ RopajeEnana=2710
 RopajeOrca=3277
 RopajeGnoma=2710
 ObjType=3
-MAXDEF=13
-MINDEF=9
+MaxDef=13
+MinDef=9
 Valor=0
 Texto=Defensa 9/13
 
@@ -45326,7 +45517,8 @@ Valor=0
 Texto=Armadura de Asesino del Caos de 4ª Jerarquía (Bajos)
 
 [OBJ2980]
-Name=3rd Hierarchy Chaos Bandit Armor
+Name=Chaos Bandit Armor (3nd Hierarchy)
+texto=Defense 9/13
 GrhIndex=2662
 RopajeHumano=324
 RopajeElfo=324
@@ -45341,8 +45533,8 @@ RopajeEnana=2709
 RopajeOrca=3276
 RopajeGnoma=2709
 ObjType=3
-MAXDEF=13
-MINDEF=9
+MaxDef=13
+MinDef=9
 Valor=0
 Texto=Defensa 9/13
 
@@ -45410,7 +45602,8 @@ Valor=0
 Texto=Armadura de Bandido del Caos de 4ª Jerarquía (Bajos)
 
 [OBJ2984]
-Name=3rd Hierarchy Chaos Hunter Armor
+Name=Chaos Hunter Armor (3nd Hierarchy)
+texto=Defense 10/14
 GrhIndex=22100
 RopajeHumano=134
 RopajeElfo=134
@@ -45425,8 +45618,8 @@ RopajeEnana=2540
 RopajeOrca=3090
 RopajeGnoma=2540
 ObjType=3
-MAXDEF=14
-MINDEF=10
+MaxDef=14
+MinDef=10
 Valor=0
 Texto=Defensa 10/14
 
@@ -45493,7 +45686,8 @@ Valor=0
 Texto=Armadura de Cazador del Caos de 4ª Jerarquía (Bajos)
 
 [OBJ2988]
-Name=3rd Hierarchy Chaos Paladín armor
+Name=Chaos Paladín Armor (3nd Hierarchy)
+texto=Defense 10/14
 GrhIndex=2731
 RopajeHumano=375
 RopajeElfo=375
@@ -45508,8 +45702,8 @@ RopajeEnana=2885
 RopajeOrca=3453
 RopajeGnoma=2885
 ObjType=3
-MAXDEF=14
-MINDEF=10
+MaxDef=14
+MinDef=10
 Valor=0
 Texto=Defensa 10/14
 
@@ -45661,7 +45855,8 @@ Valor=0
 Texto=Armadura de Pirata del Caos de 4ª Jerarquía (Bajos)
 
 [OBJ2996]
-Name=3rd Hierarchy Chaos Druid Robe
+Name=Chaos Druid Robe (3nd Hierarchy)
+texto=Defense 8/12
 GrhIndex=11569
 RopajeHumano=169
 RopajeElfo=169
@@ -45676,8 +45871,8 @@ RopajeEnana=2625
 RopajeOrca=3192
 RopajeGnoma=2625
 ObjType=3
-MAXDEF=12
-MINDEF=8
+MaxDef=12
+MinDef=8
 Valor=0
 Texto=Defensa 8/12
 
@@ -45829,7 +46024,8 @@ Valor=0
 Texto=Túnica de Bardo del Caos de 4ª Jerarquía (Bajos)
 
 [OBJ3004]
-Name=3rd Hierarchy Imperial Mage Robe
+Name=Imperial Mage Robe (3nd Hierarchy)
+texto=Defense 8/12
 GrhIndex=3082
 RopajeHumano=270
 RopajeElfo=270
@@ -45844,8 +46040,8 @@ RopajeEnana=2637
 RopajeOrca=3204
 RopajeGnoma=2637
 ObjType=3
-MAXDEF=12
-MINDEF=8
+MaxDef=12
+MinDef=8
 Valor=0
 Texto=Defensa 8/12
 
@@ -45913,7 +46109,8 @@ Valor=0
 Texto=Túnica de Mago Imperial de 4ª Jerarquía (Bajos)
 
 [OBJ3008]
-Name=3rd Hierarchy Imperial Cleric Robe
+Name=Imperial Cleric's Robe (3nd Hierarchy)
+texto=Defense 9/13
 GrhIndex=11661
 RopajeHumano=127
 RopajeElfo=127
@@ -45928,8 +46125,8 @@ RopajeEnana=2533
 RopajeOrca=3083
 RopajeGnoma=2533
 ObjType=3
-MAXDEF=13
-MINDEF=9
+MaxDef=13
+MinDef=9
 Valor=0
 Texto=Defensa 9/13
 
@@ -45997,7 +46194,8 @@ Valor=0
 Texto=Armadura de Clerigo Imperial de 4ª Jerarquía (Bajos)
 
 [OBJ3012]
-Name=3rd Hierarchy Imperial Paladin Armor
+Name=Imperial Paladin Armor (3nd Hierarchy)
+texto=Defense 10/14
 GrhIndex=19747
 RopajeHumano=380
 RopajeElfo=380
@@ -46012,8 +46210,8 @@ RopajeEnana=2890
 RopajeOrca=3458
 RopajeGnoma=2890
 ObjType=3
-MAXDEF=14
-MINDEF=10
+MaxDef=14
+MinDef=10
 Valor=0
 Texto=Defensa 10/14
 
@@ -46081,7 +46279,8 @@ Valor=0
 Texto=Armadura de Paladín Imperial de 4ª Jerarquía (Bajos)
 
 [OBJ3016]
-Name=3rd Hierarchy Imperial Warrior Armor
+Name=Imperial Warrior Armor (3nd Hierarchy)
+texto=Defense 10/14
 GrhIndex=11662
 RopajeHumano=345
 RopajeElfo=345
@@ -46096,8 +46295,8 @@ RopajeEnana=2730
 RopajeOrca=3297
 RopajeGnoma=2730
 ObjType=3
-MAXDEF=14
-MINDEF=10
+MaxDef=14
+MinDef=10
 Valor=0
 Texto=Defensa 10/14
 
@@ -46165,7 +46364,8 @@ Valor=0
 Texto=Armadura de Guerrero Imperial de 4ª Jerarquía (Bajos)
 
 [OBJ3020]
-Name=3rd Hierarchy Imperial Druid Robe
+Name=Imperial Druid Robe (3rd Hierarchy)
+texto=Defense 8/12
 GrhIndex=3076
 RopajeHumano=168
 RopajeElfo=168
@@ -46180,8 +46380,8 @@ RopajeEnana=2624
 RopajeOrca=3191
 RopajeGnoma=2624
 ObjType=3
-MAXDEF=12
-MINDEF=8
+MaxDef=12
+MinDef=8
 Valor=0
 Texto=Defensa 8/12
 
@@ -46249,7 +46449,8 @@ Valor=0
 Texto=Túnica de Druida Imperial de 4ª Jerarquía (Bajos)
 
 [OBJ3024]
-Name=3rd Hierarchy Imperial Bard Robe
+Name=Imperial Bard's Robe (3nd Hierarchy)
+texto=Defense 8/12
 GrhIndex=22099
 RopajeHumano=188
 RopajeElfo=188
@@ -46264,8 +46465,8 @@ RopajeEnana=2800
 RopajeOrca=3368
 RopajeGnoma=2800
 ObjType=3
-MAXDEF=12
-MINDEF=8
+MaxDef=12
+MinDef=8
 Valor=0
 Texto=Defensa 8/12
 
@@ -46333,7 +46534,8 @@ Valor=0
 Texto=Túnica de Bardo Imperial de 4ª Jerarquía (Bajos)
 
 [OBJ3028]
-Name=3rd Hierarchy Imperial Hunter Armor
+Name=Imperial Hunter Armor (3nd Hierarchy)
+texto=Defense 10/14
 GrhIndex=11665
 RopajeHumano=250
 RopajeElfo=250
@@ -46348,8 +46550,8 @@ RopajeEnana=2658
 RopajeOrca=3225
 RopajeGnoma=2658
 ObjType=3
-MAXDEF=14
-MINDEF=10
+MaxDef=14
+MinDef=10
 Valor=0
 Texto=Defensa 10/14
 
@@ -46417,7 +46619,8 @@ Valor=0
 Texto=Armadura de Cazador Imperial de 4ª Jerarquía (Bajos)
 
 [OBJ3032]
-Name=3rd Hierarchy Imperial Assassin Armor
+Name=Imperial Assassin Armor (3nd Hierarchy)
+texto=Defense 9/13
 GrhIndex=1450
 RopajeHumano=320
 RopajeElfo=320
@@ -46432,8 +46635,8 @@ RopajeEnana=2705
 RopajeOrca=3272
 RopajeGnoma=2705
 ObjType=3
-MAXDEF=13
-MINDEF=9
+MaxDef=13
+MinDef=9
 Valor=0
 Texto=Defensa 9/13
 
@@ -46501,7 +46704,8 @@ Valor=0
 Texto=Armadura de Asesino Imperial de 4ª Jerarquía (Bajos)
 
 [OBJ3036]
-Name=3rd Hierarchy Imperial Bandit Armor
+Name=Imperial Bandit Armor (3nd Hierarchy)
+texto=Defense 9/13
 GrhIndex=47575
 RopajeHumano=321
 RopajeElfo=321
@@ -46516,8 +46720,8 @@ RopajeEnana=2706
 RopajeOrca=3273
 RopajeGnoma=2706
 ObjType=3
-MAXDEF=13
-MINDEF=9
+MaxDef=13
+MinDef=9
 Valor=0
 Texto=Defensa 9/13
 
@@ -47477,7 +47681,9 @@ MINDEF=0
 texto=You almost look like the nobility.
 
 [OBJ3140]
-Name=Cofre de Tesoro
+Name=Treasury chest
+Valor=None
+texto=This chest contains a random treasure.
 GrhIndex=49234
 ObjType=48
 Agarrable=0
@@ -48918,12 +49124,12 @@ name=Argentinian Hat
 texto=Homage the selection for the Copa America
 
 [OBJ3300]
-Name=Mistery clam
+Name=Mysterious Clam (S)
 GrhIndex=48971
 ObjType=48
 Agarrable=0
 Texto=¿Quién sabe lo que pueda contener?
-texto=Who knows? maybe it contains a pearl.
+texto=Who knows what it might contain?
 Valor=0
 
 [OBJ3301]
@@ -48951,12 +49157,13 @@ Texto=Restaura 20 puntos de hambre
 texto=Restores 20 hunger points
 
 [OBJ3304]
-Name=Botella con Mensaje
+Name=Bottle with Message
+Valor=0
 GrhIndex=48977
-ObjType=48
+ObjType=100
 Agarrable=0
-Texto=Una botella, una botella, una botella flotando!!!!
-texto=A bottle, a bottle, a floating bottle!!!!
+Texto=Una botella, una botella, una botella flotando!!!
+texto=A bottle, a bottle, a floating bottle!!!
 
 [OBJ3305]
 Name=Ransom note
@@ -49041,7 +49248,7 @@ name=Dragon Radar
 texto=To locate the Dragon Spheres
 
 [OBJ3316]
-Name=SwordFish (Special)
+Name=Swordfish (S)
 GrhIndex=48984
 ObjType=1
 Valor=165
@@ -49049,7 +49256,7 @@ Texto=Restaura 100 puntos de hambre
 texto=Restores 100 hunger points
 
 [OBJ3317]
-Name=Tiger Shark (Special)
+Name=Tiger Shark (S)
 GrhIndex=48985
 ObjType=1
 Valor=50
@@ -49057,7 +49264,7 @@ Texto=Restaura 100 puntos de hambre
 texto=Restores 100 hunger points
 
 [OBJ3318]
-Name=White Shark (Special)
+Name=Great White Shark (S)
 GrhIndex=48986
 ObjType=1
 Valor=60
@@ -49065,7 +49272,7 @@ Texto=Restaura 100 puntos de hambre
 texto=Restores 100 hunger points
 
 [OBJ3319]
-Name=Hammerhead Shark (Special)
+Name=Hammerhead Shark (S)
 GrhIndex=48987
 ObjType=1
 Valor=60
@@ -49073,7 +49280,7 @@ Texto=Restaura 100 puntos de hambre
 texto=Restores 100 hunger points
 
 [OBJ3320]
-Name=Calamar Gigante (E)
+Name=Giant Squid (S)
 GrhIndex=48988
 ObjType=1
 Valor=240
@@ -49081,12 +49288,12 @@ Texto=Restaura 100 puntos de hambre
 texto=Restores 100 hunger points
 
 [OBJ3321]
-Name=Lemon Fish (Special)
+Name=Yellowtail (S)
 GrhIndex=48983
 ObjType=1
 Valor=60
 Texto=Restaura 100 puntos de hambre
-texto=Restores 25 hunger points
+texto=Restores 100 hunger points
 
 [OBJ3322]
 Name=family heirloom
@@ -50367,16 +50574,17 @@ Objtype=29
 Texto=Mano derecha de Perón
 
 [OBJ3466]
-Name=Reinforced single bow
+Name=Reinforced Bow
 GrhIndex=751
-Objtype=2
-MinHIT=2
-MaxHIT=6
+ObjType=2
+MinHit=2
+MaxHit=6
 Valor=1500
 Madera=500
 Proyectil=1
 Municiones=1
-Texto=Damage 4/7
+Texto=Daño 2/6
+texto=Damage 2/6
 
 [OBJ3467]
 Name=Wall of thorns (NPCs)
@@ -50736,25 +50944,28 @@ ObjType=48
 Valor=0
 
 [OBJ3505]
-Name=Blue Robe
+Name=Aquamarine Tunic
+texto=Defensa 10/12
+PIELLOBO=85
+SkSastreria=35
 GrhIndex=11110
 RopajeHumano=118
 RopajeElfo=118
 RopajeElfoOscuro=1524
-RopajeEnano=1169
-RopajeOrco=1752
-RopajeGnomo=1169
+RopajeEnano=524
+RopajeOrco=1024
+RopajeGnomo=524
 RopajeHumana=2024
 RopajeElfa=2024
-RopajeElfaOscura=2537
+RopajeElfaOscura=3524
 RopajeEnana=2524
-RopajeOrca=2521
+RopajeOrca=3074
 RopajeGnoma=2524
 ObjType=3
-MAXDEF=11
-MINDEF=7
-Valor=2000
-Texto=Túnica Azul
+MaxDef=12
+MinDef=10
+Valor=1500
+Texto=Defensa 10/12
 
 [OBJ3506]
 Name=Puerta abierta nueva cabaña 2
@@ -51103,15 +51314,15 @@ ObjType=9
 Texto=Llave de Dungeon de catas Ullathorpe
 
 [OBJ3550]
-Name=Flecha +1
-GrhIndex=52003
-Objtype=32
-MinHIT=2
-MaxHIT=3
-Valor=12
+Name=Arrow +1
+GrhIndex=277
+ObjType=32
+MinHit=2
+MaxHit=4
+Valor=6
 Madera=2
-Texto=Daño 2/3
-texto=Damage 2/3
+Texto=Daño 2/4
+texto=Damage 2/4
 
 [OBJ3551]
 Name=Carrera 01 Puerta abierta
@@ -51487,14 +51698,15 @@ texto=Change your appearance with this mask
 
 [OBJ3596]
 Name=Fox Helmet
-Texto=Defense 4/6, increases your magic resistance by 2%
+Texto=Defensa 4/6, aumenta tu resistencia mágica un 1%
 GrhIndex=26543
 ObjType=17
 Valor=1200
 MaxDef=6
 MinDef=4
-SKSastreria=40
-PielLoboNegro=20
+SkSastreria=40
+PIELLOBONEGRO=20
+texto=Defense 4/6, increases your magic resistance by 2%
 
 [OBJ3597]
 Name=War Cry
@@ -52727,10 +52939,11 @@ Texto=Tablones Cepillados Elficos
 
 [OBJ3744]
 Name=Blue Dragon Mount (Event)
-Texto=Exclusive Event Item
+Texto=Item Exclusivo de Evento
 GrhIndex=38355
 ObjType=44
 Valor=0
+texto=Exclusive Event Item
 
 [OBJ3745]
 Name=Camiseta Humano Argentina Mundial
@@ -52758,8 +52971,9 @@ Texto=Camiseta Humano Argentina Mundial
 GrhIndex=38353
 Name=Red Dragon Mount (Event)
 ObjType=44
-Texto=Exclusive Event Item
+Texto=Item Exclusivo de Evento
 Valor=0
+texto=Exclusive Event Item
 
 [OBJ3747]
 Name=Camiseta y pelota Humano Argentina Mundial
@@ -53835,18 +54049,19 @@ ObjType=9
 Texto=Texto=Llave de la casa Nro 05
 
 [OBJ3894]
-Name=Poción de Veneno (Alquimia)
+Name=Poison Potion (Alchemy)
+texto=Applies poison to your weapon for a few seconds.
 GrhIndex=49017
 ObjType=11
 Valor=54
 Texto=Aplica veneno en tu arma durante unos segundos.
 CD=10000
-CDType=8
+CDTYPE=8
 Hechizo=344
-FrascoAlq=1
-Cala=1
-Mortero=1
-SKPociones=45
+FRASCOALQ=1
+CALA=1
+MORTERO=1
+SkPociones=45
 
 [OBJ3895]
 Name=Veneno 2 (deshabilitado)
@@ -54506,13 +54721,14 @@ Texto=Cabaña Sigmud Puerta con Llave
 [OBJ3976]
 GrhIndex=4507
 Name=Wolf Helmet
-Texto=Defense 9/11, increases your Magic Resistance by 5%
+Texto=Defensa 9/11, aumenta tu Resistencia Mágica en un 5%
 ObjType=17
 Valor=4200
 MaxDef=11
 MinDef=9
-SKSastreria=70
-PielTigre=56
+SkSastreria=70
+PIELTIGRE=56
+texto=Defense 9/11, increases your Magic Resistance by 5%
 
 [OBJ3977]
 Name=Dorkean Robe
@@ -54588,14 +54804,15 @@ SkHerreria=80
 
 [OBJ3983]
 Name=Moose Antlers
-Texto=Defense 6/8, increases your Magic Resistance by 3%
+Texto=Defensa 6/8, aumenta tu Resistencia Mágica en un 3%
 GrhIndex=4488
 ObjType=17
 Valor=2100
 MaxDef=8
 MinDef=6
-SKSastreria=70
-PielTigre=28
+SkSastreria=70
+PIELTIGRE=28
+texto=Defense 6/8, increases your Magic Resistance by 3%
 
 [OBJ3984]
 Name=Sacred cross
@@ -54626,29 +54843,30 @@ name=Lute
 texto=Increases magic damage by 3%.
 
 [OBJ3987]
-Name=Iron knuckles +1
+Name=Iron Knuckle
 GrhIndex=37682
-Objtype=2
-MaxHIT=9
-MinHIT=7
+ObjType=2
+MaxHit=9
+MinHit=7
 Valor=6300
 Texto=Daño 7/9
-texto=Fist weapon that raises the Skills combat without weapons.
+texto=Damage 7/9
 LingH=105
-SKHerreria=60
+SkHerreria=60
 
 [OBJ3988]
-Name=Saber
+Name=Celtic Sword
+texto=Damage 6/11
 GrhIndex=86197
-Objtype=2
-MinHIT=6
-MaxHIT=11
-Valor=7500
-LingH=80
+ObjType=2
+MinHit=6
+MaxHit=11
+Valor=5400
+LingH=90
 LingP=0
 LingO=0
-SkHerreria=30
-Texto=Sable
+SkHerreria=50
+Texto=Daño 6/11
 
 [OBJ3989]
 Name=Barril
@@ -54659,16 +54877,17 @@ Texto=contener restos de naufragios.
 texto=May contain wrecks.
 
 [OBJ3990]
-Name=Superior Wizard hat
+Name=Superior Wizard's Hat
+PIELTIGREBENGALA=33
 GrhIndex=17515
 ObjType=17
-MAXDEF=7
-MINDEF=4
-Valor=0
-Texto=Aumenta un 7% tu resistencia mágica
-SKSastreria=75
+MaxDef=15
+MinDef=13
+Valor=6000
+Texto=Defensa 13/15, aumenta un 7% tu Resistencia Mágica.
+SkSastreria=80
 PielOsoPolar=6
-texto=Increases your magic resistance by 7%
+texto=Defense 13/15, increases your Magic Resistance by 7%
 
 [OBJ3991]
 Name=open sewer door
@@ -57491,29 +57710,30 @@ Valor=7000
 Texto=Vestido de Bruja (H/E/EO-M)
 
 [OBJ4332]
-Name=Armadura de Ébano
-GrhIndex=2657
-RopajeHumano=126
-RopajeElfo=126
-RopajeElfoOscuro=1808
-RopajeEnano=1651
-RopajeOrco=1760
-RopajeGnomo=1651
-RopajeHumana=1039
-RopajeElfa=1039
-RopajeElfaOscura=2661
-RopajeEnana=1150
-RopajeOrca=2645
-RopajeGnoma=1150
+Name=Ebony Armor
+texto=Defense 18/20
+GrhIndex=40018
+RopajeHumano=354
+RopajeElfo=354
+RopajeElfoOscuro=1694
+RopajeEnano=693
+RopajeOrco=1194
+RopajeGnomo=693
+RopajeHumana=2291
+RopajeElfa=2291
+RopajeElfaOscura=3807
+RopajeEnana=2822
+RopajeOrca=3390
+RopajeGnoma=2822
 ObjType=3
-MAXDEF=32
-MINDEF=25
-Valor=20000
-LingH=210
+MaxDef=20
+MinDef=18
+Valor=5100
+LingH=85
 LingP=0
 LingO=0
-SkHerreria=76
-Texto=Armadura de Ébano (Drow)
+SkHerreria=60
+Texto=Defensa 18/20
 
 [OBJ4333]
 Name=Basic Vestment
@@ -57540,26 +57760,26 @@ Texto=Vestimenta de Esclavo
 Name=Violet Potion (P)
 GrhIndex=49194
 ObjType=11
-Valor=4
-Destruye=1
+Valor=2
+DESTRUYE=1
 Texto=Cura el veneno
 texto=Cure the poison.
 
 [OBJ4335]
 Name=Health potion (P)
-GrhIndex=49223
+GrhIndex=49195
 ObjType=11
 Valor=2
-Destruye=1
-Texto=Restaura 13 puntos de salud
-texto=Restores 13 health points
+DESTRUYE=1
+Texto=Restaura 15 puntos de salud
+texto=Restores 15 health points
 
 [OBJ4336]
 Name=Mana potion(P)
-GrhIndex=49226
+GrhIndex=49196
 ObjType=11
 Valor=2
-Destruye=1
+DESTRUYE=1
 Texto=Restaura un 3% de tu maná
 texto=Restore 3% of your mana
 
@@ -57567,8 +57787,8 @@ texto=Restore 3% of your mana
 Name=Agility Potion (P)
 GrhIndex=49198
 ObjType=11
-Valor=5
-Destruye=1
+Valor=4
+DESTRUYE=1
 Texto=Aumenta temporalmente tu agilidad
 texto=Temporarily increases your agility
 
@@ -57576,8 +57796,8 @@ texto=Temporarily increases your agility
 Name=Strength Potion (P)
 GrhIndex=49197
 ObjType=11
-Valor=5
-Destruye=1
+Valor=3
+DESTRUYE=1
 Texto=Aumenta temporalmente tu fuerza
 texto=Temporarily increases your strength
 
@@ -57589,7 +57809,8 @@ valor=150
 Texto=Piel de Tigre
 
 [OBJ4340]
-Name=Imperial Uniform of the 1st Hierarchy
+Name=Imperial Uniform (1st Hierarchy)
+texto=Defense 5/7
 GrhIndex=2660
 RopajeHumano=19
 RopajeElfo=19
@@ -57604,8 +57825,8 @@ RopajeEnana=2581
 RopajeOrca=3131
 RopajeGnoma=2581
 ObjType=3
-MAXDEF=7
-MINDEF=5
+MaxDef=7
+MinDef=5
 Valor=40000
 Texto=Defensa 5/7
 
@@ -57631,7 +57852,8 @@ Valor=1000
 Texto=Armadura con Capa
 
 [OBJ4342]
-Name=Armor with Cape 2
+Name=Cloaked Armor
+texto=Defense 20/22
 GrhIndex=3632
 RopajeHumano=98
 RopajeElfo=98
@@ -57646,15 +57868,16 @@ RopajeEnana=2504
 RopajeOrca=3054
 RopajeGnoma=2504
 ObjType=3
-MAXDEF=22
-MINDEF=20
+MaxDef=22
+MinDef=20
 Valor=5700
 Texto=Defensa 20/22
 LingH=95
-SKHerreria=60
+SkHerreria=60
 
 [OBJ4343]
-Name=Red Robe
+Name=Wizard Robe
+texto=Defense 13/15
 GrhIndex=24940
 RopajeHumano=111
 RopajeElfo=111
@@ -57669,12 +57892,12 @@ RopajeEnana=2517
 RopajeOrca=3067
 RopajeGnoma=2517
 ObjType=3
-MAXDEF=15
-MINDEF=13
+MaxDef=15
+MinDef=13
 Valor=3600
 Texto=Defensa 13/15
-PielOsoPardo=40
-SKSastreria=45
+PIELOSOPARDO=40
+SkSastreria=45
 
 [OBJ4344]
 Name=New Grey Robe
@@ -62679,12 +62902,13 @@ Valor=0
 GrhIndex=4474
 MaxDef=18
 MinDef=16
-Name=Superior Wizard Hat
+Name=Wizard's Hat
 ObjType=17
-PielTigreBengala=55
-SKSastreria=100
-Texto=Defense 21/23, increases your Magic Resistance by 7%
+PIELTIGREBENGALA=55
+SkSastreria=100
+Texto=Defensa 16/18, aumenta un 8% tu Resistencia Mágica.
 Valor=9900
+texto=Defense 16/18, increases your Magic Resistance by 8%
 
 [OBJ4934]
 GrhIndex=4487
@@ -62692,10 +62916,11 @@ MaxDef=19
 MinDef=17
 Name=Tiger Helmet
 ObjType=17
-PielTigreBengala=57
-SKSastreria=100
-Texto=Defense 22/24, increases your Magic Resistance by 8%.
+PIELTIGREBENGALA=57
+SkSastreria=100
+Texto=Defensa 17/19, aumenta tu Resistencia Mágica en un 8%
 Valor=10200
+texto=Defense 17/19, increases your Magic Resistance by 8%.
 
 [OBJ4935]
 GrhIndex=4492
@@ -62703,10 +62928,11 @@ MaxDef=22
 MinDef=20
 Name=Elite Hood
 ObjType=17
-PielTigreBengala=60
-SKSastreria=100
-Texto=Defense 25/27
+PIELTIGREBENGALA=60
+SkSastreria=100
+Texto=Defensa 20/22
 Valor=10800
+texto=Defense 20/22
 
 [OBJ4936]
 GrhIndex=4472
@@ -62714,10 +62940,11 @@ MaxDef=21
 MinDef=19
 Name=Ideal Hat
 ObjType=17
-PielTigreBengala=58
-SKSastreria=100
-Texto=Defense 23/25
+PIELTIGREBENGALA=58
+SkSastreria=100
+Texto=Defensa 19/21
 Valor=10500
+texto=Defense 19/21
 
 [OBJ4937]
 Name=Black Hood
@@ -62859,18 +63086,20 @@ ObjType=24
 Valor=1
 
 [OBJ4948]
-GrhIndex=2607
+GrhIndex=87837
 Name=Legion Mount (Fifth Hierarchy)
-Texto=Unique reward from the Legionary Faction.
+Texto=Recompensa única de la Facción Legionaria.
 ObjType=44
 Valor=0
+texto=Unique reward from the Legionary Faction.
 
 [OBJ4949]
-GrhIndex=21710
+GrhIndex=87841
 Name=Legion Mount (Sixth Hierarchy)
-Texto=Unique reward from the Legionary Faction.
+Texto=Recompensa única de la Facción Legionaria.
 ObjType=44
 Valor=0
+texto=Unique reward from the Legionary Faction.
 
 [OBJ4950]
 Name=Black Dragon Claw
@@ -62883,18 +63112,20 @@ Texto=Garra del Dragón Negro
 texto=Black Dragon Claw
 
 [OBJ4951]
-GrhIndex=2607
+GrhIndex=87839
 Name=Royal Mount (Fifth Hierarchy)
-Texto=Unique reward from the Royal Faction.
+Texto=Recompensa única de la Facción Real.
 ObjType=44
 Valor=0
+texto=Unique reward from the Royal Faction.
 
 [OBJ4952]
-GrhIndex=21710
+GrhIndex=87241
 Name=Royal Mount (Sixth Hierarchy)
-Texto=Unique reward from the Royal Faction.
+Texto=Recompensa única de la Facción Real.
 ObjType=44
 Valor=0
+texto=Unique reward from the Royal Faction.
 
 [OBJ4953]
 Name=Black Dragon Claw
@@ -62907,46 +63138,52 @@ Texto=Garra del Dragón Negro
 texto=Black Dragon Claw
 
 [OBJ4954]
-GrhIndex=2607
+GrhIndex=87264
 Name=Aztec Mule
-Texto=Exclusive mount available through Patreon
+Texto=Montura exclusiva por Patreon
 ObjType=44
 Valor=6000
+texto=Exclusive mount available through Patreon
 
 [OBJ4955]
-GrhIndex=21710
+GrhIndex=24689
 Name=Moorish Cuirassier
-Texto=It allows you to ride.
+Texto=Te permite cabalgar.
 ObjType=44
 Valor=50000
+texto=It allows you to ride.
 
 [OBJ4956]
-GrhIndex=11381
+GrhIndex=24641
 Name=Combatant Saddle
-Texto=It allows you to ride.
+Texto=Te permite cabalgar.
 ObjType=44
 Valor=50000
+texto=It allows you to ride.
 
 [OBJ4957]
-GrhIndex=2607
+GrhIndex=24666
 Name=White Horse
-Texto=It allows you to ride.
+Texto=Te permite cabalgar.
 ObjType=44
 Valor=50000
+texto=It allows you to ride.
 
 [OBJ4958]
-GrhIndex=21710
+GrhIndex=24669
 Name=Armored Brown Horse
-Texto=It allows you to ride.
+Texto=Te permite cabalgar.
 ObjType=44
 Valor=50000
+texto=It allows you to ride.
 
 [OBJ4959]
-GrhIndex=49064
+GrhIndex=87263
 Name=Mule
-Texto=Mount
+Texto=Montura
 ObjType=44
 Valor=50000
+texto=Mount
 
 [OBJ4960]
 Name=Cofre del Dragón Legendario
@@ -65246,51 +65483,55 @@ RopajeGnoma=2615
 
 [OBJ5996]
 Name=Maná Potion (Alchemy)
-Texto=Restore 5% of your mana
+Texto=Restaura un 5% de tu maná
 GrhIndex=28721
 ObjType=11
 Valor=24
 Hechizo=286
-FlorOceano=1
-FrascoAlq=1
-Mortero=1
-SKPociones=20
+FLOROCEANO=1
+FRASCOALQ=1
+MORTERO=1
+SkPociones=20
+texto=Restore 5% of your mana
 
 [OBJ5997]
 Name=Life Potion (Alchemy)
-Texto=Restore 27 Health points
+Texto=Restaura 27 puntos de Vida
 GrhIndex=28722
 ObjType=11
 Valor=30
 Hechizo=285
-FlorRoja=1
-FrascoAlq=1
-Mortero=1
-SKPociones=0
+FLORROJA=1
+FRASCOALQ=1
+MORTERO=1
+SkPociones=0
+texto=Restore 27 Health points
 
 [OBJ5998]
 Name=Agility Potion (Alchemy)
-Texto=Increase your agility between 3 and 6 points
+Texto=Aumenta tu agilidad entre 3 y 6 puntos
 GrhIndex=28725
 ObjType=11
 Valor=48
 Hechizo=288
-ColaDeZorro=1
-FrascoAlq=1
-Mortero=1
-SKPociones=35
+COLADEZORRO=1
+FRASCOALQ=1
+MORTERO=1
+SkPociones=35
+texto=Increase your agility between 3 and 6 points
 
 [OBJ5999]
 Name=Strength Potion (Alchemy)
-Texto=Increase your strength between 3 and 5 points
+Texto=Aumenta tu fuerza entre 3 y 5 puntos
 GrhIndex=28723
 ObjType=11
 Valor=42
 Hechizo=287
-FrascoAlq=1
-Mortero=1
-SKPociones=40
-Tuna=1
+FRASCOALQ=1
+MORTERO=1
+SkPociones=40
+TUNA=1
+texto=Increase your strength between 3 and 5 points
 
 [OBJ6000]
 Name=Common Clothing
@@ -69615,10 +69856,11 @@ Valor=0
 
 [OBJ6239]
 Name=Rodolfo
-Texto=Exclusive Event Mount
+Texto=Montura exclusiva de Evento
 GrhIndex=24695
 ObjType=44
 Valor=0
+texto=Exclusive Event Mount
 
 [OBJ6243]
 Name=Nudillo de Mithril (Navidad)
