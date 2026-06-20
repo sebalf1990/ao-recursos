@@ -1,7 +1,9 @@
 ' DamageTypes.dat - Registro de tipos de dano (plan 20.002, TOGGLE32 elemental_system).
 ' Metadata tuneable del motor elemental. Si falta, el motor usa defaults internos.
 [INIT]
-TypeCount=7
+TypeCount=8
+CritChancePct=5
+CritMult=0.5
 
 [TYPE1]
 Id=1
@@ -55,6 +57,14 @@ TagElementalRelacionado=0
 Id=7
 Name=Sangrado
 NumberColor=1973960
+DefaultParticle=0
+ResistCapPct=0
+TagElementalRelacionado=0
+
+[TYPE8]
+Id=15
+Name=Critico
+NumberColor=42495
 DefaultParticle=0
 ResistCapPct=0
 TagElementalRelacionado=0

@@ -57,7 +57,7 @@
 
 
 [INIT]
-EffectCount=65
+EffectCount=66
 
 [EOT1] 'regeneracion 3
 Type=1
@@ -862,3 +862,16 @@ TickFX=32
 Override=1
 BuffType=2
 ClientEffectTypeId=45
+
+[EOT66] 'Quemadura (plan 20.002 Ola 1) - DoT de fuego data-driven (eHealthModifier)
+Type=1
+TickPowerMin=-6
+TickPowerMax=-10
+Ticks=4
+TickTime=2000
+Limit=2
+Override=1
+BuffType=2
+TickFX=0
+ClientEffectTypeId=0
+SharedTypeId=0

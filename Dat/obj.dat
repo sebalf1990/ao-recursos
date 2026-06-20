@@ -84825,7 +84825,7 @@ ElemProc1Max=6
 ElemProc2Chance=100
 ElemProc2Kind=1
 ElemProc2Trigger=0
-ElemProc2Eot=0
+ElemProc2Eot=66
 
 [OBJ9065] 'TEST elemental (plan 20.002 Ola 0) - Anillo resistencia al fuego
 Name=Anillo Ignifugo (TEST)
