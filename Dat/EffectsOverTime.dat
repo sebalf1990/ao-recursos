@@ -866,6 +866,7 @@ ClientEffectTypeId=45
 [EOT66] 'Quemadura (plan 20.002 Ola 1) - DoT de fuego data-driven (eHealthModifier)
 Type=1
 TickPowerMin=-6
+DamageColor=36095
 TickPowerMax=-10
 Ticks=4
 TickTime=2000

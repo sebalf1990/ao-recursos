@@ -2,8 +2,8 @@
 NUMEROHECHIZO=412
 NUMLOCALEMSG=2210
 NUMMAPAS=750
-NUMNPCS=9017
-NUMOBJS=9063
+NUMNPCS=9020
+NUMOBJS=9065
 NUMQUESTS=901
 NUMSUGERENCIAS=6
 
@@ -72025,3 +72025,35 @@ Sugerencia4=Did you know that with the /events command you can find out which ev
 Sugerencia5=Did you know you can disable the game's default cursor in Options?
 Sugerencia6=Did you know that to talk globally you just have to enter ";" before your message?
 
+[OBJ9064]
+Name=Test Flame Sword
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+
+[OBJ9065]
+Name=Test Fireproof Ring
+GrhIndex=889
+ObjType=20
+
+[NPC9018]
+Name=Dummy Resist Fuego 50pct (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9019]
+Name=Dummy Inmune Fuego (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9020]
+Name=Dummy Resist Critico (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19

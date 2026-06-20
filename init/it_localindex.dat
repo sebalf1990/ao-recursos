@@ -2,8 +2,8 @@
 NUMEROHECHIZO=412
 NUMLOCALEMSG=2210
 NUMMAPAS=750
-NUMNPCS=9017
-NUMOBJS=9063
+NUMNPCS=9020
+NUMOBJS=9065
 NUMQUESTS=901
 NUMSUGERENCIAS=6
 
@@ -69254,3 +69254,35 @@ Sugerencia4=Sapevi che con il comando /events puoi scoprire quale evento e quand
 Sugerencia5=Sapevi che puoi disattivare il cursore predefinito del gioco nelle Opzioni?
 Sugerencia6=Sapevi che per parlare a livello globale basta inserire ";" prima del messaggio?
 
+[OBJ9064]
+Name=Espada Ignea (TEST)
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+
+[OBJ9065]
+Name=Anillo Ignifugo (TEST)
+GrhIndex=889
+ObjType=20
+
+[NPC9018]
+Name=Dummy Resist Fuego 50pct (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9019]
+Name=Dummy Inmune Fuego (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9020]
+Name=Dummy Resist Critico (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
