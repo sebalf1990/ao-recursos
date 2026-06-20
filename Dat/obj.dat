@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9063
+NumOBJs=9065
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -84795,3 +84795,49 @@ Objtype=24
 Texto=
 en_texto=
 NoWiki=1
+
+[OBJ9064] 'TEST elemental (plan 20.002 Ola 0) - Espada Ignea de prueba
+Name=Espada Ignea (TEST)
+en_Name=Test Flame Sword
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+WeaponType=1
+Anim=68
+Subtipo=0
+Valor=0
+MinELV=1
+peso=15
+Crucial=0
+Texto=Arma de prueba del sistema elemental (plan 20.002).
+ElemCompCount=1
+ElemComp1Type=2
+ElemComp1Min=8
+ElemComp1Max=12
+ElemProcCount=2
+ElemProc1Chance=50
+ElemProc1Kind=0
+ElemProc1Trigger=0
+ElemProc1Type=2
+ElemProc1Min=3
+ElemProc1Max=6
+ElemProc2Chance=100
+ElemProc2Kind=1
+ElemProc2Trigger=0
+ElemProc2Eot=0
+
+[OBJ9065] 'TEST elemental (plan 20.002 Ola 0) - Anillo resistencia al fuego
+Name=Anillo Ignifugo (TEST)
+en_Name=Test Fireproof Ring
+GrhIndex=889
+ObjType=20
+Valor=0
+MinELV=1
+Texto=Anillo de prueba: resistencia al fuego (plan 20.002).
+ElemResistCount=1
+ElemResist1Type=2
+ElemResist1Chance=0
+ElemResist1Flat=2
+ElemResist1Pct=0.5
+ElemResist1Immune=0
