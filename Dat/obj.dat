@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9065
+NumOBJs=9066
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -84842,3 +84842,28 @@ ElemResist1Chance=0
 ElemResist1Flat=2
 ElemResist1Pct=0.5
 ElemResist1Immune=0
+[OBJ9066] 'TEST elemental (plan 20.002 Ola 3) - Espada de Hielo de prueba
+Name=Espada de Hielo (TEST)
+en_Name=Test Ice Sword
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+WeaponType=1
+Anim=68
+Subtipo=0
+Valor=0
+MinELV=1
+peso=15
+Crucial=0
+Texto=Arma de prueba: dano de escarcha + slow (plan 20.002).
+ElemCompCount=1
+ElemComp1Type=3
+ElemComp1Min=4
+ElemComp1Max=7
+ElemProcCount=1
+ElemProc1Chance=100
+ElemProc1Kind=1
+ElemProc1Trigger=0
+ElemProc1Type=3
+ElemProc1Eot=67

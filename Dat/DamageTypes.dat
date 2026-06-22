@@ -4,6 +4,7 @@
 TypeCount=8
 CritChancePct=50
 CritMult=0.5
+SlowFloorPct=0.45
 
 [TYPE1]
 Id=1

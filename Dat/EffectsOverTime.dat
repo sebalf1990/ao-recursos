@@ -57,7 +57,7 @@
 
 
 [INIT]
-EffectCount=66
+EffectCount=67
 
 [EOT1] 'regeneracion 3
 Type=1
@@ -867,6 +867,7 @@ ClientEffectTypeId=45
 Type=1
 TickPowerMin=-6
 DamageColor=36095
+ApplyMsg=Incineraste al objetivo.
 TickPowerMax=-10
 Ticks=4
 TickTime=2000
@@ -875,4 +876,15 @@ Override=1
 BuffType=2
 TickFX=0
 ClientEffectTypeId=0
+SharedTypeId=0
+
+[EOT67] 'Escarcha (plan 20.002 Ola 3) - slow (eApplyModifiers)
+Type=2
+TickTime=6000
+Limit=2
+Override=1
+BuffType=4
+SpeedModifier=-0.3
+ApplyMsg=Ralentizaste al objetivo.
+ClientEffectTypeId=15
 SharedTypeId=0
