@@ -19,7 +19,7 @@
 '4.....Terreno
 
 [INIT]
-NumeroHechizos=412
+NumeroHechizos=413
 
 ' ===Hechizos de entrenamiento posta [1 A 10]
 
@@ -6470,3 +6470,34 @@ it_Nombre=Battito Ardente (NPC)
 it_Desc=Causa da 30 a 40 punti di danno alla vittima.
 it_HechizeroMsg=Hai lanciato Fiery Heartbeat su
 
+[HECHIZO413]
+Nombre=Encantar Arma con Fuego (TEST)
+Desc=Encanta tu arma con Fuego por 30s (dano de fuego + Quemadura). Plan 20.002.
+PalabrasMagicas=ENC ARM FUE
+HechizeroMsg=Has encantado el arma de
+TargetMsg=ha encantado tu arma con Fuego.
+PropioMsg=Encantaste tu arma con Fuego.
+en_name=Enchant Weapon - Fire (TEST)
+en_Desc=Enchants your weapon with Fire for 30s.
+TargetEffectType=1
+Tipo=2
+WAV=18
+FXgrh=9
+loops=0
+MinSkill=1
+ManaRequerido=80
+StaRequerido=10
+Target=1
+AutoLanzar=0
+IconoIndex=35692
+EnchantWeaponDurationMs=30000
+ElemCompCount=1
+ElemComp1Type=2
+ElemComp1Min=4
+ElemComp1Max=8
+ElemProcCount=1
+ElemProc1Chance=100
+ElemProc1Kind=1
+ElemProc1Trigger=0
+ElemProc1Type=2
+ElemProc1Eot=66

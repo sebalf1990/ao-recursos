@@ -1,5 +1,5 @@
 [INIT]
-NUMEROHECHIZO=412
+NUMEROHECHIZO=413
 NUMLOCALEMSG=2210
 NUMMAPAS=750
 NUMNPCS=9024
@@ -69340,3 +69340,12 @@ Desc=Dummy
 Body=4428
 HP=1000000
 NpcType=19
+[HECHIZO413]
+Nombre=Encantar Arma con Fuego (TEST)
+Desc=Encanta tu arma con Fuego por 30s.
+PalabrasMagicas=ENC ARM FUE
+ManaRequerido=80
+MinSkill=1
+StaRequerido=10
+IconoIndex=35692
+PropioMsg=Encantaste tu arma con Fuego.
