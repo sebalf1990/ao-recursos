@@ -2,8 +2,8 @@
 NUMEROHECHIZO=412
 NUMLOCALEMSG=2210
 NUMMAPAS=750
-NUMNPCS=9021
-NUMOBJS=9066
+NUMNPCS=9024
+NUMOBJS=9069
 NUMQUESTS=901
 NUMSUGERENCIAS=6
 
@@ -72066,6 +72066,47 @@ MaxHit=5
 
 [NPC9021]
 Name=Dummy Resist Escarcha (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+[OBJ9067]
+Name=Test Acid Sword
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+
+[OBJ9068]
+Name=Test Arcane Sword
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+
+[OBJ9069]
+Name=Test Bleed Sword
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+
+[NPC9022]
+Name=Dummy Resist Acido (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9023]
+Name=Dummy Resist Arcano (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9024]
+Name=Dummy Resist Sangrado (TEST)
 Desc=Dummy
 Body=4428
 HP=1000000

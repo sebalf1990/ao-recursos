@@ -57,7 +57,7 @@
 
 
 [INIT]
-EffectCount=67
+EffectCount=69
 
 [EOT1] 'regeneracion 3
 Type=1
@@ -887,4 +887,29 @@ BuffType=4
 SpeedModifier=-0.3
 ApplyMsg=Ralentizaste al objetivo.
 ClientEffectTypeId=15
+SharedTypeId=0
+
+[EOT68] 'Corrosion (plan 20.002 Ola 4) - acido: baja defensa (eApplyModifiers)
+Type=2
+TickTime=8000
+Limit=2
+Override=1
+BuffType=4
+DefenseBonus=-15
+ApplyMsg=Corroiste la defensa del objetivo.
+ClientEffectTypeId=0
+SharedTypeId=0
+
+[EOT69] 'Sangrado (plan 20.002 Ola 4) - DoT fisico que no frena la armadura (eHealthModifier)
+Type=1
+TickPowerMin=-5
+TickPowerMax=-9
+Ticks=5
+TickTime=2000
+Limit=2
+Override=1
+BuffType=2
+DamageColor=1973960
+ApplyMsg=Hiciste sangrar al objetivo.
+ClientEffectTypeId=0
 SharedTypeId=0

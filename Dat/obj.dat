@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9066
+NumOBJs=9069
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -84867,3 +84867,71 @@ ElemProc1Kind=1
 ElemProc1Trigger=0
 ElemProc1Type=3
 ElemProc1Eot=67
+[OBJ9067] 'TEST elemental (plan 20.002 Ola 4)
+Name=Espada Acida (TEST)
+en_Name=Test Acid Sword
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+WeaponType=1
+Anim=68
+Subtipo=0
+Valor=0
+MinELV=1
+peso=15
+Crucial=0
+Texto=Arma de prueba: dano acido + corrosion (baja defensa).
+ElemCompCount=1
+ElemComp1Type=5
+ElemComp1Min=6
+ElemComp1Max=10
+ElemProcCount=1
+ElemProc1Chance=100
+ElemProc1Kind=1
+ElemProc1Trigger=0
+ElemProc1Type=5
+ElemProc1Eot=68
+
+[OBJ9068] 'TEST elemental (plan 20.002 Ola 4)
+Name=Espada Arcana (TEST)
+en_Name=Test Arcane Sword
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+WeaponType=1
+Anim=68
+Subtipo=0
+Valor=0
+MinELV=1
+peso=15
+Crucial=0
+Texto=Arma de prueba: dano arcano (usa resist arcana, no la magica).
+ElemCompCount=1
+ElemComp1Type=6
+ElemComp1Min=8
+ElemComp1Max=12
+
+[OBJ9069] 'TEST elemental (plan 20.002 Ola 4)
+Name=Espada Sangrante (TEST)
+en_Name=Test Bleed Sword
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+WeaponType=1
+Anim=68
+Subtipo=0
+Valor=0
+MinELV=1
+peso=15
+Crucial=0
+Texto=Arma de prueba: sangrado (DoT fisico que ignora armadura).
+ElemProcCount=1
+ElemProc1Chance=100
+ElemProc1Kind=1
+ElemProc1Trigger=0
+ElemProc1Type=7
+ElemProc1Eot=69
+

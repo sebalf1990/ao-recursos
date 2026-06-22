@@ -3,7 +3,7 @@
 'Reorganización Masiva.
 
 [INIT]
-NumNPCs=9021
+NumNPCs=9024
 
 'SPOTS LIBRES<<<<<<<<<<<<<<<<<<<<<<<<<<<#
 '16 al 23  		Comerciantes			#
@@ -27521,3 +27521,76 @@ ElemResistCount=1
 ElemResist1Type=3
 ElemResist1EffChance=100
 ElemResist1Immune=0
+[NPC9022] 'TEST elemental (plan 20.002 Ola 4)
+Name=Dummy Resist Acido (TEST)
+Desc=Dummy
+ShowName=1
+NpcType=19
+Body=4428
+Animaciones=1
+Anim1=4427
+Heading=3
+Movement=1
+Attackable=1
+MinHP=1000000
+MaxHP=1000000
+en_desc=Dummy
+DEF=30
+TranslationInmune=1
+NPCLVL=30
+MagicResistance=5
+MagicDef=10
+ElemResistCount=1
+ElemResist1Type=5
+ElemResist1Pct=0.5
+ElemResist1EffChance=50
+ElemResist1Immune=0
+
+[NPC9023] 'TEST elemental (plan 20.002 Ola 4)
+Name=Dummy Resist Arcano (TEST)
+Desc=Dummy
+ShowName=1
+NpcType=19
+Body=4428
+Animaciones=1
+Anim1=4427
+Heading=3
+Movement=1
+Attackable=1
+MinHP=1000000
+MaxHP=1000000
+en_desc=Dummy
+DEF=30
+TranslationInmune=1
+NPCLVL=30
+MagicResistance=5
+MagicDef=10
+ElemResistCount=1
+ElemResist1Type=6
+ElemResist1Pct=0.5
+ElemResist1Immune=0
+
+[NPC9024] 'TEST elemental (plan 20.002 Ola 4)
+Name=Dummy Resist Sangrado (TEST)
+Desc=Dummy
+ShowName=1
+NpcType=19
+Body=4428
+Animaciones=1
+Anim1=4427
+Heading=3
+Movement=1
+Attackable=1
+MinHP=1000000
+MaxHP=1000000
+en_desc=Dummy
+DEF=30
+TranslationInmune=1
+NPCLVL=30
+MagicResistance=5
+MagicDef=10
+ElemResistCount=1
+ElemResist1Type=7
+ElemResist1EffChance=100
+ElemResist1Immune=0
+
