@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9070
+NumOBJs=9072
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -84944,3 +84944,42 @@ HechizoIndex=413
 Valor=0
 Crucial=0
 Texto=Pergamino de prueba: ensena Encantar Arma con Fuego (plan 20.002).
+[OBJ9071] 'TEST elemental (plan 20.002 Ola 4) - Aceite Igneo (encanta arma 30s)
+Name=Aceite Igneo (TEST)
+en_Name=Test Fire Oil
+GrhIndex=28750
+ObjType=11
+Valor=0
+MinELV=1
+Texto=Aceite de prueba: encanta tu arma con Fuego por 30s (demo).
+EnchantWeaponDurationMs=30000
+ElemCompCount=1
+ElemComp1Type=2
+ElemComp1Min=4
+ElemComp1Max=8
+ElemProcCount=1
+ElemProc1Chance=100
+ElemProc1Kind=1
+ElemProc1Trigger=0
+ElemProc1Type=2
+ElemProc1Eot=66
+
+[OBJ9072] 'TEST elemental (plan 20.002 Ola 4) - Orbe Igneo (encanta arma permanente demo)
+Name=Orbe Igneo (TEST)
+en_Name=Test Fire Orb
+GrhIndex=609
+ObjType=11
+Valor=0
+MinELV=1
+Texto=Orbe de prueba: encanta tu arma con Fuego permanente (demo; se pierde al deslogear).
+EnchantWeaponDurationMs=-1
+ElemCompCount=1
+ElemComp1Type=2
+ElemComp1Min=4
+ElemComp1Max=8
+ElemProcCount=1
+ElemProc1Chance=100
+ElemProc1Kind=1
+ElemProc1Trigger=0
+ElemProc1Type=2
+ElemProc1Eot=66
