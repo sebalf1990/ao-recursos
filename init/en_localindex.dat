@@ -3,7 +3,7 @@ NUMEROHECHIZO=413
 NUMLOCALEMSG=2210
 NUMMAPAS=750
 NUMNPCS=9024
-NUMOBJS=9069
+NUMOBJS=9070
 NUMQUESTS=901
 NUMSUGERENCIAS=6
 
@@ -72120,3 +72120,8 @@ MinSkill=1
 StaRequerido=10
 IconoIndex=35692
 PropioMsg=Encantaste tu arma con Fuego.
+[OBJ9070]
+Name=Scroll Enchant Weapon Fire (TEST)
+GrhIndex=609
+ObjType=24
+Hechizo=413

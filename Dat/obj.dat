@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9069
+NumOBJs=9070
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -84935,3 +84935,12 @@ ElemProc1Trigger=0
 ElemProc1Type=7
 ElemProc1Eot=69
 
+[OBJ9070] 'TEST elemental (plan 20.002 Ola 4) - Pergamino Encantar Arma con Fuego
+Name=Pergamino Encantar Arma Fuego (TEST)
+en_Name=Scroll Enchant Weapon Fire (TEST)
+GrhIndex=609
+ObjType=24
+HechizoIndex=413
+Valor=0
+Crucial=0
+Texto=Pergamino de prueba: ensena Encantar Arma con Fuego (plan 20.002).
