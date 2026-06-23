@@ -3,7 +3,7 @@
 'Reorganización Masiva.
 
 [INIT]
-NumNPCs=9024
+NumNPCs=9025
 
 'SPOTS LIBRES<<<<<<<<<<<<<<<<<<<<<<<<<<<#
 '16 al 23  		Comerciantes			#
@@ -27594,3 +27594,41 @@ ElemResist1Type=7
 ElemResist1EffChance=100
 ElemResist1Immune=0
 
+[NPC9025] 'TEST elemental (plan 20.002 PvP) - Bicho de Fuego: fisico 1/1 + Fuego 2-4 + Quemadura
+Name=Bicho de Fuego (TEST)
+ShowName=1
+en_Name=Test Fire Critter
+Head=0
+BodyIdle=4207
+Body=4208
+Ataque1=4206
+Heading=3
+Movement=3
+Alineacion=0
+Veneno=0
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=200
+MaxHP=200
+MaxHIT=1
+MinHIT=1
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=100
+PoderEvasion=0
+Humanoide=0
+NPCLVL=1
+ElemCompCount=1
+ElemComp1Type=2
+ElemComp1Min=2
+ElemComp1Max=4
+ElemProcCount=1
+ElemProc1Chance=100
+ElemProc1Kind=1
+ElemProc1Trigger=0
+ElemProc1Type=2
+ElemProc1Eot=66
