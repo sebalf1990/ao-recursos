@@ -35,7 +35,7 @@ Id=4
 Name=Veneno
 NumberColor=3983480
 DefaultParticle=0
-ResistCapPct=0
+ResistCapPct=1
 TagElementalRelacionado=0
 
 [TYPE5]
