@@ -84964,15 +84964,14 @@ ElemProc1Trigger=0
 ElemProc1Type=2
 ElemProc1Eot=66
 
-[OBJ9072] 'TEST elemental (plan 20.002 Ola 4) - Orbe Igneo (encanta arma permanente demo)
+[OBJ9072] 'TEST elemental (plan 20.002 Ola 4) - Orbe Igneo (equipable; efecto mientras este equipado)
 Name=Orbe Igneo (TEST)
 en_Name=Test Fire Orb
-GrhIndex=609
-ObjType=11
+GrhIndex=969
+ObjType=21
 Valor=0
 MinELV=1
-Texto=Orbe de prueba: encanta tu arma con Fuego permanente (demo; se pierde al deslogear).
-EnchantWeaponDurationMs=-1
+Texto=Orbe de prueba: equipalo y tus golpes aplican Fuego + Quemadura (motor alcanza el orbe).
 ElemCompCount=1
 ElemComp1Type=2
 ElemComp1Min=4
