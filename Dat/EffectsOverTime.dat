@@ -57,7 +57,7 @@
 
 
 [INIT]
-EffectCount=69
+EffectCount=70
 
 [EOT1] 'regeneracion 3
 Type=1
@@ -918,3 +918,23 @@ GolpesQueSumanStacks=1
 IntervaloDecayStackMs=4000
 ClientEffectTypeId=0
 SharedTypeId=0
+
+[EOT70] 'Quemadura Acumulativa (plan 20.002 Ola 5 Step 3b) - DoT de fuego con stacks
+Type=1
+TickPowerMin=-4
+TickPowerMax=-6
+Ticks=6
+TickTime=2000
+Limit=2
+Override=1
+BuffType=2
+DamageColor=36095
+ApplyMsg=Incineraste al objetivo (acumulativo).
+StacksMax=5
+DanoPorStackMin=-2
+DanoPorStackMax=-2
+GolpesQueSumanStacks=1
+IntervaloDecayStackMs=4000
+ClientEffectTypeId=0
+SharedTypeId=0
+TickFX=0

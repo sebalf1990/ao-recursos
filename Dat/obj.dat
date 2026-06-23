@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9072
+NumOBJs=9073
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -84982,3 +84982,25 @@ ElemProc1Kind=1
 ElemProc1Trigger=0
 ElemProc1Type=2
 ElemProc1Eot=66
+
+[OBJ9073] 'TEST elemental (plan 20.002 Ola 5 Step 3b) - Quemadura ACUMULATIVA (stacks)
+Name=Espada Ignea Acumulativa (TEST)
+en_Name=Test Stacking Fire Sword
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+WeaponType=1
+Anim=68
+Subtipo=0
+Valor=0
+MinELV=1
+peso=15
+Crucial=0
+Texto=Arma de prueba: Quemadura ACUMULATIVA (cada golpe suma un stack de fuego).
+ElemProcCount=1
+ElemProc1Chance=100
+ElemProc1Kind=1
+ElemProc1Trigger=0
+ElemProc1Type=2
+ElemProc1Eot=70
