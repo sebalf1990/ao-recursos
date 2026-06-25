@@ -6491,6 +6491,7 @@ Target=1
 AutoLanzar=0
 IconoIndex=35692
 EnchantWeaponDurationMs=30000
+CargasQueOtorga=5
 ElemCompCount=1
 ElemComp1Type=2
 ElemComp1Min=4
