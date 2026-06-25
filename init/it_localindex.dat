@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=413
-NUMLOCALEMSG=2210
+NUMLOCALEMSG=2211
 NUMMAPAS=750
 NUMNPCS=9025
 NUMOBJS=9075
@@ -2166,6 +2166,7 @@ Msg2208=Non puoi assegnare punti a una professione che non hai appreso.
 Msg2209=Questo maestro non compra oggetti.
 Msg2210=La classe Lavoratore non e disponibile con professioni apprendibili attive.
 
+Msg2211=Hai inflitto ¬1 di ¬2 alla creatura.
 [QUEST1]
 Nombre=Riposo finale
 Desc=13 bambini sepolti, 13 volte dovevo andare in quel posto, ma hai solo una possibilità di partire in vita in questa commissione, le dannate tombe sono vicino al mausoleo del cimitero di Nix.

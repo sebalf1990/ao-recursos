@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=413
-NUMLOCALEMSG=2210
+NUMLOCALEMSG=2211
 NUMMAPAS=750
 NUMNPCS=9025
 NUMOBJS=9075
@@ -2166,6 +2166,7 @@ Msg2208=You cannot assign points to a profession you have not learned.
 Msg2209=This master does not buy items.
 Msg2210=The Worker class is not available while learnable professions are enabled.
 
+Msg2211=You dealt ¬1 of ¬2 to the creature.
 [QUEST1]
 Nombre=Final Rest
 Desc=I buried 13 children, 13 times I had to go to that place, but you have only one chance to get out alive on this mission, the cursed tombs are near the mausoleum of the Nix Cemetery

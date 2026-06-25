@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=413
-NUMLOCALEMSG=2210
+NUMLOCALEMSG=2211
 NUMMAPAS=750
 NUMNPCS=9025
 NUMOBJS=9075
@@ -2166,6 +2166,7 @@ Msg2208=Vous ne pouvez pas attribuer de points a une profession non apprise.
 Msg2209=Ce maitre n'achete pas d'objets.
 Msg2210=La classe Travailleur n est pas disponible lorsque les professions apprenables sont actives.
 
+Msg2211=Vous avez inflige ¬1 de ¬2 a la creature.
 [QUEST1]
 Nombre=Repos final
 Desc=13 enfants enterrés, 13 fois, j'ai dû aller à cet endroit, mais vous n'avez qu'une seule chance de partir en vie dans cette commission, les putain de tombes sont près du mausolée du cimetière Nix.

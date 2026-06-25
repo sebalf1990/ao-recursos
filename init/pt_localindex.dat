@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=413
-NUMLOCALEMSG=2210
+NUMLOCALEMSG=2211
 NUMMAPAS=750
 NUMNPCS=9025
 NUMOBJS=9075
@@ -2166,6 +2166,7 @@ Msg2208=Voce nao pode atribuir pontos a uma profissao que nao aprendeu.
 Msg2209=Este mestre nao compra itens.
 Msg2210=A classe Trabalhador nao esta disponivel com profissoes aprendiveis ativas.
 
+Msg2211=Causaste ¬1 de ¬2 a criatura.
 [QUEST1]
 Nombre=Descanso final
 Desc=13 crianças enterradas, 13 vezes eu tive que ir para esse lugar, mas você tem apenas uma chance de sair vivo nesta comissão, os malditos túmulos estão perto do mausoléu do cemitério Nix.

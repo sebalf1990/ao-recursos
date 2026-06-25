@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=413
-NUMLOCALEMSG=2210
+NUMLOCALEMSG=2211
 NUMMAPAS=750
 NUMNPCS=9025
 NUMOBJS=9075
@@ -68968,6 +68968,7 @@ Msg2197=Evento> El NPC ha sido asesinado.
 Msg2198=Clan> [¬1] ha marcado a ¬2 en ¬3 (¬4-¬5).
 Msg2199=Primero debes seleccionar un NPC para marcar.
 
+Msg2211=Le has causado ¬1 de ¬2 a la criatura.
 [SP_SUGERENCIAS]
 Sugerencia1=¿Sabías quepodes meditar simplemente tocandotu barra de maná. ¡Probalo!
 Sugerencia2=¿Sabías que luchar contra los npcs sube tu skill en supervivencia?
