@@ -3,7 +3,7 @@ NUMEROHECHIZO=413
 NUMLOCALEMSG=2210
 NUMMAPAS=750
 NUMNPCS=9025
-NUMOBJS=9073
+NUMOBJS=9075
 NUMQUESTS=901
 NUMSUGERENCIAS=6
 
@@ -72147,3 +72147,27 @@ GrhIndex=49167
 ObjType=2
 MinHit=3
 MaxHit=5
+[OBJ9074]
+Name=Armadura de Espinas (TEST)
+GrhIndex=2553
+RopajeHumano=63
+RopajeElfo=63
+RopajeElfoOscuro=1547
+RopajeEnano=547
+RopajeOrco=1047
+RopajeGnomo=547
+RopajeHumana=2047
+RopajeElfa=2047
+RopajeElfaOscura=1547
+RopajeEnana=2547
+RopajeOrca=1047
+RopajeGnoma=2547
+ObjType=3
+MaxDef=10
+MinDef=8
+[OBJ9075]
+Name=Casco de Espinas (TEST)
+GrhIndex=559
+ObjType=17
+MaxDef=10
+MinDef=8

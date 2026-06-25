@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9073
+NumOBJs=9075
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -85005,3 +85005,66 @@ ElemProc1Kind=1
 ElemProc1Trigger=0
 ElemProc1Type=2
 ElemProc1Eot=70
+[OBJ9074] 'TEST elemental (plan 20.002 TP2) - Armadura de Espinas
+Name=Armadura de Espinas (TEST)
+en_Name=Test Thorns Armor
+GrhIndex=2553
+RopajeHumano=63
+RopajeElfo=63
+RopajeElfoOscuro=1547
+RopajeEnano=547
+RopajeOrco=1047
+RopajeGnomo=547
+RopajeHumana=2047
+RopajeElfa=2047
+RopajeElfaOscura=1547
+RopajeEnana=2547
+RopajeOrca=1047
+RopajeGnoma=2547
+ObjType=3
+MaxDef=10
+MinDef=8
+MinELV=1
+Texto=Armadura de prueba con espinas (plan 20.002 TP2).
+ElemProcCount=2
+ElemProc1Chance=100
+ElemProc1Kind=0
+ElemProc1Trigger=1
+ElemProc1Physical=1
+ElemProc1Min=5
+ElemProc1Max=8
+ElemProc1BypassResist=1
+ElemProc1Lethal=0
+ElemProc2Chance=100
+ElemProc2Kind=0
+ElemProc2Trigger=1
+ElemProc2Type=2
+ElemProc2ReflectPct=25
+ElemProc2BypassResist=0
+ElemProc2Lethal=0
+[OBJ9075] 'TEST elemental (plan 20.002 TP2) - Casco de Espinas
+Name=Casco de Espinas (TEST)
+en_Name=Test Thorns Helmet
+GrhIndex=559
+Anim=0
+ObjType=17
+MaxDef=10
+MinDef=8
+MinELV=1
+Texto=Casco de prueba con espinas. Se equipa pero no cambia el sprite (Anim=0).
+ElemProcCount=2
+ElemProc1Chance=100
+ElemProc1Kind=0
+ElemProc1Trigger=1
+ElemProc1Physical=1
+ElemProc1Min=5
+ElemProc1Max=8
+ElemProc1BypassResist=1
+ElemProc1Lethal=0
+ElemProc2Chance=100
+ElemProc2Kind=0
+ElemProc2Trigger=1
+ElemProc2Type=2
+ElemProc2ReflectPct=25
+ElemProc2BypassResist=0
+ElemProc2Lethal=0
