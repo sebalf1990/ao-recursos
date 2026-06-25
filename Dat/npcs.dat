@@ -27204,7 +27204,9 @@ PoderAtaque=0
 PoderEvasion=0
 Humanoide=0
 NPCLVL=1
-InmunidadVenenoMenor=1
+ElemResistCount=1
+ElemResist1Type=4
+ElemResist1ImmuneEff=1
 
 [NPC9011] 'Arana-test recreada del 6/6 (ex-NPC1808, clobbereada por sync 6/8); plan 15.001
 Name=Arana Test Inmune Hemo
@@ -27234,7 +27236,6 @@ PoderAtaque=0
 PoderEvasion=0
 Humanoide=0
 NPCLVL=1
-InmunidadHemo=1
 
 [NPC9012] 'Arana-test recreada del 6/6 (ex-NPC1809, clobbereada por sync 6/8); plan 15.001
 Name=Arana Test Inmune Neuro
@@ -27264,7 +27265,6 @@ PoderAtaque=0
 PoderEvasion=0
 Humanoide=0
 NPCLVL=1
-InmunidadNeuro=1
 
 [NPC9013] 'Arana-test recreada del 6/6 (ex-NPC1810, clobbereada por sync 6/8); plan 15.001
 Name=Arana Test Resist Menor
@@ -27294,9 +27294,13 @@ PoderAtaque=0
 PoderEvasion=0
 Humanoide=0
 NPCLVL=1
-ResistChanceVenenoMenorPct=50
-ResistDanoVenenoMenorFlat=3
-ResistDanoVenenoMenorPct=50
+ElemResistCount=1
+ElemResist1Type=4
+ElemResist1EffChance=50
+ElemResist1FlatMin=3
+ElemResist1FlatMax=3
+ElemResist1PctMin=50
+ElemResist1PctMax=50
 
 [NPC9014] 'Arana-test recreada del 6/6 (ex-NPC1811, clobbereada por sync 6/8); plan 15.001
 Name=Arana Test Resist Hemo
@@ -27326,9 +27330,6 @@ PoderAtaque=0
 PoderEvasion=0
 Humanoide=0
 NPCLVL=1
-ResistChanceHemoPct=50
-ResistDanoHemoFlat=3
-ResistDanoHemoPct=50
 
 [NPC9015] 'Arana-test recreada del 6/6 (ex-NPC1812, clobbereada por sync 6/8); plan 15.001
 Name=Arana Test Resist Neuro
@@ -27358,9 +27359,6 @@ PoderAtaque=0
 PoderEvasion=0
 Humanoide=0
 NPCLVL=1
-ResistChanceNeuroPct=50
-ResistDanoNeuroFlat=3
-ResistDanoNeuroPct=50
 
 [NPC9016] 'Arana-test recreada del 6/6 (ex-NPC1813, clobbereada por sync 6/8); plan 15.001
 Name=Arana Test Inmune General
@@ -27390,7 +27388,6 @@ PoderAtaque=0
 PoderEvasion=0
 Humanoide=0
 NPCLVL=1
-InmunidadVenenoGenerica=1
 
 [NPC9017] 'Arana-test recreada del 6/6 (ex-NPC1814, clobbereada por sync 6/8); plan 15.001
 Name=Arana Test Resist General
@@ -27420,9 +27417,6 @@ PoderAtaque=0
 PoderEvasion=0
 Humanoide=0
 NPCLVL=1
-ResistChanceVenenoGenericoPct=50
-ResistDanoVenenoGenericoFlat=3
-ResistDanoVenenoGenericoPct=50
 
 [NPC9018] 'TEST elemental (plan 20.002 Ola 0)
 Name=Dummy Resist Fuego 50pct (TEST)
