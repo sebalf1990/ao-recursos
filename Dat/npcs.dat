@@ -27236,6 +27236,23 @@ PoderAtaque=0
 PoderEvasion=0
 Humanoide=0
 NPCLVL=1
+' Espinas de test (plan 20.002 TP1): fija fisica + reflejo % fuego resistido
+ElemProcCount=2
+ElemProc1Chance=100
+ElemProc1Kind=0
+ElemProc1Trigger=1
+ElemProc1Physical=1
+ElemProc1Min=5
+ElemProc1Max=8
+ElemProc1BypassResist=1
+ElemProc1Lethal=0
+ElemProc2Chance=100
+ElemProc2Kind=0
+ElemProc2Trigger=1
+ElemProc2Type=2
+ElemProc2ReflectPct=25
+ElemProc2BypassResist=0
+ElemProc2Lethal=0
 
 [NPC9012] 'Arana-test recreada del 6/6 (ex-NPC1809, clobbereada por sync 6/8); plan 15.001
 Name=Arana Test Inmune Neuro
