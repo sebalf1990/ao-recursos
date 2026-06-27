@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9075
+NumOBJs=9076
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -85068,3 +85068,25 @@ ElemProc2Type=2
 ElemProc2ReflectPct=25
 ElemProc2BypassResist=0
 ElemProc2Lethal=0
+
+[OBJ9076] 'TEST elemental (plan 20.002 CP1 ammo) - Aceite Igneo de Flechas (encanta flechas 30s)
+Name=Aceite Igneo de Flechas (TEST)
+en_Name=Test Fire Arrow Oil
+GrhIndex=28750
+ObjType=11
+Valor=0
+MinELV=1
+Texto=Aceite de prueba: encanta tus flechas equipadas con Fuego por 30s (5 cargas).
+EnchantAmmoDurationMs=30000
+CargasQueOtorga=5
+ElemCompCount=1
+ElemComp1Type=2
+ElemComp1Min=4
+ElemComp1Max=8
+ElemProcCount=1
+ElemProc1Chance=100
+ElemProc1Kind=1
+ElemProc1Trigger=0
+ElemProc1Type=2
+ElemProc1Eot=66
+
