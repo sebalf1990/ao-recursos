@@ -874,8 +874,8 @@ TickTime=2000
 Limit=2
 Override=1
 BuffType=2
-TickFX=0
-ClientEffectTypeId=0
+TickFX=21
+ClientEffectTypeId=53
 SharedTypeId=0
 
 [EOT67] 'Escarcha (plan 20.002 Ola 3) - slow (eApplyModifiers)
@@ -897,7 +897,7 @@ Override=1
 BuffType=4
 DefenseBonus=-15
 ApplyMsg=Corroiste la defensa del objetivo.
-ClientEffectTypeId=0
+ClientEffectTypeId=54
 SharedTypeId=0
 
 [EOT69] 'Sangrado (plan 20.002 Ola 4) - DoT fisico que no frena la armadura (eHealthModifier)
@@ -916,8 +916,9 @@ DanoPorStackMin=-2
 DanoPorStackMax=-2
 GolpesQueSumanStacks=1
 IntervaloDecayStackMs=4000
-ClientEffectTypeId=0
+ClientEffectTypeId=55
 SharedTypeId=0
+TickFX=14
 
 [EOT70] 'Quemadura Acumulativa (plan 20.002 Ola 5 Step 3b) - DoT de fuego con stacks
 Type=1
@@ -935,6 +936,6 @@ DanoPorStackMin=-2
 DanoPorStackMax=-2
 GolpesQueSumanStacks=1
 IntervaloDecayStackMs=4000
-ClientEffectTypeId=0
+ClientEffectTypeId=56
 SharedTypeId=0
-TickFX=0
+TickFX=21
