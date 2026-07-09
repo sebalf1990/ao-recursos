@@ -408,12 +408,14 @@ CP10=GUERRERO
 CP11=CLERIGO
 CP12=MAGO
 MinELV=1
-Valor=600
 Anim=134
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Hacha Orca
 en_name=Orc axe
 WeaponType=7
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ4]
 Name=Árbol
@@ -639,8 +641,8 @@ ObjType=19
 Name=Porción de Tarta
 GrhIndex=515
 ObjType=1
-MinHam=45
-Valor=7
+MinHam=30
+Valor=8
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Restaura 45 puntos de hambre
 en_name=Cake slice
@@ -661,8 +663,8 @@ en_texto=Restores 15 hunger points
 Name=Pan de Trigo
 GrhIndex=55450
 ObjType=1
-MinHam=25
-Valor=6
+MinHam=40
+Valor=10
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Restaura 25 puntos de hambre
 en_name=Wheat bread
@@ -672,8 +674,8 @@ en_texto=Restores 25 hunger points
 Name=Pan de Maíz
 GrhIndex=518
 ObjType=1
-MinHam=35
-Valor=7
+MinHam=40
+Valor=10
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Restaura 35 puntos de hambre
 en_name=Cornbread
@@ -683,8 +685,8 @@ en_texto=Restores 35 hunger points
 Name=Galletas
 GrhIndex=28882
 ObjType=1
-MinHam=40
-Valor=9
+MinHam=20
+Valor=6
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Restaura 40 puntos de hambre
 en_name=Corn bread
@@ -694,8 +696,8 @@ en_texto=Restores 40 hunger points
 Name=Pollo
 GrhIndex=28827
 ObjType=1
-MinHam=75
-Valor=16
+MinHam=90
+Valor=17
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Restaura 75 puntos de hambre
 en_name=Chicken
@@ -705,8 +707,8 @@ en_texto=Restores 75 hunger points
 Name=Chuleta
 GrhIndex=52077
 ObjType=1
-MinHam=60
-Valor=14
+MinHam=70
+Valor=16
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Restaura 60 puntos de hambre
 en_name=Chop
@@ -716,8 +718,8 @@ en_texto=Restores 60 hunger points
 Name=Queso de Cabra
 GrhIndex=52081
 ObjType=1
-MinHam=55
-Valor=13
+MinHam=50
+Valor=12
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Restaura 55 puntos de hambre
 en_name=Goat cheese
@@ -727,8 +729,8 @@ en_texto=Restores 55 hunger points
 Name=Sandia
 GrhIndex=523
 ObjType=1
-MinHam=50
-Valor=7
+MinHam=20
+Valor=6
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Restaura 50 puntos de hambre
 en_name=Watermelon
@@ -857,6 +859,8 @@ Name=Jamón
 Texto=Restaura 40 puntos de hambre
 ObjType=1
 Valor=12
+Crucial=1
+MinHam=40
 
 [OBJ35]
 Name=Vestimenta Común
@@ -979,12 +983,12 @@ en_texto=Increase your strength between 2 and 5 points
 Name=Flauta Élfica
 GrhIndex=538
 Objtype=30
-Valor=12000
-SkCarpinteria=100
-MagicDamageBonus=7
+Valor=9600
+SkCarpinteria=90
+MagicDamageBonus=8
 MagicPenetration=0
 Crucial=1
-MaderaElfica=900
+MaderaElfica=2100
 Texto=Aumenta el daño mágico un 7%.
 CP1=BANDIDO
 CP2=LADRON
@@ -1001,17 +1005,18 @@ MinELV=25
 Revive=1
 en_name=Elven flute
 en_texto=Increases magic damage by 7%.
+Madera=1000
 
 [OBJ41]
 Name=Laúd Élfico
 GrhIndex=30866
 VGrande=501
-Valor=8000
+Valor=8700
 Objtype=30
 Crucial=1
-SkCarpinteria=100
-MaderaElfica=600
-MagicDamageBonus=6
+SkCarpinteria=85
+MaderaElfica=2100
+MagicDamageBonus=7
 MagicPenetration=0
 Texto=Aumenta el daño mágico un 6%.
 CP1=BANDIDO
@@ -1031,13 +1036,14 @@ en_name=Elven Lute
 en_texto=Increases magic damage by 6%.
 
 '**************************** BEBIDAS ****************************
+Madera=700
 
 [OBJ42]
 Name=Vino
 GrhIndex=52093
 ObjType=13
-MinAgu=80
-Valor=25
+MinAgu=60
+Valor=21
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Restaura 80 puntos de sed
 en_name=Wine
@@ -1048,8 +1054,8 @@ ApplyEffectId=10
 Name=Botella de Agua
 GrhIndex=537
 ObjType=13
-MinAgu=30
-Valor=10
+MinAgu=20
+Valor=6
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Restaura 30 puntos de sed
 en_name=Water bottle
@@ -1063,6 +1069,8 @@ ObjType=2
 Valor=12
 MaxHit=3
 MinHit=1
+Crucial=1
+WeaponType=2
 
 [OBJ45]
 Name=Hacha de Pino Nudoso
@@ -1091,6 +1099,18 @@ Anim=147
 Crucial=0 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Necesaria para Minar Yacimiento de Blodium.
 en_texto=Needed to Mine Blodium Deposit.
+MinELV=28
+CP1=ASESINO
+CP2=BANDIDO
+CP3=BARDO
+CP4=CAZADOR
+CP5=CLERIGO
+CP6=DRUIDA
+CP7=GUERRERO
+CP8=LADRON
+CP9=MAGO
+CP10=PALADIN
+CP11=PIRATA
 
 [OBJ47]
 Name=Protección de GM
@@ -1303,6 +1323,7 @@ valor=3
 subastable=1000
 Texto=Leña
 en_Name=firewood
+Crucial=1
 
 [OBJ59]
 Name=Árbol
@@ -2780,8 +2801,8 @@ Texto=Copa de Plata
 Name=Banana
 GrhIndex=55451
 ObjType=1
-MinHAM=10
-Valor=2
+MinHAM=15
+Valor=6
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Restaura 10 puntos de hambre
 en_texto=Restores 10 hunger points
@@ -2824,8 +2845,8 @@ WeaponType=7
 Name=Cerveza
 GrhIndex=28875
 ObjType=13
-MinAgu=45
-Valor=16
+MinAgu=50
+Valor=18
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Restaura 45 puntos de sed
 SND1=46
@@ -2837,7 +2858,7 @@ Name=Jugo de Frutas
 GrhIndex=584
 ObjType=13
 MinAgu=100
-Valor=40
+Valor=36
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 SND1=46
 Texto=Restaura 100 puntos de sed
@@ -3330,6 +3351,7 @@ subastable=1000
 Texto=Te permite crear lingotes
 en_texto=Allows you to create bullion
 en_Name=Iron ore
+Crucial=1
 
 [OBJ193]
 Name=Mineral de Plata
@@ -3343,6 +3365,7 @@ subastable=1000
 Texto=Te permite crear lingotes
 en_texto=Allows you to create bullion
 en_Name=Silver ore
+Crucial=1
 
 [OBJ194]
 Name=Mineral de Oro
@@ -3632,6 +3655,10 @@ Name=Poción de Maná (I)
 ObjType=11
 Texto=Restaura un 4% de tu maná
 Valor=12
+Crucial=1
+MinELV=13
+Porcentaje=4
+TipoPocion=4
 
 [OBJ209]
 GrhIndex=49195
@@ -3639,6 +3666,11 @@ Name=Poción de Vida (I)
 ObjType=11
 Texto=Restaura 20 puntos de vida
 Valor=16
+Crucial=1
+MaxModificador=20
+MinELV=13
+MinModificador=20
+TipoPocion=3
 
 [OBJ210]
 GrhIndex=49198
@@ -3646,6 +3678,12 @@ Name=Poción de Agilidad (I)
 ObjType=11
 Texto=Aumenta tu agilidad entre 2 y 3 puntos
 Valor=28
+Crucial=1
+DuracionEfecto=65
+MaxModificador=3
+MinELV=13
+MinModificador=2
+TipoPocion=1
 
 [OBJ211]
 GrhIndex=49197
@@ -3653,6 +3691,12 @@ Name=Poción de Fuerza (I)
 ObjType=11
 Texto=Aumenta tu fuerza entre 2 y 4 puntos
 Valor=24
+Crucial=1
+DuracionEfecto=65
+MaxModificador=4
+MinELV=13
+MinModificador=2
+TipoPocion=2
 
 [OBJ212]
 GrhIndex=49194
@@ -5507,17 +5551,25 @@ ObjType=48
 Subtipo=2
 Agarrable=0
 Texto=Este cofre contiene Fuegos Artificiales
-CantItem=4
-CantEntrega=4
-Item1=586
-Cantidad1=10
-Item2=585
-Cantidad2=10
-Item3=583
-Cantidad3=10
-Item4=584
-Cantidad4=10
+CantItem=7
+CantEntrega=7
+Item1=580
+Cantidad1=5
+Item2=581
+Cantidad2=5
+Item3=582
+Cantidad3=5
+Item4=583
+Cantidad4=5
 en_texto=This chest contains Fireworks
+Cantidad5=5
+Cantidad6=5
+Cantidad7=5
+Item5=584
+Item6=585
+Item7=586
+NFT=1
+Valor=35
 
 [OBJ357] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=49024
@@ -6390,22 +6442,22 @@ NoWiki=1
 Name=Gema Polar de Fundación de Clan
 GrhIndex=703
 ObjType=29
-Crucial=0
-Valor=9000
+Crucial=1
+Valor=60000
 
 [OBJ408]
 Name=Gema Roja de Fundación de Clan
 GrhIndex=705
 ObjType=29
-Crucial=0
-Valor=9000
+Crucial=1
+Valor=12000
 
 [OBJ409]
 Name=Gema Azul de Fundación de Clan
 GrhIndex=701
 ObjType=29
-Valor=9000
-Crucial=0
+Valor=30000
+Crucial=1
 
 [OBJ410]
 Name=Gema Dorada
@@ -6427,8 +6479,8 @@ NoWiki=1
 Name=Gema Verde de Fundación de Clan
 GrhIndex=706
 ObjType=29
-Crucial=0
-Valor=9000
+Crucial=1
+Valor=15000
 
 [OBJ413]
 Name=Gema Marrón
@@ -6444,8 +6496,8 @@ NoWiki=1
 Name=Piel de Lobo Salvaje
 GrhIndex=38181
 ObjType=100
-valor=30
-Crucial=0
+valor=18
+Crucial=1
 Texto=Piel de Lobo Salvaje
 en_Name=Wild Wolf Hide
 
@@ -6453,9 +6505,9 @@ en_Name=Wild Wolf Hide
 Name=Piel de Oso Pardo
 GrhIndex=38218
 ObjType=100
-valor=150
+valor=90
 subastable=500
-Crucial=0
+Crucial=1
 Texto=Piel de Oso Pardo
 en_Name=Brown Bear Hide
 
@@ -6463,9 +6515,9 @@ en_Name=Brown Bear Hide
 Name=Piel de Oso Polar
 GrhIndex=38219
 ObjType=100
-valor=3300
+valor=255
 subastable=500
-Crucial=0
+Crucial=1
 Texto=Piel de Oso Polar
 en_Name=Polar Bear Hide
 
@@ -7017,6 +7069,9 @@ Name=Piel de Wolfang (Quest)
 ObjType=100
 Texto=Item de Quest
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ454]
 GrhIndex=38181
@@ -7066,6 +7121,9 @@ Valor=0
 '**************************** ARMAS ****************************
 
 '--------------> Dagas <--------------
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ460] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=49106
@@ -7080,6 +7138,9 @@ Name=Antena de Hormiga
 Texto=Objeto de Quest
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ462]
 Name=Vestido de Princesa
@@ -7152,6 +7213,9 @@ Name=Runa Mística
 Texto=Item de Quest
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ465] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=55429
@@ -7240,10 +7304,10 @@ RopajeOrco=3309
 Name=Laúd Mágico
 GrhIndex=685
 Objtype=30
-Valor=5000
+Valor=4200
 MinELV=25
-SkCarpinteria=75
-Madera=800
+SkCarpinteria=70
+Madera=1400
 subastable=1
 MagicDamageBonus=4
 MagicPenetration=0
@@ -7500,16 +7564,18 @@ RopajeEnana=2655
 RopajeOrca=3222
 RopajeGnoma=2655
 ObjType=3
-MAXDEF=40
-MINDEF=35
+MAXDEF=1
+MINDEF=1
 Valor=1
-CP2=LADRON
-CP4=TRABAJADOR
-CP7=DRUIDA
-CP12=MAGO
+CP1=BARDO
+CP2=DRUIDA
+CP3=LADRON
+CP4=MAGO
+CP5=PIRATA
 Valor=100000
 Texto=Armadura de Dragón Rojo
 en_Name=Red Dragon Armor
+NoseCae=1
 
 [OBJ483]'Borrar proxima temporada
 Name=Armadura de Dragón Rojo (Bajos)
@@ -8382,7 +8448,7 @@ en_texto=It will be emptied when consumed. You can recharge it.
 Name=Botella Vacía
 GrhIndex=849
 ObjType=33
-Valor=10
+Valor=30
 IndexAbierta=533
 IndexCerrada=534
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -8403,12 +8469,12 @@ en_Name=Gulfas Morgolock Tombstone
 Name=Flauta Mágica
 GrhIndex=686
 Objtype=30
-Valor=7500
+Valor=4500
 MinELV=25
 SkCarpinteria=75
-Madera=1200
+Madera=1500
 subastable=1
-MagicDamageBonus=5
+MagicDamageBonus=4
 MagicPenetration=0
 Texto=Aumenta el daño mágico un 5%.
 CP1=BANDIDO
@@ -9143,6 +9209,9 @@ Name=Hoja de Fuego
 ObjType=100
 Texto=Objeto de Quest
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ610]
 GrhIndex=49104
@@ -9150,6 +9219,9 @@ Name=Hoja de Agua
 ObjType=100
 Texto=Objeto de Quest
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ611]
 GrhIndex=49102
@@ -9157,6 +9229,9 @@ Name=Hoja de Tierra
 ObjType=100
 Texto=Objeto de Quest
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ612] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=49103
@@ -9164,6 +9239,9 @@ Name=Hoja de Viento
 Texto=Objeto de Quest
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ613]
 Name=Tapete
@@ -9706,11 +9784,15 @@ GrhIndex=609
 Valor=150000
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 HechizoIndex=153
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP10=GUERRERO
+CP1=ASESINO
+CP2=BANDIDO
+CP3=CAZADOR
+CP4=DRUIDA
+CP5=GUERRERO
+CP6=LADRON
+CP7=PALADIN
+CP8=PIRATA
+CP9=TRABAJADOR
 Objtype=24
 Texto=Invoca una piraña que depredará a tu objetivo.
 en_texto=You summon three piranhas that will prey on your target.
@@ -9771,6 +9853,8 @@ Texto=Te permite montar un Unicornio
 GrhIndex=31254
 ObjType=44
 Valor=0
+NoseCae=1
+VELOCIDAD=1
 
 [OBJ663]
 Name=Escalera hacia arriba
@@ -9792,6 +9876,7 @@ Texto=Item de Quest
 GrhIndex=38416
 ObjType=100
 Valor=30
+NoseCae=1
 
 [OBJ672]
 Name=Teleport
@@ -10541,16 +10626,17 @@ valor=10500
 Objtype=21
 EfectoMagico=16
 MinELV=25
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
+CP1=ASESINO
+CP2=BARDO
+CP3=CAZADOR
+CP4=CLERIGO
+CP5=DRUIDA
+CP6=GUERRERO
+CP7=LADRON
+CP8=MAGO
+CP9=PALADIN
+CP10=PIRATA
+CP11=TRABAJADOR
 Texto=Las palabras mágicas desaparecen al lanzar el hechizo.
 LingH=85
 LingP=60
@@ -12095,12 +12181,23 @@ en_Name=Fiery Orb
 Name=Orbe Congelado
 EfectoMagico=11
 GrhIndex=970
-valor=50000
+valor=60000
 Objtype=21
 MinELV=27
 Texto=Agrega probabilidad de paralizar a tus golpes.
 en_texto=It adds probability of paralyzing your blows.
 en_Name=Frozen Orb
+Crucial=1
+CP1=ASESINO
+CP2=BANDIDO
+CP3=BARDO
+CP4=CLERIGO
+CP5=DRUIDA
+CP6=LADRON
+CP7=MAGO
+CP8=PALADIN
+CP9=PIRATA
+CP10=TRABAJADOR
 
 [OBJ881]
 CP1=GUERRERO
@@ -12265,6 +12362,7 @@ en_texto=Cure the poison.
 en_Name=Violet potion (Alchemy)
 
 '--------------> Por Alquimia <--------------
+NoseCae=1
 
 [OBJ891]
 Name=Poción de Vida
@@ -12387,6 +12485,7 @@ Name=Olla de Alquimia (QUEST)
 ObjType=18
 Texto=Herramienta necesaria para crear pociones de Alquimia
 Valor=0
+Crucial=1
 
 [OBJ901]
 Name=Ropa de Clan (Bajos)
@@ -13652,7 +13751,7 @@ ObjType=17
 Subtipo=1
 MAXDEF=0
 MINDEF=0
-Valor=40
+Valor=400
 NFT=1
 NoSeCae=1
 en_name=Emperor Mask
@@ -13684,7 +13783,7 @@ ObjType=17
 Subtipo=1
 MAXDEF=0
 MINDEF=0
-Valor=70
+Valor=800
 NFT=1
 NoSeCae=1
 en_name=Puppet Hat
@@ -14322,8 +14421,8 @@ Texto=Ropa de Minero
 Name=Piel de Tigre de Bengala
 GrhIndex=38208
 ObjType=100
-valor=1200
-Crucial=0
+valor=180
+Crucial=1
 Texto=Piel de Tigre de Bengala
 en_Name=Bengal Tiger Hide
 
@@ -14331,8 +14430,8 @@ en_Name=Bengal Tiger Hide
 Name=Piel de Lobo Negro
 GrhIndex=38182
 ObjType=100
-valor=81
-Crucial=0
+valor=60
+Crucial=1
 Texto=Piel de Lobo Negro
 en_Name=Black Wolf Hide
 
@@ -14341,7 +14440,6 @@ en_Name=Black Wolf Hide
 [OBJ1149]
 Name=Pendiente del Experto
 GrhIndex=38100
-valor=30000
 Objtype=21
 EfectoMagico=18
 CuantoAumento=50
@@ -14641,18 +14739,19 @@ RopajeEnana=2656
 RopajeOrca=3223
 RopajeGnoma=2656
 ObjType=3
-MAXDEF=47
-MINDEF=43
-Valor=30000
-CP2=LADRON
-CP4=TRABAJADOR
-CP7=DRUIDA
-CP12=MAGO
+MAXDEF=1
+MINDEF=1
+CP1=BARDO
+CP2=DRUIDA
+CP3=LADRON
+CP4=MAGO
+CP5=PIRATA
 subastable=1
 ResistenciaMagica=3
 Texto=Posee resistencia mágica.
 en_texto=It has magic resistance.
 en_Name=Black Dragon Armor
+NoseCae=1
 
 [OBJ1218]'Borrar proxima temporada
 Name=Túnica de Dragón Negro
@@ -14673,16 +14772,22 @@ ObjType=39
 MAXDEF=1
 MINDEF=1
 Valor=0
-CP2=LADRON
-CP4=TRABAJADOR
-CP7=DRUIDA
-CP12=MAGO
+CP1=ASESINO
+CP2=BANDIDO
+CP3=CAZADOR
+CP4=CLERIGO
+CP5=GUERRERO
+CP6=LADRON
+CP7=PALADIN
+CP8=PIRATA
+CP9=TRABAJADOR
 subastable=1
 ResistenciaMagica=3
 Texto=¡Skin exclusiva del Gran Dragón!
 en_texto=It has magic resistance.
 en_Name=Black Dragon Armor (E/G)
 Crucial=1
+NoseCae=1
 
 [OBJ1226]
 Name=Túnica Aventurera
@@ -15810,22 +15915,25 @@ Texto=Item de Quest
 Valor=0
 
 '**************************** MONTURAS ****************************
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ1341]
 Name=Caballo Blanco
 NumRopaje=3196
 GrhIndex=9731
 ObjType=44
-valor=
 Crucial=0
 Texto=Te permite cabalgar.
 NoseCae=1
 SkillRequerido=Supervivencia-90
-Velocidad=1.2
-MINELV=1
+Velocidad=0.4
+MINELV=28
 SND1=56
 Intirable=1
 en_texto=It allows you to ride.
+Instransferible=1
 
 [OBJ1342] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 Name=Moro Coracero
@@ -15833,6 +15941,11 @@ Texto=Montura deprecada, intercambiala en Ullathorpe
 GrhIndex=9732
 ObjType=44
 Valor=0
+Instransferible=1
+Intirable=1
+MinELV=36
+NoseCae=1
+VELOCIDAD=0.4
 
 [OBJ1343]
 Name=Caballo Marrón Acorazado
@@ -15843,12 +15956,13 @@ valor=0
 Crucial=0
 Texto=Te permite cabalgar.
 SkillRequerido=Supervivencia-80
-Velocidad=1.13
+Velocidad=0.4
 NoseCae=1
-MINELV=1
+MINELV=24
 SND1=56
 Intirable=1
 en_texto=It allows you to ride.
+Instransferible=1
 
 [OBJ1344]
 Name=Corcel Invencible
@@ -15903,13 +16017,14 @@ ObjType=44
 Crucial=0
 Texto=Montura deprecada, intercambiala en Ullathorpe
 SkillRequerido=Supervivencia-100
-Velocidad=1.23
+Velocidad=0.4
 NoseCae=1
-MINELV=1
+MINELV=32
 SND1=56
 Intirable=1
 en_texto=It allows you to ride.
 en_Name=Combatant Saddle
+Instransferible=1
 
 [OBJ1347] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 Name=Grifo Acorazado
@@ -20872,7 +20987,7 @@ Texto=Cota de Mallas (E/G)
 [OBJ1648]
 Name=Misil Mágico
 GrhIndex=609
-Valor=9000
+Valor=11000
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 HechizoIndex=3
 Objtype=24
@@ -20910,13 +21025,14 @@ en_texto=Causes 90 to 95 points of damage on the victim.
 [OBJ1651]
 Name=Curar heridas graves
 GrhIndex=609
-Valor=35000
+Valor=36000
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 HechizoIndex=13
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP10=GUERRERO
+CP1=CAZADOR
+CP2=GUERRERO
+CP3=LADRON
+CP4=PIRATA
+CP5=TRABAJADOR
 Objtype=24
 Texto=Restaura entre 28 y 55 puntos de salud.
 en_texto=Restore between 28 and 55 health points.
@@ -20924,7 +21040,7 @@ en_texto=Restore between 28 and 55 health points.
 [OBJ1652]
 Name=Resucitar
 GrhIndex=609
-Valor=400000
+Valor=500000
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 CP2=LADRON
 CP3=PIRATA
@@ -20942,12 +21058,13 @@ en_Name=Resurrect
 [OBJ1654]
 Name=Celeridad
 GrhIndex=609
-Valor=20000
+Valor=60000
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP10=GUERRERO
+CP1=CAZADOR
+CP2=GUERRERO
+CP3=LADRON
+CP4=PIRATA
+CP5=TRABAJADOR
 HechizoIndex=21
 Objtype=24
 Texto=Aumenta la agilidad del usuario que recibe el hechizo.
@@ -20956,12 +21073,13 @@ en_texto=Increases the agility of the user receiving the spell.
 [OBJ1655]
 Name=Fuerza
 GrhIndex=609
-Valor=20000
+Valor=50000
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP10=GUERRERO
+CP1=CAZADOR
+CP2=GUERRERO
+CP3=LADRON
+CP4=PIRATA
+CP5=TRABAJADOR
 HechizoIndex=22
 Objtype=24
 Texto=Aumenta la fuerza del usuario que recibe el hechizo.
@@ -20995,11 +21113,15 @@ SPELLINDEX=23
 [OBJ1657]
 Name=Invisibilidad
 GrhIndex=609
-Valor=700000
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP10=GUERRERO
+Valor=800000
+CP1=ASESINO
+CP2=BANDIDO
+CP3=CAZADOR
+CP4=GUERRERO
+CP5=LADRON
+CP6=PALADIN
+CP7=PIRATA
+CP8=TRABAJADOR
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 HechizoIndex=24
 Objtype=24
@@ -21011,10 +21133,11 @@ en_Name=Invisibility
 Name=Paralizar
 GrhIndex=609
 Valor=50000
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP10=GUERRERO
+CP1=CAZADOR
+CP2=GUERRERO
+CP3=LADRON
+CP4=PIRATA
+CP5=TRABAJADOR
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 HechizoIndex=25
 Objtype=24
@@ -21025,11 +21148,15 @@ en_Name=Paralyze
 [OBJ1659]
 Name=Inmovilizar
 GrhIndex=609
-Valor=110000
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP10=GUERRERO
+Valor=80000
+CP1=ASESINO
+CP2=BANDIDO
+CP3=CAZADOR
+CP4=GUERRERO
+CP5=LADRON
+CP6=PALADIN
+CP7=PIRATA
+CP8=TRABAJADOR
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 HechizoIndex=26
 Objtype=24
@@ -21040,11 +21167,15 @@ en_Name=Immobilize
 [OBJ1660]
 Name=Remover paralisis
 GrhIndex=609
-Valor=33000
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP10=GUERRERO
+Valor=40000
+CP1=ASESINO
+CP2=BANDIDO
+CP3=CAZADOR
+CP4=GUERRERO
+CP5=LADRON
+CP6=PALADIN
+CP7=PIRATA
+CP8=TRABAJADOR
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 HechizoIndex=27
 Objtype=24
@@ -21104,13 +21235,16 @@ NoWiki=1
 [OBJ1663]
 Name=Tormenta de Fuego
 GrhIndex=609
-Valor=50000
+Valor=55000
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP10=GUERRERO
+CP1=ASESINO
+CP2=BANDIDO
+CP3=CAZADOR
+CP4=GUERRERO
+CP5=LADRON
+CP6=PALADIN
+CP7=PIRATA
+CP8=TRABAJADOR
 HechizoIndex=41
 Objtype=24
 Texto=Causa 45 a 55 puntos de daño al objetivo.
@@ -21144,12 +21278,13 @@ SPELLINDEX=42
 [OBJ1665]
 Name=Flecha Electrica
 GrhIndex=609
-Valor=1500
+Valor=4000
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP10=GUERRERO
+CP1=CAZADOR
+CP2=GUERRERO
+CP3=LADRON
+CP4=PIRATA
+CP5=TRABAJADOR
 HechizoIndex=43
 Objtype=24
 Texto=Causa 25 a 35 puntos de daño en un área de dos tiles.
@@ -21160,13 +21295,16 @@ en_texto=It causes 25 to 35 points of damage in a two-tile area.
 [OBJ1669]
 Name=Descarga Eléctrica
 GrhIndex=609
-Valor=600000
+Valor=1000000
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP10=GUERRERO
+CP1=ASESINO
+CP2=BANDIDO
+CP3=CAZADOR
+CP4=GUERRERO
+CP5=LADRON
+CP6=PALADIN
+CP7=PIRATA
+CP8=TRABAJADOR
 HechizoIndex=51
 Objtype=24
 Texto=Causa 69 a 77 puntos de daño.
@@ -21175,15 +21313,17 @@ en_texto=It causes 69 to 77 points of damage.
 [OBJ1671]
 Name=Apocalipsis
 GrhIndex=609
-Valor=1500000
+Valor=2400000
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 HechizoIndex=53
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP10=GUERRERO
+CP1=ASESINO
+CP2=BANDIDO
+CP3=CAZADOR
+CP4=GUERRERO
+CP5=LADRON
+CP6=PALADIN
+CP7=PIRATA
+CP8=TRABAJADOR
 Objtype=24
 Texto=Causa 91 a 100 puntos de daño.
 en_texto=It causes 91 to 100 points of damage.
@@ -23532,6 +23672,8 @@ fr_Name=Club
 fr_Texto=Élément d'événement
 it_Name=Club
 it_Texto=Elemento dell'evento
+CP1=LADRON
+CP2=PIRATA
 
 [OBJ1848]
 Name=Garrote
@@ -23541,8 +23683,6 @@ Objtype=2
 Subtipo=2
 MinHIT=2
 MaxHIT=5
-Valor=300
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 MinElv=1
 Texto=Garrote
 WeaponType=5
@@ -24912,7 +25052,7 @@ ObjType=17
 Subtipo=1
 MAXDEF=4
 MINDEF=2
-Valor=200
+Valor=400
 peso=50
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Casco de Lobo
@@ -24920,6 +25060,8 @@ SKSastreria=10
 PielLobo=15
 PielOsoPardo=0
 PielOsoPolar=0
+NFT=1
+NoseCae=1
 
 [OBJ1932]
 Name=Armadura Dragón Azul +1
@@ -26559,8 +26701,8 @@ en_texto=You get rid of the paralyzing effects at a cost of 250 Health points.
 [OBJ2010]
 Name=Petrificar (NPC)
 GrhIndex=609
-Valor=30000
-Crucial=0
+Valor=60000
+Crucial=1
 CP2=LADRON
 CP3=PIRATA
 CP4=TRABAJADOR
@@ -26838,15 +26980,15 @@ Valor=3
 CantItem=5
 CantEntrega=1
 Item1=12
-Cantidad1=500
+Cantidad1=100
 Item2=12
-Cantidad2=1000
+Cantidad2=250
 Item3=12
-Cantidad3=1500
+Cantidad3=500
 Item4=12
-Cantidad4=2500
+Cantidad4=1000
 Item5=12
-Cantidad5=3500
+Cantidad5=1500
 SND1=453
 Texto=Bolsa de Monedas
 
@@ -27500,7 +27642,6 @@ en_Name=Kokanee
 [OBJ2159]
 Name=Anzuelo de Goblin
 GrhIndex=48946
-valor=3
 Objtype=29
 Crucial=0
 Texto=Ítem de Quest.
@@ -28420,22 +28561,26 @@ en_Name=Amethyst
 [OBJ2236]
 Name=Insignia Roja
 GrhIndex=49249
-valor=
 Objtype=23
 Crucial=0
 Texto=Gema de gran valor intercambiable.
 en_texto=Gem of great interchangeable value.
 en_Name=Red Badge
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2237]
 Name=Insignia Azul
 GrhIndex=49257
-valor=
 Objtype=23
 Crucial=0
 Texto=Gema de gran valor intercambiable.
 en_texto=Gem of great interchangeable value.
 en_Name=Blue Badge
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2238]
 Name=Esmeralda
@@ -28770,7 +28915,6 @@ NoWiki=1
 [OBJ2271]
 Name=Pelaje de Gorila
 GrhIndex=49215
-valor=
 Objtype=23
 Crucial=0
 NoSeCae=1
@@ -29195,7 +29339,7 @@ NoWiki=1
 [OBJ2323]
 Name=Anillo de Disolución Mágica
 GrhIndex=49267
-valor=0
+valor=11400
 Crucial=1
 Objtype=35
 ResistenciaMagica=7
@@ -29210,11 +29354,12 @@ CP9=ASESINO
 CP10=GUERRERO
 CP12=MAGO
 Texto=Aumenta tu resistencia mágica un 7%.
-LingP=75
-SkHerreria=75
+LingP=60
+SkHerreria=100
 MinELV=33
 en_texto=Increases your magic resistance by 7%.
 en_Name=Magical dissolution Ring
+LingH=100
 
 [OBJ2324]
 Name=Anillo de Protección Mágica
@@ -29223,14 +29368,10 @@ valor=5100
 Crucial=1
 Objtype=35
 ResistenciaMagica=5
+CP1=DRUIDA
 CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP10=GUERRERO
-CP12=MAGO
+CP3=MAGO
+CP4=PIRATA
 Texto=Aumenta tu resistencia mágica un 5%.
 MinELV=25
 en_texto=Increases your magic resistance by 5%.
@@ -29243,7 +29384,7 @@ Name=Anillo de Fortaleza Mágica
 GrhIndex=49270
 valor=7500
 ObjType=35
-Crucial=0
+Crucial=1
 Texto=Aumenta tu Resistencia Mágica un 6%.
 en_Name=Old silver ring
 NoWiki=1
@@ -29251,6 +29392,15 @@ SKHerreria=80
 LingH=95
 LingP=20
 MinELV=25
+ResistenciaMagica=6
+CP1=CAZADOR
+CP2=DRUIDA
+CP3=GUERRERO
+CP4=LADRON
+CP5=MAGO
+CP6=PALADIN
+CP7=PIRATA
+CP8=TRABAJADOR
 
 [OBJ2326]
 Name=Anillo Cobre
@@ -30896,6 +31046,16 @@ Texto=Invoca un lobo para luchar frente a criaturas.
 GrhIndex=609
 ObjType=24
 Valor=1200
+Crucial=1
+HechizoIndex=7
+CP1=ASESINO
+CP2=BANDIDO
+CP3=CAZADOR
+CP4=GUERRERO
+CP5=LADRON
+CP6=PALADIN
+CP7=PIRATA
+CP8=TRABAJADOR
 
 [OBJ2468]
 Name=Invocar Esqueleto Guerrero
@@ -30919,7 +31079,7 @@ en_Name=Necromance's Slaves
 [OBJ2469]
 Name=Invocar Mascotas
 GrhIndex=609
-Valor=250000
+Valor=400000
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 HechizoIndex=9
 CP1=BANDIDO
@@ -31050,6 +31210,9 @@ Texto=Objeto de Quest
 GrhIndex=38025
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2476]
 Name=Hoja de libro
@@ -31092,7 +31255,7 @@ en_Name=Dead snake
 [OBJ2479]
 Name=Colmillo de serpiente
 GrhIndex=49296
-valor=0
+valor=6
 Objtype=29
 Crucial=0
 Texto=Item de quest
@@ -31104,7 +31267,7 @@ en_texto=Quest item
 [OBJ2480]
 Name=Alas de Murcielago
 GrhIndex=49297
-valor=0
+valor=3
 Objtype=29
 Crucial=0
 NoSeCae=1
@@ -31117,7 +31280,7 @@ en_texto=Quest item
 [OBJ2481]
 Name=Cola de lobo
 GrhIndex=49298
-valor=0
+valor=9
 Objtype=29
 Crucial=0
 Texto=Cola de lobo
@@ -31232,11 +31395,13 @@ Crucial=0
 NoSeCae=1
 Texto=Item de quest
 en_texto=Quest item
+Instransferible=1
+Intirable=1
 
 [OBJ2491]
 Name=Fluido de Murcielago
 GrhIndex=49308
-valor=0
+valor=12
 Objtype=29
 Crucial=0
 Texto=Item de quest
@@ -31273,7 +31438,7 @@ en_Name=Blood Sample
 [OBJ2494]
 Name=Fluido de escorpión
 GrhIndex=49311
-valor=0
+valor=9
 Objtype=29
 Crucial=0
 Texto=Item de quest
@@ -31319,6 +31484,9 @@ it_Name=Chiave misteriosa
 it_Texto=Chiave per rivendicare la missione "Legend on the Key"
 pt_Name=Chave misteriosa
 pt_Texto=Chave para reivindicar a missão "Legenda na chave"
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2498]
 Name=Veneno de serpiente
@@ -31367,6 +31535,9 @@ Name=Pergamino de Hechizo
 ObjType=23
 Texto=Item de Quest
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2503]
 Name=Lapida pinchos
@@ -31397,7 +31568,6 @@ en_Name=Hoof
 [OBJ2506]
 Name=Craneo con Cuernos
 GrhIndex=51986
-valor=6000
 Objtype=29
 Crucial=0
 Texto=Craneo con Cuernos
@@ -31480,6 +31650,9 @@ it_Name=Velocità di velocità
 it_Texto=Articolo di ricerca
 pt_Name=Velocidade de velocidade
 pt_Texto=Item de missão
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2515] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=28925
@@ -31495,6 +31668,9 @@ it_Name=Force Scroll
 it_Texto=Articolo di ricerca
 pt_Name=Rolagem de força
 pt_Texto=Item de missão
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2516]
 Name=Hacha nueva
@@ -31589,7 +31765,7 @@ en_Name=Bones
 [OBJ2531]
 Name=Huevo de Mutante Aracnido
 GrhIndex=52012
-valor=0
+valor=5000
 Objtype=29
 Crucial=0
 NoSeCae=1
@@ -31620,6 +31796,9 @@ Texto=Puede servir para los investigadores..
 GrhIndex=55399
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2535]
 Name=Runa roja
@@ -31758,7 +31937,7 @@ en_Name=fish bones
 [OBJ2551]
 Name=Pluma de aguila
 GrhIndex=52031
-valor=1500
+valor=900
 Objtype=29
 Crucial=0
 Texto=Pluma de aguila
@@ -32500,6 +32679,7 @@ Name=Corazón del Leviatán
 ObjType=100
 Texto=Item de Quest
 Valor=0
+NoseCae=1
 
 [OBJ2635]
 Name=Garra de Tigre
@@ -32617,7 +32797,7 @@ en_Name=Pen and Ink
 [OBJ2649]
 Name=Anillo de Oro
 GrhIndex=52180
-valor=1000
+valor=2700
 Objtype=29
 Crucial=0
 NoSeCae=1
@@ -33626,13 +33806,14 @@ pt_Texto=Você pode usar uma fortuna!
 [OBJ2763]
 Name=Curar heridas leves
 GrhIndex=609
-Valor=200
+Valor=800
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 HechizoIndex=12
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=TRABAJADOR
+CP1=CAZADOR
+CP2=GUERRERO
+CP3=LADRON
 CP4=PIRATA
+CP5=TRABAJADOR
 Objtype=24
 Texto=Restaura entre 4 y 10 puntos de salud.
 en_texto=Restore between 4 and 10 health points.
@@ -33640,13 +33821,14 @@ en_texto=Restore between 4 and 10 health points.
 [OBJ2764]
 Name=Curar Veneno
 GrhIndex=609
-Valor=150
+Valor=1500
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 HechizoIndex=11
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=TRABAJADOR
+CP1=CAZADOR
+CP2=GUERRERO
+CP3=LADRON
 CP4=PIRATA
+CP5=TRABAJADOR
 Objtype=24
 Texto=Cura el veneno.
 en_texto=Cure the poison.
@@ -33657,23 +33839,28 @@ GrhIndex=609
 Valor=50
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 HechizoIndex=1
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=TRABAJADOR
-CP4=PIRATA
+CP1=ASESINO
+CP2=BANDIDO
+CP3=CAZADOR
+CP4=GUERRERO
+CP5=LADRON
+CP6=PALADIN
+CP7=PIRATA
+CP8=TRABAJADOR
 Objtype=24
 Texto=Hechizo de daño básico (14 a 18)
 
 [OBJ2766]
 Name=Flecha Mágica
 GrhIndex=609
-Valor=800
+Valor=1800
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 HechizoIndex=2
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=TRABAJADOR
+CP1=CAZADOR
+CP2=GUERRERO
+CP3=LADRON
 CP4=PIRATA
+CP5=TRABAJADOR
 Objtype=24
 Texto=Hechizo de daño básico (18 a 25)
 
@@ -33711,6 +33898,7 @@ Texto=Leña Élfica
 en_Name=Elven Firewood
 
 'TUNICAS FACCIONARIAS, AO20'
+Crucial=1
 
 [OBJ2782]
 Name=Túnica Avernal
@@ -34025,6 +34213,16 @@ RopajeOrca=3270
 RopajeOrco=1355
 Texto=¡Skin exclusiva del Gran Dragón!
 Valor=0
+NoseCae=1
+CP1=ASESINO
+CP2=BANDIDO
+CP3=CAZADOR
+CP4=CLERIGO
+CP5=GUERRERO
+CP6=LADRON
+CP7=PALADIN
+CP8=PIRATA
+CP9=TRABAJADOR
 
 [OBJ2807]
 CP1=PIRATA
@@ -34144,6 +34342,9 @@ Name=Garra del Azhurion
 Texto=Item de Quest
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2813]'Borrar en proxima temporada
 Name=Túnica Marrón (E/G)
@@ -34182,6 +34383,18 @@ Texto=Invoca un gorila para que te ayude a entrenar.
 GrhIndex=609
 ObjType=24
 Valor=120000
+Crucial=1
+HechizoIndex=36
+CP1=ASESINO
+CP2=BANDIDO
+CP3=CAZADOR
+CP4=DRUIDA
+CP5=GUERRERO
+CP6=LADRON
+CP7=MAGO
+CP8=PALADIN
+CP9=PIRATA
+CP10=TRABAJADOR
 
 [OBJ2815]'Libre
 GrhIndex=52017
@@ -34530,6 +34743,9 @@ Name=Embrion de Griffo
 Texto=Item de Quest para conseguir la Montura de Griffo
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2834] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 Name=Cuerno del Minotauro
@@ -34537,6 +34753,9 @@ Texto=Objeto de quest
 GrhIndex=52143
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2835]'Libre
 GrhIndex=48981
@@ -34558,12 +34777,18 @@ it_Name=Rune of Wind
 it_Texto=Articolo di ricerca
 pt_Name=Rune do vento
 pt_Texto=Item de missão
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2837] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=28901
 Name=Runa Ígnea
 Texto=Item de Quest
 ObjType=23
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2838]'Borrar proxima temporada
 Name=Vestimenta Elegante (E/G)
@@ -41340,6 +41565,16 @@ it_Name=Grande cassa di draghi
 it_Texto=Contiene armature e vesti dei grandi draghi
 pt_Name=Grande baú de dragão
 pt_Texto=Ele contém armadura e vestes dos grandes dragões
+CantEntrega=1
+Cantidad1=1
+Cantidad2=1
+Cantidad3=1
+Cantidad4=1
+CantItem=4
+Item1=481
+Item2=2806
+Item3=1217
+Item4=1218
 
 [OBJ3047]
 Name=Cofre de Armas Legendarias
@@ -41796,6 +42031,7 @@ Texto=Necesario para crear pociones a través de la Alquimia
 GrhIndex=28704
 ObjType=29
 Valor=8
+Crucial=1
 
 [OBJ3076]
 Name=Puerta abierta  1 new bander
@@ -42645,12 +42881,13 @@ Crucial=0
 Texto=Item de colección
 NoseCae=1
 SkillRequerido=Supervivencia-70
-Velocidad=1.1
-MINELV=1
+Velocidad=0.4
+MINELV=20
 SND1=56
 Intirable=1
 en_texto=collection item
 en_Name=Mule
+Instransferible=1
 
 [OBJ3135]
 Name=Espada Argentum
@@ -42707,7 +42944,7 @@ Head=0
 GrhIndex=32007
 ObjType=17
 Subtipo=1
-Valor=200
+Valor=800
 peso=50
 Crucial=0
 NoSeCae=1
@@ -44601,6 +44838,14 @@ fr_Name=Manteau de vent
 fr_Texto=Produit consommable.
 it_Name=Mantello del vento
 it_Texto=Articolo di consumo.
+CP1=ASESINO
+CP2=BANDIDO
+CP3=CAZADOR
+CP4=GUERRERO
+CP5=LADRON
+CP6=PALADIN
+CP7=PIRATA
+CP8=TRABAJADOR
 
 [OBJ3257]
 Name=Túnica Roja de Gran Campeón AO20
@@ -46595,7 +46840,7 @@ GrhIndex=38140
 ObjType=49
 Valor=3
 subastable=1000
-Crucial=0
+Crucial=1
 Texto=Mineral de Carbón
 CatalizadorTipo=1
 CatalizadorAumento=0.1
@@ -46636,7 +46881,7 @@ pt_Texto=Portas fechadas Casto
 [OBJ3394] ' Drop polo
 Name=Gema Helada
 GrhIndex=55263
-valor=21000
+valor=1800
 Objtype=29
 Crucial=0
 Texto=Gema Helada
@@ -46657,6 +46902,7 @@ Name=Llave Casa del Árbol
 ObjType=9
 Texto=¡Con esta llave podrás abrir la Casa del Árbol!
 Valor=0
+NoseCae=1
 
 [OBJ3397]
 Name=Agujas de prubas del sastre
@@ -46965,6 +47211,7 @@ MINDEF=0
 Valor=400
 NoSeCae=1
 NoWiki=1
+NFT=1
 
 [OBJ3420]
 Name=Máscara Drow 1
@@ -48136,17 +48383,24 @@ GrhIndex=752
 Objtype=32
 Subtipo=1
 MinHIT=1
-MaxHIT=1
-Valor=0
-CP1=DRUIDA
-CP2=BARDO
-CP3=MAGO
+MaxHIT=2
+Valor=1
+CP1=ASESINO
+CP2=BANDIDO
+CP3=BARDO
+CP4=CLERIGO
+CP5=DRUIDA
+CP6=LADRON
+CP7=MAGO
+CP8=PALADIN
+CP9=PIRATA
 newbie=1
 Instransferible=1
 Texto=Flecha del Principiante
 ProjectileType=1
 en_Name=Beginner Arrow
 en_texto=Beginner Arrow
+Crucial=1
 
 [OBJ3493]
 Name=Sombrero del Principiante
@@ -48671,6 +48925,9 @@ Texto=Item de quest.
 GrhIndex=38039
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ3526] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 Name=Aeris (Quest)
@@ -48678,6 +48935,9 @@ Texto=Arbusto con aspecto de cola de zorro
 GrhIndex=38048
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ3527]
 Name=Montura de Dragón Cárdeno Joven
@@ -48705,6 +48965,9 @@ Texto=Item de Quest
 GrhIndex=49006
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ3529]
 Name=Escarabajo Ala Izquierda
@@ -48767,6 +49030,9 @@ Texto=Item de Quest
 GrhIndex=38114
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ3535]
 Name=Gonorrea
@@ -49416,23 +49682,30 @@ fr_Name=Boucle d'oreille Sacrée
 fr_Texto=Permet l'utilisation du sort Résurrection.
 it_Name=Orecchino Sacro
 it_Texto=Consente l'uso dell'incantesimo Resurrezione.
+CP1=CAZADOR
+CP2=CLERIGO
+CP3=GUERRERO
+CP4=LADRON
+CP5=PIRATA
+CP6=TRABAJADOR
 
 [OBJ3577]
 Name=Anillo de Resistencia Mágica
 GrhIndex=49259
-valor=6000
+valor=2400
 Crucial=1
 Objtype=35
 ResistenciaMagica=3
+CP1=DRUIDA
 CP2=LADRON
-CP4=TRABAJADOR
-CP7=DRUIDA
-CP10=GUERRERO
-CP12=MAGO
+CP3=MAGO
+CP4=PIRATA
 Texto=Aumenta tu resistencia mágica un 3%.
 MinELV=25
 en_texto=Increases your magic resistance by 3%.
 en_Name=Magic Resistance Ring
+LingH=40
+SkHerreria=50
 
 [OBJ3578]
 Name=Tela trabajada
@@ -51057,7 +51330,7 @@ en_texto=Beginner Dagger
 [OBJ3687]
 Name=Libro espíritu Dragón Púrpura
 GrhIndex=49339
-Valor=400
+Valor=1000
 Intirable=1
 Crucial=0 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Objtype=50
@@ -51113,7 +51386,7 @@ NFT=1
 [OBJ3691]
 Name=Libro espíritu Dragón Rojo
 GrhIndex=49340
-Valor=400
+Valor=1000
 Intirable=1
 Crucial=0 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Objtype=50
@@ -51169,7 +51442,7 @@ NFT=1
 [OBJ3695]
 Name=Libro espíritu Dragón Turquesa
 GrhIndex=49341
-Valor=400
+Valor=1000
 Intirable=1
 Crucial=0 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Objtype=50
@@ -51225,7 +51498,7 @@ NFT=1
 [OBJ3699]
 Name=Libro espíritu Dragón Amarilla
 GrhIndex=49342
-Valor=400
+Valor=1000
 Intirable=1
 Crucial=0 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Objtype=50
@@ -51978,6 +52251,9 @@ it_Name=Pane di mais (P)
 it_Texto=Ripristina 30 punti di fame
 pt_Name=Pão de milho (P)
 pt_Texto=Restaurar 30 pontos de fome
+Crucial=1
+MinHam=30
+newbie=1
 
 [OBJ3763]
 Name=Poste
@@ -52025,8 +52301,8 @@ Texto=Poste
 Name=Relicario
 GrhIndex=38372
 Objtype=21
-LingH=5
-LingP=5
+LingH=25
+LingP=10
 SkHerreria=100
 en_Name=Reliquary
 Texto=Relicario
@@ -52043,17 +52319,19 @@ en_texto=Use To resurrect another character.
 en_Name=Sacred Reliquary
 MinSta=450
 MinHp=70
-CP2=LADRON
-CP4=TRABAJADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP11=CLERIGO
-CP12=MAGO
+CP1=ASESINO
+CP2=BARDO
+CP3=CLERIGO
+CP4=DRUIDA
+CP5=LADRON
+CP6=MAGO
+CP7=PALADIN
+CP8=PIRATA
+CP9=TRABAJADOR
 NoSeCae=1
 CDType=6
-CD=3000
+CD=5000
+MinELV=25
 
 [OBJ3771]
 Name=Restauracion
@@ -52590,11 +52868,20 @@ Texto=Carcaj de Flechas
 CantItem=1
 CantEntrega=1
 Item1=480	'Flecha
-Cantidad1=500
-SkCarpinteria=100
-Madera=525
-Valor=3150
+Cantidad1=250
+SkCarpinteria=35
+Madera=275
+Valor=825
 NoSeCae=1
+CP1=ASESINO
+CP2=BANDIDO
+CP3=BARDO
+CP4=CLERIGO
+CP5=DRUIDA
+CP6=LADRON
+CP7=MAGO
+CP8=PALADIN
+CP9=PIRATA
 
 [OBJ3802]
 Name=Carcaj de Flechas +2
@@ -52606,12 +52893,21 @@ Texto=Carcaj de flechas +2
 CantItem=1
 CantEntrega=1
 Item1=551	'Flecha +2
-Cantidad1=500
-SkCarpinteria=100
-Madera=1575
-Valor=9450
+Cantidad1=50
+SkCarpinteria=65
+Madera=165
+Valor=495
 NoSeCae=1
 MinELV=20
+CP1=ASESINO
+CP2=BANDIDO
+CP3=BARDO
+CP4=CLERIGO
+CP5=DRUIDA
+CP6=LADRON
+CP7=MAGO
+CP8=PALADIN
+CP9=PIRATA
 
 [OBJ3803]
 Name=Carcaj de Flechas +3
@@ -52622,15 +52918,24 @@ Agarrable=0
 Texto=Carcaj de 50 Flechas +3, no se cae al morir.
 CantItem=1
 CantEntrega=1
-Item1=552	'Flecha elfica
-Cantidad1=500
-SkCarpinteria=100
+Item1=553	'Flecha elfica
+Cantidad1=50
+SkCarpinteria=80
 maderaelfica=75
 Crucial=1
 Valor=660
 NoSeCae=1
 Madera=70
 MinELV=25
+CP1=ASESINO
+CP2=BANDIDO
+CP3=BARDO
+CP4=CLERIGO
+CP5=DRUIDA
+CP6=LADRON
+CP7=MAGO
+CP8=PALADIN
+CP9=PIRATA
 
 [OBJ3804]
 Name=Carcaj de Flechas +3
@@ -52672,11 +52977,20 @@ Texto=Carcaj de flechas +1
 CantItem=1
 CantEntrega=1
 Item1=3550	'Flecha +1
-Cantidad1=500
-SkCarpinteria=100
-Madera=1050
-Valor=6300
+Cantidad1=150
+SkCarpinteria=60
+Madera=330
+Valor=990
 NoSeCae=1
+CP1=ASESINO
+CP2=BANDIDO
+CP3=BARDO
+CP4=CLERIGO
+CP5=DRUIDA
+CP6=LADRON
+CP7=MAGO
+CP8=PALADIN
+CP9=PIRATA
 
 [OBJ3807]'Item a borrar DE LA DB antes de nueva temporada
 Name=Arpon
@@ -55214,6 +55528,9 @@ Name=Fluido Ácido
 Texto=Item de Quest
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ3965] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 Name=Filo de Toxina
@@ -55659,12 +55976,12 @@ en_Name=Sacred cross
 Name=Flauta
 GrhIndex=686
 Objtype=30
-Valor=2000
+Valor=600
 MinELV=1
-SkCarpinteria=30
-Madera=1000
+SkCarpinteria=40
+Madera=200
 subastable=1
-MagicDamageBonus=3
+MagicDamageBonus=1
 MagicPenetration=0
 Texto=Aumenta el daño mágico un 3%.
 CP1=BANDIDO
@@ -55686,12 +56003,12 @@ en_texto=Increases magic damage by 3%.
 Name=Laúd
 GrhIndex=685
 Objtype=30
-Valor=2000
+Valor=600
 MinELV=1
-SkCarpinteria=30
-Madera=1000
+SkCarpinteria=35
+Madera=200
 subastable=1
-MagicDamageBonus=3
+MagicDamageBonus=1
 MagicPenetration=0
 Texto=Aumenta el daño mágico un 3%.
 CP1=BANDIDO
@@ -60517,7 +60834,7 @@ GrhIndex=38023
 Objtype=29
 Texto=Hongo capaz de irradiar energía
 Crucial=0
-valor=0
+valor=14
 
 [OBJ4311]
 Name=Esporas Silvestres
@@ -60533,7 +60850,7 @@ GrhIndex=38055
 Objtype=29
 Texto=Cactus repleto de nutrientes
 Crucial=0
-valor=0
+valor=16
 
 [OBJ4313]
 Name=Cala Venenosa
@@ -60549,7 +60866,7 @@ GrhIndex=38049
 Objtype=29
 Texto=Arbusto con aspecto de cola de zorro
 Crucial=0
-valor=0
+valor=20
 
 [OBJ4315]
 Name=Flor del océano
@@ -60557,7 +60874,7 @@ GrhIndex=38000
 Objtype=29
 Texto=Por su color se la conoce como la flor de oceano
 Crucial=0
-valor=0
+valor=4
 
 [OBJ4316]
 Name=Flor roja
@@ -60565,7 +60882,7 @@ GrhIndex=38052
 Objtype=29
 Texto=Flor roja de aspecto reluciente
 Crucial=0
-valor=0
+valor=8
 
 [OBJ4317]
 Name=Hierba de sangre
@@ -60597,7 +60914,7 @@ GrhIndex=55407
 Objtype=29
 Texto=Semillas listas para germinar
 Crucial=0
-valor=0
+valor=16
 
 [OBJ4321]
 Name=Pimiento Muerte
@@ -60734,6 +61051,19 @@ Name=Receta de Venenos
 Texto=Aprende la habilidad de crear venenos.
 ObjType=24
 Valor=1
+Crucial=1
+HechizoIndex=344
+CP1=ASESINO
+CP2=BANDIDO
+CP3=BARDO
+CP4=CAZADOR
+CP5=CLERIGO
+CP6=DRUIDA
+CP7=GUERRERO
+CP8=LADRON
+CP9=MAGO
+CP10=PALADIN
+CP11=PIRATA
 
 [OBJ4330]
 Name=Cota de Gladiador
@@ -60984,8 +61314,8 @@ en_Name=Strength Potion (P)
 Name=Piel de Tigre
 GrhIndex=38207
 ObjType=100
-valor=150
-Crucial=0
+valor=75
+Crucial=1
 Texto=Piel de Tigre
 en_Name=Tiger Hide
 
@@ -70005,6 +70335,9 @@ it_Name=Fiore rosso (ricerca)
 it_Texto=Un fiore rosso che guarda rosso
 pt_Name=Flor vermelha (missão)
 pt_Texto=Uma flor vermelha de aparência vermelha
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ4932] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=38000
@@ -70020,6 +70353,9 @@ it_Name=Ocean Flower (Quest)
 it_Texto=Noto per il suo colore come fiore dell'oceano
 pt_Name=Flor do Oceano (missão)
 pt_Texto=Conhecido por sua cor como a flor do oceano
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ4933] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 CP1=GUERRERO
@@ -70819,7 +71155,7 @@ NumRopaje=2
 GrhIndex=11406
 ObjType=17
 Subtipo=1
-Valor=80
+Valor=400
 NFT=1
 NoSeCae=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -70949,7 +71285,7 @@ NumRopaje=2
 GrhIndex=11416
 ObjType=17
 Subtipo=1
-Valor=80
+Valor=400
 NFT=1
 NoSeCae=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -70975,7 +71311,7 @@ NumRopaje=2
 GrhIndex=11418
 ObjType=17
 Subtipo=1
-Valor=80
+Valor=800
 NFT=1
 NoSeCae=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -71008,6 +71344,8 @@ it_Name=Coda di ratto nero
 it_Texto=Coda di ratto nero
 pt_Name=Cauda de rato preto
 pt_Texto=Cauda de rato preto
+Intirable=1
+NoseCae=1
 
 [OBJ4978]
 Name=Sombrero Pirata
@@ -71054,6 +71392,8 @@ Name=Cola de Rata Gris
 ObjType=29
 Texto=Item de quest Patreon
 Valor=0
+Intirable=1
+NoseCae=1
 
 [OBJ4982]
 Name=Casco Azul de Cruzado
@@ -71140,7 +71480,7 @@ NumRopaje=2
 GrhIndex=11393
 ObjType=17
 Subtipo=1
-Valor=80
+Valor=400
 NFT=1
 NoSeCae=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -71192,7 +71532,7 @@ NumRopaje=2
 GrhIndex=11397
 ObjType=17
 Subtipo=1
-Valor=80
+Valor=800
 NFT=1
 NoSeCae=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -71218,7 +71558,7 @@ NumRopaje=2
 GrhIndex=11399
 ObjType=17
 Subtipo=1
-Valor=80
+Valor=800
 NFT=1
 NoSeCae=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -72518,6 +72858,7 @@ GrhIndex=11422
 ObjType=41
 Anim=319
 Valor=0
+NoseCae=1
 
 [OBJ6241] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Cofre de Armas Navideñas
@@ -72525,6 +72866,24 @@ Texto=Este cofre contiene armas únicas del evento de Navidad.
 GrhIndex=49244
 ObjType=48
 Agarrable=0
+CantEntrega=1
+Cantidad1=1
+Cantidad2=1
+Cantidad3=1
+Cantidad4=1
+Cantidad5=1
+Cantidad6=1
+Cantidad7=1
+Cantidad8=1
+CantItem=8
+Item1=6242
+Item2=6243
+Item3=6244
+Item4=6245
+Item5=6246
+Item6=6247
+Item7=6248
+Item8=6249
 
 [OBJ6242] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Daga +4 (Navidad)
@@ -73227,6 +73586,9 @@ Texto=Item de quest
 GrhIndex=38217
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ478] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Galeón Patreon
@@ -73242,6 +73604,11 @@ it_Name=Galeon Patreon
 it_Texto=Richiede 70 punti nella navigazione
 pt_Name=Galeon Patreon
 pt_Texto=Requer 70 pontos na navegação
+Intirable=1
+MinSkill=70
+VELOCIDAD=1
+CP1=LADRON
+CP2=PIRATA
 
 [OBJ482] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -73326,6 +73693,12 @@ RopajeElfaOscura=3636
 RopajeEnana=2694
 RopajeOrca=3261
 RopajeGnoma=2694
+MinELV=35
+CP1=BARDO
+CP2=DRUIDA
+CP3=LADRON
+CP4=MAGO
+CP5=PIRATA
 
 [OBJ509] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -73359,6 +73732,16 @@ RopajeElfaOscura=3638
 RopajeEnana=2696
 RopajeOrca=3263
 RopajeGnoma=2696
+MinELV=35
+CP1=ASESINO
+CP2=BANDIDO
+CP3=CAZADOR
+CP4=CLERIGO
+CP5=GUERRERO
+CP6=LADRON
+CP7=PALADIN
+CP8=PIRATA
+CP9=TRABAJADOR
 
 [OBJ528] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Maestro Scramer
@@ -73415,6 +73798,9 @@ RopajeHumana=2256
 RopajeHumano=175
 RopajeOrca=3355
 RopajeOrco=1143
+MinELV=20
+CP1=LADRON
+CP2=PIRATA
 
 [OBJ536] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -73684,6 +74070,7 @@ Texto=Item de Quest
 GrhIndex=38413
 ObjType=100
 Valor=30
+NoseCae=1
 
 [OBJ666] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Seda Elemental
@@ -73691,6 +74078,7 @@ Texto=Item de Quest
 GrhIndex=38414
 ObjType=100
 Valor=30
+NoseCae=1
 
 [OBJ667] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Seda Elemental
@@ -73698,6 +74086,7 @@ Texto=Item de Quest
 GrhIndex=38415
 ObjType=100
 Valor=30
+NoseCae=1
 
 [OBJ669] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Hilo liviano de Amida
@@ -73712,6 +74101,7 @@ Texto=Item de Quest
 GrhIndex=38328
 ObjType=100
 Valor=0
+Crucial=1
 
 [OBJ671] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -75302,6 +75692,13 @@ Texto=Causa entre 35 a 45 puntos de daño al objetivo que selecciones.
 GrhIndex=609
 ObjType=24
 Valor=24000
+Crucial=1
+HechizoIndex=39
+CP1=CAZADOR
+CP2=GUERRERO
+CP3=LADRON
+CP4=PIRATA
+CP5=TRABAJADOR
 
 [OBJ1647] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Ascua Fugaz
@@ -75318,6 +75715,11 @@ fr_Name=Braise fugace
 fr_Texto=Il provoque entre 35 et 45 points de dégât à la cible que vous sélectionnez.
 it_Name=Brace fugace
 it_Texto=Causa tra 35 e 45 punti di danno al bersaglio selezionato.
+CP1=CAZADOR
+CP2=GUERRERO
+CP3=LADRON
+CP4=PIRATA
+CP5=TRABAJADOR
 
 [OBJ1650] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -75338,6 +75740,11 @@ it_Name=Guarire lesioni gravi
 it_Texto=Ripristina tra 25 e 50 punti sanitari.
 pt_Name=Curar ferimentos graves
 pt_Texto=Restaure entre 25 e 50 pontos de saúde.
+CP1=CAZADOR
+CP2=GUERRERO
+CP3=LADRON
+CP4=PIRATA
+CP5=TRABAJADOR
 
 [OBJ1666] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Aturdir
@@ -75354,6 +75761,17 @@ it_Name=Stordire
 it_Texto=Stordi il bersaglio per alcuni secondi.
 pt_Name=Atordoar
 pt_Texto=Atordoar o alvo por alguns segundos.
+Crucial=1
+HechizoIndex=28
+CP1=BARDO
+CP2=CAZADOR
+CP3=CLERIGO
+CP4=DRUIDA
+CP5=GUERRERO
+CP6=LADRON
+CP7=MAGO
+CP8=PIRATA
+CP9=TRABAJADOR
 
 [OBJ1667] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Resplandor Ígneo
@@ -75370,6 +75788,17 @@ it_Name=Glow igneo
 it_Texto=Causare da 45 a 55 punti di danno al bersaglio.
 pt_Name=Brilho ígneo
 pt_Texto=Causar 45 a 55 pontos de dano ao alvo.
+Crucial=1
+HechizoIndex=40
+CP1=BARDO
+CP2=CAZADOR
+CP3=CLERIGO
+CP4=DRUIDA
+CP5=GUERRERO
+CP6=LADRON
+CP7=MAGO
+CP8=PIRATA
+CP9=TRABAJADOR
 
 [OBJ1668] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Impacto Eléctrico
@@ -75386,6 +75815,17 @@ it_Name=Impatto elettrico
 it_Texto=Causare 70 a 76 punti di danno.
 pt_Name=Impacto elétrico
 pt_Texto=Causar 70 a 76 pontos de dano.
+Crucial=1
+HechizoIndex=50
+CP1=BARDO
+CP2=CAZADOR
+CP3=CLERIGO
+CP4=DRUIDA
+CP5=GUERRERO
+CP6=LADRON
+CP7=MAGO
+CP8=PIRATA
+CP9=TRABAJADOR
 
 [OBJ1670] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Rayo Elemental
@@ -75402,6 +75842,19 @@ it_Name=Raggio elementare
 it_Texto=Causare 76 a 83 punti di danno.
 pt_Name=Raio elementar
 pt_Texto=Causar 76 a 83 pontos de dano.
+Crucial=1
+HechizoIndex=59
+CP1=ASESINO
+CP2=BANDIDO
+CP3=BARDO
+CP4=CAZADOR
+CP5=CLERIGO
+CP6=GUERRERO
+CP7=LADRON
+CP8=MAGO
+CP9=PALADIN
+CP10=PIRATA
+CP11=TRABAJADOR
 
 [OBJ1672] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Devolver Movilidad
@@ -75418,6 +75871,17 @@ it_Name=Restituzione della mobilità
 it_Texto=Rimuovere lo stato di paralisi dell'utente selezionato.
 pt_Name=Mobilidade de retorno
 pt_Texto=Remova o estado de paralisia do usuário selecionado.
+Crucial=1
+HechizoIndex=29
+CP1=BARDO
+CP2=CAZADOR
+CP3=CLERIGO
+CP4=DRUIDA
+CP5=GUERRERO
+CP6=LADRON
+CP7=MAGO
+CP8=PIRATA
+CP9=TRABAJADOR
 
 [OBJ1673] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Invisibilidad (Semi-Magicas)
@@ -75434,6 +75898,17 @@ it_Name=Invisibilità (semi-marico)
 it_Texto=Diventa invisibile al bersaglio per un breve periodo di tempo.
 pt_Name=Invisibilidade (semi-marica)
 pt_Texto=Torna -se invisível para o alvo por um curto período de tempo.
+Crucial=1
+HechizoIndex=30
+CP1=BARDO
+CP2=CAZADOR
+CP3=CLERIGO
+CP4=DRUIDA
+CP5=GUERRERO
+CP6=LADRON
+CP7=MAGO
+CP8=PIRATA
+CP9=TRABAJADOR
 
 [OBJ1674] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Testeo Descarga Semimagicas
@@ -75468,6 +75943,11 @@ it_Name=Velocità
 it_Texto=Aumenta l'agilità dell'utente.
 pt_Name=Velocidade
 pt_Texto=Aumente a agilidade do usuário.
+CP1=CAZADOR
+CP2=GUERRERO
+CP3=LADRON
+CP4=PIRATA
+CP5=TRABAJADOR
 
 [OBJ1676] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Fuerza
@@ -75486,6 +75966,11 @@ it_Name=Forza
 it_Texto=Aumentare leggermente la forza dell'utente.
 pt_Name=Vigor
 pt_Texto=Aumente ligeiramente a força do usuário.
+CP1=CAZADOR
+CP2=GUERRERO
+CP3=LADRON
+CP4=PIRATA
+CP5=TRABAJADOR
 
 [OBJ1677] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Tormenta de Fuego
@@ -75504,6 +75989,14 @@ it_Name=Tempesta di fuoco
 it_Texto=Causare da 45 a 55 punti di danno al bersaglio.
 pt_Name=Tempestade de fogo
 pt_Texto=Causar 45 a 55 pontos de dano ao alvo.
+CP1=ASESINO
+CP2=BANDIDO
+CP3=CAZADOR
+CP4=GUERRERO
+CP5=LADRON
+CP6=PALADIN
+CP7=PIRATA
+CP8=TRABAJADOR
 
 [OBJ1678] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Resplandor Ígneo
@@ -75522,6 +76015,15 @@ it_Name=Glow igneo
 it_Texto=Causare da 45 a 55 punti di danno al bersaglio.
 pt_Name=Brilho ígneo
 pt_Texto=Causar 45 a 55 pontos de dano ao alvo.
+CP1=BARDO
+CP2=CAZADOR
+CP3=CLERIGO
+CP4=DRUIDA
+CP5=GUERRERO
+CP6=LADRON
+CP7=MAGO
+CP8=PIRATA
+CP9=TRABAJADOR
 
 [OBJ1679] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Inmovilizar
@@ -75540,6 +76042,14 @@ it_Name=Immobilizzare
 it_Texto=Immobilizzare il bersaglio.
 pt_Name=Imobilizar
 pt_Texto=Imobiliza o alvo.
+CP1=ASESINO
+CP2=BANDIDO
+CP3=CAZADOR
+CP4=GUERRERO
+CP5=LADRON
+CP6=PALADIN
+CP7=PIRATA
+CP8=TRABAJADOR
 
 [OBJ1680] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Aturdir
@@ -75558,6 +76068,15 @@ it_Name=Stordire
 it_Texto=Stordi il bersaglio per alcuni secondi.
 pt_Name=Atordoar
 pt_Texto=Atordoar o alvo por alguns segundos.
+CP1=BARDO
+CP2=CAZADOR
+CP3=CLERIGO
+CP4=DRUIDA
+CP5=GUERRERO
+CP6=LADRON
+CP7=MAGO
+CP8=PIRATA
+CP9=TRABAJADOR
 
 [OBJ1681] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Fulgor Ígneo
@@ -75574,6 +76093,13 @@ it_Name=Fulgor Ineceo
 it_Texto=Causa tra 35 e 50 punti di danno al NPC che selezioni.
 pt_Name=Fulgor Igneo
 pt_Texto=Isso causa entre 35 e 50 pontos de dano ao NPC que seleções.
+Crucial=1
+HechizoIndex=52
+CP1=CAZADOR
+CP2=GUERRERO
+CP3=LADRON
+CP4=PIRATA
+CP5=TRABAJADOR
 
 [OBJ1682] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Fulgor Ígneo
@@ -75613,6 +76139,13 @@ Texto=Aumenta levemente la agilidad del usuario.
 GrhIndex=609
 ObjType=24
 Valor=24000
+Crucial=1
+HechizoIndex=37
+CP1=CAZADOR
+CP2=GUERRERO
+CP3=LADRON
+CP4=PIRATA
+CP5=TRABAJADOR
 
 [OBJ1685] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Fuerza Menor
@@ -75620,6 +76153,13 @@ Texto=Aumenta levemente la fuerza del usuario.
 GrhIndex=609
 ObjType=24
 Valor=20000
+Crucial=1
+HechizoIndex=38
+CP1=CAZADOR
+CP2=GUERRERO
+CP3=LADRON
+CP4=PIRATA
+CP5=TRABAJADOR
 
 [OBJ1686] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Fractura Glacial
@@ -76663,6 +77203,10 @@ it_Name=Ascia scheletro
 it_Texto=Articolo di ricerca
 pt_Name=Machado de esqueleto
 pt_Texto=Item de missão
+Crucial=1
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2250] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Nota Mágica
@@ -76677,6 +77221,10 @@ it_Name=Nota magica
 it_Texto=Articolo di ricerca
 pt_Name=Nota mágica
 pt_Texto=Item de missão
+Crucial=1
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2251] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -76815,6 +77363,7 @@ it_Name=Lynn Fluid
 it_Texto=Articolo di ricerca
 pt_Name=Lynn Fluid
 pt_Texto=Item de missão
+NoseCae=1
 
 [OBJ2670] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -76837,6 +77386,9 @@ Texto=Objeto de Quest
 GrhIndex=38231
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2770] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Piedra Demoníaca
@@ -76844,6 +77396,9 @@ Texto=Objeto de Quest
 GrhIndex=55338
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2771] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Pendiente Polar
@@ -76851,6 +77406,9 @@ Texto=Objeto de Quest
 GrhIndex=49174
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2772] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Codex Umbrarum
@@ -76858,6 +77416,9 @@ Texto=Objeto de Quest
 GrhIndex=28926
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2773] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Retazo Profano
@@ -76865,6 +77426,9 @@ Texto=Objeto de Quest
 GrhIndex=38332
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2774] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Corazón del Dragón Azul
@@ -76879,6 +77443,9 @@ Texto=Con este objeto podrás canjear tu Túnica/Armadura.
 GrhIndex=28809
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2776] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -76913,6 +77480,19 @@ Texto=Objeto necesario para reparar la Caña de Pesca Silvestre
 GrhIndex=49114
 ObjType=18
 Valor=360
+Crucial=1
+POWER=2
+CP1=ASESINO
+CP2=BANDIDO
+CP3=BARDO
+CP4=CAZADOR
+CP5=CLERIGO
+CP6=DRUIDA
+CP7=GUERRERO
+CP8=LADRON
+CP9=MAGO
+CP10=PALADIN
+CP11=PIRATA
 
 [OBJ2790] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Hilo de Pesca Marina
@@ -76920,6 +77500,19 @@ Texto=Objeto necesario para reparar la Caña de Pesca Marina
 GrhIndex=49115
 ObjType=18
 Valor=540
+Crucial=1
+POWER=3
+CP1=ASESINO
+CP2=BANDIDO
+CP3=BARDO
+CP4=CAZADOR
+CP5=CLERIGO
+CP6=DRUIDA
+CP7=GUERRERO
+CP8=LADRON
+CP9=MAGO
+CP10=PALADIN
+CP11=PIRATA
 
 [OBJ2791] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Hilo de Pesca de Plata
@@ -76934,6 +77527,9 @@ Texto=Ítem de Quest.
 GrhIndex=38076
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2793] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Piedra Plateada
@@ -76941,6 +77537,9 @@ Texto=Ítem de Quest.
 GrhIndex=38073
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2794] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Piedra Naranja
@@ -76948,6 +77547,9 @@ Texto=Ítem de Quest.
 GrhIndex=38067
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2795] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Piedra Turquesa
@@ -76955,6 +77557,9 @@ Texto=Ítem de Quest.
 GrhIndex=38072
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2796] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Piedra Verde
@@ -76962,6 +77567,9 @@ Texto=Ítem de Quest.
 GrhIndex=38075
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2797] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Piedra Roja
@@ -76969,6 +77577,9 @@ Texto=Ítem de Quest.
 GrhIndex=38071
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2798] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Piedra Dorada
@@ -76976,6 +77587,9 @@ Texto=Ítem de Quest.
 GrhIndex=38068
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2799] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Piedra Negra
@@ -76983,6 +77597,9 @@ Texto=Ítem de Quest.
 GrhIndex=38065
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2800] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Piedra Violeta
@@ -76990,6 +77607,9 @@ Texto=Ítem de Quest.
 GrhIndex=38066
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ2820] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 CP1=PIRATA
@@ -77116,6 +77736,9 @@ it_Name=Succo di frutta (P)
 it_Texto=Ripristina 50 punti di sete
 pt_Name=Suco de frutas (P)
 pt_Texto=Restaurar 50 pontos de sede
+Crucial=1
+MinAgu=50
+newbie=1
 
 [OBJ3750] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Bastón del Aprendiz
@@ -77255,6 +77878,10 @@ it_Name=Anello di difesa magica
 it_Texto=Aumenta la tua resistenza magica del 2%.
 pt_Name=Anel de defesa mágica
 pt_Texto=Aumente sua resistência mágica em 2%.
+CP1=DRUIDA
+CP2=LADRON
+CP3=MAGO
+CP4=PIRATA
 
 [OBJ3758] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -77289,6 +77916,7 @@ Texto=Herramienta para Alquimia
 GrhIndex=28703
 ObjType=29
 Valor=8
+Crucial=1
 
 [OBJ4998] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Cabeza de Hombre de Hierro
@@ -78426,6 +79054,11 @@ it_Name=Wolf Fang
 it_Texto=Articolo di ricerca
 pt_Name=Wolf Fang
 pt_Texto=Item de missão
+Crucial=1
+Instransferible=1
+Intirable=1
+MinELV=10
+NoseCae=1
 
 [OBJ5067] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Jinete de Nivel 2
@@ -78441,6 +79074,11 @@ it_Name=Zanna
 it_Texto=Articolo di ricerca
 pt_Name=Presa
 pt_Texto=Item de missão
+Crucial=1
+Instransferible=1
+Intirable=1
+MinELV=15
+NoseCae=1
 
 [OBJ5068] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Jinete de Nivel 3
@@ -78448,6 +79086,11 @@ Texto=Al consumir este objeto, tu nivel de Jinete subirá a 3
 GrhIndex=38388
 ObjType=1
 Valor=0
+Crucial=1
+Instransferible=1
+Intirable=1
+MinELV=20
+NoseCae=1
 
 [OBJ5069] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Jinete de Nivel 4
@@ -78455,6 +79098,11 @@ Texto=Al consumir este objeto, tu nivel de Jinete subirá a 4
 GrhIndex=38389
 ObjType=1
 Valor=0
+Crucial=1
+Instransferible=1
+Intirable=1
+MinELV=25
+NoseCae=1
 
 [OBJ5070] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Jinete de Nivel 5
@@ -78462,6 +79110,11 @@ Texto=Al consumir este objeto, tu nivel de Jinete subirá a 5
 GrhIndex=38390
 ObjType=1
 Valor=0
+Crucial=1
+Instransferible=1
+Intirable=1
+MinELV=30
+NoseCae=1
 
 [OBJ5071] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Jinete de Nivel 6
@@ -78469,6 +79122,11 @@ Texto=Al consumir este objeto, tu nivel de Jinete subirá a 6
 GrhIndex=38391
 ObjType=1
 Valor=0
+Crucial=1
+Instransferible=1
+Intirable=1
+MinELV=35
+NoseCae=1
 
 [OBJ5072] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Jinete de Nivel 7
@@ -78476,6 +79134,10 @@ Texto=Al consumir este objeto, tu nivel de Jinete subirá a 7
 GrhIndex=38392
 ObjType=1
 Valor=0
+Instransferible=1
+Intirable=1
+MinELV=40
+NoseCae=1
 
 [OBJ5073] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Jinete de Nivel 8
@@ -78483,6 +79145,10 @@ Texto=Al consumir este objeto, tu nivel de Jinete subirá a 8
 GrhIndex=38393
 ObjType=1
 Valor=0
+Instransferible=1
+Intirable=1
+MinELV=45
+NoseCae=1
 
 [OBJ5074] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Jinete de Nivel 9
@@ -78490,6 +79156,10 @@ Texto=Al consumir este objeto, tu nivel de Jinete subirá a 9
 GrhIndex=38394
 ObjType=1
 Valor=0
+Instransferible=1
+Intirable=1
+MinELV=47
+NoseCae=1
 
 [OBJ5075] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Colmillo de Lobo
@@ -78511,6 +79181,7 @@ Texto=Objeto necesario para completar la Quest "Jinete de Nivel 1"
 GrhIndex=38397
 ObjType=100
 Valor=15000
+Crucial=1
 
 [OBJ5078] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Herradura de Jinete de Nivel 2
@@ -78518,6 +79189,7 @@ Texto=Objeto necesario para completar la Quest "Jinete de Nivel 2"
 GrhIndex=38398
 ObjType=100
 Valor=40000
+Crucial=1
 
 [OBJ5079] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Herradura de Jinete de Nivel 3
@@ -78525,6 +79197,7 @@ Texto=Objeto necesario para completar la Quest "Jinete de Nivel 3"
 GrhIndex=38399
 ObjType=100
 Valor=80000
+Crucial=1
 
 [OBJ5080] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Herradura de Jinete de Nivel 4
@@ -78532,6 +79205,7 @@ Texto=Objeto necesario para completar la Quest "Jinete de Nivel 4"
 GrhIndex=38400
 ObjType=100
 Valor=150000
+Crucial=1
 
 [OBJ5081] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Herradura de Jinete de Nivel 5
@@ -78539,6 +79213,7 @@ Texto=Objeto necesario para completar la Quest "Jinete de Nivel 5"
 GrhIndex=38401
 ObjType=100
 Valor=300000
+Crucial=1
 
 [OBJ5082] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Herradura de Jinete de Nivel 6
@@ -78546,6 +79221,7 @@ Texto=Objeto necesario para completar la Quest "Jinete de Nivel 6"
 GrhIndex=38402
 ObjType=100
 Valor=500000
+Crucial=1
 
 [OBJ5083] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Herradura de Jinete de Nivel 7
@@ -78553,6 +79229,7 @@ Texto=Objeto necesario para completar la Quest "Jinete de Nivel 7"
 GrhIndex=38403
 ObjType=100
 Valor=800000
+Crucial=1
 
 [OBJ5084] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Herradura de Jinete de Nivel 8
@@ -78560,6 +79237,7 @@ Texto=Objeto necesario para completar la Quest "Jinete de Nivel 8"
 GrhIndex=38404
 ObjType=100
 Valor=1200000
+Crucial=1
 
 [OBJ5085] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Herradura de Jinete de Nivel 9
@@ -78567,6 +79245,7 @@ Texto=Objeto necesario para completar la Quest "Jinete de Nivel 9"
 GrhIndex=38405
 ObjType=100
 Valor=1800000
+Crucial=1
 
 [OBJ5171] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Runa Elemental de Agua
@@ -80827,6 +81506,7 @@ RopajeOrca=3202
 RopajeOrco=1163
 MaxDef=0
 MinDef=0
+MinELV=1
 
 [OBJ6085] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Skin de Ropaje 6085
@@ -81284,6 +81964,11 @@ fr_Name=Courrier à Échelle Rouge
 fr_Texto=Produit consommable.
 it_Name=Posta in Scala Rossa
 it_Texto=Articolo di consumo.
+CP1=BARDO
+CP2=DRUIDA
+CP3=LADRON
+CP4=MAGO
+CP5=PIRATA
 
 [OBJ6106] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Skin de Ropaje 6106
@@ -81380,6 +82065,11 @@ fr_Name=Plaque Lumineuse
 fr_Texto=Produit consommable.
 it_Name=Piatto leggero
 it_Texto=Articolo di consumo.
+CP1=BARDO
+CP2=DRUIDA
+CP3=LADRON
+CP4=MAGO
+CP5=PIRATA
 
 [OBJ6110] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Skin de Ropaje 6110
@@ -82990,6 +83680,14 @@ fr_Name=Manteau d'écailles Rouges
 fr_Texto=Produit consommable.
 it_Name=Mantello a Scaglie Rosse
 it_Texto=Articolo di consumo.
+CP1=ASESINO
+CP2=BANDIDO
+CP3=CAZADOR
+CP4=GUERRERO
+CP5=LADRON
+CP6=PALADIN
+CP7=PIRATA
+CP8=TRABAJADOR
 
 [OBJ6189] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Túnica de Principiante
@@ -83073,6 +83771,10 @@ fr_Name=Bouclier de Tortue
 fr_Texto=Produit consommable.
 it_Name=Scudo di Tartaruga
 it_Texto=Articolo di consumo.
+CP1=DRUIDA
+CP2=LADRON
+CP3=MAGO
+CP4=PIRATA
 
 [OBJ6192] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Escudo de Tortuga
@@ -83092,6 +83794,10 @@ fr_Name=Bouclier de Tortue
 fr_Texto=Produit consommable.
 it_Name=Scudo di Tartaruga
 it_Texto=Articolo di consumo.
+CP1=DRUIDA
+CP2=LADRON
+CP3=MAGO
+CP4=PIRATA
 
 [OBJ6193] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Puerta de alcantarilla Nro 1 Puerta Abierta.
@@ -83391,6 +84097,9 @@ Texto=¡Entrégalas para ayudar a completar el objetivo comunitario!
 GrhIndex=49143
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ6234] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Estrella Navideña
@@ -83398,6 +84107,9 @@ Texto=¡Canjea esta estrella por una recompensa única!
 GrhIndex=49145
 ObjType=100
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ6235] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Caramelo Azul
@@ -83405,6 +84117,9 @@ Texto=Restaura un 7% de tu maná
 GrhIndex=38410
 ObjType=11
 Valor=0
+NoseCae=1
+Porcentaje=7
+TipoPocion=4
 
 [OBJ6236] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Caramelo Rojo
@@ -83412,6 +84127,10 @@ Texto=Restaura 33 puntos de Vida
 GrhIndex=38407
 ObjType=11
 Valor=0
+MaxModificador=33
+MinModificador=33
+NoseCae=1
+TipoPocion=3
 
 [OBJ6237] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Caramelo Amarillo
@@ -83419,6 +84138,11 @@ Texto=Aumenta tu agilidad entre 6 y 10 puntos
 GrhIndex=38409
 ObjType=11
 Valor=0
+DuracionEfecto=120
+MaxModificador=10
+MinModificador=6
+NoseCae=1
+TipoPocion=1
 
 [OBJ6238] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Caramelo Verde
@@ -83426,6 +84150,11 @@ Texto=Aumenta tu fuerza entre 4 y 9 puntos
 GrhIndex=38406
 ObjType=11
 Valor=0
+DuracionEfecto=110
+MaxModificador=9
+MinModificador=4
+NoseCae=1
+TipoPocion=2
 
 [OBJ6239] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Rodolfo
@@ -83568,6 +84297,7 @@ Texto=Con este objeto podrás solicitar a un Administrador el Perdón Faccionari
 GrhIndex=49313
 ObjType=100
 Valor=0
+NoseCae=1
 
 [OBJ6257] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Puerta de Hielo abierta
@@ -83659,6 +84389,16 @@ Texto=Objeto consumible.
 ObjType=40
 Valor=0
 GrhIndex=58398
+Caos=1
+NoseCae=1
+CP1=ASESINO
+CP2=BANDIDO
+CP3=BARDO
+CP4=CAZADOR
+CP5=DRUIDA
+CP6=LADRON
+CP7=MAGO
+CP8=PIRATA
 
 [OBJ6339] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Escudo de la Legión Oscura
@@ -83666,6 +84406,16 @@ Texto=Objeto consumible.
 ObjType=40
 Valor=0
 GrhIndex=58397
+Caos=1
+NoseCae=1
+CP1=CLERIGO
+CP2=DRUIDA
+CP3=GUERRERO
+CP4=LADRON
+CP5=MAGO
+CP6=PALADIN
+CP7=PIRATA
+CP8=TRABAJADOR
 
 [OBJ6340] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Escudo de la Armada Imperial
@@ -83673,6 +84423,16 @@ Texto=Objeto consumible.
 ObjType=40
 Valor=0
 GrhIndex=58396
+NoseCae=1
+Real=1
+CP1=CLERIGO
+CP2=DRUIDA
+CP3=GUERRERO
+CP4=LADRON
+CP5=MAGO
+CP6=PALADIN
+CP7=PIRATA
+CP8=TRABAJADOR
 
 [OBJ6341] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Escudo de la Armada Imperial
@@ -83680,6 +84440,16 @@ Texto=Objeto consumible.
 ObjType=40
 Valor=0
 GrhIndex=58399
+NoseCae=1
+Real=1
+CP1=ASESINO
+CP2=BANDIDO
+CP3=BARDO
+CP4=CAZADOR
+CP5=DRUIDA
+CP6=LADRON
+CP7=MAGO
+CP8=PIRATA
 
 [OBJ6342] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Vestido Turquesa y Violeta
@@ -83979,6 +84749,9 @@ Texto=¡Consume este objeto para ganar puntos de facción!
 GrhIndex=28736
 ObjType=1
 Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
 
 [OBJ6355] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Pasaje al inframundo
