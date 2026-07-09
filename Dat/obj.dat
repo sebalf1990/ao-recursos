@@ -356,6 +356,12 @@ en_name=Red Apple
 en_texto=Restores 10 hunger points
 
 [OBJ2]
+CP1=CAZADOR
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
 Name=Espada Larga
 IT_texto=Per combattere contro creature e utenti
 IT_Name=Spada lunga
@@ -383,12 +389,6 @@ WeaponType=1
 
 '--------------> Hachas <--------------
 
-CP1=GUERRERO
-CP2=PALADIN
-CP3=BANDIDO
-CP4=ASESINO
-CP5=CLERIGO
-CP6=TRABAJADOR
 [OBJ3]
 Name=Hacha Orca
 Objtype=2
@@ -559,6 +559,8 @@ ObjType=4
 Agarrable=1
 
 [OBJ15]
+CP1=PIRATA
+CP2=LADRON
 Name=Daga
 IT_texto=Danno 1/2
 IT_Name=Dagger
@@ -584,16 +586,6 @@ Texto=Daño 1/2
 en_Name=Dagger
 WeaponType=2
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ16]
 Name=Puerta abierta
 GrhIndex=5599
@@ -747,6 +739,11 @@ en_texto=Restores 50 hunger points
 '**************************** ARMADURAS ****************************
 
 [OBJ30]
+CP1=PIRATA
+CP2=LADRON
+CP3=BARDO
+CP4=DRUIDA
+CP5=MAGO
 Name=Armadura de Cuero
 IT_texto=Difesa 7/11
 IT_Name=Armatura in pelle
@@ -779,13 +776,6 @@ Crucial=1
 Texto=Defensa 7/11
 en_Name=Leather Armor
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=TRABAJADOR
 [OBJ31]
 Name=Árbol Pino
 GrhIndex=8258
@@ -836,19 +826,15 @@ PielOsoPolar=0
 en_Name=Basic Vestment
 Texto=Vestimenta Común
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ33] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
+CP1=BANDIDO
+CP2=ASESINO
+CP3=CAZADOR
+CP4=PIRATA
+CP5=LADRON
+CP6=BARDO
+CP7=DRUIDA
+CP8=MAGO
 GrhIndex=504
 MaxHit=3
 MinHit=1
@@ -870,10 +856,6 @@ IT_texto=Per combattere contro creature e utenti
 pt_Name=Espada
 PT_texto=Lutar contra criaturas e usuários
 
-CP1=GUERRERO
-CP2=PALADIN
-CP3=CLERIGO
-CP4=TRABAJADOR
 [OBJ34] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=28852
 Name=Jamón
@@ -916,18 +898,6 @@ PielOsoPolar=0
 en_Name=Basic Vestment
 Texto=Vestimenta Común
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ36]
 Name=Poción de Agilidad
 IT_texto=Aumenta la tua agilità tra 2 e 4 punti
@@ -949,18 +919,6 @@ Texto=Aumenta tu agilidad entre 2 y 4 puntos
 en_Name=Agility Potion
 en_texto=Increase your agility between 2 and 4 points
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ37]
 Name=Poción de Maná
 IT_texto=Ripristina il 5% del tuo mana
@@ -980,18 +938,6 @@ Porcentaje=5
 en_Name=Mana Potion
 en_texto=Restore 5% of your mana
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ38]
 Name=Poción de Vida
 IT_texto=Ripristina 27 punti di vita
@@ -1012,18 +958,6 @@ Texto=Restaura 27 puntos de vida
 en_Name=Health Potion
 en_texto=Restores 27 Health points
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ39]
 Name=Poción de Fuerza
 IT_texto=Aumenta la tua forza tra 2 e 5 punti
@@ -1047,18 +981,6 @@ en_texto=Increase your strength between 2 and 5 points
 
 '**************************** LIBROS ****************************
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ40]
 Name=Flauta Élfica
 GrhIndex=538
@@ -1288,6 +1210,14 @@ NFT=0
 en_Name=Ullathorpe House Key 01
 
 [OBJ55]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Traje de Duque
 IT_texto=Duke Suit
 IT_Name=Duke Suit
@@ -1320,11 +1250,9 @@ MinELV=1
 Texto=Traje de Duque
 en_Name=Duke Outfit
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ56]
+CP1=PIRATA
+CP2=LADRON
 Name=Vestido de Duquesa
 IT_texto=Abito duchessa
 IT_Name=Abito duchessa
@@ -1362,16 +1290,6 @@ Crucial=1
 Texto=Vestido de Duquesa
 en_Name=Duchess Dress
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ57]
 Name=Orbe de la Ponzoña
 EfectoMagico=19
@@ -2360,6 +2278,12 @@ en_Name=locked door house 9 of nix
 ExtraStr=Esta honorable casa pertenece a
 
 [OBJ123]
+CP1=CAZADOR
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
 Name=Espada Vikinga
 IT_texto=Danno 8/12
 IT_Name=Spada vichinga
@@ -2386,13 +2310,17 @@ Crucial=1
 Texto=Daño 8/12
 WeaponType=1
 
+[OBJ124]
 CP1=GUERRERO
 CP2=PALADIN
-CP3=BANDIDO
-CP4=ASESINO
-CP5=CLERIGO
-CP6=TRABAJADOR
-[OBJ124]
+CP3=CLERIGO
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 Name=Katana
 IT_texto=Danno 13/15
 FR_texto=Dommages 13/15
@@ -2417,8 +2345,6 @@ en_Name=Katana
 Texto=Daño 13/15
 WeaponType=1
 
-CP1=BANDIDO
-CP2=ASESINO
 [OBJ125]
 Name=Poción Negra
 IT_texto=Muori quando lo consumi. Utile per casi drastici.
@@ -2437,19 +2363,17 @@ Texto=Mueres al consumirla. Útil para casos drásticos.
 en_texto=You die when you consume it. Useful for drastic cases.
 en_Name=Black potion
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
+[OBJ126]
+CP1=BANDIDO
+CP2=ASESINO
+CP3=CLERIGO
+CP4=TRABAJADOR
+CP5=CAZADOR
 CP6=PIRATA
 CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
+CP8=BARDO
+CP9=DRUIDA
 CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
-[OBJ126]
 Name=Espada de Plata
 Texto=Daño 13/19
 GrhIndex=713
@@ -2475,9 +2399,18 @@ IT_texto=Danno 13/19
 
 '**************************** HERRAMIENTAS ****************************
 
+[OBJ127]
 CP1=GUERRERO
 CP2=PALADIN
-[OBJ127]
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Hacha de Leñador
 IT_texto=Strumento di registrazione
 IT_Name=Lumberjack Ax
@@ -2496,7 +2429,6 @@ Anim=143
 Crucial=1
 Texto=Herramienta de tala
 
-CP1=TRABAJADOR
 [OBJ128]
 Name=Yacimiento de Blodium
 Info=Yacimiento De Blodium
@@ -2513,6 +2445,12 @@ en_Name=Blodium deposit
 '--------------> Cascos <--------------
 
 [OBJ132]
+CP1=CAZADOR
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
 Name=Casco de Hierro Completo
 IT_texto=Difesa 17/20
 IT_Name=Casco di Ferro Completo
@@ -2538,12 +2476,6 @@ Valor=7500
 MinELV=25
 Texto=Defensa 17/20
 
-CP1=GUERRERO
-CP2=PALADIN
-CP3=BANDIDO
-CP4=ASESINO
-CP5=CLERIGO
-CP6=TRABAJADOR
 [OBJ134]
 Name=Herradura de Mula 
 GrhIndex=28794
@@ -2601,6 +2533,14 @@ en_name=twigs
 en_texto=It can be lit.
 
 [OBJ137]
+CP1=PALADIN
+CP2=CLERIGO
+CP3=CAZADOR
+CP4=PIRATA
+CP5=LADRON
+CP6=BARDO
+CP7=DRUIDA
+CP8=MAGO
 GrhIndex=8500
 LingH=110
 LingP=220
@@ -2624,11 +2564,18 @@ SkHerreria=100
 Texto=Daño 13/17
 Valor=17400
 
-CP1=GUERRERO
-CP2=BANDIDO
-CP3=ASESINO
-CP4=TRABAJADOR
 [OBJ138]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Red de Pesca
 IT_texto=Strumento di pesca, utilizzabile solo ad Altamar.
 IT_Name=Rete di pesca
@@ -2650,7 +2597,6 @@ en_Name=Fishing Net
 CD=30000
 CDTYPE=5
 
-CP1=TRABAJADOR
 [OBJ139] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 CD=30000
 CDType=5
@@ -2850,6 +2796,14 @@ Texto=Restaura 10 puntos de hambre
 en_texto=Restores 10 hunger points
 
 [OBJ159]
+CP1=BANDIDO
+CP2=ASESINO
+CP3=CAZADOR
+CP4=PIRATA
+CP5=LADRON
+CP6=BARDO
+CP7=DRUIDA
+CP8=MAGO
 Name=Hacha de Bárbaro
 IT_texto=Danni 9/14
 IT_Name=Ascia barbaro
@@ -2875,10 +2829,6 @@ MinELV=25
 Texto=Daño 9/14
 WeaponType=7
 
-CP1=GUERRERO
-CP2=PALADIN
-CP3=CLERIGO
-CP4=TRABAJADOR
 [OBJ160]
 Name=Cerveza
 GrhIndex=28875
@@ -2925,6 +2875,15 @@ Texto=Cuchara de Madera
 '--------------> Espadas <--------------
 
 [OBJ164]
+CP1=BANDIDO
+CP2=ASESINO
+CP3=TRABAJADOR
+CP4=CAZADOR
+CP5=PIRATA
+CP6=LADRON
+CP7=BARDO
+CP8=DRUIDA
+CP9=MAGO
 Name=Espada Corta
 IT_texto=Arma corta con pugnalata
 IT_Name=Spada corta
@@ -2951,10 +2910,11 @@ Texto=Arma corta con chance de Apuñalar
 en_texto=Short weapon with chance to Stab
 WeaponType=2
 
-CP1=GUERRERO
-CP2=PALADIN
-CP3=CLERIGO
 [OBJ165]
+CP1=BANDIDO
+CP2=PIRATA
+CP3=LADRON
+CP4=MAGO
 Name=Daga +1
 IT_texto=Danno 1/3
 IT_Name=Dagger +1
@@ -2984,14 +2944,6 @@ MinELV=1
 Texto=Daño 1/3
 WeaponType=2
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=ASESINO
-CP5=CLERIGO
-CP6=BARDO
-CP7=DRUIDA
-CP8=TRABAJADOR
 [OBJ166]
 Name=Antídoto
 IT_texto=Guarisce il veleno dell'utente che lo consuma.
@@ -3010,18 +2962,6 @@ Texto=Cura el veneno del usuario que la consume.
 en_texto=Cures the poison of the user who consumes it.
 en_Name=Antidote
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ167]
 Name=Sillon
 GrhIndex=593
@@ -3060,18 +3000,6 @@ en_Name=Energy Potion
 
 '--------------> de Mujer <--------------
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ170]
 Name=Ropaje de Batida (Mujer)
 GrhIndex=2610
@@ -3319,6 +3247,17 @@ en_Name=Strong locked door ullathorpe
 ExtraStr=Puerta cerrada con llave fuerte Ullathorpe
 
 [OBJ187]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Piquete de Minero
 IT_texto=Strumento necessario per minare
 IT_Name=Minero Picket
@@ -3339,7 +3278,6 @@ en_Name=Miner's Pick
 
 '**************************** YACIMIENTOS ****************************
 
-CP1=TRABAJADOR
 [OBJ188]
 Name=Yacimiento de Hierro
 Info=Yacimiento minero
@@ -3447,6 +3385,14 @@ pt_Name=Mesa de madeira
 pt_Texto=A madeira especial pode atendê -lo para uma missão.
 
 [OBJ196]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Túnica Gris
 IT_texto=Difesa 5/7
 IT_Name=Tunica Grigia
@@ -3484,11 +3430,9 @@ en_Name=Grey Robe
 
 '**************************** EMBARCACIONES ****************************
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ197]
+CP1=PIRATA
+CP2=LADRON
 Name=Traje de Baño
 IT_texto=Ti permette di nuotare vicino alla costa.
 IT_Name=Costume da bagno
@@ -3514,17 +3458,18 @@ VELOCIDAD=0.8
 en_texto=It allows you to swim near the coasts.
 en_Name=Swimsuit
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ198]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Serrucho
 IT_texto=Strumento di carpenteria
 IT_Name=Sega
@@ -3543,8 +3488,9 @@ SkHerreria=12
 Texto=Herramienta de carpintería
 en_Name=Saw
 
-CP1=TRABAJADOR
 [OBJ199]
+CP1=PIRATA
+CP2=LADRON
 Name=Traje Especial de Caucho
 MinHit=0
 IT_texto=Permette di camminare in acque inquinate.
@@ -3569,16 +3515,6 @@ VELOCIDAD=1
 en_texto=It allows you to walk in polluted waters.
 en_Name=Special Rubber Suit
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ200] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=579
 Name=Grial
@@ -3748,18 +3684,6 @@ ObjType=11
 Texto=Cura el veneno del usuario que la consume.
 Valor=18
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ213]
 GRHINDEX=0
 
@@ -3924,6 +3848,14 @@ TiempoRegenerar=1900
 en_Name=Silver Deposit
 
 [OBJ238]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Túnica Azul
 IT_texto=Difesa 8/10
 IT_Name=Tunica blu
@@ -3957,10 +3889,6 @@ peso=50
 Texto=Defensa 8/10
 en_Name=Blue Robe
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ239] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 Name=Cofre de Provisiones
 Texto=¡Este cofre contiene provisiones para tu entrenamiento!
@@ -4027,18 +3955,6 @@ PielOsoPolar=0
 en_Name=Green Vestment
 Texto=Vestimenta Verde
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ241]
 Name=Puerta abierta
 GrhIndex=8685
@@ -5660,6 +5576,11 @@ Texto=Teleport a Banderbill
 en_Name=Teleport to Banderbill
 
 [OBJ359]
+CP1=PIRATA
+CP2=LADRON
+CP3=BARDO
+CP4=DRUIDA
+CP5=MAGO
 Name=Cota de Mallas
 IT_texto=Difesa 15/19
 IT_Name=Livello di mesh
@@ -5692,14 +5613,18 @@ Valor=3900
 Crucial=1
 Texto=Defensa 15/19
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=TRABAJADOR
 [OBJ360]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Cazador
 CAMOUFLAGE=1
 IT_texto=Difesa 23/25
@@ -5735,8 +5660,18 @@ peso=200
 Texto=Defensa 23/25
 en_Name=Hunter Armor
 
-CP1=CAZADOR
 [OBJ361]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Hacha Élfica
 IT_texto=Necessario tagliare legna da ardere.
 IT_Name=Ascia ammissibile
@@ -5758,7 +5693,6 @@ en_texto=Necessary to cut down elven firewood.
 
 '**************************** INSTRUMENTOS MUSICALES ****************************
 
-CP1=TRABAJADOR
 [OBJ362]
 Name=Tambor
 GrhIndex=684
@@ -5775,6 +5709,17 @@ en_Name=drum
 NoWiki=1
 
 [OBJ363]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Piquete de Minero Dorado
 IT_texto=Strumento necessario per minare i depositi d'oro
 IT_Name=Picket minerario dell'oro
@@ -5796,8 +5741,15 @@ MinELV=33
 en_texto=Necessary tool for mining in gold deposits
 en_Name=Gold Miner Pickaxe
 
-CP1=TRABAJADOR
 [OBJ365]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=MAGO
 Name=Daga +2
 IT_texto=Danno 2/5
 IT_Name=Pugnale +2
@@ -5821,11 +5773,16 @@ SkHerreria=50
 MinELV=25
 WeaponType=2
 
-CP1=CAZADOR
-CP2=ASESINO
-CP3=BARDO
-CP4=DRUIDA
 [OBJ366]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=DRUIDA
+CP9=MAGO
 Name=Daga +3
 Texto=Daño 3/6
 GrhIndex=35792
@@ -5853,10 +5810,18 @@ FR_texto=Dommages 3/6
 IT_Name=Pugnale +3
 IT_texto=Danno 3/6
 
-CP1=CAZADOR
-CP2=ASESINO
-CP3=BARDO
 [OBJ367]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Daga +4
 Texto=Daño 4/7
 GrhIndex=8493
@@ -5884,7 +5849,6 @@ FR_texto=Dégâts 4/7
 IT_Name=Pugnale +4
 IT_texto=Danno 4/7
 
-CP1=ASESINO
 [OBJ368]
 Name=Lápida
 GrhIndex=513
@@ -6094,6 +6058,14 @@ en_Name=Skills reset ticket
 NoWiki=1
 
 [OBJ381]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Túnica Roja
 IT_texto=Difesa 6/8
 IT_Name=Tunica rossa
@@ -6128,10 +6100,6 @@ en_Name=Red Robe
 PIELLOBO=65
 SkSastreria=25
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ382]
 Name=Vestido Azul
 NumRopaje=3065
@@ -6296,6 +6264,16 @@ NoWiki=1
 SPELLINDEX=57
 
 [OBJ399]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=MAGO
 Name=Cimitarra
 IT_texto=Danno 9/14
 IT_Name=Scimitarra
@@ -6318,9 +6296,13 @@ Crucial=1
 Texto=Daño 9/14
 WeaponType=1
 
-CP1=BARDO
-CP2=DRUIDA
 [OBJ401] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
+CP1=CAZADOR
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
 GrhIndex=44037
 LingH=40
 MaxHit=9
@@ -6346,13 +6328,9 @@ IT_texto=Danno 6/9
 PT_Name=Machado de pedra
 PT_texto=Dano 6/9
 
-CP1=GUERRERO
-CP2=PALADIN
-CP3=BANDIDO
-CP4=ASESINO
-CP5=CLERIGO
-CP6=TRABAJADOR
 [OBJ402]
+CP1=PIRATA
+CP2=LADRON
 Name=Espada Matadragones
 IT_texto=L'unico strumento in grado di sconfiggere il Grande Drago.
 IT_Name=Spada dell'uccisore di draghi
@@ -6386,16 +6364,6 @@ CostoCrafteo=1000
 Materiales=3327-3327-3327-3327-3327
 WeaponType=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ403]
 Name=Espada de Héroes
 GrhIndex=35873
@@ -7159,6 +7127,8 @@ RopajeOrca=3311
 RopajeOrco=0
 
 [OBJ463]
+CP1=PIRATA
+CP2=LADRON
 Name=Vestimenta Común
 IT_texto=Abbigliamento di base
 IT_Name=Abbigliamento comune
@@ -7193,16 +7163,6 @@ PielOsoPolar=0
 Texto=Vestimenta básica
 en_Name=Basic Vestment
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ464] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=55486
 Name=Runa Mística
@@ -7353,6 +7313,8 @@ Texto=Hongos
 en_Name=Mushrooms
 
 [OBJ474]
+CP1=PIRATA
+CP2=LADRON
 Name=Barca
 MinHit=0
 IT_texto=Richiede 70 punti nella navigazione
@@ -7377,17 +7339,18 @@ SubTipo=1
 NFT=0
 en_texto=Requires 70 points in Sailing
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ475]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Galera
 IT_texto=Richiede 80 per navigare, la nave esclusiva per i lavoratori.
 IT_Name=Cambusa
@@ -7415,7 +7378,6 @@ Crucial=0
 Texto=Requiere 80 en Navegar, navío exclusivo para Trabajadores.
 en_texto=Requires 80 in Sail, exclusive ship for Workers.
 
-CP1=TRABAJADOR
 [OBJ476]
 Name=Galeón
 NumRopaje=86
@@ -7474,6 +7436,10 @@ Texto=Traje de Novio
 en_Name=Wedding Suit
 
 [OBJ479]
+CP1=PIRATA
+CP2=LADRON
+CP3=DRUIDA
+CP4=MAGO
 Name=Arco Simple
 IT_texto=Danno 1/3
 IT_Name=Arco Semplice
@@ -7505,15 +7471,11 @@ WeaponType=3
 
 '--------------> Normales <--------------
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=TRABAJADOR
 [OBJ480]
+CP1=PIRATA
+CP2=LADRON
+CP3=DRUIDA
+CP4=MAGO
 Name=Flecha
 IT_texto=Danno 1/4
 IT_Name=Freccia
@@ -7540,14 +7502,6 @@ Texto=Daño 1/4
 en_texto=Damage 1/4
 PROJECTILETYPE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=TRABAJADOR
 [OBJ481]
 Name=Armadura de Dragón Rojo
 GrhIndex=2647
@@ -7724,6 +7678,17 @@ en_name=Open door
 ExtraStr=Puerta abierta
 
 [OBJ495]
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura Escarlata
 IT_texto=Difesa 34/38
 IT_Name=Armatura scarlatta
@@ -7760,7 +7725,6 @@ peso=360
 subastable=1
 Crucial=1
 
-CP1=GUERRERO
 [OBJ498]
 Name=Puerta cerrada
 GrhIndex=32256
@@ -8008,6 +7972,14 @@ PielOsoPolar=0
 en_Name=Estuary Clothes (Woman)
 
 [OBJ510]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Vestido Indulgente
 IT_texto=Difesa 13/17
 IT_Name=Abito indulgente
@@ -8046,10 +8018,6 @@ RopajeHumano=0
 RopajeOrca=3328
 RopajeOrco=0
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ513]
 Name=Vestido de Bruja (H/E/EO-M)
 GrhIndex=11609
@@ -8123,18 +8091,6 @@ PielOsoPolar=0
 en_Name=Basic Vestment
 Texto=Vestimenta Común
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ516]
 Name=Puerta abierta
 GrhIndex=32314
@@ -8164,6 +8120,15 @@ en_name=Door closed
 ExtraStr=Puerta cerrada
 
 [OBJ519]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
 Name=Túnica Legendaria
 IT_texto=Difesa 28/32
 IT_Name=Tunica leggendaria
@@ -8198,10 +8163,15 @@ PielOsoPardo=25
 PIELOSOPOLAR=70
 en_Name=Legendary Robe
 
-CP1=BARDO
-CP2=MAGO
-CP3=DRUIDA
 [OBJ520]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Túnica Negra
 IT_texto=Difesa 13/17
 IT_Name=Tunica nera
@@ -8234,10 +8204,6 @@ MinELV=25
 Texto=Defensa 13/17
 en_Name=Black Robe
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ521]
 Name=Árbol
 GrhIndex=6597
@@ -8375,6 +8341,14 @@ pt_Name=Mantle do Invocador
 pt_Texto=Invocator Drop
 
 [OBJ530]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Túnica de Druida
 IT_texto=Difesa 19/21
 IT_Name=Veste Druidica
@@ -8411,10 +8385,6 @@ en_Name=Druid Robe
 
 '--------------> Llenas <--------------
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ533]
 Name=Botella de agua llena
 GrhIndex=850
@@ -8506,6 +8476,14 @@ ObjType=100
 Valor=0
 
 [OBJ551]
+CP1=PALADIN
+CP2=ASESINO
+CP3=CLERIGO
+CP4=PIRATA
+CP5=LADRON
+CP6=BARDO
+CP7=DRUIDA
+CP8=MAGO
 Name=Flecha +2
 IT_texto=Danno 3/4
 IT_Name=Freccia +2
@@ -8532,11 +8510,18 @@ SND2=10
 en_texto=Damage 3/4
 PROJECTILETYPE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=BANDIDO
-CP4=TRABAJADOR
 [OBJ552]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Flecha Élfica
 IT_texto=Danno 4/5
 IT_Name=Freccia elbica
@@ -8564,8 +8549,18 @@ SND2=10
 en_texto=Damage 4/5
 PROJECTILETYPE=1
 
-CP1=CAZADOR
 [OBJ553]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Flecha +3
 IT_texto=Danno 3/5
 IT_Name=Freccia +3
@@ -8593,7 +8588,6 @@ SND2=10
 en_texto=Damage 3/5
 PROJECTILETYPE=1
 
-CP1=CAZADOR
 [OBJ554]
 Name=Sangre
 GrhIndex=264
@@ -8689,6 +8683,8 @@ en_Name=Vestment (E/G) (newbie)
 GRHINDEX=0
 
 [OBJ571]
+CP1=PIRATA
+CP2=LADRON
 Name=Vestido de Marquesa
 IT_texto=Abito marchese
 IT_Name=Abito marchese
@@ -8725,16 +8721,6 @@ RopajeHumano=2230
 RopajeOrca=3312
 RopajeOrco=3312
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ572]
 Name=Botella de Agua (Newbie)
 GrhIndex=537
@@ -8811,18 +8797,6 @@ en_texto=Party!
 en_Name=Fireworks
 NOSECAE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ581]
 Name=Fuego Artificial II
 IT_texto=Celebrare!
@@ -8844,18 +8818,6 @@ en_texto=Party!
 en_Name=Fireworks
 NOSECAE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ582]
 Name=Fuego Artificial III
 IT_texto=Celebrare!
@@ -8877,18 +8839,6 @@ en_texto=Party!
 en_Name=Fireworks
 NOSECAE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ583]
 Name=Fuego Artificial IV
 IT_texto=Celebrare!
@@ -8910,18 +8860,6 @@ en_texto=Party!
 en_Name=Fireworks
 NOSECAE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ584]
 Name=Fuego Artificial V
 IT_texto=Celebrare!
@@ -8943,18 +8881,6 @@ en_texto=Party!
 en_Name=Fireworks
 NOSECAE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ585]
 Name=Fuego Artificial VI
 IT_texto=Celebrare!
@@ -8976,18 +8902,6 @@ en_texto=Party!
 en_Name=Fireworks
 NOSECAE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ586]
 Name=Fuego Artificial VII
 IT_texto=Celebrare!
@@ -9009,18 +8923,6 @@ en_texto=Party!
 en_Name=Fireworks
 NOSECAE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ587]
 Name=Bengala de Humo Amarilla
 IT_texto=Celebrare!
@@ -9043,18 +8945,6 @@ en_texto=Party!
 en_Name=Yellow Smoke Bombs
 NOSECAE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ588]
 Name=Bengala de Humo Roja
 IT_texto=Celebrare!
@@ -9077,18 +8967,6 @@ en_texto=Party!
 en_Name=Red Smoke Bombs
 NOSECAE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ589]
 Name=Bengala de Humo Azul
 IT_texto=Celebrare!
@@ -9111,18 +8989,6 @@ en_texto=Party!
 en_Name=Blue Smoke Bombs
 NOSECAE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ590]
 Name=Bengala de Humo Gris
 IT_texto=Celebrare!
@@ -9145,18 +9011,6 @@ en_texto=Party!
 en_Name=Gray Smoke Bombs
 NOSECAE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ593]
 Name=Bengala de Humo Verde
 IT_texto=Celebrare!
@@ -9179,18 +9033,6 @@ en_texto=Party!
 en_Name=Green Smoke Bombs
 NOSECAE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ594]
 Name=Bengala de Humo Rosa
 IT_texto=Celebrare!
@@ -9213,18 +9055,6 @@ en_texto=Party!
 en_Name=Rose Smoke Bombs
 NOSECAE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ595]
 Name=Bengala de Humo Negro
 IT_texto=Celebrare!
@@ -9247,18 +9077,6 @@ en_texto=Party!
 en_Name=Black Smoke Bombs
 NOSECAE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ596]
 Name=Bengala de Humo Naranja
 IT_texto=Celebrare!
@@ -9281,19 +9099,15 @@ en_texto=Party!
 en_Name=Orange Smoke Bombs
 NOSECAE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ601]
+CP1=BANDIDO
+CP2=ASESINO
+CP3=CAZADOR
+CP4=PIRATA
+CP5=LADRON
+CP6=BARDO
+CP7=DRUIDA
+CP8=MAGO
 Name=Casco de Plata
 IT_texto=Difesa 22/25
 IT_Name=Casco d'argento
@@ -9321,10 +9135,6 @@ Texto=Defensa 22/25
 
 ********************** Ítems Iniciales ************************
 
-CP1=GUERRERO
-CP2=PALADIN
-CP3=CLERIGO
-CP4=TRABAJADOR
 [OBJ603]
 Name=Cofre Abierto
 GrhIndex=502
@@ -12314,6 +12124,17 @@ en_texto=It adds probability of paralyzing your blows.
 en_Name=Frozen Orb
 
 [OBJ881]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Caña de Pesca
 IT_texto=Strumento di pesca di base
 IT_Name=Canna da pesca
@@ -12333,7 +12154,6 @@ Crucial=1
 Texto=Herramienta básica de Pesca
 en_texto=Basic Fishing Tool
 
-CP1=TRABAJADOR
 [OBJ882]
 GRHINDEX=0
 
@@ -12358,6 +12178,17 @@ Texto=Herramienta de botánica
 en_Name=Scissors
 
 [OBJ886]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Costurero
 IT_texto=Strumento di sartoria
 IT_Name=Scatola da cucire
@@ -12374,8 +12205,18 @@ Valor=6000
 Crucial=1
 Texto=Herramienta de Sastrería
 
-CP1=TRABAJADOR
 [OBJ887]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Olla de Alquimia
 IT_texto=Strumento necessario per creare pozioni di alchimia
 IT_Name=ALCHEMY POT
@@ -12397,7 +12238,6 @@ NoWiki=1
 
 '**************************** RAICES ****************************
 
-CP1=TRABAJADOR
 [OBJ888]
 Name=Raiz
 GrhIndex=21926
@@ -13099,6 +12939,8 @@ TiempoRegenerar=4800
 en_name=Elven Tree
 
 [OBJ964]
+CP1=PIRATA
+CP2=LADRON
 Name=Vestimenta de Aldeano
 IT_texto=Abbigliamento del villaggio
 IT_Name=Abbigliamento del villaggio
@@ -13130,16 +12972,6 @@ Crucial=1
 Texto=Vestimenta de Aldeano
 en_Name=Villager Outfit
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ971]
 Name=Vestido de Novia (Bajas)
 NumRopaje=2763
@@ -13261,6 +13093,17 @@ en_Name=Tribal vestment (Newbies)
 '--------------> Gorros <--------------
 
 [OBJ992]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=DRUIDA
 Name=Sombrero de Aprendiz
 IT_texto=Difesa 5/7, la tua resistenza magica aumenta del 3%
 IT_Name=Cappello da apprendista
@@ -13289,7 +13132,6 @@ en_Name=Apprentice Hat
 '**************************** ESCUDOS ****************************
 PIELTIGRE=24
 
-CP1=MAGO
 [OBJ996]
 Name=Escudo de Boca
 Anim=98
@@ -13329,6 +13171,11 @@ Porcentaje=100
 Texto=Escamas del Dragón Negro
 
 [OBJ998]
+CP1=PIRATA
+CP2=LADRON
+CP3=BARDO
+CP4=DRUIDA
+CP5=MAGO
 Name=Armadura de Cuero Azul
 IT_texto=Difesa 8/12
 IT_Name=Armatura in pelle blu
@@ -13363,13 +13210,6 @@ MinELV=1
 Texto=Defensa 8/12
 en_Name=Blue Leather Armor
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=TRABAJADOR
 [OBJ999]
 Name=Escudo Infernal
 Anim=17
@@ -13731,18 +13571,6 @@ Texto=Restaura entre 12 y 25 puntos de energía.
 en_texto=Restores between 12 and 25 energy points.
 en_Name=Energy Potion (Alchemy)
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ1020]
 Name=Máscara Locomia
 Anim=133
@@ -14275,6 +14103,14 @@ Texto=Túnica de Nigromante (Bajos)
 en_Name=Necromancer Robe (E/G)
 
 [OBJ1089]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Túnica de Nigromante
 IT_texto=Difesa 15/17
 IT_Name=Tunica Nigromante
@@ -14309,10 +14145,6 @@ PIELOSOPARDO=46
 PielOsoPolar=0
 en_Name=Necromancer Robe
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ1094] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=11409
 MaxDef=9
@@ -14470,6 +14302,17 @@ en_texto=West swamp
 GRHINDEX=0
 
 [OBJ1142]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Ropa de Minero
 IT_texto=Vestiti minero
 IT_Name=Vestiti minero
@@ -14500,7 +14343,6 @@ Crucial=1
 en_Name=Miner Clothes
 Texto=Ropa de Minero
 
-CP1=TRABAJADOR
 [OBJ1145]
 Name=Piel de Tigre de Bengala
 GrhIndex=38208
@@ -15053,6 +14895,17 @@ Nowiki=1
 en_Name=Blue Wizard hat
 
 [OBJ1239]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=DRUIDA
 Name=Sombrero de Iniciante
 IT_texto=3/5 difesa, aumenta la tua resistenza magica del 1%
 IT_Name=Cappello iniziale
@@ -15078,8 +14931,18 @@ en_Name=Starter Hat
 SkSastreria=40
 PIELLOBONEGRO=15
 
-CP1=MAGO
 [OBJ1240]'Ver duplicidad con OBJ1241 OBJ1493 OBJ1500 al OBJ1519 y cambiar el nombre y dejar uno solo como recompensa
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Uniforme Legionario de Trabajador de 1ª Jerarquía
 IT_texto=Difesa 5/10
 IT_Name=Uniforme da Legionario per i Lavoratori della 1a Gerarchia
@@ -15113,7 +14976,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 Caos=1
 
-CP1=TRABAJADOR
 [OBJ1241]'Borrar proxima temporada
 Name=Uniforme Legionario de Trabajador de 1ª Jerarquía (Bajos)
 GrhIndex=2659
@@ -15174,6 +15036,17 @@ Nowiki=1
 WeaponType=7
 
 [OBJ1244]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Uniforme Imperial de Trabajador de 1ª Jerarquía
 IT_texto=Difesa 5/10
 IT_Name=Uniforme Imperiale per i Lavoratori della 1° Gerarchia
@@ -15206,7 +15079,6 @@ INSTRANSFERIBLE=1
 Texto=Defensa 5/10
 en_Name=Imperial Uniform of 1st Hierarchy Worker
 
-CP1=TRABAJADOR
 [OBJ1245]'Borrar proxima temporada
 Name=Uniforme Imperial de Trabajador de 1ª Jerarquía (Bajos)
 GrhIndex=2660
@@ -15244,6 +15116,15 @@ CP11=CLERIGO
 CP12=MAGO
 
 [OBJ1246]
+CP1=BANDIDO
+CP2=ASESINO
+CP3=TRABAJADOR
+CP4=CAZADOR
+CP5=PIRATA
+CP6=LADRON
+CP7=BARDO
+CP8=DRUIDA
+CP9=MAGO
 Name=Hacha de Guerra Dos Filos
 Texto=Daño 11/17
 GrhIndex=44091
@@ -15267,9 +15148,6 @@ FR_texto=Dommages 11/17
 IT_Name=War Ax Two Edges
 IT_texto=Danno 11/17
 
-CP1=GUERRERO
-CP2=PALADIN
-CP3=CLERIGO
 [OBJ1253]
 Name=Lápida Deteriorada
 GrhIndex=29675
@@ -15392,18 +15270,6 @@ RopajeHumano=0
 RopajeOrca=3316
 RopajeOrco=0
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ1273]
 Name=Vestimenta de Mujer
 IT_texto=Abito da donna
@@ -15445,18 +15311,6 @@ RopajeHumano=0
 RopajeOrca=3315
 RopajeOrco=0
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ1274]
 Name=Vestimentas de Mujer
 NumRopaje=2233
@@ -15553,6 +15407,10 @@ en_texto=Change your appearance with this mask
 NoSeCae=1
 
 [OBJ1278]
+CP1=PIRATA
+CP2=LADRON
+CP3=DRUIDA
+CP4=MAGO
 Name=Casco de Hierro
 IT_texto=6/8 difesa
 IT_Name=Casco di ferro
@@ -15580,14 +15438,6 @@ SkHerreria=20
 MinELV=1
 Nowiki=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=TRABAJADOR
 [OBJ1279]
 Name=Casco Infernal
 Anim=24
@@ -16114,18 +15964,6 @@ FR_texto=Vous permet de voler sur un puissant Griffon
 IT_Name=Grifone Corazzato
 IT_texto=Ti permette di volare su un potente Grifone
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ1348]
 Name=Grifo de Guerra
 IT_texto=Ti permette di volare su un potente Grifone
@@ -16150,18 +15988,6 @@ INTIRABLE=1
 en_texto=Allows you to fly on a powerful Gryphon
 en_Name=War Gryphon
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ1349]
 Name=Montura Legionaria de Hechicero
 NumRopaje=3177
@@ -16248,18 +16074,6 @@ FR_texto=Vous permet de voler sur un puissant Griffon
 IT_Name=Grifone
 IT_texto=Ti permette di volare su un potente Grifone
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ1353]
 Name=Nudillo del Principiante
 GrhIndex=44577
@@ -17613,6 +17427,9 @@ Agarrable=1
 Texto=Estandarte de las Hordas del Caos
 
 [OBJ1493]
+CP1=TRABAJADOR
+CP2=PIRATA
+CP3=LADRON
 Name=Uniforme Legionario (1ª Jerarquía)
 IT_texto=Difesa 5/7
 IT_Name=Uniforme Legionaria (1a Gerarchia)
@@ -17646,15 +17463,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 en_Name=Legionary Uniform (1st Hierarchy)
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
 [OBJ1494]
 GRHINDEX=0
 
@@ -18416,6 +18224,17 @@ GRHINDEX=0
 '---> 2ª Jerarquía <---
 
 [OBJ1522]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Clérigo del Caos (2ª Jerarquía)
 IT_texto=Difesa 7/10
 IT_Name=Armatura del Chierico del Caos (2a Gerarchia)
@@ -18448,7 +18267,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 en_Name=Chaos Cleric Armor (2nd Hierarchy)
 
-CP1=CLERIGO
 [OBJ1523]'Borrar proxima temporada
 Name=Armadura de Clérigo del Caos de 2ª Jerarquía (Bajos)
 GrhIndex=2611
@@ -18487,6 +18305,17 @@ CP12=MAGO
 en_Name=2nd Hierarchy Chaos Cleric Armor (E/G)
 
 [OBJ1524]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=DRUIDA
 Name=Túnica de Mago del Caos (2ª Jerarquía)
 IT_texto=Difesa 6/9
 IT_Name=Veste del Mago del Caos (2a Gerarchia)
@@ -18520,7 +18349,6 @@ INSTRANSFERIBLE=1
 Texto=Defensa 6/9
 en_Name=Chaos Mage Robe (2nd Hierarchy)
 
-CP1=MAGO
 [OBJ1525]'Para borrar proxima temporada
 Name=Túnica de Mago del Caos de 2ª Jerarquía (Bajos)
 GrhIndex=11569
@@ -18560,6 +18388,17 @@ CP11=CLERIGO
 en_Name=2nd Hierarchy Chaos Mage Robe (E/G)
 
 [OBJ1526]
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Guerrero del Caos (2ª Jerarquía)
 IT_texto=Difesa 8/11
 IT_Name=Armatura del Guerriero del Caos (2a Gerarchia)
@@ -18592,7 +18431,6 @@ INSTRANSFERIBLE=1
 CAOS=1
 en_Name=Chaos Warrior Armor (2nd Hierarchy)
 
-CP1=GUERRERO
 [OBJ1527]'Borrar proxima temporada
 Name=Armadura de Guerrero del Caos de 2ª Jerarquía (Bajos)
 GrhIndex=2929
@@ -18631,6 +18469,17 @@ CP12=MAGO
 en_Name=2nd Hierarchy Chaos Warrior Armor (E/G)
 
 [OBJ1528]'Ver duplicidad con OBJ1529 OBJ1535 y cambiar el nombre y dejar uno solo como recompensa
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Asesino del Caos (2ª Jerarquía)
 IT_texto=Difesa 7/10
 IT_Name=Armatura dell' Assassino del Caos (2a Gerarchia)
@@ -18663,7 +18512,6 @@ INSTRANSFERIBLE=1
 Texto=Defensa 7/10
 en_Name=Chaos Assassin Armor (2nd Hierarchy)
 
-CP1=ASESINO
 [OBJ1529] 'Borrar proxima temporada
 Name=Armadura de Asesino del Caos de 2ª Jerarquía (Bajos)
 GrhIndex=3669
@@ -18702,6 +18550,17 @@ CP12=MAGO
 en_Name=2nd Hierarchy Chaos Assassin Armor (E/G)
 
 [OBJ1530]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Bardo del Caos (2ª Jerarquía)
 IT_texto=Difesa 6/9
 IT_Name=Armatura del Bardo del Caos (2a Gerarchia)
@@ -18734,7 +18593,6 @@ INSTRANSFERIBLE=1
 Texto=Defensa 6/9
 en_Name=Chaos Bard Armor (2nd Hierarchy)
 
-CP1=BARDO
 [OBJ1531]'Borrar proxima temporada
 Name=Túnica de Bardo del Caos de 2ª Jerarquía (Bajos)
 GrhIndex=2611
@@ -18773,6 +18631,17 @@ CP12=MAGO
 en_Name=2nd Hierarchy Chaos Bard Robe  (E/G)
 
 [OBJ1532]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=MAGO
 Name=Túnica de Druida del Caos (2ª Jerarquía)
 IT_texto=Difesa 6/9
 IT_Name=Veste del Druido del Caos (2a Gerarchia)
@@ -18805,7 +18674,6 @@ INSTRANSFERIBLE=1
 Texto=Defensa 6/9
 en_Name=Chaos Druid Robe (2nd Hierarchy)
 
-CP1=DRUIDA
 [OBJ1533]'Borrar proxima temporada
 Name=Túnica de Druida del Caos de 2ª Jerarquía (Bajos)
 GrhIndex=2611
@@ -18844,6 +18712,17 @@ CP12=MAGO
 en_Name=2nd Hierarchy Chaos Druid Robe (E/G)
 
 [OBJ1534]'Ver duplicidad con OBJ1538 y cambiar el nombre y dejar uno solo como recompensa
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Bandido del Caos (2ª Jerarquía)
 IT_texto=Difesa 7/10
 IT_Name=Armatura del Bandito del Caos (2a Gerarchia)
@@ -18876,7 +18755,6 @@ INSTRANSFERIBLE=1
 Texto=Defensa 7/10
 en_Name=Chaos Bandit Armor (2nd Hierarchy)
 
-CP1=BANDIDO
 [OBJ1535]'Borrar proxima temporada
 Name=Armadura de Bandido del Caos de 2ª Jerarquía (Bajos)
 GrhIndex=3669
@@ -18915,6 +18793,17 @@ CP12=MAGO
 en_Name=2nd Hierarchy Chaos Bandit Armor (E/G)
 
 [OBJ1536]
+CP1=GUERRERO
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Paladín del Caos (2ª Jerarquía)
 IT_texto=Difesa 8/11
 IT_Name=Chaos Paladin Armor (2a gerarchia)
@@ -18947,7 +18836,6 @@ CAOS=1
 Texto=Defensa 8/11
 en_Name=Chaos Paladín Armor (2nd Hierarchy)
 
-CP1=PALADIN
 [OBJ1537]'Borrar proxima temporada
 Name=Armadura de Paladín del Caos de 2ª Jerarquía (Bajos)
 GrhIndex=2929
@@ -18986,6 +18874,17 @@ CP12=MAGO
 en_Name=2nd Hierarchy Chaos Paladín armor (E/G)
 
 [OBJ1538]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Cazador del Caos (2ª Jerarquía)
 IT_texto=Difesa 8/11
 IT_Name=Armatura del Cacciatore del Caos (2a Gerarchia)
@@ -19018,7 +18917,6 @@ INSTRANSFERIBLE=1
 Texto=Defensa 8/11
 en_Name=Chaos Hunter Armor (2nd Hierarchy)
 
-CP1=CAZADOR
 [OBJ1539]'Borrar proxima temporada
 Name=Armadura de Cazador del Caos de 2ª Jerarquía (Bajos)
 GrhIndex=3669
@@ -19887,6 +19785,17 @@ GRHINDEX=0
 '---> 2ª Jerarquía <---
 
 [OBJ1566]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Túnica de Clérigo Imperial (2ª Jerarquía)
 IT_texto=Difesa 7/10
 IT_Name=Veste del Chierico Imperiale (2a Gerarchia)
@@ -19919,7 +19828,6 @@ INSTRANSFERIBLE=1
 Texto=Defensa 7/10
 en_Name=Imperial Cleric's Robe (2nd Hierarchy)
 
-CP1=CLERIGO
 [OBJ1567]'Borrar proxima temporada
 Name=Túnica de Clérigo Imperial de 2ª Jerarquía (Bajos)
 GrhIndex=2645
@@ -19958,6 +19866,17 @@ CP12=MAGO
 en_Name=2nd Hierarchy Imperial Cleric Robe (E/G)
 
 [OBJ1568]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=DRUIDA
 Name=Túnica de Mago Imperial (2ª Jerarquía)
 IT_texto=Difesa 6/9
 IT_Name=Veste del Mago Imperiale (2a Gerarchia)
@@ -19991,7 +19910,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 en_Name=Imperial Mage Robe (2nd Hierarchy)
 
-CP1=MAGO
 [OBJ1569]'Para borrar proxima temporada
 Name=Túnica de Mago Imperial de 2ª Jerarquía (Bajos)
 GrhIndex=3074
@@ -20031,6 +19949,17 @@ CP11=CLERIGO
 en_Name=2nd Hierarchy Imperial Mage Robe (Low)
 
 [OBJ1570]
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Guerrero Imperial (2ª Jerarquía)
 IT_texto=Difesa 8/11
 IT_Name=Armatura del Guerriero Imperiale (2a Gerarchia)
@@ -20063,7 +19992,6 @@ INSTRANSFERIBLE=1
 Texto=Defensa 8/11
 en_Name=Imperial Warrior Armor (2nd Hierarchy)
 
-CP1=GUERRERO
 [OBJ1571]'Borrar proxima temporada
 Name=Armadura de Guerrero Imperial de 2ª Jerarquía (Bajos)
 GrhIndex=19474
@@ -20102,6 +20030,17 @@ CP12=MAGO
 en_Name=2nd Hierarchy Imperial Warrior Armor (E/G)
 
 [OBJ1572]'Ver duplicidad con OBJ1573 OBJ1584 OBJ1585 y cambiar el nombre y dejar uno solo como recompensa
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Asesino Imperial (2ª Jerarquía)
 IT_texto=Difesa 7/10
 IT_Name=Armatura dell' Assassino Imperiale (2a Gerarchia)
@@ -20134,7 +20073,6 @@ REAL=1
 Texto=Defensa 7/10
 en_Name=Imperial Assassin Armor (2nd Hierarchy)
 
-CP1=ASESINO
 [OBJ1573]'Borrar proxima temporada
 Name=Armadura de Asesino Imperial de 2ª Jerarquía (Bajos)
 GrhIndex=72
@@ -20173,6 +20111,17 @@ CP12=MAGO
 en_Name=2nd Hierarchy Imperial Assassin Armor (E/G)
 
 [OBJ1574]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=DRUIDA
+CP11=MAGO
 Name=Túnica de Bardo Imperial (2ª Jerarquía)
 IT_texto=Difesa 6/9
 IT_Name=Veste del Bardo Imperiale (2a Gerarchia)
@@ -20205,7 +20154,6 @@ REAL=1
 Texto=Defensa 6/9
 en_Name=Imperial Bard's Robe (2nd Hierarchy)
 
-CP1=BARDO
 [OBJ1575]'Borrar proxima temporada
 Name=Túnica de Bardo Imperial de 2ª Jerarquía (Bajos)
 GrhIndex=2645
@@ -20245,6 +20193,17 @@ CP12=MAGO
 en_Name=2nd Hierarchy Imperial Bard Robe (E/G)
 
 [OBJ1576]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=MAGO
 Name=Túnica de Druida Imperial (2ª Jerarquía)
 IT_texto=Difesa 6/9
 IT_Name=Veste del Druido Imperiale (2a Gerarchia)
@@ -20278,7 +20237,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 en_Name=Imperial Druid Robe (2nd Hierarchy)
 
-CP1=DRUIDA
 [OBJ1577]'Borrar proxima temporada
 Name=Túnica de Druida Imperial de 2ª Jerarquía (Bajos)
 GrhIndex=2645
@@ -20392,6 +20350,17 @@ CP12=MAGO
 en_Name=2nd Hierarchy Imperial Pirate Armor (E/G)
 
 [OBJ1580]
+CP1=GUERRERO
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Paladín Imperial (2ª Jerarquía)
 IT_texto=Difesa 8/11
 IT_Name=Imperial Paladin Armor (2a gerarchia)
@@ -20424,7 +20393,6 @@ REAL=1
 Texto=Defensa 8/11
 en_Name=Imperial Paladin Armor (2nd Hierarchy)
 
-CP1=PALADIN
 [OBJ1581]'Borrar proxima temporada
 Name=Armadura de Paladín Imperial de 2ª Jerarquía (Bajos)
 GrhIndex=11664
@@ -20463,6 +20431,17 @@ CP12=MAGO
 en_Name=2nd Hierarchy Imperial Paladin Armor (E/G)
 
 [OBJ1582]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Cazador Imperial (2ª Jerarquía)
 IT_texto=Difesa 8/11
 IT_Name=Armatura da Cacciatore Imperiale (2a Gerarchia)
@@ -20496,7 +20475,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 en_Name=Imperial Hunter Armor (2nd Hierarchy)
 
-CP1=CAZADOR
 [OBJ1583]'Borrar proxima temporada
 Name=Armadura de Cazador Imperial de 2ª Jerarquía (Bajos)
 GrhIndex=72
@@ -20536,6 +20514,17 @@ CP12=MAGO
 en_Name=2nd Hierarchy Imperial Hunter Armor (Low)
 
 [OBJ1584]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Bandido Imperial (2ª Jerarquia)
 IT_texto=Difesa 7/10
 IT_Name=Armatura da Bandito Imperiale (2a Gerarchia)
@@ -20568,7 +20557,6 @@ INSTRANSFERIBLE=1
 Texto=Defensa 7/10
 en_Name=Imperial Bandit Armor (2nd Hierarchy)
 
-CP1=BANDIDO
 [OBJ1585]'Para borrar proxima temporada
 Name=Armadura de Bandido Imperial de 2ª Jerarquía (Bajos)
 GrhIndex=72
@@ -20664,18 +20652,6 @@ NFT=1
 en_Name=Face Change Potion
 en_texto=Randomly modifies the user's current face, does not fall.
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ1602]
 Name=Poción de Cambio de Sexo
 IT_texto=Cambia l'utente nel sesso opposto, non cade.
@@ -20696,18 +20672,6 @@ en_Name=Sex Change Potion
 en_texto=Changes the user to the opposite gender, does not fall.
 NOSECAE=1
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ1605]
 Name=Scroll +15% Experiencia
 GrhIndex=26023
@@ -21391,6 +21355,10 @@ Porcentaje=100
 Texto=Escudo Arcano
 
 [OBJ1700]
+CP1=PIRATA
+CP2=LADRON
+CP3=DRUIDA
+CP4=MAGO
 Name=Escudo de Tortuga
 IT_texto=1/2 difesa
 IT_Name=Tortuga Shield
@@ -21414,15 +21382,15 @@ Crucial=1
 Porcentaje=100
 Texto=Defensa 1/2
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=TRABAJADOR
 [OBJ1702]
+CP1=BANDIDO
+CP2=ASESINO
+CP3=CAZADOR
+CP4=PIRATA
+CP5=LADRON
+CP6=BARDO
+CP7=DRUIDA
+CP8=MAGO
 Name=Escudo del Valle
 IT_texto=7/9 difesa
 IT_Name=Valley Shield
@@ -21448,10 +21416,6 @@ Porcentaje=100
 Texto=Defensa 7/9
 LingH=55
 
-CP1=GUERRERO
-CP2=PALADIN
-CP3=CLERIGO
-CP4=TRABAJADOR
 [OBJ1703]
 Name=Escudo Armónico
 Anim=65
@@ -21648,6 +21612,14 @@ Porcentaje=100
 Texto=Escudo de la Legión Oscura
 
 [OBJ1715]
+CP1=BANDIDO
+CP2=ASESINO
+CP3=CAZADOR
+CP4=PIRATA
+CP5=LADRON
+CP6=BARDO
+CP7=DRUIDA
+CP8=MAGO
 Name=Escudo de Hierro
 IT_texto=1/3 difesa
 IT_Name=Shield di ferro
@@ -21674,10 +21646,6 @@ Crucial=1
 Texto=Defensa 1/3
 Porcentaje=100
 
-CP1=GUERRERO
-CP2=PALADIN
-CP3=CLERIGO
-CP4=TRABAJADOR
 [OBJ1716]
 Name=Escudo Incognito
 Anim=52
@@ -21732,6 +21700,13 @@ Porcentaje=100
 Texto=Escudo Vikingo
 
 [OBJ1719]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=CLERIGO
+CP4=PIRATA
+CP5=LADRON
+CP6=DRUIDA
+CP7=MAGO
 Name=Rodela
 IT_texto=Difesa 2/3
 IT_Name=Scudo
@@ -21755,11 +21730,6 @@ en_Name=Buckler
 Porcentaje=100
 Texto=Defensa 2/3
 
-CP1=CAZADOR
-CP2=BANDIDO
-CP3=ASESINO
-CP4=BARDO
-CP5=TRABAJADOR
 [OBJ1720]
 Name=Escudo de Huesos
 Anim=48
@@ -21815,6 +21785,13 @@ Porcentaje=100
 Texto=Adarga Natural (Cazador)
 
 [OBJ1724]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=CLERIGO
+CP4=PIRATA
+CP5=LADRON
+CP6=DRUIDA
+CP7=MAGO
 Name=Escudo de Roble
 IT_texto=6/8 difesa
 IT_Name=Shield di quercia
@@ -21839,11 +21816,6 @@ Porcentaje=100
 Texto=Defensa 6/8
 en_texto=Defense 6/8
 
-CP1=CAZADOR
-CP2=BANDIDO
-CP3=ASESINO
-CP4=BARDO
-CP5=TRABAJADOR
 [OBJ1725]
 Name=Escudo de Morngrim
 Anim=42
@@ -22117,6 +22089,17 @@ Texto=Gorro Celestial
 Nowiki=1
 
 [OBJ1758]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=MAGO
 Name=Casco de Oso
 IT_texto=Difesa 14/16, Aumenta la tua resistenza magica dell' 7%
 IT_Name=Celmetto per orsi
@@ -22143,7 +22126,6 @@ PIELTIGREBENGALA=37
 RESISTENCIAMAGICA=7
 Texto=Defensa 14/16, aumenta tu Resistencia Mágica en un 7%
 
-CP1=DRUIDA
 [OBJ1759]
 Name=Aureola Karvy
 Anim=70
@@ -22160,6 +22142,14 @@ Texto=Aureola Karvy
 Nowiki=1
 
 [OBJ1761]
+CP1=BANDIDO
+CP2=ASESINO
+CP3=CAZADOR
+CP4=PIRATA
+CP5=LADRON
+CP6=BARDO
+CP7=DRUIDA
+CP8=MAGO
 Name=Casco de Hierro Reforzado
 IT_texto=Difesa 12/15
 IT_Name=Casco di ferro rinforzato
@@ -22184,10 +22174,6 @@ peso=50
 Crucial=1
 Texto=Defensa 12/15
 
-CP1=GUERRERO
-CP2=PALADIN
-CP3=CLERIGO
-CP4=TRABAJADOR
 [OBJ1762]
 Name=Celada de Caballero
 Anim=73
@@ -22250,6 +22236,17 @@ Crucial=0
 Texto=Casco Perseo
 
 [OBJ1767]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Casco de Cazador
 IT_texto=Difesa 21/23
 IT_Name=Casco Hunter
@@ -22276,8 +22273,16 @@ peso=50
 Crucial=1
 Texto=Defensa 21/23
 
-CP1=CAZADOR
 [OBJ1769]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=PIRATA
+CP7=LADRON
+CP8=DRUIDA
+CP9=MAGO
 Name=Capucha Reforzada
 IT_texto=Difesa 16/18
 IT_Name=Cappuccio rinforzato
@@ -22304,9 +22309,6 @@ PIELTIGREBENGALA=40
 PielLoboNegro=10
 PielLobo=0
 
-CP1=CAZADOR
-CP2=BARDO
-CP3=TRABAJADOR
 [OBJ1773]
 Name=Casco del Terror
 Anim=84
@@ -22331,6 +22333,13 @@ Crucial=0
 Texto=Casco Rosado
 
 [OBJ1774]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=CLERIGO
+CP4=PIRATA
+CP5=LADRON
+CP6=DRUIDA
+CP7=MAGO
 Name=Capucha de Cuero
 IT_texto=Difesa 10/12
 IT_Name=Cappuccio di pelle
@@ -22355,11 +22364,6 @@ Crucial=1
 Texto=Defensa 10/12
 MinELV=25
 
-CP1=CAZADOR
-CP2=BANDIDO
-CP3=ASESINO
-CP4=BARDO
-CP5=TRABAJADOR
 [OBJ1777]
 Name=Yelmo de la Iluminación
 Anim=88
@@ -22509,6 +22513,17 @@ Texto=Daga
 WeaponType=2
 
 [OBJ1788]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=DRUIDA
 Name=Báculo Engarzado
 IT_texto=Aumenta il tuo danno magico dell'9%
 IT_Name=Personale Incorporato
@@ -22537,7 +22552,6 @@ REVIVE=1
 STAFFPOWER=3
 WeaponType=4
 
-CP1=MAGO
 [OBJ1790]
 Name=Espada de la Iluminación
 GrhIndex=8500
@@ -22587,6 +22601,16 @@ en_Name=harbinger Kin
 WeaponType=1
 
 [OBJ1792]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=MAGO
 Name=Sable
 IT_texto=Danno 5/8
 IT_Name=Sciabola
@@ -22615,9 +22639,18 @@ Texto=Daño 5/8
 en_Name=Saber
 WeaponType=1
 
-CP1=BARDO
-CP2=DRUIDA
 [OBJ1797]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=DRUIDA
 Name=Bastón Nudoso
 IT_texto=Aumenta il tuo danno magico del 4%
 IT_Name=Canna nudo
@@ -22643,7 +22676,6 @@ MinELV=25
 STAFFPOWER=2
 WeaponType=4
 
-CP1=MAGO
 [OBJ1799]
 Name=Hoja Preste
 GrhIndex=8494
@@ -22670,6 +22702,17 @@ en_Name=Pay Sheet
 WeaponType=1
 
 [OBJ1800] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=DRUIDA
 GrhIndex=1062
 Madera=400
 MaxHit=1
@@ -22695,7 +22738,6 @@ IT_texto=Aumenta il tuo danno magico del 2%
 PT_Name=Pessoal de madeira
 PT_texto=Aumente seu dano mágico em 2%
 
-CP1=MAGO
 [OBJ1803]
 Name=Coraza de Harald
 GrhIndex=37
@@ -22908,6 +22950,12 @@ Texto=Exclusivo de Druidas.
 WeaponType=4
 
 [OBJ1817] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
+CP1=CAZADOR
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
 GrhIndex=37898
 LingH=45
 MaxHit=11
@@ -22933,12 +22981,6 @@ IT_texto=Danno 7/11
 pt_Name=Alfanje
 PT_texto=Dano 7/11
 
-CP1=GUERRERO
-CP2=PALADIN
-CP3=BANDIDO
-CP4=ASESINO
-CP5=CLERIGO
-CP6=TRABAJADOR
 [OBJ1823]
 Name=Bastón de la Eterna Noche
 GrhIndex=36764
@@ -22990,6 +23032,17 @@ Texto=Espada electrica
 WeaponType=1
 
 [OBJ1825]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Nudillo de Mithril
 Texto=Daño 10/12
 GrhIndex=86202
@@ -23015,7 +23068,6 @@ FR_texto=Dommages 10/12
 IT_Name=Nocca di Mithril
 IT_texto=Danno 10/12
 
-CP1=BANDIDO
 [OBJ1828]
 Name=Baculo Orco +25 (Mago)
 GrhIndex=36899
@@ -23671,6 +23723,17 @@ CP10=GUERRERO
 CP12=MAGO
 
 [OBJ1856]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Nudillo de Bronce
 IT_texto=Danni 5/7
 IT_Name=Tirapugni di bronzo
@@ -23697,8 +23760,15 @@ SkHerreria=25
 MaxHitToNpc=8
 MinHitToNpc=6
 
-CP1=BANDIDO
 [OBJ1859]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Manto de Lobo
 IT_texto=Difesa 13/17
 IT_Name=Mantello del Lupo
@@ -23733,10 +23803,6 @@ PielOsoPolar=1
 en_Name=Wolf Cloak
 Texto=Defensa 11/17
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ1860]
 Name=Espada Gris
 GrhIndex=6739
@@ -23899,6 +23965,14 @@ Nowiki=1
 WeaponType=4
 
 [OBJ1867]
+CP1=PALADIN
+CP2=ASESINO
+CP3=CLERIGO
+CP4=PIRATA
+CP5=LADRON
+CP6=BARDO
+CP7=DRUIDA
+CP8=MAGO
 Name=Arco Compuesto
 IT_texto=Danno 4/8
 IT_Name=Arco composto
@@ -23924,10 +23998,6 @@ en_texto=Damage 4/8
 en_Name=Compund Bow
 WeaponType=3
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=BANDIDO
-CP4=TRABAJADOR
 [OBJ1868]
 Name=Arco del Imperio
 GrhIndex=38762
@@ -23957,6 +24027,16 @@ en_Name=Empire bow
 WeaponType=3
 
 [OBJ1870]
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 Name=Arco de Roble
 IT_texto=Danno 6/10
 IT_Name=Arco di quercia
@@ -23984,8 +24064,6 @@ DosManos=0
 en_Name=Oak Bow
 WeaponType=3
 
-CP1=GUERRERO
-CP2=CAZADOR
 [OBJ1871]
 Name=Arco Infernal
 GrhIndex=38843
@@ -24043,6 +24121,17 @@ en_Name=Bow of the winds
 WeaponType=3
 
 [OBJ1876]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Arco de Cazador
 IT_texto=Danno 7/12
 IT_Name=Hunter Arch
@@ -24072,8 +24161,15 @@ WeaponType=3
 
 '##########Armaduras################
 
-CP1=CAZADOR
 [OBJ1900] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 GrhIndex=41314
 MaxDef=6
 MinDef=4
@@ -24104,11 +24200,15 @@ IT_texto=Vestiti blu del mantello
 PT_Name=Roupas de capa azul
 PT_texto=Roupas de capa azul
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ1901]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Ropaje con Capa Verde
 IT_texto=Vestiti a strati verdi
 IT_Name=Vestiti a strati verdi
@@ -24140,10 +24240,6 @@ Valor=680
 Crucial=1
 en_Name=Garment with Green Cloak
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ1902]
 Name=Armadura luchador
 MinELV=1
@@ -24271,6 +24367,17 @@ Texto=Posee resistencia mágica.
 en_texto=It has magic resistance.
 
 [OBJ1907]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Cota del Gran Cazador
 CAMOUFLAGE=1
 IT_texto=Difesa 32/36
@@ -24307,7 +24414,6 @@ MinELV=33
 Crucial=1
 Texto=Defensa 32/36
 
-CP1=CAZADOR
 [OBJ1908]'Borrar proxima temporada
 Name=Cota del Gran Cazador (Bajos)
 GrhIndex=39478
@@ -24409,6 +24515,16 @@ Valor=15000
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 
 [OBJ1911]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=CLERIGO
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 Name=Armadura Pesada
 IT_texto=Difesa 21/23
 IT_Name=Armatura pesante
@@ -24441,9 +24557,18 @@ Texto=Defensa 21/23
 Valor=6900
 Crucial=1
 
-CP1=BANDIDO
-CP2=ASESINO
 [OBJ1912]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Herrero
 IT_texto=Difesa 13/16
 IT_Name=Armatura del Fabbro
@@ -24477,7 +24602,6 @@ LingH=35
 SkHerreria=30
 en_Name=Blacksmith's Armor
 
-CP1=TRABAJADOR
 [OBJ1914]
 Name=Armadura Legendaria
 GrhIndex=39856
@@ -24606,6 +24730,16 @@ en_Name=Blue Leather Armor (E/G)
 Texto=Armadura de Cuero Azul (Bajos)
 
 [OBJ1921]
+CP1=GUERRERO
+CP2=BANDIDO
+CP3=ASESINO
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 Name=Peto de Caballero
 IT_texto=Difesa 19/21
 IT_Name=Cavaliere
@@ -24639,8 +24773,6 @@ Crucial=1
 Nowiki=1
 en_Name=Knight's Breastplate
 
-CP1=PALADIN
-CP2=CLERIGO
 [OBJ1922]
 Name=Coraza de la Iluminación
 GrhIndex=39316
@@ -24768,6 +24900,16 @@ Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Armadura Empírea (Bajos)
 
 [OBJ1929]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=CLERIGO
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 Name=Armadura de las Sombras
 IT_texto=Difesa 30/34
 IT_Name=Armatura ombra
@@ -24802,8 +24944,6 @@ Crucial=1
 Valor=19200
 en_Name=Shadows Armor
 
-CP1=BANDIDO
-CP2=ASESINO
 [OBJ1930]
 Name=Casco de Minero
 Anim=211
@@ -25100,6 +25240,17 @@ Crucial=0
 Nowiki=1
 
 [OBJ1941]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de la Ciénaga
 IT_texto=Difesa 30/34
 IT_Name=Armatura Ciénaga
@@ -25134,7 +25285,6 @@ LingO=150
 en_Name=Marsh Armor
 Texto=Defensa 30/34
 
-CP1=CLERIGO
 [OBJ1943]
 Name=Armadura Placas Rojas
 GrhIndex=3502
@@ -25323,6 +25473,14 @@ en_texto=Only usable by high-level druids.
 en_Name=Superior Druid Robe
 
 [OBJ1955]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Túnica Ocre
 IT_texto=Difesa 15/19
 IT_Name=Tunica ocra
@@ -25357,10 +25515,6 @@ PIELOSOPARDO=50
 PielOsoPolar=0
 en_Name=Ocher Robe
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ1956]
 Name=Vestimenta Naranja
 GrhIndex=69
@@ -25530,6 +25684,14 @@ Texto=Túnica Enraigada
 en_Name=Rooted Robe (E/G)
 
 [OBJ1961]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Túnica Natural
 IT_texto=Difesa 17/19
 IT_Name=Tunica naturale
@@ -25565,10 +25727,6 @@ Crucial=1
 Valor=4800
 en_Name=Natural Robe
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ1962]'Borrar proxima temporada
 Name=Atuendo Musical
 GrhIndex=81
@@ -25604,6 +25762,8 @@ CP11=CLERIGO
 CP12=MAGO
 
 [OBJ1963]
+CP1=PIRATA
+CP2=LADRON
 Name=Vestimenta de Pregonero
 IT_texto=Abbigliamento predicatore
 IT_Name=Abbigliamento predicatore
@@ -25635,16 +25795,6 @@ Valor=510
 Crucial=1
 en_Name=Crier Vestment
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ1964]'Borrar proxima temporada
 Name=Atuendo Musical (Bajos)
 GrhIndex=81
@@ -25843,18 +25993,6 @@ PielOsoPolar=0
 en_texto=Clan Clothing
 en_Name=Clothes of clan
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ1977]
 Name=Vestimenta de Prisionero
 IT_texto=abiti carcerari
@@ -25892,18 +26030,6 @@ RopajeHumano=37
 RopajeOrca=3144
 RopajeOrco=1099
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ1978]
 Name=Vestido Violeta (ORCO)
 MinELV=1
@@ -25984,6 +26110,8 @@ Nowiki=1
 en_Name=Pink Vestment
 
 [OBJ1981]
+CP1=PIRATA
+CP2=LADRON
 Name=Vestimenta Combinada
 IT_texto=Abbigliamento combinato
 IT_Name=Abbigliamento combinato
@@ -26014,16 +26142,6 @@ Valor=180
 Crucial=1
 en_Name=Vestment combined
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ1982]
 Name=Ropaje Desértico
 GrhIndex=454
@@ -26114,6 +26232,14 @@ Nowiki=1
 en_Name=Hell Robe
 
 [OBJ1985]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Vestido de Condesa Negro
 IT_texto=Difesa 13/15
 IT_Name=Abito della contessa nera
@@ -26152,10 +26278,6 @@ RopajeHumano=0
 RopajeOrca=3313
 RopajeOrco=0
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ1986]
 Name=Vestido Duquesa (M)
 MinELV=1
@@ -26183,6 +26305,15 @@ CP10=GUERRERO
 en_Name=Duchess Dress (M)
 
 [OBJ1987]
+CP1=BANDIDO
+CP2=ASESINO
+CP3=TRABAJADOR
+CP4=CAZADOR
+CP5=PIRATA
+CP6=LADRON
+CP7=BARDO
+CP8=DRUIDA
+CP9=MAGO
 Name=Armadura de Placas Completa
 IT_texto=Difesa 27/29
 IT_Name=Armatura a piastre complete
@@ -26217,9 +26348,6 @@ LingO=0
 SkHerreria=90
 Texto=Defensa 27/29
 
-CP1=GUERRERO
-CP2=PALADIN
-CP3=CLERIGO
 [OBJ1988]'Borrar proxima temporada
 Name=Ropaje Desértico (Bajos)
 GrhIndex=454
@@ -26921,6 +27049,17 @@ en_texto=fishing tool
 en_Name=Reinforced hook
 
 [OBJ2121]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Caña de Pesca Silvestre
 IT_texto=Strumento da pesca rinforzato
 IT_Name=Canna da pesca selvaggia
@@ -26940,7 +27079,6 @@ Crucial=1
 Texto=Herramienta de Pesca reforzada
 en_texto=Reinforced Fishing Tool
 
-CP1=TRABAJADOR
 [OBJ2122]
 Name=Machete de pesca
 GrhIndex=48909
@@ -27063,6 +27201,17 @@ MinELV=23
 en_texto=Fishing tool for experts.
 
 [OBJ2133]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Caña de Pesca Marina
 IT_texto=Advanced Fishing Tool
 IT_Name=Canna da pesca marina
@@ -27082,7 +27231,6 @@ Texto=Herramienta de Pesca avanzada
 MinELV=20
 en_texto=Advanced Fishing Tool
 
-CP1=TRABAJADOR
 [OBJ2134]
 Name=Anzuelo triple
 GrhIndex=48921
@@ -27642,6 +27790,17 @@ en_texto=Quest item
 en_Name=Honey
 
 [OBJ2183]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Hilo de Pesca
 IT_texto=Articolo necessario per riparare una canna da pesca
 IT_Name=Lenza da pesca
@@ -27659,7 +27818,6 @@ Crucial=1
 en_texto=Item needed to repair a fishing rod
 en_Name=Fishing Line
 
-CP1=TRABAJADOR
 [OBJ2184]
 Name=Brazalete Azul
 NumRopaje=2
@@ -32052,6 +32210,17 @@ Texto=Saco de cereal
 en_Name=Bag of Cereal
 
 [OBJ2598]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Nudillo de Prisma
 Texto=Daño 8/11
 GrhIndex=44253
@@ -32077,7 +32246,6 @@ FR_texto=Dommages 8/11
 IT_Name=Nocca Prismatica
 IT_texto=Danno 8/11
 
-CP1=BANDIDO
 [OBJ2599]
 Name=Saco
 GrhIndex=52100
@@ -33687,6 +33855,16 @@ CP12=MAGO
 Texto=Armadura Magna (M)
 
 [OBJ2801] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
+CP1=GUERRERO
+CP2=BANDIDO
+CP3=ASESINO
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 GrhIndex=2561
 LingH=120
 LingP=110
@@ -33720,8 +33898,6 @@ IT_texto=Difesa 22/24
 PT_Name=Shell composto
 PT_texto=Defesa 22/24
 
-CP1=PALADIN
-CP2=CLERIGO
 [OBJ2802] 'BORRAR 16.001: variante (H/E/EO/M) race-split legacy, orca usa body humano, sin arte por raza
 Name=Cota de Mallas Larga (H/E/EO/M)
 MinELV=1
@@ -33761,6 +33937,11 @@ RopajeOrca=93
 RopajeGnoma=1700
 
 [OBJ2803]
+CP1=PIRATA
+CP2=LADRON
+CP3=BARDO
+CP4=DRUIDA
+CP5=MAGO
 Name=Armadura Maghtere
 IT_texto=Difesa 11/15
 IT_Name=Armatura Maghtere
@@ -33794,14 +33975,18 @@ Texto=Defensa 11/15
 LingH=30
 SkHerreria=40
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=TRABAJADOR
 [OBJ2804]
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura Caranthir
 IT_texto=Difesa 24/26
 IT_Name=Armatura di Caranthir
@@ -33835,7 +34020,6 @@ LingH=130
 LingP=110
 SkHerreria=75
 
-CP1=GUERRERO
 [OBJ2805]
 Name=Coraza Compuesta (H/E/EO)
 GrhIndex=2561
@@ -33890,6 +34074,8 @@ Texto=¡Skin exclusiva del Gran Dragón!
 Valor=0
 
 [OBJ2807]
+CP1=PIRATA
+CP2=LADRON
 Name=Ropaje Invernal
 IT_texto=Difesa 10/14
 IT_Name=Vestiti invernali
@@ -33921,17 +34107,9 @@ INVERNAL=1
 en_Name=Winter Clothing
 Texto=Defensa 10/14
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ2808]
+CP1=PIRATA
+CP2=LADRON
 Name=Ropaje Invernal (femenino)
 IT_texto=Difesa 10/14
 IT_Name=Abbigliamento Invernale (donna)
@@ -33964,16 +34142,6 @@ INVERNAL=1
 en_Name=Winter Clothing (female)
 Texto=Defensa 10/14
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ2809] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=52103
 Name=Hilo Verde (QUEST)
@@ -34106,6 +34274,17 @@ Nowiki=1
 Texto=Alifafe de Pirata (E/G)
 
 [OBJ2818]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Luchador de las Minas
 IT_texto=Difesa 21/23
 IT_Name=Mines Fighter
@@ -34139,8 +34318,9 @@ Texto=Defensa 21/23
 SkHerreria=60
 LingH=100
 
-CP1=TRABAJADOR
 [OBJ2819] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
+CP1=PIRATA
+CP2=LADRON
 GrhIndex=3126
 Name=Abrigo de Viajero Polar
 Texto=Defensa 16/20
@@ -34172,16 +34352,6 @@ FR_texto=Défense 16/20
 IT_Name=Cappotto da Viaggiatore Polare
 IT_texto=Difesa 16/20
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ2822]
 Name=Túnica Real Pretoriana (E/G)
 GrhIndex=3128
@@ -34309,6 +34479,17 @@ en_Name=Blue Gala Dress (E/G)
 Texto=Vestido de Gala Azul (E/G)
 
 [OBJ2829]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Ropa de Leñador
 IT_texto=Difesa 7/12
 IT_Name=Vestiti di legname
@@ -34339,7 +34520,6 @@ Crucial=1
 en_Name=Lumberjack Clothes
 Texto=Defensa 7/12
 
-CP1=TRABAJADOR
 [OBJ2830]
 Name=Gabán de Cuero Pequeño
 GrhIndex=47197
@@ -35791,6 +35971,14 @@ en_Name=Elder armor
 Texto=Armadura de Elder
 
 [OBJ2889]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Atuendo de Erendil
 IT_texto=Difesa 17/19
 IT_Name=Outfit Erendil
@@ -35823,10 +36011,6 @@ Texto=Defensa 17/19
 PIELOSOPARDO=53
 SkSastreria=60
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ2890]
 Name=Manto de Agonía
 GrhIndex=22108
@@ -36408,18 +36592,6 @@ Crucial=1
 en_Name=Beggar clothes
 Texto=Defensa 3/5
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ2908]
 Name=Túnica Rosa
 GrhIndex=59349
@@ -36504,18 +36676,6 @@ Crucial=1
 en_Name=Basic Vestment
 Texto=Vestimenta Común
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ2911]
 Name=Ropa de Burgués Turquesa
 GrhIndex=59354
@@ -36544,6 +36704,8 @@ en_Name=Turquoise Bourgeois Clothes
 Texto=Ropa de Burgués Turquesa
 
 [OBJ2912]
+CP1=PIRATA
+CP2=LADRON
 Name=Ropa Azul de Navegante
 IT_texto=Navigatore
 IT_Name=Navigatore
@@ -36574,17 +36736,9 @@ Crucial=1
 en_Name=Blue navigator Clothes
 Texto=Ropa Azul de Navegante
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ2913]
+CP1=PIRATA
+CP2=LADRON
 Name=Ropa de Cuero
 IT_texto=Vestiti in pelle
 IT_Name=Vestiti in pelle
@@ -36616,16 +36770,6 @@ Crucial=1
 en_Name=Leather Clothes
 Texto=Ropa de Cuero
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ2914]
 Name=Traje de Gala
 GrhIndex=59357
@@ -36650,6 +36794,17 @@ en_Name=Gala Suit
 Texto=Traje de Gala
 
 [OBJ2915]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Ropa de Trabajador
 IT_texto=Vestiti lavorativi
 IT_Name=Vestiti lavorativi
@@ -36680,8 +36835,16 @@ Crucial=1
 en_Name=Worker Clothing
 Texto=Ropa de Trabajador
 
-CP1=TRABAJADOR
 [OBJ2916] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
 Name=Atavío Oscuro
 Texto=Defensa 23/25
 GrhIndex=442
@@ -36714,9 +36877,6 @@ FR_texto=Défense 23/25
 IT_Name=Abbigliamento scuro
 IT_texto=Difesa 23/25
 
-CP1=BARDO
-CP2=MAGO
-CP3=DRUIDA
 [OBJ2917]
 Name=Manto del Campeón
 GrhIndex=59360
@@ -36781,6 +36941,17 @@ pt_Name=Roupas obsoletas
 pt_Texto=5/10 Defesa
 
 [OBJ2919] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Leñador
 Texto=Defensa 16/20
 GrhIndex=446
@@ -36813,8 +36984,18 @@ FR_texto=Défense 16/20
 IT_Name=Armatura da boscaiolo
 IT_texto=Difesa 16/20
 
-CP1=TRABAJADOR
 [OBJ2920] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 GrhIndex=24508
 Name=Cota de Minero Experto
 Texto=Defensa 25/27
@@ -36847,7 +37028,6 @@ FR_texto=Défense 20/22
 IT_Name=Quota del Minatore Esperto
 IT_texto=Difesa 20/22
 
-CP1=TRABAJADOR
 [OBJ2921]
 Name=Sírica Élfica Rojiza (H/E/EO-M)
 NumRopaje=1111
@@ -36906,6 +37086,8 @@ RopajeOrca=3329
 RopajeOrco=0
 
 [OBJ2923]
+CP1=PIRATA
+CP2=LADRON
 Name=Vestido de Gala Alcarinqua
 IT_texto=Abito di gala Alcarinqua
 IT_Name=Abito di gala Alcarinqua
@@ -36942,16 +37124,6 @@ MinELV=1
 en_Name=Alcarinqua Gala Dress
 Texto=Vestido de Gala Alcarinqua
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ2924]
 Name=Vestido Caperucita (H/E/EO-M)
 NumRopaje=1037
@@ -37061,18 +37233,6 @@ RopajeEnana=2768
 RopajeOrca=3335
 RopajeGnoma=2768
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ2928]
 Name=Vestido de Elfa Empatica (H/E/EO-M)
 NumRopaje=1045
@@ -37099,6 +37259,14 @@ en_Name=Elf Empathic Dress (H/E/EO-M)
 Texto=Vestido de Elfa Empatica (H/E/EO-M)
 
 [OBJ2929]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Vestido Verde Azulado
 IT_texto=Cappuccetto rosso rosso (H/E/EO-M)
 IT_Name=Abito verde blu
@@ -37129,10 +37297,6 @@ Crucial=1
 en_Name=Little red riding hood dress (H/E/EO-M)
 Texto=Vestido de Caperucita Roja (H/E/EO-M)
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ2930]
 Name=Hábito de Ritual Femenino
 NumRopaje=1103
@@ -37188,6 +37352,14 @@ en_Name=Servitude Vestment (H/E/EO-M)
 Texto=Vestimenta de Servidumbre (H/E/EO-M)
 
 [OBJ2932]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Vestido Indulgente Rojo
 IT_texto=Difesa 15/19
 IT_Name=Abito indulgente rosso
@@ -37228,11 +37400,15 @@ RopajeHumano=2236
 RopajeOrca=3318
 RopajeOrco=3318
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ2933]
+CP1=BANDIDO
+CP2=ASESINO
+CP3=CAZADOR
+CP4=PIRATA
+CP5=LADRON
+CP6=BARDO
+CP7=DRUIDA
+CP8=MAGO
 Name=Escudo de Plata
 IT_texto=5/7 difesa
 IT_Name=Shield d'argento
@@ -37258,10 +37434,6 @@ SkHerreria=75
 Porcentaje=100
 Texto=Defensa 5/7
 
-CP1=GUERRERO
-CP2=PALADIN
-CP3=CLERIGO
-CP4=TRABAJADOR
 [OBJ2934]
 Name=Vestimenta Clásica (M)
 GrhIndex=3131
@@ -37316,6 +37488,14 @@ en_Name=Middleton Dress (M)
 Texto=Vestido Middleton (M)
 
 [OBJ2936]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Vestido de Novia
 IT_texto=Difesa 15/17
 IT_Name=Abito da sposa
@@ -37354,10 +37534,6 @@ RopajeHumano=0
 RopajeOrca=3330
 RopajeOrco=0
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ2937]
 Name=Brial del Bosque
 NumRopaje=1094
@@ -37492,6 +37668,8 @@ MinELV=1
 Texto=Atuendo de Pueblerina (M)
 
 [OBJ2942]
+CP1=PIRATA
+CP2=LADRON
 Name=Ropa de Aldeana
 IT_texto=Vestiti aldeana
 IT_Name=Vestiti aldeana
@@ -37524,16 +37702,6 @@ MinELV=1
 en_Name=Villager Clothes
 Texto=Ropa de Aldeana
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ2943]'Borrar proxima temporada
 Name=Ropaje Rupestre
 GrhIndex=47197
@@ -37987,6 +38155,17 @@ ExtraStr=Puerta cerrada con llave  comercio Banderbill
 '---> 3ª Jerarquía <---
 
 [OBJ2962]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=DRUIDA
 Name=Túnica de Mago del Caos (3ª Jerarquía)
 IT_texto=Difesa 8/12
 IT_Name=Veste del Mago del Caos (3a Gerarchia)
@@ -38019,7 +38198,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 en_Name=Chaos Mage Robe (3nd Hierarchy)
 
-CP1=MAGO
 [OBJ2963]'Para borrar proxima temporada
 Name=Túnica de Mago del Caos de 3ª Jerarquía (Bajos)
 GrhIndex=59360
@@ -38206,6 +38384,17 @@ CP11=CLERIGO
 en_Name=Avernal Robe (E/G)
 
 [OBJ2968]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Clérigo del Caos (3ª Jerarquía)
 IT_texto=Difesa 9/13
 IT_Name=Armatura del Chierico del Caos (3a Gerarchia)
@@ -38238,7 +38427,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 en_Name=Chaos Cleric Armor (3nd Hierarchy)
 
-CP1=CLERIGO
 [OBJ2969]'Borrar proxima temporada
 Name=Armadura de Clerigo del Caos de 3ª Jerarquía (Bajos)
 GrhIndex=47332
@@ -38351,6 +38539,17 @@ CP12=MAGO
 en_Name=4th Hierarchy Chaos Cleric Armor (E/G)
 
 [OBJ2972]
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Guerrero del Caos (3ª Jerarquía)
 IT_texto=Difesa 10/14
 IT_Name=Armatura del Guerriero del Caos (3a Gerarchia)
@@ -38383,7 +38582,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 en_Name=Chaos Warrior Armor (3nd Hierarchy)
 
-CP1=GUERRERO
 [OBJ2973]'Borrar proxima temporada
 Name=Armadura de Guerrero del Caos de 3ª Jerarquía (Bajos)
 GrhIndex=2661
@@ -38496,6 +38694,17 @@ CP12=MAGO
 en_Name=4th Hierarchy Chaos Warrior Armor (E/G)
 
 [OBJ2976]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Asesino del Caos (3ª Jerarquía)
 IT_texto=Difesa 9/13
 IT_Name=Armatura dell' Assassino del Caos (3a Gerarchia)
@@ -38528,7 +38737,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 en_Name=Chaos Assassin Armor (3nd Hierarchy)
 
-CP1=ASESINO
 [OBJ2977] 'Borrar proxima temporada
 Name=Armadura de Asesino del Caos de 3ª Jerarquía (Bajos)
 GrhIndex=2662
@@ -38641,6 +38849,17 @@ CP12=MAGO
 en_Name=4th Hierarchy Chaos Assassin Armor (E/G)
 
 [OBJ2980]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Bandido del Caos (3ª Jerarquía)
 IT_texto=Difesa 9/13
 IT_Name=Armatura del Bandito del Caos (3a Gerarchia)
@@ -38673,7 +38892,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 en_Name=Chaos Bandit Armor (3nd Hierarchy)
 
-CP1=BANDIDO
 [OBJ2981]
 Name=Armadura de Bandido del Caos de 3ª Jerarquía (Bajos)
 GrhIndex=2928
@@ -38786,6 +39004,17 @@ CP12=MAGO
 en_Name=4th Hierarchy Chaos Bandit Armor (E/G)
 
 [OBJ2984]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Cazador del Caos (3ª Jerarquía)
 IT_texto=Difesa 10/14
 IT_Name=Armatura del Cacciatore del Caos (3a Gerarchia)
@@ -38818,7 +39047,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 en_Name=Chaos Hunter Armor (3nd Hierarchy)
 
-CP1=CAZADOR
 [OBJ2985]'Borrar proxima temporada
 Name=Armadura de Cazador del Caos de 3ª Jerarquía (Bajos)
 GrhIndex=2661
@@ -38930,6 +39158,17 @@ CP12=MAGO
 en_Name=4th Hierarchy Chaos Hunter Armor (E/G)
 
 [OBJ2988]
+CP1=GUERRERO
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Paladín del Caos (3ª Jerarquía)
 IT_texto=Difesa 10/14
 IT_Name=Chaos Paladin Armor (3a gerarchia)
@@ -38962,7 +39201,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 en_Name=Chaos Paladín Armor (3nd Hierarchy)
 
-CP1=PALADIN
 [OBJ2989]'Borrar proxima temporada
 Name=Armadura de Paladín del Caos de 3ª Jerarquía (Bajos)
 GrhIndex=47386
@@ -39223,6 +39461,17 @@ CP12=MAGO
 en_Name=4th Hierarchy Chaos Pirate armor (E/G)
 
 [OBJ2996]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=MAGO
 Name=Túnica de Druida del Caos (3ª Jerarquía)
 IT_texto=Difesa 8/12
 IT_Name=Veste del Druido del Caos (3a Gerarchia)
@@ -39255,7 +39504,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 en_Name=Chaos Druid Robe (3nd Hierarchy)
 
-CP1=DRUIDA
 [OBJ2997]'Borrar proxima temporada
 Name=Túnica de Druida del Caos de 3ª Jerarquía (Bajos)
 GrhIndex=3089
@@ -39520,6 +39768,17 @@ en_Name=4th Hierarchy Chaos Bard Robe (E/G)
 '----Armaduras Reales 3ª y 4ª---
 
 [OBJ3004]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=DRUIDA
 Name=Túnica de Mago Imperial (3ª Jerarquía)
 IT_texto=Difesa 8/12
 IT_Name=Veste del Mago Imperiale (3a Gerarchia)
@@ -39553,7 +39812,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 en_Name=Imperial Mage Robe (3nd Hierarchy)
 
-CP1=MAGO
 [OBJ3005]'Borrar Proxima Temporada
 Name=Túnica de Mago Imperial de 3ª Jerarquía (Bajos)
 GrhIndex=3094
@@ -39669,6 +39927,17 @@ en_Name=4th Hierarchy Imperial Wizard Robe (E/G)
 Texto=Túnica de Mago Imperial de 4ª Jerarquía (Bajos)
 
 [OBJ3008]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Túnica de Clérigo Imperial (3ª Jerarquía)
 IT_texto=Difesa 9/13
 IT_Name=Veste del Chierico Imperiale (3a Gerarchia)
@@ -39701,7 +39970,6 @@ INSTRANSFERIBLE=1
 Texto=Defensa 9/13
 en_Name=Imperial Cleric's Robe (3nd Hierarchy)
 
-CP1=CLERIGO
 [OBJ3009]'Borrar proxima temporada
 Name=Armadura de Clérigo Imperial de 3ª Jerarquía (Bajos)
 GrhIndex=3019
@@ -39816,6 +40084,17 @@ CP12=MAGO
 en_Name=4th Hierarchy Imperial Cleric Armor (Low)
 
 [OBJ3012]
+CP1=GUERRERO
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Paladín Imperial (3ª Jerarquía)
 IT_texto=Difesa 10/14
 IT_Name=Imperial Paladin Armor (3a gerarchia)
@@ -39848,7 +40127,6 @@ INSTRANSFERIBLE=1
 Texto=Defensa 10/14
 en_Name=Imperial Paladin Armor (3nd Hierarchy)
 
-CP1=PALADIN
 [OBJ3013]'Borrar proxima temporada
 Name=Armadura de Paladín Imperial de 3ª Jerarquía (Bajos)
 GrhIndex=11658
@@ -39961,6 +40239,17 @@ CP12=MAGO
 en_Name=4th Hierarchy Imperial Paladin Armor (E/G)
 
 [OBJ3016]
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Guerrero Imperial (3ª Jerarquía)
 IT_texto=Difesa 10/14
 IT_Name=Armatura del Guerriero Imperiale (3a Gerarchia)
@@ -39993,7 +40282,6 @@ INSTRANSFERIBLE=1
 Texto=Defensa 10/14
 en_Name=Imperial Warrior Armor (3nd Hierarchy)
 
-CP1=GUERRERO
 [OBJ3017]'Borrar proxima temporada
 Name=Armadura de Guerrero Imperial de 3ª Jerarquía (Bajos)
 GrhIndex=11569
@@ -40106,6 +40394,17 @@ CP12=MAGO
 en_Name=4th Hierarchy Imperial Warrior Armor (E/G)
 
 [OBJ3020]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=MAGO
 Name=Túnica de Druida Imperial (3ª Jerarquía)
 IT_texto=Difesa 8/12
 IT_Name=Veste del Druido Imperiale (3a Gerarchia)
@@ -40139,7 +40438,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 en_Name=Imperial Druid Robe (3rd Hierarchy)
 
-CP1=DRUIDA
 [OBJ3021]'Borrar proxima temporada
 Name=Túnica de Druida Imperial de 3ª Jerarquía (Bajos)
 GrhIndex=47548
@@ -40253,6 +40551,17 @@ CP12=MAGO
 en_Name=4th Hierarchy Imperial Druid Robe (E/G)
 
 [OBJ3024]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=DRUIDA
+CP11=MAGO
 Name=Túnica de Bardo Imperial (3ª Jerarquía)
 IT_texto=Difesa 8/12
 IT_Name=Veste del Bardo Imperiale (3a Gerarchia)
@@ -40285,7 +40594,6 @@ INSTRANSFERIBLE=1
 Texto=Defensa 8/12
 en_Name=Imperial Bard's Robe (3nd Hierarchy)
 
-CP1=BARDO
 [OBJ3025]'Borrar proxima temporada
 Name=Túnica de Bardo Imperial de 3ª Jerarquía (Bajos)
 GrhIndex=11662
@@ -40400,6 +40708,17 @@ CP12=MAGO
 en_Name=4th Hierarchy Imperial Bard Robe (Low)
 
 [OBJ3028]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Cazador Imperial (3ª Jerarquía)
 IT_texto=Difesa 10/14
 IT_Name=Armatura da Cacciatore Imperiale (3a Gerarchia)
@@ -40432,7 +40751,6 @@ INSTRANSFERIBLE=1
 Texto=Defensa 10/14
 en_Name=Imperial Hunter Armor (3nd Hierarchy)
 
-CP1=CAZADOR
 [OBJ3029]'Borrar para la proxima temporada
 Name=Armadura de Cazador Imperial de 3ª Jerarquía (Bajos)
 GrhIndex=3130
@@ -40547,6 +40865,17 @@ CP12=MAGO
 en_Name=4th Hierarchy Imperial Hunter Armor (Low)
 
 [OBJ3032]'Ver duplicidad con OBJ3033 y cambiar el nombre y dejar uno solo como recompensa
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Asesino Imperial (3ª Jerarquía)
 IT_texto=Difesa 9/13
 IT_Name=Armatura dell' Assassino Imperiale (3a Gerarchia)
@@ -40580,7 +40909,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 en_Name=Imperial Assassin Armor (3nd Hierarchy)
 
-CP1=ASESINO
 [OBJ3033]'Borrar proxima temporada
 Name=Armadura de Asesino Imperial de 3ª Jerarquía (Bajos)
 GrhIndex=1467
@@ -40693,6 +41021,17 @@ CP12=MAGO
 en_Name=4th Hierarchy Imperial Assassin Armor (E/G)
 
 [OBJ3036]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de Bandido Imperial (3ª Jerarquia)
 IT_texto=Difesa 9/13
 IT_Name=Armatura da Bandito Imperiale (3a Gerarchia)
@@ -40726,7 +41065,6 @@ INTIRABLE=1
 INSTRANSFERIBLE=1
 en_Name=Imperial Bandit Armor (3nd Hierarchy)
 
-CP1=BANDIDO
 [OBJ3037]'Borrar proxima temporada
 Name=Armadura de Bandido Imperial de 3ª Jerarquía (Bajos)
 GrhIndex=2655
@@ -47360,6 +47698,12 @@ Texto=Mano derecha de Perón
 en_Name=Peron right hand
 
 [OBJ3466]
+CP1=CLERIGO
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
 Name=Arco Reforzado
 IT_texto=Danno 2/6
 IT_Name=Arco rinforzato
@@ -47389,12 +47733,6 @@ WeaponType=3
 MaxHitToNpc=7
 MinHitToNpc=3
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=TRABAJADOR
 [OBJ3467]
 Name=Muro de Espinas (NPCS)
 GrhIndex=609
@@ -48131,6 +48469,14 @@ ObjType=48
 Valor=0
 
 [OBJ3505]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Túnica Aguamarina
 IT_texto=Difesa 10/12
 IT_Name=Tunica Aguamarina
@@ -48164,10 +48510,6 @@ peso=50
 Texto=Defensa 10/12
 en_Name=Aquamarine Tunic
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ3506]
 Name=Puerta abierta nueva cabaña 2
 GrhIndex=18397
@@ -48719,6 +49061,12 @@ NFT=0
 en_Name=Ullathorpe Catacomb House Key
 
 [OBJ3550]
+CP1=CLERIGO
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
 Name=Flecha +1
 IT_texto=Danno 2/4
 IT_Name=Freccia +1
@@ -48747,12 +49095,6 @@ PROJECTILETYPE=1
 
 '--------------> Carrera de Haracin <--------------
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=TRABAJADOR
 [OBJ3551]
 Name=Carrera 01 Puerta abierta
 GrhIndex=14227
@@ -49403,6 +49745,17 @@ en_texto=Change your appearance with this mask
 en_Name=Skeleton Mask
 
 [OBJ3596] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=MAGO
 Name=Casco de Zorro
 Texto=Defensa 4/6, aumenta tu resistencia mágica un 1%
 GrhIndex=26543
@@ -49427,7 +49780,6 @@ FR_texto=4/6 Défense, augmentez votre résistance magique de 2%
 IT_Name=Casco di volpe
 IT_texto=4/6 difesa, aumenta la tua resistenza magica del 2%
 
-CP1=DRUIDA
 [OBJ3597]
 Name=Grito del Guerrero
 GrhIndex=609
@@ -51601,18 +51953,6 @@ FR_texto=Élément d'événement exclusif
 IT_Name=Cavalcatura Drago Blu (Evento)
 IT_texto=Articolo di evento esclusivo
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ3745]
 Name=Camiseta Humano Argentina Mundial
 GrhIndex=3527
@@ -51659,18 +51999,6 @@ IT_texto=Articolo di evento esclusivo
 PT_Name=Red Dragon Mount (evento)
 PT_texto=Item de evento exclusivo
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ3747]
 Name=Camiseta y pelota Humano Argentina Mundial
 GrhIndex=3526
@@ -53873,6 +54201,16 @@ Texto=Texto=Llave de la casa Nro 05
 NFT=0
 
 [OBJ3894]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 Name=Poción de Veneno (Alquimia)
 IT_texto=Applica del veleno alla tua arma per alcuni secondi.
 IT_Name=Pozione velenosa (Alchemy)
@@ -53899,8 +54237,6 @@ CALA=1
 MORTERO=1
 SkPociones=45
 
-CP1=CAZADOR
-CP2=ASESINO
 [OBJ3895]
 Name=Veneno 2 (deshabilitado)
 GrhIndex=49017
@@ -55122,6 +55458,17 @@ Texto=Cabaña Sigmud Puerta con Llave
 ExtraStr=Cabaña Sigmud Puerta con Llave
 
 [OBJ3976] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=MAGO
 GrhIndex=4507
 Name=Casco de Lobo
 Texto=Defensa 9/11, aumenta tu Resistencia Mágica en un 5%
@@ -55145,7 +55492,6 @@ FR_texto=Défense 9/11, augmentez votre résistance magique de 5%
 IT_Name=Elmo del lupo
 IT_texto=Difesa 9/11, Aumenta la tua resistenza magica del 5%
 
-CP1=DRUIDA
 [OBJ3977]
 Name=Túnica Dorkeana
 GrhIndex=22106
@@ -55310,6 +55656,17 @@ LingP=100
 SkHerreria=80
 
 [OBJ3983] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=MAGO
 Name=Cuernos de Alce
 Texto=Defensa 6/8, aumenta tu Resistencia Mágica en un 3%
 GrhIndex=4488
@@ -55333,7 +55690,6 @@ FR_texto=Défense 6/8, augmentez votre résistance magique de 3%
 IT_Name=Corna di Alce
 IT_texto=Difesa 6/8, Aumenta la tua resistenza magica del 3%
 
-CP1=DRUIDA
 [OBJ3984]
 Name=Cruz Mágica
 GrhIndex=52039
@@ -55411,6 +55767,17 @@ en_name=Lute
 en_texto=Increases magic damage by 3%.
 
 [OBJ3987]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Nudillo de Hierro
 IT_texto=Danni 7/9
 IT_Name=Tirapugni di ferro
@@ -55434,8 +55801,16 @@ en_Name=Iron Knuckle
 LingH=105
 SkHerreria=60
 
-CP1=BANDIDO
 [OBJ3988]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=MAGO
 Name=Espada Celta
 IT_texto=Danno 6/11
 IT_Name=Spada celtica
@@ -55460,9 +55835,6 @@ Texto=Daño 6/11
 en_Name=Celtic Sword
 WeaponType=1
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=DRUIDA
 [OBJ3989]
 Name=Barril
 GrhIndex=37901
@@ -55483,6 +55855,17 @@ Texto=contener restos de naufragios.
 en_texto=May contain wrecks.
 
 [OBJ3990]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=DRUIDA
 Name=Sombrero de Mago Superior
 IT_texto=Difesa 13/15, la tua resistenza magica aumenta del 7%.
 IT_Name=Cappello da mago superiore
@@ -55508,7 +55891,6 @@ PielOsoPolar=6
 en_texto=Defense 13/15, increases your Magic Resistance by 7%
 en_Name=Superior Wizard's Hat
 
-CP1=MAGO
 [OBJ3991]
 Name=Puerta 6 abierta
 GrhIndex=49581
@@ -60472,6 +60854,15 @@ Texto=Vestido de Bruja (H/E/EO-M)
 en_Name=Witch Dress (H/E/EO-M)
 
 [OBJ4332]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=CLERIGO
+CP4=CAZADOR
+CP5=PIRATA
+CP6=LADRON
+CP7=BARDO
+CP8=DRUIDA
+CP9=MAGO
 Name=Armadura de Ébano
 IT_texto=Difesa 18/20
 IT_Name=Armatura ebano
@@ -60506,9 +60897,6 @@ LingO=0
 SkHerreria=60
 Texto=Defensa 18/20
 
-CP1=BANDIDO
-CP2=ASESINO
-CP3=TRABAJADOR
 [OBJ4333]
 Name=Vestimenta de Esclavo
 GrhIndex=2663
@@ -60554,18 +60942,6 @@ Texto=Cura el veneno
 en_texto=Cure the poison.
 en_Name=Violet Potion (P)
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ4335]
 Name=Poción de Vida (P)
 IT_texto=Ripristina 15 punti sanitari
@@ -60589,18 +60965,6 @@ Texto=Restaura 15 puntos de salud
 en_texto=Restores 15 health points
 en_Name=Health potion (P)
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ4336]
 Name=Poción de Maná (P)
 IT_texto=Ripristina il 3% del tuo mana
@@ -60623,18 +60987,6 @@ Texto=Restaura un 3% de tu maná
 en_texto=Restore 3% of your mana
 en_Name=Mana potion(P)
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ4337]
 Name=Poción de Agilidad (P)
 IT_texto=Aumenta temporaneamente la tua agilità
@@ -60660,18 +61012,6 @@ Texto=Aumenta temporalmente tu agilidad
 en_texto=Temporarily increases your agility
 en_Name=Agility Potion (P)
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ4338]
 Name=Poción de Fuerza (P)
 IT_texto=Aumenta temporaneamente la tua forza
@@ -60697,18 +61037,6 @@ Texto=Aumenta temporalmente tu fuerza
 en_texto=Temporarily increases your strength
 en_Name=Strength Potion (P)
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ4339]
 Name=Piel de Tigre
 GrhIndex=38207
@@ -60719,6 +61047,9 @@ Texto=Piel de Tigre
 en_Name=Tiger Hide
 
 [OBJ4340]
+CP1=TRABAJADOR
+CP2=PIRATA
+CP3=LADRON
 Name=Uniforme Imperial (1ª Jerarquía)
 IT_texto=Difesa 5/7
 IT_Name=Uniforme Imperiale (1a Gerarchia)
@@ -60751,15 +61082,6 @@ INSTRANSFERIBLE=1
 Texto=Defensa 5/7
 en_Name=Imperial Uniform (1st Hierarchy)
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
 [OBJ4341]
 Name=Armadura con Capa
 GrhIndex=2723
@@ -60788,6 +61110,16 @@ en_Name=Armor with Cape
 NoWiki=1
 
 [OBJ4342]
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 Name=Armadura con Capa
 IT_texto=Difesa 20/22
 IT_Name=Armatura occultata
@@ -60822,9 +61154,15 @@ NoWiki=1
 LingH=95
 SkHerreria=60
 
-CP1=GUERRERO
-CP2=CAZADOR
 [OBJ4343]
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
 Name=Túnica de Mago
 IT_texto=Difesa 13/15
 IT_Name=Tunica del mago
@@ -60857,10 +61195,6 @@ Texto=Defensa 13/15
 PIELOSOPARDO=40
 SkSastreria=45
 
-CP1=CLERIGO
-CP2=BARDO
-CP3=MAGO
-CP4=DRUIDA
 [OBJ4344]
 Name=Túnica Gris Nueva
 GrhIndex=11104
@@ -69745,6 +70079,17 @@ pt_Name=Flor do Oceano (missão)
 pt_Texto=Conhecido por sua cor como a flor do oceano
 
 [OBJ4933] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=DRUIDA
 GrhIndex=4474
 MaxDef=18
 MinDef=16
@@ -69768,8 +70113,18 @@ IT_texto=Difesa 16/18, la tua resistenza magica aumenta del 8%.
 PT_Name=Chapéu de Feiticeiro
 PT_texto=Defesa 16/18, sua resistência mágica aumenta em 8%.
 
-CP1=MAGO
 [OBJ4934] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=MAGO
 GrhIndex=4487
 MaxDef=19
 MinDef=17
@@ -69793,8 +70148,16 @@ IT_texto=Difesa 17/19, Aumenta la tua resistenza magica dell'8%
 PT_Name=Capacete de tigre
 PT_texto=Defesa 17/19, aumente sua resistência mágica em 8%
 
-CP1=DRUIDA
 [OBJ4935] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
+CP1=GUERRERO
+CP2=PALADIN
+CP3=CLERIGO
+CP4=CAZADOR
+CP5=PIRATA
+CP6=LADRON
+CP7=BARDO
+CP8=DRUIDA
+CP9=MAGO
 GrhIndex=4492
 MaxDef=22
 MinDef=20
@@ -69817,10 +70180,18 @@ IT_texto=Difesa 20/22
 PT_Name=Elite Hood
 PT_texto=Defesa 20/22
 
-CP1=BANDIDO
-CP2=ASESINO
-CP3=TRABAJADOR
 [OBJ4936] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=DRUIDA
+CP11=MAGO
 GrhIndex=4472
 MaxDef=21
 MinDef=19
@@ -69843,7 +70214,6 @@ IT_texto=Difesa 19/21
 PT_Name=Chapéu ideal
 PT_texto=Defesa 19/21
 
-CP1=BARDO
 [OBJ4937]
 Name=Capucha Negra (BARDO)
 Anim=230
@@ -70152,18 +70522,6 @@ FR_texto=Récompense unique de la faction légionnaire.
 IT_Name=Cavalcatura della Legione (Quinta Gerarchia)
 IT_texto=Ricompensa unica della fazione dei Legionari.
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ4949] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=87841
 Name=Montura Legión (Sexta Jerarquía)
@@ -70186,18 +70544,6 @@ FR_texto=Récompense unique de la faction légionnaire.
 IT_Name=Cavalcatura della Legione (Sesta Gerarchia)
 IT_texto=Ricompensa unica della fazione dei Legionari.
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ4950]
 Name=Garra del Dragón Negro (BANDIDO)
 GrhIndex=36359
@@ -70248,18 +70594,6 @@ FR_texto=Récompense unique de la faction royale.
 IT_Name=Monte Reale (Quinta Gerarchia)
 IT_texto=Ricompensa unica della Fazione Reale.
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ4952] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=87241
 Name=Montura Real (Sexta Jerarquía)
@@ -70282,18 +70616,6 @@ FR_texto=Récompense unique de la faction royale.
 IT_Name=Monte Reale (Sesta Gerarchia)
 IT_texto=Ricompensa unica della Fazione Reale.
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ4953]
 Name=Garra del Dragón Negro (GUERRERO)
 GrhIndex=36359
@@ -70344,18 +70666,6 @@ FR_texto=Monture exclusive disponible via Patreon
 IT_Name=Mulo Azteco
 IT_texto=Cavalcatura esclusiva disponibile tramite Patreon
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ4955] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=24689
 Name=Moro Coracero
@@ -70378,18 +70688,6 @@ FR_texto=Il vous permet de rouler.
 IT_Name=Corazziere Moresco
 IT_texto=Ti permette di guidare.
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ4956] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=24641
 Name=Caballo del Combatiente
@@ -70412,18 +70710,6 @@ FR_texto=Il vous permet de rouler.
 IT_Name=Cavalli da combattimento
 IT_texto=Ti permette di guidare.
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ4957] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=24666
 Name=Caballo Blanco
@@ -70446,18 +70732,6 @@ FR_texto=Il vous permet de rouler.
 IT_Name=Cavallo bianco
 IT_texto=Ti permette di guidare.
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ4958] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=24669
 Name=Caballo Marrón Acorazado
@@ -70480,18 +70754,6 @@ FR_texto=Il vous permet de rouler.
 IT_Name=Cavallo marrone corazzato
 IT_texto=Ti permette di guidare.
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ4959] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=87263
 Name=Mula
@@ -70513,18 +70775,6 @@ FR_texto=Monter
 IT_Name=Mulo
 IT_texto=Montare
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ4960]
 Name=Cofre del Dragón Legendario
 GrhIndex=49238
@@ -72753,6 +73003,14 @@ Peso=1
 ' =====================================================================
 
 [OBJ131] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=BANDIDO
+CP2=ASESINO
+CP3=CAZADOR
+CP4=PIRATA
+CP5=LADRON
+CP6=BARDO
+CP7=DRUIDA
+CP8=MAGO
 Name=Espada Zafiro
 Texto=Daño 13/18
 GrhIndex=86206
@@ -72776,11 +73034,17 @@ IT_texto=Danno 13/18
 PT_Name=Zafiro Sword
 PT_texto=Danos 13/18
 
-CP1=GUERRERO
-CP2=PALADIN
-CP3=CLERIGO
-CP4=TRABAJADOR
 [OBJ133] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=GUERRERO
+CP2=BANDIDO
+CP3=ASESINO
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 Name=Aurora
 Texto=Daño 12/15
 GrhIndex=36521
@@ -72800,8 +73064,6 @@ PT_texto=Danos 12/15
 FR_texto=Dommages 12/15
 IT_texto=Danno 12/15
 
-CP1=PALADIN
-CP2=CLERIGO
 [OBJ151] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
 
@@ -72812,6 +73074,17 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ203] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Piquete de Minero
 Texto=Herramienta de extracción de yacimiento.
 GrhIndex=52001
@@ -72829,7 +73102,6 @@ FR_texto=Outil d'extraction de dépôts.
 IT_Name=Picchetto dei minatori
 IT_texto=Strumento di estrazione dei depositi.
 
-CP1=TRABAJADOR
 [OBJ221] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
 
@@ -72890,6 +73162,17 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ390] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Martillo de Herrero
 Texto=Herramienta necesaria para forjar items
 GrhIndex=38135
@@ -72906,7 +73189,6 @@ IT_texto=Strumento necessario per forgiare gli articoli
 PT_Name=Herrero Hammer
 PT_texto=Ferramenta necessária para forjar itens
 
-CP1=TRABAJADOR
 [OBJ391] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Bastón de los Elementos
 Texto=Daño 11/15. Aumenta tu Daño Mágico en 1%
@@ -72928,6 +73210,17 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ398] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Sable Maestro
 Texto=Daño 10/16
 GrhIndex=37844
@@ -72951,8 +73244,17 @@ FR_texto=Dommages 10/16
 IT_Name=Maestro Sciabola
 IT_texto=Danno 10/16
 
-CP1=TRABAJADOR
 [OBJ400] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=MAGO
 Name=Falcata
 Texto=Daño 12/16
 GrhIndex=1207
@@ -72973,8 +73275,6 @@ FR_Name=Falcate
 FR_texto=Dommages 12/16
 IT_texto=Danno 12/16
 
-CP1=BARDO
-CP2=DRUIDA
 [OBJ404] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
 
@@ -73020,6 +73320,17 @@ ObjType=100
 Valor=0
 
 [OBJ496] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=GUERRERO
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Armadura de la Luz
 Texto=Defensa 31/35
 GrhIndex=3505
@@ -73052,7 +73363,6 @@ IT_texto=Difesa 31/35
 PT_Name=Armadura leve
 PT_texto=Defesa 31/35
 
-CP1=PALADIN
 [OBJ497] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Armadura de la Tiniebla
 Texto=Objeto consumible.
@@ -73341,18 +73651,6 @@ FR_texto=Cela vous permet de chevaucher une licorne
 IT_Name=Unicorno
 IT_texto=Ti permette di cavalcare un unicorno
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ655] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Montura de Rata
 Texto=Te permite montar una Rata
@@ -73373,18 +73671,6 @@ FR_texto=Vous permet de monter un Rat
 IT_Name=Monte dei topi
 IT_texto=Ti permette di cavalcare un Ratto
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ657] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Montura de Oso
 Texto=Te permite montar un Oso
@@ -73406,18 +73692,6 @@ FR_texto=Vous permet de monter un ours
 IT_Name=Monte dell'Orso
 IT_texto=Ti permette di cavalcare un orso
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ658] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Montura de Oso Acorazado
 Texto=Te permite montar un Oso
@@ -73440,18 +73714,6 @@ FR_texto=Vous permet de monter un ours
 IT_Name=Cavalcatura Orso Corazzato
 IT_texto=Ti permette di cavalcare un orso
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ660] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=MONTURA TIERRA
 Texto=Te permite montar un
@@ -73855,6 +74117,17 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ993] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=DRUIDA
 Name=Sombrero de Mago
 Texto=Defensa 8/10, aumenta un 5% tu Resistencia Mágica
 GrhIndex=17516
@@ -73878,7 +74151,6 @@ FR_texto=Défense 8/10, votre résistance magique augmente de 5%
 IT_Name=Cappello da mago
 IT_texto=Difesa 8/10, la tua resistenza magica aumenta del 5%
 
-CP1=MAGO
 [OBJ994] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
 
@@ -74026,18 +74298,6 @@ FR_texto=Robe GM
 IT_Name=Tunica GM
 IT_texto=Abito GM
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ1082] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
 
@@ -74169,6 +74429,16 @@ pt_Name=Bengala lirial
 pt_Texto=Dano 7/15
 
 [OBJ1098] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 Name=Placas de Gala
 Texto=Defensa 28/30
 GrhIndex=3502
@@ -74202,9 +74472,16 @@ IT_texto=Difesa 28/30
 PT_Name=Placas de Gala
 PT_texto=Defesa 28/30
 
-CP1=GUERRERO
-CP2=CAZADOR
 [OBJ1099] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=GUERRERO
+CP2=PALADIN
+CP3=CLERIGO
+CP4=CAZADOR
+CP5=PIRATA
+CP6=LADRON
+CP7=BARDO
+CP8=DRUIDA
+CP9=MAGO
 Name=Armadura de Placas
 Texto=Defensa 25/27
 GrhIndex=2604
@@ -74237,9 +74514,6 @@ IT_texto=Difesa 25/27
 PT_Name=Armadura de placa
 PT_texto=Defesa 25/27
 
-CP1=BANDIDO
-CP2=ASESINO
-CP3=TRABAJADOR
 [OBJ1100] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Armadura de Branok
 Texto=Defensa 35/38
@@ -75461,6 +75735,14 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ1713] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=BANDIDO
+CP2=ASESINO
+CP3=CAZADOR
+CP4=PIRATA
+CP5=LADRON
+CP6=BARDO
+CP7=DRUIDA
+CP8=MAGO
 Name=Escudo de Hierro Reforzado
 Texto=Defensa 3/5
 GrhIndex=86137
@@ -75483,10 +75765,6 @@ IT_texto=3/5 difesa
 PT_Name=Escudo de ferro reforçado
 PT_texto=3/5 Defesa
 
-CP1=GUERRERO
-CP2=PALADIN
-CP3=CLERIGO
-CP4=TRABAJADOR
 [OBJ1717] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Escudo de Bronce
 Texto=Defensa 1/2
@@ -75505,6 +75783,13 @@ pt_Name=Escudo de bronze
 pt_Texto=1/2 defesa
 
 [OBJ1721] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=GUERRERO
+CP2=PALADIN
+CP3=CLERIGO
+CP4=PIRATA
+CP5=LADRON
+CP6=DRUIDA
+CP7=MAGO
 Name=Escudo de Madera
 Texto=Defensa 1/2
 GrhIndex=9632
@@ -75528,12 +75813,14 @@ IT_texto=1/2 difesa
 PT_Name=Escudo de madeira
 PT_texto=1/2 de defesa
 
-CP1=CAZADOR
-CP2=BANDIDO
-CP3=ASESINO
-CP4=BARDO
-CP5=TRABAJADOR
 [OBJ1722] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=GUERRERO
+CP2=PALADIN
+CP3=CLERIGO
+CP4=PIRATA
+CP5=LADRON
+CP6=DRUIDA
+CP7=MAGO
 Name=Rodela Reforzada
 Texto=Defensa 4/6
 GrhIndex=86169
@@ -75557,11 +75844,6 @@ IT_texto=4/6 difesa
 PT_Name=Rodella reforçado
 PT_texto=4/6 Defesa
 
-CP1=CAZADOR
-CP2=BANDIDO
-CP3=ASESINO
-CP4=BARDO
-CP5=TRABAJADOR
 [OBJ1729] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
 
@@ -75723,6 +76005,17 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ1818] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Mandoble
 Texto=Arma de dos manos, no permite usar escudo.
 GrhIndex=25196
@@ -75749,8 +76042,17 @@ IT_texto=Due mani, non ti consente di usare uno scudo.
 pt_Name=Mandoble
 PT_texto=Duas mãos, não permite que você use um escudo.
 
-CP1=GUERRERO
 [OBJ1819] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=GUERRERO
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 Name=Hacha Larga
 Texto=Daño 8/12
 GrhIndex=44010
@@ -75777,9 +76079,17 @@ IT_texto=Danno 8/12
 PT_Name=Machado longo
 PT_texto=Dano 8/12
 
-CP1=PALADIN
-CP2=TRABAJADOR
 [OBJ1820] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 Name=Maza de Guerra
 Texto=Arma de dos manos.
 GrhIndex=6959
@@ -75803,9 +76113,17 @@ IT_texto=Due mani.
 PT_Name=War Mace
 PT_texto=Duas mãos.
 
-CP1=GUERRERO
-CP2=TRABAJADOR
 [OBJ1821] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 Name=Hoja de Jade
 Texto=Arma de dos manos, no permite usar escudo. Daño 12/18
 GrhIndex=8491
@@ -75830,9 +76148,18 @@ FR_texto=Deux mains, cela ne vous permet pas d'utiliser un bouclier. Dommages 12
 IT_Name=Foglia di Giada
 IT_texto=Due mani, non ti consente di usare uno scudo. Danno 12/18
 
-CP1=GUERRERO
-CP2=TRABAJADOR
 [OBJ1822] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Hoja Ígnea
 Texto=Arma de dos manos, no permite usar escudo. Daño 14/20
 GrhIndex=35900
@@ -75857,7 +76184,6 @@ FR_texto=Deux mains, cela ne vous permet pas d'utiliser un bouclier. Dommages 14
 IT_Name=Foglia Ignea
 IT_texto=Due mani, non ti consente di usare uno scudo. Danno 14/20
 
-CP1=GUERRERO
 [OBJ1826] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Nudillo de Adamantina
 Texto=Daño 14/15
@@ -75891,6 +76217,17 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ1855] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Nudillo
 Texto=Daño 3/5
 GrhIndex=44577
@@ -75915,7 +76252,6 @@ FR_texto=Dommages 3/5
 IT_Name=Nocca
 IT_texto=Danni 3/5
 
-CP1=BANDIDO
 [OBJ1857] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
 
@@ -75926,6 +76262,17 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ1869] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 Name=Arco Maestro
 Texto=Daño 5/9
 GrhIndex=38897
@@ -75951,7 +76298,6 @@ FR_texto=Dommages 5/9
 IT_Name=Maestro Arco
 IT_texto=Danno 5/9
 
-CP1=TRABAJADOR
 [OBJ1872] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
 
@@ -76707,6 +77053,8 @@ ObjType=100
 Valor=0
 
 [OBJ2820] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=PIRATA
+CP2=LADRON
 Name=Uniforme Imperial Polar (4ª Jerarquía)
 Texto=Defensa 3/7
 ObjType=3
@@ -76740,17 +77088,9 @@ FR_texto=Défense 3/7
 IT_Name=Uniforme Polare Imperiale (4a Gerarchia)
 IT_texto=Difesa 3/7
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ2821] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
+CP1=PIRATA
+CP2=LADRON
 Name=Uniforme Legionario Polar (4ª Jerarquía)
 Texto=Defensa 3/7
 ObjType=3
@@ -76784,16 +77124,6 @@ FR_texto=Défense 3/7
 IT_Name=Uniforme Polare Legionaria (4a Gerarchia)
 IT_texto=Difesa 3/7
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=CLERIGO
-CP7=BARDO
-CP8=MAGO
-CP9=DRUIDA
-CP10=TRABAJADOR
 [OBJ2944] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
 
@@ -78520,18 +78850,6 @@ FR_texto=Restaurer 5% de votre mana
 IT_Name=Pozione Maná (Alchimy)
 IT_texto=Ripristina il 5% del tuo mana
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ5997] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Poción de Vida (Alquimia)
 Texto=Restaura 27 puntos de Vida
@@ -78556,18 +78874,6 @@ FR_texto=Restaurer 27 points de vie
 IT_Name=Life Potion (Alchemy)
 IT_texto=Ripristina 27 punti di vita
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ5998] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Poción de Agilidad (Alquimia)
 Texto=Aumenta tu agilidad entre 3 y 6 puntos
@@ -78593,18 +78899,6 @@ FR_texto=Augmentez votre agilité entre 3 et 6 points
 IT_Name=Pozione di agilità (alchimia)
 IT_texto=Aumenta la tua agilità tra 3 e 6 punti
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ5999] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Poción de Fuerza (Alquimia)
 Texto=Aumenta tu fuerza entre 3 y 5 puntos
@@ -78630,18 +78924,6 @@ FR_texto=Augmentez votre force entre 3 et 5 points
 IT_Name=Forza Pozione (Alchemy)
 IT_texto=Aumenta la tua forza tra 3 e 5 punti
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ6000] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Vestimenta Común
 Texto=Objeto consumible.
@@ -83228,18 +83510,6 @@ FR_texto=Monture d'événement exclusive
 IT_Name=Rodolfo
 IT_texto=Cavalcatura evento esclusiva
 
-CP1=GUERRERO
-CP2=CAZADOR
-CP3=PALADIN
-CP4=BANDIDO
-CP5=ASESINO
-CP6=PIRATA
-CP7=LADRON
-CP8=CLERIGO
-CP9=BARDO
-CP10=MAGO
-CP11=DRUIDA
-CP12=TRABAJADOR
 [OBJ6243] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Nudillo de Mithril (Navidad)
 Texto=Objeto único del evento de Navidad
