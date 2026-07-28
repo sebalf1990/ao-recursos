@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleEN_Msg=2210
+NumLocaleEN_Msg=2211
 
 [EN_MSG]
 Msg1=[¬1] has been kicked out of the guild because they changed their alignment.
@@ -1712,7 +1712,7 @@ Msg1767=Your request to join the guild has been rejected. The guild explains tha
 Msg1768=The name is not allowed.
 Msg1769=The character already exists.
 Msg1770=The server is currently enabled only for administrators.
-Msg1771=Error checking the game client, please reinstall and try again.
+Msg1771=An update is available. Open the AO20 Launcher to update the game.
 Msg1772=Invalid email.
 Msg1773=Cannot load character.
 Msg1774=You have been kicked by the anti-cheat system.
@@ -2128,3 +2128,4 @@ Msg2207=You cannot use this item without learning the required profession.
 Msg2208=You cannot assign points to a profession you have not learned.
 Msg2209=This master does not buy items.
 Msg2210=The Worker class is not available while learnable professions are enabled.
+Msg2211=You dealt ¬1 of ¬2 to the creature.

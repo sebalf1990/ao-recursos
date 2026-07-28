@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleSP_Msg=2210
+NumLocaleSP_Msg=2211
 
 [SP_MSG]
 Msg1=[¬1] ha sido expulsado del clan ya que modificó su alineamiento.
@@ -1712,7 +1712,7 @@ Msg1767=Tu solicitud de ingreso al clan ha sido rechazada. El clan te explica qu
 Msg1768=El nombre no está permitido.
 Msg1769=Ya existe el personaje.
 Msg1770=El servidor se encuentra habilitado solo para administradores por el momento.
-Msg1771=Error al comprobar el cliente del juego, por favor reinstale y vuelva a intentar.
+Msg1771=Hay una actualización disponible. Abrí el AO20 Launcher para actualizar el juego.
 Msg1772=Email inválido.
 Msg1773=No se puede cargar el personaje.
 Msg1774=Has sido expulsado por el sistema anti cheats.
@@ -2128,6 +2128,7 @@ Msg2207=No podes usar este item sin aprender la profesion requerida.
 Msg2208=No podes asignar puntos a una profesion que no aprendiste.
 Msg2209=Este maestro no compra items.
 Msg2210=La clase Trabajador no esta disponible con profesiones aprendibles activas.
+Msg2211=Le has causado ¬1 de ¬2 a la criatura.
 Msg2178=¬1 fue expulsado de la Armada Real.
 Msg2179=¬1 fue expulsado de la Legión Oscura.
 Msg2181=No se encontró una posición válida para el evento. Intentá de nuevo.

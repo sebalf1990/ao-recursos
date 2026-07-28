@@ -17037,6 +17037,18 @@ ManaRequerido=20
 StaRequerido=5
 IconoIndex=35692
 
+[HECHIZO413]
+Nombre=Encantar Arma con Fuego (TEST)
+Desc=Encanta tu arma con Fuego por 30s (dano de fuego + Quemadura). Plan 20.002.
+PalabrasMagicas=ENC ARM FUE
+HechizeroMsg=Has encantado el arma de
+TargetMsg=ha encantado tu arma con Fuego.
+PropioMsg=Encantaste tu arma con Fuego.
+MinSkill=1
+ManaRequerido=80
+StaRequerido=10
+IconoIndex=35692
+
 [OBJ1]
 Name=Manzana Roja
 GrhIndex=506
@@ -17061,7 +17073,6 @@ Objtype=2
 GrhIndex=44064
 MinHIT=1
 MaxHIT=4
-Valor=600
 Texto=Hacha Orca
 
 [OBJ4]
@@ -17196,7 +17207,7 @@ ObjType=19
 Name=Porción de Tarta
 GrhIndex=515
 ObjType=1
-Valor=7
+Valor=8
 Texto=Restaura 45 puntos de hambre
 
 [OBJ22]
@@ -17210,49 +17221,49 @@ Texto=Restaura 15 puntos de hambre
 Name=Pan de Trigo
 GrhIndex=55450
 ObjType=1
-Valor=6
+Valor=10
 Texto=Restaura 25 puntos de hambre
 
 [OBJ24]
 Name=Pan de Maíz
 GrhIndex=518
 ObjType=1
-Valor=7
+Valor=10
 Texto=Restaura 35 puntos de hambre
 
 [OBJ25]
 Name=Galletas
 GrhIndex=28882
 ObjType=1
-Valor=9
+Valor=6
 Texto=Restaura 40 puntos de hambre
 
 [OBJ26]
 Name=Pollo
 GrhIndex=28827
 ObjType=1
-Valor=16
+Valor=17
 Texto=Restaura 75 puntos de hambre
 
 [OBJ27]
 Name=Chuleta
 GrhIndex=52077
 ObjType=1
-Valor=14
+Valor=16
 Texto=Restaura 60 puntos de hambre
 
 [OBJ28]
 Name=Queso de Cabra
 GrhIndex=52081
 ObjType=1
-Valor=13
+Valor=12
 Texto=Restaura 55 puntos de hambre
 
 [OBJ29]
 Name=Sandia
 GrhIndex=523
 ObjType=1
-Valor=7
+Valor=6
 Texto=Restaura 50 puntos de hambre
 
 [OBJ30]
@@ -17383,30 +17394,32 @@ Texto=Aumenta tu fuerza entre 2 y 5 puntos
 Name=Flauta Élfica
 GrhIndex=538
 Objtype=30
-Valor=12000
-MaderaElfica=900
+Valor=9600
+MaderaElfica=2100
 Texto=Aumenta el daño mágico un 7%.
+Madera=1000
 
 [OBJ41]
 Name=Laúd Élfico
 GrhIndex=30866
-Valor=8000
+Valor=8700
 Objtype=30
-MaderaElfica=600
+MaderaElfica=2100
 Texto=Aumenta el daño mágico un 6%.
+Madera=700
 
 [OBJ42]
 Name=Vino
 GrhIndex=52093
 ObjType=13
-Valor=25
+Valor=21
 Texto=Restaura 80 puntos de sed
 
 [OBJ43]
 Name=Botella de Agua
 GrhIndex=537
 ObjType=13
-Valor=10
+Valor=6
 Texto=Restaura 30 puntos de sed
 
 [OBJ44]
@@ -18419,7 +18432,7 @@ Texto=Copa de Plata
 Name=Banana
 GrhIndex=55451
 ObjType=1
-Valor=2
+Valor=6
 Texto=Restaura 10 puntos de hambre
 
 [OBJ159]
@@ -18439,14 +18452,14 @@ Texto=Daño 9/14
 Name=Cerveza
 GrhIndex=28875
 ObjType=13
-Valor=16
+Valor=18
 Texto=Restaura 45 puntos de sed
 
 [OBJ161]
 Name=Jugo de Frutas
 GrhIndex=584
 ObjType=13
-Valor=40
+Valor=36
 Texto=Restaura 100 puntos de sed
 
 [OBJ162]
@@ -19892,6 +19905,7 @@ GrhIndex=48951
 ObjType=48
 Agarrable=0
 Texto=Este cofre contiene Fuegos Artificiales
+Valor=35
 
 [OBJ357]
 GrhIndex=49024
@@ -20336,19 +20350,19 @@ Texto=Gema Lunar
 Name=Gema Polar de Fundación de Clan
 GrhIndex=703
 ObjType=29
-Valor=9000
+Valor=60000
 
 [OBJ408]
 Name=Gema Roja de Fundación de Clan
 GrhIndex=705
 ObjType=29
-Valor=9000
+Valor=12000
 
 [OBJ409]
 Name=Gema Azul de Fundación de Clan
 GrhIndex=701
 ObjType=29
-Valor=9000
+Valor=30000
 
 [OBJ410]
 Name=Gema Dorada
@@ -20366,7 +20380,7 @@ Texto=Gema Naranja
 Name=Gema Verde de Fundación de Clan
 GrhIndex=706
 ObjType=29
-Valor=9000
+Valor=15000
 
 [OBJ413]
 Name=Gema Marrón
@@ -20378,21 +20392,21 @@ Texto=Gema Marrón
 Name=Piel de Lobo Salvaje
 GrhIndex=38181
 ObjType=100
-valor=30
+valor=18
 Texto=Piel de Lobo Salvaje
 
 [OBJ415]
 Name=Piel de Oso Pardo
 GrhIndex=38218
 ObjType=100
-valor=150
+valor=90
 Texto=Piel de Oso Pardo
 
 [OBJ416]
 Name=Piel de Oso Polar
 GrhIndex=38219
 ObjType=100
-valor=3300
+valor=255
 Texto=Piel de Oso Polar
 
 [OBJ417]
@@ -20829,8 +20843,8 @@ RopajeOrco=3309
 Name=Laúd Mágico
 GrhIndex=685
 Objtype=30
-Valor=5000
-Madera=800
+Valor=4200
+Madera=1400
 Texto=Aumenta el daño mágico un 4%.
 
 [OBJ470]
@@ -20961,8 +20975,8 @@ RopajeEnana=2655
 RopajeOrca=3222
 RopajeGnoma=2655
 ObjType=3
-MAXDEF=40
-MINDEF=35
+MAXDEF=1
+MINDEF=1
 Valor=100000
 Texto=Armadura de Dragón Rojo
 
@@ -21651,7 +21665,7 @@ Texto=Restaura 25 puntos de sed. (Recargable)
 Name=Botella Vacía
 GrhIndex=849
 ObjType=33
-Valor=10
+Valor=30
 Texto=Puede ser llenada con agua.
 
 [OBJ535]
@@ -21685,8 +21699,8 @@ Valor=0
 Name=Flauta Mágica
 GrhIndex=686
 Objtype=30
-Valor=7500
-Madera=1200
+Valor=4500
+Madera=1500
 Texto=Aumenta el daño mágico un 5%.
 
 [OBJ541]
@@ -23918,7 +23932,7 @@ Texto=Agrega probabilidad de incinerar a tus golpes.
 [OBJ869]
 Name=Orbe Congelado
 GrhIndex=970
-valor=50000
+valor=60000
 Objtype=21
 Texto=Agrega probabilidad de paralizar a tus golpes.
 
@@ -25017,7 +25031,7 @@ GrhIndex=10212
 ObjType=17
 MAXDEF=0
 MINDEF=0
-Valor=40
+Valor=400
 texto=Cambia tu apariencia con esta mascara
 
 [OBJ1028]
@@ -25035,7 +25049,7 @@ GrhIndex=10215
 ObjType=17
 MAXDEF=0
 MINDEF=0
-Valor=70
+Valor=800
 texto=Cambia tu apariencia con esta mascara
 
 [OBJ1030]
@@ -25891,14 +25905,14 @@ GrhIndex=0
 Name=Piel de Tigre de Bengala
 GrhIndex=38208
 ObjType=100
-valor=1200
+valor=180
 Texto=Piel de Tigre de Bengala
 
 [OBJ1146]
 Name=Piel de Lobo Negro
 GrhIndex=38182
 ObjType=100
-valor=81
+valor=60
 Texto=Piel de Lobo Negro
 
 [OBJ1147]
@@ -25918,7 +25932,6 @@ Valor=5000
 [OBJ1149]
 Name=Pendiente del Experto
 GrhIndex=38100
-valor=30000
 Objtype=21
 Texto=Aumenta tu probabilidad de mejorar habilidades un 50%
 
@@ -26248,9 +26261,8 @@ RopajeEnana=2656
 RopajeOrca=3223
 RopajeGnoma=2656
 ObjType=3
-MAXDEF=47
-MINDEF=43
-Valor=30000
+MAXDEF=1
+MINDEF=1
 Texto=Posee resistencia mágica.
 
 [OBJ1218]
@@ -30061,7 +30073,7 @@ Valor=0
 [OBJ1648]
 Name=Misil Mágico
 GrhIndex=609
-Valor=9000
+Valor=11000
 Objtype=24
 Texto=Causa de 35 a 45 puntos de daño.
 
@@ -30078,14 +30090,14 @@ GrhIndex=0
 [OBJ1651]
 Name=Curar heridas graves
 GrhIndex=609
-Valor=35000
+Valor=36000
 Objtype=24
 Texto=Restaura entre 28 y 55 puntos de salud.
 
 [OBJ1652]
 Name=Resucitar
 GrhIndex=609
-Valor=400000
+Valor=500000
 Objtype=24
 Texto=Resucitar un usuario muerto.
 
@@ -30099,14 +30111,14 @@ Valor=0
 [OBJ1654]
 Name=Celeridad
 GrhIndex=609
-Valor=20000
+Valor=60000
 Objtype=24
 Texto=Aumenta la agilidad del usuario que recibe el hechizo.
 
 [OBJ1655]
 Name=Fuerza
 GrhIndex=609
-Valor=20000
+Valor=50000
 Objtype=24
 Texto=Aumenta la fuerza del usuario que recibe el hechizo.
 
@@ -30120,7 +30132,7 @@ Texto=Aumenta la velocidad del objetivo y eleva sus atributos.
 [OBJ1657]
 Name=Invisibilidad
 GrhIndex=609
-Valor=700000
+Valor=800000
 Objtype=24
 Texto=Vuelve invisible al objetivo durante un corto periodo de tiempo.
 
@@ -30134,14 +30146,14 @@ Texto=Detiene las acciones de las criaturas y paraliza al objetivo.
 [OBJ1659]
 Name=Inmovilizar
 GrhIndex=609
-Valor=110000
+Valor=80000
 Objtype=24
 Texto=Inmoviliza al objetivo.
 
 [OBJ1660]
 Name=Remover paralisis
 GrhIndex=609
-Valor=33000
+Valor=40000
 Objtype=24
 Texto=Remueve la parálisis.
 
@@ -30162,7 +30174,7 @@ Texto=Incinera al objetivo. Causa daño distribuido a lo largo de diez segundos.
 [OBJ1663]
 Name=Tormenta de Fuego
 GrhIndex=609
-Valor=50000
+Valor=55000
 Objtype=24
 Texto=Causa 45 a 55 puntos de daño al objetivo.
 
@@ -30176,7 +30188,7 @@ Texto=Causa 56 a 66 puntos de daño y envenena al oponente.
 [OBJ1665]
 Name=Flecha Electrica
 GrhIndex=609
-Valor=1500
+Valor=4000
 Objtype=24
 Texto=Causa 25 a 35 puntos de daño en un área de dos tiles.
 
@@ -30204,7 +30216,7 @@ Valor=1000000
 [OBJ1669]
 Name=Descarga Eléctrica
 GrhIndex=609
-Valor=600000
+Valor=1000000
 Objtype=24
 Texto=Causa 69 a 77 puntos de daño.
 
@@ -30218,7 +30230,7 @@ Valor=1200000
 [OBJ1671]
 Name=Apocalipsis
 GrhIndex=609
-Valor=1500000
+Valor=2400000
 Objtype=24
 Texto=Causa 91 a 100 puntos de daño.
 
@@ -31574,7 +31586,6 @@ GrhIndex=52005
 Objtype=2
 MinHIT=2
 MaxHIT=5
-Valor=300
 Texto=Garrote
 
 [OBJ1849]
@@ -32437,7 +32448,7 @@ GrhIndex=85536
 ObjType=17
 MAXDEF=4
 MINDEF=2
-Valor=200
+Valor=400
 Texto=Casco de Lobo
 SKSastreria=10
 PielLobo=15
@@ -33530,7 +33541,7 @@ GrhIndex=0
 [OBJ2010]
 Name=Petrificar (NPC)
 GrhIndex=609
-Valor=30000
+Valor=60000
 Objtype=24
 Texto=Petrifica criaturas durante 90 segundos.
 
@@ -34277,7 +34288,6 @@ Texto=Restaura 25 puntos de hambre
 [OBJ2159]
 Name=Anzuelo de Goblin
 GrhIndex=48946
-valor=3
 Objtype=29
 Texto=Ítem de Quest.
 
@@ -35275,11 +35285,12 @@ Texto=Colgante Mágico
 [OBJ2323]
 Name=Anillo de Disolución Mágica
 GrhIndex=49267
-valor=0
+valor=11400
 Objtype=35
 Texto=Aumenta tu resistencia mágica un 7%.
-LingP=75
-SkHerreria=75
+LingP=60
+SkHerreria=100
+LingH=100
 
 [OBJ2324]
 Name=Anillo de Protección Mágica
@@ -36406,7 +36417,7 @@ Texto=Invoca un esqueleto para luchar frente a criaturas.
 [OBJ2469]
 Name=Invocar Mascotas
 GrhIndex=609
-Valor=250000
+Valor=400000
 Objtype=24
 Texto=Invoca o guarda tus mascotas domadas.
 
@@ -36476,21 +36487,21 @@ Texto=Item de quest
 [OBJ2479]
 Name=Colmillo de serpiente
 GrhIndex=49296
-valor=0
+valor=6
 Objtype=29
 Texto=Item de quest
 
 [OBJ2480]
 Name=Alas de Murcielago
 GrhIndex=49297
-valor=0
+valor=3
 Objtype=29
 Texto=Item de quest
 
 [OBJ2481]
 Name=Cola de lobo
 GrhIndex=49298
-valor=0
+valor=9
 Objtype=29
 Texto=Cola de lobo
 
@@ -36560,7 +36571,7 @@ Texto=Item de quest
 [OBJ2491]
 Name=Fluido de Murcielago
 GrhIndex=49308
-valor=0
+valor=12
 Objtype=29
 Texto=Item de quest
 
@@ -36581,7 +36592,7 @@ Texto=Ítem de Quest.
 [OBJ2494]
 Name=Fluido de escorpión
 GrhIndex=49311
-valor=0
+valor=9
 Objtype=29
 Texto=Item de quest
 
@@ -36664,7 +36675,6 @@ Texto=Pezuña
 [OBJ2506]
 Name=Craneo con Cuernos
 GrhIndex=51986
-valor=6000
 Objtype=29
 Texto=Craneo con Cuernos
 
@@ -36839,7 +36849,7 @@ Texto=Huesos
 [OBJ2531]
 Name=Huevo de Mutante Aracnido
 GrhIndex=52012
-valor=0
+valor=5000
 Objtype=29
 Texto=Huevo de Mutante Aracnido
 
@@ -36978,7 +36988,7 @@ Texto=Raspas pescados
 [OBJ2551]
 Name=Pluma de aguila
 GrhIndex=52031
-valor=1500
+valor=900
 Objtype=29
 Texto=Pluma de aguila
 
@@ -37662,7 +37672,7 @@ Texto=Pluma y Tinta
 [OBJ2649]
 Name=Anillo de Oro
 GrhIndex=52180
-valor=1000
+valor=2700
 Objtype=29
 Texto=Anillo de Oro
 
@@ -38449,14 +38459,14 @@ Valor=0
 [OBJ2763]
 Name=Curar heridas leves
 GrhIndex=609
-Valor=200
+Valor=800
 Objtype=24
 Texto=Restaura entre 4 y 10 puntos de salud.
 
 [OBJ2764]
 Name=Curar Veneno
 GrhIndex=609
-Valor=150
+Valor=1500
 Objtype=24
 Texto=Cura el veneno.
 
@@ -38470,7 +38480,7 @@ Texto=Hechizo de daño básico (14 a 18)
 [OBJ2766]
 Name=Flecha Mágica
 GrhIndex=609
-Valor=800
+Valor=1800
 Objtype=24
 Texto=Hechizo de daño básico (18 a 25)
 
@@ -43790,7 +43800,7 @@ Texto=Mapa de las tierras de Argentum.
 Name=Lentes
 GrhIndex=32007
 ObjType=17
-Valor=200
+Valor=800
 Texto=Item de colección
 MAXDEF=0
 MINDEF=0
@@ -45794,7 +45804,7 @@ Llave=0
 [OBJ3394]
 Name=Gema Helada
 GrhIndex=55263
-valor=21000
+valor=1800
 Objtype=29
 Texto=Gema Helada
 
@@ -46613,8 +46623,8 @@ Name=Flecha del Principiante
 GrhIndex=752
 Objtype=32
 MinHIT=1
-MaxHIT=1
-Valor=0
+MaxHIT=2
+Valor=1
 Texto=Flecha del Principiante
 
 [OBJ3493]
@@ -47281,9 +47291,11 @@ Valor=7500
 [OBJ3577]
 Name=Anillo de Resistencia Mágica
 GrhIndex=49259
-valor=6000
+valor=2400
 Objtype=35
 Texto=Aumenta tu resistencia mágica un 3%.
+LingH=40
+SkHerreria=50
 
 [OBJ3578]
 Name=Tela trabajada
@@ -48122,7 +48134,7 @@ Texto=Daga del Principiante
 [OBJ3687]
 Name=Libro espíritu Dragón Púrpura
 GrhIndex=49339
-Valor=400
+Valor=1000
 Objtype=50
 Texto=Libro espíritu Dragón Púrpura
 
@@ -48150,7 +48162,7 @@ Texto=Libro espíritu Demonio Púrpura
 [OBJ3691]
 Name=Libro espíritu Dragón Rojo
 GrhIndex=49340
-Valor=400
+Valor=1000
 Objtype=50
 Texto=Libro espíritu Dragón Rojo
 
@@ -48178,7 +48190,7 @@ Texto=Libro espíritu Demonio Rojo
 [OBJ3695]
 Name=Libro espíritu Dragón Turquesa
 GrhIndex=49341
-Valor=400
+Valor=1000
 Objtype=50
 Texto=Libro espíritu Dragón Turquesa
 
@@ -48206,7 +48218,7 @@ Texto=Libro espíritu Demonio Turquesa
 [OBJ3699]
 Name=Libro espíritu Dragón Amarilla
 GrhIndex=49342
-Valor=400
+Valor=1000
 Objtype=50
 Texto=Libro espíritu Dragón Amarilla
 
@@ -48691,8 +48703,8 @@ Texto=Poste
 Name=Relicario
 GrhIndex=38372
 Objtype=21
-LingH=5
-LingP=5
+LingH=25
+LingP=10
 SkHerreria=100
 Texto=Relicario
 
@@ -48702,7 +48714,7 @@ GrhIndex=38374
 Objtype=53
 Texto=Permite revivir a un personaje.
 CDType=6
-CD=3000
+CD=5000
 
 [OBJ3771]
 Name=Restauracion
@@ -48941,8 +48953,8 @@ GrhIndex=49026
 ObjType=48
 Agarrable=0
 Texto=Carcaj de Flechas
-Madera=525
-Valor=3150
+Madera=275
+Valor=825
 
 [OBJ3802]
 Name=Carcaj de Flechas +2
@@ -48950,8 +48962,8 @@ GrhIndex=49026
 ObjType=48
 Agarrable=0
 Texto=Carcaj de flechas +2
-Madera=1575
-Valor=9450
+Madera=165
+Valor=495
 
 [OBJ3803]
 Name=Carcaj de Flechas +3
@@ -48987,8 +48999,8 @@ GrhIndex=49026
 ObjType=48
 Agarrable=0
 Texto=Carcaj de flechas +1
-Madera=1050
-Valor=6300
+Madera=330
+Valor=990
 
 [OBJ3807]
 Name=Arpon
@@ -50367,16 +50379,16 @@ Texto=Item de Quest
 Name=Flauta
 GrhIndex=686
 Objtype=30
-Valor=2000
-Madera=1000
+Valor=600
+Madera=200
 Texto=Aumenta el daño mágico un 3%.
 
 [OBJ3986]
 Name=Laúd
 GrhIndex=685
 Objtype=30
-Valor=2000
-Madera=1000
+Valor=600
+Madera=200
 Texto=Aumenta el daño mágico un 3%.
 
 [OBJ3987]
@@ -52829,7 +52841,7 @@ Name=Hongo de luz
 GrhIndex=38023
 Objtype=29
 Texto=Hongo capaz de irradiar energía
-valor=0
+valor=14
 
 [OBJ4311]
 Name=Esporas Silvestres
@@ -52843,7 +52855,7 @@ Name=Tuna silvestre
 GrhIndex=38055
 Objtype=29
 Texto=Cactus repleto de nutrientes
-valor=0
+valor=16
 
 [OBJ4313]
 Name=Cala Venenosa
@@ -52857,21 +52869,21 @@ Name=Cola de Zorro
 GrhIndex=38049
 Objtype=29
 Texto=Arbusto con aspecto de cola de zorro
-valor=0
+valor=20
 
 [OBJ4315]
 Name=Flor del océano
 GrhIndex=38000
 Objtype=29
 Texto=Por su color se la conoce como la flor de oceano
-valor=0
+valor=4
 
 [OBJ4316]
 Name=Flor roja
 GrhIndex=38052
 Objtype=29
 Texto=Flor roja de aspecto reluciente
-valor=0
+valor=8
 
 [OBJ4317]
 Name=Hierba de sangre
@@ -52899,7 +52911,7 @@ Name=Semillas prosperas
 GrhIndex=55407
 Objtype=29
 Texto=Semillas listas para germinar
-valor=0
+valor=16
 
 [OBJ4321]
 Name=Pimiento Muerte
@@ -53096,7 +53108,7 @@ Texto=Aumenta temporalmente tu fuerza
 Name=Piel de Tigre
 GrhIndex=38207
 ObjType=100
-valor=150
+valor=75
 Texto=Piel de Tigre
 
 [OBJ4340]
@@ -58039,7 +58051,7 @@ Texto=Contiene Armas de Dragón Negro.
 Name=Casco Blanco de Aviador
 GrhIndex=11406
 ObjType=17
-Valor=80
+Valor=400
 Texto=Casco Blanco de Aviador
 
 [OBJ4964]
@@ -58109,7 +58121,7 @@ Texto=Casco de Explorador II
 Name=Casco de Sherpa
 GrhIndex=11416
 ObjType=17
-Valor=80
+Valor=400
 Texto=Casco de Sherpa
 
 [OBJ4974]
@@ -58123,7 +58135,7 @@ Texto=Sakat
 Name=Boina de Cuero
 GrhIndex=11418
 ObjType=17
-Valor=80
+Valor=800
 Texto=Boina de Cuero
 
 [OBJ4976]
@@ -58214,7 +58226,7 @@ Texto=Casco Gladiador
 Name=Casco de Barbaro
 GrhIndex=11393
 ObjType=17
-Valor=80
+Valor=400
 Texto=Casco de Barbaro
 
 [OBJ4989]
@@ -58242,7 +58254,7 @@ Texto=Casco de Shura de Capricornio
 Name=Gorro de Cocinero
 GrhIndex=11397
 ObjType=17
-Valor=80
+Valor=800
 Texto=Gorro de Cocinero
 
 [OBJ4993]
@@ -58256,7 +58268,7 @@ Texto=Corona de Faraon
 Name=Mitra Papal
 GrhIndex=11399
 ObjType=17
-Valor=80
+Valor=800
 Texto=Mitra Papal
 
 [OBJ4995]
@@ -65632,6 +65644,123 @@ GrhIndex=609
 Valor=1
 Objtype=24
 
+[OBJ9064]
+Name=Espada Ignea (TEST)
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+Valor=0
+Texto=Arma de prueba del sistema elemental (plan 20.002).
+
+[OBJ9065]
+Name=Anillo Ignifugo (TEST)
+GrhIndex=889
+ObjType=20
+Valor=0
+Texto=Anillo de prueba: resistencia al fuego (plan 20.002).
+
+[OBJ9066]
+Name=Espada de Hielo (TEST)
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+Valor=0
+Texto=Arma de prueba: dano de escarcha + slow (plan 20.002).
+
+[OBJ9067]
+Name=Espada Acida (TEST)
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+Valor=0
+Texto=Arma de prueba: dano acido + corrosion (baja defensa).
+
+[OBJ9068]
+Name=Espada Arcana (TEST)
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+Valor=0
+Texto=Arma de prueba: dano arcano (usa resist arcana, no la magica).
+
+[OBJ9069]
+Name=Espada Sangrante (TEST)
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+Valor=0
+Texto=Arma de prueba: sangrado (DoT fisico que ignora armadura).
+
+[OBJ9070]
+Name=Pergamino Encantar Arma Fuego (TEST)
+GrhIndex=609
+ObjType=24
+Valor=0
+Texto=Pergamino de prueba: ensena Encantar Arma con Fuego (plan 20.002).
+
+[OBJ9071]
+Name=Aceite Igneo (TEST)
+GrhIndex=28750
+ObjType=11
+Valor=0
+Texto=Aceite de prueba: encanta tu arma con Fuego por 30s (demo).
+
+[OBJ9072]
+Name=Orbe Igneo (TEST)
+GrhIndex=969
+ObjType=21
+Valor=0
+Texto=Orbe de prueba: equipalo y tus golpes aplican Fuego + Quemadura (motor alcanza el orbe).
+
+[OBJ9073]
+Name=Espada Ignea Acumulativa (TEST)
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+Valor=0
+Texto=Arma de prueba: Quemadura ACUMULATIVA (cada golpe suma un stack de fuego).
+
+[OBJ9074]
+Name=Armadura de Espinas (TEST)
+GrhIndex=2553
+RopajeHumano=63
+RopajeElfo=63
+RopajeElfoOscuro=1547
+RopajeEnano=547
+RopajeOrco=1047
+RopajeGnomo=547
+RopajeHumana=2047
+RopajeElfa=2047
+RopajeElfaOscura=1547
+RopajeEnana=2547
+RopajeOrca=1047
+RopajeGnoma=2547
+ObjType=3
+MaxDef=10
+MinDef=8
+Texto=Armadura de prueba con espinas (plan 20.002 TP2).
+
+[OBJ9075]
+Name=Casco de Espinas (TEST)
+GrhIndex=559
+ObjType=17
+MaxDef=10
+MinDef=8
+Texto=Casco de prueba con espinas. Se equipa pero no cambia el sprite (Anim=0).
+
+[OBJ9076]
+Name=Aceite Igneo de Flechas (TEST)
+GrhIndex=28750
+ObjType=11
+Valor=0
+Texto=Aceite de prueba: encanta tus flechas equipadas con Fuego por 30s (5 cargas).
+
 [NP263]
 Name=Sacerdote Imperial
 NpcType=2
@@ -65890,6 +66019,69 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
+NROITEMS=0
+
+[NPC9018]
+Name=Dummy Resist Fuego 50pct (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9019]
+Name=Dummy Inmune Fuego (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9020]
+Name=Dummy Resist Critico (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9021]
+Name=Dummy Resist Escarcha (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9022]
+Name=Dummy Resist Acido (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9023]
+Name=Dummy Resist Arcano (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9024]
+Name=Dummy Resist Sangrado (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9025]
+Name=Bicho de Fuego (TEST)
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=200
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=1
+MinHIT=1
 NROITEMS=0
 
 [NAMEMAPA]
@@ -68535,7 +68727,7 @@ Msg1767=Tu solicitud de ingreso al clan ha sido rechazada. El clan te explica qu
 Msg1768=El nombre no está permitido.
 Msg1769=Ya existe el personaje.
 Msg1770=El servidor se encuentra habilitado solo para administradores por el momento.
-Msg1771=Error al comprobar el cliente del juego, por favor reinstale y vuelva a intentar.
+Msg1771=Hay una actualización disponible. Abrí el AO20 Launcher para actualizar el juego.
 Msg1772=Email inválido.
 Msg1773=No se puede cargar el personaje.
 Msg1774=Has sido expulsado por el sistema anti cheats.
@@ -68950,6 +69142,7 @@ Msg2207=No podes usar este item sin aprender la profesion requerida.
 Msg2208=No podes asignar puntos a una profesion que no aprendiste.
 Msg2209=Este maestro no compra items.
 Msg2210=La clase Trabajador no esta disponible con profesiones aprendibles activas.
+Msg2211=Le has causado ¬1 de ¬2 a la criatura.
 Msg2178=¬1 fue expulsado de la Armada Real.
 Msg2179=¬1 fue expulsado de la Legión Oscura.
 Msg2181=No se encontró una posición válida para el evento. Intentá de nuevo.
@@ -68968,7 +69161,6 @@ Msg2197=Evento> El NPC ha sido asesinado.
 Msg2198=Clan> [¬1] ha marcado a ¬2 en ¬3 (¬4-¬5).
 Msg2199=Primero debes seleccionar un NPC para marcar.
 
-Msg2211=Le has causado ¬1 de ¬2 a la criatura.
 [SP_SUGERENCIAS]
 Sugerencia1=¿Sabías quepodes meditar simplemente tocandotu barra de maná. ¡Probalo!
 Sugerencia2=¿Sabías que luchar contra los npcs sube tu skill en supervivencia?
@@ -68976,156 +69168,4 @@ Sugerencia3=¿Sabías que haciendo click al nombre de un usuario en consola pod�
 Sugerencia4=¿Sabías que con el comando /eventos podés informarte sobre cuál y cuando será el próximo? ¡Controlá tu tiempo!
 Sugerencia5=¿Sabías que podés deshabilitar el cursor predeterminado del juego en Opciones?
 Sugerencia6=¿Sabías qué para hablar por global solamente tenés que introducir ";" antes de tu mensaje?
-
-[OBJ9064]
-Name=Espada Ignea (TEST)
-GrhIndex=49167
-ObjType=2
-MinHit=3
-MaxHit=5
-
-[OBJ9065]
-Name=Anillo Ignifugo (TEST)
-GrhIndex=889
-ObjType=20
-
-[NPC9018]
-Name=Dummy Resist Fuego 50pct (TEST)
-Desc=Dummy
-Body=4428
-HP=1000000
-NpcType=19
-
-[NPC9019]
-Name=Dummy Inmune Fuego (TEST)
-Desc=Dummy
-Body=4428
-HP=1000000
-NpcType=19
-
-[NPC9020]
-Name=Dummy Resist Critico (TEST)
-Desc=Dummy
-Body=4428
-HP=1000000
-NpcType=19
-[OBJ9066]
-Name=Espada de Hielo (TEST)
-GrhIndex=49167
-ObjType=2
-MinHit=3
-MaxHit=5
-
-[NPC9021]
-Name=Dummy Resist Escarcha (TEST)
-Desc=Dummy
-Body=4428
-HP=1000000
-NpcType=19
-[OBJ9067]
-Name=Espada Acida (TEST)
-GrhIndex=49167
-ObjType=2
-MinHit=3
-MaxHit=5
-
-[OBJ9068]
-Name=Espada Arcana (TEST)
-GrhIndex=49167
-ObjType=2
-MinHit=3
-MaxHit=5
-
-[OBJ9069]
-Name=Espada Sangrante (TEST)
-GrhIndex=49167
-ObjType=2
-MinHit=3
-MaxHit=5
-
-[NPC9022]
-Name=Dummy Resist Acido (TEST)
-Desc=Dummy
-Body=4428
-HP=1000000
-NpcType=19
-
-[NPC9023]
-Name=Dummy Resist Arcano (TEST)
-Desc=Dummy
-Body=4428
-HP=1000000
-NpcType=19
-
-[NPC9024]
-Name=Dummy Resist Sangrado (TEST)
-Desc=Dummy
-Body=4428
-HP=1000000
-NpcType=19
-[NPC9025]
-Name=Bicho de Fuego (TEST)
-Desc=Test
-Body=4208
-HP=200
-NpcType=0
-[HECHIZO413]
-Nombre=Encantar Arma con Fuego (TEST)
-Desc=Encanta tu arma con Fuego por 30s.
-PalabrasMagicas=ENC ARM FUE
-ManaRequerido=80
-MinSkill=1
-StaRequerido=10
-IconoIndex=35692
-PropioMsg=Encantaste tu arma con Fuego.
-[OBJ9070]
-Name=Pergamino Encantar Arma Fuego (TEST)
-GrhIndex=609
-ObjType=24
-Hechizo=413
-[OBJ9071]
-Name=Aceite Igneo (TEST)
-GrhIndex=28750
-ObjType=11
-
-[OBJ9072]
-Name=Orbe Igneo (TEST)
-GrhIndex=969
-ObjType=21
-
-[OBJ9073]
-Name=Espada Ignea Acumulativa (TEST)
-GrhIndex=49167
-ObjType=2
-MinHit=3
-MaxHit=5
-[OBJ9074]
-Name=Armadura de Espinas (TEST)
-GrhIndex=2553
-RopajeHumano=63
-RopajeElfo=63
-RopajeElfoOscuro=1547
-RopajeEnano=547
-RopajeOrco=1047
-RopajeGnomo=547
-RopajeHumana=2047
-RopajeElfa=2047
-RopajeElfaOscura=1547
-RopajeEnana=2547
-RopajeOrca=1047
-RopajeGnoma=2547
-ObjType=3
-MaxDef=10
-MinDef=8
-[OBJ9075]
-Name=Casco de Espinas (TEST)
-GrhIndex=559
-ObjType=17
-MaxDef=10
-MinDef=8
-
-[OBJ9076]
-Name=Aceite Igneo de Flechas (TEST)
-GrhIndex=28750
-ObjType=11
 

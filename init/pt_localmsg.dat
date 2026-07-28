@@ -1,5 +1,5 @@
 [INIT]
-NumLocalePT_Msg=2210
+NumLocalePT_Msg=2211
 
 [PT_MSG]
 Msg1=[¬1] foi expulso do clã ao modificar seu alinhamento.
@@ -1712,7 +1712,7 @@ Msg1767=Seu pedido de admissão no clã foi rejeitado. O clã explica que: ¬1
 Msg1768=O nome não é permitido.
 Msg1769=O personagem já existe.
 Msg1770=O servidor está ativado apenas para administradores no momento.
-Msg1771=Erro ao verificar o cliente do jogo, reinstale e tente novamente.
+Msg1771=Há uma atualização disponível. Abra o AO20 Launcher para atualizar o jogo.
 Msg1772=Email inválido.
 Msg1773=Você não pode carregar o personagem.
 Msg1774=Você foi expulso pelo sistema anti -teat.
@@ -2128,3 +2128,4 @@ Msg2207=Voce nao pode usar este item sem aprender a profissao requerida.
 Msg2208=Voce nao pode atribuir pontos a uma profissao que nao aprendeu.
 Msg2209=Este mestre nao compra itens.
 Msg2210=A classe Trabalhador nao esta disponivel com profissoes aprendiveis ativas.
+Msg2211=Causaste ¬1 de ¬2 a criatura.

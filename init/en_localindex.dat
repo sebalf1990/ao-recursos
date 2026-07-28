@@ -1750,7 +1750,7 @@ Msg1767=Your request to join the guild has been rejected. The guild explains tha
 Msg1768=The name is not allowed.
 Msg1769=The character already exists.
 Msg1770=The server is currently enabled only for administrators.
-Msg1771=Error checking the game client, please reinstall and try again.
+Msg1771=An update is available. Open the AO20 Launcher to update the game.
 Msg1772=Invalid email.
 Msg1773=Cannot load character.
 Msg1774=You have been kicked by the anti-cheat system.
@@ -2165,8 +2165,8 @@ Msg2207=You cannot use this item without learning the required profession.
 Msg2208=You cannot assign points to a profession you have not learned.
 Msg2209=This master does not buy items.
 Msg2210=The Worker class is not available while learnable professions are enabled.
-
 Msg2211=You dealt ¬1 of ¬2 to the creature.
+
 [QUEST1]
 Nombre=Final Rest
 Desc=I buried 13 children, 13 times I had to go to that place, but you have only one chance to get out alive on this mission, the cursed tombs are near the mausoleum of the Nix Cemetery
@@ -19507,6 +19507,19 @@ ManaRequerido=20
 StaRequerido=5
 IconoIndex=35692
 
+[HECHIZO413]
+Nombre=Encantar Arma con Fuego (TEST)
+Desc=Enchants your weapon with Fire for 30s.
+PalabrasMagicas=ENC ARM FUE
+HechizeroMsg=Has encantado el arma de
+TargetMsg=ha encantado tu arma con Fuego.
+PropioMsg=Encantaste tu arma con Fuego.
+Nombre=Enchant Weapon - Fire (TEST)
+MinSkill=1
+ManaRequerido=80
+StaRequerido=10
+IconoIndex=35692
+
 [OBJ1]
 Name=Manzana Roja
 GrhIndex=506
@@ -19534,7 +19547,6 @@ Objtype=2
 GrhIndex=44064
 MinHIT=1
 MaxHIT=4
-Valor=600
 Texto=Hacha Orca
 name=Orc axe
 
@@ -19684,7 +19696,7 @@ ObjType=19
 Name=Porción de Tarta
 GrhIndex=515
 ObjType=1
-Valor=7
+Valor=8
 Texto=Restaura 45 puntos de hambre
 name=Cake slice
 texto=Restores 45 hunger points
@@ -19702,7 +19714,7 @@ texto=Restores 15 hunger points
 Name=Pan de Trigo
 GrhIndex=55450
 ObjType=1
-Valor=6
+Valor=10
 Texto=Restaura 25 puntos de hambre
 name=Wheat bread
 texto=Restores 25 hunger points
@@ -19711,7 +19723,7 @@ texto=Restores 25 hunger points
 Name=Pan de Maíz
 GrhIndex=518
 ObjType=1
-Valor=7
+Valor=10
 Texto=Restaura 35 puntos de hambre
 name=Cornbread
 texto=Restores 35 hunger points
@@ -19720,7 +19732,7 @@ texto=Restores 35 hunger points
 Name=Galletas
 GrhIndex=28882
 ObjType=1
-Valor=9
+Valor=6
 Texto=Restaura 40 puntos de hambre
 name=Corn bread
 texto=Restores 40 hunger points
@@ -19729,7 +19741,7 @@ texto=Restores 40 hunger points
 Name=Pollo
 GrhIndex=28827
 ObjType=1
-Valor=16
+Valor=17
 Texto=Restaura 75 puntos de hambre
 name=Chicken
 texto=Restores 75 hunger points
@@ -19738,7 +19750,7 @@ texto=Restores 75 hunger points
 Name=Chuleta
 GrhIndex=52077
 ObjType=1
-Valor=14
+Valor=16
 Texto=Restaura 60 puntos de hambre
 name=Chop
 texto=Restores 60 hunger points
@@ -19747,7 +19759,7 @@ texto=Restores 60 hunger points
 Name=Queso de Cabra
 GrhIndex=52081
 ObjType=1
-Valor=13
+Valor=12
 Texto=Restaura 55 puntos de hambre
 name=Goat cheese
 texto=Restores 55 hunger points
@@ -19756,7 +19768,7 @@ texto=Restores 55 hunger points
 Name=Sandia
 GrhIndex=523
 ObjType=1
-Valor=7
+Valor=6
 Texto=Restaura 50 puntos de hambre
 name=Watermelon
 texto=Restores 50 hunger points
@@ -19898,27 +19910,29 @@ texto=Increase your strength between 2 and 5 points
 Name=Flauta Élfica
 GrhIndex=538
 Objtype=30
-Valor=12000
-MaderaElfica=900
+Valor=9600
+MaderaElfica=2100
 Texto=Aumenta el daño mágico un 7%.
 name=Elven flute
 texto=Increases magic damage by 7%.
+Madera=1000
 
 [OBJ41]
 Name=Laúd Élfico
 GrhIndex=30866
-Valor=8000
+Valor=8700
 Objtype=30
-MaderaElfica=600
+MaderaElfica=2100
 Texto=Aumenta el daño mágico un 6%.
 name=Elven Lute
 texto=Increases magic damage by 6%.
+Madera=700
 
 [OBJ42]
 Name=Vino
 GrhIndex=52093
 ObjType=13
-Valor=25
+Valor=21
 Texto=Restaura 80 puntos de sed
 name=Wine
 texto=Restores 80 thirst points
@@ -19927,7 +19941,7 @@ texto=Restores 80 thirst points
 Name=Botella de Agua
 GrhIndex=537
 ObjType=13
-Valor=10
+Valor=6
 Texto=Restaura 30 puntos de sed
 name=Water bottle
 texto=Restores 30 thirst points
@@ -21045,7 +21059,7 @@ Texto=Copa de Plata
 Name=Banana
 GrhIndex=55451
 ObjType=1
-Valor=2
+Valor=6
 Texto=Restaura 10 puntos de hambre
 texto=Restores 10 hunger points
 
@@ -21067,7 +21081,7 @@ Texto=Daño 9/14
 Name=Cerveza
 GrhIndex=28875
 ObjType=13
-Valor=16
+Valor=18
 Texto=Restaura 45 puntos de sed
 texto=Restores 45 thirst points
 
@@ -21075,7 +21089,7 @@ texto=Restores 45 thirst points
 Name=Fruit Juice
 GrhIndex=584
 ObjType=13
-Valor=40
+Valor=36
 Texto=Restaura 100 puntos de sed
 texto=Restores 100 thirst points
 
@@ -22669,6 +22683,7 @@ ObjType=48
 Agarrable=0
 Texto=Este cofre contiene Fuegos Artificiales
 texto=This chest contains Fireworks
+Valor=35
 
 [OBJ357]
 GrhIndex=49024
@@ -23138,19 +23153,19 @@ Texto=Gema Lunar
 Name=Gema Polar de Fundación de Clan
 GrhIndex=703
 ObjType=29
-Valor=9000
+Valor=60000
 
 [OBJ408]
 Name=Gema Roja de Fundación de Clan
 GrhIndex=705
 ObjType=29
-Valor=9000
+Valor=12000
 
 [OBJ409]
 Name=Gema Azul de Fundación de Clan
 GrhIndex=701
 ObjType=29
-Valor=9000
+Valor=30000
 
 [OBJ410]
 Name=Gema Dorada
@@ -23168,7 +23183,7 @@ Texto=Gema Naranja
 Name=Gema Verde de Fundación de Clan
 GrhIndex=706
 ObjType=29
-Valor=9000
+Valor=15000
 
 [OBJ413]
 Name=Gema Marrón
@@ -23180,21 +23195,21 @@ Texto=Gema Marrón
 Name=Wild Wolf Hide
 GrhIndex=38181
 ObjType=100
-valor=30
+valor=18
 Texto=Piel de Lobo Salvaje
 
 [OBJ415]
 Name=Brown Bear Hide
 GrhIndex=38218
 ObjType=100
-valor=150
+valor=90
 Texto=Piel de Oso Pardo
 
 [OBJ416]
 Name=Polar Bear Hide
 GrhIndex=38219
 ObjType=100
-valor=3300
+valor=255
 Texto=Piel de Oso Polar
 
 [OBJ417]
@@ -23671,8 +23686,8 @@ RopajeOrco=3309
 Name=Laúd Mágico
 GrhIndex=685
 Objtype=30
-Valor=5000
-Madera=800
+Valor=4200
+Madera=1400
 Texto=Aumenta el daño mágico un 4%.
 name=Magic lute
 texto=Increases magic damage by 4%.
@@ -23810,8 +23825,8 @@ RopajeEnana=2655
 RopajeOrca=3222
 RopajeGnoma=2655
 ObjType=3
-MAXDEF=40
-MINDEF=35
+MAXDEF=1
+MINDEF=1
 Valor=100000
 Texto=Armadura de Dragón Rojo
 
@@ -24518,7 +24533,7 @@ texto=It will be emptied when consumed. You can recharge it.
 Name=Botella Vacía
 GrhIndex=849
 ObjType=33
-Valor=10
+Valor=30
 Texto=Puede ser llenada con agua.
 texto=It can be filled with water.
 
@@ -24554,8 +24569,8 @@ Valor=0
 Name=Flauta Mágica
 GrhIndex=686
 Objtype=30
-Valor=7500
-Madera=1200
+Valor=4500
+Madera=1500
 Texto=Aumenta el daño mágico un 5%.
 name=Magic Flute
 texto=Increases magic damage by 5%.
@@ -27046,7 +27061,7 @@ texto=It adds the probability of incinerating your blows.
 [OBJ869]
 Name=Frozen Orb
 GrhIndex=970
-valor=50000
+valor=60000
 Objtype=21
 Texto=Agrega probabilidad de paralizar a tus golpes.
 texto=It adds probability of paralyzing your blows.
@@ -28221,7 +28236,7 @@ GrhIndex=10212
 ObjType=17
 MAXDEF=0
 MINDEF=0
-Valor=40
+Valor=400
 name=Emperor Mask
 texto=Change your appearance with this mask
 
@@ -28241,7 +28256,7 @@ GrhIndex=10215
 ObjType=17
 MAXDEF=0
 MINDEF=0
-Valor=70
+Valor=800
 name=Puppet Hat
 texto=Change your appearance with this mask
 
@@ -29130,14 +29145,14 @@ GrhIndex=0
 Name=Bengal Tiger Hide
 GrhIndex=38208
 ObjType=100
-valor=1200
+valor=180
 Texto=Piel de Tigre de Bengala
 
 [OBJ1146]
 Name=Black Wolf Hide
 GrhIndex=38182
 ObjType=100
-valor=81
+valor=60
 Texto=Piel de Lobo Negro
 
 [OBJ1147]
@@ -29157,7 +29172,6 @@ Valor=5000
 [OBJ1149]
 Name=Expert Earring
 GrhIndex=38100
-valor=30000
 Objtype=21
 Texto=Aumenta tu probabilidad de mejorar habilidades un 50%
 texto=Increases your chance to upgrade skills by 50%
@@ -29499,9 +29513,8 @@ RopajeEnana=2656
 RopajeOrca=3223
 RopajeGnoma=2656
 ObjType=3
-MAXDEF=47
-MINDEF=43
-Valor=30000
+MAXDEF=1
+MINDEF=1
 Texto=Posee resistencia mágica.
 texto=It has magic resistance.
 
@@ -33433,7 +33446,7 @@ Valor=0
 [OBJ1648]
 Name=Magic Missile
 GrhIndex=609
-Valor=9000
+Valor=11000
 Objtype=24
 Texto=Causa de 35 a 45 puntos de daño.
 texto=Causes 35 to 45 points of damage.
@@ -33453,7 +33466,7 @@ GrhIndex=0
 [OBJ1651]
 Name=Curar heridas graves
 GrhIndex=609
-Valor=35000
+Valor=36000
 Objtype=24
 Texto=Restaura entre 28 y 55 puntos de salud.
 texto=Restore between 28 and 55 health points.
@@ -33461,7 +33474,7 @@ texto=Restore between 28 and 55 health points.
 [OBJ1652]
 Name=Resurrect
 GrhIndex=609
-Valor=400000
+Valor=500000
 Objtype=24
 Texto=Resucitar un usuario muerto.
 texto=Resurrect a dead user.
@@ -33476,7 +33489,7 @@ Valor=0
 [OBJ1654]
 Name=Celeridad
 GrhIndex=609
-Valor=20000
+Valor=60000
 Objtype=24
 Texto=Aumenta la agilidad del usuario que recibe el hechizo.
 texto=Increases the agility of the user receiving the spell.
@@ -33484,7 +33497,7 @@ texto=Increases the agility of the user receiving the spell.
 [OBJ1655]
 Name=Fuerza
 GrhIndex=609
-Valor=20000
+Valor=50000
 Objtype=24
 Texto=Aumenta la fuerza del usuario que recibe el hechizo.
 texto=Increases the strength of the user receiving the spell.
@@ -33500,7 +33513,7 @@ texto=Increases the target y 15% and raises their attributes to maximum.
 [OBJ1657]
 Name=Invisibility
 GrhIndex=609
-Valor=700000
+Valor=800000
 Objtype=24
 Texto=Vuelve invisible al objetivo durante un corto periodo de tiempo.
 texto=It makes the target invisible for a short period of time.
@@ -33516,7 +33529,7 @@ texto=It stops the actions of the creatures and paralyzes the target.
 [OBJ1659]
 Name=Immobilize
 GrhIndex=609
-Valor=110000
+Valor=80000
 Objtype=24
 Texto=Inmoviliza al objetivo.
 texto=Immobilizes the target.
@@ -33524,7 +33537,7 @@ texto=Immobilizes the target.
 [OBJ1660]
 Name=remove paralysis
 GrhIndex=609
-Valor=33000
+Valor=40000
 Objtype=24
 Texto=Remueve la parálisis.
 texto=Remove paralysis.
@@ -33548,7 +33561,7 @@ texto=Incinerate the target. It causes damage distributed over ten seconds.
 [OBJ1663]
 Name=Fire Storm
 GrhIndex=609
-Valor=50000
+Valor=55000
 Objtype=24
 Texto=Causa 45 a 55 puntos de daño al objetivo.
 texto=It causes 45 to 55 points of damage to the target.
@@ -33564,7 +33577,7 @@ texto=It causes 55 to 65 points of damage and poisons the opponent.
 [OBJ1665]
 Name=Flecha Electrica
 GrhIndex=609
-Valor=1500
+Valor=4000
 Objtype=24
 Texto=Causa 25 a 35 puntos de daño en un área de dos tiles.
 texto=It causes 25 to 35 points of damage in a two-tile area.
@@ -33593,7 +33606,7 @@ Valor=1000000
 [OBJ1669]
 Name=Descarga Eléctrica
 GrhIndex=609
-Valor=600000
+Valor=1000000
 Objtype=24
 Texto=Causa 69 a 77 puntos de daño.
 texto=It causes 69 to 77 points of damage.
@@ -33608,7 +33621,7 @@ Valor=1200000
 [OBJ1671]
 Name=Apocalypse
 GrhIndex=609
-Valor=1500000
+Valor=2400000
 Objtype=24
 Texto=Causa 91 a 100 puntos de daño.
 texto=It causes 91 to 100 points of damage.
@@ -34999,7 +35012,6 @@ GrhIndex=52005
 Objtype=2
 MinHIT=2
 MaxHIT=5
-Valor=300
 Texto=Garrote
 
 [OBJ1849]
@@ -35881,7 +35893,7 @@ GrhIndex=85536
 ObjType=17
 MAXDEF=4
 MINDEF=2
-Valor=200
+Valor=400
 Texto=Casco de Lobo
 SKSastreria=10
 PielLobo=15
@@ -36993,7 +37005,7 @@ GrhIndex=0
 [OBJ2010]
 Name=Petrify (NPC)
 GrhIndex=609
-Valor=30000
+Valor=60000
 Objtype=24
 Texto=Petrifica criaturas durante 90 segundos.
 texto=Petrify creatures for 90 seconds.
@@ -37802,7 +37814,6 @@ texto=Restores 25 hunger points
 [OBJ2159]
 Name=Globin hook
 GrhIndex=48946
-valor=3
 Objtype=29
 Texto=Ítem de Quest.
 texto=Quest item
@@ -38829,12 +38840,13 @@ Texto=Colgante Mágico
 [OBJ2323]
 Name=Magical dissolution Ring
 GrhIndex=49267
-valor=0
+valor=11400
 Objtype=35
 Texto=Aumenta tu resistencia mágica un 7%.
-LingP=75
-SkHerreria=75
+LingP=60
+SkHerreria=100
 texto=Increases your magic resistance by 7%.
+LingH=100
 
 [OBJ2324]
 Name=Ring of Arcane Protection
@@ -40101,7 +40113,7 @@ texto=Summons three skeletons to help you fight.
 [OBJ2469]
 Name=Pets Aid
 GrhIndex=609
-Valor=250000
+Valor=400000
 Objtype=24
 Texto=Invoca o guarda tus mascotas domadas.
 texto=Summon or keep your tamed pets.
@@ -40180,7 +40192,7 @@ texto=Quest item
 [OBJ2479]
 Name=Colmillo de serpiente
 GrhIndex=49296
-valor=0
+valor=6
 Objtype=29
 Texto=Item de quest
 texto=Quest item
@@ -40188,7 +40200,7 @@ texto=Quest item
 [OBJ2480]
 Name=Alas de Murcielago
 GrhIndex=49297
-valor=0
+valor=3
 Objtype=29
 Texto=Item de quest
 name=Bat wings
@@ -40197,7 +40209,7 @@ texto=Quest item
 [OBJ2481]
 Name=Cola de lobo
 GrhIndex=49298
-valor=0
+valor=9
 Objtype=29
 Texto=Cola de lobo
 texto=wolf tail
@@ -40274,7 +40286,7 @@ texto=Quest item
 [OBJ2491]
 Name=Fluido de Murcielago
 GrhIndex=49308
-valor=0
+valor=12
 Objtype=29
 Texto=Item de quest
 texto=Quest item
@@ -40298,7 +40310,7 @@ texto=Quest item
 [OBJ2494]
 Name=Fluido de escorpión
 GrhIndex=49311
-valor=0
+valor=9
 Objtype=29
 Texto=Item de quest
 texto=Quest item
@@ -40384,7 +40396,6 @@ Texto=Pezuña
 [OBJ2506]
 Name=Craneo con Cuernos
 GrhIndex=51986
-valor=6000
 Objtype=29
 Texto=Craneo con Cuernos
 
@@ -40560,7 +40571,7 @@ Texto=Huesos
 [OBJ2531]
 Name=Spider Mutant Egg
 GrhIndex=52012
-valor=0
+valor=5000
 Objtype=29
 Texto=Huevo de Mutante Aracnido
 
@@ -40699,7 +40710,7 @@ Texto=Raspas pescados
 [OBJ2551]
 Name=Eagle Feather
 GrhIndex=52031
-valor=1500
+valor=900
 Objtype=29
 Texto=Pluma de aguila
 
@@ -41388,7 +41399,7 @@ Texto=Pluma y Tinta
 [OBJ2649]
 Name=Golden Ring
 GrhIndex=52180
-valor=1000
+valor=2700
 Objtype=29
 Texto=Anillo de Oro
 
@@ -42187,7 +42198,7 @@ Valor=0
 [OBJ2763]
 Name=Curar heridas leves
 GrhIndex=609
-Valor=200
+Valor=800
 Objtype=24
 Texto=Restaura entre 4 y 10 puntos de salud.
 texto=Restore between 4 and 10 health points.
@@ -42195,7 +42206,7 @@ texto=Restore between 4 and 10 health points.
 [OBJ2764]
 Name=Curar Veneno
 GrhIndex=609
-Valor=150
+Valor=1500
 Objtype=24
 Texto=Cura el veneno.
 texto=Cure the poison.
@@ -42210,7 +42221,7 @@ Texto=Hechizo de daño básico (14 a 18)
 [OBJ2766]
 Name=Flecha Mágica
 GrhIndex=609
-Valor=800
+Valor=1800
 Objtype=24
 Texto=Hechizo de daño básico (18 a 25)
 
@@ -47665,7 +47676,7 @@ texto=Map of the lands of Argentum.
 Name=Glasses
 GrhIndex=32007
 ObjType=17
-Valor=200
+Valor=800
 Texto=Item de colección
 MAXDEF=0
 MINDEF=0
@@ -49914,7 +49925,7 @@ Llave=0
 [OBJ3394]
 Name=Gema Helada
 GrhIndex=55263
-valor=21000
+valor=1800
 Objtype=29
 Texto=Gema Helada
 
@@ -50810,8 +50821,8 @@ Name=Beginner Arrow
 GrhIndex=752
 Objtype=32
 MinHIT=1
-MaxHIT=1
-Valor=0
+MaxHIT=2
+Valor=1
 Texto=Flecha del Principiante
 texto=Beginner Arrow
 
@@ -51540,10 +51551,12 @@ Valor=7500
 [OBJ3577]
 Name=Magic Resistance Ring
 GrhIndex=49259
-valor=6000
+valor=2400
 Objtype=35
 Texto=Aumenta tu resistencia mágica un 3%.
 texto=Increases your magic resistance by 3%.
+LingH=40
+SkHerreria=50
 
 [OBJ3578]
 Name=worked cloth
@@ -52461,7 +52474,7 @@ texto=Beginner Dagger
 [OBJ3687]
 Name=Libro espíritu Dragón Púrpura
 GrhIndex=49339
-Valor=400
+Valor=1000
 Objtype=50
 Texto=Libro espíritu Dragón Púrpura
 texto=Libro espíritu Dragón Púrpura
@@ -52493,7 +52506,7 @@ texto=Libro espíritu Demonio Púrpura
 [OBJ3691]
 Name=Libro espíritu Dragón Rojo
 GrhIndex=49340
-Valor=400
+Valor=1000
 Objtype=50
 Texto=Libro espíritu Dragón Rojo
 texto=Libro espíritu Dragón Rojo
@@ -52525,7 +52538,7 @@ texto=Libro espíritu Demonio Rojo
 [OBJ3695]
 Name=Libro espíritu Dragón Turquesa
 GrhIndex=49341
-Valor=400
+Valor=1000
 Objtype=50
 Texto=Libro espíritu Dragón Turquesa
 texto=Libro espíritu Dragón Turquesa
@@ -52557,7 +52570,7 @@ texto=Libro espíritu Demonio Turquesa
 [OBJ3699]
 Name=Libro espíritu Dragón Amarilla
 GrhIndex=49342
-Valor=400
+Valor=1000
 Objtype=50
 Texto=Libro espíritu Dragón Amarilla
 texto=Libro espíritu Dragón Amarilla
@@ -53051,8 +53064,8 @@ Texto=Poste
 Name=Reliquary
 GrhIndex=38372
 Objtype=21
-LingH=5
-LingP=5
+LingH=25
+LingP=10
 SkHerreria=100
 Texto=Relicario
 
@@ -53063,7 +53076,7 @@ Objtype=53
 Texto=Permite revivir a un personaje.
 texto=Use To resurrect another character.
 CDType=6
-CD=3000
+CD=5000
 
 [OBJ3771]
 Name=Restauracion
@@ -53310,8 +53323,8 @@ GrhIndex=49026
 ObjType=48
 Agarrable=0
 Texto=Carcaj de Flechas
-Madera=525
-Valor=3150
+Madera=275
+Valor=825
 
 [OBJ3802]
 Name=Carcaj de Flechas +2
@@ -53319,8 +53332,8 @@ GrhIndex=49026
 ObjType=48
 Agarrable=0
 Texto=Carcaj de flechas +2
-Madera=1575
-Valor=9450
+Madera=165
+Valor=495
 
 [OBJ3803]
 Name=Carcaj de Flechas +3
@@ -53356,8 +53369,8 @@ GrhIndex=49026
 ObjType=48
 Agarrable=0
 Texto=Carcaj de flechas +1
-Madera=1050
-Valor=6300
+Madera=330
+Valor=990
 
 [OBJ3807]
 Name=Arpon
@@ -54827,8 +54840,8 @@ texto=Allows you to use the resurrect spell
 Name=Flauta
 GrhIndex=686
 Objtype=30
-Valor=2000
-Madera=1000
+Valor=600
+Madera=200
 Texto=Aumenta el daño mágico un 3%.
 name=Flute
 texto=Increases magic damage by 3%.
@@ -54837,8 +54850,8 @@ texto=Increases magic damage by 3%.
 Name=Laúd
 GrhIndex=685
 Objtype=30
-Valor=2000
-Madera=1000
+Valor=600
+Madera=200
 Texto=Aumenta el daño mágico un 3%.
 name=Lute
 texto=Increases magic damage by 3%.
@@ -57531,7 +57544,7 @@ Name=Hongo de luz
 GrhIndex=38023
 Objtype=29
 Texto=Hongo capaz de irradiar energía
-valor=0
+valor=14
 
 [OBJ4311]
 Name=Esporas Silvestres
@@ -57545,7 +57558,7 @@ Name=Tuna silvestre
 GrhIndex=38055
 Objtype=29
 Texto=Cactus repleto de nutrientes
-valor=0
+valor=16
 
 [OBJ4313]
 Name=Cala Venenosa
@@ -57559,21 +57572,21 @@ Name=Cola de Zorro
 GrhIndex=38049
 Objtype=29
 Texto=Arbusto con aspecto de cola de zorro
-valor=0
+valor=20
 
 [OBJ4315]
 Name=Flor del océano
 GrhIndex=38000
 Objtype=29
 Texto=Por su color se la conoce como la flor de oceano
-valor=0
+valor=4
 
 [OBJ4316]
 Name=Flor roja
 GrhIndex=38052
 Objtype=29
 Texto=Flor roja de aspecto reluciente
-valor=0
+valor=8
 
 [OBJ4317]
 Name=Hierba de sangre
@@ -57601,7 +57614,7 @@ Name=Semillas prosperas
 GrhIndex=55407
 Objtype=29
 Texto=Semillas listas para germinar
-valor=0
+valor=16
 
 [OBJ4321]
 Name=Pimiento Muerte
@@ -57806,7 +57819,7 @@ texto=Temporarily increases your strength
 Name=Tiger Hide
 GrhIndex=38207
 ObjType=100
-valor=150
+valor=75
 Texto=Piel de Tigre
 
 [OBJ4340]
@@ -63212,7 +63225,7 @@ Texto=Contiene Armas de Dragón Negro.
 Name=Casco Blanco de Aviador
 GrhIndex=11406
 ObjType=17
-Valor=80
+Valor=400
 Texto=Casco Blanco de Aviador
 
 [OBJ4964]
@@ -63282,7 +63295,7 @@ Texto=Casco de Explorador II
 Name=Casco de Sherpa
 GrhIndex=11416
 ObjType=17
-Valor=80
+Valor=400
 Texto=Casco de Sherpa
 
 [OBJ4974]
@@ -63296,7 +63309,7 @@ Texto=Sakat
 Name=Boina de Cuero
 GrhIndex=11418
 ObjType=17
-Valor=80
+Valor=800
 Texto=Boina de Cuero
 
 [OBJ4976]
@@ -63387,7 +63400,7 @@ Texto=Casco Gladiador
 Name=Casco de Barbaro
 GrhIndex=11393
 ObjType=17
-Valor=80
+Valor=400
 Texto=Casco de Barbaro
 
 [OBJ4989]
@@ -63415,7 +63428,7 @@ Texto=Casco de Shura de Capricornio
 Name=Gorro de Cocinero
 GrhIndex=11397
 ObjType=17
-Valor=80
+Valor=800
 Texto=Gorro de Cocinero
 
 [OBJ4993]
@@ -63429,7 +63442,7 @@ Texto=Corona de Faraon
 Name=Mitra Papal
 GrhIndex=11399
 ObjType=17
-Valor=80
+Valor=800
 Texto=Mitra Papal
 
 [OBJ4995]
@@ -70826,6 +70839,123 @@ GrhIndex=609
 Valor=1
 Objtype=24
 
+[OBJ9064]
+Name=Test Flame Sword
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+Valor=0
+Texto=Arma de prueba del sistema elemental (plan 20.002).
+
+[OBJ9065]
+Name=Test Fireproof Ring
+GrhIndex=889
+ObjType=20
+Valor=0
+Texto=Anillo de prueba: resistencia al fuego (plan 20.002).
+
+[OBJ9066]
+Name=Test Ice Sword
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+Valor=0
+Texto=Arma de prueba: dano de escarcha + slow (plan 20.002).
+
+[OBJ9067]
+Name=Test Acid Sword
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+Valor=0
+Texto=Arma de prueba: dano acido + corrosion (baja defensa).
+
+[OBJ9068]
+Name=Test Arcane Sword
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+Valor=0
+Texto=Arma de prueba: dano arcano (usa resist arcana, no la magica).
+
+[OBJ9069]
+Name=Test Bleed Sword
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+Valor=0
+Texto=Arma de prueba: sangrado (DoT fisico que ignora armadura).
+
+[OBJ9070]
+Name=Scroll Enchant Weapon Fire (TEST)
+GrhIndex=609
+ObjType=24
+Valor=0
+Texto=Pergamino de prueba: ensena Encantar Arma con Fuego (plan 20.002).
+
+[OBJ9071]
+Name=Test Fire Oil
+GrhIndex=28750
+ObjType=11
+Valor=0
+Texto=Aceite de prueba: encanta tu arma con Fuego por 30s (demo).
+
+[OBJ9072]
+Name=Test Fire Orb
+GrhIndex=969
+ObjType=21
+Valor=0
+Texto=Orbe de prueba: equipalo y tus golpes aplican Fuego + Quemadura (motor alcanza el orbe).
+
+[OBJ9073]
+Name=Test Stacking Fire Sword
+GrhIndex=49167
+ObjType=2
+MinHit=3
+MaxHit=5
+Valor=0
+Texto=Arma de prueba: Quemadura ACUMULATIVA (cada golpe suma un stack de fuego).
+
+[OBJ9074]
+Name=Test Thorns Armor
+GrhIndex=2553
+RopajeHumano=63
+RopajeElfo=63
+RopajeElfoOscuro=1547
+RopajeEnano=547
+RopajeOrco=1047
+RopajeGnomo=547
+RopajeHumana=2047
+RopajeElfa=2047
+RopajeElfaOscura=1547
+RopajeEnana=2547
+RopajeOrca=1047
+RopajeGnoma=2547
+ObjType=3
+MaxDef=10
+MinDef=8
+Texto=Armadura de prueba con espinas (plan 20.002 TP2).
+
+[OBJ9075]
+Name=Test Thorns Helmet
+GrhIndex=559
+ObjType=17
+MaxDef=10
+MinDef=8
+Texto=Casco de prueba con espinas. Se equipa pero no cambia el sprite (Anim=0).
+
+[OBJ9076]
+Name=Test Fire Arrow Oil
+GrhIndex=28750
+ObjType=11
+Valor=0
+Texto=Aceite de prueba: encanta tus flechas equipadas con Fuego por 30s (5 cargas).
+
 [NP263]
 Name=Imperial Priest
 NpcType=2
@@ -71084,6 +71214,76 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
+NROITEMS=0
+
+[NPC9018]
+Name=Dummy Resist Fuego 50pct (TEST)
+Desc=Dummy
+desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9019]
+Name=Dummy Inmune Fuego (TEST)
+Desc=Dummy
+desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9020]
+Name=Dummy Resist Critico (TEST)
+Desc=Dummy
+desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9021]
+Name=Dummy Resist Escarcha (TEST)
+Desc=Dummy
+desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9022]
+Name=Dummy Resist Acido (TEST)
+Desc=Dummy
+desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9023]
+Name=Dummy Resist Arcano (TEST)
+Desc=Dummy
+desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9024]
+Name=Dummy Resist Sangrado (TEST)
+Desc=Dummy
+desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9025]
+Name=Test Fire Critter
+Body=4208
+Head=0
+BodyIdle=4207
+Ataque1=4206
+HP=200
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=1
+MinHIT=1
 NROITEMS=0
 
 [NAMEMAPA]
@@ -72025,156 +72225,4 @@ Sugerencia3=Did you know that by clicking on a user's name in the console you ca
 Sugerencia4=Did you know that with the /events command you can find out which event and when the next one will be? Keep track of your time!
 Sugerencia5=Did you know you can disable the game's default cursor in Options?
 Sugerencia6=Did you know that to talk globally you just have to enter ";" before your message?
-
-[OBJ9064]
-Name=Test Flame Sword
-GrhIndex=49167
-ObjType=2
-MinHit=3
-MaxHit=5
-
-[OBJ9065]
-Name=Test Fireproof Ring
-GrhIndex=889
-ObjType=20
-
-[NPC9018]
-Name=Dummy Resist Fuego 50pct (TEST)
-Desc=Dummy
-Body=4428
-HP=1000000
-NpcType=19
-
-[NPC9019]
-Name=Dummy Inmune Fuego (TEST)
-Desc=Dummy
-Body=4428
-HP=1000000
-NpcType=19
-
-[NPC9020]
-Name=Dummy Resist Critico (TEST)
-Desc=Dummy
-Body=4428
-HP=1000000
-NpcType=19
-[OBJ9066]
-Name=Test Ice Sword
-GrhIndex=49167
-ObjType=2
-MinHit=3
-MaxHit=5
-
-[NPC9021]
-Name=Dummy Resist Escarcha (TEST)
-Desc=Dummy
-Body=4428
-HP=1000000
-NpcType=19
-[OBJ9067]
-Name=Test Acid Sword
-GrhIndex=49167
-ObjType=2
-MinHit=3
-MaxHit=5
-
-[OBJ9068]
-Name=Test Arcane Sword
-GrhIndex=49167
-ObjType=2
-MinHit=3
-MaxHit=5
-
-[OBJ9069]
-Name=Test Bleed Sword
-GrhIndex=49167
-ObjType=2
-MinHit=3
-MaxHit=5
-
-[NPC9022]
-Name=Dummy Resist Acido (TEST)
-Desc=Dummy
-Body=4428
-HP=1000000
-NpcType=19
-
-[NPC9023]
-Name=Dummy Resist Arcano (TEST)
-Desc=Dummy
-Body=4428
-HP=1000000
-NpcType=19
-
-[NPC9024]
-Name=Dummy Resist Sangrado (TEST)
-Desc=Dummy
-Body=4428
-HP=1000000
-NpcType=19
-[NPC9025]
-Name=Test Fire Critter
-Desc=Test
-Body=4208
-HP=200
-NpcType=0
-[HECHIZO413]
-Nombre=Enchant Weapon - Fire (TEST)
-Desc=Enchants your weapon with Fire for 30s.
-PalabrasMagicas=ENC ARM FUE
-ManaRequerido=80
-MinSkill=1
-StaRequerido=10
-IconoIndex=35692
-PropioMsg=Encantaste tu arma con Fuego.
-[OBJ9070]
-Name=Scroll Enchant Weapon Fire (TEST)
-GrhIndex=609
-ObjType=24
-Hechizo=413
-[OBJ9071]
-Name=Test Fire Oil
-GrhIndex=28750
-ObjType=11
-
-[OBJ9072]
-Name=Test Fire Orb
-GrhIndex=969
-ObjType=21
-
-[OBJ9073]
-Name=Test Stacking Fire Sword
-GrhIndex=49167
-ObjType=2
-MinHit=3
-MaxHit=5
-[OBJ9074]
-Name=Armadura de Espinas (TEST)
-GrhIndex=2553
-RopajeHumano=63
-RopajeElfo=63
-RopajeElfoOscuro=1547
-RopajeEnano=547
-RopajeOrco=1047
-RopajeGnomo=547
-RopajeHumana=2047
-RopajeElfa=2047
-RopajeElfaOscura=1547
-RopajeEnana=2547
-RopajeOrca=1047
-RopajeGnoma=2547
-ObjType=3
-MaxDef=10
-MinDef=8
-[OBJ9075]
-Name=Casco de Espinas (TEST)
-GrhIndex=559
-ObjType=17
-MaxDef=10
-MinDef=8
-
-[OBJ9076]
-Name=Test Fire Arrow Oil
-GrhIndex=28750
-ObjType=11
 
