@@ -345,7 +345,13 @@ InfluenciaPromedioVidas=0
 ' Si es mayor a 0 y el pj viene por debajo del promedio, la neuva vida tiende a subir en la influencia
 DesbalancePromedioVidas=0
 MultiShotReduction=0.7
-HomeTimer=105
+HomeTimer=100
+' Tiempos de /hogar por tier de suscripcion (plan 30.001). Sin estas claves
+' el timer quedaba en 0 y el suscriptor muerto se colgaba para siempre en la
+' barra (General.bas:1475 solo decrementa si TimerBarra > 0).
+HomeTimerAdventurer=75
+HomeTimerHero=45
+HomeTimerLegend=30
 MagicSkillBonusDamageModifier=0
 MagicResistanceSkillProtectionModifier=0.03
 MagicResistanceSkillProtectionModifierNpc=0.4
