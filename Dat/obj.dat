@@ -6218,6 +6218,7 @@ en_Name=Gold Ingot
 
 [OBJ389]
 Name=Martillo Antiguo
+ProfesionId=20
 GrhIndex=38135
 Objtype=100
 SubTipo=7
@@ -14389,6 +14390,7 @@ CP9=BARDO
 CP10=DRUIDA
 CP11=MAGO
 Name=Ropa de Minero
+ProfesionId=19
 IT_texto=Vestiti minero
 IT_Name=Vestiti minero
 FR_texto=Minero
@@ -24670,6 +24672,7 @@ CP9=BARDO
 CP10=DRUIDA
 CP11=MAGO
 Name=Armadura de Herrero
+ProfesionId=20
 IT_texto=Difesa 13/16
 IT_Name=Armatura del Fabbro
 FR_texto=Défense 13/16
@@ -34452,6 +34455,7 @@ CP9=BARDO
 CP10=DRUIDA
 CP11=MAGO
 Name=Luchador de las Minas
+ProfesionId=19
 IT_texto=Difesa 21/23
 IT_Name=Mines Fighter
 FR_texto=Défense 21/23
@@ -34657,6 +34661,7 @@ CP9=BARDO
 CP10=DRUIDA
 CP11=MAGO
 Name=Ropa de Leñador
+ProfesionId=17
 IT_texto=Difesa 7/12
 IT_Name=Vestiti di legname
 FR_texto=Défense 7/12
@@ -35250,6 +35255,7 @@ Texto=Túnica Dorada de Gala
 
 [OBJ2858]'Borrar proxima temporada
 Name=Ropa de Minero (E/G)
+ProfesionId=19
 GrhIndex=446
 RopajeHumano=72
 RopajeElfo=72
@@ -36713,6 +36719,7 @@ Texto=Cruzado Desértico (H/E/EO)
 
 [OBJ2906]
 Name=Ropa de Leñador (H/E/EO)
+ProfesionId=17
 NumRopaje=1104
 GrhIndex=17394
 ObjType=3
@@ -37125,6 +37132,7 @@ CP9=BARDO
 CP10=DRUIDA
 CP11=MAGO
 Name=Armadura de Leñador
+ProfesionId=17
 Texto=Defensa 16/20
 GrhIndex=446
 ObjType=3
@@ -37170,6 +37178,7 @@ CP10=DRUIDA
 CP11=MAGO
 GrhIndex=24508
 Name=Cota de Minero Experto
+ProfesionId=19
 Texto=Defensa 25/27
 RopajeElfa=2290
 RopajeElfaOscura=3806
@@ -55610,6 +55619,7 @@ nowiki=1
 
 [OBJ3969]
 Name=Afilar Superior
+ProfesionId=20
 GrhIndex=609
 Valor=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -55632,6 +55642,7 @@ nowiki=1
 
 [OBJ3970]
 Name=Refuerzo Superior
+ProfesionId=20
 GrhIndex=609
 Valor=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -60761,6 +60772,7 @@ WeaponType=2
 
 [OBJ4303]
 Name=Receta de Vida
+ProfesionId=22
 GrhIndex=609
 Valor=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -60926,6 +60938,7 @@ valor=0
 
 [OBJ4322]
 Name=Receta de Maná
+ProfesionId=22
 GrhIndex=609
 Valor=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -60963,6 +60976,7 @@ en_name=Tree
 
 [OBJ4325]
 Name=Receta de Fuerza
+ProfesionId=22
 GrhIndex=609
 Valor=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -60984,6 +60998,7 @@ en_texto=
 
 [OBJ4326]
 Name=Receta de Agilidad
+ProfesionId=22
 GrhIndex=609
 Valor=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -61005,6 +61020,7 @@ en_texto=
 
 [OBJ4327]
 Name=Receta de Energía
+ProfesionId=22
 GrhIndex=609
 Valor=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -61026,6 +61042,7 @@ en_texto=
 
 [OBJ4328]
 Name=Receta de Antidoto
+ProfesionId=22
 GrhIndex=609
 Valor=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -61048,6 +61065,7 @@ en_texto=
 [OBJ4329] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=52199
 Name=Receta de Venenos
+ProfesionId=22
 Texto=Aprende la habilidad de crear venenos.
 ObjType=24
 Valor=1
