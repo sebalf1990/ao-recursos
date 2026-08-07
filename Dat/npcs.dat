@@ -23585,6 +23585,10 @@ MaxHIT=80
 MinHIT=50
 
 [NPC1557] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+'--- Guardia reparado. Plan 07.002 ola 1, paso 1.1 (canario). Plantilla NPC271.
+'--- Sin Alineacion el guardia ataca a TODOS (AI_NPC.bas:1341-1348). Sin OrigPos
+'--- respawnea en un tile al azar del mapa (MODULO_NPCs.bas:497). Movement 1 lo
+'--- deja estatua: NpcAI sale en la primera linea (AI_NPC.bas:55).
 Name=Hechicero Legión
 Body=5675
 BodyIdle=5673
@@ -23592,15 +23596,22 @@ NpcType=8
 ShowName=1
 NoMapInfo=1
 Heading=3
-Movement=1
-Attackable=0
-Hostile=0
+Movement=2
+Attackable=1
+Hostile=1
 ReSpawn=0
+AfectaParalisis=1
+Alineacion=2
+Faccion=2
+OrigPos=1
 Ataque1=5674
-MinHp=2000
-MaxHp=2000
-MaxHIT=80
-MinHIT=50
+MinHp=10000
+MaxHp=10000
+MaxHIT=30
+MinHIT=20
+DEF=40
+PoderAtaque=1500
+PoderEvasion=300
 
 [NPC1553] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Guardia Legión
