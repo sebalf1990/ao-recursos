@@ -2399,7 +2399,7 @@ LingP=220
 MaxHit=19
 MinELV=33
 MinHit=13
-WeaponType=7
+WeaponType=1
 en_Name=Silver Sword
 en_texto=Damage 13/19
 PT_Name=Espada de Prata
@@ -75244,7 +75244,7 @@ it_Texto=Danno 11/20
 pt_Name=Espada prateada +1
 pt_Texto=Danos 11/20
 ' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ126)
-WeaponType=7
+WeaponType=1
 Anim=4
 MinELV=33
 CP1=BANDIDO
@@ -79535,7 +79535,7 @@ MaxHit=20
 MinHit=11
 SKHerreria=101
 ' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ126)
-WeaponType=7
+WeaponType=1
 Anim=4
 MinELV=33
 CP1=BANDIDO
@@ -84512,7 +84512,7 @@ Valor=0
 MaxHit=20
 MinHit=12
 ' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ126)
-WeaponType=7
+WeaponType=1
 Anim=4
 MinELV=33
 CP1=BANDIDO
