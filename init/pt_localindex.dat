@@ -68184,6 +68184,14 @@ ObjType=11
 Valor=0
 Texto=Aceite de prueba: encanta tus flechas equipadas con Fuego por 30s (5 cargas).
 
+[OBJ9077]
+Name=Anillo de Espinas Letales (TEST)
+GrhIndex=49262
+Objtype=35
+Agarrable=0
+Valor=1
+Texto=Espina letal fija 2000 al ser golpeado (test 06.002 ola 2).
+
 [NP263]
 Name=Sacerdote Imperial
 NpcType=2
