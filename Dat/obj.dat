@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9076
+NumOBJs=9077
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -86089,3 +86089,24 @@ ElemProc1Trigger=0
 ElemProc1Type=2
 ElemProc1Eot=66
 
+
+[OBJ9077] 'TEST 06.002 ola 2 - espinas LETALES: verifica la guarda de NpcAtacaUser (el NPC atacante muere dentro de NpcDamage)
+Name=Anillo de Espinas Letales (TEST)
+en_Name=Test Lethal Thorns Ring
+GrhIndex=49262
+Objtype=35
+Crucial=0
+Agarrable=0
+ElemProcCount=1
+ElemProc1Chance=100
+ElemProc1Kind=0
+ElemProc1Trigger=1
+ElemProc1Physical=1
+ElemProc1Min=2000
+ElemProc1Max=2000
+ElemProc1BypassResist=1
+ElemProc1Lethal=1
+Valor=1
+peso=1
+Texto=Espina letal fija 2000 al ser golpeado (test de la guarda de NpcAtacaUser, plan 06.002 ola 2)
+NoWiki=1
