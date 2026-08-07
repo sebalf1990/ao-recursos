@@ -2149,7 +2149,7 @@ MaxHP=10000
 MaxHIT=250
 MinHIT=150
 '--- era PosOrig, clave que no lee NADIE. El loader lee OrigPos
-'--- (MODULO_NPCs.bas:1194); sin ella CrearNPC cae al Else y respawnea en una
+'--- (MODULO_NPCs.bas:1244); sin ella CrearNPC cae al Else y respawnea en una
 '--- posicion al azar de TODO el mapa (RandomNumber, :505-506). Plan 07.002 ola 4.
 OrigPos=1
 DEF=40
@@ -2188,7 +2188,7 @@ MaxHP=10000
 MaxHIT=100
 MinHIT=100
 '--- era PosOrig, clave que no lee NADIE. El loader lee OrigPos
-'--- (MODULO_NPCs.bas:1194); sin ella CrearNPC cae al Else y respawnea en una
+'--- (MODULO_NPCs.bas:1244); sin ella CrearNPC cae al Else y respawnea en una
 '--- posicion al azar de TODO el mapa (RandomNumber, :505-506). Plan 07.002 ola 4.
 OrigPos=1
 DEF=0
@@ -2270,10 +2270,13 @@ Heading=3
 NoMapInfo=1
 ShowName=1
 '--- COPIA PRIVADA ORIGINAL NPC269 (Guardia de entradas) antes de oficializar; cliente oficial era Guardia de Entradas ---
-MinHp=10000
-MaxHp=10000
-MaxHIT=0
-MinHIT=0
+'--- OJO: estas cuatro quedaron SIN comentar al oficializar y caian dentro de [NPC268],
+'--- que por eso figuraba con 10000 de vida y pegando 0. No son suyas. NPC268 no declara
+'--- stats propios; hoy no molesta porque sin Movement ni Hostile es una estatua.
+'MinHp=10000
+'MaxHp=10000
+'MaxHIT=0
+'MinHIT=0
 '[NPC269]
 'Name=Guardia de entradas
 'En_Name=Entrance Guard
@@ -2330,9 +2333,19 @@ MaxHIT=25000
 MinHIT=25000
 ShowName=0
 Heading=3
-Movement=2
-Attackable=1
-Hostile=1
+'--- Era Movement 2, que lo ruteaba a perseguir USUARIOS con Alineacion 0, o sea a
+'--- todos. Con 10 (GuardiaPersigueNpc) hace lo que dice su Desc: caza criaturas via
+'--- BuscarNpcEnArea y NpcAtacaNpc, y vuelve a su puesto. No persigue jugadores.
+'--- Attackable 0 es OBLIGATORIO con Movement 10: esa rama de IA no lee .TargetUser,
+'--- asi que el guardia no devuelve golpes y quedaria de saco de arena. Y si una
+'--- mascota lo ataca, NpcAtacaNpc le hace SetMovement a NpcAtacaNpc (SistemaCombate
+'--- 849) y AI_NpcAtacaNpc camina sin mirar .Orig: se lo arrastraba fuera de su zona.
+'--- OrigPos porque AI_GuardiaPersigueNpc patrulla alrededor de .Orig, y sin la clave
+'--- CrearNPC reasigna .Orig a una posicion al azar al respawnear (MODULO_NPCs.bas:537).
+Movement=10
+OrigPos=1
+Attackable=0
+Hostile=0
 ReSpawn=0
 Alineacion=0
 
@@ -2355,7 +2368,7 @@ MaxHP=9550
 MaxHIT=100
 MinHIT=100
 '--- era PosOrig, clave que no lee NADIE. El loader lee OrigPos
-'--- (MODULO_NPCs.bas:1194); sin ella CrearNPC cae al Else y respawnea en una
+'--- (MODULO_NPCs.bas:1244); sin ella CrearNPC cae al Else y respawnea en una
 '--- posicion al azar de TODO el mapa (RandomNumber, :505-506). Plan 07.002 ola 4.
 OrigPos=1
 DEF=0
@@ -2396,7 +2409,7 @@ MaxHP=10000
 MaxHIT=255
 MinHIT=150
 '--- era PosOrig, clave que no lee NADIE. El loader lee OrigPos
-'--- (MODULO_NPCs.bas:1194); sin ella CrearNPC cae al Else y respawnea en una
+'--- (MODULO_NPCs.bas:1244); sin ella CrearNPC cae al Else y respawnea en una
 '--- posicion al azar de TODO el mapa (RandomNumber, :505-506). Plan 07.002 ola 4.
 OrigPos=1
 DEF=40
@@ -16597,7 +16610,12 @@ Name=Kargun <Resucitador>
 Desc=Ja!, misterios de la ingeniería enana
 Body=615
 Head=309
-NpcType=0
+'--- Se llamaba Resucitador y era NpcType 0 (Comun), que ni siquiera esta en la lista
+'--- El despacho real es HandleNpcInteractionByType (WorldActions.bas:424), un ElseIf por
+'--- npcType SIN rama Else: un Comun se caia por el final y el doble click no hacia nada.
+'--- El 1 es Revividor. NO hace falta Minimap: esa clave no la lee el server, y el simbolo
+'--- de sacerdote en el radar sale del propio NpcType (Radar.bas:487).
+NpcType=1
 Heading=3
 NoMapInfo=1
 ShowName=1
