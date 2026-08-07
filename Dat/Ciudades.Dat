@@ -106,6 +106,16 @@ Mapas=440
 Mapas=354
 
 [Penthar]
+X=40
+Y=69
+MAPA=560
+MAPAVIAJE=560
+ViajeX=40
+ViajeY=69
+MapaResu=560
+ResuX=40
+ResuY=69
+NecesitaNave=0
 Mapas=189,559,560,571,561,558
 
 

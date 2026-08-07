@@ -24063,6 +24063,9 @@ Desc=¡Bienvenido a Eldoria la tierra de los Elfos!
 Body=4003
 Head=0
 NpcType=12
+'--- Sin esta clave Val() da 0, el jugador queda con Hogar 0 y Ciudades(0) no existe
+'--- (array 1 To 9). Peor: dos Case Else le dicen que quedo de Ullathorpe. Plan 07.002.
+GobernadorDe=8
 ShowName=1
 NoMapInfo=1
 Heading=3
@@ -24140,6 +24143,9 @@ Head=0
 Desc=¡Bienvenido a Forgat la tierra de los Vikingos!
 Body=4006
 NpcType=12
+'--- Sin esta clave Val() da 0, el jugador queda con Hogar 0 y Ciudades(0) no existe
+'--- (array 1 To 9). Peor: dos Case Else le dicen que quedo de Ullathorpe. Plan 07.002.
+GobernadorDe=7
 NoMapInfo=1
 
 [NPC1637] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
@@ -24264,6 +24270,9 @@ Desc=¡Bienvenido a Penthar la tierra de los Orcos!
 Body=4005
 Head=0
 NpcType=12
+'--- Sin esta clave Val() da 0, el jugador queda con Hogar 0 y Ciudades(0) no existe
+'--- (array 1 To 9). Peor: dos Case Else le dicen que quedo de Ullathorpe. Plan 07.002.
+GobernadorDe=9
 NoMapInfo=1
 Heading=3
 Movement=1
