@@ -2148,7 +2148,10 @@ MinHP=10000
 MaxHP=10000
 MaxHIT=250
 MinHIT=150
-PosOrig=1
+'--- era PosOrig, clave que no lee NADIE. El loader lee OrigPos
+'--- (MODULO_NPCs.bas:1194); sin ella CrearNPC cae al Else y respawnea en una
+'--- posicion al azar de TODO el mapa (RandomNumber, :505-506). Plan 07.002 ola 4.
+OrigPos=1
 DEF=40
 Alineacion=1
 Faccion=3
@@ -2184,7 +2187,10 @@ MinHP=10000
 MaxHP=10000
 MaxHIT=100
 MinHIT=100
-PosOrig=1
+'--- era PosOrig, clave que no lee NADIE. El loader lee OrigPos
+'--- (MODULO_NPCs.bas:1194); sin ella CrearNPC cae al Else y respawnea en una
+'--- posicion al azar de TODO el mapa (RandomNumber, :505-506). Plan 07.002 ola 4.
+OrigPos=1
 DEF=0
 Alineacion=1
 Faccion=3
@@ -2203,7 +2209,7 @@ NPCLVL=39
 MagicResistance=97
 MagicDef=15
 
-[NP263]
+[NPC263] 'le faltaba la C: el loader arma la clave como NPC + numero y por eso esta seccion nunca se cargaba
 Name=Sacerdote Imperial
 En_Name=Imperial Priest
 NpcType=2
@@ -2219,7 +2225,9 @@ MinHP=9550
 MaxHP=10000
 MaxHIT=100
 MinHIT=100
-PosOrig=1
+'--- era PosOrig, clave muerta; el loader lee OrigPos. Cero spawns hoy, asi que
+'--- esto no cambia nada: es para que quede bien el dia que se coloque.
+OrigPos=1
 DEF=0
 Alineacion=1
 Faccion=3
@@ -2346,7 +2354,10 @@ MinHP=9550
 MaxHP=9550
 MaxHIT=100
 MinHIT=100
-PosOrig=1
+'--- era PosOrig, clave que no lee NADIE. El loader lee OrigPos
+'--- (MODULO_NPCs.bas:1194); sin ella CrearNPC cae al Else y respawnea en una
+'--- posicion al azar de TODO el mapa (RandomNumber, :505-506). Plan 07.002 ola 4.
+OrigPos=1
 DEF=0
 ReSpawn=0
 NROITEMS=0
@@ -2384,7 +2395,10 @@ MinHP=10000
 MaxHP=10000
 MaxHIT=255
 MinHIT=150
-PosOrig=1
+'--- era PosOrig, clave que no lee NADIE. El loader lee OrigPos
+'--- (MODULO_NPCs.bas:1194); sin ella CrearNPC cae al Else y respawnea en una
+'--- posicion al azar de TODO el mapa (RandomNumber, :505-506). Plan 07.002 ola 4.
+OrigPos=1
 DEF=40
 ReSpawn=0
 NROITEMS=0
@@ -2440,7 +2454,9 @@ MinHP=7500
 MaxHP=7500
 MaxHIT=150
 MinHIT=100
-PosOrig=1
+'--- era PosOrig, clave muerta; el loader lee OrigPos. Cero spawns hoy, asi que
+'--- esto no cambia nada: es para que quede bien el dia que se coloque.
+OrigPos=1
 DEF=0
 Alineacion=1
 Faccion=2
@@ -27083,6 +27099,11 @@ Ataque1=5553
 MaxHp=1000
 MinHp=1000
 NpcType=2
+'--- Sin bando los dos filtros fallan ABIERTOS y el guardia atacaria tambien a los
+'--- suyos. Hoy no hace dano: tiene cero spawns y sin Movement ni Hostile seria una
+'--- estatua. Se deja puesto por si alguien lo coloca. Plantilla NPC1504.
+Alineacion=1
+Faccion=3
 MaxHIT=200
 MinHIT=100
 NoMapInfo=1
@@ -27096,6 +27117,11 @@ Ataque1=5556
 MaxHp=1000
 MinHp=1000
 NpcType=8
+'--- Sin bando los dos filtros fallan ABIERTOS y el guardia atacaria tambien a los
+'--- suyos. Hoy no hace dano: tiene cero spawns y sin Movement ni Hostile seria una
+'--- estatua. Se deja puesto por si alguien lo coloca. Plantilla NPC1554.
+Alineacion=2
+Faccion=2
 MaxHIT=200
 MinHIT=100
 NoMapInfo=1
