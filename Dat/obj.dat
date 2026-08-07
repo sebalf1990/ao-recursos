@@ -72914,6 +72914,22 @@ MinHit=4
 MaxArmorPenetrationFlat=10
 MinArmorPenetrationFlat=5
 ExtraCritAndStabChance=10
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ367)
+WeaponType=2
+Anim=49
+Apunala=1
+MinELV=33
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 
 [OBJ6261] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Hacha de Fénix
@@ -73519,6 +73535,22 @@ Madera=1500
 MaderaElfica=4000
 MaxHit=15
 MinHit=11
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1816)
+WeaponType=4
+Anim=67
+MinELV=1
+MagicDamageBonus=1
+CP1=BANDIDO
+CP2=LADRON
+CP3=PIRATA
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PALADIN
+CP8=BARDO
+CP9=ASESINO
+CP10=GUERRERO
+CP11=CLERIGO
+CP12=MAGO
 
 [OBJ392] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -74728,6 +74760,24 @@ it_Name=Staff di Zaphyr
 it_Texto=Aumenta il tuo danno magico del 7%
 pt_Name=Equipe Zaphyr
 pt_Texto=Aumente seu dano mágico em 7%
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1810)
+WeaponType=4
+Anim=61
+StaffPower=3
+Revive=1
+MinELV=1
+MagicDamageBonus=7
+CP1=BANDIDO
+CP2=LADRON
+CP3=PIRATA
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PALADIN
+CP7=DRUIDA
+CP8=BARDO
+CP9=ASESINO
+CP10=GUERRERO
+CP11=CLERIGO
 
 [OBJ1093] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Sombrero Zaphyr
@@ -74975,6 +75025,19 @@ it_Name=Ascia dorata
 it_Texto=Danno 9/18
 pt_Name=Machado dourado
 pt_Texto=Danos 9/18
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1246)
+WeaponType=7
+Anim=133
+MinELV=25
+CP1=BANDIDO
+CP2=ASESINO
+CP3=TRABAJADOR
+CP4=CAZADOR
+CP5=PIRATA
+CP6=LADRON
+CP7=BARDO
+CP8=DRUIDA
+CP9=MAGO
 
 [OBJ1106] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Armadura de las Sombras +1
@@ -75053,6 +75116,22 @@ it_Name=Katana +1
 it_Texto=Danno 8/16
 pt_Name=Katana +1
 pt_Texto=Danos 8/16
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ124)
+WeaponType=1
+Anim=106
+Subtipo=2
+DosManos=0
+MinELV=25
+CP1=GUERRERO
+CP2=PALADIN
+CP3=CLERIGO
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 
 [OBJ1110] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=44226
@@ -75069,6 +75148,22 @@ it_Name=Guanti d'oro
 it_Texto=Danno 10/13
 pt_Name=Luvas de ouro
 pt_Texto=Dano 10/13
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1825)
+WeaponType=8
+Anim=76
+Subtipo=2
+MinELV=33
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 
 [OBJ1111] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Nudillo de Mithril +1
@@ -75086,6 +75181,22 @@ it_Name=Mithril +1 nocche
 it_Texto=Danno 12/15
 pt_Name=Mithril +1 Knuckles
 pt_Texto=Danos 12/15
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1825)
+WeaponType=8
+Anim=76
+Subtipo=2
+MinELV=33
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 
 [OBJ1112] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Armadura Dorada
@@ -75132,6 +75243,20 @@ it_Name=Silver Sword +1
 it_Texto=Danno 11/20
 pt_Name=Espada prateada +1
 pt_Texto=Danos 11/20
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ126)
+WeaponType=7
+Anim=4
+MinELV=33
+CP1=BANDIDO
+CP2=ASESINO
+CP3=CLERIGO
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 
 [OBJ1114] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Armadura de Cazador Superior
@@ -76731,6 +76856,22 @@ it_Name=Aamantine Knuckles
 it_Texto=Danno 14/15
 pt_Name=Adamantine Knuckles
 pt_Texto=Dano 14/15
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1825)
+WeaponType=8
+Anim=76
+Subtipo=2
+MinELV=33
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 
 [OBJ1827] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -77807,6 +77948,11 @@ it_Name=Baston dell'apprendista
 it_Texto=Aumenta il tuo danno magico del 3%
 pt_Name=Baston do aprendiz
 pt_Texto=Aumente seu dano mágico em 3%
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ3495)
+WeaponType=4
+Anim=51
+MinELV=1
+MagicDamageBonus=3
 
 [OBJ3751] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Flauta del Aprendiz
@@ -77855,6 +78001,11 @@ it_Name=Apprendista Dagger
 it_Texto=Danno 2/3
 pt_Name=Aprendiz Dagger
 pt_Texto=Dano 2/3
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ3686)
+WeaponType=2
+Anim=8
+Apunala=1
+MinELV=1
 
 [OBJ3754] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Espada del Aprendiz
@@ -77873,6 +78024,11 @@ it_Name=Spada dell'apprendista
 it_Texto=Danno 2/4
 pt_Name=Aprendiz de espada
 pt_Texto=Dano 2/4
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ3487)
+WeaponType=1
+Anim=1
+Subtipo=2
+MinELV=1
 
 [OBJ3755] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Nudillo del Aprendiz
@@ -77890,6 +78046,9 @@ it_Name=Studente dell'apprendista
 it_Texto=Danno 2/3
 pt_Name=Aluno do aprendiz
 pt_Texto=Dano 2/3
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1353)
+WeaponType=8
+MinELV=1
 
 [OBJ3756] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Arco del Aprendiz
@@ -79375,6 +79534,20 @@ ElementalTags=15
 MaxHit=20
 MinHit=11
 SKHerreria=101
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ126)
+WeaponType=7
+Anim=4
+MinELV=33
+CP1=BANDIDO
+CP2=ASESINO
+CP3=CLERIGO
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 
 [OBJ5183] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Alas Blancas
@@ -83635,6 +83808,8 @@ ObjType=42
 Valor=1000
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ3495)
+Anim=51
 
 [OBJ6179] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Cetro de Isis
@@ -83644,6 +83819,8 @@ ObjType=42
 Valor=0
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1810)
+Anim=61
 
 [OBJ6180] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Hacha de Osiris
@@ -83653,6 +83830,8 @@ ObjType=42
 Valor=0
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1246)
+Anim=133
 
 [OBJ6181] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Guante de Anhur
@@ -83671,6 +83850,8 @@ ObjType=42
 Valor=0
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ3389)
+Anim=40
 
 [OBJ6183] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Arco de Menhit
@@ -83689,6 +83870,8 @@ ObjType=42
 Valor=0
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1816)
+Anim=67
 
 [OBJ6185] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Hoja de Hathor
@@ -83707,6 +83890,8 @@ ObjType=42
 Valor=0
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ400)
+Anim=197
 
 [OBJ6188] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Manto de Escama Roja
@@ -84246,6 +84431,22 @@ MaxHit=12
 MinHit=10
 SKHerreria=100
 ExtraCritAndStabChance=10
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1825)
+WeaponType=8
+Anim=76
+Subtipo=2
+MinELV=33
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 
 [OBJ6244] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Arco de Cazador (Navidad)
@@ -84283,6 +84484,24 @@ ObjType=2
 Valor=0
 MaxHit=1
 MinHit=1
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1788)
+WeaponType=4
+Anim=6
+StaffPower=3
+Revive=1
+MagicDamageBonus=9
+MinELV=25
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=DRUIDA
 
 [OBJ6246] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Espada de Plata (Navidad)
@@ -84292,6 +84511,20 @@ ObjType=2
 Valor=0
 MaxHit=20
 MinHit=12
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ126)
+WeaponType=7
+Anim=4
+MinELV=33
+CP1=BANDIDO
+CP2=ASESINO
+CP3=CLERIGO
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 
 [OBJ6247] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Hoja de Jade (Navidad)
@@ -84301,6 +84534,21 @@ ObjType=2
 Valor=0
 MaxHit=18
 MinHit=12
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1821)
+WeaponType=1
+Anim=47
+DosManos=1
+MinELV=25
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 
 [OBJ6248] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Falcata (Navidad)
@@ -84310,6 +84558,20 @@ ObjType=2
 Valor=0
 MaxHit=16
 MinHit=12
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ400)
+WeaponType=1
+Anim=197
+MinELV=33
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=MAGO
 
 [OBJ6249] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Hacha de Guerra Dos Filos (Navidad)
@@ -84319,6 +84581,19 @@ ObjType=2
 Valor=0
 MaxHit=17
 MinHit=11
+' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1246)
+WeaponType=7
+Anim=133
+MinELV=25
+CP1=BANDIDO
+CP2=ASESINO
+CP3=TRABAJADOR
+CP4=CAZADOR
+CP5=PIRATA
+CP6=LADRON
+CP7=BARDO
+CP8=DRUIDA
+CP9=MAGO
 
 [OBJ6251] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Escudo Navideño
