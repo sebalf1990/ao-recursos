@@ -39,16 +39,16 @@ Mapas=59,159,60,61,339,345,58
 
 [Lindos]
 X=63
-Y=43
-MAPA=62
-MAPAVIAJE=62
+Y=39
+MAPA=408
+MAPAVIAJE=408
 ViajeX=63
-ViajeY=43
-MapaResu=64
-ResuX=51
-ResuY=43
+ViajeY=39
+MapaResu=409
+ResuX=52
+ResuY=46
 NecesitaNave=1
-Mapas=62,63,64
+Mapas=408,409
 
 [Arghal]
 X=41

@@ -2564,10 +2564,25 @@ DisabledInBattleServer=1
 '--- fin copia privada ---
 
 [NPC304] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+'--- Sin Faccion, Val() da 0 y WorldActions.bas:299 lo manda a la rama de la ARMADA
+'--- REAL: el rey del Caos reclutaba para el Reino. Y como los unicos dos
+'--- Enlistador del juego son este y Tancredo, EnlistarCaos no tenia ningun camino
+'--- alcanzable: la Legion Oscura no se podia integrar. Plan 07.002.
+'--- Tiene que ser 2 exacto: para desertar, Protocol.bas:5013 compara contra 2.
 Name=Zarok <Rey de Arkhein>
 Desc=¡Maldita escoria! Mi momento ha llegado. De mi mano vienen las Hordas del Caos... ¿Acaso no comprendes, mortal? ¡El Caos es el comienzo!
 Body=5568
 NpcType=5
+Faccion=2
+Alineacion=2
+'--- vida y dano por paridad con Tancredo (NPC303); no declaraba ninguno
+MinHP=500000
+MaxHP=500000
+MaxHIT=350
+MinHIT=300
+NPCLVL=40
+MagicResistance=100
+MagicDef=15
 ShowName=1
 Heading=3
 Movement=1
