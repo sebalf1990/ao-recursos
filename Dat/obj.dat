@@ -75196,6 +75196,22 @@ it_Name=Oak Arc +1
 it_Texto=Danno 8/12
 pt_Name=Oak Arc +1
 pt_Texto=Danos 8/12
+' Reparado 06.002: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1870)
+WeaponType=3
+BOWCATEGORY=4
+Anim=121
+MinELV=25
+DosManos=0
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 
 [OBJ1117] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=38897
@@ -75214,6 +75230,23 @@ it_Name=Hunter Arch +1
 it_Texto=Danno 9/13
 pt_Name=Hunter Arch +1
 pt_Texto=Danos 9/13
+' Reparado 06.002: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1876)
+WeaponType=3
+BOWCATEGORY=5
+Anim=120
+MinELV=33
+DosManos=0
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 
 [OBJ1118] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -77876,6 +77909,12 @@ it_Name=ARC di apprendista
 it_Texto=Danno 2/3
 pt_Name=Aprendiz
 pt_Texto=Dano 2/3
+' Reparado 06.002: claves de logica del server que la reconstruccion de localindex no traia (base OBJ479)
+WeaponType=3
+BOWCATEGORY=1
+Anim=7
+MinELV=1
+DosManos=0
 
 [OBJ3757] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Anillo de Defensa Mágica
@@ -84218,6 +84257,23 @@ Proyectil=1
 MaxHit=12
 MinHit=7
 Municiones=1
+' Reparado 06.002: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1876)
+WeaponType=3
+BOWCATEGORY=5
+Anim=120
+MinELV=33
+DosManos=0
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 
 [OBJ6245] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Báculo Engarzado (Navidad)
