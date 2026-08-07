@@ -76,6 +76,32 @@ ResuY=25
 NecesitaNave=0
 Mapas=93,195,196,197,219,220,221
 
+[Forgat]
+MAPA=517
+X=48
+Y=64
+MAPAVIAJE=517
+ViajeX=48
+ViajeY=64
+MapaResu=517
+ResuX=48
+ResuY=64
+NecesitaNave=0
+Mapas=517
+
+[Eldoria]
+MAPA=440
+X=50
+Y=88
+MAPAVIAJE=440
+ViajeX=50
+ViajeY=88
+MapaResu=440
+ResuX=50
+ResuY=88
+NecesitaNave=0
+Mapas=440
+
 [Eleusis]
 Mapas=354
 
