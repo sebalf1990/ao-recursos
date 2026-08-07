@@ -23192,6 +23192,10 @@ Hostile=0
 ReSpawn=0
 
 [NPC1504] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+'--- Guardia reparado. Plan 07.002 ola 1. Plantilla NPC261.
+'--- Sin Alineacion atacaria a TODOS (AI_NPC.bas:1341-1348); sin Faccion tambien
+'--- (GameLogic.bas:166-178). Sin OrigPos respawnea en tile al azar; OJO que NO es
+'--- PosOrig, esa clave no la lee nadie. Con PoderAtaque en cero acierta el 10%.
 Name=Guardia Real
 Body=5554
 Head=0
@@ -23200,15 +23204,22 @@ NpcType=2
 ShowName=1
 NoMapInfo=1
 Heading=3
-Movement=1
-Attackable=0
-Hostile=0
+Movement=2
+Attackable=1
+Hostile=1
 ReSpawn=0
+AfectaParalisis=1
+Alineacion=1
+Faccion=3
+OrigPos=1
 Ataque1=5553
-MinHp=1000
-MaxHp=1000
-MaxHIT=200
-MinHIT=100
+MinHp=10000
+MaxHp=10000
+MaxHIT=70
+MinHIT=40
+DEF=40
+PoderAtaque=1500
+PoderEvasion=300
 
 [NPC19] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Lyra <Quest>
@@ -23272,6 +23283,10 @@ QuestNumber1=231
 QuestNumber2=230
 
 [NPC1502] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+'--- Guardia reparado. Plan 07.002 ola 1. Plantilla NPC261.
+'--- Sin Alineacion atacaria a TODOS (AI_NPC.bas:1341-1348); sin Faccion tambien
+'--- (GameLogic.bas:166-178). Sin OrigPos respawnea en tile al azar; OJO que NO es
+'--- PosOrig, esa clave no la lee nadie. Con PoderAtaque en cero acierta el 10%.
 Name=Guardia Real
 Body=5554
 Head=0
@@ -23280,15 +23295,22 @@ NpcType=2
 ShowName=1
 NoMapInfo=1
 Heading=3
-Movement=1
-Attackable=0
-Hostile=0
+Movement=2
+Attackable=1
+Hostile=1
 ReSpawn=0
+AfectaParalisis=1
+Alineacion=1
+Faccion=3
+OrigPos=1
 Ataque1=5553
-MinHp=1000
-MaxHp=1000
-MaxHIT=200
-MinHIT=100
+MinHp=10000
+MaxHp=10000
+MaxHIT=70
+MinHIT=40
+DEF=40
+PoderAtaque=1500
+PoderEvasion=300
 
 [NPC542] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Caballo Marrón
@@ -23351,6 +23373,10 @@ PoderAtaque=42
 PoderEvasion=27
 
 [NPC1503] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+'--- Guardia reparado. Plan 07.002 ola 1. Plantilla NPC261.
+'--- Sin Alineacion atacaria a TODOS (AI_NPC.bas:1341-1348); sin Faccion tambien
+'--- (GameLogic.bas:166-178). Sin OrigPos respawnea en tile al azar; OJO que NO es
+'--- PosOrig, esa clave no la lee nadie. Con PoderAtaque en cero acierta el 10%.
 Name=Guardia Real
 Body=5554
 Head=0
@@ -23359,17 +23385,28 @@ NpcType=2
 ShowName=1
 NoMapInfo=1
 Heading=3
-Movement=1
-Attackable=0
-Hostile=0
+Movement=2
+Attackable=1
+Hostile=1
 ReSpawn=0
+AfectaParalisis=1
+Alineacion=1
+Faccion=3
+OrigPos=1
 Ataque1=5553
-MinHp=1000
-MaxHp=1000
-MaxHIT=200
-MinHIT=100
+MinHp=10000
+MaxHp=10000
+MaxHIT=70
+MinHIT=40
+DEF=40
+PoderAtaque=1500
+PoderEvasion=300
 
 [NPC1506] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+'--- Guardia reparado. Plan 07.002 ola 1. Plantilla NPC261.
+'--- Sin Alineacion atacaria a TODOS (AI_NPC.bas:1341-1348); sin Faccion tambien
+'--- (GameLogic.bas:166-178). Sin OrigPos respawnea en tile al azar; OJO que NO es
+'--- PosOrig, esa clave no la lee nadie. Con PoderAtaque en cero acierta el 10%.
 Name=Hechicero Real
 Body=5672
 BodyIdle=5670
@@ -23377,15 +23414,22 @@ NpcType=2
 ShowName=1
 NoMapInfo=1
 Heading=3
-Movement=1
-Attackable=0
-Hostile=0
+Movement=2
+Attackable=1
+Hostile=1
 ReSpawn=0
+AfectaParalisis=1
+Alineacion=1
+Faccion=3
+OrigPos=1
 Ataque1=5671
-MinHp=2000
-MaxHp=2000
-MaxHIT=80
-MinHIT=50
+MinHp=10000
+MaxHp=10000
+MaxHIT=30
+MinHIT=20
+DEF=40
+PoderAtaque=1500
+PoderEvasion=300
 
 [NPC1500] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Aurum <Herrero Real>
@@ -23548,6 +23592,10 @@ NumQuest=1
 QuestNumber1=219
 
 [NPC1552] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+'--- Guardia reparado. Plan 07.002 ola 1. Plantilla NPC271.
+'--- Sin Alineacion atacaria a TODOS (AI_NPC.bas:1341-1348); sin Faccion tambien
+'--- (GameLogic.bas:166-178). Sin OrigPos respawnea en tile al azar; OJO que NO es
+'--- PosOrig, esa clave no la lee nadie. Con PoderAtaque en cero acierta el 10%.
 Name=Guardia Legión
 Body=5557
 Head=0
@@ -23556,17 +23604,28 @@ NpcType=8
 ShowName=1
 NoMapInfo=1
 Heading=3
-Movement=1
-Attackable=0
-Hostile=0
+Movement=2
+Attackable=1
+Hostile=1
 ReSpawn=0
+AfectaParalisis=1
+Alineacion=2
+Faccion=2
+OrigPos=1
 Ataque1=5556
-MinHp=1000
-MaxHp=1000
-MaxHIT=200
-MinHIT=100
+MinHp=10000
+MaxHp=10000
+MaxHIT=70
+MinHIT=40
+DEF=40
+PoderAtaque=1500
+PoderEvasion=300
 
 [NPC1556] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+'--- Guardia reparado. Plan 07.002 ola 1. Plantilla NPC271.
+'--- Sin Alineacion atacaria a TODOS (AI_NPC.bas:1341-1348); sin Faccion tambien
+'--- (GameLogic.bas:166-178). Sin OrigPos respawnea en tile al azar; OJO que NO es
+'--- PosOrig, esa clave no la lee nadie. Con PoderAtaque en cero acierta el 10%.
 Name=Hechicero Legión
 Body=5675
 BodyIdle=5673
@@ -23574,15 +23633,22 @@ NpcType=8
 ShowName=1
 NoMapInfo=1
 Heading=3
-Movement=1
-Attackable=0
-Hostile=0
+Movement=2
+Attackable=1
+Hostile=1
 ReSpawn=0
+AfectaParalisis=1
+Alineacion=2
+Faccion=2
+OrigPos=1
 Ataque1=5674
-MinHp=2000
-MaxHp=2000
-MaxHIT=80
-MinHIT=50
+MinHp=10000
+MaxHp=10000
+MaxHIT=30
+MinHIT=20
+DEF=40
+PoderAtaque=1500
+PoderEvasion=300
 
 [NPC1557] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 '--- Guardia reparado. Plan 07.002 ola 1, paso 1.1 (canario). Plantilla NPC271.
@@ -23614,6 +23680,10 @@ PoderAtaque=1500
 PoderEvasion=300
 
 [NPC1553] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+'--- Guardia reparado. Plan 07.002 ola 1. Plantilla NPC271.
+'--- Sin Alineacion atacaria a TODOS (AI_NPC.bas:1341-1348); sin Faccion tambien
+'--- (GameLogic.bas:166-178). Sin OrigPos respawnea en tile al azar; OJO que NO es
+'--- PosOrig, esa clave no la lee nadie. Con PoderAtaque en cero acierta el 10%.
 Name=Guardia Legión
 Body=5557
 Head=0
@@ -23622,17 +23692,28 @@ NpcType=8
 ShowName=1
 NoMapInfo=1
 Heading=3
-Movement=1
-Attackable=0
-Hostile=0
+Movement=2
+Attackable=1
+Hostile=1
 ReSpawn=0
+AfectaParalisis=1
+Alineacion=2
+Faccion=2
+OrigPos=1
 Ataque1=5556
-MinHp=1000
-MaxHp=1000
-MaxHIT=200
-MinHIT=100
+MinHp=10000
+MaxHp=10000
+MaxHIT=70
+MinHIT=40
+DEF=40
+PoderAtaque=1500
+PoderEvasion=300
 
 [NPC1554] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+'--- Guardia reparado. Plan 07.002 ola 1. Plantilla NPC271.
+'--- Sin Alineacion atacaria a TODOS (AI_NPC.bas:1341-1348); sin Faccion tambien
+'--- (GameLogic.bas:166-178). Sin OrigPos respawnea en tile al azar; OJO que NO es
+'--- PosOrig, esa clave no la lee nadie. Con PoderAtaque en cero acierta el 10%.
 Name=Guardia Legión
 Body=5557
 Head=0
@@ -23641,15 +23722,22 @@ NpcType=8
 ShowName=1
 NoMapInfo=1
 Heading=3
-Movement=1
-Attackable=0
-Hostile=0
+Movement=2
+Attackable=1
+Hostile=1
 ReSpawn=0
+AfectaParalisis=1
+Alineacion=2
+Faccion=2
+OrigPos=1
 Ataque1=5556
-MinHp=1000
-MaxHp=1000
-MaxHIT=200
-MinHIT=100
+MinHp=10000
+MaxHp=10000
+MaxHIT=70
+MinHIT=40
+DEF=40
+PoderAtaque=1500
+PoderEvasion=300
 
 [NPC504] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Zombie Putrefacto
