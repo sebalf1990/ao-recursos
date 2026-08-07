@@ -426,7 +426,7 @@ OnHitWAV=0
 LimitCastOnlyOnSelf=1
 Transform=1
 ClientEffectTypeId=27
-PhysicalDamageReduction0
+PhysicalDamageReduction=0
 MagicDamageReduction=0
 PhysicalLinearBonus=35
 MagicDamageDone=0
@@ -764,7 +764,7 @@ BuffType=5
 OnHitFx=0
 OnHitWAV=0
 ClientEffectTypeId=26
-CCInmunity=
+CCInmunity=0
 SpeedModifier=0.2
 
 [EOT58] 'cart shield 3
