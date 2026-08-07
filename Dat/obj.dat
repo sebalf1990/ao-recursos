@@ -83891,7 +83891,7 @@ Valor=0
 MaxHit=0
 MinHit=0
 ' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ400)
-Anim=197
+Anim=198
 
 [OBJ6188] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Manto de Escama Roja
