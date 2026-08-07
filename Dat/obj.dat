@@ -72948,6 +72948,9 @@ ObjType=42
 Valor=0
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2c: animacion deducida por la convencion icono/sprite del atlas
+' y verificada pixel a pixel. Sin esto el arma se ve INVISIBLE al equipar el skin.
+Anim=183
 
 [OBJ6263] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Espada del Fénix
@@ -72966,6 +72969,9 @@ ObjType=42
 Valor=0
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2c: animacion deducida por la convencion icono/sprite del atlas
+' y verificada pixel a pixel. Sin esto el arma se ve INVISIBLE al equipar el skin.
+Anim=70
 
 [OBJ6265] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Nudillo del Fénix
@@ -72975,6 +72981,9 @@ ObjType=42
 Valor=0
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2c: animacion deducida por la convencion icono/sprite del atlas
+' y verificada pixel a pixel. Sin esto el arma se ve INVISIBLE al equipar el skin.
+Anim=107
 
 [OBJ6266] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Báculo del Fénix
@@ -72984,6 +72993,9 @@ ObjType=42
 Valor=0
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2c: animacion deducida por la convencion icono/sprite del atlas
+' y verificada pixel a pixel. Sin esto el arma se ve INVISIBLE al equipar el skin.
+Anim=178
 
 [OBJ6267] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Alas de Fénix
@@ -73035,6 +73047,9 @@ ObjType=42
 Valor=0
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2c: animacion deducida por la convencion icono/sprite del atlas
+' y verificada pixel a pixel. Sin esto el arma se ve INVISIBLE al equipar el skin.
+Anim=182
 
 [OBJ6270] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Escudo del Fénix
@@ -75069,20 +75084,39 @@ pt_Name=Armadura de sombra +1
 pt_Texto=Defesa 30/37
 
 [OBJ1107] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=37844
-MaxHit=7
-MinHit=4
+GrhIndex=35792
+MaxHit=5
+MinHit=3
 Name=Daga Envenenada
 ObjType=2
-Texto=Daño 4/7
+Texto=Daño 3/5
 en_Name=Poisoned Dagger
-en_Texto=Damage 4/7
+en_Texto=Damage 3/5
 fr_Name=Poignard empoisonné
-fr_Texto=Dommages 4/7
+fr_Texto=Dommages 3/5
 it_Name=Pugnale avvelenato
-it_Texto=Danno 4/7
+it_Texto=Danno 3/5
 pt_Name=Adaga envenenada
-pt_Texto=Dano 4/7
+pt_Texto=Dano 3/5
+' Reparado 07.001 ola 2c (decision del dueno): queda como daga COMUN, por debajo de la
+' Daga Envenenada 1864 (4/7, exclusiva de asesino). Dano 3/5, clases de la Daga +3.
+' El GrhIndex original (37844) era el del Sable Maestro OBJ398: corregido al de una daga.
+WeaponType=2
+Anim=115
+APUÑALA=1
+MinELV=1
+Valor=4500
+peso=15
+Crucial=0
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=DRUIDA
+CP9=MAGO
 
 [OBJ1108] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Daga Oscura
@@ -83841,6 +83875,9 @@ ObjType=42
 Valor=0
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2c: animacion deducida por la convencion icono/sprite del atlas
+' y verificada pixel a pixel. Sin esto el arma se ve INVISIBLE al equipar el skin.
+Anim=139
 
 [OBJ6182] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Puñal de Sekhmet
@@ -83861,6 +83898,9 @@ ObjType=42
 Valor=0
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2c: animacion deducida por la convencion icono/sprite del atlas
+' y verificada pixel a pixel. Sin esto el arma se ve INVISIBLE al equipar el skin.
+Anim=126
 
 [OBJ6184] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Báculo de Satis
@@ -83881,6 +83921,9 @@ ObjType=42
 Valor=0
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2c: animacion deducida por la convencion icono/sprite del atlas
+' y verificada pixel a pixel. Sin esto el arma se ve INVISIBLE al equipar el skin.
+Anim=87
 
 [OBJ6186] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Falcata
@@ -84612,6 +84655,9 @@ ObjType=42
 Valor=3000
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2c: animacion deducida por la convencion icono/sprite del atlas
+' y verificada pixel a pixel. Sin esto el arma se ve INVISIBLE al equipar el skin.
+Anim=206
 
 [OBJ6253] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Daga Navideña
@@ -84621,6 +84667,9 @@ ObjType=42
 Valor=3000
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2c: animacion deducida por la convencion icono/sprite del atlas
+' y verificada pixel a pixel. Sin esto el arma se ve INVISIBLE al equipar el skin.
+Anim=199
 
 [OBJ6254] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Arco Navideño
@@ -84630,6 +84679,9 @@ ObjType=42
 Valor=3000
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2c: animacion deducida por la convencion icono/sprite del atlas
+' y verificada pixel a pixel. Sin esto el arma se ve INVISIBLE al equipar el skin.
+Anim=210
 
 [OBJ6255] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Hacha de Guerra Navideña
@@ -84639,6 +84691,9 @@ ObjType=42
 Valor=3000
 MaxHit=0
 MinHit=0
+' Reparado 07.001 ola 2c: animacion deducida por la convencion icono/sprite del atlas
+' y verificada pixel a pixel. Sin esto el arma se ve INVISIBLE al equipar el skin.
+Anim=216
 
 [OBJ6256] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Solicitud del Perdón Faccionario
