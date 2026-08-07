@@ -5,6 +5,10 @@ ImpuestoApuesta=0.1	# Parte que nos quedamos de la apuesta
 DuracionMaxima=600	# En segundos
 TiempoGuardarItems=60	# En segundos
 TiempoConteo=15		# En segundos
+FactorK=24		# K del ELO. Cuanto mueve como maximo un reto
+NivelMinimoELO=35	# Nivel minimo de TODOS los participantes para que el reto mueva ELO
+MaximoRetosSeguidos=3	# Retos seguidos permitidos entre el mismo grupo exacto
+MinutosEnfriamiento=45	# Minutos de espera despues de agotar esos retos
 
 [Salas]
 Cantidad=16

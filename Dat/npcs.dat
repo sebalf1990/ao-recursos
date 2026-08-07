@@ -22905,10 +22905,10 @@ DropCount=1
 Drop1=408-600-1-1
 Nivel=20
 [NPC9000]
-Name=Maestro Carpintero <Carpinteria>
-En_Name=Master Carpenter <Carpinteria>
+Name=Maestro Carpintero y Lenador <Carpinteria y Tala>
+En_Name=Master Carpenter and Woodcutter <Carpinteria y Tala>
 ShowName=1
-Desc=Un maestro que ensena su profesion a cambio de oro.
+Desc=Un maestro que ensena sus profesiones a cambio de oro.
 Head=74
 Body=141
 Heading=3
@@ -22920,17 +22920,19 @@ Minimap=1
 RequireToggle=professions_learnable
 EsMaestroProfesion=1
 ProfesionEnsenada=21
-NROITEMS=2
+NROITEMS=4
 Obj1=9000-1000
 Obj2=9007-1000
+Obj3=9005-1000
+Obj4=9012-1000
 SoundOpen=700
 SoundClose=703
 
 [NPC9001]
-Name=Maestro Herrero <Herreria>
-En_Name=Master Blacksmith <Herreria>
+Name=Maestro Herrero y Minero <Herreria y Mineria>
+En_Name=Master Blacksmith and Miner <Herreria y Mineria>
 ShowName=1
-Desc=Un maestro que ensena su profesion a cambio de oro.
+Desc=Un maestro que ensena sus profesiones a cambio de oro.
 Head=74
 Body=141
 Heading=3
@@ -22942,13 +22944,15 @@ Minimap=1
 RequireToggle=professions_learnable
 EsMaestroProfesion=1
 ProfesionEnsenada=20
-NROITEMS=2
+NROITEMS=4
 Obj1=9001-1000
 Obj2=9008-1000
+Obj3=9006-1000
+Obj4=9013-1000
 SoundOpen=700
 SoundClose=703
 
-[NPC9002]
+[NPC9002] 'DEPRECADO plan 04.001: Sastreria agrupada en NPC9003
 Name=Maestro Sastre <Sastreria>
 En_Name=Master Tailor <Sastreria>
 ShowName=1
@@ -22971,10 +22975,10 @@ SoundOpen=700
 SoundClose=703
 
 [NPC9003]
-Name=Maestro Alquimista <Alquimia>
-En_Name=Master Alchemist <Alquimia>
+Name=Maestro Alquimista y Sastre <Alquimia y Sastreria>
+En_Name=Master Alchemist and Tailor <Alquimia y Sastreria>
 ShowName=1
-Desc=Un maestro que ensena su profesion a cambio de oro.
+Desc=Un maestro que ensena sus profesiones a cambio de oro.
 Head=74
 Body=141
 Heading=3
@@ -22986,9 +22990,11 @@ Minimap=1
 RequireToggle=professions_learnable
 EsMaestroProfesion=1
 ProfesionEnsenada=22
-NROITEMS=2
+NROITEMS=4
 Obj1=9003-1000
 Obj2=9010-1000
+Obj3=9002-1000
+Obj4=9009-1000
 SoundOpen=700
 SoundClose=703
 
@@ -23014,7 +23020,7 @@ Obj2=9011-1000
 SoundOpen=700
 SoundClose=703
 
-[NPC9005]
+[NPC9005] 'DEPRECADO plan 04.001: Tala agrupada en NPC9000
 Name=Maestro Lenador <Tala>
 En_Name=Master Woodcutter <Tala>
 ShowName=1
@@ -23036,7 +23042,7 @@ Obj2=9012-1000
 SoundOpen=700
 SoundClose=703
 
-[NPC9006]
+[NPC9006] 'DEPRECADO plan 04.001: Mineria agrupada en NPC9001
 Name=Maestro Minero <Mineria>
 En_Name=Master Miner <Mineria>
 ShowName=1

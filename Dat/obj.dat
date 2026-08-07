@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9076
+NumOBJs=9077
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -6218,6 +6218,7 @@ en_Name=Gold Ingot
 
 [OBJ389]
 Name=Martillo Antiguo
+ProfesionId=20
 GrhIndex=38135
 Objtype=100
 SubTipo=7
@@ -14389,6 +14390,7 @@ CP9=BARDO
 CP10=DRUIDA
 CP11=MAGO
 Name=Ropa de Minero
+ProfesionId=19
 IT_texto=Vestiti minero
 IT_Name=Vestiti minero
 FR_texto=Minero
@@ -24670,6 +24672,7 @@ CP9=BARDO
 CP10=DRUIDA
 CP11=MAGO
 Name=Armadura de Herrero
+ProfesionId=20
 IT_texto=Difesa 13/16
 IT_Name=Armatura del Fabbro
 FR_texto=Défense 13/16
@@ -34452,6 +34455,7 @@ CP9=BARDO
 CP10=DRUIDA
 CP11=MAGO
 Name=Luchador de las Minas
+ProfesionId=19
 IT_texto=Difesa 21/23
 IT_Name=Mines Fighter
 FR_texto=Défense 21/23
@@ -34657,6 +34661,7 @@ CP9=BARDO
 CP10=DRUIDA
 CP11=MAGO
 Name=Ropa de Leñador
+ProfesionId=17
 IT_texto=Difesa 7/12
 IT_Name=Vestiti di legname
 FR_texto=Défense 7/12
@@ -35250,6 +35255,7 @@ Texto=Túnica Dorada de Gala
 
 [OBJ2858]'Borrar proxima temporada
 Name=Ropa de Minero (E/G)
+ProfesionId=19
 GrhIndex=446
 RopajeHumano=72
 RopajeElfo=72
@@ -36713,6 +36719,7 @@ Texto=Cruzado Desértico (H/E/EO)
 
 [OBJ2906]
 Name=Ropa de Leñador (H/E/EO)
+ProfesionId=17
 NumRopaje=1104
 GrhIndex=17394
 ObjType=3
@@ -37125,6 +37132,7 @@ CP9=BARDO
 CP10=DRUIDA
 CP11=MAGO
 Name=Armadura de Leñador
+ProfesionId=17
 Texto=Defensa 16/20
 GrhIndex=446
 ObjType=3
@@ -37170,6 +37178,7 @@ CP10=DRUIDA
 CP11=MAGO
 GrhIndex=24508
 Name=Cota de Minero Experto
+ProfesionId=19
 Texto=Defensa 25/27
 RopajeElfa=2290
 RopajeElfaOscura=3806
@@ -55610,6 +55619,7 @@ nowiki=1
 
 [OBJ3969]
 Name=Afilar Superior
+ProfesionId=20
 GrhIndex=609
 Valor=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -55632,6 +55642,7 @@ nowiki=1
 
 [OBJ3970]
 Name=Refuerzo Superior
+ProfesionId=20
 GrhIndex=609
 Valor=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -60761,6 +60772,7 @@ WeaponType=2
 
 [OBJ4303]
 Name=Receta de Vida
+ProfesionId=22
 GrhIndex=609
 Valor=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -60926,6 +60938,7 @@ valor=0
 
 [OBJ4322]
 Name=Receta de Maná
+ProfesionId=22
 GrhIndex=609
 Valor=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -60963,6 +60976,7 @@ en_name=Tree
 
 [OBJ4325]
 Name=Receta de Fuerza
+ProfesionId=22
 GrhIndex=609
 Valor=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -60984,6 +60998,7 @@ en_texto=
 
 [OBJ4326]
 Name=Receta de Agilidad
+ProfesionId=22
 GrhIndex=609
 Valor=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -61005,6 +61020,7 @@ en_texto=
 
 [OBJ4327]
 Name=Receta de Energía
+ProfesionId=22
 GrhIndex=609
 Valor=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -61026,6 +61042,7 @@ en_texto=
 
 [OBJ4328]
 Name=Receta de Antidoto
+ProfesionId=22
 GrhIndex=609
 Valor=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -61048,6 +61065,7 @@ en_texto=
 [OBJ4329] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=52199
 Name=Receta de Venenos
+ProfesionId=22
 Texto=Aprende la habilidad de crear venenos.
 ObjType=24
 Valor=1
@@ -75178,6 +75196,22 @@ it_Name=Oak Arc +1
 it_Texto=Danno 8/12
 pt_Name=Oak Arc +1
 pt_Texto=Danos 8/12
+' Reparado 06.002: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1870)
+WeaponType=3
+BOWCATEGORY=4
+Anim=121
+MinELV=25
+DosManos=0
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
 
 [OBJ1117] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=38897
@@ -75196,6 +75230,23 @@ it_Name=Hunter Arch +1
 it_Texto=Danno 9/13
 pt_Name=Hunter Arch +1
 pt_Texto=Danos 9/13
+' Reparado 06.002: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1876)
+WeaponType=3
+BOWCATEGORY=5
+Anim=120
+MinELV=33
+DosManos=0
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 
 [OBJ1118] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -77858,6 +77909,12 @@ it_Name=ARC di apprendista
 it_Texto=Danno 2/3
 pt_Name=Aprendiz
 pt_Texto=Dano 2/3
+' Reparado 06.002: claves de logica del server que la reconstruccion de localindex no traia (base OBJ479)
+WeaponType=3
+BOWCATEGORY=1
+Anim=7
+MinELV=1
+DosManos=0
 
 [OBJ3757] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Anillo de Defensa Mágica
@@ -84200,6 +84257,23 @@ Proyectil=1
 MaxHit=12
 MinHit=7
 Municiones=1
+' Reparado 06.002: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1876)
+WeaponType=3
+BOWCATEGORY=5
+Anim=120
+MinELV=33
+DosManos=0
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
 
 [OBJ6245] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Báculo Engarzado (Navidad)
@@ -86071,3 +86145,24 @@ ElemProc1Trigger=0
 ElemProc1Type=2
 ElemProc1Eot=66
 
+
+[OBJ9077] 'TEST 06.002 ola 2 - espinas LETALES: verifica la guarda de NpcAtacaUser (el NPC atacante muere dentro de NpcDamage)
+Name=Anillo de Espinas Letales (TEST)
+en_Name=Test Lethal Thorns Ring
+GrhIndex=49262
+Objtype=35
+Crucial=0
+Agarrable=0
+ElemProcCount=1
+ElemProc1Chance=100
+ElemProc1Kind=0
+ElemProc1Trigger=1
+ElemProc1Physical=1
+ElemProc1Min=2000
+ElemProc1Max=2000
+ElemProc1BypassResist=1
+ElemProc1Lethal=1
+Valor=1
+peso=1
+Texto=Espina letal fija 2000 al ser golpeado (test de la guarda de NpcAtacaUser, plan 06.002 ola 2)
+NoWiki=1

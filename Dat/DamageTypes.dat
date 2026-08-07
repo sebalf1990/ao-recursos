@@ -2,7 +2,7 @@
 ' Metadata tuneable del motor elemental. Si falta, el motor usa defaults internos.
 [INIT]
 TypeCount=8
-CritChancePct=50
+CritChancePct=5
 CritMult=0.5
 SlowFloorPct=0.45
 

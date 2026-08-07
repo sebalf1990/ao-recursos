@@ -490,14 +490,28 @@ def audit_deprecated_refs(limit: int = 0, ids: Optional[Set[Tuple[str, int]]] = 
     return [change.render() for change in collect_deprecated_changes(limit, ids)]
 
 
-# IDs privados intocables: NPCs maestros del sistema de profesiones (CHANGELOG 2026-04-27).
-# Existen solo en NPCs.dat privado, NO en sp_localindex.dat. Tienen campos custom
-# (RequireToggle, EsMaestroProfesion, ProfesionEnsenada) que deben preservarse.
-PRIVATE_NPC_RANGES: List[Tuple[int, int]] = [(1405, 1411)]
+# IDs privados intocables: contenido del sistema de profesiones. Existe solo en los .dat
+# privados, NO en sp_localindex.dat, y tiene campos custom (RequireToggle,
+# EsMaestroProfesion, ProfesionEnsenada) que deben preservarse.
+#
+# Estos rangos son los de DESPUES del plan 10.003. Hasta el 2026-07-29 aca decia
+# (1405, 1411), que era el rango de ANTES: esos IDs colisionaban con contenido oficial de
+# Heroism y por eso se movio lo privado a 9000+. Proteger el rango viejo era el peor de los
+# dos errores posibles — blindaba lo que se regenera desde el pack de Steam (hoy NPC1405 es
+# un soldado de la Reina y OBJ4997 un Mortero) y dejaba expuesto lo que no tiene otra copia.
+PRIVATE_NPC_RANGES: List[Tuple[int, int]] = [(9000, 9006)]
+# Los OBJ privados (manuales y pociones de profesion) nunca tuvieron guarda aca, aunque la
+# ficha del agente auditor decia que si. El camino de stubs de OBJ solo se salteaba los que
+# ya tenian Name, que protege por accidente y no por regla.
+PRIVATE_OBJ_RANGES: List[Tuple[int, int]] = [(9000, 9013)]
 
 
 def is_private_npc(num: int) -> bool:
     return any(lo <= num <= hi for lo, hi in PRIVATE_NPC_RANGES)
+
+
+def is_private_obj(num: int) -> bool:
+    return any(lo <= num <= hi for lo, hi in PRIVATE_OBJ_RANGES)
 
 
 # Campos del localindex que se permiten copiar al stub.
@@ -680,6 +694,8 @@ def _collect_obj_stubs(
     stubs: List[StubCreation] = []
     for oid in sorted(obj_to_maps):
         if not id_allowed("OBJ", oid, ids):
+            continue
+        if is_private_obj(oid):
             continue
         existing = private_objs.get(oid)
         # Saltar si OBJ existe Y tiene Name

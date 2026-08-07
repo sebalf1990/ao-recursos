@@ -3,7 +3,7 @@ NUMEROHECHIZO=413
 NUMLOCALEMSG=2211
 NUMMAPAS=750
 NUMNPCS=9025
-NUMOBJS=9076
+NUMOBJS=9077
 NUMQUESTS=901
 NUMSUGERENCIAS=6
 
@@ -68183,6 +68183,14 @@ GrhIndex=28750
 ObjType=11
 Valor=0
 Texto=Aceite de prueba: encanta tus flechas equipadas con Fuego por 30s (5 cargas).
+
+[OBJ9077]
+Name=Anillo de Espinas Letales (TEST)
+GrhIndex=49262
+Objtype=35
+Agarrable=0
+Valor=1
+Texto=Espina letal fija 2000 al ser golpeado (test 06.002 ola 2).
 
 [NP263]
 Name=Sacerdote Imperial
