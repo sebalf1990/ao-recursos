@@ -17,7 +17,10 @@ GuildMembersLevel6=35
 GuildMembersLevel7=40
 
 [GUILDREWARDS]
-CallSupportRequiredLevel=4
+CallSupportRequiredLevel=3
+SafeGuildRequiredLevel=4
+ShowHPBarRequiredLevel=5
+SeeInvisibleRequiredLevel=6
 
 [GUILDPRICEACCEPTMEMBER]
 PriceAcceptMemberGuildLevel1=100
