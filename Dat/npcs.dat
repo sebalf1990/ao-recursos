@@ -23265,7 +23265,16 @@ Ataque1=5553
 MinHp=10000
 MaxHp=10000
 MaxHIT=70
-MinHIT=40
+'--- Ola 2, calibrado con la cuenta hecha y no a ojo. Contra un guerrero L50 con equipo
+'--- tope la absorcion en el cuerpo es 57 a 64 (armadura 42-47 + escudo 15-17): con los
+'--- 40/70 anteriores el 57,8% de los golpes acertados hacia CERO. Con MinHIT 65 la tirada
+'--- minima ya supera la absorcion maxima: ningun golpe en cero.
+'--- MaxHIT queda en 70 porque es el techo: a 75 un mago L10 en el peor caso de su banda
+'--- de vida (67 HP) muere de un golpe el 10% de las veces; con 70 es el 4%.
+MinHIT=65
+'--- Sin esta clave el default es 2000 ms (MODULO_NPCs.bas:1561). 1200 sube la presion
+'--- un 67% sin tocar el riesgo de matar de un golpe, que se juega en un solo impacto.
+IntervaloAtaque=1200
 DEF=40
 PoderAtaque=1500
 PoderEvasion=300
@@ -23356,7 +23365,16 @@ Ataque1=5553
 MinHp=10000
 MaxHp=10000
 MaxHIT=70
-MinHIT=40
+'--- Ola 2, calibrado con la cuenta hecha y no a ojo. Contra un guerrero L50 con equipo
+'--- tope la absorcion en el cuerpo es 57 a 64 (armadura 42-47 + escudo 15-17): con los
+'--- 40/70 anteriores el 57,8% de los golpes acertados hacia CERO. Con MinHIT 65 la tirada
+'--- minima ya supera la absorcion maxima: ningun golpe en cero.
+'--- MaxHIT queda en 70 porque es el techo: a 75 un mago L10 en el peor caso de su banda
+'--- de vida (67 HP) muere de un golpe el 10% de las veces; con 70 es el 4%.
+MinHIT=65
+'--- Sin esta clave el default es 2000 ms (MODULO_NPCs.bas:1561). 1200 sube la presion
+'--- un 67% sin tocar el riesgo de matar de un golpe, que se juega en un solo impacto.
+IntervaloAtaque=1200
 DEF=40
 PoderAtaque=1500
 PoderEvasion=300
@@ -23446,7 +23464,16 @@ Ataque1=5553
 MinHp=10000
 MaxHp=10000
 MaxHIT=70
-MinHIT=40
+'--- Ola 2, calibrado con la cuenta hecha y no a ojo. Contra un guerrero L50 con equipo
+'--- tope la absorcion en el cuerpo es 57 a 64 (armadura 42-47 + escudo 15-17): con los
+'--- 40/70 anteriores el 57,8% de los golpes acertados hacia CERO. Con MinHIT 65 la tirada
+'--- minima ya supera la absorcion maxima: ningun golpe en cero.
+'--- MaxHIT queda en 70 porque es el techo: a 75 un mago L10 en el peor caso de su banda
+'--- de vida (67 HP) muere de un golpe el 10% de las veces; con 70 es el 4%.
+MinHIT=65
+'--- Sin esta clave el default es 2000 ms (MODULO_NPCs.bas:1561). 1200 sube la presion
+'--- un 67% sin tocar el riesgo de matar de un golpe, que se juega en un solo impacto.
+IntervaloAtaque=1200
 DEF=40
 PoderAtaque=1500
 PoderEvasion=300
@@ -23474,8 +23501,17 @@ OrigPos=1
 Ataque1=5671
 MinHp=10000
 MaxHp=10000
-MaxHIT=30
-MinHIT=20
+MaxHIT=70
+'--- Ola 2, calibrado con la cuenta hecha y no a ojo. Contra un guerrero L50 con equipo
+'--- tope la absorcion en el cuerpo es 57 a 64 (armadura 42-47 + escudo 15-17): con los
+'--- 40/70 anteriores el 57,8% de los golpes acertados hacia CERO. Con MinHIT 65 la tirada
+'--- minima ya supera la absorcion maxima: ningun golpe en cero.
+'--- MaxHIT queda en 70 porque es el techo: a 75 un mago L10 en el peor caso de su banda
+'--- de vida (67 HP) muere de un golpe el 10% de las veces; con 70 es el 4%.
+MinHIT=65
+'--- Sin esta clave el default es 2000 ms (MODULO_NPCs.bas:1561). 1200 sube la presion
+'--- un 67% sin tocar el riesgo de matar de un golpe, que se juega en un solo impacto.
+IntervaloAtaque=1200
 DEF=40
 PoderAtaque=1500
 PoderEvasion=300
@@ -23665,7 +23701,16 @@ Ataque1=5556
 MinHp=10000
 MaxHp=10000
 MaxHIT=70
-MinHIT=40
+'--- Ola 2, calibrado con la cuenta hecha y no a ojo. Contra un guerrero L50 con equipo
+'--- tope la absorcion en el cuerpo es 57 a 64 (armadura 42-47 + escudo 15-17): con los
+'--- 40/70 anteriores el 57,8% de los golpes acertados hacia CERO. Con MinHIT 65 la tirada
+'--- minima ya supera la absorcion maxima: ningun golpe en cero.
+'--- MaxHIT queda en 70 porque es el techo: a 75 un mago L10 en el peor caso de su banda
+'--- de vida (67 HP) muere de un golpe el 10% de las veces; con 70 es el 4%.
+MinHIT=65
+'--- Sin esta clave el default es 2000 ms (MODULO_NPCs.bas:1561). 1200 sube la presion
+'--- un 67% sin tocar el riesgo de matar de un golpe, que se juega en un solo impacto.
+IntervaloAtaque=1200
 DEF=40
 PoderAtaque=1500
 PoderEvasion=300
@@ -23693,8 +23738,17 @@ OrigPos=1
 Ataque1=5674
 MinHp=10000
 MaxHp=10000
-MaxHIT=30
-MinHIT=20
+MaxHIT=70
+'--- Ola 2, calibrado con la cuenta hecha y no a ojo. Contra un guerrero L50 con equipo
+'--- tope la absorcion en el cuerpo es 57 a 64 (armadura 42-47 + escudo 15-17): con los
+'--- 40/70 anteriores el 57,8% de los golpes acertados hacia CERO. Con MinHIT 65 la tirada
+'--- minima ya supera la absorcion maxima: ningun golpe en cero.
+'--- MaxHIT queda en 70 porque es el techo: a 75 un mago L10 en el peor caso de su banda
+'--- de vida (67 HP) muere de un golpe el 10% de las veces; con 70 es el 4%.
+MinHIT=65
+'--- Sin esta clave el default es 2000 ms (MODULO_NPCs.bas:1561). 1200 sube la presion
+'--- un 67% sin tocar el riesgo de matar de un golpe, que se juega en un solo impacto.
+IntervaloAtaque=1200
 DEF=40
 PoderAtaque=1500
 PoderEvasion=300
@@ -23722,8 +23776,17 @@ OrigPos=1
 Ataque1=5674
 MinHp=10000
 MaxHp=10000
-MaxHIT=30
-MinHIT=20
+MaxHIT=70
+'--- Ola 2, calibrado con la cuenta hecha y no a ojo. Contra un guerrero L50 con equipo
+'--- tope la absorcion en el cuerpo es 57 a 64 (armadura 42-47 + escudo 15-17): con los
+'--- 40/70 anteriores el 57,8% de los golpes acertados hacia CERO. Con MinHIT 65 la tirada
+'--- minima ya supera la absorcion maxima: ningun golpe en cero.
+'--- MaxHIT queda en 70 porque es el techo: a 75 un mago L10 en el peor caso de su banda
+'--- de vida (67 HP) muere de un golpe el 10% de las veces; con 70 es el 4%.
+MinHIT=65
+'--- Sin esta clave el default es 2000 ms (MODULO_NPCs.bas:1561). 1200 sube la presion
+'--- un 67% sin tocar el riesgo de matar de un golpe, que se juega en un solo impacto.
+IntervaloAtaque=1200
 DEF=40
 PoderAtaque=1500
 PoderEvasion=300
@@ -23753,7 +23816,16 @@ Ataque1=5556
 MinHp=10000
 MaxHp=10000
 MaxHIT=70
-MinHIT=40
+'--- Ola 2, calibrado con la cuenta hecha y no a ojo. Contra un guerrero L50 con equipo
+'--- tope la absorcion en el cuerpo es 57 a 64 (armadura 42-47 + escudo 15-17): con los
+'--- 40/70 anteriores el 57,8% de los golpes acertados hacia CERO. Con MinHIT 65 la tirada
+'--- minima ya supera la absorcion maxima: ningun golpe en cero.
+'--- MaxHIT queda en 70 porque es el techo: a 75 un mago L10 en el peor caso de su banda
+'--- de vida (67 HP) muere de un golpe el 10% de las veces; con 70 es el 4%.
+MinHIT=65
+'--- Sin esta clave el default es 2000 ms (MODULO_NPCs.bas:1561). 1200 sube la presion
+'--- un 67% sin tocar el riesgo de matar de un golpe, que se juega en un solo impacto.
+IntervaloAtaque=1200
 DEF=40
 PoderAtaque=1500
 PoderEvasion=300
@@ -23783,7 +23855,16 @@ Ataque1=5556
 MinHp=10000
 MaxHp=10000
 MaxHIT=70
-MinHIT=40
+'--- Ola 2, calibrado con la cuenta hecha y no a ojo. Contra un guerrero L50 con equipo
+'--- tope la absorcion en el cuerpo es 57 a 64 (armadura 42-47 + escudo 15-17): con los
+'--- 40/70 anteriores el 57,8% de los golpes acertados hacia CERO. Con MinHIT 65 la tirada
+'--- minima ya supera la absorcion maxima: ningun golpe en cero.
+'--- MaxHIT queda en 70 porque es el techo: a 75 un mago L10 en el peor caso de su banda
+'--- de vida (67 HP) muere de un golpe el 10% de las veces; con 70 es el 4%.
+MinHIT=65
+'--- Sin esta clave el default es 2000 ms (MODULO_NPCs.bas:1561). 1200 sube la presion
+'--- un 67% sin tocar el riesgo de matar de un golpe, que se juega en un solo impacto.
+IntervaloAtaque=1200
 DEF=40
 PoderAtaque=1500
 PoderEvasion=300
