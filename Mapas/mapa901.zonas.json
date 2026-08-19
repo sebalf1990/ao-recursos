@@ -1,0 +1,65 @@
+{
+  "numero": 901,
+  "nombre": "Bosque Hondo",
+  "tipo": "exterior",
+  "modo": "esqueleto",
+  "semilla": 20260819,
+  "zonas": [
+    {
+      "kind": "material",
+      "rect": {
+        "x1": 14,
+        "y1": 11,
+        "x2": 50,
+        "y2": 90
+      },
+      "label": "pasto"
+    },
+    {
+      "kind": "material",
+      "rect": {
+        "x1": 51,
+        "y1": 11,
+        "x2": 87,
+        "y2": 90
+      },
+      "label": "arena"
+    },
+    {
+      "kind": "agua",
+      "rect": {
+        "x1": 68,
+        "y1": 41,
+        "x2": 70,
+        "y2": 44
+      }
+    },
+    {
+      "kind": "claro",
+      "rect": {
+        "x1": 56,
+        "y1": 78,
+        "x2": 58,
+        "y2": 81
+      }
+    },
+    {
+      "kind": "claro",
+      "rect": {
+        "x1": 28,
+        "y1": 43,
+        "x2": 30,
+        "y2": 46
+      }
+    },
+    {
+      "kind": "poi",
+      "rect": {
+        "x1": 64,
+        "y1": 35,
+        "x2": 66,
+        "y2": 38
+      }
+    }
+  ]
+}
