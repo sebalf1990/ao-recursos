@@ -1,25 +1,2 @@
-*.rao
-Graficos/bmp/*
-init/MiniMap.dat
-Dat/AreasStats.ini
-/Mapas/NPCs y Bodys
-/Mapas/Copia de Mapas
-/Mapas/.stversions
-OUTPUT/Configuracion.ini
-OUTPUT/Cuenta.ini
-OUTPUT/Hotkeys.ini
-
-# Backups sueltos: no van en el repo (ver docs/metodologia-y-filosofia.md)
-*.bak*
-*.pre_*
-
-# Bytecode de los scripts de tools
 __pycache__/
-
-# Variables de entorno (secretos de runtime): nunca versionar
-.env
-.env.*
-**/.env
-**/.env.*
-!.env.example
-!**/.env.example
+*.pyc
