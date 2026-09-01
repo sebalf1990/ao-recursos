@@ -11123,6 +11123,7 @@ MinHp=450
 MaxHIT=75
 MinHIT=60
 Name=Elemental de Agua
+ElementalTags=2
 Head=0
 BodyIdle=5492
 Ataque1=5493
@@ -11145,6 +11146,7 @@ MinHp=450
 MaxHIT=75
 MinHIT=60
 Name=Elemental de Tierra
+ElementalTags=4
 Head=0
 BodyIdle=5489
 Ataque1=5490
@@ -27003,6 +27005,22 @@ fr_Name=Sombre
 it_Name=Cupola
 pt_Name=Sombrio
 
+[NPC1413] 'Custom 2026-09-01 (plan meta 01.002): dador de QUEST380 "La Ofrenda de Dolgrin". Visual provisorio de herrero enano (remapear via auditor si se quiere uno propio)
+Name=Dolgrin <Quest>
+Desc=Los cuatro elementos no se dominan: se reúnen. Los enanos de Morgrim lo supimos siempre. Tráeme diez Runas Elementales de cada elemento y el cofre hablará por mí.
+Body=6089
+Head=0
+NpcType=17
+Heading=3
+ShowName=1
+Movement=1
+Attackable=0
+Hostile=0
+ReSpawn=0
+DisabledInBattleServer=1
+NumQuest=1
+QuestNumber1=380
+
 [NPC1449] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=4217
 MaxHp=150
@@ -27140,6 +27158,8 @@ MaxHIT=155
 MinHIT=115
 DropCount=1
 Drop1=5179-800-1-1
+NumDropQuest=1
+DropQuest1=279-609-1-10
 
 [NPC1475] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Portador de Agua
@@ -27156,6 +27176,8 @@ MaxHIT=155
 MinHIT=115
 DropCount=1
 Drop1=5180-800-1-1
+NumDropQuest=1
+DropQuest1=280-610-1-10
 
 [NPC1476] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Portador de Tierra
@@ -27172,6 +27194,8 @@ MaxHIT=155
 MinHIT=115
 DropCount=1
 Drop1=5181-800-1-1
+NumDropQuest=1
+DropQuest1=282-611-1-10
 
 [NPC1477] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Portador de Viento
@@ -27188,6 +27212,8 @@ MaxHIT=155
 MinHIT=115
 DropCount=1
 Drop1=5182-800-1-1
+NumDropQuest=1
+DropQuest1=281-612-1-10
 
 [NPC1505] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Guardia Real

@@ -1,5 +1,5 @@
 [INIT]
-NumRunas=4
+NumRunas=8
 
 [Runa1]
 Index=6288
@@ -12,3 +12,15 @@ Index=6290
 
 [Runa4]
 Index=6291
+
+[Runa5]
+Index=5170
+
+[Runa6]
+Index=5171
+
+[Runa7]
+Index=5172
+
+[Runa8]
+Index=5173

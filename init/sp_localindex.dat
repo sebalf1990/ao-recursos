@@ -12616,6 +12616,14 @@ HP=400
 MaxHIT=140
 MinHIT=115
 
+[NPC1413]
+Name=Dolgrin <Quest>
+Desc=Los cuatro elementos no se dominan: se reúnen. Los enanos de Morgrim lo supimos siempre. Tráeme diez Runas Elementales de cada elemento y el cofre hablará por mí.
+Body=6089
+Head=0
+NpcType=17
+
+
 [NPC1449]
 Name=Pantera Invocada
 Body=4217
