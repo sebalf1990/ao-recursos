@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9077
+NumOBJs=9080
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -86496,3 +86496,43 @@ Valor=1
 peso=1
 Texto=Espina letal fija 2000 al ser golpeado (test de la guarda de NpcAtacaUser, plan 06.002 ola 2)
 NoWiki=1
+[OBJ9078] 'TEST elemental (plan 02.001) - Anillo inmune SOLO al dano de Fuego (no bloquea el efecto)
+Name=Anillo Inmune Solo Dano Fuego (TEST)
+en_Name=Test Fire Damage Immune Ring
+GrhIndex=889
+ObjType=20
+Valor=0
+MinELV=1
+Texto=Anillo de prueba: inmune solo al dano de fuego (plan 02.001).
+ElemResistCount=1
+ElemResist1Type=2
+ElemResist1ImmuneDmg=1
+ElemResist1ImmuneEff=0
+ElemResist1Immune=0
+[OBJ9079] 'TEST elemental (plan 02.001) - Anillo inmune SOLO al efecto de Fuego (no bloquea el dano)
+Name=Anillo Inmune Solo Efecto Fuego (TEST)
+en_Name=Test Fire Effect Immune Ring
+GrhIndex=889
+ObjType=20
+Valor=0
+MinELV=1
+Texto=Anillo de prueba: inmune solo al efecto de fuego (plan 02.001).
+ElemResistCount=1
+ElemResist1Type=2
+ElemResist1ImmuneEff=1
+ElemResist1ImmuneDmg=0
+ElemResist1Immune=0
+[OBJ9080] 'TEST elemental (plan 02.001) - Espada Fija: golpe fijo sin componente elemental propio, encantable (baseline determinista)
+Name=Espada Fija (TEST)
+en_Name=Test Fixed Sword
+GrhIndex=49167
+ObjType=2
+MinHit=10
+MaxHit=10
+WeaponType=1
+Anim=68
+Subtipo=11
+Valor=0
+MinELV=1
+peso=15
+Texto=Arma de prueba del sistema elemental (plan 02.001): golpe fijo sin elemental propio, encantable.
