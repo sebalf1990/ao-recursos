@@ -1,26 +1,20 @@
 [INIT]
-NumRunas=8
+NumRunas=4
+
+'--- Solo las runas OFICIALES (camino wiki: quest de Thirga -> receta -> Herreria 70).
+'--- Las locales 6288-6291 se retiraron el 2026-09-01: hacian el MISMO efecto
+'--- (ElementalTags 1/2/4/8, mismo costo) pero sin receta y con Herreria 100, asi que
+'--- salteaban la cadena entera. Siguen existiendo en obj.dat y las que ya esten en
+'--- inventarios encantan igual; lo unico que se saca es poder craftearlas.
 
 [Runa1]
-Index=6288
-
-[Runa2]
-Index=6289
-
-[Runa3]
-Index=6290
-
-[Runa4]
-Index=6291
-
-[Runa5]
 Index=5170
 
-[Runa6]
+[Runa2]
 Index=5171
 
-[Runa7]
+[Runa3]
 Index=5172
 
-[Runa8]
+[Runa4]
 Index=5173
