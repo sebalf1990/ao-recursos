@@ -3,7 +3,7 @@
 'Reorganización Masiva.
 
 [INIT]
-NumNPCs=9047
+NumNPCs=9048
 
 'SPOTS LIBRES<<<<<<<<<<<<<<<<<<<<<<<<<<<#
 '16 al 23  		Comerciantes			#
@@ -27364,9 +27364,9 @@ NpcType=26
 ' ---- Customs reubicados (colision con slots oficiales) ----
 
 [NPC9007] 'Reubicado de NPC1804 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3)
-Name=Vibora Test
+Name=Vibora Test Perfil Nuevo (TEST)
 ShowName=0
-en_Name=Test Viper
+en_Name=Test Viper New Profile (TEST)
 Head=0
 BodyIdle=4195
 Body=4194
@@ -27549,7 +27549,7 @@ ElemProc4ReflectMirror=1
 ElemProc4BypassResist=0
 ElemProc4Lethal=0
 
-[NPC9012] 'Arana-test recreada del 6/6 (ex-NPC1809, clobbereada por sync 6/8); plan 15.001
+[NPC9012] 'Arana-test recreada del 6/6 (ex-NPC1809, clobbereada por sync 6/8); plan 15.001 -- D1(03.001 F5p24): ElemResist agregado, Type=4 Veneno (unico tipo elemental que aplica; el calificador ('Neuro') es del modelo de familia MUERTO, ver M8, sin submodelo propio en ElemResist); espejo exacto de NPC9010 (Inmune Menor)
 Name=Arana Test Inmune Neuro
 ShowName=1
 en_Name=Test Spider Immune Neuro
@@ -27577,6 +27577,9 @@ PoderAtaque=0
 PoderEvasion=0
 Humanoide=0
 NPCLVL=1
+ElemResistCount=1
+ElemResist1Type=4
+ElemResist1ImmuneEff=1
 
 [NPC9013] 'Arana-test recreada del 6/6 (ex-NPC1810, clobbereada por sync 6/8); plan 15.001
 Name=Arana Test Resist Menor
@@ -27614,7 +27617,7 @@ ElemResist1FlatMax=3
 ElemResist1PctMin=50
 ElemResist1PctMax=50
 
-[NPC9014] 'Arana-test recreada del 6/6 (ex-NPC1811, clobbereada por sync 6/8); plan 15.001
+[NPC9014] 'Arana-test recreada del 6/6 (ex-NPC1811, clobbereada por sync 6/8); plan 15.001 -- D1(03.001 F5p24): ElemResist agregado, Type=4 Veneno (unico tipo elemental que aplica; el calificador ('Hemo') es del modelo de familia MUERTO, ver M8, sin submodelo propio en ElemResist); espejo exacto de NPC9013 (Resist Menor)
 Name=Arana Test Resist Hemo
 ShowName=1
 en_Name=Test Spider Resist Hemo
@@ -27642,8 +27645,15 @@ PoderAtaque=0
 PoderEvasion=0
 Humanoide=0
 NPCLVL=1
+ElemResistCount=1
+ElemResist1Type=4
+ElemResist1EffChance=50
+ElemResist1FlatMin=3
+ElemResist1FlatMax=3
+ElemResist1PctMin=50
+ElemResist1PctMax=50
 
-[NPC9015] 'Arana-test recreada del 6/6 (ex-NPC1812, clobbereada por sync 6/8); plan 15.001
+[NPC9015] 'Arana-test recreada del 6/6 (ex-NPC1812, clobbereada por sync 6/8); plan 15.001 -- D1(03.001 F5p24): ElemResist agregado, Type=4 Veneno (unico tipo elemental que aplica; el calificador ('Neuro') es del modelo de familia MUERTO, ver M8, sin submodelo propio en ElemResist); espejo exacto de NPC9013 (Resist Menor)
 Name=Arana Test Resist Neuro
 ShowName=1
 en_Name=Test Spider Resist Neuro
@@ -27671,8 +27681,15 @@ PoderAtaque=0
 PoderEvasion=0
 Humanoide=0
 NPCLVL=1
+ElemResistCount=1
+ElemResist1Type=4
+ElemResist1EffChance=50
+ElemResist1FlatMin=3
+ElemResist1FlatMax=3
+ElemResist1PctMin=50
+ElemResist1PctMax=50
 
-[NPC9016] 'Arana-test recreada del 6/6 (ex-NPC1813, clobbereada por sync 6/8); plan 15.001
+[NPC9016] 'Arana-test recreada del 6/6 (ex-NPC1813, clobbereada por sync 6/8); plan 15.001 -- D1(03.001 F5p24): ElemResist agregado, Type=4 Veneno (unico tipo elemental que aplica; el calificador ('General') es del modelo de familia MUERTO, ver M8, sin submodelo propio en ElemResist); espejo exacto de NPC9010 (Inmune Menor)
 Name=Arana Test Inmune General
 ShowName=1
 en_Name=Test Spider Immune Generic
@@ -27700,8 +27717,11 @@ PoderAtaque=0
 PoderEvasion=0
 Humanoide=0
 NPCLVL=1
+ElemResistCount=1
+ElemResist1Type=4
+ElemResist1ImmuneEff=1
 
-[NPC9017] 'Arana-test recreada del 6/6 (ex-NPC1814, clobbereada por sync 6/8); plan 15.001
+[NPC9017] 'Arana-test recreada del 6/6 (ex-NPC1814, clobbereada por sync 6/8); plan 15.001 -- D1(03.001 F5p24): ElemResist agregado, Type=4 Veneno (unico tipo elemental que aplica; el calificador ('General') es del modelo de familia MUERTO, ver M8, sin submodelo propio en ElemResist); espejo exacto de NPC9013 (Resist Menor)
 Name=Arana Test Resist General
 ShowName=1
 en_Name=Test Spider Resist Generic
@@ -27729,6 +27749,13 @@ PoderAtaque=0
 PoderEvasion=0
 Humanoide=0
 NPCLVL=1
+ElemResistCount=1
+ElemResist1Type=4
+ElemResist1EffChance=50
+ElemResist1FlatMin=3
+ElemResist1FlatMax=3
+ElemResist1PctMin=50
+ElemResist1PctMax=50
 
 [NPC9018] 'TEST elemental (plan 20.002 Ola 0)
 Name=Dummy Resist Fuego 50pct (TEST)
@@ -28646,3 +28673,31 @@ ElemResist1Chance=0
 ElemResist1Flat=0
 ElemResist1Pct=0.5
 ElemResist1Immune=0
+[NPC9048] 'D4 (03.001 F5p25): clon de NPC9007 para ejercitar la rama de veneno LEGACY real (SistemaCombate.bas:704-705, NpcList().Veneno>0), a proposito SIN PerfilVenenoAplica/ChanceAplicarPct (esas dos son solo de la rama nueva)
+Name=Vibora Legacy Test (TEST)
+ShowName=0
+en_Name=Test Viper Legacy (TEST)
+Head=0
+BodyIdle=4195
+Body=4194
+Ataque1=4193
+Heading=3
+Movement=2
+Alineacion=0
+Veneno=1
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=0
+GiveGLD=0
+MinHP=500
+MaxHP=500
+MaxHIT=5
+MinHIT=2
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=30
+PoderEvasion=10
+Humanoide=0
+NPCLVL=1

@@ -2,7 +2,7 @@
 NUMEROHECHIZO=413
 NUMLOCALEMSG=2211
 NUMMAPAS=750
-NUMNPCS=9047
+NUMNPCS=9048
 NUMOBJS=9083
 NUMQUESTS=901
 NUMSUGERENCIAS=6
@@ -65934,7 +65934,7 @@ Obj1=9006-1000
 Obj2=9013-1000
 
 [NPC9007]
-Name=Vibora Test
+Name=Vibora Test Perfil Nuevo (TEST)
 Body=4194
 Head=0
 BodyIdle=4195
@@ -66345,6 +66345,20 @@ Desc=Dummy
 Body=4428
 HP=1000000
 NpcType=19
+
+[NPC9048]
+Name=Vibora Legacy Test (TEST)
+Body=4194
+Head=0
+BodyIdle=4195
+Ataque1=4193
+HP=500
+Comercia=0
+EXP=0
+ORO=0
+MaxHIT=5
+MinHIT=2
+NROITEMS=0
 
 [NAMEMAPA]
 mapa1Desc=Ciudad Neutral, entrada a Catacumbas

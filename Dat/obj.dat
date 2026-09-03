@@ -85352,12 +85352,19 @@ en_Name=Test Hemotoxin Dagger
 WeaponType=2
 NoWiki=1
 
-[OBJ9023] 'Reubicado de OBJ6265 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2)
+[OBJ9023] 'Reubicado de OBJ6265 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3 fix 2) -- D11(03.001 F5p24): ElemResist agregado, espejo exacto de OBJ9020 (mismos numeros que el propio Texto de este fixture ya prometia)
 Name=Anillo Antihemo Test
 GrhIndex=49267
 Objtype=35
 Crucial=0
 Agarrable=0
+ElemResistCount=1
+ElemResist1Type=4
+ElemResist1FlatMin=2
+ElemResist1FlatMax=4
+ElemResist1PctMin=50
+ElemResist1PctMax=50
+ElemResist1EffChance=50
 Valor=1
 MinELV=1
 peso=1
