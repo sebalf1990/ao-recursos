@@ -2,8 +2,8 @@
 NUMEROHECHIZO=413
 NUMLOCALEMSG=2211
 NUMMAPAS=750
-NUMNPCS=9033
-NUMOBJS=9080
+NUMNPCS=9043
+NUMOBJS=9081
 NUMQUESTS=901
 NUMSUGERENCIAS=6
 
@@ -70995,6 +70995,15 @@ MaxHit=10
 Valor=0
 Texto=Arma de prueba del sistema elemental (plan 02.001): golpe fijo sin elemental propio, encantable.
 
+[OBJ9081]
+Name=Test Fixed Dagger
+GrhIndex=5603
+ObjType=2
+MinHit=10
+MaxHit=10
+Valor=0
+Texto=Arma de prueba del sistema elemental (plan 02.001 F1b): golpe fijo sin elemental propio, encantable, apunala.
+
 [NP263]
 Name=Imperial Priest
 NpcType=2
@@ -71158,7 +71167,7 @@ MinHIT=0
 NROITEMS=0
 
 [NPC9011]
-Name=Test Spider Immune Hemo
+Name=Test Thorns 4 Axes
 Body=4208
 Head=0
 BodyIdle=4207
@@ -71422,6 +71431,76 @@ ORO=0
 MaxHIT=20000
 MinHIT=20000
 NROITEMS=0
+
+[NPC9034]
+Name=Dummy Cero (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9035]
+Name=Dummy Cero Resist Fuego (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9036]
+Name=Dummy Cero Inmune Fuego (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9037]
+Name=Dummy Cero Inmune Solo Dano Fuego (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9038]
+Name=Dummy Cero Inmune Solo Efecto Fuego (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9039]
+Name=Dummy Cero Resist Critico (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9040]
+Name=Dummy Cero Inmune Veneno (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9041]
+Name=Dummy Cero Resist Veneno (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9042]
+Name=Dummy Cero Espinas (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9043]
+Name=Dummy Cero EotId Invalido (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
 
 [NAMEMAPA]
 mapa1Desc=Ciudad Neutral, entrada a Catacumbas

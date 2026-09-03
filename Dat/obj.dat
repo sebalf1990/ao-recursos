@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9080
+NumOBJs=9081
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -72917,7 +72917,7 @@ ExtraCritAndStabChance=10
 ' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ367)
 WeaponType=2
 Anim=49
-Apunala=1
+Apuñala=1
 MinELV=33
 CP1=GUERRERO
 CP2=PALADIN
@@ -78038,7 +78038,7 @@ pt_Texto=Dano 2/3
 ' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ3686)
 WeaponType=2
 Anim=8
-Apunala=1
+Apuñala=1
 MinELV=1
 
 [OBJ3754] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
@@ -86536,3 +86536,17 @@ Valor=0
 MinELV=1
 peso=15
 Texto=Arma de prueba del sistema elemental (plan 02.001): golpe fijo sin elemental propio, encantable.
+[OBJ9081] 'TEST elemental (plan 02.001 F1b) - Daga Fija: golpe fijo sin componente elemental propio, encantable, apunala (companera de OBJ9080 para dagas)
+Name=Daga Fija (TEST)
+en_Name=Test Fixed Dagger
+GrhIndex=5603
+ObjType=2
+MinHit=10
+MaxHit=10
+WeaponType=2
+Anim=8
+Subtipo=11
+apuñala=1
+Valor=0
+MinELV=1
+Texto=Arma de prueba del sistema elemental (plan 02.001 F1b): golpe fijo sin elemental propio, encantable, apunala.
