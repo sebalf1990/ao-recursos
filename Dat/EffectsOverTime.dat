@@ -877,6 +877,7 @@ BuffType=2
 TickFX=21
 ClientEffectTypeId=53
 SharedTypeId=0
+DamageType=2
 
 [EOT67] 'Escarcha (plan 20.002 Ola 3) - slow (eApplyModifiers)
 Type=2
@@ -919,6 +920,7 @@ IntervaloDecayStackMs=4000
 ClientEffectTypeId=55
 SharedTypeId=0
 TickFX=14
+DamageType=7
 
 [EOT70] 'Quemadura Acumulativa (plan 20.002 Ola 5 Step 3b) - DoT de fuego con stacks
 Type=1
@@ -939,3 +941,4 @@ IntervaloDecayStackMs=4000
 ClientEffectTypeId=56
 SharedTypeId=0
 TickFX=21
+DamageType=2
