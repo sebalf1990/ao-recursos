@@ -68087,7 +68087,7 @@ Texto=Arma de prueba del sistema elemental (plan 20.002).
 [OBJ9065]
 Name=Anillo Ignifugo (TEST)
 GrhIndex=889
-ObjType=20
+ObjType=35
 Valor=0
 Texto=Anillo de prueba: resistencia al fuego (plan 20.002).
 
@@ -68203,14 +68203,14 @@ Texto=Espina letal fija 2000 al ser golpeado (test 06.002 ola 2).
 [OBJ9078]
 Name=Anillo Inmune Solo Dano Fuego (TEST)
 GrhIndex=889
-ObjType=20
+ObjType=35
 Valor=0
 Texto=Anillo de prueba: inmune solo al dano de fuego (plan 02.001).
 
 [OBJ9079]
 Name=Anillo Inmune Solo Efecto Fuego (TEST)
 GrhIndex=889
-ObjType=20
+ObjType=35
 Valor=0
 Texto=Anillo de prueba: inmune solo al efecto de fuego (plan 02.001).
 
