@@ -2,8 +2,8 @@
 NUMEROHECHIZO=413
 NUMLOCALEMSG=2211
 NUMMAPAS=750
-NUMNPCS=9043
-NUMOBJS=9081
+NUMNPCS=9047
+NUMOBJS=9083
 NUMQUESTS=901
 NUMSUGERENCIAS=6
 
@@ -68232,6 +68232,24 @@ MaxHit=10
 Valor=0
 Texto=Arma de prueba del sistema elemental (plan 02.001 F1b): golpe fijo sin elemental propio, encantable, apunala.
 
+[OBJ9082]
+Name=Espada Ignea Pura (TEST)
+GrhIndex=49167
+ObjType=2
+MinHit=10
+MaxHit=10
+Valor=0
+Texto=Arma de prueba del sistema elemental (plan 02.001 F1c): componente de fuego puro (8-12), sin proc, para aislar el dano directo (D9).
+
+[OBJ9083]
+Name=Espada Sangrante Pura (TEST)
+GrhIndex=49167
+ObjType=2
+MinHit=10
+MaxHit=10
+Valor=0
+Texto=Arma de prueba del sistema elemental (plan 02.001 F1c): componente de sangrado puro (4-6), sin proc, para aislar el dano directo (D9).
+
 [NP263]
 Name=Sacerdote Imperial
 NpcType=2
@@ -68718,6 +68736,34 @@ NpcType=19
 
 [NPC9043]
 Name=Dummy Cero EotId Invalido (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9044]
+Name=Dummy Cero Resist Escarcha (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9045]
+Name=Dummy Cero Resist Acido (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9046]
+Name=Dummy Cero Resist Arcano (TEST)
+Desc=Dummy
+Body=4428
+HP=1000000
+NpcType=19
+
+[NPC9047]
+Name=Dummy Cero Resist Sangrado (TEST)
 Desc=Dummy
 Body=4428
 HP=1000000

@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9081
+NumOBJs=9083
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -86550,3 +86550,39 @@ apuñala=1
 Valor=0
 MinELV=1
 Texto=Arma de prueba del sistema elemental (plan 02.001 F1b): golpe fijo sin elemental propio, encantable, apunala.
+[OBJ9082] 'TEST elemental (plan 02.001 F1c) - Espada Ignea Pura: ElemComp1Type=2 Min=8 Max=12, sin ElemProc (aisla el dano directo del componente, ver D9)
+Name=Espada Ignea Pura (TEST)
+en_Name=Test Pure Fire Sword
+GrhIndex=49167
+ObjType=2
+MinHit=10
+MaxHit=10
+WeaponType=1
+Anim=68
+Subtipo=11
+Valor=0
+MinELV=1
+peso=15
+Texto=Arma de prueba del sistema elemental (plan 02.001 F1c): componente de fuego puro (8-12), sin proc, para aislar el dano directo (D9).
+ElemCompCount=1
+ElemComp1Type=2
+ElemComp1Min=8
+ElemComp1Max=12
+[OBJ9083] 'TEST elemental (plan 02.001 F1c) - Espada Sangrante Pura: ElemComp1Type=7 Min=4 Max=6, sin ElemProc (aisla el dano directo del componente, ver D9)
+Name=Espada Sangrante Pura (TEST)
+en_Name=Test Pure Bleeding Sword
+GrhIndex=49167
+ObjType=2
+MinHit=10
+MaxHit=10
+WeaponType=1
+Anim=68
+Subtipo=11
+Valor=0
+MinELV=1
+peso=15
+Texto=Arma de prueba del sistema elemental (plan 02.001 F1c): componente de sangrado puro (4-6), sin proc, para aislar el dano directo (D9).
+ElemCompCount=1
+ElemComp1Type=7
+ElemComp1Min=4
+ElemComp1Max=6
