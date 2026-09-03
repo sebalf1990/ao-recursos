@@ -446,4 +446,14 @@ Row2=2 0.5 1 0.5
 Row3=0.5 1 0.5 2
 Row4=1 2 0.5 0.5
 [BACKSTAB]
+' Plan 02.001 (2026-09-03): claves que lee FileIO.bas:1040-1047 y que nunca existieron en este archivo (valian 0).
+' Valores del refactor upstream 122d73b2 (#1176), los que reemplazo al pasar de codigo a dato: Asesino 0.33*skill,
+' Bardo/Cazador 0.15*skill, resto 0.10*skill, critico de Bandido 0.25*skill, ModDanoGolpeCritico 0.33.
+CriticalHitDmgModifier=0.33
 IgnoreArmorChance=0.25
+ExtraBackstabChance=0
+AssasinStabbingChance=0.33
+HunterStabbingChance=0.15
+BardStabbingChance=0.15
+GenericStabbingChance=0.1
+BanditCriticalHitChance=0.25
