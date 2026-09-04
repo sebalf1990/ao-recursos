@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=413
-NUMLOCALEMSG=2211
+NUMLOCALEMSG=2212
 NUMMAPAS=750
 NUMNPCS=9048
 NUMOBJS=9083
@@ -2166,6 +2166,7 @@ Msg2208=Vous ne pouvez pas attribuer de points a une profession non apprise.
 Msg2209=Ce maitre n'achete pas d'objets.
 Msg2210=La classe Travailleur n est pas disponible lorsque les professions apprenables sont actives.
 Msg2211=Vous avez inflige ¬1 de ¬2 a la creature.
+Msg2212=Vous avez subi ¬1 dégâts de ¬2.
 
 [QUEST1]
 Nombre=Repos final
