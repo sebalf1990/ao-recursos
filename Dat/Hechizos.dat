@@ -19,7 +19,7 @@
 '4.....Terreno
 
 [INIT]
-NumeroHechizos=413
+NumeroHechizos=419
 
 ' ===Hechizos de entrenamiento posta [1 A 10]
 
@@ -6502,3 +6502,33 @@ ElemProc1Kind=1
 ElemProc1Trigger=0
 ElemProc1Type=2
 ElemProc1Eot=66
+
+[HECHIZO414] 'Catalogo elemental (plan 04.003) - receta armas T2
+Nombre=Receta: Forja Elemental Maestra
+Desc=¡Ya puedes forjar las armas elementales maestras! Necesitas Herrería 90 y 2 esencias del elemento.
+IconoIndex=49101
+
+[HECHIZO415] 'Catalogo elemental (plan 04.003) - receta joyería
+Nombre=Receta: Joyería Elemental
+Desc=¡Ya puedes forjar orbes, anillos y amuletos elementales! Los orbes exigen Herrería 100.
+IconoIndex=49100
+
+[HECHIZO416] 'Catalogo elemental (plan 04.003) - receta aceites superiores
+Nombre=Receta: Aceites Elementales Superiores
+Desc=¡Ya puedes destilar aceites superiores! Recuerda tener la olla, el mortero, los frascos y una Runa Elemental.
+IconoIndex=49098
+
+[HECHIZO417] 'Catalogo elemental (plan 04.003) - receta toxinas
+Nombre=Receta: Toxinas y Antídotos Superiores
+Desc=¡Ya puedes preparar los aceites de Hemotoxina y Neurotoxina y el Antídoto Universal!
+IconoIndex=74718
+
+[HECHIZO418] 'Catalogo elemental (plan 04.003) - receta espinas
+Nombre=Receta: Égida de Espinas
+Desc=¡Ya puedes forjar el escudo que devuelve el golpe recibido!
+IconoIndex=49099
+
+[HECHIZO419] 'Catalogo elemental (plan 04.003) - receta vestimenta
+Nombre=Receta: Vestimenta Elemental
+Desc=¡Ya puedes confeccionar túnicas y forjar armaduras con doble protección elemental!
+IconoIndex=49101
