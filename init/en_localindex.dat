@@ -1,10 +1,10 @@
 [INIT]
-NUMEROHECHIZO=413
+NUMEROHECHIZO=419
 NUMLOCALEMSG=2212
 NUMMAPAS=750
 NUMNPCS=9048
-NUMOBJS=9083
-NUMQUESTS=901
+NUMOBJS=9161
+NUMQUESTS=902
 NUMSUGERENCIAS=6
 
 [MODRAZA]
@@ -72503,3 +72503,1286 @@ Sugerencia4=Did you know that with the /events command you can find out which ev
 Sugerencia5=Did you know you can disable the game's default cursor in Options?
 Sugerencia6=Did you know that to talk globally you just have to enter ";" before your message?
 
+[OBJ9084]
+Name=Flame Sword
+GrhIndex=86197
+ObjType=2
+Valor=7000
+SkHerreria=55
+MinHIT=4
+MaxHIT=7
+LingH=55
+LingP=20
+Texto=Espada forjada con núcleo de brasa. Añade daño de Fuego al golpear.
+texto=Sword forged around a burning core. Adds Fire damage on hit.
+
+[OBJ9085]
+Name=Frost Sword
+GrhIndex=86197
+ObjType=2
+Valor=7000
+SkHerreria=55
+MinHIT=4
+MaxHIT=7
+LingH=55
+LingP=20
+Texto=Hoja cubierta de escarcha perpetua. Añade daño de Escarcha y puede ralentizar al enemigo.
+texto=Blade coated in perpetual frost. Adds Frost damage and can slow the enemy.
+
+[OBJ9086]
+Name=Corrosive Axe
+GrhIndex=44091
+ObjType=2
+Valor=7000
+SkHerreria=55
+MinHIT=3
+MaxHIT=7
+LingH=60
+LingP=15
+Texto=Filo tratado con ácido alquímico. Añade daño Ácido y puede corroer la defensa del enemigo.
+texto=Edge treated with alchemical acid. Adds Acid damage and can corrode the enemy's defense.
+
+[OBJ9087]
+Name=Arcane Hammer
+GrhIndex=44037
+ObjType=2
+Valor=7000
+SkHerreria=55
+MinHIT=3
+MaxHIT=7
+LingH=60
+LingP=15
+Texto=Martillo encantado con energía arcana pura. Añade daño Arcano al golpear.
+texto=Hammer enchanted with pure arcane energy. Adds Arcane damage on hit.
+
+[OBJ9088]
+Name=Bleeding Dagger
+GrhIndex=5603
+ObjType=2
+Valor=7000
+SkHerreria=55
+MinHIT=3
+MaxHIT=5
+LingH=70
+LingP=30
+Coal=12
+Texto=Hoja mellada a propósito. Puede abrir heridas que sangran con el tiempo.
+texto=Blade purposely notched. Can open wounds that bleed over time.
+
+[OBJ9089]
+Name=Venomous Dagger
+GrhIndex=5603
+ObjType=2
+Valor=7000
+SkHerreria=55
+MinHIT=3
+MaxHIT=6
+LingH=65
+LingP=25
+Coal=12
+Texto=Hoja tratada con veneno de contacto permanente. Envenena al enemigo al golpear.
+texto=Blade treated with permanent contact poison. Poisons the enemy on hit.
+
+[OBJ9090]
+Name=Everflame Sword
+GrhIndex=35873
+ObjType=2
+Valor=26000
+SkHerreria=90
+Hechizo=414
+MinHIT=7
+MaxHIT=11
+LingH=110
+LingP=70
+FireEssence=2
+Texto=Forjada en las fraguas eternas. El fuego que la habita nunca se apaga.
+texto=Forged in the eternal furnaces. The fire within it never fades.
+
+[OBJ9091]
+Name=Everwinter Sword
+GrhIndex=35873
+ObjType=2
+Valor=26000
+SkHerreria=90
+Hechizo=414
+MinHIT=7
+MaxHIT=11
+LingH=110
+LingP=70
+WaterEssence=2
+Texto=Templada en hielo que jamás se derrite. Congela la sangre de quien la sufre.
+texto=Tempered in ice that never melts. Freezes the blood of whoever suffers it.
+
+[OBJ9092]
+Name=Dissolving Axe
+GrhIndex=44091
+ObjType=2
+Valor=26000
+SkHerreria=90
+Hechizo=414
+MinHIT=5
+MaxHIT=13
+LingH=120
+LingP=55
+EarthEssence=2
+Texto=El filo rezuma un ácido que disuelve metal y carne por igual.
+texto=The edge oozes an acid that dissolves metal and flesh alike.
+
+[OBJ9093]
+Name=Void Hammer
+GrhIndex=44037
+ObjType=2
+Valor=26000
+SkHerreria=90
+Hechizo=414
+MinHIT=5
+MaxHIT=13
+LingH=120
+LingP=55
+WindEssence=2
+Texto=Cada golpe abre una fisura arcana diminuta que desgarra al enemigo.
+texto=Every blow opens a tiny arcane rift that tears at the enemy.
+
+[OBJ9094]
+Name=Exsanguinator
+GrhIndex=5603
+ObjType=2
+Valor=26000
+SkHerreria=90
+Hechizo=414
+MinHIT=5
+MaxHIT=8
+LingH=130
+LingP=85
+Coal=30
+Texto=Sus cortes no cierran: la sangre sigue brotando mucho después del golpe.
+texto=Its cuts do not close: blood keeps flowing long after the strike.
+
+[OBJ9095]
+Name=Widow's Fang
+GrhIndex=5603
+ObjType=2
+Valor=26000
+SkHerreria=90
+Hechizo=414
+MinHIT=5
+MaxHIT=8
+LingH=125
+LingP=80
+Coal=25
+Texto=Forjada con un veneno que se acumula en la herida hasta volverse letal.
+texto=Forged with a venom that builds up in the wound until it turns lethal.
+
+[OBJ9096]
+Name=Flame Arrow
+GrhIndex=277
+ObjType=32
+MinHIT=3
+MaxHIT=5
+Valor=25
+MaderaElfica=2
+Texto=Punta envuelta en llamas alquímicas. Añade daño de Fuego al impactar.
+texto=Tip wrapped in alchemical flame. Adds Fire damage on impact.
+
+[OBJ9097]
+Name=Frost Arrow
+GrhIndex=277
+ObjType=32
+MinHIT=3
+MaxHIT=5
+Valor=25
+MaderaElfica=2
+Texto=Punta escarchada que nunca se derrite. Añade daño de Escarcha al impactar.
+texto=Frost-coated tip that never melts. Adds Frost damage on impact.
+
+[OBJ9098]
+Name=Corrosive Arrow
+GrhIndex=277
+ObjType=32
+MinHIT=3
+MaxHIT=5
+Valor=25
+MaderaElfica=2
+Texto=Punta bañada en ácido alquímico. Añade daño Ácido al impactar.
+texto=Tip dipped in alchemical acid. Adds Acid damage on impact.
+
+[OBJ9099]
+Name=Arcane Arrow
+GrhIndex=753
+ObjType=32
+MinHIT=3
+MaxHIT=5
+Valor=25
+MaderaElfica=2
+Texto=Punta grabada con runas menores. Añade daño Arcano al impactar.
+texto=Tip etched with minor runes. Adds Arcane damage on impact.
+
+[OBJ9100]
+Name=Bleeding Arrow
+GrhIndex=753
+ObjType=32
+MinHIT=3
+MaxHIT=5
+Valor=25
+MaderaElfica=2
+Texto=Punta con muescas cruzadas. Puede abrir heridas que sangran con el tiempo.
+texto=Tip with crossed notches. Can open wounds that bleed over time.
+
+[OBJ9101]
+Name=Fire Oil
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=150
+SkPociones=45
+FrascoAlq=1
+Mortero=1
+FlorRoja=3
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con Fuego durante 60s. 8 cargas.
+texto=Coats your equipped weapon (or your arrows, if using a bow) with Fire for 60s. 8 charges.
+
+[OBJ9102]
+Name=Frost Oil
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=150
+SkPociones=45
+FrascoAlq=1
+Mortero=1
+FlorOceano=3
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con Escarcha durante 60s. 8 cargas.
+texto=Coats your equipped weapon (or your arrows, if using a bow) with Frost for 60s. 8 charges.
+
+[OBJ9103]
+Name=Corrosive Oil
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=150
+SkPociones=45
+FrascoAlq=1
+Mortero=1
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con Ácido durante 60s. 8 cargas.
+texto=Coats your equipped weapon (or your arrows, if using a bow) with Acid for 60s. 8 charges.
+
+[OBJ9104]
+Name=Arcane Oil
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=150
+SkPociones=45
+FrascoAlq=1
+Mortero=1
+HongoDeLuz=3
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con energía Arcana durante 60s. 8 cargas.
+texto=Coats your equipped weapon (or your arrows, if using a bow) with Arcane energy for 60s. 8 charges.
+
+[OBJ9105]
+Name=Hemorrhage Oil
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=150
+SkPociones=55
+FrascoAlq=1
+Mortero=1
+ColaDeZorro=4
+Cala=1
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con un filo que abre heridas sangrantes. 8 cargas.
+texto=Coats your equipped weapon (or your arrows, if using a bow) with an edge that opens bleeding wounds. 8 charges.
+
+[OBJ9106]
+Name=Greater Fire Oil
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=450
+SkPociones=80
+Hechizo=416
+FrascoAlq=2
+Mortero=1
+FlorRoja=4
+Texto=Destilado con una Runa de Fuego auténtica. Unta tu arma o flechas con Fuego durante 90s. 12 cargas.
+texto=Distilled with a genuine Fire Rune. Coats your weapon or arrows with Fire for 90s. 12 charges.
+
+[OBJ9107]
+Name=Greater Frost Oil
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=450
+SkPociones=80
+Hechizo=416
+FrascoAlq=2
+Mortero=1
+FlorOceano=4
+Texto=Destilado con una Runa de Agua auténtica. Unta tu arma o flechas con Escarcha durante 90s. 12 cargas.
+texto=Distilled with a genuine Water Rune. Coats your weapon or arrows with Frost for 90s. 12 charges.
+
+[OBJ9108]
+Name=Greater Corrosive Oil
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=450
+SkPociones=80
+Hechizo=416
+FrascoAlq=2
+Mortero=1
+Texto=Destilado con una Runa de Tierra auténtica. Unta tu arma o flechas con Ácido durante 90s. 12 cargas.
+texto=Distilled with a genuine Earth Rune. Coats your weapon or arrows with Acid for 90s. 12 charges.
+
+[OBJ9109]
+Name=Greater Arcane Oil
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=450
+SkPociones=80
+Hechizo=416
+FrascoAlq=2
+Mortero=1
+HongoDeLuz=4
+Texto=Destilado con una Runa de Viento auténtica. Unta tu arma o flechas con energía Arcana durante 90s. 12 cargas.
+texto=Distilled with a genuine Wind Rune. Coats your weapon or arrows with Arcane energy for 90s. 12 charges.
+
+[OBJ9110]
+Name=Greater Hemorrhage Oil
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=450
+SkPociones=85
+Hechizo=416
+FrascoAlq=2
+Mortero=2
+ColaDeZorro=6
+Cala=3
+Texto=Destilado con ingredientes superiores. Unta tu arma o flechas con un sangrado más severo durante 90s. 12 cargas.
+texto=Distilled with superior ingredients. Coats your weapon or arrows with a more severe bleed for 90s. 12 charges.
+
+[OBJ9111]
+Name=Fire Orb
+GrhIndex=38372
+ObjType=21
+Valor=15000
+SkHerreria=100
+Hechizo=415
+LingH=90
+LingP=45
+FireEssence=2
+Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica añaden daño de Fuego.
+texto=Permanent orb: while equipped, your hits with a typical weapon add Fire damage.
+
+[OBJ9112]
+Name=Frost Orb
+GrhIndex=38372
+ObjType=21
+Valor=15000
+SkHerreria=100
+Hechizo=415
+LingH=90
+LingP=45
+WaterEssence=2
+Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica añaden daño de Escarcha.
+texto=Permanent orb: while equipped, your hits with a typical weapon add Frost damage.
+
+[OBJ9113]
+Name=Corrosive Orb
+GrhIndex=38372
+ObjType=21
+Valor=15000
+SkHerreria=100
+Hechizo=415
+LingH=90
+LingP=45
+EarthEssence=2
+Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica añaden daño Ácido.
+texto=Permanent orb: while equipped, your hits with a typical weapon add Acid damage.
+
+[OBJ9114]
+Name=Arcane Orb
+GrhIndex=38372
+ObjType=21
+Valor=15000
+SkHerreria=100
+Hechizo=415
+LingH=90
+LingP=45
+WindEssence=2
+Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica añaden daño Arcano.
+texto=Permanent orb: while equipped, your hits with a typical weapon add Arcane damage.
+
+[OBJ9115]
+Name=Hemorrhage Orb
+GrhIndex=38372
+ObjType=21
+Valor=15000
+SkHerreria=100
+Hechizo=415
+LingH=110
+LingP=60
+Coal=25
+Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica pueden causar sangrado.
+texto=Permanent orb: while equipped, your hits with a typical weapon can cause bleeding.
+
+[OBJ9116]
+Name=Fireward Ring
+GrhIndex=49267
+ObjType=35
+Valor=5500
+SkHerreria=55
+LingH=70
+LingP=25
+Texto=Reduce el daño de Fuego que recibes entre un 15% y un 20%.
+texto=Reduces the Fire damage you take by 15% to 20%.
+
+[OBJ9117]
+Name=Frostward Ring
+GrhIndex=49267
+ObjType=35
+Valor=5500
+SkHerreria=55
+LingH=70
+LingP=25
+Texto=Reduce el daño de Escarcha que recibes entre un 15% y un 20%.
+texto=Reduces the Frost damage you take by 15% to 20%.
+
+[OBJ9118]
+Name=Acidward Ring
+GrhIndex=49267
+ObjType=35
+Valor=5500
+SkHerreria=55
+LingH=70
+LingP=25
+Texto=Reduce el daño Ácido que recibes entre un 15% y un 20%.
+texto=Reduces the Acid damage you take by 15% to 20%.
+
+[OBJ9119]
+Name=Arcaneward Ring
+GrhIndex=49267
+ObjType=35
+Valor=5500
+SkHerreria=55
+LingH=70
+LingP=25
+Texto=Reduce el daño Arcano que recibes entre un 15% y un 20%.
+texto=Reduces the Arcane damage you take by 15% to 20%.
+
+[OBJ9120]
+Name=Clotting Ring
+GrhIndex=49267
+ObjType=35
+Valor=5500
+SkHerreria=55
+LingH=90
+LingP=35
+Coal=15
+Texto=Reduce el daño por sangrado que recibes entre un 15% y un 20%.
+texto=Reduces the bleed damage you take by 15% to 20%.
+
+[OBJ9121]
+Name=Antitoxin Ring
+GrhIndex=49267
+ObjType=35
+Valor=5500
+SkHerreria=55
+LingH=90
+LingP=35
+Coal=15
+Texto=Reduce el daño de Veneno que recibes entre un 15% y un 20%.
+texto=Reduces the Poison damage you take by 15% to 20%.
+
+[OBJ9122]
+Name=Emberheart Ring
+GrhIndex=49270
+ObjType=35
+Valor=19000
+SkHerreria=90
+Hechizo=415
+LingH=115
+LingP=65
+FireEssence=2
+Texto=Reduce el daño de Fuego un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+texto=Reduces Fire damage by 25-30% and absorbs 1-2 flat points with a 25% chance.
+
+[OBJ9123]
+Name=Polarbreath Ring
+GrhIndex=49270
+ObjType=35
+Valor=19000
+SkHerreria=90
+Hechizo=415
+LingH=115
+LingP=65
+WaterEssence=2
+Texto=Reduce el daño de Escarcha un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+texto=Reduces Frost damage by 25-30% and absorbs 1-2 flat points with a 25% chance.
+
+[OBJ9124]
+Name=Stoneskin Ring
+GrhIndex=49270
+ObjType=35
+Valor=19000
+SkHerreria=90
+Hechizo=415
+LingH=115
+LingP=65
+EarthEssence=2
+Texto=Reduce el daño Ácido un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+texto=Reduces Acid damage by 25-30% and absorbs 1-2 flat points with a 25% chance.
+
+[OBJ9125]
+Name=Nullveil Ring
+GrhIndex=49270
+ObjType=35
+Valor=19000
+SkHerreria=90
+Hechizo=415
+LingH=115
+LingP=65
+WindEssence=2
+Texto=Reduce el daño Arcano un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+texto=Reduces Arcane damage by 25-30% and absorbs 1-2 flat points with a 25% chance.
+
+[OBJ9126]
+Name=Hemostatic Ring
+GrhIndex=49270
+ObjType=35
+Valor=19000
+SkHerreria=90
+Hechizo=415
+LingH=140
+LingP=85
+Coal=30
+Texto=Reduce el daño por sangrado un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+texto=Reduces bleed damage by 25-30% and absorbs 1-2 flat points with a 25% chance.
+
+[OBJ9127]
+Name=Pure Serum Ring
+GrhIndex=49270
+ObjType=35
+Valor=19000
+SkHerreria=90
+Hechizo=415
+LingH=140
+LingP=85
+Coal=30
+Texto=Reduce el daño de Veneno un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+texto=Reduces Poison damage by 25-30% and absorbs 1-2 flat points with a 25% chance.
+
+[OBJ9128]
+Name=Amulet of Two Seasons
+GrhIndex=25674
+ObjType=21
+Valor=25000
+SkHerreria=95
+Hechizo=415
+LingH=145
+LingP=110
+FireEssence=1
+WaterEssence=1
+Texto=Reduce el daño de Fuego y de Escarcha un 15-20% cada uno. Compite por el slot del orbe.
+texto=Reduces Fire and Frost damage by 15-20% each. Competes for the orb slot.
+
+[OBJ9129]
+Name=Amulet of the Venom Veil
+GrhIndex=25674
+ObjType=21
+Valor=25000
+SkHerreria=95
+Hechizo=415
+LingH=145
+LingP=110
+WindEssence=1
+EarthEssence=1
+Texto=Reduce el daño Arcano y de Veneno un 15-20% cada uno. Compite por el slot del orbe.
+texto=Reduces Arcane and Poison damage by 15-20% each. Competes for the orb slot.
+
+[OBJ9130]
+Name=Spiked Cuirass
+GrhIndex=1469
+ObjType=3
+MinDef=25
+MaxDef=27
+Valor=15000
+SkHerreria=70
+RopajeHumano=254
+RopajeElfo=254
+RopajeElfoOscuro=1754
+RopajeEnano=754
+RopajeOrco=1298
+RopajeGnomo=754
+RopajeHumana=254
+RopajeElfa=254
+RopajeElfaOscura=1754
+RopajeEnana=754
+RopajeOrca=1298
+RopajeGnoma=754
+LingH=120
+LingP=70
+Texto=Coraza erizada de púas de acero. Devuelve daño físico a quien te golpea cuerpo a cuerpo.
+texto=Cuirass bristling with steel spikes. Reflects physical damage to whoever hits you in melee.
+
+[OBJ9131]
+Name=Spiked Helm
+GrhIndex=559
+ObjType=17
+MinDef=7
+MaxDef=9
+Valor=9500
+SkHerreria=65
+LingH=85
+LingP=20
+Texto=Yelmo con puntas al rojo. Refleja parte del daño de Fuego que recibes.
+texto=Helm with red-hot spikes. Reflects part of the Fire damage you take.
+
+[OBJ9132]
+Name=Aegis of Thorns
+GrhIndex=86119
+ObjType=16
+MinDef=3
+MaxDef=5
+Hechizo=418
+Valor=16500
+SkHerreria=90
+LingH=130
+LingP=85
+EarthEssence=2
+Texto=Escudo rematado en espinas que devuelve tanto daño físico como parte de cualquier elemento recibido.
+texto=Shield lined with spikes that reflects both physical damage and part of any elemental damage taken.
+
+[OBJ9133]
+Name=Venom Oil
+GrhIndex=28753
+ObjType=11
+CD=15000
+CDType=8
+Valor=110
+SkPociones=45
+FrascoAlq=1
+Mortero=1
+Cala=3
+Texto=Unta tu arma equipada con Veneno Menor. Se excluye con los aceites elementales.
+texto=Coats your equipped weapon with Minor Poison. Excludes elemental oils.
+
+[OBJ9134]
+Name=Hemotoxin Oil
+GrhIndex=28753
+ObjType=11
+CD=15000
+CDType=8
+Hechizo=417
+Valor=220
+SkPociones=80
+FrascoAlq=2
+Mortero=1
+Cala=4
+FlorRoja=2
+Texto=Unta tu arma equipada con Hemotoxina, que acumula stacks de daño con cada golpe.
+texto=Coats your equipped weapon with Hemotoxin, which stacks damage with every hit.
+
+[OBJ9135]
+Name=Neurotoxin Oil
+GrhIndex=28753
+ObjType=11
+CD=15000
+CDType=8
+Hechizo=417
+Valor=220
+SkPociones=80
+FrascoAlq=2
+Mortero=1
+Cala=4
+HongoDeLuz=2
+Texto=Unta tu arma equipada con Neurotoxina, que penaliza puntería, evasión y regeneración de mana.
+texto=Coats your equipped weapon with Neurotoxin, penalizing accuracy, evasión and mana regen.
+
+[OBJ9136]
+Name=Partial Elemental Antidote
+GrhIndex=28750
+ObjType=11
+Valor=50
+SkPociones=40
+FrascoAlq=1
+FlorOceano=2
+Texto=Cura el Veneno Menor y reduce 2 stacks de Hemotoxina. No cura Neurotoxina.
+texto=Cures Minor Poison and reduces 2 Hemotoxin stacks. Does not cure Neurotoxin.
+
+[OBJ9137]
+Name=Universal Antidote
+GrhIndex=28750
+ObjType=11
+Hechizo=417
+Valor=260
+SkPociones=80
+FrascoAlq=2
+Mortero=1
+FlorOceano=4
+Tuna=2
+Texto=Cura cualquier veneno (Menor, Hemotoxina y Neurotoxina) de una sola vez.
+texto=Cures any poison (Minor, Hemotoxin and Neurotoxin) at once.
+
+[OBJ9138]
+Name=Scroll: Master Elemental Forging
+GrhIndex=28922
+ObjType=24
+Valor=15000
+Texto=Enseña la receta de las armas elementales maestras (Herrería 90 + 2 esencias del elemento).
+texto=Teaches the recipe for the master elemental weapons (Blacksmithing 90 + 2 essences of the element).
+
+[OBJ9139]
+Name=Scroll: Elemental Jewelcrafting
+GrhIndex=28924
+ObjType=24
+Valor=15000
+Texto=Enseña la receta de orbes, anillos elementales T2 y amuletos duales (los orbes exigen Herrería 100).
+texto=Teaches the recipe for orbs, T2 elemental rings and dual amulets (orbs require Blacksmithing 100).
+
+[OBJ9140]
+Name=Scroll: Greater Oils
+GrhIndex=28921
+ObjType=24
+Valor=15000
+Texto=Enseña la receta de los aceites elementales superiores (requieren una Runa Elemental).
+texto=Teaches the recipe for the greater elemental oils (require an Elemental Rune).
+
+[OBJ9141]
+Name=Scroll: Greater Toxins and Antidotes
+GrhIndex=28925
+ObjType=24
+Valor=15000
+Texto=Enseña la receta de los aceites de Hemotoxina y Neurotoxina y del Antídoto Universal.
+texto=Teaches the recipe for the Hemotoxin and Neurotoxin oils and the Universal Antidote.
+
+[OBJ9142]
+Name=Scroll: Aegis of Thorns
+GrhIndex=609
+ObjType=24
+Valor=15000
+Texto=Enseña la receta del escudo que devuelve el golpe recibido.
+texto=Teaches the recipe for the shield that reflects the hit taken.
+
+[OBJ9143]
+Name=Ash Robe
+GrhIndex=67
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=5500
+SKSastreria=55
+RopajeHumano=88
+RopajeElfo=88
+RopajeElfoOscuro=1731
+RopajeEnano=731
+RopajeOrco=1231
+RopajeGnomo=731
+RopajeHumana=88
+RopajeElfa=88
+RopajeElfaOscura=1731
+RopajeEnana=731
+RopajeOrca=1231
+RopajeGnoma=731
+PielLobo=15
+PielOsoPardo=10
+Texto=Tejida con hebras que resisten la ceniza. Reduce el daño de Fuego un 10-15%.
+texto=Woven with ash-resistant threads. Reduces Fire damage by 10-15%.
+
+[OBJ9144]
+Name=Rime Robe
+GrhIndex=67
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=5500
+SKSastreria=55
+RopajeHumano=88
+RopajeElfo=88
+RopajeElfoOscuro=1731
+RopajeEnano=731
+RopajeOrco=1231
+RopajeGnomo=731
+RopajeHumana=88
+RopajeElfa=88
+RopajeElfaOscura=1731
+RopajeEnana=731
+RopajeOrca=1231
+RopajeGnoma=731
+PielLobo=15
+PielOsoPardo=10
+Texto=Forrada contra el frío más intenso. Reduce el daño de Escarcha un 10-15%.
+texto=Lined against the harshest cold. Reduces Frost damage by 10-15%.
+
+[OBJ9145]
+Name=Marsh Robe
+GrhIndex=67
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=5500
+SKSastreria=55
+RopajeHumano=88
+RopajeElfo=88
+RopajeElfoOscuro=1731
+RopajeEnano=731
+RopajeOrco=1231
+RopajeGnomo=731
+RopajeHumana=88
+RopajeElfa=88
+RopajeElfaOscura=1731
+RopajeEnana=731
+RopajeOrca=1231
+RopajeGnoma=731
+PielLobo=15
+PielOsoPardo=10
+Texto=Tratada con resinas del pantano. Reduce el daño Ácido un 10-15%.
+texto=Treated with marsh resins. Reduces Acid damage by 10-15%.
+
+[OBJ9146]
+Name=Arcane-Hush Robe
+GrhIndex=67
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=5500
+SKSastreria=55
+RopajeHumano=88
+RopajeElfo=88
+RopajeElfoOscuro=1731
+RopajeEnano=731
+RopajeOrco=1231
+RopajeGnomo=731
+RopajeHumana=88
+RopajeElfa=88
+RopajeElfaOscura=1731
+RopajeEnana=731
+RopajeOrca=1231
+RopajeGnoma=731
+PielLobo=15
+PielOsoPardo=10
+Texto=Amortigua las energías arcanas antes de que te alcancen. Reduce el daño Arcano un 10-15%.
+texto=Dampens arcane energies before they reach you. Reduces Arcane damage by 10-15%.
+
+[OBJ9147]
+Name=Clotting Robe
+GrhIndex=67
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=5500
+SKSastreria=55
+RopajeHumano=88
+RopajeElfo=88
+RopajeElfoOscuro=1731
+RopajeEnano=731
+RopajeOrco=1231
+RopajeGnomo=731
+RopajeHumana=88
+RopajeElfa=88
+RopajeElfaOscura=1731
+RopajeEnana=731
+RopajeOrca=1231
+RopajeGnoma=731
+PielLobo=15
+PielOsoPardo=10
+Texto=Reforzada para cerrar heridas más rápido. Reduce el daño por sangrado un 10-15%.
+texto=Reinforced to close wounds faster. Reduces bleed damage by 10-15%.
+
+[OBJ9148]
+Name=Antitoxin Robe
+GrhIndex=67
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=5500
+SKSastreria=55
+RopajeHumano=88
+RopajeElfo=88
+RopajeElfoOscuro=1731
+RopajeEnano=731
+RopajeOrco=1231
+RopajeGnomo=731
+RopajeHumana=88
+RopajeElfa=88
+RopajeElfaOscura=1731
+RopajeEnana=731
+RopajeOrca=1231
+RopajeGnoma=731
+PielLobo=15
+PielOsoPardo=10
+Texto=Impregnada con hierbas antitóxicas. Reduce el daño de Veneno un 10-15%.
+texto=Impregnated with antitoxic herbs. Reduces Poison damage by 10-15%.
+
+[OBJ9149]
+Name=Fireward Mail
+GrhIndex=30867
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=7000
+SkHerreria=60
+RopajeHumano=74
+RopajeElfo=74
+RopajeElfoOscuro=1558
+RopajeEnano=558
+RopajeOrco=1058
+RopajeGnomo=558
+RopajeHumana=2058
+RopajeElfa=2058
+RopajeElfaOscura=1558
+RopajeEnana=2558
+RopajeOrca=1058
+RopajeGnoma=2558
+LingH=90
+LingP=30
+Texto=Cota de mallas tratada para resistir el calor extremo. Reduce el daño de Fuego un 10-15%.
+texto=Chain mail treated to withstand extreme heat. Reduces Fire damage by 10-15%.
+
+[OBJ9150]
+Name=Frostward Mail
+GrhIndex=30867
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=7000
+SkHerreria=60
+RopajeHumano=74
+RopajeElfo=74
+RopajeElfoOscuro=1558
+RopajeEnano=558
+RopajeOrco=1058
+RopajeGnomo=558
+RopajeHumana=2058
+RopajeElfa=2058
+RopajeElfaOscura=1558
+RopajeEnana=2558
+RopajeOrca=1058
+RopajeGnoma=2558
+LingH=90
+LingP=30
+Texto=Cota de mallas forrada por dentro. Reduce el daño de Escarcha un 10-15%.
+texto=Chain mail lined on the inside. Reduces Frost damage by 10-15%.
+
+[OBJ9151]
+Name=Acidward Mail
+GrhIndex=30867
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=7000
+SkHerreria=60
+RopajeHumano=74
+RopajeElfo=74
+RopajeElfoOscuro=1558
+RopajeEnano=558
+RopajeOrco=1058
+RopajeGnomo=558
+RopajeHumana=2058
+RopajeElfa=2058
+RopajeElfaOscura=1558
+RopajeEnana=2558
+RopajeOrca=1058
+RopajeGnoma=2558
+LingH=90
+LingP=30
+Texto=Cota de mallas con un tratamiento que resiste la corrosión. Reduce el daño Ácido un 10-15%.
+texto=Chain mail with a corrosión-resistant treatment. Reduces Acid damage by 10-15%.
+
+[OBJ9152]
+Name=Arcaneward Mail
+GrhIndex=30867
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=7000
+SkHerreria=60
+RopajeHumano=74
+RopajeElfo=74
+RopajeElfoOscuro=1558
+RopajeEnano=558
+RopajeOrco=1058
+RopajeGnomo=558
+RopajeHumana=2058
+RopajeElfa=2058
+RopajeElfaOscura=1558
+RopajeEnana=2558
+RopajeOrca=1058
+RopajeGnoma=2558
+LingH=90
+LingP=30
+Texto=Cota de mallas grabada con símbolos que disipan la magia. Reduce el daño Arcano un 10-15%.
+texto=Chain mail engraved with magic-dissipating symbols. Reduces Arcane damage by 10-15%.
+
+[OBJ9153]
+Name=Hemostatic Mail
+GrhIndex=30867
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=7000
+SkHerreria=60
+RopajeHumano=74
+RopajeElfo=74
+RopajeElfoOscuro=1558
+RopajeEnano=558
+RopajeOrco=1058
+RopajeGnomo=558
+RopajeHumana=2058
+RopajeElfa=2058
+RopajeElfaOscura=1558
+RopajeEnana=2558
+RopajeOrca=1058
+RopajeGnoma=2558
+LingH=90
+LingP=30
+Texto=Cota de mallas ajustada para minimizar los cortes profundos. Reduce el daño por sangrado un 10-15%.
+texto=Chain mail fitted to minimize deep cuts. Reduces bleed damage by 10-15%.
+
+[OBJ9154]
+Name=Antitoxin Mail
+GrhIndex=30867
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=7000
+SkHerreria=60
+RopajeHumano=74
+RopajeElfo=74
+RopajeElfoOscuro=1558
+RopajeEnano=558
+RopajeOrco=1058
+RopajeGnomo=558
+RopajeHumana=2058
+RopajeElfa=2058
+RopajeElfaOscura=1558
+RopajeEnana=2558
+RopajeOrca=1058
+RopajeGnoma=2558
+LingH=90
+LingP=30
+Texto=Cota de mallas con anillas selladas contra toxinas. Reduce el daño de Veneno un 10-15%.
+texto=Chain mail with rings sealed against toxins. Reduces Poison damage by 10-15%.
+
+[OBJ9155]
+Name=Robe of the Seasons
+GrhIndex=2597
+ObjType=3
+MinDef=28
+MaxDef=32
+Valor=21600
+SKSastreria=90
+Hechizo=419
+RopajeHumano=141
+RopajeElfo=141
+RopajeElfoOscuro=1609
+RopajeEnano=608
+RopajeOrco=1109
+RopajeGnomo=608
+RopajeHumana=2098
+RopajeElfa=2098
+RopajeElfaOscura=3555
+RopajeEnana=2597
+RopajeOrca=3148
+RopajeGnoma=2597
+PielTigreBengala=8
+PielLoboNegro=12
+PielOsoPolar=8
+Texto=Cambia de textura con el clima. Reduce el daño de Fuego y de Escarcha un 15-20% cada uno.
+texto=Its texture shifts with the weather. Reduces Fire and Frost damage by 15-20% each.
+
+[OBJ9156]
+Name=Robe of the Mire
+GrhIndex=2597
+ObjType=3
+MinDef=28
+MaxDef=32
+Valor=21600
+SKSastreria=90
+Hechizo=419
+RopajeHumano=141
+RopajeElfo=141
+RopajeElfoOscuro=1609
+RopajeEnano=608
+RopajeOrco=1109
+RopajeGnomo=608
+RopajeHumana=2098
+RopajeElfa=2098
+RopajeElfaOscura=3555
+RopajeEnana=2597
+RopajeOrca=3148
+RopajeGnoma=2597
+PielTigreBengala=8
+PielLoboNegro=12
+PielOsoPolar=8
+Texto=Curtida en los pantanos más hostiles. Reduce el daño Ácido y de Veneno un 15-20% cada uno.
+texto=Tanned in the harshest swamps. Reduces Acid and Poison damage by 15-20% each.
+
+[OBJ9157]
+Name=Robe of the Bleeding Void
+GrhIndex=2597
+ObjType=3
+MinDef=28
+MaxDef=32
+Valor=21600
+SKSastreria=90
+Hechizo=419
+RopajeHumano=141
+RopajeElfo=141
+RopajeElfoOscuro=1609
+RopajeEnano=608
+RopajeOrco=1109
+RopajeGnomo=608
+RopajeHumana=2098
+RopajeElfa=2098
+RopajeElfaOscura=3555
+RopajeEnana=2597
+RopajeOrca=3148
+RopajeGnoma=2597
+PielTigreBengala=8
+PielLoboNegro=12
+PielOsoPolar=8
+Texto=Tejida con hilos que susurran del vacío. Reduce el daño Arcano y por sangrado un 15-20% cada uno.
+texto=Woven with threads that whisper of the void. Reduces Arcane and bleed damage by 15-20% each.
+
+[OBJ9158]
+Name=Plate of the Seasons
+GrhIndex=1469
+ObjType=3
+MinDef=27
+MaxDef=29
+Valor=22000
+SkHerreria=90
+Hechizo=419
+RopajeHumano=254
+RopajeElfo=254
+RopajeElfoOscuro=1754
+RopajeEnano=754
+RopajeOrco=1298
+RopajeGnomo=754
+RopajeHumana=254
+RopajeElfa=254
+RopajeElfaOscura=1754
+RopajeEnana=754
+RopajeOrca=1298
+RopajeGnoma=754
+LingH=150
+LingP=90
+FireEssence=1
+WaterEssence=1
+Texto=Placas forjadas para resistir todas las estaciones. Reduce el daño de Fuego y de Escarcha un 15-20% cada uno.
+texto=Plate forged to withstand every season. Reduces Fire and Frost damage by 15-20% each.
+
+[OBJ9159]
+Name=Plate of the Mire
+GrhIndex=1469
+ObjType=3
+MinDef=27
+MaxDef=29
+Valor=22000
+SkHerreria=90
+Hechizo=419
+RopajeHumano=254
+RopajeElfo=254
+RopajeElfoOscuro=1754
+RopajeEnano=754
+RopajeOrco=1298
+RopajeGnomo=754
+RopajeHumana=254
+RopajeElfa=254
+RopajeElfaOscura=1754
+RopajeEnana=754
+RopajeOrca=1298
+RopajeGnoma=754
+LingH=150
+LingP=90
+EarthEssence=1
+Coal=20
+Texto=Placas tratadas contra la corrosión y las toxinas. Reduce el daño Ácido y de Veneno un 15-20% cada uno.
+texto=Plate treated against corrosión and toxins. Reduces Acid and Poison damage by 15-20% each.
+
+[OBJ9160]
+Name=Plate of the Bleeding Void
+GrhIndex=1469
+ObjType=3
+MinDef=27
+MaxDef=29
+Valor=22000
+SkHerreria=90
+Hechizo=419
+RopajeHumano=254
+RopajeElfo=254
+RopajeElfoOscuro=1754
+RopajeEnano=754
+RopajeOrco=1298
+RopajeGnomo=754
+RopajeHumana=254
+RopajeElfa=254
+RopajeElfaOscura=1754
+RopajeEnana=754
+RopajeOrca=1298
+RopajeGnoma=754
+LingH=150
+LingP=90
+WindEssence=1
+Coal=20
+Texto=Placas grabadas con símbolos que contienen el vacío. Reduce el daño Arcano y por sangrado un 15-20% cada uno.
+texto=Plate engraved with void-containing symbols. Reduces Arcane and bleed damage by 15-20% each.
+
+[OBJ9161]
+Name=Scroll: Elemental Vestments
+GrhIndex=28922
+ObjType=24
+Valor=15000
+Texto=Enseña a confeccionar túnicas y forjar armaduras con doble protección elemental.
+texto=Teaches how to craft robes and forge armor with dual elemental protection.
+
+[HECHIZO414]
+Nombre=Receta: Forja Elemental Maestra
+Desc=¡Ya puedes forjar las armas elementales maestras! Necesitas Herrería 90 y 2 esencias del elemento.
+IconoIndex=49101
+
+[HECHIZO415]
+Nombre=Receta: Joyería Elemental
+Desc=¡Ya puedes forjar orbes, anillos y amuletos elementales! Los orbes exigen Herrería 100.
+IconoIndex=49100
+
+[HECHIZO416]
+Nombre=Receta: Aceites Elementales Superiores
+Desc=¡Ya puedes destilar aceites superiores! Recuerda tener la olla, el mortero, los frascos y una Runa Elemental.
+IconoIndex=49098
+
+[HECHIZO417]
+Nombre=Receta: Toxinas y Antídotos Superiores
+Desc=¡Ya puedes preparar los aceites de Hemotoxina y Neurotoxina y el Antídoto Universal!
+IconoIndex=74718
+
+[HECHIZO418]
+Nombre=Receta: Égida de Espinas
+Desc=¡Ya puedes forjar el escudo que devuelve el golpe recibido!
+IconoIndex=49099
+
+[HECHIZO419]
+Nombre=Receta: Vestimenta Elemental
+Desc=¡Ya puedes confeccionar túnicas y forjar armaduras con doble protección elemental!
+IconoIndex=49101
+
+[QUEST902]
+Nombre=The Jewelry of the Element
+Desc=Thirga Brumhilda looks you up and down, weighing whether you have the patience for the forge's finest work. "Fire forges steel," she says, "but elemental jewelcrafting demands something more: the four pure essences. Fire, Water, Earth and Wind, each torn from a beast that guards them with its life. Bring me one of each and I will teach you to set them in gold and silver. No shortcuts, Worker: whoever rushes jewelcrafting ends up with burned hands."
+DescFinal=Ha! The four essences, intact, in your hand. Few endure the hunt needed to gather them all. Now pay attention: setting an orb, a ring or an amulet is not forging a sword, it is listening to the element before you lock it into the metal. From today, that listening is yours. Use the recipe with your head, and may your jewelcraft outlast your forge!
+Repetible=0
+RequiredLevel=33
+PosMap=594
