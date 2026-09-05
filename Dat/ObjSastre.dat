@@ -1,5 +1,5 @@
 [INIT]
-NumObjs=25
+NumObjs=34
 
 [Obj1]'Tela trabajada
 Index=3578
@@ -75,3 +75,30 @@ Index=3990
 
 [Obj25]'Capucha de Elite
 Index=1769
+
+[Obj26]'Túnica de Ceniza
+Index=9143
+
+[Obj27]'Túnica de Escarcha
+Index=9144
+
+[Obj28]'Túnica del Pantano
+Index=9145
+
+[Obj29]'Túnica del Silencio Arcano
+Index=9146
+
+[Obj30]'Túnica Coagulante
+Index=9147
+
+[Obj31]'Túnica Antitoxina
+Index=9148
+
+[Obj32]'Túnica de las Estaciones
+Index=9155
+
+[Obj33]'Túnica de la Ciénaga
+Index=9156
+
+[Obj34]'Túnica del Vacío Sangrante
+Index=9157

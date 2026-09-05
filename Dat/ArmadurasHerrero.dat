@@ -1,5 +1,5 @@
 [INIT]
-NumArmaduras=22
+NumArmaduras=53
 
 [Armadura1] 'Armadura de Herrero
 Index=1912
@@ -66,3 +66,96 @@ Index=3461
 
 [Armadura22] 'Relicario
 Index=3769
+
+[Armadura23] 'Orbe Ígneo
+Index=9111
+
+[Armadura24] 'Orbe Glacial
+Index=9112
+
+[Armadura25] 'Orbe Corrosivo
+Index=9113
+
+[Armadura26] 'Orbe Arcano
+Index=9114
+
+[Armadura27] 'Orbe Hemorrágico
+Index=9115
+
+[Armadura28] 'Anillo Ignífugo
+Index=9116
+
+[Armadura29] 'Anillo Térmico
+Index=9117
+
+[Armadura30] 'Anillo Inalterable
+Index=9118
+
+[Armadura31] 'Anillo de Disipación
+Index=9119
+
+[Armadura32] 'Anillo Coagulante
+Index=9120
+
+[Armadura33] 'Anillo Antitoxina
+Index=9121
+
+[Armadura34] 'Anillo del Corazón de Brasa
+Index=9122
+
+[Armadura35] 'Anillo del Aliento Polar
+Index=9123
+
+[Armadura36] 'Anillo de Piel de Roca
+Index=9124
+
+[Armadura37] 'Anillo del Velo Nulo
+Index=9125
+
+[Armadura38] 'Anillo Hemostático
+Index=9126
+
+[Armadura39] 'Anillo del Suero Puro
+Index=9127
+
+[Armadura40] 'Amuleto de las Dos Estaciones
+Index=9128
+
+[Armadura41] 'Amuleto del Velo Ponzoñoso
+Index=9129
+
+[Armadura42] 'Coraza de Púas
+Index=9130
+
+[Armadura43] 'Yelmo de Púas
+Index=9131
+
+[Armadura44] 'Égida de Espinas
+Index=9132
+
+[Armadura45] 'Cota Ignífuga
+Index=9149
+
+[Armadura46] 'Cota Térmica
+Index=9150
+
+[Armadura47] 'Cota Inalterable
+Index=9151
+
+[Armadura48] 'Cota de Disipación
+Index=9152
+
+[Armadura49] 'Cota Hemostática
+Index=9153
+
+[Armadura50] 'Cota Antitoxina
+Index=9154
+
+[Armadura51] 'Placas de las Estaciones
+Index=9158
+
+[Armadura52] 'Placas de la Ciénaga
+Index=9159
+
+[Armadura53] 'Placas del Vacío Sangrante
+Index=9160

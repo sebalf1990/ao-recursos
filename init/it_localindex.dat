@@ -1,10 +1,10 @@
 [INIT]
-NUMEROHECHIZO=413
+NUMEROHECHIZO=419
 NUMLOCALEMSG=2212
 NUMMAPAS=750
 NUMNPCS=9048
-NUMOBJS=9083
-NUMQUESTS=901
+NUMOBJS=9161
+NUMQUESTS=902
 NUMSUGERENCIAS=6
 
 [MODRAZA]
@@ -69724,3 +69724,1208 @@ Sugerencia4=Sapevi che con il comando /events puoi scoprire quale evento e quand
 Sugerencia5=Sapevi che puoi disattivare il cursore predefinito del gioco nelle Opzioni?
 Sugerencia6=Sapevi che per parlare a livello globale basta inserire ";" prima del messaggio?
 
+[OBJ9084]
+Name=Spada di Fiamma
+GrhIndex=86197
+ObjType=2
+Valor=7000
+SkHerreria=55
+MinHIT=4
+MaxHIT=7
+LingH=55
+LingP=20
+Texto=Espada forjada con núcleo de brasa. Añade daño de Fuego al golpear.
+
+[OBJ9085]
+Name=Spada di Brina
+GrhIndex=86197
+ObjType=2
+Valor=7000
+SkHerreria=55
+MinHIT=4
+MaxHIT=7
+LingH=55
+LingP=20
+Texto=Hoja cubierta de escarcha perpetua. Añade daño de Escarcha y puede ralentizar al enemigo.
+
+[OBJ9086]
+Name=Ascia Corrosiva
+GrhIndex=44091
+ObjType=2
+Valor=7000
+SkHerreria=55
+MinHIT=3
+MaxHIT=7
+LingH=60
+LingP=15
+Texto=Filo tratado con ácido alquímico. Añade daño Ácido y puede corroer la defensa del enemigo.
+
+[OBJ9087]
+Name=Martello Arcano
+GrhIndex=44037
+ObjType=2
+Valor=7000
+SkHerreria=55
+MinHIT=3
+MaxHIT=7
+LingH=60
+LingP=15
+Texto=Martillo encantado con energía arcana pura. Añade daño Arcano al golpear.
+
+[OBJ9088]
+Name=Pugnale Sanguinante
+GrhIndex=5603
+ObjType=2
+Valor=7000
+SkHerreria=55
+MinHIT=3
+MaxHIT=5
+LingH=70
+LingP=30
+Coal=12
+Texto=Hoja mellada a propósito. Puede abrir heridas que sangran con el tiempo.
+
+[OBJ9089]
+Name=Pugnale Velenoso
+GrhIndex=5603
+ObjType=2
+Valor=7000
+SkHerreria=55
+MinHIT=3
+MaxHIT=6
+LingH=65
+LingP=25
+Coal=12
+Texto=Hoja tratada con veneno de contacto permanente. Envenena al enemigo al golpear.
+
+[OBJ9090]
+Name=Spada del Fuoco Eterno
+GrhIndex=35873
+ObjType=2
+Valor=26000
+SkHerreria=90
+Hechizo=414
+MinHIT=7
+MaxHIT=11
+LingH=110
+LingP=70
+FireEssence=2
+Texto=Forjada en las fraguas eternas. El fuego que la habita nunca se apaga.
+
+[OBJ9091]
+Name=Spada dell'Inverno Eterno
+GrhIndex=35873
+ObjType=2
+Valor=26000
+SkHerreria=90
+Hechizo=414
+MinHIT=7
+MaxHIT=11
+LingH=110
+LingP=70
+WaterEssence=2
+Texto=Templada en hielo que jamás se derrite. Congela la sangre de quien la sufre.
+
+[OBJ9092]
+Name=Ascia Dissolvente
+GrhIndex=44091
+ObjType=2
+Valor=26000
+SkHerreria=90
+Hechizo=414
+MinHIT=5
+MaxHIT=13
+LingH=120
+LingP=55
+EarthEssence=2
+Texto=El filo rezuma un ácido que disuelve metal y carne por igual.
+
+[OBJ9093]
+Name=Martello del Vuoto
+GrhIndex=44037
+ObjType=2
+Valor=26000
+SkHerreria=90
+Hechizo=414
+MinHIT=5
+MaxHIT=13
+LingH=120
+LingP=55
+WindEssence=2
+Texto=Cada golpe abre una fisura arcana diminuta que desgarra al enemigo.
+
+[OBJ9094]
+Name=Pugnale Dissanguante
+GrhIndex=5603
+ObjType=2
+Valor=26000
+SkHerreria=90
+Hechizo=414
+MinHIT=5
+MaxHIT=8
+LingH=130
+LingP=85
+Coal=30
+Texto=Sus cortes no cierran: la sangre sigue brotando mucho después del golpe.
+
+[OBJ9095]
+Name=Zanna della Vedova
+GrhIndex=5603
+ObjType=2
+Valor=26000
+SkHerreria=90
+Hechizo=414
+MinHIT=5
+MaxHIT=8
+LingH=125
+LingP=80
+Coal=25
+Texto=Forjada con un veneno que se acumula en la herida hasta volverse letal.
+
+[OBJ9096]
+Name=Freccia di Fiamma
+GrhIndex=277
+ObjType=32
+MinHIT=3
+MaxHIT=5
+Valor=25
+MaderaElfica=2
+Texto=Punta envuelta en llamas alquímicas. Añade daño de Fuego al impactar.
+
+[OBJ9097]
+Name=Freccia di Brina
+GrhIndex=277
+ObjType=32
+MinHIT=3
+MaxHIT=5
+Valor=25
+MaderaElfica=2
+Texto=Punta escarchada que nunca se derrite. Añade daño de Escarcha al impactar.
+
+[OBJ9098]
+Name=Freccia Corrosiva
+GrhIndex=277
+ObjType=32
+MinHIT=3
+MaxHIT=5
+Valor=25
+MaderaElfica=2
+Texto=Punta bañada en ácido alquímico. Añade daño Ácido al impactar.
+
+[OBJ9099]
+Name=Freccia Arcana
+GrhIndex=753
+ObjType=32
+MinHIT=3
+MaxHIT=5
+Valor=25
+MaderaElfica=2
+Texto=Punta grabada con runas menores. Añade daño Arcano al impactar.
+
+[OBJ9100]
+Name=Freccia Sanguinante
+GrhIndex=753
+ObjType=32
+MinHIT=3
+MaxHIT=5
+Valor=25
+MaderaElfica=2
+Texto=Punta con muescas cruzadas. Puede abrir heridas que sangran con el tiempo.
+
+[OBJ9101]
+Name=Olio di Fuoco
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=150
+SkPociones=45
+FrascoAlq=1
+Mortero=1
+FlorRoja=3
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con Fuego durante 60s. 8 cargas.
+
+[OBJ9102]
+Name=Olio Glaciale
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=150
+SkPociones=45
+FrascoAlq=1
+Mortero=1
+FlorOceano=3
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con Escarcha durante 60s. 8 cargas.
+
+[OBJ9103]
+Name=Olio Corrosivo
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=150
+SkPociones=45
+FrascoAlq=1
+Mortero=1
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con Ácido durante 60s. 8 cargas.
+
+[OBJ9104]
+Name=Olio Arcano
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=150
+SkPociones=45
+FrascoAlq=1
+Mortero=1
+HongoDeLuz=3
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con energía Arcana durante 60s. 8 cargas.
+
+[OBJ9105]
+Name=Olio Emorragico
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=150
+SkPociones=55
+FrascoAlq=1
+Mortero=1
+ColaDeZorro=4
+Cala=1
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con un filo que abre heridas sangrantes. 8 cargas.
+
+[OBJ9106]
+Name=Olio di Fuoco Superiore
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=450
+SkPociones=80
+Hechizo=416
+FrascoAlq=2
+Mortero=1
+FlorRoja=4
+Texto=Destilado con una Runa de Fuego auténtica. Unta tu arma o flechas con Fuego durante 90s. 12 cargas.
+
+[OBJ9107]
+Name=Olio Glaciale Superiore
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=450
+SkPociones=80
+Hechizo=416
+FrascoAlq=2
+Mortero=1
+FlorOceano=4
+Texto=Destilado con una Runa de Agua auténtica. Unta tu arma o flechas con Escarcha durante 90s. 12 cargas.
+
+[OBJ9108]
+Name=Olio Corrosivo Superiore
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=450
+SkPociones=80
+Hechizo=416
+FrascoAlq=2
+Mortero=1
+Texto=Destilado con una Runa de Tierra auténtica. Unta tu arma o flechas con Ácido durante 90s. 12 cargas.
+
+[OBJ9109]
+Name=Olio Arcano Superiore
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=450
+SkPociones=80
+Hechizo=416
+FrascoAlq=2
+Mortero=1
+HongoDeLuz=4
+Texto=Destilado con una Runa de Viento auténtica. Unta tu arma o flechas con energía Arcana durante 90s. 12 cargas.
+
+[OBJ9110]
+Name=Olio Emorragico Superiore
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=450
+SkPociones=85
+Hechizo=416
+FrascoAlq=2
+Mortero=2
+ColaDeZorro=6
+Cala=3
+Texto=Destilado con ingredientes superiores. Unta tu arma o flechas con un sangrado más severo durante 90s. 12 cargas.
+
+[OBJ9111]
+Name=Orbe di Fuoco
+GrhIndex=38372
+ObjType=21
+Valor=15000
+SkHerreria=100
+Hechizo=415
+LingH=90
+LingP=45
+FireEssence=2
+Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica añaden daño de Fuego.
+
+[OBJ9112]
+Name=Orbe Glaciale
+GrhIndex=38372
+ObjType=21
+Valor=15000
+SkHerreria=100
+Hechizo=415
+LingH=90
+LingP=45
+WaterEssence=2
+Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica añaden daño de Escarcha.
+
+[OBJ9113]
+Name=Orbe Corrosivo
+GrhIndex=38372
+ObjType=21
+Valor=15000
+SkHerreria=100
+Hechizo=415
+LingH=90
+LingP=45
+EarthEssence=2
+Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica añaden daño Ácido.
+
+[OBJ9114]
+Name=Orbe Arcano
+GrhIndex=38372
+ObjType=21
+Valor=15000
+SkHerreria=100
+Hechizo=415
+LingH=90
+LingP=45
+WindEssence=2
+Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica añaden daño Arcano.
+
+[OBJ9115]
+Name=Orbe Emorragico
+GrhIndex=38372
+ObjType=21
+Valor=15000
+SkHerreria=100
+Hechizo=415
+LingH=110
+LingP=60
+Coal=25
+Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica pueden causar sangrado.
+
+[OBJ9116]
+Name=Anello Ignífugo
+GrhIndex=49267
+ObjType=35
+Valor=5500
+SkHerreria=55
+LingH=70
+LingP=25
+Texto=Reduce el daño de Fuego que recibes entre un 15% y un 20%.
+
+[OBJ9117]
+Name=Anello Térmico
+GrhIndex=49267
+ObjType=35
+Valor=5500
+SkHerreria=55
+LingH=70
+LingP=25
+Texto=Reduce el daño de Escarcha que recibes entre un 15% y un 20%.
+
+[OBJ9118]
+Name=Anello Inalterabile
+GrhIndex=49267
+ObjType=35
+Valor=5500
+SkHerreria=55
+LingH=70
+LingP=25
+Texto=Reduce el daño Ácido que recibes entre un 15% y un 20%.
+
+[OBJ9119]
+Name=Anello di Dissipazione
+GrhIndex=49267
+ObjType=35
+Valor=5500
+SkHerreria=55
+LingH=70
+LingP=25
+Texto=Reduce el daño Arcano que recibes entre un 15% y un 20%.
+
+[OBJ9120]
+Name=Anello Coagulante
+GrhIndex=49267
+ObjType=35
+Valor=5500
+SkHerreria=55
+LingH=90
+LingP=35
+Coal=15
+Texto=Reduce el daño por sangrado que recibes entre un 15% y un 20%.
+
+[OBJ9121]
+Name=Anello Antitossina
+GrhIndex=49267
+ObjType=35
+Valor=5500
+SkHerreria=55
+LingH=90
+LingP=35
+Coal=15
+Texto=Reduce el daño de Veneno que recibes entre un 15% y un 20%.
+
+[OBJ9122]
+Name=Anello del Cuore di Brace
+GrhIndex=49270
+ObjType=35
+Valor=19000
+SkHerreria=90
+Hechizo=415
+LingH=115
+LingP=65
+FireEssence=2
+Texto=Reduce el daño de Fuego un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+
+[OBJ9123]
+Name=Anello del Respiro Polare
+GrhIndex=49270
+ObjType=35
+Valor=19000
+SkHerreria=90
+Hechizo=415
+LingH=115
+LingP=65
+WaterEssence=2
+Texto=Reduce el daño de Escarcha un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+
+[OBJ9124]
+Name=Anello di Pelle di Pietra
+GrhIndex=49270
+ObjType=35
+Valor=19000
+SkHerreria=90
+Hechizo=415
+LingH=115
+LingP=65
+EarthEssence=2
+Texto=Reduce el daño Ácido un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+
+[OBJ9125]
+Name=Anello del Velo Nullo
+GrhIndex=49270
+ObjType=35
+Valor=19000
+SkHerreria=90
+Hechizo=415
+LingH=115
+LingP=65
+WindEssence=2
+Texto=Reduce el daño Arcano un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+
+[OBJ9126]
+Name=Anello Emostatico
+GrhIndex=49270
+ObjType=35
+Valor=19000
+SkHerreria=90
+Hechizo=415
+LingH=140
+LingP=85
+Coal=30
+Texto=Reduce el daño por sangrado un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+
+[OBJ9127]
+Name=Anello del Siero Puro
+GrhIndex=49270
+ObjType=35
+Valor=19000
+SkHerreria=90
+Hechizo=415
+LingH=140
+LingP=85
+Coal=30
+Texto=Reduce el daño de Veneno un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+
+[OBJ9128]
+Name=Amuleto delle Due Stagioni
+GrhIndex=25674
+ObjType=21
+Valor=25000
+SkHerreria=95
+Hechizo=415
+LingH=145
+LingP=110
+FireEssence=1
+WaterEssence=1
+Texto=Reduce el daño de Fuego y de Escarcha un 15-20% cada uno. Compite por el slot del orbe.
+
+[OBJ9129]
+Name=Amuleto del Velo Velenoso
+GrhIndex=25674
+ObjType=21
+Valor=25000
+SkHerreria=95
+Hechizo=415
+LingH=145
+LingP=110
+WindEssence=1
+EarthEssence=1
+Texto=Reduce el daño Arcano y de Veneno un 15-20% cada uno. Compite por el slot del orbe.
+
+[OBJ9130]
+Name=Corazza di Spuntoni
+GrhIndex=1469
+ObjType=3
+MinDef=25
+MaxDef=27
+Valor=15000
+SkHerreria=70
+RopajeHumano=254
+RopajeElfo=254
+RopajeElfoOscuro=1754
+RopajeEnano=754
+RopajeOrco=1298
+RopajeGnomo=754
+RopajeHumana=254
+RopajeElfa=254
+RopajeElfaOscura=1754
+RopajeEnana=754
+RopajeOrca=1298
+RopajeGnoma=754
+LingH=120
+LingP=70
+Texto=Coraza erizada de púas de acero. Devuelve daño físico a quien te golpea cuerpo a cuerpo.
+
+[OBJ9131]
+Name=Elmo di Spuntoni
+GrhIndex=559
+ObjType=17
+MinDef=7
+MaxDef=9
+Valor=9500
+SkHerreria=65
+LingH=85
+LingP=20
+Texto=Yelmo con puntas al rojo. Refleja parte del daño de Fuego que recibes.
+
+[OBJ9132]
+Name=Égida di Spine
+GrhIndex=86119
+ObjType=16
+MinDef=3
+MaxDef=5
+Hechizo=418
+Valor=16500
+SkHerreria=90
+LingH=130
+LingP=85
+EarthEssence=2
+Texto=Escudo rematado en espinas que devuelve tanto daño físico como parte de cualquier elemento recibido.
+
+[OBJ9133]
+Name=Olio Velenoso
+GrhIndex=28753
+ObjType=11
+CD=15000
+CDType=8
+Valor=110
+SkPociones=45
+FrascoAlq=1
+Mortero=1
+Cala=3
+Texto=Unta tu arma equipada con Veneno Menor. Se excluye con los aceites elementales.
+
+[OBJ9134]
+Name=Olio di Emotossina
+GrhIndex=28753
+ObjType=11
+CD=15000
+CDType=8
+Hechizo=417
+Valor=220
+SkPociones=80
+FrascoAlq=2
+Mortero=1
+Cala=4
+FlorRoja=2
+Texto=Unta tu arma equipada con Hemotoxina, que acumula stacks de daño con cada golpe.
+
+[OBJ9135]
+Name=Olio di Neurotossina
+GrhIndex=28753
+ObjType=11
+CD=15000
+CDType=8
+Hechizo=417
+Valor=220
+SkPociones=80
+FrascoAlq=2
+Mortero=1
+Cala=4
+HongoDeLuz=2
+Texto=Unta tu arma equipada con Neurotoxina, que penaliza puntería, evasión y regeneración de mana.
+
+[OBJ9136]
+Name=Antídoto Elementale Parziale
+GrhIndex=28750
+ObjType=11
+Valor=50
+SkPociones=40
+FrascoAlq=1
+FlorOceano=2
+Texto=Cura el Veneno Menor y reduce 2 stacks de Hemotoxina. No cura Neurotoxina.
+
+[OBJ9137]
+Name=Antídoto Universale
+GrhIndex=28750
+ObjType=11
+Hechizo=417
+Valor=260
+SkPociones=80
+FrascoAlq=2
+Mortero=1
+FlorOceano=4
+Tuna=2
+Texto=Cura cualquier veneno (Menor, Hemotoxina y Neurotoxina) de una sola vez.
+
+[OBJ9138]
+Name=Pergamena: Forgia Elementale Suprema
+GrhIndex=28922
+ObjType=24
+Valor=15000
+Texto=Enseña la receta de las armas elementales maestras (Herrería 90 + 2 esencias del elemento).
+
+[OBJ9139]
+Name=Pergamena: Gioielleria Elementale
+GrhIndex=28924
+ObjType=24
+Valor=15000
+Texto=Enseña la receta de orbes, anillos elementales T2 y amuletos duales (los orbes exigen Herrería 100).
+
+[OBJ9140]
+Name=Pergamena: Oli Superiori
+GrhIndex=28921
+ObjType=24
+Valor=15000
+Texto=Enseña la receta de los aceites elementales superiores (requieren una Runa Elemental).
+
+[OBJ9141]
+Name=Pergamena: Tossine e Antidoti Superiori
+GrhIndex=28925
+ObjType=24
+Valor=15000
+Texto=Enseña la receta de los aceites de Hemotoxina y Neurotoxina y del Antídoto Universal.
+
+[OBJ9142]
+Name=Pergamena: Égida di Spine
+GrhIndex=609
+ObjType=24
+Valor=15000
+Texto=Enseña la receta del escudo que devuelve el golpe recibido.
+
+[OBJ9143]
+Name=Túnica di Cenere
+GrhIndex=67
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=5500
+SKSastreria=55
+RopajeHumano=88
+RopajeElfo=88
+RopajeElfoOscuro=1731
+RopajeEnano=731
+RopajeOrco=1231
+RopajeGnomo=731
+RopajeHumana=88
+RopajeElfa=88
+RopajeElfaOscura=1731
+RopajeEnana=731
+RopajeOrca=1231
+RopajeGnoma=731
+PielLobo=15
+PielOsoPardo=10
+Texto=Tejida con hebras que resisten la ceniza. Reduce el daño de Fuego un 10-15%.
+
+[OBJ9144]
+Name=Túnica di Brina
+GrhIndex=67
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=5500
+SKSastreria=55
+RopajeHumano=88
+RopajeElfo=88
+RopajeElfoOscuro=1731
+RopajeEnano=731
+RopajeOrco=1231
+RopajeGnomo=731
+RopajeHumana=88
+RopajeElfa=88
+RopajeElfaOscura=1731
+RopajeEnana=731
+RopajeOrca=1231
+RopajeGnoma=731
+PielLobo=15
+PielOsoPardo=10
+Texto=Forrada contra el frío más intenso. Reduce el daño de Escarcha un 10-15%.
+
+[OBJ9145]
+Name=Túnica della Palude
+GrhIndex=67
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=5500
+SKSastreria=55
+RopajeHumano=88
+RopajeElfo=88
+RopajeElfoOscuro=1731
+RopajeEnano=731
+RopajeOrco=1231
+RopajeGnomo=731
+RopajeHumana=88
+RopajeElfa=88
+RopajeElfaOscura=1731
+RopajeEnana=731
+RopajeOrca=1231
+RopajeGnoma=731
+PielLobo=15
+PielOsoPardo=10
+Texto=Tratada con resinas del pantano. Reduce el daño Ácido un 10-15%.
+
+[OBJ9146]
+Name=Túnica del Silenzio Arcano
+GrhIndex=67
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=5500
+SKSastreria=55
+RopajeHumano=88
+RopajeElfo=88
+RopajeElfoOscuro=1731
+RopajeEnano=731
+RopajeOrco=1231
+RopajeGnomo=731
+RopajeHumana=88
+RopajeElfa=88
+RopajeElfaOscura=1731
+RopajeEnana=731
+RopajeOrca=1231
+RopajeGnoma=731
+PielLobo=15
+PielOsoPardo=10
+Texto=Amortigua las energías arcanas antes de que te alcancen. Reduce el daño Arcano un 10-15%.
+
+[OBJ9147]
+Name=Túnica Coagulante
+GrhIndex=67
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=5500
+SKSastreria=55
+RopajeHumano=88
+RopajeElfo=88
+RopajeElfoOscuro=1731
+RopajeEnano=731
+RopajeOrco=1231
+RopajeGnomo=731
+RopajeHumana=88
+RopajeElfa=88
+RopajeElfaOscura=1731
+RopajeEnana=731
+RopajeOrca=1231
+RopajeGnoma=731
+PielLobo=15
+PielOsoPardo=10
+Texto=Reforzada para cerrar heridas más rápido. Reduce el daño por sangrado un 10-15%.
+
+[OBJ9148]
+Name=Túnica Antitossina
+GrhIndex=67
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=5500
+SKSastreria=55
+RopajeHumano=88
+RopajeElfo=88
+RopajeElfoOscuro=1731
+RopajeEnano=731
+RopajeOrco=1231
+RopajeGnomo=731
+RopajeHumana=88
+RopajeElfa=88
+RopajeElfaOscura=1731
+RopajeEnana=731
+RopajeOrca=1231
+RopajeGnoma=731
+PielLobo=15
+PielOsoPardo=10
+Texto=Impregnada con hierbas antitóxicas. Reduce el daño de Veneno un 10-15%.
+
+[OBJ9149]
+Name=Cotta Ignífuga
+GrhIndex=30867
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=7000
+SkHerreria=60
+RopajeHumano=74
+RopajeElfo=74
+RopajeElfoOscuro=1558
+RopajeEnano=558
+RopajeOrco=1058
+RopajeGnomo=558
+RopajeHumana=2058
+RopajeElfa=2058
+RopajeElfaOscura=1558
+RopajeEnana=2558
+RopajeOrca=1058
+RopajeGnoma=2558
+LingH=90
+LingP=30
+Texto=Cota de mallas tratada para resistir el calor extremo. Reduce el daño de Fuego un 10-15%.
+
+[OBJ9150]
+Name=Cotta Térmica
+GrhIndex=30867
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=7000
+SkHerreria=60
+RopajeHumano=74
+RopajeElfo=74
+RopajeElfoOscuro=1558
+RopajeEnano=558
+RopajeOrco=1058
+RopajeGnomo=558
+RopajeHumana=2058
+RopajeElfa=2058
+RopajeElfaOscura=1558
+RopajeEnana=2558
+RopajeOrca=1058
+RopajeGnoma=2558
+LingH=90
+LingP=30
+Texto=Cota de mallas forrada por dentro. Reduce el daño de Escarcha un 10-15%.
+
+[OBJ9151]
+Name=Cotta Inalterabile
+GrhIndex=30867
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=7000
+SkHerreria=60
+RopajeHumano=74
+RopajeElfo=74
+RopajeElfoOscuro=1558
+RopajeEnano=558
+RopajeOrco=1058
+RopajeGnomo=558
+RopajeHumana=2058
+RopajeElfa=2058
+RopajeElfaOscura=1558
+RopajeEnana=2558
+RopajeOrca=1058
+RopajeGnoma=2558
+LingH=90
+LingP=30
+Texto=Cota de mallas con un tratamiento que resiste la corrosión. Reduce el daño Ácido un 10-15%.
+
+[OBJ9152]
+Name=Cotta di Dissipazione
+GrhIndex=30867
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=7000
+SkHerreria=60
+RopajeHumano=74
+RopajeElfo=74
+RopajeElfoOscuro=1558
+RopajeEnano=558
+RopajeOrco=1058
+RopajeGnomo=558
+RopajeHumana=2058
+RopajeElfa=2058
+RopajeElfaOscura=1558
+RopajeEnana=2558
+RopajeOrca=1058
+RopajeGnoma=2558
+LingH=90
+LingP=30
+Texto=Cota de mallas grabada con símbolos que disipan la magia. Reduce el daño Arcano un 10-15%.
+
+[OBJ9153]
+Name=Cotta Emostatica
+GrhIndex=30867
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=7000
+SkHerreria=60
+RopajeHumano=74
+RopajeElfo=74
+RopajeElfoOscuro=1558
+RopajeEnano=558
+RopajeOrco=1058
+RopajeGnomo=558
+RopajeHumana=2058
+RopajeElfa=2058
+RopajeElfaOscura=1558
+RopajeEnana=2558
+RopajeOrca=1058
+RopajeGnoma=2558
+LingH=90
+LingP=30
+Texto=Cota de mallas ajustada para minimizar los cortes profundos. Reduce el daño por sangrado un 10-15%.
+
+[OBJ9154]
+Name=Cotta Antitossina
+GrhIndex=30867
+ObjType=3
+MinDef=15
+MaxDef=19
+Valor=7000
+SkHerreria=60
+RopajeHumano=74
+RopajeElfo=74
+RopajeElfoOscuro=1558
+RopajeEnano=558
+RopajeOrco=1058
+RopajeGnomo=558
+RopajeHumana=2058
+RopajeElfa=2058
+RopajeElfaOscura=1558
+RopajeEnana=2558
+RopajeOrca=1058
+RopajeGnoma=2558
+LingH=90
+LingP=30
+Texto=Cota de mallas con anillas selladas contra toxinas. Reduce el daño de Veneno un 10-15%.
+
+[OBJ9155]
+Name=Túnica delle Stagioni
+GrhIndex=2597
+ObjType=3
+MinDef=28
+MaxDef=32
+Valor=21600
+SKSastreria=90
+Hechizo=419
+RopajeHumano=141
+RopajeElfo=141
+RopajeElfoOscuro=1609
+RopajeEnano=608
+RopajeOrco=1109
+RopajeGnomo=608
+RopajeHumana=2098
+RopajeElfa=2098
+RopajeElfaOscura=3555
+RopajeEnana=2597
+RopajeOrca=3148
+RopajeGnoma=2597
+PielTigreBengala=8
+PielLoboNegro=12
+PielOsoPolar=8
+Texto=Cambia de textura con el clima. Reduce el daño de Fuego y de Escarcha un 15-20% cada uno.
+
+[OBJ9156]
+Name=Túnica della Palude Nera
+GrhIndex=2597
+ObjType=3
+MinDef=28
+MaxDef=32
+Valor=21600
+SKSastreria=90
+Hechizo=419
+RopajeHumano=141
+RopajeElfo=141
+RopajeElfoOscuro=1609
+RopajeEnano=608
+RopajeOrco=1109
+RopajeGnomo=608
+RopajeHumana=2098
+RopajeElfa=2098
+RopajeElfaOscura=3555
+RopajeEnana=2597
+RopajeOrca=3148
+RopajeGnoma=2597
+PielTigreBengala=8
+PielLoboNegro=12
+PielOsoPolar=8
+Texto=Curtida en los pantanos más hostiles. Reduce el daño Ácido y de Veneno un 15-20% cada uno.
+
+[OBJ9157]
+Name=Túnica del Vuoto Sanguinante
+GrhIndex=2597
+ObjType=3
+MinDef=28
+MaxDef=32
+Valor=21600
+SKSastreria=90
+Hechizo=419
+RopajeHumano=141
+RopajeElfo=141
+RopajeElfoOscuro=1609
+RopajeEnano=608
+RopajeOrco=1109
+RopajeGnomo=608
+RopajeHumana=2098
+RopajeElfa=2098
+RopajeElfaOscura=3555
+RopajeEnana=2597
+RopajeOrca=3148
+RopajeGnoma=2597
+PielTigreBengala=8
+PielLoboNegro=12
+PielOsoPolar=8
+Texto=Tejida con hilos que susurran del vacío. Reduce el daño Arcano y por sangrado un 15-20% cada uno.
+
+[OBJ9158]
+Name=Piastre delle Stagioni
+GrhIndex=1469
+ObjType=3
+MinDef=27
+MaxDef=29
+Valor=22000
+SkHerreria=90
+Hechizo=419
+RopajeHumano=254
+RopajeElfo=254
+RopajeElfoOscuro=1754
+RopajeEnano=754
+RopajeOrco=1298
+RopajeGnomo=754
+RopajeHumana=254
+RopajeElfa=254
+RopajeElfaOscura=1754
+RopajeEnana=754
+RopajeOrca=1298
+RopajeGnoma=754
+LingH=150
+LingP=90
+FireEssence=1
+WaterEssence=1
+Texto=Placas forjadas para resistir todas las estaciones. Reduce el daño de Fuego y de Escarcha un 15-20% cada uno.
+
+[OBJ9159]
+Name=Piastre della Palude
+GrhIndex=1469
+ObjType=3
+MinDef=27
+MaxDef=29
+Valor=22000
+SkHerreria=90
+Hechizo=419
+RopajeHumano=254
+RopajeElfo=254
+RopajeElfoOscuro=1754
+RopajeEnano=754
+RopajeOrco=1298
+RopajeGnomo=754
+RopajeHumana=254
+RopajeElfa=254
+RopajeElfaOscura=1754
+RopajeEnana=754
+RopajeOrca=1298
+RopajeGnoma=754
+LingH=150
+LingP=90
+EarthEssence=1
+Coal=20
+Texto=Placas tratadas contra la corrosión y las toxinas. Reduce el daño Ácido y de Veneno un 15-20% cada uno.
+
+[OBJ9160]
+Name=Piastre del Vuoto Sanguinante
+GrhIndex=1469
+ObjType=3
+MinDef=27
+MaxDef=29
+Valor=22000
+SkHerreria=90
+Hechizo=419
+RopajeHumano=254
+RopajeElfo=254
+RopajeElfoOscuro=1754
+RopajeEnano=754
+RopajeOrco=1298
+RopajeGnomo=754
+RopajeHumana=254
+RopajeElfa=254
+RopajeElfaOscura=1754
+RopajeEnana=754
+RopajeOrca=1298
+RopajeGnoma=754
+LingH=150
+LingP=90
+WindEssence=1
+Coal=20
+Texto=Placas grabadas con símbolos que contienen el vacío. Reduce el daño Arcano y por sangrado un 15-20% cada uno.
+
+[OBJ9161]
+Name=Pergamena: Vesti Elementali
+GrhIndex=28922
+ObjType=24
+Valor=15000
+Texto=Enseña a confeccionar túnicas y forjar armaduras con doble protección elemental.
+
+[HECHIZO414]
+Nombre=Receta: Forja Elemental Maestra
+Desc=¡Ya puedes forjar las armas elementales maestras! Necesitas Herrería 90 y 2 esencias del elemento.
+IconoIndex=49101
+
+[HECHIZO415]
+Nombre=Receta: Joyería Elemental
+Desc=¡Ya puedes forjar orbes, anillos y amuletos elementales! Los orbes exigen Herrería 100.
+IconoIndex=49100
+
+[HECHIZO416]
+Nombre=Receta: Aceites Elementales Superiores
+Desc=¡Ya puedes destilar aceites superiores! Recuerda tener la olla, el mortero, los frascos y una Runa Elemental.
+IconoIndex=49098
+
+[HECHIZO417]
+Nombre=Receta: Toxinas y Antídotos Superiores
+Desc=¡Ya puedes preparar los aceites de Hemotoxina y Neurotoxina y el Antídoto Universal!
+IconoIndex=74718
+
+[HECHIZO418]
+Nombre=Receta: Égida de Espinas
+Desc=¡Ya puedes forjar el escudo que devuelve el golpe recibido!
+IconoIndex=49099
+
+[HECHIZO419]
+Nombre=Receta: Vestimenta Elemental
+Desc=¡Ya puedes confeccionar túnicas y forjar armaduras con doble protección elemental!
+IconoIndex=49101
+
+[QUEST902]
+Nombre=La Gioielleria dell'Elemento
+Desc=Thirga Brumhilda ti squadra dalla testa ai piedi, valutando se hai la pazienza per il lavoro piu fine della fucina. "Il fuoco forgia l'acciaio", dice, "ma la gioielleria elementale richiede altro: le quattro essenze pure. Fuoco, Acqua, Terra e Vento, ciascuna strappata a una bestia che le custodisce con la vita. Portamene una per tipo e ti insegnero a incastonarle in oro e argento. Niente scorciatoie, Lavoratore: chi va di fretta con la gioielleria finisce con le mani bruciate."
+DescFinal=Ah! Le quattro essenze, intatte, nella tua mano. Pochi reggono la caccia necessaria per raccoglierle tutte. Ora ascolta bene: incastonare un orbe, un anello o un amuleto non e forgiare una spada, e ascoltare l'elemento prima di rinchiuderlo nel metallo. Da oggi, quell'ascolto e tuo. Usa la ricetta con la testa, e che la tua gioielleria duri piu della tua fucina!
+Repetible=0
+RequiredLevel=33
+PosMap=594

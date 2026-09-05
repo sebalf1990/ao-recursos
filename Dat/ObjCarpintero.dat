@@ -1,5 +1,5 @@
 [INIT]
-NumObjs=30
+NumObjs=35
 
 [OBJ1] 'Cuchara
 Index=163
@@ -91,3 +91,17 @@ Index=3804
 [OBJ30] 'Carcaj de Flechas Elficas
 Index=3803
 
+[OBJ31] 'Flecha Ígnea
+Index=9096
+
+[OBJ32] 'Flecha de Escarcha
+Index=9097
+
+[OBJ33] 'Flecha Corrosiva
+Index=9098
+
+[OBJ34] 'Flecha Arcana
+Index=9099
+
+[OBJ35] 'Flecha Desangradora
+Index=9100

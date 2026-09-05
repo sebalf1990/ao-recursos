@@ -1,5 +1,5 @@
 [INIT]
-NumQuests=901
+NumQuests=902
 
 [QUEST1]
 Nombre=Descanso Final
@@ -8947,3 +8947,35 @@ RequiredOBJs=1
 RequiredOBJ1=9015-20
 RewardOBJs=1
 RewardObj1=9016-1
+
+[QUEST902]
+Nombre=La joyería del elemento
+Desc=Thirga Brumhilda te mira de arriba a abajo, evaluando si tienes la paciencia para el trabajo más fino de la forja. "El fuego forja el acero", dice, "pero la joyería elemental exige algo más: las cuatro esencias puras. Fuego, Agua, Tierra y Viento, cada una arrancada de una bestia que las guarda con la vida. Traeme una de cada una y te enseño a engarzarlas en oro y plata. Sin atajos, Trabajador: el que apura la joyería termina con las manos quemadas."
+DescFinal=¡Ja! Las cuatro esencias, intactas, en tu mano. Pocos aguantan la cacería necesaria para conseguirlas todas. Ahora presta atención: engarzar un orbe, un anillo o un amuleto no es forjar una espada, es escuchar el elemento antes de encerrarlo en el metal. Desde hoy, esa escucha es tuya. ¡Usa la receta con cabeza, y que tu joyería dure más que tu fragua!
+Repetible=0
+RequiredLevel=33
+Trabajador=1
+RequiredProfession=20
+RequiredQuest=282
+RequiredOBJs=4
+RequiredObj1=5179-1
+RequiredObj2=5180-1
+RequiredObj3=5181-1
+RequiredObj4=5182-1
+RewardEXP=0
+RewardGLD=0
+RewardSKILLs=1
+RewardSkill1=415
+PosMap=594
+en_Nombre=The Jewelry of the Element
+en_Desc=Thirga Brumhilda looks you up and down, weighing whether you have the patience for the forge's finest work. "Fire forges steel," she says, "but elemental jewelcrafting demands something more: the four pure essences. Fire, Water, Earth and Wind, each torn from a beast that guards them with its life. Bring me one of each and I will teach you to set them in gold and silver. No shortcuts, Worker: whoever rushes jewelcrafting ends up with burned hands."
+en_DescFinal=Ha! The four essences, intact, in your hand. Few endure the hunt needed to gather them all. Now pay attention: setting an orb, a ring or an amulet is not forging a sword, it is listening to the element before you lock it into the metal. From today, that listening is yours. Use the recipe with your head, and may your jewelcraft outlast your forge!
+pt_Nombre=A Joalheria do Elemento
+pt_Desc=Thirga Brumhilda te olha de cima a baixo, avaliando se voce tem paciencia para o trabalho mais fino da forja. "O fogo forja o aco", diz ela, "más a joalheria elemental exige algo mais: as quatro essencias puras. Fogo, Agua, Terra e Vento, cada uma arrancada de uma besta que as guarda com a vida. Traga-me uma de cada e eu te ensino a engastar em ouro e prata. Sem atalhos, Trabalhador: quem apressa a joalheria termina com as maos queimadas."
+pt_DescFinal=Ha! As quatro essencias, intactas, em sua mao. Poucos aguentam a cacada necessaria para conseguir todas. Agora preste atencao: engastar um orbe, um anel ou um amuleto nao e forjar uma espada, e escutar o elemento antes de prende-lo no metal. Desde hoje, essa escuta e sua. Use a receita com cabeca, e que sua joalheria dure mais que sua forja!
+fr_Nombre=La Joaillerie de l'Element
+fr_Desc=Thirga Brumhilda te toise de haut en bas, evaluant si tu as la patience pour le travail le plus fin de la forge. "Le feu forge l'acier", dit-elle, "mais la joaillerie elementaire exige davantage : les quatre essences pures. Feu, Eau, Terre et Vent, chacune arrachee a une bete qui les garde au prix de sa vie. Apporte-m'en une de chaque et je t'apprendrai a les sertir dans l'or et l'argent. Pas de raccourcis, Ouvrier : celui qui bacle la joaillerie finit avec les mains brulees."
+fr_DescFinal=Ha ! Les quatre essences, intactes, dans ta main. Peu tiennent la chasse necessaire pour toutes les reunir. Maintenant ecoute bien : sertir une orbe, un anneau ou une amulette, ce n'est pas forger une epee, c'est ecouter l'element avant de l'enfermer dans le metal. Desormais, cette ecoute est tienne. Utilise la recette avec la tete, et que ta joaillerie dure plus longtemps que ta forge !
+it_Nombre=La Gioielleria dell'Elemento
+it_Desc=Thirga Brumhilda ti squadra dalla testa ai piedi, valutando se hai la pazienza per il lavoro piu fine della fucina. "Il fuoco forgia l'acciaio", dice, "ma la gioielleria elementale richiede altro: le quattro essenze pure. Fuoco, Acqua, Terra e Vento, ciascuna strappata a una bestia che le custodisce con la vita. Portamene una per tipo e ti insegnero a incastonarle in oro e argento. Niente scorciatoie, Lavoratore: chi va di fretta con la gioielleria finisce con le mani bruciate."
+it_DescFinal=Ah! Le quattro essenze, intatte, nella tua mano. Pochi reggono la caccia necessaria per raccoglierle tutte. Ora ascolta bene: incastonare un orbe, un anello o un amuleto non e forgiare una spada, e ascoltare l'elemento prima di rinchiuderlo nel metallo. Da oggi, quell'ascolto e tuo. Usa la ricetta con la testa, e che la tua gioielleria duri piu della tua fucina!
