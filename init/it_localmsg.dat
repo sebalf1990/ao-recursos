@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleIT_Msg=2211
+NumLocaleIT_Msg=2212
 
 [IT_MSG]
 Msg1=[¬1] è stato espulso dal clan mentre modificava il suo allineamento.
@@ -2129,3 +2129,4 @@ Msg2208=Non puoi assegnare punti a una professione che non hai appreso.
 Msg2209=Questo maestro non compra oggetti.
 Msg2210=La classe Lavoratore non e disponibile con professioni apprendibili attive.
 Msg2211=Hai inflitto ¬1 di ¬2 alla creatura.
+Msg2212=Hai subito ¬1 danni di ¬2.

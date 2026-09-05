@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleFR_Msg=2211
+NumLocaleFR_Msg=2212
 
 [FR_MSG]
 Msg1=[¬1] a été expulsé du clan car il modifiait son alignement.
@@ -2129,3 +2129,4 @@ Msg2208=Vous ne pouvez pas attribuer de points a une profession non apprise.
 Msg2209=Ce maitre n'achete pas d'objets.
 Msg2210=La classe Travailleur n est pas disponible lorsque les professions apprenables sont actives.
 Msg2211=Vous avez inflige ¬1 de ¬2 a la creature.
+Msg2212=Vous avez subi ¬1 dégâts de ¬2.

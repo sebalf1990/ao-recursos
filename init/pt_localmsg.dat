@@ -1,5 +1,5 @@
 [INIT]
-NumLocalePT_Msg=2211
+NumLocalePT_Msg=2212
 
 [PT_MSG]
 Msg1=[¬1] foi expulso do clã ao modificar seu alinhamento.
@@ -2129,3 +2129,4 @@ Msg2208=Voce nao pode atribuir pontos a uma profissao que nao aprendeu.
 Msg2209=Este mestre nao compra itens.
 Msg2210=A classe Trabalhador nao esta disponivel com profissoes aprendiveis ativas.
 Msg2211=Causaste ¬1 de ¬2 a criatura.
+Msg2212=Você recebeu ¬1 de dano de ¬2.

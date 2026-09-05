@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleSP_Msg=2211
+NumLocaleSP_Msg=2212
 
 [SP_MSG]
 Msg1=[¬1] ha sido expulsado del clan ya que modificó su alineamiento.
@@ -2129,6 +2129,7 @@ Msg2208=No podes asignar puntos a una profesion que no aprendiste.
 Msg2209=Este maestro no compra items.
 Msg2210=La clase Trabajador no esta disponible con profesiones aprendibles activas.
 Msg2211=Le has causado ¬1 de ¬2 a la criatura.
+Msg2212=Recibiste ¬1 de daño de ¬2.
 Msg2178=¬1 fue expulsado de la Armada Real.
 Msg2179=¬1 fue expulsado de la Legión Oscura.
 Msg2181=No se encontró una posición válida para el evento. Intentá de nuevo.
