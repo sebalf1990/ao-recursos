@@ -1,5 +1,5 @@
 [INIT]
-NumObjs=6
+NumObjs=21
 
 [OBJ1] 'Pócima de Maná
 Index=894
@@ -18,3 +18,48 @@ Index=890
 
 [OBJ6] 'Pócima de Energía
 Index=1019
+
+[OBJ7] 'Aceite Ígneo
+Index=9101
+
+[OBJ8] 'Aceite Glacial
+Index=9102
+
+[OBJ9] 'Aceite Corrosivo
+Index=9103
+
+[OBJ10] 'Aceite Arcano
+Index=9104
+
+[OBJ11] 'Aceite Hemorrágico
+Index=9105
+
+[OBJ12] 'Aceite Ígneo Superior
+Index=9106
+
+[OBJ13] 'Aceite Glacial Superior
+Index=9107
+
+[OBJ14] 'Aceite Corrosivo Superior
+Index=9108
+
+[OBJ15] 'Aceite Arcano Superior
+Index=9109
+
+[OBJ16] 'Aceite Hemorrágico Superior
+Index=9110
+
+[OBJ17] 'Aceite Ponzoñoso
+Index=9133
+
+[OBJ18] 'Aceite de Hemotoxina
+Index=9134
+
+[OBJ19] 'Aceite de Neurotoxina
+Index=9135
+
+[OBJ20] 'Antídoto Elemental Parcial
+Index=9136
+
+[OBJ21] 'Antídoto Universal
+Index=9137

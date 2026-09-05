@@ -1,5 +1,5 @@
 [INIT]
-NumArmas=26
+NumArmas=38
 
 [Arma1]
 Index=3980 ' Bala de piedra
@@ -78,3 +78,39 @@ Index=3982 ' Caja de balas de plata
 
 [Arma26]
 Index=3988 ' Espada Celta
+
+[Arma27] 'Espada Ígnea
+Index=9084
+
+[Arma28] 'Espada de Escarcha
+Index=9085
+
+[Arma29] 'Hacha Corrosiva
+Index=9086
+
+[Arma30] 'Martillo Arcano
+Index=9087
+
+[Arma31] 'Daga Sangrante
+Index=9088
+
+[Arma32] 'Daga Ponzoñosa
+Index=9089
+
+[Arma33] 'Espada del Fuego Eterno
+Index=9090
+
+[Arma34] 'Espada del Invierno Eterno
+Index=9091
+
+[Arma35] 'Hacha Disolvente
+Index=9092
+
+[Arma36] 'Martillo del Vacío
+Index=9093
+
+[Arma37] 'Daga Desangradora
+Index=9094
+
+[Arma38] 'Daga de la Viuda
+Index=9095
