@@ -57,7 +57,7 @@
 
 
 [INIT]
-EffectCount=70
+EffectCount=82
 
 [EOT1] 'regeneracion 3
 Type=1
@@ -885,7 +885,7 @@ TickTime=6000
 Limit=2
 Override=1
 BuffType=4
-SpeedModifier=-0.3
+SpeedModifier=-0.25
 ApplyMsg=Ralentizaste al objetivo.
 ClientEffectTypeId=15
 SharedTypeId=0
@@ -904,15 +904,15 @@ SharedTypeId=0
 [EOT69] 'Sangrado (plan 20.002 Ola 4) - DoT fisico que no frena la armadura (eHealthModifier)
 Type=1
 TickPowerMin=-5
-TickPowerMax=-9
-Ticks=5
+TickPowerMax=-8
+Ticks=4
 TickTime=2000
 Limit=2
 Override=1
 BuffType=2
 DamageColor=1973960
 ApplyMsg=Hiciste sangrar al objetivo.
-StacksMax=5
+StacksMax=4
 DanoPorStackMin=-2
 DanoPorStackMax=-2
 GolpesQueSumanStacks=1
@@ -942,3 +942,180 @@ ClientEffectTypeId=56
 SharedTypeId=0
 TickFX=21
 DamageType=2
+
+[EOT71] 'Efectos por tier (plan 07.001) - Quemadura Leve
+Type=1
+TickPowerMin=-2
+TickPowerMax=-4
+Ticks=4
+TickTime=2000
+Limit=2
+Override=1
+BuffType=2
+DamageColor=36095
+ApplyMsg=Incineraste al objetivo.
+TickFX=21
+ClientEffectTypeId=53
+SharedTypeId=0
+DamageType=2
+
+[EOT72] 'Efectos por tier (plan 07.001) - Congelación Leve
+Type=2
+TickTime=3000
+Limit=2
+Override=1
+BuffType=4
+SpeedModifier=-0.10
+ApplyMsg=Ralentizaste al objetivo.
+ClientEffectTypeId=15
+SharedTypeId=0
+
+[EOT73] 'Efectos por tier (plan 07.001) - Corrosión Leve
+Type=2
+TickTime=4000
+Limit=2
+Override=1
+BuffType=4
+DefenseBonus=-5
+ApplyMsg=Corroiste la defensa del objetivo.
+ClientEffectTypeId=54
+SharedTypeId=0
+
+[EOT74] 'Efectos por tier (plan 07.001) - Sangrado Leve
+Type=1
+TickPowerMin=-2
+TickPowerMax=-3
+Ticks=3
+TickTime=2000
+Limit=2
+Override=1
+BuffType=2
+DamageColor=1973960
+ApplyMsg=Hiciste sangrar al objetivo.
+StacksMax=2
+DanoPorStackMin=-1
+DanoPorStackMax=-1
+GolpesQueSumanStacks=1
+IntervaloDecayStackMs=4000
+ClientEffectTypeId=55
+SharedTypeId=0
+TickFX=14
+DamageType=7
+
+[EOT75] 'Efectos por tier (plan 07.001) - Quemadura Menor
+Type=1
+TickPowerMin=-3
+TickPowerMax=-5
+Ticks=4
+TickTime=2000
+Limit=2
+Override=1
+BuffType=2
+DamageColor=36095
+ApplyMsg=Incineraste al objetivo.
+TickFX=21
+ClientEffectTypeId=53
+SharedTypeId=0
+DamageType=2
+
+[EOT76] 'Efectos por tier (plan 07.001) - Congelación Menor
+Type=2
+TickTime=4000
+Limit=2
+Override=1
+BuffType=4
+SpeedModifier=-0.15
+ApplyMsg=Ralentizaste al objetivo.
+ClientEffectTypeId=15
+SharedTypeId=0
+
+[EOT77] 'Efectos por tier (plan 07.001) - Corrosión Menor
+Type=2
+TickTime=6000
+Limit=2
+Override=1
+BuffType=4
+DefenseBonus=-8
+ApplyMsg=Corroiste la defensa del objetivo.
+ClientEffectTypeId=54
+SharedTypeId=0
+
+[EOT78] 'Efectos por tier (plan 07.001) - Sangrado Menor
+Type=1
+TickPowerMin=-3
+TickPowerMax=-5
+Ticks=3
+TickTime=2000
+Limit=2
+Override=1
+BuffType=2
+DamageColor=1973960
+ApplyMsg=Hiciste sangrar al objetivo.
+StacksMax=3
+DanoPorStackMin=-1
+DanoPorStackMax=-1
+GolpesQueSumanStacks=1
+IntervaloDecayStackMs=4000
+ClientEffectTypeId=55
+SharedTypeId=0
+TickFX=14
+DamageType=7
+
+[EOT79] 'Efectos por tier (plan 07.001) - Quemadura Mayor
+Type=1
+TickPowerMin=-8
+TickPowerMax=-12
+Ticks=5
+TickTime=2000
+Limit=2
+Override=1
+BuffType=2
+DamageColor=36095
+ApplyMsg=Incineraste al objetivo.
+TickFX=21
+ClientEffectTypeId=53
+SharedTypeId=0
+DamageType=2
+
+[EOT80] 'Efectos por tier (plan 07.001) - Congelación Mayor
+Type=2
+TickTime=8000
+Limit=2
+Override=1
+BuffType=4
+SpeedModifier=-0.30
+ApplyMsg=Ralentizaste al objetivo.
+ClientEffectTypeId=15
+SharedTypeId=0
+
+[EOT81] 'Efectos por tier (plan 07.001) - Corrosión Mayor
+Type=2
+TickTime=10000
+Limit=2
+Override=1
+BuffType=4
+DefenseBonus=-22
+ApplyMsg=Corroiste la defensa del objetivo.
+ClientEffectTypeId=54
+SharedTypeId=0
+
+[EOT82] 'Efectos por tier (plan 07.001) - Sangrado Mayor
+Type=1
+TickPowerMin=-6
+TickPowerMax=-10
+Ticks=5
+TickTime=2000
+Limit=2
+Override=1
+BuffType=2
+DamageColor=1973960
+ApplyMsg=Hiciste sangrar al objetivo.
+StacksMax=5
+DanoPorStackMin=-3
+DanoPorStackMax=-3
+GolpesQueSumanStacks=1
+IntervaloDecayStackMs=4000
+ClientEffectTypeId=55
+SharedTypeId=0
+TickFX=14
+DamageType=7
