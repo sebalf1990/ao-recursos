@@ -1,5 +1,5 @@
 [INIT]
-NumObjs=21
+NumObjs=26
 
 [OBJ1] 'Pócima de Maná
 Index=894
@@ -63,3 +63,18 @@ Index=9136
 
 [OBJ21] 'Antídoto Universal
 Index=9137
+
+[OBJ22] 'Aceite Ígneo Refinado
+Index=9175
+
+[OBJ23] 'Aceite Glacial Refinado
+Index=9176
+
+[OBJ24] 'Aceite Corrosivo Refinado
+Index=9177
+
+[OBJ25] 'Aceite Arcano Refinado
+Index=9178
+
+[OBJ26] 'Aceite Hemorrágico Refinado
+Index=9179

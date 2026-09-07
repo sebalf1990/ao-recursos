@@ -1,5 +1,5 @@
 [INIT]
-NumArmaduras=53
+NumArmaduras=62
 
 [Armadura1] 'Armadura de Herrero
 Index=1912
@@ -159,3 +159,30 @@ Index=9159
 
 [Armadura53] 'Placas del Vacío Sangrante
 Index=9160
+
+[Armadura54] 'Cota de Púas
+Index=9194
+
+[Armadura55] 'Coraza de Púas de Hierro
+Index=9195
+
+[Armadura56] 'Jubón de Espinas
+Index=9196
+
+[Armadura57] 'Casaca de Espinas
+Index=9197
+
+[Armadura58] 'Coraza de Púas de Acero
+Index=9198
+
+[Armadura59] 'Casaca de Espinas Negra
+Index=9199
+
+[Armadura60] 'Yelmo de Púas de Acero
+Index=9200
+
+[Armadura61] 'Escudo de Púas
+Index=9201
+
+[Armadura62] 'Escudo de Espinas
+Index=9202

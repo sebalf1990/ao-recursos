@@ -1,5 +1,5 @@
 [INIT]
-NumObjs=35
+NumObjs=49
 
 [OBJ1] 'Cuchara
 Index=163
@@ -105,3 +105,45 @@ Index=9099
 
 [OBJ35] 'Flecha Desangradora
 Index=9100
+
+[OBJ36] 'Flecha Incendiaria
+Index=558
+
+[OBJ37] 'Flecha de Escarcha Leve
+Index=9180
+
+[OBJ38] 'Flecha Corrosiva Leve
+Index=9181
+
+[OBJ39] 'Flecha Desangradora Leve
+Index=9182
+
+[OBJ40] 'Flecha Ígnea Refinada
+Index=9183
+
+[OBJ41] 'Flecha de Escarcha Refinada
+Index=9184
+
+[OBJ42] 'Flecha Corrosiva Refinada
+Index=9185
+
+[OBJ43] 'Flecha Arcana Refinada
+Index=9186
+
+[OBJ44] 'Flecha Desangradora Refinada
+Index=9187
+
+[OBJ45] 'Flecha Ígnea Superior
+Index=9188
+
+[OBJ46] 'Flecha de Escarcha Superior
+Index=9189
+
+[OBJ47] 'Flecha Corrosiva Superior
+Index=9190
+
+[OBJ48] 'Flecha Arcana Superior
+Index=9191
+
+[OBJ49] 'Flecha Desangradora Superior
+Index=9192
