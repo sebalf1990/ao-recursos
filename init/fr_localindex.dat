@@ -1,10 +1,10 @@
 [INIT]
-NUMEROHECHIZO=419
+NUMEROHECHIZO=425
 NUMLOCALEMSG=2212
 NUMMAPAS=750
 NUMNPCS=9048
-NUMOBJS=9161
-NUMQUESTS=902
+NUMOBJS=9202
+NUMQUESTS=905
 NUMSUGERENCIAS=6
 
 [MODRAZA]
@@ -4631,11 +4631,35 @@ Repetible=0
 
 [QUEST902]
 Nombre=La Joaillerie de l'Element
-Desc=Thirga Brumhilda te toise de haut en bas, evaluant si tu as la patience pour le travail le plus fin de la forge. "Le feu forge l'acier", dit-elle, "mais la joaillerie elementaire exige davantage : les quatre essences pures. Feu, Eau, Terre et Vent, chacune arrachee a une bete qui les garde au prix de sa vie. Apporte-m'en une de chaque et je t'apprendrai a les sertir dans l'or et l'argent. Pas de raccourcis, Ouvrier : celui qui bacle la joaillerie finit avec les mains brulees."
+Desc=Thirga Brumhilda te toise de haut en bas, evaluant si tu as la patience pour le travail le plus fin de la forge. "Le feu forge l'acier", dit-elle, "mais la joaillerie elementaire exige davantage : les quatre essences pures. Feu, Eau, Terre et Vent, chacune arrachee a une bete qui les garde au prix de sa vie. Apporte-m'en une de chaque, plus 800 000 pieces d'or pour le materiel fin, et je t'apprendrai a les sertir dans l'or et l'argent. Pas de raccourcis, Ouvrier : celui qui bacle la joaillerie finit avec les mains brulees."
 DescFinal=Ha ! Les quatre essences, intactes, dans ta main. Peu tiennent la chasse necessaire pour toutes les reunir. Maintenant ecoute bien : sertir une orbe, un anneau ou une amulette, ce n'est pas forger une epee, c'est ecouter l'element avant de l'enfermer dans le metal. Desormais, cette ecoute est tienne. Utilise la recette avec la tete, et que ta joaillerie dure plus longtemps que ta forge !
 Repetible=0
 RequiredLevel=33
 PosMap=594
+
+[QUEST903]
+Nombre=Le Distillat du Maitre
+Desc="N'importe qui peut jeter une fleur dans une fiole", dit-elle en montrant une rangee d'huiles brillantes. "Mais l'huile Superieure, celle qui fait vraiment la difference au combat, exige les quatre Raffinees a la fois et 500 000 pieces d'or pour payer les reactifs rares. Apporte-moi une Huile Raffinee de chaque element -Feu, Givre, Acide et Arcanique- avec l'or, et je t'apprendrai la recette que je garde pour ceux qui maitrisent vraiment le metier."
+DescFinal=Les quatre Raffinees, intactes, et l'or compte jusqu'a la derniere piece. Peu d'Alchimistes vont aussi loin. La recette de l'huile Superieure est tienne desormais : utilise-la avec la tete, une bonne distillation vaut plus qu'une arme entiere.
+Repetible=0
+RequiredLevel=33
+PosMap=294
+
+[QUEST904]
+Nombre=La Forge Legendaire
+Desc=Thirga frappe l'enclume une fois, et l'echo met du temps a s'eteindre. "Tu sais deja sertir une orbe. Maintenant je vais t'apprendre ce que je n'enseigne qu'une fois dans une vie : la Forge Elementaire Legendaire, et le secret des epines qu'aucun forgeron ordinaire ne connait. Il me faut 200 Lingots de Fer, 100 Lingots d'Argent et 1 000 000 de pieces d'or -le prix d'une vie consacree au marteau. Apporte-moi tout cela et les deux recettes sont tiennes."
+DescFinal=Les lingots empiles, l'or compte. Thirga hoche lentement la tete, comme quelqu'un qui remet quelque chose qu'il ne recuperera pas. "Maintenant tu forges comme moi. Que le feu de ta forge ne s'eteigne jamais, Ouvrier."
+Repetible=0
+RequiredLevel=40
+PosMap=594
+
+[QUEST905]
+Nombre=La Fleche Parfaite
+Desc=L'Ebeniste passe la main sur une hampe de bois elfique, verifiant sa rectitude a la lumiere. "Toute une vie a tailler des fleches et ce n'est que maintenant que j'en ai fait une vraiment parfaite. Apporte-moi 100 Fleches Elfiques -pour les demonter et etudier leur fibre- et 500 000 pieces d'or pour acheter les outils fins qui me manquent, et je t'apprendrai a fabriquer la fleche Superieure : celle qu'aucun archer de ce monde ne peut egaler."
+DescFinal=Les cent fleches demontees sur la table, l'or enferme dans le coffre. L'Ebeniste sourit pour la premiere fois. "La voila : la recette de la fleche parfaite. Qu'elle vole droit, Ouvrier."
+Repetible=0
+RequiredLevel=40
+PosMap=34
 
 [NPC1]
 Name=Juan <Sacerdote>
@@ -5046,7 +5070,7 @@ Body=40
 Head=109
 NpcType=0
 Comercia=1
-NROITEMS=8
+NROITEMS=13
 Obj1=198-100
 Obj2=127-100
 Obj3=361-100
@@ -11268,7 +11292,7 @@ DescClose=¡Hasta pronto!
 Body=1339
 NpcType=0
 Comercia=1
-NROITEMS=9
+NROITEMS=15
 Obj1=30-100
 Obj2=998-100
 Obj3=2803-100
@@ -11282,7 +11306,7 @@ Body=5830
 Head=0
 NpcType=0
 Comercia=1
-NROITEMS=18
+NROITEMS=24
 Obj1=30-1000
 Obj2=998-1000
 Obj3=1715-1000
@@ -11316,7 +11340,7 @@ Desc=¡Bienvenido! Trabajo todo tipo de leña. ¿En qué puedo ayudarte?
 Body=607
 Head=318
 Comercia=1
-NROITEMS=8
+NROITEMS=13
 Obj1=198-1000
 Obj2=127-1000
 Obj3=2829-1000
@@ -11810,7 +11834,7 @@ Body=1697
 Head=202
 NpcType=0
 Comercia=1
-NROITEMS=17
+NROITEMS=23
 Obj1=1713-100
 Obj2=1774-100
 Obj3=1761-100
@@ -11836,7 +11860,7 @@ Body=556
 Head=317
 NpcType=0
 Comercia=1
-NROITEMS=10
+NROITEMS=15
 Obj1=198-1000
 Obj2=127-1000
 Obj3=361-1000
@@ -11849,7 +11873,7 @@ Body=2160
 Head=58
 NpcType=0
 Comercia=1
-NROITEMS=20
+NROITEMS=26
 Obj1=3988-100
 Obj2=123-100
 Obj3=3987-100
@@ -15063,7 +15087,7 @@ Desc=El equipamiento ideal para un Ciudadano como tú.
 Body=344
 NpcType=0
 Comercia=1
-NROITEMS=13
+NROITEMS=19
 Obj1=30-1000
 Obj2=998-1000
 Obj3=2803-1000
@@ -15177,7 +15201,7 @@ Desc=El equipamiento ideal para un Criminal como tú.
 Body=1766
 NpcType=0
 Comercia=1
-NROITEMS=13
+NROITEMS=19
 Obj1=30-1000
 Obj2=998-1000
 Obj3=2803-1000
@@ -19212,12 +19236,12 @@ IconoIndex=49101
 
 [HECHIZO415]
 Nombre=Receta: Joyería Elemental
-Desc=¡Ya puedes forjar orbes, anillos y amuletos elementales! Los orbes exigen Herrería 100.
+Desc=¡Ya puedes forjar anillos y amuletos elementales! Necesitas Herrería 90.
 IconoIndex=49100
 
 [HECHIZO416]
 Nombre=Receta: Aceites Elementales Superiores
-Desc=¡Ya puedes destilar aceites superiores! Recuerda tener la olla, el mortero, los frascos y una Runa Elemental.
+Desc=¡Ya puedes destilar aceites superiores! Recuerda tener la olla, el mortero, los frascos y una Esencia Elemental.
 IconoIndex=49098
 
 [HECHIZO417]
@@ -19226,14 +19250,44 @@ Desc=¡Ya puedes preparar los aceites de Hemotoxina y Neurotoxina y el Antídoto
 IconoIndex=74718
 
 [HECHIZO418]
-Nombre=Receta: Égida de Espinas
-Desc=¡Ya puedes forjar el escudo que devuelve el golpe recibido!
+Nombre=Receta: Espinas
+Desc=¡Ya puedes forjar la Coraza de Púas, la Casaca de Espinas, el Yelmo de Púas y el Escudo de Espinas!
 IconoIndex=49099
 
 [HECHIZO419]
 Nombre=Receta: Vestimenta Elemental
 Desc=¡Ya puedes confeccionar túnicas y forjar armaduras con doble protección elemental!
 IconoIndex=49101
+
+[HECHIZO420]
+Nombre=Receta: Aceites Refinados
+Desc=¡Ya puedes destilar aceites elementales refinados! Necesitas Alquimia 65.
+IconoIndex=49098
+
+[HECHIZO421]
+Nombre=Receta: Forja Elemental Legendaria
+Desc=¡Ya puedes forjar las armas elementales legendarias! Necesitas Herrería 100 y esencias del elemento.
+IconoIndex=49101
+
+[HECHIZO422]
+Nombre=Receta: Orbes Elementales
+Desc=¡Ya puedes forjar orbes elementales! Necesitas Herrería 100.
+IconoIndex=49100
+
+[HECHIZO423]
+Nombre=Receta: Flechas Refinadas
+Desc=¡Ya puedes fabricar flechas elementales refinadas! Necesitas Carpintería 85.
+IconoIndex=49098
+
+[HECHIZO424]
+Nombre=Receta: Flechas Superiores
+Desc=¡Ya puedes fabricar flechas elementales superiores! Necesitas Carpintería 100.
+IconoIndex=49098
+
+[HECHIZO425]
+Nombre=Receta: Espinas Legendarias
+Desc=¡Ya puedes forjar la Coraza de Púas de Acero, la Casaca de Espinas Negra, el Yelmo de Púas de Acero y la Égida de Espinas!
+IconoIndex=49099
 
 [OBJ1]
 Name=Manzana Roja
@@ -24074,12 +24128,13 @@ Texto=Planta
 
 [OBJ558]
 Name=Flèche incendiaire
-Texto=3/5 dommages, Incinera.
+Texto=1/4 degats, peut enflammer l'ennemi.
 GrhIndex=282
 ObjType=32
-Valor=36
-MaxHit=5
-MinHit=3
+Valor=12
+MaxHit=4
+MinHit=1
+Madera=4
 
 [OBJ559]
 Name=Daga Ígnea
@@ -68311,7 +68366,7 @@ MinHIT=4
 MaxHIT=7
 LingH=55
 LingP=20
-Texto=Espada forjada con núcleo de brasa. Añade daño de Fuego al golpear.
+Texto=Espada forjada con núcleo de brasa. Añade daño de Fuego al golpear y puede incinerar al enemigo.
 
 [OBJ9085]
 Name=Epee de Givre
@@ -68353,26 +68408,26 @@ Texto=Martillo encantado con energía arcana pura. Añade daño Arcano al golpea
 Name=Dague Sanglante
 GrhIndex=5603
 ObjType=2
-Valor=7000
+Valor=10400
 SkHerreria=55
 MinHIT=3
 MaxHIT=5
-LingH=70
-LingP=30
-Coal=12
+LingH=92
+LingP=39
+Coal=16
 Texto=Hoja mellada a propósito. Puede abrir heridas que sangran con el tiempo.
 
 [OBJ9089]
 Name=Dague Venimeuse
 GrhIndex=5603
 ObjType=2
-Valor=7000
+Valor=11750
 SkHerreria=55
 MinHIT=3
 MaxHIT=6
-LingH=65
-LingP=25
-Coal=12
+LingH=96
+LingP=37
+Coal=18
 Texto=Hoja tratada con veneno de contacto permanente. Envenena al enemigo al golpear.
 
 [OBJ9090]
@@ -68435,13 +68490,13 @@ Texto=Cada golpe abre una fisura arcana diminuta que desgarra al enemigo.
 Name=Dague Exsanguinante
 GrhIndex=5603
 ObjType=2
-Valor=26000
+Valor=30000
 SkHerreria=90
 Hechizo=414
 MinHIT=5
 MaxHIT=8
-LingH=130
-LingP=85
+LingH=150
+LingP=100
 Coal=30
 Texto=Sus cortes no cierran: la sangre sigue brotando mucho después del golpe.
 
@@ -68449,64 +68504,64 @@ Texto=Sus cortes no cierran: la sangre sigue brotando mucho después del golpe.
 Name=Croc de la Veuve
 GrhIndex=5603
 ObjType=2
-Valor=26000
+Valor=30000
 SkHerreria=90
 Hechizo=414
 MinHIT=5
 MaxHIT=8
-LingH=125
-LingP=80
-Coal=25
+LingH=150
+LingP=100
+Coal=30
 Texto=Forjada con un veneno que se acumula en la herida hasta volverse letal.
 
 [OBJ9096]
 Name=Fleche de Flamme
 GrhIndex=277
 ObjType=32
-MinHIT=3
-MaxHIT=5
-Valor=25
-MaderaElfica=2
-Texto=Punta envuelta en llamas alquímicas. Añade daño de Fuego al impactar.
+MinHIT=2
+MaxHIT=4
+MaderaElfica=4
+Valor=30
+Texto=Punta envuelta en llamas alquímicas. Añade daño de Fuego al impactar y puede incinerar al enemigo.
 
 [OBJ9097]
 Name=Fleche de Givre
 GrhIndex=277
 ObjType=32
-MinHIT=3
-MaxHIT=5
-Valor=25
-MaderaElfica=2
-Texto=Punta escarchada que nunca se derrite. Añade daño de Escarcha al impactar.
+MinHIT=2
+MaxHIT=4
+MaderaElfica=4
+Valor=30
+Texto=Punta escarchada que nunca se derrite. Añade daño de Escarcha al impactar y puede ralentizar al enemigo.
 
 [OBJ9098]
 Name=Fleche Corrosive
 GrhIndex=277
 ObjType=32
-MinHIT=3
-MaxHIT=5
-Valor=25
-MaderaElfica=2
-Texto=Punta bañada en ácido alquímico. Añade daño Ácido al impactar.
+MinHIT=2
+MaxHIT=4
+MaderaElfica=4
+Valor=30
+Texto=Punta bañada en ácido alquímico. Añade daño Ácido al impactar y puede corroer la defensa del enemigo.
 
 [OBJ9099]
 Name=Fleche Arcanique
 GrhIndex=753
 ObjType=32
-MinHIT=3
-MaxHIT=5
-Valor=25
-MaderaElfica=2
+MinHIT=2
+MaxHIT=4
+MaderaElfica=4
+Valor=30
 Texto=Punta grabada con runas menores. Añade daño Arcano al impactar.
 
 [OBJ9100]
 Name=Fleche Sanglante
 GrhIndex=753
 ObjType=32
-MinHIT=3
-MaxHIT=5
-Valor=25
-MaderaElfica=2
+MinHIT=2
+MaxHIT=4
+MaderaElfica=4
+Valor=30
 Texto=Punta con muescas cruzadas. Puede abrir heridas que sangran con el tiempo.
 
 [OBJ9101]
@@ -68520,7 +68575,7 @@ SkPociones=45
 FrascoAlq=1
 Mortero=1
 FlorRoja=3
-Texto=Unta tu arma equipada (o tus flechas, si usas arco) con Fuego durante 60s. 8 cargas.
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con Fuego durante 60s. Puede incinerar al enemigo. 8 cargas.
 
 [OBJ9102]
 Name=Huile Glaciale
@@ -68533,7 +68588,7 @@ SkPociones=45
 FrascoAlq=1
 Mortero=1
 FlorOceano=3
-Texto=Unta tu arma equipada (o tus flechas, si usas arco) con Escarcha durante 60s. 8 cargas.
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con Escarcha durante 60s. Puede ralentizar al enemigo. 8 cargas.
 
 [OBJ9103]
 Name=Huile Corrosive
@@ -68545,7 +68600,7 @@ Valor=150
 SkPociones=45
 FrascoAlq=1
 Mortero=1
-Texto=Unta tu arma equipada (o tus flechas, si usas arco) con Ácido durante 60s. 8 cargas.
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con Ácido durante 60s. Puede corroer la defensa del enemigo. 8 cargas.
 
 [OBJ9104]
 Name=Huile Arcanique
@@ -68586,7 +68641,8 @@ Hechizo=416
 FrascoAlq=2
 Mortero=1
 FlorRoja=4
-Texto=Destilado con una Runa de Fuego auténtica. Unta tu arma o flechas con Fuego durante 90s. 12 cargas.
+FireEssence=1
+Texto=Destilado con una Esencia de Fuego pura. Unta tu arma o flechas con Fuego durante 90s. Puede incinerar al enemigo. 12 cargas.
 
 [OBJ9107]
 Name=Grande Huile Glaciale
@@ -68600,7 +68656,8 @@ Hechizo=416
 FrascoAlq=2
 Mortero=1
 FlorOceano=4
-Texto=Destilado con una Runa de Agua auténtica. Unta tu arma o flechas con Escarcha durante 90s. 12 cargas.
+WaterEssence=1
+Texto=Destilado con una Esencia de Agua pura. Unta tu arma o flechas con Escarcha durante 90s. Puede ralentizar al enemigo. 12 cargas.
 
 [OBJ9108]
 Name=Grande Huile Corrosive
@@ -68613,7 +68670,8 @@ SkPociones=80
 Hechizo=416
 FrascoAlq=2
 Mortero=1
-Texto=Destilado con una Runa de Tierra auténtica. Unta tu arma o flechas con Ácido durante 90s. 12 cargas.
+EarthEssence=1
+Texto=Destilado con una Esencia de Tierra pura. Unta tu arma o flechas con Ácido durante 90s. Puede corroer la defensa del enemigo. 12 cargas.
 
 [OBJ9109]
 Name=Grande Huile Arcanique
@@ -68627,7 +68685,8 @@ Hechizo=416
 FrascoAlq=2
 Mortero=1
 HongoDeLuz=4
-Texto=Destilado con una Runa de Viento auténtica. Unta tu arma o flechas con energía Arcana durante 90s. 12 cargas.
+WindEssence=1
+Texto=Destilado con una Esencia de Viento pura. Unta tu arma o flechas con energía Arcana durante 90s. 12 cargas.
 
 [OBJ9110]
 Name=Grande Huile Hemorragique
@@ -68648,47 +68707,47 @@ Texto=Destilado con ingredientes superiores. Unta tu arma o flechas con un sangr
 Name=Orbe de Feu
 GrhIndex=38372
 ObjType=21
-Valor=15000
+Valor=32000
 SkHerreria=100
-Hechizo=415
-LingH=90
-LingP=45
+Hechizo=422
+LingH=500
+LingP=240
 FireEssence=2
-Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica añaden daño de Fuego.
+Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica añaden daño de Fuego y pueden incinerar al enemigo.
 
 [OBJ9112]
 Name=Orbe Glaciale
 GrhIndex=38372
 ObjType=21
-Valor=15000
+Valor=32000
 SkHerreria=100
-Hechizo=415
-LingH=90
-LingP=45
+Hechizo=422
+LingH=500
+LingP=240
 WaterEssence=2
-Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica añaden daño de Escarcha.
+Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica añaden daño de Escarcha y pueden ralentizar al enemigo.
 
 [OBJ9113]
 Name=Orbe Corrosive
 GrhIndex=38372
 ObjType=21
-Valor=15000
+Valor=32000
 SkHerreria=100
-Hechizo=415
-LingH=90
-LingP=45
+Hechizo=422
+LingH=500
+LingP=240
 EarthEssence=2
-Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica añaden daño Ácido.
+Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica añaden daño Ácido y pueden corroer la defensa del enemigo.
 
 [OBJ9114]
 Name=Orbe Arcanique
 GrhIndex=38372
 ObjType=21
-Valor=15000
+Valor=32000
 SkHerreria=100
-Hechizo=415
-LingH=90
-LingP=45
+Hechizo=422
+LingH=500
+LingP=240
 WindEssence=2
 Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica añaden daño Arcano.
 
@@ -68696,182 +68755,183 @@ Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica 
 Name=Orbe Hemorragique
 GrhIndex=38372
 ObjType=21
-Valor=15000
+Valor=32000
 SkHerreria=100
-Hechizo=415
-LingH=110
-LingP=60
-Coal=25
+Hechizo=422
+LingH=610
+LingP=320
+Coal=68
 Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica pueden causar sangrado.
 
 [OBJ9116]
 Name=Anneau Ignifuge
 GrhIndex=49267
 ObjType=35
-Valor=5500
+Valor=12800
 SkHerreria=55
-LingH=70
-LingP=25
-Texto=Reduce el daño de Fuego que recibes entre un 15% y un 20%.
+LingH=170
+LingP=50
+Texto=Reduce el daño de Fuego que recibes entre un 5% y un 7%, y un 8% de chance de evitarlo por completo.
 
 [OBJ9117]
 Name=Anneau Thermique
 GrhIndex=49267
 ObjType=35
-Valor=5500
+Valor=12800
 SkHerreria=55
-LingH=70
-LingP=25
-Texto=Reduce el daño de Escarcha que recibes entre un 15% y un 20%.
+LingH=170
+LingP=50
+Texto=Reduce el daño de Escarcha que recibes entre un 5% y un 7%, y un 8% de chance de evitarlo por completo.
 
 [OBJ9118]
 Name=Anneau Inalterable
 GrhIndex=49267
 ObjType=35
-Valor=5500
+Valor=12800
 SkHerreria=55
-LingH=70
-LingP=25
-Texto=Reduce el daño Ácido que recibes entre un 15% y un 20%.
+LingH=170
+LingP=50
+Texto=Reduce el daño Ácido que recibes entre un 5% y un 7%, y un 8% de chance de evitarlo por completo.
 
 [OBJ9119]
 Name=Anneau de Dissipation
 GrhIndex=49267
 ObjType=35
-Valor=5500
+Valor=12800
 SkHerreria=55
-LingH=70
-LingP=25
-Texto=Reduce el daño Arcano que recibes entre un 15% y un 20%.
+LingH=170
+LingP=50
+Texto=Reduce el daño Arcano que recibes entre un 5% y un 7%, y un 8% de chance de evitarlo por completo.
 
 [OBJ9120]
 Name=Anneau Coagulant
 GrhIndex=49267
 ObjType=35
-Valor=5500
+Valor=12800
 SkHerreria=55
-LingH=90
-LingP=35
-Coal=15
-Texto=Reduce el daño por sangrado que recibes entre un 15% y un 20%.
+LingH=163
+LingP=53
+Coal=25
+Texto=Reduce el daño por sangrado que recibes entre un 5% y un 7%, y un 8% de chance de evitarlo por completo.
 
 [OBJ9121]
 Name=Anneau Antitoxine
 GrhIndex=49267
 ObjType=35
-Valor=5500
+Valor=12800
 SkHerreria=55
-LingH=90
-LingP=35
-Coal=15
-Texto=Reduce el daño de Veneno que recibes entre un 15% y un 20%.
+LingH=163
+LingP=53
+Coal=25
+Texto=Reduce el daño de Veneno que recibes entre un 5% y un 7%, y un 8% de chance de evitarlo por completo.
 
 [OBJ9122]
 Name=Anneau du Coeur de Braise
 GrhIndex=49270
 ObjType=35
-Valor=19000
+Valor=28500
 SkHerreria=90
 Hechizo=415
-LingH=115
-LingP=65
+LingH=250
+LingP=150
 FireEssence=2
-Texto=Reduce el daño de Fuego un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+Texto=Reduce el daño de Fuego un 10-12% y absorbe 1 punto plano con 15% de chance.
 
 [OBJ9123]
 Name=Anneau du Souffle Polaire
 GrhIndex=49270
 ObjType=35
-Valor=19000
+Valor=28500
 SkHerreria=90
 Hechizo=415
-LingH=115
-LingP=65
+LingH=250
+LingP=150
 WaterEssence=2
-Texto=Reduce el daño de Escarcha un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+Texto=Reduce el daño de Escarcha un 10-12% y absorbe 1 punto plano con 15% de chance.
 
 [OBJ9124]
 Name=Anneau de Peau de Pierre
 GrhIndex=49270
 ObjType=35
-Valor=19000
+Valor=28500
 SkHerreria=90
 Hechizo=415
-LingH=115
-LingP=65
+LingH=250
+LingP=150
 EarthEssence=2
-Texto=Reduce el daño Ácido un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+Texto=Reduce el daño Ácido un 10-12% y absorbe 1 punto plano con 15% de chance.
 
 [OBJ9125]
 Name=Anneau du Voile Nul
 GrhIndex=49270
 ObjType=35
-Valor=19000
+Valor=28500
 SkHerreria=90
 Hechizo=415
-LingH=115
-LingP=65
+LingH=250
+LingP=150
 WindEssence=2
-Texto=Reduce el daño Arcano un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+Texto=Reduce el daño Arcano un 10-12% y absorbe 1 punto plano con 15% de chance.
 
 [OBJ9126]
 Name=Anneau Hemostatique
 GrhIndex=49270
 ObjType=35
-Valor=19000
+Valor=28500
 SkHerreria=90
 Hechizo=415
-LingH=140
-LingP=85
-Coal=30
-Texto=Reduce el daño por sangrado un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+LingH=240
+LingP=155
+Coal=53
+Texto=Reduce el daño por sangrado un 10-12% y absorbe 1 punto plano con 15% de chance.
 
 [OBJ9127]
 Name=Anneau du Serum Pur
 GrhIndex=49270
 ObjType=35
-Valor=19000
+Valor=28500
 SkHerreria=90
 Hechizo=415
-LingH=140
-LingP=85
-Coal=30
-Texto=Reduce el daño de Veneno un 25-30% y absorbe 1-2 puntos planos con 25% de chance.
+LingH=240
+LingP=155
+Coal=53
+Texto=Reduce el daño de Veneno un 10-12% y absorbe 1 punto plano con 15% de chance.
 
 [OBJ9128]
 Name=Amulette des Deux Saisons
 GrhIndex=25674
 ObjType=21
-Valor=25000
+Valor=35000
 SkHerreria=95
 Hechizo=415
-LingH=145
-LingP=110
+LingH=290
+LingP=190
 FireEssence=1
 WaterEssence=1
-Texto=Reduce el daño de Fuego y de Escarcha un 15-20% cada uno. Compite por el slot del orbe.
+Texto=Reduce el daño de Fuego y de Escarcha un 6-8% cada uno, con 8% de chance de evitar cada uno por completo. Compite por el slot del orbe.
 
 [OBJ9129]
 Name=Amulette du Voile Venimeux
 GrhIndex=25674
 ObjType=21
-Valor=25000
+Valor=35000
 SkHerreria=95
 Hechizo=415
-LingH=145
-LingP=110
+LingH=290
+LingP=190
 WindEssence=1
 EarthEssence=1
-Texto=Reduce el daño Arcano y de Veneno un 15-20% cada uno. Compite por el slot del orbe.
+Texto=Reduce el daño Arcano y de Veneno un 6-8% cada uno, con 8% de chance de evitar cada uno por completo. Compite por el slot del orbe.
 
 [OBJ9130]
 Name=Cuirasse a Pointes
 GrhIndex=1469
 ObjType=3
-MinDef=25
-MaxDef=27
+MinDef=20
+MaxDef=24
 Valor=15000
-SkHerreria=70
+SkHerreria=80
+Hechizo=418
 RopajeHumano=254
 RopajeElfo=254
 RopajeElfoOscuro=1754
@@ -68884,35 +68944,36 @@ RopajeElfaOscura=1754
 RopajeEnana=754
 RopajeOrca=1298
 RopajeGnoma=754
-LingH=120
-LingP=70
-Texto=Coraza erizada de púas de acero. Devuelve daño físico a quien te golpea cuerpo a cuerpo.
+LingH=170
+LingP=100
+Texto=Coraza erizada de púas de acero. Devuelve 5-8 de daño físico, siempre, a quien te golpea cuerpo a cuerpo.
 
 [OBJ9131]
 Name=Heaume a Pointes
 GrhIndex=559
 ObjType=17
-MinDef=7
-MaxDef=9
-Valor=9500
+MinDef=6
+MaxDef=10
+Valor=6000
 SkHerreria=65
-LingH=85
-LingP=20
-Texto=Yelmo con puntas al rojo. Refleja parte del daño de Fuego que recibes.
+Hechizo=418
+LingH=80
+LingP=30
+Texto=Yelmo rematado en púas de acero. Puede devolver parte del golpe físico que recibes.
 
 [OBJ9132]
 Name=Egide des Epines
 GrhIndex=86119
 ObjType=16
-MinDef=3
-MaxDef=5
-Hechizo=418
-Valor=16500
-SkHerreria=90
+MinDef=6
+MaxDef=8
+Hechizo=425
+Valor=12000
+SkHerreria=100
 LingH=130
 LingP=85
 EarthEssence=2
-Texto=Escudo rematado en espinas que devuelve tanto daño físico como parte de cualquier elemento recibido.
+Texto=Escudo rematado en espinas. Puede devolver un porcentaje del golpe físico que recibes.
 
 [OBJ9133]
 Name=Huile Venimeuse
@@ -68984,36 +69045,36 @@ Texto=Cura cualquier veneno (Menor, Hemotoxina y Neurotoxina) de una sola vez.
 Name=Parchemin : Forge Elementaire Maitresse
 GrhIndex=28922
 ObjType=24
-Valor=15000
+Valor=50000
 Texto=Enseña la receta de las armas elementales maestras (Herrería 90 + 2 esencias del elemento).
 
 [OBJ9139]
 Name=Parchemin : Joaillerie Elementaire
 GrhIndex=28924
 ObjType=24
-Valor=15000
-Texto=Enseña la receta de orbes, anillos elementales T2 y amuletos duales (los orbes exigen Herrería 100).
+Valor=50000
+Texto=Enseña la receta de anillos elementales T2 y amuletos duales (los orbes ahora se aprenden por quest).
 
 [OBJ9140]
-Name=Parchemin : Huiles Superieures
+Name=Parchemin : Huiles Raffinees
 GrhIndex=28921
 ObjType=24
-Valor=15000
-Texto=Enseña la receta de los aceites elementales superiores (requieren una Runa Elemental).
+Valor=20000
+Texto=Enseña la receta de los aceites elementales refinados (Alquimia 65).
 
 [OBJ9141]
 Name=Parchemin : Toxines et Antidotes Superieurs
 GrhIndex=28925
 ObjType=24
-Valor=15000
+Valor=20000
 Texto=Enseña la receta de los aceites de Hemotoxina y Neurotoxina y del Antídoto Universal.
 
 [OBJ9142]
-Name=Parchemin : Egide des Epines
+Name=Parchemin : Epines
 GrhIndex=609
 ObjType=24
-Valor=15000
-Texto=Enseña la receta del escudo que devuelve el golpe recibido.
+Valor=50000
+Texto=Enseña la receta de la Coraza de Púas, la Casaca de Espinas, el Yelmo de Púas y el Escudo de Espinas.
 
 [OBJ9143]
 Name=Robe de Cendre
@@ -69021,7 +69082,7 @@ GrhIndex=67
 ObjType=3
 MinDef=15
 MaxDef=19
-Valor=5500
+Valor=7200
 SKSastreria=55
 RopajeHumano=88
 RopajeElfo=88
@@ -69035,9 +69096,9 @@ RopajeElfaOscura=1731
 RopajeEnana=731
 RopajeOrca=1231
 RopajeGnoma=731
-PielLobo=15
-PielOsoPardo=10
-Texto=Tejida con hebras que resisten la ceniza. Reduce el daño de Fuego un 10-15%.
+PielLobo=30
+PielOsoPardo=20
+Texto=Tejida con hebras que resisten la ceniza. Reduce el daño de Fuego un 3-5%, y un 5% de chance de evitarlo por completo.
 
 [OBJ9144]
 Name=Robe de Givre
@@ -69045,7 +69106,7 @@ GrhIndex=67
 ObjType=3
 MinDef=15
 MaxDef=19
-Valor=5500
+Valor=7200
 SKSastreria=55
 RopajeHumano=88
 RopajeElfo=88
@@ -69059,9 +69120,9 @@ RopajeElfaOscura=1731
 RopajeEnana=731
 RopajeOrca=1231
 RopajeGnoma=731
-PielLobo=15
-PielOsoPardo=10
-Texto=Forrada contra el frío más intenso. Reduce el daño de Escarcha un 10-15%.
+PielLobo=30
+PielOsoPardo=20
+Texto=Forrada contra el frío más intenso. Reduce el daño de Escarcha un 3-5%, y un 5% de chance de evitarlo por completo.
 
 [OBJ9145]
 Name=Robe du Marais
@@ -69069,7 +69130,7 @@ GrhIndex=67
 ObjType=3
 MinDef=15
 MaxDef=19
-Valor=5500
+Valor=7200
 SKSastreria=55
 RopajeHumano=88
 RopajeElfo=88
@@ -69083,9 +69144,9 @@ RopajeElfaOscura=1731
 RopajeEnana=731
 RopajeOrca=1231
 RopajeGnoma=731
-PielLobo=15
-PielOsoPardo=10
-Texto=Tratada con resinas del pantano. Reduce el daño Ácido un 10-15%.
+PielLobo=30
+PielOsoPardo=20
+Texto=Tratada con resinas del pantano. Reduce el daño Ácido un 3-5%, y un 5% de chance de evitarlo por completo.
 
 [OBJ9146]
 Name=Robe du Silence Arcanique
@@ -69093,7 +69154,7 @@ GrhIndex=67
 ObjType=3
 MinDef=15
 MaxDef=19
-Valor=5500
+Valor=7200
 SKSastreria=55
 RopajeHumano=88
 RopajeElfo=88
@@ -69107,9 +69168,9 @@ RopajeElfaOscura=1731
 RopajeEnana=731
 RopajeOrca=1231
 RopajeGnoma=731
-PielLobo=15
-PielOsoPardo=10
-Texto=Amortigua las energías arcanas antes de que te alcancen. Reduce el daño Arcano un 10-15%.
+PielLobo=30
+PielOsoPardo=20
+Texto=Amortigua las energías arcanas antes de que te alcancen. Reduce el daño Arcano un 3-5%, y un 5% de chance de evitarlo por completo.
 
 [OBJ9147]
 Name=Robe Coagulante
@@ -69117,7 +69178,7 @@ GrhIndex=67
 ObjType=3
 MinDef=15
 MaxDef=19
-Valor=5500
+Valor=7200
 SKSastreria=55
 RopajeHumano=88
 RopajeElfo=88
@@ -69131,9 +69192,9 @@ RopajeElfaOscura=1731
 RopajeEnana=731
 RopajeOrca=1231
 RopajeGnoma=731
-PielLobo=15
-PielOsoPardo=10
-Texto=Reforzada para cerrar heridas más rápido. Reduce el daño por sangrado un 10-15%.
+PielLobo=30
+PielOsoPardo=20
+Texto=Reforzada para cerrar heridas más rápido. Reduce el daño por sangrado un 3-5%, y un 5% de chance de evitarlo por completo.
 
 [OBJ9148]
 Name=Robe Antitoxine
@@ -69141,7 +69202,7 @@ GrhIndex=67
 ObjType=3
 MinDef=15
 MaxDef=19
-Valor=5500
+Valor=7200
 SKSastreria=55
 RopajeHumano=88
 RopajeElfo=88
@@ -69155,9 +69216,9 @@ RopajeElfaOscura=1731
 RopajeEnana=731
 RopajeOrca=1231
 RopajeGnoma=731
-PielLobo=15
-PielOsoPardo=10
-Texto=Impregnada con hierbas antitóxicas. Reduce el daño de Veneno un 10-15%.
+PielLobo=30
+PielOsoPardo=20
+Texto=Impregnada con hierbas antitóxicas. Reduce el daño de Veneno un 3-5%, y un 5% de chance de evitarlo por completo.
 
 [OBJ9149]
 Name=Cotte Ignifuge
@@ -69181,7 +69242,7 @@ RopajeOrca=1058
 RopajeGnoma=2558
 LingH=90
 LingP=30
-Texto=Cota de mallas tratada para resistir el calor extremo. Reduce el daño de Fuego un 10-15%.
+Texto=Cota de mallas tratada para resistir el calor extremo. Reduce el daño de Fuego un 3-5%, y un 5% de chance de evitarlo por completo.
 
 [OBJ9150]
 Name=Cotte Thermique
@@ -69205,7 +69266,7 @@ RopajeOrca=1058
 RopajeGnoma=2558
 LingH=90
 LingP=30
-Texto=Cota de mallas forrada por dentro. Reduce el daño de Escarcha un 10-15%.
+Texto=Cota de mallas forrada por dentro. Reduce el daño de Escarcha un 3-5%, y un 5% de chance de evitarlo por completo.
 
 [OBJ9151]
 Name=Cotte Inalterable
@@ -69229,7 +69290,7 @@ RopajeOrca=1058
 RopajeGnoma=2558
 LingH=90
 LingP=30
-Texto=Cota de mallas con un tratamiento que resiste la corrosión. Reduce el daño Ácido un 10-15%.
+Texto=Cota de mallas con un tratamiento que resiste la corrosión. Reduce el daño Ácido un 3-5%, y un 5% de chance de evitarlo por completo.
 
 [OBJ9152]
 Name=Cotte de Dissipation
@@ -69253,7 +69314,7 @@ RopajeOrca=1058
 RopajeGnoma=2558
 LingH=90
 LingP=30
-Texto=Cota de mallas grabada con símbolos que disipan la magia. Reduce el daño Arcano un 10-15%.
+Texto=Cota de mallas grabada con símbolos que disipan la magia. Reduce el daño Arcano un 3-5%, y un 5% de chance de evitarlo por completo.
 
 [OBJ9153]
 Name=Cotte Hemostatique
@@ -69277,7 +69338,7 @@ RopajeOrca=1058
 RopajeGnoma=2558
 LingH=90
 LingP=30
-Texto=Cota de mallas ajustada para minimizar los cortes profundos. Reduce el daño por sangrado un 10-15%.
+Texto=Cota de mallas ajustada para minimizar los cortes profundos. Reduce el daño por sangrado un 3-5%, y un 5% de chance de evitarlo por completo.
 
 [OBJ9154]
 Name=Cotte Antitoxine
@@ -69301,7 +69362,7 @@ RopajeOrca=1058
 RopajeGnoma=2558
 LingH=90
 LingP=30
-Texto=Cota de mallas con anillas selladas contra toxinas. Reduce el daño de Veneno un 10-15%.
+Texto=Cota de mallas con anillas selladas contra toxinas. Reduce el daño de Veneno un 3-5%, y un 5% de chance de evitarlo por completo.
 
 [OBJ9155]
 Name=Robe des Saisons
@@ -69309,7 +69370,7 @@ GrhIndex=2597
 ObjType=3
 MinDef=28
 MaxDef=32
-Valor=21600
+Valor=26000
 SKSastreria=90
 Hechizo=419
 RopajeHumano=141
@@ -69324,10 +69385,10 @@ RopajeElfaOscura=3555
 RopajeEnana=2597
 RopajeOrca=3148
 RopajeGnoma=2597
-PielTigreBengala=8
-PielLoboNegro=12
-PielOsoPolar=8
-Texto=Cambia de textura con el clima. Reduce el daño de Fuego y de Escarcha un 15-20% cada uno.
+PielTigreBengala=20
+PielLoboNegro=30
+PielOsoPolar=20
+Texto=Cambia de textura con el clima. Reduce el daño de Fuego y de Escarcha un 6-8% cada uno, con 8% de chance de evitar cada uno por completo.
 
 [OBJ9156]
 Name=Robe du Bourbier
@@ -69335,7 +69396,7 @@ GrhIndex=2597
 ObjType=3
 MinDef=28
 MaxDef=32
-Valor=21600
+Valor=26000
 SKSastreria=90
 Hechizo=419
 RopajeHumano=141
@@ -69350,10 +69411,10 @@ RopajeElfaOscura=3555
 RopajeEnana=2597
 RopajeOrca=3148
 RopajeGnoma=2597
-PielTigreBengala=8
-PielLoboNegro=12
-PielOsoPolar=8
-Texto=Curtida en los pantanos más hostiles. Reduce el daño Ácido y de Veneno un 15-20% cada uno.
+PielTigreBengala=20
+PielLoboNegro=30
+PielOsoPolar=20
+Texto=Curtida en los pantanos más hostiles. Reduce el daño Ácido y de Veneno un 6-8% cada uno, con 8% de chance de evitar cada uno por completo.
 
 [OBJ9157]
 Name=Robe du Vide Sanglant
@@ -69361,7 +69422,7 @@ GrhIndex=2597
 ObjType=3
 MinDef=28
 MaxDef=32
-Valor=21600
+Valor=26000
 SKSastreria=90
 Hechizo=419
 RopajeHumano=141
@@ -69376,10 +69437,10 @@ RopajeElfaOscura=3555
 RopajeEnana=2597
 RopajeOrca=3148
 RopajeGnoma=2597
-PielTigreBengala=8
-PielLoboNegro=12
-PielOsoPolar=8
-Texto=Tejida con hilos que susurran del vacío. Reduce el daño Arcano y por sangrado un 15-20% cada uno.
+PielTigreBengala=20
+PielLoboNegro=30
+PielOsoPolar=20
+Texto=Tejida con hilos que susurran del vacío. Reduce el daño Arcano y por sangrado un 6-8% cada uno, con 8% de chance de evitar cada uno por completo.
 
 [OBJ9158]
 Name=Plates des Saisons
@@ -69402,11 +69463,11 @@ RopajeElfaOscura=1754
 RopajeEnana=754
 RopajeOrca=1298
 RopajeGnoma=754
-LingH=150
-LingP=90
+LingH=175
+LingP=110
 FireEssence=1
 WaterEssence=1
-Texto=Placas forjadas para resistir todas las estaciones. Reduce el daño de Fuego y de Escarcha un 15-20% cada uno.
+Texto=Placas forjadas para resistir todas las estaciones. Reduce el daño de Fuego y de Escarcha un 6-8% cada uno, con 8% de chance de evitar cada uno por completo.
 
 [OBJ9159]
 Name=Plates du Bourbier
@@ -69429,11 +69490,11 @@ RopajeElfaOscura=1754
 RopajeEnana=754
 RopajeOrca=1298
 RopajeGnoma=754
-LingH=150
-LingP=90
+LingH=175
+LingP=110
 EarthEssence=1
 Coal=20
-Texto=Placas tratadas contra la corrosión y las toxinas. Reduce el daño Ácido y de Veneno un 15-20% cada uno.
+Texto=Placas tratadas contra la corrosión y las toxinas. Reduce el daño Ácido y de Veneno un 6-8% cada uno, con 8% de chance de evitar cada uno por completo.
 
 [OBJ9160]
 Name=Plates du Vide Sanglant
@@ -69456,18 +69517,558 @@ RopajeElfaOscura=1754
 RopajeEnana=754
 RopajeOrca=1298
 RopajeGnoma=754
-LingH=150
-LingP=90
+LingH=175
+LingP=110
 WindEssence=1
 Coal=20
-Texto=Placas grabadas con símbolos que contienen el vacío. Reduce el daño Arcano y por sangrado un 15-20% cada uno.
+Texto=Placas grabadas con símbolos que contienen el vacío. Reduce el daño Arcano y por sangrado un 6-8% cada uno, con 8% de chance de evitar cada uno por completo.
 
 [OBJ9161]
 Name=Parchemin : Vetements Elementaires
 GrhIndex=28922
 ObjType=24
-Valor=15000
+Valor=50000
 Texto=Enseña a confeccionar túnicas y forjar armaduras con doble protección elemental.
+
+[OBJ9162]
+Name=Epee de Braise
+GrhIndex=86197
+ObjType=2
+Valor=2500
+MinHIT=3
+MaxHIT=6
+Texto=Espada sencilla templada en brasas. Puede incinerar al enemigo.
+
+[OBJ9163]
+Name=Epee Glacee
+GrhIndex=86197
+ObjType=2
+Valor=2500
+MinHIT=3
+MaxHIT=6
+Texto=Espada sencilla templada en hielo. Puede ralentizar al enemigo.
+
+[OBJ9164]
+Name=Hache Rouillee
+GrhIndex=44091
+ObjType=2
+Valor=2500
+MinHIT=2
+MaxHIT=6
+Texto=Hacha con el filo picado de óxido ácido. Puede corroer la defensa del enemigo.
+
+[OBJ9165]
+Name=Dague Ebrechee
+GrhIndex=5603
+ObjType=2
+Valor=3500
+MinHIT=2
+MaxHIT=4
+Texto=Daga con el filo mellado a propósito. Puede abrir heridas que sangran con el tiempo.
+
+[OBJ9166]
+Name=Epee de l'Enfer
+GrhIndex=35873
+ObjType=2
+SkHerreria=100
+Hechizo=421
+Valor=45000
+MinHIT=9
+MaxHIT=14
+LingH=200
+LingP=130
+FireEssence=4
+Texto=Forjada en las mismas llamas del averno. Añade daño de Fuego y puede incinerar con fuerza al enemigo.
+
+[OBJ9167]
+Name=Epee du Blizzard
+GrhIndex=35873
+ObjType=2
+SkHerreria=100
+Hechizo=421
+Valor=45000
+MinHIT=9
+MaxHIT=14
+LingH=200
+LingP=130
+WaterEssence=4
+Texto=Forjada en el ojo de una ventisca eterna. Añade daño de Escarcha y puede ralentizar con fuerza al enemigo.
+
+[OBJ9168]
+Name=Hache du Vitriol
+GrhIndex=44091
+ObjType=2
+SkHerreria=100
+Hechizo=421
+Valor=45000
+MinHIT=7
+MaxHIT=16
+LingH=200
+LingP=130
+EarthEssence=4
+Texto=Su filo rezuma vitriolo puro. Añade daño Ácido y puede corroer con fuerza la defensa del enemigo.
+
+[OBJ9169]
+Name=Dague de Boucher
+GrhIndex=5603
+ObjType=2
+Valor=50000
+SkHerreria=100
+Hechizo=421
+MinHIT=6
+MaxHIT=10
+LingH=220
+LingP=160
+Coal=60
+Texto=Hoja pesada de carnicero, afilada para desgarrar. Puede abrir heridas de sangrado severo.
+
+[OBJ9170]
+Name=Huile de Feu Mineure
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=80
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con Fuego durante 45s. Puede incinerar al enemigo. 6 cargas.
+
+[OBJ9171]
+Name=Huile Glaciale Mineure
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=80
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con Escarcha durante 45s. Puede ralentizar al enemigo. 6 cargas.
+
+[OBJ9172]
+Name=Huile Corrosive Mineure
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=80
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con Ácido durante 45s. Puede corroer la defensa del enemigo. 6 cargas.
+
+[OBJ9173]
+Name=Huile Arcanique Mineure
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=80
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con energía Arcana durante 45s. 6 cargas.
+
+[OBJ9174]
+Name=Huile Hemorragique Mineure
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=80
+Texto=Unta tu arma equipada (o tus flechas, si usas arco) con un filo que puede abrir heridas sangrantes. 6 cargas.
+
+[OBJ9175]
+Name=Huile de Feu Raffinee
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=300
+SkPociones=65
+Hechizo=420
+FrascoAlq=2
+Mortero=1
+FlorRoja=5
+Texto=Destilado con reactivos superiores. Unta tu arma o flechas con Fuego durante 75s. Puede incinerar al enemigo. 10 cargas.
+
+[OBJ9176]
+Name=Huile Glaciale Raffinee
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=300
+SkPociones=65
+Hechizo=420
+FrascoAlq=2
+Mortero=1
+FlorOceano=5
+Texto=Destilado con reactivos superiores. Unta tu arma o flechas con Escarcha durante 75s. Puede ralentizar al enemigo. 10 cargas.
+
+[OBJ9177]
+Name=Huile Corrosive Raffinee
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=300
+SkPociones=65
+Hechizo=420
+FrascoAlq=2
+Mortero=1
+Texto=Destilado con reactivos superiores. Unta tu arma o flechas con Ácido durante 75s. Puede corroer la defensa del enemigo. 10 cargas.
+
+[OBJ9178]
+Name=Huile Arcanique Raffinee
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=300
+SkPociones=65
+Hechizo=420
+FrascoAlq=2
+Mortero=1
+HongoDeLuz=5
+Texto=Destilado con reactivos superiores. Unta tu arma o flechas con energía Arcana durante 75s. 10 cargas.
+
+[OBJ9179]
+Name=Huile Hemorragique Raffinee
+GrhIndex=49017
+ObjType=11
+CD=15000
+CDType=8
+Valor=300
+SkPociones=65
+Hechizo=420
+FrascoAlq=2
+Mortero=1
+ColaDeZorro=5
+Cala=2
+Texto=Destilado con reactivos superiores. Unta tu arma o flechas con un filo que abre heridas sangrantes más severas. 10 cargas.
+
+[OBJ9180]
+Name=Fleche de Givre Mineure
+GrhIndex=277
+ObjType=32
+MinHIT=1
+MaxHIT=4
+Madera=4
+Valor=12
+Texto=Punta escarchada de manufactura simple. Puede ralentizar al enemigo.
+
+[OBJ9181]
+Name=Fleche Corrosive Mineure
+GrhIndex=277
+ObjType=32
+MinHIT=1
+MaxHIT=4
+Madera=4
+Valor=12
+Texto=Punta bañada en un ácido suave. Puede corroer la defensa del enemigo.
+
+[OBJ9182]
+Name=Fleche Sanglante Mineure
+GrhIndex=753
+ObjType=32
+MinHIT=1
+MaxHIT=4
+Madera=4
+Valor=12
+Texto=Punta con muescas simples. Puede abrir heridas que sangran con el tiempo.
+
+[OBJ9183]
+Name=Fleche de Flamme Raffinee
+GrhIndex=277
+ObjType=32
+MinHIT=3
+MaxHIT=4
+MaderaElfica=6
+Valor=60
+Hechizo=423
+Texto=Punta forjada con técnica refinada. Añade daño de Fuego y puede incinerar al enemigo.
+
+[OBJ9184]
+Name=Fleche de Givre Raffinee
+GrhIndex=277
+ObjType=32
+MinHIT=3
+MaxHIT=4
+MaderaElfica=6
+Valor=60
+Hechizo=423
+Texto=Punta forjada con técnica refinada. Añade daño de Escarcha y puede ralentizar al enemigo.
+
+[OBJ9185]
+Name=Fleche Corrosive Raffinee
+GrhIndex=277
+ObjType=32
+MinHIT=3
+MaxHIT=4
+MaderaElfica=6
+Valor=60
+Hechizo=423
+Texto=Punta forjada con técnica refinada. Añade daño Ácido y puede corroer la defensa del enemigo.
+
+[OBJ9186]
+Name=Fleche Arcanique Raffinee
+GrhIndex=753
+ObjType=32
+MinHIT=3
+MaxHIT=4
+MaderaElfica=6
+Valor=60
+Hechizo=423
+Texto=Punta grabada con runas de técnica refinada. Añade daño Arcano al impactar.
+
+[OBJ9187]
+Name=Fleche Sanglante Raffinee
+GrhIndex=753
+ObjType=32
+MinHIT=3
+MaxHIT=4
+MaderaElfica=6
+Valor=60
+Hechizo=423
+Texto=Punta con muescas de técnica refinada. Añade daño y puede abrir heridas que sangran con más fuerza.
+
+[OBJ9188]
+Name=Fleche de Flamme Superieure
+GrhIndex=277
+ObjType=32
+MinHIT=3
+MaxHIT=5
+MaderaElfica=8
+Valor=120
+Hechizo=424
+Texto=Punta forjada con técnica superior. Añade daño de Fuego y puede incinerar con fuerza al enemigo.
+
+[OBJ9189]
+Name=Fleche de Givre Superieure
+GrhIndex=277
+ObjType=32
+MinHIT=3
+MaxHIT=5
+MaderaElfica=8
+Valor=120
+Hechizo=424
+Texto=Punta forjada con técnica superior. Añade daño de Escarcha y puede ralentizar con fuerza al enemigo.
+
+[OBJ9190]
+Name=Fleche Corrosive Superieure
+GrhIndex=277
+ObjType=32
+MinHIT=3
+MaxHIT=5
+MaderaElfica=8
+Valor=120
+Hechizo=424
+Texto=Punta forjada con técnica superior. Añade daño Ácido y puede corroer con fuerza la defensa del enemigo.
+
+[OBJ9191]
+Name=Fleche Arcanique Superieure
+GrhIndex=753
+ObjType=32
+MinHIT=3
+MaxHIT=5
+MaderaElfica=8
+Valor=120
+Hechizo=424
+Texto=Punta grabada con runas de técnica superior. Añade daño Arcano al impactar.
+
+[OBJ9192]
+Name=Fleche Sanglante Superieure
+GrhIndex=753
+ObjType=32
+MinHIT=3
+MaxHIT=5
+MaderaElfica=8
+Valor=120
+Hechizo=424
+Texto=Punta con muescas de técnica superior. Añade daño y puede abrir heridas de sangrado severo.
+
+[OBJ9193]
+Name=Parchemin : Fleches Raffinees
+GrhIndex=28921
+ObjType=24
+Valor=20000
+Texto=Enseña la receta de las flechas elementales refinadas (Carpintería 85).
+
+[OBJ9194]
+Name=Cotte a Pointes
+GrhIndex=1469
+ObjType=3
+MinDef=6
+MaxDef=10
+Valor=2500
+SkHerreria=30
+RopajeHumano=74
+RopajeElfo=74
+RopajeElfoOscuro=1558
+RopajeEnano=558
+RopajeOrco=1058
+RopajeGnomo=558
+RopajeHumana=2058
+RopajeElfa=2058
+RopajeElfaOscura=1558
+RopajeEnana=2558
+RopajeOrca=1058
+RopajeGnoma=2558
+LingH=40
+Texto=Cota reforzada con púas cortas. Devuelve 2-5 de daño físico, siempre, a quien te golpea cuerpo a cuerpo.
+
+[OBJ9195]
+Name=Cuirasse a Pointes de Fer
+GrhIndex=1469
+ObjType=3
+MinDef=12
+MaxDef=16
+Valor=5500
+SkHerreria=55
+RopajeHumano=74
+RopajeElfo=74
+RopajeElfoOscuro=1558
+RopajeEnano=558
+RopajeOrco=1058
+RopajeGnomo=558
+RopajeHumana=2058
+RopajeElfa=2058
+RopajeElfaOscura=1558
+RopajeEnana=2558
+RopajeOrca=1058
+RopajeGnoma=2558
+LingH=90
+LingP=20
+Texto=Coraza de hierro erizada de púas. Devuelve 3-6 de daño físico, siempre, a quien te golpea cuerpo a cuerpo.
+
+[OBJ9196]
+Name=Justaucorps d'Epines
+GrhIndex=1469
+ObjType=3
+MinDef=11
+MaxDef=15
+Valor=4500
+SkHerreria=55
+RopajeHumano=74
+RopajeElfo=74
+RopajeElfoOscuro=1558
+RopajeEnano=558
+RopajeOrco=1058
+RopajeGnomo=558
+RopajeHumana=2058
+RopajeElfa=2058
+RopajeElfaOscura=1558
+RopajeEnana=2558
+RopajeOrca=1058
+RopajeGnoma=2558
+LingH=80
+LingP=15
+Texto=Jubón forrado de espinas sueltas. Puede devolver parte del golpe físico que recibes.
+
+[OBJ9197]
+Name=Manteau d'Epines
+GrhIndex=1469
+ObjType=3
+MinDef=19
+MaxDef=23
+Valor=12000
+SkHerreria=80
+Hechizo=418
+RopajeHumano=254
+RopajeElfo=254
+RopajeElfoOscuro=1754
+RopajeEnano=754
+RopajeOrco=1298
+RopajeGnomo=754
+RopajeHumana=254
+RopajeElfa=254
+RopajeElfaOscura=1754
+RopajeEnana=754
+RopajeOrca=1298
+RopajeGnoma=754
+LingH=150
+LingP=90
+Texto=Casaca reforzada con hileras de espinas. Puede devolver parte del golpe físico que recibes.
+
+[OBJ9198]
+Name=Cuirasse a Pointes d'Acier
+GrhIndex=1469
+ObjType=3
+MinDef=27
+MaxDef=31
+Valor=40000
+SkHerreria=100
+Hechizo=425
+RopajeHumano=254
+RopajeElfo=254
+RopajeElfoOscuro=1754
+RopajeEnano=754
+RopajeOrco=1298
+RopajeGnomo=754
+RopajeHumana=254
+RopajeElfa=254
+RopajeElfaOscura=1754
+RopajeEnana=754
+RopajeOrca=1298
+RopajeGnoma=754
+LingH=300
+LingP=200
+EarthEssence=2
+Texto=Coraza de acero templado, erizada de púas. Devuelve 7-11 de daño físico, siempre, a quien te golpea cuerpo a cuerpo.
+
+[OBJ9199]
+Name=Manteau d'Epines Noir
+GrhIndex=1469
+ObjType=3
+MinDef=26
+MaxDef=30
+Valor=32000
+SkHerreria=100
+Hechizo=425
+RopajeHumano=254
+RopajeElfo=254
+RopajeElfoOscuro=1754
+RopajeEnano=754
+RopajeOrco=1298
+RopajeGnomo=754
+RopajeHumana=254
+RopajeElfa=254
+RopajeElfaOscura=1754
+RopajeEnana=754
+RopajeOrca=1298
+RopajeGnoma=754
+LingH=280
+LingP=180
+EarthEssence=2
+Texto=Casaca oscura reforzada con espinas templadas. Puede devolver parte del golpe físico que recibes.
+
+[OBJ9200]
+Name=Heaume a Pointes d'Acier
+GrhIndex=559
+ObjType=17
+MinDef=9
+MaxDef=15
+Valor=18000
+SkHerreria=100
+Hechizo=425
+LingH=150
+LingP=90
+EarthEssence=1
+Texto=Yelmo de acero rematado en púas largas. Puede devolver parte del golpe físico que recibes.
+
+[OBJ9201]
+Name=Bouclier a Pointes
+GrhIndex=86119
+ObjType=16
+MinDef=1
+MaxDef=2
+Valor=600
+SkHerreria=15
+LingH=15
+Texto=Escudo básico rematado en púas. Devuelve 1-3 de daño físico, siempre, a quien te golpea cuerpo a cuerpo.
+
+[OBJ9202]
+Name=Bouclier d'Epines
+GrhIndex=86119
+ObjType=16
+MinDef=3
+MaxDef=5
+Valor=4000
+SkHerreria=60
+Hechizo=418
+LingH=60
+LingP=30
+Texto=Escudo rematado en espinas afiladas. Puede devolver parte del golpe físico que recibes.
 
 [NPC9000]
 Name=Maestro Carpintero y Lenador <Carpinteria y Tala>

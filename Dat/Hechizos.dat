@@ -19,7 +19,7 @@
 '4.....Terreno
 
 [INIT]
-NumeroHechizos=419
+NumeroHechizos=425
 
 ' ===Hechizos de entrenamiento posta [1 A 10]
 
@@ -6508,14 +6508,14 @@ Nombre=Receta: Forja Elemental Maestra
 Desc=¡Ya puedes forjar las armas elementales maestras! Necesitas Herrería 90 y 2 esencias del elemento.
 IconoIndex=49101
 
-[HECHIZO415] 'Catalogo elemental (plan 04.003) - receta joyería
+[HECHIZO415] 'Catalogo elemental (plan 04.003) - receta joyería / efectos por tier (plan 07.001): alcance reducido, ya no ensena orbes
 Nombre=Receta: Joyería Elemental
-Desc=¡Ya puedes forjar orbes, anillos y amuletos elementales! Los orbes exigen Herrería 100.
+Desc=¡Ya puedes forjar anillos y amuletos elementales! Necesitas Herrería 90.
 IconoIndex=49100
 
-[HECHIZO416] 'Catalogo elemental (plan 04.003) - receta aceites superiores
+[HECHIZO416] 'Catalogo elemental (plan 04.003) - receta aceites superiores / efectos por tier (plan 07.001): material esencia en vez de runa, solo por quest
 Nombre=Receta: Aceites Elementales Superiores
-Desc=¡Ya puedes destilar aceites superiores! Recuerda tener la olla, el mortero, los frascos y una Runa Elemental.
+Desc=¡Ya puedes destilar aceites superiores! Recuerda tener la olla, el mortero, los frascos y una Esencia Elemental.
 IconoIndex=49098
 
 [HECHIZO417] 'Catalogo elemental (plan 04.003) - receta toxinas
@@ -6523,12 +6523,42 @@ Nombre=Receta: Toxinas y Antídotos Superiores
 Desc=¡Ya puedes preparar los aceites de Hemotoxina y Neurotoxina y el Antídoto Universal!
 IconoIndex=74718
 
-[HECHIZO418] 'Catalogo elemental (plan 04.003) - receta espinas
-Nombre=Receta: Égida de Espinas
-Desc=¡Ya puedes forjar el escudo que devuelve el golpe recibido!
+[HECHIZO418] 'Efectos por tier (plan 07.001) - receta espinas renombrada: ahora ensena los 4 T2 (Coraza, Casaca, Yelmo, Escudo de Espinas)
+Nombre=Receta: Espinas
+Desc=¡Ya puedes forjar la Coraza de Púas, la Casaca de Espinas, el Yelmo de Púas y el Escudo de Espinas!
 IconoIndex=49099
 
 [HECHIZO419] 'Catalogo elemental (plan 04.003) - receta vestimenta
 Nombre=Receta: Vestimenta Elemental
 Desc=¡Ya puedes confeccionar túnicas y forjar armaduras con doble protección elemental!
 IconoIndex=49101
+
+[HECHIZO420] 'Efectos por tier (plan 07.001) - receta aceites refinados (nueva)
+Nombre=Receta: Aceites Refinados
+Desc=¡Ya puedes destilar aceites elementales refinados! Necesitas Alquimia 65.
+IconoIndex=49098
+
+[HECHIZO421] 'Efectos por tier (plan 07.001) - receta armas T3 (nueva, solo por quest)
+Nombre=Receta: Forja Elemental Legendaria
+Desc=¡Ya puedes forjar las armas elementales legendarias! Necesitas Herrería 100 y esencias del elemento.
+IconoIndex=49101
+
+[HECHIZO422] 'Efectos por tier (plan 07.001) - receta orbes (nueva, solo por quest)
+Nombre=Receta: Orbes Elementales
+Desc=¡Ya puedes forjar orbes elementales! Necesitas Herrería 100.
+IconoIndex=49100
+
+[HECHIZO423] 'Efectos por tier (plan 07.001) - receta flechas refinadas (nueva)
+Nombre=Receta: Flechas Refinadas
+Desc=¡Ya puedes fabricar flechas elementales refinadas! Necesitas Carpintería 85.
+IconoIndex=49098
+
+[HECHIZO424] 'Efectos por tier (plan 07.001) - receta flechas superiores (nueva, solo por quest)
+Nombre=Receta: Flechas Superiores
+Desc=¡Ya puedes fabricar flechas elementales superiores! Necesitas Carpintería 100.
+IconoIndex=49098
+
+[HECHIZO425] 'Efectos por tier (plan 07.001) - receta espinas legendarias (nueva, solo por quest)
+Nombre=Receta: Espinas Legendarias
+Desc=¡Ya puedes forjar la Coraza de Púas de Acero, la Casaca de Espinas Negra, el Yelmo de Púas de Acero y la Égida de Espinas!
+IconoIndex=49099

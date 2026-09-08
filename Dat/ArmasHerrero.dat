@@ -1,5 +1,5 @@
 [INIT]
-NumArmas=38
+NumArmas=42
 
 [Arma1]
 Index=3980 ' Bala de piedra
@@ -114,3 +114,15 @@ Index=9094
 
 [Arma38] 'Daga de la Viuda
 Index=9095
+
+[Arma39] 'Espada del Infierno
+Index=9166
+
+[Arma40] 'Espada de la Ventisca
+Index=9167
+
+[Arma41] 'Hacha del Vitriolo
+Index=9168
+
+[Arma42] 'Daga Carnicera
+Index=9169
