@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleFR_Msg=2212
+NumLocaleFR_Msg=2214
 
 [FR_MSG]
 Msg1=[¬1] a été expulsé du clan car il modifiait son alignement.
@@ -1180,7 +1180,7 @@ Msg1233=Vous ne pouvez pas relever un défi pour le moment.
 Msg1234=Vous devez d'abord sélectionner un personnage, cliquez sur lui à gauche.
 Msg1235=Espace déverrouillé.
 Msg1236=Vous appartenez à un clan, vous ne pouvez pas en trouver un autre.
-Msg1237=Pour fonder un clan, vous devez être de niveau 23, en avoir 50 en leadership et avoir dans votre inventaire le 4 Gemme de Fondation: Gema Green, Gema Red, Gema Blue et Gema Polar.
+Msg1237=Pour fonder un clan, vous devez être de niveau 21, avoir les 4 Gemmes de Fondation et 1.000.000 pièces d'or.
 Msg1238=Pour fonder un clan, vous devez avoir dans votre inventaire les 4 gemmes de fondation: Green Gem, Gema rouge, Blue Gema et Gema Polar.
 Msg1239=Serveur »Nous commençons à fonder le clan! Entrez toutes les données demandées.
 Msg1240=Serveur » Votre niveau de clan doit être de ¬1 ou plus pour utiliser cette option.
@@ -1963,7 +1963,7 @@ Msg2020=Nom du clan non valide.
 Msg2021=Il y a déjà un clan avec ce nom.
 Msg2022=Il n'y a plus de machines à sous pour fonder les clans. Consulter un administrateur.
 Msg2023=Vous appartenez à un clan, vous ne pouvez pas en trouver un autre.
-Msg2024=Pour fonder un clan, vous devez être de niveau 23, avoir 50 points de leadership et avoir dans votre inventaire les joyaux de la fondation verte, rouge, bleue et polaire.
+Msg2024=Pour fonder un clan, vous devez être de niveau 21, avoir les 4 Gemmes de Fondation et 1.000.000 pièces d'or.
 Msg2025=Pour fonder un clan, vous devez avoir dans votre inventaire les joyaux de Verde, Red, Blue Foundation. Vous manquez un joyau polaire de la fondation clan
 Msg2026=Pour fonder un clan, vous devez avoir dans votre inventaire les joyaux des fondations vertes, bleues et polaires. Vous manquez de joyau de la Fondation rouge du clan rouge
 Msg2027=Pour fonder un clan, vous devez avoir dans votre inventaire les joyaux de la fondation verte, rouge et polaire. Vous manquez de gemmes de fondation Clan Blue Clan
@@ -2130,3 +2130,5 @@ Msg2209=Ce maitre n'achete pas d'objets.
 Msg2210=La classe Travailleur n est pas disponible lorsque les professions apprenables sont actives.
 Msg2211=Vous avez inflige ¬1 de ¬2 a la creature.
 Msg2212=Vous avez subi ¬1 dégâts de ¬2.
+Msg2213=Vous ne pouvez plus attribuer de points a cette competence : elle n'a plus d'utilite.
+Msg2214=Pour fonder un clan, vous avez besoin de ¬1 pièces d'or.
