@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=2212
+NUMLOCALEMSG=2214
 NUMMAPAS=750
 NUMNPCS=9048
 NUMOBJS=9202
@@ -1218,7 +1218,7 @@ Msg1233=Vous ne pouvez pas relever un défi pour le moment.
 Msg1234=Vous devez d'abord sélectionner un personnage, cliquez sur lui à gauche.
 Msg1235=Espace déverrouillé.
 Msg1236=Vous appartenez à un clan, vous ne pouvez pas en trouver un autre.
-Msg1237=Pour fonder un clan, vous devez être de niveau 23, en avoir 50 en leadership et avoir dans votre inventaire le 4 Gemme de Fondation: Gema Green, Gema Red, Gema Blue et Gema Polar.
+Msg1237=Pour fonder un clan, vous devez être de niveau 21, avoir les 4 Gemmes de Fondation et 1.000.000 pièces d'or.
 Msg1238=Pour fonder un clan, vous devez avoir dans votre inventaire les 4 gemmes de fondation: Green Gem, Gema rouge, Blue Gema et Gema Polar.
 Msg1239=Serveur »Nous commençons à fonder le clan! Entrez toutes les données demandées.
 Msg1240=Serveur » Votre niveau de clan doit être de ¬1 ou plus pour utiliser cette option.
@@ -2001,7 +2001,7 @@ Msg2020=Nom du clan non valide.
 Msg2021=Il y a déjà un clan avec ce nom.
 Msg2022=Il n'y a plus de machines à sous pour fonder les clans. Consulter un administrateur.
 Msg2023=Vous appartenez à un clan, vous ne pouvez pas en trouver un autre.
-Msg2024=Pour fonder un clan, vous devez être de niveau 23, avoir 50 points de leadership et avoir dans votre inventaire les joyaux de la fondation verte, rouge, bleue et polaire.
+Msg2024=Pour fonder un clan, vous devez être de niveau 21, avoir les 4 Gemmes de Fondation et 1.000.000 pièces d'or.
 Msg2025=Pour fonder un clan, vous devez avoir dans votre inventaire les joyaux de Verde, Red, Blue Foundation. Vous manquez un joyau polaire de la fondation clan
 Msg2026=Pour fonder un clan, vous devez avoir dans votre inventaire les joyaux des fondations vertes, bleues et polaires. Vous manquez de joyau de la Fondation rouge du clan rouge
 Msg2027=Pour fonder un clan, vous devez avoir dans votre inventaire les joyaux de la fondation verte, rouge et polaire. Vous manquez de gemmes de fondation Clan Blue Clan
@@ -2167,6 +2167,8 @@ Msg2209=Ce maitre n'achete pas d'objets.
 Msg2210=La classe Travailleur n est pas disponible lorsque les professions apprenables sont actives.
 Msg2211=Vous avez inflige ¬1 de ¬2 a la creature.
 Msg2212=Vous avez subi ¬1 dégâts de ¬2.
+Msg2213=Vous ne pouvez plus attribuer de points a cette competence : elle n'a plus d'utilite.
+Msg2214=Pour fonder un clan, vous avez besoin de ¬1 pièces d'or.
 
 [QUEST1]
 Nombre=Repos final
@@ -23169,38 +23171,38 @@ Texto=Hongos
 [OBJ474]
 Name=Bateau
 MinHit=0
-texto=Nécessite 70 points dans la navigation
+texto=Nécessite niveau 25. S'achète dans les ports ou se fabrique avec Charpenterie 73.
 GrhIndex=4547
 ObjType=31
 Madera=20000
-Valor=30000
-Texto=Requiere 70 puntos en Navegar
+Valor=240000
+Texto=Requiere nivel 25. Se compra en los muelles o se fabrica con Carpintería 73.
 
 [OBJ475]
 Name=Galère
-texto=Il nécessite 80 pour naviguer, navire exclusif pour les travailleurs.
+texto=Nécessite niveau 33. Exclusive aux Pirates et pêcheurs de métier. S'achète dans les ports ou se fabrique avec Charpenterie 93.
 GrhIndex=11568
 ObjType=31
 Madera=5000
 MaderaElfica=20000
-Valor=67500
+Valor=540000
 MinHit=5
 MaxHit=10
 MinDef=5
 MaxDef=10
-Texto=Requiere 80 en Navegar, navío exclusivo para Trabajadores.
+Texto=Requiere nivel 33. Exclusiva de Piratas y pescadores de oficio. Se compra en los muelles o se fabrica con Carpintería 93.
 
 [OBJ476]
 Name=Galeón
 GrhIndex=11592
 ObjType=31
 maderaelfica=30000
-Valor=180000
+Valor=720000
 MinHIT=20
 MaxHIT=25
 MINDEF=15
 MAXDEF=20
-Texto=Requiere 100 en Navegación, exclusivo de Piratas.
+Texto=Requiere nivel 41. Exclusivo de Piratas. Se compra en los muelles o se fabrica con Carpintería 100.
 
 [OBJ477]
 Name=Traje de Novio
@@ -23225,7 +23227,7 @@ Texto=Traje de Novio
 
 [OBJ478]
 Name=Galeon Patreon
-Texto=Nécessite 70 points dans la navigation
+Texto=Nécessite niveau 25. Exclusif aux Pirates.
 GrhIndex=4547
 ObjType=31
 Valor=0
@@ -70618,6 +70620,17 @@ ORO=0
 MaxHIT=5
 MinHIT=2
 NROITEMS=0
+
+[NPC9049]
+Name=Armador <Naval>
+Desc=Barcas, galeras y galeones. Sólo vendo; no compro naves.
+Body=17
+Head=525
+Comercia=1
+NROITEMS=3
+Obj1=474-1
+Obj2=475-1
+Obj3=476-1
 
 [NAMEMAPA]
 mapa1Desc=Ciudad Neutral, entrada a Catacumbas

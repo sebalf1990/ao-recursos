@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=2212
+NUMLOCALEMSG=2214
 NUMMAPAS=750
 NUMNPCS=9048
 NUMOBJS=9202
@@ -20992,8 +20992,8 @@ MinHit=0
 GrhIndex=4547
 ObjType=31
 Madera=20000
-Valor=30000
-Texto=Requiere 70 puntos en Navegar
+Valor=240000
+Texto=Requiere nivel 25. Se compra en los muelles o se fabrica con Carpintería 73.
 
 [OBJ475]
 Name=Galera
@@ -21001,24 +21001,24 @@ GrhIndex=11568
 ObjType=31
 Madera=5000
 MaderaElfica=20000
-Valor=67500
+Valor=540000
 MinHit=5
 MaxHit=10
 MinDef=5
 MaxDef=10
-Texto=Requiere 80 en Navegar, navío exclusivo para Trabajadores.
+Texto=Requiere nivel 33. Exclusiva de Piratas y pescadores de oficio. Se compra en los muelles o se fabrica con Carpintería 93.
 
 [OBJ476]
 Name=Galeón
 GrhIndex=11592
 ObjType=31
 maderaelfica=30000
-Valor=180000
+Valor=720000
 MinHIT=20
 MaxHIT=25
 MINDEF=15
 MAXDEF=20
-Texto=Requiere 100 en Navegación, exclusivo de Piratas.
+Texto=Requiere nivel 41. Exclusivo de Piratas. Se compra en los muelles o se fabrica con Carpintería 100.
 
 [OBJ477]
 Name=Traje de Novio
@@ -21043,7 +21043,7 @@ Texto=Traje de Novio
 
 [OBJ478]
 Name=Galeón Patreon
-Texto=Requiere 70 puntos en Navegar
+Texto=Requiere nivel 25. Exclusivo de Piratas.
 GrhIndex=4547
 ObjType=31
 Valor=0
@@ -68195,6 +68195,17 @@ MaxHIT=5
 MinHIT=2
 NROITEMS=0
 
+[NPC9049]
+Name=Armador <Naval>
+Desc=Barcas, galeras y galeones. Sólo vendo; no compro naves.
+Body=17
+Head=525
+Comercia=1
+NROITEMS=3
+Obj1=474-1
+Obj2=475-1
+Obj3=476-1
+
 [NAMEMAPA]
 mapa1Desc=Ciudad Neutral, entrada a Catacumbas
 mapa2=Bosque al sur de Ullathorpe
@@ -70310,7 +70321,7 @@ Msg1233=No puedes realizar un reto en este momento.
 Msg1234=Primero tenés que seleccionar un personaje, haz click izquierdo sobre él.
 Msg1235=Espacio no desbloqueado.
 Msg1236=Ya perteneces a un clan, no podés fundar otro.
-Msg1237=Para fundar un clan debes ser Nivel 23, tener 50 en liderazgo y tener en tu inventario las 4 Gemas de Fundación: Gema Verde, Gema Roja, Gema Azul y Gema Polar.
+Msg1237=Para fundar un clan debes ser nivel 21, tener las 4 Gemas de Fundación y 1.000.000 de monedas de oro.
 Msg1238=Para fundar un clan debes tener en tu inventario las 4 Gemas de Fundación: Gema Verde, Gema Roja, Gema Azul y Gema Polar.
 Msg1239=Servidor » ¡Comenzamos a fundar el clan! Ingresa todos los datos solicitados.
 Msg1240=Servidor » El nivel de tu clan debe ser ¬1 o mayor para utilizar esta opción.
@@ -71093,7 +71104,7 @@ Msg2020=Nombre de clan inválido.
 Msg2021=Ya existe un clan con ese nombre.
 Msg2022=No hay más slots para fundar clanes. Consulte a un administrador.
 Msg2023=Ya perteneces a un clan, no podés fundar otro.
-Msg2024=Para fundar un clan debes ser Nivel 23, tener 50 puntos en liderazgo y tener en tu inventario las Gemas de Fundación Verde, Roja, Azul y Polar.
+Msg2024=Para fundar un clan debes ser nivel 21, tener las 4 Gemas de Fundación y 1.000.000 de monedas de oro.
 Msg2025=Para fundar un clan debes tener en tu inventario las Gemas de Fundación Verde, Roja, Azul. Te faltan Gema Polar de Fundación de Clan
 Msg2026=Para fundar un clan debes tener en tu inventario las Gemas de Fundación Verde, Azul y Polar. Te faltan Gema Roja de Fundación de Clan
 Msg2027=Para fundar un clan debes tener en tu inventario las Gemas de Fundación Verde, Roja,y Polar. Te faltan Gema Azul de Fundación de Clan
@@ -71276,6 +71287,8 @@ Msg2196=¬1 ha aparecido en ¬2, todo indica que puede tener una gran recompensa
 Msg2197=Evento> El NPC ha sido asesinado.
 Msg2198=Clan> [¬1] ha marcado a ¬2 en ¬3 (¬4-¬5).
 Msg2199=Primero debes seleccionar un NPC para marcar.
+Msg2213=No podes asignar puntos a ese skill: ya no tiene uso.
+Msg2214=Para fundar un clan necesitas ¬1 monedas de oro.
 
 [SP_SUGERENCIAS]
 Sugerencia1=¿Sabías quepodes meditar simplemente tocandotu barra de maná. ¡Probalo!

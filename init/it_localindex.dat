@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=2212
+NUMLOCALEMSG=2214
 NUMMAPAS=750
 NUMNPCS=9048
 NUMOBJS=9202
@@ -1218,7 +1218,7 @@ Msg1233=Non puoi fare una sfida in questo momento.
 Msg1234=Per prima cosa devi selezionare un personaggio, fare clic a sinistra su di lui.
 Msg1235=Spazio sbloccato.
 Msg1236=Appartenisci a un clan, non puoi trovarne un altro.
-Msg1237=Per fondare un clan devi essere il livello 23, avere 50 in leadership e avere nel tuo inventario il GEM di 4 Fondazioni: Gema Green, Gema Red, Gema Blue e Gema Polar.
+Msg1237=Per fondare un clan devi essere di livello 21, avere le 4 Gemme della Fondazione e 1.000.000 di monete d'oro.
 Msg1238=Per fondare un clan che devi avere nel tuo inventario le gemme a 4 fondazioni: Green Gem, Red Gema, Blue Gema e Gema Polar.
 Msg1239=Server »Cominciamo a trovare il clan! Immettere tutti i dati richiesti.
 Msg1240=Server » Per utilizzare questa opzione, il livello del tuo clan deve essere pari o superiore a ¬1.
@@ -2001,7 +2001,7 @@ Msg2020=Nome del clan non valido.
 Msg2021=C'è già un clan con quel nome.
 Msg2022=Non ci sono più slot per trovare clan. Consultare un amministratore.
 Msg2023=Appartieni a un clan, non puoi trovarne un altro.
-Msg2024=Per fondare un clan devi essere il livello 23, avere 50 punti in leadership e avere nel tuo inventario le gemme delle basi verdi, rosse, blu e polari.
+Msg2024=Per fondare un clan devi essere di livello 21, avere le 4 Gemme della Fondazione e 1.000.000 di monete d'oro.
 Msg2025=Per fondare un clan che devi avere nel tuo inventario le gemme di Verde, Red, Blue Foundation. Ti manca la gemma polare della fondazione clan
 Msg2026=Per fondare un clan che devi avere nel tuo inventario le gemme di base verde, blu e polare. Ti manca la gemma della fondazione del clan rosso
 Msg2027=Per fondare un clan che devi avere nel tuo inventario le gemme di fondazione verde, rosso e polare. Ti manca la gemma della fondazione blu clan
@@ -2167,6 +2167,8 @@ Msg2209=Questo maestro non compra oggetti.
 Msg2210=La classe Lavoratore non e disponibile con professioni apprendibili attive.
 Msg2211=Hai inflitto ¬1 di ¬2 alla creatura.
 Msg2212=Hai subito ¬1 danni di ¬2.
+Msg2213=Non puoi piu assegnare punti a quell'abilita: non ha piu utilizzo.
+Msg2214=Per fondare un clan, hai bisogno di ¬1 monete d'oro.
 
 [QUEST1]
 Nombre=Riposo finale
@@ -23169,38 +23171,38 @@ Texto=Hongos
 [OBJ474]
 Name=Barca
 MinHit=0
-texto=Richiede 70 punti nella navigazione
+texto=Richiede livello 25. Si acquista nei porti o si fabbrica con Carpenteria 73.
 GrhIndex=4547
 ObjType=31
 Madera=20000
-Valor=30000
-Texto=Requiere 70 puntos en Navegar
+Valor=240000
+Texto=Requiere nivel 25. Se compra en los muelles o se fabrica con Carpintería 73.
 
 [OBJ475]
 Name=Cambusa
-texto=Richiede 80 per navigare, la nave esclusiva per i lavoratori.
+texto=Richiede livello 33. Esclusiva di Pirati e pescatori di professione. Si acquista nei porti o si fabbrica con Carpenteria 93.
 GrhIndex=11568
 ObjType=31
 Madera=5000
 MaderaElfica=20000
-Valor=67500
+Valor=540000
 MinHit=5
 MaxHit=10
 MinDef=5
 MaxDef=10
-Texto=Requiere 80 en Navegar, navío exclusivo para Trabajadores.
+Texto=Requiere nivel 33. Exclusiva de Piratas y pescadores de oficio. Se compra en los muelles o se fabrica con Carpintería 93.
 
 [OBJ476]
 Name=Galeón
 GrhIndex=11592
 ObjType=31
 maderaelfica=30000
-Valor=180000
+Valor=720000
 MinHIT=20
 MaxHIT=25
 MINDEF=15
 MAXDEF=20
-Texto=Requiere 100 en Navegación, exclusivo de Piratas.
+Texto=Requiere nivel 41. Exclusivo de Piratas. Se compra en los muelles o se fabrica con Carpintería 100.
 
 [OBJ477]
 Name=Traje de Novio
@@ -23225,7 +23227,7 @@ Texto=Traje de Novio
 
 [OBJ478]
 Name=Galeon Patreon
-Texto=Richiede 70 punti nella navigazione
+Texto=Richiede livello 25. Esclusivo dei Pirati.
 GrhIndex=4547
 ObjType=31
 Valor=0
@@ -70618,6 +70620,17 @@ ORO=0
 MaxHIT=5
 MinHIT=2
 NROITEMS=0
+
+[NPC9049]
+Name=Armador <Naval>
+Desc=Barcas, galeras y galeones. Sólo vendo; no compro naves.
+Body=17
+Head=525
+Comercia=1
+NROITEMS=3
+Obj1=474-1
+Obj2=475-1
+Obj3=476-1
 
 [NAMEMAPA]
 mapa1Desc=Ciudad Neutral, entrada a Catacumbas

@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=2212
+NUMLOCALEMSG=2214
 NUMMAPAS=750
 NUMNPCS=9048
 NUMOBJS=9202
@@ -1218,7 +1218,7 @@ Msg1233=You cannot make a challenge at this time.
 Msg1234=First you have to select a character, click left on him.
 Msg1235=Unlocked space.
 Msg1236=You belong to a guild, you cannot found another.
-Msg1237=To found a guild you must be level 23, have 50 in leadership and have in your inventory the 4 foundation gems: Green Gem, Red Gem, Blue Gem and Polar Gem.
+Msg1237=To found a guild you must be level 21, have the 4 Foundation Gems, and 1,000,000 gold coins.
 Msg1238=To found a guild you must have in your inventory the 4 Foundation Gems: Green Gem, Red Gema, Blue Gema and Gema Polar.
 Msg1239=Server »We begin to found the guild!Enter all the requested data.
 Msg1240=Server » Your clan level must be ¬1 or higher to use this option.
@@ -2001,7 +2001,7 @@ Msg2020=Invalid guild name.
 Msg2021=A guild with that name already exists.
 Msg2022=There are no more slots to create guilds. Please contact an administrator.
 Msg2023=You already belong to a guild, you cannot create another.
-Msg2024=To found a guild, you must be Level 23, have 50 Leadership points, and have the Green, Red, Blue, and Polar Foundation Gems in your inventory.
+Msg2024=To found a guild, you must be level 21, have the 4 Foundation Gems, and 1,000,000 gold coins.
 Msg2025=To found a guild, you must have the Green, Red, and Blue Foundation Gems in your inventory. You are missing a Polar Guild Foundation Gem.
 Msg2026=To found a guild, you must have the Green, Blue, and Polar Foundation Gems in your inventory. You are missing a Red Guild Foundation Gem.
 Msg2027=To found a guild, you must have the Green, Red, and Polar Foundation Gems in your inventory. You are missing a Blue Guild Foundation Gem.
@@ -2167,6 +2167,8 @@ Msg2209=This master does not buy items.
 Msg2210=The Worker class is not available while learnable professions are enabled.
 Msg2211=You dealt ¬1 of ¬2 to the creature.
 Msg2212=You received ¬1 ¬2 damage.
+Msg2213=You can no longer assign points to that skill: it has no use.
+Msg2214=To found a guild, you need ¬1 gold coins.
 
 [QUEST1]
 Nombre=Final Rest
@@ -23838,9 +23840,9 @@ MinHit=0
 GrhIndex=4547
 ObjType=31
 Madera=20000
-Valor=30000
-Texto=Requiere 70 puntos en Navegar
-texto=Requires 70 points in Sailing
+Valor=240000
+Texto=Requiere nivel 25. Se compra en los muelles o se fabrica con Carpintería 73.
+texto=Requires level 25. Buy it at the docks or craft it with Carpentry 73.
 
 [OBJ475]
 Name=Galley
@@ -23848,26 +23850,26 @@ GrhIndex=11568
 ObjType=31
 Madera=5000
 MaderaElfica=20000
-Valor=67500
+Valor=540000
 MinHit=5
 MaxHit=10
 MinDef=5
 MaxDef=10
-Texto=Requiere 80 en Navegar, navío exclusivo para Trabajadores.
-texto=Requires 80 in Sail, exclusive ship for Workers.
+Texto=Requiere nivel 33. Exclusiva de Piratas y pescadores de oficio. Se compra en los muelles o se fabrica con Carpintería 93.
+texto=Requires level 33. Exclusive to Pirates and professional fishermen. Buy it at the docks or craft it with Carpentry 93.
 
 [OBJ476]
 Name=Galeón
 GrhIndex=11592
 ObjType=31
 maderaelfica=30000
-Valor=180000
+Valor=720000
 MinHIT=20
 MaxHIT=25
 MINDEF=15
 MAXDEF=20
-Texto=Requiere 100 en Navegación, exclusivo de Piratas.
-texto=Requires 100 on Navigation, exclusive to Pirates.
+Texto=Requiere nivel 41. Exclusivo de Piratas. Se compra en los muelles o se fabrica con Carpintería 100.
+texto=Requires level 41. Exclusive to Pirates. Buy it at the docks or craft it with Carpentry 100.
 
 [OBJ477]
 Name=Wedding Suit
@@ -23892,7 +23894,7 @@ Texto=Traje de Novio
 
 [OBJ478]
 Name=Galleon Patreon
-Texto=Requires 70 points in Sail
+Texto=Requires level 25. Exclusive to Pirates.
 GrhIndex=4547
 ObjType=31
 Valor=0
@@ -73532,6 +73534,18 @@ ORO=0
 MaxHIT=5
 MinHIT=2
 NROITEMS=0
+
+[NPC9049]
+Name=Shipwright <Naval>
+Desc=Barcas, galeras y galeones. Sólo vendo; no compro naves.
+desc=Boats, galleys and galleons. I only sell; I do not buy ships.
+Body=17
+Head=525
+Comercia=1
+NROITEMS=3
+Obj1=474-1
+Obj2=475-1
+Obj3=476-1
 
 [NAMEMAPA]
 mapa1Desc=Ciudad Neutral, entrada a Catacumbas
