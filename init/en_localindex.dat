@@ -24189,11 +24189,10 @@ RopajeGnoma=2666
 ObjType=3
 MAXDEF=10
 MINDEF=5
-SkHerreria=100
-LingH=550
-LingP=350
-LingO=150
-Valor=18000
+SkHerreria=30
+LingH=30
+LingP=6
+Valor=2500
 Texto=Armadura Bruñida
 
 [OBJ501]
@@ -26244,9 +26243,9 @@ GrhIndex=25674
 valor=10500
 Objtype=21
 Texto=Las palabras mágicas desaparecen al lanzar el hechizo.
-LingH=85
-LingP=60
-LingO=15
+LingH=157
+LingP=111
+LingO=28
 SkHerreria=100
 texto=It makes your spells not show the magic words.
 
@@ -33958,9 +33957,9 @@ MaxDef=9
 MinDef=7
 Valor=6000
 SkHerreria=100
-LingP=30
+LingP=115
 Texto=Defensa 7/9
-LingH=55
+LingH=210
 
 [OBJ1703]
 Name=Escudo Armónico
@@ -34149,13 +34148,13 @@ Texto=Adarga Natural (Cazador)
 
 [OBJ1724]
 Name=Oak Shield
-MaderaElfica=500
+MaderaElfica=1400
 GrhIndex=86171
 ObjType=16
 MaxDef=8
 MinDef=6
 Valor=5400
-Madera=800
+Madera=2240
 Texto=Defensa 6/8
 texto=Defense 6/8
 
@@ -34406,8 +34405,8 @@ MaxDef=23
 MinDef=21
 Valor=11400
 SkHerreria=100
-LingH=100
-LingP=60
+LingH=200
+LingP=120
 LingO=0
 Texto=Defensa 21/23
 
@@ -35376,7 +35375,7 @@ texto=Damage 5/9
 
 [OBJ1870]
 Name=Oak Bow
-MaderaElfica=2200
+MaderaElfica=700
 GrhIndex=38816
 ObjType=2
 MinHit=6
@@ -36444,9 +36443,9 @@ MINDEF=30
 Texto=Túnica Legendaria (E/G)
 Valor=15000
 SKSastreria=100
-PielLobo=45
-PielOsoPardo=25
-PielOsoPolar=3
+PielLobo=234
+PielOsoPardo=130
+PielOsoPolar=16
 
 [OBJ1958]
 Name=Archmage Robe (E/G)
@@ -43408,9 +43407,9 @@ MAXDEF=25
 MINDEF=20
 Valor=10000
 SKSastreria=93
-PielLobo=80
-PielOsoPardo=15
-PielOsoPolar=1
+PielLobo=184
+PielOsoPardo=35
+PielOsoPolar=2
 Texto=Sotana de Gran Hechicero
 
 [OBJ2855]
@@ -71563,9 +71562,8 @@ ObjType=21
 Valor=32000
 SkHerreria=100
 Hechizo=422
-LingH=610
-LingP=320
-Coal=68
+LingH=500
+LingP=240
 Texto=Orbe permanente: mientras lo tengas equipado, tus golpes con arma típica pueden causar sangrado.
 texto=Permanent orb: while equipped, your hits with a typical weapon can cause bleeding.
 
@@ -71778,8 +71776,8 @@ MaxDef=10
 Valor=6000
 SkHerreria=93
 Hechizo=418
-LingH=80
-LingP=30
+LingH=140
+LingP=50
 Texto=Yelmo rematado en púas de acero. Puede devolver parte del golpe físico que recibes.
 texto=Helm rimmed with steel spikes. Can reflect part of the physical hit you take.
 
@@ -71929,8 +71927,8 @@ RopajeElfaOscura=1731
 RopajeEnana=731
 RopajeOrca=1231
 RopajeGnoma=731
-PielLobo=30
-PielOsoPardo=20
+PielLobo=71
+PielOsoPardo=47
 Texto=Tejida con hebras que resisten la ceniza. Reduce el daño de Fuego un 3-5%, y un 5% de chance de evitarlo por completo.
 texto=Woven with ash-resistant threads. Reduces Fire damage by 3-5%, plus a 5% chance to fully avoid it.
 
@@ -71954,8 +71952,8 @@ RopajeElfaOscura=1731
 RopajeEnana=731
 RopajeOrca=1231
 RopajeGnoma=731
-PielLobo=30
-PielOsoPardo=20
+PielLobo=71
+PielOsoPardo=47
 Texto=Forrada contra el frío más intenso. Reduce el daño de Escarcha un 3-5%, y un 5% de chance de evitarlo por completo.
 texto=Lined against the harshest cold. Reduces Frost damage by 3-5%, plus a 5% chance to fully avoid it.
 
@@ -71979,8 +71977,8 @@ RopajeElfaOscura=1731
 RopajeEnana=731
 RopajeOrca=1231
 RopajeGnoma=731
-PielLobo=30
-PielOsoPardo=20
+PielLobo=71
+PielOsoPardo=47
 Texto=Tratada con resinas del pantano. Reduce el daño Ácido un 3-5%, y un 5% de chance de evitarlo por completo.
 texto=Treated with marsh resins. Reduces Acid damage by 3-5%, plus a 5% chance to fully avoid it.
 
@@ -72004,8 +72002,8 @@ RopajeElfaOscura=1731
 RopajeEnana=731
 RopajeOrca=1231
 RopajeGnoma=731
-PielLobo=30
-PielOsoPardo=20
+PielLobo=71
+PielOsoPardo=47
 Texto=Amortigua las energías arcanas antes de que te alcancen. Reduce el daño Arcano un 3-5%, y un 5% de chance de evitarlo por completo.
 texto=Dampens arcane energies before they reach you. Reduces Arcane damage by 3-5%, plus a 5% chance to fully avoid it.
 
@@ -72029,8 +72027,8 @@ RopajeElfaOscura=1731
 RopajeEnana=731
 RopajeOrca=1231
 RopajeGnoma=731
-PielLobo=30
-PielOsoPardo=20
+PielLobo=71
+PielOsoPardo=47
 Texto=Reforzada para cerrar heridas más rápido. Reduce el daño por sangrado un 3-5%, y un 5% de chance de evitarlo por completo.
 texto=Reinforced to close wounds faster. Reduces bleed damage by 3-5%, plus a 5% chance to fully avoid it.
 
@@ -72054,8 +72052,8 @@ RopajeElfaOscura=1731
 RopajeEnana=731
 RopajeOrca=1231
 RopajeGnoma=731
-PielLobo=30
-PielOsoPardo=20
+PielLobo=71
+PielOsoPardo=47
 Texto=Impregnada con hierbas antitóxicas. Reduce el daño de Veneno un 3-5%, y un 5% de chance de evitarlo por completo.
 texto=Impregnated with antitoxic herbs. Reduces Poison damage by 3-5%, plus a 5% chance to fully avoid it.
 
@@ -72216,7 +72214,7 @@ ObjType=3
 MinDef=28
 MaxDef=32
 Valor=26000
-SKSastreria=93
+SKSastreria=100
 Hechizo=419
 RopajeHumano=141
 RopajeElfo=141
@@ -72230,9 +72228,9 @@ RopajeElfaOscura=3555
 RopajeEnana=2597
 RopajeOrca=3148
 RopajeGnoma=2597
-PielTigreBengala=20
-PielLoboNegro=30
-PielOsoPolar=20
+PielTigreBengala=38
+PielLoboNegro=57
+PielOsoPolar=38
 Texto=Cambia de textura con el clima. Reduce el daño de Fuego y de Escarcha un 6-8% cada uno, con 8% de chance de evitar cada uno por completo.
 texto=Its texture shifts with the weather. Reduces Fire and Frost damage by 6-8% each, with an 8% chance to fully avoid each.
 
@@ -72243,7 +72241,7 @@ ObjType=3
 MinDef=28
 MaxDef=32
 Valor=26000
-SKSastreria=93
+SKSastreria=100
 Hechizo=419
 RopajeHumano=141
 RopajeElfo=141
@@ -72257,9 +72255,9 @@ RopajeElfaOscura=3555
 RopajeEnana=2597
 RopajeOrca=3148
 RopajeGnoma=2597
-PielTigreBengala=20
-PielLoboNegro=30
-PielOsoPolar=20
+PielTigreBengala=38
+PielLoboNegro=57
+PielOsoPolar=38
 Texto=Curtida en los pantanos más hostiles. Reduce el daño Ácido y de Veneno un 6-8% cada uno, con 8% de chance de evitar cada uno por completo.
 texto=Tanned in the harshest swamps. Reduces Acid and Poison damage by 6-8% each, with an 8% chance to fully avoid each.
 
@@ -72270,7 +72268,7 @@ ObjType=3
 MinDef=28
 MaxDef=32
 Valor=26000
-SKSastreria=93
+SKSastreria=100
 Hechizo=419
 RopajeHumano=141
 RopajeElfo=141
@@ -72284,9 +72282,9 @@ RopajeElfaOscura=3555
 RopajeEnana=2597
 RopajeOrca=3148
 RopajeGnoma=2597
-PielTigreBengala=20
-PielLoboNegro=30
-PielOsoPolar=20
+PielTigreBengala=38
+PielLoboNegro=57
+PielOsoPolar=38
 Texto=Tejida con hilos que susurran del vacío. Reduce el daño Arcano y por sangrado un 6-8% cada uno, con 8% de chance de evitar cada uno por completo.
 texto=Woven with threads that whisper of the void. Reduces Arcane and bleed damage by 6-8% each, with an 8% chance to fully avoid each.
 
@@ -72958,8 +72956,8 @@ MaxDef=5
 Valor=4000
 SkHerreria=93
 Hechizo=418
-LingH=60
-LingP=30
+LingH=120
+LingP=60
 Texto=Escudo rematado en espinas afiladas. Puede devolver parte del golpe físico que recibes.
 texto=Shield rimmed with sharp thorns. Can reflect part of the physical hit you take.
 
