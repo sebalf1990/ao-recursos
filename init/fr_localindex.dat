@@ -68626,7 +68626,7 @@ Valor=150
 SkPociones=73
 FrascoAlq=1
 Mortero=1
-ColaDeZorro=4
+ColaDeZorro=2
 Cala=1
 Texto=Unta tu arma equipada (o tus flechas, si usas arco) con un filo que abre heridas sangrantes. 8 cargas.
 
@@ -68641,7 +68641,7 @@ SkPociones=100
 Hechizo=416
 FrascoAlq=2
 Mortero=1
-FlorRoja=4
+FlorRoja=9
 FireEssence=1
 Texto=Destilado con una Esencia de Fuego pura. Unta tu arma o flechas con Fuego durante 90s. Puede incinerar al enemigo. 12 cargas.
 
@@ -68656,7 +68656,7 @@ SkPociones=100
 Hechizo=416
 FrascoAlq=2
 Mortero=1
-FlorOceano=4
+FlorOceano=9
 WaterEssence=1
 Texto=Destilado con una Esencia de Agua pura. Unta tu arma o flechas con Escarcha durante 90s. Puede ralentizar al enemigo. 12 cargas.
 
@@ -68685,7 +68685,7 @@ SkPociones=100
 Hechizo=416
 FrascoAlq=2
 Mortero=1
-HongoDeLuz=4
+HongoDeLuz=9
 WindEssence=1
 Texto=Destilado con una Esencia de Viento pura. Unta tu arma o flechas con energía Arcana durante 90s. 12 cargas.
 
@@ -69678,7 +69678,7 @@ SkPociones=93
 Hechizo=420
 FrascoAlq=2
 Mortero=1
-FlorRoja=5
+FlorRoja=6
 Texto=Destilado con reactivos superiores. Unta tu arma o flechas con Fuego durante 75s. Puede incinerar al enemigo. 10 cargas.
 
 [OBJ9176]
@@ -69692,7 +69692,7 @@ SkPociones=93
 Hechizo=420
 FrascoAlq=2
 Mortero=1
-FlorOceano=5
+FlorOceano=6
 Texto=Destilado con reactivos superiores. Unta tu arma o flechas con Escarcha durante 75s. Puede ralentizar al enemigo. 10 cargas.
 
 [OBJ9177]
@@ -69719,7 +69719,7 @@ SkPociones=93
 Hechizo=420
 FrascoAlq=2
 Mortero=1
-HongoDeLuz=5
+HongoDeLuz=6
 Texto=Destilado con reactivos superiores. Unta tu arma o flechas con energía Arcana durante 75s. 10 cargas.
 
 [OBJ9179]
@@ -69733,7 +69733,7 @@ SkPociones=93
 Hechizo=420
 FrascoAlq=2
 Mortero=1
-ColaDeZorro=5
+ColaDeZorro=4
 Cala=2
 Texto=Destilado con reactivos superiores. Unta tu arma o flechas con un filo que abre heridas sangrantes más severas. 10 cargas.
 
