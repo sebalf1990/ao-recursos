@@ -12445,7 +12445,7 @@ Obj1=4321-1
 [NPC1388]
 Name=Araucaria de Semilla
 Body=4148
-HP=100
+HP=1
 NpcType=0
 NROITEMS=1
 Obj1=4320-20
@@ -12477,7 +12477,7 @@ Obj1=4317-1
 [NPC1392]
 Name=Arbusto de Flores Rojas
 Body=4144
-HP=200
+HP=1
 NpcType=0
 NROITEMS=1
 Obj1=4316-20
@@ -12506,7 +12506,7 @@ Obj1=4314-20
 [NPC1395]
 Name=Cala de Triple Brote
 Body=4140
-HP=100
+HP=1
 NpcType=0
 NROITEMS=1
 Obj1=4313-1
@@ -24138,6 +24138,7 @@ SkPociones=30
 ColaDeZorro=2
 FrascoAlq=1
 Mortero=1
+Hechizo=288
 Texto=Aumenta tu agilidad entre 2 y 4 puntos
 
 [OBJ890]
@@ -24149,6 +24150,7 @@ SkPociones=25
 HongoDeLuz=1
 FrascoAlq=1
 Mortero=1
+Hechizo=290
 Texto=Cura el veneno del usuario que la consume.
 
 [OBJ891]
@@ -24160,6 +24162,7 @@ SkPociones=0
 FlorRoja=1
 FrascoAlq=1
 Mortero=1
+Hechizo=285
 Texto=Restaura 27 puntos de vida
 
 [OBJ892]
@@ -24168,6 +24171,7 @@ GrhIndex=28733
 ObjType=11
 Valor=32
 SkPociones=35
+Hechizo=287
 Tuna=2
 FrascoAlq=1
 Mortero=1
@@ -24189,6 +24193,7 @@ ObjType=11
 Valor=20
 Texto=Restaura un 5% de tu maná
 SkPociones=15
+Hechizo=286
 FlorOceano=1
 FrascoAlq=1
 Mortero=1
@@ -25072,6 +25077,7 @@ SkPociones=30
 SemillasPros=1
 FRASCOALQ=1
 MORTERO=1
+Hechizo=289
 Texto=Restaura entre 12 y 25 puntos de energía.
 
 [OBJ1020]
