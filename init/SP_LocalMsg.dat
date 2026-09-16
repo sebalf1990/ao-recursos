@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleSP_Msg=2212
+NumLocaleSP_Msg=2214
 
 [SP_MSG]
 Msg1=[¬1] ha sido expulsado del clan ya que modificó su alineamiento.
@@ -1180,7 +1180,7 @@ Msg1233=No puedes realizar un reto en este momento.
 Msg1234=Primero tenés que seleccionar un personaje, haz click izquierdo sobre él.
 Msg1235=Espacio no desbloqueado.
 Msg1236=Ya perteneces a un clan, no podés fundar otro.
-Msg1237=Para fundar un clan debes ser Nivel 23, tener 50 en liderazgo y tener en tu inventario las 4 Gemas de Fundación: Gema Verde, Gema Roja, Gema Azul y Gema Polar.
+Msg1237=Para fundar un clan debes ser nivel 21, tener las 4 Gemas de Fundación y 1.000.000 de monedas de oro.
 Msg1238=Para fundar un clan debes tener en tu inventario las 4 Gemas de Fundación: Gema Verde, Gema Roja, Gema Azul y Gema Polar.
 Msg1239=Servidor » ¡Comenzamos a fundar el clan! Ingresa todos los datos solicitados.
 Msg1240= Servidor » El nivel de tu clan debe ser ¬1 o mayor para utilizar esta opción.
@@ -1963,7 +1963,7 @@ Msg2020=Nombre de clan inválido.
 Msg2021=Ya existe un clan con ese nombre.
 Msg2022=No hay más slots para fundar clanes. Consulte a un administrador.
 Msg2023=Ya perteneces a un clan, no podés fundar otro.
-Msg2024=Para fundar un clan debes ser Nivel 23, tener 50 puntos en liderazgo y tener en tu inventario las Gemas de Fundación Verde, Roja, Azul y Polar.
+Msg2024=Para fundar un clan debes ser nivel 21, tener las 4 Gemas de Fundación y 1.000.000 de monedas de oro.
 Msg2025=Para fundar un clan debes tener en tu inventario las Gemas de Fundación Verde, Roja, Azul. Te faltan Gema Polar de Fundación de Clan
 Msg2026=Para fundar un clan debes tener en tu inventario las Gemas de Fundación Verde, Azul y Polar. Te faltan Gema Roja de Fundación de Clan
 Msg2027=Para fundar un clan debes tener en tu inventario las Gemas de Fundación Verde, Roja,y Polar. Te faltan Gema Azul de Fundación de Clan
@@ -2147,3 +2147,5 @@ Msg2196=¬1 ha aparecido en ¬2, todo indica que puede tener una gran recompensa
 Msg2197=Evento> El NPC ha sido asesinado.
 Msg2198=Clan> [¬1] ha marcado a ¬2 en ¬3 (¬4-¬5).
 Msg2199=Primero debes seleccionar un NPC para marcar.
+Msg2213=No podes asignar puntos a ese skill: ya no tiene uso.
+Msg2214=Para fundar un clan necesitas ¬1 monedas de oro.

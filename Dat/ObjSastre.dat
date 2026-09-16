@@ -1,5 +1,5 @@
 [INIT]
-NumObjs=34
+NumObjs=33
 
 [Obj1]'Tela trabajada
 Index=3578
@@ -73,32 +73,29 @@ Index=3822
 [Obj24]'Sombrero de Mago Superior
 Index=3990
 
-[Obj25]'Capucha de Elite
-Index=1769
-
-[Obj26]'Túnica de Ceniza
+[Obj25]'Túnica de Ceniza
 Index=9143
 
-[Obj27]'Túnica de Escarcha
+[Obj26]'Túnica de Escarcha
 Index=9144
 
-[Obj28]'Túnica del Pantano
+[Obj27]'Túnica del Pantano
 Index=9145
 
-[Obj29]'Túnica del Silencio Arcano
+[Obj28]'Túnica del Silencio Arcano
 Index=9146
 
-[Obj30]'Túnica Coagulante
+[Obj29]'Túnica Coagulante
 Index=9147
 
-[Obj31]'Túnica Antitoxina
+[Obj30]'Túnica Antitoxina
 Index=9148
 
-[Obj32]'Túnica de las Estaciones
+[Obj31]'Túnica de las Estaciones
 Index=9155
 
-[Obj33]'Túnica de la Ciénaga
+[Obj32]'Túnica de la Ciénaga
 Index=9156
 
-[Obj34]'Túnica del Vacío Sangrante
+[Obj33]'Túnica del Vacío Sangrante
 Index=9157

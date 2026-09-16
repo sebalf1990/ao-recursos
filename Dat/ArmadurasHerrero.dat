@@ -1,5 +1,5 @@
 [INIT]
-NumArmaduras=62
+NumArmaduras=61
 
 [Armadura1] 'Armadura de Herrero
 Index=1912
@@ -7,182 +7,179 @@ Index=1912
 [Armadura2] 'Armadura de Placas Completas
 Index=1987
 
-[Armadura3] 'Armadura de Placas Completas
-Index=243 
-
-[Armadura4] 'Armadura de las Sombras
+[Armadura3] 'Armadura de las Sombras
 Index=1929
 
-[Armadura5] 'Armadura de las Sombras (Bajos)
+[Armadura4] 'Armadura de las Sombras (Bajos)
 Index=1634
 
-[Armadura6] 'Cota del Gran Cazador
+[Armadura5] 'Cota del Gran Cazador
 Index=1907
 
-[Armadura7] 'Cota del Gran Cazador (Bajos)
+[Armadura6] 'Cota del Gran Cazador (Bajos)
 Index=1908
 
-[Armadura8] 'Armadura de la Cienaga
+[Armadura7] 'Armadura de la Cienaga
 Index=1941
 
-[Armadura9] 'Armadura Escarlata
+[Armadura8] 'Armadura Escarlata
 Index=495
 
-[Armadura10] 'Dama de las Tinieblas
+[Armadura9] 'Dama de las Tinieblas
 Index=487
 
-[Armadura11] 'Armadura Bruñida (Bajos)
+[Armadura10] 'Armadura Bruñida (Bajos)
 Index=500
 
-[Armadura12] 'Escudo de Hierro
+[Armadura11] 'Escudo de Hierro
 Index=1715
 
-[Armadura13] 'Escudo de Bronce
+[Armadura12] 'Escudo de Bronce
 Index=2933
 
-[Armadura14] 'Escudo del Valle
+[Armadura13] 'Escudo del Valle
 Index=1702
 
-[Armadura15] 'Anillo de Disolución Mágica
+[Armadura14] 'Anillo de Disolución Mágica
 Index=2323
 
-[Armadura16] 'Anillo del Silencio
+[Armadura15] 'Anillo del Silencio
 Index=755
 
-[Armadura17] 'Casco Vikingo
+[Armadura16] 'Casco Vikingo
 Index=1079
 
-[Armadura18] 'Casco de Hierro Completo
+[Armadura17] 'Casco de Hierro Completo
 Index=132
 
-[Armadura19] 'Casco de Cazador
+[Armadura18] 'Casco de Cazador
 Index=1767
 
-[Armadura20] 'Casco de Plata
+[Armadura19] 'Casco de Plata
 Index=601
 
-[Armadura21] 'Hebilla Mochila
+[Armadura20] 'Hebilla Mochila
 Index=3461
 
-[Armadura22] 'Relicario
+[Armadura21] 'Relicario
 Index=3769
 
-[Armadura23] 'Orbe Ígneo
+[Armadura22] 'Orbe Ígneo
 Index=9111
 
-[Armadura24] 'Orbe Glacial
+[Armadura23] 'Orbe Glacial
 Index=9112
 
-[Armadura25] 'Orbe Corrosivo
+[Armadura24] 'Orbe Corrosivo
 Index=9113
 
-[Armadura26] 'Orbe Arcano
+[Armadura25] 'Orbe Arcano
 Index=9114
 
-[Armadura27] 'Orbe Hemorrágico
+[Armadura26] 'Orbe Hemorrágico
 Index=9115
 
-[Armadura28] 'Anillo Ignífugo
+[Armadura27] 'Anillo Ignífugo
 Index=9116
 
-[Armadura29] 'Anillo Térmico
+[Armadura28] 'Anillo Térmico
 Index=9117
 
-[Armadura30] 'Anillo Inalterable
+[Armadura29] 'Anillo Inalterable
 Index=9118
 
-[Armadura31] 'Anillo de Disipación
+[Armadura30] 'Anillo de Disipación
 Index=9119
 
-[Armadura32] 'Anillo Coagulante
+[Armadura31] 'Anillo Coagulante
 Index=9120
 
-[Armadura33] 'Anillo Antitoxina
+[Armadura32] 'Anillo Antitoxina
 Index=9121
 
-[Armadura34] 'Anillo del Corazón de Brasa
+[Armadura33] 'Anillo del Corazón de Brasa
 Index=9122
 
-[Armadura35] 'Anillo del Aliento Polar
+[Armadura34] 'Anillo del Aliento Polar
 Index=9123
 
-[Armadura36] 'Anillo de Piel de Roca
+[Armadura35] 'Anillo de Piel de Roca
 Index=9124
 
-[Armadura37] 'Anillo del Velo Nulo
+[Armadura36] 'Anillo del Velo Nulo
 Index=9125
 
-[Armadura38] 'Anillo Hemostático
+[Armadura37] 'Anillo Hemostático
 Index=9126
 
-[Armadura39] 'Anillo del Suero Puro
+[Armadura38] 'Anillo del Suero Puro
 Index=9127
 
-[Armadura40] 'Amuleto de las Dos Estaciones
+[Armadura39] 'Amuleto de las Dos Estaciones
 Index=9128
 
-[Armadura41] 'Amuleto del Velo Ponzoñoso
+[Armadura40] 'Amuleto del Velo Ponzoñoso
 Index=9129
 
-[Armadura42] 'Coraza de Púas
+[Armadura41] 'Coraza de Púas
 Index=9130
 
-[Armadura43] 'Yelmo de Púas
+[Armadura42] 'Yelmo de Púas
 Index=9131
 
-[Armadura44] 'Égida de Espinas
+[Armadura43] 'Égida de Espinas
 Index=9132
 
-[Armadura45] 'Cota Ignífuga
+[Armadura44] 'Cota Ignífuga
 Index=9149
 
-[Armadura46] 'Cota Térmica
+[Armadura45] 'Cota Térmica
 Index=9150
 
-[Armadura47] 'Cota Inalterable
+[Armadura46] 'Cota Inalterable
 Index=9151
 
-[Armadura48] 'Cota de Disipación
+[Armadura47] 'Cota de Disipación
 Index=9152
 
-[Armadura49] 'Cota Hemostática
+[Armadura48] 'Cota Hemostática
 Index=9153
 
-[Armadura50] 'Cota Antitoxina
+[Armadura49] 'Cota Antitoxina
 Index=9154
 
-[Armadura51] 'Placas de las Estaciones
+[Armadura50] 'Placas de las Estaciones
 Index=9158
 
-[Armadura52] 'Placas de la Ciénaga
+[Armadura51] 'Placas de la Ciénaga
 Index=9159
 
-[Armadura53] 'Placas del Vacío Sangrante
+[Armadura52] 'Placas del Vacío Sangrante
 Index=9160
 
-[Armadura54] 'Cota de Púas
+[Armadura53] 'Cota de Púas
 Index=9194
 
-[Armadura55] 'Coraza de Púas de Hierro
+[Armadura54] 'Coraza de Púas de Hierro
 Index=9195
 
-[Armadura56] 'Jubón de Espinas
+[Armadura55] 'Jubón de Espinas
 Index=9196
 
-[Armadura57] 'Casaca de Espinas
+[Armadura56] 'Casaca de Espinas
 Index=9197
 
-[Armadura58] 'Coraza de Púas de Acero
+[Armadura57] 'Coraza de Púas de Acero
 Index=9198
 
-[Armadura59] 'Casaca de Espinas Negra
+[Armadura58] 'Casaca de Espinas Negra
 Index=9199
 
-[Armadura60] 'Yelmo de Púas de Acero
+[Armadura59] 'Yelmo de Púas de Acero
 Index=9200
 
-[Armadura61] 'Escudo de Púas
+[Armadura60] 'Escudo de Púas
 Index=9201
 
-[Armadura62] 'Escudo de Espinas
+[Armadura61] 'Escudo de Espinas
 Index=9202

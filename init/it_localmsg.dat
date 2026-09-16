@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleIT_Msg=2212
+NumLocaleIT_Msg=2214
 
 [IT_MSG]
 Msg1=[¬1] è stato espulso dal clan mentre modificava il suo allineamento.
@@ -1180,7 +1180,7 @@ Msg1233=Non puoi fare una sfida in questo momento.
 Msg1234=Per prima cosa devi selezionare un personaggio, fare clic a sinistra su di lui.
 Msg1235=Spazio sbloccato.
 Msg1236=Appartenisci a un clan, non puoi trovarne un altro.
-Msg1237=Per fondare un clan devi essere il livello 23, avere 50 in leadership e avere nel tuo inventario il GEM di 4 Fondazioni: Gema Green, Gema Red, Gema Blue e Gema Polar.
+Msg1237=Per fondare un clan devi essere di livello 21, avere le 4 Gemme della Fondazione e 1.000.000 di monete d'oro.
 Msg1238=Per fondare un clan che devi avere nel tuo inventario le gemme a 4 fondazioni: Green Gem, Red Gema, Blue Gema e Gema Polar.
 Msg1239=Server »Cominciamo a trovare il clan! Immettere tutti i dati richiesti.
 Msg1240=Server » Per utilizzare questa opzione, il livello del tuo clan deve essere pari o superiore a ¬1.
@@ -1963,7 +1963,7 @@ Msg2020=Nome del clan non valido.
 Msg2021=C'è già un clan con quel nome.
 Msg2022=Non ci sono più slot per trovare clan. Consultare un amministratore.
 Msg2023=Appartieni a un clan, non puoi trovarne un altro.
-Msg2024=Per fondare un clan devi essere il livello 23, avere 50 punti in leadership e avere nel tuo inventario le gemme delle basi verdi, rosse, blu e polari.
+Msg2024=Per fondare un clan devi essere di livello 21, avere le 4 Gemme della Fondazione e 1.000.000 di monete d'oro.
 Msg2025=Per fondare un clan che devi avere nel tuo inventario le gemme di Verde, Red, Blue Foundation. Ti manca la gemma polare della fondazione clan
 Msg2026=Per fondare un clan che devi avere nel tuo inventario le gemme di base verde, blu e polare. Ti manca la gemma della fondazione del clan rosso
 Msg2027=Per fondare un clan che devi avere nel tuo inventario le gemme di fondazione verde, rosso e polare. Ti manca la gemma della fondazione blu clan
@@ -2130,3 +2130,5 @@ Msg2209=Questo maestro non compra oggetti.
 Msg2210=La classe Lavoratore non e disponibile con professioni apprendibili attive.
 Msg2211=Hai inflitto ¬1 di ¬2 alla creatura.
 Msg2212=Hai subito ¬1 danni di ¬2.
+Msg2213=Non puoi piu assegnare punti a quell'abilita: non ha piu utilizzo.
+Msg2214=Per fondare un clan, hai bisogno di ¬1 monete d'oro.

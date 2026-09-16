@@ -30,3 +30,6 @@ PriceAcceptMemberGuildLevel4=400
 PriceAcceptMemberGuildLevel5=500
 PriceAcceptMemberGuildLevel6=600
 PriceAcceptMemberGuildLevel7=700
+
+[GUILDFOUNDATION]
+PriceFoundGuild=1000000

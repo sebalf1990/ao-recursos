@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleEN_Msg=2212
+NumLocaleEN_Msg=2214
 
 [EN_MSG]
 Msg1=[¬1] has been kicked out of the guild because they changed their alignment.
@@ -1180,7 +1180,7 @@ Msg1233=You cannot make a challenge at this time.
 Msg1234=First you have to select a character, click left on him.
 Msg1235=Unlocked space.
 Msg1236=You belong to a guild, you cannot found another.
-Msg1237=To found a guild you must be level 23, have 50 in leadership and have in your inventory the 4 foundation gems: Green Gem, Red Gem, Blue Gem and Polar Gem.
+Msg1237=To found a guild you must be level 21, have the 4 Foundation Gems, and 1,000,000 gold coins.
 Msg1238=To found a guild you must have in your inventory the 4 Foundation Gems: Green Gem, Red Gema, Blue Gema and Gema Polar.
 Msg1239=Server »We begin to found the guild!Enter all the requested data.
 Msg1240=Server » Your clan level must be ¬1 or higher to use this option.
@@ -1963,7 +1963,7 @@ Msg2020=Invalid guild name.
 Msg2021=A guild with that name already exists.
 Msg2022=There are no more slots to create guilds. Please contact an administrator.
 Msg2023=You already belong to a guild, you cannot create another.
-Msg2024=To found a guild, you must be Level 23, have 50 Leadership points, and have the Green, Red, Blue, and Polar Foundation Gems in your inventory.
+Msg2024=To found a guild, you must be level 21, have the 4 Foundation Gems, and 1,000,000 gold coins.
 Msg2025=To found a guild, you must have the Green, Red, and Blue Foundation Gems in your inventory. You are missing a Polar Guild Foundation Gem.
 Msg2026=To found a guild, you must have the Green, Blue, and Polar Foundation Gems in your inventory. You are missing a Red Guild Foundation Gem.
 Msg2027=To found a guild, you must have the Green, Red, and Polar Foundation Gems in your inventory. You are missing a Blue Guild Foundation Gem.
@@ -2130,3 +2130,5 @@ Msg2209=This master does not buy items.
 Msg2210=The Worker class is not available while learnable professions are enabled.
 Msg2211=You dealt ¬1 of ¬2 to the creature.
 Msg2212=You received ¬1 ¬2 damage.
+Msg2213=You can no longer assign points to that skill: it has no use.
+Msg2214=To found a guild, you need ¬1 gold coins.

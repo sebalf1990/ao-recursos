@@ -1,5 +1,5 @@
 [INIT]
-NumLocalePT_Msg=2212
+NumLocalePT_Msg=2214
 
 [PT_MSG]
 Msg1=[¬1] foi expulso do clã ao modificar seu alinhamento.
@@ -1180,7 +1180,7 @@ Msg1233=Você não pode fazer um desafio neste momento.
 Msg1234=Primeiro, você precisa selecionar um personagem, clique na esquerda nele.
 Msg1235=Espaço desbloqueado.
 Msg1236=Você pertence a um clã, não pode encontrar outro.
-Msg1237=Para fundar um clã, você deve estar no nível 23, ter 50 em liderança e ter em seu inventário a jóia da 4 Foundation: Gema Green, Gema Red, Gema Blue e Gema Polar.
+Msg1237=Para fundar um clã, você deve ter nível 21, ter as 4 Gemas de Fundação e 1.000.000 de moedas de ouro.
 Msg1238=Para fundar um clã, você deve ter em seu inventário as 4 gemas da fundação: Green Gem, Red Gema, Blue Gema e Gema Polar.
 Msg1239=Servidor »Começamos a fundar o clã! Insira todos os dados solicitados.
 Msg1240=Servidor » Seu nível de clã deve ser ¬1 ou superior para usar esta opção.
@@ -1963,7 +1963,7 @@ Msg2020=Nome do clã inválido.
 Msg2021=Já existe um clã com esse nome.
 Msg2022=Não há mais slots para fundar clãs. Consulte um administrador.
 Msg2023=Você pertence a um clã, não pode encontrar outro.
-Msg2024=Para fundar um clã, você deve estar no nível 23, ter 50 pontos em liderança e ter em seu inventário as jóias da fundação verde, vermelha, azul e polar.
+Msg2024=Para fundar um clã, você deve ter nível 21, ter as 4 Gemas de Fundação e 1.000.000 de moedas de ouro.
 Msg2025=Para fundar um clã, você deve ter em seu inventário as jóias de Verde, Red, Blue Foundation. Você está faltando a Fundação Polar Gem of Clan
 Msg2026=Para fundar um clã, você deve ter em seu inventário as jóias da fundação verde, azul e polar. Você está faltando a falta de gem
 Msg2027=Para fundar um clã, você deve ter em seu inventário as jóias de Verde, Red e Polar Foundation. Você está faltando gem
@@ -2130,3 +2130,5 @@ Msg2209=Este mestre nao compra itens.
 Msg2210=A classe Trabalhador nao esta disponivel com profissoes aprendiveis ativas.
 Msg2211=Causaste ¬1 de ¬2 a criatura.
 Msg2212=Você recebeu ¬1 de dano de ¬2.
+Msg2213=Voce nao pode mais atribuir pontos a essa habilidade: ela nao tem mais uso.
+Msg2214=Para fundar um clã, você precisa de ¬1 moedas de ouro.
