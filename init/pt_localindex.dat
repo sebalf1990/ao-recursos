@@ -70622,8 +70622,8 @@ NROITEMS=0
 [NPC9049]
 Name=Armador <Naval>
 Desc=Barcas, galeras y galeones. Sólo vendo; no compro naves.
-Body=17
-Head=26
+Body=40
+Head=20
 Comercia=1
 NROITEMS=3
 Obj1=474-1
