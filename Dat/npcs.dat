@@ -22932,7 +22932,6 @@ MaxHP=1
 NPCLVL=1
 NROITEMS=1
 Obj1=4313-1
-TESTONLY=1
 DropCount=1
 Drop1=4313-1-10-20
 [NPC1396]' Tuna Silvestre; plan 15.002 Ola 5c: planta atacable, suelta la hierba
