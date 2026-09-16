@@ -22789,23 +22789,23 @@ NROITEMS=1
 Obj1=4321-1
 TESTONLY=1
 
-[NPC1388] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1388] 'RESYNC desde sp_localindex.dat (fase B); plan 15.002 Ola 5c: planta atacable, suelta la hierba
 Name=Araucaria de Semilla
 Body=4148
 NpcType=0
 ShowName=0
 Movement=1
-Attackable=0
+Attackable=1
 Hostile=0
 ReSpawn=0
 Heading=1
 MinHP=1
-MaxHP=100
+MaxHP=1
 NPCLVL=1
 NROITEMS=1
 Obj1=4320-20
 DropCount=1
-Drop1=4320-1-1-10
+Drop1=4320-1-10-20
 
 [NPC1389] ' Hojas Rojas
 Name=Helecho de Hojas Rojas
@@ -22861,18 +22861,18 @@ NROITEMS=1
 Obj1=4317-1
 TESTONLY=1
 
-[NPC1392] 'RESYNC desde sp_localindex.dat (lote3 cosmetico)
+[NPC1392] 'RESYNC desde sp_localindex.dat (lote3 cosmetico); plan 15.002 Ola 5c: planta atacable, suelta la hierba
 Name=Arbusto de Flores Rojas
 Body=4144
 NpcType=0
 ShowName=0
 Movement=1
-Attackable=0
+Attackable=1
 Hostile=0
 ReSpawn=0
 Heading=1
 MinHP=1
-MaxHP=200
+MaxHP=1
 NPCLVL=1
 NROITEMS=1
 Obj1=4316-20
@@ -22882,9 +22882,9 @@ QUIZADROPEA2=4316
 QUIZADROPEA3=4316
 QuizaProb=1
 DropCount=1
-Drop1=4316-1-1-20
+Drop1=4316-1-10-20
 
-[NPC1393]' Flor del Oceano para Poción de Maná Alquimia
+[NPC1393]' Flor del Oceano para Poción de Maná Alquimia; plan 15.002 Ola 5c: planta atacable, suelta la hierba
 Name=Lobelia Oscura
 En_name=Dark Lobelia
 Body=4143
@@ -22897,8 +22897,10 @@ MinHP=1
 MaxHP=1
 NROITEMS=1
 Obj1=4315-20
+DropCount=1
+Drop1=4315-1-10-20
 
-[NPC1394]' Cola de Zorro
+[NPC1394]' Cola de Zorro; plan 15.002 Ola 5c: planta atacable, suelta la hierba
 Name=Feather Marron
 En_Name=Feather Brown
 Body=4141
@@ -22912,26 +22914,28 @@ MaxHP=1
 NPCLVL=1
 NROITEMS=1
 Obj1=4314-20
+DropCount=1
+Drop1=4314-1-10-20
 
-[NPC1395] 'RESYNC desde sp_localindex.dat (lote3 cosmetico)
+[NPC1395] 'RESYNC desde sp_localindex.dat (lote3 cosmetico); plan 15.002 Ola 5c: planta atacable, suelta la hierba
 Name=Cala de Triple Brote
 Body=4140
 NpcType=0
 ShowName=1
 Movement=1
-Attackable=0
+Attackable=1
 Hostile=0
 ReSpawn=0
 Heading=1
 MinHP=1
-MaxHP=100
+MaxHP=1
 NPCLVL=1
 NROITEMS=1
 Obj1=4313-1
 TESTONLY=1
 DropCount=1
-Drop1=4313-1-1-10
-[NPC1396]' Tuna Silvestre
+Drop1=4313-1-10-20
+[NPC1396]' Tuna Silvestre; plan 15.002 Ola 5c: planta atacable, suelta la hierba
 Name=Cactus de Flor
 En_Name=Flower Cactus
 Body=4139
@@ -22945,8 +22949,10 @@ MaxHP=1
 NPCLVL=1
 NROITEMS=1
 Obj1=4312-20
+DropCount=1
+Drop1=4312-1-10-20
 
-[NPC1397]' Esporas Silvestre
+[NPC1397]' Esporas Silvestre; plan 15.002 Ola 5c: planta atacable, suelta la hierba
 Name=Hongo de Semillas
 En_Name=Seed Fungus
 Body=4138
@@ -22962,9 +22968,10 @@ MaxHP=1
 NPCLVL=1
 NROITEMS=1
 Obj1=4311-1
-TESTONLY=1
+DropCount=1
+Drop1=4311-1-10-20
 
-[NPC1398]'Hongo de Luz
+[NPC1398]'Hongo de Luz; plan 15.002 Ola 5c: planta atacable, suelta la hierba
 Name=Hongo de la Luz
 En_Name=Light Mushroom
 Body=4137
@@ -22978,6 +22985,8 @@ MaxHP=1
 NPCLVL=1
 NROITEMS=1
 Obj1=4310-20
+DropCount=1
+Drop1=4310-1-10-20
 
 [NPC1399]'Raíz Carmesi
 Name=Viejo tronco de Raices
