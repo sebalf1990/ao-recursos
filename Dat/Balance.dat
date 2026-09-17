@@ -364,6 +364,15 @@ AirHitReductParalisisTime=1
 ' Si está en 100 pesca igual que en insegura
 ' Si está en 0 pesca lo mínimo
 PorcentajePescaSegura=0
+' Claves de [EXTRA] tomadas del Balance oficial en vivo (API getBalance, 2026-09-17), plan 17.001 D6.
+' Con lector en el server, detras del toggle healers_and_tanks:
+DivineBloodHealingMultiplierBonus=3.2
+DivineBloodManaCostMultiplier=1.5
+WarriorLifeStealOnHitMultiplier=0.3
+' SIN lector en nuestro server al 2026-09-17 (dato inerte hasta portar la funcion del oficial):
+GuildCallCooldown=3000
+MinFastTravelRuneTime=45
+ElvenWoodMagicDamageMultiplier=3
 
 [STUN]
 PlayerStunTime=1200
