@@ -1685,6 +1685,10 @@ Texto=Yacimiento de Hierro
 ObjType=22
 Agarrable=1
 Info=Yacimiento minero
+' MineralIndex/VidaUtil/TiempoRegenerar copiados de OBJ188 (plan 17.001 D50): el oficial no publica estos campos
+MineralIndex=192
+VidaUtil=1500
+TiempoRegenerar=1900
 
 [OBJ80] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 Name=Yacimiento de Hierro
@@ -1693,6 +1697,10 @@ GrhIndex=8619
 ObjType=22
 Agarrable=1
 Info=Yacimiento minero
+' MineralIndex/VidaUtil/TiempoRegenerar copiados de OBJ188 (plan 17.001 D50): el oficial no publica estos campos
+MineralIndex=192
+VidaUtil=1500
+TiempoRegenerar=1900
 
 [OBJ81]
 Name=Sandia
@@ -1713,6 +1721,10 @@ Texto=Yacimiento de Hierro
 ObjType=22
 Agarrable=1
 Info=Yacimiento minero
+' MineralIndex/VidaUtil/TiempoRegenerar copiados de OBJ188 (plan 17.001 D50): el oficial no publica estos campos
+MineralIndex=192
+VidaUtil=1500
+TiempoRegenerar=1900
 
 [OBJ83] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=19553
@@ -71770,6 +71782,10 @@ ObjType=22
 Agarrable=1
 Blodium=1
 Info=Yacimiento De Blodium
+' MineralIndex/VidaUtil/TiempoRegenerar copiados de OBJ128 (plan 17.001 D50): el oficial no publica estos campos
+MineralIndex=3787
+VidaUtil=1250
+TiempoRegenerar=1900
 
 [OBJ130] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Yacimiento de Blodium
@@ -71779,6 +71795,10 @@ ObjType=22
 Agarrable=1
 Blodium=1
 Info=Yacimiento De Blodium
+' MineralIndex/VidaUtil/TiempoRegenerar copiados de OBJ128 (plan 17.001 D50): el oficial no publica estos campos
+MineralIndex=3787
+VidaUtil=1250
+TiempoRegenerar=1900
 
 [OBJ2000] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Yunque de Blodium
