@@ -450,6 +450,12 @@ Druida=3
 Trabajador=3
 
 [ElementalMatrixForNpcs]
+' SECCION PROTEGIDA (plan 17.001 D8). Matriz del motor elemental de AO20: multiplicador de daño del
+' elemento atacante (fila) contra el elemento defensor (columna). Coincide con la del oficial en vivo
+' (API getBalance, 2026-09-17), pero NO viene en el Balance.dat del git publico ao-org/Recursos:
+' un sync que reemplace este archivo la borra. Si falta, FileIO.bas falla por indice al cargarla y la
+' matriz queda en 0: todo daño elemental contra criaturas se multiplica por 0.
+' Verificar despues de tocar este archivo: python tools/check_balance_protegido.py
 Row1=0.5 0.5 2 1
 Row2=2 0.5 1 0.5
 Row3=0.5 1 0.5 2
