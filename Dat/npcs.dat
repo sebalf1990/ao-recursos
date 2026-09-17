@@ -3903,6 +3903,8 @@ NpcType=0
 GiveEXPClan=1
 Nivel=28
 DisabledInBattleServer=1
+DropCount=1
+Drop1=5180-1000-1-1
 
 [NPC516]
 Name=Leviatán
@@ -3935,9 +3937,10 @@ MagicDef=10
 Ataque1=5442
 NpcType=0
 Nivel=28
-DropCount=2
+DropCount=3
 Drop1=6105-8000-1-1
 Drop2=6188-8000-1-1
+Drop3=5180-1000-1-1
 
 [NPC517] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Zulrik
@@ -4272,6 +4275,8 @@ DropQuest1=33-2655-1-25
 'MagicDef=5
 '
 '--- fin copia privada ---
+DropCount=1
+Drop1=164-1000-1-1
 
 [NPC526] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Holt
@@ -4329,6 +4334,9 @@ DropQuest1=33-2655-1-15
 'MagicDef=10
 '
 '--- fin copia privada ---
+DropCount=2
+Drop1=3988-1000-1-1
+Drop2=4341-1000-1-1
 
 [NPC527] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Huargo Negro
@@ -4450,6 +4458,8 @@ PoderEvasion=30
 'MagicDef=10
 '
 '--- fin copia privada ---
+DropCount=1
+Drop1=5997-1-1-1
 
 [NPC529] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Troll Ártico
@@ -4536,6 +4546,8 @@ PoderAtaque=220
 PoderEvasion=145
 NumDropQuest=1
 DropQuest1=45-2271-1-2
+DropCount=1
+Drop1=5180-1000-1-1
 
 [NPC531] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Kryos
@@ -4731,6 +4743,9 @@ PoderEvasion=180
 'MagicDef=0
 '
 '--- fin copia privada ---
+DropCount=2
+Drop1=37-20-15-50
+Drop2=38-20-10-35
 
 [NPC535] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Abominación Polar
@@ -4843,6 +4858,8 @@ DropQuest1=37-2262-1-1
 'MagicDef=0
 '
 '--- fin copia privada ---
+DropCount=1
+Drop1=1679-200-1-1
 
 [NPC537] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Gralthar
@@ -6194,6 +6211,8 @@ PoderAtaque=230
 PoderEvasion=150
 NumDropQuest=1
 DropQuest1=51-2488-1-1
+DropCount=1
+Drop1=5182-1000-1-1
 
 [NPC576] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Cobra
@@ -9919,6 +9938,8 @@ GiveEXPClan=30
 NpcType=0
 DisabledInBattleServer=1
 Nivel=28
+DropCount=1
+Drop1=5181-100-1-1
 [NPC800]
 Name=Jarron
 En_Name=Vase
@@ -10202,6 +10223,8 @@ Alineacion=0
 Nivel=20
 PoderAtaque=240
 PoderEvasion=130
+DropCount=1
+Drop1=1663-200-1-1
 
 [NPC924]
 Name=Dragón Rojo
@@ -11539,6 +11562,8 @@ Alineacion=0
 Nivel=28
 PoderAtaque=235
 PoderEvasion=145
+DropCount=1
+Drop1=5182-1000-1-1
 
 [NPC978] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Esqueto Vikingo
@@ -12838,6 +12863,8 @@ PoderEvasion=145
 '
 '
 '--- fin copia privada ---
+DropCount=1
+Drop1=5181-1000-1-1
 
 [NPC1031] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Minotauro Umbrax
@@ -12997,6 +13024,8 @@ PoderEvasion=135
 'MagicDef=5
 '
 '--- fin copia privada ---
+DropCount=1
+Drop1=5181-1000-1-1
 
 [NPC1034] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Minotauro Guerrero
@@ -13022,6 +13051,8 @@ Alineacion=0
 Nivel=28
 PoderAtaque=190
 PoderEvasion=140
+DropCount=1
+Drop1=5181-1000-1-1
 
 [NPC1035]'
 Name=Minero Exiliado
@@ -13378,8 +13409,9 @@ NumQuiza=1
 QUIZADROPEA1=3466
 QuizaProb=46
 NpcType=0
-DropCount=1
+DropCount=2
 Drop1=2781-1-15-50
+Drop2=5181-1000-1-1
 Nivel=28
 '[NPC1047]
 'Name=Espectro del Pantano
@@ -20307,6 +20339,8 @@ NPCLVL=15
 MagicResistance=37
 MagicDef=10
 Nivel=30
+DropCount=1
+Drop1=5998-1-1-4
 
 [NPC1310] Comatus (Verde)
 Name=Comatus
@@ -21684,6 +21718,8 @@ IntervaloRespawnMin=180
 GiveEXPClan=3
 NpcType=0
 Nivel=32
+DropCount=1
+Drop1=2807-50-1-1
 
 [NPC1355] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Ghoul de Hielo
@@ -22057,6 +22093,8 @@ en_Name=Ice Golem
 pt_Name=Golem de Gelo
 fr_Name=Golem de Glace
 it_Name=Golem di Ghiaccio
+DropCount=1
+Drop1=5180-100-1-1
 
 [NPC1365]'Araña Marron Nueva
 Name=Araña Silvestre
@@ -22203,6 +22241,8 @@ Nivel=28
 DisabledInBattleServer=1
 PoderAtaque=200
 PoderEvasion=140
+DropCount=1
+Drop1=5181-1000-1-1
 
 [NPC1368]
 Name=Tiranosaurio Magnus
@@ -24738,8 +24778,9 @@ GiveEXP=450
 GiveGLD=18
 MaxHIT=55
 MinHIT=30
-DropCount=1
+DropCount=2
 Drop1=365-283-1-1
+Drop2=5180-10000-1-1
 Nivel=20
 MinHp=900
 PoderAtaque=88
@@ -24771,8 +24812,9 @@ NPCLVL=9
 MagicResistance=23
 MagicDef=0
 Ataque1=5406
-DropCount=1
+DropCount=2
 Drop1=1820-327-1-1
+Drop2=5179-10000-1-1
 Nivel=20
 [NPC813] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Kobold Marron
@@ -24791,8 +24833,9 @@ GiveEXP=500
 GiveGLD=20
 MaxHIT=60
 MinHIT=35
-DropCount=1
+DropCount=2
 Drop1=159-330-1-1
+Drop2=5181-10000-1-1
 MinHp=1000
 PoderAtaque=90
 PoderEvasion=60
@@ -24824,8 +24867,9 @@ MagicResistance=23
 MagicDef=0
 Ataque1=5412
 Nivel=20
-DropCount=1
+DropCount=2
 Drop1=164-237-1-1
+Drop2=5182-10000-1-1
 [NPC815] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Miastrix
 Body=5440
@@ -24847,6 +24891,8 @@ MinHIT=85
 MinHp=1800
 PoderAtaque=175
 PoderEvasion=100
+DropCount=1
+Drop1=5181-10000-1-1
 [NPC816] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Centinela de Coral
 Body=5551
@@ -24933,9 +24979,10 @@ GiveGLD=135
 Nivel=28
 MaxHIT=185
 MinHIT=150
-DropCount=2
+DropCount=3
 Drop1=6109-8000-1-1
 Drop2=3256-8000-1-1
+Drop3=5182-1000-1-1
 MinHp=5500
 PoderAtaque=225
 PoderEvasion=150
@@ -25101,6 +25148,8 @@ Nivel=20
 MinHp=3000
 PoderAtaque=150
 PoderEvasion=110
+DropCount=1
+Drop1=3894-1-1-5
 [NPC1019] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Tharzug <Quest>
 Desc=Sientes el llamado, pero aún es débil. Los goblins escuchan, los muertos obedecen... los orcos resisten. Si deseas su fuerza, deberás quebrar su espíritu. Regresa cuando los espíritus de guerra te reconozcan.
@@ -26406,6 +26455,8 @@ ShowName=1
 IntervaloRespawn=12600
 IntervaloRespawnMin=5400
 ElementalTags=1
+DropCount=1
+Drop1=5179-100-1-1
 
 [NPC810] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Golem de Viento
@@ -26447,6 +26498,8 @@ Sp1=25
 IntervaloLanzarHechizo=3000
 CastAnimation=0
 ElementalTags=8
+DropCount=1
+Drop1=5182-1000-1-1
 
 [NPC818] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Cirdan
