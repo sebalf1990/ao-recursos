@@ -1,5 +1,5 @@
 [INIT]
-NumBodies=6089
+NumBodies=6259
 [BODY1]
 Std=1
 FileNum=1005
@@ -2696,6 +2696,282 @@ FileNum=1024
 HeadOffsetX=0
 HeadOffsetY=-2
 Speed=0.666
+
+[BODY396]
+Walk1=89904
+Walk2=89904
+Walk3=89904
+Walk4=89904
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY397]
+Walk1=89905
+Walk2=89905
+Walk3=89905
+Walk4=89905
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY398]
+Walk1=89906
+Walk2=89906
+Walk3=89906
+Walk4=89906
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY400]
+Walk1=89908
+Walk2=89908
+Walk3=89908
+Walk4=89908
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY401]
+Walk1=89909
+Walk2=89909
+Walk3=89909
+Walk4=89909
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY406]
+Walk1=89914
+Walk2=89914
+Walk3=89914
+Walk4=89914
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY408]
+Walk1=89916
+Walk2=89916
+Walk3=89916
+Walk4=89916
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY410]
+Walk1=30778
+Walk2=30778
+Walk3=30778
+Walk4=30778
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY421]
+Walk1=32769
+Walk2=32769
+Walk3=32769
+Walk4=32769
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY422]
+Walk1=32775
+Walk2=32775
+Walk3=32775
+Walk4=32775
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY425]
+Walk1=32793
+Walk2=32793
+Walk3=32793
+Walk4=32793
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY427]
+Walk1=32806
+Walk2=32806
+Walk3=32806
+Walk4=32806
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY430]
+Walk1=32825
+Walk2=32825
+Walk3=32825
+Walk4=32825
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY434]
+Walk1=32877
+Walk2=32877
+Walk3=32877
+Walk4=32877
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY439]
+Walk1=32908
+Walk2=32908
+Walk3=32908
+Walk4=32908
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.01
+AnimateOnIdle=1
+
+[BODY441]
+Walk1=32920
+Walk2=32920
+Walk3=32920
+Walk4=32920
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.01
+AnimateOnIdle=1
+
+[BODY442]
+Walk1=32926
+Walk2=32926
+Walk3=32926
+Walk4=32926
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.01
+AnimateOnIdle=1
+
+[BODY451]
+Walk1=32982
+Walk2=32982
+Walk3=32982
+Walk4=32982
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.01
+AnimateOnIdle=1
+
+[BODY452]
+Walk1=32989
+Walk2=32989
+Walk3=32989
+Walk4=32989
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.01
+AnimateOnIdle=1
+
+[BODY453]
+Walk1=32995
+Walk2=32995
+Walk3=32995
+Walk4=32995
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.01
+AnimateOnIdle=1
+
+[BODY454]
+Walk1=33001
+Walk2=33001
+Walk3=33001
+Walk4=33001
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.01
+AnimateOnIdle=1
+
+[BODY456]
+Walk1=33014
+Walk2=33014
+Walk3=33014
+Walk4=33014
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.01
+AnimateOnIdle=1
+
+[BODY457]
+Walk1=33020
+Walk2=33020
+Walk3=33020
+Walk4=33020
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.01
+AnimateOnIdle=1
 
 [BODY500]
 Std=1
@@ -32058,6 +32334,17 @@ HeadOffsetX=0
 HeadOffsetY=0
 AnimateOnIdle=1
 
+[BODY6080]
+Walk1=27025	 ' arriba
+Walk2=27025	 ' derecha
+Walk3=27025	 ' abajo
+Walk4=27025	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
 [BODY6081]
 Walk1=27891	 ' arriba
 Walk2=27891	 ' derecha
@@ -32070,6 +32357,17 @@ BodyOffsetY=0
 Speed=0.010
 AnimateOnIdle=1
 
+[BODY6082]
+Walk1=27897	 ' arriba
+Walk2=27897	 ' derecha
+Walk3=27897	 ' abajo
+Walk4=27897	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-25
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
 [BODY6083]
 Walk1=28298	 ' arriba
 Walk2=28298	 ' derecha
@@ -32080,6 +32378,17 @@ HeadOffsetY=0
 BodyOffsetX=0
 BodyOffsetY=0
 Speed=0.010
+AnimateOnIdle=1
+
+[BODY6088]
+Walk1=29153	 ' arriba
+Walk2=29153	 ' derecha
+Walk3=29153	 ' abajo
+Walk4=29153	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
 AnimateOnIdle=1
 
 [BODY6089]
@@ -32647,4 +32956,565 @@ FileNum=0
 HeadOffsetX=0
 HeadOffsetY=-35
 
+
+[BODY6098]
+Walk1=29986	 ' arriba
+Walk2=29986	 ' derecha
+Walk3=29986	 ' abajo
+Walk4=29986	 ' izq
+HeadOffsetX=0
+HeadOffsetY=1
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6101]
+Walk1=742	 ' arriba
+Walk2=742	 ' derecha
+Walk3=742	 ' abajo
+Walk4=742	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-24
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6102]
+Walk1=3461	 ' arriba
+Walk2=3461	 ' derecha
+Walk3=3461	 ' abajo
+Walk4=3461	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-15
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6118]
+Walk1=24143	 ' arriba
+Walk2=24143	 ' derecha
+Walk3=24143	 ' abajo
+Walk4=24143	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6119]
+Walk1=24149	 ' arriba
+Walk2=24149	 ' derecha
+Walk3=24149	 ' abajo
+Walk4=24149	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6120]
+Walk1=24155	 ' arriba
+Walk2=24155	 ' derecha
+Walk3=24155	 ' abajo
+Walk4=24155	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6121]
+Walk1=24225	 ' arriba
+Walk2=24225	 ' derecha
+Walk3=24225	 ' abajo
+Walk4=24225	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6122]
+Walk1=24231	 ' arriba
+Walk2=24231	 ' derecha
+Walk3=24231	 ' abajo
+Walk4=24231	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-32
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6123]
+Walk1=24237	 ' arriba
+Walk2=24237	 ' derecha
+Walk3=24237	 ' abajo
+Walk4=24237	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-32
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6126]
+Walk1=25534	 ' arriba
+Walk2=25534	 ' derecha
+Walk3=25534	 ' abajo
+Walk4=25534	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-26
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6127]
+Walk1=25588	 ' arriba
+Walk2=25588	 ' derecha
+Walk3=25588	 ' abajo
+Walk4=25588	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-26
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6128]
+Walk1=25617	 ' arriba
+Walk2=25617	 ' derecha
+Walk3=25617	 ' abajo
+Walk4=25617	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-24
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6129]
+Walk1=25669	 ' arriba
+Walk2=25669	 ' derecha
+Walk3=25669	 ' abajo
+Walk4=25669	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-24
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6130]
+Walk1=25929	 ' arriba
+Walk2=25929	 ' derecha
+Walk3=25929	 ' abajo
+Walk4=25929	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-33
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6131]
+Walk1=25981	 ' arriba
+Walk2=25981	 ' derecha
+Walk3=25981	 ' abajo
+Walk4=25981	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-33
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6142]
+Walk1=28116	 ' arriba
+Walk2=28116	 ' derecha
+Walk3=28116	 ' abajo
+Walk4=28116	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6143]
+Walk1=28227	 ' arriba
+Walk2=28227	 ' derecha
+Walk3=28227	 ' abajo
+Walk4=28227	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6147]
+Walk1=28264	 ' arriba
+Walk2=28264	 ' derecha
+Walk3=28264	 ' abajo
+Walk4=28264	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-46
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6150]
+Walk1=29175	 ' arriba
+Walk2=29175	 ' derecha
+Walk3=29175	 ' abajo
+Walk4=29175	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-9
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6152]
+Walk1=29962	 ' arriba
+Walk2=29962	 ' derecha
+Walk3=29962	 ' abajo
+Walk4=29962	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6156]
+Walk1=30048	 ' arriba
+Walk2=30048	 ' derecha
+Walk3=30048	 ' abajo
+Walk4=30048	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6159]
+Walk1=30692	 ' arriba
+Walk2=30692	 ' derecha
+Walk3=30692	 ' abajo
+Walk4=30692	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6164]
+Walk1=30812	 ' arriba
+Walk2=30812	 ' derecha
+Walk3=30812	 ' abajo
+Walk4=30812	 ' izq
+HeadOffsetX=0
+HeadOffsetY=4
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6171]
+Walk1=30881	 ' arriba
+Walk2=30881	 ' derecha
+Walk3=30881	 ' abajo
+Walk4=30881	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-13
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6175]
+Walk1=30938	 ' arriba
+Walk2=30938	 ' derecha
+Walk3=30938	 ' abajo
+Walk4=30938	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6181]
+Walk1=31368	 ' arriba
+Walk2=31368	 ' derecha
+Walk3=31368	 ' abajo
+Walk4=31368	 ' izq
+HeadOffsetX=0
+HeadOffsetY=4
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6183]
+Walk1=31381	 ' arriba
+Walk2=31381	 ' derecha
+Walk3=31381	 ' abajo
+Walk4=31381	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6184]
+Walk1=31395	 ' arriba
+Walk2=31395	 ' derecha
+Walk3=31395	 ' abajo
+Walk4=31395	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6189]
+Walk1=31569	 ' arriba
+Walk2=31569	 ' derecha
+Walk3=31569	 ' abajo
+Walk4=31569	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6190]
+Walk1=31575	 ' arriba
+Walk2=31575	 ' derecha
+Walk3=31575	 ' abajo
+Walk4=31575	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6193]
+Walk1=31605	 ' arriba
+Walk2=31605	 ' derecha
+Walk3=31605	 ' abajo
+Walk4=31605	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-10
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6194]
+Walk1=31611	 ' arriba
+Walk2=31611	 ' derecha
+Walk3=31611	 ' abajo
+Walk4=31611	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6196]
+Walk1=31709	 ' arriba
+Walk2=31709	 ' derecha
+Walk3=31709	 ' abajo
+Walk4=31709	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-13
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6200]
+Walk1=31733	 ' arriba
+Walk2=31733	 ' derecha
+Walk3=31733	 ' abajo
+Walk4=31733	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-17
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6201]
+Walk1=31739	 ' arriba
+Walk2=31739	 ' derecha
+Walk3=31739	 ' abajo
+Walk4=31739	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6209]
+Walk1=89923	 ' arriba
+Walk2=89923	 ' derecha
+Walk3=89923	 ' abajo
+Walk4=89923	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6210]
+Walk1=89932	 ' arriba
+Walk2=89932	 ' derecha
+Walk3=89932	 ' abajo
+Walk4=89932	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6212]
+Walk1=89927	 ' arriba
+Walk2=89927	 ' derecha
+Walk3=89927	 ' abajo
+Walk4=89927	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6213]
+Walk1=89928	 ' arriba
+Walk2=89928	 ' derecha
+Walk3=89928	 ' abajo
+Walk4=89928	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+AnimateOnIdle=1
+
+[BODY6236]
+Walk1=31872	 ' arriba
+Walk2=31872	 ' derecha
+Walk3=31872	 ' abajo
+Walk4=31872	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY6237]
+Walk1=31879	 ' arriba
+Walk2=31879	 ' derecha
+Walk3=31879	 ' abajo
+Walk4=31879	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY6238]
+Walk1=31885	 ' arriba
+Walk2=31885	 ' derecha
+Walk3=31885	 ' abajo
+Walk4=31885	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY6239]
+Walk1=31891	 ' arriba
+Walk2=31891	 ' derecha
+Walk3=31891	 ' abajo
+Walk4=31891	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY6241]
+Walk1=31904	 ' arriba
+Walk2=31904	 ' derecha
+Walk3=31904	 ' abajo
+Walk4=31904	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-12
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY6242]
+Walk1=31910	 ' arriba
+Walk2=31910	 ' derecha
+Walk3=31910	 ' abajo
+Walk4=31910	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-9
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY6248]
+Walk1=32101	 ' arriba
+Walk2=32101	 ' derecha
+Walk3=32101	 ' abajo
+Walk4=32101	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY6254]
+Walk1=32207	 ' arriba
+Walk2=32207	 ' derecha
+Walk3=32207	 ' abajo
+Walk4=32207	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY6256]
+Walk1=32219	 ' arriba
+Walk2=32219	 ' derecha
+Walk3=32219	 ' abajo
+Walk4=32219	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-16
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.1
+AnimateOnIdle=1
+
+[BODY6258]
+Walk1=32231	 ' arriba
+Walk2=32231	 ' derecha
+Walk3=32231	 ' abajo
+Walk4=32231	 ' izq
+HeadOffsetX=0
+HeadOffsetY=-6
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
+
+[BODY6259]
+Walk1=32237	 ' arriba
+Walk2=32237	 ' derecha
+Walk3=32237	 ' abajo
+Walk4=32237	 ' izq
+HeadOffsetX=0
+HeadOffsetY=0
+BodyOffsetX=0
+BodyOffsetY=0
+Speed=0.055
+AnimateOnIdle=1
 
