@@ -17,18 +17,22 @@
 '''
 
 [INIT]
-NumRangos=5
+NumRangos=7
 
 [ArmadaReal]
-1Rango=25-100-Soldado
-2Rango=30-500-Caballero
-3Rango=35-2500-Capitán
-4Rango=40-5000-Protector del Reino
-5Rango=43-10000-Campeón de la Luz
+1Rango=23-500-Recluta Real
+2Rango=26-1500-Soldado Real
+3Rango=28-3000-Teniente Imperial
+4Rango=30-5000-Capitán del Orden
+5Rango=32-8000-Caballero del Alba
+6Rango=35-12000-Guardián del Trono
+7Rango=40-20000-Campeón de la Luz
 
 [LegionCaos]
-1Rango=25-100-Acólito
-2Rango=30-500-Emisario del Caos
-3Rango=35-2500-Sanguinario
-4Rango=40-5000-Caballero de la Oscuridad
-5Rango=43-10000-Devorador de Almas
+1Rango=23-500-Iniciado Oscuro
+2Rango=26-1500-Acólito Impío
+3Rango=28-3000-Emisario Sombrío
+4Rango=30-5000-Esbirro Infernal
+5Rango=32-8000-Jinete Umbrío
+6Rango=35-12000-Devorador de Almas
+7Rango=40-20000-Señor Oscuro
