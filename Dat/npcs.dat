@@ -4486,7 +4486,7 @@ Alineacion=0
 
 '--- COPIA PRIVADA ORIGINAL NPC530 (Gorila Blanco) antes de oficializar; cliente oficial era Goruk ---
 DropCount=1
-Drop1=407-1000-1-1
+Drop1=407-325-1-1
 Nivel=28
 PoderAtaque=200
 PoderEvasion=160
@@ -5910,7 +5910,7 @@ ReSpawn=0
 Alineacion=0
 Nivel=20
 DropCount=1
-Drop1=412-700-1-1
+Drop1=412-400-1-1
 PoderAtaque=160
 PoderEvasion=120
 
@@ -22184,7 +22184,7 @@ QUIZADROPEA1=409
 QuizaProb=550
 Nivel=28
 DropCount=1
-Drop1=409-800-1-1
+Drop1=409-300-1-1
 PoderAtaque=250
 PoderEvasion=150
 '[NPC1367]
@@ -23183,7 +23183,7 @@ QUIZADROPEA1=408
 QuizaProb=575
 NpcType=0
 DropCount=1
-Drop1=408-600-1-1
+Drop1=408-375-1-1
 Nivel=20
 [NPC9000]
 Name=Maestro Carpintero y Lenador <Carpinteria y Tala>
