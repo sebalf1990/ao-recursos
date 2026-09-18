@@ -325,7 +325,9 @@ MultiplierManaxSkills=0.5
 ManaCommonLute=5
 ManaMagicLute=10
 ManaElvenLute=15
-DificultadSubirSkill=2
+' 4 = oficial (API getBalance 2026-09-17, plan 17.001 D33). Las rates de Configuracion.ini NO lo tocan:
+' para que los skills suban mas rapido (beta), bajar este valor (2 = el doble de rapido).
+DificultadSubirSkill=4
 'RequiredSpellDisplayTime=375
 MaxInvisibleSpellDisplayTime=350
 ' Vidas variables de personajes con límite positivo y negativo
