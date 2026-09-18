@@ -466,10 +466,12 @@ Row4=1 2 0.5 0.5
 ' Plan 02.001 (2026-09-03): claves que lee FileIO.bas:1040-1047 y que nunca existieron en este archivo (valian 0).
 ' Valores del refactor upstream 122d73b2 (#1176), los que reemplazo al pasar de codigo a dato: Asesino 0.33*skill,
 ' Bardo/Cazador 0.15*skill, resto 0.10*skill, critico de Bandido 0.25*skill, ModDanoGolpeCritico 0.33.
+' Plan 17.001 D35 (2026-09-18): manda la guia de la wiki; donde no da numero, la API getBalance.
+' Asesino 0.33 -> 0.25 (guia y API coinciden); IgnoreArmorChance 0.25 -> 0.2 (solo la API). ExtraBackstabChance sigue en 0 (D34).
 CriticalHitDmgModifier=0.33
-IgnoreArmorChance=0.25
+IgnoreArmorChance=0.2
 ExtraBackstabChance=0
-AssasinStabbingChance=0.33
+AssasinStabbingChance=0.25
 HunterStabbingChance=0.15
 BardStabbingChance=0.15
 GenericStabbingChance=0.1
