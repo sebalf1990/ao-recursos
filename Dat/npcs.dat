@@ -23510,6 +23510,9 @@ IntervaloAtaque=1200
 DEF=40
 PoderAtaque=1500
 PoderEvasion=300
+'--- Brazalete de la QUEST386, 1 en 10, solo con la quest activa (plan 17.001 D65b)
+NumDropQuest=1
+DropQuest1=386-6356-1-10
 
 [NPC19] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Lyra <Quest>
@@ -23610,6 +23613,9 @@ IntervaloAtaque=1200
 DEF=40
 PoderAtaque=1500
 PoderEvasion=300
+'--- Brazalete de la QUEST386, 1 en 10, solo con la quest activa (plan 17.001 D65b)
+NumDropQuest=1
+DropQuest1=386-6356-1-10
 
 [NPC542] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Caballo Marrón
@@ -23709,6 +23715,9 @@ IntervaloAtaque=1200
 DEF=40
 PoderAtaque=1500
 PoderEvasion=300
+'--- Brazalete de la QUEST386, 1 en 10, solo con la quest activa (plan 17.001 D65b)
+NumDropQuest=1
+DropQuest1=386-6356-1-10
 
 [NPC1506] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 '--- Guardia reparado. Plan 07.002 ola 1. Plantilla NPC261.
@@ -23974,6 +23983,9 @@ IntervaloAtaque=1200
 DEF=40
 PoderAtaque=1500
 PoderEvasion=300
+'--- Brazalete de la QUEST385, 1 en 10, solo con la quest activa (plan 17.001 D65b)
+NumDropQuest=1
+DropQuest1=385-6355-1-10
 
 [NPC1556] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 '--- Guardia reparado. Plan 07.002 ola 1. Plantilla NPC271.
@@ -24089,6 +24101,9 @@ IntervaloAtaque=1200
 DEF=40
 PoderAtaque=1500
 PoderEvasion=300
+'--- Brazalete de la QUEST385, 1 en 10, solo con la quest activa (plan 17.001 D65b)
+NumDropQuest=1
+DropQuest1=385-6355-1-10
 
 [NPC1554] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 '--- Guardia reparado. Plan 07.002 ola 1. Plantilla NPC271.
@@ -24128,6 +24143,9 @@ IntervaloAtaque=1200
 DEF=40
 PoderAtaque=1500
 PoderEvasion=300
+'--- Brazalete de la QUEST385, 1 en 10, solo con la quest activa (plan 17.001 D65b)
+NumDropQuest=1
+DropQuest1=385-6355-1-10
 
 [NPC504] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Zombie Putrefacto
