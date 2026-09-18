@@ -85226,47 +85226,69 @@ GrhIndex=52193
 ObjType=100
 Valor=50000
 
-[OBJ6354] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
+[OBJ6354] 'Oficial: API getAllQuestsInformation 2026-09-17, item de las quests 385/386 (plan 17.001 D65)
 Name=Poción de Honor Faccionario
 Texto=¡Consume este objeto para ganar puntos de facción!
 GrhIndex=28736
 ObjType=1
 Valor=0
+FactionScore=25
+NoseCae=1
+Intirable=1
+Instransferible=1
+
+[OBJ6355] 'Oficial: API getAllQuestsInformation 2026-09-17, item de las quests 385/386 (plan 17.001 D65)
+Name=Brazalete Legionario
+Texto=Item de Quest
+GrhIndex=49129
+ObjType=100
+Valor=0
 Instransferible=1
 Intirable=1
 NoseCae=1
 
-[OBJ6355] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
+[OBJ6356] 'Oficial: API getAllQuestsInformation 2026-09-17, item de las quests 385/386 (plan 17.001 D65)
+Name=Brazalete Real
+Texto=Item de Quest
+GrhIndex=49127
+ObjType=100
+Valor=0
+Instransferible=1
+Intirable=1
+NoseCae=1
+
+[OBJ6357] 'Oficial: localindex del pack de Steam 2026-09-12; antes estaba en el OBJ6355 (plan 17.001 D65)
 Name=Pasaje al inframundo
 Texto=Pasaje al inframundo
 GrhIndex=24640
 ObjType=19
 Agarrable=1
 
-[OBJ6356] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
+[OBJ6358] 'Oficial: localindex del pack de Steam 2026-09-12; antes estaba en el OBJ6356 (plan 17.001 D65)
 Name=Escama de cocodrilo
 Texto=¡Entrégalas para ayudar a completar el objetivo comunitario!
 GrhIndex=49143
 ObjType=100
 Valor=0
 
-[OBJ6357] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
+[OBJ6359] 'Oficial: localindex del pack de Steam 2026-09-12; antes estaba en el OBJ6357 (plan 17.001 D65)
 Name=CrockyPoint
 Texto=¡Canjea este crockypoint por una recompensa única!
 GrhIndex=49145
 ObjType=100
 Valor=0
 
-[OBJ6358] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
+[OBJ6360] 'Oficial: localindex del pack de Steam 2026-09-12; antes estaba en el OBJ6358 (plan 17.001 D65)
 Name=Runa de auxilio real
 GrhIndex=52199
 ObjType=50
 
-[OBJ6359] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Carta falopa
-Texto=la primera carta falopa
+[OBJ6361] 'Oficial: localindex del pack de Steam 2026-09-12; antes estaba en el OBJ6359 (plan 17.001 D65)
+Name=Carta Morvanna
 GrhIndex=52190
 CollectibleCardImgPathing=Cartas\1.png
+CollectibleCardIndex=1
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ9014] 'Reubicado de OBJ5170 por colision con slot oficial (plan 10.001 fase 3)
