@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleFR_Msg=2214
+NumLocaleFR_Msg=2215
 
 [FR_MSG]
 Msg1=[¬1] a été expulsé du clan car il modifiait son alignement.
@@ -2132,3 +2132,4 @@ Msg2211=Vous avez inflige ¬1 de ¬2 a la creature.
 Msg2212=Vous avez subi ¬1 dégâts de ¬2.
 Msg2213=Vous ne pouvez plus attribuer de points a cette competence : elle n'a plus d'utilite.
 Msg2214=Pour fonder un clan, vous avez besoin de ¬1 pièces d'or.
+Msg2215=Cette mission n'est pas disponible pour votre faction.

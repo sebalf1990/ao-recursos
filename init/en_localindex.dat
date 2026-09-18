@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=2214
+NUMLOCALEMSG=2215
 NUMMAPAS=750
 NUMNPCS=9049
 NUMOBJS=9202
@@ -2169,6 +2169,7 @@ Msg2211=You dealt ¬1 of ¬2 to the creature.
 Msg2212=You received ¬1 ¬2 damage.
 Msg2213=You can no longer assign points to that skill: it has no use.
 Msg2214=To found a guild, you need ¬1 gold coins.
+Msg2215=This mission is not available for your faction.
 
 [QUEST1]
 Nombre=Final Rest
