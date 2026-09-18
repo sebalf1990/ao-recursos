@@ -48704,6 +48704,27 @@ Name=Huevo de Fénix
 Texto=¡Abre este cofre para obtener una recompensa única!
 ObjType=48
 Valor=0
+Subtipo=2
+CantItem=9
+CantEntrega=1
+Item1=6261 'Hacha de Fénix
+Cantidad1=1
+Item2=6262 'Arco del Fénix
+Cantidad2=1
+Item3=6263 'Espada del Fénix
+Cantidad3=1
+Item4=6264 'Hoja del Fénix
+Cantidad4=1
+Item5=6265 'Nudillo del Fénix
+Cantidad5=1
+Item6=6266 'Báculo del Fénix
+Cantidad6=1
+Item7=6269 'Daga del Fénix
+Cantidad7=1
+Item8=6271 'Sable del Fénix
+Cantidad8=1
+Item9=6270 'Escudo del Fénix
+Cantidad9=1
 
 [OBJ3505]
 CP1=GUERRERO
