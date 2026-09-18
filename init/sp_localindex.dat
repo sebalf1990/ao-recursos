@@ -65184,34 +65184,47 @@ ObjType=1
 Valor=0
 
 [OBJ6355]
+Name=Brazalete Legionario
+Texto=Item de Quest
+GrhIndex=49129
+ObjType=100
+Valor=0
+
+[OBJ6356]
+Name=Brazalete Real
+Texto=Item de Quest
+GrhIndex=49127
+ObjType=100
+Valor=0
+
+[OBJ6357]
 Name=Pasaje al inframundo
 Texto=Pasaje al inframundo
 GrhIndex=24640
 ObjType=19
 Agarrable=1
 
-[OBJ6356]
+[OBJ6358]
 Name=Escama de cocodrilo
 Texto=¡Entrégalas para ayudar a completar el objetivo comunitario!
 GrhIndex=49143
 ObjType=100
 Valor=0
 
-[OBJ6357]
+[OBJ6359]
 Name=CrockyPoint
 Texto=¡Canjea este crockypoint por una recompensa única!
 GrhIndex=49145
 ObjType=100
 Valor=0
 
-[OBJ6358]
+[OBJ6360]
 Name=Runa de auxilio real
 GrhIndex=52199
 ObjType=50
 
-[OBJ6359]
-Name=Carta falopa
-Texto=la primera carta falopa
+[OBJ6361]
+Name=Carta Morvanna
 GrhIndex=52190
 ObjType=57
 
