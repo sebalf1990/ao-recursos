@@ -15053,6 +15053,7 @@ GiveEXPClan=1
 ORO=120
 MaxHIT=155
 MinHIT=115
+Nivel=30
 
 [NPC1475]
 Name=Portador de Agua
@@ -15066,6 +15067,7 @@ GiveEXPClan=1
 ORO=120
 MaxHIT=155
 MinHIT=115
+Nivel=30
 
 [NPC1476]
 Name=Portador de Tierra
@@ -15079,6 +15081,7 @@ GiveEXPClan=1
 ORO=120
 MaxHIT=155
 MinHIT=115
+Nivel=30
 
 [NPC1477]
 Name=Portador de Viento
@@ -15092,6 +15095,7 @@ GiveEXPClan=1
 ORO=120
 MaxHIT=155
 MinHIT=115
+Nivel=30
 
 [NPC1500]
 Name=Aurum <Herrero Real>
