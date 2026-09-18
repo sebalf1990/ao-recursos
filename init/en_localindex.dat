@@ -34859,17 +34859,16 @@ MinHit=14
 GrhIndex=0
 
 [OBJ1828]
-Name=Baculo Orco +25 (Mago)
-GrhIndex=36899
-Objtype=2
-MinHIT=1
-MaxHIT=1
-SkHerreria=100
-LingH=18
-LingP=15
-LingO=16
-Valor=350
-Texto=Baculo Orco +25 (Mago)
+Name=Vólcora
+Texto=Daño 8/12
+GrhIndex=37844
+ObjType=2
+Valor=3000
+SkHerreria=30
+LingH=50
+MaxHit=12
+MinHit=8
+texto=Damage 8/12
 
 [OBJ1829]
 Name=Espada Larzul
