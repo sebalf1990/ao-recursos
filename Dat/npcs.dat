@@ -24635,11 +24635,9 @@ Hostile=0
 ReSpawn=0
 ShowName=1
 DisabledInBattleServer=1
-NumQuest=4
+NumQuest=2
 QuestNumber1=314
 QuestNumber2=315
-QuestNumber3=900
-QuestNumber4=901
 [NPC23] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Guardia de Arena
 Desc=¡Demuestra tu valor en combate! El ingreso al siguiente mapa cuesta 1500 monedas de oro. Escribe /ARENA para ingresar.
