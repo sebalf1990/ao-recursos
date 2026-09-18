@@ -1,5 +1,5 @@
 [INIT]
-NumObjs=49
+NumObjs=55
 
 [OBJ1] 'Cuchara
 Index=163
@@ -147,3 +147,21 @@ Index=9191
 
 [OBJ49] 'Flecha Desangradora Superior
 Index=9192
+
+[OBJ50] 'Báculo de Madera
+Index=1800
+
+[OBJ51] 'Arco Maestro
+Index=1869
+
+[OBJ52] 'Escudo de Madera
+Index=1721
+
+[OBJ53] 'Rodela Reforzada
+Index=1722
+
+[OBJ54] 'Laúd
+Index=3986
+
+[OBJ55] 'Flauta
+Index=3985

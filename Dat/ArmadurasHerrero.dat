@@ -1,5 +1,5 @@
 [INIT]
-NumArmaduras=61
+NumArmaduras=83
 
 [Armadura1] 'Armadura de Herrero
 Index=1912
@@ -183,3 +183,69 @@ Index=9201
 
 [Armadura61] 'Escudo de Espinas
 Index=9202
+
+[Armadura62] 'Escudo de Hierro Reforzado
+Index=1713
+
+[Armadura63] 'Armadura Maghtere
+Index=2803
+
+[Armadura64] 'Armadura de Leñador
+Index=2919
+
+[Armadura65] 'Cota de Mallas
+Index=359
+
+[Armadura66] 'Armadura con Capa
+Index=4342
+
+[Armadura67] 'Armadura de Ébano
+Index=4332
+
+[Armadura68] 'Luchador de las Minas
+Index=2818
+
+[Armadura69] 'Peto de Caballero
+Index=1921
+
+[Armadura70] 'Cota de Minero Experto
+Index=2920
+
+[Armadura71] 'Armadura Caranthir
+Index=2804
+
+[Armadura72] 'Coraza Compuesta
+Index=2801
+
+[Armadura73] 'Armadura Pesada
+Index=1911
+
+[Armadura74] 'Armadura de Cazador
+Index=360
+
+[Armadura75] 'Armadura de Placas
+Index=1099
+
+[Armadura76] 'Placas de Gala
+Index=1098
+
+[Armadura77] 'Armadura de la Luz
+Index=496
+
+[Armadura78] 'Casco de Hierro
+Index=1278
+
+[Armadura79] 'Casco de Hierro Reforzado
+Index=1761
+
+[Armadura80] 'Anillo de Defensa Mágica
+Index=3757
+
+[Armadura81] 'Anillo de Resistencia Mágica
+Index=3577
+
+[Armadura82] 'Anillo de Protección Mágica
+Index=2324
+
+[Armadura83] 'Anillo de Fortaleza Mágica
+Index=2325
