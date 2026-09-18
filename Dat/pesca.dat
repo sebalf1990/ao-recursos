@@ -4,31 +4,43 @@
 # C: Nivel de caña (a las cañas les ponemos Power=X, y si no es mayor o igual que el pez, no lo pesca)
 # D: Pez especial( 1=especial, 0 = normal)
 [PECES]
-NumPeces=22
+NumPeces=34
 Maxlvlcaña=6
 
-Pez1=2089-11523-1-0        'Pez Lisa
-Pez2=2101-5121-1-0        'Pez Salmón
-Pez3=2093-7682-1-0        'Pez Bagre de Mar
-Pez4=3321-256-1-1        'Pez Limon
-Pez5=2152-6-1-0        'Pez Mero de los Fondos
-Pez6=2094-19443-2-0        'Pez Roca
-Pez7=2163-8641-2-0        'Pez Corvina Rubia
-Pez8=3316-432-2-1        'Pez Espada
-Pez9=3304-1-2-0        'Botella Flotante
-Pez10=2102-27423-3-0        'Kelp
-Pez11=2100-12188-3-0        'Bluefin
-Pez12=3319-609-3-1        'Tiburón Martillo
-Pez13=3320-305-3-1        'Calamar Gigante
-Pez14=2153-6100-4-0        'Pez Globo
-Pez15=3317-1102-4-1        'Tiburón Tigre
-Pez16=3318-367-4-1        'Tiburón Blanco
-Pez17=2112-40923-5-0        'Cardumen
-Pez18=2092-18188-5-0        'Camaron
-Pez19=3300-455-5-0        'Almeja Misteriosa
-Pez20=2145-47823-6-0        'Calamar
-Pez21=2147-13284-6-0        'Pulpo
-Pez22=2108-5314-6-0        'Langosta Gigante
+Pez1=2089-3000-1-0        'Lisa
+Pez2=2101-1667-1-0        'Salmón
+Pez3=2093-1000-1-0        'Bagre de Mar
+Pez4=2155-833-1-0        'Pez Tigre
+Pez5=2087-97-1-1        'Cadáver de pescado
+Pez6=3321-50-1-1        'Pez Limón (E)
+Pez7=2152-13-1-1        'Mero de los Fondos (E)
+Pez8=2314-3-1-1        'Anillo de oro
+Pez9=3140-3-1-1        'Cofre de Tesoro
+Pez10=2094-3000-2-0        'Pez Roca
+Pez11=2163-1933-2-0        'Corvina Rubia
+Pez12=2161-1567-2-0        'Fungu
+Pez13=2214-97-2-0        'Tela rota
+Pez14=2149-33-2-1        'Langostino Marino (E)
+Pez15=3316-23-2-1        'Pez Espada (E)
+Pez16=3304-10-2-1        'Botella con Mensaje
+Pez17=2187-3-2-0        'Collar Azul
+Pez18=2102-3333-3-0        'Kelp
+Pez19=2100-1667-3-0        'Bluefin
+Pez20=2151-1600-3-0        'Lobina
+Pez21=3319-53-3-1        'Tiburón Martillo (E)
+Pez22=3320-13-3-1        'Calamar Gigante (E)
+Pez23=2153-6533-4-0        'Pez Globo
+Pez24=3317-100-4-1        'Tiburón Tigre (E)
+Pez25=3318-33-4-1        'Tiburón Blanco (E)
+Pez26=2092-2767-5-0        'Camarón
+Pez27=2112-2333-5-0        'Cardumen
+Pez28=2151-667-5-0        'Lobina
+Pez29=2161-500-5-0        'Fungu
+Pez30=2155-333-5-0        'Pez Tigre
+Pez31=3300-67-5-1        'Almeja Misteriosa (E)
+Pez32=2145-5333-6-0        'Calamar Grande
+Pez33=2147-1327-6-0        'Pulpo
+Pez34=2108-7-6-1        'Langosta Gigante (E)
 
 #================================================
 
