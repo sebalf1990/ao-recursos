@@ -1,5 +1,5 @@
 [INIT]
-NumArmas=42
+NumArmas=57
 
 [Arma1]
 Index=3980 ' Bala de piedra
@@ -126,3 +126,48 @@ Index=9168
 
 [Arma42] 'Daga Carnicera
 Index=9169
+
+[Arma43] 'Nudillo de Bronce
+Index=1856
+
+[Arma44] 'Nudillo
+Index=1855
+
+[Arma45] 'Vólcora
+Index=1828
+
+[Arma46] 'Hacha Larga
+Index=1819
+
+[Arma47] 'Mandoble
+Index=1818
+
+[Arma48] 'Nudillo de Hierro
+Index=3987
+
+[Arma49] 'Maza de Guerra
+Index=1820
+
+[Arma50] 'Hoja de Jade
+Index=1821
+
+[Arma51] 'Sable Maestro
+Index=398
+
+[Arma52] 'Aurora
+Index=133
+
+[Arma53] 'Nudillo de Mithril
+Index=1825
+
+[Arma54] 'Hoja Ígnea
+Index=1822
+
+[Arma55] 'Falcata
+Index=400
+
+[Arma56] 'Espada del Abismo
+Index=137
+
+[Arma57] 'Espada Zafiro
+Index=131

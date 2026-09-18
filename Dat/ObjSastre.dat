@@ -1,5 +1,5 @@
 [INIT]
-NumObjs=33
+NumObjs=55
 
 [Obj1]'Tela trabajada
 Index=3578
@@ -99,3 +99,69 @@ Index=9156
 
 [Obj33]'Túnica del Vacío Sangrante
 Index=9157
+
+[Obj34]'Túnica Roja
+Index=381
+
+[Obj35]'Armadura de Cuero
+Index=30
+
+[Obj36]'Armadura de Cuero Azul
+Index=998
+
+[Obj37]'Túnica Azul
+Index=238
+
+[Obj38]'Túnica Aguamarina
+Index=3505
+
+[Obj39]'Túnica de Mago
+Index=4343
+
+[Obj40]'Vestido de Condesa Negro
+Index=1985
+
+[Obj41]'Túnica Negra
+Index=520
+
+[Obj42]'Vestido Indulgente
+Index=510
+
+[Obj43]'Vestido de Novia
+Index=2936
+
+[Obj44]'Atuendo de Erendil
+Index=2889
+
+[Obj45]'Túnica de Druida
+Index=530
+
+[Obj46]'Casco de Zorro
+Index=3596
+
+[Obj47]'Sombrero de Iniciante
+Index=1239
+
+[Obj48]'Capucha de Cuero
+Index=1774
+
+[Obj49]'Cuernos de Alce
+Index=3983
+
+[Obj50]'Casco de Lobo
+Index=3976
+
+[Obj51]'Sombrero de Mago
+Index=993
+
+[Obj52]'Sombrero Ideal
+Index=4936
+
+[Obj53]'Capucha de Élite
+Index=4935
+
+[Obj54]'Casco de Tigre
+Index=4934
+
+[Obj55]'Sombrero de Hechicero
+Index=4933
