@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=2214
+NUMLOCALEMSG=2215
 NUMMAPAS=750
 NUMNPCS=9049
 NUMOBJS=9202
@@ -2169,6 +2169,7 @@ Msg2211=Hai inflitto ¬1 di ¬2 alla creatura.
 Msg2212=Hai subito ¬1 danni di ¬2.
 Msg2213=Non puoi piu assegnare punti a quell'abilita: non ha piu utilizzo.
 Msg2214=Per fondare un clan, hai bisogno di ¬1 monete d'oro.
+Msg2215=Questa missione non è disponibile per la tua fazione.
 
 [QUEST1]
 Nombre=Riposo finale

@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleEN_Msg=2214
+NumLocaleEN_Msg=2215
 
 [EN_MSG]
 Msg1=[¬1] has been kicked out of the guild because they changed their alignment.
@@ -2132,3 +2132,4 @@ Msg2211=You dealt ¬1 of ¬2 to the creature.
 Msg2212=You received ¬1 ¬2 damage.
 Msg2213=You can no longer assign points to that skill: it has no use.
 Msg2214=To found a guild, you need ¬1 gold coins.
+Msg2215=This mission is not available for your faction.

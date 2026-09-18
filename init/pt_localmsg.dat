@@ -1,5 +1,5 @@
 [INIT]
-NumLocalePT_Msg=2214
+NumLocalePT_Msg=2215
 
 [PT_MSG]
 Msg1=[¬1] foi expulso do clã ao modificar seu alinhamento.
@@ -2132,3 +2132,4 @@ Msg2211=Causaste ¬1 de ¬2 a criatura.
 Msg2212=Você recebeu ¬1 de dano de ¬2.
 Msg2213=Voce nao pode mais atribuir pontos a essa habilidade: ela nao tem mais uso.
 Msg2214=Para fundar um clã, você precisa de ¬1 moedas de ouro.
+Msg2215=Esta missão não está disponível para sua facção.
