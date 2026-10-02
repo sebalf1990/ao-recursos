@@ -2619,7 +2619,6 @@ ObjType=18
 SubTipo=2
 Valor=15000
 Crucial=1
-SkillRequerido=Pesca-100
 Texto=Herramienta de pesca, solo utilizable en altamar.
 POWER=5
 en_texto=Fishing tool, only usable on the high seas.
