@@ -1,9 +1,8 @@
 '<<<<<<<<<<ESTE CAMBIA EL NICKS>>>>>>>>>>
 'todos los valores deben estar entre 0 y 255
 'los rangos van de 1 a 47 (inclusive). El 0 y el 48,49,50 estan reservados. Mas arriba son ignorados.
-
-
 'neutral/exiliado?(afuturo) (sobreescribe el 48)
+
 [Ne]
 R=188
 G=188
@@ -11,15 +10,15 @@ B=188
 
 'ciudadanos (sobreescribe el 49)
 [Ci]
-R=6
-G=128
+R=0
+G=130
 B=255
 
 'criminales (sobreescribe el 50)
 [Cr]
-R=233
-G=0
-B=0
+R=240
+G=75
+B=70
 
 [0]
 R=0
@@ -56,29 +55,26 @@ R=217
 G=164
 B=32
 
-[6] 'Concilio del caos (HarT
-R=255
-G=102
-B=102
+[6] 'Concilio del caos (lider)
+R=160
+G=15
+B=0
 
-[7] 'Consejo de banderbill (HarThaoS)
-R=66
-G=201
+[7] 'Consejo de banderbill
+R=120
+G=220
 B=255
-
-
 
 ' Armada
 [8]
-R=60
-G=163
+R=0
+G=100
 B=255
 
-' Consejero armada
-[9]
-R=66
-G=201
-B=255
+[9] 'Legion
+R=255
+G=0
+B=0
 
 [10]
 R=0
@@ -131,34 +127,34 @@ G=0
 B=0
 
 [20]
-R=6
-G=128
+R=0
+G=130
 B=255
 
 [21]
-R=60
-G=163
+R=0
+G=100
 B=255
 
 [22]
-R=66
-G=201
+R=120
+G=220
 B=255
 
 [23]
+R=240
+G=75
+B=70
+
+[24]
 R=255
 G=0
 B=0
 
-[24]
-R=255
-G=51
-B=51
-
 [25]
-R=255
-G=102
-B=102
+R=160
+G=15
+B=0
 
 [26]
 R=0

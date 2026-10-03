@@ -15592,23 +15592,6 @@ ObjType=6
 Agarrable=1
 Llave=0
 
-[OBJ1235]
-Name=Puerta cerrada
-Texto=Puerta cerrada
-GrhIndex=6962
-ObjType=6
-Agarrable=1
-Llave=0
-
-[OBJ1236]
-Name=Sombrero Negro de Mago
-Texto=Sombrero Negro de Mago
-GrhIndex=15646
-Valor=750
-ObjType=17
-MaxDef=2
-MinDef=3
-
 [OBJ1237]
 Name=Sombrero Rojo de Mago
 Texto=Sombrero Rosa de Mago
