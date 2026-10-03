@@ -33256,12 +33256,12 @@ HeadOffsetY=-40
 AnimateOnIdle=1
 
 [BODY5834]
-Walk1=89909 ' d
-Walk2=89909 ' d
-Walk3=89909 ' d
-Walk4=89909 ' d
-HeadOffsetX=0
-HeadOffsetY=0
+Walk1=89910 ' arriba
+Walk2=89910 ' derecha
+Walk3=89910 ' abajo
+Walk4=89910 ' izq
+HeadOffsetX=24
+HeadOffsetY=-40
 AnimateOnIdle=1
 
 [BODY5835]
