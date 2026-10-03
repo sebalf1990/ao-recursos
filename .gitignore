@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+
+# Plan 17.001 D47: login recordado por el cliente (tiene contrasena) y log local de errores
+OUTPUT/Cuenta.ini
+err.log
