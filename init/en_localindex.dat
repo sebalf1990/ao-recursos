@@ -19757,7 +19757,7 @@ name=Gold coins
 [OBJ13]
 Name=Cartel
 Info=Herrería
-GrhIndex=500
+GrhIndex=95000
 ObjType=8
 Texto=Armas y armaduras de excelente calidad, forjadas con los metales más preciados de estas tierras. Todo esto puede ser tuyo por un módico precio.
 Agarrable=1
@@ -21849,7 +21849,7 @@ Texto=Vestimenta Verde
 
 [OBJ241]
 Name=Puerta abierta
-GrhIndex=8685
+GrhIndex=95007
 ObjType=6
 llave=0
 Agarrable=1
@@ -22453,7 +22453,7 @@ Texto=Llave de la bóveda de Finanzas Goliath
 [OBJ315]
 Name=Cartel
 Info=Muelles
-GrhIndex=675
+GrhIndex=95002
 ObjType=8
 Texto=¡Bienvenido viajero! Sea cauteloso, no querrá que alguno de los resquebrajadizos tablones le jueguen una mala pasada antes de partir.
 Agarrable=1
@@ -24137,7 +24137,7 @@ RopajeGnoma=2694
 
 [OBJ498]
 Name=Puerta cerrada
-GrhIndex=32256
+GrhIndex=95014
 ObjType=6
 llave=0
 Agarrable=1
@@ -24254,7 +24254,7 @@ Texto=Trampa Visual (M)
 
 [OBJ504]
 Name=Puerta abierta
-GrhIndex=32312
+GrhIndex=95018
 ObjType=6
 llave=0
 Agarrable=1
@@ -24263,7 +24263,7 @@ name=Open door
 
 [OBJ505]
 Name=Puerta cerrada
-GrhIndex=32309
+GrhIndex=95015
 ObjType=6
 llave=0
 Agarrable=1
@@ -24272,7 +24272,7 @@ name=Door closed
 
 [OBJ506]
 Name=Puerta abierta
-GrhIndex=32313
+GrhIndex=95019
 ObjType=6
 llave=0
 Agarrable=1
@@ -24281,7 +24281,7 @@ name=Open door
 
 [OBJ507]
 Name=Puerta cerrada
-GrhIndex=32310
+GrhIndex=95016
 ObjType=6
 llave=0
 Agarrable=1
@@ -24386,7 +24386,7 @@ Texto=Vestimenta Común
 
 [OBJ516]
 Name=Puerta abierta
-GrhIndex=32314
+GrhIndex=95020
 ObjType=6
 llave=0
 Agarrable=1
@@ -24395,7 +24395,7 @@ name=Open door
 
 [OBJ517]
 Name=Puerta cerrada
-GrhIndex=32311
+GrhIndex=95017
 ObjType=6
 llave=0
 Agarrable=1
@@ -27116,7 +27116,7 @@ GRHINDEX=0
 [OBJ860]
 Name=Cartel
 Info=Dungeon Zero
-GrhIndex=980
+GrhIndex=95003
 ObjType=8
 Texto=Has navegado días y noches para llegar aquí. ¡No te detengas mucho tiempo leyendo este cartel, la isla es habitada por grandes dragones, y en el interior de esta caverna se esconden criaturas infernales! ¡Desenvaina tu espada antes de ingresar!
 Agarrable=1
@@ -28079,7 +28079,7 @@ Texto=Escudo Infernal
 
 [OBJ1000]
 Name=Escudo de Plata
-GrhIndex=89934
+GrhIndex=95021
 ObjType=16
 MAXDEF=2
 MINDEF=5
@@ -29730,7 +29730,7 @@ name=Door closed
 
 [OBJ1234]
 Name=Puerta abierta
-GrhIndex=6960
+GrhIndex=95005
 ObjType=6
 llave=0
 Agarrable=1
@@ -30655,7 +30655,7 @@ GrhIndex=0
 
 [OBJ1371]
 Name=Puerta abierta
-GrhIndex=26107
+GrhIndex=95009
 ObjType=6
 llave=0
 Agarrable=1
@@ -30681,7 +30681,7 @@ Texto=Puerta cerrada con llave Asamblea
 
 [OBJ1374]
 Name=Puerta abierta
-GrhIndex=26106
+GrhIndex=95008
 ObjType=6
 llave=0
 Agarrable=1
@@ -31005,7 +31005,7 @@ name=Door closed
 
 [OBJ1423]
 Name=Puerta abierta
-GrhIndex=26107
+GrhIndex=95009
 ObjType=6
 llave=0
 Agarrable=1
@@ -31023,7 +31023,7 @@ name=Door closed
 
 [OBJ1425]
 Name=Puerta abierta
-GrhIndex=26106
+GrhIndex=95008
 ObjType=6
 llave=0
 Agarrable=1
@@ -31041,7 +31041,7 @@ name=Door closed
 
 [OBJ1427]
 Name=Puerta abierta
-GrhIndex=26111
+GrhIndex=95012
 ObjType=6
 llave=0
 Agarrable=1
@@ -31050,7 +31050,7 @@ name=Open door
 
 [OBJ1428]
 Name=Puerta cerrada
-GrhIndex=26112
+GrhIndex=95013
 ObjType=6
 llave=0
 Agarrable=1
@@ -31059,7 +31059,7 @@ name=Door closed
 
 [OBJ1429]
 Name=Puerta abierta
-GrhIndex=26110
+GrhIndex=95011
 ObjType=6
 llave=0
 Agarrable=1
@@ -31068,7 +31068,7 @@ name=Open door
 
 [OBJ1430]
 Name=Puerta cerrada
-GrhIndex=26109
+GrhIndex=95010
 ObjType=6
 llave=0
 Agarrable=1
@@ -31077,7 +31077,7 @@ name=Door closed
 
 [OBJ1431]
 Name=Puerta abierta
-GrhIndex=8685
+GrhIndex=95007
 ObjType=6
 llave=0
 Agarrable=1
@@ -31086,7 +31086,7 @@ name=Open door
 
 [OBJ1432]
 Name=Puerta cerrada
-GrhIndex=8684
+GrhIndex=95006
 ObjType=6
 llave=0
 Agarrable=1
@@ -31095,7 +31095,7 @@ name=Door closed
 
 [OBJ1433]
 Name=locked door to trivia map
-GrhIndex=8684
+GrhIndex=95006
 ObjType=6
 llave=1
 Agarrable=1
@@ -33270,7 +33270,7 @@ GrhIndex=0
 
 [OBJ1597]
 Name=Rune of russian dagger
-GrhIndex=3466
+GrhIndex=95004
 Objtype=50
 Texto=Te permite ir a la casa donde se juega la daga Rusa.
 texto=It allows you to go to the house where the Russian dagger is played.
@@ -34132,7 +34132,7 @@ texto=Defense 4/6
 
 [OBJ1723]
 Name=Adarga Natural (Cazador)
-GrhIndex=89936
+GrhIndex=95022
 ObjType=16
 MAXDEF=2
 MINDEF=2
