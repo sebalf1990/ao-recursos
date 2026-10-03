@@ -308,4 +308,5 @@ lluviaoutst	lluvia afuera st ?
 2627	hechizo aturdir
 2628	hechizo respandor igneo
 2541    pistolanueva
+2542    disparo
 1152    burbujas para alquimia
