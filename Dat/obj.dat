@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9202
+NumOBJs=9204
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -1625,59 +1625,17 @@ en_texto=This honorable house belongs to
 en_Name=locked door house 4 of Ullathorpe
 ExtraStr=Esta honorable casa pertenece a
 
-[OBJ77]
-Name=Vestimenta Común
-GrhIndex=15126
-RopajeHumano=11
-RopajeElfo=11
-RopajeElfoOscuro=1541
-RopajeEnano=1165
-RopajeOrco=2555
-RopajeGnomo=1165
-RopajeHumana=2681
-RopajeElfa=2681
-RopajeElfaOscura=2729
-RopajeEnana=2697
-RopajeOrca=2713
-RopajeGnoma=2697
-ObjType=3
-MAXDEF=2
-MINDEF=1
-Valor=30
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-SKSastreria=2
-PielLobo=1
-PielOsoPardo=0
-PielOsoPolar=0
-en_name=Basic Vestment
-Texto=Vestimenta Común
+[OBJ77] 'Teleport del oficial (pack 2026-10-01). El numero era nuestra Vestimenta Comun, mudada a OBJ9203. Plan 17.001 Ola 2
+Name=Teleport DV
+GrhIndex=49488
+ObjType=19
+Agarrable=1
 
-[OBJ78]
-Name=Vestimenta Común
-GrhIndex=15127
-RopajeHumano=12
-RopajeElfo=12
-RopajeElfoOscuro=1542
-RopajeEnano=1172
-RopajeOrco=2556
-RopajeGnomo=1172
-RopajeHumana=2682
-RopajeElfa=2682
-RopajeElfaOscura=2730
-RopajeEnana=2698
-RopajeOrca=2714
-RopajeGnoma=2698
-ObjType=3
-MAXDEF=2
-MINDEF=1
-Valor=30
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-SKSastreria=2
-PielLobo=1
-PielOsoPardo=0
-PielOsoPolar=0
-en_name=Basic Vestment
-Texto=Vestimenta Común
+[OBJ78] 'Teleport del oficial (pack 2026-10-01). El numero era nuestra Vestimenta Comun, mudada a OBJ9204. Plan 17.001 Ola 2
+Name=Teleport Inframundo
+GrhIndex=0
+ObjType=19
+Agarrable=1
 
 [OBJ79] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=8617
@@ -73564,8 +73522,12 @@ GrhIndex=0
 [OBJ364] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
 
-[OBJ380] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
+[OBJ380] 'Teleport del oficial (pack 2026-10-01); la seccion estaba vacia. Plan 17.001 Ola 2
+Name=Teleport DD
+Texto=AA
 GrhIndex=0
+ObjType=19
+Agarrable=1
 
 [OBJ390] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 CP1=GUERRERO
@@ -90872,3 +90834,58 @@ LingP=60
 NoWiki=0
 Texto=Escudo rematado en espinas afiladas. Puede devolver parte del golpe físico que recibes.
 en_texto=Shield rimmed with sharp thorns. Can reflect part of the physical hit you take.
+
+[OBJ9203] 'Vestimenta Comun: mudada desde OBJ77, que el oficial usa para un teleport. Plan 17.001 Ola 2
+Name=Vestimenta Común
+GrhIndex=15126
+RopajeHumano=11
+RopajeElfo=11
+RopajeElfoOscuro=1541
+RopajeEnano=1165
+RopajeOrco=2555
+RopajeGnomo=1165
+RopajeHumana=2681
+RopajeElfa=2681
+RopajeElfaOscura=2729
+RopajeEnana=2697
+RopajeOrca=2713
+RopajeGnoma=2697
+ObjType=3
+MAXDEF=2
+MINDEF=1
+Valor=30
+Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
+SKSastreria=2
+PielLobo=1
+PielOsoPardo=0
+PielOsoPolar=0
+en_name=Basic Vestment
+Texto=Vestimenta Común
+
+[OBJ9204] 'Vestimenta Comun: mudada desde OBJ78, que el oficial usa para un teleport. Plan 17.001 Ola 2
+Name=Vestimenta Común
+GrhIndex=15127
+RopajeHumano=12
+RopajeElfo=12
+RopajeElfoOscuro=1542
+RopajeEnano=1172
+RopajeOrco=2556
+RopajeGnomo=1172
+RopajeHumana=2682
+RopajeElfa=2682
+RopajeElfaOscura=2730
+RopajeEnana=2698
+RopajeOrca=2714
+RopajeGnoma=2698
+ObjType=3
+MAXDEF=2
+MINDEF=1
+Valor=30
+Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
+SKSastreria=2
+PielLobo=1
+PielOsoPardo=0
+PielOsoPolar=0
+en_name=Basic Vestment
+Texto=Vestimenta Común
+

@@ -2,8 +2,8 @@
 NUMEROHECHIZO=425
 NUMLOCALEMSG=2215
 NUMMAPAS=750
-NUMNPCS=9049
-NUMOBJS=9202
+NUMNPCS=9050
+NUMOBJS=9204
 NUMQUESTS=905
 NUMSUGERENCIAS=6
 
@@ -5735,14 +5735,17 @@ MinHIT=65
 NpcType=0
 
 [NPC642]
-Name=Leviatán Joven
-Body=4520
-BodyIdle=4519
-HP=3500
-EXP=5000
-ORO=375
-MaxHIT=120
-MinHIT=40
+Name=Rata Negra
+Body=5160
+Head=0
+BodyIdle=5158
+Ataque1=5159
+HP=50
+EXP=0
+MaxHIT=5
+MinHIT=1
+NpcType=0
+ORO=0
 
 [NPC643]
 Name=Leviatán Pequeño
@@ -17852,54 +17855,16 @@ Agarrable=1
 Texto=Esta honorable casa pertenece a
 
 [OBJ77]
-Name=Vestimenta Común
-GrhIndex=15126
-RopajeHumano=11
-RopajeElfo=11
-RopajeElfoOscuro=1541
-RopajeEnano=1165
-RopajeOrco=2555
-RopajeGnomo=1165
-RopajeHumana=2681
-RopajeElfa=2681
-RopajeElfaOscura=2729
-RopajeEnana=2697
-RopajeOrca=2713
-RopajeGnoma=2697
-ObjType=3
-MAXDEF=2
-MINDEF=1
-Valor=30
-SKSastreria=2
-PielLobo=1
-PielOsoPardo=0
-PielOsoPolar=0
-Texto=Vestimenta Común
+Name=Teleport DV
+GrhIndex=49488
+ObjType=19
+Agarrable=1
 
 [OBJ78]
-Name=Vestimenta Común
-GrhIndex=15127
-RopajeHumano=12
-RopajeElfo=12
-RopajeElfoOscuro=1542
-RopajeEnano=1172
-RopajeOrco=2556
-RopajeGnomo=1172
-RopajeHumana=2682
-RopajeElfa=2682
-RopajeElfaOscura=2730
-RopajeEnana=2698
-RopajeOrca=2714
-RopajeGnoma=2698
-ObjType=3
-MAXDEF=2
-MINDEF=1
-Valor=30
-SKSastreria=2
-PielLobo=1
-PielOsoPardo=0
-PielOsoPolar=0
-Texto=Vestimenta Común
+Name=Teleport Inframundo
+GrhIndex=0
+ObjType=19
+Agarrable=1
 
 [OBJ79]
 GrhIndex=8617
@@ -20224,7 +20189,11 @@ Texto=Todos tus skills vuelven a cero y podrás volver a asignar. (No valido Fun
 Valor=0
 
 [OBJ380]
+Name=Teleport DD
+Texto=AA
 GrhIndex=0
+ObjType=19
+Agarrable=1
 
 [OBJ381]
 Name=Túnica Roja
@@ -67645,6 +67614,56 @@ LingH=120
 LingP=60
 Texto=Escudo rematado en espinas afiladas. Puede devolver parte del golpe físico que recibes.
 
+[OBJ9203]
+Name=Vestimenta Común
+GrhIndex=15126
+RopajeHumano=11
+RopajeElfo=11
+RopajeElfoOscuro=1541
+RopajeEnano=1165
+RopajeOrco=2555
+RopajeGnomo=1165
+RopajeHumana=2681
+RopajeElfa=2681
+RopajeElfaOscura=2729
+RopajeEnana=2697
+RopajeOrca=2713
+RopajeGnoma=2697
+ObjType=3
+MAXDEF=2
+MINDEF=1
+Valor=30
+SKSastreria=2
+PielLobo=1
+PielOsoPardo=0
+PielOsoPolar=0
+Texto=Vestimenta Común
+
+[OBJ9204]
+Name=Vestimenta Común
+GrhIndex=15127
+RopajeHumano=12
+RopajeElfo=12
+RopajeElfoOscuro=1542
+RopajeEnano=1172
+RopajeOrco=2556
+RopajeGnomo=1172
+RopajeHumana=2682
+RopajeElfa=2682
+RopajeElfaOscura=2730
+RopajeEnana=2698
+RopajeOrca=2714
+RopajeGnoma=2698
+ObjType=3
+MAXDEF=2
+MINDEF=1
+Valor=30
+SKSastreria=2
+PielLobo=1
+PielOsoPardo=0
+PielOsoPolar=0
+Texto=Vestimenta Común
+
 [NPC9000]
 Name=Maestro Carpintero y Lenador <Carpinteria y Tala>
 Desc=Un maestro que ensena sus profesiones a cambio de oro.
@@ -68204,6 +68223,16 @@ NROITEMS=3
 Obj1=474-1
 Obj2=475-1
 Obj3=476-1
+
+[NPC9050]
+Name=Leviatán Joven
+Body=4520
+BodyIdle=4519
+HP=3500
+EXP=5000
+ORO=375
+MaxHIT=120
+MinHIT=40
 
 [NAMEMAPA]
 mapa1Desc=Ciudad Neutral, entrada a Catacumbas
