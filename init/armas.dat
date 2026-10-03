@@ -1,5 +1,5 @@
 [INIT]
-NumArmas=221
+NumArmas=222
 
 [Arma1]
 Std=10
@@ -638,10 +638,6 @@ FileNum=2005
 Std=6
 FileNum=2140
 
-[ARMA179]
-Std=7
-FileNum=2140
-
 [ARMA180]
 Std=8
 FileNum=2140
@@ -801,3 +797,11 @@ FileNum=2004
 [ARMA221]
 Std=14
 FileNum=2009
+
+[ARMA222]
+Std=15
+FileNum=2140
+[ARMA179]
+Std=7
+FileNum=2140
+

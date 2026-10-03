@@ -1,5 +1,5 @@
 [INIT]
-NumEscudos=139
+NumEscudos=140
 
 [ESC1] 'Libre
 
@@ -548,3 +548,6 @@ FileNum=2107
 [ESC139]
 Std=10
 FileNum=2100
+
+[ESC140]
+; Reserved torch animation: intentionally empty so the torch light is visible without drawing a shield.
