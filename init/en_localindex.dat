@@ -21858,7 +21858,7 @@ name=Open door
 
 [OBJ242]
 Name=Puerta cerrada
-GrhIndex=8684
+GrhIndex=95006
 ObjType=6
 llave=0
 Agarrable=1

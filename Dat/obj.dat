@@ -4021,7 +4021,7 @@ ExtraStr=Puerta abierta
 
 [OBJ242]
 Name=Puerta cerrada
-GrhIndex=8684
+GrhIndex=95006
 ObjType=6
 Cerrada=1
 llave=0
