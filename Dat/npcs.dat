@@ -3,7 +3,7 @@
 'Reorganización Masiva.
 
 [INIT]
-NumNPCs=9049
+NumNPCs=9050
 
 'SPOTS LIBRES<<<<<<<<<<<<<<<<<<<<<<<<<<<#
 '16 al 23  		Comerciantes			#
@@ -752,8 +752,8 @@ Obj7=6002-1
 Obj8=6003-1
 Obj9=2843-1
 Obj10=515-1
-Obj11=77-1
-Obj12=78-1
+Obj11=9203-1
+Obj12=9204-1
 Obj13=32-1
 Obj14=32-1
 Obj15=32-1
@@ -7735,33 +7735,27 @@ MagicResistance=97
 MagicDef=15
 NpcType=0
 
-[NPC642]
-Name=Leviatán Joven
-ShowName=0
-Body=4520
-BodyIdle=4519
+[NPC642] 'Rata Negra de entrenamiento como el oficial (pack 2026-10-01); base NPC650. Plan 17.001 Ola 2
+Body=5160
+GiveEXP=0
+MaxHp=50
+MinHp=50
+MaxHIT=5
+MinHIT=1
+Name=Rata Negra
+Head=0
+BodyIdle=5158
+Ataque1=5159
+NpcType=0
+GiveGLD=0
+en_Name=Dark Rat
+fr_Name=Rat noir
+it_Name=Ratto nero
+pt_Name=Rato preto
 Heading=3
 Movement=2
-Alineacion=0
-Hostile=1
 Attackable=1
-GiveEXP=5000
-GiveGLD=375
-MinHP=3500
-MaxHP=3500
-MaxHIT=120
-MinHIT=40
-DEF=0
-PoderAtaque=280
-PoderEvasion=140
-AguaValida=1
-TierraInvalida=1
-SND2=54
-SND3=30
-Humanoide=0
-NPCLVL=20
-MagicResistance=50
-MagicDef=5
+Hostile=1
 
 [NPC643] 'chico
 Name=Leviatán Pequeño
@@ -13832,7 +13826,7 @@ SoundClose=703
 Head=0
 Desc=¡Calidad en pieles, solo para Damas!
 DescClose=¡Hasta pronto!
-Body=5834
+Body=6243
 NpcType=0
 Comercia=1
 NROITEMS=8
@@ -29103,3 +29097,32 @@ NROITEMS=3
 Obj1=474-1
 Obj2=475-1
 Obj3=476-1
+
+[NPC9050] 'Leviatan Joven: mudado desde NPC642, que el oficial usa para la Rata Negra. Plan 17.001 Ola 2
+Name=Leviatán Joven
+ShowName=0
+Body=4520
+BodyIdle=4519
+Heading=3
+Movement=2
+Alineacion=0
+Hostile=1
+Attackable=1
+GiveEXP=5000
+GiveGLD=375
+MinHP=3500
+MaxHP=3500
+MaxHIT=120
+MinHIT=40
+DEF=0
+PoderAtaque=280
+PoderEvasion=140
+AguaValida=1
+TierraInvalida=1
+SND2=54
+SND3=30
+Humanoide=0
+NPCLVL=20
+MagicResistance=50
+MagicDef=5
+
