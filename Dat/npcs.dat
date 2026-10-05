@@ -11305,12 +11305,12 @@ fr_Name=Gobelin Invoqué
 it_Name=Goblin Evocato
 
 [NPC965] 'Lobo MiniBoss ND
-Name=Wolfang
+Name=Lobo Alfa
 ShowName=0
 Head=0
-Body=4369
-BodyIdle=4370
-Ataque1=4368
+Body=5576
+BodyIdle=5574
+Ataque1=5575
 Heading=3
 Movement=2
 Attackable=1
@@ -26177,11 +26177,11 @@ Comercia=1
 NoMapInfo=1
 
 [NPC1808] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Name=Dragón Nuevo
-Body=5506
+Name=Zull
+Body=6075
 Movement=2
-BodyIdle=5504
-Ataque1=5505
+BodyIdle=6075
+Ataque1=6074
 MaxHp=80000
 MinHp=80000
 NpcType=0
@@ -26194,11 +26194,11 @@ Drop2=2237-100-1-1
 Drop3=4960-100-1-1
 
 [NPC1809] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Name=Dragón Nuevo
-Body=5509
+Name=Tyran
+Body=6077
 Movement=2
-BodyIdle=5507
-Ataque1=5508
+BodyIdle=6077
+Ataque1=6076
 MaxHp=80000
 MinHp=80000
 NpcType=0
