@@ -29126,3 +29126,810 @@ NPCLVL=20
 MagicResistance=50
 MagicDef=5
 
+[NPC30] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor. tienda cortada: 3 de 18 items; sin TipoItems: vende pero no compra
+Name=Xantros <Equipamiento de Mago>
+Desc=¡El equipamiento rápido para un Mago como tú!
+Head=0
+Body=895
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+Comercia=1
+NROITEMS=3
+Obj1=1963-100
+Obj2=1900-100
+Obj3=1901-100
+
+[NPC31] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor. tienda cortada: 3 de 20 items; sin TipoItems: vende pero no compra
+Name=Taranis <Equipamiento de Druida>
+Desc=¡El equipamiento rápido para un Druida como tú!
+Head=0
+Body=902
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+Comercia=1
+NROITEMS=3
+Obj1=1963-100
+Obj2=1900-100
+Obj3=1901-100
+
+[NPC726] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC959 del oficial, vida mas parecida: SUPUESTO
+Name=Fantasma de la Carcel
+Head=0
+Body=829
+NpcType=0
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=75
+MinHP=75
+MaxHIT=50
+MinHIT=35
+GiveEXP=0
+GiveGLD=0
+PoderAtaque=205
+PoderEvasion=20
+
+[NPC865] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. sin drops
+Name=Gran Blaze
+Head=0
+Body=389
+BodyIdle=387
+NpcType=0
+Ataque1=388
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=7500
+MinHP=7500
+MaxHIT=220
+MinHIT=165
+GiveEXP=10125
+GiveGLD=0
+Snd1=1200
+Snd3=1201
+Veneno=1
+GiveEXPClan=2
+PoderAtaque=245
+PoderEvasion=185
+
+[NPC871] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
+Name=Capitán Alsetarip
+Desc=Hola, marine... ¿Qué? ¿Te parezco conocido? ¿Pirata yo? ¡No, no! ¡Soy el Capitán Alsetarip!
+Head=0
+Body=462
+NpcType=17
+ShowName=1
+Heading=3
+Movement=1
+
+[NPC872] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
+Name=Xin
+Desc=Miaaaaaaaaaaauuuuuuuuuuuuu
+Head=0
+Body=463
+NpcType=17
+ShowName=1
+Heading=3
+Movement=1
+
+[NPC873] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC621 del oficial, vida mas parecida: SUPUESTO; sin drops
+Name=Capitán Doral
+Head=0
+Body=466
+BodyIdle=464
+NpcType=0
+Ataque1=465
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=15000
+MinHP=15000
+MaxHIT=130
+MinHIT=100
+GiveEXP=15000
+GiveGLD=0
+PoderAtaque=260
+PoderEvasion=190
+
+[NPC876] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC536 del oficial, vida mas parecida: SUPUESTO; sin drops
+Name=Capitán Trang
+Head=0
+Body=472
+BodyIdle=470
+NpcType=0
+Ataque1=471
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=20000
+MinHP=20000
+MaxHIT=110
+MinHIT=90
+GiveEXP=20000
+GiveGLD=0
+PoderAtaque=240
+PoderEvasion=130
+
+[NPC887] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; banquero. claves de banco de nuestro NPC3
+Name=Varek <Finanzas Goliath>
+Desc=Hola, bienvenido a la cadena de finanzas Goliath.
+Head=0
+Body=6252
+NpcType=4
+ShowName=1
+Heading=3
+Movement=1
+PuedeInvocar=1
+SoundOpen=602
+SoundClose=609
+Minimap=1
+NoMapInfo=1
+
+[NPC888] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; banquero. claves de banco de nuestro NPC3
+Name=Noland <Finanzas Goliath>
+Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
+Head=0
+Body=6253
+NpcType=4
+ShowName=1
+Heading=3
+Movement=1
+PuedeInvocar=1
+SoundOpen=602
+SoundClose=609
+Minimap=1
+NoMapInfo=1
+
+[NPC892] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; muneco
+Name=Provisiones
+Head=0
+Body=6257
+NpcType=19
+ShowName=1
+Heading=3
+Movement=1
+MaxHP=1000
+MinHP=1000
+
+[NPC896] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; muneco
+Name=Eom <Tabernero del Meson>
+Head=0
+Body=6261
+NpcType=19
+ShowName=1
+Heading=3
+Movement=1
+MaxHP=1000
+MinHP=1000
+
+[NPC921] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
+Name=Udryr <Quest de Druida>
+Desc=El vínculo con tus mascotas puede alcanzar límites que aún desconocés. Las criaturas más poderosas requieren un dominio superior de las fuerzas de la naturaleza.
+Head=0
+Body=429
+NpcType=17
+ShowName=1
+Heading=3
+Movement=1
+
+[NPC1073] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC926 del oficial, vida mas parecida: SUPUESTO; sin drops
+Name=Philiph
+Head=0
+Body=6031
+BodyIdle=6029
+NpcType=0
+Ataque1=6030
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=4200
+MinHP=4200
+MaxHIT=65
+MinHIT=30
+GiveEXP=0
+GiveGLD=0
+PoderAtaque=180
+PoderEvasion=140
+
+[NPC1075] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC750 del oficial, vida mas parecida: SUPUESTO; sin drops
+Name=Isolda
+Head=0
+Body=6009
+BodyIdle=6007
+NpcType=0
+Ataque1=6008
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=1300
+MinHP=1300
+MaxHIT=70
+MinHIT=50
+GiveEXP=0
+GiveGLD=0
+PoderAtaque=110
+PoderEvasion=75
+
+[NPC1077] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC530 del oficial, vida mas parecida: SUPUESTO; sin drops
+Name=Isolda
+Head=0
+Body=6009
+BodyIdle=6007
+NpcType=0
+Ataque1=6008
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=4700
+MinHP=4700
+MaxHIT=175
+MinHIT=145
+GiveEXP=0
+GiveGLD=0
+PoderAtaque=220
+PoderEvasion=145
+
+[NPC1512] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; guardia. copia de nuestro NPC1504
+Name=Guardia Real
+Body=5554
+Head=0
+BodyIdle=5552
+NpcType=2
+ShowName=1
+NoMapInfo=1
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+ReSpawn=0
+AfectaParalisis=1
+Alineacion=1
+Faccion=3
+OrigPos=1
+Ataque1=5553
+MinHp=1000
+MaxHp=1000
+MaxHIT=200
+MinHIT=100
+IntervaloAtaque=1200
+DEF=40
+PoderAtaque=1500
+PoderEvasion=300
+NumDropQuest=1
+DropQuest1=386-6356-1-10
+
+[NPC1513] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; guardia. copia de nuestro NPC1554
+Name=Guardia Legión
+Body=5557
+Head=0
+BodyIdle=5555
+NpcType=8
+ShowName=1
+NoMapInfo=1
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+ReSpawn=0
+AfectaParalisis=1
+Alineacion=2
+Faccion=2
+OrigPos=1
+Ataque1=5556
+MinHp=1000
+MaxHp=1000
+MaxHIT=200
+MinHIT=100
+IntervaloAtaque=1200
+DEF=40
+PoderAtaque=1500
+PoderEvasion=300
+NumDropQuest=1
+DropQuest1=385-6355-1-10
+
+[NPC1914] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
+Name=Nythar <Quest de Invisibilidad>
+Desc=La invisibilidad que conocés no es más que el primer paso. Ocultar el cuerpo es sencillo; desaparecer por completo requiere dominar técnicas mucho más antiguas.
+Head=0
+Body=896
+NpcType=17
+ShowName=1
+Heading=3
+Movement=1
+
+[NPC1919] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
+Name=Eldran <Quest de Aturdir>
+Desc=Si quieres llevar tu dominio de Enredar más allá, tendrás que demostrar que estás preparado. Los Brumaks pueden enseñarte lo que significa quedar completamente inmóvil.
+Head=0
+Body=894
+NpcType=17
+ShowName=1
+Heading=3
+Movement=1
+
+[NPC1920] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
+Name=Doria Maderavieja <El Navegante>
+Desc=Hola marinero. Te recomiendo buscar refugio, mis huesos me dicen que se avecina una tormenta.
+Head=0
+Body=6211
+NpcType=17
+ShowName=1
+Heading=3
+Movement=1
+
+[NPC1923] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla
+Name=Valerius <Trovador>
+Desc=Puedo contarte las mejores historias de Ullathorpe
+Head=0
+Body=6214
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+NoMapInfo=1
+
+[NPC1927] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor
+Name=Dulgrim <Carpintero>
+Desc=¡Bienvenido! Trabajo todo tipo de leña. ¿En qué puedo ayudarte?
+Head=0
+Body=6143
+BodyIdle=6143
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+Comercia=1
+NROITEMS=8
+Obj1=198-1000
+Obj2=127-1000
+Obj3=2829-1000
+Obj4=1721-1000
+Obj5=479-1000
+Obj6=3466-1000
+Obj7=480-1000
+Obj8=3550-1000
+SoundOpen=845
+NoMapInfo=1
+
+[NPC1928] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla
+Name=Dargrim <Carpintero>
+Desc=¡Puedes convertir tu madera en lo que tu quieras! Debes aprender sobre esto items en la sección Carpintería, dentro de la Wiki Online
+Head=0
+Body=6149
+BodyIdle=6149
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+NoMapInfo=1
+
+[NPC1929] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor. tienda cortada: 3 de 4 items; sin TipoItems: vende pero no compra
+Name=Helgrim <Tabernero>
+Desc=¿Quieres aprender a forjar tus items? ¡La información que necesitas se encuentra en la Wiki Online, en la sección Herreria!
+Head=0
+Body=6151
+BodyIdle=6151
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+Comercia=1
+NROITEMS=3
+Obj1=43-100
+Obj2=160-100
+Obj3=42-100
+NoMapInfo=1
+
+[NPC1930] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor
+Name=Ingril <Maestra Alquimista>
+Desc=¡Bienvenido! ¿Estás por viajar? Aquí encontrarás las mejores pociones.
+Head=0
+Body=6150
+BodyIdle=6150
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+Comercia=1
+NROITEMS=8
+Obj1=37-1000
+Obj2=38-1000
+Obj3=36-1000
+Obj4=39-1000
+Obj5=166-1000
+Obj6=169-1000
+Obj7=4997-1000
+Obj8=3075-1000
+SoundOpen=700
+TipoItems=11
+NoMapInfo=1
+
+[NPC1931] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor
+Name=Galvin <Carpintero de Banderbill>
+Desc=¡Bienvenido! Trabajo todo tipo de leña. ¿En qué puedo ayudarte?
+Head=0
+Body=6196
+BodyIdle=6196
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+Comercia=1
+NROITEMS=8
+Obj1=198-1000
+Obj2=127-1000
+Obj3=2829-1000
+Obj4=1721-1000
+Obj5=479-1000
+Obj6=3466-1000
+Obj7=480-1000
+Obj8=3550-1000
+SoundOpen=845
+NoMapInfo=1
+
+[NPC1932] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla
+Name=Roswell <Carpintería>
+Desc=¡Puedes convertir tu madera en lo que tu quieras! Debes aprender sobre esto items en la sección Carpintería, dentro de la Wiki Online
+Head=0
+Body=6166
+BodyIdle=6166
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+NoMapInfo=1
+
+[NPC1934] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor
+Name=Isabella <Cocinera de Banderbill>
+Desc=¡Hola! Ven a ver estos productos, sólo aquí conseguirás las mejores provisiones de todas estas tierras.
+Head=0
+Body=6171
+BodyIdle=6171
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+Comercia=1
+NROITEMS=6
+Obj1=1-1000
+Obj2=22-1000
+Obj3=29-1000
+Obj4=21-1000
+Obj5=23-1000
+Obj6=28-1000
+SoundOpen=1153
+TipoItems=1
+NoMapInfo=1
+
+[NPC1935] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor
+Name=Ivar Costahilo <Sastre>
+Desc=¡Las mejores telas, no tienes nada que perder con estos precios!
+Head=0
+Body=6200
+BodyIdle=6200
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+Comercia=1
+NROITEMS=14
+Obj1=32-1000
+Obj2=35-1000
+Obj3=964-1000
+Obj4=2915-1000
+Obj5=1981-1000
+Obj6=1975-1000
+Obj7=2907-1000
+Obj8=2913-1000
+Obj9=2912-1000
+Obj10=1963-1000
+Obj11=1900-1000
+Obj12=1901-1000
+Obj13=55-1000
+Obj14=886-1000
+SoundOpen=895
+TipoItems=17
+NoMapInfo=1
+
+[NPC1936] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; banquero. claves de banco de nuestro NPC3
+Name=Ulf Arcas <Finanzas Goliath>
+Desc=Hola, bienvenido a la cadena de finanzas Goliath.
+Head=0
+Body=6250
+NpcType=4
+ShowName=1
+Heading=3
+Movement=1
+PuedeInvocar=1
+SoundOpen=602
+SoundClose=609
+Minimap=1
+NoMapInfo=1
+
+[NPC1937] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
+Name=Harim <Quest de Inframundo>
+Desc=¿Has oído ese rugido? No viene de las llamas... viene de Bael. Esa bestia patrulla el acceso al subsuelo y no deja pasar a nadie. Quienes intentaron enfrentarlo cuerpo a cuerpo jamás regresaron. La única forma de abatirlo es manteniendo la distancia.
+Head=0
+Body=477
+NpcType=17
+ShowName=1
+Heading=3
+Movement=1
+
+[NPC1938] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla
+Name=Herrim <Carpintero>
+Desc=¡Puedes convertir tu madera en lo que tu quieras! Debes aprender sobre esto items en la sección Carpintería, dentro de la Wiki Online
+Head=0
+Body=6172
+BodyIdle=6172
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+NoMapInfo=1
+
+[NPC1939] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor. tienda cortada: 3 de 8 items; sin TipoItems: vende pero no compra
+Name=Brynhild <Sastre de Forgat>
+Desc=¡Calidad en pieles, solo para Damas!
+Head=0
+Body=6169
+BodyIdle=6169
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+Comercia=1
+NROITEMS=3
+Obj1=1272-1000
+Obj2=1273-1000
+Obj3=2927-1000
+NoMapInfo=1
+
+[NPC1940] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor. sin TipoItems: vende pero no compra
+Name=Solveig <Mercader>
+Desc=¡Todo lo que buscas y más!
+Head=0
+Body=6198
+BodyIdle=6198
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+Comercia=1
+NROITEMS=2
+Obj1=534-100
+Obj2=199-100
+NoMapInfo=1
+
+[NPC1941] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor
+Name=Styrkar <Minero>
+Desc=¡Ey, tú! ¿Quieres trabajar? Acércate, tengo la herramienta necesaria para extraer los minerales en este mundo!
+Head=0
+Body=452
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+Comercia=1
+NROITEMS=4
+Obj1=203-1000
+Obj2=1142-1000
+Obj3=390-1000
+Obj4=1912-1000
+SoundOpen=710
+TipoItems=23
+NoMapInfo=1
+
+[NPC1942] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla
+Name=Asthir <Guardiana Vikinga>
+Head=0
+Body=395
+BodyIdle=393
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+NoMapInfo=1
+
+[NPC1944] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla
+Name=Fhiela <Herreria>
+Desc=¿Quieres aprender a forjar tus items? ¡La información que necesitas se encuentra en la Wiki Online, en la sección Herrería!
+Head=0
+Body=448
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+NoMapInfo=1
+
+[NPC1945] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla
+Name=Madher <Carpintero>
+Desc=¡Puedes convertir tu madera en lo que tu quieras! Debes aprender sobre esto items en la sección Carpintería, dentro de la Wiki Online
+Head=0
+Body=447
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+NoMapInfo=1
+
+[NPC1946] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla
+Name=Dilma <Carpintera>
+Desc=¡Puedes convertir tu madera en lo que tu quieras! Debes aprender sobre esto items en la sección Carpintería, dentro de la Wiki Online
+Head=0
+Body=399
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+NoMapInfo=1
+
+[NPC1947] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor
+Name=Petrona <Cocinera>
+Desc=¡Hola! Ven a ver estos productos, sólo aquí conseguirás las mejores provisiones de todas estas tierras.
+Head=0
+Body=398
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+Comercia=1
+NROITEMS=6
+Obj1=1-1000
+Obj2=22-1000
+Obj3=29-1000
+Obj4=21-1000
+Obj5=23-1000
+Obj6=28-1000
+SoundOpen=1153
+TipoItems=1
+NoMapInfo=1
+
+[NPC1948] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor
+Name=Moe <Tabernero>
+Desc=¡Ey, tú! Noto en tu mirada que necesitas algo fresco. ¡Has llegado al lugar correcto!
+Head=0
+Body=396
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+Comercia=1
+NROITEMS=4
+Obj1=43-1000
+Obj2=160-1000
+Obj3=42-1000
+Obj4=161-1000
+SoundOpen=601
+TipoItems=13
+NoMapInfo=1
+
+[NPC1949] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla
+Name=Droslo <Alquimista>
+Desc=¡El mundo de la Alquimia es maravilloso! Te recomiendo aprender todo lo relacionado, en la sección Alquimia dentro de la Wiki Online
+Head=0
+Body=276
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+NoMapInfo=1
+
+[NPC1950] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla
+Name=Ivir <Alquimista>
+Desc=¡El mundo de la Alquimia es maravilloso! Te recomiendo aprender todo lo relacionado, en la sección Alquimia dentro de la Wiki Online
+Head=0
+Body=6202
+BodyIdle=6202
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+NoMapInfo=1
+
+[NPC1952] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
+Name=Kaelen <Quest de Guarida>
+Desc=¡Bienvenido, aventurero! La Guarida Abandonada alberga criaturas muy peligrosas que han tomado control del lugar. Si puedes ayudarme a exterminarlas, te recompensaré bien.
+Head=0
+Body=407
+NpcType=17
+ShowName=1
+Heading=3
+Movement=1
+
+[NPC1953] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
+Name=Vaelora <Quest de Arrecife>
+Desc=¡Bienvenido, aventurero! Las profundidades del Arrecife de Coral están infestadas de nagas que han comenzado a expandir su territorio. Necesito a alguien dispuesto a enfrentarlos y reducir su número antes de que se conviertan en una amenaza aún mayor. ¿Te atreves a adentrarte en sus dominios?
+Head=0
+Body=409
+NpcType=17
+ShowName=1
+Heading=3
+Movement=1
+
+[NPC1954] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor
+Name=Dornak <Equipamiento de Principiante>
+Desc=¿Recién empezás tu aventura? Entonces necesitás el equipo adecuado. Tengo el mejor equipamiento para todo principiante.
+Head=0
+Body=494
+NpcType=0
+ShowName=1
+Heading=3
+Movement=1
+Attackable=0
+Hostile=0
+Comercia=1
+NROITEMS=14
+Obj1=3490-100
+Obj2=3500-100
+Obj3=3502-100
+Obj4=3488-100
+Obj5=3489-100
+Obj6=3493-100
+Obj7=1353-100
+Obj8=3487-100
+Obj9=3686-100
+Obj10=3495-100
+Obj11=3494-100
+Obj12=3496-100
+Obj13=3491-100
+Obj14=3492-100
+TipoItems=100
+
