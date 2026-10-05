@@ -3,7 +3,7 @@
 'Reorganización Masiva.
 
 [INIT]
-NumNPCs=9051
+NumNPCs=9052
 
 'SPOTS LIBRES<<<<<<<<<<<<<<<<<<<<<<<<<<<#
 '16 al 23  		Comerciantes			#
@@ -13714,20 +13714,15 @@ MagicResistance=60
 MagicDef=5
 NpcType=0
 
-[NPC1059]
-Name=Grey el Coleccionista
-Desc=Colecciono todo tipo de objetos peculiares.
-ShowName=1
+[NPC1059] 'Del oficial (pack 2026-10-01); quest. El numero era nuestro Grey el Coleccionista, mudado a NPC9052. Plan 17.001 Ola 3. sin quest: habla y nada mas
+Name=Rhamses <Quest de Piramide>
+Desc=¡Que placer encontrar a alguien por aquí!
 Head=0
-Body=4056
+Body=888
+NpcType=17
+ShowName=1
 Heading=3
-Movement=0
-Craftea=0
-Minimap=1
-en_desc=I collect all kinds of peculiar objects.
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
+Movement=1
 
 [NPC1076]
 Name=Martzia <Sastre Exótico>
@@ -30126,4 +30121,19 @@ en_desc=What do you want? I'm in a hurry.
 NPCLVL=13
 MagicResistance=33
 MagicDef=0
+
+[NPC9052] 'Grey el Coleccionista: mudado desde NPC1059, que el oficial usa para otro NPC. Plan 17.001 Ola 3
+Name=Grey el Coleccionista
+Desc=Colecciono todo tipo de objetos peculiares.
+ShowName=1
+Head=0
+Body=4056
+Heading=3
+Movement=0
+Craftea=0
+Minimap=1
+en_desc=I collect all kinds of peculiar objects.
+NPCLVL=24
+MagicResistance=60
+MagicDef=5
 

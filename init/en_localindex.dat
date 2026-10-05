@@ -2,7 +2,7 @@
 NUMEROHECHIZO=425
 NUMLOCALEMSG=2215
 NUMMAPAS=750
-NUMNPCS=9051
+NUMNPCS=9052
 NUMOBJS=9204
 NUMQUESTS=905
 NUMSUGERENCIAS=6
@@ -11425,11 +11425,11 @@ Head=462
 NpcType=0
 
 [NPC1059]
-Name=Grey el Coleccionista
-Desc=Colecciono todo tipo de objetos peculiares.
-desc=I collect all kinds of peculiar objects.
-Body=4056
+Name=Rhamses <Quest de Piramide>
+Desc=¡Que placer encontrar a alguien por aquí!
+Body=888
 Head=0
+NpcType=17
 
 [NPC1060]
 Name=SERGIO <MONTURAS>
@@ -74169,6 +74169,13 @@ Body=192
 Head=8
 Comercia=0
 NROITEMS=0
+
+[NPC9052]
+Name=Grey el Coleccionista
+Desc=Colecciono todo tipo de objetos peculiares.
+desc=I collect all kinds of peculiar objects.
+Body=4056
+Head=0
 
 [NAMEMAPA]
 mapa1Desc=Ciudad Neutral, entrada a Catacumbas
