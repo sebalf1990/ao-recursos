@@ -2,7 +2,7 @@
 NUMEROHECHIZO=425
 NUMLOCALEMSG=2215
 NUMMAPAS=750
-NUMNPCS=9054
+NUMNPCS=9055
 NUMOBJS=9204
 NUMQUESTS=905
 NUMSUGERENCIAS=6
@@ -10960,17 +10960,17 @@ GiveEXPClan=1
 Nivel=28
 
 [NPC1035]
-Name=Minero Exiliado
-Body=1728
-Head=634
-HP=2000
-EXP=1400
-ORO=110
-MaxHIT=105
-MinHIT=70
-NumQuiza=1
-QuizaDropea1=1271-1
-QuizaProb=40
+Name=Philiph
+Body=6031
+Head=0
+BodyIdle=6029
+Ataque1=6030
+HP=1200
+NpcType=0
+MaxHIT=40
+MinHIT=20
+EXP=0
+ORO=0
 
 [NPC1036]
 Name=Tortuga Coriacea
@@ -71284,6 +71284,19 @@ Name=Guerrero (lendário)
 Desc=Equipamento lendário para guerreiros
 Body=59
 Head=29
+
+[NPC9055]
+Name=Minero Exiliado
+Body=1728
+Head=634
+HP=2000
+EXP=1400
+ORO=110
+MaxHIT=105
+MinHIT=70
+NumQuiza=1
+QuizaDropea1=1271-1
+QuizaProb=40
 
 [NAMEMAPA]
 mapa1Desc=Ciudad Neutral, entrada a Catacumbas
