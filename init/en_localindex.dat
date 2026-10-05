@@ -4857,7 +4857,7 @@ Obj2=23-1
 Obj3=160-1
 
 [NPC17]
-Name=Sacerdote Carcelario
+Name=Athanasius <Sacerdote Carcelario>
 Desc=¡Hijo mío, la muerte no te reclama aún! Por la gracia de los dioses, volverás a la vida... pero tu penitencia continúa entre estos muros.
 Body=106
 Head=112
@@ -5474,7 +5474,7 @@ MinHIT=8
 NROITEMS=0
 
 [NPC114]
-Name=Grimrot <Quest>
+Name=Limrot <Quest de Fragmentos>
 Desc=Prueba el acero Orco, tal vez te lleves una sorpresa.
 desc=Try orc steel, maybe you'll be surprised.
 Body=3011
@@ -5742,7 +5742,7 @@ MaxHIT=150
 MinHIT=70
 
 [NPC267]
-Name=Cabra
+Name=Nivor <Cabra de la Nieve>
 Body=5018
 Head=0
 BodyIdle=5016
@@ -6594,7 +6594,7 @@ GiveEXPClan=1
 Nivel=28
 
 [NPC527]
-Name=Huargo Negro
+Name=Wolog
 Body=5119
 Head=0
 BodyIdle=5117
@@ -7057,8 +7057,8 @@ NpcType=0
 Nivel=28
 
 [NPC561]
-Name=Ogro Guerrero
-name=Warrior Ogre
+Name=Chasdo
+name=Chasdo
 Body=5029
 BodyIdle=5027
 Ataque1=5028
@@ -7452,7 +7452,7 @@ Obj1=3328-1
 NpcType=0
 
 [NPC593]
-Name=White Scorpion
+Name=Albuss
 Body=5594
 Head=0
 BodyIdle=5592
@@ -7465,7 +7465,7 @@ ORO=32
 NpcType=0
 
 [NPC594]
-Name=Escorpión Negro
+Name=Quila
 Body=5591
 Head=0
 BodyIdle=5589
@@ -7558,7 +7558,7 @@ BodyIdle=4429
 NpcType=19
 
 [NPC602]
-Name=Louise
+Name=Dummy de Entrenamiento II
 Desc=Dummy
 desc=Dummy
 Body=4428
@@ -9065,7 +9065,7 @@ MaxHIT=140
 MinHIT=85
 
 [NPC816]
-Name=Centinela de Coral
+Name=Varec
 Body=5551
 Head=0
 BodyIdle=5549
@@ -10950,7 +10950,7 @@ NpcType=0
 Nivel=28
 
 [NPC1027]
-Name=Testing Objectives
+Name=Training Dummy
 Desc=Dummy
 desc=Dummy
 Body=4431
@@ -10998,7 +10998,7 @@ GiveEXPClan=2
 Nivel=28
 
 [NPC1031]
-Name=Minotauro Umbrax
+Name=Umbrax
 Body=5078
 BodyIdle=5076
 Ataque1=5077
@@ -11143,7 +11143,7 @@ MaxHIT=245
 MinHIT=180
 
 [NPC1042]
-Name=Direwolf
+Name=Azog
 Body=5116
 Head=0
 BodyIdle=5114
@@ -12344,7 +12344,7 @@ Obj3=540-100
 NoMapInfo=1
 
 [NPC1144]
-Name=Condor Andino
+Name=Vult
 Body=5053
 Head=0
 BodyIdle=5053
@@ -15314,7 +15314,7 @@ MaxHIT=0
 MinHIT=0
 
 [NPC1465]
-Name=Rondadora Ignea
+Name=Blaze
 Body=5270
 Head=0
 BodyIdle=5268
@@ -15328,7 +15328,7 @@ MinHIT=60
 Nivel=20
 
 [NPC1466]
-Name=Criomante de Cristal
+Name=Névora
 Body=5267
 Head=0
 BodyIdle=5265
@@ -15342,7 +15342,7 @@ MinHIT=60
 Nivel=20
 
 [NPC1467]
-Name=Madre Espora
+Name=Tellus
 Body=5276
 Head=0
 BodyIdle=5274
@@ -15356,7 +15356,7 @@ MinHIT=60
 Nivel=20
 
 [NPC1468]
-Name=Centella Errante
+Name=Gale
 Body=5273
 Head=0
 BodyIdle=5271
