@@ -1898,7 +1898,7 @@ NumQuest=2
 QuestNumber1=318
 QuestNumber2=160
 [NPC114]
-Name=Grimrot <Quest>
+Name=Limrot <Quest de Fragmentos>
 Desc=Prueba el acero Orco, tal vez te lleves una sorpresa.
 ShowName=1
 NpcType=17
@@ -2274,7 +2274,7 @@ RangoSpell=6
 NoWiki=1
 
 [NPC267] 'RESYNC desde sp_localindex.dat (fase B)
-Name=Cabra
+Name=Nivor <Cabra de la Nieve>
 Body=5018
 Head=0
 BodyIdle=5016
@@ -4339,7 +4339,7 @@ Drop1=3988-1000-1-1
 Drop2=4341-1000-1-1
 
 [NPC527] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
-Name=Huargo Negro
+Name=Wolog
 Body=5119
 Head=0
 BodyIdle=5117
@@ -5755,9 +5755,9 @@ NpcType=0
 Nivel=28
 
 [NPC561] 'Ogro Guerrero
-Name=Ogro Guerrero
+Name=Chasdo
 ShowName=0
-en_name=Warrior Ogre
+en_name=Chasdo
 Body=5029
 Heading=3
 Movement=2
@@ -6670,7 +6670,7 @@ MaxHp=1200
 MinHp=1200
 MaxHIT=65
 MinHIT=35
-Name=Escorpión Blanco
+Name=Albuss
 GiveGLD=32
 Head=0
 BodyIdle=5592
@@ -6682,13 +6682,13 @@ Attackable=1
 Hostile=1
 PoderAtaque=130
 PoderEvasion=80
-en_Name=White Scorpion
-fr_Name=Scorpion blanc
-it_Name=Scorpione bianco
-pt_Name=Escorpião Branca
+en_Name=Albuss
+fr_Name=Albuss
+it_Name=Albuss
+pt_Name=Albuss
 
 [NPC594] 'RESYNC desde sp_localindex.dat (validacion Ullathorpe extras visual hostile)
-Name=Escorpión Negro
+Name=Quila
 NpcType=0
 ShowName=0
 BodyIdle=5589
@@ -6895,7 +6895,7 @@ MagicResistance=75
 MagicDef=10
 
 [NPC602] 'Dummy 2
-Name=Louise
+Name=Dummy de Entrenamiento II
 Desc=Dummy
 ShowName=0
 NpcType=19
@@ -7825,7 +7825,7 @@ Ataque1=5014
 NpcType=0
 
 [NPC645]
-Name=Momia
+Name=Khem
 ShowName=0
 En_Name=Mummy
 Body=5136
@@ -11906,7 +11906,7 @@ Drop1=416-100-1-5
 Drop2=416-1-1-1
 
 [NPC997]
-Name=Tigre de Bengala
+Name=Hunt
 ShowName=0
 En_Name=Bengal Tiger
 Head=0
@@ -12700,8 +12700,8 @@ NpcType=0
 Nivel=28
 
 [NPC1027]
-Name=Thelma
-En_Name=Testing Objectives
+Name=Dummy de Entrenamiento
+En_Name=Training Dummy
 Desc=Dummy
 ShowName=0
 NpcType=19
@@ -12861,7 +12861,7 @@ DropCount=1
 Drop1=5181-1000-1-1
 
 [NPC1031] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Name=Minotauro Umbrax
+Name=Umbrax
 Body=5078
 BodyIdle=5076
 Ataque1=5077
@@ -13239,9 +13239,9 @@ MagicResistance=5
 MagicDef=0
 
 [NPC1042]
-Name=Huargo
+Name=Azog
 ShowName=0
-En_Name=Direwolf
+En_Name=Azog
 Head=0
 Body=5116
 Heading=3
@@ -15959,7 +15959,7 @@ TipoItems=24
 ' === FIN BLOQUE PRIVADO ===
 
 [NPC1144] 'RESYNC desde sp_localindex.dat (fase B con quest)
-Name=Condor Andino
+Name=Vult
 Body=5053
 Head=0
 BodyIdle=5053
@@ -16839,7 +16839,7 @@ Hostile=0
 ReSpawn=0
 TipoItems=100
 [NPC1186] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Name=Grum <Herrero Tenaz>
+Name=Thrain <Martillo Incansable>
 IT_Desc=Benvenuti nella mia Forgia!
 FR_Desc=Bienvenue dans ma Forge !
 PT_Desc=Bem-vindos à minha Forja!
@@ -23860,7 +23860,7 @@ ReSpawn=0
 TipoItems=24
 
 [NPC17] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
-Name=Sacerdote Carcelario
+Name=Athanasius <Sacerdote Carcelario>
 Desc=¡Hijo mío, la muerte no te reclama aún! Por la gracia de los dioses, volverás a la vida... pero tu penitencia continúa entre estos muros.
 Body=106
 Head=112
@@ -24904,7 +24904,7 @@ PoderEvasion=100
 DropCount=1
 Drop1=5181-10000-1-1
 [NPC816] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
-Name=Centinela de Coral
+Name=Varec
 Body=5551
 Head=0
 BodyIdle=5549
@@ -25263,7 +25263,7 @@ MinHp=800
 PoderAtaque=110
 PoderEvasion=55
 [NPC1465] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
-Name=Rondadora Ignea
+Name=Blaze
 Body=5270
 Head=0
 BodyIdle=5268
@@ -25288,7 +25288,7 @@ MinHp=2000
 PoderAtaque=120
 PoderEvasion=85
 [NPC1466] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
-Name=Criomante de Cristal
+Name=Névora
 Body=5267
 Head=0
 BodyIdle=5265
@@ -25313,7 +25313,7 @@ MinHp=2000
 PoderAtaque=120
 PoderEvasion=85
 [NPC1467] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
-Name=Madre Espora
+Name=Tellus
 Body=5276
 Head=0
 BodyIdle=5274
@@ -25338,7 +25338,7 @@ MinHp=2000
 PoderAtaque=120
 PoderEvasion=85
 [NPC1468] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
-Name=Centella Errante
+Name=Gale
 Body=5273
 Head=0
 BodyIdle=5271
