@@ -9012,16 +9012,16 @@ MaxHIT=95
 MinHIT=75
 
 [NPC819]
-Name=Flameborn
+Name=Bael
 Body=5431
 Head=0
 BodyIdle=5429
 Ataque1=5430
-HP=3600
-EXP=0
+HP=5000
+MaxHIT=120
+MinHIT=75
+EXP=5000
 ORO=0
-MaxHIT=0
-MinHIT=0
 
 [NPC820]
 Name=Horror Tóxico
@@ -9232,16 +9232,17 @@ MaxHIT=95
 MinHIT=75
 
 [NPC840]
-Name='Lobo Hielo'
+Name=Cryon
 Body=5585
 Head=0
 BodyIdle=5583
 Ataque1=5584
-HP=3600
-EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
+HP=2000
+MaxHIT=125
+MinHIT=90
+EXP=1450
+ORO=70
+Nivel=32
 
 [NPC841]
 Name=Piraña Test
@@ -9256,16 +9257,17 @@ MaxHIT=1
 MinHIT=1
 
 [NPC842]
-Name='Lobo Fuego'
+Name=Ignarok
 Body=5588
 Head=0
 BodyIdle=5586
 Ataque1=5587
-HP=3600
-EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
+HP=2000
+MaxHIT=125
+MinHIT=90
+EXP=1400
+ORO=65
+Nivel=30
 
 [NPC844]
 Name=Minertopo Guardián
@@ -9308,52 +9310,56 @@ BodyIdle=5529
 HP=1
 
 [NPC849]
-Name='Salamandra'
+Name=Flamora
 Body=5612
 Head=0
 BodyIdle=5610
 Ataque1=5611
-HP=3600
-EXP=0
+HP=8000
+MaxHIT=195
+MinHIT=115
+EXP=5600
 ORO=0
-MaxHIT=0
-MinHIT=0
+GiveEXPClan=2
 
 [NPC850]
-Name='Deminio'
+Name=Astaroth
 Body=5615
 Head=0
 BodyIdle=5613
 Ataque1=5614
-HP=3600
-EXP=0
+HP=8000
+MaxHIT=215
+MinHIT=150
+EXP=12000
 ORO=0
-MaxHIT=0
-MinHIT=0
+GiveEXPClan=4
 
 [NPC851]
-Name='Conjurador Igneo'
+Name=Pyrrion
 Body=5618
 Head=0
 BodyIdle=5616
 Ataque1=5617
-HP=3600
-EXP=0
+HP=7000
+MaxHIT=210
+MinHIT=90
+EXP=9800
 ORO=0
-MaxHIT=0
-MinHIT=0
+GiveEXPClan=3
 
 [NPC852]
-Name='Gargola de Fuego'
+Name=Phyrus
 Body=5624
 Head=0
 BodyIdle=5622
 Ataque1=5623
-HP=3600
-EXP=0
+HP=9000
+MaxHIT=235
+MinHIT=180
+EXP=13500
 ORO=0
-MaxHIT=0
-MinHIT=0
+GiveEXPClan=4
 
 [NPC853]
 Name=Dorim II <Rey de Morgrim>
@@ -9392,16 +9398,18 @@ MaxHIT=0
 MinHIT=0
 
 [NPC856]
-Name='León de Fuego'
+Name=Kingion
 Body=5636
 Head=0
 BodyIdle=5634
 Ataque1=5635
-HP=3600
-EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
+HP=3200
+MaxHIT=120
+MinHIT=85
+EXP=2560
+ORO=110
+Nivel=30
+GiveEXPClan=1
 
 [NPC857]
 Name=Aelion <Rey de Eldoria>
@@ -10364,16 +10372,17 @@ MaxHIT=95
 MinHIT=75
 
 [NPC981]
-Name='Escorpion Fuego'
+Name=Scorvex
 Body=5597
 Head=0
 BodyIdle=5595
 Ataque1=5596
-HP=3600
-EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
+HP=1800
+MaxHIT=110
+MinHIT=75
+EXP=1260
+ORO=60
+Nivel=30
 
 [NPC982]
 Name=Arachnid Sortílego
