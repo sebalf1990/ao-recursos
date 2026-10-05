@@ -10168,11 +10168,11 @@ MaxHIT=14
 MinHIT=11
 
 [NPC965]
-Name=Wolfang
-Body=4369
+Name=Lobo Alfa
+Body=5576
 Head=0
-BodyIdle=4370
-Ataque1=4368
+BodyIdle=5574
+Ataque1=5575
 HP=80
 Comercia=0
 EXP=40
@@ -16100,10 +16100,10 @@ Comercia=1
 NoMapInfo=1
 
 [NPC1808]
-Name=Dragón Nuevo
-Body=5506
-BodyIdle=5504
-Ataque1=5505
+Name=Zull
+Body=6075
+BodyIdle=6075
+Ataque1=6074
 HP=80000
 NpcType=0
 EXP=0
@@ -16111,10 +16111,10 @@ MaxHIT=180
 MinHIT=130
 
 [NPC1809]
-Name=Dragón Nuevo
-Body=5509
-BodyIdle=5507
-Ataque1=5508
+Name=Tyran
+Body=6077
+BodyIdle=6077
+Ataque1=6076
 HP=80000
 NpcType=0
 EXP=0
