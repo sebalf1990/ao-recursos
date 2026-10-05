@@ -6657,17 +6657,17 @@ MinHIT=75
 GiveEXPClan=2
 
 [NPC535]
-Name=Abominación Polar
+Name=Glacius
 Body=5142
 Head=0
 BodyIdle=5140
 Ataque1=5141
-HP=9000
+HP=6000
 NpcType=0
-EXP=8100
-ORO=355
+EXP=6000
+ORO=235
 MaxHIT=215
-MinHIT=175
+MinHIT=155
 GiveEXPClan=3
 Nivel=32
 
