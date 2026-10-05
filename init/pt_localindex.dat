@@ -12505,6 +12505,32 @@ Body=728
 Head=327
 NpcType=17
 
+[NPC1174]
+Name=Borvat
+Body=6028
+Head=0
+BodyIdle=6026
+Ataque1=6027
+HP=3000
+NpcType=0
+MaxHIT=120
+MinHIT=85
+EXP=0
+ORO=0
+
+[NPC1177]
+Name=Borvat
+Body=6028
+Head=0
+BodyIdle=6026
+Ataque1=6027
+HP=5600
+NpcType=0
+MaxHIT=190
+MinHIT=160
+EXP=0
+ORO=0
+
 [NPC1178]
 Name=Grimbak <Finanzas Goliath>
 Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
@@ -12640,6 +12666,19 @@ Desc=Eu tenho o que preciso para derrotar os Nagas!
 Body=2142
 Head=52
 NpcType=17
+
+[NPC1190]
+Name=Krugg
+Body=6025
+Head=0
+BodyIdle=6023
+Ataque1=6024
+HP=1650
+NpcType=0
+MaxHIT=65
+MinHIT=55
+EXP=0
+ORO=0
 
 [NPC1191]
 Name=Banes <Quest de Galeon Patreon>
@@ -16017,14 +16056,17 @@ MaxHIT=80
 MinHIT=50
 
 [NPC1799]
-Name='Pirata Elfa'
+Name=Isolda
 Body=6009
 Head=0
 BodyIdle=6007
 Ataque1=6008
-HP=3600
-MaxHIT=95
-MinHIT=75
+HP=750
+NpcType=0
+MaxHIT=45
+MinHIT=30
+EXP=0
+ORO=0
 
 [NPC1800]
 Name=Hechicera Orca
