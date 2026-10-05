@@ -2,7 +2,7 @@
 NUMEROHECHIZO=425
 NUMLOCALEMSG=2215
 NUMMAPAS=750
-NUMNPCS=9050
+NUMNPCS=9051
 NUMOBJS=9204
 NUMQUESTS=905
 NUMSUGERENCIAS=6
@@ -8511,12 +8511,11 @@ MinHIT=15
 Nivel=15
 
 [NPC1004]
-Name=Monje
-Desc=¿Qué quieres? Tengo prisa.
-Body=192
-Head=8
-Comercia=0
-NROITEMS=0
+Name=Nargoth <Ques de Guarida Abandonadat>
+Desc=¿Tú? Bah, no pareces más que carne blanda. Pero si tienes estómago para la sangre, quizás sirvas para algo.
+Body=6148
+Head=0
+NpcType=17
 
 [NPC1005]
 Name=Yoel
@@ -68816,6 +68815,14 @@ EXP=5000
 ORO=375
 MaxHIT=120
 MinHIT=40
+
+[NPC9051]
+Name=Monje
+Desc=¿Qué quieres? Tengo prisa.
+Body=192
+Head=8
+Comercia=0
+NROITEMS=0
 
 [NAMEMAPA]
 mapa1Desc=Ciudad Neutral, entrada a Catacumbas
