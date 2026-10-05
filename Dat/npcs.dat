@@ -4755,17 +4755,17 @@ Drop1=37-20-15-50
 Drop2=38-20-10-35
 
 [NPC535] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
-Name=Abominación Polar
+Name=Glacius
 Body=5142
 Head=0
 BodyIdle=5140
 NpcType=0
-GiveEXP=8100
-GiveGLD=355
-MinHP=9000
-MaxHP=9000
+GiveEXP=6000
+GiveGLD=235
+MinHP=6000
+MaxHP=6000
 MaxHIT=215
-MinHIT=175
+MinHIT=155
 NPCLVL=32
 GiveEXPClan=3
 Ataque1=5141
@@ -4780,9 +4780,10 @@ Alineacion=0
 '--- COPIA PRIVADA ORIGINAL NPC536 (Golem de Piedra) antes de oficializar; cliente oficial era Escarlath ---
 Nivel=32
 PoderAtaque=245
-PoderEvasion=180
+PoderEvasion=165
+DEF=10
 NumDropQuest=1
-DropQuest1=37-2262-1-1
+DropQuest1=260-2771-1-20
 '[NPC536]
 'Name=Golem de Piedra
 'en_name=Stone Golem
