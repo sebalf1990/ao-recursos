@@ -3,7 +3,7 @@
 'Reorganización Masiva.
 
 [INIT]
-NumNPCs=9053
+NumNPCs=9054
 
 'SPOTS LIBRES<<<<<<<<<<<<<<<<<<<<<<<<<<<#
 '16 al 23  		Comerciantes			#
@@ -16540,19 +16540,25 @@ it_Name=Hunter (leggendario)
 pt_Desc=Equipamento lendário para caçadores
 pt_Name=Hunter (lendário)
 
-[NPC1170] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=59
-Desc=Equipamiento Legendario para Guerreros
-Head=29
-Name=Guerrero (Legendario)
-en_Desc=Legendary Equipment For Warriors
-en_Name=Guerrero (legendary)
-fr_Desc=Équipement légendaire pour les guerriers
-fr_Name=Guerrero (légendaire)
-it_Desc=Equipaggiamento leggendario per i guerrieri
-it_Name=Guerrero (leggendario)
-pt_Desc=Equipamento lendário para guerreiros
-pt_Name=Guerrero (lendário)
+[NPC1170] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Guerrero (Legendario), mudado a NPC9054. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC541 del oficial, vida mas parecida: SUPUESTO; sin drops
+Name=Borvat
+Head=0
+Body=6028
+BodyIdle=6026
+NpcType=0
+Ataque1=6027
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=1500
+MinHP=1500
+MaxHIT=85
+MinHIT=55
+GiveEXP=0
+GiveGLD=0
+PoderAtaque=105
+PoderEvasion=80
 
 [NPC1171] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Pretoria <Quest>
@@ -30146,4 +30152,18 @@ it_Desc=Attrezzatura leggendaria per bardi
 it_Name=Bardo (leggendario)
 pt_Desc=Equipamento lendário para bardos
 pt_Name=Bardo (lendário)
+
+[NPC9054] 'Guerrero (Legendario): mudado desde NPC1170, que el oficial usa para otro NPC. Plan 17.001 Ola 3
+Body=59
+Desc=Equipamiento Legendario para Guerreros
+Head=29
+Name=Guerrero (Legendario)
+en_Desc=Legendary Equipment For Warriors
+en_Name=Guerrero (legendary)
+fr_Desc=Équipement légendaire pour les guerriers
+fr_Name=Guerrero (légendaire)
+it_Desc=Equipaggiamento leggendario per i guerrieri
+it_Name=Guerrero (leggendario)
+pt_Desc=Equipamento lendário para guerreiros
+pt_Name=Guerrero (lendário)
 
