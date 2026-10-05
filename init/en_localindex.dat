@@ -2,7 +2,7 @@
 NUMEROHECHIZO=425
 NUMLOCALEMSG=2215
 NUMMAPAS=750
-NUMNPCS=9053
+NUMNPCS=9054
 NUMOBJS=9204
 NUMQUESTS=905
 NUMSUGERENCIAS=6
@@ -12625,10 +12625,17 @@ Body=2042
 Head=102
 
 [NPC1170]
-Name=Guerrero (legendary)
-Desc=Legendary Equipment For Warriors
-Body=59
-Head=29
+Name=Borvat
+Body=6028
+Head=0
+BodyIdle=6026
+Ataque1=6027
+HP=1500
+NpcType=0
+MaxHIT=85
+MinHIT=55
+EXP=0
+ORO=0
 
 [NPC1171]
 Name=Pretoria <Quest>
@@ -74183,6 +74190,12 @@ Name=Bardo (legendary)
 Desc=Legendary Equipment For Bards
 Body=2041
 Head=51
+
+[NPC9054]
+Name=Guerrero (legendary)
+Desc=Legendary Equipment For Warriors
+Body=59
+Head=29
 
 [NAMEMAPA]
 mapa1Desc=Ciudad Neutral, entrada a Catacumbas
