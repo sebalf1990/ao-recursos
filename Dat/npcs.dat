@@ -3,7 +3,7 @@
 'Reorganización Masiva.
 
 [INIT]
-NumNPCs=9052
+NumNPCs=9053
 
 'SPOTS LIBRES<<<<<<<<<<<<<<<<<<<<<<<<<<<#
 '16 al 23  		Comerciantes			#
@@ -16462,19 +16462,15 @@ NumQuest=2
 QuestNumber1=209
 QuestNumber2=276
 
-[NPC1165] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=2041
-Desc=Equipamiento Legendario para Bardos
-Head=51
-Name=Bardo (Legendario)
-en_Desc=Legendary Equipment For Bards
-en_Name=Bardo (legendary)
-fr_Desc=Équipement légendaire pour les bardes
-fr_Name=Bardo (légendaire)
-it_Desc=Attrezzatura leggendaria per bardi
-it_Name=Bardo (leggendario)
-pt_Desc=Equipamento lendário para bardos
-pt_Name=Bardo (lendário)
+[NPC1165] 'Del oficial (pack 2026-10-01); quest. El numero era nuestro Bardo (Legendario), mudado a NPC9053. Plan 17.001 Ola 3. sin quest: habla y nada mas
+Name=Phenoba <Quest de Dungeon Veril>
+Desc=Su mirada petrifica, si no recuperamos el libro antiguo, pagaran los inocentes y la oscuridad acechara nuestro mundo.
+Head=0
+Body=497
+NpcType=17
+ShowName=1
+Heading=3
+Movement=1
 
 [NPC1166] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Aelder <Quest>
@@ -30136,4 +30132,18 @@ en_desc=I collect all kinds of peculiar objects.
 NPCLVL=24
 MagicResistance=60
 MagicDef=5
+
+[NPC9053] 'Bardo (Legendario): mudado desde NPC1165, que el oficial usa para otro NPC. Plan 17.001 Ola 3
+Body=2041
+Desc=Equipamiento Legendario para Bardos
+Head=51
+Name=Bardo (Legendario)
+en_Desc=Legendary Equipment For Bards
+en_Name=Bardo (legendary)
+fr_Desc=Équipement légendaire pour les bardes
+fr_Name=Bardo (légendaire)
+it_Desc=Attrezzatura leggendaria per bardi
+it_Name=Bardo (leggendario)
+pt_Desc=Equipamento lendário para bardos
+pt_Name=Bardo (lendário)
 

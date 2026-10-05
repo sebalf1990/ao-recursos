@@ -2,7 +2,7 @@
 NUMEROHECHIZO=425
 NUMLOCALEMSG=2215
 NUMMAPAS=750
-NUMNPCS=9052
+NUMNPCS=9053
 NUMOBJS=9204
 NUMQUESTS=905
 NUMSUGERENCIAS=6
@@ -12581,10 +12581,11 @@ Head=310
 NpcType=17
 
 [NPC1165]
-Name=Bardo (legendary)
-Desc=Legendary Equipment For Bards
-Body=2041
-Head=51
+Name=Phenoba <Quest de Dungeon Veril>
+Desc=Su mirada petrifica, si no recuperamos el libro antiguo, pagaran los inocentes y la oscuridad acechara nuestro mundo.
+Body=497
+Head=0
+NpcType=17
 
 [NPC1166]
 Name=Aelder <Quest>
@@ -74176,6 +74177,12 @@ Desc=Colecciono todo tipo de objetos peculiares.
 desc=I collect all kinds of peculiar objects.
 Body=4056
 Head=0
+
+[NPC9053]
+Name=Bardo (legendary)
+Desc=Legendary Equipment For Bards
+Body=2041
+Head=51
 
 [NAMEMAPA]
 mapa1Desc=Ciudad Neutral, entrada a Catacumbas
