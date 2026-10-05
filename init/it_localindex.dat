@@ -4685,11 +4685,12 @@ Comercia=0
 NoMapInfo=1
 
 [NPC3]
-Name=Banquero <Finanzas Goliath>
+Name=Krix <Finanzas Goliath>
 Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
-Body=5821
+Body=4013
 Head=0
-BodyIdle=4489
+BodyIdle=4013
+Ataque1=4013
 NpcType=4
 PuedeInvocar=1
 NoMapInfo=1
@@ -4746,11 +4747,11 @@ Obj2=160-100
 Obj3=161-100
 
 [NPC8]
-Name=Fevien <Provviste>
+Name=Feviena <Provviste>
 Desc=Ciao! Vieni a vedere questi prodotti, solo qui otterrai le migliori disposizioni di tutte queste terre.
 DescClose=¡Hasta pronto!
-Body=21
-Head=4
+Body=434
+Head=0
 NpcType=0
 Comercia=1
 NROITEMS=6
@@ -4896,25 +4897,25 @@ Head=329
 NpcType=17
 
 [NPC22]
-Name=Guardia de Arena
+Name=Linxes <Guardia de Arena>
 Desc=¡Demuestra tu valor en combate! El ingreso a la arena cuesta 2500 monedas de oro. Escribe /ARENA para participar. Para ser resucitado, alcanza con subir la escalera.
-Body=62
-Head=26
+Body=903
+Head=0
 NpcType=24
 
 [NPC23]
-Name=Guardia de Arena
+Name=Arenastras <Guardia de Arena>
 Desc=¡Demuestra tu valor en combate! El ingreso al siguiente mapa cuesta 1500 monedas de oro. Escribe /ARENA para ingresar.
-Body=2058
-Head=77
+Body=438
+Head=0
 NpcType=24
 
 [NPC24]
-Name=Lilith <Alchemy principiante>
+Name=Neria <Alchemy principiante>
 Desc=Hai finito le pozioni? Ne ho alcune da offrirti, a un prezzo che fa al caso tuo.
 DescClose=¡Hasta pronto!
-Body=2101
-Head=69
+Body=451
+Head=0
 NpcType=0
 Comercia=1
 NROITEMS=5
@@ -4946,10 +4947,10 @@ Obj2=2183-1
 Obj3=138-1
 
 [NPC27]
-Name=Guardia de Arena
+Name=Nixerino <Guardia de Arena>
 Desc=¡Demuestra tu valor en combate! El ingreso a la arena cuesta 500 monedas de oro. Escribe /ARENA para ingresar.
-Body=338
-Head=15
+Body=904
+Head=0
 NpcType=24
 
 [NPC28]
@@ -5009,10 +5010,11 @@ Obj2=32-1
 Obj3=32-1
 
 [NPC46]
-Name=Alchimista Reale
+Name=Magnus Elixius <Alchimista Reale>
 Desc=¡Las mejores Alquimias de este Reino!
-Body=165
-Head=4
+Body=6127
+Head=0
+BodyIdle=6126
 NpcType=0
 Comercia=1
 NROITEMS=15
@@ -5024,8 +5026,10 @@ NoMapInfo=1
 [NPC47]
 Name=Alchimista caotico
 Desc=¡Con estas Alquimias podrás esparcir el Mal!
-Body=161
-Head=7
+Body=6118
+Head=0
+BodyIdle=6119
+Ataque1=6118
 NpcType=0
 Comercia=1
 NROITEMS=15
@@ -5161,7 +5165,7 @@ NoMapInfo=1
 Name=Zonrie <Arghal Sgercero>
 Desc=¡Tengo una gran variedad de hechizos!
 DescClose=¡Que la magia te acompañe!
-Body=124
+Body=901
 Head=118
 NpcType=0
 Comercia=1
@@ -5284,10 +5288,11 @@ Head=34
 NpcType=17
 
 [NPC97]
-Name=Yarl <Sacerdote de Penthar>
+Name=Grognak <Sacerdote de Penthar>
 Desc=Puedo sentir el poder fluir dentro de tí, dejalo salir!. Soy el shaman de este pueblo. si quieres ser resucitado escribe /Resucitar o haz clic derecho sobre mi.
-Body=5813
+Body=6230
 Head=0
+BodyIdle=6231
 NpcType=1
 NoMapInfo=1
 
@@ -5373,10 +5378,12 @@ Obj2=2183-1
 Obj3=138-1
 
 [NPC105]
-Name=Durrot <Mercader>
+Name=Durrotha <Mercader>
 Desc=¡Hola! Estoy interesado en todo tipo de productos.
-Body=1235
-Head=501
+Body=6142
+Head=0
+BodyIdle=6142
+Ataque1=6142
 NpcType=0
 Comercia=1
 NROITEMS=2
@@ -5492,50 +5499,60 @@ NpcType=0
 NoMapInfo=1
 
 [NPC121]
-Name=Carpintero <Wiki>
+Name=Darim <Carpintero>
 Desc=¡Puedes convertir tu madera en lo que tu quieras! Debes aprender sobre esto items en la sección Carpinteria, dentro de la Wiki Online
-Body=594
-Head=310
+Body=6158
+Head=0
+BodyIdle=6158
+Ataque1=6158
 NpcType=0
 NoMapInfo=1
 
 [NPC122]
-Name=Herrero
+Name=Rona <Herreria>
 Desc=¿Quieres aprender a forjar tus items? ¡La información que necesitas se encuentra en la Wiki Online, en la sección Herreria!
-Body=63
-Head=30
+Body=6115
+Head=0
+BodyIdle=6115
+Ataque1=6115
 NpcType=0
 NoMapInfo=1
 
 [NPC123]
-Name=Minero
+Name=Borin <Minero>
 Desc=Todo lo relacionado a la extracción de minerales en Argentum Online se encuentra en la sección Minar de la Wiki Online. ¡Hecha un vistazo!
-Body=726
-Head=303
+Body=6154
+Head=0
 NpcType=0
 NoMapInfo=1
 
 [NPC124]
-Name=Alquimista
+Name=Druslo <Alquimista>
 Desc=¡El mundo de la Alquimia es maravilloso! Te recomiendo aprender todo lo relacionado, en la sección Alquimia dentro de la Wiki Online
-Body=2016
-Head=156
+Body=6165
+Head=0
+BodyIdle=6165
+Ataque1=6165
 NpcType=0
 NoMapInfo=1
 
 [NPC125]
-Name=Sastre
+Name=Giorgia <Sastreria>
 Desc=Existen varios tipos de pieles a lo largo de este Mundo, puedo enseñarte más sobre esta profesión pero primero debes inspeccionar la sección Sastreria de la Wiki Online
-Body=79
-Head=5
+Body=6155
+Head=0
+BodyIdle=6155
+Ataque1=6155
 NpcType=0
 NoMapInfo=1
 
 [NPC126]
-Name=Pescadora
+Name=Henrietta <Pescadora>
 Desc=¡El mar es maravilloso! Si deseas aprender como extraer los mejores pescados, inspecciona cuanto antes la sección Pesca dentro de la Wiki Online
-Body=723
-Head=351
+Body=6117
+Head=0
+BodyIdle=6117
+Ataque1=6117
 NpcType=0
 NoMapInfo=1
 
@@ -5916,10 +5933,10 @@ Head=686
 NpcType=17
 
 [NPC408]
-Name=Romina <Quest>
+Name=Makrom <Quest de Dungeon Newbie>
 Desc=¡Tengo misiones para tí!
-Body=1175
-Head=455
+Body=487
+Head=0
 NpcType=17
 Comercia=0
 
@@ -5932,9 +5949,9 @@ NpcType=17
 Comercia=0
 
 [NPC410]
-Name=Otis <Quest>
+Name=Octis <Quest del Minero Explorador>
 Desc=¡Una cara nueva! Qué gusto verte, me presento, soy Otis. Quizás podamos sernos de utilidad.
-Body=4476
+Body=6092
 NpcType=17
 Comercia=0
 
@@ -5985,10 +6002,10 @@ NpcType=17
 Comercia=0
 
 [NPC421]
-Name=Eira <Quest>
+Name=Eiro <Quest de Polo>
 Desc=¡Debes abrigarte en esta zona!
-Body=2237
-Head=174
+Body=431
+Head=0
 NpcType=17
 
 [NPC423]
@@ -7096,10 +7113,10 @@ MinHIT=80
 NpcType=0
 
 [NPC571]
-Name=Delver <Quest>
+Name=Delvina <Quest de Zombies>
 Desc=¡Buscamos valientes como tú para la defensa de esta ciudad!
-Body=274
-Head=9
+Body=6106
+Head=0
 HP=150000
 NpcType=17
 EXP=300000
@@ -8002,10 +8019,10 @@ NpcType=0
 ORO=0
 
 [NPC651]
-Name=Vendedor de personajes
+Name=Jerome <Vendedor de personajes>
 Desc=Yo me encargaré de vendértelo a buen precio. confía en mi, solo completa el siguiente formulario.
-Body=72
-Head=16
+Body=413
+Head=0
 NpcType=22
 
 [NPC652]
@@ -11495,10 +11512,10 @@ Obj3=1715-1000
 NoMapInfo=1
 
 [NPC1084]
-Name=Elvira <Quest>
+Name=Elvo <Quest de Pesca>
 Desc=¿Así que tú eres el que ayudó al viejo Jacobo con sus anzuelos?
-Body=2746
-Head=456
+Body=898
+Head=0
 NpcType=17
 NROITEMS=5
 Obj1=30-1
@@ -11814,10 +11831,10 @@ Obj2=527-1
 Obj3=2843-1
 
 [NPC1111]
-Name=Zaldiva <Quest>
+Name=Zaldivar <Quest de la Cueva Glaciar>
 Desc=¿Tienes la agilidad necesaria para ayudarme?
-Body=2314
-Head=171
+Body=437
+Head=0
 NpcType=17
 NROITEMS=11
 Obj1=401-1
@@ -11948,8 +11965,8 @@ ObJ3=2927-1
 Name=Dominic <Armaiolo>
 Desc=¡Son mis ultimas armas, aprovéchalas!
 DescClose=¡Hasta pronto!
-Body=5831
-Head=27
+Body=6259
+Head=0
 NpcType=0
 Comercia=1
 NROITEMS=7
@@ -11984,10 +12001,10 @@ Obj2=529-1
 Obj3=1004-1
 
 [NPC1127]
-Name=Khadgar <Stregone>
+Name=Khadir <Hechicera> <Stregone>
 Desc=¡Todo lo referido a la Magia, en un solo lugar!
-Body=143
-Head=29
+Body=430
+Head=0
 NpcType=0
 Comercia=1
 NROITEMS=14
@@ -12023,10 +12040,10 @@ Obj3=1761-100
 NoMapInfo=1
 
 [NPC1130]
-Name=Therwin <Magia>
+Name=Therwina <Magia>
 Desc=¡Los mejores hechizos de este planeta, en un solo lugar!
-Body=1681
-Head=649
+Body=453
+Head=0
 NpcType=0
 Comercia=1
 NROITEMS=19
@@ -12036,10 +12053,10 @@ Obj3=1651-100
 NoMapInfo=1
 
 [NPC1131]
-Name=Galving <Falegname>
+Name=Galvinga <Falegname>
 Desc=Te ofrezco una herramienta ideal para la zona élfica.
-Body=556
-Head=317
+Body=442
+Head=0
 NpcType=0
 Comercia=1
 NROITEMS=15
@@ -12489,10 +12506,12 @@ NpcType=4
 NoMapInfo=1
 
 [NPC1179]
-Name=Thirga Brumhilda <Quest>
+Name=Thirgo Brumhildo <Quest de Trabajador>
 Desc=Pocos tienen el valor de cruzar el mar y desafiar el frío de esta isla para llegar hasta Morgrim. Si tus manos resisten el martillo y tu espíritu el fuego, quizá te enseñe los secretos de la Forja Elemental. Pero recuerda: el calor de la fragua no perdona a los débiles.
-Body=725
-Head=453
+Body=6160
+Head=0
+BodyIdle=6160
+Ataque1=6160
 NpcType=17
 
 [NPC1180]
@@ -12509,10 +12528,12 @@ Obj3=540-1000
 NoMapInfo=1
 
 [NPC1181]
-Name=Brunna <Sarto>
+Name=Brunno <Sarto>
 Desc=¡Las mejores vestimentas que podrás conseguir!
-Body=2840
-Head=478
+Body=6183
+Head=0
+BodyIdle=6183
+Ataque1=6183
 NpcType=0
 Comercia=1
 NROITEMS=6
@@ -12558,10 +12579,12 @@ NpcType=1
 NoMapInfo=1
 
 [NPC1185]
-Name=Korin <Mercante>
+Name=Korinh <Mercante>
 Desc=¡Hola, bienvenido a mi tienda! Estoy interesado en todo tipo de productos. No olvides de pasar de vez en cuando, puede que mañana ya hayan comprado lo que estabas buscando!
-Body=574
-Head=322
+Body=6098
+Head=0
+BodyIdle=6098
+Ataque1=6098
 NpcType=0
 Comercia=1
 NROITEMS=2
@@ -12610,10 +12633,12 @@ Head=52
 NpcType=17
 
 [NPC1191]
-Name=Ebanista <Quest>
+Name=Banes <Quest de Galeon Patreon>
 Desc=¿Tienes lo necesario para navegar?
-Body=547
-Head=307
+Body=6191
+Head=0
+BodyIdle=6191
+Ataque1=6191
 NpcType=17
 
 [NPC1192]
@@ -12889,10 +12914,10 @@ ORO=95
 Nivel=28
 
 [NPC1217]
-Name=Mercader <Shop Patreon>
+Name=Landon <Shop Patreon>
 Desc=Acepto creditos patreon por items muy convenientes
-Body=289
-Head=45
+Body=416
+Head=0
 NpcType=21
 PuedeInvocar=1
 Comercia=0
@@ -13445,18 +13470,20 @@ MaxHIT=0
 MinHIT=0
 
 [NPC1272]
-Name=Banquera <Finanzas>
+Name=Naeris <Finanzas Goliath>
 Desc=Hola, bienvenido a la cadena de finanzas Goliath.
-Body=123
-Head=177
+Body=6251
+Head=0
 NpcType=4
 NoMapInfo=1
 
 [NPC1273]
-Name=Erika <Perdhat Alchemist>
+Name=Pothir <Perdhat Alchemist>
 Desc=Hola! Bienvenido a mi cabaña. Tengo a la venta la mas amplia gama de pociones para tu viaje.
-Body=3313
-Head=158
+Body=6130
+Head=0
+BodyIdle=6131
+Ataque1=6130
 NpcType=0
 Comercia=1
 NROITEMS=9
@@ -13516,10 +13543,12 @@ Obj2=2183-1
 Obj3=138-1
 
 [NPC1278]
-Name=Susan <Carpenter>
+Name=Oshurk <Carpenter>
 Desc=¡Bienvenido a la carpintería de Forgat!
-Body=69
-Head=86
+Body=6201
+Head=0
+BodyIdle=6201
+Ataque1=6201
 NpcType=0
 Comercia=1
 NROITEMS=7
@@ -13614,11 +13643,12 @@ MaxHIT=50
 MinHIT=35
 
 [NPC1288]
-Name=Abad <Quest>
+Name=Francisco <Quest del Minero Explorador>
 Desc=¡Bienvenido, me especializo en elementos Sagrados!
-Body=230
-Head=33
-BodyIdle=861
+Body=6097
+Head=0
+BodyIdle=6096
+Ataque1=6096
 NpcType=17
 
 [NPC1289]
@@ -13761,10 +13791,10 @@ MinHIT=90
 EXP=450
 
 [NPC1306]
-Name=Plerius <Quest>
+Name=Pleria <Quest de Paladin>
 Desc=Necesito que consigas los componentes del rito. Solo un paladín que los obtenga por sí mismo puede despertar su poder.
-Body=254
-Head=27
+Body=6249
+Head=0
 NpcType=17
 
 [NPC1307]
@@ -14129,10 +14159,12 @@ Obj3=1955-1000
 NoMapInfo=1
 
 [NPC1341]
-Name=Faelion <Sarto>
+Name=Erindhir <Sarto>
 Desc=Las mejores telas en la mejor ciudad, nada que perder con estos precios.
-Body=123
-Head=106
+Body=6194
+Head=0
+BodyIdle=6194
+Ataque1=6194
 NpcType=0
 Comercia=1
 NROITEMS=6
@@ -14154,10 +14186,12 @@ Obj2=160-100
 Obj3=161-100
 
 [NPC1343]
-Name=Thessalia <Alchimista>
+Name=Thessalio <Alchimista>
 Desc=Tengo a la venta la mas amplia gama de pociones para tu viaje.
-Body=2250
-Head=155
+Body=6120
+Head=0
+BodyIdle=6121
+Ataque1=6120
 NpcType=0
 Comercia=1
 NROITEMS=5
@@ -14203,10 +14237,12 @@ Obj1=534-1
 Obj2=199-1
 
 [NPC1347]
-Name=Ghelf <Provisiones de Eldoria>
+Name=Ghelfa <Provisiones de Eldoria>
 Desc=¡Hola! Vendo una gran variedad de provisiones!
-Body=43
-Head=110
+Body=6177
+Head=0
+BodyIdle=6177
+Ataque1=6177
 Comercia=1
 PuedeInvocar=1
 NROITEMS=10
@@ -14228,8 +14264,8 @@ Obj3=3980-1
 [NPC1349]
 Name=Josephelf <Eldoria Merchant>
 Desc=Ciao! Sono interessato a tutti i tipi di prodotti e vendo i biglietti per Jourmut.
-Body=1529
-Head=213
+Body=897
+Head=0
 NpcType=0
 Comercia=1
 NROITEMS=2
@@ -14237,10 +14273,11 @@ Obj1=534-1
 Obj2=199-1
 
 [NPC1350]
-Name=Golksu <Sacerdote>
+Name=Lyram <Sacerdote de Eldoria>
 Desc=¡Hola, hijo mio! Soy el Sacerdote de esta Ciudad Élfica. Si quieres ser resucitado, simplemente hazme click izquierdo y escribe /Resucitar
-Body=5812
+Body=6228
 Head=0
+BodyIdle=6229
 NpcType=1
 NoMapInfo=1
 
@@ -15281,10 +15318,12 @@ Obj3=2803-1000
 NoMapInfo=1
 
 [NPC1501]
-Name=Sastre Real
+Name=Lhissa <Sastre de Banderbill>
 Desc=Las mejores túnicas para un Ciudadano como tú.
-Body=114
-Head=8
+Body=6197
+Head=0
+BodyIdle=6197
+Ataque1=6197
 NpcType=0
 Comercia=1
 NoMapInfo=1
@@ -15419,10 +15458,12 @@ Obj3=2803-1000
 NoMapInfo=1
 
 [NPC1551]
-Name=Sastre Legionario
+Name=Dhoruk <Sastre Legionario>
 Desc=Las mejores túnicas para un Criminal como tú.
-Body=1519
-Head=205
+Body=6132
+Head=0
+BodyIdle=6132
+Ataque1=6132
 NpcType=0
 Comercia=1
 NoMapInfo=1
@@ -15897,23 +15938,26 @@ Head=401
 NpcType=17
 
 [NPC1636]
-Name=Lyren <Maestra Telar>
+Name=Lyreno <Quest del Lienzo del Unicornio>
 Desc=El Hilo Liviano de Amida no es un material común. Solo puede crearse cuando las esencias de los cuatro elementos son entrelazadas con precisión arcana.
-Body=212
-Head=174
+Body=891
+Head=0
 NpcType=17
 
 [NPC1637]
-Name=Eldarik <Guardián Mítico>
+Name=Eldarika <Guardiána Mítica>
 Desc=Ese no es un lienzo común. Está impregnado con la esencia de los cuatro elementos y tejido con técnicas que creía perdidas hace siglos.
-Body=213
-Head=127
+Body=6199
+Head=0
+BodyIdle=6199
+Ataque1=6199
 NpcType=17
 
 [NPC1638]
-Name=Vikingo Vigia
-Body=305
-Head=686
+Name=Bjornir <Guardia Vikingo>
+Body=392
+Head=0
+BodyIdle=390
 NpcType=0
 NoMapInfo=1
 
