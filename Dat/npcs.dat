@@ -11620,18 +11620,25 @@ Nivel=20
 NumDropQuest=1
 DropQuest1=20-2531-5-1
 
-[NPC981] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Name='Escorpion Fuego'
+[NPC981] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, ElementalTags
+Name=Scorvex
 Body=5597
 Head=0
 BodyIdle=5595
 Ataque1=5596
-MaxHp=3600
-MinHp=3600
-GiveEXP=0
-GiveGLD=0
-MaxHIT=0
-MinHIT=0
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=1800
+MinHP=1800
+MaxHIT=110
+MinHIT=75
+GiveEXP=1260
+GiveGLD=60
+PoderAtaque=165
+PoderEvasion=130
+Nivel=30
 
 [NPC983] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Verdarra
@@ -26568,18 +26575,27 @@ GiveGLD=150
 MaxHIT=95
 MinHIT=75
 
-[NPC819] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name=Flameborn
+[NPC819] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: hechizos, ElementalTags
+Name=Bael
 Body=5431
 Head=0
 BodyIdle=5429
 Ataque1=5430
-MaxHp=3600
-MinHp=3600
-GiveEXP=0
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=5000
+MinHP=5000
+MaxHIT=120
+MinHIT=75
+GiveEXP=5000
 GiveGLD=0
-MaxHIT=0
-MinHIT=0
+PoderAtaque=215
+PoderEvasion=170
+OrigPos=1
+IntervaloRespawn=300
+TierraInvalida=0
 
 [NPC820] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Horror Tóxico
@@ -26750,18 +26766,25 @@ GiveGLD=150
 MaxHIT=95
 MinHIT=75
 
-[NPC840] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name='Lobo Hielo'
+[NPC840] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, ElementalTags
+Name=Cryon
 Body=5585
 Head=0
 BodyIdle=5583
 Ataque1=5584
-MaxHp=3600
-MinHp=3600
-GiveEXP=0
-GiveGLD=0
-MaxHIT=0
-MinHIT=0
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=2000
+MinHP=2000
+MaxHIT=125
+MinHIT=90
+GiveEXP=1450
+GiveGLD=70
+PoderAtaque=175
+PoderEvasion=135
+Nivel=32
 
 [NPC841] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Piraña Test
@@ -26776,70 +26799,112 @@ GiveGLD=0
 MaxHIT=1
 MinHIT=1
 
-[NPC842] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name='Lobo Fuego'
+[NPC842] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, ElementalTags
+Name=Ignarok
 Body=5588
 Head=0
 BodyIdle=5586
 Ataque1=5587
-MaxHp=3600
-MinHp=3600
-GiveEXP=0
-GiveGLD=0
-MaxHIT=0
-MinHIT=0
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=2000
+MinHP=2000
+MaxHIT=125
+MinHIT=90
+GiveEXP=1400
+GiveGLD=65
+PoderAtaque=175
+PoderEvasion=135
+Nivel=30
 
-[NPC849] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name='Salamandra'
+[NPC849] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, ElementalTags
+Name=Flamora
 Body=5612
 Head=0
 BodyIdle=5610
 Ataque1=5611
-MaxHp=3600
-MinHp=3600
-GiveEXP=0
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=8000
+MinHP=8000
+MaxHIT=195
+MinHIT=115
+GiveEXP=5600
 GiveGLD=0
-MaxHIT=0
-MinHIT=0
+PoderAtaque=230
+PoderEvasion=175
+DEF=15
+GiveEXPClan=2
 
-[NPC850] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name='Deminio'
+[NPC850] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops
+Name=Astaroth
 Body=5615
 Head=0
 BodyIdle=5613
 Ataque1=5614
-MaxHp=3600
-MinHp=3600
-GiveEXP=0
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=8000
+MinHP=8000
+MaxHIT=215
+MinHIT=150
+GiveEXP=12000
 GiveGLD=0
-MaxHIT=0
-MinHIT=0
+PoderAtaque=250
+PoderEvasion=195
+DEF=15
+GiveEXPClan=4
+MagicDef=15
+MagicResistance=85
+AguaValida=0
 
-[NPC851] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name='Conjurador Igneo'
+[NPC851] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, hechizos
+Name=Pyrrion
 Body=5618
 Head=0
 BodyIdle=5616
 Ataque1=5617
-MaxHp=3600
-MinHp=3600
-GiveEXP=0
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=7000
+MinHP=7000
+MaxHIT=210
+MinHIT=90
+GiveEXP=9800
 GiveGLD=0
-MaxHIT=0
-MinHIT=0
+PoderAtaque=250
+PoderEvasion=185
+GiveEXPClan=3
 
-[NPC852] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name='Gargola de Fuego'
+[NPC852] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, hechizos
+Name=Phyrus
 Body=5624
 Head=0
 BodyIdle=5622
 Ataque1=5623
-MaxHp=3600
-MinHp=3600
-GiveEXP=0
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=9000
+MinHP=9000
+MaxHIT=235
+MinHIT=180
+GiveEXP=13500
 GiveGLD=0
-MaxHIT=0
-MinHIT=0
+PoderAtaque=290
+PoderEvasion=190
+DEF=20
+GiveEXPClan=4
+AguaValida=0
 
 [NPC853] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Dorim II <Rey de Morgrim>
@@ -26880,18 +26945,27 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-[NPC856] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name='León de Fuego'
+[NPC856] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, ElementalTags
+Name=Kingion
 Body=5636
 Head=0
 BodyIdle=5634
 Ataque1=5635
-MaxHp=3600
-MinHp=3600
-GiveEXP=0
-GiveGLD=0
-MaxHIT=0
-MinHIT=0
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=3200
+MinHP=3200
+MaxHIT=120
+MinHIT=85
+GiveEXP=2560
+GiveGLD=110
+PoderAtaque=165
+PoderEvasion=135
+Nivel=30
+GiveEXPClan=1
+IntervaloRespawn=90
 
 [NPC857] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Aelion <Rey de Eldoria>
