@@ -26595,6 +26595,7 @@ PoderAtaque=215
 PoderEvasion=170
 OrigPos=1
 IntervaloRespawn=300
+IntervaloRespawnMin=240
 TierraInvalida=0
 
 [NPC820] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
@@ -26966,6 +26967,7 @@ PoderEvasion=135
 Nivel=30
 GiveEXPClan=1
 IntervaloRespawn=90
+IntervaloRespawnMin=25
 
 [NPC857] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Aelion <Rey de Eldoria>
