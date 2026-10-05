@@ -2830,6 +2830,30 @@ Comercia=1
 NROITEMS=1
 Obj1=6300-10000
 
+[NPC30]
+Name=Xantros <Equipamiento de Mago>
+Desc=¡El equipamiento rápido para un Mago como tú!
+Body=895
+Head=0
+NpcType=0
+Comercia=1
+NROITEMS=3
+Obj1=1963-100
+Obj2=1900-100
+Obj3=1901-100
+
+[NPC31]
+Name=Taranis <Equipamiento de Druida>
+Desc=¡El equipamiento rápido para un Druida como tú!
+Body=902
+Head=0
+NpcType=0
+Comercia=1
+NROITEMS=3
+Obj1=1963-100
+Obj2=1900-100
+Obj3=1901-100
+
 [NPC36]
 Name=Rethor <Sastrería>
 Desc=Las mejores telas en la mejor ciudad, nada que perder con estos precios.
@@ -6533,6 +6557,17 @@ ORO=0
 MaxHIT=50
 MinHIT=35
 
+[NPC726]
+Name=Fantasma de la Carcel
+Body=829
+Head=0
+HP=75
+NpcType=0
+MaxHIT=50
+MinHIT=35
+EXP=0
+ORO=0
+
 [NPC750]
 Name=Frogian Azulino
 Body=4293
@@ -7279,6 +7314,20 @@ ORO=0
 MaxHIT=0
 MinHIT=0
 
+[NPC865]
+Name=Gran Blaze
+Body=389
+Head=0
+BodyIdle=387
+Ataque1=388
+HP=7500
+NpcType=0
+MaxHIT=220
+MinHIT=165
+EXP=10125
+ORO=0
+GiveEXPClan=2
+
 [NPC866]
 Name=Urghal
 Body=6055
@@ -7302,6 +7351,78 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
+
+[NPC871]
+Name=Capitán Alsetarip
+Desc=Hola, marine... ¿Qué? ¿Te parezco conocido? ¿Pirata yo? ¡No, no! ¡Soy el Capitán Alsetarip!
+Body=462
+Head=0
+NpcType=17
+
+[NPC872]
+Name=Xin
+Desc=Miaaaaaaaaaaauuuuuuuuuuuuu
+Body=463
+Head=0
+NpcType=17
+
+[NPC873]
+Name=Capitán Doral
+Body=466
+Head=0
+BodyIdle=464
+Ataque1=465
+HP=15000
+NpcType=0
+MaxHIT=130
+MinHIT=100
+EXP=15000
+ORO=0
+
+[NPC876]
+Name=Capitán Trang
+Body=472
+Head=0
+BodyIdle=470
+Ataque1=471
+HP=20000
+NpcType=0
+MaxHIT=110
+MinHIT=90
+EXP=20000
+ORO=0
+
+[NPC887]
+Name=Varek <Finanzas Goliath>
+Desc=Hola, bienvenido a la cadena de finanzas Goliath.
+Body=6252
+Head=0
+NpcType=4
+PuedeInvocar=1
+NoMapInfo=1
+
+[NPC888]
+Name=Noland <Finanzas Goliath>
+Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
+Body=6253
+Head=0
+NpcType=4
+PuedeInvocar=1
+NoMapInfo=1
+
+[NPC892]
+Name=Provisiones
+Body=6257
+Head=0
+HP=1000
+NpcType=19
+
+[NPC896]
+Name=Eom <Tabernero del Meson>
+Body=6261
+Head=0
+HP=1000
+NpcType=19
 
 [NPC900]
 Name=Ululantis
@@ -7351,6 +7472,13 @@ MaxHIT=20
 MinHIT=10
 NpcType=0
 Nivel=8
+
+[NPC921]
+Name=Udryr <Quest de Druida>
+Desc=El vínculo con tus mascotas puede alcanzar límites que aún desconocés. Las criaturas más poderosas requieren un dominio superior de las fuerzas de la naturaleza.
+Body=429
+Head=0
+NpcType=17
 
 [NPC922]
 Name=Dragón Dorado
@@ -9107,6 +9235,32 @@ Obj2=1985-100
 Obj3=510-100
 NoMapInfo=1
 
+[NPC1073]
+Name=Philiph
+Body=6031
+Head=0
+BodyIdle=6029
+Ataque1=6030
+HP=4200
+NpcType=0
+MaxHIT=65
+MinHIT=30
+EXP=0
+ORO=0
+
+[NPC1075]
+Name=Isolda
+Body=6009
+Head=0
+BodyIdle=6007
+Ataque1=6008
+HP=1300
+NpcType=0
+MaxHIT=70
+MinHIT=50
+EXP=0
+ORO=0
+
 [NPC1076]
 Name=Martzia <Sastre Exótico>
 Desc=Aquí encontrarás exquisitos vestidos principescos para las más exclusivas ocasiones.
@@ -9117,6 +9271,19 @@ NROITEMS=15
 Obj1=9041-1
 Obj2=468-1
 Obj3=2928-1
+
+[NPC1077]
+Name=Isolda
+Body=6009
+Head=0
+BodyIdle=6007
+Ataque1=6008
+HP=4700
+NpcType=0
+MaxHIT=175
+MinHIT=145
+EXP=0
+ORO=0
 
 [NPC1078]
 Name=Grog
@@ -13075,6 +13242,30 @@ Obj2=2763-100
 Obj3=2764-100
 NoMapInfo=1
 
+[NPC1512]
+Name=Guardia Real
+Body=5554
+Head=0
+BodyIdle=5552
+Ataque1=5553
+HP=1000
+NpcType=2
+NoMapInfo=1
+MaxHIT=200
+MinHIT=100
+
+[NPC1513]
+Name=Guardia Legión
+Body=5557
+Head=0
+BodyIdle=5555
+Ataque1=5556
+HP=1000
+NpcType=8
+NoMapInfo=1
+MaxHIT=200
+MinHIT=100
+
 [NPC1549]
 Name=Mercader <Facciones>
 Desc=¡Bienvenido a mi tienda! Me encargo de ofrecer objetos únicos para tu facción.
@@ -13884,6 +14075,303 @@ DescClose=¡Buen viaje!
 Body=2058
 Head=77
 NpcType=26
+
+[NPC1914]
+Name=Nythar <Quest de Invisibilidad>
+Desc=La invisibilidad que conocés no es más que el primer paso. Ocultar el cuerpo es sencillo; desaparecer por completo requiere dominar técnicas mucho más antiguas.
+Body=896
+Head=0
+NpcType=17
+
+[NPC1919]
+Name=Eldran <Quest de Aturdir>
+Desc=Si quieres llevar tu dominio de Enredar más allá, tendrás que demostrar que estás preparado. Los Brumaks pueden enseñarte lo que significa quedar completamente inmóvil.
+Body=894
+Head=0
+NpcType=17
+
+[NPC1920]
+Name=Doria Maderavieja <El Navegante>
+Desc=Hola marinero. Te recomiendo buscar refugio, mis huesos me dicen que se avecina una tormenta.
+Body=6211
+Head=0
+NpcType=17
+
+[NPC1923]
+Name=Valerius <Trovador>
+Desc=Puedo contarte las mejores historias de Ullathorpe
+Body=6214
+Head=0
+NpcType=0
+NoMapInfo=1
+
+[NPC1927]
+Name=Dulgrim <Carpintero>
+Desc=¡Bienvenido! Trabajo todo tipo de leña. ¿En qué puedo ayudarte?
+Body=6143
+Head=0
+BodyIdle=6143
+NpcType=0
+Comercia=1
+NROITEMS=8
+Obj1=198-1000
+Obj2=127-1000
+Obj3=2829-1000
+NoMapInfo=1
+
+[NPC1928]
+Name=Dargrim <Carpintero>
+Desc=¡Puedes convertir tu madera en lo que tu quieras! Debes aprender sobre esto items en la sección Carpintería, dentro de la Wiki Online
+Body=6149
+Head=0
+BodyIdle=6149
+NpcType=0
+NoMapInfo=1
+
+[NPC1929]
+Name=Helgrim <Tabernero>
+Desc=¿Quieres aprender a forjar tus items? ¡La información que necesitas se encuentra en la Wiki Online, en la sección Herreria!
+Body=6151
+Head=0
+BodyIdle=6151
+NpcType=0
+Comercia=1
+NROITEMS=3
+Obj1=43-100
+Obj2=160-100
+Obj3=42-100
+NoMapInfo=1
+
+[NPC1930]
+Name=Ingril <Maestra Alquimista>
+Desc=¡Bienvenido! ¿Estás por viajar? Aquí encontrarás las mejores pociones.
+Body=6150
+Head=0
+BodyIdle=6150
+NpcType=0
+Comercia=1
+NROITEMS=8
+Obj1=37-1000
+Obj2=38-1000
+Obj3=36-1000
+NoMapInfo=1
+
+[NPC1931]
+Name=Galvin <Carpintero de Banderbill>
+Desc=¡Bienvenido! Trabajo todo tipo de leña. ¿En qué puedo ayudarte?
+Body=6196
+Head=0
+BodyIdle=6196
+NpcType=0
+Comercia=1
+NROITEMS=8
+Obj1=198-1000
+Obj2=127-1000
+Obj3=2829-1000
+NoMapInfo=1
+
+[NPC1932]
+Name=Roswell <Carpintería>
+Desc=¡Puedes convertir tu madera en lo que tu quieras! Debes aprender sobre esto items en la sección Carpintería, dentro de la Wiki Online
+Body=6166
+Head=0
+BodyIdle=6166
+NpcType=0
+NoMapInfo=1
+
+[NPC1934]
+Name=Isabella <Cocinera de Banderbill>
+Desc=¡Hola! Ven a ver estos productos, sólo aquí conseguirás las mejores provisiones de todas estas tierras.
+Body=6171
+Head=0
+BodyIdle=6171
+NpcType=0
+Comercia=1
+NROITEMS=6
+Obj1=1-1000
+Obj2=22-1000
+Obj3=29-1000
+NoMapInfo=1
+
+[NPC1935]
+Name=Ivar Costahilo <Sastre>
+Desc=¡Las mejores telas, no tienes nada que perder con estos precios!
+Body=6200
+Head=0
+BodyIdle=6200
+NpcType=0
+Comercia=1
+NROITEMS=14
+Obj1=32-1000
+Obj2=35-1000
+Obj3=964-1000
+NoMapInfo=1
+
+[NPC1936]
+Name=Ulf Arcas <Finanzas Goliath>
+Desc=Hola, bienvenido a la cadena de finanzas Goliath.
+Body=6250
+Head=0
+NpcType=4
+PuedeInvocar=1
+NoMapInfo=1
+
+[NPC1937]
+Name=Harim <Quest de Inframundo>
+Desc=¿Has oído ese rugido? No viene de las llamas... viene de Bael. Esa bestia patrulla el acceso al subsuelo y no deja pasar a nadie. Quienes intentaron enfrentarlo cuerpo a cuerpo jamás regresaron. La única forma de abatirlo es manteniendo la distancia.
+Body=477
+Head=0
+NpcType=17
+
+[NPC1938]
+Name=Herrim <Carpintero>
+Desc=¡Puedes convertir tu madera en lo que tu quieras! Debes aprender sobre esto items en la sección Carpintería, dentro de la Wiki Online
+Body=6172
+Head=0
+BodyIdle=6172
+NpcType=0
+NoMapInfo=1
+
+[NPC1939]
+Name=Brynhild <Sastre de Forgat>
+Desc=¡Calidad en pieles, solo para Damas!
+Body=6169
+Head=0
+BodyIdle=6169
+NpcType=0
+Comercia=1
+NROITEMS=3
+Obj1=1272-1000
+Obj2=1273-1000
+Obj3=2927-1000
+NoMapInfo=1
+
+[NPC1940]
+Name=Solveig <Mercader>
+Desc=¡Todo lo que buscas y más!
+Body=6198
+Head=0
+BodyIdle=6198
+NpcType=0
+Comercia=1
+NROITEMS=2
+Obj1=534-100
+Obj2=199-100
+NoMapInfo=1
+
+[NPC1941]
+Name=Styrkar <Minero>
+Desc=¡Ey, tú! ¿Quieres trabajar? Acércate, tengo la herramienta necesaria para extraer los minerales en este mundo!
+Body=452
+Head=0
+NpcType=0
+Comercia=1
+NROITEMS=4
+Obj1=203-1000
+Obj2=1142-1000
+Obj3=390-1000
+NoMapInfo=1
+
+[NPC1942]
+Name=Asthir <Guardiana Vikinga>
+Body=395
+Head=0
+BodyIdle=393
+NpcType=0
+NoMapInfo=1
+
+[NPC1944]
+Name=Fhiela <Herreria>
+Desc=¿Quieres aprender a forjar tus items? ¡La información que necesitas se encuentra en la Wiki Online, en la sección Herrería!
+Body=448
+Head=0
+NpcType=0
+NoMapInfo=1
+
+[NPC1945]
+Name=Madher <Carpintero>
+Desc=¡Puedes convertir tu madera en lo que tu quieras! Debes aprender sobre esto items en la sección Carpintería, dentro de la Wiki Online
+Body=447
+Head=0
+NpcType=0
+NoMapInfo=1
+
+[NPC1946]
+Name=Dilma <Carpintera>
+Desc=¡Puedes convertir tu madera en lo que tu quieras! Debes aprender sobre esto items en la sección Carpintería, dentro de la Wiki Online
+Body=399
+Head=0
+NpcType=0
+NoMapInfo=1
+
+[NPC1947]
+Name=Petrona <Cocinera>
+Desc=¡Hola! Ven a ver estos productos, sólo aquí conseguirás las mejores provisiones de todas estas tierras.
+Body=398
+Head=0
+NpcType=0
+Comercia=1
+NROITEMS=6
+Obj1=1-1000
+Obj2=22-1000
+Obj3=29-1000
+NoMapInfo=1
+
+[NPC1948]
+Name=Moe <Tabernero>
+Desc=¡Ey, tú! Noto en tu mirada que necesitas algo fresco. ¡Has llegado al lugar correcto!
+Body=396
+Head=0
+NpcType=0
+Comercia=1
+NROITEMS=4
+Obj1=43-1000
+Obj2=160-1000
+Obj3=42-1000
+NoMapInfo=1
+
+[NPC1949]
+Name=Droslo <Alquimista>
+Desc=¡El mundo de la Alquimia es maravilloso! Te recomiendo aprender todo lo relacionado, en la sección Alquimia dentro de la Wiki Online
+Body=276
+Head=0
+NpcType=0
+NoMapInfo=1
+
+[NPC1950]
+Name=Ivir <Alquimista>
+Desc=¡El mundo de la Alquimia es maravilloso! Te recomiendo aprender todo lo relacionado, en la sección Alquimia dentro de la Wiki Online
+Body=6202
+Head=0
+BodyIdle=6202
+NpcType=0
+NoMapInfo=1
+
+[NPC1952]
+Name=Kaelen <Quest de Guarida>
+Desc=¡Bienvenido, aventurero! La Guarida Abandonada alberga criaturas muy peligrosas que han tomado control del lugar. Si puedes ayudarme a exterminarlas, te recompensaré bien.
+Body=407
+Head=0
+NpcType=17
+
+[NPC1953]
+Name=Vaelora <Quest de Arrecife>
+Desc=¡Bienvenido, aventurero! Las profundidades del Arrecife de Coral están infestadas de nagas que han comenzado a expandir su territorio. Necesito a alguien dispuesto a enfrentarlos y reducir su número antes de que se conviertan en una amenaza aún mayor. ¿Te atreves a adentrarte en sus dominios?
+Body=409
+Head=0
+NpcType=17
+
+[NPC1954]
+Name=Dornak <Equipamiento de Principiante>
+Desc=¿Recién empezás tu aventura? Entonces necesitás el equipo adecuado. Tengo el mejor equipamiento para todo principiante.
+Body=494
+Head=0
+NpcType=0
+Comercia=1
+NROITEMS=14
+Obj1=3490-100
+Obj2=3500-100
+Obj3=3502-100
 
 [HECHIZO1]
 Nombre=Dardo Mágico
