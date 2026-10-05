@@ -16629,13 +16629,49 @@ ReSpawn=0
 DisabledInBattleServer=1
 NumQuest=1
 QuestNumber1=30
-[NPC1174]'Libre
+[NPC1174] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC545 del oficial, vida mas parecida: SUPUESTO; sin drops
+Name=Borvat
+Head=0
+Body=6028
+BodyIdle=6026
+NpcType=0
+Ataque1=6027
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=3000
+MinHP=3000
+MaxHIT=120
+MinHIT=85
+GiveEXP=0
+GiveGLD=0
+PoderAtaque=185
+PoderEvasion=130
 
 [NPC1175]'Libre
 
 [NPC1176]'Libre
 
-[NPC1177]'Libre
+[NPC1177] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC1015 del oficial, vida mas parecida: SUPUESTO; sin drops
+Name=Borvat
+Head=0
+Body=6028
+BodyIdle=6026
+NpcType=0
+Ataque1=6027
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=5600
+MinHP=5600
+MaxHIT=190
+MinHIT=160
+GiveEXP=0
+GiveGLD=0
+PoderAtaque=215
+PoderEvasion=160
 
 [NPC1178] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Grimbak <Finanzas Goliath>
@@ -16953,7 +16989,25 @@ pt_Name=LAAN <Imiss>
 NumQuest=1
 QuestNumber1=165
 
-[NPC1190]'Libre
+[NPC1190] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC547 del oficial, vida mas parecida: SUPUESTO; sin drops
+Name=Krugg
+Head=0
+Body=6025
+BodyIdle=6023
+NpcType=0
+Ataque1=6024
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=1650
+MinHP=1650
+MaxHIT=65
+MinHIT=55
+GiveEXP=0
+GiveGLD=0
+PoderAtaque=230
+PoderEvasion=125
 
 [NPC1191] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Banes <Quest de Galeon Patreon>
@@ -27792,16 +27846,25 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-[NPC1799] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name='Pirata Elfa'
-Body=6009
+[NPC1799] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC990 del oficial, vida mas parecida: SUPUESTO; sin drops
+Name=Isolda
 Head=0
+Body=6009
 BodyIdle=6007
+NpcType=0
 Ataque1=6008
-MaxHp=3600
-MinHp=3600
-MaxHIT=95
-MinHIT=75
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=750
+MinHP=750
+MaxHIT=45
+MinHIT=30
+GiveEXP=0
+GiveGLD=0
+PoderAtaque=140
+PoderEvasion=110
 
 [NPC1817] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Ilusión de Crocky <Quest>
