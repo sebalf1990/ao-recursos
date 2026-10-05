@@ -3,7 +3,7 @@
 'Reorganización Masiva.
 
 [INIT]
-NumNPCs=9050
+NumNPCs=9051
 
 'SPOTS LIBRES<<<<<<<<<<<<<<<<<<<<<<<<<<<#
 '16 al 23  		Comerciantes			#
@@ -12086,36 +12086,15 @@ Hostile=1
 PoderAtaque=55
 PoderEvasion=35
 
-[NPC1004]
-Name=Monje
-En_Name=Monk
-Desc=¿Qué quieres? Tengo prisa.
-Head=8
-Body=192
-Heading=3
-Movement=20
-Attackable=0
-Comercia=0
-Hostile=0
-NROITEMS=0
+[NPC1004] 'Del oficial (pack 2026-10-01); quest. El numero era nuestro Monje, mudado a NPC9051. Plan 17.001 Ola 3. sin quest: habla y nada mas
+Name=Nargoth <Ques de Guarida Abandonadat>
+Desc=¿Tú? Bah, no pareces más que carne blanda. Pero si tienes estómago para la sangre, quizás sirvas para algo.
+Head=0
+Body=6148
+NpcType=17
 ShowName=1
-IntervaloMovimiento=300
-CaminataLen=10
-Caminata1=0:8:3000
-Caminata2=7:8:3000
-Caminata3=7:-24:3000
-Caminata4=-12:-24:3000
-Caminata5=-12:8:3000
-Caminata6=56:8:3000
-Caminata7=56:-47:3000
-Caminata8=7:-47:3000
-Caminata9=7:0:3000
-Caminata10=0:0:3000
-Minimap=1
-en_desc=What do you want? I'm in a hurry.
-NPCLVL=13
-MagicResistance=33
-MagicDef=0
+Heading=3
+Movement=1
 
 [NPC1005]
 Name=Yoel
@@ -30116,4 +30095,35 @@ Obj12=3496-100
 Obj13=3491-100
 Obj14=3492-100
 TipoItems=100
+
+[NPC9051] 'Monje: mudado desde NPC1004, que el oficial usa para otro NPC. Plan 17.001 Ola 3
+Name=Monje
+En_Name=Monk
+Desc=¿Qué quieres? Tengo prisa.
+Head=8
+Body=192
+Heading=3
+Movement=20
+Attackable=0
+Comercia=0
+Hostile=0
+NROITEMS=0
+ShowName=1
+IntervaloMovimiento=300
+CaminataLen=10
+Caminata1=0:8:3000
+Caminata2=7:8:3000
+Caminata3=7:-24:3000
+Caminata4=-12:-24:3000
+Caminata5=-12:8:3000
+Caminata6=56:8:3000
+Caminata7=56:-47:3000
+Caminata8=7:-47:3000
+Caminata9=7:0:3000
+Caminata10=0:0:3000
+Minimap=1
+en_desc=What do you want? I'm in a hurry.
+NPCLVL=13
+MagicResistance=33
+MagicDef=0
 
