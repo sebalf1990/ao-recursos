@@ -3,7 +3,7 @@
 'Reorganización Masiva.
 
 [INIT]
-NumNPCs=9054
+NumNPCs=9055
 
 'SPOTS LIBRES<<<<<<<<<<<<<<<<<<<<<<<<<<<#
 '16 al 23  		Comerciantes			#
@@ -13042,34 +13042,25 @@ PoderEvasion=140
 DropCount=1
 Drop1=5181-1000-1-1
 
-[NPC1035]'
-Name=Minero Exiliado
-ShowName=0
-En_Name=Exiled Miner
-ReSpawn=0
-Body=1728
-Head=634
-Arma=148
+[NPC1035] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Minero Exiliado, mudado a NPC9055. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC537 del oficial, vida mas parecida: SUPUESTO; sin drops
+Name=Philiph
+Head=0
+Body=6031
+BodyIdle=6029
+NpcType=0
+Ataque1=6030
 Heading=3
 Movement=2
 Attackable=1
 Hostile=1
-GiveEXP=1400
-GiveGLD=110
-MinHP=2500
-MaxHP=2000
-MaxHIT=105
-MinHIT=70
-DEF=0
-PoderAtaque=150
-PoderEvasion=115
-NumQuiza=1
-QuizaDropea1=1271-1
-QuizaProb=40
-Humanoide=1
-NPCLVL=17
-MagicResistance=43
-MagicDef=10
+MaxHP=1200
+MinHP=1200
+MaxHIT=40
+MinHIT=20
+GiveEXP=0
+GiveGLD=0
+PoderAtaque=170
+PoderEvasion=90
 
 [NPC1036]
 Name=Tortuga Coriacea
@@ -30166,4 +30157,33 @@ it_Desc=Equipaggiamento leggendario per i guerrieri
 it_Name=Guerrero (leggendario)
 pt_Desc=Equipamento lendário para guerreiros
 pt_Name=Guerrero (lendário)
+
+[NPC9055] 'Minero Exiliado: mudado desde NPC1035, que el oficial usa para otro NPC. Plan 17.001 Ola 3
+Name=Minero Exiliado
+ShowName=0
+En_Name=Exiled Miner
+ReSpawn=0
+Body=1728
+Head=634
+Arma=148
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+GiveEXP=1400
+GiveGLD=110
+MinHP=2500
+MaxHP=2000
+MaxHIT=105
+MinHIT=70
+DEF=0
+PoderAtaque=150
+PoderEvasion=115
+NumQuiza=1
+QuizaDropea1=1271-1
+QuizaProb=40
+Humanoide=1
+NPCLVL=17
+MagicResistance=43
+MagicDef=10
 
