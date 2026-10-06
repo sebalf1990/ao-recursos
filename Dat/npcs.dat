@@ -3041,8 +3041,9 @@ en_desc=I've got missions for you!
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=1
+NumQuest=2
 QuestNumber1=135
+QuestNumber2=427
 
 [NPC409]
 Name=Bowkrag <Quest>
@@ -14808,8 +14809,9 @@ Obj11=9-1
 NPCLVL=24
 MagicResistance=60
 MagicDef=5
-NumQuest=1
+NumQuest=2
 QuestNumber1=140
+QuestNumber2=421
 [NPC1112] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Azhara <Quest de Nagas>
 SoundOpen=2195
@@ -16275,6 +16277,8 @@ en_desc=If you think you have what it takes to become the best fisherman, accept
 NPCLVL=16
 MagicResistance=40
 MagicDef=10
+NumQuest=1
+QuestNumber1=417
 
 [NPC1155]'Se le quitan las dos Quests, porque ninguna estaba operativa quest124, quest125
 Name=Malvur
@@ -16468,6 +16472,8 @@ NpcType=17
 ShowName=1
 Heading=3
 Movement=1
+NumQuest=1
+QuestNumber1=418
 
 [NPC1166] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Aelder <Quest de Cercanias de Eleusis>
@@ -16583,10 +16589,11 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 DisabledInBattleServer=1
-NumQuest=3
+NumQuest=4
 QuestNumber1=270
 QuestNumber2=271
 QuestNumber3=272
+QuestNumber4=423
 [NPC1173] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Viejo Forjador <Quest de Pico de Blodium>
 Desc=¿Vienes por el Blodium? Ja.. Primero tendrás que ganártelo. Esta aldea no cayó por el frío, muchacho.
@@ -18620,6 +18627,8 @@ NpcType=17
 ShowName=1
 Heading=3
 Movement=1
+NumQuest=1
+QuestNumber1=391
 
 [NPC1251]
 Name=Serin
@@ -19971,6 +19980,8 @@ Desc=¡Estudiaba la Serpiente Albina para poder extraer y sinterizar su veneno, 
 Body=889
 Head=0
 NpcType=17
+NumQuest=1
+QuestNumber1=227
 
 [NPC1296] 'Del oficial (pack 2026-10-01); quest. El numero era nuestro Pequeño lobo gris, mudado a NPC9060. Plan 17.001 Ola 3. sin quest: habla y nada mas
 Name=Krazgor <Quest de Bosses>
@@ -19981,6 +19992,8 @@ NpcType=17
 ShowName=1
 Heading=3
 Movement=1
+NumQuest=1
+QuestNumber1=419
 
 [NPC1297]
 Name=Elise <Quest>
@@ -24207,6 +24220,10 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+NumQuest=3
+QuestNumber1=224
+QuestNumber2=225
+QuestNumber3=226
 
 [NPC1700] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Guardia Elfico <Protector de Eldoria>
@@ -29839,6 +29856,8 @@ NpcType=17
 ShowName=1
 Heading=3
 Movement=1
+NumQuest=1
+QuestNumber1=422
 
 [NPC1938] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla
 Name=Herrim <Carpintero>
@@ -30048,6 +30067,8 @@ NpcType=17
 ShowName=1
 Heading=3
 Movement=1
+NumQuest=1
+QuestNumber1=413
 
 [NPC1953] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
 Name=Vaelora <Quest de Arrecife>
@@ -30058,6 +30079,8 @@ NpcType=17
 ShowName=1
 Heading=3
 Movement=1
+NumQuest=1
+QuestNumber1=415
 
 [NPC1954] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor
 Name=Dornak <Equipamiento de Principiante>
