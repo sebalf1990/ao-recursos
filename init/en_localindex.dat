@@ -3,7 +3,7 @@ NUMEROHECHIZO=425
 NUMLOCALEMSG=2215
 NUMMAPAS=750
 NUMNPCS=9063
-NUMOBJS=9204
+NUMOBJS=9205
 NUMQUESTS=905
 NUMSUGERENCIAS=6
 
@@ -24534,34 +24534,34 @@ Valor=100000
 Texto=Armadura de Dragón Rojo
 
 [OBJ482]
-GrhIndex=0
+Name=Puerta Meson Puerta Abierta.
+GrhIndex=2254
+ObjType=6
+Llave=0
+Agarrable=1
+Texto=Name=Puerta Meson Puerta Abierta.
 
 [OBJ483]
-Name=Red Dragon Armor (E/G)
-GrhIndex=2647
-RopajeHumano=247
-RopajeElfo=247
-RopajeElfoOscuro=2032
-RopajeEnano=1702
-RopajeOrco=2016
-RopajeGnomo=1702
-RopajeHumana=2156
-RopajeElfa=2156
-RopajeElfaOscura=2965
-RopajeEnana=2936
-RopajeOrca=2949
-RopajeGnoma=2936
-ObjType=3
-MAXDEF=40
-MINDEF=35
-Valor=100000
-Texto=Armadura de Dragón Rojo (Bajos)
+Name=Puerta Meson Puerta Cerrada.
+GrhIndex=2255
+ObjType=6
+Llave=0
+Agarrable=1
+Texto=Puerta de Puerta Meson
 
 [OBJ484]
-GrhIndex=0
+Name=Puerta Meson Con Llave
+GrhIndex=2255
+ObjType=6
+Llave=1
+Agarrable=1
+Texto=Puerta de Puerta Meson
 
 [OBJ485]
-GrhIndex=0
+Name=Llave Puerta Meson
+GrhIndex=509
+ObjType=9
+Texto=Llave Puerta Meson
 
 [OBJ486]
 Name=Basic Vestment (E/G)
@@ -73613,6 +73613,107 @@ PielOsoPardo=0
 PielOsoPolar=0
 name=Basic Vestment
 Texto=Vestimenta Común
+
+[OBJ9205]
+Name=Red Dragon Armor (E/G)
+GrhIndex=2647
+RopajeHumano=247
+RopajeElfo=247
+RopajeElfoOscuro=2032
+RopajeEnano=1702
+RopajeOrco=2016
+RopajeGnomo=1702
+RopajeHumana=2156
+RopajeElfa=2156
+RopajeElfaOscura=2965
+RopajeEnana=2936
+RopajeOrca=2949
+RopajeGnoma=2936
+ObjType=3
+MAXDEF=40
+MINDEF=35
+Valor=100000
+Texto=Armadura de Dragón Rojo (Bajos)
+
+[OBJ6403]
+Name=Puerta de castillo Nro 1 Puerta Abierta.
+GrhIndex=15404
+ObjType=6
+Llave=0
+Agarrable=1
+Texto=Name=Puerta de castillo Nro 1 Puerta Abierta.
+
+[OBJ6404]
+Name=Puerta de castillo N° 1 Puerta Cerrada.
+GrhIndex=15403
+ObjType=6
+Llave=0
+Agarrable=1
+Texto=Puerta de Puerta de castillo
+
+[OBJ6405]
+Name=Puerta de castillo N° 1 Con Llave
+GrhIndex=15403
+ObjType=6
+Llave=1
+Agarrable=1
+Texto=Puerta de Puerta de castillo
+
+[OBJ6407]
+Name=Puerta de castillo N° 2 Puerta Abierta.
+GrhIndex=15404
+ObjType=6
+Llave=0
+Agarrable=1
+Texto=Name=Puerta de castillo N° 2 Puerta Abierta.
+
+[OBJ6408]
+Name=Puerta de castillo N° 2 Puerta Cerrada.
+GrhIndex=15403
+ObjType=6
+Llave=0
+Agarrable=1
+Texto=Puerta de Puerta de castillo
+
+[OBJ6409]
+Name=Puerta de castillo N° 2 Con Llave
+GrhIndex=15403
+ObjType=6
+Llave=1
+Agarrable=1
+Texto=Puerta de Puerta de castillo
+
+[OBJ6411]
+Name=Puerta de castillo N° 3 Puerta Abierta.
+GrhIndex=15404
+ObjType=6
+Llave=0
+Agarrable=1
+Texto=Name=Puerta de castillo N° 3 Puerta Abierta.
+
+[OBJ6412]
+Name=Puerta de castillo N° 3 Puerta Cerrada.
+GrhIndex=15403
+ObjType=6
+Llave=0
+Agarrable=1
+Texto=Puerta de Puerta de castillo
+
+[OBJ6413]
+Name=Puerta de castillo N° 3 Con Llave
+GrhIndex=15403
+ObjType=6
+Llave=1
+Agarrable=1
+Texto=Puerta de Puerta de castillo
+
+[OBJ6419]
+Name=Cartel
+Info=Catillo
+GrhIndex=31782
+ObjType=8
+Texto=Si tienes la reliquia del Emperador podras crear tu castillo en este lugar.
+Agarrable=1
 
 [NPC9000]
 Name=Master Carpenter and Woodcutter <Carpinteria y Tala>
