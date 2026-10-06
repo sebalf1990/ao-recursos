@@ -2346,7 +2346,7 @@ Nombre=Forgia di picchetti di Blodium
 Desc=Tu non sembri uno di loro. Ascolta, prima che questo villaggio morisse congelato, siamo venuti qui per una cosa sola: il Blodium. Un raro minerale blu, resistente come la montagna stessa. Ma non cade a terra così facilmente. Per raccoglierlo, ti serve uno strumento speciale, uno che ho forgiato io stesso anni fa: il piccone speciale di Blodium. L'originale è andato perduto, ma ho gli strumenti per costruirtene uno nuovo, se mi aiuti a liberare un passaggio così possiamo uscire da qui.
 DescFinal=Perfetto! Con queste pelli potrò sopravvivere alla discesa. Prendi il picchetto, una promessa è una promessa. Me ne vado subito.
 Repetible=1
-RequiredLevel=28
+RequiredLevel=25
 PosMap=182
 
 [QUEST31]
@@ -3989,7 +3989,7 @@ Nombre=Impara la ricetta del Fuoco
 Desc=Thirga Brumhilda ti ha affidato un compito scottante. All'interno del portale della Foresta degli Spiriti, i Portatori di Fuoco custodiscono antiche pagine di un grimorio perduto. Raccogli 50 Pagine del Libro del Fuoco, forgiate nel calore stesso della creazione. Solo allora sarai in grado di padroneggiare la Ricetta dell'Elemento del Fuoco, simbolo del potere e della passione della fucina nanica.
 DescFinal=Ah! Sento l'odore del fumo sui tuoi vestiti e vedo il bagliore del fuoco nei tuoi occhi. Hai portato le lame ardenti e, con esse, la conoscenza degli antichi fabbri. Da oggi in poi, il fuoco risponderà al tuo martello. Usa questa ricetta con orgoglio, Lavoratore, e lascia che ogni colpo accenda la storia di Morgrim!
 Repetible=0
-RequiredLevel=28
+RequiredLevel=25
 PosMap=594
 
 [QUEST280]
@@ -3997,7 +3997,7 @@ Nombre=Impara la ricetta per l'Acqua
 Desc=Thirga ti ha parlato dell'equilibrio dell'Acqua, un elemento paziente e malleabile. Nella Visione Ancestrale, i Portatori d'Acqua proteggono le pagine di un grimorio fluido e in continua evoluzione. Raccogli 50 Pagine del Libro dell'Acqua e dimostra di poter temprare la tua volontà come l'acciaio sotto il fiume. Padroneggia la Ricetta dell'Elemento Acqua e lascia che la serenità guidi la tua mano.
 DescFinal=Vedo che hai imparato la lezione dell'acqua... paziente, costante, indistruttibile. L'acqua lucida la pietra come il lavoro lucida un nano. Prendi questa ricetta e lasciala scorrere nella tua fucina. Possa ogni goccia che cade sul metallo ricordarti chi sei.
 Repetible=0
-RequiredLevel=28
+RequiredLevel=25
 PosMap=594
 
 [QUEST281]
@@ -4005,7 +4005,7 @@ Nombre=Scopri la ricetta del Vento
 Desc=Nella Visione Ancestrale, i Portatori del Vento si muovono tra raffiche invisibili, salvaguardando il potere volatile. Thirga Brumhilda ti sfida a raccogliere 50 Foglie del Libro del Vento, frammenti leggeri e sfuggenti come una corrente d'aria. Solo coloro che comprendono la libertà del vento possono padroneggiare la Ricetta dell'Elemento Vento.
 DescFinal=Ti sei mosso rapidamente, come un ruscello tra le montagne. Il vento non si lascia catturare facilmente, ma lo hai domato con il tuo impegno. Ricevi questa ricetta e lascia che il respiro dell'aria benedica le tue fucine. Nessun muro può contenere uno spirito libero.
 Repetible=0
-RequiredLevel=28
+RequiredLevel=25
 PosMap=594
 
 [QUEST282]
@@ -4013,7 +4013,7 @@ Nombre=Découvrez la recette de la Terre
 Desc=L'ultima sfida di Thirga ti porta dai Portatori di Terra. Le loro foglie pesano quanto montagne e solo un lavoratore davvero perseverante può raccogliere 50 Foglie del Libro della Terra. La Ricetta dell'Elemento Terra rappresenta la stabilità, la forza e la resilienza del popolo di Morgrim.
 DescFinal=Saldi come una roccia. Così sono forgiati i veri lavoratori. Hai sopportato il peso della terra, e lei ti ha accolto. Prendi questa ricetta, figlio della fucina, e lascia che la tua arte sia eterna come la pietra di Morgrim.
 Repetible=0
-RequiredLevel=28
+RequiredLevel=25
 PosMap=594
 
 [QUEST285]

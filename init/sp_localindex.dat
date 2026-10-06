@@ -214,7 +214,7 @@ Nombre=Forja del Piquete de Blodium
 Desc=Tú no pareces uno de ellos. Escucha, antes de que esta aldea se congelara en muerte, veníamos aquí por una sola cosa: Blodium. Un mineral azul, raro, resistente como la montaña misma. Pero no se deja extraer así como así. Para picarlo, hace falta una herramienta especial, una que yo mismo forjé hace años: el Piquete Especial de Blodium. El original se perdió, pero tengo las herramientas para hacerte uno nuevo, si me ayudas a despejar el camino y poder salir de aquí.
 DescFinal=¡Perfecto! Con estas pieles podré sobrevivir al descenso. Toma el piquete, lo prometido es deuda. Yo me largo ya
 Repetible=1
-RequiredLevel=28
+RequiredLevel=25
 PosMap=182
 
 [QUEST31]
@@ -1857,7 +1857,7 @@ Nombre=Aprender la receta de Fuego
 Desc=Thirga Brumhilda te ha encomendado una tarea ardiente. En el interior del portal del Bosque de los Espíritus, los Portadores de Fuego custodian antiguas hojas de un grimorio perdido. Reúne 50 Hojas de Libro de Fuego, forjadas en el calor mismo de la creación. Solo entonces podrás dominar la Receta del Elemento Fuego, símbolo del poder y la pasión de la fragua enana.
 DescFinal=¡Ja! Puedo oler el humo en tus ropas y ver el brillo del fuego en tus ojos. Has traído las hojas ardientes, y con ellas, el conocimiento de los antiguos forjadores. Desde hoy, el fuego responderá a tu martillo. ¡Usa esta receta con orgullo, Trabajador, y deja que cada golpe encienda la historia de Morgrim!
 Repetible=0
-RequiredLevel=28
+RequiredLevel=25
 PosMap=594
 
 [QUEST280]
@@ -1865,7 +1865,7 @@ Nombre=Aprender la receta de Agua
 Desc=Thirga te ha hablado del equilibrio del Agua, elemento paciente y moldeable. En la Visión Ancestral, los Portadores de Agua protegen las hojas de un grimorio fluido y cambiante. Reúne 50 Hojas de Libro de Agua y demuestra que puedes templar tu voluntad como el acero bajo el arroyo. Domina la Receta del Elemento Agua y deja que la serenidad guíe tu mano.
 DescFinal=Veo que aprendiste la lección del agua... paciente, constante, imposible de quebrar. El agua pule la piedra como el trabajo pule al enano. Toma esta receta y deja que fluya en tu forja. Que cada gota que caiga sobre el metal te recuerde quién eres.
 Repetible=0
-RequiredLevel=28
+RequiredLevel=25
 PosMap=594
 
 [QUEST281]
@@ -1873,7 +1873,7 @@ Nombre=Aprender la receta de Viento
 Desc=En la Visión Ancestral, los Portadores de Viento se mueven entre ráfagas invisibles, resguardando un poder volátil. Thirga Brumhilda te desafía a recolectar 50 Hojas de Libro de Viento, fragmentos ligeros y esquivos como una corriente de aire. Solo quienes entienden la libertad del viento pueden controlar la Receta del Elemento Viento.
 DescFinal=Te moviste rápido, como una corriente entre las montañas. El viento no se deja atrapar fácilmente, pero tú lo has domado con tu esfuerzo. Recibe esta receta, y deja que el soplo del aire bendiga tus forjas. No hay muro que pueda contener a un espíritu libre.
 Repetible=0
-RequiredLevel=28
+RequiredLevel=25
 PosMap=594
 
 [QUEST282]
@@ -1881,7 +1881,7 @@ Nombre=Aprender la receta de Tierra
 Desc=El último desafío de Thirga te lleva al encuentro de los Portadores de Tierra. Sus hojas pesan como montañas, y solo un trabajador de verdadera perseverancia podrá reunir 50 Hojas de Libro de Tierra. La Receta del Elemento Tierra representa la estabilidad, la fuerza y la resistencia del pueblo de Morgrim.
 DescFinal=Firme como la roca. Así se forjan los verdaderos trabajadores. Has soportado el peso de la tierra, y ella te ha aceptado. Toma esta receta, hijo de la fragua, y deja que tu arte sea tan eterno como la piedra de Morgrim.
 Repetible=0
-RequiredLevel=28
+RequiredLevel=25
 PosMap=594
 
 [QUEST285]
