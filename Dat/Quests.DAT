@@ -9483,6 +9483,42 @@ it_Nombre=Il Decreto dei Guardiani
 it_Desc=Hai trovato un antico pergamena sigillata con un emblema che ormai nessuno riconosce più. L'inchiostro si è consumato con il passare del tempo, ma il messaggio è rimasto intatto. "A ogni avventuriero capace di leggere queste parole: l'equilibrio del continente dipende dalla caduta di quattro guardiani la cui esistenza ha alterato il corso del mondo. Gigantor domina l'Isola della Nuova Speranza con una forza capace di abbattere fortezze. Il Gigante di Ghiaccio uccide chiunque osi mettere piede al Polo Nord. Zeraphon governa il Mare dei Leviatani, trasformando quelle acque in un cimitero per i navigatori. E l'Ent Elfico protegge il cuore della Foresta Elfica, dove le radici rispondono solamente alla sua volontà. Finché questi quattro colossi rimarranno in piedi, nessun angolo del continente sarà veramente al sicuro. Se possiedi la forza necessaria, trovali e metti fine al loro regno." Non esiste alcuna testimonianza di chi abbia scritto questo decreto né di quanti abbiano tentato di portarlo a termine. L'unica certezza è che pochissimi sono stati capaci di affrontare anche solo uno di questi esseri. Sconfiggi i quattro boss mondiali e dimostra di essere degno di compiere un'impresa riservata agli avventurieri più potenti. Poi, vai a parlare con Sheila, sulla mappa 171, per ottenere la tua ricompensa.
 it_DescFinal=I quattro guardiani sono caduti e, per la prima volta dopo secoli, i loro domini sono rimasti in silenzio. Osservando la pergamena, riesco a distinguere una piccola iscrizione nascosta sotto il sigillo: "Quattro sono caduti. L'equilibrio può iniziare a essere ristabilito." Non so chi abbia scritto queste parole né perché siano stati scelti proprio questi quattro colossi. Forse la loro sconfitta fa parte di qualcosa di molto più antico di quanto possiamo immaginare. Hai compiuto la tua missione. Prendi la tua ricompensa.
 
+[QUEST424] 'Del oficial (API 2026-10-02). Plan 17.001, ola de quests
+Nombre=Más Allá del Enredo
+Desc=Has aprendido a utilizar Enredar, pero este hechizo es apenas el comienzo. Existe una magia mucho más poderosa: Aturdir. Los Brumaks conocen bien este hechizo y lo utilizan para dejar inmóviles a sus enemigos. Si quieres aprender a dominarlo, tendrás que enfrentarte a ellos y demostrar que puedes resistir su poder. Aunque no serán tu único desafío
+DescFinal=Lo has conseguido. Has aprendido a llevar el poder de Enredar mucho más allá. Ahora podrás dejar a tus enemigos completamente inmóviles. Domina Aturdir y haz que conozcan el verdadero significado de la parálisis.
+Repetible=0
+RequiredLevel=24
+RequiredClassesCount=3
+RequiredClass1=4
+RequiredClass2=7
+RequiredClass3=12
+RequiredNPCs=3
+RequiredNpc1=721-30
+RequiredNpc2=555-20
+RequiredNpc3=557-20
+RewardEXP=0
+RewardGLD=0
+PosMap=560
+RequiredSpellCount=1
+RequiredSpell1=350
+RewardSkills=1
+RewardSkill1=28
+DescAudio=852
+DescFinalAudio=853
+en_Nombre=Beyond Ensnare
+en_Desc=You have learned to use Ensnare, but this spell is only the beginning. There is a much more powerful magic: Stun. Brumaks know this spell well and use it to leave their enemies immobile. If you want to master it, you will have to face them and prove that you can withstand their power. However, they will not be your only challenge
+en_DescFinal=You have done it. You have learned to take the power of Ensnare much further. Now you will be able to leave your enemies completely immobile. Master Stun and let them learn the true meaning of paralysis.
+pt_Nombre=Além do Enredar
+pt_Desc=Você aprendeu a usar Enredar, mas esse feitiço é apenas o começo. Existe uma magia muito mais poderosa: Atordoar. Os Brumaks conhecem bem esse feitiço e o utilizam para deixar seus inimigos imóveis. Se quiser dominá-lo, terá que enfrentá-los e provar que consegue resistir ao seu poder. No entanto, eles não serão seu único desafio
+pt_DescFinal=Você conseguiu. Aprendeu a levar o poder de Enredar muito além. Agora poderá deixar seus inimigos completamente imóveis. Domine Atordoar e faça com que conheçam o verdadeiro significado da paralisia.
+fr_Nombre=Au-delà d'Entraver
+fr_Desc=Vous avez appris à utiliser Entraver, mais ce sort n'est que le début. Il existe une magie bien plus puissante : Étourdir. Les Brumaks connaissent bien ce sort et l'utilisent pour immobiliser leurs ennemis. Si vous voulez le maîtriser, vous devrez les affronter et prouver que vous pouvez résister à leur pouvoir. Cependant, ils ne seront pas votre seul défi
+fr_DescFinal=Vous avez réussi. Vous avez appris à pousser le pouvoir d'Entraver bien plus loin. Vous pourrez désormais laisser vos ennemis complètement immobiles. Maîtrisez Étourdir et faites-leur découvrir le véritable sens de la paralysie.
+it_Nombre=Oltre Intrappolare
+it_Desc=Hai imparato a usare Intrappolare, ma questo incantesimo è solo l'inizio. Esiste una magia molto più potente: Stordire. I Brumak conoscono bene questo incantesimo e lo usano per lasciare immobili i loro nemici. Se vuoi padroneggiarlo, dovrai affrontarli e dimostrare di poter resistere al loro potere. Tuttavia, non saranno la tua unica sfida
+it_DescFinal=Ci sei riuscito. Hai imparato a portare il potere di Intrappolare molto più lontano. Ora potrai lasciare i tuoi nemici completamente immobili. Padroneggia Stordire e fai conoscere loro il vero significato della paralisi.
+
 [QUEST425] 'Del oficial (API 2026-10-02). Plan 17.001, ola de quests
 Nombre=El Arte de la Invisibilidad
 Desc=La invisibilidad es un arte compleja, que pocos dominan por completo. Ocultar el cuerpo es sencillo
