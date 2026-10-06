@@ -4620,6 +4620,154 @@ DescFinal=Well done. This blue bracelet, which they once wore with such pride, i
 Repetible=1
 RequiredLevel=25
 
+[QUEST390]
+Nombre=The Watcher of the Depths
+Desc=If you've made it this far, I assume you're not afraid of the Underworld. But there's something you should know before you go any farther. Bael, the Fire Leviathan, relentlessly patrols the entrance to the underground depths, turning the path into a death sentence for the reckless. More than one warrior tried to face it head-on... and none lived to tell the tale. The only way to bring these beasts down is by keeping your distance. If you've mastered the bow, magic, or any other ranged attack, you'll be able to strike before its flames consume you. While the Underworld remains open, we must reduce their numbers so other adventurers have a chance to descend into the depths alive. Go and slay 20 Bael using only ranged attacks. Return to me when you're done, and you'll be rewarded for your service to all who dare challenge the Underworld.
+DescFinal=You've proven your patience, precision, and the resolve needed to survive the Underworld. Here is the reward I promised. You've earned it.
+Repetible=1
+RequiredLevel=36
+
+[QUEST391]
+Nombre=The Spore Plague
+Desc=South of Forgat lies a place few dare to tread: the Isle of Spores. For years it was fertile land, but today the air is thick with a poisonous dust that gives life to monstrous fungi. Niscalos, Bisporus and Amanitas have grown feeding on these toxins, becoming creatures as resilient as they are lethal. Each species hides a different poison. Some release spores that numb the body, others slowly poison their prey, and the most dangerous can cause hallucinations before they attack. The wind is starting to carry these spores toward Forgat, and if the plague keeps spreading, it will soon reach the fields and roads near the city. Travel to the Isle of Spores and cull their numbers before it's too late. Once you've eliminated enough creatures, return to me. You will be rewarded for protecting Forgat from this silent threat.
+DescFinal=The spores still drift through the air, but no longer with the same intensity. The fungal colony has taken a heavy blow, and for now its spread has stopped. The roads south of Forgat are a bit safer again for travelers and merchants. We won't be able to fully wipe out the plague while the island remains contaminated, but your intervention has bought us the time we needed. Accept your reward. And remember... on the Isle of Spores, even what seems dead can grow again.
+Repetible=1
+RequiredLevel=25
+PosMap=289
+
+[QUEST392]
+Nombre=The Fury of the Depths
+Desc=The waters surrounding the Abandoned City are no longer safe. In its depths, an ancient being has awakened: Zeraphon, the Leviathan, whose roar shakes the currents and whose fury drags down all who dare cross its path. Far to the east, beneath the turquoise waters, lies the Coral Reef, a submerged dungeon where Kaelthor, the Naga King, rules with an iron fist over his court of marine creatures. Both factions have received the same order: descend into the depths, face these titans of the sea, and return with proof of their victory. It will not be an easy task. Zeraphon and Kaelthor are no simple beasts: they are ancient guardians who resurface time and again, as if the ocean itself refuses to let them die. Whoever manages to defeat both, proving mettle and loyalty to their faction, will be rewarded with a Potion of Factional Honor. Remember, soldier: the sea shows no mercy to the weak, but rewards those who dare to challenge it in the name of their banner.
+DescFinal=The depths have been conquered. Zeraphon and Kaelthor lie defeated, and with them falls the myth of their invincibility. Sailors of your faction already recount the feat in the ports, and your name joins the list of those who dared to challenge the sea and returned alive. In recognition of your bravery, you receive a Potion of Factional Honor.
+Repetible=1
+RequiredLevel=27
+
+[QUEST406]
+Nombre=The Four Nests
+Desc=Not everyone makes it this far. The key that unlocks the Lower Catacombs has remained hidden for years, and those who have crossed its gates speak of a chamber where nature itself seems to have been corrupted. Deep below dwell four ancient species of spiders, each bound to a primordial element. Gale commands the winds, Tellus shakes the earth, Blaze devours everything with its flames, and Nevora turns water into a deadly weapon. Individually they are dangerous
+DescFinal=The four colonies have suffered a devastating blow, and activity within the second level of the Catacombs has diminished considerably. The air has grown still once more, the earth no longer trembles, the flames burn less fiercely, and the flooded tunnels have regained a calm they had long since lost. The elemental forces still linger in the depths, and sooner or later new creatures will claim the abandoned nests. For now, however, the balance has been restored, and those who dare venture into these ruins stand a far greater chance of returning alive. You have proven yourself worthy of overcoming one of the Catacombs' greatest challenges. Take your reward.
+Repetible=1
+RequiredLevel=13
+
+[QUEST407]
+Nombre=A New Adventure
+Desc=Welcome, Adventurer! You look strong. Perhaps you can help us bring better times back to this town. For some time now, different pests have begun appearing around Forgat. Snakes, rats, red ants, and other creatures have settled north of the city, making the roads and nearby fields increasingly dangerous. If you are willing, help us clear some of the area north of the city. We cannot offer you much, but the townspeople have gathered some gold to reward anyone willing to lend us a hand. It may not be a glorious task, but every great adventurer has to start somewhere.
+DescFinal=Thank you! Thank you, Adventurer! You have done a great job. The creatures that once roamed north of Forgat no longer pose a threat to those who venture beyond the city. It may seem like a small thing, but every effort counts. With your help and that of other adventurers, we can begin clearing the surrounding areas and slowly rebuild our town. We do not have much to offer you, but we keep our word. Remember that Forgat will always have work for those willing to help.
+Repetible=0
+RequiredLevel=1
+
+[QUEST408]
+Nombre=Land of Predators
+Desc=Hello again, Adventurer. I have an urgent message from the houses east of the city. Apparently, a pack of wolves led by an alpha has begun attacking the animals in the area, making the local wildlife increasingly aggressive. Ostriches, crows, and other beasts that would normally avoid the inhabitants have become dangerous, even approaching the houses to the south. The villagers are terrified and fear that, if the pack continues to grow, the attacks may eventually reach Forgat. Go east of the forest and find out what is causing this behavior. If you find the leader of the pack, eliminate him and put an end to this threat before the situation gets worse.
+DescFinal=You have done well, Adventurer. The pack has lost its leader, and with him, the fury that seemed to have taken hold of the beasts is beginning to fade. The ostriches have once again moved away from the houses, and the crows no longer attack those who approach the forest. For now, the families in the south can breathe easy. However, something does not quite add up. Animals do not usually behave this way without a reason. Perhaps the alpha was simply defending its territory... or perhaps something else was driving it to act this way. In any case, you have fulfilled your task. Take your reward and remain vigilant. The forest is peaceful once again, but we do not know how long it will last.
+Repetible=0
+RequiredLevel=3
+
+[QUEST409]
+Nombre=Outlaw
+Desc=North of Forgat, the roads have begun to become dangerous. Travelers and merchants have reported increasingly frequent attacks, and some of them have never returned. At first, it was believed to be the work of simple bandits, but recent reports tell a different story. The attackers are well armed, move in groups, and seem far too organized to be mere thieves. Their presence also appears to have disturbed the region. The packs of gray wolves that inhabit the nearby forests have become extremely aggressive, attacking hunters and even those traveling along the roads. Travel north of Forgat and eliminate the mercenaries you find in the area. Also hunt down the wolves that have become a threat to travelers. Once you have reduced their numbers sufficiently, return to me. You will be rewarded for restoring safety to the roads.
+DescFinal=The mercenaries have suffered a heavy blow, and the wolves that once preyed on travelers and merchants no longer pose the same threat. For now, those who must cross the northern lands of Forgat can do so without fearing an ambush at every turn. Mercenaries this well equipped do not appear in a region by chance. Someone hired them, and until we know who was behind it and what they were truly seeking, we cannot consider this matter closed. For now, you have done your part. Take your reward.
+Repetible=0
+RequiredLevel=5
+
+[QUEST410]
+Nombre=Dark Retribution
+Desc=We have a new problem, Adventurer, and this time it is not a matter of simple beasts. Several travelers have been found dead on the roads east of Forgat. They were not attacked by animals. Their wounds indicate that they were murdered by armed men, and the few witnesses who managed to escape speak of groups of assassins hiding among the ruins in the area. But that is not the worst of it. Skeletons have begun appearing alongside the bodies. They are not the remains of ancient inhabitants of Forgat
+DescFinal=You have returned alive. That is already more than many can say. The assassins have been eliminated, and the skeletons that once roamed the roads have returned to where they belong: beneath the earth. But there is something we cannot ignore. Those skeletons did not belong to these lands. Someone brought them here from another region and raised them through necromancy. And if a group of necromancers is going to such lengths to send the dead to Forgat, there must be a reason. Take your reward. And remember, Adventurer... when the dead begin to walk, they rarely do so without someone guiding them.
+Repetible=0
+RequiredLevel=7
+
+[QUEST411]
+Nombre=The Corrupted Altar
+Desc=We have troubling news, Adventurer. North of the city stands an ancient altar that was once a place of rest and pilgrimage. No one has used it for a long time, but it still retained a small amount of divine energy, enough to keep the place protected from dark forces. That has changed. The necromancers' forces have reached the altar and begun using it for their own purposes. They have raised corpses from the surrounding area and turned them into zombies, slowly corrupting the last traces of divine energy that remained in the place. The corruption has also affected the creatures of the region. Even the turtles that once lived near the altar have begun to rot, transforming into aggressive and deformed creatures. If we allow the altar to become completely corrupted, we do not know what kind of power the necromancers could obtain. Travel to the altar and eliminate the zombies and rotting zombies found there. Also destroy the decaying turtles and cleanse the area of every creature affected by the corruption.
+DescFinal=You have managed to cleanse the altar. The dead that once walked among the ruins have fallen silent once again, and the corrupted creatures that infested the surrounding area no longer pose a threat. But I fear we arrived too late to completely save this place. The divine energy that remained within the altar has been almost destroyed. What little remains can barely be felt, like a flame on the verge of going out. The necromancers were not merely raising the dead. They are searching for places where even a trace of power still exists and corrupting it for their own purposes. This confirms our worst fears. What happened at the altar was not an isolated attack. The necromancers are advancing, and if they continue this way, Forgat may not be their true target... but merely the beginning. Take your reward, Adventurer. And if you find another sacred place in danger, do not wait until the last flame goes out.
+Repetible=0
+RequiredLevel=9
+
+[QUEST412]
+Nombre=The Cursed Lair
+Desc=We have finally found the source of it all. For weeks, the necromancers have spread their influence across the lands surrounding Forgat. They raised the dead, corrupted the ancient altar, and sent assassins to eliminate anyone who might uncover their plans. Now we know where they are hiding. Their lair lies far from the roads, hidden among the ruins of an ancient structure. A race known as the Scrammers has gathered there, creatures who have embraced the dark arts and serve a mysterious leader known simply as the Elder. The lair is protected by numerous servants. Some are mere Scrammers, while others have learned to move through the shadows and strike without warning. There are also hooded figures who appear to be directly involved in the rituals taking place within the lair. But the true danger is the Elder. The few accounts we have managed to gather speak of a being who possesses dark powers far greater than those of his followers. We do not know how long he has been there or what he intends to accomplish, but everything that has happened so far seems to lead directly to him. The time has come to put an end to this.
+DescFinal=You have done it. The Scrammers' lair has been destroyed and their forces have been defeated. The dead have stopped rising and, for the first time in a long while, the darkness spreading around Forgat appears to have been halted. The surviving Scrammers have fled, abandoning the ruins and leaving behind the remains of their rituals. But the Elder... His presence was different. The power he wielded was unlike that of the others. Even after everything that has happened, it is difficult to believe that someone like him could have acquired such knowledge on his own. The skeletons, the murders, the corrupted altar... it was all part of something. And although we have destroyed their lair, far too many questions remain unanswered. Where did the Scrammers learn to manipulate these forces? Who taught the Elder? And how many other places were corrupted before we arrived? For now, Forgat can breathe easy. You have completed a mission that few would have accepted. Take your reward, Adventurer. But do not forget what you saw inside. The darkness has been defeated, but not necessarily destroyed.
+Repetible=0
+RequiredLevel=11
+
+[QUEST413]
+Nombre=The Legacy of Shadows
+Desc=East of Penthar stands a structure that remained empty and forgotten for years. However, those who have recently ventured near it claim to have seen movement in its windows and strange shadows wandering through its halls. The so-called Abandoned Hideout has two levels. The first is inhabited by Demonic Henchmen and Demonic Henchwomen, along with numerous Specters, creatures that seem to be guarding something hidden deep within the ruins. But the true threat lies on the second floor. There dwell two powerful gargoyles, Zevkar and Gorath, who have claimed the ancient chambers as their territory. No one knows how long they have been there or what purpose they serve. The people of Penthar fear that these creatures are secretly preparing something. As long as they remain inside the hideout, no one can venture there without putting their life at risk. Enter the Abandoned Hideout and eliminate the Demonic Henchmen, Demonic Henchwomen, Specters, and the gargoyles Zevkar and Gorath. Explore both floors and make sure none of these creatures continue to lurk among the ruins. When you are finished, return to me. The people of Penthar will be able to sleep peacefully once again knowing that the hideout is no longer under the control of these creatures.
+DescFinal=The Abandoned Hideout has fallen silent. The Demonic Henchmen and Demonic Henchwomen no longer roam its corridors, the Specters have vanished from their ancient chambers, and the gargoyles that ruled the second floor have been defeated. Zevkar and Gorath will no longer watch over the ruins from above, and for the first time in a long while, the abandoned halls have ceased to serve as a refuge for demonic creatures. We do not know what truly happened within those walls or why so many creatures gathered there, but as long as the ruins remain silent, Penthar will be safe from their threat. You have done your part. Take your reward.
+Repetible=1
+RequiredLevel=25
+PosMap=461
+
+[QUEST414]
+Nombre=The Mutiny of the Southern Isle
+Desc=South of Kamal, where the desert meets the sea, a small island has become the refuge of a crew of renegade pirates. What began as a mutiny has turned into a band of ruthless raiders who ambush merchant ships and coastal caravans before vanishing among the island's cliffs. The Insurgent Pirates and Mutinous Pirates patrol the area without allegiance to any flag, spreading fear among fishermen, sailors, and merchants alike. If no one intervenes, the sea routes that supply Kamal will soon fall under the control of these outlaws. Travel to the island and defeat enough Insurgent Pirates and Mutinous Pirates to break the strength of the rebel crew. Return to me once your task is complete. You will be rewarded for restoring safety to Kamal's shores.
+DescFinal=The pirates' activity has diminished considerably. The waters around the island are once again safer to navigate, allowing merchant vessels to travel with far less fear. While new outlaws may one day take the place of those who fell, this crew is no longer a serious threat to Kamal. Your victory has reopened an important trade route between the desert and the sea, bringing stability back to those who depend on it. Accept your reward. You have proven that even the fiercest pirates can be brought down.
+Repetible=1
+RequiredLevel=25
+PosMap=17
+
+[QUEST415]
+Nombre=The Children of the Tides
+Desc=If you have made it this far, then you have already seen the ruins hidden beneath the waters of the Coral Reef. But what lies beyond this entrance is unlike anything that inhabits our seas. Long ago, an ancient race made its home in the depths. Its members are known as the Children of the Tides, beings half warrior and half sea creature who learned to survive where no man could. For years they remained hidden among the reefs and submerged caverns. Now they have begun to spread through the depths, and their scouts are venturing closer and closer to the waters crossed by our ships. Kadru and Lynn lead their warriors, while Aksha and Varec hold positions of greater importance within their strange hierarchy. Each appears to guard a part of the ancient caverns they inhabit. We do not know what they seek or why they have begun to abandon their domains. The only thing we know is that their presence has become too dangerous to ignore. Enter the underwater cave and face the Children of the Tides. Defeat their warriors and bring down those who hold the highest positions within their hierarchy. If you manage to return alive, you will have proven that the depths of the Coral Reef are not a place reserved solely for its inhabitants.
+DescFinal=The waters are calm once again. The warriors who guarded the depths have fallen, and those who led the Children of the Tides can no longer continue expanding their domain. Kadru, Lynn, Aksha, and Varec have been defeated, but their caverns still hold secrets that we may never fully understand. The ruins beneath the reef are far older than any known settlement, and if this race survived there for so long, they were surely not the first inhabitants of those depths. For now, however, the waters once again belong to those brave enough to sail them. You have returned from a place few manage to escape. That deserves a reward.
+Repetible=1
+RequiredLevel=27
+PosMap=478
+
+[QUEST417]
+Nombre=The Last Message
+Desc=You found a sealed bottle drifting among the waves. Inside was a surprisingly well-preserved parchment. "If anyone finds this message, know that it was not the storm that doomed us. The waters surrounding the continent no longer belong to mankind. Leviathans rise from the depths, Sharks stalk every vessel daring enough to cross these seas, Sirens lure sailors into the depths with their songs, and strange creatures we came to call Cryptococci infest the remains of shipwrecks. One by one, my crew fell. If these beasts are not stopped, the sea will cease to be a passage and become a grave." I do not know how long this bottle has been drifting, but if that captain spoke the truth, the danger still remains. Sail into the open sea and reduce the number of these creatures before more lives are lost. When you have completed your mission, go to map 254 and speak with Fermín, the fisherman. I'm afraid he knows something about this matter.
+DescFinal=Ha... the old bottle fulfilled its purpose. What? You didn't know? Long ago, I was a daring captain who sailed these seas. But I never believed that message would ever reach anyone. Especially not after so many decades. The Leviathans, Sharks, Sirens, and Cryptococci have suffered heavy losses, and the sea routes are once again a little safer for fishermen, merchants, and travelers. The danger has not disappeared. As long as the depths endure, there will always be monsters lurking beneath the waves. But today, thanks to you, the continent can breathe a little easier. Take this reward.
+Repetible=1
+RequiredLevel=25
+PosMap=254
+
+[QUEST418]
+Nombre=Purification of the Sanctuary
+Desc=These ancient pages bear the seal of the Dungeon Veril sanctuary, and still carry traces of the dark magic that once surrounded them. The text tells how the Medusa, corrupted by the shadows, seized this sacred book from the hands of the guardians and hid it in her lair, guarding it with her petrifying gaze. Only by defeating her is there a chance to recover it among her remains. The pages also speak of the Witches, who poisoned the sacred waters with their rituals, and of the Stone Golems, risen to seal the entrance and prevent anyone from ever returning. At the end, a warning: "Only one who slays these creatures can free Dungeon Veril from its curse. Bring these pages back to Phenoba, in the city of Arghal, and let the light guide this sanctuary once more."
+DescFinal=You have returned... and you bring with you what we so desperately needed. The Medusa, the Witches, and the Stone Golems will no longer cast their shadow over Dungeon Veril. This book confirms it: the sanctuary can breathe in peace once again. You have shown a courage few possess, traveler. Take this reward, you have earned it well, and may my magic accompany you in every battle you wage from now on.
+Repetible=1
+RequiredLevel=33
+PosMap=171
+
+[QUEST419]
+Nombre=The Fragment of the Four
+Desc=You have found a strange fragment among the remains of a defeated creature. At first glance, it appears to be a dark stone, but upon closer inspection, you can make out four symbols engraved on its surface: an ant, a wolf, a dragon, and a creature shrouded in shadows. An ancient inscription runs along the edge of the fragment: "Four realms. Four lords. Four forces that should never have shared the same symbol." The inscription seems to refer to four creatures that rule over very different territories. Gaia, the Queen of Ants, rules from the depths of the Ant Colony and commands a colony capable of devouring anything that invades its territory. Laican, the Alpha Wolf, has established his domain in the Cave of Desolation. No creature dares to challenge him within his caverns. Nocthral remains hidden in the depths of the Dragon Dungeon, where his presence has turned the ancient corridors into a deadly territory. And in Marabel Dungeon awaits Escarlath, a creature whose influence has transformed the depths of that place into his own kingdom. The strangest thing is that the fragment seems to react to the names of all four. Perhaps each of them possesses a part of the same power. Find Gaia, Laican, Nocthral, and Escarlath and defeat them. If the inscription speaks the truth, defeating these four rulers could reveal the true purpose of the fragment. When you have completed your mission, go and speak with Krazgor on map 189. Perhaps then we can discover what connection exists between these four rulers.
+DescFinal=The fragment has returned to your hands following the fall of the four rulers. Gaia no longer rules the Ant Colony, Laican has lost his dominion over the Cave of Desolation, Nocthral has been defeated in the depths of the Dragon Dungeon, and Escarlath no longer reigns over the dark galleries of Marabel. When the marks of the four rulers were brought together on the fragment, the symbols began to glow and an ancient inscription appeared on its surface: "When four realms fall, the path shall once again be open." We do not know what path the inscription refers to, nor who created this strange object. Perhaps the four rulers were chosen for a reason we have yet to understand. What we do know is that you have defeated four of the most powerful creatures that ruled over different regions of the continent. For completing your mission, take your reward.
+Repetible=1
+RequiredLevel=13
+PosMap=189
+
+[QUEST421]
+Nombre=Echoes of the Ice
+Desc=As soon as you take the skull in your hands, the symbols carved into the bone light up with a cold, bluish glow. A chill that has nothing to do with the weather runs through your body, and for a moment you think you hear a guttural whisper, as if something long dormant had awakened at your touch. The skull crumbles into frosted dust, but the sensation remains: you now know the Ghoul was nothing more than a sentinel, one of many guardians protecting something far more ancient within the Frozen Cavern. To understand what truly lies hidden beneath the ice, you'll need to face the other creatures that guard its depths: the Eyewarden, whose frozen gaze can paralyze any intruder
+DescFinal=The ice holds more secrets than most dare to seek.
+Repetible=1
+RequiredLevel=29
+PosMap=354
+
+[QUEST422]
+Nombre=The Heart of the Underworld
+Desc=The Underworld has opened its gates once again, although only for a few hours. Deep within its depths dwell creatures that carry a powerful essence of fire, and ancient tales claim that they are all connected to an elemental source known as the Heart of the Underworld. Venture into its domains and defeat Flamoras, Astaroths, Pyrrions, Phyrus, Gran Blazes, Fire Mantises, and Baels. Perhaps by defeating enough of these creatures, we can weaken the force that keeps the heart of this place burning.
+DescFinal=The creatures of fire have fallen, and for a brief moment, the flames of the Underworld seem to have weakened. Their fiery essence has dissipated throughout the depths, as if something far more ancient were losing its strength. We do not know where the Heart of the Underworld lies or what will happen when it regains its power. But you have managed to disturb the balance of the depths and survived one of the most dangerous places on the continent. For completing your mission, take your reward.
+Repetible=1
+RequiredLevel=36
+
+[QUEST423]
+Nombre=The Decree of the Guardians
+Desc=You have found an ancient scroll sealed with an emblem that no one recognizes anymore. The ink has faded with the passage of time, but the message remains intact. "To every adventurer capable of reading these words: the balance of the continent depends on the fall of four guardians whose existence has altered the course of the world. Gigantor rules over New Hope Island with a strength capable of bringing down fortresses. The Ice Giant slays anyone who dares to set foot in the North Pole. Zeraphon rules the Leviathan Sea, turning those waters into a graveyard for sailors. And the Elven Ent protects the heart of the Elven Forest, where the roots answer only to its will. As long as these four colossi remain standing, no corner of the continent will ever be truly safe. If you possess the necessary strength, find them and put an end to their reign." There is no record of who wrote this decree or how many attempted to fulfill it. The only certainty is that very few have been capable of facing even one of these beings. Defeat the four world bosses and prove that you are worthy of completing a feat reserved for the most powerful adventurers. Then, go and speak with Sheila on map 171 to claim your reward.
+DescFinal=The four guardians have fallen and, for the first time in centuries, their domains have fallen silent. As I examine the scroll, I can make out a small inscription hidden beneath the seal: "Four have fallen. The balance may begin to be restored." I do not know who wrote these words or why these four colossi were chosen. Perhaps their defeat is part of something far older than we can imagine. You have fulfilled your mission. Take your reward.
+Repetible=1
+RequiredLevel=25
+
+[QUEST427]
+Nombre=A Small Rat Problem
+Desc=Near Makrom you will find two rats prepared for this quest. Defeat them and wait for them to respawn until you complete 5 kills. Use the Journal to track your progress and pin the objective. When you are done, return to Makrom to claim the reward.
+DescFinal=Well done. You have learned the full quest cycle: accept a task, track it in the Journal, pin the objective, complete it, and return for the reward. This is only the beginning of your adventure.
+Repetible=0
+RequiredLevel=1
+
 [QUEST900]
 Nombre=Cenizas del Primer Fuego
 Desc=Traeme 10 Plumas de Fenix y te entregare un Huevo de Fenix, que guarda el poder ancestral de las llamas.
