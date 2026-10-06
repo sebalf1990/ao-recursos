@@ -29379,27 +29379,45 @@ SoundClose=609
 Minimap=1
 NoMapInfo=1
 
-[NPC892] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; muneco
+[NPC892] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor. comerciante por decision del dueno (en el oficial es figura de relleno); tienda del NPC8 del oficial
 Name=Provisiones
 Head=0
 Body=6257
-NpcType=19
+NpcType=0
 ShowName=1
 Heading=3
 Movement=1
-MaxHP=1000
-MinHP=1000
+Attackable=0
+Hostile=0
+Comercia=1
+NROITEMS=6
+Obj1=1-1000
+Obj2=22-1000
+Obj3=29-1000
+Obj4=21-1000
+Obj5=23-1000
+Obj6=28-1000
+SoundOpen=605
+TipoItems=1
 
-[NPC896] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; muneco
+[NPC896] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor. comerciante por decision del dueno (en el oficial es figura de relleno); tienda del NPC58 del oficial
 Name=Eom <Tabernero del Meson>
 Head=0
 Body=6261
-NpcType=19
+NpcType=0
 ShowName=1
 Heading=3
 Movement=1
-MaxHP=1000
-MinHP=1000
+Attackable=0
+Hostile=0
+Comercia=1
+NROITEMS=4
+Obj1=43-1000
+Obj2=160-1000
+Obj3=42-1000
+Obj4=161-1000
+SoundOpen=601
+TipoItems=13
 
 [NPC921] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
 Name=Udryr <Quest de Druida>
