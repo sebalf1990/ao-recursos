@@ -3,7 +3,7 @@
 'Reorganización Masiva.
 
 [INIT]
-NumNPCs=9055
+NumNPCs=9056
 
 'SPOTS LIBRES<<<<<<<<<<<<<<<<<<<<<<<<<<<#
 '16 al 23  		Comerciantes			#
@@ -27247,19 +27247,25 @@ NumQuest=2
 QuestNumber1=31
 QuestNumber2=10
 
-[NPC1060] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=4784
-Desc=¿Cansado de andar a pie?
-Head=602
-Name=Sergio <Monturas>
-en_Desc=Tired of walking on foot?
-en_Name=SERGIO <MONTURAS>
-fr_Desc=Fatigué de marcher à pied?
-fr_Name=Sergio <Monturas>
-it_Desc=Stanco di camminare a piedi?
-it_Name=Sergio <Monturas>
-pt_Desc=Cansado de andar a pé?
-pt_Name=Sergio <Monturas>
+[NPC1060] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Sergio <Monturas>, mudado a NPC9056. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC520 del oficial, vida mas parecida: SUPUESTO; sin drops
+Name=Philiph
+Head=0
+Body=6031
+BodyIdle=6029
+NpcType=0
+Ataque1=6030
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+MaxHP=2000
+MinHP=2000
+MaxHIT=65
+MinHIT=30
+GiveEXP=0
+GiveGLD=0
+PoderAtaque=140
+PoderEvasion=105
 
 [NPC1061] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=4780
@@ -30186,4 +30192,18 @@ Humanoide=1
 NPCLVL=17
 MagicResistance=43
 MagicDef=10
+
+[NPC9056] 'Sergio <Monturas>: mudado desde NPC1060, que el oficial usa para otro NPC. Plan 17.001 Ola 3
+Body=4784
+Desc=¿Cansado de andar a pie?
+Head=602
+Name=Sergio <Monturas>
+en_Desc=Tired of walking on foot?
+en_Name=SERGIO <MONTURAS>
+fr_Desc=Fatigué de marcher à pied?
+fr_Name=Sergio <Monturas>
+it_Desc=Stanco di camminare a piedi?
+it_Name=Sergio <Monturas>
+pt_Desc=Cansado de andar a pé?
+pt_Name=Sergio <Monturas>
 
