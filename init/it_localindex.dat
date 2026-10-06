@@ -2,7 +2,7 @@
 NUMEROHECHIZO=425
 NUMLOCALEMSG=2215
 NUMMAPAS=750
-NUMNPCS=9055
+NUMNPCS=9056
 NUMOBJS=9204
 NUMQUESTS=905
 NUMSUGERENCIAS=6
@@ -11315,10 +11315,17 @@ Head=0
 NpcType=17
 
 [NPC1060]
-Name=Sergio <Monturas>
-Desc=Stanco di camminare a piedi?
-Body=4784
-Head=602
+Name=Philiph
+Body=6031
+Head=0
+BodyIdle=6029
+Ataque1=6030
+HP=2000
+NpcType=0
+MaxHIT=65
+MinHIT=30
+EXP=0
+ORO=0
 
 [NPC1061]
 Name=Fabian <menziona>
@@ -71297,6 +71304,12 @@ MinHIT=70
 NumQuiza=1
 QuizaDropea1=1271-1
 QuizaProb=40
+
+[NPC9056]
+Name=Sergio <Monturas>
+Desc=Stanco di camminare a piedi?
+Body=4784
+Head=602
 
 [NAMEMAPA]
 mapa1Desc=Ciudad Neutral, entrada a Catacumbas
