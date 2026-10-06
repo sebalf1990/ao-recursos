@@ -12121,6 +12121,8 @@ NpcType=17
 ShowName=1
 Heading=3
 Movement=1
+NumQuest=1
+QuestNumber1=275
 
 [NPC1005]
 Name=Yoel
@@ -29876,8 +29878,9 @@ NpcType=17
 ShowName=1
 Heading=3
 Movement=1
-NumQuest=1
+NumQuest=2
 QuestNumber1=422
+QuestNumber2=390
 
 [NPC1938] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla
 Name=Herrim <Carpintero>
