@@ -3622,6 +3622,14 @@ DescFinal=Grazie per il tuo aiuto, forse questi funghi ti saranno utili anche tu
 Repetible=1
 RequiredLevel=1
 
+[QUEST229]
+Nombre=Il Legame Superiore
+Desc=Con il passare del tempo, il druido impara che il legame con le creature può trascendere i limiti conosciuti. Coloro che sono capaci di dominare le forze della natura possono raggiungere un nuovo livello di connessione con i propri animali. Per perfezionare le tue conoscenze, dovrai dimostrare di essere pronto a dominare creature più potenti e ottenere così le conoscenze necessarie per apprendere un nuovo incantesimo.
+DescFinal=Hai imparato a rafforzare il legame con le creature e a canalizzare le forze della natura in modo superiore. La tua precedente padronanza di Evocare Animali Addomesticati appartiene ormai al passato e ora sei in grado di utilizzare una versione molto più potente dell'incantesimo, capace di evocare animali più potenti e resistenti.
+Repetible=0
+PosMap=56
+RequiredLevel=25
+
 [QUEST230]
 Nombre=Il ruggito di Bruin
 Desc=Quella pelle che mi hai portato... magnifica. Ma non è sufficiente per creare ciò che ho in mente. C'è un altro Orso, uno che i cacciatori chiamano Bruin, l'Oscuro. La sua forza è ineguagliabile e la sua pelliccia è così folta che il gelo si screpola al tocco. Vive nel Bosco degli Orsi, a nord-est di qui. Non si mostra sempre... ma quando ruggisce, persino le montagne tremano. Se desideri davvero una cavalcatura degna di una leggenda, portami la sua pelle come segno del mio coraggio. Solo con il suo potere posso forgiare il legame tra Bestia e Cavaliere.
@@ -16976,13 +16984,14 @@ ManaRequerido=220
 StaRequerido=60
 
 [HECHIZO9]
-Nombre=Invocar Mascotas
-Desc=Invoca o guarda las mascotas que tengas domadas.
-PalabrasMagicas=Mantra'rax
-PropioMsg=Has invocado a tus mascotas
-MinSkill=60
-ManaRequerido=750
-StaRequerido=300
+Nombre=Invoca animali domestici addomesticato
+Desc=Evoca o ripone gli animali domestici che hai addomesticato fino al livello 24.
+PalabrasMagicas=Mantra Rax
+PropioMsg=Hai invocato i tuoi animali domestici
+MinSkill=0
+ManaRequerido=180
+StaRequerido=90
+IconoIndex=35713
 
 [HECHIZO10]
 Nombre=Mimetismo
@@ -17662,11 +17671,14 @@ MinSkill=40
 IconoIndex=74739
 
 [HECHIZO71]
-ManaRequerido=0
+Nombre=Evoca Animali Domestici
+Desc=Invoca o salva gli animali domestici che hai addomesticato.
+PalabrasMagicas=Mantra Rax
+PropioMsg=Hai invocato i tuoi animali domestici
+IconoIndex=35713
+ManaRequerido=750
 MinSkill=0
-Cooldown=0
-IconoIndex=0
-StaRequerido=0
+StaRequerido=275
 
 [HECHIZO72]
 ManaRequerido=0

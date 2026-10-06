@@ -3622,6 +3622,14 @@ DescFinal=Thanks for your help, maybe these mushrooms will help you too.
 Repetible=1
 RequiredLevel=1
 
+[QUEST229]
+Nombre=The Superior Bond
+Desc=Over time, the druid learns that the bond with creatures can transcend known limits. Those capable of mastering the forces of nature can reach a new level of connection with their pets. To perfect your knowledge, you must prove that you are ready to master more powerful creatures and gain the knowledge necessary to learn a new spell.
+DescFinal=You have learned to strengthen your bond with creatures and channel the forces of nature in a superior way. Your former mastery of Summon Tamed Pets is now behind you, and you are capable of using a much more powerful version of the spell, capable of summoning stronger and more resilient pets.
+Repetible=0
+PosMap=56
+RequiredLevel=25
+
 [QUEST230]
 Nombre=The Roar of Bruin
 Desc=That pelt you brought me... magnificent. But it is not enough to create what I have in mind. There is another Bear, one the hunters call Bruin, the Dark One. His strength is unmatched, and his fur is so thick that frost cracks at the touch. He lives in the Bear Woods, northeast of here. He does not always show himself... but when he roars, even the mountains tremble. If you truly desire a mount worthy of legend, bring me his pelt as a token of my courage. Only with its power can I forge the bond between Beast and Rider.
@@ -17205,14 +17213,15 @@ ManaRequerido=220
 StaRequerido=60
 
 [HECHIZO9]
-Nombre=Invocar Mascotas
-Desc=Summons or puts away the creatures you have tamed.
-PalabrasMagicas=Mantra'rax
+Nombre=Invocar Mascotas Domadas
+Desc=Summons or stores pets you have tamed up to level 24.
+PalabrasMagicas=Mantra Rax
 PropioMsg=You summoned your pets.
-Nombre=Summon pets.
-MinSkill=60
-ManaRequerido=750
-StaRequerido=300
+Nombre=Summon Tamed Pets
+MinSkill=0
+ManaRequerido=180
+StaRequerido=90
+IconoIndex=35713
 
 [HECHIZO10]
 Nombre=Mimetismo
@@ -17925,11 +17934,14 @@ MinSkill=40
 IconoIndex=74739
 
 [HECHIZO71]
-ManaRequerido=0
+Nombre=Summon Pets
+Desc=Summons or puts away the creatures you have tamed.
+PalabrasMagicas=Mantra Rax
+PropioMsg=You summoned your pets.
+IconoIndex=35713
+ManaRequerido=750
 MinSkill=0
-Cooldown=0
-IconoIndex=0
-StaRequerido=0
+StaRequerido=275
 
 [HECHIZO72]
 ManaRequerido=0

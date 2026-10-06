@@ -1490,6 +1490,14 @@ DescFinal=Gracias por tu ayuda, puede que estos Hongos te sirvan a ti también.
 Repetible=1
 RequiredLevel=1
 
+[QUEST229]
+Nombre=El Vínculo Superior
+Desc=Con el paso del tiempo, el druida aprende que el vínculo con las criaturas puede trascender los límites conocidos. Aquellos capaces de dominar las fuerzas de la naturaleza pueden alcanzar un nuevo nivel de conexión con sus mascotas. Para perfeccionar tus conocimientos, deberás demostrar que estás preparado para dominar criaturas más poderosas y obtener así el conocimiento necesario para aprender un nuevo hechizo.
+DescFinal=Has aprendido a fortalecer el vínculo con las criaturas y a canalizar las fuerzas de la naturaleza de una manera superior. Tu antiguo dominio de Invocar Mascotas Domadas ha quedado atrás y ahora eres capaz de utilizar una versión mucho más poderosa del hechizo, capaz de invocar mascotas más poderosas y resistentes.
+Repetible=0
+PosMap=56
+RequiredLevel=25
+
 [QUEST230]
 Nombre=El Rugido de Bruin
 Desc=Esa piel que me trajiste... magnífica. Pero no basta para crear lo que tengo en mente. Existe otro Oso, uno que los cazadores llaman Bruin, el Oscuro. Su fuerza no tiene igual, y su pelaje es tan denso que la escarcha se quiebra al tocarlo. Vive en el Bosque de los Osos, al noreste de aquí. No siempre se deja ver... pero cuando ruge, hasta las montañas tiemblan. Si de verdad deseas una montura digna de las leyendas, tráeme su piel como muestra de valentía. Solo con su poder podré forjar el vínculo entre Bestia y Jinete.
@@ -14844,13 +14852,14 @@ ManaRequerido=220
 StaRequerido=60
 
 [HECHIZO9]
-Nombre=Invocar Mascotas
-Desc=Invoca o guarda las mascotas que tengas domadas.
-PalabrasMagicas=Mantra'rax
-PropioMsg=Has invocado a tus mascotas
-MinSkill=60
-ManaRequerido=750
-StaRequerido=300
+Nombre=Invocar Mascotas Domadas
+Desc=Invoca o guarda las mascotas que tengas domadas hasta nivel 24.
+PalabrasMagicas=Mantra Rax
+PropioMsg=Has invocado a tus mascotas domadas
+MinSkill=0
+ManaRequerido=180
+StaRequerido=90
+IconoIndex=35713
 
 [HECHIZO10]
 Nombre=Mimetismo
@@ -15529,11 +15538,14 @@ MinSkill=40
 IconoIndex=74739
 
 [HECHIZO71]
-ManaRequerido=0
+Nombre=Invocar Mascotas
+Desc=Invoca o guarda las mascotas que tengas domadas.
+PalabrasMagicas=Mantra Rax
+PropioMsg=Has invocado a tus mascotas domadas
+IconoIndex=35713
+ManaRequerido=750
 MinSkill=0
-Cooldown=0
-IconoIndex=0
-StaRequerido=0
+StaRequerido=275
 
 [HECHIZO72]
 ManaRequerido=0
