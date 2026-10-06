@@ -7449,15 +7449,23 @@ NoMapInfo=1
 Name=Provisiones
 Body=6257
 Head=0
-HP=1000
-NpcType=19
+NpcType=0
+Comercia=1
+NROITEMS=6
+Obj1=1-1000
+Obj2=22-1000
+Obj3=29-1000
 
 [NPC896]
 Name=Eom <Tabernero del Meson>
 Body=6261
 Head=0
-HP=1000
-NpcType=19
+NpcType=0
+Comercia=1
+NROITEMS=4
+Obj1=43-1000
+Obj2=160-1000
+Obj3=42-1000
 
 [NPC900]
 Name=Ululantis
