@@ -2627,6 +2627,22 @@ DescFinal=Los cuatro guardianes han caído y, por primera vez en siglos, sus dom
 Repetible=1
 RequiredLevel=25
 
+[QUEST425]
+Nombre=El Arte de la Invisibilidad
+Desc=La invisibilidad es un arte compleja, que pocos dominan por completo. Ocultar el cuerpo es sencillo
+DescFinal=Has aprendido a controlar las fuerzas que te permiten desaparecer por completo de la vista. Tu antiguo dominio de la invisibilidad ha quedado atrás y ahora eres capaz de utilizar una versión mucho más poderosa del hechizo. Pocos conocen los secretos de esta técnica, y aún menos son capaces de dominarla. Toma este conocimiento y úsalo con sabiduría.
+Repetible=0
+PosMap=354
+RequiredLevel=0
+
+[QUEST426]
+Nombre=El Arte de la Invisibilidad (semi-mágica)
+Desc=La invisibilidad es un arte compleja, que pocos dominan por completo. Ocultar el cuerpo es sencillo
+DescFinal=Has aprendido a controlar las fuerzas que te permiten desaparecer por completo de la vista. Tu antiguo dominio de la invisibilidad ha quedado atrás y ahora eres capaz de utilizar una versión mucho más poderosa del hechizo. Pocos conocen los secretos de esta técnica, y aún menos son capaces de dominarla. Toma este conocimiento y úsalo con sabiduría.
+Repetible=0
+PosMap=354
+RequiredLevel=0
+
 [QUEST427]
 Nombre=Un pequeño problema con las ratas
 Desc=Cerca de Makrom encontrarás dos ratas preparadas para esta misión. Derrótalas y espera a que reaparezcan hasta completar 5 muertes. Usa el Diario para seguir tu progreso y fijar el objetivo. Cuando termines, regresa con Makrom para reclamar la recompensa.
@@ -14980,14 +14996,14 @@ ManaRequerido=750
 StaRequerido=250
 
 [HECHIZO24]
-Nombre=Invisibilidad
+Nombre=Invisibilidad Menor
 Desc=Vuelve invisible al objetivo. Efecto no permanente.
-HechizeroMsg=Has lanzado Invisibilidad sobre
-TargetMsg=lanzó Invisibilidad sobre vos.
+HechizeroMsg=Has lanzado Invisibilidad Menor sobre
+TargetMsg=lanzó Invisibilidad Menor sobre vos.
 PROPIOMSG=Te has vuelto invisible.
-MinSkill=87
-ManaRequerido=500
-StaRequerido=200
+MinSkill=63
+ManaRequerido=400
+StaRequerido=150
 IconoIndex=35734
 
 [HECHIZO25]
@@ -15050,14 +15066,14 @@ MinSkill=45
 IconoIndex=35723
 
 [HECHIZO30]
-Nombre=Invisibilidad
+Nombre=Invisibilidad Menor
 Desc=Vuelve invisible al objetivo. Efecto no permanente.
-HechizeroMsg=Has lanzado Invisibilidad sobre
-TargetMsg=lanzó Invisibilidad sobre vos.
+HechizeroMsg=Has lanzado Invisibilidad Menor sobre
+TargetMsg=lanzó Invisibilidad Menor sobre vos.
 PropioMsg=Te has vuelto invisible.
-ManaRequerido=350
-StaRequerido=200
-MinSkill=87
+ManaRequerido=275
+StaRequerido=150
+MinSkill=63
 IconoIndex=35734
 
 [HECHIZO31]
@@ -16869,6 +16885,28 @@ PropioMsg=Corres más rápido.
 IconoIndex=35756
 MinSkill=0
 StaRequerido=400
+
+[HECHIZO240]
+Nombre=Invisibilidad
+Desc=Vuelve invisible al objetivo. Efecto no permanente.
+PropioMsg=Te has vuelto invisible.
+HechizeroMsg=Has lanzado Invisibilidad sobre
+TargetMsg=lanzó Invisibilidad sobre vos.
+IconoIndex=35734
+ManaRequerido=500
+MinSkill=80
+StaRequerido=200
+
+[HECHIZO241]
+Nombre=Invisibilidad
+Desc=Vuelve invisible al objetivo. Efecto no permanente.
+PropioMsg=Te has vuelto invisible.
+HechizeroMsg=Has lanzado Invisibilidad sobre
+TargetMsg=lanzó Invisibilidad sobre vos.
+IconoIndex=35734
+ManaRequerido=350
+MinSkill=80
+StaRequerido=200
 
 [HECHIZO242]
 Nombre=Restauración 3
@@ -31049,7 +31087,7 @@ Objtype=24
 Texto=Aumenta la velocidad del objetivo y eleva sus atributos.
 
 [OBJ1657]
-Name=Invisibilidad
+Name=Invisibilidad Menor
 GrhIndex=609
 Valor=800000
 Objtype=24
@@ -31161,7 +31199,7 @@ ObjType=24
 Valor=40000
 
 [OBJ1673]
-Name=Invisibilidad (Semi-Magicas)
+Name=Invisibilidad Menor (Semi-Magicas)
 Texto=Vuelve invisible al objetivo durante un corto periodo de tiempo.
 GrhIndex=609
 ObjType=24
