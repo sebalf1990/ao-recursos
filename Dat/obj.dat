@@ -21089,7 +21089,7 @@ NoWiki=1
 SPELLINDEX=23
 
 [OBJ1657]
-Name=Invisibilidad
+Name=Invisibilidad Menor
 GrhIndex=609
 Valor=800000
 CP1=ASESINO
@@ -21105,7 +21105,7 @@ HechizoIndex=24
 Objtype=24
 Texto=Vuelve invisible al objetivo durante un corto periodo de tiempo.
 en_texto=It makes the target invisible for a short period of time.
-en_Name=Invisibility
+en_Name=Minor Invisibility
 
 [OBJ1658]
 Name=Paralizar
@@ -76137,13 +76137,13 @@ CP8=PIRATA
 CP9=TRABAJADOR
 
 [OBJ1673] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Invisibilidad (Semi-Magicas)
+Name=Invisibilidad Menor (Semi-Magicas)
 Texto=Vuelve invisible al objetivo durante un corto periodo de tiempo.
 GrhIndex=609
 ObjType=24
 Valor=800000
 SPELLINDEX=30
-en_Name=Invisibility (Semi-Magic)
+en_Name=Minor Invisibility (Semi-Magic)
 en_Texto=It makes the target invisible for a short period of time.
 fr_Name=Invisibilité (semi-maric)
 fr_Texto=Il devient invisible à la cible pendant une courte période.
