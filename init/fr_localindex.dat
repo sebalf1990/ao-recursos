@@ -4721,6 +4721,14 @@ Repetible=1
 RequiredLevel=27
 PosMap=478
 
+[QUEST416]
+Nombre=La Protection des Insectes
+Desc=J'ai étudié les mantes assassines qui habitent ces terres. Leurs exosquelettes possèdent des propriétés qui pourraient être utilisées pour créer une tunique comme aucune autre, mais j'aurai besoin d'une grande quantité de matériaux pour achever mon travail. Les mantes assassines brunes possèdent des plaques résistantes et flexibles, idéales pour renforcer la doublure intérieure de la tunique. Leur structure permettra de protéger celui qui la porte sans transformer le vêtement en une lourde armure. D'un autre côté, les mantes assassines vertes possèdent une coloration et une structure externe particulièrement utiles pour travailler la surface du vêtement. Leurs parties seront utilisées pour le revêtement extérieur, améliorant la visibilité du porteur dans les zones boisées et offrant une couche de protection supplémentaire. J'aurai besoin d'assez de parties des deux espèces avant de pouvoir commencer la fabrication. Ce ne sera pas une tâche facile, mais si vous réunissez les matériaux nécessaires, je créerai pour vous une tunique unique.
+DescFinal=Excellent travail. Vous avez réuni suffisamment de pièces provenant des mantes assassines. Voici votre récompense : une tunique unique, créée à partir des exosquelettes des mantes assassines. Puissent-ils vous protéger aussi bien qu'elles protégeaient leur territoire.
+Repetible=0
+RequiredLevel=15
+PosMap=1
+
 [QUEST417]
 Nombre=Le Dernier Message
 Desc=Vous avez trouvé une bouteille scellée dérivant parmi les vagues. À l'intérieur se trouvait un parchemin étonnamment bien conservé. "Si quelqu'un trouve ce message, qu'il sache que ce n'est pas la tempête qui nous a condamnés. Les eaux qui entourent le continent n'appartiennent plus à l'humanité. Des Léviathans surgissent des profondeurs, les Requins traquent toute embarcation assez téméraire pour traverser ces mers, les Sirènes attirent les marins dans les profondeurs avec leurs chants, et d'étranges créatures que nous avons fini par appeler les Cryptococos infestent les restes des naufrages. Un à un, les membres de mon équipage sont tombés. Si ces bêtes ne sont pas arrêtées, la mer cessera d'être un passage et deviendra une tombe." J'ignore depuis combien de temps cette bouteille dérive, mais si ce capitaine disait vrai, le danger est toujours présent. Navigue en pleine mer et réduis le nombre de ces créatures avant que d'autres vies ne soient perdues. Lorsque tu auras accompli ta mission, rends-toi sur la carte 254 et parle à Fermín, le pêcheur. Je crains qu'il ne sache quelque chose à ce sujet.
@@ -4744,6 +4752,14 @@ DescFinal=Le fragment est revenu entre vos mains après la chute des quatre domi
 Repetible=1
 RequiredLevel=13
 PosMap=189
+
+[QUEST420]
+Nombre=L'Éclat de Lune
+Desc=Parmi les restes calcinés d'un aventurier tombé au combat, tu trouves une note désespérée : "Si tu lis ceci, c'est que le dragon rouge m'a rattrapé avant que je ne l'atteigne. Je cherchais l'Éclat de Lune pour Bertram, le joaillier d'Arghal, qui paie bien pour des pierres qu'aucun artisan ordinaire ne sait tailler. Selon mes recherches, c'est le dragon noir des marais sombres qui la garde entre ses mâchoires, bien que tu devras aussi affronter le dragon rouge des vallées de feu et le doré du sommet sacré, car aucun des trois ne tolère d'intrus dans son domaine. Si tu as le courage qui m'a manqué, tue-les, récupère la pierre du noir, et porte-la à Bertram en mon nom."
+DescFinal=Cette pierre... n'est pas une simple gemme rare. Je vais devoir l'étudier de plus près. Si c'est bien ce que je soupçonne, j'aurai peut-être à nouveau besoin de tes services bientôt.
+Repetible=1
+RequiredLevel=31
+PosMap=151
 
 [QUEST421]
 Nombre=Les Échos de la Glace
@@ -24549,7 +24565,12 @@ RopajeOrco=0
 GrhIndex=0
 
 [OBJ512]
-GrhIndex=0
+Name=L'Éclat de Lune
+Texto=Fragmento lunar arrancado del dragón negro.
+GrhIndex=38141
+ObjType=100
+Valor=0
+texto=Fragment lunaire arraché au dragon noir.
 
 [OBJ513]
 Name=Vestido de Bruja (H/E/EO-M)
@@ -65667,7 +65688,7 @@ MaxDef=0
 MinDef=0
 
 [OBJ6088]
-Name=Manteau du Soleil Déchu
+Name=Cap Émeraude
 Texto=Produit consommable.
 ObjType=39
 Valor=0

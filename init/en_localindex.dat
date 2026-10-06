@@ -4723,6 +4723,14 @@ Repetible=1
 RequiredLevel=27
 PosMap=478
 
+[QUEST416]
+Nombre=The Protection of the Insects
+Desc=I have been studying the assassin mantises that inhabit these lands. Their exoskeletons possess properties that could be used to create a tunic unlike any other, but I will need a large quantity of materials to complete my work. The brown assassin mantises possess strong and flexible plates, ideal for reinforcing the tunic's inner lining. Their structure will help protect the wearer without turning the garment into heavy armor. On the other hand, the green assassin mantises have a coloration and outer structure that are especially useful for crafting the surface of the garment. Their parts will be used for the outer layer, improving the wearer's visibility in forested areas and providing an additional layer of protection. I will need enough parts from both species before I can begin crafting. It will not be an easy task, but if you gather the necessary materials, I will create a unique tunic for you.
+DescFinal=Excellent work. You have gathered enough pieces from the assassin mantises. Here is your reward: a unique tunic, crafted from the exoskeletons of assassin mantises. May it protect you as well as they once protected their territory.
+Repetible=0
+RequiredLevel=15
+PosMap=1
+
 [QUEST417]
 Nombre=The Last Message
 Desc=You found a sealed bottle drifting among the waves. Inside was a surprisingly well-preserved parchment. "If anyone finds this message, know that it was not the storm that doomed us. The waters surrounding the continent no longer belong to mankind. Leviathans rise from the depths, Sharks stalk every vessel daring enough to cross these seas, Sirens lure sailors into the depths with their songs, and strange creatures we came to call Cryptococci infest the remains of shipwrecks. One by one, my crew fell. If these beasts are not stopped, the sea will cease to be a passage and become a grave." I do not know how long this bottle has been drifting, but if that captain spoke the truth, the danger still remains. Sail into the open sea and reduce the number of these creatures before more lives are lost. When you have completed your mission, go to map 254 and speak with Fermín, the fisherman. I'm afraid he knows something about this matter.
@@ -4746,6 +4754,14 @@ DescFinal=The fragment has returned to your hands following the fall of the four
 Repetible=1
 RequiredLevel=13
 PosMap=189
+
+[QUEST420]
+Nombre=The Moon Shard
+Desc=Among the charred remains of a fallen adventurer, you find a desperate note: "If you're reading this, it's because the red dragon caught me before I caught it. I was searching for the Moon Shard for Bertram, the jeweler of Arghal, who pays well for stones no ordinary craftsman can carve. According to my research, it's the black dragon of the dark swamps who guards it in its jaws, though you'll also have to face the red dragon of the valleys of fire and the golden one of the sacred summit, as none of the three tolerate intruders in their domains. If you have the courage I lacked, kill them, get the stone from the black one, and bring it to Bertram in my name."
+DescFinal=This stone... is no ordinary gem. I'll need to study it more closely. If this is what I suspect, I may need your services again soon.
+Repetible=1
+RequiredLevel=31
+PosMap=151
 
 [QUEST421]
 Nombre=Echoes of the Ice
@@ -25210,7 +25226,12 @@ RopajeOrco=0
 GrhIndex=0
 
 [OBJ512]
-GrhIndex=0
+Name=The Moon Shard
+Texto=Fragmento lunar arrancado del dragón negro.
+GrhIndex=38141
+ObjType=100
+Valor=0
+texto=Moon fragment torn from the black dragon.
 
 [OBJ513]
 Name=Witch Dress (H/E/EO-M)
@@ -68412,7 +68433,7 @@ MaxDef=0
 MinDef=0
 
 [OBJ6088]
-Name=Mantle of the Fallen Sun
+Name=Emerald Cape
 Texto=Consumable item.
 ObjType=39
 Valor=0
