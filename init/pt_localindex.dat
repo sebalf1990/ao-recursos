@@ -4618,6 +4618,154 @@ DescFinal=Muito bem. Este brazalete azul, que antes usavam com tanto orgulho, ag
 Repetible=1
 RequiredLevel=25
 
+[QUEST390]
+Nombre=O Vigia do Subsolo
+Desc=Se você chegou até aqui, suponho que não tema o Submundo. Mas há algo que precisa saber antes de continuar. Bael, o Leviatã de Fogo, patrulha sem descanso a entrada do subsolo, transformando aquele caminho em uma sentença de morte para os imprudentes. Mais de um guerreiro tentou enfrentá-lo de frente... e nenhum voltou para contar a história. A única forma de derrotar essas criaturas é mantendo distância. Se domina o arco, a magia ou qualquer outro ataque à distância, poderá abatê-las antes que suas chamas o alcancem. Enquanto o Submundo permanecer aberto, precisamos reduzir sua quantidade para que outros aventureiros tenham uma chance de alcançar as profundezas. Vá e elimine 20 Bael usando apenas ataques à distância. Quando terminar, volte até mim. Se cumprir essa missão, será recompensado pelo serviço prestado a todos que ousam desafiar o Submundo.
+DescFinal=Você demonstrou paciência, precisão e a determinação necessária para sobreviver ao Submundo. Aqui está a recompensa que prometi. Você a merece.
+Repetible=1
+RequiredLevel=36
+
+[QUEST391]
+Nombre=A Praga dos Esporos
+Desc=Ao sul de Forgat existe um lugar que poucos ousam pisar: a Ilha dos Esporos. Durante anos foi um terreno fértil, mas hoje o ar está carregado de um pó venenoso que dá vida a fungos monstruosos. Niscalos, Bisporus e Amanitas cresceram se alimentando dessas toxinas, tornando-se criaturas tão resistentes quanto letais. Cada espécie esconde um veneno diferente. Algumas liberam esporos que adormecem o corpo, outras intoxicam lentamente suas presas e as mais perigosas são capazes de provocar alucinações antes de atacar. O vento começa a arrastar esses esporos em direção a Forgat, e se a praga continuar se espalhando, em breve alcançará os campos e caminhos próximos à cidade. Viaje até a Ilha dos Esporos e reduza sua população antes que seja tarde demais. Quando tiver eliminado criaturas suficientes, volte até mim. Você será recompensado por proteger Forgat dessa ameaça silenciosa.
+DescFinal=Os esporos ainda flutuam no ar, mas já não com a mesma intensidade. A colônia de fungos sofreu um forte golpe e, por enquanto, sua expansão foi interrompida. Os caminhos ao sul de Forgat voltam a ser um pouco mais seguros para viajantes e comerciantes. Não conseguiremos erradicar a praga por completo enquanto a ilha continuar contaminada, mas sua intervenção nos deu o tempo que precisávamos. Aceite sua recompensa. E lembre-se... na Ilha dos Esporos, até mesmo aquilo que parece morto pode voltar a crescer.
+Repetible=1
+RequiredLevel=25
+PosMap=289
+
+[QUEST392]
+Nombre=A Fúria das Profundezas
+Desc=As águas ao redor da Cidade Abandonada não são mais seguras. Em suas profundezas, um ser milenar despertou: Zeraphon, o Leviatã, cujo rugido faz tremer as correntes e cuja fúria arrasta todos que ousam cruzar seu caminho. Muito a leste, sob as águas turquesas, esconde-se o Recife de Coral, uma masmorra submersa onde Kaelthor, o Rei Naga, governa com mão de ferro sobre sua corte de criaturas marinhas. Ambas as facções receberam a mesma ordem: descer às profundezas, enfrentar esses titãs do mar e retornar com provas de sua vitória. Não será uma tarefa simples. Zeraphon e Kaelthor não são bestas comuns: são guardiões ancestrais que ressurgem repetidamente, como se o próprio oceano se recusasse a deixá-los morrer. Quem conseguir derrotar ambos, demonstrando têmpera e lealdade à sua facção, será recompensado com uma Poção de Honra da Facção. Lembre-se, soldado: o mar não perdoa os fracos, mas recompensa aqueles que ousam desafiá-lo em nome de sua bandeira.
+DescFinal=As profundezas foram conquistadas. Zeraphon e Kaelthor jazem derrotados, e com eles cai o mito de sua invencibilidade. Os marinheiros da sua facção já contam o feito nos portos, e seu nome se soma à lista dos que ousaram desafiar o mar e voltaram vivos. Em reconhecimento à sua bravura, você recebe uma Poção de Honra da Facção.
+Repetible=1
+RequiredLevel=27
+
+[QUEST406]
+Nombre=Os Quatro Ninhos
+Desc=Nem todos conseguem chegar até este lugar. A chave que abre as Catacumbas Inferiores permaneceu escondida por anos, e aqueles que atravessaram seus portões falam de uma câmara onde a própria natureza parece ter sido corrompida. Nas profundezas vivem quatro antigas espécies de aranhas, cada uma ligada a um elemento primordial. Gale domina os ventos, Tellus faz a terra tremer, Blaze consome tudo com suas chamas e Nevora transforma a água em uma arma mortal. Separadas são perigosas
+DescFinal=As quatro colônias sofreram um duro golpe, e a atividade no segundo nível das Catacumbas diminuiu consideravelmente. O ar voltou a ficar imóvel, a terra deixou de tremer, as chamas se apagam com mais facilidade e as galerias inundadas recuperaram uma tranquilidade que não conheciam havia muito tempo. As forças elementais ainda permanecem nas profundezas e, cedo ou tarde, novas criaturas ocuparão os ninhos vazios. No entanto, por enquanto, o equilíbrio foi restaurado e aqueles que se aventurarem por estas ruínas terão muito mais chances de retornar com vida. Você provou ser digno de superar um dos desafios mais perigosos das Catacumbas. Receba sua recompensa.
+Repetible=1
+RequiredLevel=13
+
+[QUEST407]
+Nombre=Uma Nova Aventura
+Desc=Bem-vindo, Aventureiro! Você parece forte. Talvez possa nos ajudar a trazer tempos melhores de volta para esta cidade. Há algum tempo, diferentes pragas começaram a aparecer nos arredores de Forgat. Serpentes, ratos, formigas vermelhas e outras criaturas se instalaram ao norte da cidade, tornando as estradas e os campos próximos cada vez mais perigosos. Se estiver disposto, ajude-nos a limpar um pouco a área ao norte da cidade. Não podemos oferecer muito, mas os habitantes reuniram um pouco de ouro para recompensar quem estiver disposto a nos dar uma mão. Talvez não seja uma tarefa gloriosa, mas todo grande aventureiro precisa começar em algum lugar.
+DescFinal=Obrigado! Obrigado, Aventureiro! Você fez um ótimo trabalho. As criaturas que rondavam ao norte de Forgat já não representam uma ameaça para aqueles que se aventuram para fora da cidade. Pode parecer pouco, mas cada esforço conta. Com a sua ajuda e a de outros aventureiros, poderemos começar a limpar os arredores e reconstruir nossa cidade pouco a pouco. Não temos muito para lhe oferecer, mas cumprimos nossa palavra. Lembre-se de que em Forgat sempre haverá trabalho para aqueles que estiverem dispostos a ajudar.
+Repetible=0
+RequiredLevel=1
+
+[QUEST408]
+Nombre=Terra dos Predadores
+Desc=Olá novamente, Aventureiro. Tenho uma mensagem urgente vinda das casas a leste da cidade. Pelo que parece, uma matilha de lobos liderada por um alfa começou a atacar os animais da região, tornando a fauna local cada vez mais agressiva. Avestruzes, corvos e outras criaturas que normalmente evitariam os habitantes se tornaram perigosos, chegando até mesmo a se aproximar das casas ao sul. Os moradores estão aterrorizados e temem que, se a matilha continuar crescendo, os ataques acabem chegando até Forgat. Vá para o leste da floresta e descubra o que está causando esse comportamento. Se encontrar o líder da matilha, acabe com ele e ponha fim a essa ameaça antes que a situação piore.
+DescFinal=Você fez bem, Aventureiro. A matilha perdeu seu líder e, com ele, a fúria que parecia ter tomado conta das criaturas começa a desaparecer. Os avestruzes voltaram a se afastar das casas e os corvos já não atacam aqueles que se aproximam da floresta. Por enquanto, as famílias do sul podem respirar tranquilas. No entanto, algo não parece certo. Os animais normalmente não se comportam dessa maneira sem motivo. Talvez o alfa estivesse apenas defendendo seu território... ou talvez algo mais o estivesse levando a agir assim. Seja como for, você cumpriu sua tarefa. Receba sua recompensa e permaneça atento. A floresta voltou a ficar tranquila, mas não sabemos por quanto tempo.
+Repetible=0
+RequiredLevel=3
+
+[QUEST409]
+Nombre=Fora da Lei
+Desc=Ao norte de Forgat, as estradas começaram a se tornar perigosas. Viajantes e comerciantes têm denunciado ataques cada vez mais frequentes, e alguns deles nunca retornaram. A princípio, acreditava-se que fossem simples bandidos, mas os relatos recentes contam uma história diferente. Os atacantes estão bem armados, movimentam-se em grupos e parecem organizados demais para serem simples ladrões. A presença deles também parece ter afetado a região. As matilhas de lobos cinzentos que habitam as florestas próximas tornaram-se extremamente agressivas, atacando caçadores e até mesmo aqueles que passam pelas estradas. Viaje para o norte de Forgat e elimine os mercenários que encontrar na região. Dê também caça aos lobos que se tornaram uma ameaça para os viajantes. Quando tiver reduzido suficientemente o número deles, volte até mim. Você será recompensado por devolver a segurança às estradas.
+DescFinal=Os mercenários sofreram um duro golpe e os lobos que ameaçavam viajantes e comerciantes já não representam a mesma ameaça. Por enquanto, aqueles que precisarem atravessar o norte de Forgat poderão fazê-lo sem temer uma emboscada a cada passo. Mercenários tão bem equipados não aparecem em uma região por acaso. Alguém os contratou e, enquanto não soubermos quem foi ou o que realmente procuravam, não podemos considerar este assunto encerrado. Por enquanto, você cumpriu sua parte. Receba sua recompensa.
+Repetible=0
+RequiredLevel=5
+
+[QUEST410]
+Nombre=Retribuição Sombria
+Desc=Temos um novo problema, Aventureiro, e desta vez não se trata de simples criaturas. Alguns viajantes foram encontrados mortos nas estradas a leste de Forgat. Eles não foram atacados por animais. Seus ferimentos indicam que foram assassinados por homens armados, e as poucas testemunhas que conseguiram escapar falam de grupos de assassinos escondidos entre as ruínas da região. Mas isso não é o pior. Ao lado dos corpos começaram a aparecer esqueletos. Eles não são restos de antigos habitantes de Forgat: parecem ter sido trazidos de terras distantes e erguidos por meio de magia sombria. Alguém está usando os mortos como soldados, e os assassinos parecem estar trabalhando ao lado deles. Vá para o leste de Forgat e elimine os assassinos que encontrar. Destrua também os esqueletos que foram erguidos para servi-los. Se conseguir descobrir quem está por trás de tudo isso, faça-o.
+DescFinal=Você voltou com vida. Isso já é mais do que muitos podem dizer. Os assassinos foram eliminados e os esqueletos que percorriam as estradas voltaram para onde pertencem: debaixo da terra. Mas há algo que não podemos ignorar. Esses esqueletos não pertenciam a estas terras. Alguém os trouxe de outra região e os ergueu por meio de necromancia. E se um grupo de necromantes está se dando tanto trabalho para enviar mortos até Forgat, certamente existe uma razão. Receba sua recompensa. E lembre-se, Aventureiro... quando os mortos começam a caminhar, raramente o fazem sem que alguém os esteja guiando.
+Repetible=0
+RequiredLevel=7
+
+[QUEST411]
+Nombre=O Altar Corrompido
+Desc=Temos notícias preocupantes, Aventureiro. Ao norte da cidade existe um antigo altar que um dia foi um lugar de descanso e peregrinação. Há muito tempo ninguém o utiliza, mas ele ainda conservava uma pequena quantidade de energia divina, suficiente para manter o local protegido das forças sombrias. Isso mudou. As forças dos necromantes chegaram até o altar e começaram a utilizá-lo para seus próprios propósitos. Eles ergueram cadáveres dos arredores e os transformaram em zumbis, corrompendo pouco a pouco as últimas energias divinas que permaneciam no local. A corrupção também afetou as criaturas da região. Até mesmo as tartarugas que habitavam próximo ao altar começaram a apodrecer, transformando-se em criaturas agressivas e deformadas. Se permitirmos que o altar seja completamente corrompido, não sabemos que tipo de poder os necromantes poderiam obter. Viaje até o altar e elimine os zumbis e zumbis putrefatos que estiverem lá. Acabe também com as tartarugas em decomposição e limpe a região de todas as criaturas afetadas pela corrupção.
+DescFinal=Você conseguiu purificar o altar. Os mortos que caminhavam entre as ruínas voltaram a ficar em silêncio, e as criaturas corrompidas que infestavam os arredores já não representam uma ameaça. Mas temo que tenhamos chegado tarde demais para salvar completamente este lugar. A energia divina que restava no altar foi quase destruída. O pouco que permanece mal pode ser sentido, como uma chama prestes a se apagar. Os necromantes não se limitaram a erguer os mortos. Eles estão procurando lugares onde ainda exista algum vestígio de poder e o estão corrompendo para seus próprios propósitos. Isso confirma nossos piores temores. O que aconteceu no altar não foi um ataque isolado. Os necromantes estão avançando e, se continuarem assim, Forgat pode não ser seu verdadeiro objetivo... mas apenas o começo. Receba sua recompensa, Aventureiro. E se encontrar outro lugar sagrado em perigo, não espere até que a última chama se apague.
+Repetible=0
+RequiredLevel=9
+
+[QUEST412]
+Nombre=O Covil Amaldiçoado
+Desc=Finalmente encontramos a origem de tudo. Durante semanas, os necromantes espalharam sua influência pelas terras próximas a Forgat. Eles ergueram os mortos, corromperam o antigo altar e enviaram assassinos para eliminar qualquer um que pudesse descobrir seus planos. Agora sabemos onde eles estão escondidos. Seu covil fica longe das estradas, oculto entre as ruínas de uma antiga construção. Ali se reuniu uma raça conhecida como Scrammers, criaturas que abraçaram as artes sombrias e servem a um líder misterioso conhecido simplesmente como o Ancião. O covil é protegido por numerosos servos. Alguns são simples Scrammers, enquanto outros aprenderam a se mover pelas sombras e atacar de surpresa. Há também figuras encapuzadas que parecem estar diretamente envolvidas nos rituais realizados dentro do covil. Mas o verdadeiro perigo é o Ancião. Os poucos relatos que conseguimos reunir falam de um ser que possui poderes sombrios muito maiores que os de seus subordinados. Não sabemos há quanto tempo ele está lá nem o que pretende alcançar, mas tudo o que aconteceu até agora parece levar diretamente até ele. Chegou o momento de pôr um fim a tudo isso.
+DescFinal=Você conseguiu. O covil dos Scrammers foi destruído e suas forças foram derrotadas. Os mortos deixaram de se levantar e, pela primeira vez em muito tempo, a escuridão que se espalhava ao redor de Forgat parece ter sido contida. Os Scrammers que sobreviveram fugiram, abandonando as ruínas e deixando para trás os restos de seus rituais. Mas o Ancião... Sua presença era diferente. O poder que ele controlava não se parecia com o dos outros. Mesmo depois de tudo o que aconteceu, é difícil acreditar que alguém como ele pudesse ter adquirido tamanho conhecimento sozinho. Os esqueletos, os assassinatos, o altar corrompido... tudo fazia parte de algo. E embora tenhamos destruído seu covil, ainda restam perguntas demais sem resposta. Onde os Scrammers aprenderam a manipular essas forças? Quem ensinou o Ancião? E quantos outros lugares foram corrompidos antes de chegarmos? Por enquanto, Forgat pode respirar tranquila. Você cumpriu uma missão que poucos teriam aceitado. Receba sua recompensa, Aventureiro. Mas não se esqueça do que viu lá dentro. A escuridão foi derrotada, mas não necessariamente destruída.
+Repetible=0
+RequiredLevel=11
+
+[QUEST413]
+Nombre=O Legado das Sombras
+Desc=A leste de Penthar existe uma construção que permaneceu vazia e esquecida durante anos. No entanto, aqueles que se aproximaram recentemente afirmam ter visto movimentos em suas janelas e sombras estranhas percorrendo seus corredores. O chamado Esconderijo Abandonado possui dois níveis. No primeiro, instalaram-se Servos Demoníacos e Servas Demoníacas, juntamente com numerosos Espectros, criaturas que parecem proteger algo escondido nas profundezas do local. Mas a verdadeira ameaça encontra-se no segundo andar. Ali habitam duas poderosas gárgulas, Zevkar e Gorath, que transformaram as antigas câmaras em seu território. Ninguém sabe há quanto tempo estão ali ou qual propósito perseguem. Os habitantes de Penthar temem que essas criaturas estejam preparando algo em segredo. Enquanto permanecerem no esconderijo, ninguém poderá se aventurar por lá sem colocar a própria vida em perigo. Entre no Esconderijo Abandonado e elimine os Servos Demoníacos, as Servas Demoníacas, os Espectros e as gárgulas Zevkar e Gorath. Percorra os dois níveis e certifique-se de que nenhuma dessas criaturas continue espreitando entre as ruínas. Quando terminar, volte até mim. O povo de Penthar poderá voltar a dormir tranquilo sabendo que o esconderijo já não está sob o domínio dessas criaturas.
+DescFinal=O Esconderijo Abandonado ficou em silêncio. Os Servos Demoníacos e as Servas Demoníacas já não percorrem seus corredores, os Espectros desapareceram de suas antigas câmaras e as gárgulas que dominavam o segundo andar foram derrotadas. Zevkar e Gorath não voltarão a vigiar as ruínas do alto e, pela primeira vez em muito tempo, os corredores abandonados deixaram de servir como refúgio para criaturas demoníacas. Não sabemos o que realmente aconteceu dentro dessas paredes ou por que tantas criaturas se reuniram ali, mas enquanto as ruínas permanecerem em silêncio, Penthar estará protegido dessa ameaça. Você fez a sua parte. Receba sua recompensa.
+Repetible=1
+RequiredLevel=25
+PosMap=461
+
+[QUEST414]
+Nombre=O Motim da Ilha do Sul
+Desc=Ao sul de Kamal, onde o deserto encontra o mar, uma pequena ilha tornou-se o refúgio de um grupo de piratas renegados. O que começou como um motim transformou-se em uma quadrilha de saqueadores que ataca navios mercantes e caravanas costeiras antes de desaparecer entre os penhascos da ilha. Os Piratas Insurgentes e os Piratas Amotinados patrulham a região sem obedecer a qualquer bandeira, espalhando o medo entre pescadores, marinheiros e mercadores. Se ninguém agir, as rotas marítimas que abastecem Kamal acabarão nas mãos desses fora da lei. Viaje até a ilha e elimine Piratas Insurgentes e Piratas Amotinados suficientes para enfraquecer a tripulação rebelde. Quando concluir sua missão, volte até mim. Você será recompensado por devolver a segurança ao litoral de Kamal.
+DescFinal=A atividade dos piratas diminuiu consideravelmente. As águas ao redor da ilha voltaram a ser mais seguras para a navegação, permitindo que os navios mercantes viajem com muito mais tranquilidade. Embora novos criminosos possam surgir no futuro, esta tripulação já não representa uma ameaça séria para Kamal. Sua vitória restabeleceu uma importante rota comercial entre o deserto e o mar, trazendo estabilidade para aqueles que dependem dela. Receba sua recompensa. Você provou que até os piratas mais temidos podem ser derrotados.
+Repetible=1
+RequiredLevel=25
+PosMap=17
+
+[QUEST415]
+Nombre=Os Filhos das Marés
+Desc=Se você chegou até aqui, já viu as ruínas escondidas sob as águas do Recife de Coral. Mas o que existe além desta entrada é muito diferente de qualquer coisa que habite nossos mares. Há muito tempo, uma antiga raça fez das profundezas o seu lar. Seus membros são conhecidos como os Filhos das Marés, seres metade guerreiros e metade criaturas marinhas que aprenderam a sobreviver onde nenhum homem conseguiria. Durante anos permaneceram escondidos entre os recifes e cavernas submersas. Agora começaram a se espalhar pelas profundezas, e seus exploradores estão se aproximando cada vez mais das águas por onde passam nossos navios. Kadru e Lynn lideram seus guerreiros, enquanto Aksha e Varec ocupam posições de maior importância dentro de sua estranha hierarquia. Cada um parece proteger uma parte das antigas cavernas que habitam. Não sabemos o que procuram nem por que começaram a abandonar seus domínios. A única coisa que sabemos é que sua presença se tornou perigosa demais para ser ignorada. Entre na caverna aquática e enfrente os Filhos das Marés. Derrote seus guerreiros e elimine aqueles que ocupam as posições mais altas de sua hierarquia. Se conseguir retornar com vida, terá provado que as profundezas do Recife de Coral não são um lugar reservado apenas para seus habitantes.
+DescFinal=As águas estão tranquilas novamente. Os guerreiros que guardavam as profundezas foram derrotados, e aqueles que lideravam os Filhos das Marés já não poderão continuar expandindo seu domínio. Kadru, Lynn, Aksha e Varec foram derrotados, mas suas cavernas ainda guardam segredos que talvez nunca consigamos compreender. As ruínas sob o recife são muito mais antigas do que qualquer assentamento conhecido e, se essa raça sobreviveu ali durante tanto tempo, certamente não foram os primeiros habitantes daquelas profundezas. Por enquanto, no entanto, as águas voltaram a pertencer àqueles que têm coragem de navegá-las. Você retornou de um lugar do qual poucos conseguem escapar. Isso merece uma recompensa.
+Repetible=1
+RequiredLevel=27
+PosMap=478
+
+[QUEST417]
+Nombre=A Última Mensagem
+Desc=Você encontrou uma garrafa selada flutuando entre as ondas. Dentro havia um pergaminho surpreendentemente bem conservado. "Se alguém encontrar esta mensagem, saiba que não foi a tempestade que nos condenou. As águas que cercam o continente já não pertencem à humanidade. Leviatãs emergem das profundezas, Tubarões espreitam qualquer embarcação ousada o suficiente para atravessar estes mares, Sereias atraem os marinheiros para as profundezas com seus cantos, e estranhas criaturas que passamos a chamar de Criptococos infestam os restos dos naufrágios. Um a um, minha tripulação caiu. Se essas feras não forem detidas, o mar deixará de ser uma passagem e se tornará uma tumba." Não sei há quanto tempo esta garrafa está à deriva, mas, se aquele capitão dizia a verdade, o perigo ainda permanece. Navegue pelo mar aberto e reduza a quantidade dessas criaturas antes que mais vidas sejam perdidas. Quando tiver concluído sua missão, vá até o mapa 254 e fale com Fermín, o pescador. Temo que ele saiba algo sobre esse assunto.
+DescFinal=Ha... a velha garrafa cumpriu seu propósito. O quê? Você não sabia? Há muito tempo, eu era um capitão ousado que navegava por estes mares. Mas jamais acreditei que aquela mensagem pudesse chegar a alguém. Muito menos depois de tantas décadas. Os Leviatãs, Tubarões, Sereias e Criptococos sofreram grandes perdas, e as rotas marítimas estão novamente um pouco mais seguras para pescadores, comerciantes e viajantes. O perigo não desapareceu. Enquanto as profundezas existirem, sempre haverá monstros à espreita sob as ondas. Mas hoje, graças a você, o continente pode respirar um pouco mais tranquilo. Fique com esta recompensa.
+Repetible=1
+RequiredLevel=25
+PosMap=254
+
+[QUEST418]
+Nombre=Purificação do Santuário
+Desc=Estas páginas antigas trazem o selo do santuário de Dungeon Veril, e ainda guardam vestígios da magia sombria que as envolvia. O texto relata como a Medusa, corrompida pelas sombras, arrancou este livro sagrado das mãos dos guardiões e o escondeu em seu covil, guardando-o com seu olhar petrificante. Somente derrotando-a existe a chance de recuperá-lo entre seus restos. As páginas também falam das Bruxas, que envenenaram as águas sagradas com seus rituais, e dos Golems de Pedra, erguidos para selar a entrada e impedir que alguém jamais retornasse. No final, um aviso: "Somente aquele que eliminar essas criaturas poderá libertar Dungeon Veril de sua maldição. Leve estas páginas de volta a Phenoba, na cidade de Arghal, e que a luz volte a guiar este santuário."
+DescFinal=Você voltou... e traz consigo o que tanto precisávamos. A Medusa, as Bruxas e os Golems de Pedra não projetarão mais sua sombra sobre Dungeon Veril. Este livro confirma: o santuário pode voltar a respirar em paz. Você demonstrou uma coragem que poucos possuem, viajante. Receba esta recompensa, você a conquistou com méritos, e que minha magia te acompanhe em cada batalha que travares a partir de agora.
+Repetible=1
+RequiredLevel=33
+PosMap=171
+
+[QUEST419]
+Nombre=O Fragmento dos Quatro
+Desc=Você encontrou um estranho fragmento entre os restos de uma criatura derrotada. À primeira vista, parece ser uma pedra escura, mas, ao observá-la com atenção, é possível distinguir quatro símbolos gravados em sua superfície: uma formiga, um lobo, um dragão e uma criatura envolta em sombras. Uma antiga inscrição percorre a borda do fragmento: "Quatro reinos. Quatro senhores. Quatro forças que jamais deveriam ter compartilhado o mesmo símbolo." A inscrição parece se referir a quatro criaturas que dominam territórios muito diferentes. Gaia, a Rainha das Formigas, governa das profundezas do Formigueiro e controla uma colônia capaz de devorar tudo aquilo que invade seu território. Laican, o Lobo Alfa, estabeleceu seu domínio na Caverna da Desolação. Nenhuma criatura ousa desafiá-lo dentro de suas cavernas. Nocthral permanece oculto nas profundezas do Dungeon do Dragão, onde sua presença transformou os antigos corredores em um território mortal. E no Dungeon Marabel aguarda Escarlath, uma criatura cuja influência transformou as profundezas daquele lugar em seu próprio reino. O mais estranho é que o fragmento parece reagir aos nomes dos quatro. Talvez cada um deles possua uma parte do mesmo poder. Encontre Gaia, Laican, Nocthral e Escarlath e derrote-os. Se a inscrição disser a verdade, derrotar esses quatro dominadores poderá revelar o verdadeiro propósito do fragmento. Quando tiver concluído sua missão, vá falar com Krazgor, no mapa 189. Talvez então possamos descobrir qual relação existe entre esses quatro chefes.
+DescFinal=O fragmento voltou para suas mãos após a queda dos quatro dominadores. Gaia já não governa o Formigueiro, Laican perdeu seu domínio sobre a Caverna da Desolação, Nocthral foi derrotado nas profundezas do Dungeon do Dragão e Escarlath já não reina nas galerias sombrias de Marabel. Ao reunir as marcas dos quatro chefes sobre o fragmento, os símbolos começaram a brilhar e uma antiga inscrição apareceu em sua superfície: "Quando quatro reinos caírem, o caminho voltará a ficar aberto." Não sabemos a que caminho a inscrição se refere, nem quem criou este estranho objeto. Talvez os quatro chefes tenham sido escolhidos por uma razão que ainda desconhecemos. O que sabemos é que você derrotou quatro das criaturas mais poderosas que dominavam diferentes regiões do continente. Por ter cumprido sua missão, fique com sua recompensa.
+Repetible=1
+RequiredLevel=13
+PosMap=189
+
+[QUEST421]
+Nombre=Ecos do Gelo
+Desc=Assim que pegas o crânio entre as mãos, os símbolos gravados no osso se acendem com um brilho azulado e gelado. Um frio que nada tem a ver com o clima percorre teu corpo, e por um instante crês ouvir um sussurro gutural, como se algo há muito adormecido tivesse despertado ao teu toque. O crânio se desfaz em pó gelado, mas a sensação permanece: agora sabes que o Ghoul não era mais que um sentinela, um dos muitos guardiões que protegem algo muito mais antigo dentro da Caverna Gelada. Para entender o que realmente se esconde sob o gelo, terás que enfrentar as outras criaturas que guardam suas profundezas: o Eyewarden, cujo olhar gelado pode paralisar qualquer intruso
+DescFinal=O gelo guarda mais segredos do que a maioria ousa buscar.
+Repetible=1
+RequiredLevel=29
+PosMap=354
+
+[QUEST422]
+Nombre=O Coração do Submundo
+Desc=O Submundo abriu seus portões novamente, embora apenas por algumas horas. Em suas profundezas habitam criaturas que carregam uma poderosa essência de fogo, e antigas histórias afirmam que todas estão ligadas a uma fonte elemental conhecida como o Coração do Submundo. Mergulhe em seus domínios e derrote Flamoras, Astaroths, Pyrrions, Phyrus, Gran Blazes, Mantídeos de Fogo e Baels. Talvez, ao derrotar criaturas suficientes, possamos enfraquecer a força que mantém o coração deste lugar aceso.
+DescFinal=As criaturas de fogo caíram e, por um breve instante, as chamas do Submundo parecem ter enfraquecido. Sua essência ardente se dissipou pelas profundezas, como se algo muito mais antigo estivesse perdendo sua força. Não sabemos onde está o Coração do Submundo nem o que acontecerá quando ele recuperar seu poder. Mas você conseguiu alterar o equilíbrio das profundezas e sobreviveu a um dos lugares mais perigosos do continente. Por ter cumprido sua missão, fique com sua recompensa.
+Repetible=1
+RequiredLevel=36
+
+[QUEST423]
+Nombre=O Decreto dos Guardiões
+Desc=Você encontrou um antigo pergaminho selado com um emblema que ninguém mais reconhece. A tinta se desgastou com o passar do tempo, mas a mensagem permanece intacta. "A todo aventureiro capaz de ler estas palavras: o equilíbrio do continente depende da queda de quatro guardiões cuja existência alterou o curso do mundo. Gigantor domina a Ilha da Nova Esperança com uma força capaz de derrubar fortalezas. O Gigante de Gelo mata qualquer um que ouse pisar no Polo Norte. Zeraphon governa o Mar dos Leviatãs, transformando aquelas águas em um cemitério para navegantes. E o Ent Élfico protege o coração da Floresta Élfica, onde as raízes respondem somente à sua vontade. Enquanto esses quatro colossos permanecerem de pé, nenhum canto do continente estará verdadeiramente a salvo. Se possuir a força necessária, encontre-os e ponha fim ao seu reinado." Não há registros de quem escreveu este decreto ou de quantos tentaram cumpri-lo. A única certeza é que pouquíssimos foram capazes de enfrentar sequer um desses seres. Derrote os quatro chefes mundiais e prove que é digno de completar um feito reservado aos aventureiros mais poderosos. Depois, vá falar com Sheila, no mapa 171, para receber sua recompensa.
+DescFinal=Os quatro guardiões caíram e, pela primeira vez em séculos, seus domínios ficaram em silêncio. Ao observar o pergaminho, consigo distinguir uma pequena inscrição escondida sob o selo: "Quatro caíram. O equilíbrio pode começar a ser restaurado." Não sei quem escreveu estas palavras nem por que esses quatro colossos foram escolhidos. Talvez sua derrota faça parte de algo muito mais antigo do que podemos imaginar. Você cumpriu sua missão. Pegue sua recompensa.
+Repetible=1
+RequiredLevel=25
+
+[QUEST427]
+Nombre=Um Pequeno Problema com Ratos
+Desc=Perto de Makrom você encontrará dois ratos preparados para esta missão. Derrote-os e espere que reapareçam até completar 5 mortes. Use o Diário para acompanhar seu progresso e fixar o objetivo. Quando terminar, volte até Makrom para receber a recompensa.
+DescFinal=Muito bem. Você aprendeu o ciclo completo de uma missão: aceitar a tarefa, acompanhá-la no Diário, fixar o objetivo, concluí-la e voltar para receber a recompensa. Este é apenas o começo da sua aventura.
+Repetible=0
+RequiredLevel=1
+
 [QUEST900]
 Nombre=Cenizas del Primer Fuego
 Desc=Traeme 10 Plumas de Fenix y te entregare un Huevo de Fenix, que guarda el poder ancestral de las llamas.
