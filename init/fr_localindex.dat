@@ -2346,7 +2346,7 @@ Nombre=Forge de piquet de Blodium
 Desc=Toi ne ressembles pas à l'un d'eux. Écoute, avant que ce village ne soit gelé, nous sommes venus ici pour une seule chose : le Blodium. Un minéral bleu rare, aussi résistant que la montagne elle-même. Mais il ne tombe pas comme ça. Pour le ramasser, il te faut un outil spécial, que j'ai forgé moi-même il y a des années : la pioche spéciale en Blodium. L'originale a été perdue, mais j'ai les outils pour t'en fabriquer une nouvelle, si tu m'aides à dégager un chemin pour qu'on puisse sortir d'ici.
 DescFinal=Parfait ! Avec ces peaux, je pourrai survivre à la descente. Prends le piquet, une promesse est une promesse. Je pars maintenant.
 Repetible=1
-RequiredLevel=28
+RequiredLevel=25
 PosMap=182
 
 [QUEST31]
@@ -3989,7 +3989,7 @@ Nombre=Apprenez la recette du Feu
 Desc=Thirga Brumhilda vous a confié une mission brûlante. Au portail de la Forêt des Esprits, les Porteurs de Feu gardent les pages antiques d'un grimoire perdu. Rassemblez 50 Pages du Livre de Feu, forgées dans le feu même de la création. Ce n'est qu'ainsi que vous pourrez maîtriser la Recette de l'Élément du Feu, symbole de la puissance et de la passion de la forge naine.
 DescFinal=Ha ! Je sens la fumée sur tes vêtements et je vois l'éclat du feu dans tes yeux. Tu as apporté les lames ardentes, et avec elles, le savoir des anciens forgerons. Désormais, le feu répondra à ton marteau. Utilise cette recette avec fierté, Ouvrier, et que chaque coup embrase la légende de Morgrim !
 Repetible=0
-RequiredLevel=28
+RequiredLevel=25
 PosMap=594
 
 [QUEST280]
@@ -3997,7 +3997,7 @@ Nombre=Apprenez la recette de l'Eau
 Desc=Thirga vous a parlé de l'équilibre de l'Eau, un élément patient et malléable. Dans la Vision Ancestrale, les Porteurs d'Eau protègent les pages d'un grimoire fluide et en perpétuelle évolution. Rassemblez 50 Pages du Livre de l'Eau et prouvez que vous pouvez forger votre volonté comme l'acier sous le courant. Maîtrisez la Recette de l'Élément Eau et laissez la sérénité guider votre main.
 DescFinal=Je vois que tu as retenu la leçon de l'eau… patiente, constante, inébranlable. L'eau polit la pierre comme le travail polit un nain. Prends cette recette et laisse-la couler dans ta forge. Puisse chaque goutte qui tombe sur le métal te rappeler qui tu es.
 Repetible=0
-RequiredLevel=28
+RequiredLevel=25
 PosMap=594
 
 [QUEST281]
@@ -4005,7 +4005,7 @@ Nombre=Apprenez la recette du Vent
 Desc=Dans la Vision Ancestrale, les Porteurs du Vent se meuvent au gré de rafales invisibles, préservant une énergie volatile. Thirga Brumhilda vous met au défi de rassembler 50 Feuilles du Livre du Vent, fragments aussi légers et insaisissables qu'un courant d'air. Seuls ceux qui comprennent la liberté du vent peuvent maîtriser la Recette de l'Élément Vent.
 DescFinal=Tu as progressé avec agilité, tel un torrent dévalant les montagnes. Le vent ne se laisse pas facilement capturer, mais tu l'as dompté par tes efforts. Reçois cette recette et laisse le souffle de l'air bénir tes forges. Nul mur ne peut emprisonner un esprit libre.
 Repetible=0
-RequiredLevel=28
+RequiredLevel=25
 PosMap=594
 
 [QUEST282]
@@ -4013,7 +4013,7 @@ Nombre=Découvrez la recette de la Terre
 Desc=L'épreuve finale de Thirga vous mène aux Porteurs de la Terre. Leurs feuilles pèsent le poids de montagnes, et seul un travailleur d'une persévérance sans faille peut rassembler 50 Feuilles du Livre de la Terre. La Recette de l'Élément Terre symbolise la stabilité, la force et la résilience du peuple de Morgrim.
 DescFinal=Solide comme un roc. Ainsi se forgent les vrais artisans. Tu as porté le poids de la terre, et elle t'a accueilli. Reçois cette recette, fils de la forge, et que ton art soit aussi éternel que la pierre de Morgrim.
 Repetible=0
-RequiredLevel=28
+RequiredLevel=25
 PosMap=594
 
 [QUEST285]

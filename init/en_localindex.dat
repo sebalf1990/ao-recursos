@@ -2346,7 +2346,7 @@ Nombre=Blodium's Picket Forge
 Desc=You don't look like one of them. Listen, before this village froze in death, we came here for one thing: Blodium. A rare, blue mineral, as tough as the mountain itself. But it doesn't just fall to the ground. To pick it, you need a special tool, one I forged myself years ago: the Blodium Special Pickaxe. The original was lost, but I have the tools to make you a new one, if you help me clear a path so we can get out of here.
 DescFinal=Perfect! With these skins I'll be able to survive the descent. Take the picket, a promise is a promise. I'm leaving now.
 Repetible=1
-RequiredLevel=28
+RequiredLevel=25
 PosMap=182
 
 [QUEST31]
@@ -3991,7 +3991,7 @@ Nombre=Learn the recipe for Fire
 Desc=Thirga Brumhilda has entrusted you with a burning task. Within the portal to the Forest of Spirits, the Firebearers guard ancient pages of a lost grimoire. Gather 50 Book of Fire Pages, forged in the very heat of creation. Only then will you be able to master the Recipe of the Element of Fire, symbol of the power and passion of the dwarven forge.
 DescFinal=Ha! I can smell the smoke on your clothes and see the fire's gleam in your eyes. You have brought the burning blades, and with them, the knowledge of the ancient smiths. From this day forward, fire will answer your hammer. Use this recipe with pride, Worker, and let every blow ignite Morgrim's story!
 Repetible=0
-RequiredLevel=28
+RequiredLevel=25
 PosMap=594
 
 [QUEST280]
@@ -3999,7 +3999,7 @@ Nombre=Learn the recipe for Water
 Desc=Thirga has spoken to you of the balance of Water, a patient and malleable element. In the Ancestral Vision, the Water Bearers protect the pages of a fluid and ever-changing grimoire. Gather 50 Water Book Pages and prove that you can temper your will like steel beneath the stream. Master the Recipe of the Water Element and let serenity guide your hand.
 DescFinal=I see you've learned the lesson of water... patient, constant, unbreakable. Water polishes stone like work polishes a dwarf. Take this recipe and let it flow in your forge. May every drop that falls on the metal remind you who you are.
 Repetible=0
-RequiredLevel=28
+RequiredLevel=25
 PosMap=594
 
 [QUEST281]
@@ -4007,7 +4007,7 @@ Nombre=Learn the recipe for Wind
 Desc=In the Ancestral Vision, Windbearers move amidst invisible gusts, safeguarding volatile power. Thirga Brumhilda challenges you to collect 50 Wind Book Leaves, fragments as light and elusive as a current of air. Only those who understand the freedom of the wind can master the Wind Element Recipe.
 DescFinal=You moved swiftly, like a stream through the mountains. The wind is not easily captured, but you have tamed it with your effort. Receive this recipe, and let the breath of the air bless your forges. No wall can contain a free spirit.
 Repetible=0
-RequiredLevel=28
+RequiredLevel=25
 PosMap=594
 
 [QUEST282]
@@ -4015,7 +4015,7 @@ Nombre=Learn the recipe for Earth
 Desc=Thirga's final challenge leads you to the Earth Bearers. Their leaves weigh as much as mountains, and only a truly persevering worker can gather 50 Earth Book Leaves. The Earth Element Recipe represents the stability, strength, and resilience of the people of Morgrim.
 DescFinal=Firm as a rock. Thus are true workers forged. You have borne the weight of the earth, and she has accepted you. Take this recipe, son of the forge, and let your craft be as eternal as Morgrim's stone.
 Repetible=0
-RequiredLevel=28
+RequiredLevel=25
 PosMap=594
 
 [QUEST285]
