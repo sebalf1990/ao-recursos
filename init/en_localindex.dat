@@ -74301,8 +74301,9 @@ Obj3=476-1
 
 [NPC9050]
 Name=Leviatán Joven
-Body=4520
-BodyIdle=4519
+Body=5443
+BodyIdle=5441
+Ataque1=5442
 HP=3500
 EXP=5000
 ORO=375
