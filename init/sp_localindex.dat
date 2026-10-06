@@ -6119,58 +6119,58 @@ QuizaDropea1=2498-1
 QuizaProb=50
 
 [NPC668]
-Name=Scramer Pícaro
+Name=Scramer Acolito
 Body=4348
 Head=0
 BodyIdle=4349
 Ataque1=4347
-HP=400
-EXP=150
-ORO=24
-MaxHIT=25
-MinHIT=22
+HP=500
+EXP=300
+ORO=15
+MaxHIT=20
+MinHIT=15
 NpcType=0
 Nivel=15
 
 [NPC669]
-Name=Scramer Encapuchado
+Name=Scramer Sombrio
 Body=4351
 Head=0
 BodyIdle=4352
 Ataque1=4350
-HP=450
-EXP=225
-ORO=26
-MaxHIT=40
-MinHIT=25
+HP=800
+EXP=400
+ORO=20
+MaxHIT=25
+MinHIT=20
 NpcType=0
 Nivel=15
 
 [NPC670]
-Name=Scramer Anciano
+Name=Scramer Nigromante
 Body=4354
 Head=0
 BodyIdle=4355
 Ataque1=4353
-HP=600
-EXP=300
-ORO=22
-MaxHIT=15
-MinHIT=8
+HP=900
+EXP=500
+ORO=20
+MaxHIT=20
+MinHIT=15
 NpcType=0
 Nivel=15
 
 [NPC671]
-Name=Scramer
+Name=Scramer no-muerto
 Body=4357
 Head=0
 BodyIdle=4358
 Ataque1=4356
-HP=900
-EXP=450
-MaxHIT=60
-MinHIT=45
-ORO=28
+HP=1000
+EXP=600
+MaxHIT=30
+MinHIT=20
+ORO=25
 NpcType=0
 Nivel=20
 
@@ -13884,16 +13884,16 @@ MaxHIT=180
 MinHIT=145
 
 [NPC1634]
-Name='mantis de fuego'
+Name=Mantis de Fuego
 Body=5609
 Head=0
 BodyIdle=5607
 Ataque1=5608
-HP=3600
-EXP=0
+HP=3500
+MaxHIT=165
+MinHIT=110
+EXP=2800
 ORO=0
-MaxHIT=0
-MinHIT=0
 
 [NPC1635]
 Name=Arkhavel <Quest Sedas Elementales>
