@@ -3,7 +3,7 @@ NUMEROHECHIZO=425
 NUMLOCALEMSG=2215
 NUMMAPAS=750
 NUMNPCS=9063
-NUMOBJS=9205
+NUMOBJS=9206
 NUMQUESTS=905
 NUMSUGERENCIAS=6
 
@@ -2626,6 +2626,14 @@ Desc=Has encontrado un antiguo pergamino sellado con un emblema que ya nadie rec
 DescFinal=Los cuatro guardianes han caído y, por primera vez en siglos, sus dominios han quedado en silencio. Al observar el pergamino, puedo distinguir una pequeña inscripción oculta bajo el sello: "Cuatro han caído. El equilibrio puede comenzar a restablecerse". No sé quién escribió estas palabras ni por qué estos cuatro colosos fueron elegidos. Tal vez su derrota forme parte de algo mucho más antiguo de lo que imaginamos. Has cumplido con tu misión, toma tu recompensa.
 Repetible=1
 RequiredLevel=25
+
+[QUEST424]
+Nombre=Más Allá del Enredo
+Desc=Has aprendido a utilizar Enredar, pero este hechizo es apenas el comienzo. Existe una magia mucho más poderosa: Aturdir. Los Brumaks conocen bien este hechizo y lo utilizan para dejar inmóviles a sus enemigos. Si quieres aprender a dominarlo, tendrás que enfrentarte a ellos y demostrar que puedes resistir su poder. Aunque no serán tu único desafío
+DescFinal=Lo has conseguido. Has aprendido a llevar el poder de Enredar mucho más allá. Ahora podrás dejar a tus enemigos completamente inmóviles. Domina Aturdir y haz que conozcan el verdadero significado de la parálisis.
+Repetible=0
+RequiredLevel=24
+PosMap=560
 
 [QUEST425]
 Nombre=El Arte de la Invisibilidad
@@ -13586,7 +13594,7 @@ Body=6238
 Head=0
 NpcType=0
 Comercia=1
-NROITEMS=35
+NROITEMS=36
 Obj1=2765-100
 Obj2=2763-100
 Obj3=2764-100
@@ -13737,7 +13745,7 @@ Body=6237
 Head=0
 NpcType=0
 Comercia=1
-NROITEMS=35
+NROITEMS=36
 Obj1=2765-1000
 Obj2=2763-100
 Obj3=2764-100
@@ -15020,15 +15028,15 @@ IconoIndex=32410
 
 [HECHIZO26]
 Nombre=Inmovilizar
-Desc=Impide que la víctima se mueva durante un periodo de tiempo menor que Paralizar.
-PalabrasMagicas=Är Prop s'uo
+Desc=Evita que el usuario se mueva durante 15 segundos. Si la víctima es un NPC, el efecto dura 90 segundos.
+PalabrasMagicas=Är Prop suo
 HechizeroMsg=Has inmovilizado a
 TargetMsg=te ha inmovilizado.
 PropioMsg=Te has inmovilizado.
 IconoIndex=32417
 MinSkill=60
 ManaRequerido=300
-StaRequerido=45
+StaRequerido=75
 
 [HECHIZO27]
 Nombre=Remover Parálisis
@@ -15048,7 +15056,7 @@ Desc=Evita que el usuario se mueva durante 15 segundos. Si la víctima es un NPC
 PalabrasMagicas=Är Stu'n suo
 HechizeroMsg=Has aturdido a
 TargetMsg=te ha aturdido.
-ManaRequerido=300
+ManaRequerido=250
 StaRequerido=75
 MinSkill=60
 IconoIndex=32417
@@ -17835,6 +17843,17 @@ ManaRequerido=70
 StaRequerido=45
 MinSkill=55
 IconoIndex=74723
+
+[HECHIZO350]
+Nombre=Enredar
+Desc=Evita que el usuario se mueva durante 5 segundos. Si la víctima es un NPC, el efecto dura 30 segundos.
+PalabrasMagicas=Nreda Vör
+HechizeroMsg=Has enredado a
+TargetMsg=te ha enredado.
+IconoIndex=32417
+ManaRequerido=180
+MinSkill=45
+StaRequerido=40
 
 [HECHIZO400]
 Nombre=Detectar Personajes
@@ -68650,6 +68669,13 @@ GrhIndex=31782
 ObjType=8
 Texto=Si tienes la reliquia del Emperador podras crear tu castillo en este lugar.
 Agarrable=1
+
+[OBJ9206]
+Name=Enredar
+GrhIndex=609
+Valor=48000
+Objtype=24
+Texto=Atrapa a tus enemigos (nivel máximo 24)
 
 [NPC9000]
 Name=Maestro Carpintero y Lenador <Carpinteria y Tala>

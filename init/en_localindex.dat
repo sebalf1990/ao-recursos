@@ -3,7 +3,7 @@ NUMEROHECHIZO=425
 NUMLOCALEMSG=2215
 NUMMAPAS=750
 NUMNPCS=9063
-NUMOBJS=9205
+NUMOBJS=9206
 NUMQUESTS=905
 NUMSUGERENCIAS=6
 
@@ -4760,6 +4760,14 @@ Desc=You have found an ancient scroll sealed with an emblem that no one recogniz
 DescFinal=The four guardians have fallen and, for the first time in centuries, their domains have fallen silent. As I examine the scroll, I can make out a small inscription hidden beneath the seal: "Four have fallen. The balance may begin to be restored." I do not know who wrote these words or why these four colossi were chosen. Perhaps their defeat is part of something far older than we can imagine. You have fulfilled your mission. Take your reward.
 Repetible=1
 RequiredLevel=25
+
+[QUEST424]
+Nombre=Beyond Ensnare
+Desc=You have learned to use Ensnare, but this spell is only the beginning. There is a much more powerful magic: Stun. Brumaks know this spell well and use it to leave their enemies immobile. If you want to master it, you will have to face them and prove that you can withstand their power. However, they will not be your only challenge
+DescFinal=You have done it. You have learned to take the power of Ensnare much further. Now you will be able to leave your enemies completely immobile. Master Stun and let them learn the true meaning of paralysis.
+Repetible=0
+RequiredLevel=24
+PosMap=560
 
 [QUEST425]
 Nombre=The Art of Invisibility
@@ -15939,7 +15947,7 @@ Body=6238
 Head=0
 NpcType=0
 Comercia=1
-NROITEMS=35
+NROITEMS=36
 Obj1=2765-100
 Obj2=2763-100
 Obj3=2764-100
@@ -16090,7 +16098,7 @@ Body=6237
 Head=0
 NpcType=0
 Comercia=1
-NROITEMS=35
+NROITEMS=36
 Obj1=2765-1000
 Obj2=2763-100
 Obj3=2764-100
@@ -17399,16 +17407,16 @@ IconoIndex=32410
 
 [HECHIZO26]
 Nombre=Inmovilizar
-Desc=Prevents the victim from moving for a shorter time than Paralyze.
-PalabrasMagicas=Är Prop s'uo
+Desc=Prevents the user from moving for 15 seconds. If the victim is an NPC, the effect lasts 90 seconds.
+PalabrasMagicas=Är Prop suo
 HechizeroMsg=You immobilized
-TargetMsg=You have been immobilized by
+TargetMsg=Has immobilized you.
 PropioMsg=You are immobilized.
 Nombre=Immobilize
 IconoIndex=32417
 MinSkill=60
 ManaRequerido=300
-StaRequerido=45
+StaRequerido=75
 
 [HECHIZO27]
 Nombre=Remover Parálisis
@@ -17429,7 +17437,7 @@ Desc=Prevents the user from moving for 15 seconds. If the victim is an NPC, the 
 PalabrasMagicas=Är Stu'n suo
 HechizeroMsg=You stun
 TargetMsg=You have been stunned by
-ManaRequerido=300
+ManaRequerido=250
 StaRequerido=75
 MinSkill=60
 IconoIndex=32417
@@ -20290,6 +20298,17 @@ ManaRequerido=70
 StaRequerido=45
 MinSkill=55
 IconoIndex=74723
+
+[HECHIZO350]
+Nombre=Ensnare
+Desc=Prevents the user from moving for 5 seconds. If the victim is an NPC, the effect lasts 30 seconds.
+PalabrasMagicas=Nreda Vör
+HechizeroMsg=You have ensnared
+TargetMsg=has ensnared you.
+IconoIndex=32417
+ManaRequerido=180
+MinSkill=45
+StaRequerido=40
 
 [HECHIZO400]
 Nombre=Detectar Personajes
@@ -73966,6 +73985,14 @@ GrhIndex=31782
 ObjType=8
 Texto=Si tienes la reliquia del Emperador podras crear tu castillo en este lugar.
 Agarrable=1
+
+[OBJ9206]
+Name=Ensnare
+GrhIndex=609
+Valor=48000
+Objtype=24
+Texto=Atrapa a tus enemigos (nivel máximo 24)
+texto=Trap your enemies (maximum level 24)
 
 [NPC9000]
 Name=Master Carpenter and Woodcutter <Carpinteria y Tala>
