@@ -2629,11 +2629,11 @@ Obj3=29-1000
 NoMapInfo=1
 
 [NPC9]
-Name=Igor <Provisiones>
+Name=Igor <Provisiones de Principiante>
 Desc=¡Hola, joven aventurero! Debo advertirte: si tienes hambre o sed, pronto te quedarás sin energía
 DescClose=¡Hasta pronto!
-Body=5
-Head=701
+Body=491
+Head=0
 NpcType=0
 Comercia=1
 NROITEMS=2
@@ -2654,10 +2654,12 @@ Obj2=22-100
 Obj3=23-100
 
 [NPC11]
-Name=Seraphia <Quest>
+Name=Seraphia <Quest de Alquimia>
 Desc=Si estás interesado en el mundo de la Alquimia, tengo un encargo para ti.
-Body=2522
-Head=58
+Body=6122
+Head=0
+BodyIdle=6123
+Ataque1=6122
 NpcType=17
 
 [NPC12]
@@ -2744,24 +2746,26 @@ Obj2=44-100
 Obj3=43-100
 
 [NPC19]
-Name=Lyra <Quest>
+Name=Lyra <Quest de Nucleo Terrenal>
 Desc=No puedo decirte exactamente qué haré con él... pero sé que su energía vale oro para quien pueda estudiarla.
-Body=2530
-Head=368
+Body=6163
+Head=0
+BodyIdle=6163
+Ataque1=6163
 NpcType=17
 
 [NPC20]
-Name=Roth <Quest>
+Name=Roth <Quest Pantano>
 Desc=Si esas criaturas siguen multiplicándose, Ullathorpe no va a estar a salvo.
-Body=122
-Head=124
+Body=6113
+Head=0
 NpcType=17
 
 [NPC21]
-Name=Bromdir <Quest>
+Name=Bromdir <Quest del Fenix>
 Desc=¡El Fénix ha despertado nuevamente! Renace de sus cenizas cada cierto tiempo, tal como lo ha hecho desde antes de que Morgrim fuera tallada en la roca. Tráeme sus plumas, y yo forjaré para ti recompensas que solo el fuego eterno puede conceder.
-Body=531
-Head=329
+Body=881
+Head=0
 NpcType=17
 
 [NPC22]
@@ -3142,10 +3146,10 @@ Head=109
 NpcType=17
 
 [NPC95]
-Name=Aurelion Valtheris <Quest>
+Name=Aurelion Valtheris <Quest de Fragmentos>
 Desc=La Luz te ha traído hasta mí.
-Body=269
-Head=10
+Body=484
+Head=0
 NpcType=17
 
 [NPC96]
@@ -3260,24 +3264,24 @@ Obj2=199-1
 NoMapInfo=1
 
 [NPC107]
-Name=Capitán Rowen <Quest>
+Name=Capitán Rowen <Quest del Pantano>
 Desc=¡Alto ahí, ciudadano! Los exploradores regresaron del pantano con malas noticias. Trolls, abominaciones y los malditos guardas del pantano se están organizando. Si no actuamos pronto, Ullathorpe será el próximo objetivo.
-Body=249
-Head=26
+Body=478
+Head=0
 NpcType=17
 
 [NPC108]
-Name=Branik <Quest>
+Name=Branik <Quest de Dungeon Dragon>
 Desc=Eh... cuidado por donde pisás, forastero. Estas minas ya no son seguras. El hierro que sacamos de acá no es normal… está caliente incluso en la oscuridad. Desde que los dragones humanoides se agitaron en el dungeon cercano, algo cambió bajo tierra.
-Body=726
-Head=325
+Body=884
+Head=0
 NpcType=17
 
 [NPC109]
-Name=Eldric <Quest>
+Name=Eldric <Quest de Dungeon Marabel>
 Desc=No deberías estar aquí... pero si has llegado hasta este lugar, tal vez aún quede esperanza. Las criptas de Marabel han sido profanadas. Orcos salvajes, liches y brujos impíos deambulan sin control. Si deseas oro y experiencia, ayúdame a reducir su número antes de que el mal se extienda más allá de estas paredes.
-Body=1549
-Head=229
+Body=906
+Head=0
 NpcType=17
 
 [NPC110]
@@ -3288,11 +3292,12 @@ Head=516
 NpcType=17
 
 [NPC111]
-Name=Costhas <Quest>
+Name=Costhas <Quest de Pesca>
 Desc=Este muelle es mi vida..
-Body=80
-Head=39
-Ataque1=4339
+Body=6114
+Head=0
+BodyIdle=6114
+Ataque1=6114
 HP=15
 NpcType=17
 EXP=4
@@ -3301,17 +3306,17 @@ MaxHIT=3
 MinHIT=1
 
 [NPC112]
-Name=Kleric <Quest>
+Name=Kleric <Quest de Clerigo>
 Desc=¡El poder de Curar!
-Body=61
-Head=13
+Body=432
+Head=0
 NpcType=17
 
 [NPC113]
-Name=Agnome <Quest>
+Name=Agnome <Quest del Desierto>
 Desc=He caminado siglos entre estas dunas, donde las momias de la pirámide aún susurran mi nombre y desafían a la muerte. Pero ahora, cerca del oasis, los kobolds se han alzado como una nueva plaga que corrompe la arena y amenaza a los viajeros. Si deseas dominar el desierto, deberás silenciar tanto a los muertos antiguos como a las bestias que reclaman estas tierras.
-Body=556
-Head=321
+Body=886
+Head=0
 HP=125
 NpcType=17
 Comercia=0
@@ -3329,7 +3334,7 @@ Head=577
 NpcType=17
 
 [NPC115]
-Name=Gamora <Quest>
+Name=Gamora <Quest del Escudo Legionario>
 Desc=Tengo el más poderoso acero Orco para ti.
 Body=3005
 Head=518
@@ -3350,10 +3355,10 @@ Head=79
 NpcType=17
 
 [NPC119]
-Name=Bertram <Quest>
+Name=Bertram <Quest de Dungeon Dragon>
 Desc=¡Otro aventurero que ha sobrevivido lo suficiente como para llegar hasta aquí! Si tus pasos te llevan al Dungeon Dragón, quizá podamos hacer negocios. Las bestias que allí habitan guardan piedras que ningún joyero común puede trabajar... pero yo no soy un joyero común.
-Body=2559
-Head=312
+Body=440
+Head=0
 NpcType=17
 NROITEMS=1
 Obj1=1278-1
@@ -3425,24 +3430,26 @@ NpcType=0
 NoMapInfo=1
 
 [NPC247]
-Name=Nundal <Quest>
+Name=Nundal <Quest de Pesca>
 Desc=No se de que nota me hablas..
 Body=607
 Head=301
 NpcType=17
 
 [NPC248]
-Name=Bunyan <Quest>
+Name=Bunyan <Quest de Carpintería>
 Desc=Es un trabajo duro, pero necesario..
-Body=607
-Head=305
+Body=411
+Head=0
 NpcType=17
 
 [NPC249]
-Name=Hiploro <Quest>
+Name=Hiploro <Quest de Minas de Hierro>
 Desc=¡Todos quieren nueQuests materiales, somos más ricos de lo que creemos!
-Body=1079
-Head=508
+Body=6161
+Head=0
+BodyIdle=6161
+Ataque1=6161
 NpcType=17
 
 [NPC250]
@@ -3698,7 +3705,7 @@ QuizaDropea1=2236-3
 QuizaProb=1
 
 [NPC304]
-Name=Zarok <Rey de Arkhein>
+Name=Zarok <Rey de Arkheinl>
 Desc=¡Maldita escoria! Mi momento ha llegado. De mi mano vienen las Hordas del Caos... ¿Acaso no comprendes, mortal? ¡El Caos es el comienzo!
 Body=5568
 HP=500000
@@ -3764,40 +3771,40 @@ NpcType=17
 Comercia=0
 
 [NPC403]
-Name=Galgo <Quest>
+Name=Galgo <Quest de Catacumbas>
 Desc=¡Buongiorno! Soy el Guardián de estas Catacumbas, conozco a la perfección cada rincón de este lugar. Si quieres acceder al segundo nivel, tengo una misión para tí.
-Body=254
-Head=4
+Body=490
+Head=0
 NpcType=17
 
 [NPC404]
-Name=Roman <Quest>
+Name=Roman <Quest de Araña Gigante>
 Desc=Hola viajero. Necesito ayuda, podríamos hacer un intercambio.
-Body=69
+Body=476
 Head=1
 NpcType=17
 Comercia=0
 
 [NPC405]
-Name=Henry <Quest>
+Name=Henry <Quest de Bosque Elfico>
 Desc=La leña élfica mantiene a flote nuestros barcos, pero esos malditos ciervos ancestrales están volviendo locos a mis hombres.
-Body=580
-Head=312
+Body=883
+Head=0
 NpcType=17
 
 [NPC406]
-Name=Robbie <Quest>
+Name=Robbie <Quest de Esqueletos>
 Desc=Tengo mucho miedo, no puedo volver allí
-Body=44
-Head=618
+Body=492
+Head=0
 NpcType=17
 Comercia=0
 
 [NPC407]
-Name=Makrom <Quest>
+Name=Makrom <Quest de Dungeon Newbie>
 Desc=¡Bienvenido al Dungeon Newbie! Un fantástico lugar para principiantes, pero también peligroso!
-Body=75
-Head=686
+Body=487
+Head=0
 NpcType=17
 
 [NPC408]
@@ -3847,10 +3854,12 @@ Head=702
 NpcType=17
 
 [NPC415]
-Name=Heather <Quest>
+Name=Heather <Quest de Equipamiento Basico>
 Desc=¡Bienvenido a Argentum Online, si ya has completado las misiónes del Newbie Dungeon, tengo un obsequio para tí!
-Body=2251
-Head=695
+Body=6179
+Head=0
+BodyIdle=6179
+Ataque1=6179
 NpcType=17
 
 [NPC419]
@@ -3901,17 +3910,17 @@ NpcType=17
 Comercia=0
 
 [NPC426]
-Name=Dragga <Quest>
+Name=Dragga <Quest de Celeridad>
 Desc=Esta ubicación es muy linda! Pero yo llegué primera.
-Body=3327
-Head=514
+Body=435
+Head=0
 NpcType=17
 
 [NPC427]
-Name=Zero <Quest>
+Name=Zero <Quest de Fuerza>
 Desc=En mis manos poseo algo que puede ser de tu conveniencia.
-Body=74
-Head=44
+Body=418
+Head=0
 NpcType=17
 
 [NPC428]
@@ -3929,10 +3938,10 @@ Head=178
 NpcType=17
 
 [NPC430]
-Name=Barlock <Quest>
+Name=Barlock <Quest de Goblins>
 Desc=¡Oye tú, ser mágico, ayuda por favor!
-Body=515
-Head=413
+Body=475
+Head=0
 NpcType=17
 
 [NPC431]
@@ -3944,10 +3953,12 @@ NpcType=17
 Comercia=0
 
 [NPC432]
-Name=Alaric von Nix <Quest>
+Name=Alaric von Nix <Quest de Pieles>
 Desc=¡Ah.. un nuevo rostro entre los copos de esta ciudad! Bienvenido a mi taller, viajero.
-Body=152
-Head=21
+Body=6174
+Head=0
+BodyIdle=6174
+Ataque1=6174
 NpcType=17
 
 [NPC490]
@@ -4271,7 +4282,7 @@ NpcType=0
 Nivel=28
 
 [NPC517]
-Name=Zulrik
+Name=Zulrik <Goblin Hechicero>
 Body=5101
 Head=0
 BodyIdle=5099
@@ -4702,10 +4713,10 @@ MinHIT=500
 GiveEXPClan=150
 
 [NPC550]
-Name=Serath <Quest>
+Name=Serath <Quest de Lobos>
 Desc=La Cueva de la Desolación escupe muerte noche tras noche. Aquí afuera, hienas y lobos merodean, alimentándose de la sangre de los incautos. Dentro, los licántropos han hecho su guarida y no conocen piedad. Limpia la entrada, adéntrate en la cueva y acaba con la amenaza... y serás recompensado.
-Body=1514
-Head=211
+Body=480
+Head=0
 NpcType=17
 
 [NPC551]
@@ -4883,10 +4894,10 @@ NpcType=0
 Nivel=28
 
 [NPC562]
-Name=Rathen <Quest>
+Name=Rathen <Quest de Bandido>
 Desc=Si caminas entre sombras y dejas heridas que no sanan, quiza estés listo. Pero el verdadero dolor se aprende con sangre ajena... y paciencia.
-Body=1697
-Head=223
+Body=445
+Head=0
 NpcType=17
 
 [NPC563]
@@ -5011,11 +5022,10 @@ QuizaDropea16=2237-2
 QuizaProb=1
 
 [NPC572]
-Name=Khemet <Quest>
+Name=Khemet <Quest del Manto del Sol Caido>
 Desc=Veo que llegaste hasta Kamal, pero tus manos aún no portan aquello que el desierto recuerda. No todo lo que brilla en la arena puede ser comprendido sin primero conocer su historia. Regresa cuando hayas reunido la obra completa. Solo entonces mis palabras podrán guiarte.
-Body=195
-Head=35
-BodyIdle=4459
+Body=493
+Head=0
 HP=15000
 NpcType=17
 MaxHIT=210
@@ -5028,14 +5038,14 @@ NROITEMS=1
 Obj1=2236-1
 
 [NPC573]
-Name=Abdul el Tallador <Quest>
+Name=Abdul el Tallador <Quest de Piramide>
 Desc=El jade no miente, solo espera al artesano correcto. Pocos en Ullathorpe entienden el valor de las reliquias del desierto. Si ya sobreviviste a la Pirámide, quizá tengas lo necesario para escuchar mi historia.
-Body=518
-Head=421
+Body=6108
+Head=0
 NpcType=17
 
 [NPC574]
-Name=Heral <Quest>
+Name=Heral <Quest de Desierto>
 Desc=¡Que placer encontrar a alguien por aquí!
 Body=523
 Head=416
@@ -7280,7 +7290,7 @@ Nivel=30
 GiveEXPClan=1
 
 [NPC857]
-Name=Aelion <Rey de Eldoria>
+Name=Aelion
 Body=5663
 Head=0
 BodyIdle=5661
@@ -7588,7 +7598,7 @@ MinHIT=75
 Nivel=28
 
 [NPC927]
-Name=Chancho
+Name=Chancho <Devorador Voraz>
 Body=5107
 Head=0
 BodyIdle=5105
@@ -8311,17 +8321,17 @@ MaxHIT=15
 MinHIT=10
 
 [NPC987]
-Name=Thalanor <Quest>
+Name=Thalanor <Quest de Isla Pirata>
 Desc=Pocos humanos caminan este bosque sin romper su armonía. Kael habló de vos. Pero hay un lugar donde incluso los elfos evitan cazar.
 Body=67
 Head=131
 NpcType=17
 
 [NPC988]
-Name=Kael el Rastreador <Quest>
+Name=Kael el Rastreador <Quest de Bosque>
 Desc=El bosque ya te reconoce, Cazador... pero todavía no te obedece. Si querés que las bestias luchen a tu lado, primero tenés que demostrar que entendés su espíritu.
-Body=68
-Head=115
+Body=482
+Head=0
 NpcType=17
 
 [NPC989]
@@ -8526,10 +8536,10 @@ Comercia=0
 NROITEMS=0
 
 [NPC1006]
-Name=Aldren <Quest>
+Name=Aldren <Quest de Rugido Salvaje>
 Desc=Los jabalíes de esta zona son fieros, pero sus cuerpos guardan la esencia salvaje que necesito para completar mi investigación.
-Body=201
-Head=122
+Body=890
+Head=0
 NpcType=17
 
 [NPC1007]
@@ -8548,24 +8558,28 @@ Head=172
 NpcType=17
 
 [NPC1009]
-Name=Maelgor <Quest>
+Name=Maelgor <Quest de Isla Esperanza>
 Desc=No toques nada sin permiso... cada tabla acá tiene historia. ¿Ves esos garrotes colgados ahí? No los hice yo. Vienen de Nueva Esperanza, una isla infestada de ogros. Esos brutos blandan madera que no se quiebra, madera que resiste golpes que partirían un roble común.
-Body=607
-Head=311
+Body=197
+Head=0
 NpcType=17
 
 [NPC1010]
-Name=Eltherion <Quest>
+Name=Eltherion <Quest del Bosque Profano>
 Desc=Bienvenido, hijo de la luz. Mi deber es preservar el equilibrio entre la vida y lo que yace más allá. Si buscas dominar artes profanas, antes deberás demostrar que comprendes el peligro que representan.
-Body=147
-Head=112
+Body=6112
+Head=0
+BodyIdle=6112
+Ataque1=6112
 NpcType=17
 
 [NPC1011]
-Name=Mortivar <Quest>
+Name=Mortivar <Quest de Alquimia>
 Desc=Ah... un alma que no teme a las sombras. Conoces la llamada de la muerte, ¿no es así? Si deseas aprender a Invocar Zombis, primero demuéstrame que puedes dominar a los que ya vagan sin amo.
-Body=1617
-Head=212
+Body=6141
+Head=0
+BodyIdle=6141
+Ataque1=6141
 HP=2500
 NpcType=17
 EXP=2750
@@ -8640,42 +8654,42 @@ Head=702
 NpcType=17
 
 [NPC1018]
-Name=Arkan <Quest>
+Name=Arkan <Quest de Galeones>
 Desc=Eh... cuidado dónde pisas, forastero. ¿Ves el horizonte al sur? El mar no está vacío... está hambriento. Y esos galeones no descansarán hasta cobrar su deuda.
-Body=284
-Head=38
+Body=419
+Head=0
 NpcType=17
 
 [NPC1019]
-Name=Tharzug <Quest>
+Name=Tharzug <Quest de Orcos>
 Desc=Sientes el llamado, pero aún es débil. Los goblins escuchan, los muertos obedecen... los orcos resisten. Si deseas su fuerza, deberás quebrar su espíritu. Regresa cuando los espíritus de guerra te reconozcan.
-Body=558
-Head=311
+Body=887
+Head=0
 NpcType=17
 
 [NPC1020]
-Name=Morgrath <Quest>
+Name=Morgrath <Quest del Invocar Goblin>
 Desc=No es común que alguien encuentre mi cabaña y viva para contarlo. Veo en tus manos el rastro de la nigromancia... Invocar Zombie, ¿verdad? Ese hechizo es tosco, inestable. Yo puedo refinarlo... transformarlo en algo más útil.
-Body=666
-Head=424
+Body=499
+Head=0
 NpcType=17
 
 [NPC1021]
-Name=Eldren <Quest>
+Name=Eldren <Quest de Panteras>
 Desc=Las panteras del bosque se han vuelto más agresivas. Han cortado el paso hacia Penthar, y mi magia ya no es suficiente para mantenerlas a raya. Sin embargo... percibo en ti el eco del Rugido Salvaje. Quizás, con la prueba adecuada, podría enseñarte a hacerlo resonar con mayor fuerza.
 Body=157
 Head=109
 NpcType=17
 
 [NPC1022]
-Name=Eldrak <Quest>
+Name=Eldrak <Quest de Dungeon Dragon>
 Desc=No deberías estar aquí... este bosque devora a los curiosos. Pero siento en ti el Fulgor Ígneo. Si has venido a buscar poder, quizá podamos llegar a un acuerdo...
-Body=272
-Head=21
+Body=892
+Head=0
 NpcType=17
 
 [NPC1023]
-Name=Sahret <Quest>
+Name=Sahret <Quest de Piramide>
 Desc=El mar trae ecos antiguos... y tú no eres ajeno a ellos. Vivo aquí, entre la costa y la arena, observando la pirámide desde hace más años de los que puedo contar. Si has llegado hasta esta casa, es porque el Rugido Arcano ya responde a tu voz.
 Body=1553
 Head=222
@@ -8687,10 +8701,10 @@ MaxHIT=250
 MinHIT=215
 
 [NPC1024]
-Name=Vaelor <Quest>
+Name=Vaelor <Quest de Dungeon Dragon>
 Desc=El frío no era el final. Si llegaste hasta aquí, es porque sobreviviste a algo peor: aprender.
-Body=318
-Head=127
+Body=893
+Head=0
 HP=7500
 NpcType=17
 Nivel=45
@@ -8997,7 +9011,7 @@ NpcType=0
 Nivel=28
 
 [NPC1047]
-Name=Espectro
+Name=Espectro <Guarida>
 Body=5464
 BodyIdle=5462
 Ataque1=5463
@@ -9228,9 +9242,9 @@ Head=536
 NpcType=17
 
 [NPC1066]
-Name=Holyrood <Quest>
+Name=Holyrood <Quest de Arañas>
 Desc=No es seguro andar por aquí..
-Body=17
+Body=473
 Head=17
 NpcType=17
 
@@ -9242,24 +9256,26 @@ Head=536
 NpcType=17
 
 [NPC1068]
-Name=Reiz Ez <Quest>
+Name=Reiz Ez <Quest de Piramide>
 Desc=Llevo horas perdido aqui adentro..
 Body=34
 Head=11
 NpcType=17
 
 [NPC1069]
-Name=Anciano Sabio <Quest>
+Name=Anciano Sabio <Quest de Scramers>
 Desc=Los Scramers se apoderaron de esta isla, y se han llevado un objeto preciado.
-Body=529
-Head=412
+Body=495
+Head=0
 NpcType=17
 
 [NPC1070]
-Name=Ruma <Sastre Femenino>
+Name=Ruma <Sastre de Eldoria>
 Desc=¡Los mejores vestidos que podrás conseguir!
-Body=221
-Head=232
+Body=6189
+Head=0
+BodyIdle=6189
+Ataque1=6189
 NpcType=0
 Comercia=1
 NROITEMS=7
@@ -9409,10 +9425,12 @@ Obj2=529-1
 Obj3=1004-1
 
 [NPC1085]
-Name=Jacobo <Quest>
+Name=Jacobo <Quest de Pesca>
 Desc=¿Tienes lo necesario para triunfar en el Mar?
-Body=684
-Head=702
+Body=6111
+Head=0
+BodyIdle=6111
+Ataque1=6111
 NpcType=17
 NROITEMS=15
 Obj1=2765-1
@@ -9433,7 +9451,7 @@ NpcType=0
 NoMapInfo=1
 
 [NPC1087]
-Name=Baldros Featherwick <Investigador>
+Name=Baldros Featherwick <Quest del Grifo>
 Desc=¡Aquellos que defiendan los nidos y protejan la isla, tal vez sean dignos de criar su propio Grifo!
 Body=356
 Head=5
@@ -9677,10 +9695,10 @@ MaxHIT=0
 MinHIT=0
 
 [NPC1107]
-Name=Desh <Quest>
+Name=Desh <Quest de Cobras>
 Desc=Tengo una mision para ti, ciudadano de Nix.
-Body=33
-Head=13
+Body=474
+Head=0
 NpcType=17
 NROITEMS=8
 Obj1=198-1
@@ -9728,10 +9746,12 @@ Obj2=1792-1
 Obj3=3980-1
 
 [NPC1112]
-Name=Azhara <Quest>
+Name=Azhara <Quest de Nagas>
 Desc=¿Tienes la fuerza necesaria para ayudarme?
-Body=2029
-Head=61
+Body=6176
+Head=0
+BodyIdle=6176
+Ataque1=6176
 NpcType=17
 NROITEMS=6
 Obj1=30-1
@@ -9746,10 +9766,12 @@ Head=642
 NpcType=17
 
 [NPC1114]
-Name=Jace <Quest>
+Name=Jace <Quest de Dungeon Marabel>
 Desc=¡Oye, tu! No pareces ser Arqueólogo, pero necesito de tus musculos!
-Body=63
-Head=536
+Body=6192
+Head=0
+BodyIdle=6192
+Ataque1=6192
 NpcType=17
 
 [NPC1115]
@@ -9769,10 +9791,12 @@ NpcType=0
 NoMapInfo=1
 
 [NPC1117]
-Name=Windall <Quest>
+Name=Windall <Quest de Bosque de los Espiritus>
 Desc=¡Gran guerrero, bienvenido a las tierras de Eldoria!
-Body=2105
-Head=151
+Body=6108
+Head=0
+BodyIdle=6108
+Ataque1=6108
 NpcType=17
 NROITEMS=18
 Obj1=240-1
@@ -9815,10 +9839,10 @@ Obj3=2766-100
 NoMapInfo=1
 
 [NPC1121]
-Name=Malva <Quest>
+Name=Malva <Quest de la Cueva Nagas>
 Desc=Intenté acceder al Umbral de las Nagas pero esas bestias son demasiado poderosas..
-Body=144
-Head=3
+Body=428
+Head=0
 NpcType=17
 NROITEMS=8
 Obj1=198-1
@@ -9826,10 +9850,10 @@ Obj2=127-1
 Obj3=361-1
 
 [NPC1122]
-Name=Zalkor <Quest>
+Name=Zalkor <Quest de Pirañas>
 Desc=Esa maldita plaga carnívora está amenazando al puerto.
-Body=731
-Head=405
+Body=417
+Head=0
 NpcType=17
 NROITEMS=22
 Obj1=32-1
@@ -9837,10 +9861,10 @@ Obj2=35-1
 Obj3=515-1
 
 [NPC1123]
-Name=Magnis <Quest>
+Name=Magnis <Quest de Leviatanes>
 Desc=Fui atacado al Sur de esta ciudad, no tuve mas noticias sobre quienes viajaban conmigo..
-Body=122
-Head=35
+Body=489
+Head=0
 NpcType=17
 NROITEMS=21
 Obj1=1272-1
@@ -9876,10 +9900,10 @@ Obj3=1761-1000
 NoMapInfo=1
 
 [NPC1126]
-Name=Vulkano <Quest>
+Name=Vulkano <Quest de Dungeon Dragon>
 Desc=Pocos han enfrentado tal furia y vivido para contarlo.
-Body=224
-Head=105
+Body=485
+Head=0
 NpcType=17
 NROITEMS=5
 Obj1=30-1
@@ -10210,9 +10234,9 @@ NpcType=0
 GiveEXPClan=1
 
 [NPC1154]
-Name=Fermin
+Name=Fermin <Quest Maritima>
 Desc=Si crees que tienes lo necesario para convertirte en el mejor pescador, acepta mi desafio!. Varios como tu lo están intentando. Puedes registar tus capturas en el "Viejo libro de pesca""."
-Body=27
+Body=479
 Head=10
 NpcType=0
 
@@ -10320,10 +10344,10 @@ Head=0
 NpcType=17
 
 [NPC1166]
-Name=Aelder <Quest>
+Name=Aelder <Quest de Cercanias de Eleusis>
 Desc=Pocos llegan a Eleusis con ese hechizo aprendido... el Destello Malva no es una magia cualquiera.
-Body=201
-Head=117
+Body=426
+Head=0
 NpcType=17
 
 [NPC1167]
@@ -10377,17 +10401,19 @@ Head=54
 NpcType=17
 
 [NPC1172]
-Name=Sheila <Quest>
+Name=Sheila <Quest de Piedras Primordiales>
 Desc=¿Tienes el valor de enfrentar la oscuridad por un poder que puede cambiarlo todo?
-Body=2195
-Head=54
+Body=498
+Head=0
 NpcType=17
 
 [NPC1173]
-Name=Viejo Forjador <Quest>
+Name=Viejo Forjador <Quest de Pico de Blodium>
 Desc=¿Vienes por el Blodium? Ja.. Primero tendrás que ganártelo. Esta aldea no cayó por el frío, muchacho.
-Body=728
-Head=327
+Body=6164
+Head=0
+BodyIdle=6164
+Ataque1=6164
 NpcType=17
 
 [NPC1174]
@@ -10539,10 +10565,10 @@ Obj3=1761-100
 NoMapInfo=1
 
 [NPC1188]
-Name=Ho Ka Rdum <Quest>
+Name=Ho Ka Rdum <Quest de Esqueletos y Orcos>
 Desc=¡Temo por mi granja!
-Body=3129
-Head=555
+Body=905
+Head=0
 NpcType=17
 
 [NPC1189]
@@ -11594,10 +11620,10 @@ Ataque1=6096
 NpcType=17
 
 [NPC1289]
-Name=Xanthe <Sacerdotisa>
+Name=Xanthe <Sacerdote>
 Desc=¡Hola hijo mio! Soy la Sacerdotisa de esta Ciudad. Si quieres ser resucitado, simplemente hazme click izquierdo y escribe /Resucitar
-Body=2009
-Head=60
+Body=444
+Head=0
 NpcType=1
 NoMapInfo=1
 
@@ -11609,14 +11635,14 @@ Head=55
 NpcType=17
 
 [NPC1291]
-Name=Escritorio <Quest>
+Name=Escritorio <Quest de Pesca>
 Desc=Este viejo libro parece tener lo que buscaba!
 Body=4284
 Head=0
 NpcType=17
 
 [NPC1292]
-Name=Biblioteca <Quest>
+Name=Biblioteca <Quest de Cueva de Nagas>
 Desc=Creo que este es el libro que estaba buscando!
 Body=4283
 Head=0
@@ -11639,10 +11665,10 @@ NpcType=17
 Obj1=3703-1
 
 [NPC1295]
-Name=Astrid
+Name=Astrid <Quest Hongo de Luz>
 Desc=¡Estudiaba la Serpiente Albina para poder extraer y sinterizar su veneno, pero por un descuido ocurrió una catástrofe!
-Body=2191
-Head=78
+Body=889
+Head=0
 NpcType=17
 
 [NPC1296]
@@ -11957,10 +11983,10 @@ Obj2=1724-1
 Obj3=1079-1
 
 [NPC1331]
-Name=Meren <Quest>
+Name=Meren <Quest de Dungeon Dragon>
 Desc=¡Dragones al Sureste, cuidado!
-Body=3615
-Head=272
+Body=483
+Head=0
 NpcType=17
 
 [NPC1332]
@@ -12838,10 +12864,12 @@ NROITEMS=1
 Obj1=4308-1
 
 [NPC1401]
-Name=Caelum <Quest>
+Name=Caelum <Quest de Alquimia>
 Desc=¡Soy una experta en Alquimia!
-Body=2222
-Head=371
+Body=6124
+Head=0
+BodyIdle=6125
+Ataque1=6124
 NpcType=17
 
 [NPC1402]
@@ -13572,7 +13600,7 @@ MinHIT=30
 Nivel=15
 
 [NPC1605]
-Name=Olaf <Quest>
+Name=Olaf <Vocero de Papá Noel>
 Desc=Feliz Nochebuena, aventurero. Las criaturas del invierno están siendo derrotadas, pero la Navidad aún necesita ayuda. Recolectá Galletas Navideñas y traémelas para fortalecer el contador comunitario de Eleusis.
 Body=5329
 Head=0
@@ -13683,7 +13711,7 @@ MinHIT=145
 Nivel=35
 
 [NPC1614]
-Name=Hakon <Quest>
+Name=Hakon <El Custodio de Papá Noel>
 Desc=La Nochebuena ha caído sobre Eleusis, pero algo no está bien... Criaturas del frío han salido de los bosques y montañas, robando las galletas sagradas de la Navidad.
 Body=5325
 Head=0
@@ -13691,14 +13719,14 @@ BodyIdle=5323
 NpcType=17
 
 [NPC1615]
-Name=Papa Noel <Quest>
+Name=Papa Noel <Padre de la Navidad>
 Desc=La Nochebuena ha caído sobre Eleusis, pero algo no está bien... Criaturas del frío han salido de los bosques y montañas, robando las galletas sagradas de la Navidad.
 Body=5328
 Head=0
 NpcType=17
 
 [NPC1616]
-Name=Skadi
+Name=Skadi <Custodio Navideño>
 Desc=L
 Body=5330
 Head=0
@@ -13713,7 +13741,7 @@ BodyIdle=5332
 NpcType=0
 
 [NPC1618]
-Name=Eirik
+Name=Eirik <Guardián de Polo Norte>
 Desc=L
 Body=5331
 Head=0
@@ -13868,10 +13896,12 @@ MaxHIT=0
 MinHIT=0
 
 [NPC1635]
-Name=Arkhavel <Tejedor>
+Name=Arkhavel <Quest Sedas Elementales>
 Desc=Saludos, aventurero. No muchos se acercan a mí sin buscar armas o pociones, pero yo persigo algo diferente: conocimiento. En las profundidades de las Catacumbas habitan unas criaturas fascinantes: arañas imbuidas con el poder de los elementos. Sus sedas contienen fragmentos de esa energía primordial. He dedicado años a estudiar cómo transformarlas en un material único, pero reunirlas es una tarea demasiado peligrosa para un simple erudito.
-Body=609
-Head=401
+Body=6178
+Head=0
+BodyIdle=6178
+Ataque1=6178
 NpcType=17
 
 [NPC1636]
@@ -13899,7 +13929,7 @@ NpcType=0
 NoMapInfo=1
 
 [NPC1700]
-Name=Guardia Elfico
+Name=Guardia Elfico <Protector de Eldoria>
 Body=5666
 Head=0
 BodyIdle=5664
@@ -13911,7 +13941,7 @@ MaxHIT=200
 MinHIT=100
 
 [NPC1701]
-Name=Hechicero Elfico
+Name=Hechicero Elfico <Protector de Eldoria>
 Body=5678
 BodyIdle=5676
 Ataque1=5677
@@ -13922,7 +13952,7 @@ MaxHIT=80
 MinHIT=50
 
 [NPC1750]
-Name=Guardia Enano
+Name=Guardia Enano <Protector de Morgrim>
 Body=5669
 Head=0
 BodyIdle=5667
@@ -13934,7 +13964,7 @@ MaxHIT=200
 MinHIT=100
 
 [NPC1751]
-Name=Ballestero Enano
+Name=Ballestero Enano <Protector de Morgrim>
 Body=5681
 BodyIdle=5679
 Ataque1=5680
@@ -13958,7 +13988,7 @@ EXP=0
 ORO=0
 
 [NPC1800]
-Name=Hechicera Orca
+Name=Hechicera Orca <Protectora de Penthar>
 Body=6015
 BodyIdle=6013
 Ataque1=6014
@@ -13993,7 +14023,7 @@ MaxHIT=200
 MinHIT=100
 
 [NPC1803]
-Name=Guardia Orco
+Name=Guardia Orco <Protector de Penthar>
 Body=6012
 Head=0
 BodyIdle=6010
