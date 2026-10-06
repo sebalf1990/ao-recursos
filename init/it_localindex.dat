@@ -4759,6 +4759,22 @@ DescFinal=I quattro guardiani sono caduti e, per la prima volta dopo secoli, i l
 Repetible=1
 RequiredLevel=25
 
+[QUEST425]
+Nombre=L'Arte dell'Invisibilità
+Desc=L'invisibilità è un'arte complessa, che pochi riescono a padroneggiare completamente. Nascondere il corpo è semplice
+DescFinal=Hai imparato a controllare le forze che ti permettono di scomparire completamente alla vista. La tua precedente padronanza dell'invisibilità appartiene ormai al passato e ora sei in grado di utilizzare una versione molto più potente dell'incantesimo. Pochi conoscono i segreti di questa tecnica, e ancora meno sono in grado di padroneggiarla. Fai tesoro di questa conoscenza e usala con saggezza.
+Repetible=0
+PosMap=354
+RequiredLevel=0
+
+[QUEST426]
+Nombre=L'Arte dell'Invisibilità (Semimagica)
+Desc=L'invisibilità è un'arte complessa, che pochi riescono a padroneggiare completamente. Nascondere il corpo è semplice
+DescFinal=Hai imparato a controllare le forze che ti permettono di scomparire completamente alla vista. La tua precedente padronanza dell'invisibilità appartiene ormai al passato e ora sei in grado di utilizzare una versione molto più potente dell'incantesimo. Pochi conoscono i segreti di questa tecnica, e ancora meno sono in grado di padroneggiarla. Fai tesoro di questa conoscenza e usala con saggezza.
+Repetible=0
+PosMap=354
+RequiredLevel=0
+
 [QUEST427]
 Nombre=Un Piccolo Problema con i Ratti
 Desc=Vicino a Makrom troverai due ratti preparati per questa missione. Sconfiggili e attendi che ricompaiano fino a completare 5 uccisioni. Usa il Diario per seguire i progressi e fissare l'obiettivo. Quando avrai finito, torna da Makrom per ricevere la ricompensa.
@@ -17112,15 +17128,16 @@ ManaRequerido=750
 StaRequerido=250
 
 [HECHIZO24]
-Nombre=Invisibilidad
-Desc=Vuelve invisible al objetivo. Efecto no permanente.
-HechizeroMsg=Has lanzado Invisibilidad sobre
-TargetMsg=lanzó Invisibilidad sobre vos.
+Nombre=Invisibilità Minore
+Desc=Rende invisibile il bersaglio. L'effetto non è permanente.
+HechizeroMsg=Hai lanciato Invisibilità Minore su
+TargetMsg=ha lanciato Invisibilità Minore su di te.
 PROPIOMSG=Te has vuelto invisible.
-MinSkill=87
-ManaRequerido=500
-StaRequerido=200
+MinSkill=63
+ManaRequerido=400
+StaRequerido=150
 IconoIndex=35734
+PropioMsg=Sei diventato invisibile.
 
 [HECHIZO25]
 Nombre=Paralizar
@@ -17182,14 +17199,14 @@ MinSkill=45
 IconoIndex=35723
 
 [HECHIZO30]
-Nombre=Invisibilità
-Desc=Diventa invisibile al bersaglio. Effetto non permanente.
-HechizeroMsg=Hai lanciato l
-TargetMsg=Ha lanciato l'invisibilità su di te.
-PropioMsg=Te has vuelto invisible.
-ManaRequerido=350
-StaRequerido=200
-MinSkill=87
+Nombre=Invisibilità Minore
+Desc=Rende invisibile il bersaglio. L'effetto non è permanente.
+HechizeroMsg=Hai lanciato Invisibilità Minore su
+TargetMsg=ha lanciato Invisibilità Minore su di te.
+PropioMsg=Sei diventato invisibile.
+ManaRequerido=275
+StaRequerido=150
+MinSkill=63
 IconoIndex=35734
 
 [HECHIZO31]
@@ -19001,6 +19018,28 @@ PropioMsg=Corres más rápido.
 IconoIndex=35756
 MinSkill=0
 StaRequerido=400
+
+[HECHIZO240]
+Nombre=Invisibilità
+Desc=Rende invisibile il bersaglio. Effetto non permanente.
+PropioMsg=Sei diventato invisibile.
+HechizeroMsg=Hai lanciato Invisibilità su
+TargetMsg=Ha lanciato Invisibilità su di te.
+IconoIndex=35734
+ManaRequerido=500
+MinSkill=80
+StaRequerido=200
+
+[HECHIZO241]
+Nombre=Invisibilità
+Desc=Rende invisibile il bersaglio. Effetto non permanente.
+PropioMsg=Sei diventato invisibile.
+HechizeroMsg=Hai lanciato Invisibilità su
+TargetMsg=Ha lanciato Invisibilità su di te.
+IconoIndex=35734
+ManaRequerido=350
+MinSkill=80
+StaRequerido=200
 
 [HECHIZO242]
 Nombre=Restauración 3
@@ -33317,7 +33356,7 @@ Objtype=24
 Texto=Aumenta la velocidad del objetivo y eleva sus atributos.
 
 [OBJ1657]
-Name=Invisibilidad
+Name=Invisibilidad Menor
 GrhIndex=609
 Valor=800000
 Objtype=24

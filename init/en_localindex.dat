@@ -4761,6 +4761,22 @@ DescFinal=The four guardians have fallen and, for the first time in centuries, t
 Repetible=1
 RequiredLevel=25
 
+[QUEST425]
+Nombre=The Art of Invisibility
+Desc=Invisibility is a complex art that few can master completely. Hiding the body is simple
+DescFinal=You have learned to control the forces that allow you to disappear completely from sight. Your former mastery of invisibility is now behind you, and you are capable of using a much more powerful version of the spell. Few know the secrets of this technique, and even fewer are capable of mastering it. Take this knowledge and use it wisely.
+Repetible=0
+PosMap=354
+RequiredLevel=0
+
+[QUEST426]
+Nombre=The Art of Invisibility (Semi-Magical)
+Desc=Invisibility is a complex art that few can master completely. Hiding the body is simple
+DescFinal=You have learned to control the forces that allow you to disappear completely from sight. Your former mastery of invisibility is now behind you, and you are capable of using a much more powerful version of the spell. Few know the secrets of this technique, and even fewer are capable of mastering it. Take this knowledge and use it wisely.
+Repetible=0
+PosMap=354
+RequiredLevel=0
+
 [QUEST427]
 Nombre=A Small Rat Problem
 Desc=Near Makrom you will find two rats prepared for this quest. Defeat them and wait for them to respawn until you complete 5 kills. Use the Journal to track your progress and pin the objective. When you are done, return to Makrom to claim the reward.
@@ -17356,16 +17372,16 @@ ManaRequerido=750
 StaRequerido=250
 
 [HECHIZO24]
-Nombre=Invisibilidad
-Desc=Makes the target invisible. This effect isn't permanent.
-HechizeroMsg=You casted Invisibility on
-TargetMsg=casted Invisibility on you.
+Nombre=Invisibilidad Menor
+Desc=Makes the target invisible. The effect is not permanent.
+HechizeroMsg=You cast Minor Invisibility on
+TargetMsg=cast Minor Invisibility on you.
 PROPIOMSG=Te has vuelto invisible.
-Nombre=Invisibility
+Nombre=Minor Invisibility
 PropioMsg=You are now invisible.
-MinSkill=87
-ManaRequerido=500
-StaRequerido=200
+MinSkill=63
+ManaRequerido=400
+StaRequerido=150
 IconoIndex=35734
 
 [HECHIZO25]
@@ -17431,14 +17447,14 @@ MinSkill=45
 IconoIndex=35723
 
 [HECHIZO30]
-Nombre=Invisibility
-Desc=Makes the target invisible. This effect isn't permanent.
-HechizeroMsg=You casted Invisibility on
-TargetMsg=casted Invisibility on you.
-PropioMsg=Te has vuelto invisible.
-ManaRequerido=350
-StaRequerido=200
-MinSkill=87
+Nombre=Minor Invisibility
+Desc=Makes the target invisible. The effect is not permanent.
+HechizeroMsg=You cast Minor Invisibility on
+TargetMsg=cast Minor Invisibility on you.
+PropioMsg=You are now invisible.
+ManaRequerido=275
+StaRequerido=150
+MinSkill=63
 IconoIndex=35734
 
 [HECHIZO31]
@@ -19310,6 +19326,28 @@ Nombre=Warcry
 IconoIndex=35756
 MinSkill=0
 StaRequerido=400
+
+[HECHIZO240]
+Nombre=Invisibility
+Desc=Makes the target invisible. This effect isn't permanent.
+PropioMsg=You are now invisible.
+HechizeroMsg=You casted Invisibility on
+TargetMsg=casted Invisibility on you.
+IconoIndex=35734
+ManaRequerido=500
+MinSkill=80
+StaRequerido=200
+
+[HECHIZO241]
+Nombre=Invisibility
+Desc=Makes the target invisible. This effect isn't permanent.
+PropioMsg=You are now invisible.
+HechizeroMsg=You casted Invisibility on
+TargetMsg=casted Invisibility on you.
+IconoIndex=35734
+ManaRequerido=350
+MinSkill=80
+StaRequerido=200
 
 [HECHIZO242]
 Nombre=Restauración 3
@@ -34429,7 +34467,7 @@ Texto=Aumenta la velocidad del objetivo y eleva sus atributos.
 texto=Increases the target y 15% and raises their attributes to maximum.
 
 [OBJ1657]
-Name=Invisibility
+Name=Minor Invisibility
 GrhIndex=609
 Valor=800000
 Objtype=24
@@ -34552,7 +34590,7 @@ ObjType=24
 Valor=40000
 
 [OBJ1673]
-Name=Invisibility (Semi-Magic)
+Name=Minor Invisibility (Semi-Magic)
 Texto=It makes the target invisible for a short period of time.
 GrhIndex=609
 ObjType=24
