@@ -186,14 +186,14 @@ Snd3=Muerte de la criatura
 
 '---------------------------> Resucitadores <----------------------------------------
 [NPC1]
-Name=Juan <Sacerdote>
-en_Name=John <Priest>
+Name=Juan XXI <Sacerdote>
+en_Name=John XXI <Priest>
 NpcType=1
 Desc=¡Hola, hijo mio! Soy el Sacerdote de este pueblo. Si quieres ser resucitado, hazme click izquierdo y luego escribe /Resucitar
 en_Desc=Hi, son! I am the priest of this town. If you want to be resurrected, left click me and type /Resucitar
 Head=0
-Body=5819
-BodyIdle=861
+Body=6234
+BodyIdle=6235
 Heading=3
 Movement=1
 Attackable=0
@@ -7199,8 +7199,8 @@ MagicResistance=95
 MagicDef=15
 
 [NPC613] 'tiro al blanco
-Name=Blanco
-En_Name=Target
+Name=Blanco II
+En_Name=Target II
 Desc=Tiro al Blanco
 ShowName=0
 NpcType=19
@@ -7289,8 +7289,8 @@ MagicResistance=95
 MagicDef=15
 
 [NPC618] 'tiro al blanco
-Name=Blanco
-En_Name=Target
+Name=Blanco VII
+En_Name=Target VII
 Desc=Tiro al Blanco
 ShowName=0
 NpcType=19
@@ -7307,8 +7307,8 @@ MagicResistance=95
 MagicDef=15
 
 [NPC619] 'tiro al blanco
-Name=Blanco
-En_Name=Target
+Name=Blanco VIII
+En_Name=Target VIII
 Desc=Tiro al Blanco
 ShowName=0
 NpcType=19
@@ -10439,8 +10439,8 @@ PoderAtaque=180
 PoderEvasion=50
 Domable=167
 [NPC930] 'vaca
-Name=Vaca
-En_Name=Cow
+Name=Vaca Lola
+En_Name=Lola Cow
 Head=0
 Body=5128
 Heading=3
@@ -21619,7 +21619,7 @@ Drop1=2519-10-1-1
 Domable=133
 
 [NPC1353] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Name=Suido Ártico
+Name=Suido
 Body=5379
 Head=0
 BodyIdle=5377
@@ -24994,7 +24994,7 @@ MinHp=5500
 PoderAtaque=225
 PoderEvasion=150
 [NPC844] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
-Name=Minertopo Guardián
+Name=Minertopo
 Body=5527
 Head=0
 BodyIdle=5525

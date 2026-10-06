@@ -2533,11 +2533,11 @@ RequiredLevel=40
 PosMap=34
 
 [NPC1]
-Name=Juan <Sacerdote>
+Name=Juan XXI <Sacerdote>
 Desc=¡Hola, hijo mio! Soy el Sacerdote de este pueblo. Si quieres ser resucitado, hazme click izquierdo y luego escribe /Resucitar
-Body=5819
+Body=6234
 Head=0
-BodyIdle=861
+BodyIdle=6235
 NpcType=1
 PuedeInvocar=1
 Comercia=0
@@ -5497,7 +5497,7 @@ HP=1000000
 NpcType=19
 
 [NPC613]
-Name=Blanco
+Name=Blanco II
 Desc=Tiro al Blanco
 Body=4065
 HP=1000000
@@ -5532,14 +5532,14 @@ HP=1000000
 NpcType=19
 
 [NPC618]
-Name=Blanco
+Name=Blanco VII
 Desc=Tiro al Blanco
 Body=4060
 HP=1000000
 NpcType=19
 
 [NPC619]
-Name=Blanco
+Name=Blanco VIII
 Desc=Tiro al Blanco
 Body=4059
 HP=1000000
@@ -7148,7 +7148,7 @@ ORO=65
 Nivel=30
 
 [NPC844]
-Name=Minertopo Guardián
+Name=Minertopo
 Body=5527
 Head=0
 BodyIdle=5525
@@ -7637,7 +7637,7 @@ MinHIT=25
 ORO=7
 
 [NPC930]
-Name=Vaca
+Name=Vaca Lola
 Body=5128
 Head=0
 BodyIdle=5126
@@ -12278,7 +12278,7 @@ MinHIT=20
 NpcType=0
 
 [NPC1353]
-Name=Suido Ártico
+Name=Suido
 Body=5379
 Head=0
 BodyIdle=5377
