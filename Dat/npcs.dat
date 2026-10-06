@@ -3004,7 +3004,7 @@ QuestNumber1=1
 
 [NPC407] 'RESYNC desde sp_localindex.dat (lote3 pat B)
 Name=Makrom <Quest de Dungeon Newbie>
-Desc=¡Bienvenido al Dungeon Newbie! Un fantástico lugar para principiantes, pero también peligroso!
+Desc=¡Bienvenido, aventurero! Forgat es el lugar ideal para comenzar tu camino. Las tierras que rodean la ciudad están llenas de criaturas y peligros, pero también de oportunidades para demostrar tu valor. Tengo varios encargos que te ayudarán a ganar experiencia y prepararte para aventuras mayores. ¡Comencemos!
 Body=487
 Head=0
 NpcType=17
@@ -3019,14 +3019,20 @@ BackUp=0
 CaminataLen=2
 Caminata1=0:-3:9000
 Caminata2=0:0:9000
-NumQuest=2
+NumQuest=8
 QuestNumber1=190
 QuestNumber2=193
+QuestNumber3=407
+QuestNumber4=408
+QuestNumber5=409
+QuestNumber6=410
+QuestNumber7=411
+QuestNumber8=412
 
 [NPC408]
 Name=Makrom <Quest de Dungeon Newbie>
 NpcType=17
-Desc=¡Tengo misiones para tí!
+Desc=¿Ves esas dos ratas que están cerca? Las preparé para que aprendas cómo funcionan las misiones. Derrótalas y espera a que reaparezcan hasta completar cinco muertes. Después vuelve a hablar conmigo para reclamar tu recompensa.
 ShowName=1
 SoundOpen=704
 SoundClose=705
@@ -3040,7 +3046,7 @@ Hostile=0
 Alineacion=0
 Comercia=0
 BackUp=0
-en_desc=I've got missions for you!
+en_desc=Do you see those two rats nearby? I placed them there so you can learn how quests work. Defeat them and wait for them to respawn until you complete five kills. Then speak with me again to claim your reward.
 NPCLVL=6
 MagicResistance=15
 MagicDef=0

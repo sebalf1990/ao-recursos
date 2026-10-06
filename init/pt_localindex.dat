@@ -6143,14 +6143,14 @@ Comercia=0
 
 [NPC407]
 Name=Makrom <Quest de Dungeon Newbie>
-Desc=¡Bienvenido al Dungeon Newbie! Un fantástico lugar para principiantes, pero también peligroso!
+Desc=¡Bienvenido, aventurero! Forgat es el lugar ideal para comenzar tu camino. Las tierras que rodean la ciudad están llenas de criaturas y peligros, pero también de oportunidades para demostrar tu valor. Tengo varios encargos que te ayudarán a ganar experiencia y prepararte para aventuras mayores. ¡Comencemos!
 Body=487
 Head=0
 NpcType=17
 
 [NPC408]
 Name=Makrom <Quest de Dungeon Newbie>
-Desc=¡Tengo misiones para tí!
+Desc=¿Ves esas dos ratas que están cerca? Las preparé para que aprendas cómo funcionan las misiones. Derrótalas y espera a que reaparezcan hasta completar cinco muertes. Después vuelve a hablar conmigo para reclamar tu recompensa.
 Body=487
 Head=0
 NpcType=17
