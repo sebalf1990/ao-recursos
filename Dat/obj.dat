@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9204
+NumOBJs=9205
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -7571,33 +7571,18 @@ Texto=Armadura de Dragón Rojo
 en_Name=Red Dragon Armor
 NoseCae=1
 
-[OBJ483]'Borrar proxima temporada
-Name=Armadura de Dragón Rojo (Bajos)
-GrhIndex=2647
-RopajeHumano=247
-RopajeElfo=247
-RopajeElfoOscuro=2032
-RopajeEnano=1702
-RopajeOrco=2016
-RopajeGnomo=1702
-RopajeHumana=2156
-RopajeElfa=2156
-RopajeElfaOscura=2965
-RopajeEnana=2936
-RopajeOrca=2949
-RopajeGnoma=2936
-ObjType=3
-MAXDEF=40
-MINDEF=35
-Valor=1
-CP2=LADRON
-CP4=TRABAJADOR
-CP7=DRUIDA
-CP12=MAGO
-MinELV=1
-Valor=100000
-Texto=Armadura de Dragón Rojo (Bajos)
-en_Name=Red Dragon Armor (E/G)
+[OBJ483] 'Puerta Meson del oficial (pack 2026-10-01). Enlace y clave: SUPUESTO. Plan 17.001 Ola 3
+Name=Puerta Meson Puerta Cerrada.
+GrhIndex=2255
+ObjType=6
+Cerrada=1
+Llave=0
+Clave=9482
+Agarrable=1
+IndexAbierta=482
+IndexCerrada=483
+IndexCerradaLlave=484
+Texto=Puerta de Puerta Meson
 
 [OBJ486]
 Name=Vestimenta Común (Bajo)
@@ -73693,14 +73678,38 @@ VELOCIDAD=1
 CP1=LADRON
 CP2=PIRATA
 
-[OBJ482] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ482] 'Puerta Meson del oficial (pack 2026-10-01). Enlace y clave: SUPUESTO. Plan 17.001 Ola 3
+Name=Puerta Meson Puerta Abierta.
+GrhIndex=2254
+ObjType=6
+Cerrada=0
+Llave=0
+Clave=9482
+Agarrable=1
+IndexAbierta=482
+IndexCerrada=483
+IndexCerradaLlave=484
+Texto=Name=Puerta Meson Puerta Abierta.
 
-[OBJ484] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ484] 'Puerta Meson del oficial (pack 2026-10-01). Enlace y clave: SUPUESTO. Plan 17.001 Ola 3
+Name=Puerta Meson Con Llave
+GrhIndex=2255
+ObjType=6
+Cerrada=1
+Llave=1
+Clave=9482
+Agarrable=1
+IndexAbierta=482
+IndexCerrada=483
+IndexCerradaLlave=484
+Texto=Puerta de Puerta Meson
 
-[OBJ485] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ485] 'Llave de la puerta Meson del oficial (pack 2026-10-01). Plan 17.001 Ola 3
+Name=Llave Puerta Meson
+GrhIndex=509
+ObjType=9
+Clave=9482
+Texto=Llave Puerta Meson
 
 [OBJ489] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -90888,4 +90897,157 @@ PielOsoPardo=0
 PielOsoPolar=0
 en_name=Basic Vestment
 Texto=Vestimenta Común
+
+[OBJ9205] 'Armadura de Dragón Rojo (Bajos): mudada desde OBJ483, que el oficial usa para la puerta del Meson. Plan 17.001 Ola 3
+Name=Armadura de Dragón Rojo (Bajos)
+GrhIndex=2647
+RopajeHumano=247
+RopajeElfo=247
+RopajeElfoOscuro=2032
+RopajeEnano=1702
+RopajeOrco=2016
+RopajeGnomo=1702
+RopajeHumana=2156
+RopajeElfa=2156
+RopajeElfaOscura=2965
+RopajeEnana=2936
+RopajeOrca=2949
+RopajeGnoma=2936
+ObjType=3
+MAXDEF=40
+MINDEF=35
+Valor=1
+CP2=LADRON
+CP4=TRABAJADOR
+CP7=DRUIDA
+CP12=MAGO
+MinELV=1
+Valor=100000
+Texto=Armadura de Dragón Rojo (Bajos)
+en_Name=Red Dragon Armor (E/G)
+
+[OBJ6403] 'Puerta castillo 1 del oficial (pack 2026-10-01). Enlace y clave: SUPUESTO. Plan 17.001 Ola 3; sin llave a proposito, los castillos no se portaron
+Name=Puerta de castillo Nro 1 Puerta Abierta.
+GrhIndex=15404
+ObjType=6
+Cerrada=0
+Llave=0
+Clave=6405
+Agarrable=1
+IndexAbierta=6403
+IndexCerrada=6404
+IndexCerradaLlave=6405
+Texto=Name=Puerta de castillo Nro 1 Puerta Abierta.
+
+[OBJ6404] 'Puerta castillo 1 del oficial (pack 2026-10-01). Enlace y clave: SUPUESTO. Plan 17.001 Ola 3; sin llave a proposito, los castillos no se portaron
+Name=Puerta de castillo N° 1 Puerta Cerrada.
+GrhIndex=15403
+ObjType=6
+Cerrada=1
+Llave=0
+Clave=6405
+Agarrable=1
+IndexAbierta=6403
+IndexCerrada=6404
+IndexCerradaLlave=6405
+Texto=Puerta de Puerta de castillo
+
+[OBJ6405] 'Puerta castillo 1 del oficial (pack 2026-10-01). Enlace y clave: SUPUESTO. Plan 17.001 Ola 3; sin llave a proposito, los castillos no se portaron
+Name=Puerta de castillo N° 1 Con Llave
+GrhIndex=15403
+ObjType=6
+Cerrada=1
+Llave=1
+Clave=6405
+Agarrable=1
+IndexAbierta=6403
+IndexCerrada=6404
+IndexCerradaLlave=6405
+Texto=Puerta de Puerta de castillo
+
+[OBJ6407] 'Puerta castillo 2 del oficial (pack 2026-10-01). Enlace y clave: SUPUESTO. Plan 17.001 Ola 3; sin llave a proposito, los castillos no se portaron
+Name=Puerta de castillo N° 2 Puerta Abierta.
+GrhIndex=15404
+ObjType=6
+Cerrada=0
+Llave=0
+Clave=6409
+Agarrable=1
+IndexAbierta=6407
+IndexCerrada=6408
+IndexCerradaLlave=6409
+Texto=Name=Puerta de castillo N° 2 Puerta Abierta.
+
+[OBJ6408] 'Puerta castillo 2 del oficial (pack 2026-10-01). Enlace y clave: SUPUESTO. Plan 17.001 Ola 3; sin llave a proposito, los castillos no se portaron
+Name=Puerta de castillo N° 2 Puerta Cerrada.
+GrhIndex=15403
+ObjType=6
+Cerrada=1
+Llave=0
+Clave=6409
+Agarrable=1
+IndexAbierta=6407
+IndexCerrada=6408
+IndexCerradaLlave=6409
+Texto=Puerta de Puerta de castillo
+
+[OBJ6409] 'Puerta castillo 2 del oficial (pack 2026-10-01). Enlace y clave: SUPUESTO. Plan 17.001 Ola 3; sin llave a proposito, los castillos no se portaron
+Name=Puerta de castillo N° 2 Con Llave
+GrhIndex=15403
+ObjType=6
+Cerrada=1
+Llave=1
+Clave=6409
+Agarrable=1
+IndexAbierta=6407
+IndexCerrada=6408
+IndexCerradaLlave=6409
+Texto=Puerta de Puerta de castillo
+
+[OBJ6411] 'Puerta castillo 3 del oficial (pack 2026-10-01). Enlace y clave: SUPUESTO. Plan 17.001 Ola 3; sin llave a proposito, los castillos no se portaron
+Name=Puerta de castillo N° 3 Puerta Abierta.
+GrhIndex=15404
+ObjType=6
+Cerrada=0
+Llave=0
+Clave=6413
+Agarrable=1
+IndexAbierta=6411
+IndexCerrada=6412
+IndexCerradaLlave=6413
+Texto=Name=Puerta de castillo N° 3 Puerta Abierta.
+
+[OBJ6412] 'Puerta castillo 3 del oficial (pack 2026-10-01). Enlace y clave: SUPUESTO. Plan 17.001 Ola 3; sin llave a proposito, los castillos no se portaron
+Name=Puerta de castillo N° 3 Puerta Cerrada.
+GrhIndex=15403
+ObjType=6
+Cerrada=1
+Llave=0
+Clave=6413
+Agarrable=1
+IndexAbierta=6411
+IndexCerrada=6412
+IndexCerradaLlave=6413
+Texto=Puerta de Puerta de castillo
+
+[OBJ6413] 'Puerta castillo 3 del oficial (pack 2026-10-01). Enlace y clave: SUPUESTO. Plan 17.001 Ola 3; sin llave a proposito, los castillos no se portaron
+Name=Puerta de castillo N° 3 Con Llave
+GrhIndex=15403
+ObjType=6
+Cerrada=1
+Llave=1
+Clave=6413
+Agarrable=1
+IndexAbierta=6411
+IndexCerrada=6412
+IndexCerradaLlave=6413
+Texto=Puerta de Puerta de castillo
+
+[OBJ6419] 'Cartel de castillo del oficial (pack 2026-10-01). Anuncia los castillos, que aca no se portaron. Plan 17.001 Ola 3
+Name=Cartel
+Info=Catillo
+GrhIndex=31782
+ObjType=8
+Texto=Si tienes la reliquia del Emperador podras crear tu castillo en este lugar.
+Agarrable=1
 
