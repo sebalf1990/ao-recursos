@@ -3,7 +3,7 @@ NUMEROHECHIZO=425
 NUMLOCALEMSG=2215
 NUMMAPAS=750
 NUMNPCS=9063
-NUMOBJS=9205
+NUMOBJS=9206
 NUMQUESTS=905
 NUMSUGERENCIAS=6
 
@@ -4758,6 +4758,14 @@ Desc=Você encontrou um antigo pergaminho selado com um emblema que ninguém mai
 DescFinal=Os quatro guardiões caíram e, pela primeira vez em séculos, seus domínios ficaram em silêncio. Ao observar o pergaminho, consigo distinguir uma pequena inscrição escondida sob o selo: "Quatro caíram. O equilíbrio pode começar a ser restaurado." Não sei quem escreveu estas palavras nem por que esses quatro colossos foram escolhidos. Talvez sua derrota faça parte de algo muito mais antigo do que podemos imaginar. Você cumpriu sua missão. Pegue sua recompensa.
 Repetible=1
 RequiredLevel=25
+
+[QUEST424]
+Nombre=Além do Enredar
+Desc=Você aprendeu a usar Enredar, mas esse feitiço é apenas o começo. Existe uma magia muito mais poderosa: Atordoar. Os Brumaks conhecem bem esse feitiço e o utilizam para deixar seus inimigos imóveis. Se quiser dominá-lo, terá que enfrentá-los e provar que consegue resistir ao seu poder. No entanto, eles não serão seu único desafio
+DescFinal=Você conseguiu. Aprendeu a levar o poder de Enredar muito além. Agora poderá deixar seus inimigos completamente imóveis. Domine Atordoar e faça com que conheçam o verdadeiro significado da paralisia.
+Repetible=0
+RequiredLevel=24
+PosMap=560
 
 [QUEST425]
 Nombre=A Arte da Invisibilidade
@@ -15718,7 +15726,7 @@ Body=6238
 Head=0
 NpcType=0
 Comercia=1
-NROITEMS=35
+NROITEMS=36
 Obj1=2765-100
 Obj2=2763-100
 Obj3=2764-100
@@ -15869,7 +15877,7 @@ Body=6237
 Head=0
 NpcType=0
 Comercia=1
-NROITEMS=35
+NROITEMS=36
 Obj1=2765-1000
 Obj2=2763-100
 Obj3=2764-100
@@ -17152,16 +17160,16 @@ StaRequerido=87
 IconoIndex=32410
 
 [HECHIZO26]
-Nombre=Inmovilizar
-Desc=Impide que la víctima se mueva durante un periodo de tiempo menor que Paralizar.
-PalabrasMagicas=Är Prop s'uo
-HechizeroMsg=Has inmovilizado a
-TargetMsg=te ha inmovilizado.
-PropioMsg=Te has inmovilizado.
+Nombre=Imobilizar
+Desc=Impede o usuário de se mover por 15 segundos. Se a vítima é um NPC, o efeito dura 90 segundos.
+PalabrasMagicas=Är Prop suo
+HechizeroMsg=Você imobilizou um
+TargetMsg=Ele imobilizou você.
+PropioMsg=Você imobilizado.
 IconoIndex=32417
 MinSkill=60
 ManaRequerido=300
-StaRequerido=45
+StaRequerido=75
 
 [HECHIZO27]
 Nombre=Remover Parálisis
@@ -17181,7 +17189,7 @@ Desc=Impede o usuário de se mover por 15 segundos. Se a vítima for um PNJ, o e
 PalabrasMagicas=Är Stu'n suo
 HechizeroMsg=Você surpreendeu
 TargetMsg=surpreendeu você.
-ManaRequerido=300
+ManaRequerido=250
 StaRequerido=75
 MinSkill=60
 IconoIndex=32417
@@ -19968,6 +19976,17 @@ ManaRequerido=70
 StaRequerido=45
 MinSkill=55
 IconoIndex=74723
+
+[HECHIZO350]
+Nombre=Enredar
+Desc=Impede o usuário de se mover por 5 segundos. Se a vítima for um PNJ, o efeito dura 30 segundos.
+PalabrasMagicas=Nreda Vör
+HechizeroMsg=Você enredou
+TargetMsg=enredou você.
+IconoIndex=32417
+ManaRequerido=180
+MinSkill=45
+StaRequerido=40
 
 [HECHIZO400]
 Nombre=Detectar Personajes
@@ -71085,6 +71104,14 @@ GrhIndex=31782
 ObjType=8
 Texto=Si tienes la reliquia del Emperador podras crear tu castillo en este lugar.
 Agarrable=1
+
+[OBJ9206]
+Name=Enredar
+GrhIndex=609
+Valor=48000
+Objtype=24
+Texto=Atrapa a tus enemigos (nivel máximo 24)
+texto=Prende seus inimigos (nível máximo 24)
 
 [NPC9000]
 Name=Maestro Carpintero y Lenador <Carpinteria y Tala>

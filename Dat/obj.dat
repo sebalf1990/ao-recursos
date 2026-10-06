@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9205
+NumOBJs=9206
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -91050,4 +91050,30 @@ GrhIndex=31782
 ObjType=8
 Texto=Si tienes la reliquia del Emperador podras crear tu castillo en este lugar.
 Agarrable=1
+
+[OBJ9206] 'Pergamino de Enredar: en el oficial es el OBJ1692, que aca es otro objeto. Plan 17.001, ola de quests
+Name=Enredar
+GrhIndex=609
+Valor=48000
+CP1=MAGO
+CP2=CLERIGO
+CP3=GUERRERO
+CP4=BARDO
+CP5=DRUIDA
+CP6=CAZADOR
+CP7=TRABAJADOR
+CP8=PIRATA
+CP9=LADRON
+Crucial=1
+HechizoIndex=350
+Objtype=24
+Texto=Atrapa a tus enemigos (nivel máximo 24)
+en_Name=Ensnare
+en_texto=Trap your enemies (maximum level 24)
+pt_Name=Enredar
+pt_texto=Prende seus inimigos (nível máximo 24)
+fr_Name=Entraver
+fr_texto=Piège tes ennemis (niveau maximum 24)
+it_Name=Intrappolare
+it_texto=Intrappola i tuoi nemici (livello massimo 24)
 
