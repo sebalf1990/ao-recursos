@@ -4721,6 +4721,14 @@ Repetible=1
 RequiredLevel=27
 PosMap=478
 
+[QUEST416]
+Nombre=La Protezione degli Insetti
+Desc=Ho studiato le mantidi assassine che abitano queste terre. I loro esoscheletri possiedono proprietà che potrebbero essere sfruttate per creare una tunica come nessun'altra, ma avrò bisogno di una grande quantità di materiali per completare il mio lavoro. Le mantidi assassine marroni possiedono placche resistenti e flessibili, ideali per rinforzare il rivestimento interno della tunica. La loro struttura permetterà di proteggere chi la indossa senza trasformare l'indumento in una pesante armatura. D'altra parte, le mantidi assassine verdi possiedono una colorazione e una struttura esterna particolarmente utili per lavorare la superficie dell'indumento. Le loro parti saranno utilizzate per il rivestimento esterno, migliorando la visibilità di chi la indossa nelle zone boschive e fornendo uno strato aggiuntivo di protezione. Avrò bisogno di parti sufficienti di entrambe le specie prima di iniziare la lavorazione. Non sarà un compito facile, ma se raccoglierai i materiali necessari, creerò per te una tunica unica.
+DescFinal=Ottimo lavoro. Hai raccolto abbastanza parti delle mantidi assassine. Ecco la tua ricompensa: una tunica unica, creata dagli esoscheletri delle mantidi assassine. Che possa proteggerti bene quanto loro proteggevano il proprio territorio.
+Repetible=0
+RequiredLevel=15
+PosMap=1
+
 [QUEST417]
 Nombre=L'Ultimo Messaggio
 Desc=Hai trovato una bottiglia sigillata alla deriva tra le onde. Al suo interno c'era una pergamena sorprendentemente ben conservata. "Se qualcuno trova questo messaggio, sappia che non fu la tempesta a condannarci. Le acque che circondano il continente non appartengono più all'umanità. I Leviatani emergono dalle profondità, gli Squali inseguono ogni imbarcazione abbastanza audace da attraversare questi mari, le Sirene attirano i marinai nelle profondità con i loro canti e strane creature che abbiamo iniziato a chiamare Criptococchi infestano i resti dei naufragi. Uno dopo l'altro, i membri del mio equipaggio caddero. Se queste bestie non verranno fermate, il mare smetterà di essere un passaggio e diventerà una tomba." Non so da quanto tempo questa bottiglia sia alla deriva, ma se quel capitano diceva la verità, il pericolo è ancora presente. Naviga in mare aperto e riduci il numero di queste creature prima che altre vite vadano perdute. Quando avrai completato la tua missione, vai alla mappa 254 e parla con Fermín, il pescatore. Temo che sappia qualcosa al riguardo.
@@ -4744,6 +4752,14 @@ DescFinal=Il frammento è tornato nelle tue mani dopo la caduta dei quattro domi
 Repetible=1
 RequiredLevel=13
 PosMap=189
+
+[QUEST420]
+Nombre=La Scheggia Lunare
+Desc=Tra i resti carbonizzati di un avventuriero caduto, trovi un biglietto disperato: "Se stai leggendo questo, è perché il drago rosso mi ha raggiunto prima che io raggiungessi lui. Cercavo la Scheggia Lunare per Bertram, il gioielliere di Arghal, che paga bene per pietre che nessun artigiano comune sa lavorare. Secondo le mie ricerche, è il drago nero delle paludi oscure a custodirla tra le fauci, anche se dovrai affrontare anche il drago rosso delle valli di fuoco e quello dorato della vetta sacra, poiché nessuno dei tre tollera intrusi nei propri domini. Se hai il coraggio che a me è mancato, uccidili, recupera la pietra dal nero, e portala a Bertram a mio nome."
+DescFinal=Questa pietra... non è solo una gemma rara. Dovrò studiarla più da vicino. Se è ciò che sospetto, forse avrò di nuovo bisogno dei tuoi servizi presto.
+Repetible=1
+RequiredLevel=31
+PosMap=151
 
 [QUEST421]
 Nombre=Echi di Ghiaccio
@@ -24549,7 +24565,12 @@ RopajeOrco=0
 GrhIndex=0
 
 [OBJ512]
-GrhIndex=0
+Name=La Scheggia Lunare
+Texto=Fragmento lunar arrancado del dragón negro.
+GrhIndex=38141
+ObjType=100
+Valor=0
+texto=Frammento lunare strappato al drago nero.
 
 [OBJ513]
 Name=Vestido de Bruja (H/E/EO-M)
@@ -65667,7 +65688,7 @@ MaxDef=0
 MinDef=0
 
 [OBJ6088]
-Name=Mantello del Sole Caduto
+Name=Capo Smeraldo
 Texto=Articolo di consumo.
 ObjType=39
 Valor=0

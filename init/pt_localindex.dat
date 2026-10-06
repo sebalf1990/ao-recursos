@@ -4721,6 +4721,14 @@ Repetible=1
 RequiredLevel=27
 PosMap=478
 
+[QUEST416]
+Nombre=A Proteção dos Insetos
+Desc=Tenho estudado as louva-a-deus assassinas que habitam estas terras. Seus exoesqueletos possuem propriedades que poderiam ser aproveitadas para criar uma túnica como nenhuma outra, mas preciso de uma grande quantidade de materiais para completar meu trabalho. As louva-a-deus assassinas marrons possuem placas resistentes e flexíveis, ideais para reforçar o forro interno da túnica. Sua estrutura permitirá proteger quem a veste sem transformar a peça em uma armadura pesada. Por outro lado, as louva-a-deus assassinas verdes possuem uma coloração e uma estrutura externa especialmente úteis para trabalhar a superfície da peça. Suas partes serão utilizadas no revestimento externo, melhorando a visibilidade do usuário em áreas florestais e proporcionando uma camada adicional de proteção. Precisarei de partes suficientes de ambas as espécies antes de começar a fabricação. Não será uma tarefa fácil, mas, se você reunir os materiais necessários, criarei uma túnica única para você.
+DescFinal=Excelente trabalho. Você reuniu peças suficientes das louva-a-deus assassinas. Aqui está sua recompensa: uma túnica única, criada a partir dos exoesqueletos das louva-a-deus assassinas. Que ela o proteja tão bem quanto elas protegiam seu território.
+Repetible=0
+RequiredLevel=15
+PosMap=1
+
 [QUEST417]
 Nombre=A Última Mensagem
 Desc=Você encontrou uma garrafa selada flutuando entre as ondas. Dentro havia um pergaminho surpreendentemente bem conservado. "Se alguém encontrar esta mensagem, saiba que não foi a tempestade que nos condenou. As águas que cercam o continente já não pertencem à humanidade. Leviatãs emergem das profundezas, Tubarões espreitam qualquer embarcação ousada o suficiente para atravessar estes mares, Sereias atraem os marinheiros para as profundezas com seus cantos, e estranhas criaturas que passamos a chamar de Criptococos infestam os restos dos naufrágios. Um a um, minha tripulação caiu. Se essas feras não forem detidas, o mar deixará de ser uma passagem e se tornará uma tumba." Não sei há quanto tempo esta garrafa está à deriva, mas, se aquele capitão dizia a verdade, o perigo ainda permanece. Navegue pelo mar aberto e reduza a quantidade dessas criaturas antes que mais vidas sejam perdidas. Quando tiver concluído sua missão, vá até o mapa 254 e fale com Fermín, o pescador. Temo que ele saiba algo sobre esse assunto.
@@ -4744,6 +4752,14 @@ DescFinal=O fragmento voltou para suas mãos após a queda dos quatro dominadore
 Repetible=1
 RequiredLevel=13
 PosMap=189
+
+[QUEST420]
+Nombre=A Lasca Lunar
+Desc=Entre os restos carbonizados de um aventureiro caído, você encontra um bilhete desesperado: "Se estás lendo isto, é porque o dragão vermelho me alcançou antes que eu o alcançasse. Eu buscava a Lasca Lunar para Bertram, o joalheiro de Arghal, que paga bem por pedras que nenhum artesão comum sabe lapidar. Segundo minhas pesquisas, é o dragão negro dos pântanos escuros quem a guarda entre suas presas, embora também terás que enfrentar o dragão vermelho dos vales de fogo e o dourado do cume sagrado, pois nenhum dos três tolera intrusos em seus domínios. Se tens a coragem que me faltou, mate-os, consiga a pedra do negro, e leve-a a Bertram em meu nome."
+DescFinal=Esta pedra... não é apenas uma gema rara. Vou precisar estudá-la mais de perto. Se isto for o que suspeito, talvez volte a precisar dos seus serviços em breve.
+Repetible=1
+RequiredLevel=31
+PosMap=151
 
 [QUEST421]
 Nombre=Ecos do Gelo
@@ -24549,7 +24565,12 @@ RopajeOrco=0
 GrhIndex=0
 
 [OBJ512]
-GrhIndex=0
+Name=A Lasca Lunar
+Texto=Fragmento lunar arrancado del dragón negro.
+GrhIndex=38141
+ObjType=100
+Valor=0
+texto=Fragmento lunar arrancado do dragão negro.
 
 [OBJ513]
 Name=Vestido de Bruja (H/E/EO-M)
@@ -65667,7 +65688,7 @@ MaxDef=0
 MinDef=0
 
 [OBJ6088]
-Name=Manto do Sol Caído
+Name=Cabo Esmeralda
 Texto=Item consumível.
 ObjType=39
 Valor=0

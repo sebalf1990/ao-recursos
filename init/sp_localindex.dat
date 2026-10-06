@@ -2589,6 +2589,14 @@ Repetible=1
 RequiredLevel=27
 PosMap=478
 
+[QUEST416]
+Nombre=La protección de los Insectos
+Desc=He estado estudiando a las mantis asesinas que habitan estas tierras. Sus exoesqueletos poseen propiedades que podrían ser aprovechadas para crear una túnica como ninguna otra, pero necesito una gran cantidad de materiales para completar mi trabajo. Las mantis asesinas marrones poseen placas resistentes y flexibles, ideales para reforzar el forrado interno de la túnica. Su estructura permitirá proteger al portador sin convertir la prenda en una pesada armadura. Por otro lado, las mantis asesinas verdes tienen una coloración y una estructura externa especialmente útiles para trabajar la superficie de la prenda. Sus partes serán utilizadas en el revestimiento exterior, mejorando la visibilidad del usuario en zonas boscosas y proporcionando una capa adicional de protección. Necesitaré suficientes partes de ambas especies antes de comenzar la fabricación. No será una tarea sencilla, pero si reúnes los materiales necesarios, crearé para ti una túnica única.
+DescFinal=Excelente trabajo. Has reunido suficientes piezas de las mantis asesinas. Aquí tienes tu recompensa: una túnica única, creada a partir de los exoesqueletos de las mantis asesinas. Que te proteja tan bien como ellas protegían su territorio.
+Repetible=0
+RequiredLevel=15
+PosMap=1
+
 [QUEST417]
 Nombre=El Último Mensaje
 Desc=Encontraste una botella sellada flotando entre las olas. En su interior hay un pergamino sorprendentemente bien conservado. "Si alguien encuentra este mensaje, que sepa que no fue la tormenta la que nos condenó. Las aguas que rodean el continente ya no pertenecen a los hombres. Leviatanes emergen de las profundidades, tiburones acechan cualquier embarcación que se atreva a cruzarlas, sirenas atraen a los marineros hacia las profundidades con sus cantos y unas extrañas criaturas, a las que llamamos Criptococos, infestan los restos de los naufragios. Mi tripulación cayó una a una. Si estas bestias no son detenidas, el mar dejará de ser un camino y se convertirá en una tumba”. No sé cuánto tiempo lleva esta botella a la deriva, pero si ese capitán decía la verdad, la amenaza sigue presente. Ve hasta el mar y reduce la cantidad de estas criaturas antes de que más vidas se pierdan. Cuando hayas cumplido tu misión, ve al mapa 254 y habla con Fermín, el pescador. Me temo que algo sabe sobre este asunto.
@@ -2612,6 +2620,14 @@ DescFinal=El fragmento ha vuelto a tus manos después de la caída de los cuatro
 Repetible=1
 RequiredLevel=13
 PosMap=189
+
+[QUEST420]
+Nombre=La Esquirla Lunar
+Desc=Entre los restos calcinados de un aventurero caído, encuentras una nota desesperada: "Si lees esto, es porque el dragón rojo me alcanzó antes que yo a él. Buscaba la Esquirla Lunar para Bertram, el joyero de Arghal, quien paga bien por piedras que ningún artesano común sabe tallar. Según mis pesquisas, es el dragón negro de los pantanos oscuros quien la guarda entre sus fauces, aunque también deberás enfrentar al dragón rojo de los valles de fuego y al dorado de la cumbre sagrada, pues ninguno de los tres tolera intrusos en sus dominios. Si tienes el valor que a mí me faltó, mátalos, consigue la piedra del negro, y llévasela a Bertram en mi nombre."
+DescFinal=Esta piedra... no es solo una gema rara. Voy a necesitar estudiarla más de cerca. Si esto es lo que sospecho, quizás vuelva a necesitar tus servicios pronto.
+Repetible=1
+RequiredLevel=31
+PosMap=151
 
 [QUEST421]
 Nombre=Los Ecos del Hielo
@@ -22352,7 +22368,11 @@ RopajeOrco=0
 GrhIndex=0
 
 [OBJ512]
-GrhIndex=0
+Name=Esquirla Lunar
+Texto=Fragmento lunar arrancado del dragón negro.
+GrhIndex=38141
+ObjType=100
+Valor=0
 
 [OBJ513]
 Name=Vestido de Bruja (H/E/EO-M)
@@ -63233,7 +63253,7 @@ MaxDef=0
 MinDef=0
 
 [OBJ6088]
-Name=Manto Verde
+Name=Capa Esmeralda
 Texto=Objeto consumible.
 ObjType=39
 Valor=0

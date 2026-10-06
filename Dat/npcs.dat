@@ -2030,8 +2030,9 @@ MagicDef=15
 
 '--------------> Gobernadores Por ciudad del 250 al 259 <--------------
 DisabledInBattleServer=1
-NumQuest=1
+NumQuest=2
 QuestNumber1=325
+QuestNumber2=420
 [NPC250]
 Name=Robert <Gobernador de Ullathorpe>
 En_Name=Robert <Governor of Ullathorpe>
@@ -2894,6 +2895,8 @@ MagicDef=0
 ' 
 ' 
 ' === FIN BLOQUE PRIVADO ===
+NumQuest=1
+QuestNumber1=416
 
 [NPC403] 'RESYNC desde sp_localindex.dat (fase B con quest)
 Name=Galgo <Quest de Catacumbas>
@@ -10568,6 +10571,8 @@ DisabledInBattleServer=1
 MinHp=6700
 PoderAtaque=235
 PoderEvasion=175
+NumDropQuest=1
+DropQuest1=420-512-1-20
 [NPC935]'Serpiente Roja
 Name=Serpiente Collet
 ShowName=0

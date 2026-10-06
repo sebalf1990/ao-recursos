@@ -73798,8 +73798,20 @@ GrhIndex=0
 [OBJ511] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
 
-[OBJ512] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ512] 'Del oficial (pack 2026-10-01): objeto de la quest 420, lo tira el Dragon Negro. Plan 17.001, ola de quests
+Name=Esquirla Lunar
+Texto=Fragmento lunar arrancado del dragón negro.
+GrhIndex=38141
+ObjType=100
+Valor=0
+en_Name=The Moon Shard
+en_texto=Moon fragment torn from the black dragon.
+pt_Name=A Lasca Lunar
+pt_texto=Fragmento lunar arrancado do dragão negro.
+fr_Name=L'Éclat de Lune
+fr_texto=Fragment lunaire arraché au dragon noir.
+it_Name=La Scheggia Lunare
+it_texto=Frammento lunare strappato al drago nero.
 
 [OBJ514] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -81884,7 +81896,7 @@ MaxDef=0
 MinDef=0
 
 [OBJ6088] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
-Name=Manto Verde
+Name=Capa Esmeralda
 Texto=Objeto consumible.
 ObjType=39
 Valor=0
@@ -81905,13 +81917,13 @@ MaxDef=0
 MinDef=0
 MinELV=1
 NOWIKI=1
-en_Name=Mantle of the Fallen Sun
+en_Name=Emerald Cape
 en_Texto=Consumable item.
-pt_Name=Manto do Sol Caído
+pt_Name=Cabo Esmeralda
 pt_Texto=Item consumível.
-fr_Name=Manteau du Soleil Déchu
+fr_Name=Cap Émeraude
 fr_Texto=Produit consommable.
-it_Name=Mantello del Sole Caduto
+it_Name=Capo Smeraldo
 it_Texto=Articolo di consumo.
 
 [OBJ6089] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
