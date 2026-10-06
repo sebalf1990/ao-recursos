@@ -2,7 +2,7 @@
 NUMEROHECHIZO=425
 NUMLOCALEMSG=2215
 NUMMAPAS=750
-NUMNPCS=9056
+NUMNPCS=9063
 NUMOBJS=9204
 NUMQUESTS=905
 NUMSUGERENCIAS=6
@@ -3756,10 +3756,10 @@ NpcType=17
 Comercia=0
 
 [NPC402]
-Name=Espíritu Olvidado
+Name=Elyndra <Quest Túnica Mantis>
 Desc=¿Me recuerdas?
-Body=4121
-Head=621
+Body=443
+Head=0
 NpcType=17
 Comercia=0
 
@@ -9295,15 +9295,17 @@ EXP=0
 ORO=0
 
 [NPC1076]
-Name=Martzia <Sastre Exótico>
-Desc=Aquí encontrarás exquisitos vestidos principescos para las más exclusivas ocasiones.
-Body=4759
-Head=360
-Comercia=1
-NROITEMS=15
-Obj1=9041-1
-Obj2=468-1
-Obj3=2928-1
+Name=Isolda
+Body=6009
+Head=0
+BodyIdle=6007
+Ataque1=6008
+HP=2400
+NpcType=0
+MaxHIT=115
+MinHIT=80
+EXP=0
+ORO=0
 
 [NPC1077]
 Name=Isolda
@@ -9489,10 +9491,10 @@ Obj2=529-1
 Obj3=1004-1
 
 [NPC1092]
-Name=Zonrie <Hechicero de Nix>
+Name=Alberich <Anciano Arcano>
 Desc=¡Tengo una gran variedad de hechizos!
-Body=124
-Head=116
+Body=6210
+Head=0
 NpcType=0
 Comercia=1
 NROITEMS=27
@@ -10621,22 +10623,30 @@ ORO=6
 Nivel=15
 
 [NPC1196]
-Name=Orco Paladin
-Body=130
-Head=512
-HP=7000
-Comercia=0
-MaxHIT=250
-MinHIT=200
+Name=Krugg
+Body=6025
+Head=0
+BodyIdle=6023
+Ataque1=6024
+HP=3600
+NpcType=0
+MaxHIT=100
+MinHIT=80
+EXP=0
+ORO=0
 
 [NPC1197]
-Name=Orco Guerrero
-Body=137
-Head=518
-HP=8500
-Comercia=0
-MaxHIT=300
-MinHIT=200
+Name=Krugg
+Body=6025
+Head=0
+BodyIdle=6023
+Ataque1=6024
+HP=6000
+NpcType=0
+MaxHIT=170
+MinHIT=150
+EXP=0
+ORO=0
 
 [NPC1198]
 Name=Orco Asesino
@@ -10739,15 +10749,16 @@ Obj2=2854-10000
 Obj3=1758-10000
 
 [NPC1208]
-Name=Mercader Guerrero
-Desc=Vendo el mejor equipamiento para Guerreros
-Body=3038
-Head=74
+Name=Gora <Minera Experta>
+Body=6147
+Head=0
+BodyIdle=6147
+NpcType=0
 Comercia=1
-NROITEMS=8
-Obj1=1987-10000
-Obj2=1987-10000
-Obj3=1702-10000
+NROITEMS=5
+Obj1=203-1000
+Obj2=1142-1000
+Obj3=390-1000
 
 [NPC1209]
 Name=Mercader Cazador
@@ -11108,15 +11119,18 @@ Obj2=165-1
 Obj3=3980-1
 
 [NPC1246]
-Name=Keia
-Desc=Solo se muere quién se olvida.
-Body=69
-Head=408
+Name=Sigurd <Carpintero Vikingo>
+Desc=Te ofrezco una herramienta ideal para la zona élfica.
+Body=6175
+Head=0
+BodyIdle=6175
+NpcType=0
 Comercia=1
-NROITEMS=15
-Obj1=30-1
-Obj2=30-1
-Obj3=1004-1
+NROITEMS=10
+Obj1=198-1000
+Obj2=127-1000
+Obj3=361-1000
+NoMapInfo=1
 
 [NPC1247]
 Name=Said <Carpintero>
@@ -11157,15 +11171,12 @@ Obj3=3986-1000
 NoMapInfo=1
 
 [NPC1250]
-Name=Kalé
-Desc=Las mejores telas en la mejor aldea, nada que perder con estos precios.
-Body=158
-Head=15
-Comercia=1
-NROITEMS=22
-Obj1=32-1
-Obj2=35-1
-Obj3=515-1
+Name=Frondelia <Micologa>
+Desc=Fascinante y terrible a la vez... esos hongos no deberían existir. La toxina los mutó, los volvió agresivos. Estudio sus esporas desde lejos, porque acercarme sería mi fin. Pero alguien más resistente que yo podría contenerlos.
+Body=6180
+Head=0
+BodyIdle=6180
+NpcType=17
 
 [NPC1251]
 Name=Serin
@@ -11635,16 +11646,11 @@ Head=78
 NpcType=17
 
 [NPC1296]
-Name=Pequeño lobo gris
-Body=4372
+Name=Krazgor <Quest de Bosses>
+Desc=Hay quienes hablan de un fragmento extraño que aparece entre los restos de criaturas poderosas. Nadie sabe quién lo creó ni qué propósito cumple. Algunos dicen que lleva siglos esperando algo... o a alguien. Lo único que se sabe es que cuatro grandes jefes parecen estar ligados a su existencia. Cuatro criaturas. Cuatro regiones. Y un secreto que, hasta ahora, nadie ha conseguido revelar.
+Body=899
 Head=0
-BodyIdle=4373
-Ataque1=4371
-HP=425
-EXP=0
-ORO=0
-MaxHIT=40
-MinHIT=25
+NpcType=17
 
 [NPC1297]
 Name=Elise <Quest>
@@ -68876,6 +68882,80 @@ Name=Sergio <Monturas>
 Desc=¿Cansado de andar a pie?
 Body=4784
 Head=602
+
+[NPC9057]
+Name=Kalé
+Desc=Las mejores telas en la mejor aldea, nada que perder con estos precios.
+Body=158
+Head=15
+Comercia=1
+NROITEMS=22
+Obj1=32-1
+Obj2=35-1
+Obj3=515-1
+
+[NPC9058]
+Name=Orco Paladin
+Body=130
+Head=512
+HP=7000
+Comercia=0
+MaxHIT=250
+MinHIT=200
+
+[NPC9059]
+Name=Orco Guerrero
+Body=137
+Head=518
+HP=8500
+Comercia=0
+MaxHIT=300
+MinHIT=200
+
+[NPC9060]
+Name=Pequeño lobo gris
+Body=4372
+Head=0
+BodyIdle=4373
+Ataque1=4371
+HP=425
+EXP=0
+ORO=0
+MaxHIT=40
+MinHIT=25
+
+[NPC9061]
+Name=Martzia <Sastre Exótico>
+Desc=Aquí encontrarás exquisitos vestidos principescos para las más exclusivas ocasiones.
+Body=4759
+Head=360
+Comercia=1
+NROITEMS=15
+Obj1=9041-1
+Obj2=468-1
+Obj3=2928-1
+
+[NPC9062]
+Name=Mercader Guerrero
+Desc=Vendo el mejor equipamiento para Guerreros
+Body=3038
+Head=74
+Comercia=1
+NROITEMS=8
+Obj1=1987-10000
+Obj2=1987-10000
+Obj3=1702-10000
+
+[NPC9063]
+Name=Keia
+Desc=Solo se muere quién se olvida.
+Body=69
+Head=408
+Comercia=1
+NROITEMS=15
+Obj1=30-1
+Obj2=30-1
+Obj3=1004-1
 
 [NAMEMAPA]
 mapa1Desc=Ciudad Neutral, entrada a Catacumbas
