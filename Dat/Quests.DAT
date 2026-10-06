@@ -5426,6 +5426,36 @@ it_Nombre=Veleno bianco
 it_Desc=Libera l'isola affinché Astrid possa indagare pacificamente sui funghi luminosi!
 it_DescFinal=Grazie per il tuo aiuto, forse questi funghi ti saranno utili anche tu.
 
+[QUEST229] 'Del oficial (API 2026-10-02). Plan 17.001, ola de quests
+Nombre=El Vínculo Superior
+Desc=Con el paso del tiempo, el druida aprende que el vínculo con las criaturas puede trascender los límites conocidos. Aquellos capaces de dominar las fuerzas de la naturaleza pueden alcanzar un nuevo nivel de conexión con sus mascotas. Para perfeccionar tus conocimientos, deberás demostrar que estás preparado para dominar criaturas más poderosas y obtener así el conocimiento necesario para aprender un nuevo hechizo.
+DescFinal=Has aprendido a fortalecer el vínculo con las criaturas y a canalizar las fuerzas de la naturaleza de una manera superior. Tu antiguo dominio de Invocar Mascotas Domadas ha quedado atrás y ahora eres capaz de utilizar una versión mucho más poderosa del hechizo, capaz de invocar mascotas más poderosas y resistentes.
+Repetible=0
+RequiredClassesCount=1
+RequiredClass1=6
+RewardEXP=0
+RewardGLD=0
+PosMap=56
+RequiredLevel=25
+RequiredSpellCount=1
+RequiredSpell1=9
+RewardSkills=1
+RewardSkill1=71
+DescAudio=
+DescFinalAudio=
+en_Nombre=The Superior Bond
+en_Desc=Over time, the druid learns that the bond with creatures can transcend known limits. Those capable of mastering the forces of nature can reach a new level of connection with their pets. To perfect your knowledge, you must prove that you are ready to master more powerful creatures and gain the knowledge necessary to learn a new spell.
+en_DescFinal=You have learned to strengthen your bond with creatures and channel the forces of nature in a superior way. Your former mastery of Summon Tamed Pets is now behind you, and you are capable of using a much more powerful version of the spell, capable of summoning stronger and more resilient pets.
+pt_Nombre=O Vínculo Superior
+pt_Desc=Com o passar do tempo, o druida aprende que o vínculo com as criaturas pode ultrapassar os limites conhecidos. Aqueles capazes de dominar as forças da natureza podem alcançar um novo nível de conexão com seus animais. Para aperfeiçoar seus conhecimentos, você deverá provar que está preparado para dominar criaturas mais poderosas e obter o conhecimento necessário para aprender um novo feitiço.
+pt_DescFinal=Você aprendeu a fortalecer o vínculo com as criaturas e a canalizar as forças da natureza de uma maneira superior. Seu antigo domínio de Invocar Animais Domados ficou para trás e agora você é capaz de utilizar uma versão muito mais poderosa do feitiço, capaz de invocar animais mais poderosos e resistentes.
+fr_Nombre=Le Lien Supérieur
+fr_Desc=Avec le temps, le druide apprend que le lien avec les créatures peut dépasser les limites connues. Ceux capables de maîtriser les forces de la nature peuvent atteindre un nouveau niveau de connexion avec leurs familiers. Pour perfectionner vos connaissances, vous devrez prouver que vous êtes prêt à maîtriser des créatures plus puissantes et à acquérir les connaissances nécessaires pour apprendre un nouveau sort.
+fr_DescFinal=Vous avez appris à renforcer votre lien avec les créatures et à canaliser les forces de la nature d'une manière supérieure. Votre ancienne maîtrise d'Invocation de Familiers Domptés appartient désormais au passé et vous êtes maintenant capable d'utiliser une version bien plus puissante du sort, capable d'invoquer des familiers plus puissants et plus résistants.
+it_Nombre=Il Legame Superiore
+it_Desc=Con il passare del tempo, il druido impara che il legame con le creature può trascendere i limiti conosciuti. Coloro che sono capaci di dominare le forze della natura possono raggiungere un nuovo livello di connessione con i propri animali. Per perfezionare le tue conoscenze, dovrai dimostrare di essere pronto a dominare creature più potenti e ottenere così le conoscenze necessarie per apprendere un nuovo incantesimo.
+it_DescFinal=Hai imparato a rafforzare il legame con le creature e a canalizzare le forze della natura in modo superiore. La tua precedente padronanza di Evocare Animali Addomesticati appartiene ormai al passato e ora sei in grado di utilizzare una versione molto più potente dell'incantesimo, capace di evocare animali più potenti e resistenti.
+
 [QUEST230]
 Nombre=El Rugido de Bruin
 Desc=Esa piel que me trajiste... magnífica. Pero no basta para crear lo que tengo en mente. Existe otro Oso, uno que los cazadores llaman Bruin, el Oscuro. Su fuerza no tiene igual, y su pelaje es tan denso que la escarcha se quiebra al tocarlo. Vive en el Bosque de los Osos, al noreste de aquí. No siempre se deja ver... pero cuando ruge, hasta las montañas tiemblan. Si de verdad deseas una montura digna de las leyendas, tráeme su piel como muestra de valentía. Solo con su poder podré forjar el vínculo entre Bestia y Jinete.

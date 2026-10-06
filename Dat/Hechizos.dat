@@ -232,23 +232,36 @@ Cant=3
 AdjustStatsWithCaster=1
 
 [HECHIZO9]
-Nombre=Invocar Mascotas
-Desc=Invoca o guarda las mascotas que tengas domadas.
-PalabrasMagicas=Mantra'rax
-PropioMsg=Has invocado a tus mascotas
-en_name=Summon pets.
-en_Desc=Summons or puts away the creatures you have tamed.
-PalabrasMagicas=Mantra'rax
+Nombre=Invocar Mascotas Domadas
+Desc=Invoca o guarda las mascotas que tengas domadas hasta nivel 24.
+PalabrasMagicas=Mantra Rax
+PropioMsg=Has invocado a tus mascotas domadas
+en_name=Summon Tamed Pets
+en_Desc=Summons or stores pets you have tamed up to level 24.
+PalabrasMagicas=Mantra Rax
 en_PropioMsg=You summoned your pets.
 Tipo=4
 WAV=17
 FXgrh=0
 Loops=0
-MinSkill=60
-ManaRequerido=750
-StaRequerido=300
+MinSkill=0
+ManaRequerido=180
+StaRequerido=90
 Target=4
 Invoca=2
+IconoIndex=35713
+IsBindable=1
+Maxlevelcasteable=24
+AdjustStatsWithCaster=1
+pt_Nombre=Invocar Animais Domesticados
+pt_Desc=Invoca ou guarda os animais de estimação que você domou até o nível 24.
+pt_PropioMsg=Você invocou suas mascotes domadas.
+fr_Nombre=Invoquez des animaux de compagnie apprivoisés
+fr_Desc=Invoque ou range les familiers que vous avez apprivoisés jusqu'au niveau 24.
+fr_PropioMsg=Vous avez invoqué vos animaux de compagnie
+it_Nombre=Invoca animali domestici addomesticato
+it_Desc=Evoca o ripone gli animali domestici che hai addomesticato fino al livello 24.
+it_PropioMsg=Hai invocato i tuoi animali domestici
 
 [HECHIZO10]
 Nombre=Mimetismo
@@ -5121,12 +5134,35 @@ fr_Desc=Invoquez d'un orc pour qu'il combatte à vos côtés.
 it_Nombre=Evoca Orco
 it_Desc=Evoca uno orco che combatterà al tuo fianco.
 
-[HECHIZO71] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
-ManaRequerido=0
+[HECHIZO71] 'Del oficial (API 2026-10-02). Plan 17.001, ola de quests
+Nombre=Invocar Mascotas
+Desc=Invoca o guarda las mascotas que tengas domadas.
+PalabrasMagicas=Mantra Rax
+PropioMsg=Has invocado a tus mascotas domadas
+IconoIndex=35713
+FXgrh=0
+loops=0
+ManaRequerido=750
 MinSkill=0
-Cooldown=0
-IconoIndex=0
-StaRequerido=0
+StaRequerido=275
+IsBindable=1
+Target=4
+Tipo=4
+WAV=17
+Invoca=2
+Magicpowerneeded=1
+en_Nombre=Summon Pets
+en_Desc=Summons or puts away the creatures you have tamed.
+en_PropioMsg=You summoned your pets.
+pt_Nombre=Invocar Animais de Estimação
+pt_Desc=Invoque ou salve os animais de estimação que você domesticou.
+pt_PropioMsg=Você invocou suas mascotes domadas.
+fr_Nombre=Invoquer des Familiers
+fr_Desc=Invoquez ou enregistrez les animaux que vous avez apprivoisés.
+fr_PropioMsg=Vous avez invoqué vos animaux de compagnie
+it_Nombre=Evoca Animali Domestici
+it_Desc=Invoca o salva gli animali domestici che hai addomesticato.
+it_PropioMsg=Hai invocato i tuoi animali domestici
 
 [HECHIZO72] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
 ManaRequerido=0

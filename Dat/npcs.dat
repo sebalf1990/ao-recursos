@@ -29485,6 +29485,8 @@ NpcType=17
 ShowName=1
 Heading=3
 Movement=1
+NumQuest=1
+QuestNumber1=229
 
 [NPC1073] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC926 del oficial, vida mas parecida: SUPUESTO; sin drops
 Name=Philiph
