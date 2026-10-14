@@ -23081,6 +23081,8 @@ QUIZADROPEA3=4316
 QuizaProb=1
 DropCount=1
 Drop1=4316-1-10-20
+NumDropQuest=1
+DropQuest1=251-4931-1-25
 
 [NPC1393]' Flor del Oceano para Poción de Maná Alquimia; plan 15.002 Ola 5c: planta atacable, suelta la hierba
 Name=Lobelia Oscura
@@ -23097,6 +23099,8 @@ NROITEMS=1
 Obj1=4315-20
 DropCount=1
 Drop1=4315-1-10-20
+NumDropQuest=1
+DropQuest1=252-4932-1-30
 
 [NPC1394]' Cola de Zorro; plan 15.002 Ola 5c: planta atacable, suelta la hierba
 Name=Feather Marron
