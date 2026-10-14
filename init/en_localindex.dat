@@ -2788,20 +2788,6 @@ Repetible=1
 RequiredLevel=23
 PosMap=295
 
-[QUEST106]
-Nombre=An expert fisherman
-Desc=So my brother has sent you, let's see..., let me see that rod!I see, it is of very good quality, but you will need something better than that to catch large fish. I offer you a deal!The fluids of the black spider that is in the drainage of the city provides an incredible resistance to the fishing lines. If you can get me a little I think I'll be able to make you a great cane.
-DescFinal=Take this cane you can tell the difference in a very short time. But be careful, catching large fish will not be easy.
-Repetible=0
-RequiredLevel=20
-
-[QUEST107]
-Nombre=Family relics.
-Desc=Come, I want to teach you something. This silver cane is a unique piece that has been passed down from generation to generation. I could give it to you if you fulfill a small order for me. A few days ago one of our fishing boats was attacked by pirates, we are all alive, but I have lost some very important family heirlooms for me. Hunt down those damn pirates, get them back, and I'll be indebted to you.
-DescFinal=You've made it! With this unique silver rod you will be the envy of every fisherman.
-Repetible=0
-RequiredLevel=23
-
 [QUEST108]
 Nombre=Fishermen's guild
 Desc=I see, you want to be part of our fishermen's guild. You'll need something better than that broken network for it. If you want I can improve it for you although I warn you that it will cost you a lot of money.

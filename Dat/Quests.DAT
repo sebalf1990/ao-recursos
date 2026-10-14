@@ -2267,67 +2267,6 @@ fr_Desc=Légionnaire, j'ai observé vos efforts au nom de la Légion Noire. Tous
 it_Nombre=Scudo legionario
 it_Desc=Legionario, ho osservato i tuoi sforzi in nome della Legione Oscura. Non tutti possiedono la disciplina e la forza d'animo necessarie per portare i nostri emblemi, ma tu potresti essere l'eccezione. Se riuscirai a raccogliere 10 Medaglie Rosse, trofei conquistati in combattimento, torna da me. In cambio, ti concederò uno Scudo della Legione, forgiato per coloro che hanno dimostrato vera lealtà e resilienza. Ricorda, questo onore non è per tutti. Solo Guerrieri, Lavoratori, Paladini e Chierici possono aspirare a portare questo simbolo della nostra forza. Vai, legionario. Dimostra di esserne degno.
 
-[QUEST106]
-Nombre=Un Experto Pescador
-Desc=Asi que te ha enviado mi hermano, veamos..., déjame ver esa caña!, Ya veo, es de muy buena calidad, pero necesitarás algo mejor que eso para atrapar peces de gran porte. Te ofrezco un trato!, los fluidos de la araña negra que se encuentra en el drenaje de la ciudad proporciona una increíble resistencia a las líneas de pesca. Si puedes conseguirme un poco creo que podré confeccionarte una gran caña.
-DescFinal=Toma esta caña podrás notar la diferencia en muy poco tiempo. Pero ten cuidado, atrapar peces de gran  porte no será nada fácil.
-Repetible=0
-RequiredLevel=20
-RequiredOBJs=2
-RequiredObj1=2121-1
-RequiredObj2=3324-10
-RequiredQuest=327
-RewardOBJs=1
-RewardObj1=2133-1
-Trabajador=1
-RequiredProfession=18
-DescAudio=1276
-DescFinalAudio=1277
-en_Nombre=An expert fisherman
-en_Desc=So my brother has sent you, let's see..., let me see that rod!I see, it is of very good quality, but you will need something better than that to catch large fish. I offer you a deal!The fluids of the black spider that is in the drainage of the city provides an incredible resistance to the fishing lines. If you can get me a little I think I'll be able to make you a great cane.
-en_DescFinal=Take this cane you can tell the difference in a very short time. But be careful, catching large fish will not be easy.
-pt_Nombre=Um pescador especialista
-pt_Desc=Então meu irmão lhe enviou, vamos ver ... deixe -me ver aquela bengala! Entendo, é de muito boa qualidade, mas você precisará de algo melhor do que isso para pegar peixes grandes. Eu te ofereço um tratamento! Os fluidos da aranha preta que estão na drenagem da cidade fornecem uma resistência incrível às linhas de pesca. Se você pode me pegar um pouco, posso fazer uma ótima bengala.
-pt_DescFinal=Pegue esta bengala, você pode notar a diferença em um tempo muito curto. Mas tenha cuidado, pegar peixes grandes não será fácil.
-fr_Nombre=Un pêcheur expert
-fr_Desc=Alors mon frère vous a envoyé, voyons ... laissez-moi voir cette canne! Je vois, c'est de très bonne qualité, mais vous aurez besoin de quelque chose de mieux que cela pour attraper de gros poissons. Je vous offre un traitement! Les fluides de l'araignée noire qui se trouve dans le drainage de la ville offre une résistance incroyable aux lignes de pêche. Si vous pouvez me procurer un peu, je peux faire une grande canne.
-fr_DescFinal=Prenez cette canne, vous pouvez remarquer la différence en très peu de temps. Mais soyez prudent, attraper de gros poissons ne sera pas facile.
-it_Nombre=Un pescatore esperto
-it_Desc=Quindi mio fratello ti ha mandato, vediamo ... fammi vedere quel bastone! Vedo, è di ottima qualità, ma avrai bisogno di qualcosa di meglio di quello per catturare pesci grandi. Ti offro un trattamento! I fluidi del ragno nero che si trova nel drenaggio della città offrono un'incredibile resistenza alle linee di pesca. Se riesci a prendermi un po ', posso fare una canna fantastica.
-it_DescFinal=Prendi questo bastone puoi notare la differenza in un tempo molto breve. Ma fai attenzione, catturare pesci grandi non sarà facile.
-NoWiki=1
-
-[QUEST107]
-Nombre=Reliquias familiares.
-Desc=Ven, quiero enseñarte algo. Esta caña de plata es una pieza única que ha pasado de generación en generación. Podría obsequiartela si cumples un pequeño encargo para mí. Hace unos días uno de nuestros barcos pesqueros fue atacado por piratas al sur del desierto. Afortunadamente todos estamos con vida, pero he perdido unas reliquias familiares muy importantes para mi. Caza a esos malditos piratas, recuperarlas y estaré en deuda contigo.
-DescFinal=¡Lo has logrado! Con esta caña única de plata serás la envidia de todo pescador.
-Repetible=0
-RequiredLevel=23
-RequiredOBJs=3
-RequiredObj1=2133-1
-RequiredObj2=3323-1
-RequiredObj3=3322-1
-RequiredQuest=106
-RewardOBJs=1
-RewardObj1=2132-1
-Trabajador=1
-RequiredProfession=18
-DescAudio=1278
-DescFinalAudio=1279
-en_Nombre=Family relics.
-en_Desc=Come, I want to teach you something. This silver cane is a unique piece that has been passed down from generation to generation. I could give it to you if you fulfill a small order for me. A few days ago one of our fishing boats was attacked by pirates, we are all alive, but I have lost some very important family heirlooms for me. Hunt down those damn pirates, get them back, and I'll be indebted to you.
-en_DescFinal=You've made it! With this unique silver rod you will be the envy of every fisherman.
-pt_Nombre=Relíquias familiares.
-pt_Desc=Venha, eu quero te mostrar uma coisa. Esta bengala de prata é uma peça única que passou de geração em geração. Eu poderia dar se você cumprir uma pequena comissão para mim. Alguns dias atrás, um de nossos barcos de pesca foi atacado por piratas ao sul do deserto. Felizmente, estamos todos vivos, mas perdi relíquias familiares muito importantes para mim. Caça esses malditos piratas, recupere -os e eu ficarei endividado com você.
-pt_DescFinal=Você conseguiu! Com esta cana de prata única, você será a inveja de todo pescador.
-fr_Nombre=Reliques familiales.
-fr_Desc=Viens, je veux te montrer quelque chose. Cette canne en argent est une pièce unique qui est passée de génération en génération. Je pourrais le donner si vous réalisez une petite commission pour moi. Il y a quelques jours, l'un de nos bateaux de pêche a été attaqué par des pirates au sud du désert. Heureusement, nous sommes tous en vie, mais j'ai perdu des reliques familiales très importantes pour moi. Chassez ces pirates, récupérez-les et je serai endetté avec vous.
-fr_DescFinal=Vous avez réussi! Avec cette canne en argent unique, vous aurez l'envie de chaque pêcheur.
-it_Nombre=Reliquie familiari.
-it_Desc=Vieni, voglio mostrarti qualcosa. Questa canna d'argento è un pezzo unico che è passato di generazione in generazione. Potrei darlo se soddisfi una piccola commissione per me. Qualche giorno fa una delle nostre barche da pesca è stata attaccata dai pirati a sud del deserto. Fortunatamente siamo tutti vivi, ma ho perso reliquie familiari molto importanti per me. Caccia quei dannati pirati, recuperali e sarò in debito con te.
-it_DescFinal=Sei riuscito! Con questa canna d'argento unica sarai l'invidia di ogni pescatore.
-NoWiki=1
-
 [QUEST108]
 Nombre=Gremio de Pescadores
 Desc=Ya veo, deseas ser parte de nuestro gremio de pescadores. Necesitarás algo mejor que esa red rotosa para ello. Si quieres puedo mejorarla para ti aunque te advierto que te costará mucho dinero.
