@@ -2318,6 +2318,8 @@ GiveEXP=600
 GiveGLD=0
 MaxHIT=75
 MinHIT=60
+NumDropQuest=1
+DropQuest1=30-405-1-5
 [NPC268] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Guardian de la Montaña
 Desc=¡No permito criaturas en esta zona!
@@ -3753,6 +3755,8 @@ BodyIdle=5459
 Ataque1=5460
 NpcType=0
 Nivel=20
+NumDropQuest=1
+DropQuest1=257-3-1-20
 
 [NPC511] 'Rata Newbie Dungeon
 Name=Rata
@@ -3864,6 +3868,8 @@ Alineacion=0
 Nivel=28
 DropCount=1
 Drop1=1149-200-1-1
+NumDropQuest=1
+DropQuest1=142-2502-1-50
 PoderAtaque=210
 PoderEvasion=147
 
@@ -3971,6 +3977,9 @@ DropCount=3
 Drop1=6105-8000-1-1
 Drop2=6188-8000-1-1
 Drop3=5180-1000-1-1
+NumDropQuest=2
+DropQuest1=233-2634-1-8
+DropQuest2=270-2796-1-200
 
 [NPC517] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Zulrik <Goblin Hechicero>
@@ -4066,6 +4075,8 @@ NpcType=0
 Nivel=20
 DropCount=1
 Drop1=237-100-1-1
+NumDropQuest=1
+DropQuest1=258-2769-1-50
 
 [NPC522] 'Goblin
 Name=Goblin
@@ -4572,8 +4583,9 @@ Alineacion=0
 Nivel=28
 PoderAtaque=220
 PoderEvasion=145
-NumDropQuest=1
+NumDropQuest=2
 DropQuest1=45-2271-1-2
+DropQuest2=139-2271-1-20
 DropCount=1
 Drop1=5180-1000-1-1
 
@@ -4650,9 +4662,10 @@ Drop2=3394-1-1-1
 Nivel=28
 PoderAtaque=225
 PoderEvasion=170
-NumDropQuest=2
+NumDropQuest=3
 DropQuest1=46-2739-1-2
 DropQuest2=46-3575-1-2
+DropQuest3=270-2800-1-50
 
 [NPC533]'
 Name=Mago Malvado
@@ -4985,8 +4998,10 @@ Ataque1=4857
 NpcType=0
 DropCount=1
 Drop1=2846-100-1-1
-NumDropQuest=1
+NumDropQuest=3
 DropQuest1=49-2218-1-1
+DropQuest2=261-2772-1-200
+DropQuest3=270-2792-1-500
 '[NPC541]
 'Name=Golem de Hierro
 'en_name=Iron Golem
@@ -5437,8 +5452,11 @@ DropCount=3
 Drop1=415-100-1-10
 Drop2=415-10-1-5
 Drop3=415-1-1-1
-NumDropQuest=1
+NumDropQuest=4
 DropQuest1=90-2182-1-10
+DropQuest2=65-2502-1-20
+DropQuest3=231-538-1-1000
+DropQuest4=323-459-1-10
 
 [NPC552]
 Name=Asesino
@@ -5603,8 +5621,9 @@ Alineacion=0
 Nivel=23
 PoderAtaque=130
 PoderEvasion=110
-NumDropQuest=1
+NumDropQuest=2
 DropQuest1=23-2707-1-1
+DropQuest2=37-2262-1-40
 
 [NPC556] 'NPC
 Name=Fuego Fatuo
@@ -5816,6 +5835,8 @@ BodyIdle=5027
 Ataque1=5028
 NpcType=0
 Nivel=28
+NumDropQuest=1
+DropQuest1=28-1848-1-3
 
 [NPC562] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Rathen <Quest de Bandido>
@@ -6436,6 +6457,8 @@ GiveGLD=12
 BodyIdle=5480
 Ataque1=5481
 NpcType=0
+NumDropQuest=1
+DropQuest1=206-2811-1-100
 
 [NPC586]
 Name=Galeón Fantasmal
@@ -6529,6 +6552,8 @@ Nivel=20
 DropCount=2
 Drop1=1677-580-1-1
 Drop2=1678-580-1-1
+NumDropQuest=1
+DropQuest1=198-2534-1-40
 PoderAtaque=160
 PoderEvasion=115
 
@@ -6802,6 +6827,8 @@ Alineacion=0
 Nivel=20
 PoderAtaque=165
 PoderEvasion=120
+NumDropQuest=1
+DropQuest1=329-2812-1-20
 
 [NPC596] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Cofre de Recompensa Patreon
@@ -7877,8 +7904,10 @@ QuizaProb=300
 Ataque1=5135
 NpcType=0
 Nivel=20
-NumDropQuest=1
+NumDropQuest=3
 DropQuest1=151-3531-1-1
+DropQuest2=156-3534-1-40
+DropQuest3=160-2250-1-10
 
 [NPC646]
 Name=Escarabajo Gigante
@@ -7932,8 +7961,13 @@ PoderEvasion=95
 NPCLVL=17
 NpcType=0
 Nivel=20
-NumDropQuest=1
+NumDropQuest=6
 DropQuest1=151-3533-1-1
+DropQuest2=155-3529-1-200
+DropQuest3=155-3530-1-200
+DropQuest4=155-3531-1-200
+DropQuest5=155-3532-1-200
+DropQuest6=155-3533-1-200
 
 [NPC648]
 Name=Reydmon
@@ -8167,6 +8201,8 @@ IntervaloRespawn=900
 IntervaloRespawnMin=600
 NpcType=0
 Nivel=20
+NumDropQuest=1
+DropQuest1=256-2490-1-20
 
 [NPC657]'Barril de ron para quest 
 Name=Barril Flotante
@@ -8323,6 +8359,8 @@ AguaValida=0
 NpcType=0
 GiveEXPClan=1
 Nivel=28
+NumDropQuest=1
+DropQuest1=324-464-1-20
 
 [NPC662] 'Oso Polar
 Name=Orius
@@ -8912,10 +8950,11 @@ Alineacion=0
 Nivel=20
 PoderAtaque=170
 PoderEvasion=115
-NumDropQuest=3
+NumDropQuest=4
 DropQuest1=212-2529-1-20
 DropQuest1=224-2529-1-20
 DropQuest3=225-2529-1-20
+DropQuest4=160-2223-1-10
 '[NPC678] Esqueleto agresor
 'Name=Esqueleto agresor
 'en_Name=Aggressor Skeleton
@@ -9004,6 +9043,8 @@ en_Name=Mysterius Spider
 fr_Name=Araignée mystérieuse
 it_Name=Ragno misterioso
 pt_Name=Aranha misteriosa
+NumDropQuest=1
+DropQuest1=58-2497-1-10000
 
 [NPC680]
 Name=Elanrullk
@@ -9776,6 +9817,8 @@ IntervaloRespawn=360
 IntervaloRespawnMin=180
 NpcType=0
 Nivel=20
+NumDropQuest=1
+DropQuest1=286-2475-1-40
 
 [NPC751] 
 Name=Frogian Hechicero
@@ -9816,6 +9859,8 @@ NpcType=0
 Nivel=20
 DropCount=1
 Drop1=1653-650-1-1
+NumDropQuest=1
+DropQuest1=286-2475-1-40
 
 [NPC752] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Laican
@@ -9877,8 +9922,9 @@ NpcType=0
 Nivel=20
 DropCount=1
 Drop1=239-200-1-1
-NumDropQuest=1
+NumDropQuest=2
 DropQuest1=214-2231-1-2
+DropQuest2=286-2475-1-40
 
 [NPC754] 
 Name=Espíritu Poseído
@@ -9959,6 +10005,8 @@ DisabledInBattleServer=1
 Nivel=28
 DropCount=1
 Drop1=5181-100-1-1
+NumDropQuest=1
+DropQuest1=270-2799-1-20
 [NPC800]
 Name=Jarron
 En_Name=Vase
@@ -10176,6 +10224,9 @@ NpcType=0
 GiveEXPClan=3
 DropCount=1
 Drop1=467-1-1-1
+NumDropQuest=2
+DropQuest1=249-2837-1-40
+DropQuest2=270-2793-1-100
 DisabledInBattleServer=1
 '[NPC923]
 'Name=Dragón Cárdeno
@@ -10701,6 +10752,8 @@ DropCount=3
 Drop1=4339-100-1-10
 Drop2=4339-10-1-5
 Drop3=4339-1-1-1
+NumDropQuest=1
+DropQuest1=64-2502-1-20
 
 [NPC940]'Libre
 
@@ -11355,6 +11408,8 @@ Humanoide=0
 NPCLVL=6
 NpcType=0
 Nivel=5
+NumDropQuest=1
+DropQuest1=193-453-1-4
 
 [NPC968] 'Araña gigante azul
 Name=Araña Ponzoñosa
@@ -11585,6 +11640,9 @@ PoderAtaque=235
 PoderEvasion=145
 DropCount=1
 Drop1=5182-1000-1-1
+NumDropQuest=2
+DropQuest1=270-2795-1-50
+DropQuest2=275-3964-1-50
 
 [NPC978] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Esqueto Vikingo
@@ -12364,8 +12422,9 @@ GiveEXPClan=1
 Ataque1=5514
 NpcType=0
 Nivel=30
-NumDropQuest=1
+NumDropQuest=2
 DropQuest1=53-1396-1-7
+DropQuest2=232-2659-1-40
 
 [NPC1015]
 Name=Kadru
@@ -12399,8 +12458,10 @@ MagicDef=10
 Ataque1=5520
 NpcType=0
 Nivel=30
-NumDropQuest=1
+NumDropQuest=3
 DropQuest1=53-1396-1-7
+DropQuest2=141-2515-1-40
+DropQuest3=270-2797-1-200
 
 [NPC1016]
 Name=Aksha
@@ -12679,6 +12740,8 @@ BodyIdle=0
 Ataque1=0
 NpcType=0
 Nivel=28
+NumDropQuest=1
+DropQuest1=259-2770-1-100
 
 [NPC1026]
 Name=Esbirra Demoníaca
@@ -12716,6 +12779,8 @@ BodyIdle=5468
 Ataque1=5469
 NpcType=0
 Nivel=28
+NumDropQuest=1
+DropQuest1=259-2770-1-100
 
 [NPC1027]
 Name=Dummy de Entrenamiento
@@ -12877,6 +12942,8 @@ PoderEvasion=145
 '--- fin copia privada ---
 DropCount=1
 Drop1=5181-1000-1-1
+NumDropQuest=1
+DropQuest1=56-2834-1-40
 
 [NPC1031] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Umbrax
@@ -12898,6 +12965,9 @@ Attackable=1
 Hostile=1
 PoderAtaque=230
 PoderEvasion=150
+NumDropQuest=2
+DropQuest1=270-2798-1-40
+DropQuest2=270-2799-1-40
 
 '[NPC1032]
 'Name=Minero Robusto
@@ -13277,6 +13347,8 @@ BodyIdle=5114
 Ataque1=5115
 NpcType=0
 Nivel=15
+NumDropQuest=1
+DropQuest1=323-459-1-20
 
 [NPC1043]
 Name=Reina Gorgona
@@ -16068,6 +16140,8 @@ Nivel=28
 DisabledInBattleServer=1
 PoderAtaque=175
 PoderEvasion=130
+NumDropQuest=1
+DropQuest1=204-2836-1-100
 '[NPC1148] 'Ogro Guerrero NUEVA ESPERANZA
 'Name=Ogro Guerrero
 'En_Name=Warrior Ogre
@@ -16329,6 +16403,8 @@ en_Name=Ancestral Deer
 pt_Name=Deer ancestral
 fr_Name=Cerf ancestral
 it_Name=Deer ancestrale
+NumDropQuest=1
+DropQuest1=29-2506-1-3
 
 [NPC1157] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Bramador
@@ -16514,6 +16590,8 @@ Nivel=20
 MinHp=1800
 PoderAtaque=165
 PoderEvasion=95
+NumDropQuest=1
+DropQuest1=44-2833-1-1000
 [NPC1168] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Zafirron
 Body=4844
@@ -16534,6 +16612,8 @@ Nivel=20
 MinHp=1800
 PoderAtaque=165
 PoderEvasion=95
+NumDropQuest=1
+DropQuest1=44-2833-1-1000
 [NPC1169] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=2042
 Desc=Equipamiento Legendario para Cazadores
@@ -20331,6 +20411,8 @@ MagicDef=10
 Nivel=30
 DropCount=1
 Drop1=5998-1-1-4
+NumDropQuest=1
+DropQuest1=339-3526-1-40
 
 [NPC1310] Comatus (Verde)
 Name=Comatus
@@ -20370,6 +20452,8 @@ NpcType=0
 Nivel=28
 DropCount=1
 Drop1=5999-1-1-3
+NumDropQuest=1
+DropQuest1=339-3525-1-50
 DisabledInBattleServer=1
 
 [NPC1311] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
@@ -20888,6 +20972,8 @@ MaxHIT=42
 MinHIT=26
 DropCount=1
 Drop1=1675-10000-1-1
+NumDropQuest=1
+DropQuest1=285-461-1-1
 Nivel=15
 Heading=3
 Movement=2
@@ -20919,6 +21005,8 @@ MaxHIT=40
 MinHIT=28
 DropCount=1
 Drop1=1676-5000-1-1
+NumDropQuest=1
+DropQuest1=285-461-1-1
 Nivel=15
 MinHp=400
 PoderAtaque=50
@@ -20983,6 +21071,8 @@ Nivel=15
 MinHp=400
 PoderAtaque=55
 PoderEvasion=32
+NumDropQuest=1
+DropQuest1=285-461-1-1
 
 [NPC1335] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Hormiga Berseker
@@ -21720,6 +21810,9 @@ NpcType=0
 Nivel=32
 DropCount=1
 Drop1=2807-50-1-1
+NumDropQuest=2
+DropQuest1=140-2514-1-40
+DropQuest2=270-2794-1-200
 
 [NPC1355] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Ghoul de Hielo
@@ -22498,6 +22591,8 @@ Alineacion=0
 '--- COPIA PRIVADA ORIGINAL NPC1375 (Ciervo Morado) antes de oficializar; cliente oficial era Ciervo ---
 DropCount=1
 Drop1=2781-1-50-250
+NumDropQuest=1
+DropQuest1=270-2798-1-20
 DisabledInBattleServer=1
 Nivel=28
 PoderAtaque=230
@@ -25015,6 +25110,8 @@ Nivel=20
 MinHp=1600
 PoderAtaque=180
 PoderEvasion=100
+NumDropQuest=1
+DropQuest1=230-539-1-5
 [NPC829] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Typhon
 Body=5449
@@ -25159,6 +25256,8 @@ Nivel=28
 MinHp=3500
 PoderAtaque=180
 PoderEvasion=130
+NumDropQuest=1
+DropQuest1=324-464-1-50
 [NPC971] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Faraon Zombie
 Body=5172
@@ -25327,6 +25426,8 @@ MaxHIT=85
 MinHIT=60
 DropCount=1
 Drop1=5179-2000-1-1
+NumDropQuest=1
+DropQuest1=334-665-1-2
 DisabledInBattleServer=1
 Nivel=20
 MinHp=2000
@@ -25352,6 +25453,8 @@ MaxHIT=85
 MinHIT=60
 DropCount=1
 Drop1=5180-2000-1-1
+NumDropQuest=1
+DropQuest1=334-666-1-2
 DisabledInBattleServer=1
 Nivel=20
 MinHp=2000
@@ -25377,6 +25480,8 @@ MaxHIT=85
 MinHIT=60
 DropCount=1
 Drop1=5181-2000-1-1
+NumDropQuest=1
+DropQuest1=334-668-1-2
 DisabledInBattleServer=1
 Nivel=20
 MinHp=2000
@@ -25402,6 +25507,8 @@ MaxHIT=85
 MinHIT=60
 DropCount=1
 Drop1=5182-2000-1-1
+NumDropQuest=1
+DropQuest1=334-667-1-2
 DisabledInBattleServer=1
 Nivel=20
 MinHp=2000
@@ -25453,6 +25560,8 @@ MaxHIT=170
 MinHIT=100
 DropCount=1
 Drop1=5179-1000-1-1
+NumDropQuest=1
+DropQuest1=279-609-1-5
 DisabledInBattleServer=1
 Nivel=30
 MinHp=5200
@@ -25478,6 +25587,8 @@ MaxHIT=170
 MinHIT=100
 DropCount=1
 Drop1=5180-1000-1-1
+NumDropQuest=1
+DropQuest1=280-610-1-5
 DisabledInBattleServer=1
 Nivel=30
 MinHp=5200
@@ -25503,6 +25614,8 @@ MaxHIT=170
 MinHIT=100
 DropCount=1
 Drop1=5181-1000-1-1
+NumDropQuest=1
+DropQuest1=282-611-1-5
 DisabledInBattleServer=1
 Nivel=30
 MinHp=5200
@@ -25528,6 +25641,8 @@ MaxHIT=170
 MinHIT=100
 DropCount=1
 Drop1=5182-1000-1-1
+NumDropQuest=1
+DropQuest1=281-612-1-5
 DisabledInBattleServer=1
 Nivel=30
 MinHp=5200
