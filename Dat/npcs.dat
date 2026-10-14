@@ -3055,9 +3055,8 @@ en_desc=Do you see those two rats nearby? I placed them there so you can learn h
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=2
-QuestNumber1=135
-QuestNumber2=427
+NumQuest=1
+QuestNumber1=427
 
 [NPC409]
 Name=Bowkrag <Quest>
@@ -3080,10 +3079,7 @@ en_desc=Your gaze tells me that the dark legends of the south do not cower you. 
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=3
-QuestNumber1=3
-QuestNumber2=6
-QuestNumber3=8
+NumQuest=0
 
 [NPC410]'Desactivada quest57 por falta de npc
 Name=Octis <Quest del Minero Explorador>
@@ -27377,9 +27373,8 @@ it_Desc=Sto cercando chi riesce a mostrare il suo potere ed è in grado di aiuta
 it_Name=Snyder <Quest>
 pt_Desc=Procuro quem consegue mostrar seu poder e é capaz de ajudar tanto na principal quanto no mar. Não tenho dúvidas de que essa será uma troca valiosa.
 pt_Name=Snyder <itement>
-NumQuest=2
+NumQuest=1
 QuestNumber1=31
-QuestNumber2=10
 
 [NPC1060] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Sergio <Monturas>, mudado a NPC9056. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC520 del oficial, vida mas parecida: SUPUESTO; sin drops
 Name=Philiph
