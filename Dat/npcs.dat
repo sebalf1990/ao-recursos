@@ -2931,8 +2931,9 @@ NPCLVL=6
 MagicResistance=15
 MagicDef=0
 DisabledInBattleServer=1
-NumQuest=1
+NumQuest=2
 QuestNumber1=58
+QuestNumber2=406
 
 [NPC404]
 Name=Roman <Quest de Araña Gigante>
