@@ -2364,14 +2364,6 @@ Repetible=0
 RequiredLevel=18
 PosMap=76
 
-[QUEST33]
-Nombre=Rapine all'estero
-Desc=Mi hanno spogliato di tutto, ho avuto una specie di accordo con i pirati che frequentano queste coste ma hanno rotto ogni codice. Resortavano qui per un certo cibo a un prezzo interessante che era meglio che andare a venderli alla città di Ullathorpe. Apparentemente c'era una rivolta e il capitano fu ucciso. Ora qualcun altro occupa quella posizione. Per favore, ho bisogno che tu recuperà le mie posate, sembra folle che lo so ... ma erano oro!
-DescFinal=Non ero così pazzo! Hai visto quanto sono preziosi?
-Repetible=0
-RequiredLevel=27
-PosMap=20
-
 [QUEST34]
 Nombre=Uno stelo della mia taglia
 Desc=Che fortuna per vederti! Pensavo che non avrei mai visto qualcuno qui intorno. Non sei un bandito, giusto? Bah, cosa dico. Se eri già ferito. Ho bisogno di materiali per finire di costruire la mia cabina. Saresti in grado di portarmi un po 'di legno?
@@ -2787,20 +2779,6 @@ Desc=Legionario, ho osservato i tuoi sforzi in nome della Legione Oscura. Non tu
 Repetible=1
 RequiredLevel=23
 PosMap=295
-
-[QUEST106]
-Nombre=Un pescatore esperto
-Desc=Quindi mio fratello ti ha mandato, vediamo ... fammi vedere quel bastone! Vedo, è di ottima qualità, ma avrai bisogno di qualcosa di meglio di quello per catturare pesci grandi. Ti offro un trattamento! I fluidi del ragno nero che si trova nel drenaggio della città offrono un'incredibile resistenza alle linee di pesca. Se riesci a prendermi un po ', posso fare una canna fantastica.
-DescFinal=Prendi questo bastone puoi notare la differenza in un tempo molto breve. Ma fai attenzione, catturare pesci grandi non sarà facile.
-Repetible=0
-RequiredLevel=20
-
-[QUEST107]
-Nombre=Reliquie familiari.
-Desc=Vieni, voglio mostrarti qualcosa. Questa canna d'argento è un pezzo unico che è passato di generazione in generazione. Potrei darlo se soddisfi una piccola commissione per me. Qualche giorno fa una delle nostre barche da pesca è stata attaccata dai pirati a sud del deserto. Fortunatamente siamo tutti vivi, ma ho perso reliquie familiari molto importanti per me. Caccia quei dannati pirati, recuperali e sarò in debito con te.
-DescFinal=Sei riuscito! Con questa canna d'argento unica sarai l'invidia di ogni pescatore.
-Repetible=0
-RequiredLevel=23
 
 [QUEST108]
 Nombre=Fishermen's Guild
