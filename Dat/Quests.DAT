@@ -1962,39 +1962,6 @@ fr_Desc=La meilleure arche impériale disponible dans ce monde.
 it_Nombre=Impero Arc
 it_Desc=Il miglior arco imperiale disponibile in questo mondo.
 
-[QUEST84] 'HUERFANA plan 04.001: sin NPC dador; version viva: QUEST327
-Nombre=El viejo Jacobo
-Desc=Esos malditos goblins atacaron mi carreta y se han robado mis anzuelos. ¡Nunca podré entrenar a los novatos sin ellos! Recupéralos para mí y demuéstrale al mundo lo que significa ser un Gran Pescador. Si logras hacerlo, prometo mejorar ese palo viejo que llamas Caña de Pescar con mi fabulosa técnica del viejo Jacobo.
-DescFinal=¡Eso le enseñara a esos malditos goblins a no meterse con el gremio de pescadores, excelente trabajo!
-Repetible=1
-RequiredLevel=14
-PosMap=34
-RequiredOBJs=7
-RequiredObj1=881-1
-RequiredObj2=2089-1805
-RequiredObj3=2101-800
-RequiredObj4=2093-320
-RequiredObj5=3321-20
-RequiredObj6=2152-1
-RequiredObj7=2159-5
-RewardOBJs=1
-RewardObj1=2121-1
-Trabajador=1
-RequiredProfession=18
-en_Nombre=The old Jacobo
-en_Desc=Those damn goblins attacked my cart and stole my hooks. I'll never be able to train newbies without them! Recover them for me and show the world what it means to be a Great Angler. If you can do it, I promise to improve that old stick you call Fishing Rod with my fabulous old Jacobo technique.
-en_DescFinal=That will teach those damn goblins not to mess with the fishing guild, excellent job!
-pt_Nombre=O velho Jacobo
-pt_Desc=Aqueles malditos duendes atacaram meu carrinho e roubaram meus ganchos. Eu nunca posso treinar novatos sem eles! Recupere -os para mim e mostre ao mundo o que significa ser um ótimo pescador. Se você conseguir fazê -lo, prometo melhorar esse bastão antigo que você chama de bengala de pesca com minha fabulosa técnica do velho Jacobo.
-pt_DescFinal=Isso ensinará a esses malditos duendes a não mexer com a guilda dos pescadores, excelente trabalho!
-fr_Nombre=Le vieux Jacobo
-fr_Desc=Ces putain de gobelins ont attaqué ma charrette et ont volé mes crochets. Je ne peux jamais entraîner des recrues sans eux! Récupérez-les pour moi et montrez au monde ce que signifie être un grand pêcheur. Si vous parvenez à le faire, je vous promets d'améliorer ce vieux bâton que vous appelez la canne de pêche avec ma fabuleuse technique de vieux Jacobo.
-fr_DescFinal=Cela apprendra à ces putain de gobelins à ne pas jouer avec la guilde des pêcheurs, excellent travail!
-it_Nombre=Il vecchio Jacobo
-it_Desc=Quei dannati goblin hanno attaccato il mio carrello e mi hanno rubato i ganci. Non posso mai allenare rookie senza di loro! Recuperali per me e mostra al mondo cosa significa essere un grande pescatore. Se riesci a farlo, prometto di migliorare quel vecchio bastone che chiami la canna da pesca con la mia favolosa tecnica del vecchio Jacobo.
-it_DescFinal=Ciò insegnerà a quei dannati folletti a non scherzare con la gilda dei pescatori, ottimo lavoro!
-NoWiki=1
-
 [QUEST85]
 
 [QUEST86]
@@ -2309,7 +2276,7 @@ RequiredLevel=20
 RequiredOBJs=2
 RequiredObj1=2121-1
 RequiredObj2=3324-10
-RequiredQuest=84
+RequiredQuest=327
 RewardOBJs=1
 RewardObj1=2133-1
 Trabajador=1
@@ -3071,39 +3038,6 @@ it_Nombre=Caccia agli osservatori degli occhi
 it_Desc=L'ululato del vento del nord porta con sé una pericolosa minaccia: gli "Eyewardens", creature vigili con occhi come aquile che pattugliano le tane oscure e pericolose tra le montagne. Ti chiedo, coraggioso avventuriero, di avventurarti in questo pericoloso territorio per eliminare 30 di questi implacabili mostri e ottenere 5 piume d'aquila come prova della tua impresa.
 it_DescFinal=Puoi sentirti più vicino al miglioramento, come un vero viaggiatore polare!
 
-[QUEST138] 'HUERFANA plan 04.001: sin NPC dador; version viva: QUEST329
-Nombre=Más allá del Anzuelo
-Desc=¿De verdad crees que una Caña Reforzada basta para enfrentar los ríos traicioneros del Norte? La pesca verdadera requiere precisión, paciencia... y una herramienta digna. Mi tío me enseñó lo esencial, pero yo he llevado sus técnicas un paso más allá. Si quieres una Caña de Pesca de Hierro, necesitaré piezas especiales. Trae esa Caña Reforzada y consigue una Garra del Azhurion. Con esos materiales, te forjaré una caña que no solo pescará, sino que domará al pez más testarudo. ¿Aceptas el desafío?
-DescFinal=¡Listo! Aquí la tienes: la Caña de Pesca de Hierro. Liviana, resistente, y con un carrete que no se atascará ni aunque atrapes una bestia de río. Mi tío Jacobo diría que ‘la pesca es paciencia’, pero yo digo que también es ciencia. Sal ahí fuera y demuéstrale al agua quién manda.
-Repetible=0
-RequiredLevel=20
-PosMap=61
-RequiredOBJs=7
-RequiredObj1=2121-1
-RequiredObj2=2094-2500
-RequiredObj3=2163-1750
-RequiredObj4=2089-1200
-RequiredObj5=2149-35
-RequiredObj6=3316-20
-RequiredObj7=2812-1
-RewardOBJs=1
-RewardObj1=2133-1
-Trabajador=1
-RequiredProfession=18
-en_Nombre=Beyond the Hook
-en_Desc=Do you really think a Reinforced Rod is enough to brave the treacherous rivers of the North? True fishing requires precision, patience... and a worthy tool. My uncle taught me the essentials, but I've taken his techniques a step further. If you want an Iron Fishing Rod, I'll need special parts. Bring that Reinforced Rod and obtain a Claw of the Azhurion. With those materials, I will forge you a rod that will not only catch fish, but tame the most stubborn fish. Do you accept the challenge?
-en_DescFinal=There you have it: the Iron Fishing Rod. Lightweight, durable, and with a reel that won't jam even if you catch a river beast. My uncle Jacobo would say that 'fishing is patience,' but I say it's also science. Go out there and show the water who's boss.
-pt_Nombre=Além do Gancho
-pt_Desc=Você realmente acha que uma vara reforçada é suficiente para enfrentar os rios traiçoeiros do Norte? A pesca de verdade exige precisão, paciência... e uma ferramenta decente. Meu tio me ensinou o essencial, mas eu levei as técnicas dele um passo adiante. Se você quiser uma vara de pescar de ferro, precisarei de peças especiais. Traga essa vara reforçada e obtenha uma Garra do Azhurion. Com esses materiais, forjarei para você uma vara que não só pegará peixes, mas também domará os peixes mais teimosos. Aceita o desafio?
-pt_DescFinal=Aí está: a Vara de Pesca de Ferro. Leve, durável e com um carretel que não emperra, mesmo se você pegar uma fera no rio. Meu tio Jacobo diria que "pescar é paciência", mas eu digo que também é ciência. Vá lá e mostre à água quem manda.
-fr_Nombre=Au-delà du crochet
-fr_Desc=Crois-tu vraiment qu'une canne renforcée suffise à braver les rivières dangereuses du Nord ? La vraie pêche exige précision, patience… et un outil performant. Mon oncle m'a appris l'essentiel, mais j'ai poussé ses techniques encore plus loin. Si tu veux une canne à pêche en fer, il me faut des pièces spéciales. Apporte cette canne renforcée et obtiens une Griffe de l'Azhurion. Avec ces matériaux, je te forgerai une canne qui non seulement attrapera du poisson, mais domptera même les poissons les plus tenaces. Relèveras-tu le défi ?
-fr_DescFinal=Et voilà : la canne à pêche Iron. Légère, robuste et dotée d'un moulinet qui ne se bloque pas, même si vous attrapez une bête de rivière. Mon oncle Jacobo disait que « pêcher, c'est de la patience », mais moi, je dis que c'est aussi une question de science. Lancez-vous et montrez à l'eau qui est le maître.
-it_Nombre=Oltre il gancio
-it_Desc=Pensi davvero che una canna rinforzata sia sufficiente per affrontare i fiumi insidiosi del Nord? La vera pesca richiede precisione, pazienza... e uno strumento degno. Mio zio mi ha insegnato le basi, ma ho portato le sue tecniche a un livello superiore. Se vuoi una canna da pesca in ferro, avrò bisogno di pezzi speciali. Porta quella canna rinforzata e ottieni un artiglio dell'Azhurion. Con quei materiali, forgerò per te una canna che non solo catturerà i pesci, ma domerà anche i pesci più ostinati. Accetti la sfida?
-it_DescFinal=Ecco qua: la canna da pesca Iron. Leggera, resistente e con un mulinello che non si inceppa nemmeno se si cattura una bestia da fiume. Mio zio Jacobo diceva che "la pesca è pazienza", ma io dico che è anche scienza. Vai là fuori e mostra all'acqua chi comanda.
-NoWiki=1
-
 [QUEST139]
 Nombre=Fortaleza invernal
 Desc=Bienvenido a esta Ciudad Nevada! El frio aqui puede matarte, deberas portar siempre un Ropaje Invernal para no sufrir. Si logras traerme 2 Pelajes de Gorila, te obsequiare una de estas vestimentas fundamentales para la zona!
@@ -3806,39 +3740,6 @@ fr_DescFinal=Combien d'os!
 it_Nombre=Guardie del cimitero
 it_Desc=Questi scheletri proteggono il mausoleo di notte, se riesci a terminarli, puoi entrare!
 it_DescFinal=Quante ossa!
-NoWiki=1
-
-[QUEST164]
-Nombre=Un pedido Especial
-Desc=¡Debes ayudarme! El Rey Tancredo estará aquí en la ciudad pronto y el gobernador Conrad me ha encargado un gran banquete para él y sus tropas.. ¡Pero no tengo los suficientes pescadores para poder alimentar a tantos, menos a un Rey! Se que hay un pez especial, el Mero de los Fondos.. es escurridizo y puede dar un poco de trabajo de conseguir, pero deberías poder pescarlo en cualquier lugar. ¡Si logras hacerlo te recompensare, ayúdame por favor!
-DescFinal=¡Haz salvado mi cuello! Estare eternamente agradecido. Si gustas conseguir más peces, habla conmigo nuevamente, siempre habrá soldados hambrientos en Nix.
-LimitLevel=19
-Repetible=1
-RequiredLevel=12
-RewardEXP=9500
-RewardGLD=1450
-PosMap=34
-RequiredOBJs=6
-RequiredObj1=2089-1250
-RequiredObj2=2101-750
-RequiredObj3=2093-425
-RequiredObj4=2155-120
-RequiredObj5=3321-65
-RequiredObj6=2152-1
-Trabajador=1
-RequiredProfession=18
-en_Nombre=A special order
-en_Desc=You must help me! King Tancred will be here in town soon and Governor Conrad has commissioned me to throw a great banquet for him and his troops... But I don't have enough fishermen to feed so many, much less a King! I know there is a special fish, the Bottom Grouper... it is elusive and can be a bit of work to get, but you should be able to catch it anywhere. If you manage to do it I will reward you, please help me!
-en_DescFinal=You saved my neck! I will be eternally grateful. If you like to get more fish, talk to me again, there will always be hungry soldiers in Nix.
-pt_Nombre=Um pedido especial
-pt_Desc=Você deve me ajudar! O rei Tancredo estará aqui na cidade em breve e o governador Conrad me encomendou um grande banquete para ele e suas tropas. Mas não tenho pescadores suficientes para poder alimentar tantos, exceto um rei! Eu sei que há um peixe especial, o mero dos fundos. É ilusório e pode dar um pouco de trabalho para obter, mas você deve poder pescar em qualquer lugar. Se você conseguir fazer isso, vou recompensá -lo, me ajude, por favor!
-pt_DescFinal=Fazer meu pescoço salvo! Ficarei eternamente grato. Se você gosta de obter mais peixes, fale comigo novamente, sempre haverá soldados famintos em Nix.
-fr_Nombre=Une commande spéciale
-fr_Desc=Vous devez m'aider! Le roi Tancredo sera bientôt ici dans la ville et le gouverneur Conrad m'a commandé un grand banquet pour lui et ses troupes. Mais je n'ai pas assez de pêcheurs pour pouvoir en nourrir autant, sauf un roi! Je sais qu'il y a un poisson spécial, le simple des fonds .. est insaisissable et peut donner un peu de travail à obtenir, mais vous devriez pouvoir pêcher n'importe où. Si vous parvenez à le faire, je vous récompenserai, aidez-moi s'il vous plaît!
-fr_DescFinal=Faire sauver mon cou! Je serai éternellement reconnaissant. Si vous aimez obtenir plus de poisson, parlez-moi à nouveau, il y aura toujours des soldats affamés à Nix.
-it_Nombre=Un ordine speciale
-it_Desc=Devi aiutarmi! Il re Tancredo sarà presto qui in città e il governatore Conrad mi ha commissionato un grande banchetto per lui e le sue truppe .. ma non ho abbastanza pescatori per poter nutrire così tanti, tranne un re! So che c'è un pesce speciale, il semplice dei fondi .. è sfuggente e può dare un po 'di lavoro da ottenere, ma dovresti essere in grado di pescare ovunque. Se riesci a farlo, ti ricompenserò, aiutami per favore!
-it_DescFinal=Fai salvare il collo! Sarò eternamente grato. Se ti piace avere più pesci, parlami di nuovo, ci saranno sempre soldati affamati a Nix.
 NoWiki=1
 
 [QUEST165]

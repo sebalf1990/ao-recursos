@@ -2709,14 +2709,6 @@ Desc=The best royal bow available in this world.
 Repetible=0
 RequiredLevel=40
 
-[QUEST84]
-Nombre=The old Jacobo
-Desc=Those damn goblins attacked my cart and stole my hooks. I'll never be able to train newbies without them! Recover them for me and show the world what it means to be a Great Angler. If you can do it, I promise to improve that old stick you call Fishing Rod with my fabulous old Jacobo technique.
-DescFinal=That will teach those damn goblins not to mess with the fishing guild, excellent job!
-Repetible=1
-RequiredLevel=14
-PosMap=34
-
 [QUEST89]
 Nombre=Excess dirt
 Desc=I don't know if you've ever seen the sewers of the city, I wish you didn't have had that luck. But if you need some coins you could know the place. There is a fierce plague of rats that come to pollute the city and take refuge down there, if you want to help the greatness of Banderbill and get some gold, go and kill as many as you can, beware of the people there low, it is the hiding place of the worst kind of bandits.
@@ -2999,14 +2991,6 @@ Repetible=1
 RequiredLevel=29
 PosMap=354
 
-[QUEST138]
-Nombre=Beyond the Hook
-Desc=Do you really think a Reinforced Rod is enough to brave the treacherous rivers of the North? True fishing requires precision, patience... and a worthy tool. My uncle taught me the essentials, but I've taken his techniques a step further. If you want an Iron Fishing Rod, I'll need special parts. Bring that Reinforced Rod and obtain a Claw of the Azhurion. With those materials, I will forge you a rod that will not only catch fish, but tame the most stubborn fish. Do you accept the challenge?
-DescFinal=There you have it: the Iron Fishing Rod. Lightweight, durable, and with a reel that won't jam even if you catch a river beast. My uncle Jacobo would say that 'fishing is patience,' but I say it's also science. Go out there and show the water who's boss.
-Repetible=0
-RequiredLevel=20
-PosMap=61
-
 [QUEST139]
 Nombre=Winter strength
 Desc=Welcome to this Snowy City! The cold here can kill you, you should always wear Winter Clothing to avoid suffering. If you manage to bring me 2 Gorilla Furs, I will give you one of these essential clothes for the area!
@@ -3180,14 +3164,6 @@ DescFinal=How many bones!
 Repetible=0
 RequiredLevel=10
 PosMap=30
-
-[QUEST164]
-Nombre=A special order
-Desc=You must help me! King Tancred will be here in town soon and Governor Conrad has commissioned me to throw a great banquet for him and his troops... But I don't have enough fishermen to feed so many, much less a King! I know there is a special fish, the Bottom Grouper... it is elusive and can be a bit of work to get, but you should be able to catch it anywhere. If you manage to do it I will reward you, please help me!
-DescFinal=You saved my neck! I will be eternally grateful. If you like to get more fish, talk to me again, there will always be hungry soldiers in Nix.
-Repetible=1
-RequiredLevel=12
-PosMap=34
 
 [QUEST165]
 Nombre=Special suit

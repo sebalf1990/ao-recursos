@@ -4104,7 +4104,7 @@ Nivel=8
 DropCount=1
 Drop1=1278-133-1-1
 NumDropQuest=1
-DropQuest1=84-2159-1-3
+DropQuest1=327-2159-1-5
 '[NPC523]
 'Name=Pirata Ladrón
 'en_Name=Thief Pirate
@@ -19932,7 +19932,7 @@ NPCLVL=6
 MagicResistance=15
 MagicDef=0
 NumQuest=1
-QuestNumber1=164
+QuestNumber1=326
 
 [NPC1292]
 Name=Biblioteca <Quest de Cueva de Nagas>

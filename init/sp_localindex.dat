@@ -577,14 +577,6 @@ Desc=El mejor Arco Imperial disponible en este mundo.
 Repetible=0
 RequiredLevel=40
 
-[QUEST84]
-Nombre=El viejo Jacobo
-Desc=Esos malditos goblins atacaron mi carreta y se han robado mis anzuelos. ¡Nunca podré entrenar a los novatos sin ellos! Recupéralos para mí y demuéstrale al mundo lo que significa ser un Gran Pescador. Si logras hacerlo, prometo mejorar ese palo viejo que llamas Caña de Pescar con mi fabulosa técnica del viejo Jacobo.
-DescFinal=¡Eso le enseñara a esos malditos goblins a no meterse con el gremio de pescadores, excelente trabajo!
-Repetible=1
-RequiredLevel=14
-PosMap=34
-
 [QUEST89]
 Nombre=Exceso de suciedad
 Desc=No sé si alguna vez has visto las cloacas de la ciudad, ojalá no hayas corrido esa suerte. Pero si necesitas algunas monedas podrías conocer el lugar. Hay una feroz plaga de ratas que vienen a contaminar la ciudad y se refugian allí abajo, si quieres ayudar a la grandeza de Banderbill y de paso conseguir algo de oro, ve y mata la mayor cantidad que puedas, cuidado con las personas allí debajo, es el escondite de la peor calaña de bandidos.
@@ -867,14 +859,6 @@ Repetible=1
 RequiredLevel=29
 PosMap=354
 
-[QUEST138]
-Nombre=Más allá del Anzuelo
-Desc=¿De verdad crees que una Caña Reforzada basta para enfrentar los ríos traicioneros del Norte? La pesca verdadera requiere precisión, paciencia... y una herramienta digna. Mi tío me enseñó lo esencial, pero yo he llevado sus técnicas un paso más allá. Si quieres una Caña de Pesca de Hierro, necesitaré piezas especiales. Trae esa Caña Reforzada y consigue una Garra del Azhurion. Con esos materiales, te forjaré una caña que no solo pescará, sino que domará al pez más testarudo. ¿Aceptas el desafío?
-DescFinal=¡Listo! Aquí la tienes: la Caña de Pesca de Hierro. Liviana, resistente, y con un carrete que no se atascará ni aunque atrapes una bestia de río. Mi tío Jacobo diría que ‘la pesca es paciencia’, pero yo digo que también es ciencia. Sal ahí fuera y demuéstrale al agua quién manda.
-Repetible=0
-RequiredLevel=20
-PosMap=61
-
 [QUEST139]
 Nombre=Fortaleza invernal
 Desc=Bienvenido a esta Ciudad Nevada! El frio aqui puede matarte, deberas portar siempre un Ropaje Invernal para no sufrir. Si logras traerme 2 Pelajes de Gorila, te obsequiare una de estas vestimentas fundamentales para la zona!
@@ -1048,14 +1032,6 @@ DescFinal=¡Cuantos huesos!
 Repetible=0
 RequiredLevel=10
 PosMap=30
-
-[QUEST164]
-Nombre=Un pedido Especial
-Desc=¡Debes ayudarme! El Rey Tancredo estará aquí en la ciudad pronto y el gobernador Conrad me ha encargado un gran banquete para él y sus tropas.. ¡Pero no tengo los suficientes pescadores para poder alimentar a tantos, menos a un Rey! Se que hay un pez especial, el Mero de los Fondos.. es escurridizo y puede dar un poco de trabajo de conseguir, pero deberías poder pescarlo en cualquier lugar. ¡Si logras hacerlo te recompensare, ayúdame por favor!
-DescFinal=¡Haz salvado mi cuello! Estare eternamente agradecido. Si gustas conseguir más peces, habla conmigo nuevamente, siempre habrá soldados hambrientos en Nix.
-Repetible=1
-RequiredLevel=12
-PosMap=34
 
 [QUEST165]
 Nombre=Traje Especial

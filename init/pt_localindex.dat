@@ -2709,14 +2709,6 @@ Desc=O melhor arco imperial disponível neste mundo.
 Repetible=0
 RequiredLevel=40
 
-[QUEST84]
-Nombre=O velho Jacobo
-Desc=Aqueles malditos duendes atacaram meu carrinho e roubaram meus ganchos. Eu nunca posso treinar novatos sem eles! Recupere -os para mim e mostre ao mundo o que significa ser um ótimo pescador. Se você conseguir fazê -lo, prometo melhorar esse bastão antigo que você chama de bengala de pesca com minha fabulosa técnica do velho Jacobo.
-DescFinal=Isso ensinará a esses malditos duendes a não mexer com a guilda dos pescadores, excelente trabalho!
-Repetible=1
-RequiredLevel=14
-PosMap=34
-
 [QUEST89]
 Nombre=Excesso de sujeira
 Desc=Não sei se você já viu os esgotos da cidade, espero que você não tenha executado essa sorte. Mas se você precisar de algumas moedas, poderá conhecer o lugar. Há uma praga feroz de ratos que passam a contaminar a cidade e se refugiar lá, se você quiser ajudar a grandeza de Banderbill e obter um pouco de ouro, vá e mate a maior quantidade que puder, tenha cuidado com as pessoas sob ele, é o esconderijo da vaca com as maiores bandas.
@@ -2999,14 +2991,6 @@ Repetible=1
 RequiredLevel=29
 PosMap=354
 
-[QUEST138]
-Nombre=Além do Gancho
-Desc=Você realmente acha que uma vara reforçada é suficiente para enfrentar os rios traiçoeiros do Norte? A pesca de verdade exige precisão, paciência... e uma ferramenta decente. Meu tio me ensinou o essencial, mas eu levei as técnicas dele um passo adiante. Se você quiser uma vara de pescar de ferro, precisarei de peças especiais. Traga essa vara reforçada e obtenha uma Garra do Azhurion. Com esses materiais, forjarei para você uma vara que não só pegará peixes, mas também domará os peixes mais teimosos. Aceita o desafio?
-DescFinal=Aí está: a Vara de Pesca de Ferro. Leve, durável e com um carretel que não emperra, mesmo se você pegar uma fera no rio. Meu tio Jacobo diria que "pescar é paciência", mas eu digo que também é ciência. Vá lá e mostre à água quem manda.
-Repetible=0
-RequiredLevel=20
-PosMap=61
-
 [QUEST139]
 Nombre=Força de inverno
 Desc=Bem -vindo a esta cidade nevada! O frio aqui pode matá -lo, você deve sempre carregar uma roupa de inverno para não sofrer. Se você conseguir me trazer 2 peles de gorila, darei uma dessas roupas fundamentais para a área!
@@ -3180,14 +3164,6 @@ DescFinal=Quantos ossos!
 Repetible=0
 RequiredLevel=10
 PosMap=30
-
-[QUEST164]
-Nombre=Um pedido especial
-Desc=Você deve me ajudar! O rei Tancredo estará aqui na cidade em breve e o governador Conrad me encomendou um grande banquete para ele e suas tropas. Mas não tenho pescadores suficientes para poder alimentar tantos, exceto um rei! Eu sei que há um peixe especial, o mero dos fundos. É ilusório e pode dar um pouco de trabalho para obter, mas você deve poder pescar em qualquer lugar. Se você conseguir fazer isso, vou recompensá -lo, me ajude, por favor!
-DescFinal=Fazer meu pescoço salvo! Ficarei eternamente grato. Se você gosta de obter mais peixes, fale comigo novamente, sempre haverá soldados famintos em Nix.
-Repetible=1
-RequiredLevel=12
-PosMap=34
 
 [QUEST165]
 Nombre=Traje especial
