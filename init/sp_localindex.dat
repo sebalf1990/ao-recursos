@@ -232,6 +232,14 @@ Repetible=0
 RequiredLevel=18
 PosMap=76
 
+[QUEST33]
+Nombre=Robos de Ultramar
+Desc=Me han despojado de todo, tenía una especie de trato con los piratas que frecuentan estas costas pero rompieron todo código. Solían reabastecerse aquí de ciertos víveres a un precio interesante que me resultaba mejor que ir a venderlos a la ciudad de Ullathorpe. Al parecer se produjo un motín y el capitán fue asesinado. Ahora alguien más ocupa ese puesto. Por favor necesito que recuperes mis cubiertos, suena loco lo sé... ¡Pero eran de oro!
+DescFinal=¡No estaba tan loco! ¿Has visto lo preciosos que son?
+Repetible=0
+RequiredLevel=27
+PosMap=20
+
 [QUEST34]
 Nombre=Un tallo de mi talle
 Desc=¡Qué fortuna verte! Pensé que jamás vería a alguien por aquí. ¿No eres un bandido, cierto? Bah, qué digo. Si lo fueses ya estaría herido. Necesito materiales para terminar de construir mi cabaña. ¿Serías capaz de traerme algo de madera?
