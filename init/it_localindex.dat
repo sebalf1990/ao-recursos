@@ -2364,14 +2364,6 @@ Repetible=0
 RequiredLevel=18
 PosMap=76
 
-[QUEST33]
-Nombre=Rapine all'estero
-Desc=Mi hanno spogliato di tutto, ho avuto una specie di accordo con i pirati che frequentano queste coste ma hanno rotto ogni codice. Resortavano qui per un certo cibo a un prezzo interessante che era meglio che andare a venderli alla città di Ullathorpe. Apparentemente c'era una rivolta e il capitano fu ucciso. Ora qualcun altro occupa quella posizione. Per favore, ho bisogno che tu recuperà le mie posate, sembra folle che lo so ... ma erano oro!
-DescFinal=Non ero così pazzo! Hai visto quanto sono preziosi?
-Repetible=0
-RequiredLevel=27
-PosMap=20
-
 [QUEST34]
 Nombre=Uno stelo della mia taglia
 Desc=Che fortuna per vederti! Pensavo che non avrei mai visto qualcuno qui intorno. Non sei un bandito, giusto? Bah, cosa dico. Se eri già ferito. Ho bisogno di materiali per finire di costruire la mia cabina. Saresti in grado di portarmi un po 'di legno?

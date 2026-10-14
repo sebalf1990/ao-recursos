@@ -2364,14 +2364,6 @@ Repetible=0
 RequiredLevel=18
 PosMap=76
 
-[QUEST33]
-Nombre=Vols à l'étranger
-Desc=Ils m'ont dépouillé de tout, j'avais une sorte de problème avec les pirates qui fréquentent ces côtes mais ont brisé chaque code. Ils avaient l'habitude de recourir ici pour certains aliments à un prix intéressant qui était mieux que d'aller les vendre à la ville d'Ullathorpe. Apparemment, il y avait une émeute et le capitaine a été tué. Maintenant, quelqu'un d'autre occupe cette position. S'il vous plaît, j'ai besoin que vous récupériez mes couverts, ça semble fou, je sais ... mais ils étaient or!
-DescFinal=Je n'étais pas si fou! Avez-vous vu à quel point ils sont précieux?
-Repetible=0
-RequiredLevel=27
-PosMap=20
-
 [QUEST34]
 Nombre=Une tige de ma taille
 Desc=Quelle fortune pour vous voir! Je pensais que je ne verrais jamais quelqu'un ici. N'êtes-vous pas un bandit, non? Bah, que dis-je. Si vous étiez déjà blessé. J'ai besoin de matériaux pour terminer la construction de ma cabine. Pourriez-vous m'apporter du bois?

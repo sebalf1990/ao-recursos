@@ -3305,8 +3305,7 @@ en_desc=I'll take out the other eye!
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=1
-QuestNumber1=33
+NumQuest=0
 
 [NPC425]
 Name=Ulises <Quest>
@@ -4274,8 +4273,7 @@ Alineacion=0
 Nivel=28
 PoderAtaque=140
 PoderEvasion=130
-NumDropQuest=1
-DropQuest1=33-2655-1-25
+NumDropQuest=0
 '[NPC526]
 'Name=Filibustero Viejo
 'en_Name=Old Filibuster
@@ -4335,8 +4333,7 @@ Alineacion=0
 Nivel=28
 PoderAtaque=145
 PoderEvasion=125
-NumDropQuest=1
-DropQuest1=33-2655-1-15
+NumDropQuest=0
 '[NPC527]
 'Name=Huargo Invernal
 'en_Name=Snow Direwolf
@@ -22839,8 +22836,7 @@ MagicDef=10
 NpcType=0
 GiveEXPClan=1
 Nivel=28
-NumDropQuest=1
-DropQuest1=33-2655-1-25
+NumDropQuest=0
 
 [NPC1386]
 Name=Organizador de eventos
