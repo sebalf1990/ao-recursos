@@ -79366,6 +79366,7 @@ Instransferible=1
 Intirable=1
 MinELV=10
 NoseCae=1
+JineteLevel=1
 
 [OBJ5067] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Jinete de Nivel 2
@@ -79386,6 +79387,7 @@ Instransferible=1
 Intirable=1
 MinELV=15
 NoseCae=1
+JineteLevel=2
 
 [OBJ5068] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Jinete de Nivel 3
@@ -79398,6 +79400,7 @@ Instransferible=1
 Intirable=1
 MinELV=20
 NoseCae=1
+JineteLevel=3
 
 [OBJ5069] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Jinete de Nivel 4
@@ -79410,6 +79413,7 @@ Instransferible=1
 Intirable=1
 MinELV=25
 NoseCae=1
+JineteLevel=4
 
 [OBJ5070] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Jinete de Nivel 5
@@ -79422,6 +79426,7 @@ Instransferible=1
 Intirable=1
 MinELV=30
 NoseCae=1
+JineteLevel=5
 
 [OBJ5071] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Jinete de Nivel 6
@@ -79434,6 +79439,7 @@ Instransferible=1
 Intirable=1
 MinELV=35
 NoseCae=1
+JineteLevel=6
 
 [OBJ5072] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Jinete de Nivel 7
@@ -79445,6 +79451,7 @@ Instransferible=1
 Intirable=1
 MinELV=40
 NoseCae=1
+JineteLevel=7
 
 [OBJ5073] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Jinete de Nivel 8
@@ -79456,6 +79463,7 @@ Instransferible=1
 Intirable=1
 MinELV=45
 NoseCae=1
+JineteLevel=8
 
 [OBJ5074] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Jinete de Nivel 9
@@ -79467,6 +79475,7 @@ Instransferible=1
 Intirable=1
 MinELV=47
 NoseCae=1
+JineteLevel=9
 
 [OBJ5075] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Colmillo de Lobo
