@@ -6199,11 +6199,9 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 '--- COPIA PRIVADA ORIGINAL NPC575 (Azhran) antes de oficializar; cliente oficial era Gorath ---
-NumQuest=4
+NumQuest=2
 QuestNumber1=169
-QuestNumber2=321
-QuestNumber3=156
-QuestNumber4=414
+QuestNumber2=414
 '[NPC575]
 'Name=Azhran
 'ShowName=1
@@ -13836,6 +13834,9 @@ NpcType=17
 ShowName=1
 Heading=3
 Movement=1
+NumQuest=2
+QuestNumber1=321
+QuestNumber2=156
 
 [NPC1076] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Martzia <Sastre Exótico>, mudado a NPC9061. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC646 del oficial, vida mas parecida: SUPUESTO; sin drops
 Name=Isolda
