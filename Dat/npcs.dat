@@ -2307,9 +2307,9 @@ BodyIdle=5016
 NpcType=0
 Heading=3
 ShowName=1
-Movement=1
-Attackable=0
-Hostile=0
+Movement=2
+Attackable=1
+Hostile=1
 ReSpawn=0
 Ataque1=5017
 MinHp=1000
@@ -2320,6 +2320,8 @@ MaxHIT=75
 MinHIT=60
 NumDropQuest=1
 DropQuest1=30-405-1-5
+PoderAtaque=200
+PoderEvasion=130
 [NPC268] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Guardian de la Montaña
 Desc=¡No permito criaturas en esta zona!
@@ -3998,6 +4000,14 @@ DropCount=3
 Drop1=1800-120-1-1
 Drop2=5996-1-1-1
 Drop3=5996-20-1-10
+Heading=3
+Movement=2
+Attackable=1
+Hostile=0
+LanzaSpells=1
+Sp1=43
+PoderAtaque=25
+PoderEvasion=35
 
 [NPC518] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Grunak
@@ -8039,6 +8049,15 @@ en_Name=Dark Rat
 fr_Name=Rat noir
 it_Name=Ratto nero
 pt_Name=Rato preto
+Heading=3
+Movement=2
+Attackable=1
+Hostile=1
+IntervaloRespawn=86400
+IntervaloRespawnMin=84600
+PoderAtaque=45
+PoderEvasion=10
+OrigPos=1
 
 [NPC651]
 Name=Jerome <Vendedor de personajes>
@@ -9325,9 +9344,9 @@ BodyIdle=5161
 NpcType=0
 Heading=3
 ShowName=1
-Movement=1
-Attackable=0
-Hostile=0
+Movement=2
+Attackable=1
+Hostile=1
 ReSpawn=0
 Ataque1=5162
 MinHp=400
@@ -9338,6 +9357,11 @@ MaxHIT=20
 MinHIT=5
 DropCount=1
 Drop1=4981-100-1-1
+IntervaloRespawn=86400
+IntervaloRespawnMin=84600
+PoderAtaque=80
+PoderEvasion=20
+OrigPos=1
 
 [NPC693] Penthar
 Name=Sacerdote Penthar
