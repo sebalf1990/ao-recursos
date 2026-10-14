@@ -2709,14 +2709,6 @@ Desc=Il miglior arco imperiale disponibile in questo mondo.
 Repetible=0
 RequiredLevel=40
 
-[QUEST84]
-Nombre=Il vecchio Jacobo
-Desc=Quei dannati goblin hanno attaccato il mio carrello e mi hanno rubato i ganci. Non posso mai allenare rookie senza di loro! Recuperali per me e mostra al mondo cosa significa essere un grande pescatore. Se riesci a farlo, prometto di migliorare quel vecchio bastone che chiami la canna da pesca con la mia favolosa tecnica del vecchio Jacobo.
-DescFinal=Ciò insegnerà a quei dannati folletti a non scherzare con la gilda dei pescatori, ottimo lavoro!
-Repetible=1
-RequiredLevel=14
-PosMap=34
-
 [QUEST89]
 Nombre=Eccesso sporco
 Desc=Non so se tu abbia mai visto le fogne della città, spero che non abbiate fatto la fortuna. Ma se hai bisogno di alcune monete potresti conoscere il posto. C'è una feroce piaga di topi che arrivano a contaminare la città e rifugiarsi laggiù, se vuoi aiutare la grandezza di Banderbill e ottenere un po 'd'oro, andare e uccidere la più grande quantità che puoi, fare attenzione con le persone sotto di essa, è il luogo del nascondiglio della peggior mucca a fascia.
@@ -2999,14 +2991,6 @@ Repetible=1
 RequiredLevel=29
 PosMap=354
 
-[QUEST138]
-Nombre=Oltre il gancio
-Desc=Pensi davvero che una canna rinforzata sia sufficiente per affrontare i fiumi insidiosi del Nord? La vera pesca richiede precisione, pazienza... e uno strumento degno. Mio zio mi ha insegnato le basi, ma ho portato le sue tecniche a un livello superiore. Se vuoi una canna da pesca in ferro, avrò bisogno di pezzi speciali. Porta quella canna rinforzata e ottieni un artiglio dell'Azhurion. Con quei materiali, forgerò per te una canna che non solo catturerà i pesci, ma domerà anche i pesci più ostinati. Accetti la sfida?
-DescFinal=Ecco qua: la canna da pesca Iron. Leggera, resistente e con un mulinello che non si inceppa nemmeno se si cattura una bestia da fiume. Mio zio Jacobo diceva che "la pesca è pazienza", ma io dico che è anche scienza. Vai là fuori e mostra all'acqua chi comanda.
-Repetible=0
-RequiredLevel=20
-PosMap=61
-
 [QUEST139]
 Nombre=Forza invernale
 Desc=Benvenuti in questa città nevosa! Il freddo qui può ucciderti, devi sempre portare un abbigliamento invernale per non soffrire. Se riesci a portarmi 2 pellicce gorilla, ti darò uno di questi abiti fondamentali per la zona!
@@ -3180,14 +3164,6 @@ DescFinal=Quante ossa!
 Repetible=0
 RequiredLevel=10
 PosMap=30
-
-[QUEST164]
-Nombre=Un ordine speciale
-Desc=Devi aiutarmi! Il re Tancredo sarà presto qui in città e il governatore Conrad mi ha commissionato un grande banchetto per lui e le sue truppe .. ma non ho abbastanza pescatori per poter nutrire così tanti, tranne un re! So che c'è un pesce speciale, il semplice dei fondi .. è sfuggente e può dare un po 'di lavoro da ottenere, ma dovresti essere in grado di pescare ovunque. Se riesci a farlo, ti ricompenserò, aiutami per favore!
-DescFinal=Fai salvare il collo! Sarò eternamente grato. Se ti piace avere più pesci, parlami di nuovo, ci saranno sempre soldati affamati a Nix.
-Repetible=1
-RequiredLevel=12
-PosMap=34
 
 [QUEST165]
 Nombre=Abito speciale
