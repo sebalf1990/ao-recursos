@@ -2788,6 +2788,20 @@ Repetible=1
 RequiredLevel=23
 PosMap=295
 
+[QUEST106]
+Nombre=Un pêcheur expert
+Desc=Alors mon frère vous a envoyé, voyons ... laissez-moi voir cette canne! Je vois, c'est de très bonne qualité, mais vous aurez besoin de quelque chose de mieux que cela pour attraper de gros poissons. Je vous offre un traitement! Les fluides de l'araignée noire qui se trouve dans le drainage de la ville offre une résistance incroyable aux lignes de pêche. Si vous pouvez me procurer un peu, je peux faire une grande canne.
+DescFinal=Prenez cette canne, vous pouvez remarquer la différence en très peu de temps. Mais soyez prudent, attraper de gros poissons ne sera pas facile.
+Repetible=0
+RequiredLevel=20
+
+[QUEST107]
+Nombre=Reliques familiales.
+Desc=Viens, je veux te montrer quelque chose. Cette canne en argent est une pièce unique qui est passée de génération en génération. Je pourrais le donner si vous réalisez une petite commission pour moi. Il y a quelques jours, l'un de nos bateaux de pêche a été attaqué par des pirates au sud du désert. Heureusement, nous sommes tous en vie, mais j'ai perdu des reliques familiales très importantes pour moi. Chassez ces pirates, récupérez-les et je serai endetté avec vous.
+DescFinal=Vous avez réussi! Avec cette canne en argent unique, vous aurez l'envie de chaque pêcheur.
+Repetible=0
+RequiredLevel=23
+
 [QUEST108]
 Nombre=Guilde des pêcheurs
 Desc=Je vois, vous voulez faire partie de la guilde de nos pêcheurs. Vous aurez besoin de quelque chose de mieux que ce réseau cassé pour cela. Si vous voulez, je peux l'améliorer pour vous, bien que je vous avertisse que cela vous coûtera beaucoup d'argent.

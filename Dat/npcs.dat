@@ -6066,7 +6066,8 @@ MagicResistance=55
 MagicDef=5
 Head=26
 NpcType=0
-NumDropQuest=0
+NumDropQuest=1
+DropQuest1=107-3323-1-1
 
 [NPC571] 'RESYNC desde sp_localindex.dat (mapa34 collision fix)
 Name=Delvina <Quest de Zombies>
@@ -6603,7 +6604,8 @@ MagicDef=10
 GiveEXPClan=1
 Head=32
 NpcType=0
-NumDropQuest=0
+NumDropQuest=1
+DropQuest1=107-3322-1-1
 
 [NPC589] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=5488
@@ -7044,7 +7046,8 @@ MagicDef=0
 Ataque1=5257
 NpcType=0
 Nivel=20
-NumDropQuest=0
+NumDropQuest=1
+DropQuest1=106-3324-1-1
 
 [NPC606] 'Araña Veneno a distancia
 Name=Araña Roja
@@ -9498,7 +9501,9 @@ en_desc=I see, my brother Jacobo has always had a good eye to recognize great fi
 NPCLVL=1
 MagicResistance=3
 MagicDef=0
-NumQuest=0
+NumQuest=2
+QuestNumber1=106
+QuestNumber2=107
 
 [NPC700] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Rata
