@@ -2364,6 +2364,14 @@ Repetible=0
 RequiredLevel=18
 PosMap=76
 
+[QUEST33]
+Nombre=Vols à l'étranger
+Desc=Ils m'ont dépouillé de tout, j'avais une sorte de problème avec les pirates qui fréquentent ces côtes mais ont brisé chaque code. Ils avaient l'habitude de recourir ici pour certains aliments à un prix intéressant qui était mieux que d'aller les vendre à la ville d'Ullathorpe. Apparemment, il y avait une émeute et le capitaine a été tué. Maintenant, quelqu'un d'autre occupe cette position. S'il vous plaît, j'ai besoin que vous récupériez mes couverts, ça semble fou, je sais ... mais ils étaient or!
+DescFinal=Je n'étais pas si fou! Avez-vous vu à quel point ils sont précieux?
+Repetible=0
+RequiredLevel=27
+PosMap=20
+
 [QUEST34]
 Nombre=Une tige de ma taille
 Desc=Quelle fortune pour vous voir! Je pensais que je ne verrais jamais quelqu'un ici. N'êtes-vous pas un bandit, non? Bah, que dis-je. Si vous étiez déjà blessé. J'ai besoin de matériaux pour terminer la construction de ma cabine. Pourriez-vous m'apporter du bois?
@@ -2779,6 +2787,20 @@ Desc=Légionnaire, j'ai observé vos efforts au nom de la Légion Noire. Tous ne
 Repetible=1
 RequiredLevel=23
 PosMap=295
+
+[QUEST106]
+Nombre=Un pêcheur expert
+Desc=Alors mon frère vous a envoyé, voyons ... laissez-moi voir cette canne! Je vois, c'est de très bonne qualité, mais vous aurez besoin de quelque chose de mieux que cela pour attraper de gros poissons. Je vous offre un traitement! Les fluides de l'araignée noire qui se trouve dans le drainage de la ville offre une résistance incroyable aux lignes de pêche. Si vous pouvez me procurer un peu, je peux faire une grande canne.
+DescFinal=Prenez cette canne, vous pouvez remarquer la différence en très peu de temps. Mais soyez prudent, attraper de gros poissons ne sera pas facile.
+Repetible=0
+RequiredLevel=20
+
+[QUEST107]
+Nombre=Reliques familiales.
+Desc=Viens, je veux te montrer quelque chose. Cette canne en argent est une pièce unique qui est passée de génération en génération. Je pourrais le donner si vous réalisez une petite commission pour moi. Il y a quelques jours, l'un de nos bateaux de pêche a été attaqué par des pirates au sud du désert. Heureusement, nous sommes tous en vie, mais j'ai perdu des reliques familiales très importantes pour moi. Chassez ces pirates, récupérez-les et je serai endetté avec vous.
+DescFinal=Vous avez réussi! Avec cette canne en argent unique, vous aurez l'envie de chaque pêcheur.
+Repetible=0
+RequiredLevel=23
 
 [QUEST108]
 Nombre=Guilde des pêcheurs

@@ -2364,6 +2364,14 @@ Repetible=0
 RequiredLevel=18
 PosMap=76
 
+[QUEST33]
+Nombre=Assaltos ao exterior
+Desc=Eles me despojaram de tudo, eu tinha um tipo de acordo com piratas que frequentam essas costas, mas quebraram todos os códigos. Eles costumavam recorrer aqui para certos alimentos a um preço interessante que era melhor do que vendê -los para a cidade de Ullathorpe. Aparentemente, havia um tumulto e o capitão foi morto. Agora outra pessoa ocupa essa posição. Por favor, eu preciso que você recupere meus talheres, parece loucura, eu sei ... mas eles eram ouro!
+DescFinal=Eu não estava tão louco! Você já viu o quão precioso eles são?
+Repetible=0
+RequiredLevel=27
+PosMap=20
+
 [QUEST34]
 Nombre=Um caule do meu tamanho
 Desc=Que fortuna te ver! Eu pensei que nunca veria alguém por aqui. Você não é um bandido, certo? Bah, o que eu digo. Se você já esteve ferido. Preciso de materiais para terminar a construção da minha cabine. Você seria capaz de me trazer um pouco de madeira?
@@ -2779,6 +2787,20 @@ Desc=Legionário, observei seus esforços em nome da Legião Negra. Nem todos po
 Repetible=1
 RequiredLevel=23
 PosMap=295
+
+[QUEST106]
+Nombre=Um pescador especialista
+Desc=Então meu irmão lhe enviou, vamos ver ... deixe -me ver aquela bengala! Entendo, é de muito boa qualidade, mas você precisará de algo melhor do que isso para pegar peixes grandes. Eu te ofereço um tratamento! Os fluidos da aranha preta que estão na drenagem da cidade fornecem uma resistência incrível às linhas de pesca. Se você pode me pegar um pouco, posso fazer uma ótima bengala.
+DescFinal=Pegue esta bengala, você pode notar a diferença em um tempo muito curto. Mas tenha cuidado, pegar peixes grandes não será fácil.
+Repetible=0
+RequiredLevel=20
+
+[QUEST107]
+Nombre=Relíquias familiares.
+Desc=Venha, eu quero te mostrar uma coisa. Esta bengala de prata é uma peça única que passou de geração em geração. Eu poderia dar se você cumprir uma pequena comissão para mim. Alguns dias atrás, um de nossos barcos de pesca foi atacado por piratas ao sul do deserto. Felizmente, estamos todos vivos, mas perdi relíquias familiares muito importantes para mim. Caça esses malditos piratas, recupere -os e eu ficarei endividado com você.
+DescFinal=Você conseguiu! Com esta cana de prata única, você será a inveja de todo pescador.
+Repetible=0
+RequiredLevel=23
 
 [QUEST108]
 Nombre=Guilda dos pescadores
