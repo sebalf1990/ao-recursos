@@ -6202,10 +6202,11 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 '--- COPIA PRIVADA ORIGINAL NPC575 (Azhran) antes de oficializar; cliente oficial era Gorath ---
-NumQuest=3
+NumQuest=4
 QuestNumber1=169
 QuestNumber2=321
 QuestNumber3=156
+QuestNumber4=414
 '[NPC575]
 'Name=Azhran
 'ShowName=1
