@@ -656,20 +656,6 @@ Repetible=1
 RequiredLevel=23
 PosMap=295
 
-[QUEST106]
-Nombre=Un Experto Pescador
-Desc=Asi que te ha enviado mi hermano, veamos..., déjame ver esa caña!, Ya veo, es de muy buena calidad, pero necesitarás algo mejor que eso para atrapar peces de gran porte. Te ofrezco un trato!, los fluidos de la araña negra que se encuentra en el drenaje de la ciudad proporciona una increíble resistencia a las líneas de pesca. Si puedes conseguirme un poco creo que podré confeccionarte una gran caña.
-DescFinal=Toma esta caña podrás notar la diferencia en muy poco tiempo. Pero ten cuidado, atrapar peces de gran  porte no será nada fácil.
-Repetible=0
-RequiredLevel=20
-
-[QUEST107]
-Nombre=Reliquias familiares.
-Desc=Ven, quiero enseñarte algo. Esta caña de plata es una pieza única que ha pasado de generación en generación. Podría obsequiartela si cumples un pequeño encargo para mí. Hace unos días uno de nuestros barcos pesqueros fue atacado por piratas al sur del desierto. Afortunadamente todos estamos con vida, pero he perdido unas reliquias familiares muy importantes para mi. Caza a esos malditos piratas, recuperarlas y estaré en deuda contigo.
-DescFinal=¡Lo has logrado! Con esta caña única de plata serás la envidia de todo pescador.
-Repetible=0
-RequiredLevel=23
-
 [QUEST108]
 Nombre=Gremio de Pescadores
 Desc=Ya veo, deseas ser parte de nuestro gremio de pescadores. Necesitarás algo mejor que esa red rotosa para ello. Si quieres puedo mejorarla para ti aunque te advierto que te costará mucho dinero.
