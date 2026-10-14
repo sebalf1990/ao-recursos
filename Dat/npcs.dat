@@ -25390,13 +25390,16 @@ Hostile=0
 ReSpawn=0
 ShowName=1
 DisabledInBattleServer=1
-NumQuest=6
+NumQuest=9
 QuestNumber1=256
 QuestNumber2=257
 QuestNumber3=258
 QuestNumber4=259
 QuestNumber5=260
 QuestNumber6=261
+QuestNumber7=262
+QuestNumber8=263
+QuestNumber9=264
 [NPC1068] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Reiz Ez <Quest de Piramide>
 Desc=Llevo horas perdido aqui adentro..
