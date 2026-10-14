@@ -714,37 +714,6 @@ it_Desc=Il liche è una specie di non cotto, il risultato della trasformazione i
 it_DescFinal=Sei sorprendente! Le voci sul tuo coraggio erano vere.
 NoWiki=1
 
-[QUEST33]
-Nombre=Robos de Ultramar
-Desc=Me han despojado de todo, tenía una especie de trato con los piratas que frecuentan estas costas pero rompieron todo código. Solían reabastecerse aquí de ciertos víveres a un precio interesante que me resultaba mejor que ir a venderlos a la ciudad de Ullathorpe. Al parecer se produjo un motín y el capitán fue asesinado. Ahora alguien más ocupa ese puesto. Por favor necesito que recuperes mis cubiertos, suena loco lo sé... ¡Pero eran de oro!
-DescFinal=¡No estaba tan loco! ¿Has visto lo preciosos que son?
-Repetible=0
-RequiredLevel=27
-RequiredNPCs=3
-RequiredNpc1=525-5
-RequiredNpc2=1385-4
-RequiredNpc3=526-2
-RewardEXP=0
-RewardGLD=90
-PosMap=20
-RequiredOBJs=1
-RequiredObj1=2655-1
-DescAudio=1088
-DescFinalAudio=1089
-en_Nombre=Overseas robberies
-en_Desc=I have been stripped of everything, I had a kind of deal with the pirates who frequent these coasts but they broke all the code. They used to refuel here with certain groceries at an interesting price that I found better than going to sell them in the city of Ullathorpe. Apparently a riot ensued and the captain was killed. Now someone else occupies that position. Please I need you to retrieve my cutlery, it sounds crazy I know... But they were gold!
-en_DescFinal=I wasn't so crazy! Have you seen how precious they are?
-pt_Nombre=Assaltos ao exterior
-pt_Desc=Eles me despojaram de tudo, eu tinha um tipo de acordo com piratas que frequentam essas costas, mas quebraram todos os códigos. Eles costumavam recorrer aqui para certos alimentos a um preço interessante que era melhor do que vendê -los para a cidade de Ullathorpe. Aparentemente, havia um tumulto e o capitão foi morto. Agora outra pessoa ocupa essa posição. Por favor, eu preciso que você recupere meus talheres, parece loucura, eu sei ... mas eles eram ouro!
-pt_DescFinal=Eu não estava tão louco! Você já viu o quão precioso eles são?
-fr_Nombre=Vols à l'étranger
-fr_Desc=Ils m'ont dépouillé de tout, j'avais une sorte de problème avec les pirates qui fréquentent ces côtes mais ont brisé chaque code. Ils avaient l'habitude de recourir ici pour certains aliments à un prix intéressant qui était mieux que d'aller les vendre à la ville d'Ullathorpe. Apparemment, il y avait une émeute et le capitaine a été tué. Maintenant, quelqu'un d'autre occupe cette position. S'il vous plaît, j'ai besoin que vous récupériez mes couverts, ça semble fou, je sais ... mais ils étaient or!
-fr_DescFinal=Je n'étais pas si fou! Avez-vous vu à quel point ils sont précieux?
-it_Nombre=Rapine all'estero
-it_Desc=Mi hanno spogliato di tutto, ho avuto una specie di accordo con i pirati che frequentano queste coste ma hanno rotto ogni codice. Resortavano qui per un certo cibo a un prezzo interessante che era meglio che andare a venderli alla città di Ullathorpe. Apparentemente c'era una rivolta e il capitano fu ucciso. Ora qualcun altro occupa quella posizione. Per favore, ho bisogno che tu recuperà le mie posate, sembra folle che lo so ... ma erano oro!
-it_DescFinal=Non ero così pazzo! Hai visto quanto sono preziosi?
-NoWiki=1
-
 [QUEST34]
 Nombre=Un tallo de mi talle
 Desc=¡Qué fortuna verte! Pensé que jamás vería a alguien por aquí. ¿No eres un bandido, cierto? Bah, qué digo. Si lo fueses ya estaría herido. Necesito materiales para terminar de construir mi cabaña. ¿Serías capaz de traerme algo de madera?

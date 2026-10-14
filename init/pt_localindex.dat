@@ -2364,14 +2364,6 @@ Repetible=0
 RequiredLevel=18
 PosMap=76
 
-[QUEST33]
-Nombre=Assaltos ao exterior
-Desc=Eles me despojaram de tudo, eu tinha um tipo de acordo com piratas que frequentam essas costas, mas quebraram todos os códigos. Eles costumavam recorrer aqui para certos alimentos a um preço interessante que era melhor do que vendê -los para a cidade de Ullathorpe. Aparentemente, havia um tumulto e o capitão foi morto. Agora outra pessoa ocupa essa posição. Por favor, eu preciso que você recupere meus talheres, parece loucura, eu sei ... mas eles eram ouro!
-DescFinal=Eu não estava tão louco! Você já viu o quão precioso eles são?
-Repetible=0
-RequiredLevel=27
-PosMap=20
-
 [QUEST34]
 Nombre=Um caule do meu tamanho
 Desc=Que fortuna te ver! Eu pensei que nunca veria alguém por aqui. Você não é um bandido, certo? Bah, o que eu digo. Se você já esteve ferido. Preciso de materiais para terminar a construção da minha cabine. Você seria capaz de me trazer um pouco de madeira?
