@@ -33025,8 +33025,8 @@ RopajeEnana=2543
 RopajeOrca=3093
 RopajeGnoma=2543
 ObjType=3
-MAXDEF=40
-MINDEF=35
+MAXDEF=20
+MINDEF=15
 
 [OBJ1904]
 GrhIndex=0
@@ -33748,8 +33748,8 @@ RopajeEnana=765
 RopajeOrca=1309
 RopajeGnoma=765
 ObjType=3
-MAXDEF=40
-MINDEF=35
+MAXDEF=20
+MINDEF=15
 Valor=0
 
 [OBJ1946]
@@ -39599,8 +39599,8 @@ Texto=Túnica Avernal
 Name=Armadura Lóbrera (M)
 GrhIndex=10720
 ObjType=3
-MAXDEF=25
-MINDEF=15
+MAXDEF=12
+MINDEF=7
 Texto=Armadura Lóbrera (M)
 
 [OBJ2784]
@@ -39613,8 +39613,8 @@ GrhIndex=0
 Name=Armadura Magna (M)
 GrhIndex=10720
 ObjType=3
-MAXDEF=25
-MINDEF=15
+MAXDEF=12
+MINDEF=7
 Texto=Armadura Magna (M)
 
 [OBJ2787]
@@ -40942,8 +40942,8 @@ RopajeEnana=858
 RopajeOrca=1398
 RopajeGnoma=858
 ObjType=3
-MAXDEF=40
-MINDEF=35
+MAXDEF=20
+MINDEF=15
 Valor=0
 Texto=Armadura Esstharul
 
@@ -40963,8 +40963,8 @@ RopajeEnana=850
 RopajeOrca=1390
 RopajeGnoma=850
 ObjType=3
-MAXDEF=40
-MINDEF=35
+MAXDEF=20
+MINDEF=15
 Valor=0
 Texto=Manto de Malthit
 
@@ -40984,8 +40984,8 @@ RopajeEnana=859
 RopajeOrca=1399
 RopajeGnoma=859
 ObjType=3
-MAXDEF=40
-MINDEF=35
+MAXDEF=20
+MINDEF=15
 Valor=0
 Texto=Manto de Gir
 
@@ -41005,8 +41005,8 @@ RopajeEnana=860
 RopajeOrca=1400
 RopajeGnoma=860
 ObjType=3
-MAXDEF=40
-MINDEF=35
+MAXDEF=20
+MINDEF=15
 Valor=0
 Texto=Armadura de Celegorm
 
@@ -41026,8 +41026,8 @@ RopajeEnana=862
 RopajeOrca=1402
 RopajeGnoma=862
 ObjType=3
-MAXDEF=40
-MINDEF=35
+MAXDEF=20
+MINDEF=15
 Valor=0
 Texto=Manto de Hermes
 
@@ -41047,8 +41047,8 @@ RopajeEnana=677
 RopajeOrca=1178
 RopajeGnoma=677
 ObjType=3
-MAXDEF=37
-MINDEF=33
+MAXDEF=20
+MINDEF=15
 Valor=0
 Texto=Túnica Zairon
 
@@ -41068,8 +41068,8 @@ RopajeEnana=861
 RopajeOrca=1401
 RopajeGnoma=861
 ObjType=3
-MAXDEF=40
-MINDEF=35
+MAXDEF=20
+MINDEF=15
 Valor=0
 Texto=Armadura de Othar
 
@@ -41089,8 +41089,8 @@ RopajeEnana=679
 RopajeOrca=1180
 RopajeGnoma=679
 ObjType=3
-MAXDEF=37
-MINDEF=33
+MAXDEF=20
+MINDEF=15
 Valor=0
 Texto=Manto de la Sabiduria
 
@@ -41110,8 +41110,8 @@ RopajeEnana=863
 RopajeOrca=1403
 RopajeGnoma=863
 ObjType=3
-MAXDEF=40
-MINDEF=35
+MAXDEF=20
+MINDEF=15
 Valor=0
 Texto=Armadura de Elder
 
@@ -41154,8 +41154,8 @@ RopajeEnana=2534
 RopajeOrca=3084
 RopajeGnoma=2534
 ObjType=3
-MAXDEF=37
-MINDEF=33
+MAXDEF=20
+MINDEF=15
 Valor=0
 Texto=Manto de Agonía
 
@@ -41175,8 +41175,8 @@ RopajeEnana=2535
 RopajeOrca=3085
 RopajeGnoma=2535
 ObjType=3
-MAXDEF=40
-MINDEF=35
+MAXDEF=20
+MINDEF=15
 Valor=0
 Texto=Armadura Valar
 
@@ -41217,8 +41217,8 @@ RopajeEnana=2536
 RopajeOrca=3086
 RopajeGnoma=2536
 ObjType=3
-MAXDEF=40
-MINDEF=35
+MAXDEF=20
+MINDEF=15
 Valor=0
 Texto=Armadura de Gala Enriquecida
 
@@ -41238,8 +41238,8 @@ RopajeEnana=2537
 RopajeOrca=3087
 RopajeGnoma=2537
 ObjType=3
-MAXDEF=40
-MINDEF=35
+MAXDEF=20
+MINDEF=15
 Valor=0
 Texto=Armadura de Wolframio
 
@@ -41259,8 +41259,8 @@ RopajeEnana=2538
 RopajeOrca=3088
 RopajeGnoma=2538
 ObjType=3
-MAXDEF=40
-MINDEF=35
+MAXDEF=20
+MINDEF=15
 Valor=0
 Texto=Armadura Antigua
 
@@ -41343,8 +41343,8 @@ RopajeEnana=2540
 RopajeOrca=3090
 RopajeGnoma=2540
 ObjType=3
-MAXDEF=40
-MINDEF=35
+MAXDEF=20
+MINDEF=15
 Valor=0
 Texto=Armadura de Escolta
 
@@ -42477,8 +42477,8 @@ RopajeEnana=730
 RopajeOrca=1230
 RopajeGnoma=730
 ObjType=3
-MAXDEF=37
-MINDEF=33
+MAXDEF=20
+MINDEF=15
 Valor=0
 Texto=Túnica Avernal
 
@@ -43232,8 +43232,8 @@ RopajeEnana=855
 RopajeOrca=1395
 RopajeGnoma=855
 ObjType=3
-MAXDEF=30
-MINDEF=23
+MAXDEF=15
+MINDEF=10
 Valor=0
 Texto=Túnica de Bardo del Caos de 4ª Jerarquía
 
@@ -43568,8 +43568,8 @@ RopajeEnana=816
 RopajeOrca=1358
 RopajeGnoma=816
 ObjType=3
-MAXDEF=33
-MINDEF=27
+MAXDEF=15
+MINDEF=10
 Valor=0
 Texto=Armadura de Guerrero Imperial de 4ª Jerarquía
 
@@ -43988,8 +43988,8 @@ RopajeEnana=711
 RopajeOrca=1211
 RopajeGnoma=711
 ObjType=3
-MAXDEF=30
-MINDEF=23
+MAXDEF=15
+MINDEF=10
 Valor=0
 Texto=Armadura de Bandido Imperial de 4ª Jerarquía
 
