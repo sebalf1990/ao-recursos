@@ -51,7 +51,7 @@ def main():
     # === CLAVES PERMITIDAS POR SECCIÓN (lista blanca; comparación case-insensitive) ===
     INCLUIR_CLAVES_POR_SECCION = {
         "NPC": [
-            "Name", "Desc",  "Body", "BodyIdle", "Ataque1","BodyOnLand","BodyOnWater","BodyOnWaterIdle","Ataque2", "Head","DescClose",
+            "Name", "Desc",  "Body", "BodyIdle", "CambioAIdle", "Ataque1","BodyOnLand","BodyOnWater","BodyOnWaterIdle","Ataque2", "Head","DescClose",
             "EXP", "GiveEXPClan", "ORO", "HP", "MaxHIT", "MinHIT","IsGlobalQuestBoss",
             "NoMapInfo", "NumQuiza", "PuedeInvocar",
             "QuizaDropea1", "QuizaDropea2", "QuizaDropea3", "QuizaDropea4", "QuizaDropea5",

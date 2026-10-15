@@ -4945,6 +4945,7 @@ Head=0
 BodyIdle=6123
 Ataque1=6122
 NpcType=17
+CambioAIdle=10
 
 [NPC12]
 Name=Durgan <Miner>
@@ -5184,6 +5185,7 @@ Obj1=37-1000
 Obj2=38-1000
 Obj3=36-1000
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC47]
 Name=Chaotic Alchemist
@@ -5199,6 +5201,7 @@ Obj1=37-1000
 Obj2=38-1000
 Obj3=36-1000
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC48]
 Name=Ether <Combat Merchant>
@@ -5290,6 +5293,7 @@ Obj1=3988-100
 Obj2=123-100
 Obj3=3987-100
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC57]
 Name=Lirenn <Herrera>
@@ -5690,12 +5694,13 @@ NROITEMS=1
 Obj1=1278-1
 
 [NPC120]
-Name=Talador
+Name=Eustaquio <Talador>
 Desc=¿Quierés cortar arboles? Mi recomendación es que revises la sección Talar, dentro de la Wiki Online. ¡Apúrate, antes que otros taladores también se enteren!
-Body=589
-Head=312
+Body=6203
+BodyIdle=6225
 NpcType=0
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC121]
 Name=Darim <Carpintero>
@@ -11313,6 +11318,7 @@ Obj1=208-1000
 Obj2=209-1000
 Obj3=210-1000
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC1039]
 Name=Sven <Polar Tailor>
@@ -11824,6 +11830,7 @@ Obj1=30-100
 Obj2=998-100
 Obj3=2803-100
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC1083]
 Name=Clarice Coraza <Forjadora Experta>
@@ -12962,6 +12969,7 @@ Obj1=37-1000
 Obj2=38-1000
 Obj3=36-1000
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC1183]
 Name=Dwalin <Provisions>
@@ -13027,6 +13035,7 @@ Obj1=1713-100
 Obj2=1774-100
 Obj3=1761-100
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC1188]
 Name=Ho Ka Rdum <Quest de Esqueletos y Orcos>
@@ -13964,6 +13973,7 @@ Obj1=208-1000
 Obj2=209-1000
 Obj3=210-1000
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC1274]
 Name=Pandora <Sorceress>
@@ -14128,6 +14138,7 @@ Head=0
 BodyIdle=6096
 Ataque1=6096
 NpcType=17
+CambioAIdle=10
 
 [NPC1289]
 Name=Xanthe <Sacerdote>
@@ -14707,6 +14718,7 @@ Obj1=37-1000
 Obj2=38-1000
 Obj3=36-1000
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC1344]
 Name=Erevan <Sorceress>
@@ -15422,6 +15434,7 @@ Head=0
 BodyIdle=6125
 Ataque1=6124
 NpcType=17
+CambioAIdle=10
 
 [NPC1402]
 Name=Santa Claus
@@ -15834,6 +15847,7 @@ Obj1=30-1000
 Obj2=998-1000
 Obj3=2803-1000
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC1501]
 Name=Lhissa <Sastre de Banderbill>
@@ -15975,6 +15989,7 @@ Obj1=30-1000
 Obj2=998-1000
 Obj3=2803-1000
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC1551]
 Name=Dhoruk <Sastre Legionario>
@@ -16667,6 +16682,7 @@ Obj1=30-1000
 Obj2=998-1000
 Obj3=1715-1000
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC1813]
 Name=Heracio <Master Blacksmith>
@@ -16682,6 +16698,7 @@ Obj1=30-1000
 Obj2=998-1000
 Obj3=1715-1000
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC1814]
 Name=Gru Chaman
@@ -16778,6 +16795,34 @@ DescClose=¡Buen viaje!
 Body=2058
 Head=77
 NpcType=26
+
+[NPC1912]
+Name=Thokk
+Body=4028
+Head=0
+BodyIdle=4027
+Ataque1=4028
+HP=100
+NpcType=13
+MaxHIT=1
+MinHIT=1
+EXP=0
+ORO=0
+CambioAIdle=10
+
+[NPC1913]
+Name=Gnargh
+Body=4030
+Head=0
+BodyIdle=4029
+Ataque1=4030
+HP=100
+NpcType=0
+MaxHIT=1
+MinHIT=1
+EXP=0
+ORO=0
+CambioAIdle=10
 
 [NPC1914]
 Name=Nythar <Quest de Invisibilidad>

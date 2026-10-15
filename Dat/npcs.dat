@@ -482,6 +482,7 @@ Minimap=1
 '--------------> Minería <--------------
 NumQuest=1
 QuestNumber1=2
+CambioAIdle=10
 
 [NPC12]
 Name=Durgan <Minero>
@@ -823,6 +824,7 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 TipoItems=11
+CambioAIdle=10
 [NPC47] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Ravenor <Alquimista Caotico>
 SoundOpen=956
@@ -865,6 +867,7 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 TipoItems=11
+CambioAIdle=10
 [NPC48] 'newbie dungeon
 Name=Ether <Mercader de Combate>
 NpcType=0
@@ -1093,6 +1096,7 @@ Obj1=3988-100
 Obj2=123-100
 Obj3=3987-100
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC57] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Lirenn <Herrera>
@@ -13273,6 +13277,7 @@ NPCLVL=2
 MagicResistance=5
 MagicDef=0
 TipoItems=11
+CambioAIdle=10
 
 [NPC1039] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Sven <Sastre Polar>
@@ -13953,6 +13958,7 @@ Obj13=9165-1000
 Obj14=9194-1000
 Obj15=9201-1000
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC1083] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Clarice Coraza <Forjadora Experta>
@@ -16910,6 +16916,7 @@ Hostile=0
 ReSpawn=0
 DescClose=¡Mas vale salir prevenidos!
 TipoItems=11
+CambioAIdle=10
 [NPC1183] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Dwalin <Provisiones>
 SoundClose=607
@@ -17051,6 +17058,7 @@ Obj6=1921-100
 Obj7=4342-100
 NoMapInfo=1
 TipoItems=2
+CambioAIdle=10
 
 [NPC1188] 'Quest Molino
 Name=Ho Ka Rdum <Quest de Esqueletos y Orcos>
@@ -19543,6 +19551,7 @@ NPCLVL=22
 MagicResistance=55
 MagicDef=5
 TipoItems=11
+CambioAIdle=10
 [NPC1274] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Pandora <Hechicera>
 SoundOpen=903
@@ -19985,6 +19994,7 @@ MagicResistance=15
 MagicDef=0
 NumQuest=1
 QuestNumber1=161
+CambioAIdle=10
 
 [NPC1289] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Xanthe <Sacerdote>
@@ -21445,6 +21455,7 @@ NPCLVL=22
 MagicResistance=55
 MagicDef=5
 TipoItems=11
+CambioAIdle=10
 [NPC1344]
 Name=Erevan <Hechicera>
 NpcType=0
@@ -23258,6 +23269,7 @@ QuestNumber5=255
 QuestNumber6=254
 QuestNumber7=253
 QuestNumber8=248
+CambioAIdle=10
 
 [NPC1402]
 Name=Papa Noel
@@ -23492,10 +23504,9 @@ NumQuest=1
 QuestNumber1=319
 
 [NPC120]
-Name=Talador
+Name=Eustaquio <Talador>
 Desc=¿Quierés cortar arboles? Mi recomendación es que revises la sección Talar, dentro de la Wiki Online. ¡Apúrate, antes que otros taladores también se enteren!
-Head=312
-Body=589
+Body=6203
 NpcType=0
 ShowName=1
 Heading=3
@@ -23504,6 +23515,8 @@ Attackable=0
 Hostile=0
 Alineacion=0
 NoMapInfo=1
+BodyIdle=6225
+CambioAIdle=10
 
 [NPC121]
 Name=Darim <Carpintero>
@@ -23934,6 +23947,7 @@ Obj17=9165-1000
 Obj18=9194-1000
 Obj19=9201-1000
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC1501] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Lhissa <Sastre de Banderbill>
@@ -24480,6 +24494,7 @@ Obj17=9165-1000
 Obj18=9194-1000
 Obj19=9201-1000
 NoMapInfo=1
+CambioAIdle=10
 
 [NPC1551] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Dhoruk <Sastre Legionario>
@@ -26417,6 +26432,7 @@ Obj11=401-1000
 Obj12=1855-1000
 NoMapInfo=1
 TipoItems=2
+CambioAIdle=10
 
 [NPC1813] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Heracio <Maestro Herrero>
@@ -26450,6 +26466,7 @@ Obj11=401-1000
 Obj12=1855-1000
 NoMapInfo=1
 TipoItems=2
+CambioAIdle=10
 
 [NPC1814] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Gru Chaman
@@ -30629,4 +30646,48 @@ en_desc=Only those who forget die.
 NPCLVL=15
 MagicResistance=37
 MagicDef=10
+
+[NPC1912] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. Movement y ShowName de la API; sin NpcFaceGrh ni carta coleccionable
+Name=Thokk
+Head=0
+Body=4028
+BodyIdle=4027
+NpcType=13
+Ataque1=4028
+Heading=3
+Movement=1
+Attackable=1
+Hostile=1
+MaxHP=100
+MinHP=100
+MaxHIT=1
+MinHIT=1
+GiveEXP=0
+GiveGLD=0
+PoderAtaque=1
+PoderEvasion=1
+ShowName=1
+CambioAIdle=10
+
+[NPC1913] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. Movement y ShowName de la API; sin NpcFaceGrh ni carta coleccionable
+Name=Gnargh
+Head=0
+Body=4030
+BodyIdle=4029
+NpcType=0
+Ataque1=4030
+Heading=3
+Movement=1
+Attackable=1
+Hostile=1
+MaxHP=100
+MinHP=100
+MaxHIT=1
+MinHIT=1
+GiveEXP=0
+GiveGLD=0
+PoderAtaque=1
+PoderEvasion=1
+ShowName=1
+CambioAIdle=10
 
