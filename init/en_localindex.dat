@@ -28638,6 +28638,9 @@ RopajeElfaOscura=1777
 RopajeEnana=779
 RopajeOrca=1321
 RopajeGnoma=779
+ObjType=3
+MINDEF=0
+MAXDEF=0
 Texto=Traje de Arlequín
 
 [OBJ963]
