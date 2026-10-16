@@ -381,6 +381,42 @@ PlayerStunTime=1200
 NpcStunTime=10000
 PlayerInmuneTime=1000
 
+[HOME_COST_TIER1]
+MinLevel=1
+MaxLevel=12
+FloorGLD=10
+CapGLD=100
+
+[HOME_COST_TIER2]
+MinLevel=13
+MaxLevel=19
+FloorGLD=120
+CapGLD=200
+
+[HOME_COST_TIER3]
+MinLevel=20
+MaxLevel=24
+FloorGLD=220
+CapGLD=300
+
+[HOME_COST_TIER4]
+MinLevel=25
+MaxLevel=28
+FloorGLD=400
+CapGLD=1000
+
+[HOME_COST_TIER5]
+MinLevel=29
+MaxLevel=32
+FloorGLD=1100
+CapGLD=2000
+
+[HOME_COST_TIER6]
+MinLevel=33
+MaxLevel=47
+FloorGLD=2100
+CapGLD=3500
+
 ' Experiencia por rango de niveles - Shugar 22/7/2024
 ' De un nivel a otro hay 30% más de exp
 ' salvo en los cambios de rango que hay 50% más de exp
