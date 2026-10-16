@@ -66434,11 +66434,11 @@ Texto=Armadura Cazador
 Valor=17000
 
 [OBJ9048]
-Name=Llamado a la Naturaleza
+Name=Invocar Lobo
 GrhIndex=609
 Valor=7000
 Objtype=24
-Texto=Invoca tres lobos para que te ayuden a luchar.
+Texto=Invoca un lobo para luchar frente a criaturas.
 
 [OBJ9049]
 Name=Garras de Dragón

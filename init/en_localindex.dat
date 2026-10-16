@@ -71725,12 +71725,11 @@ Texto=Armadura Cazador
 Valor=17000
 
 [OBJ9048]
-Name=Nature's Aid
+Name=Summon Wolf
 GrhIndex=609
 Valor=7000
 Objtype=24
-Texto=Invoca tres lobos para que te ayuden a luchar.
-texto=Summon three wolves to help you fight.
+Texto=Summons a wolf to fight against creatures.
 
 [OBJ9049]
 Name=Garras de Dragón

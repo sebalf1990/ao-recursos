@@ -85947,7 +85947,7 @@ Valor=17000
 en_Name=Hunter armor
 
 [OBJ9048] 'Reubicado de OBJ2467 (punto ciego: oficial repropuso el slot; plan 10.001 fase 3)
-Name=Llamado a la Naturaleza
+Name=Invocar Lobo
 GrhIndex=609
 Valor=7000
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -85958,9 +85958,15 @@ CP4=TRABAJADOR
 CP5=CAZADOR
 CP8=GUERRERO
 Objtype=24
-Texto=Invoca tres lobos para que te ayuden a luchar.
-en_texto=Summon three wolves to help you fight.
-en_Name=Nature's Aid
+Texto=Invoca un lobo para luchar frente a criaturas.
+en_Name=Summon Wolf
+en_Texto=Summons a wolf to fight against creatures.
+pt_Name=Invocar Lobo
+pt_Texto=Invoca um lobo para lutar contra criaturas.
+fr_Name=Invoquer un Loup
+fr_Texto=Invoque un loup pour combattre les créatures.
+it_Name=Evoca Lupo
+it_Texto=Evoca un lupo per combattere contro le creature.
 
 [OBJ9049] 'Reubicado de OBJ2534 (punto ciego: oficial repropuso el slot; plan 10.001 fase 3)
 Name=Garras de Dragón
