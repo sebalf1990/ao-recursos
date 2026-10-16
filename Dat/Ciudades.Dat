@@ -118,6 +118,19 @@ ResuY=69
 NecesitaNave=0
 Mapas=189,559,560,571,561,558
 
+[Morgrim]
+X=50
+Y=50
+MAPA=591
+MAPAVIAJE=591
+ViajeX=50
+ViajeY=50
+MapaResu=591
+ResuX=31
+ResuY=40
+NecesitaNave=1
+Mapas=591,592,593,594
+
 
 [Prision]
 X=50
