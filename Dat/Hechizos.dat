@@ -187,26 +187,36 @@ Target=2
 duration=20
 
 [HECHIZO7]
-Nombre=Llamado a la Naturaleza
-Desc=Tres lobos acudirán en tu ayuda.
-PalabrasMagicas=Nature et worg
-PropioMsg=Has lanzado Llamado a la naturaleza
-en_name=Nature's Call
-en_Desc=Three wolves will come to your aid.
-PalabrasMagicas=Nature et worg
-en_PropioMsg=You casted Nature 's Call.
+Nombre=Invocar Lobo
+Desc=Canaliza el espíritu de la bestia salvaje para traer a un Lobo espectral desde los bosques sombríos.
+PalabrasMagicas=Nature Et Worg
+PropioMsg=Has invocado un Lobo
+IconoIndex=74715
+en_Nombre=Summon Wolf
+en_Desc=Channel the spirit of the wild beast to bring a spectral Wolf from the shadowy woods.
+en_PropioMsg=You have summoned a Wolf
+pt_Nombre=Invocar Lobo
+pt_Desc=Canalize o espírito da fera selvagem para trazer um lobo espectral da floresta sombria.
+pt_PropioMsg=Você convocou um Lobo
+fr_Nombre=Invoquer un Loup
+fr_Desc=Canalisez l'esprit de la bête sauvage pour faire sortir un loup spectral des bois ombragés.
+fr_PropioMsg=Vous avez invoqué un Loup
+it_Nombre=Evoca Lupo
+it_Desc=Incanala lo spirito della bestia selvaggia per evocare un lupo spettrale dai boschi ombrosi.
+it_PropioMsg=Hai evocato un Lupo
 Tipo=4
 WAV=3
 FXgrh=0
 Loops=0
-MinSkill=35
-ManaRequerido=120
+MinSkill=3
+ManaRequerido=40
 StaRequerido=30
 Target=4
 Invoca=1
 NumNpc=958
-Cant=3
+Cant=1
 AdjustStatsWithCaster=1
+IsBindable=1
 
 [HECHIZO8]
 Nombre=Invocar Esqueletos Guerreros
