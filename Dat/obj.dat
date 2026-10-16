@@ -1077,6 +1077,7 @@ MaxHit=3
 MinHit=1
 Crucial=1
 WeaponType=2
+JailObject=1
 
 [OBJ45]
 Name=Hacha de Pino Nudoso
@@ -26107,6 +26108,7 @@ RopajeHumana=2094
 RopajeHumano=37
 RopajeOrca=3144
 RopajeOrco=1099
+JailObject=1
 
 [OBJ1978]
 Name=Vestido Violeta (ORCO)
