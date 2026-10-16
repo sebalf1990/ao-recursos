@@ -399,6 +399,7 @@ IconoIndex=35725
 Target=1
 WorkOnDead=1
 TargetEffectType=1
+StaPercentRequired=60
 
 [HECHIZO15]
 Nombre=Detectar Invisibilidad
