@@ -17081,12 +17081,13 @@ StaRequerido=90
 IconoIndex=35711
 
 [HECHIZO7]
-Nombre=Llamado a la Naturaleza
-Desc=Tres lobos acudirán en tu ayuda.
-PalabrasMagicas=Nature et worg
-PropioMsg=Has lanzado Llamado a la naturaleza
-MinSkill=35
-ManaRequerido=120
+Nombre=Invocar Lobo
+Desc=Canalize o espírito da fera selvagem para trazer um lobo espectral da floresta sombria.
+PalabrasMagicas=Nature Et Worg
+PropioMsg=Você convocou um Lobo
+IconoIndex=74715
+MinSkill=3
+ManaRequerido=40
 StaRequerido=30
 
 [HECHIZO8]

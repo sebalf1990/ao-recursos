@@ -17308,13 +17308,13 @@ StaRequerido=90
 IconoIndex=35711
 
 [HECHIZO7]
-Nombre=Llamado a la Naturaleza
-Desc=Three wolves will come to your aid.
-PalabrasMagicas=Nature et worg
-PropioMsg=You casted Nature 's Call.
-Nombre=Nature's Call
-MinSkill=35
-ManaRequerido=120
+Nombre=Summon Wolf
+Desc=Channel the spirit of the wild beast to bring a spectral Wolf from the shadowy woods.
+PalabrasMagicas=Nature Et Worg
+PropioMsg=You have summoned a Wolf
+IconoIndex=74715
+MinSkill=3
+ManaRequerido=40
 StaRequerido=30
 
 [HECHIZO8]

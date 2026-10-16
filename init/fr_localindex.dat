@@ -17081,12 +17081,13 @@ StaRequerido=90
 IconoIndex=35711
 
 [HECHIZO7]
-Nombre=Llamado a la Naturaleza
-Desc=Tres lobos acudirán en tu ayuda.
-PalabrasMagicas=Nature et worg
-PropioMsg=Has lanzado Llamado a la naturaleza
-MinSkill=35
-ManaRequerido=120
+Nombre=Invoquer un Loup
+Desc=Canalisez l'esprit de la bête sauvage pour faire sortir un loup spectral des bois ombragés.
+PalabrasMagicas=Nature Et Worg
+PropioMsg=Vous avez invoqué un Loup
+IconoIndex=74715
+MinSkill=3
+ManaRequerido=40
 StaRequerido=30
 
 [HECHIZO8]
