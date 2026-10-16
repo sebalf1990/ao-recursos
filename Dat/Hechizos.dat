@@ -129,8 +129,7 @@ MaxHP=96
 MinSkill=100
 ManaRequerido=1100
 StaRequerido=250
-StaffAffected=1
-NeedStaff=2
+MagicPowerNeeded=3
 
 
 [HECHIZO5]
@@ -437,8 +436,8 @@ Target=4
 Invoca=1
 NumNpc=962
 Cant=1
-NeedStaff=1
 AdjustStatsWithCaster=1
+MagicPowerNeeded=2
 
 [HECHIZO17]
 Nombre=Invocar Elemental Acuático
@@ -460,8 +459,8 @@ Target=4
 Invoca=1
 NumNpc=960
 Cant=1
-NeedStaff=0
 AdjustStatsWithCaster=1
+MagicPowerNeeded=2
 
 [HECHIZO18]
 Nombre=Invocar Elemental Terrestre
@@ -483,8 +482,8 @@ Target=4
 Invoca=1
 NumNpc=961
 Cant=1
-NeedStaff=0
 AdjustStatsWithCaster=1
+MagicPowerNeeded=2
 
 [HECHIZO19]
 Nombre=Invocar Elemental de Viento
@@ -507,6 +506,7 @@ Invoca=1
 NumNpc=963
 Cant=1
 AdjustStatsWithCaster=1
+MagicPowerNeeded=2
 
 [HECHIZO20]
 Nombre=Implorar ayuda
@@ -967,8 +967,7 @@ ManaRequerido=460
 StaRequerido=100
 IconoIndex=35713
 Target=3
-NeedStaff=0
-StaffAffected=1
+MagicPowerNeeded=2
 
 [HECHIZO52]
 Nombre=Ráfaga Ígnea
@@ -1028,8 +1027,7 @@ IconoIndex=32408
 MinSkill=100
 ManaRequerido=1000
 StaRequerido=175
-StaffAffected=1
-NeedStaff=2
+MagicPowerNeeded=2
 
 
 [HECHIZO54]
@@ -1146,7 +1144,6 @@ Target=1
 Particle=95
 TimeParticula=3
 duration=3
-NeedStaff=0
 NoWiki=1
 
 
@@ -1636,6 +1633,7 @@ Target=4
 Invoca=1
 NumNpc=957
 Cant=3
+MagicPowerNeeded=1
 
 
 [HECHIZO154] 'test
@@ -1858,8 +1856,6 @@ IconoIndex=32408
 MinSkill=100
 ManaRequerido=1000
 StaRequerido=175
-StaffAffected=1
-NeedStaff=2
 Nowiki=1
 TargetEffectType=2
 
@@ -2062,8 +2058,6 @@ IconoIndex=32408
 MinSkill=100
 ManaRequerido=1000
 StaRequerido=175
-StaffAffected=1
-NeedStaff=2
 AreaAfecta=1
 AreaRadio=22
 Nowiki=1
@@ -2094,8 +2088,6 @@ MaxHP=200
 MinSkill=100
 ManaRequerido=1000
 StaRequerido=300
-StaffAffected=1
-NeedStaff=2
 AreaAfecta=1
 AreaRadio=22
 Nowiki=1
@@ -2155,8 +2147,6 @@ ManaRequerido=460
 StaRequerido=100
 IconoIndex=35713
 Target=4
-NeedStaff=1
-StaffAffected=1
 AreaAfecta=1
 AreaRadio=22
 Nowiki=1
@@ -2896,6 +2886,7 @@ CancelActiveEffect=1
 TargetEffectType=1
 IsBindable=1
 NoWiki=1
+MagicPowerNeeded=2
 
 [HECHIZO252]
 Nombre=Eco Veloz
@@ -4492,6 +4483,7 @@ fr_Nombre=Invoquer Maman
 fr_Desc=Invoquez la magie nécromantique des anciens pharaons ! Invoquez une momie qui combattra pour vous.
 it_Nombre=Evoca la Mummia
 it_Desc=Sfrutta la magia necromantica degli antichi faraoni! Evoca una mummia che combatterà per te.
+MagicPowerNeeded=1
 
 [HECHIZO34] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
 Nombre=Celeridad Mayor
@@ -4584,6 +4576,7 @@ fr_Nombre=Invoquer un Gorille
 fr_Desc=La nature vous aide ! Un gorille des forêts se battra pour vous.
 it_Nombre=Evoca Gorilla
 it_Desc=La natura ti aiuta! Un gorilla della foresta combatterà per te.
+MagicPowerNeeded=1
 
 [HECHIZO37] 'Data completa de la API wiki oficial 2026-06-10; flags de efecto/invocacion pendientes de curaduria si aplica
 Nombre=Celeridad Menor
@@ -4871,6 +4864,7 @@ it_Nombre=Raggio elementare
 it_Desc=Causa da 77 a 83 punti di danno alla vittima.
 it_HechizeroMsg=Hai rilasciato il raggio elementare
 it_TargetMsg=Ha rilasciato un raggio elementare su di te.
+MagicPowerNeeded=2
 
 [HECHIZO60] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
 Nombre=Magia de Humana No-Muerta
@@ -5150,7 +5144,6 @@ Target=4
 Tipo=4
 WAV=17
 Invoca=2
-Magicpowerneeded=1
 en_Nombre=Summon Pets
 en_Desc=Summons or puts away the creatures you have tamed.
 en_PropioMsg=You summoned your pets.
@@ -5163,6 +5156,7 @@ fr_PropioMsg=Vous avez invoqué vos animaux de compagnie
 it_Nombre=Evoca Animali Domestici
 it_Desc=Invoca o salva gli animali domestici che hai addomesticato.
 it_PropioMsg=Hai invocato i tuoi animali domestici
+MagicPowerNeeded=1
 
 [HECHIZO72] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
 ManaRequerido=0
@@ -5656,6 +5650,7 @@ fr_Nombre=Invoquer Scylla
 fr_Desc=Invoque une Scylla, reine des eaux maudites, une ancienne créature qui dévore à la fois la chair et l'âme.
 it_Nombre=Evoca Scyllaa
 it_Desc=Evoca Scylla, regina delle acque maledette, un'antica creatura che divora sia la carne che l'anima.
+MagicPowerNeeded=1
 
 [HECHIZO156] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
 ManaRequerido=0
