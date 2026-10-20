@@ -1009,6 +1009,7 @@ Revive=1
 en_name=Elven flute
 en_texto=Increases magic damage by 7%.
 Madera=1000
+MagicPower=3
 
 [OBJ41]
 Name=Laúd Élfico
@@ -1040,6 +1041,7 @@ en_texto=Increases magic damage by 6%.
 
 '**************************** BEBIDAS ****************************
 Madera=700
+MagicPower=3
 
 [OBJ42]
 Name=Vino
@@ -1075,6 +1077,7 @@ MaxHit=3
 MinHit=1
 Crucial=1
 WeaponType=2
+JailObject=1
 
 [OBJ45]
 Name=Hacha de Pino Nudoso
@@ -7310,6 +7313,7 @@ CP12=MAGO
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 en_name=Magic lute
 en_texto=Increases magic damage by 4%.
+MagicPower=2
 
 [OBJ470]
 Name=Palmera
@@ -8469,6 +8473,7 @@ CP12=MAGO
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 en_name=Magic Flute
 en_texto=Increases magic damage by 5%.
+MagicPower=2
 
 [OBJ543]
 Name=Árbol
@@ -22637,8 +22642,8 @@ MinELV=25
 SkCarpinteria=100
 MaderaElfica=2400
 REVIVE=1
-STAFFPOWER=3
 WeaponType=4
+MagicPower=3
 
 [OBJ1790]
 Name=Espada de la Iluminación
@@ -22760,8 +22765,8 @@ en_texto=Increase your Magic Damage by 4%
 SkCarpinteria=73
 Madera=1800
 MinELV=25
-STAFFPOWER=2
 WeaponType=4
+MagicPower=2
 
 [OBJ1799]
 Name=Hoja Preste
@@ -22813,7 +22818,6 @@ Anim=16
 Crucial=1
 MAGICDAMAGEBONUS=2
 MinELV=1
-STAFFPOWER=1
 WeaponType=4
 en_Name=Wooden Staff
 en_texto=Increase your Magic Damage by 2%
@@ -22823,6 +22827,7 @@ IT_Name=Personale di legno
 IT_texto=Aumenta il tuo danno magico del 2%
 PT_Name=Pessoal de madeira
 PT_texto=Aumente seu dano mágico em 2%
+MagicPower=1
 
 [OBJ1803]
 Name=Coraza de Harald
@@ -22989,11 +22994,11 @@ MagicDamageBonus=9
 
 'MagicPenetration=9
 Revive=1
-StaffPower=3
 MinELV=1
 en_Texto=Increase your magic damage by 9%
 en_Name=Wizard's Rod
 WeaponType=4
+MagicPower=4
 
 [OBJ1812]
 Name=Espada Test
@@ -23093,10 +23098,10 @@ MagicDamageBonus=8
 
 'MagicPenetration=7
 Revive=1
-StaffPower=3
 MinELV=1
 en_texto=Great necromancer of the Dark Legion.
 WeaponType=4
+MagicPower=3
 
 [OBJ1824]
 Name=Espada electrica
@@ -23288,10 +23293,10 @@ MagicDamageBonus=8
 
 'MagicPenetration=7
 Revive=1
-StaffPower=3
 MinELV=1
 en_texto=Great sorcerer of the Royal Army.
 WeaponType=4
+MagicPower=3
 
 [OBJ1835]
 Name=Hacha Saramiana +1
@@ -23325,6 +23330,7 @@ Madera=1000
 MaderaElfica=2400
 MaxHit=1
 MinHit=1
+MagicPower=3
 
 [OBJ1837] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=30866
@@ -24039,9 +24045,9 @@ MagicDamageBonus=13
 MagicPenetration=5
 MinELV=1
 Revive=1
-StaffPower=3
 Nowiki=1
 WeaponType=4
+MagicPower=1
 
 [OBJ1867]
 CP1=CLERIGO
@@ -26102,6 +26108,7 @@ RopajeHumana=2094
 RopajeHumano=37
 RopajeOrca=3144
 RopajeOrco=1099
+JailObject=1
 
 [OBJ1978]
 Name=Vestido Violeta (ORCO)
@@ -29335,6 +29342,7 @@ MinELV=33
 en_texto=Increases your magic resistance by 7%.
 en_Name=Magical dissolution Ring
 LingH=100
+MagicPower=3
 
 [OBJ2324]
 Name=Anillo de Protección Mágica
@@ -29353,6 +29361,7 @@ en_texto=Increases your magic resistance by 5%.
 en_Name=Ring of Arcane Protection
 SKHerreria=60
 LingH=85
+MagicPower=2
 
 [OBJ2325]
 Name=Anillo de Fortaleza Mágica
@@ -29376,6 +29385,7 @@ CP5=MAGO
 CP6=PALADIN
 CP7=PIRATA
 CP8=TRABAJADOR
+MagicPower=3
 
 [OBJ2326]
 Name=Anillo Cobre
@@ -49708,6 +49718,7 @@ en_texto=Increases your magic resistance by 3%.
 en_Name=Magic Resistance Ring
 LingH=40
 SkHerreria=50
+MagicPower=2
 
 [OBJ3578]
 Name=Tela trabajada
@@ -53659,7 +53670,6 @@ CP11=CLERIGO
 MagicDamageBonus=17
 MagicPenetration=10
 Revive=1
-StaffPower=3
 MinELV=1
 CreaGRH=20170:-94700:5:1
 Texto=Báculo del Fuego Eterno
@@ -53667,6 +53677,7 @@ en_Name=Staff of Eternal Fire
 en_texto=Staff of Eternal Fire
 WeaponType=4
 NoWiki=1
+MagicPower=3
 
 [OBJ3840]'Item Tier MAX para Bardo
 Name=Arpa del Cosmos
@@ -56002,6 +56013,7 @@ CP12=MAGO
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 en_name=Flute
 en_texto=Increases magic damage by 3%.
+MagicPower=1
 
 [OBJ3986]
 Name=Laúd
@@ -56029,6 +56041,7 @@ CP12=MAGO
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 en_name=Lute
 en_texto=Increases magic damage by 3%.
+MagicPower=1
 
 [OBJ3987]
 CP1=GUERRERO
@@ -74836,7 +74849,6 @@ pt_Texto=Aumente seu dano mágico em 7%
 ' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1810)
 WeaponType=4
 Anim=61
-StaffPower=3
 Revive=1
 MinELV=1
 MagicDamageBonus=7
@@ -78192,6 +78204,7 @@ CP1=DRUIDA
 CP2=LADRON
 CP3=MAGO
 CP4=PIRATA
+MagicPower=1
 
 [OBJ3758] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -84599,7 +84612,6 @@ MinHit=1
 ' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1788)
 WeaponType=4
 Anim=6
-StaffPower=3
 Revive=1
 MagicDamageBonus=9
 MinELV=25
@@ -84614,6 +84626,7 @@ CP8=PIRATA
 CP9=LADRON
 CP10=BARDO
 CP11=DRUIDA
+MagicPower=3
 
 [OBJ6246] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Espada de Plata (Navidad)
@@ -85934,7 +85947,7 @@ Valor=17000
 en_Name=Hunter armor
 
 [OBJ9048] 'Reubicado de OBJ2467 (punto ciego: oficial repropuso el slot; plan 10.001 fase 3)
-Name=Llamado a la Naturaleza
+Name=Invocar Lobo
 GrhIndex=609
 Valor=7000
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
@@ -85945,9 +85958,15 @@ CP4=TRABAJADOR
 CP5=CAZADOR
 CP8=GUERRERO
 Objtype=24
-Texto=Invoca tres lobos para que te ayuden a luchar.
-en_texto=Summon three wolves to help you fight.
-en_Name=Nature's Aid
+Texto=Invoca un lobo para luchar frente a criaturas.
+en_Name=Summon Wolf
+en_Texto=Summons a wolf to fight against creatures.
+pt_Name=Invocar Lobo
+pt_Texto=Invoca um lobo para lutar contra criaturas.
+fr_Name=Invoquer un Loup
+fr_Texto=Invoque un loup pour combattre les créatures.
+it_Name=Evoca Lupo
+it_Texto=Evoca un lupo per combattere contro le creature.
 
 [OBJ9049] 'Reubicado de OBJ2534 (punto ciego: oficial repropuso el slot; plan 10.001 fase 3)
 Name=Garras de Dragón

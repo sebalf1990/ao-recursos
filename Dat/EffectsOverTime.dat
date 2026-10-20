@@ -674,6 +674,7 @@ BuffType=4
 PhysicalLinearBonus=15
 ClientEffectTypeId=39
 RequireWeapon=1
+PhysicalBonusPveOnly=1
 
 [EOT50]' bonus damage weapons 2
 Type=2
@@ -684,6 +685,7 @@ BuffType=4
 PhysicalLinearBonus=25
 ClientEffectTypeId=39
 RequireWeapon=1
+PhysicalBonusPveOnly=1
 
 [EOT51]' bonus damage weapons 3
 Type=2
@@ -694,6 +696,7 @@ BuffType=4
 PhysicalLinearBonus=40
 ClientEffectTypeId=39
 RequireWeapon=1
+PhysicalBonusPveOnly=1
 
 [EOT52]' bonus defense with shield 1 
 Type=2
