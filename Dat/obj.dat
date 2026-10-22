@@ -2901,50 +2901,6 @@ en_Name=Energy Potion
 
 '--------------> de Mujer <--------------
 
-[OBJ174]
-Name=Llave de Ruinas
-GrhIndex=509
-ObjType=9
-Valor=
-Clave=1017
-Texto=Llave de Ruinas
-ExtraStr=Llave de Ruinas
-en_texto=This key opens or closes Ruins
-en_Name=Ruins Key
-
-[OBJ178]
-Name=Llave de Ruinas
-GrhIndex=509
-ObjType=9
-Clave=1018
-Texto=Llave de Ruinas
-ExtraStr=Llave de Ruinas
-en_texto=This key opens or closes Ruins
-en_Name=Ruins Key
-
-[OBJ182]
-Name=Llave de Ruinas
-GrhIndex=509
-ObjType=9
-Clave=1019
-Texto=Llave de Ruinas
-ExtraStr=Llave de Ruinas
-en_texto=This key opens or closes Ruins
-en_Name=Ruins Key
-
-[OBJ183]
-Name=Llave del Fuerte Dorck
-GrhIndex=509
-ObjType=9
-Clave=1020
-Valor=
-Texto=Llave del Fuerte Dorck
-ExtraStr=Llave del Fuerte Dorck
-en_texto=This key opens or closes Dorck Fort
-en_Name=Fort Dorck Key
-
-'--------------> Fuerte Sudoeste de Ullathorpe <--------------
-
 [OBJ187]
 CP1=GUERRERO
 CP2=PALADIN
@@ -4100,42 +4056,6 @@ en_Name=Old Banderbill Grand Council Key
 
 '--------------> Vault 1 del Gran Consejo de Banderbill <--------------
 
-[OBJ306]
-Name=Llave bóveda 1 del Gran Consejo vieja Banderbill
-ExtraStr=Llave de la bóveda 1 del Gran Consejo de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=35
-Valor=0
-Texto=Llave de la bóveda 1 del Gran Consejo de la vieja Banderbill
-en_texto=This Key opens or closes one of the vaults of the Great Council of the old Banderbill.
-en_Name=Old Banderbill Grand Council Vault 1 Key
-
-'--------------> Vault 2 del Gran Consejo de Banderbill <--------------
-
-[OBJ310]
-Name=Llave bóveda 2 del Gran Consejo vieja Banderbill
-ExtraStr=Llave de la bóveda 2 del Gran Consejo de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=36
-Valor=0
-Texto=Llave de la bóveda 2 del Gran Consejo de la vieja Banderbill
-en_texto=This Key opens or closes one of the vaults of the Great Council of the old Banderbill.
-en_Name=Old Banderbill Grand Council Vault 2 Key
-
-'--------------> Bóveda de Finanzas Goliath <--------------
-
-[OBJ314]
-Name=Llave bóveda de Finanzas Goliath
-ExtraStr=Llave de la bóveda de Finanzas Goliath
-GrhIndex=509
-ObjType=9
-Clave=1275
-Valor=0
-Texto=Llave de la bóveda de Finanzas Goliath
-en_Name=Goliath Finance Vault Key
-
 [OBJ315]
 Name=Cartel
 Info=Muelles
@@ -5081,16 +5001,6 @@ Nowiki=1
 
 '--------------> Isla Veleta <--------------
 
-[OBJ376]
-Name=Llave de Isla Veleta
-ExtraStr=Llave de Isla Veleta
-GrhIndex=509
-ObjType=9
-Clave=49
-Valor=0
-Texto=Llave de Isla Veleta
-en_Name=Veleta Island's Key
-
 [OBJ377]
 GrhIndex=49235
 Name=Cofre de Armas
@@ -5860,40 +5770,6 @@ NFT=0
 en_Name=Lindos House Key 6
 
 '--------------> Abadía de Lindos <--------------
-
-[OBJ444]
-Name=Llave Abadía de Lindos
-ExtraStr=Llave de la Abadía de Lindos
-GrhIndex=509
-ObjType=9
-Clave=1056
-Valor=
-Texto=Llave de la Abadía de Lindos
-en_Name=Lindos Abbey Key
-
-'--------------> Vault de Abadía de Lindos <--------------
-
-[OBJ448]
-Name=Llave bóveda Abadía de Lindos
-ExtraStr=Llave de la bóveda de la Abadía de Lindos
-GrhIndex=509
-ObjType=9
-Clave=1057
-Valor=0
-Texto=Llave de la bóveda de la Abadía de Lindos
-en_Name=Lindos Abbey Vault Key
-
-'--------------> Prisión de Banderbill <--------------
-
-[OBJ452]
-Name=Llave Prisión vieja Banderbill
-ExtraStr=Llave de la Prisión de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=1058
-Valor=0
-Texto=Llave de la Prisión de la vieja Banderbill
-en_Name=Old Banderbill Prison Key
 
 [OBJ453]
 GrhIndex=38181
@@ -8358,7 +8234,7 @@ en_texto=Increase your survival skill by 25 points.
 en_Name=Survivor Earring
 
 [OBJ656]
-Name=Lanza
+Name=Lanza de Guerra
 GrhIndex=875
 Objtype=2
 MinHIT=13
@@ -9007,7 +8883,7 @@ en_texto=Increase your skill points in Backstab by 10 points.
 en_Name=Assasin Earring (+10)
 
 [OBJ742]
-Name=Lanza
+Name=Lanza Rústica
 GrhIndex=902
 Objtype=2
 MinHIT=4
@@ -9943,18 +9819,6 @@ NFT=0
 en_Name=Arghal House Key 15
 
 '--------------> Mansión de Suramei <--------------
-
-[OBJ821]
-Name=Llave Mansión de Suramei
-ExtraStr=Llave de la Mansión de Suramei
-GrhIndex=509
-ObjType=9
-Clave=1100
-Valor=
-Texto=Llave de la Mansión de Suramei
-en_Name=Suramei Mansion Key
-
-'--------------> Casa número 1 de Illiandor <--------------
 
 [OBJ826]
 Name=Puerta abierta
@@ -12166,15 +12030,6 @@ it_Texto=3/5 difesa
 pt_Name=Upper Rodela
 pt_Texto=3/5 Defesa
 
-[OBJ1126]
-Name=Llave Maestra
-ExtraStr=Llave Maestra
-GrhIndex=509
-ObjType=9
-Clave=3450
-Texto=Llave Maestra
-en_Name=Master Key
-
 [OBJ1130]
 Name=Cartel Penthar al Norte
 Info=A Penthar
@@ -13590,28 +13445,6 @@ Agarrable=1
 Texto=Teleport a Illiandor
 en_Name=Teleport to Illiandor
 
-[OBJ1377]
-Name=Llave Asamblea
-GrhIndex=509
-ObjType=9
-Valor=0
-Clave=1122
-Texto=Llave de la Asamblea
-ExtraStr=Llave de la Asamblea
-en_Name=Assembly Key
-
-'>>>>>>>>>>>>>>>>>>>>>Arenas<<<<<<<<<<<<<<<<<<<<<
-
-[OBJ1394]
-Name=Llave Bóveda de Banderbill
-GrhIndex=509
-ObjType=9
-Valor=0
-Clave=1123
-Texto=Llave de la Bóveda de Banderbill
-ExtraStr=Llave de la Bóveda de Banderbill
-en_Name=Banderbill Vault Key
-
 [OBJ1396]
 Name=Planes de Ataque Naga
 GrhIndex=888
@@ -13643,61 +13476,6 @@ NFT=1
 NoSeCae=1
 en_name=Christmas hat
 en_texto=Change your appearance with this mask
-
-[OBJ1434]
-Name=Llave del Salón de Trivias
-ExtraStr=Llave del Salón de Trivias
-GrhIndex=509
-ObjType=9
-Clave=1117
-Valor=0
-
-Texto=Llave del Salón de Trivias
-en_Name=Trivial Hall Key
-
-[OBJ1463]
-Name=Llave del Fuerte del Infierno
-ExtraStr=Llave del Fuerte del Infierno
-GrhIndex=509
-ObjType=9
-Valor=0
-Clave=1118
-Texto=Llave del Fuerte del Infierno
-en_texto=This key opens or closes the gates of the Fort of Hell.
-en_Name=Hell Fort Key
-
-[OBJ1464]
-Name=Llave Biblioteca vieja Banderbill
-ExtraStr=Llave de la Biblioteca de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Valor=0
-Clave=1119
-Texto=Llave de la Biblioteca de la vieja Banderbill
-en_texto=This key opens or closes the Library of the old Banderbill.
-en_Name=Old Banderbill Library Key
-
-[OBJ1465]
-Name=Llave Segunda del Palacio Real
-ExtraStr=Llave Segunda del Palacio Real
-GrhIndex=509
-ObjType=9
-Valor=0
-Clave=1120
-Texto=Llave Segunda del Palacio Real
-en_texto=This key opens or closes the doors of the Royal Palace.
-en_Name=Second Key of the Royal Palace
-
-[OBJ1466]
-Name=Llave Primera del Palacio Real
-ExtraStr=Llave Primera del Palacio Real
-GrhIndex=509
-ObjType=9
-Valor=0
-Clave=1121
-Texto=Llave Primera del Palacio Real
-en_texto=This key opens or closes the doors of the Royal Palace.
-en_Name=First Royal Palace Key
 
 [OBJ1468]
 Name=Fuente
@@ -17965,21 +17743,6 @@ PIELTIGREBENGALA=37
 RESISTENCIAMAGICA=7
 Texto=Defensa 14/16, aumenta tu Resistencia Mágica en un 7%
 
-[OBJ1759]
-Name=Aureola Karvy
-Anim=70
-NumRopaje=2
-GrhIndex=4488
-ObjType=17
-Subtipo=1
-MAXDEF=1
-MINDEF=7
-Valor=650
-peso=50
-Crucial=0
-Texto=Aureola Karvy
-Nowiki=1
-
 [OBJ1761]
 CP1=BANDIDO
 CP2=ASESINO
@@ -18391,32 +18154,6 @@ REVIVE=1
 WeaponType=4
 MagicPower=3
 
-[OBJ1790]
-Name=Espada de la Iluminación
-GrhIndex=8500
-Anim=56
-Objtype=2
-MinHIT=15
-MaxHIT=20
-MinELV=1
-Valor=0
-Crucial=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP6=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-Texto=Espada Legendaria Exclusiva de Paladines
-en_Texto=Sword of Enlightment
-SUBASTABLE=1
-WeaponType=1
-
 [OBJ1792]
 CP1=GUERRERO
 CP2=PALADIN
@@ -18800,25 +18537,6 @@ MinELV=1
 en_texto=Great necromancer of the Dark Legion.
 WeaponType=4
 MagicPower=3
-
-[OBJ1824]
-Name=Espada electrica
-GrhIndex=36791
-Anim=75
-Objtype=2
-MinHIT=14
-MaxHIT=15
-Valor=6000
-MinELV=1
-Crucial=0
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP9=ASESINO
-CP8=BARDO
-CP12=MAGO
-Texto=Espada electrica
-WeaponType=1
 
 [OBJ1825]
 CP1=GUERRERO
@@ -33315,22 +33033,6 @@ ExtraStr=Puerta cerrada con llave de comercios
 
 '--------------> Banderbill New<--------------
 
-[OBJ3063]
-Name=Llave Maestra de Comercios de Banderbill
-ExtraStr=Llave Maestra de Comercios de Banderbill
-GrhIndex=509
-ObjType=9
-Clave=1277
-Valor=3
-Texto=Llave Maestra de Comercios de Banderbill
-NoseCae=1
-Intirable=1
-Instransferible=1
-en_texto=This key opens or closes all doors of Banderbill shops.
-en_Name=Master Banderbill Merch Key
-
-'--------------> Castillo de Banderbill New <--------------
-
 [OBJ3064]
 Name=Puerta abierta Castillo
 GrhIndex=36
@@ -33383,19 +33085,6 @@ en_Name=locked castle door
 ExtraStr=Puerta cerrada con llave Castillo
 
 '--------------> Banderbill <--------------
-
-[OBJ3067]
-Name=Llave Catillo de Banderbill
-ExtraStr=Llave de la Catillo de Banderbill
-GrhIndex=509
-ObjType=9
-Subtipo=2
-Clave=1278
-Valor=3
-Texto=Llave de la Catillo de Banderbill
-en_Name=Banderbill Castle Key
-
-'--------------> Ductos de escapes de Banderbill New <--------------
 
 [OBJ3068]
 Name=Puerta del Ducto abierta
@@ -34245,18 +33934,6 @@ en_texto=This honorable house belongs to
 en_Name=locked door of church
 ExtraStr=Puerta cerrada con Iglesia
 
-[OBJ3128]
-Name=Llave Iglesia de Banderbill
-ExtraStr=Llave Iglesia de Banderbill
-GrhIndex=509
-ObjType=9
-Clave=1231
-Valor=3
-Texto=Llave Iglesia de Banderbill
-en_Name=Banderbill Church Key
-
-'--------------> Iglesia de Banderbill New <--------------
-
 [OBJ3129]
 Name=Puerta abierta Iglesia
 GrhIndex=4577
@@ -34307,16 +33984,6 @@ Texto=Puerta cerrada con Iglesia
 en_texto=This honorable house belongs to
 en_Name=locked door of church
 ExtraStr=Puerta cerrada con Iglesia
-
-[OBJ3132]
-Name=Llave Iglesia de Banderbill
-ExtraStr=Llave Iglesia de Banderbill
-GrhIndex=509
-ObjType=9
-Clave=1278
-Valor=3
-Texto=Llave Iglesia de Banderbill
-en_Name=Banderbill Church Key
 
 [OBJ3133]
 Name=Cofre de Armaduras Legendarias
@@ -34379,7 +34046,7 @@ en_Name=Mule
 Instransferible=1
 
 [OBJ3135]
-Name=Espada Argentum
+Name=Espada Argentum Antigua
 GrhIndex=997
 Objtype=2
 MinHIT=9
@@ -36167,19 +35834,6 @@ ExtraStr=Puerta cerrada con llave Castillo
 
 '--------------> Banderbill <--------------
 
-[OBJ3248]
-Name=Llave Catillo
-ExtraStr=Llave de la Catillo
-GrhIndex=509
-ObjType=9
-Subtipo=2
-Clave=1276
-Valor=3
-Texto=Llave de la Catillo
-en_Name=Castle Key
-
-'--------------> Iglesia de Arkhein <--------------
-
 [OBJ3249]
 Name=Puerta abierta Iglesia Arkhein
 GrhIndex=4123
@@ -36232,18 +35886,6 @@ en_Name=Church door locked
 ExtraStr=Puerta cerrada con llave Iglesia
 
 '--------------> Arkhein <--------------
-
-[OBJ3252]
-Name=Llave Catillo
-ExtraStr=Llave de la Catillo
-GrhIndex=509
-ObjType=9
-
-Clave=1277
-Valor=3
-
-Texto=Llave de la Catillo
-en_Name=Castle Key
 
 [OBJ3253]
 Name=Copa de Oro
@@ -36545,18 +36187,6 @@ Texto=Puerta cerrada con llave Meson new Arkhein
 en_texto=This honorable house belongs to
 en_Name=locked door meson new of Arkhein
 ExtraStr=Puerta cerrada con llave Meson new Arkhein
-
-[OBJ3276]
-Name=Llave Meson de Banderbill
-ExtraStr=Llave Meson de Banderbill
-GrhIndex=509
-ObjType=9
-Clave=1257
-Valor=3
-Texto=Llave Meson de Banderbill
-en_Name=Banderbill Meson Key
-
-'--------------> Casa número 14 de Arkhein <--------------
 
 [OBJ3277]
 Name=Puerta abierta 14 de Arkhein
@@ -38067,16 +37697,6 @@ Texto=Puerta cerrada con llave Comercio de Penthar
 en_texto=This honorable house belongs to
 en_Name=Locked door Penthar trade
 ExtraStr=Puerta cerrada con llave Comercio de Penthar
-
-[OBJ3377]
-Name=Llave de comercios de Penthar
-ExtraStr=Llave de comercios de Penthar
-GrhIndex=509
-ObjType=9
-Clave=276
-Valor=
-Texto=Llave de comercios de Penthar
-en_Name=Penthar Trade Key
 
 [OBJ3378]
 Name=Poción de reset
@@ -40073,17 +39693,6 @@ en_texto=This honorable house belongs to
 en_Name=locked door new house cabin 2
 ExtraStr=Puerta cerrada con llave casa nueva cabaña 2
 
-[OBJ3513]
-Name=Llave casa nueva cabaña Nro: 02
-ExtraStr=Llave de la casa nueva cabaña 2
-GrhIndex=509
-ObjType=9
-Clave=1274
-Valor=
-Texto=Llave de la casa nueva cabaña 2
-NFT=0
-en_Name=House key New Cabin 2
-
 [OBJ3514]
 Name=Árbol
 GrhIndex=2547
@@ -41080,16 +40689,6 @@ Texto=Cabaña Vikinga Comercio Puerta cerrada con llave
 en_texto=career gate
 ExtraStr=Cabaña Vikinga Comercio Puerta cerrada con llave
 
-[OBJ3586]
-Name=Llave Cabaña Vikinga Comercio
-ExtraStr=Llave Cabaña Vikinga Comercio
-GrhIndex=509
-ObjType=9
-Clave=1307
-Valor=
-Texto=Llave Cabaña Vikinga Comercio
-NFT=0
-
 [OBJ3587]
 Name=Mesón Vikingo Puerta abierta
 GrhIndex=8552
@@ -41137,17 +40736,6 @@ Texto=Mesón Vikingo Puerta cerrada con Llave
 en_texto=career gate
 en_Name=Viking Inn Door Closed With Key
 ExtraStr=Mesón Vikingo Puerta cerrada con Llave
-
-[OBJ3590]
-Name=Llave Meson Vikingo
-ExtraStr=Llave Meson Vikingo
-GrhIndex=509
-ObjType=9
-Clave=1307
-Valor=
-Texto=Llave Meson Vikingo
-NFT=0
-en_Name=Viking Meson Key
 
 [OBJ3591]
 Name=Cabaña Vikingo Puerta abierta
@@ -41277,16 +40865,6 @@ Texto=Aumenta por unos segundos tu velocidad de movimiento.
 en_texto=Briefly increases your movement speed.
 en_Name=War Cry
 SPELLINDEX=237
-
-[OBJ3601]
-Name=Llave Cabaña Vikingo
-ExtraStr=Llave Cabaña Vikingo
-GrhIndex=509
-ObjType=9
-Clave=1310
-Valor=
-Texto=Llave Cabaña Vikingo
-NFT=0
 
 [OBJ3602]
 Name=Cabaña Vikinga Puerta Abierta.
@@ -42307,36 +41885,6 @@ Texto=Te divorcia
 en_name=Divorce Potion
 NoSeCae=1
 
-[OBJ3677]
-Name=Espada Caotica (EVENTO)
-GrhIndex=35900
-Anim=42
-Objtype=2
-MinHIT=25
-MaxHIT=30
-Valor=350
-Crucial=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP12=MAGO
-Texto=Espada Caotica (EVENTO)
-Nowiki=1
-en_Name=harbinger Kin
-MagicDamageBonus=0
-Revive=1
-NoSeCae=1
-Intirable=1
-Instransferible=1
-WeaponType=1
-
 [OBJ3678]
 Name=Espada Real (EVENTO)
 GrhIndex=36791
@@ -42452,38 +42000,6 @@ CP9=ASESINO
 CP10=GUERRERO
 CP12=MAGO
 en_texto=You almost look like the nobility.
-NoSeCae=1
-Intirable=1
-Instransferible=1
-NoWiki=1
-
-[OBJ3682]
-Name=Corona Caotica (EVENTO)
-Anim=21
-NumRopaje=2
-GrhIndex=4692
-ObjType=17
-Subtipo=1
-
-'ResistenciaMagica=3
-MAXDEF=10
-MINDEF=15
-Valor=50000
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP12=MAGO
-Crucial=0
-MinELV=1
-Texto=Aumenta tu resistencia mágica un 3%
-en_texto=Increases your magic resistance by 3%.
 NoSeCae=1
 Intirable=1
 Instransferible=1
@@ -43098,16 +42614,6 @@ ObjType=6
 Llave=1
 Agarrable=1
 
-[OBJ3725]
-Name=Llave casa Ullathorpe Nro: 05
-ExtraStr=Llave Casa de Clan
-GrhIndex=509
-ObjType=9
-Clave=305
-Valor=0
-Texto=¡Con esta llave podrás abrir tu Casa Patreon!
-NFT=0
-
 [OBJ3726]
 Name=Casa
 GrhIndex=16330
@@ -43718,16 +43224,6 @@ IndexCerrada=3780
 IndexCerradaLlave=3781
 Texto=Cabaña Puerta con Llave de la casa Nro 1
 ExtraStr=Cabaña Puerta con Llave de la casa Nro 1
-
-[OBJ3782]
-Name=Llave casa casa Nro: 01
-ExtraStr=Llave de la casa Nro 1
-GrhIndex=509
-ObjType=9
-Clave=1335
-Valor=
-Texto=Llave de la casa Nro 1
-NFT=0
 
 [OBJ3783]'Item a borrar DE LA DB antes de nueva temporada
 Name=Trampa Inmovilizadora
@@ -44791,37 +44287,6 @@ en_Name=Skull cracker
 en_texto=Skull cracker
 WeaponType=5
 
-[OBJ3837]'Item Tier MAX para Cazador
-Name=Arco del Tirador Maestro
-Anim=120
-GrhIndex=38789
-MinELV=1
-Objtype=2
-MinHIT=12
-MaxHIT=15
-Valor=0
-Crucial=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-Proyectil=1
-Municiones=1
-Texto=Arco del Tirador Maestro
-DosManos=0
-CreaGRH=20170:-94700:5:1
-en_Name=Bow of the Master Marksman
-en_texto=Bow of the Master Marksman
-WeaponType=3
-NoWiki=1
-
 [OBJ3838]'Item Tier MAX para Asesino
 Name=Daga del Eclipse
 GrhIndex=995
@@ -45618,16 +45083,6 @@ IndexCerrada=3891
 IndexCerradaLlave=3892
 Texto=Cabaña Puerta con Llave  de la casa Nro 05
 ExtraStr=Cabaña Puerta con Llave  de la casa Nro 5
-
-[OBJ3893]
-Name=Llave casa casa Nro: 05
-ExtraStr=Llave de la casa Nro 5
-GrhIndex=509
-ObjType=9
-Clave=1334
-Valor=
-Texto=Texto=Llave de la casa Nro 05
-NFT=0
 
 [OBJ3894]
 CP1=GUERRERO
@@ -46835,16 +46290,6 @@ Clave=1333
 Valor=
 Texto=Llave Cabaña Sigmud
 NFT=0
-
-[OBJ3972]'Llave montaña falsa
-Name=Llave Montaña
-ExtraStr=Llave Montaña
-GrhIndex=509
-ObjType=9
-Valor=
-Texto=Llave Montaña
-NFT=0
-NoSeCae=1
 
 [OBJ3973]
 Name=Cabaña Sigmud Puerta Abierta.
@@ -52198,41 +51643,6 @@ MinELV=1
 Valor=7200
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Cota de Gladiador (Drow)
-
-[OBJ4331]
-Name=Vestido de Bruja
-GrhIndex=11609
-RopajeHumano=0
-RopajeElfo=0
-RopajeElfoOscuro=0
-RopajeEnano=0
-RopajeOrco=0
-RopajeGnomo=0
-RopajeHumana=2249
-RopajeElfa=2249
-RopajeElfaOscura=3706
-RopajeEnana=2764
-RopajeOrca=3331
-RopajeGnoma=2764
-ObjType=3
-RazaDrow=1
-MAXDEF=20
-MINDEF=15
-Valor=7000
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-Mujer=1
-MinELV=1
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Vestido de Bruja (H/E/EO-M)
-en_Name=Witch Dress (H/E/EO-M)
 
 [OBJ4332]
 CP1=GUERRERO
@@ -64759,23 +64169,6 @@ GrhIndex=0
 [OBJ600] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
 
-[OBJ605] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Sombrero Negro de Mago
-Texto=Sombrero Negro de Mago
-GrhIndex=15646
-ObjType=17
-Valor=750
-MaxDef=2
-MinDef=3
-en_Name=Black Wizard Hat
-en_Texto=Black Wizard Hat
-fr_Name=Chapeau de sorcier noir
-fr_Texto=Chapeau de sorcier noir
-it_Name=Cappello mago nero
-it_Texto=Cappello mago nero
-pt_Name=Chapéu preto do mago
-pt_Texto=Chapéu preto do mago
-
 [OBJ653] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Unicornio
 Texto=Te permite montar un Unicornio
@@ -65373,39 +64766,6 @@ it_Texto=Danno 5/8
 pt_Name=Dagger escura
 pt_Texto=Dano 5/8
 
-[OBJ1111] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Nudillo de Mithril +1
-Texto=Daño 12/15
-GrhIndex=86202
-ObjType=2
-Valor=0
-MaxHit=15
-MinHit=12
-en_Name=Mithril Knuckles +1
-en_Texto=Damage 12/15
-fr_Name=Mithril +1 Knuckles
-fr_Texto=Dommages 12/15
-it_Name=Mithril +1 nocche
-it_Texto=Danno 12/15
-pt_Name=Mithril +1 Knuckles
-pt_Texto=Danos 12/15
-' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1825)
-WeaponType=8
-Anim=76
-Subtipo=2
-MinELV=33
-CP1=GUERRERO
-CP2=PALADIN
-CP3=ASESINO
-CP4=CLERIGO
-CP5=TRABAJADOR
-CP6=CAZADOR
-CP7=PIRATA
-CP8=LADRON
-CP9=BARDO
-CP10=DRUIDA
-CP11=MAGO
-
 [OBJ1112] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Armadura Dorada
 Texto=Defensa 35/38
@@ -65494,23 +64854,6 @@ it_Name=Armatura da caccia superiore
 it_Texto=Difesa 32/37
 pt_Name=Armadura superior do caçador
 pt_Texto=Defesa 32/37
-
-[OBJ1115] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Casco de Cazador
-Texto=Defensa 15/20
-GrhIndex=4496
-ObjType=17
-Valor=0
-MaxDef=20
-MinDef=15
-en_Name=Hunter Helmet
-en_Texto=Defense 15/20
-fr_Name=Casque de chasseur
-fr_Texto=Défense 15/20
-it_Name=Casco Hunter
-it_Texto=Difesa 15/20
-pt_Name=Capacete de Hunter
-pt_Texto=Defesa 15/20
 
 [OBJ1116] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=39005
@@ -66115,22 +65458,6 @@ CP2=GUERRERO
 CP3=LADRON
 CP4=PIRATA
 CP5=TRABAJADOR
-
-[OBJ1682] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Fulgor Ígneo
-Texto=Causa entre 20 y 30 puntos de daño al NPC que selecciones.
-GrhIndex=28922
-ObjType=24
-Valor=0
-SPELLINDEX=52
-en_Name=Fiery Glow
-en_Texto=It causes 35 to 50 points of damage.
-fr_Name=Fulgor Igneo
-fr_Texto=Provoquer 35 à 50 points de dégâts.
-it_Name=Fulgor Ineceo
-it_Texto=Causare da 35 a 50 punti di danno.
-pt_Name=Fulgor Igneo
-pt_Texto=Causar 35 a 50 pontos de dano.
 
 [OBJ1683] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Destello Malva
@@ -67082,28 +66409,6 @@ Crucial=1
 MinAgu=50
 newbie=1
 
-[OBJ3750] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Bastón del Aprendiz
-Texto=Aumenta tu Daño Mágico un 3%
-GrhIndex=8495
-ObjType=2
-Valor=0
-MaxHit=1
-MinHit=1
-en_Name=Apprentice's Staff
-en_Texto=Increase your Magic Damage by 3%
-fr_Name=Baston de l'apprenti
-fr_Texto=Augmentez vos dégâts magiques de 3%
-it_Name=Baston dell'apprendista
-it_Texto=Aumenta il tuo danno magico del 3%
-pt_Name=Baston do aprendiz
-pt_Texto=Aumente seu dano mágico em 3%
-' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ3495)
-WeaponType=4
-Anim=51
-MinELV=1
-MagicDamageBonus=3
-
 [OBJ3751] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Flauta del Aprendiz
 Texto=Aumenta tu Daño Mágico un 3%
@@ -67156,74 +66461,6 @@ WeaponType=2
 Anim=8
 Apuñala=1
 MinELV=1
-
-[OBJ3754] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Espada del Aprendiz
-Texto=Daño 2/4
-GrhIndex=504
-ObjType=2
-Valor=0
-Destruye=1
-MaxHit=4
-MinHit=2
-en_Name=Apprentice's Sword
-en_Texto=Damage 2/4
-fr_Name=Sword apprenti
-fr_Texto=Dommages 2/4
-it_Name=Spada dell'apprendista
-it_Texto=Danno 2/4
-pt_Name=Aprendiz de espada
-pt_Texto=Dano 2/4
-' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ3487)
-WeaponType=1
-Anim=1
-Subtipo=2
-MinELV=1
-
-[OBJ3755] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Nudillo del Aprendiz
-Texto=Daño 2/3
-GrhIndex=44577
-ObjType=2
-Valor=0
-MaxHit=3
-MinHit=2
-en_Name=Damage 2/3
-en_Texto=Apprentice's Knuckles
-fr_Name=Apprenant de l'apprenti
-fr_Texto=Dommages 2/3
-it_Name=Studente dell'apprendista
-it_Texto=Danno 2/3
-pt_Name=Aluno do aprendiz
-pt_Texto=Dano 2/3
-' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1353)
-WeaponType=8
-MinELV=1
-
-[OBJ3756] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Arco del Aprendiz
-Texto=Daño 2/3
-GrhIndex=17525
-ObjType=2
-Valor=0
-Proyectil=1
-MaxHit=3
-MinHit=2
-Municiones=1
-en_Name=Apprentice's Bow
-en_Texto=Damage 2/3
-fr_Name=Apprenti arc
-fr_Texto=Dommages 2/3
-it_Name=ARC di apprendista
-it_Texto=Danno 2/3
-pt_Name=Aprendiz
-pt_Texto=Dano 2/3
-' Reparado 06.002: claves de logica del server que la reconstruccion de localindex no traia (base OBJ479)
-WeaponType=3
-BOWCATEGORY=1
-Anim=7
-MinELV=1
-DosManos=0
 
 [OBJ3757] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Anillo de Defensa Mágica
@@ -73167,12 +72404,6 @@ Llave=0
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
 
-[OBJ6196] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Llave Puerta de alcantarilla N° 1
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 1
-
 [OBJ6197] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Puerta de alcantarilla N° 2 Puerta Abierta.
 GrhIndex=58
@@ -73196,12 +72427,6 @@ ObjType=6
 Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
-
-[OBJ6200] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Llave Puerta de alcantarilla N° 2
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 2
 
 [OBJ6201] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Puerta de alcantarilla N° 3 Puerta Abierta.
@@ -73227,12 +72452,6 @@ Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
 
-[OBJ6204] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Llave Puerta de alcantarilla N° 3
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 3
-
 [OBJ6205] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Puerta de alcantarilla N° 4 Puerta Abierta.
 GrhIndex=58
@@ -73256,12 +72475,6 @@ ObjType=6
 Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
-
-[OBJ6208] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Llave Puerta de alcantarilla N° 4
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 4
 
 [OBJ6209] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Puerta de alcantarilla N° 5 Puerta Abierta.
@@ -73287,12 +72500,6 @@ Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
 
-[OBJ6212] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Llave Puerta de alcantarilla N° 5
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 5
-
 [OBJ6213] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Puerta de alcantarilla N° 6 Puerta Abierta.
 GrhIndex=58
@@ -73316,12 +72523,6 @@ ObjType=6
 Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
-
-[OBJ6216] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Llave Puerta de alcantarilla N° 6
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 6
 
 [OBJ6217] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Puerta de alcantarilla N° 7 Puerta Abierta.
@@ -73347,12 +72548,6 @@ Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
 
-[OBJ6220] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Llave Puerta de alcantarilla N° 7
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 7
-
 [OBJ6221] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Puerta de alcantarilla N° 8 Puerta Abierta.
 GrhIndex=58
@@ -73376,12 +72571,6 @@ ObjType=6
 Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
-
-[OBJ6224] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Llave Puerta de alcantarilla N° 8
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 8
 
 [OBJ6225] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Puerta de alcantarilla N° 9 Puerta Abierta.
@@ -73407,12 +72596,6 @@ Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
 
-[OBJ6228] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Llave Puerta de alcantarilla N° 9
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 9
-
 [OBJ6229] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Puerta de alcantarilla N° 10 Puerta Abierta.
 GrhIndex=58
@@ -73436,12 +72619,6 @@ ObjType=6
 Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
-
-[OBJ6232] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Llave Puerta de alcantarilla N° 10
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 10
 
 [OBJ6233] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Galletas Navideñas

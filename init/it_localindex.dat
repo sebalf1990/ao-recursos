@@ -6535,9 +6535,6 @@ ORO=70
 GiveEXPClan=1
 MaxHIT=140
 MinHIT=110
-NumQuiza=1
-QUIZADROPEA1=1682
-QuizaProb=300
 NpcType=0
 Nivel=20
 
@@ -18276,30 +18273,6 @@ GrhIndex=28753
 ObjType=11
 Valor=26
 
-[OBJ174]
-Name=Llave de Ruinas
-GrhIndex=509
-ObjType=9
-Texto=Llave de Ruinas
-
-[OBJ178]
-Name=Llave de Ruinas
-GrhIndex=509
-ObjType=9
-Texto=Llave de Ruinas
-
-[OBJ182]
-Name=Llave de Ruinas
-GrhIndex=509
-ObjType=9
-Texto=Llave de Ruinas
-
-[OBJ183]
-Name=Llave del Fuerte Dorck
-GrhIndex=509
-ObjType=9
-Texto=Llave del Fuerte Dorck
-
 [OBJ187]
 Name=Minero Picket
 texto=Strumento necessario per minare
@@ -18897,27 +18870,6 @@ ObjType=9
 Valor=0
 Texto=Llave del Gran Consejo de Banderbill
 
-[OBJ306]
-Name=Llave bóveda 1 del Gran Consejo vieja Banderbill
-GrhIndex=509
-ObjType=9
-Valor=0
-Texto=Llave de la bóveda 1 del Gran Consejo de la vieja Banderbill
-
-[OBJ310]
-Name=Llave bóveda 2 del Gran Consejo vieja Banderbill
-GrhIndex=509
-ObjType=9
-Valor=0
-Texto=Llave de la bóveda 2 del Gran Consejo de la vieja Banderbill
-
-[OBJ314]
-Name=Llave bóveda de Finanzas Goliath
-GrhIndex=509
-ObjType=9
-Valor=0
-Texto=Llave de la bóveda de Finanzas Goliath
-
 [OBJ315]
 Name=Cartel
 Info=Muelles
@@ -19325,13 +19277,6 @@ GrhIndex=49235
 ObjType=48
 Agarrable=0
 Texto=Este cofre contiene una máscara al azar.
-
-[OBJ376]
-Name=Llave de Isla Veleta
-GrhIndex=509
-ObjType=9
-Valor=0
-Texto=Llave de Isla Veleta
 
 [OBJ377]
 GrhIndex=49235
@@ -19780,26 +19725,6 @@ Name=Llave casa Lindos Nro: 06
 GrhIndex=509
 ObjType=9
 Texto=Llave de la casa de Lindos 06
-
-[OBJ444]
-Name=Llave Abadía de Lindos
-GrhIndex=509
-ObjType=9
-Texto=Llave de la Abadía de Lindos
-
-[OBJ448]
-Name=Llave bóveda Abadía de Lindos
-GrhIndex=509
-ObjType=9
-Valor=0
-Texto=Llave de la bóveda de la Abadía de Lindos
-
-[OBJ452]
-Name=Llave Prisión vieja Banderbill
-GrhIndex=509
-ObjType=9
-Valor=0
-Texto=Llave de la Prisión de la vieja Banderbill
 
 [OBJ453]
 GrhIndex=38181
@@ -21015,15 +20940,6 @@ ObjType=20
 Agarrable=1
 Texto=Cofre Cerrado
 
-[OBJ605]
-Name=Cappello mago nero
-Texto=Cappello mago nero
-GrhIndex=15646
-ObjType=17
-Valor=750
-MaxDef=2
-MinDef=3
-
 [OBJ608]
 Name=Experiencia
 GrhIndex=55247
@@ -21364,7 +21280,7 @@ ObjType=44
 Valor=0
 
 [OBJ656]
-Name=Lanza
+Name=Lanza de Guerra
 GrhIndex=875
 Objtype=2
 MinHIT=13
@@ -21793,7 +21709,7 @@ Objtype=20
 Texto=Aumenta tus puntos de habilidad en Apuñalar 10 puntos.
 
 [OBJ742]
-Name=Lanza
+Name=Lanza Rústica
 GrhIndex=902
 Objtype=2
 MinHIT=4
@@ -22246,12 +22162,6 @@ Name=Llave casa Arghâl Nro: 15
 GrhIndex=509
 ObjType=9
 Texto=Llave de la casa de Arghâl 15
-
-[OBJ821]
-Name=Llave Mansión de Suramei
-GrhIndex=509
-ObjType=9
-Texto=Llave de la Mansión de Suramei
 
 [OBJ826]
 Name=Puerta abierta
@@ -23739,15 +23649,6 @@ Valor=0
 MaxHit=8
 MinHit=5
 
-[OBJ1111]
-Name=Mithril +1 nocche
-Texto=Danno 12/15
-GrhIndex=86202
-ObjType=2
-Valor=0
-MaxHit=15
-MinHit=12
-
 [OBJ1112]
 Name=Armatura dorata
 Texto=Difesa 35/38
@@ -23799,15 +23700,6 @@ RopajeHumano=382
 RopajeOrca=3460
 RopajeOrco=1416
 
-[OBJ1115]
-Name=Casco Hunter
-Texto=Difesa 15/20
-GrhIndex=4496
-ObjType=17
-Valor=0
-MaxDef=20
-MinDef=15
-
 [OBJ1116]
 GrhIndex=39005
 MaxHit=12
@@ -23833,12 +23725,6 @@ GrhIndex=0
 
 [OBJ1123]
 GrhIndex=0
-
-[OBJ1126]
-Name=Llave Maestra
-GrhIndex=509
-ObjType=9
-Texto=Llave Maestra
 
 [OBJ1130]
 Name=Cartel Penthar al Norte
@@ -24755,20 +24641,6 @@ GrhIndex=49488
 Agarrable=1
 Texto=Teleport a Illiandor
 
-[OBJ1377]
-Name=Llave Asamblea
-GrhIndex=509
-ObjType=9
-Valor=0
-Texto=Llave de la Asamblea
-
-[OBJ1394]
-Name=Llave Bóveda de Banderbill
-GrhIndex=509
-ObjType=9
-Valor=0
-Texto=Llave de la Bóveda de Banderbill
-
 [OBJ1396]
 Name=Planes de Ataque Naga
 GrhIndex=888
@@ -24783,41 +24655,6 @@ MAXDEF=0
 MINDEF=0
 Valor=50
 Texto=Cambia tu apariencia con esta mascara
-
-[OBJ1434]
-Name=Llave del Salón de Trivias
-GrhIndex=509
-ObjType=9
-Valor=0
-Texto=Llave del Salón de Trivias
-
-[OBJ1463]
-Name=Llave del Fuerte del Infierno
-GrhIndex=509
-ObjType=9
-Valor=0
-Texto=Llave del Fuerte del Infierno
-
-[OBJ1464]
-Name=Llave Biblioteca vieja Banderbill
-GrhIndex=509
-ObjType=9
-Valor=0
-Texto=Llave de la Biblioteca de la vieja Banderbill
-
-[OBJ1465]
-Name=Llave Segunda del Palacio Real
-GrhIndex=509
-ObjType=9
-Valor=0
-Texto=Llave Segunda del Palacio Real
-
-[OBJ1466]
-Name=Llave Primera del Palacio Real
-GrhIndex=509
-ObjType=9
-Valor=0
-Texto=Llave Primera del Palacio Real
 
 [OBJ1468]
 Name=Fuente
@@ -26924,13 +26761,6 @@ GrhIndex=609
 ObjType=24
 Valor=36000
 
-[OBJ1682]
-Name=Fulgor Ineceo
-Texto=Causare da 35 a 50 punti di danno.
-GrhIndex=28922
-ObjType=24
-Valor=0
-
 [OBJ1683]
 Name=Malva Flash
 Texto=Causare 40 a 55 punti di danno.
@@ -27215,15 +27045,6 @@ Valor=6600
 SkSastreria=93
 PIELTIGREBENGALA=37
 
-[OBJ1759]
-Name=Aureola Karvy
-GrhIndex=4488
-ObjType=17
-MAXDEF=1
-MINDEF=7
-Valor=650
-Texto=Aureola Karvy
-
 [OBJ1761]
 Name=Casco di ferro rinforzato
 texto=Difesa 12/15
@@ -27376,15 +27197,6 @@ MinHit=1
 MaxHit=1
 Valor=11400
 MaderaElfica=2400
-
-[OBJ1790]
-Name=Espada de la Iluminación
-GrhIndex=8500
-Objtype=2
-MinHIT=15
-MaxHIT=20
-Valor=0
-Texto=Espada Legendaria Exclusiva de Paladines
 
 [OBJ1792]
 Name=Sciabola
@@ -27591,15 +27403,6 @@ MinHIT=1
 MaxHIT=1
 Valor=50000
 Texto=Gran nigromante de la Legión Oscura.
-
-[OBJ1824]
-Name=Espada electrica
-GrhIndex=36791
-Objtype=2
-MinHIT=14
-MaxHIT=15
-Valor=6000
-Texto=Espada electrica
 
 [OBJ1825]
 Name=Nocca di Mithril
@@ -36200,13 +36003,6 @@ llave=1
 Agarrable=1
 Texto=Puerta cerrada con llave de comercios
 
-[OBJ3063]
-Name=Llave Maestra de Comercios de Banderbill
-GrhIndex=509
-ObjType=9
-Valor=3
-Texto=Llave Maestra de Comercios de Banderbill
-
 [OBJ3064]
 Name=Puerta abierta Castillo
 GrhIndex=36
@@ -36230,13 +36026,6 @@ ObjType=6
 llave=1
 Agarrable=1
 Texto=Puerta cerrada con llave Castillo
-
-[OBJ3067]
-Name=Llave Catillo de Banderbill
-GrhIndex=509
-ObjType=9
-Valor=3
-Texto=Llave de la Catillo de Banderbill
 
 [OBJ3068]
 Name=Puerta del Ducto abierta
@@ -36665,13 +36454,6 @@ llave=1
 Agarrable=1
 Texto=Puerta cerrada con Iglesia
 
-[OBJ3128]
-Name=Llave Iglesia de Banderbill
-GrhIndex=509
-ObjType=9
-Valor=3
-Texto=Llave Iglesia de Banderbill
-
 [OBJ3129]
 Name=Puerta abierta Iglesia
 GrhIndex=4577
@@ -36696,13 +36478,6 @@ llave=1
 Agarrable=1
 Texto=Puerta cerrada con Iglesia
 
-[OBJ3132]
-Name=Llave Iglesia de Banderbill
-GrhIndex=509
-ObjType=9
-Valor=3
-Texto=Llave Iglesia de Banderbill
-
 [OBJ3133]
 Name=Cofre de Armaduras Legendarias
 GrhIndex=49242
@@ -36718,7 +36493,7 @@ valor=0
 Texto=Item de colección
 
 [OBJ3135]
-Name=Espada Argentum
+Name=Espada Argentum Antigua
 GrhIndex=997
 Objtype=2
 MinHIT=9
@@ -37596,13 +37371,6 @@ llave=1
 Agarrable=1
 Texto=Puerta cerrada con llave Castillo
 
-[OBJ3248]
-Name=Llave Catillo
-GrhIndex=509
-ObjType=9
-Valor=3
-Texto=Llave de la Catillo
-
 [OBJ3249]
 Name=Puerta abierta Iglesia Arkhein
 GrhIndex=4123
@@ -37626,13 +37394,6 @@ ObjType=6
 llave=1
 Agarrable=1
 Texto=Puerta cerrada con llave Iglesia
-
-[OBJ3252]
-Name=Llave Catillo
-GrhIndex=509
-ObjType=9
-Valor=3
-Texto=Llave de la Catillo
 
 [OBJ3253]
 Name=Copa de Oro
@@ -37810,13 +37571,6 @@ ObjType=6
 llave=1
 Agarrable=1
 Texto=Puerta cerrada con llave Meson new Arkhein
-
-[OBJ3276]
-Name=Llave Meson de Banderbill
-GrhIndex=509
-ObjType=9
-Valor=3
-Texto=Llave Meson de Banderbill
 
 [OBJ3277]
 Name=Puerta abierta 14 de Arkhein
@@ -38588,12 +38342,6 @@ ObjType=6
 llave=1
 Agarrable=1
 Texto=Puerta cerrada con llave Comercio de Penthar
-
-[OBJ3377]
-Name=Llave de comercios de Penthar
-GrhIndex=509
-ObjType=9
-Texto=Llave de comercios de Penthar
 
 [OBJ3378]
 Name=Poción de reset
@@ -39631,12 +39379,6 @@ llave=1
 Agarrable=1
 Texto=Puerta cerrada con llave casa nueva cabaña 2
 
-[OBJ3513]
-Name=Llave casa nueva cabaña Nro: 02
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa nueva cabaña 2
-
 [OBJ3514]
 Name=Árbol
 GrhIndex=2547
@@ -40168,12 +39910,6 @@ llave=1
 Agarrable=1
 Texto=Cabaña Vikinga Comercio Puerta cerrada con llave
 
-[OBJ3586]
-Name=Llave Cabaña Vikinga Comercio
-GrhIndex=509
-ObjType=9
-Texto=Llave Cabaña Vikinga Comercio
-
 [OBJ3587]
 Name=Mesón Vikingo Puerta abierta
 GrhIndex=8552
@@ -40197,12 +39933,6 @@ ObjType=6
 llave=1
 Agarrable=1
 Texto=Mesón Vikingo Puerta cerrada con Llave
-
-[OBJ3590]
-Name=Llave Meson Vikingo
-GrhIndex=509
-ObjType=9
-Texto=Llave Meson Vikingo
 
 [OBJ3591]
 Name=Cabaña Vikingo Puerta abierta
@@ -40260,12 +39990,6 @@ GrhIndex=609
 Valor=1000000
 Objtype=24
 Texto=Aumenta por unos segundos tu velocidad de movimiento.
-
-[OBJ3601]
-Name=Llave Cabaña Vikingo
-GrhIndex=509
-ObjType=9
-Texto=Llave Cabaña Vikingo
 
 [OBJ3602]
 Name=Cabaña Vikinga Puerta Abierta.
@@ -40828,15 +40552,6 @@ ObjType=11
 Valor=100
 Texto=Te divorcia
 
-[OBJ3677]
-Name=Espada Caotica (EVENTO)
-GrhIndex=35900
-Objtype=2
-MinHIT=25
-MaxHIT=30
-Valor=350
-Texto=Espada Caotica (EVENTO)
-
 [OBJ3678]
 Name=Espada Real (EVENTO)
 GrhIndex=36791
@@ -40872,15 +40587,6 @@ Valor=0
 Texto=Casi que pareces de la nobleza.
 MAXDEF=0
 MINDEF=0
-
-[OBJ3682]
-Name=Corona Caotica (EVENTO)
-GrhIndex=4692
-ObjType=17
-MAXDEF=10
-MINDEF=15
-Valor=50000
-Texto=Aumenta tu resistencia mágica un 3%
 
 [OBJ3683]
 Name=Onda Mágica
@@ -41204,13 +40910,6 @@ GrhIndex=49580
 ObjType=6
 Llave=1
 Agarrable=1
-
-[OBJ3725]
-Name=Llave casa Ullathorpe Nro: 05
-GrhIndex=509
-ObjType=9
-Valor=0
-Texto=¡Con esta llave podrás abrir tu Casa Patreon!
 
 [OBJ3726]
 Name=Casa
@@ -41573,12 +41272,6 @@ ObjType=6
 llave=1
 Agarrable=1
 Texto=Cabaña Puerta con Llave de la casa Nro 1
-
-[OBJ3782]
-Name=Llave casa casa Nro: 01
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa Nro 1
 
 [OBJ3783]
 Name=Trampa Inmovilizadora
@@ -42004,18 +41697,6 @@ MaxHIT=18
 Valor=0
 Texto=Rompecráneos
 
-[OBJ3837]
-Name=Arco del Tirador Maestro
-GrhIndex=38789
-Objtype=2
-MinHIT=12
-MaxHIT=15
-Valor=0
-Proyectil=1
-Municiones=1
-Texto=Arco del Tirador Maestro
-CreaGRH=20170:-94700:5:1
-
 [OBJ3838]
 Name=Daga del Eclipse
 GrhIndex=995
@@ -42413,12 +42094,6 @@ ObjType=6
 llave=1
 Agarrable=1
 Texto=Cabaña Puerta con Llave  de la casa Nro 05
-
-[OBJ3893]
-Name=Llave casa casa Nro: 05
-GrhIndex=509
-ObjType=9
-Texto=Texto=Llave de la casa Nro 05
 
 [OBJ3894]
 Name=Pozione velenosa (Alchemy)
@@ -43007,12 +42682,6 @@ Name=Llave Cabaña Sigmud
 GrhIndex=509
 ObjType=9
 Texto=Llave Cabaña Sigmud
-
-[OBJ3972]
-Name=Llave Montaña
-GrhIndex=509
-ObjType=9
-Texto=Llave Montaña
 
 [OBJ3973]
 Name=Cabaña Sigmud Puerta Abierta.
@@ -45716,27 +45385,6 @@ MAXDEF=22
 MINDEF=15
 Valor=7200
 Texto=Cota de Gladiador (Drow)
-
-[OBJ4331]
-Name=Vestido de Bruja
-GrhIndex=11609
-RopajeHumano=0
-RopajeElfo=0
-RopajeElfoOscuro=0
-RopajeEnano=0
-RopajeOrco=0
-RopajeGnomo=0
-RopajeHumana=2249
-RopajeElfa=2249
-RopajeElfaOscura=3706
-RopajeEnana=2764
-RopajeOrca=3331
-RopajeGnoma=2764
-ObjType=3
-MAXDEF=20
-MINDEF=15
-Valor=7000
-Texto=Vestido de Bruja (H/E/EO-M)
 
 [OBJ4332]
 Name=Armatura ebano
@@ -52017,15 +51665,6 @@ GrhIndex=584
 ObjType=13
 Valor=16
 
-[OBJ3750]
-Name=Baston dell'apprendista
-Texto=Aumenta il tuo danno magico del 3%
-GrhIndex=8495
-ObjType=2
-Valor=0
-MaxHit=1
-MinHit=1
-
 [OBJ3751]
 Name=Flauto dell'apprendista
 Texto=Aumenta il tuo danno magico del 3%
@@ -52049,36 +51688,6 @@ Valor=0
 Destruye=1
 MaxHit=3
 MinHit=2
-
-[OBJ3754]
-Name=Spada dell'apprendista
-Texto=Danno 2/4
-GrhIndex=504
-ObjType=2
-Valor=0
-Destruye=1
-MaxHit=4
-MinHit=2
-
-[OBJ3755]
-Name=Studente dell'apprendista
-Texto=Danno 2/3
-GrhIndex=44577
-ObjType=2
-Valor=0
-MaxHit=3
-MinHit=2
-
-[OBJ3756]
-Name=ARC di apprendista
-Texto=Danno 2/3
-GrhIndex=17525
-ObjType=2
-Valor=0
-Proyectil=1
-MaxHit=3
-MinHit=2
-Municiones=1
 
 [OBJ3757]
 Name=Anello di difesa magica
@@ -56896,12 +56505,6 @@ Llave=0
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
 
-[OBJ6196]
-Name=Llave Puerta de alcantarilla N° 1
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 1
-
 [OBJ6197]
 Name=Puerta de alcantarilla N° 2 Puerta Abierta.
 GrhIndex=58
@@ -56925,12 +56528,6 @@ ObjType=6
 Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
-
-[OBJ6200]
-Name=Llave Puerta de alcantarilla N° 2
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 2
 
 [OBJ6201]
 Name=Puerta de alcantarilla N° 3 Puerta Abierta.
@@ -56956,12 +56553,6 @@ Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
 
-[OBJ6204]
-Name=Llave Puerta de alcantarilla N° 3
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 3
-
 [OBJ6205]
 Name=Puerta de alcantarilla N° 4 Puerta Abierta.
 GrhIndex=58
@@ -56985,12 +56576,6 @@ ObjType=6
 Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
-
-[OBJ6208]
-Name=Llave Puerta de alcantarilla N° 4
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 4
 
 [OBJ6209]
 Name=Puerta de alcantarilla N° 5 Puerta Abierta.
@@ -57016,12 +56601,6 @@ Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
 
-[OBJ6212]
-Name=Llave Puerta de alcantarilla N° 5
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 5
-
 [OBJ6213]
 Name=Puerta de alcantarilla N° 6 Puerta Abierta.
 GrhIndex=58
@@ -57045,12 +56624,6 @@ ObjType=6
 Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
-
-[OBJ6216]
-Name=Llave Puerta de alcantarilla N° 6
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 6
 
 [OBJ6217]
 Name=Puerta de alcantarilla N° 7 Puerta Abierta.
@@ -57076,12 +56649,6 @@ Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
 
-[OBJ6220]
-Name=Llave Puerta de alcantarilla N° 7
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 7
-
 [OBJ6221]
 Name=Puerta de alcantarilla N° 8 Puerta Abierta.
 GrhIndex=58
@@ -57105,12 +56672,6 @@ ObjType=6
 Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
-
-[OBJ6224]
-Name=Llave Puerta de alcantarilla N° 8
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 8
 
 [OBJ6225]
 Name=Puerta de alcantarilla N° 9 Puerta Abierta.
@@ -57136,12 +56697,6 @@ Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
 
-[OBJ6228]
-Name=Llave Puerta de alcantarilla N° 9
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 9
-
 [OBJ6229]
 Name=Puerta de alcantarilla N° 10 Puerta Abierta.
 GrhIndex=58
@@ -57165,12 +56720,6 @@ ObjType=6
 Llave=1
 Agarrable=1
 Texto=Puerta de Puerta de alcantarilla
-
-[OBJ6232]
-Name=Llave Puerta de alcantarilla N° 10
-GrhIndex=509
-ObjType=9
-Texto=Llave Puerta de alcantarilla N° 10
 
 [OBJ6233]
 Name=Galletas Navideñas
