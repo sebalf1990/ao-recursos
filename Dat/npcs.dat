@@ -1431,18 +1431,6 @@ Body=91
 Movement=1
 BackUp=0
 en_desc=There are many creatures that need to be fought in this world. You are the one to do it. Start!
-NumQuest=11
-QuestNumber1=343
-QuestNumber2=344
-QuestNumber3=345
-QuestNumber4=346
-QuestNumber5=347
-QuestNumber6=348
-QuestNumber7=349
-QuestNumber8=350
-QuestNumber9=351
-QuestNumber10=352
-QuestNumber11=353
 
 [NPC92] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=1049
@@ -1458,8 +1446,6 @@ it_Desc=Sono disperato, per favore aiutami!
 it_Name=Ofelia <Quest>
 pt_Desc=Estou desesperado, por favor me ajude!
 pt_Name=Ofelia <miss>
-NumQuest=1
-QuestNumber1=119
 
 [NPC93]
 Name=Bael el Bardo <Quest>
@@ -1473,8 +1459,6 @@ Body=125
 Movement=1
 BackUp=0
 en_desc=Do you have free time to listen to some songs?
-NumQuest=1
-QuestNumber1=90
 
 [NPC94]
 Name=Mezier <Quest>
@@ -2188,9 +2172,6 @@ Desc=No puedo decirte exactamente qué haré con él... pero sé que su energía
 Body=5639
 Head=0
 NpcType=17
-NumQuest=2
-QuestNumber1=337
-QuestNumber2=338
 
 [NPC261]
 Name=Guardia Imperial
@@ -3131,8 +3112,6 @@ en_desc=You're scared, and I love being here!
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=1
-QuestNumber1=11
 
 [NPC412]
 Name=John Silver <Quest>
@@ -3155,8 +3134,6 @@ en_desc=My parrot has escaped! Ah, sorry. I hadn't seen you.
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=1
-QuestNumber1=15
 
 [NPC413]
 Name=Galar
@@ -3223,8 +3200,6 @@ en_desc=Hello, I am in charge of the security of this city.
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=1
-QuestNumber1=36
 
 [NPC420]
 Name=Cold <Ciudadano de Eleusis>
@@ -3289,8 +3264,6 @@ en_desc=I have run out of resources.
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=1
-QuestNumber1=34
 
 [NPC424]
 Name=Eldariel <Quest>
@@ -4023,8 +3996,6 @@ PoderAtaque=65
 PoderEvasion=42
 en_Name=Barbarian Goblin
 fr_Name=Gobelin Barbare
-NumDropQuest=1
-DropQuest1=61-2685-1-1
 
 [NPC519] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Rikkar
@@ -4529,8 +4500,6 @@ Drop1=407-325-1-1
 Nivel=28
 PoderAtaque=200
 PoderEvasion=160
-NumDropQuest=1
-DropQuest1=43-2230-1-2
 '[NPC530]
 'Name=Gorila Blanco
 'en_name=White Gorilla
@@ -4957,8 +4926,6 @@ Humanoide=1
 NPCLVL=25
 MagicResistance=63
 MagicDef=10
-NumDropQuest=1
-DropQuest1=27-2218-1-1
 
 [NPC540]
 Name=Medusa
@@ -4998,10 +4965,9 @@ Ataque1=4857
 NpcType=0
 DropCount=1
 Drop1=2846-100-1-1
-NumDropQuest=3
-DropQuest1=49-2218-1-1
-DropQuest2=261-2772-1-200
-DropQuest3=270-2792-1-500
+NumDropQuest=2
+DropQuest1=261-2772-1-200
+DropQuest2=270-2792-1-500
 '[NPC541]
 'Name=Golem de Hierro
 'en_name=Iron Golem
@@ -5297,8 +5263,6 @@ Humanoide=0
 NPCLVL=10
 MagicResistance=25
 MagicDef=0
-NumDropQuest=1
-DropQuest1=31-2138-1-2
 
 [NPC548]
 Name=Tiburón
@@ -5452,11 +5416,10 @@ DropCount=3
 Drop1=415-100-1-10
 Drop2=415-10-1-5
 Drop3=415-1-1-1
-NumDropQuest=4
-DropQuest1=90-2182-1-10
-DropQuest2=65-2502-1-20
-DropQuest3=231-538-1-1000
-DropQuest4=323-459-1-10
+NumDropQuest=3
+DropQuest1=65-2502-1-20
+DropQuest2=231-538-1-1000
+DropQuest3=323-459-1-10
 
 [NPC552]
 Name=Asesino
@@ -5543,9 +5506,6 @@ Nivel=20
 DropCount=2
 Drop1=1856-250-1-1
 Drop2=1721-40-1-1
-NumDropQuest=2
-DropQuest1=16-2757-1-1
-DropQuest2=31-2554-1-1
 
 [NPC554] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=4042
@@ -5621,9 +5581,8 @@ Alineacion=0
 Nivel=23
 PoderAtaque=130
 PoderEvasion=110
-NumDropQuest=2
-DropQuest1=23-2707-1-1
-DropQuest2=37-2262-1-40
+NumDropQuest=1
+DropQuest1=37-2262-1-40
 
 [NPC556] 'NPC
 Name=Fuego Fatuo
@@ -5976,9 +5935,6 @@ it_Desc=La città di commercio è nei guai!
 it_Name=Mezier <stro>
 pt_Desc=A cidade do comércio está com problemas!
 pt_Name=Mezier <Stro>
-NumQuest=2
-QuestNumber1=62
-QuestNumber2=74
 
 [NPC567]
 Name=Calaveras
@@ -6254,8 +6210,6 @@ Alineacion=0
 Nivel=28
 PoderAtaque=230
 PoderEvasion=150
-NumDropQuest=1
-DropQuest1=51-2488-1-1
 DropCount=1
 Drop1=5182-1000-1-1
 
@@ -6995,8 +6949,6 @@ it_Desc=Ho bisogno del tuo aiuto per saperne di più sulla medusa!
 it_Name=Franklin <stro>
 pt_Desc=Preciso da sua ajuda para aprender mais sobre a água -viva!
 pt_Name=Franklin <Stro>
-NumQuest=1
-QuestNumber1=49
 
 [NPC605] 'Araña Drenaje 1
 Name=Araña Negra
@@ -7901,10 +7853,9 @@ QuizaProb=300
 Ataque1=5135
 NpcType=0
 Nivel=20
-NumDropQuest=3
-DropQuest1=151-3531-1-1
-DropQuest2=156-3534-1-40
-DropQuest3=160-2250-1-10
+NumDropQuest=2
+DropQuest1=156-3534-1-40
+DropQuest2=160-2250-1-10
 
 [NPC646]
 Name=Escarabajo Gigante
@@ -7933,8 +7884,6 @@ NpcType=0
 Nivel=20
 DropCount=1
 Drop1=239-100-1-1
-NumDropQuest=1
-DropQuest1=151-3532-1-1
 
 [NPC647]
 Name=Escarabajo
@@ -7958,13 +7907,12 @@ PoderEvasion=95
 NPCLVL=17
 NpcType=0
 Nivel=20
-NumDropQuest=6
-DropQuest1=151-3533-1-1
-DropQuest2=155-3529-1-200
-DropQuest3=155-3530-1-200
-DropQuest4=155-3531-1-200
-DropQuest5=155-3532-1-200
-DropQuest6=155-3533-1-200
+NumDropQuest=5
+DropQuest1=155-3529-1-200
+DropQuest2=155-3530-1-200
+DropQuest3=155-3531-1-200
+DropQuest4=155-3532-1-200
+DropQuest5=155-3533-1-200
 
 [NPC648]
 Name=Reydmon
@@ -8585,8 +8533,6 @@ MagicResistance=30
 MagicDef=0
 NpcType=0
 Nivel=15
-NumDropQuest=1
-DropQuest1=194-2728-1-2
 
 [NPC669] Scramer encapuchado
 Name=Scramer Sombrio
@@ -8619,9 +8565,8 @@ IntervaloRespawn=360
 IntervaloRespawnMin=180
 NpcType=0
 Nivel=15
-NumDropQuest=2
+NumDropQuest=1
 DropQuest1=210-2511-1-2
-DropQuest2=196-3847-1-2
 
 [NPC670] Scramer anciano
 Name=Scramer Nigromante
@@ -8655,11 +8600,8 @@ MagicResistance=17
 MagicDef=0
 NpcType=0
 Nivel=15
-NumDropQuest=4
+NumDropQuest=1
 DropQuest1=199-2702-1-2
-DropQuest2=211-2490-1-2
-DropQuest3=236-2490-1-2
-DropQuest4=195-3844-1-2
 
 [NPC671] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=4357
@@ -8806,8 +8748,6 @@ Alineacion=0
 '--- COPIA PRIVADA ORIGINAL NPC675 (Líder de la Manada) antes de oficializar; cliente oficial era Colmillo Blanco ---
 PoderAtaque=200
 PoderEvasion=140
-NumDropQuest=1
-DropQuest1=209-3972-1-2
 '[NPC675] Lobo gris
 'Name=Líder de la Manada
 'En_Name=Herd Leader
@@ -9440,10 +9380,8 @@ en_desc=Here I see you! I think you're coming for me.
 NPCLVL=1
 MagicResistance=3
 MagicDef=0
-NumQuest=3
+NumQuest=1
 QuestNumber1=109
-QuestNumber2=103
-QuestNumber3=104
 
 [NPC698]
 Name=Antoine <Quest>
@@ -9462,8 +9400,6 @@ en_desc=What do you want? Not everyone belongs to the fishermen's guild. Let me 
 NPCLVL=1
 MagicResistance=3
 MagicDef=0
-NumQuest=1
-QuestNumber1=108
 
 [NPC699]
 Name=Ralph <Quest>
@@ -9533,8 +9469,6 @@ it_Desc=Pensi che qualcuno come te potrebbe affrontare questa temibile bestia?
 it_Name=Eugenia <stro>
 pt_Desc=Você acha que alguém como se pudesse enfrentar essa fera temível?
 pt_Name=Eugenia <Stro>
-NumQuest=1
-QuestNumber1=52
 
 [NPC719] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=187
@@ -9972,10 +9906,9 @@ MagicDef=10
 AguaValida=0
 IntervaloRespawn=360
 IntervaloRespawnMin=180
-NumDropQuest=3
+NumDropQuest=2
 DropQuest1=219-1997-1-2
-DropQuest2=216-2681-1-2
-DropQuest3=214-2231-1-2
+DropQuest2=214-2231-1-2
 
 [NPC755]'new gigante
 Name=Gigantor
@@ -11118,8 +11051,6 @@ Attackable=1
 Hostile=1
 PoderAtaque=70
 PoderEvasion=50
-NumDropQuest=1
-DropQuest1=24-2576-1-1
 
 [NPC951]
 Name=Calaveras
@@ -11710,8 +11641,6 @@ NpcType=0
 DropCount=1
 Drop1=2531-18-1-1
 Nivel=20
-NumDropQuest=1
-DropQuest1=20-2531-5-1
 
 [NPC981] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, ElementalTags
 Name=Scorvex
@@ -12439,9 +12368,8 @@ GiveEXPClan=1
 Ataque1=5514
 NpcType=0
 Nivel=30
-NumDropQuest=2
-DropQuest1=53-1396-1-7
-DropQuest2=232-2659-1-40
+NumDropQuest=1
+DropQuest1=232-2659-1-40
 
 [NPC1015]
 Name=Kadru
@@ -12475,10 +12403,9 @@ MagicDef=10
 Ataque1=5520
 NpcType=0
 Nivel=30
-NumDropQuest=3
-DropQuest1=53-1396-1-7
-DropQuest2=141-2515-1-40
-DropQuest3=270-2797-1-200
+NumDropQuest=2
+DropQuest1=141-2515-1-40
+DropQuest2=270-2797-1-200
 
 [NPC1016]
 Name=Aksha
@@ -12520,8 +12447,6 @@ Ataque1=5517
 NpcType=0
 GiveEXPClan=1
 Nivel=30
-NumDropQuest=1
-DropQuest1=53-1396-1-10
 '[NPC1020]
 'Name=Banshee
 'Body=666
@@ -13603,19 +13528,6 @@ GiveGLD=00
 MaxHIT=1
 MinHIT=1
 Nivel=20
-NumQuest=12
-QuestNumber1=354
-QuestNumber2=355
-QuestNumber3=356
-QuestNumber4=357
-QuestNumber5=358
-QuestNumber6=359
-QuestNumber7=360
-QuestNumber8=361
-QuestNumber9=362
-QuestNumber10=363
-QuestNumber11=364
-QuestNumber12=365
 
 [NPC1050] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Syla
@@ -14832,10 +14744,6 @@ it_Desc=Ho alcune missioni per te!
 it_Name=Tony <stro>
 pt_Desc=Eu tenho algumas missões para você!
 pt_Name=Tony <Stro>
-NumQuest=3
-QuestNumber1=163
-QuestNumber2=200
-QuestNumber3=201
 
 [NPC1110]
 Name=Celyne <Sastre de Arghal>
@@ -16290,8 +16198,6 @@ en_desc=So many things to do and get and always with so little time! umGr...
 NPCLVL=30
 MagicResistance=75
 MagicDef=10
-NumQuest=1
-QuestNumber1=112
 
 [NPC1151]
 Name=Lempard <Quest>
@@ -16311,12 +16217,6 @@ NPCLVL=30
 MagicResistance=75
 MagicDef=10
 TestOnly=1
-NumQuest=5
-QuestNumber1=131
-QuestNumber2=120
-QuestNumber3=121
-QuestNumber4=130
-QuestNumber5=122
 
 [NPC1152] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Viejo Libro de Pesca
@@ -16507,10 +16407,6 @@ Desc=No fijes tus ojos en los míos. Aquí, quienes observan demasiado... desapa
 Body=19
 Head=106
 NpcType=17
-NumQuest=3
-QuestNumber1=213
-QuestNumber2=211
-QuestNumber3=274
 
 [NPC1162] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Mantis Marrón
@@ -16562,9 +16458,6 @@ Desc=Ah... un viajero llega hasta estas islas barridas por el viento. Aquí, don
 Body=771
 Head=310
 NpcType=17
-NumQuest=2
-QuestNumber1=209
-QuestNumber2=276
 
 [NPC1165] 'Del oficial (pack 2026-10-01); quest. El numero era nuestro Bardo (Legendario), mudado a NPC9053. Plan 17.001 Ola 3. sin quest: habla y nada mas
 Name=Phenoba <Quest de Dungeon Veril>
@@ -16677,11 +16570,6 @@ Body=2195
 Head=54
 NpcType=17
 DisabledInBattleServer=1
-NumQuest=4
-QuestNumber1=330
-QuestNumber2=331
-QuestNumber3=332
-QuestNumber4=333
 
 [NPC1172] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Sheila <Quest de Piedras Primordiales>
@@ -17693,12 +17581,6 @@ AfectaParalisis=1
 NPCLVL=30
 MagicResistance=75
 MagicDef=10
-NumDropQuest=5
-DropQuest1=143-3481-1-6
-DropQuest2=143-3486-1-4
-DropQuest3=143-3491-1-4
-DropQuest4=143-3495-1-4
-DropQuest5=143-3501-1-4
 
 [NPC1213] 'Npc para que invoque el nigromante orco
 Name=Rey Enano Capturado
@@ -17729,12 +17611,6 @@ AfectaParalisis=1
 NPCLVL=30
 MagicResistance=75
 MagicDef=10
-NumDropQuest=5
-DropQuest1=144-3482-1-6
-DropQuest2=144-3487-1-4
-DropQuest3=144-3492-1-4
-DropQuest4=144-3496-1-4
-DropQuest5=144-3502-1-4
 
 [NPC1214] 'Npc para que invoque el nigromante orco
 Name=Rey Oscuro Capturado
@@ -17765,12 +17641,6 @@ AfectaParalisis=1
 NPCLVL=30
 MagicResistance=75
 MagicDef=10
-NumDropQuest=5
-DropQuest1=145-3483-1-6
-DropQuest2=145-3488-1-4
-DropQuest3=145-3493-1-4
-DropQuest4=145-3497-1-4
-DropQuest5=145-3503-1-4
 
 [NPC1215] 'Npc para que invoque el nigromante orco
 Name=Rey Gnomo Capturado
@@ -17801,11 +17671,6 @@ NPCLVL=30
 MagicResistance=75
 MagicDef=10
 NoWiki=1
-NumDropQuest=4
-DropQuest1=146-3485-1-6
-DropQuest2=146-3489-1-4
-DropQuest3=146-3498-1-4
-DropQuest4=146-3504-1-4
 
 [NPC1216] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Amanita
@@ -18013,8 +17878,6 @@ PoderEvasion=30
 SubeSupervivencia=0
 Humanoide=0
 NPCLVL=7
-NumDropQuest=1
-DropQuest1=151-3530-1-1
 
 [NPC1224] 'Para Piramide
 Name=Escorpión Califa
@@ -18041,8 +17904,6 @@ PoderAtaque=100
 PoderEvasion=75
 Humanoide=0
 NPCLVL=13
-NumDropQuest=1
-DropQuest1=151-3529-1-1
 
 [NPC1225]
 Name=Sloane <Quest>
@@ -18058,8 +17919,6 @@ en_desc=Hey you Have you ever seen a Naga? Help me with this and you will see wh
 NPCLVL=12
 MagicResistance=30
 MagicDef=0
-NumQuest=1
-QuestNumber1=53
 
 [NPC1226] 'Elemental que invoca el Devorador del inframundo
 Name=Elemental Infernal
@@ -19859,10 +19718,6 @@ Attackable=0
 NPCLVL=22
 MagicResistance=55
 MagicDef=5
-NumQuest=3
-QuestNumber1=144
-QuestNumber2=147
-QuestNumber3=150
 
 [NPC1284]
 Name=Rengal <Quest>
@@ -19881,10 +19736,6 @@ Attackable=0
 NPCLVL=22
 MagicResistance=55
 MagicDef=5
-NumQuest=3
-QuestNumber1=145
-QuestNumber2=148
-QuestNumber3=151
 
 [NPC1285]
 Name=Fisch <Quest>
@@ -19903,10 +19754,6 @@ Attackable=0
 NPCLVL=22
 MagicResistance=55
 MagicDef=5
-NumQuest=3
-QuestNumber1=143
-QuestNumber2=146
-QuestNumber3=149
 
 [NPC1286]
 Name=LucAstilla <Quest>
@@ -19925,9 +19772,6 @@ Attackable=0
 NPCLVL=22
 MagicResistance=55
 MagicDef=5
-NumQuest=2
-QuestNumber1=157
-QuestNumber2=158
 
 [NPC1287]
 Name=Marinero Robusto
@@ -20012,8 +19856,6 @@ en_desc=Damn Sigmud... I think I'm too late.
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-NumQuest=1
-QuestNumber1=163
 
 [NPC1291]
 Name=Escritorio <Quest de Pesca>
@@ -20724,8 +20566,6 @@ NoWiki=1
 NPCLVL=23
 MagicResistance=57
 MagicDef=5
-NumQuest=1
-QuestNumber1=136
 
 [NPC1325]
 Name=Mago Pirata
@@ -27368,9 +27208,6 @@ it_Desc=Pensi che qualcuno come tu possa affrontare il famoso drago rosso? Non c
 it_Name=Esmeralda <Quest>
 pt_Desc=Você acha que alguém como se pudesse enfrentar o famoso dragão vermelho? Eu não acredito nisso ...
 pt_Name=Esmeralda <Imiss>
-NumQuest=2
-QuestNumber1=25
-QuestNumber2=195
 
 [NPC1017] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=562
@@ -27386,8 +27223,6 @@ it_Desc=Sto cercando chi riesce a mostrare il suo potere ed è in grado di aiuta
 it_Name=Snyder <Quest>
 pt_Desc=Procuro quem consegue mostrar seu poder e é capaz de ajudar tanto na principal quanto no mar. Não tenho dúvidas de que essa será uma troca valiosa.
 pt_Name=Snyder <itement>
-NumQuest=1
-QuestNumber1=31
 
 [NPC1060] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Sergio <Monturas>, mudado a NPC9056. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC520 del oficial, vida mas parecida: SUPUESTO; sin drops
 Name=Philiph
@@ -27472,12 +27307,6 @@ DescClose=¡Hasta pronto!
 Body=73
 Head=536
 NpcType=17
-NumQuest=5
-QuestNumber1=265
-QuestNumber2=266
-QuestNumber3=267
-QuestNumber4=268
-QuestNumber5=269
 
 [NPC1078] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=728
@@ -28006,11 +27835,6 @@ GiveGLD=00
 MaxHIT=1
 MinHIT=1
 Nivel=20
-NumQuest=4
-QuestNumber1=366
-QuestNumber2=367
-QuestNumber3=368
-QuestNumber4=369
 
 [NPC1818] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Capitán Real
@@ -28020,9 +27844,6 @@ BodyIdle=5552
 Ataque1=5553
 NpcType=17
 NoMapInfo=1
-NumQuest=2
-QuestNumber1=370
-QuestNumber2=371
 
 [NPC1819] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Emisario Sombrío
@@ -28032,9 +27853,6 @@ BodyIdle=5555
 Ataque1=5556
 NpcType=17
 NoMapInfo=1
-NumQuest=2
-QuestNumber1=370
-QuestNumber2=371
 
 [NPC1900] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Marinero de Prueba

@@ -2290,16 +2290,6 @@ RequiredLevel=6
 DescAudio=1050
 DescFinalAudio=1051
 
-[QUEST4]
-Nombre=Poison mortel
-Desc=Je vois qu'il vous reste de la valeur, mais vous aurez besoin de plus que cela pour survivre dans ces terres. Vous devez avoir toutes sortes de potions pour l'aventure. Tuez 10 serpents et apportez-moi votre poison, je pense que je peux faire quelques antidotes pour vous.
-DescFinal=Bon travail, attendez-moi un instant ...
-Repetible=0
-RequiredLevel=1
-PosMap=44
-DescAudio=1052
-DescFinalAudio=1053
-
 [QUEST5]
 Nombre=Votre première chasse
 Desc=Des loups sauvages rôdent sur nos terres à l'ombre d'une lune maladive. Le maître d'armes Bertram vous convoque : vous devez non seulement les chasser, mais aussi arracher à l'un d'eux son croc maudit. Seul un loup, touché par les ténèbres, le porte. Cherchez, attendez… et écoutez son hurlement distinctif. Le croc du loup ne s'obtient pas par la chance, mais par la détermination. Une fois que vous l'aurez obtenu, venez me voir à la forge de Nix.
@@ -2308,62 +2298,6 @@ Repetible=0
 RequiredLevel=15
 DescAudio=1054
 DescFinalAudio=1055
-
-[QUEST7]
-Nombre=Recettes de potions
-Desc=Nous allons essayer si cela fonctionne vraiment, j'ai besoin d'un stylo de corbeau pour viser mes recettes. Mieux vaut m'en apporter plusieurs au cas où.
-Repetible=0
-RequiredLevel=4
-PosMap=218
-DescAudio=1056
-
-[QUEST11]
-Nombre=Colère du nain
-Desc=Je suis déjà fatigué de ces putain d'orcs, mon bétail a décimé. Est-ce votre forêt? Je m'en fiche. Eux et ces créatures basses ... vous devez les anéantir! Nous, les bons citoyens d'Ullathorpe, devons reprendre le contrôle de la région. Allez tuer cinq de chacun. Apportez-moi également les axes de ces orcs, ils seront utiles.
-DescFinal=Excellent! De la même manière étrange pour ma vache, ayez cette récompense.
-Repetible=0
-RequiredLevel=16
-PosMap=39
-DescAudio=1057
-DescFinalAudio=1058
-
-[QUEST13]
-Nombre=Œil pour les yeux, poignard de poignard
-Desc=Apparemment, la confrérie des criminels n'aimait pas le massacre que nous avons fait avec la bande de hors-la-loi qui semet la terreur sur les routes. Ils peuvent être le même clan et venir à la vengeance. Ils ne jouent pas, ils ont déjà versé du sang innocent. Ils ont tué plusieurs Taberrs de la ville. Allez leur apprendre que cette ville ne cédera pas à ses menaces.
-Repetible=0
-RequiredLevel=17
-PosMap=1
-DescAudio=1059
-
-[QUEST14]
-Nombre=Trop de loups!
-Desc=Je suis fatigué de ces putain de loups terrorisant nos commerçants et nos citoyens, aide nos chasseurs à mettre fin aux loups sauvages qui traquaient nos forêts et aident à dormir plus calmement, je promets de vous donner un bon prix.
-DescFinal=Les citoyens d'Ullthorpe merci!
-Repetible=0
-RequiredLevel=9
-PosMap=11
-DescAudio=1060
-DescFinalAudio=1061
-
-[QUEST15]
-Nombre=Fournitures de combat
-Desc=J'ai besoin de boucliers pour mon équipage. J'ai entendu dire que près de ces forêts habitent les tortues, je serais utile pour leurs coquilles.
-DescFinal=Ayez votre récompense!
-Repetible=0
-RequiredLevel=11
-PosMap=36
-DescAudio=1062
-DescFinalAudio=1063
-
-[QUEST16]
-Nombre=La grande arnaque
-Desc=Ullathorpe était connu pour sa tranquillité, maintenant même pas ça. Un ravageur de bandits a hébergé la route ici et a attaqué les caravanes qui circulent entre cette ville et le château du roi. Cela se termine avec eux. L'argent n'est pas intéressé, je vous le donnerai. De plus, vous pouvez garder le butin qu'ils ont.
-DescFinal=À quel point ces têtes seront bonnes sur la place de la ville. Merci.
-Repetible=0
-RequiredLevel=13
-PosMap=270
-DescAudio=1064
-DescFinalAudio=1065
 
 [QUEST17]
 Nombre=Entre ombre et blessure
@@ -2384,74 +2318,6 @@ RequiredLevel=15
 PosMap=38
 DescAudio=1068
 DescFinalAudio=1069
-
-[QUEST19]
-Nombre=Basse température
-Desc=Nos Taberrs nous ont donné un avis du danger que les ours qui errent autour de Nix représentent. C'est une bonne occasion d'obtenir des skins de qualité.
-DescFinal=Je vous remercie de l'aide, vous pouvez m'aider à nouveau avec cette tâche quand vous le souhaitez.
-Repetible=0
-RequiredLevel=13
-PosMap=20
-DescAudio=1070
-DescFinalAudio=1071
-
-[QUEST20]
-Nombre=Grande mutation
-Desc=Alors maintenant, vous devez entrer pour mettre fin au mutant arachnide. Nous ne pouvons pas le laisser là. Apportez-moi des preuves que vous avez terminé avec lui.
-DescFinal=Je ne peux pas le croire, nous étions désespérés. Nous pensions que ce serait la fin de notre connexion avec Ullathorpe. Ceci est pour vous.
-Repetible=0
-RequiredLevel=14
-PosMap=174
-DescAudio=1072
-DescFinalAudio=1073
-
-[QUEST21]
-Nombre=Le gardien du mausolée
-Desc=C'est le moment! Enfin, apportez la paix à tous les citoyens de Nix! Vaincre le gardien du mausolée et me revoir
-DescFinal=Vous avez réussi! Veuillez accepter cette récompense ..
-Repetible=0
-RequiredLevel=18
-PosMap=34
-
-[QUEST22]
-Nombre=Protection aquatique
-Desc=Certains collègues ont eu des problèmes avec les nageurs du Sud, ils sont proches d'une grotte mystérieuse. Cela ne peut pas se reproduire, les voir et les battre pour moi. Si vous avez du caractère, nous pouvons conserver vos costumes.
-DescFinal=Excellent travail! En avoir un pour vous, cela vous aidera.
-Repetible=0
-RequiredLevel=13
-PosMap=106
-
-[QUEST23]
-Nombre=Bijoux d'arcanes
-Desc=Soyez prudent avec ces créatures maléfiques. Dans le costume de l'un d'eux, nous trouvons une très belle pente qui, selon nous, peut appartenir aux sorcières qui se cachent dans nos territoires. Apportez-moi autant que possible, vous pouvez citer un bon or sur le marché Ullathorpe.
-DescFinal=Merci, cela peut vous servir.
-Repetible=0
-RequiredLevel=20
-PosMap=106
-
-[QUEST24]
-Nombre=Dépendance de Jabalis
-Desc=Je viens d'obtenir sur le rivage que le soleil se couche et que nous manquons de provisions pour l'auberge. Veuillez voir et obtenir dix sacs de sangliers!
-DescFinal=Je suis très reconnaissant, vous nous avez sauvés. Prenez ces pièces en récompense.
-Repetible=0
-RequiredLevel=13
-PosMap=55
-
-[QUEST25]
-Nombre=Un peu de répit
-Desc=MH, ils m'ont parlé de vous, que vous êtes bon, courageux, qualifié et que vous avez l'attitude nécessaire. De ma part? Seulement des mots. Vérifiez-le, j'ai besoin d'une respiration de sirène pour une expérience. Et oui, bien sûr: il y aura un prix.
-DescFinal=Voici votre prix
-Repetible=0
-RequiredLevel=26
-DescAudio=1287
-DescFinalAudio=1288
-
-[QUEST27]
-Nombre=Différents types de sorciers
-Desc=Si vous voulez apprendre à maîtriser la magie, vous devriez commencer à affronter ceux qui postulent, allez entreprendre la chasse à l'intérieur de l'île. Bonne chance!
-DescFinal=Excellent travail, vous pouvez continuer à vous entraîner autant de fois que vous le souhaitez.
-Repetible=0
-RequiredLevel=25
 
 [QUEST28]
 Nombre=Éclats de Sang et de Bois
@@ -2482,43 +2348,6 @@ RequiredLevel=25
 PosMap=182
 DescAudio=1504
 DescFinalAudio=1505
-
-[QUEST31]
-Nombre=Collectionneur de corail
-Desc=Bonjour comment allez-vous?. Je ne suis pas très bon, car j'ai perdu la mobilité au milieu du corps, je ne peux plus plonger et collecter des coraux. C'était ma passion et aussi mon entreprise, ils se sont très bien vendus dans le port de Nix. Si vous êtes intéressé, nous pourrions parvenir à un accord pour de l'argent, je ne vous vois pas très capable de plonger, mais les Mantarryas les mangent généralement par erreur, vous pouvez en lancer certains et voir si vous les obtenez.
-DescFinal=Nous pouvons continuer à travailler ensemble.
-Repetible=0
-RequiredLevel=25
-DescAudio=1306
-DescFinalAudio=1307
-
-[QUEST32]
-Nombre=Combat nigromancia
-Desc=La liche est une sorte de non-diad, le résultat de la transformation dans laquelle un puissant magicien se transforme à travers des sorts ou des rituels pour atteindre l'immortalité. Ceux-ci dominent le premier niveau de marabel comme première garde du golem de pierre qui est caché à la fin de protéger les sorciers. Un messager Ullathorpe m'a dit que le chef de la garde voulait que nous les exterminions pour laisser le chemin libre au golem.
-DescFinal=Vous êtes surprenant! Les rumeurs sur votre courage étaient vraies.
-Repetible=0
-RequiredLevel=18
-PosMap=76
-
-[QUEST34]
-Nombre=Une tige de ma taille
-Desc=Quelle fortune pour vous voir! Je pensais que je ne verrais jamais quelqu'un ici. N'êtes-vous pas un bandit, non? Bah, que dis-je. Si vous étiez déjà blessé. J'ai besoin de matériaux pour terminer la construction de ma cabine. Pourriez-vous m'apporter du bois?
-DescFinal=Maintenant, je peux finir ma maison! Merci beaucoup
-Repetible=0
-RequiredLevel=15
-PosMap=271
-DescAudio=1090
-DescFinalAudio=1091
-
-[QUEST36]
-Nombre=Entrée nord
-Desc=Nos sentinelles signalent un grand nombre de bandits au nord d'Ullathorpe; Si vous parvenez à repousser leurs progrès, je peux vous payer avec des pièces d'or!
-DescFinal=Je vous félicite Guerrero, excellent travail. Avoir ceci.
-Repetible=1
-RequiredLevel=5
-PosMap=5
-DescAudio=1238
-DescFinalAudio=1239
 
 [QUEST37]
 Nombre=Magie ancestrale
@@ -2577,14 +2406,6 @@ Repetible=0
 RequiredLevel=8
 PosMap=35
 
-[QUEST43]
-Nombre=Quand le mal se traque
-Desc=Nous avons découvert que la force qui a affecté le cimetière et le mausolée est un putain de nécromant. Aidez-nous à réduire votre force, à détruire leurs squelettes de sbires et nous pouvons dormir plus calme.
-DescFinal=Il peut déjà être considéré comme l'influence de ce nécromant diminue à travers nos terres. Nous sommes profondément reconnaissants.
-Repetible=0
-RequiredLevel=8
-PosMap=35
-
 [QUEST44]
 Nombre=L'embryon perdu
 Desc=Écoutez attentivement, car je n'ai pas le temps pour les drames… Sur une île au sud d'ici, les créatures que j'ai tant protégées – les nobles Griffons – ont été victimes d'une attaque inattendue. Des lézards sombres, rapides et voraces ont envahi leurs nids… mais ce n'est pas le pire ! L'une de ces bêtes immondes s'est échappée avec un embryon en développement, le premier d'une lignée ancestrale… Si nous ne le récupérons pas, la lignée des Griffons Dorés sera perdue à jamais. Rendez-vous sur l'île et éliminez tous les lézards que vous trouverez. L'une d'elles le porte en elle. Oui, littéralement… Elle l'a avalé tout entier. Vous le reconnaîtrez à l'éclat inhabituel de son ventre.
@@ -2634,62 +2455,6 @@ PosMap=211
 DescAudio=1308
 DescFinalAudio=1309
 
-[QUEST49]
-Nombre=Science ou mythe?
-Desc=Les historiens ont toujours donné qu'à Veril, ils pourraient remarquer la présence d'une femme avec des similitudes avec une vieille mythologie grecque, connue sous le nom de Méduse. Vous pouvez facilement l'identifier par ses cheveux, qui a été remplacé il y a longtemps par des serpents en raison de la punition; J'ai besoin d'un de ses organes pour étudier son ADN et essayer de connaître ses secrets les plus sombres. Si vous réussissez, il y aura une très bonne récompense!
-DescFinal=Dix, vous venez de faire une grande contribution à la science!
-Repetible=1
-RequiredLevel=33
-DescAudio=1268
-DescFinalAudio=1269
-
-[QUEST50]
-Nombre=Le légendaire
-Desc=Montrez votre valeur et vous serez qualifié comme l'un des meilleurs guerriers du monde. Donnez-moi l'amulette de la reine Gorgona.
-DescFinal=Vous êtes devenu l'un des meilleurs combattants de ce monde.
-Repetible=0
-RequiredLevel=40
-
-[QUEST51]
-Nombre=Les décoller
-Desc=Dans la salle principale de la Cueva de Las Medusas, son chef apparaît généralement, qui suit en même temps les ordres attribués par la reine de Gorgona. Nous devons couper ce lien pour générer le chaos et laisser ce isolé est isolé. Allez-moi, apportez-moi une preuve que vous l'avez réalisée.
-Repetible=0
-RequiredLevel=36
-
-[QUEST52]
-Nombre=Grand dragon
-Desc=Approche, Noble Warrior, je vais vous raconter une histoire. Au nord de la forteresse légionnaire, connue sous le nom d'Arkhein, il y a une tanière où vit le dragon le plus célèbre de ce monde .. s'aventurer dans votre recherche est quelque chose que je ne recommande pas! À moins que vous ne soyez dans des conditions physiques et économiques. Vous devez vous présenter une bonne équipe et beaucoup de potions pour faire face à cette tâche ardue. Si vous n'avez pas de matadragones. Savez-vous ce que je veux dire?
-DescFinal=C'est unique, ne le perdez pas.
-Repetible=0
-RequiredLevel=36
-DescAudio=1280
-DescFinalAudio=1281
-
-[QUEST53]
-Nombre=Connaître le plan ennemi
-Desc=Ce sont des monstres à eau qui ont réussi à évoluer au point de pouvoir se déplacer sur terre. Ils ont une force admirable et une taille féroce. Ces monstres représentent une menace constante pour la ville d'Eldoria. Nous avons reçu des messages de là qui ont vu des mouvements étranges sur l'île où vivent ces créatures. Embarquer là-bas, donner dans votre grotte et vous retrouver avec les Akshas, ??Linns et Kadrus qui sont là. Voyez si vous pouvez découvrir quelque chose.
-DescFinal=Excellent. Ceci est votre généreux salaire pour vos services.
-Repetible=0
-RequiredLevel=33
-DescAudio=1518
-DescFinalAudio=1519
-
-[QUEST54]
-Nombre=Déverrouiller les tunnels
-Desc=Nous sommes vraiment inquiets, ils exigent de plus en plus de grandes quantités de fer de Banderbill pour leur reconstruction de la ville. Ce serait une bénédiction si ce n'était pas à cause de la difficulté de retirer le matériel des mines. Il y a des nains sombres bloquant les routes et entravant nos rails. Veuillez nous aider avec cela.
-DescFinal=Merci, peut-être avoir besoin de votre aide.
-Repetible=0
-RequiredLevel=25
-
-[QUEST55]
-Nombre=Reprendre les voies commerciales
-Desc=À l'ouest se trouve une île abandonnée par Dieu. De là, vous accédez aux ruines d'Earost, une grotte mythique où un kraken géant habitait des centaines d'années. Maintenant, il est devenu un refuge pirate et une position stratégique qui bloque le transport des marchandises entre Banderbill et Nix. J'ai besoin que vous alliez à l'île des pirates, entrez dans la grotte, vous vous infiltrez et mettez fin à leur capitaine. N'oubliez pas de prendre le costume en caoutchouc avec vous!
-DescFinal=Merci garçon, votre loyauté envers l'Empire est inestimable!
-Repetible=1
-RequiredLevel=33
-DescAudio=1096
-DescFinalAudio=1097
-
 [QUEST56]
 Nombre=Nouveaux boss Minotaures
 Desc=Depuis l'arrivée des Minotaures, l'extraction du fer est devenue un cauchemar. Nous devons nettoyer la zone jusqu'aux profondeurs de la Mine. Si vous parvenez à vaincre les Minotaures et à rapporter leurs cornes comme échantillon, vous serez récompensé par la guilde.
@@ -2700,13 +2465,6 @@ PosMap=369
 DescAudio=1236
 DescFinalAudio=1237
 
-[QUEST57]
-Nombre=Pyramide III
-Desc=Je trouve impossible d'entrer dans la pyramide et de poursuivre mes enquêtes, pouvez-vous m'aider?
-DescFinal=Bon travail, ici vous avez votre récompense.
-Repetible=0
-RequiredLevel=19
-
 [QUEST58]
 Nombre=Légende sur la clé
 Desc=Écoutez attentivement, Noble Warrior: Il y a une ancienne rumeur selon laquelle les araignées jettent une clé mystérieuse ici. Pouvez-vous enquêter pour moi?
@@ -2715,38 +2473,6 @@ Repetible=0
 RequiredLevel=15
 DescAudio=1098
 DescFinalAudio=1099
-
-[QUEST59]
-Nombre=Assurer l'étape
-Desc=Le seul chemin de l'enfer pour atteindre le dévorant des enfers est gardé par des coureurs qui détruisent toute expédition qui entre dans le tunnel. Bien qu'ils ne semblent pas, ils sont différents entre eux. Allez et faites leur chemin jusqu'à la fin.
-DescFinal=Avez-vous réussi à survivre? Incroyable, pensez-vous que vous pouvez recommencer?
-Repetible=0
-RequiredLevel=40
-
-[QUEST60]
-Nombre=Magie du feu
-Desc=J'ai besoin d'étudier la magie qui maintient les élémentaires du feu en vie et convertit leur masse inerte en énergie.
-DescFinal=Merci pour votre aide, vous pouvez revenir quand vous le souhaitez.
-Repetible=0
-RequiredLevel=40
-
-[QUEST61]
-Nombre=Petits serviteurs
-Desc=Si vous vous éloignez des routes du roi, vous pouvez trouver différents types de grottes avec toutes sortes de créatures, j'ai besoin de vous pour en trouver qui habitent l'environnement de Marabel. Les citoyens de Banderbill craignent parce que ces petits elfes font des activités magiques mineures avec des poupées vaudou, ce n'est vraiment pas un gros problème, mais vous m'aideriez à rassurer la population si vous en apportez certains pour démontrer leur inefficacité.
-DescFinal=Ayez ces pièces, merci pour votre Valentia.
-Repetible=0
-RequiredLevel=13
-DescAudio=1100
-DescFinalAudio=1101
-
-[QUEST62]
-Nombre=Explorer le marais
-Desc=Au nord se trouve le marais, l'une des zones les plus dangereuses de notre bien-aimé Ullathorpe. Vous devriez nous aider à nettoyer la zone pour empêcher ces créatures d'arrêter Cao - dans notre ville commerciale.
-DescFinal=Excellent travail! Attendez! Ne partez pas, il y a encore du travail à faire.
-Repetible=0
-RequiredLevel=18
-DescAudio=1258
-DescFinalAudio=1259
 
 [QUEST63]
 Nombre=Plaque de créatures
@@ -2794,74 +2520,6 @@ RequiredLevel=23
 PosMap=294
 DescAudio=1302
 
-[QUEST69]
-Nombre=Real Avant -garde Shield
-Repetible=0
-RequiredLevel=43
-
-[QUEST70]
-Nombre=Cheval blanc
-Desc=Avez-vous besoin de quelque chose de plus rapide que le cheval brun de mon frère? Si vous parvenez à obtenir pour moi 1 chevaux blancs, je peux vous donner mon cheval pour améliorer vos transferts. Ne prenez pas cette mission à moins d'être prêt à l'accomplir. Si vous l'abandonnez, vous risquez de perdre votre monture actuelle.
-DescFinal=Maintenant, vous pouvez monter mon cheval blanc! Lorsque vous êtes plus fort, visitez mon frère Marcelo, peut-être que j'ai un meilleur cadeau pour vous!
-Repetible=1
-RequiredLevel=28
-
-[QUEST71]
-Nombre=Cheval brun blindé
-Desc=Avez-vous besoin de quelque chose de plus rapide que la mule de mon frère? Si vous parvenez à obtenir pour moi 1 Horseshoe de cheval brun, je peux vous donner mon cheval pour améliorer vos transferts. Ne prenez pas cette mission à moins d'être prêt à l'accomplir. Si vous l'abandonnez, vous risquez de perdre votre monture actuelle.
-DescFinal=Maintenant, vous pouvez monter mon cheval brun! Lorsque vous êtes plus fort, visitez mon frère Christian, j'ai peut-être un meilleur cadeau pour vous!
-Repetible=1
-RequiredLevel=24
-
-[QUEST72]
-Nombre=Mount de combattant
-Desc=Avez-vous besoin de quelque chose de plus rapide que le cheval blanc de mon frère? Si vous parvenez à obtenir pour moi 1 Horseshoe, je peux vous donner mon cheval pour améliorer vos transferts. Ne prenez pas cette mission à moins d'être prêt à l'accomplir. Si vous l'abandonnez, vous risquez de perdre votre monture actuelle.
-DescFinal=Maintenant, vous pouvez configurer ma monture! Lorsque vous êtes plus fort, visitez mon frère Guido, j'ai peut-être un meilleur cadeau pour vous!
-Repetible=1
-RequiredLevel=32
-
-[QUEST74]
-Nombre=Terreur troll
-Desc=Ces putains de trolls sombres paieront toute la peur qu'ils ont infusée dans notre ville; Si vous en tuez 5, vous obtiendrez une grande récompense.
-DescFinal=Excellent travail! Ayez ceci, vous serez toujours les bienvenus ici.
-Repetible=0
-RequiredLevel=19
-DescAudio=1260
-DescFinalAudio=1261
-
-[QUEST75]
-Nombre=Coffre d'armes légendaires
-Desc=Une arme du plus haut niveau par des badges.
-DescFinal=Bonne chance.
-Repetible=0
-RequiredLevel=1
-
-[QUEST76]
-Nombre=Coffre d'armure légendaire
-Desc=Une armure la plus dure par les badges.
-DescFinal=Bonne chance.
-Repetible=0
-RequiredLevel=1
-
-[QUEST77]
-Nombre=COSSE DE CASHETS LÉGENDAIRES.
-Desc=Ce coffre contient les meilleurs casques de ces terres!
-DescFinal=Bonne chance.
-Repetible=0
-RequiredLevel=1
-
-[QUEST78]
-Nombre=Canne immaculée
-Desc=Seulement pour les meilleurs magiciens de l'armée royale.
-Repetible=0
-RequiredLevel=40
-
-[QUEST79]
-Nombre=Baston de la nuit éternelle
-Desc=Seulement pour les magiciens à haut niveau dans la Légion noire.
-Repetible=0
-RequiredLevel=40
-
 [QUEST80]
 Nombre=Grâce fragmentée
 Desc=Je t'attendais, disciple. Ce que beaucoup considèrent comme de simples créatures… ne l'est pas. Chacun porte en lui un fragment d'une essence jadis pure… entière. Il y a des siècles, cette lumière s'est brisée. Depuis, ses fragments se sont dispersés… incomplets. Certains ont tenté de la réunir. Nul n'y est parvenu. Si tu choisis de suivre cette voie, tu ne trouveras ni guide, ni raccourcis. Seulement des fragments… éparpillés… attendant d'être réunis. Quand tout sera réuni, reviens à moi.
@@ -2876,50 +2534,6 @@ Nombre=Bouclier de la Légion noire
 Desc=Je peux forger un bouclier pour vous, digne d'un guerrier aussi sombre.
 Repetible=0
 RequiredLevel=37
-
-[QUEST82]
-Nombre=Arc infernal
-Desc=La meilleure arche légionnaire disponible dans ce monde.
-Repetible=0
-RequiredLevel=40
-
-[QUEST83]
-Nombre=Arc empire
-Desc=La meilleure arche impériale disponible dans ce monde.
-Repetible=0
-RequiredLevel=40
-
-[QUEST89]
-Nombre=Excès de saleté
-Desc=Je ne sais pas si vous avez déjà vu les égouts de la ville, j'espère que vous n'avez pas couru cette chance. Mais si vous avez besoin de pièces, vous pourriez connaître l'endroit. Il y a une fléau féroce de rats qui viennent contaminer la ville et se réfugier là-bas, si vous voulez aider la grandeur de Banderbill et obtenir de l'or, allez et tuer la plus grande quantité que vous pouvez, soyez prudent avec les gens en dessous, est la cachette de la pire vache à bande.
-
-[QUEST90]
-Nombre=L'ours et la jeune fille
-Desc=Il y avait un ours, un ours, un ours! C'était noir, c'était énorme, couvert de cheveux horribles! Oh, venez, ils ont dit! Oh, venez à la foire! À la foire? Il a dit. Mais je suis un ours. Noir, énorme, couvert de cheveux horribles. Et sur la route, d'ici, d'ici à là, trois enfants, une chèvre et un ours qui dansaient! Il a dansé encerclant, jusqu'à la foire.
-DescFinal=Comme elle était douce et pure et belle.
-Repetible=0
-RequiredLevel=15
-DescAudio=1179
-DescFinalAudio=1180
-
-[QUEST91]
-Nombre=Pecadada de la Royal Navy
-Desc=Dague pour les meilleurs meurtriers de l'armée royale.
-Repetible=0
-RequiredLevel=40
-
-[QUEST92]
-Nombre=Poignard sanglant.
-Desc=Dague pour les meilleurs meurtriers de la Dark Legion.
-Repetible=0
-RequiredLevel=40
-
-[QUEST93]
-Nombre=Les exterminer comme à Barad-dûr
-Desc=Ce sera simple, les terres d'Argentum sont en proie à des orques. Vous devez en tuer des centaines pour terminer cette mission!
-DescFinal=C'est unique, ne le perdez pas.
-Repetible=0
-RequiredLevel=20
 
 [QUEST94]
 Nombre=Bouclier Royal
@@ -2938,13 +2552,6 @@ RequiredLevel=18
 DescAudio=1370
 DescFinalAudio=1371
 
-[QUEST100]
-Nombre=Forêts infessées de lobos noirs
-Desc=Comme vous l'avez remarqué dans votre recherche de sangliers, il est impossible d'entrer dans la forêt sans être attaqué par ces bêtes, les Wolves Black. Ils sont d'une taille plus élevée que commun et plus féroce.
-DescFinal=Merci pour votre aide! Voici votre récompense.
-Repetible=0
-RequiredLevel=14
-
 [QUEST101]
 Nombre=Pleine lune
 Desc=Au cours de ces derniers jours, la grotte de la désolation a été en proie à des loups, le redoutable laïque a obtenu une grande puissance. Si vous parvenez à le vaincre et à m'apporter la peau de vos sujets, vous apprendrez un sort qui n'est vendu dans aucune ville.
@@ -2954,24 +2561,6 @@ PosMap=151
 DescAudio=1420
 DescFinalAudio=1421
 
-[QUEST103]
-Nombre=Avancer pour le drainage
-Desc=Vous avez réussi à éliminer les premiers défenseurs, mais nous devons entrer dans la profondeur du drainage pour approcher la bête, terminer cette mission pour moi et me revoir, je vais vous donner un prix juteux.
-DescFinal=L'avez-vous vu?
-Repetible=0
-RequiredLevel=17
-DescAudio=1270
-DescFinalAudio=1271
-
-[QUEST104]
-Nombre=Le retrait des Gardiens
-Desc=Une partie de la légende a déclaré que le repaire de la bête était protégé par ses tuteurs: ils les rejettent; Si vous en avez visualisé dans le drainage, en fin de compte, cette histoire sera vraie.
-DescFinal=C'est vrai! Vous devez vous entraîner très bien pour affronter le puissant Har Nareth
-Repetible=0
-RequiredLevel=18
-DescAudio=1272
-DescFinalAudio=1273
-
 [QUEST105]
 Nombre=Bouclier légionnaire
 Desc=Légionnaire, j'ai observé vos efforts au nom de la Légion Noire. Tous ne possèdent pas la discipline et la force d'âme nécessaires pour porter nos emblèmes, mais vous pourriez être l'exception. Si vous parvenez à rassembler dix Insignes Rouges, trophées gagnés au combat, revenez me voir. En récompense, je vous accorderai un Bouclier de la Légion, forgé pour ceux qui ont fait preuve d'une loyauté et d'une résilience sans faille. Souvenez-vous, cet honneur n'est pas donné à n'importe qui. Seuls les Guerriers, les Ouvriers, les Paladins et les Clercs peuvent aspirer à porter ce symbole de notre puissance. Allez, légionnaire. Prouvez votre valeur.
@@ -2979,12 +2568,6 @@ Repetible=1
 RequiredLevel=23
 PosMap=295
 DescAudio=1297
-
-[QUEST108]
-Nombre=Guilde des pêcheurs
-Desc=Je vois, vous voulez faire partie de la guilde de nos pêcheurs. Vous aurez besoin de quelque chose de mieux que ce réseau cassé pour cela. Si vous voulez, je peux l'améliorer pour vous, bien que je vous avertisse que cela vous coûtera beaucoup d'argent.
-Repetible=0
-RequiredLevel=30
 
 [QUEST109]
 Nombre=Har Nareth .. Mythologie?
@@ -2994,51 +2577,6 @@ Repetible=0
 RequiredLevel=16
 DescAudio=1274
 DescFinalAudio=1275
-
-[QUEST110]
-Nombre=Premier atterrissage
-Desc=Si vous continuez à l'ouest, vous pouvez trouver une vieille île où les experts de Banderbill utilisaient pour extraire des ressources précieuses. Essayez de collecter des informations sur l'endroit et visitez-moi à nouveau.
-DescFinal=Je regrette que vous ayez traversé ces défenseurs, que cela vous récompense d'une manière ou d'une autre.
-Repetible=0
-RequiredLevel=25
-
-[QUEST111]
-Nombre=Cerf mythologique
-Desc=Merci pour votre aide, mais j'ai encore besoin d'une dernière faveur. J'ai entendu une fois une rumeur sur un ancien cerf mythologique qui a marché dans cette zone, mais je n'ai jamais réussi à le voir. Son nom est Cervus, si vous parvenez à m'apporter sa grue, vous aurez une excellente récompense.
-DescFinal=C'est la première fois que je vois cela, la légende était vraie!
-Repetible=0
-RequiredLevel=27
-
-[QUEST112]
-Nombre=Sortez d'ici.
-Desc=Que veux-tu? Voulez-vous également un maillot de bain? Tu ne vois pas que je suis occupé? Dix, prenez cette liste. Ne revenez pas avant de le terminer et nous verrons.
-DescFinal=Félicitations, vous l'avez réalisé, c'est ce que je vous ai promis.
-Repetible=0
-RequiredLevel=18
-DescAudio=1430
-DescFinalAudio=1431
-
-[QUEST113]
-Nombre=Problèmes mineurs.
-Desc=Eh bien, maintenant j'ai une tâche pour vous. C'est quelque chose que je pourrais résoudre en quelques secondes mais je ne peux pas quitter mon poste. Les habitants rapportent que des loups croissants se préparent dans les forêts. Allez faire ce qui est nécessaire pour arrêter cette menace.
-DescFinal=Je suis surpris. Surpris que vous ayez pris si longtemps, avez-vous manqué le chemin?
-Repetible=0
-
-[QUEST114]
-Nombre=Petit et ennuyeux
-Desc=Les elfes sont des créatures encore plus brutes que les orques
-DescFinal=J'espère que vous avez appris à ne pas jouer avec nous, merci pour votre aide.
-Repetible=0
-RequiredLevel=9
-PosMap=11
-DescAudio=1396
-DescFinalAudio=1397
-
-[QUEST115]
-Nombre=Fangs la nuit.
-Desc=J'ai un problème qui demande une personne de confiance et vous l'avez déjà gagnée. C'est une mission dangereuse, peut-être ne survit pas, mais c'est un risque que je suis prêt à prendre. Vous vous souvenez que vous vous envoyez tuer ces loups sauvages, eh bien, ce n'est pas du tout comme. Ces créatures peuvent vous dévorer en quelques secondes. Sois prudent.
-DescFinal=Vous êtes vivant! Je savais que vous y parvenir.
-Repetible=0
 
 [QUEST116]
 Nombre=Putain de meurtriers
@@ -3050,16 +2588,6 @@ PosMap=501
 DescAudio=1250
 DescFinalAudio=1251
 
-[QUEST117]
-Nombre=Bandits
-Desc=Les gobelins sont des créatures proches des elfes, mais ont un peu de magie dans leur sang. Aidez-moi à les éliminer, ils ont dérangé la guilde de mes travailleurs et nous devons réaliser notre prochain quota.
-DescFinal=Mes bûcherons peuvent travailler tranquillement. Dix, j'espère que cela vous aide!
-Repetible=0
-RequiredLevel=9
-PosMap=11
-DescAudio=1398
-DescFinalAudio=1399
-
 [QUEST118]
 Nombre=Horde magique
 Desc=Apparemment, une horde de petits elfes avec de grands pouvoirs magiques a envahi notre forêt, attaquant les marchands du royaume. Retirez-les et vous serez bien récompensé!
@@ -3070,41 +2598,6 @@ PosMap=185
 DescAudio=1252
 DescFinalAudio=1253
 
-[QUEST119]
-Nombre=Orcs affamés
-Desc=Ces putain d'orcs ont commencé à utiliser des arches renforcées pour faciliter la chasse javelaise et étaient maintenant pour celles de ma ferme. J'ai besoin de votre aide dès que possible pour les éliminer et retourner la paix à ma ferme.
-DescFinal=Nous serons éternellement reconnaissants!
-Repetible=1
-RequiredLevel=5
-PosMap=188
-DescAudio=1177
-DescFinalAudio=1178
-
-[QUEST120]
-Nombre=Poignards de trayoner
-Desc=Rats impurs. Les elfes noirs avant savaient être nos alliés, mais leur empressement à poignarder dans le dos s'est terminé par notre amitié. Maintenant, ils ont parcouru la voie entre Ullathorpe et Banderbill, cachés dans l'ombre pour attaquer les voyageurs désemparés. Il est temps pour quelqu'un de les mettre à sa place.
-DescFinal=Grâce à vous maintenant, les pauvres voyageurs peuvent explorer en paix. Pour l'instant..
-Repetible=1
-RequiredLevel=18
-DescAudio=1432
-DescFinalAudio=1433
-
-[QUEST121]
-Nombre=Fuite géante.
-Desc=Que savez-vous des ogres? Non, ne sont-ils pas comme des orques mais plus gros? Ils sont très pires. Vous verrez, pendant longtemps, ils ont été emprisonnés dans Dungeon Marabel, mais quelqu'un (ou quelque chose) les a libérés et maintenant la seule chose la plus importante est leur appétit pour la vengeance. Vengeance et chair humaine. Soyez prudent et ne vous laissez pas emporter par leur taille, ce sont des bêtes extrêmement athlétiques, vous verrez ce que je veux dire.
-DescFinal=Êtes-vous toujours en vie ?! Ehem, dis-je, bien sûr, ne vous donnerait jamais une tâche dans laquelle votre vie est en cours d'exécution? Ayez cet or et ne posez plus de questions.
-Repetible=0
-DescAudio=1434
-DescFinalAudio=1435
-
-[QUEST122]
-Nombre=Une amitié précieuse.
-Desc=À ce stade, je peux dire que des gens comme vous seront toujours les bienvenus ici. Je m'occuperai personnellement de l'ensemble de l'elfe que les gens connaissent votre fidélité et votre valeur.
-DescFinal=Ce que je vous donne, c'est juste ce que votre amitié mérite. Prendre
-Repetible=0
-DescAudio=1436
-DescFinalAudio=1437
-
 [QUEST123]
 Nombre=Message mystérieux
 Desc=Avez-vous réussi à pêcher une mystérieuse bouteille? Ne l'ouvrez pas! Je peux vous offrir une grande récompense si vous remplissez ma commission de poisson. Ne parlez pas de cela avec personne!
@@ -3112,50 +2605,6 @@ DescFinal=Si vous pêchez à nouveau une bouteille, n'hésitez pas à revenir!
 Repetible=1
 RequiredLevel=16
 PosMap=254
-
-[QUEST124]
-Nombre=Mule
-Desc=Bonjour, jeune aventurier! Si vous parvenez à me procurer mon Mule Horseshoe, je peux vous donner ma mule pour améliorer vos transferts.
-DescFinal=Maintenant, vous pouvez monter ma mule! Lorsque vous êtes plus fort, visitez mon frère Fabián, peut-être que j'ai un meilleur cadeau pour vous!
-Repetible=1
-RequiredLevel=20
-
-[QUEST125]
-Nombre=Une affectation très spéciale
-Desc=Commission (Description)
-DescFinal=Commandé (description finale)
-Repetible=0
-RequiredLevel=12
-
-[QUEST126]
-Nombre=Un espace supplémentaire 1.
-Desc=Que voulez-vous faire un sac à dos? Apportez-moi le matériel nécessaire et je vous aiderai volontiers.
-DescFinal=Ce fut un plaisir de le servir Seigneur, ici il a son sac à dos!
-Repetible=0
-RequiredLevel=30
-
-[QUEST128]
-Nombre=Cheval de Palomino
-Desc=Avez-vous besoin de quelque chose de plus rapide que la monture de combattant de mon frère? Si vous parvenez à obtenir pour moi 1 chevaux Palomino, je peux vous donner mon cheval pour améliorer vos transferts. Ne prenez pas cette mission à moins d'être prêt à l'accomplir. Si vous l'abandonnez, vous risquez de perdre votre monture actuelle.
-DescFinal=Maintenant, vous pouvez monter mon pop-corn! Lorsque vous êtes plus fort, visitez mon père Juan, cavalier expert de ces terres, peut avoir un meilleur cadeau pour vous!
-Repetible=1
-RequiredLevel=36
-
-[QUEST130]
-Nombre=La dernière mission.
-Desc=Vous n'avez aucune idée de combien vous nous avez aidés, mais nous avons encore un problème de plus que nous pensons que vous pouvez résoudre. Cet ennemi ne regarde pas tous ceux que vous avez rencontrés auparavant. Avec un seul coup, vous pouvez même tuer le nain le plus fort. Vous devez être prudent, mais si vous réussissez, la récompense sera énorme.
-DescFinal=Ouah! Vous êtes vraiment un guerrier de premier niveau. C'est plus que tu devrais être toi qui garde ici et pas moi. Eh bien, vous ne vous arriverez pas non plus. De même, merci beaucoup pour votre aide.
-Repetible=0
-DescAudio=1438
-DescFinalAudio=1439
-
-[QUEST131]
-Nombre=Livraison immédiate
-Desc=Écoutez, j'ai vu comment vous avez aidé Elhandar et je suis surpris. J'ai une proposition pour vous faire: j'ai reçu une lettre de Ho Ka Rdum, une orque qui vit dans une ferme à la périphérie de Penthar. Nous ne sommes pas très liés à ceux du genre, mais elle a essayé d'être digne de confiance. Vous avez besoin d'aide et vous êtes le bon.
-DescFinal=Allez avec cela et dites-lui que vous allez de moi.
-Repetible=0
-DescAudio=1440
-DescFinalAudio=1441
 
 [QUEST132]
 Nombre=Ferme en alerte
@@ -3166,28 +2615,6 @@ RequiredLevel=6
 PosMap=188
 DescAudio=1514
 DescFinalAudio=1515
-
-[QUEST133]
-Nombre=Merci beaucoup pour votre aide!
-Desc=Merci beaucoup! Ce serait un plaisir de vous donner votre salaire, mais malheureusement je ne l'ai pas. Cet elfe vaniteux de la cabane dans les arbres m'est toujours redevable. Étant donné que c'est lui qui vous a envoyé ici, ne pensez-vous pas qu'il devrait prendre soin de la récompense? Allez parler à Lempard et dites-moi qu'il est temps de régler les comptes.
-DescFinal=Êtes-vous déjà revenu? On voit que vous êtes vraiment bon dans ce que vous faites. Comme? Ho ka rdum est-il de percevoir votre dette? Argy, ces ogres croient qu'ils peuvent me dire quoi faire. Négligence, vous aurez votre récompense, réalisez toujours ma parole. Bien sûr, puisque vous avez aidé Elhandar et Ho Ka Rdum, je pense qu'il est juste que vous m'aidiez maintenant avec certains mandats. Je suis sûr que pour un guerrier de votre calibre, il ne retarde pas beaucoup. Une fois que vous aurez terminé toutes les tâches, nous aurons terminé et vous recevrez votre salaire.
-Repetible=0
-
-[QUEST134]
-Nombre=Une ressource très précieuse
-Desc=Comme vous pouvez le voir, notre glorieuse ville de Penthar est sortie d'une vieille mine de charbon. Nos gisements de charbon sont compromis depuis de nombreuses générations, donc beaucoup ne restent plus. Pensez-vous que vous pouvez m'aider à obtenir du charbon pour pouvoir fournir les forgerons de ces terres? Je pense qu'avec 5 000 unités, ce sera suffisant. Ne vous inquiétez pas, vos efforts seront bien récompensés.
-DescFinal=Merci beaucoup pour votre aide! Avec ces minéraux, nous pouvons garder les fours éclairés pendant un bon moment. Ici, vous avez votre récompense!
-Repetible=0
-RequiredLevel=13
-
-[QUEST136]
-Nombre=Tempête de feu
-Desc=Pour obtenir le pouvoir divin des dragons, vous devez les affronter, en éliminer 15 et me revoir, vous serez bien récompensé.
-DescFinal=Vous avez été très courageux, avec ce sort, vous pouvez toujours emporter le feu interne avec vous.
-Repetible=0
-RequiredLevel=24
-DescAudio=1553
-DescFinalAudio=1554
 
 [QUEST137]
 Nombre=À la recherche des observateurs oculaires
@@ -3239,94 +2666,6 @@ PosMap=214
 DescAudio=1204
 DescFinalAudio=1205
 
-[QUEST143]
-Nombre=Chariot débutant (pêcheur).
-Desc=Obtenez les ingrédients nécessaires pour préparer la grande fête et en retour, vous recevrez les indications pour construire un chariot pour votre marchandise.
-DescFinal=Voyons voir ... Je pense que cela vous aidera un bon moment, rappelez-vous que nous pouvons l'améliorer quand vous le souhaitez.
-Repetible=0
-RequiredLevel=15
-DescAudio=1533
-DescFinalAudio=1534
-
-[QUEST144]
-Nombre=Chariot débutant (bûcheron).
-Desc=Si vous voulez que je vous aide à créer un panier adéquat pour votre travail, vous devez vous aventurer à la recherche de ressources confrontées à des créatures qui habitent nos terres, prenez cette note, vous avez répertorié toutes les exigences, êtes-vous en mesure de le compléter? Succès!
-DescFinal=Voyons voir ... Je pense que cela vous aidera un bon moment, rappelez-vous que nous pouvons l'améliorer quand vous le souhaitez.
-Repetible=0
-RequiredLevel=15
-DescAudio=1523
-DescFinalAudio=1524
-
-[QUEST145]
-Nombre=Chariot débutant (mineur).
-Desc=Vous êtes l'avenir de notre travail, sachez que notre dieu Grodnar nous récompense et nous protège à tout moment, il m'a chargé d'enseigner aux générations futures la technique pour fabriquer nos précieux wagons? Pour ce faire, nous devons réaliser son approbation par le culte, c'est pourquoi je vous conteste de rechercher ces documents:
-DescFinal=Voyons voir ... Je pense que cela vous aidera un bon moment, rappelez-vous que nous pouvons l'améliorer quand vous le souhaitez.
-Repetible=0
-RequiredLevel=15
-DescAudio=1527
-DescFinalAudio=1528
-
-[QUEST146]
-Nombre=Chariot renforcé (pêcheur).
-Desc=Hey vous! Cette brouette est trop petite pour la quantité de poissons que vous apportez, je pense qu'il est temps de l'améliorer. Respectez la prochaine commission et voyez ce que je peux faire pour vous.
-DescFinal=Ce camion d'assurance sera beaucoup plus utile et vous aidera à garder votre marchandise plus longtemps. Nous pouvons toujours continuer à l'améliorer si vous le souhaitez.
-Repetible=0
-RequiredLevel=25
-DescAudio=1535
-DescFinalAudio=1536
-
-[QUEST147]
-Nombre=Chariot renforcé (bûcheron).
-Desc=Je vois que vous voulez améliorer votre ancienne voiture, obtenir le matériel d'assurance suivant Je peux vous aider.
-DescFinal=Une voiture renforcée qui exalte la profession, se souvient que nous pouvons l'améliorer quand vous le souhaitez.
-Repetible=0
-RequiredLevel=25
-DescAudio=1525
-DescFinalAudio=1526
-
-[QUEST148]
-Nombre=Chariot renforcé (mineur).
-Desc=Je pense qu'il est temps d'améliorer cette vieille voiture pour une vraie voiture adaptée à la déplacement des rails des mines. Bien que je devrai faire des matériaux.
-DescFinal=Prendre! Vous verrez à quel point il est facile avec cette voiture adaptée aux mines. N'oubliez pas que vous pouvez continuer à l'améliorer si vous le souhaitez.
-Repetible=0
-RequiredLevel=25
-DescAudio=1529
-DescFinalAudio=1530
-
-[QUEST149]
-Nombre=Chariot d'élite (pêcheur).
-Desc=Avez-vous besoin de changer le camion?, Que progressez-vous rapidement. Voyons avec les documents suivants, je pense que je peux vous aider.
-DescFinal=Ici, vous avez, sans aucun doute l'un de mes meilleurs emplois!, Bien que je regrette de vous dire que d'ici, vous devez trouver votre propre style.
-Repetible=0
-RequiredLevel=30
-DescAudio=1537
-DescFinalAudio=1538
-
-[QUEST150]
-Nombre=Chariot d'élite (bûcheron).
-Desc=Le vieux chariot, je vois qu'il a été très utile, même si cela ne supportera pas beaucoup plus de poids. Je pense que nous pourrions en construire un nouveau si vous obtenez les matériaux suivants:
-DescFinal=Prenez, vous pouvez charger autant de kilos de bois de chauffage que vous le souhaitez, même si je dois vous informer que je n'ai plus les outils pour continuer à l'améliorer.
-Repetible=0
-RequiredLevel=30
-DescAudio=1105
-DescFinalAudio=1106
-
-[QUEST151]
-Nombre=Chariot d'élite (mineur).
-Desc=Ohh, incroyable! Je suis fier de voir l'utilisation que vous avez donnée à cette voiture. Si vous obtenez les matériaux, nous pouvons le grimper au niveau supérieur.
-DescFinal=La terreur des rails sera appelée. Regardez, vous ne trouverez rien de même j'espère que vous vous accompagnez le reste de votre tournée parce que je ne pense pas que nous puissions construire quelque chose de mieux.
-Repetible=0
-RequiredLevel=30
-DescAudio=1531
-DescFinalAudio=1532
-
-[QUEST152]
-Nombre=Épeler le coffre
-Desc=Ce coffre contient les meilleures sorts pour les guerriers les plus appropriés!
-DescFinal=Bonne chance.
-Repetible=0
-RequiredLevel=1
-
 [QUEST153]
 Nombre=Le défi souterrain
 Desc=Les sous-sols et les égouts de la ville sont infestés. Vous devez éliminer un certain nombre de rats noirs et gris de votre maison, et vous aventurer jusqu'aux égouts où règne le Rat Géant, éliminant plusieurs de ces spécimens dangereux. Ce défi demande patience, persévérance et habileté, puisque seuls ceux qui maintiennent leur abonnement actif pourront progresser chaque jour. À la fin de ce test, la récompense sera unique et durable : une monture spéciale qui vous permettra de parcourir la ville avec la force de ces créatures.
@@ -3364,28 +2703,6 @@ PosMap=17
 DescAudio=1264
 DescFinalAudio=1265
 
-[QUEST157]
-Nombre=Planches brossées.
-Desc=Je peux brosser tout ce bois pour vous, 10000 bois peuvent vous donner 1000 planches
-DescFinal=Regardez quel bon travail j'ai fait. C'est ici.
-Repetible=0
-RequiredLevel=1
-DescAudio=1107
-DescFinalAudio=1108
-
-[QUEST158]
-Nombre=Brosses brossées.
-Desc=Je peux brosser tout ce bois pour vous, 10000 bois peuvent vous donner 1000 planches
-DescFinal=Regardez quel bon travail j'ai fait. C'est ici.
-Repetible=0
-RequiredLevel=1
-
-[QUEST159]
-Nombre=Casque d'empire
-Desc=Je peux forger un casque pour vous, digne des forces de l'Empire. Seulement pour le clergé, les paladins et les guerriers.
-Repetible=0
-RequiredLevel=40
-
 [QUEST160]
 Nombre=Les secrets du désert éternel
 Desc=Les énergies nécromantiques émanant du Mausolée nous ont guidés jusqu'à l'antique Pyramide. Là, parmi les sables et les échos du passé, reposent des momies imprégnées d'un pouvoir bien plus ancien que toute magie connue. Éliminez les momies et fouillez-les pour trouver une Note Magique ; vous aurez également besoin du Collier Égyptien porté par le sorcier Kairo. Apportez-moi ces deux objets et je vous enseignerai un art oublié : le pouvoir d'invoquer des momies.
@@ -3404,16 +2721,6 @@ Repetible=1
 RequiredLevel=23
 DescAudio=1115
 DescFinalAudio=1116
-
-[QUEST163]
-Nombre=Gardiens de cimetière
-Desc=Ces squelettes protègent le mausolée la nuit, si vous parvenez à les mettre fin, vous pouvez entrer!
-DescFinal=Combien d'os!
-Repetible=0
-RequiredLevel=10
-PosMap=30
-DescAudio=1400
-DescFinalAudio=1401
 
 [QUEST165]
 Nombre=Costume spécial
@@ -3434,20 +2741,6 @@ RequiredLevel=7
 PosMap=418
 DescAudio=1254
 DescFinalAudio=1255
-
-[QUEST167]
-Nombre=Entrer dans la grotte
-Desc=Vous avez réussi à effacer l'entrée de ces hyènes et loups; Nous devons maintenant vérifier à l'intérieur de la grotte jusqu'à ce que vous trouviez le Laican féroce. Terminez cette mission et revoyez-moi, je vous récompenserai.
-DescFinal=L'avez-vous vu? C'est maintenant notre moment!
-Repetible=1
-RequiredLevel=16
-
-[QUEST168]
-Nombre=Laican, la bête
-Desc=Êtes-vous prêt à cela? Il est temps d'entrer et de mettre fin à cette question.
-DescFinal=Merci pour votre aide! Les habitants d'Arghal rencontreront votre exploit!
-Repetible=0
-RequiredLevel=17
 
 [QUEST169]
 Nombre=Aider à revenir
@@ -3580,27 +2873,6 @@ DescFinal=Excellent, ayez une petite expérience pour améliorer votre chemin, p
 Repetible=0
 RequiredLevel=23
 
-[QUEST185]
-Nombre=Différents types de bois
-Desc=Si vous êtes en mesure d'obtenir 5000 leñas et 5000 Leñas éligibles, je peux vous donner une bonne récompense.
-DescFinal=Excellent, ayez une petite expérience pour améliorer votre chemin, parlez-moi à nouveau si vous voulez progresser encore plus.
-Repetible=0
-RequiredLevel=23
-
-[QUEST186]
-Nombre=Certains minéraux assortis
-Desc=Si vous pouvez obtenir 5000 minéraux de charbon et 5000 minéraux en argent, je peux vous donner une bonne récompense.
-DescFinal=Excellent, ayez une petite expérience pour améliorer votre chemin, parlez-moi à nouveau si vous voulez progresser encore plus.
-Repetible=0
-RequiredLevel=23
-
-[QUEST187]
-Nombre=Différents types de graines
-Desc=Si vous pouvez obtenir 500 fleurs rouges et 500 fleurs de l'océan, je peux vous donner une bonne récompense.
-DescFinal=Excellent, ayez une petite expérience pour améliorer votre chemin, parlez-moi à nouveau si vous voulez progresser encore plus.
-Repetible=0
-RequiredLevel=23
-
 [QUEST188]
 Nombre=Commission de Seraphia
 Desc=Essayez de localiser Seraphia à Ullathorpe, a quelque chose pour moi.
@@ -3610,12 +2882,6 @@ RequiredLevel=6
 PosMap=561
 DescAudio=1559
 DescFinalAudio=1560
-
-[QUEST189]
-Nombre=Défense arghal
-Desc=Pour arrêter l'avance de cette bête, nous devons nous organiser, ce ne sera pas facile. Celui qui parvient à vaincre la redoutable grimwulf, aura la reconnaissance de ce peuple pour toujours.
-DescFinal=Ayez cette armure comme récompense, c'est à quel point nous pouvons faire pour votre courage.
-Repetible=0
 
 [QUEST190]
 Nombre=Premier pas
@@ -3651,29 +2917,6 @@ PosMap=264
 DescAudio=1234
 DescFinalAudio=1235
 
-[QUEST194]
-Nombre=Loup
-Desc=Il est temps ... affronter le Wolfang et libérer notre donjon!
-DescFinal=Je vous serai éternellement reconnaissant!
-Repetible=0
-RequiredLevel=9
-
-[QUEST195]
-Nombre=Roi des juments
-Desc=Aux extérieurs d'Arkhein, les créatures aquatiques très dangereuses coexistent, j'ai besoin de votre aide pour nettoyer les itinéraires de navigation maritime!
-DescFinal=Je vous serai éternellement reconnaissant!
-Repetible=0
-RequiredLevel=28
-DescAudio=1289
-DescFinalAudio=1290
-
-[QUEST196]
-Nombre=Petits dragons
-Desc=Vous avez réussi à surmonter ces hyènes et les Béorchettes sans aucun problème, je vous félicite! Ces petits dragons peuvent vous donner, si vous avez de la chance, un grand sort; Terminez cette mission et revoyez-moi.
-DescFinal=Avez-vous réussi à obtenir le sort? Pas de problème, vous pouvez l'obtenir pour les pièces d'or, au sud d'ici, dans la ville d'Arkhein.
-Repetible=0
-RequiredLevel=22
-
 [QUEST198]
 Nombre=Exil des dragons
 Desc=Où sont passés les petits dragons ? Cette nouvelle race a pris le contrôle de la région et promet d'anéantir quiconque pénètre dans le Donjon des Dragons. Si tu parviens à vaincre Pyrrak et à lui arracher le cœur, je t'offrirai une récompense incroyable.
@@ -3692,46 +2935,6 @@ Repetible=1
 RequiredLevel=25
 DescAudio=1161
 DescFinalAudio=1162
-
-[QUEST200]
-Nombre=Plus que sauvage
-Desc=Ces loups ont une force supérieure aux loups sauvages, si vous faites vos peaux, vous pouvez obtenir des pièces d'or lorsque vous les vendez!
-DescFinal=Excellent travail!
-Repetible=0
-RequiredLevel=10
-PosMap=30
-DescAudio=1402
-DescFinalAudio=1403
-
-[QUEST201]
-Nombre=Aguilas dans le ciel
-Desc=Les collectionneurs en bois ont généralement des problèmes avec ces créatures, car ils entravent lors de la coupe dans certaines zones ... si vous parvenez à nettoyer la zone, je peux vous donner une grande récompense!
-DescFinal=Excellent travail!
-Repetible=0
-RequiredLevel=10
-PosMap=30
-DescAudio=1404
-DescFinalAudio=1405
-
-[QUEST202]
-Nombre=Mort .. vivant!
-Desc=Certains cadavres ont augmenté ce soir .. des travailleurs effrayants dans ce domaine. Allez finir avec eux!
-DescFinal=Excellent travail!
-Repetible=0
-RequiredLevel=11
-PosMap=36
-DescAudio=1406
-DescFinalAudio=1407
-
-[QUEST203]
-Nombre=Les humains, il y a un moment
-Desc=Autour de Nix, ils portaient des formes humaines, il est dit qu'ils étaient des pêcheurs dans la région. Si vous parvenez à effacer le cimetière de ces créatures, je vous récompenserai!
-DescFinal=Excellent travail!
-Repetible=0
-RequiredLevel=11
-PosMap=36
-DescAudio=1408
-DescFinalAudio=1409
 
 [QUEST204]
 Nombre=Eldoria Winds
@@ -3753,29 +2956,6 @@ PosMap=78
 DescAudio=1424
 DescFinalAudio=1425
 
-[QUEST207]
-Nombre=Le mal se réveille
-Desc=Dravonius semble être un démon immortel, mais en le combattant sans relâche, nous pouvons affaiblir son influence. Un savoir ancien, caché à la plupart, pourrait vous donner un avantage. Certains murmurent que des textes oubliés reposent sous un sol sacré… mais je ne peux rien dire de plus.
-DescFinal=Excellente bataille, l'influence de Dravonius s'affaiblit!
-Repetible=1
-RequiredLevel=20
-
-[QUEST208]
-Nombre=Relique profane
-Desc=Codex Daemonicarum – Tiberius Marcellan :"Lorsque Rangue, seigneur de la tromperie, créa Dravonius dans les ténèbres, il ne le fit pas nu. Il couvrit son corps d'un manteau confectionné à partir de tous les mensonges qu'il avait proférés à ses victimes, un tissu qui absorbe la lumière et l'espoir de ceux qui le contemplent. Une grande partie de sa force semble provenir de cette capacité infatigable du démon et de sa ténacité à reprendre possession des corps. Personne n'a jamais pu ôter ce vêtement profane, vestige des enfers, et découvrir son véritable pouvoir. Celui qui le porte recouvre non seulement sa chair, mais aussi son âme : le Manteau du Démon."
-DescFinal=Ce lieu saint a supprimé toutes les malédictions du manteau, portez-le avec précaution.
-Repetible=0
-RequiredLevel=20
-
-[QUEST209]
-Nombre=Remettez la lettre.
-Desc=J'ai perçu le murmure de ton chemin… les voix des marais, les échos de l'acier, les pas tracés entre ombres et flammes. Tu ne représentes ni la lumière ni la nuit. Pas encore. C'est pourquoi je peux te parler sans jugement. (Aduin observe la lettre que tu lui tends et tourne son regard vers la côte.) Ces terres ont besoin de silence pour entendre les profondeurs.
-DescFinal=Nombreux sont ceux qui manient l'acier, mais rares sont ceux qui comprennent le poids d'un acte. Vous portez quelque chose de différent. Ce n'est pas seulement la force… c'est un but, même si vous ne le comprenez pas encore pleinement.
-Repetible=0
-RequiredLevel=25
-DescAudio=1494
-DescFinalAudio=1495
-
 [QUEST210]
 Nombre=Réduire leurs forces.
 Desc=Écoutez bien : je suis un espion, pas un guerrier. Ma mission est d'observer, d'écouter et de survivre. Mais vous… vous êtes un homme de fer, forgé par les combats. Vous devez pénétrer dans le Drain d'Arkhein. Là, des gardes ennemis se rassemblent pour marcher vers le Refuge de Har Nareth, où ils se préparent à l'affrontement. Votre mission : réduire leurs effectifs avant qu'ils ne puissent renforcer leur position. Le chaos que vous créerez là-bas ralentira leur progression… et nous donnera l'avantage. Lorsque vous aurez éliminé suffisamment de gardes, revenez me voir.
@@ -3784,15 +2964,6 @@ Repetible=0
 RequiredLevel=25
 DescAudio=1443
 DescFinalAudio=1444
-
-[QUEST211]
-Nombre=Réduire leurs forces.
-Desc=Écoutez. Je suis vos yeux, une voix qui murmure… mais pas une épée. Mon devoir est de rester invisible, de ne pas déclencher le carnage que cette guerre exige. Vous devez infiltrer le Canal de Banderbill. Sous ces rues illuminées, des soldats de la Marine préparent un raid sur un territoire stratégique au sein du canal. Votre tâche est simple en théorie, brutale en pratique : les éliminer. Que le sang coule en silence, mais pas en abondance. Revenez lorsque le travail sera terminé. Je veillerai sur vous, comme toujours.
-DescFinal=Magnifique. Le système de drainage de Banderbill tremble encore de votre passage.
-Repetible=0
-RequiredLevel=25
-DescAudio=1450
-DescFinalAudio=1488
 
 [QUEST212]
 Nombre=Échange Royal
@@ -3803,38 +2974,9 @@ RequiredLevel=25
 DescAudio=1445
 DescFinalAudio=1446
 
-[QUEST213]
-Nombre=Échange Légionnaire
-Desc=Ah… vous avez donc survécu jusqu’ici. Et le Tome de l’Expertise est toujours entre vos mains… admirable. La plupart tombent avant même de franchir la première ligne de patrouille.
-DescFinal=Serik ramasse le Tome avec des doigts prudents, presque cérémoniaux.
-Repetible=0
-RequiredLevel=25
-DescAudio=1489
-DescFinalAudio=1490
-
 [QUEST214]
 Nombre=La rencontre avec Kael
 Desc=Félicitations. Le commandant de la Marine royale vous a accordé sa confiance et vous a confié le Parchemin Royal. Prenez ce Tome de la Sagesse, une relique essentielle pour la responsabilité qui vous attend. Votre mission est simple dans son principe, mais périlleuse dans son exécution : rendez-vous dans la cité ennemie d’Arkhein et localisez l’agent infiltré connu sous le nom de « Kael Shadowlive ». Remettez-lui le Tome et aidez-le à intégrer des informations classifiées qu’il est le seul à posséder. Attention : à Arkhein, les gardes sont impitoyables. Tentez l’infiltration en utilisant toutes vos forces ou appelez des renforts : si vous êtes découvert, la défense sera votre seule option. Protégez le Tome avec le plus grand soin : sa perte serait irréparable pour notre cause.
-Repetible=0
-RequiredLevel=25
-
-[QUEST215]
-Nombre=La rencontre avec Serik
-Desc=Ainsi soit-il. Le chef de la Légion Noire a examiné votre requête et vous a confié le Parchemin Légionnaire. Prenez ce Tome d'Expertise, relique forgée de savoir interdit et des souvenirs de la guerre. Vous devez le porter sans délai jusqu'à Banderbill, cité ennemie et repaire des faibles qui s'accrochent encore à la lumière. Là, trouvez l'infiltrateur qui opère sous le nom de Serik le Voile. Remettez-lui le Tome afin qu'il y ajoute les informations qu'il est le seul à posséder. Mais soyez vigilant : les gardes de Banderbill attaqueront sans prévenir, sans hésiter et sans pitié. Protégez le Tome au péril de votre vie. Le perdre signifierait non seulement votre échec, mais aussi votre extinction en tant qu'aspirant de la Légion.
-Repetible=0
-RequiredLevel=25
-
-[QUEST216]
-Nombre=Restaurez votre honneur
-Desc=Citizen, je m'appelle Tharion, juge de la Couronne. Je viens vous offrir l'occasion de racheter votre âme tachée. Allez sur le champ de bataille et démolissez les Gardiens de la Dark Legion. Face à l'ombre, vous pouvez récupérer la lumière de votre honneur et servir fièrement ce royaume.
-DescFinal=Vous avez nettoyé votre nom avec honneur. Le Royaume est convaincu que vous continuerez à servir avec courage.
-Repetible=0
-RequiredLevel=25
-
-[QUEST217]
-Nombre=Sang par rachat
-Desc=Je m'appelle Vhortenak, je viens pour nettoyer votre nom devant la Légion. Si vous souhaitez revenir dans les rangs du chaos, vous devez vous colorer à nouveau vos mains. Tuer les gardes de la Royal Navy et livrer leur sang comme test de fidélité. Le pardon, dans ces terres, il gagne avec la mort!
-DescFinal=Vous avez démontré une loyauté dans le sang renversé. Le pardon commence à s'ouvrir pour vous. Que les ombres vous guident.
 Repetible=0
 RequiredLevel=25
 
@@ -3857,28 +2999,6 @@ RequiredLevel=14
 PosMap=78
 DescAudio=1228
 DescFinalAudio=1229
-
-[QUEST220]
-Nombre=Manteau de force légionnaire
-Desc=Je peux vous forger un bouclier, il sera digne des forces du chaos.
-Repetible=0
-RequiredLevel=40
-
-[QUEST222]
-Nombre=1KK
-Desc=Donnez-moi 1 pièce d'or et je vous donnerai 1kk d'exp
-DescFinal=Merci pour la monnaie, même si elle ne me parvient pas du tout.
-Repetible=1
-RequiredLevel=1
-PosMap=1
-
-[QUEST223]
-Nombre=Niveau 12
-Desc=Donnez-moi 12 pièces d'or et je vous ferai du niveau 12
-DescFinal=Merci, vous auriez pu être un peu plus généreux.
-Repetible=0
-RequiredLevel=1
-PosMap=34
 
 [QUEST224]
 Nombre=Apprenti Scramer
@@ -3953,140 +3073,6 @@ RequiredLevel=25
 PosMap=171
 DescAudio=1426
 DescFinalAudio=1427
-
-[QUEST234]
-Nombre=Le pouvoir de la magie
-Desc=Être un grand magicien ne consiste pas seulement à lancer des sorts, vous devez être en mesure de concentrer votre mana et de pouvoir le canaliser correctement. Démontrez votre pouvoir devant le quartier des elfes dans la forêt au nord d'Ullatrope et je vous préparerai à vos prochaines aventures.
-DescFinal=Vous avez réussi! Demandez à ce personnel d'apprenti en récompense.
-Repetible=0
-RequiredLevel=7
-PosMap=264
-DescAudio=1376
-DescFinalAudio=1377
-
-[QUEST235]
-Nombre=Appels naturels
-Desc=En tant que druides, notre pouvoir vient de l'essence de la nature. Afin de devenir un grand druide, vous devez être capable de comprendre l'équilibre entre notre pouvoir et les créatures du monde qui nous entoure. Élimine les loups au nord-ouest d'Ullathorpe et je vous donnerai des outils pour augmenter votre puissance.
-DescFinal=La nature apprécie votre contrôle dans le monde, mais rappelez-vous que sans lui, nous ne sommes rien. Cette flûte apprenti devrait vous aider pour votre prochaine aventure.
-Repetible=0
-RequiredLevel=7
-PosMap=264
-DescAudio=1378
-DescFinalAudio=1379
-
-[QUEST236]
-Nombre=La lumière rythmique
-Desc=La musique nous apporte du pouvoir, mais nous devons savoir comment toucher la bonne mélodie. Entraînez-vous à votre barde avant les squelettes au sud de la prison de Banderbill et apportez-moi un de ses crânes. Que la musique sert ses os!
-DescFinal=Maintenant, vous comprenez le pouvoir que la musique nous donne? Demandez à cet apprenti de luth, vous serez incroyable un jour!
-Repetible=0
-RequiredLevel=7
-PosMap=264
-DescAudio=1380
-DescFinalAudio=1381
-
-[QUEST237]
-Nombre=Le royaume des ombres
-Desc=Les ombres sont notre allié, votre poignard et vos mains doivent en être une. Revient aux liches plus petites sur le tombeau où ils appartiennent, et apporte son trésor. Si vous le faites, égale à votre prochaine aventure.
-DescFinal=La magie des ombres nous renforce! Demandez à ce poignard d'apprentissage, vous aidera à détruire vos victimes.
-Repetible=0
-RequiredLevel=7
-PosMap=264
-DescAudio=1382
-DescFinalAudio=1383
-
-[QUEST238]
-Nombre=La force de la foi
-Desc=En tant que clergé, nous devons apprendre à concentrer notre foi, c'est la force qui nous émoure. Les ombres ont suscité des loups sauvages. Il anéantit le mal qui les traque et exorcisa leur corps.
-DescFinal=Enfin, la forêt peut reposer en paix. Prenez cette épée d'apprenti, cela vous aidera dans vos aventures!
-Repetible=0
-RequiredLevel=7
-PosMap=264
-DescAudio=1384
-DescFinalAudio=1385
-
-[QUEST239]
-Nombre=Coup chanceux
-Desc=On pourrait dire que la chance coule dans nos veines. Il y a un groupe de recrues qui s'appellent et ont volé des marchands dans le sud de Banderbill, ils ne se consacrent qu'à la coloration de notre nom. Donnez-leur un coup et je vous récompenserai.
-DescFinal=La chance est de votre côté! Demandez à ces apprentis de mettre en œuvre vos coups critiques.
-Repetible=0
-RequiredLevel=7
-PosMap=264
-DescAudio=1386
-DescFinalAudio=1387
-
-[QUEST240]
-Nombre=Purification nécessaire
-Desc=Notre travail en tant que Paladines est de purifier ce monde d'ombres. Nous avons reçu des informations d'une horde de zombies à l'est d'Ullthorpe. Nettoyez ces terres du mal et je vous égalerai pour votre prochaine croisade.
-DescFinal=La Terre est un peu plus propre avec votre aide. Prenez cette épée d'apprenti, Noble Paladin!
-Repetible=0
-RequiredLevel=7
-PosMap=264
-DescAudio=1388
-DescFinalAudio=1389
-
-[QUEST241]
-Nombre=La force brute
-Desc=Nous sommes les êtres les plus résilients du monde, nous n'avons pas besoin de cette magie stupide pour mettre fin à nos ennemis. J'ai entendu dire que les Vulpes gris se sont reproduits et ont commencé à être un problème. Vous pouvez les trouver à l'ouest d'Ullthorpe, finir avec eux et je vous donnerai une arme inégalée.
-DescFinal=Votre arme et votre corps sont soi-même, prenez cette épée d'apprenti pour votre prochaine aventure.
-Repetible=0
-RequiredLevel=7
-PosMap=264
-DescAudio=1390
-DescFinalAudio=1391
-
-[QUEST242]
-Nombre=Tir cible
-Desc=Votre arc et vous devez être soi-même. À l'ouest de la ville de Penthar, vous trouverez un endroit parfait pour pratiquer votre objectif. Éliminez certains orcs de cette zone et je vous donnerai quelque chose qui vous aidera dans vos prochaines chasses.
-DescFinal=Je peux voir que votre arc et vos flèches n'échouent jamais! Cet apprenti arc devrait vous aider dans votre prochaine chasse.
-Repetible=0
-RequiredLevel=7
-PosMap=264
-DescAudio=1392
-DescFinalAudio=1393
-
-[QUEST243]
-Nombre=Concasseur
-Desc=Vous devez arrêter l'attaque de l'Arennida Queen! Si vous parvenez à battre l'un de ses protecteurs, le concasseur arachnide, vous serez dans l'histoire de cette ville!
-Repetible=0
-RequiredLevel=1
-Descfinal=¡Gran trabajo derrotando al Triturador, pero debes volver al norte, la ciudad aun te necesita!
-DescAudio=1414
-
-[QUEST244]
-Nombre=Anomalie de l'arénide
-Desc=Vous devez arrêter l'attaque de l'Arennida Queen! Si vous parvenez à battre l'un de ses protecteurs, l'anomalie arachnide, vous serez dans l'histoire de cette ville!
-Repetible=0
-RequiredLevel=1
-Descfinal=¡Gran trabajo derrotando a la Anomalía, pero debes volver al norte, la ciudad aun te necesita!
-DescAudio=1415
-
-[QUEST245]
-Nombre=Arachnid sortílego
-Desc=Vous devez arrêter l'attaque de l'Arennida Queen! Si vous parvenez à battre l'une de ses protecteurs, l'Arachnid Sortílego, vous serez dans l'histoire de cette ville!
-DescFinal=Un excellent travail en battant le Sortílego, mais vous devez retourner dans le nord, la ville a encore besoin de vous!
-Repetible=0
-RequiredLevel=1
-DescAudio=1416
-DescFinalAudio=1417
-
-[QUEST246]
-Nombre=La reine arachnide
-Desc=Le dernier effort pour défendre cette ville .. Si vous parvenez à vaincre Ghulvara, la reine Arachnide, vous serez digne de cette reconnaissance!
-DescFinal=Vous l'avez réalisé, finalement cette histoire se termine. La ville d'Ullthorpe restaure sa paix, vous serez dans l'histoire de ce jeu .. Demandez à ce mutant arachnide de reconnaître comme reconnaissance de votre courage!
-Repetible=0
-RequiredLevel=1
-DescAudio=1418
-DescFinalAudio=1419
-
-[QUEST247]
-Nombre=Niveau 24
-Desc=Donnez-moi 24 pièces d'or et je vous ferai du niveau 24
-DescFinal=Merci, vous auriez pu être un peu plus généreux.
-Repetible=0
-RequiredLevel=1
-PosMap=34
-DescAudio=1109
-DescFinalAudio=1110
 
 [QUEST248]
 Nombre=Potions empoisonnées
@@ -4242,51 +3228,6 @@ Nombre=Cavalier Niveau 9
 Repetible=0
 RequiredLevel=47
 
-[QUEST265]
-Nombre=Échange de mulets
-Desc=Si vous avez déjà obtenu la Mule, acceptez cette quête et je vous récompenserai avec le consommable équivalent.
-DescFinal=Vous pouvez consommer l'objet que je vous propose.
-Repetible=0
-RequiredLevel=20
-DescAudio=1348
-DescFinalAudio=1349
-
-[QUEST266]
-Nombre=Échange de Chevaux Bruns
-Desc=Si vous avez déjà obtenu la Cheveux Bruns, acceptez cette quête et je vous récompenserai avec le consommable équivalent.
-DescFinal=Vous pouvez consommer l'objet que je vous propose.
-Repetible=0
-RequiredLevel=24
-DescAudio=1350
-DescFinalAudio=1351
-
-[QUEST267]
-Nombre=Échange de chevaux blancs
-Desc=Si vous avez déjà obtenu la Cheveux Blancs, acceptez cette quête et je vous récompenserai avec le consommable équivalent.
-DescFinal=Vous pouvez consommer l'objet que je vous propose.
-Repetible=0
-RequiredLevel=28
-DescAudio=1352
-DescFinalAudio=1353
-
-[QUEST268]
-Nombre=Échange de Montures de Combattant
-Desc=Si vous avez déjà obtenu la monture du combattant, acceptez cette quête et je vous récompenserai avec le consommable équivalent.
-DescFinal=Vous pouvez consommer l'objet que je vous propose.
-Repetible=0
-RequiredLevel=32
-DescAudio=1354
-DescFinalAudio=1355
-
-[QUEST269]
-Nombre=Bourse aux Chevaux Palomino
-Desc=Si vous avez déjà obtenu le cheval Palomino, acceptez cette quête et je vous récompenserai avec le consommable équivalent.
-DescFinal=Vous pouvez consommer l'objet que je vous propose.
-Repetible=0
-RequiredLevel=36
-DescAudio=1356
-DescFinalAudio=1357
-
 [QUEST270]
 Nombre=L'héritage des ombres
 Desc=Les 9 Pierres Primordiales, dispersées à travers le monde et gardées par de redoutables gardiens, doivent être réunies pour empêcher les forces obscures de semer le chaos. Le dernier vestige des sages est tombé entre les mains de ceux qui ignorent le pouvoir qu'ils convoitent. Désormais, vous seul pouvez rétablir l'équilibre ou succomber à l'abîme.
@@ -4320,15 +3261,6 @@ RequiredLevel=25
 DescAudio=1447
 DescFinalAudio=1486
 
-[QUEST274]
-Nombre=Récupérer la balance.
-Desc=Ce déséquilibre joue en notre faveur, et nous pouvons désormais aborder la phase cruciale. Au cœur du Gouffre, où les ténèbres sont si épaisses qu'elles vous glacent jusqu'aux os, le Har Nareth apparaît de temps à autre. Une bête immense, à la force des marais ancestraux et à la fureur de ce qui n'aurait jamais dû exister. Tantôt elle se repose, tantôt elle chasse. On ne sait jamais quand elle se révélera. Vous pourrez peut-être l'affronter seul, ou bien vous aurez besoin de mains qui n'ont pas peur de se briser. Choisissez judicieusement. Si elle tombe devant vous, arrachez-lui une écaille. Une seule. Nous en avons besoin.
-DescFinal=Vous devez maintenant vous rendre sur l'Île des Griffons. Parmi les rochers et les vents, vous trouverez Aduin le Vagabond. Il n'appartient ni à la Couronne ni aux Ombres ; c'est un sage qui vit en observant le monde sans prendre parti. Remettez-lui cette lettre au plus vite.
-Repetible=0
-RequiredLevel=25
-DescAudio=1491
-DescFinalAudio=1492
-
 [QUEST275]
 Nombre=Poison de Dague
 Desc=Le Repaire Abandonné n'est plus vide. Des gargouilles corrompues s'accrochent à ses ruines, créatures de pierre et de venin dont le contact infecte la chair. Un seul coup suffit pour sentir l'acide vous parcourir les veines. De leurs corps, on peut extraire le Fluide Acide, une substance volatile et extrêmement dangereuse. C'est l'ingrédient clé d'un art interdit : la Lame Toxique. Apportez-moi ce fluide, et je vous apprendrai à empoisonner vos dagues comme un véritable assassin. Mais gardez votre sang-froid… les gargouilles perçoivent la faiblesse. Si la peur vous saisit, vous ne quitterez pas le repaire.
@@ -4338,29 +3270,6 @@ RequiredLevel=25
 PosMap=560
 DescAudio=1283
 DescFinalAudio=1284
-
-[QUEST276]
-Nombre=Redresser la pente
-Desc=Le Pendentif des Présages est plus précieux que n'importe quelle arme ou gemme. Il n'appartient à aucun drapeau… et pourtant, les deux rois le convoiteraient. Il renferme un symbole ancien, un signe capable d'ouvrir des portes impénétrables. Malheureusement, un de ces aigles a réussi à me le dérober. Vous devez le récupérer au plus vite.
-DescFinal=Écoutez attentivement : cet objet ne doit être ni perdu, ni oublié, ni échangé. Vous devez retourner dans votre capitale… là, on comprendra l’importance de ce que vous portez désormais.
-Repetible=0
-RequiredLevel=25
-DescAudio=1496
-DescFinalAudio=1497
-
-[QUEST277]
-Nombre=La Renaissance
-Desc=Par les cieux de la Couronne… les rumeurs concernant votre exploit sont vraies. Ce pendentif a appartenu à des rois, des chevaliers errants et des sages qui ont guidé des siècles entiers. Sa valeur ne se mesure ni en or, ni en acier, ni en sang, mais en histoire et en destin. Vous avez suivi la Voie. Vous avez fait preuve de courage, de sacrifice et de détermination. Plus rien à prouver. (Tharion tend la main, révélant une gemme polie et translucide, chargée de lumière.) Recevez à présent la Gemme du Pardon Factionnel. Elle est votre clé. Votre symbole. Votre renaissance. Protégez-la comme vous protégez votre honneur. Une fois présentée à la Cour, votre nom pourra de nouveau résonner sous la bannière de l'Empire.
-DescFinal=Vous êtes revenu… non pas en suppliant, mais en digne. Que la Lumière vous guide.
-Repetible=0
-RequiredLevel=25
-
-[QUEST278]
-Nombre=La réclamation
-Desc=Depuis des générations, ce symbole n'a pas percé ces ténèbres. Il n'appartient ni aux rois, ni aux temples… mais à ceux qui sont capables de forger leur propre destin. Vous avez survécu aux marais, aux égouts, aux bêtes ancestrales et à des silences assourdissants. Non par obéissance, mais par détermination. Prenez la Gemme du Pardon Factionnel. Elle représente non l'absolution… mais la vengeance.
-DescFinal=Gardez-le. Cachez-le. Protégez-le. Le moment venu, remettez-le, et votre nom sera de nouveau murmuré dans les rangs de la Légion.
-Repetible=0
-RequiredLevel=25
 
 [QUEST279]
 Nombre=Apprenez la recette du Feu
@@ -4491,83 +3400,6 @@ RequiredLevel=31
 DescAudio=1321
 DescFinalAudio=1322
 
-[QUEST300]
-Nombre=La magie partagée de Noël
-Desc=Écoutez, aventuriers… Noël à Eleusis ne repose pas sur une seule personne, mais sur nous tous. Chaque fois que vous me donnez 100 biscuits de Noël, vous augmentez le compteur communautaire qui entretient la magie de l'hiver. Mais attention : lorsque nous aurons collecté suffisamment de biscuits, une terrible menace venue du froid apparaîtra. Tant que cette créature ne sera pas vaincue, personne ne pourra donner de biscuits. Notre objectif est immense : nous devons collecter un million de biscuits auprès de tous les aventuriers. Plus nous serons nombreux à participer et plus nous donnerons de biscuits, plus vite nous atteindrons notre objectif et débloquerons l'accès aux récompenses uniques de cet événement.
-DescFinal=Bravo, aventurier ! Votre contribution est désormais comptabilisée dans le total de la communauté. Chaque tranche de 100 biscuits rapportés nous rapproche de notre objectif. Plus nous serons nombreux à collaborer, plus vite nous avancerons. Si vous avez encore de l'énergie, vous pouvez retourner récolter des biscuits et revenir quand vous serez prêt à continuer à nous aider. La magie de Noël perdure grâce à des initiatives comme la vôtre.
-Repetible=1
-
-[QUEST301]
-Nombre=Noël en danger
-Desc=Écoutez-moi bien, aventurier… En cette veille de Noël, des créatures hivernales ont commencé à errer aux abords d'Éleusis. Lutins de Noël, casse-noisettes et créatures givrées infestent les routes enneigées et troublent la tranquillité de la cité. Je vous demande d'aller les vaincre. Chacun de ces êtres doit être éliminé pour que l'hiver retrouve son équilibre. En tombant, ils laisseront derrière eux des Biscuits de Noël, fragments de la magie qui protège cette fête. Ramassez ces biscuits et offrez-les à toute la communauté d'Éleusis pour aider chacun à faire vivre Noël. Plus nous vaincrons d'ennemis ensemble, plus nous nous rapprocherons du rétablissement de l'harmonie hivernale. Revenez une fois votre mission accomplie, et je veillerai à ce que vos efforts soient récompensés.
-DescFinal=Bravo, aventurier ! Les créatures de l'hiver sont vaincues et Eleusis peut enfin respirer. Vos efforts n'ont pas été vains : chaque fois que vous protégez Noël, votre expérience grandit et votre sac s'alourdit. Si vous en avez encore la force, vous pouvez repartir et recommencer. Plus vous aiderez, plus vous gagnerez d'expérience et d'or. Noël a toujours besoin de héros… et Eleusis vous attend.
-Repetible=1
-RequiredLevel=10
-
-[QUEST302]
-Nombre=Noël en danger
-Desc=Écoutez-moi bien, aventurier… En cette veille de Noël, des créatures hivernales ont commencé à errer aux abords d'Éleusis. Lutins de Noël, casse-noisettes et créatures givrées infestent les routes enneigées et troublent la tranquillité de la cité. Je vous demande d'aller les vaincre. Chacun de ces êtres doit être éliminé pour que l'hiver retrouve son équilibre. En tombant, ils laisseront derrière eux des Biscuits de Noël, fragments de la magie qui protège cette fête. Ramassez ces biscuits et offrez-les à toute la communauté d'Éleusis pour aider chacun à faire vivre Noël. Plus nous vaincrons d'ennemis ensemble, plus nous nous rapprocherons du rétablissement de l'harmonie hivernale. Revenez une fois votre mission accomplie, et je veillerai à ce que vos efforts soient récompensés.
-DescFinal=Bravo, aventurier ! Les créatures de l'hiver sont vaincues et Eleusis peut enfin respirer. Vos efforts n'ont pas été vains : chaque fois que vous protégez Noël, votre expérience grandit et votre sac s'alourdit. Si vous en avez encore la force, vous pouvez repartir et recommencer. Plus vous aiderez, plus vous gagnerez d'expérience et d'or. Noël a toujours besoin de héros… et Eleusis vous attend.
-Repetible=1
-RequiredLevel=20
-
-[QUEST303]
-Nombre=Noël en danger
-Desc=Écoutez-moi bien, aventurier… En cette veille de Noël, des créatures hivernales ont commencé à errer aux abords d'Éleusis. Lutins de Noël, casse-noisettes et créatures givrées infestent les routes enneigées et troublent la tranquillité de la cité. Je vous demande d'aller les vaincre. Chacun de ces êtres doit être éliminé pour que l'hiver retrouve son équilibre. En tombant, ils laisseront derrière eux des Biscuits de Noël, fragments de la magie qui protège cette fête. Ramassez ces biscuits et offrez-les à toute la communauté d'Éleusis pour aider chacun à faire vivre Noël. Plus nous vaincrons d'ennemis ensemble, plus nous nous rapprocherons du rétablissement de l'harmonie hivernale. Revenez une fois votre mission accomplie, et je veillerai à ce que vos efforts soient récompensés.
-DescFinal=Bravo, aventurier ! Les créatures de l'hiver sont vaincues et Eleusis peut enfin respirer. Vos efforts n'ont pas été vains : chaque fois que vous protégez Noël, votre expérience grandit et votre sac s'alourdit. Si vous en avez encore la force, vous pouvez repartir et recommencer. Plus vous aiderez, plus vous gagnerez d'expérience et d'or. Noël a toujours besoin de héros… et Eleusis vous attend.
-Repetible=1
-RequiredLevel=30
-
-[QUEST304]
-Nombre=Premier cadeau de Noël
-Desc=À mesure que les participants à l'événement contribuent avec des biscuits de Noël au compteur communautaire de la ville, les récompenses de Noël seront débloquées. Pour recevoir ce cadeau de Noël, vous devez posséder au moins une étoile de Noël dans votre inventaire et attendre que la communauté ait contribué à hauteur de 50 000 biscuits de Noël.
-Repetible=1
-
-[QUEST305]
-Nombre=Deuxième cadeau de Noël
-Desc=À mesure que les participants à l'événement contribuent avec des biscuits de Noël au compteur communautaire de la ville, les récompenses de Noël seront débloquées. Pour recevoir ce cadeau de Noël, vous devez posséder une étoile de Noël dans votre inventaire et attendre que la communauté ait contribué à hauteur de 100 000 biscuits de Noël.
-Repetible=1
-
-[QUEST306]
-Nombre=Troisième cadeau de Noël
-Desc=À mesure que les participants à l'événement contribuent avec des biscuits de Noël au compteur communautaire de la ville, les récompenses de Noël seront débloquées. Pour recevoir ce cadeau de Noël, vous devez posséder une étoile de Noël dans votre inventaire et attendre que la communauté ait contribué à hauteur de 150 000 biscuits de Noël.
-Repetible=1
-
-[QUEST307]
-Nombre=Quatrième cadeau de Noël
-Desc=À mesure que les participants à l'événement contribuent avec des biscuits de Noël au compteur communautaire de la ville, les récompenses de Noël seront débloquées. Pour recevoir ce cadeau de Noël, vous devez posséder une étoile de Noël dans votre inventaire et attendre que la communauté ait contribué à hauteur de 200 000 biscuits de Noël.
-Repetible=1
-
-[QUEST308]
-Nombre=Cinquième cadeau de Noël
-Desc=À mesure que les participants à l'événement contribuent avec des biscuits de Noël au compteur communautaire de la ville, les récompenses de Noël seront débloquées. Pour recevoir ce cadeau de Noël, vous devez posséder une étoile de Noël dans votre inventaire et attendre que la communauté ait contribué à hauteur de 250 000 biscuits de Noël.
-Repetible=1
-
-[QUEST309]
-Nombre=Sixième cadeau de Noël
-Desc=À mesure que les participants à l'événement contribuent avec des biscuits de Noël au compteur communautaire de la ville, les récompenses de Noël seront débloquées. Pour recevoir ce cadeau de Noël, vous devez posséder une étoile de Noël dans votre inventaire et attendre que la communauté ait collecté un total de 300 000 biscuits de Noël.
-Repetible=1
-
-[QUEST310]
-Nombre=Septième cadeau de Noël
-Desc=À mesure que les participants à l'événement contribuent avec des biscuits de Noël au compteur communautaire de la ville, les récompenses de Noël seront débloquées. Pour recevoir ce cadeau de Noël, vous devez posséder une étoile de Noël dans votre inventaire et attendre que la communauté ait contribué à hauteur de 350 000 biscuits de Noël.
-Repetible=1
-
-[QUEST311]
-Nombre=Huitième cadeau de Noël
-Desc=À mesure que les participants à l'événement contribuent avec des biscuits de Noël au compteur communautaire de la ville, les récompenses de Noël seront débloquées. Pour recevoir ce cadeau de Noël, vous devez posséder une étoile de Noël dans votre inventaire et attendre que la communauté ait collecté un total de 400 000 biscuits de Noël.
-Repetible=1
-
-[QUEST312]
-Nombre=Dernier cadeau de Noël
-Desc=À mesure que les participants à l'événement contribuent avec des biscuits de Noël au compteur communautaire de la ville, les récompenses de Noël seront débloquées. Pour recevoir ce cadeau de Noël, vous devez posséder une étoile de Noël dans votre inventaire et attendre que la communauté ait collecté 500 000 biscuits de Noël.
-Repetible=1
-
-[QUEST313]
-Nombre=Noël en danger
-Desc=Voici la mission finale : éliminer Krampus. Si vous y parvenez, vous recevrez ces récompenses !
-Repetible=1
-
 [QUEST314]
 Nombre=Cendres du premier feu
 Desc=Écoutez attentivement, étranger, car je ne me répéterai pas. Le Phénix ne laisse pas toujours la même chose derrière lui en mourant. Le plus souvent, seulement des cendres et une plume arrachée au combat. Mais en de rares occasions, ô combien rares, son feu se condense en quelque chose de plus. Un Œuf. J'ai été témoin de centaines de renaissances issues de cette forge, et je jure par la lave de Morgrim qu'à peine une sur cent laisse un œuf complet. Si la chance vous sourit et que le Phénix en laisse tomber un en tombant, considérez-vous comme élu. Mais tous ne confient pas leur avenir au hasard. Chaque plume que vous arrachez au Phénix renferme un fragment de sa renaissance. Une seule ne suffit pas. Deux non plus. Dix plumes… de dix morts différentes… ensemble, elles battent comme un cœur de feu. Apportez-moi dix plumes, et je ferai ce que le hasard n'a pas réussi à faire : je forgerai un Œuf de Phénix de mes propres mains.
@@ -4583,11 +3415,6 @@ DescFinal=Vingt plumes… Chacune me brûlait les doigts au contact. Un bon pré
 Repetible=1
 DescAudio=1175
 DescFinalAudio=1176
-
-[QUEST316]
-Nombre=Noël en danger
-Desc=Voici la mission finale : éliminer Krampus. Si vous y parvenez, vous recevrez ces récompenses !
-Repetible=1
 
 [QUEST317]
 Nombre=L’Écho des Hurlements
@@ -4719,30 +3546,6 @@ PosMap=61
 DescAudio=1372
 DescFinalAudio=1373
 
-[QUEST330]
-Nombre=Échange de Coupe de Bronze
-Desc=Vous pouvez échanger vos coupes de bronze contre quelque chose de mieux ! Si vous avez 5 coupes, je peux les échanger contre une coupe d'argent.
-Repetible=1
-DescAudio=1074
-
-[QUEST331]
-Nombre=Échange de Coupe d'Argent
-Desc=Vous pouvez échanger vos coupes d'argent contre quelque chose de mieux ! Si vous avez 5 coupes, je peux les échanger contre une coupe d'or.
-Repetible=1
-DescAudio=1075
-
-[QUEST332]
-Nombre=Échange de la Coupe d'Or
-Desc=Vous pouvez échanger vos Coupes d'or contre quelque chose de mieux ! Si vous avez 5 Coupes, je peux vous les échanger contre une Tunique prétorienne.
-Repetible=1
-DescAudio=1076
-
-[QUEST333]
-Nombre=Échange de la Coupe d'Or
-Desc=Vous pouvez échanger vos Coupes d'or contre quelque chose de mieux ! Si vous avez 5 Coupes, je peux vous les échanger contre une Tunique prétorienne.
-Repetible=1
-DescAudio=1077
-
 [QUEST334]
 Nombre=Soies élémentaires
 Desc=J'ai consacré une grande partie de ma vie à l'étude d'anciennes techniques occultes permettant de créer des étoffes imprégnées d'énergie élémentaire. D'après mes recherches, les soies produites par les Araignées Élémentaires des Catacombes possèdent des propriétés uniques lorsqu'elles sont combinées correctement. D'anciennes chroniques racontent comment, à partir de fibres des quatre éléments, il est possible de créer un fil extrêmement léger et résistant. Avec ce matériau, jadis, on tissait des étoffes liées à des créatures magiques et légendaires. Parmi ces légendes apparaît la Licorne… une créature mystique qui ne se manifeste qu'à ceux qui possèdent un lien particulier avec la magie élémentaire. Si je veux vérifier la véracité de ces histoires, je dois d'abord rassembler une grande quantité de soies élémentaires. C'est pourquoi j'ai besoin de votre aide, aventurier. Vous devez vous aventurer dans les profondeurs des Catacombes et traquer les Araignées Élémentaires qui y vivent. Chacune produit une soie imprégnée du pouvoir de son élément. Oui… il m'en faut cent de chaque. Ce n'est qu'avec cette quantité que je pourrai travailler correctement avec les énergies des quatre éléments.
@@ -4769,22 +3572,6 @@ Repetible=1
 PosMap=517
 DescAudio=1080
 DescFinalAudio=1081
-
-[QUEST337]
-Nombre=Lien Licorne
-Desc=La Toile de Licorne que vous portez est unique, tissée d'énergies élémentaires pures et de techniques ancestrales presque oubliées des mortels. Selon la légende, seuls ceux qui ont fait preuve de patience, de dévouement et de respect pour la magie du monde peuvent approcher une Licorne. Cette toile n'est pas un simple tissu ; elle est un canal pour l'énergie de ces créatures, capable de les attirer et de les lier à un cavalier digne. Si vous souhaitez marcher aux côtés d'une Licorne et partager son pouvoir, vous devez me la confier. En retour, vous recevrez la Monture Licorne, un être noble et magique qui répondra à votre appel.
-DescFinal=Prends-en grand soin, aventurier, car seuls ceux qui honorent la magie du monde peuvent préserver sa confiance.
-Repetible=1
-DescAudio=1082
-DescFinalAudio=1083
-
-[QUEST338]
-Nombre=Lien Licorne
-Desc=La Toile de Licorne que vous portez est unique, tissée d'énergies élémentaires pures et de techniques ancestrales presque oubliées des mortels. Selon la légende, seuls ceux qui ont fait preuve de patience, de dévouement et de respect pour la magie du monde peuvent approcher une Licorne. Cette toile n'est pas un simple tissu ; elle est un canal pour l'énergie de ces créatures, capable de les attirer et de les lier à un cavalier digne. Si vous souhaitez marcher aux côtés d'une Licorne et partager son pouvoir, vous devez me la confier. En retour, vous recevrez la Monture Licorne, un être noble et magique qui répondra à votre appel.
-DescFinal=Prends-en grand soin, aventurier, car seuls ceux qui honorent la magie du monde peuvent préserver sa confiance.
-Repetible=1
-DescAudio=1084
-DescFinalAudio=1085
 
 [QUEST339]
 Nombre=La Flamme de l'Héroïsme
@@ -4814,277 +3601,6 @@ PosMap=69
 DescAudio=1311
 DescFinalAudio=1312
 
-[QUEST342]
-Nombre=L’Écho des Hurlements
-Desc=Ce n’est pas seulement une grotte. C’est un lieu où la raison se perd. On l’appelle la Grotte de la Désolation, car tous ceux qui y entrent sentent quelque chose de sombre les observer. De ses profondeurs surgissent des créatures qui ne sont plus des hommes... mais pas encore des bêtes. Ululantis, Ferus et Laicans parcourent les tunnels, guidés par un instinct sauvage qui ne connaît aucun repos. Ils étaient autrefois des gardiens, des chasseurs, des voyageurs. Désormais, il ne reste que des corps déformés par la malédiction. Leurs hurlements résonnent dans la nuit et, chaque jour, ils se rapprochent davantage des routes menant à la ville. Si nous ne faisons rien, il ne restera bientôt plus aucun endroit sûr dans cette région. Entrez dans la grotte et éliminez-en autant que possible. Chaque créature vaincue est une vie sauvée à l’extérieur. Lorsque vous aurez accompli votre tâche, revenez me voir. Je vous récompenserai avec de l’or et de l’expérience pour avoir affronté la désolation qui habite ce lieu.
-DescFinal=Ce que vous avez fait n’était pas seulement chasser des bêtes… c’était empêcher une tragédie. La présence dans la grotte s’est affaiblie et, pour la première fois depuis longtemps, l’air semble plus léger. Ululantis, Ferus et Laicans ne dominent plus les tunnels comme autrefois. Ce n’est pas une victoire définitive, mais elle est nécessaire. Chaque créature que vous avez vaincue a retardé l’avancée de la malédiction et donné à cette terre le temps de respirer. Prenez votre récompense. Reposez-vous, car affronter la désolation laisse des traces… et tôt ou tard, elle appellera de nouveau.
-Repetible=1
-RequiredLevel=16
-PosMap=418
-
-[QUEST343]
-Nombre=Quest solo ciuda
-Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte una buena recompensa.
-DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
-Repetible=1
-RequiredLevel=25
-DescAudio=1130
-DescFinalAudio=1131
-
-[QUEST344]
-Nombre=Quest solo armada
-Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte una buena recompensa.
-DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
-Repetible=1
-RequiredLevel=25
-DescAudio=1132
-DescFinalAudio=1133
-
-[QUEST345]
-Nombre=Quest solo ciuda y armada
-Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte una buena recompensa.
-DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
-Repetible=1
-RequiredLevel=25
-DescAudio=1134
-DescFinalAudio=1135
-
-[QUEST346]
-Nombre=Quest solo consejo real
-Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte una buena recompensa.
-DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
-Repetible=1
-RequiredLevel=25
-DescAudio=1136
-DescFinalAudio=1137
-
-[QUEST347]
-Nombre=Quest armada y consejo
-Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte una buena recompensa.
-DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
-Repetible=1
-RequiredLevel=25
-DescAudio=1138
-DescFinalAudio=1139
-
-[QUEST348]
-Nombre=Quest ciuda armada y consejo
-Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte una buena recompensa.
-DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
-Repetible=1
-RequiredLevel=25
-DescAudio=1140
-DescFinalAudio=1141
-
-[QUEST349]
-Nombre=Quest solo criminal
-Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte una buena recompensa.
-DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
-Repetible=1
-RequiredLevel=25
-DescAudio=1142
-DescFinalAudio=1143
-
-[QUEST350]
-Nombre=Quest solo legion
-Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte una buena recompensa.
-DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
-Repetible=1
-RequiredLevel=25
-DescAudio=1144
-DescFinalAudio=1145
-
-[QUEST351]
-Nombre=Quest solo criminal y legion
-Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte una buena recompensa.
-DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
-Repetible=1
-RequiredLevel=25
-DescAudio=1146
-DescFinalAudio=1147
-
-[QUEST352]
-Nombre=Quest Solo Concilio
-Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte una buena recompensa.
-DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
-Repetible=1
-RequiredLevel=25
-DescAudio=1148
-DescFinalAudio=1149
-
-[QUEST353]
-Nombre=Quest Solo Legion, Criminal y concilio
-Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte una buena recompensa.
-DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
-Repetible=1
-RequiredLevel=25
-DescAudio=1150
-DescFinalAudio=1151
-
-[QUEST354]
-Nombre=Limpieza del Drenaje (LVL1-19)
-Desc=Si queremos acercarnos a su guarida, debemos limpiar el camino. ¡Aniquila a tantos cocodrilos como podamos, recuerda golpear primero y luego preguntar! Espera, no te vayas, me olvidaba de decirte? nada, nada, ¡solo ve!
-DescFinal=Oh has regresado, ¡pensé que? nunca dudé de ti! -esconde una lista de apuestas-
-RequiredLevel=1
-DescAudio=1324
-DescFinalAudio=1325
-
-[QUEST355]
-Nombre=Limpieza del Drenaje (LVL20-24)
-Desc=Si queremos acercarnos a su guarida, debemos limpiar el camino. ¡Aniquila a tantos cocodrilos como podamos, recuerda golpear primero y luego preguntar! Espera, no te vayas, me olvidaba de decirte? nada, nada, ¡solo ve!
-DescFinal=Oh has regresado, ¡pensé que? nunca dudé de ti! -esconde una lista de apuestas-
-RequiredLevel=20
-DescAudio=1326
-DescFinalAudio=1327
-
-[QUEST356]
-Nombre=Limpieza del Drenaje (LVL25-30)
-Desc=Si queremos acercarnos a su guarida, debemos limpiar el camino. ¡Aniquila a tantos cocodrilos como podamos, recuerda golpear primero y luego preguntar! Espera, no te vayas, me olvidaba de decirte? nada, nada, ¡solo ve!
-DescFinal=Oh has regresado, ¡pensé que? nunca dudé de ti! -esconde una lista de apuestas-
-RequiredLevel=25
-DescAudio=1328
-DescFinalAudio=1329
-
-[QUEST357]
-Nombre=Limpieza del Drenaje (LVL31+)
-Desc=Si queremos acercarnos a su guarida, debemos limpiar el camino. ¡Aniquila a tantos cocodrilos como podamos, recuerda golpear primero y luego preguntar! Espera, no te vayas, me olvidaba de decirte? nada, nada, ¡solo ve!
-DescFinal=Oh has regresado, ¡pensé que? nunca dudé de ti! -esconde una lista de apuestas-
-RequiredLevel=31
-DescAudio=1330
-DescFinalAudio=1331
-
-[QUEST358]
-Nombre=Que la caza continue! (LVL1-19)
-Desc=Has manejado bastante bien la situación, mi consorte me dijo que no lo lograrían, pero le dije que si podrían, esa hembra siempre me lleva la contraria, deberían tratar con ell, saca de sus casillas hasta al cocodrilo más? si, si lo siento, me disperso.  Necesito que hagas lo siguiente.
-DescFinal=Bien hecho y gracias por traerme *objeto*, siempre quise tener uno y ahora tengo todos los que quiera, saben lo crueles que pueden ser los cocodrilos? Por mi tamaño y mi inteligencia ?superior? nunca me deja? si, si, lo siento.
-RequiredLevel=1
-DescAudio=1332
-DescFinalAudio=1333
-
-[QUEST359]
-Nombre=Que la caza continue! (LVL20-24)
-Desc=Has manejado bastante bien la situación, mi consorte me dijo que no lo lograrían, pero le dije que si podrían, esa hembra siempre me lleva la contraria, deberían tratar con ell, saca de sus casillas hasta al cocodrilo más? si, si lo siento, me disperso.  Necesito que hagas lo siguiente.
-DescFinal=Bien hecho y gracias por traerme *objeto*, siempre quise tener uno y ahora tengo todos los que quiera, saben lo crueles que pueden ser los cocodrilos? Por mi tamaño y mi inteligencia ?superior? nunca me deja? si, si, lo siento.
-RequiredLevel=20
-DescAudio=1334
-DescFinalAudio=1335
-
-[QUEST360]
-Nombre=Que la caza continue! (LVL25-30)
-Desc=Has manejado bastante bien la situación, mi consorte me dijo que no lo lograrían, pero le dije que si podrían, esa hembra siempre me lleva la contraria, deberían tratar con ell, saca de sus casillas hasta al cocodrilo más? si, si lo siento, me disperso.  Necesito que hagas lo siguiente.
-DescFinal=Bien hecho y gracias por traerme *objeto*, siempre quise tener uno y ahora tengo todos los que quiera, saben lo crueles que pueden ser los cocodrilos? Por mi tamaño y mi inteligencia ?superior? nunca me deja? si, si, lo siento.
-RequiredLevel=25
-DescAudio=1336
-DescFinalAudio=1337
-
-[QUEST361]
-Nombre=Que la caza continue! (LVL31+)
-Desc=Has manejado bastante bien la situación, mi consorte me dijo que no lo lograrían, pero le dije que si podrían, esa hembra siempre me lleva la contraria, deberían tratar con ell, saca de sus casillas hasta al cocodrilo más? si, si lo siento, me disperso.  Necesito que hagas lo siguiente.
-DescFinal=Bien hecho y gracias por traerme *objeto*, siempre quise tener uno y ahora tengo todos los que quiera, saben lo crueles que pueden ser los cocodrilos? Por mi tamaño y mi inteligencia ?superior? nunca me deja? si, si, lo siento.
-RequiredLevel=31
-DescAudio=1338
-DescFinalAudio=1339
-
-[QUEST362]
-Nombre=Matad chamanes! (LVL1-19)
-Desc=Escúchame bien, debes acabar con esos molestos chamanes, ya me tienen cansado con sus molestos canticos, sus rituales y sus molestas reglas, ¿qué? Ah si, si, también debes acabar con ellos porque con su magia propagan las aguas contaminadas, es mucho muy importante que lo hagas
-DescFinal=Bien, lo has hecho, ¡no puedo creer que ya no tendré que escucharlos nunca mas!
-RequiredLevel=1
-DescAudio=1340
-DescFinalAudio=1341
-
-[QUEST363]
-Nombre=Matad chamanes! (LVL20-24)
-Desc=Escúchame bien, debes acabar con esos molestos chamanes, ya me tienen cansado con sus molestos canticos, sus rituales y sus molestas reglas, ¿qué? Ah si, si, también debes acabar con ellos porque con su magia propagan las aguas contaminadas, es mucho muy importante que lo hagas
-DescFinal=Bien, lo has hecho, ¡no puedo creer que ya no tendré que escucharlos nunca mas!
-RequiredLevel=20
-DescAudio=1342
-DescFinalAudio=1343
-
-[QUEST364]
-Nombre=Matad chamanes! (LVL25-30)
-Desc=Escúchame bien, debes acabar con esos molestos chamanes, ya me tienen cansado con sus molestos canticos, sus rituales y sus molestas reglas, ¿qué? Ah si, si, también debes acabar con ellos porque con su magia propagan las aguas contaminadas, es mucho muy importante que lo hagas
-DescFinal=Bien, lo has hecho, ¡no puedo creer que ya no tendré que escucharlos nunca mas!
-RequiredLevel=25
-DescAudio=1344
-DescFinalAudio=1345
-
-[QUEST365]
-Nombre=Matad chamanes! (LVL31+)
-Desc=Escúchame bien, debes acabar con esos molestos chamanes, ya me tienen cansado con sus molestos canticos, sus rituales y sus molestas reglas, ¿qué? Ah si, si, también debes acabar con ellos porque con su magia propagan las aguas contaminadas, es mucho muy importante que lo hagas
-DescFinal=Bien, lo has hecho, ¡no puedo creer que ya no tendré que escucharlos nunca mas!
-RequiredLevel=31
-DescAudio=1346
-DescFinalAudio=1347
-
-[QUEST366]
-Nombre=Primer Ritual
-Desc=Escúchame, conozco un poco de esto de la magia, digamos que robe algún que otro pergamino en algún momento. Traedme sangre de cada cocodrilo que mates los podre utilizar para una pócima que nos permita purificar el agua, creo
-DescFinal=Bien has vuelto y con lo que te pedí, ¡Puaj! No espere que fuera tanto.
-RequiredLevel=0
-DescAudio=1585
-DescFinalAudio=1586
-
-[QUEST367]
-Nombre=Segundo Ritual
-Desc=Bien, no ha sido suficiente, traedme mas sangre!, no fallare!
-DescFinal=Eso si que ha sido rápido, no esperaba menos de ti!
-RequiredLevel=0
-DescAudio=1587
-DescFinalAudio=1588
-
-[QUEST368]
-Nombre=Tercer Ritual
-Desc=Si, lo sé, he fallado las anteriores veces, pero esta vez lo lograre, vamos confía, traedme mas sangre, esta vez creo saber en que me equivoque, vamos, di que sí, como amigos!
-DescFinal=Vaya, has vuelto, no pensé que lo harías, pero has vuelto, ¡eso quiere decir que me quieres! que? ¿Que solo has vuelto por el ritual? Ah, si, si claro, lo sabía
-RequiredLevel=0
-DescAudio=1589
-DescFinalAudio=1590
-
-[QUEST369]
-Nombre=El Jefazo
-Desc=¿Escúchame bien, solo queda una cosa por hacer, debemos eliminar al Jefazo, si, sé que te he pedido mucho pero no es nada comparado con lo que me pide mi consorte, ya te lo dije, esa hembra es insoportable? lo siento, en que estábamos? Ah si, debes acabar con El Jefazo.
-DescFinal=No lo puedo creer, debo serte sincero, pensé que terminarías muerto, pero lo has logrado, gracias a ti todo esto es mío ahora, ¿cómo puedo recompensarte?
-RequiredLevel=0
-DescAudio=1591
-DescFinalAudio=1592
-
-[QUEST370]
-Nombre=Mantener el frente!
-Desc=Atención, los vigías nos han advertido de que se avecina una horda de estas alimañas, no podemos permitir su avance o destruirían la ciudad!
-DescFinal=Muy bien lo haz logrado, hemos frenado la avanzadilla, la próxima vez se lo pensaran dos veces!
-Repetible=1
-RequiredLevel=25
-DescAudio=1138
-DescFinalAudio=1139
-
-[QUEST371]
-Nombre=Debemos contraatacar!
-Desc=Es momento de demostrarles de que estamos hechos, ve al frente y mata tantas de esas criaturas como puedas, ¡que no quede ni una en pie!
-DescFinal=Bien, haz acabado con las alimañas, te lo agradezco!
-Repetible=1
-RequiredLevel=25
-DescAudio=1138
-DescFinalAudio=1139
-
-[QUEST372]
-Nombre=Mantener el frente!
-Desc=Atención, los vigías nos han advertido de que se avecina una horda de estas alimañas, no podemos permitir su avance o destruirían la ciudad!
-DescFinal=Muy bien lo haz logrado, hemos frenado la avanzadilla, la próxima vez se lo pensaran dos veces!
-Repetible=1
-RequiredLevel=25
-DescAudio=1138
-DescFinalAudio=1139
-
-[QUEST373]
-Nombre=Debemos contraatacar!
-Desc=Es momento de demostrarles de que estamos hechos, ve al frente y mata tantas de esas criaturas como puedas, ¡que no quede ni una en pie!
-DescFinal=Bien, haz acabado con las alimañas, te lo agradezco!
-Repetible=1
-RequiredLevel=25
-DescAudio=1138
-DescFinalAudio=1139
-
 [QUEST380]
 Nombre=L'Offrande de Dolgrin
 Desc=Les quatre éléments ne se dominent pas. Ils se rassemblent. Depuis que les nains de Morgrim ont déchiffré le langage des essences, ils savent que le feu, la terre, le vent et l'eau ne sont pas des forces séparées : ce sont des fragments d'un même pouvoir ancien. Dolgrin passe des années à attendre ceux capables de forger ce que peu osent rassembler. Apportez-moi dix Runes Élémentaires de chaque élément et je vous donnerai quelque chose qui ne se trouve nulle part ailleurs dans le monde connu.
@@ -5093,42 +3609,6 @@ Repetible=1
 PosMap=591
 DescAudio=1574
 DescFinalAudio=1575
-
-[QUEST381]
-Nombre=Le Cavalier du Feu
-Desc=Tous ceux qui cherchent le Cheval de Feu ne le méritent pas. Dolgrin le sait. C'est pourquoi le vouloir ne suffit pas : il faut le prouver. Quarante Runes Élémentaires de Feu. C'est ce qu'il faut pour que les flammes reconnaissent leur cavalier. Ce n'est pas un chemin facile, mais celui qui arrive ici avec ce fardeau... sait déjà ce qu'est le feu de l'intérieur.
-DescFinal=Les flammes vous ont reconnu. Le Cheval de Feu est à vous. Traitez-le bien... ou il ne vous le pardonnera pas.
-Repetible=0
-PosMap=591
-DescAudio=1576
-DescFinalAudio=1577
-
-[QUEST382]
-Nombre=Le Cavalier de la Terre
-Desc=La terre ne se conquiert pas. Elle se gagne avec patience, avec effort, avec un poids accumulé pas à pas. Dolgrin ne remettra pas le Cheval de Terre à celui qui n'a pas porté ce fardeau. Quarante Runes Élémentaires de Terre. Chacune est une preuve silencieuse que vous êtes prêt à construire ce que les autres abandonnent à mi-chemin.
-DescFinal=La terre vous a accepté. Le Cheval de Terre est à vous. Aussi solide que les racines de Morgrim elle-même.
-Repetible=0
-PosMap=591
-DescAudio=1578
-DescFinalAudio=1579
-
-[QUEST383]
-Nombre=Le Cavalier du Vent
-Desc=Le vent n'attend pas. Il ne pardonne ni le doute ni la lenteur. Le Cheval de Vent choisit ceux qui avancent avec détermination, ceux qui ne s'arrêtent pas quand le chemin devient difficile. Quarante Runes Élémentaires de Vent. Si vous êtes arrivé jusqu'ici avec elles, le vent vous connaît déjà. Il ne reste plus qu'à ce qu'il vous reconnaisse comme sien.
-DescFinal=Le vent vous a choisi. Le Cheval de Vent est à vous. Que rien ni personne ne vous arrête.
-Repetible=0
-PosMap=591
-DescAudio=1580
-DescFinalAudio=1581
-
-[QUEST384]
-Nombre=Le Cavalier de la Glace
-Desc=La glace ne brûle pas et ne souffle pas. Elle attend. Et dans cette attente, elle juge. Le Cheval de Glace ne se remet pas à celui qui arrive à la hâte ni à celui qui cherche le pouvoir sans le comprendre. Quarante Runes Élémentaires d'Eau. Le froid reconnaît ceux qui ont appris à tenir bon dans le silence, ceux que le temps ne plie pas. Êtes-vous l'un d'eux ?
-DescFinal=La glace vous a reconnu. Le Cheval de Glace est à vous. Aussi éternel et serein que les profondeurs dont il est né.
-Repetible=0
-PosMap=591
-DescAudio=1582
-DescFinalAudio=1583
 
 [QUEST385]
 Nombre=Réduire les Forces
