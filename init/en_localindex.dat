@@ -18333,9 +18333,6 @@ Objtype=4
 Agarrable=1
 Texto=Árbol
 
-[OBJ154]
-GrhIndex=0
-
 [OBJ155]
 Name=Cama Simple
 Info=Cama Horizontal
@@ -18738,9 +18735,6 @@ ObjType=48
 Agarrable=0
 Texto=Este cofre contiene cascos y coronas legendarias.
 
-[OBJ202]
-GrhIndex=0
-
 [OBJ203]
 Name=Miner's Picket
 Texto=Deposit extraction tool.
@@ -18810,42 +18804,6 @@ Name=Antidoto (B)
 texto=Cures the poison of the user who consumes it.
 ObjType=11
 Valor=18
-
-[OBJ213]
-GRHINDEX=0
-
-[OBJ214]
-GRHINDEX=0
-
-[OBJ215]
-GRHINDEX=0
-
-[OBJ216]
-GRHINDEX=0
-
-[OBJ217]
-GRHINDEX=0
-
-[OBJ218]
-GRHINDEX=0
-
-[OBJ219]
-GRHINDEX=0
-
-[OBJ220]
-GRHINDEX=0
-
-[OBJ221]
-GrhIndex=0
-
-[OBJ222]
-GRHINDEX=0
-
-[OBJ223]
-GRHINDEX=0
-
-[OBJ224]
-GRHINDEX=0
 
 [OBJ225]
 GrhIndex=8497
@@ -18938,9 +18896,6 @@ GrhIndex=8615
 ObjType=22
 Agarrable=1
 Texto=Yacimiento de Plata
-
-[OBJ236]
-GrhIndex=0
 
 [OBJ237]
 Name=Weapons Chest
@@ -19122,27 +19077,6 @@ ObjType=6
 llave=0
 Agarrable=1
 Texto=Puerta cerrada
-
-[OBJ256]
-GRHINDEX=0
-
-[OBJ257]
-GRHINDEX=0
-
-[OBJ258]
-GRHINDEX=0
-
-[OBJ259]
-GRHINDEX=0
-
-[OBJ260]
-GRHINDEX=0
-
-[OBJ261]
-GRHINDEX=0
-
-[OBJ262]
-GrhIndex=0
 
 [OBJ263]
 Name=Open door
@@ -19546,18 +19480,6 @@ ObjType=8
 Texto=Welcome traveler! Be careful, you don y of the brittle planks to play tricks on you before you leave.
 Agarrable=1
 
-[OBJ316]
-GRHINDEX=0
-
-[OBJ317]
-GRHINDEX=0
-
-[OBJ318]
-GrhIndex=0
-
-[OBJ319]
-GrhIndex=0
-
 [OBJ320]
 Name=Open door
 GrhIndex=9201
@@ -19919,9 +19841,6 @@ LingH=20
 SkHerreria=18
 Texto=Necessary tool for mining in gold deposits
 
-[OBJ364]
-GrhIndex=0
-
 [OBJ365]
 Name=Dagger +2
 texto=Damage 2/5
@@ -20160,21 +20079,12 @@ MaderaElfica=4000
 MaxHit=15
 MinHit=11
 
-[OBJ392]
-GrhIndex=0
-
-[OBJ393]
-GrhIndex=0
-
 [OBJ394]
 Name=Mermaid breath
 GrhIndex=14199
 ObjType=11
 Texto=Gives you ten seconds of oxygen.
 Valor=150
-
-[OBJ395]
-GrhIndex=0
 
 [OBJ396]
 Name=Divine Prayer (Cleric)
@@ -20262,9 +20172,6 @@ LingP=210
 LingO=0
 SkHerreria=100
 Texto=Espada de Héroes
-
-[OBJ404]
-GrhIndex=0
 
 [OBJ405]
 Name=Piel de Cabra
@@ -20998,9 +20905,6 @@ MINDEF=1
 Valor=50000
 Texto=White Lady (M)
 
-[OBJ489]
-GrhIndex=0
-
 [OBJ490]
 GrhIndex=55394
 Name=Fragmento de Núcleo Terráneo
@@ -21611,12 +21515,6 @@ ObjType=8
 Texto=Here lies the body of Gulfas Morgolock, his spirit is found all over this world. Their island is protected by the Gods and the songs of Sirens. Legend has it that there will be a possible reincarnation.
 Agarrable=1
 
-[OBJ536]
-GrhIndex=0
-
-[OBJ537]
-GrhIndex=0
-
 [OBJ538]
 Name=Piel de Oso Pardo (Especial)
 Texto=Objeto de Quest
@@ -21638,9 +21536,6 @@ Objtype=30
 Valor=4500
 Madera=1500
 Texto=Increases magic damage by 5%.
-
-[OBJ541]
-GrhIndex=0
 
 [OBJ542]
 GrhIndex=0
@@ -21776,9 +21671,6 @@ MaxHIT=9
 Valor=0
 Texto=Daga Ígnea
 
-[OBJ560]
-GrhIndex=0
-
 [OBJ561]
 GrhIndex=0
 
@@ -21882,9 +21774,6 @@ Texto=Martillo de Piedra (Newbie)
 [OBJ575]
 GrhIndex=0
 
-[OBJ576]
-GrhIndex=0
-
 [OBJ577]
 Name=Sign
 Info=Magia Versión 2
@@ -21892,12 +21781,6 @@ GrhIndex=622
 ObjType=8
 Texto=The magic scrolls of yesteryear are not lost. They
 Agarrable=1
-
-[OBJ578]
-GrhIndex=0
-
-[OBJ579]
-GrhIndex=0
 
 [OBJ580]
 Name=Fireworks
@@ -21976,12 +21859,6 @@ ObjType=11
 Texto=Party!
 Valor=1
 
-[OBJ591]
-GrhIndex=0
-
-[OBJ592]
-GrhIndex=0
-
 [OBJ593]
 Name=Green Smoke Bombs
 GrhIndex=32468
@@ -22010,15 +21887,6 @@ ObjType=11
 Texto=Party!
 Valor=1
 
-[OBJ597]
-GrhIndex=0
-
-[OBJ598]
-GrhIndex=0
-
-[OBJ599]
-GrhIndex=0
-
 [OBJ600]
 GrhIndex=0
 
@@ -22034,9 +21902,6 @@ SkHerreria=100
 LingH=110
 LingP=60
 LingO=60
-
-[OBJ602]
-GrhIndex=0
 
 [OBJ603]
 Name=Cofre Abierto
@@ -22060,12 +21925,6 @@ ObjType=17
 Valor=750
 MaxDef=2
 MinDef=3
-
-[OBJ606]
-GrhIndex=0
-
-[OBJ607]
-GrhIndex=0
 
 [OBJ608]
 Name=Experiencia
@@ -22393,9 +22252,6 @@ valor=3
 Objtype=21
 Texto=Disabled item.
 
-[OBJ652]
-GrhIndex=0
-
 [OBJ653]
 Name=Unicornio
 Texto=It allows you to ride a unicorn
@@ -22526,9 +22382,6 @@ Texto=Item de Quest
 GrhIndex=38328
 ObjType=100
 Valor=0
-
-[OBJ671]
-GrhIndex=0
 
 [OBJ672]
 Name=Teleport
@@ -22960,25 +22813,7 @@ GrhIndex=24694
 ObjType=44
 Valor=0
 
-[OBJ729]
-GrhIndex=0
-
-[OBJ730]
-GrhIndex=0
-
-[OBJ731]
-GrhIndex=0
-
-[OBJ732]
-GrhIndex=0
-
-[OBJ733]
-GrhIndex=0
-
 [OBJ734]
-GrhIndex=0
-
-[OBJ735]
 GrhIndex=0
 
 [OBJ736]
@@ -22987,9 +22822,6 @@ GrhIndex=905
 valor=1000
 Objtype=20
 Texto=Increase your Trade skill points by 10 points.
-
-[OBJ737]
-GrhIndex=0
 
 [OBJ738]
 Name=Archer Earring (+10)
@@ -23005,12 +22837,6 @@ valor=500
 Objtype=20
 Texto=Increase your skill points in Backstab by 10 points.
 
-[OBJ740]
-GrhIndex=0
-
-[OBJ741]
-GrhIndex=0
-
 [OBJ742]
 Name=Spear
 GrhIndex=902
@@ -23023,43 +22849,10 @@ LingP=0
 SkHerreria=25
 Texto=Lanza
 
-[OBJ743]
-GrhIndex=0
-
-[OBJ744]
-GrhIndex=0
-
-[OBJ745]
-GRHINDEX=0
-
-[OBJ746]
-GrhIndex=0
-
-[OBJ747]
-GrhIndex=0
-
-[OBJ748]
-GrhIndex=0
-
 [OBJ749]
 Name=Ballesta
 GrhIndex=896
 Texto=Ballesta
-
-[OBJ750]
-GRHINDEX=0
-
-[OBJ751]
-GrhIndex=0
-
-[OBJ752]
-GrhIndex=0
-
-[OBJ753]
-GrhIndex=0
-
-[OBJ754]
-GrhIndex=0
 
 [OBJ755]
 Name=Ring of silence (Assassin-Bandit)
@@ -23072,27 +22865,12 @@ LingP=111
 LingO=28
 SkHerreria=100
 
-[OBJ756]
-GRHINDEX=0
-
-[OBJ757]
-GrhIndex=0
-
-[OBJ758]
-GrhIndex=0
-
-[OBJ759]
-GrhIndex=0
-
 [OBJ760]
 Name=Onion
 GrhIndex=28834
 ObjType=1
 Valor=1
 Texto=Restores 1 hunger points
-
-[OBJ761]
-GrhIndex=0
 
 [OBJ762]
 Name=Open door
@@ -23814,12 +23592,6 @@ GrhIndex=509
 ObjType=9
 Texto=Llave de la casa 9 de Illiandor
 
-[OBJ858]
-GrhIndex=0
-
-[OBJ859]
-GRHINDEX=0
-
 [OBJ860]
 Name=Sign
 Info=Dungeon Zero
@@ -23844,21 +23616,6 @@ ObjType=8
 Texto=To the east you can see a small town, its name is Illiandor. There you will find supplies for your long journey.
 Agarrable=1
 
-[OBJ863]
-GRHINDEX=0
-
-[OBJ864]
-GRHINDEX=0
-
-[OBJ865]
-GRHINDEX=0
-
-[OBJ866]
-GrhIndex=0
-
-[OBJ867]
-GrhIndex=0
-
 [OBJ868]
 Name=Fiery Orb
 GrhIndex=969
@@ -23873,54 +23630,12 @@ valor=60000
 Objtype=21
 Texto=It adds probability of paralyzing your blows.
 
-[OBJ870]
-GrhIndex=0
-
-[OBJ871]
-GrhIndex=0
-
-[OBJ872]
-GrhIndex=0
-
-[OBJ873]
-GrhIndex=0
-
-[OBJ874]
-GrhIndex=0
-
-[OBJ875]
-GrhIndex=0
-
-[OBJ876]
-GrhIndex=0
-
-[OBJ877]
-GrhIndex=0
-
-[OBJ878]
-GrhIndex=0
-
-[OBJ879]
-GrhIndex=0
-
-[OBJ880]
-GrhIndex=0
-
 [OBJ881]
 Name=Fishing Rod
 GrhIndex=48908
 ObjType=18
 Valor=1200
 Texto=Basic Fishing Tool
-
-[OBJ882]
-GRHINDEX=0
-
-[OBJ883]
-GRHINDEX=0
-
-[OBJ884]
-GRHINDEX=0
 
 [OBJ885]
 Name=Scissors
@@ -24055,12 +23770,6 @@ ObjType=18
 Texto=Herramienta necesaria para crear pociones de Alquimia
 Valor=0
 
-[OBJ899]
-GrhIndex=0
-
-[OBJ900]
-GrhIndex=0
-
 [OBJ901]
 Name=Clothes of Clan (E/G)
 GrhIndex=46974
@@ -24082,28 +23791,10 @@ MINDEF=3
 Valor=500
 Texto=Ropa de Clan (Bajos)
 
-[OBJ902]
-GrhIndex=0
-
-[OBJ903]
-GrhIndex=0
-
 [OBJ904]
 GrhIndex=0
 
 [OBJ905]
-GrhIndex=0
-
-[OBJ906]
-GrhIndex=0
-
-[OBJ907]
-GrhIndex=0
-
-[OBJ908]
-GrhIndex=0
-
-[OBJ909]
 GrhIndex=0
 
 [OBJ910]
@@ -24336,9 +24027,6 @@ Texto=Árbol
 [OBJ941]
 GrhIndex=0
 
-[OBJ942]
-GrhIndex=0
-
 [OBJ943]
 GrhIndex=0
 
@@ -24352,9 +24040,6 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ947]
-GrhIndex=0
-
-[OBJ948]
 GrhIndex=0
 
 [OBJ949]
@@ -24384,9 +24069,6 @@ Texto=Traje de Marques
 [OBJ951]
 GrhIndex=0
 
-[OBJ952]
-GrhIndex=0
-
 [OBJ953]
 GrhIndex=0
 
@@ -24399,16 +24081,7 @@ GrhIndex=0
 [OBJ956]
 GrhIndex=0
 
-[OBJ957]
-GrhIndex=0
-
 [OBJ958]
-GrhIndex=0
-
-[OBJ959]
-GrhIndex=0
-
-[OBJ960]
 GrhIndex=0
 
 [OBJ961]
@@ -24466,9 +24139,6 @@ MaxDef=2
 MinDef=1
 Valor=80
 
-[OBJ965]
-GrhIndex=0
-
 [OBJ966]
 Name=Armadura de Lider Faccionario (Armada Real)
 Texto=Objeto consumible.
@@ -24511,15 +24181,6 @@ RopajeHumano=361
 RopajeOrca=1395
 RopajeOrco=1395
 
-[OBJ968]
-GrhIndex=0
-
-[OBJ969]
-GrhIndex=0
-
-[OBJ970]
-GrhIndex=0
-
 [OBJ971]
 Name=Wedding Dress (E/G)
 GrhIndex=11668
@@ -24531,33 +24192,12 @@ Texto=Vestido de Novia (Bajas)
 RopajeEnana=2763
 RopajeGnoma=2763
 
-[OBJ972]
-GrhIndex=0
-
-[OBJ973]
-GrhIndex=0
-
 [OBJ974]
 Name=Thief's ring (+10) +10) +10)
 GrhIndex=880
 valor=500
 Objtype=20
 Texto=Increase your Skills by 10 points
-
-[OBJ975]
-GrhIndex=0
-
-[OBJ976]
-GrhIndex=0
-
-[OBJ977]
-GRHINDEX=0
-
-[OBJ978]
-GrhIndex=0
-
-[OBJ979]
-GrhIndex=0
 
 [OBJ980]
 Name=Hacha Arrojadiza
@@ -24570,21 +24210,6 @@ LingH=30
 LingP=0
 SkHerreria=25
 Texto=Hacha Arrojadiza
-
-[OBJ981]
-GRHINDEX=0
-
-[OBJ982]
-GRHINDEX=0
-
-[OBJ983]
-GrhIndex=0
-
-[OBJ984]
-GrhIndex=0
-
-[OBJ985]
-GrhIndex=0
 
 [OBJ986]
 GrhIndex=0
@@ -24630,12 +24255,6 @@ MAXDEF=1
 MINDEF=1
 valor=0
 Texto=Vestimentas Tribales (Newbies)
-
-[OBJ989]
-GrhIndex=0
-
-[OBJ990]
-GrhIndex=0
 
 [OBJ991]
 GrhIndex=0
@@ -24803,9 +24422,6 @@ MINDEF=25
 Valor=15000
 Texto=Armadura de Cazador (Bajos)
 
-[OBJ1006]
-GrhIndex=0
-
 [OBJ1007]
 Name=Yin Yang Mask
 GrhIndex=10239
@@ -24824,12 +24440,6 @@ MINDEF=0
 Valor=60
 texto=Change your appearance with this mask
 
-[OBJ1009]
-GrhIndex=0
-
-[OBJ1010]
-GrhIndex=0
-
 [OBJ1011]
 Name=Ridiculous Crown
 GrhIndex=10196
@@ -24838,9 +24448,6 @@ MAXDEF=0
 MINDEF=0
 Valor=60
 Texto=Change your appearance with this mask
-
-[OBJ1012]
-GrhIndex=0
 
 [OBJ1013]
 Name=Salmon Mask
@@ -24925,9 +24532,6 @@ MAXDEF=0
 MINDEF=0
 Valor=40
 texto=Change your appearance with this mask
-
-[OBJ1022]
-GrhIndex=0
 
 [OBJ1023]
 Name=Queen mask
@@ -25061,12 +24665,6 @@ MINDEF=0
 Valor=50
 texto=Change your appearance with this mask
 
-[OBJ1039]
-GrhIndex=0
-
-[OBJ1040]
-GrhIndex=0
-
 [OBJ1041]
 Name=Oni mask
 GrhIndex=10227
@@ -25112,9 +24710,6 @@ MINDEF=0
 Valor=50
 texto=Change your appearance with this mask
 
-[OBJ1046]
-GrhIndex=0
-
 [OBJ1047]
 Name=Skeletal Mask
 GrhIndex=10234
@@ -25159,81 +24754,6 @@ MAXDEF=0
 MINDEF=0
 Valor=50
 texto=Change your appearance with this mask
-
-[OBJ1052]
-GrhIndex=0
-
-[OBJ1053]
-GrhIndex=0
-
-[OBJ1054]
-GrhIndex=0
-
-[OBJ1055]
-GrhIndex=0
-
-[OBJ1056]
-GrhIndex=0
-
-[OBJ1057]
-GrhIndex=0
-
-[OBJ1058]
-GrhIndex=0
-
-[OBJ1059]
-GrhIndex=0
-
-[OBJ1060]
-GrhIndex=0
-
-[OBJ1061]
-GrhIndex=0
-
-[OBJ1062]
-GrhIndex=0
-
-[OBJ1063]
-GrhIndex=0
-
-[OBJ1064]
-GrhIndex=0
-
-[OBJ1065]
-GrhIndex=0
-
-[OBJ1066]
-GrhIndex=0
-
-[OBJ1067]
-GrhIndex=0
-
-[OBJ1068]
-GrhIndex=0
-
-[OBJ1069]
-GrhIndex=0
-
-[OBJ1070]
-GrhIndex=0
-
-[OBJ1071]
-GrhIndex=0
-
-[OBJ1072]
-GrhIndex=0
-
-[OBJ1073]
-GrhIndex=0
-
-[OBJ1074]
-GrhIndex=0
-
-[OBJ1075]
-GrhIndex=0
-
-[OBJ1076]
-GrhIndex=0
 
 [OBJ1077]
 GrhIndex=0
@@ -25290,22 +24810,7 @@ RopajeHumano=144
 RopajeOrca=3151
 RopajeOrco=1112
 
-[OBJ1082]
-GrhIndex=0
-
-[OBJ1083]
-GrhIndex=0
-
 [OBJ1084]
-GrhIndex=0
-
-[OBJ1085]
-GrhIndex=0
-
-[OBJ1086]
-GrhIndex=0
-
-[OBJ1087]
 GrhIndex=0
 
 [OBJ1088]
@@ -25691,28 +25196,10 @@ ObjType=2
 Proyectil=1
 Texto=Damage 9/13
 
-[OBJ1118]
-GrhIndex=0
-
 [OBJ1119]
 GrhIndex=0
 
-[OBJ1120]
-GrhIndex=0
-
-[OBJ1121]
-GrhIndex=0
-
-[OBJ1122]
-GrhIndex=0
-
 [OBJ1123]
-GrhIndex=0
-
-[OBJ1124]
-GrhIndex=0
-
-[OBJ1125]
 GrhIndex=0
 
 [OBJ1126]
@@ -25720,15 +25207,6 @@ Name=Master Key
 GrhIndex=509
 ObjType=9
 Texto=Llave Maestra
-
-[OBJ1127]
-GrhIndex=0
-
-[OBJ1128]
-GrhIndex=0
-
-[OBJ1129]
-GRHINDEX=0
 
 [OBJ1130]
 Name=Cartel Penthar al Norte
@@ -25752,9 +25230,6 @@ GrhIndex=50899
 ObjType=8
 Texto=South route to Arkhein.
 Agarrable=1
-
-[OBJ1133]
-GRHINDEX=0
 
 [OBJ1134]
 Name=Cartel Muelle
@@ -25812,9 +25287,6 @@ ObjType=8
 Texto=West swamp
 Agarrable=1
 
-[OBJ1141]
-GRHINDEX=0
-
 [OBJ1142]
 Name=Miner Clothes
 texto=Miner clothes
@@ -25835,12 +25307,6 @@ ObjType=3
 MaxDef=11
 MinDef=7
 Valor=1800
-
-[OBJ1143]
-GrhIndex=0
-
-[OBJ1144]
-GrhIndex=0
 
 [OBJ1145]
 Name=Bengal Tiger Hide
@@ -25877,15 +25343,6 @@ Objtype=21
 Texto=Increases your chance to upgrade skills by 50%
 
 [OBJ1150]
-GrhIndex=0
-
-[OBJ1151]
-GrhIndex=0
-
-[OBJ1152]
-GrhIndex=0
-
-[OBJ1153]
 GrhIndex=0
 
 [OBJ1154]
@@ -25978,37 +25435,7 @@ ObjType=8
 Texto=One of the purest divinities who have set foot on these lands, Simp has earned a place thanks to everything he has offered in benevolence of these parts.
 Agarrable=1
 
-[OBJ1167]
-GRHINDEX=0
-
-[OBJ1168]
-GrhIndex=0
-
-[OBJ1169]
-GrhIndex=0
-
-[OBJ1170]
-GrhIndex=0
-
-[OBJ1171]
-GrhIndex=0
-
-[OBJ1172]
-GrhIndex=0
-
-[OBJ1173]
-GrhIndex=0
-
-[OBJ1174]
-GrhIndex=0
-
-[OBJ1175]
-GrhIndex=0
-
 [OBJ1176]
-GrhIndex=0
-
-[OBJ1177]
 GrhIndex=0
 
 [OBJ1178]
@@ -26090,61 +25517,22 @@ NAME=Manto Encantado de Guinevere
 OBJTYPE=3
 TEXTO=Defensa 32/37
 
-[OBJ1191]
-GrhIndex=0
-
 [OBJ1192]
 GrhIndex=0
 
-[OBJ1193]
-GRHINDEX=0
-
-[OBJ1194]
-GRHINDEX=0
-
 [OBJ1195]
-GRHINDEX=0
-
-[OBJ1196]
-GRHINDEX=0
-
-[OBJ1197]
 GRHINDEX=0
 
 [OBJ1198]
 GRHINDEX=0
 
-[OBJ1199]
-GRHINDEX=0
-
-[OBJ1200]
-GrhIndex=0
-
 [OBJ1201]
-GrhIndex=0
-
-[OBJ1202]
-GrhIndex=0
-
-[OBJ1203]
-GrhIndex=0
-
-[OBJ1204]
-GrhIndex=0
-
-[OBJ1205]
 GrhIndex=0
 
 [OBJ1206]
 GrhIndex=0
 
-[OBJ1207]
-GRHINDEX=0
-
 [OBJ1208]
-GRHINDEX=0
-
-[OBJ1209]
 GRHINDEX=0
 
 [OBJ1210]
@@ -26171,16 +25559,7 @@ Valor=21000
 [OBJ1211]
 GrhIndex=0
 
-[OBJ1212]
-GrhIndex=0
-
 [OBJ1213]
-GrhIndex=0
-
-[OBJ1214]
-GrhIndex=0
-
-[OBJ1215]
 GrhIndex=0
 
 [OBJ1216]
@@ -26227,22 +25606,7 @@ MINDEF=1
 Valor=0
 Texto=It has magic resistance.
 
-[OBJ1219]
-GrhIndex=0
-
 [OBJ1220]
-GrhIndex=0
-
-[OBJ1221]
-GrhIndex=0
-
-[OBJ1222]
-GrhIndex=0
-
-[OBJ1223]
-GrhIndex=0
-
-[OBJ1224]
 GrhIndex=0
 
 [OBJ1225]
@@ -26273,14 +25637,8 @@ PielLobo=50
 PielOsoPardo=0
 PielOsoPolar=0
 
-[OBJ1227]
-GrhIndex=0
-
 [OBJ1228]
 GrhIndex=0
-
-[OBJ1229]
-GRHINDEX=0
 
 [OBJ1230]
 GRHINDEX=0
@@ -26400,9 +25758,6 @@ MINDEF=5
 Valor=10
 Texto=Uniforme Legionario de Trabajador de 1ª Jerarquía (Bajos)
 
-[OBJ1242]
-GrhIndex=0
-
 [OBJ1243]
 Name=Hacha de Hierro Vieja
 GrhIndex=44064
@@ -26466,24 +25821,6 @@ LingP=120
 MaxHit=17
 MinHit=11
 
-[OBJ1247]
-GrhIndex=0
-
-[OBJ1248]
-GrhIndex=0
-
-[OBJ1249]
-GrhIndex=0
-
-[OBJ1250]
-GrhIndex=0
-
-[OBJ1251]
-GrhIndex=0
-
-[OBJ1252]
-GrhIndex=0
-
 [OBJ1253]
 Name=Deteriorated Tombstone
 GrhIndex=29675
@@ -26504,27 +25841,6 @@ GrhIndex=29677
 ObjType=20
 Agarrable=1
 Texto=Escombros de Lápida
-
-[OBJ1256]
-GrhIndex=0
-
-[OBJ1257]
-GrhIndex=0
-
-[OBJ1258]
-GrhIndex=0
-
-[OBJ1259]
-GrhIndex=0
-
-[OBJ1260]
-GrhIndex=0
-
-[OBJ1261]
-GrhIndex=0
-
-[OBJ1262]
-GrhIndex=0
 
 [OBJ1263]
 GrhIndex=0
@@ -26692,15 +26008,6 @@ MINDEF=21
 Texto=Casco Infernal
 Valor=30000
 
-[OBJ1280]
-GrhIndex=0
-
-[OBJ1281]
-GrhIndex=0
-
-[OBJ1282]
-GrhIndex=0
-
 [OBJ1283]
 Name=Woman vestment (Newbies)
 GrhIndex=11501
@@ -26746,27 +26053,6 @@ RopajeElfa=2233
 RopajeElfaOscura=3690
 RopajeOrca=3315
 
-[OBJ1286]
-GRHINDEX=0
-
-[OBJ1287]
-GRHINDEX=0
-
-[OBJ1288]
-GRHINDEX=0
-
-[OBJ1289]
-GRHINDEX=0
-
-[OBJ1290]
-GRHINDEX=0
-
-[OBJ1291]
-GRHINDEX=0
-
-[OBJ1292]
-GRHINDEX=0
-
 [OBJ1293]
 Name=Paint
 GrhIndex=20995
@@ -26809,36 +26095,6 @@ Objtype=20
 Agarrable=1
 Texto=Pintura
 
-[OBJ1299]
-GRHINDEX=0
-
-[OBJ1300]
-GRHINDEX=0
-
-[OBJ1301]
-GRHINDEX=0
-
-[OBJ1302]
-GRHINDEX=0
-
-[OBJ1303]
-GRHINDEX=0
-
-[OBJ1304]
-GRHINDEX=0
-
-[OBJ1305]
-GRHINDEX=0
-
-[OBJ1306]
-GRHINDEX=0
-
-[OBJ1307]
-GRHINDEX=0
-
-[OBJ1308]
-GRHINDEX=0
-
 [OBJ1309]
 Name=Bordo Robe
 GrhIndex=59349
@@ -26859,60 +26115,6 @@ MAXDEF=6
 MINDEF=4
 Valor=600
 Texto=Túnica Bordo
-
-[OBJ1310]
-GRHINDEX=0
-
-[OBJ1311]
-GRHINDEX=0
-
-[OBJ1312]
-GRHINDEX=0
-
-[OBJ1313]
-GRHINDEX=0
-
-[OBJ1314]
-GRHINDEX=0
-
-[OBJ1315]
-GRHINDEX=0
-
-[OBJ1316]
-GRHINDEX=0
-
-[OBJ1317]
-GRHINDEX=0
-
-[OBJ1318]
-GRHINDEX=0
-
-[OBJ1319]
-GRHINDEX=0
-
-[OBJ1320]
-GRHINDEX=0
-
-[OBJ1321]
-GRHINDEX=0
-
-[OBJ1322]
-GrhIndex=0
-
-[OBJ1323]
-GrhIndex=0
-
-[OBJ1324]
-GRHINDEX=0
-
-[OBJ1325]
-GRHINDEX=0
-
-[OBJ1326]
-GRHINDEX=0
-
-[OBJ1327]
-GRHINDEX=0
 
 [OBJ1328]
 Name=Armadura de Placas Azules (M)
@@ -26938,18 +26140,6 @@ RopajeElfaOscura=4921
 RopajeEnana=4921
 RopajeOrca=4921
 RopajeGnoma=4921
-
-[OBJ1329]
-GrhIndex=0
-
-[OBJ1330]
-GrhIndex=0
-
-[OBJ1331]
-GrhIndex=0
-
-[OBJ1332]
-GrhIndex=0
 
 [OBJ1333]
 Name=Royal Saddle of Fighters
@@ -26989,12 +26179,6 @@ GrhIndex=29556
 objtype=90
 Agarrable=1
 Texto=Puente
-
-[OBJ1338]
-GRHINDEX=0
-
-[OBJ1339]
-GRHINDEX=0
 
 [OBJ1340]
 GrhIndex=49014
@@ -27131,9 +26315,6 @@ MaxHIT=1
 Valor=0
 Texto=Flecha (Newbies)
 
-[OBJ1358]
-GrhIndex=0
-
 [OBJ1359]
 Name=Direwolf
 GrhIndex=29967
@@ -27160,9 +26341,6 @@ ObjType=19
 GrhIndex=49488
 Agarrable=1
 Texto=Teleport a Illiandor
-
-[OBJ1363]
-GrhIndex=0
 
 [OBJ1364]
 Name=Gema caótica
@@ -27199,9 +26377,6 @@ Name=Gema caotica
 GrhIndex=30712
 ObjType=29
 Texto=Gema caotica
-
-[OBJ1370]
-GrhIndex=0
 
 [OBJ1371]
 Name=Open door
@@ -27258,45 +26433,6 @@ ObjType=9
 Valor=0
 Texto=Llave de la Asamblea
 
-[OBJ1378]
-GrhIndex=0
-
-[OBJ1379]
-GRHINDEX=0
-
-[OBJ1380]
-GRHINDEX=0
-
-[OBJ1381]
-GRHINDEX=0
-
-[OBJ1382]
-GRHINDEX=0
-
-[OBJ1383]
-GRHINDEX=0
-
-[OBJ1384]
-GRHINDEX=0
-
-[OBJ1385]
-GRHINDEX=0
-
-[OBJ1386]
-GRHINDEX=0
-
-[OBJ1387]
-GRHINDEX=0
-
-[OBJ1388]
-GRHINDEX=0
-
-[OBJ1389]
-GRHINDEX=0
-
-[OBJ1390]
-GRHINDEX=0
-
 [OBJ1391]
 Name=Open door
 GrhIndex=9199
@@ -27328,29 +26464,11 @@ ObjType=9
 Valor=0
 Texto=Llave de la Bóveda de Banderbill
 
-[OBJ1395]
-GrhIndex=0
-
 [OBJ1396]
 Name=Naga Attack Plans
 GrhIndex=888
 Objtype=12
 Texto=Quest item
-
-[OBJ1397]
-GrhIndex=0
-
-[OBJ1398]
-GrhIndex=0
-
-[OBJ1399]
-GrhIndex=0
-
-[OBJ1400]
-GrhIndex=0
-
-[OBJ1401]
-GrhIndex=0
 
 [OBJ1402]
 Name=Christmas hat
@@ -27616,18 +26734,6 @@ ObjType=9
 Valor=0
 Texto=Llave del Salón de Trivias
 
-[OBJ1435]
-GRHINDEX=0
-
-[OBJ1436]
-GRHINDEX=0
-
-[OBJ1437]
-GRHINDEX=0
-
-[OBJ1438]
-GRHINDEX=0
-
 [OBJ1439]
 Name=Open door
 GrhIndex=26944
@@ -27848,9 +26954,6 @@ ObjType=9
 Valor=0
 Texto=This key opens or closes the doors of the Royal Palace.
 
-[OBJ1467]
-GRHINDEX=0
-
 [OBJ1468]
 Name=Fuente
 GrhIndex=26937
@@ -27879,18 +26982,6 @@ ObjType=41
 Texto=Cabeza de Pelo Azul
 Valor=1600
 
-[OBJ1472]
-GRHINDEX=0
-
-[OBJ1473]
-GRHINDEX=0
-
-[OBJ1474]
-GRHINDEX=0
-
-[OBJ1475]
-GRHINDEX=0
-
 [OBJ1476]
 Name=Cama doble
 Info=Vertical
@@ -27913,42 +27004,6 @@ GrhIndex=26960
 ObjType=20
 Agarrable=1
 Texto=Tumba
-
-[OBJ1479]
-GrhIndex=0
-
-[OBJ1480]
-GrhIndex=0
-
-[OBJ1481]
-GrhIndex=0
-
-[OBJ1482]
-GrhIndex=0
-
-[OBJ1483]
-GRHINDEX=0
-
-[OBJ1484]
-GRHINDEX=0
-
-[OBJ1485]
-GRHINDEX=0
-
-[OBJ1486]
-GRHINDEX=0
-
-[OBJ1487]
-GRHINDEX=0
-
-[OBJ1488]
-GRHINDEX=0
-
-[OBJ1489]
-GRHINDEX=0
-
-[OBJ1490]
-GRHINDEX=0
 
 [OBJ1491]
 Name=Estandarte de la Armada Real
@@ -27984,24 +27039,6 @@ ObjType=3
 MaxDef=7
 MinDef=5
 Valor=40000
-
-[OBJ1494]
-GRHINDEX=0
-
-[OBJ1495]
-GrhIndex=0
-
-[OBJ1496]
-GrhIndex=0
-
-[OBJ1497]
-GrhIndex=0
-
-[OBJ1498]
-GrhIndex=0
-
-[OBJ1499]
-GrhIndex=0
 
 [OBJ1500]
 Name=1st Hierarchy Chaos Cleric Armor
@@ -28423,12 +27460,6 @@ MINDEF=2
 Valor=0
 Texto=Armadura de Pirata del Caos de 1ª Jerarquía (Bajos)
 
-[OBJ1520]
-GRHINDEX=0
-
-[OBJ1521]
-GRHINDEX=0
-
 [OBJ1522]
 Name=Chaos Cleric Armor (2nd Hierarchy)
 texto=Defense 7/10
@@ -28847,12 +27878,6 @@ MAXDEF=10
 MINDEF=5
 Valor=0
 Texto=Armadura de Pirata del Caos de 2ª Jerarquía (Bajos)
-
-[OBJ1542]
-GRHINDEX=0
-
-[OBJ1543]
-GRHINDEX=0
 
 [OBJ1544]
 Name=1st Hierarchy Chaos Cleric Armor
@@ -29274,12 +28299,6 @@ MINDEF=2
 Valor=0
 Texto=Armadura de Bandido Imperial de 1ª Jerarquía (Bajos)
 
-[OBJ1564]
-GRHINDEX=0
-
-[OBJ1565]
-GRHINDEX=0
-
 [OBJ1566]
 Name=Imperial Cleric's Robe (2nd Hierarchy)
 texto=Defense 7/10
@@ -29700,56 +28719,17 @@ MINDEF=5
 Valor=0
 Texto=Armadura de Bandido Imperial de 2ª Jerarquía (Bajos)
 
-[OBJ1586]
-GrhIndex=0
-
-[OBJ1587]
-GrhIndex=0
-
-[OBJ1588]
-GrhIndex=0
-
-[OBJ1589]
-GrhIndex=0
-
-[OBJ1590]
-GrhIndex=0
-
-[OBJ1591]
-GrhIndex=0
-
-[OBJ1592]
-GrhIndex=0
-
-[OBJ1593]
-GrhIndex=0
-
 [OBJ1594]
 Name=Beginner Scroll
 GrhIndex=52199
 Objtype=50
 Texto=It takes you into an unknown world.
 
-[OBJ1595]
-GrhIndex=0
-
-[OBJ1596]
-GrhIndex=0
-
 [OBJ1597]
 Name=Rune of russian dagger
 GrhIndex=95004
 Objtype=50
 Texto=It allows you to go to the house where the Russian dagger is played.
-
-[OBJ1598]
-GrhIndex=0
-
-[OBJ1599]
-GrhIndex=0
-
-[OBJ1600]
-GrhIndex=0
 
 [OBJ1601]
 Name=Face Change Potion
@@ -29765,21 +28745,12 @@ ObjType=11
 Texto=Changes the user to the opposite gender, does not fall.
 Valor=600
 
-[OBJ1603]
-GrhIndex=0
-
-[OBJ1604]
-GrhIndex=0
-
 [OBJ1605]
 Name=Scroll +15 Experience
 GrhIndex=26023
 ObjType=11
 Texto=Increases experience gained by +15%. Consume fast!
 Valor=12
-
-[OBJ1606]
-GrhIndex=0
 
 [OBJ1607]
 Name=Heal Potion
@@ -29816,18 +28787,6 @@ GrhIndex=86152
 ObjType=100
 Valor=0
 
-[OBJ1612]
-GrhIndex=0
-
-[OBJ1613]
-GrhIndex=0
-
-[OBJ1614]
-GrhIndex=0
-
-[OBJ1615]
-GrhIndex=0
-
 [OBJ1616]
 Name=Health potion (Newbie)
 GrhIndex=49223
@@ -29860,12 +28819,6 @@ Valor=4
 Destruye=1
 Texto=Temporarily increases your strength
 
-[OBJ1620]
-GrhIndex=0
-
-[OBJ1621]
-GrhIndex=0
-
 [OBJ1622]
 Name=Basic Vestment (Newbie)
 GrhIndex=452
@@ -29887,39 +28840,6 @@ MINDEF=0
 Destruye=1
 Texto=Vestimenta Común (Newbie)
 Valor=0
-
-[OBJ1623]
-GrhIndex=0
-
-[OBJ1624]
-GrhIndex=0
-
-[OBJ1625]
-GrhIndex=0
-
-[OBJ1626]
-GrhIndex=0
-
-[OBJ1627]
-GrhIndex=0
-
-[OBJ1628]
-GrhIndex=0
-
-[OBJ1629]
-GrhIndex=0
-
-[OBJ1630]
-GrhIndex=0
-
-[OBJ1631]
-GrhIndex=0
-
-[OBJ1632]
-GrhIndex=0
-
-[OBJ1633]
-GrhIndex=0
 
 [OBJ1634]
 Name=Shadow armor (E/G)
@@ -29967,36 +28887,6 @@ MINDEF=15
 Valor=7200
 Texto=Cota de Mallas (E/G)
 
-[OBJ1636]
-GrhIndex=0
-
-[OBJ1637]
-GrhIndex=0
-
-[OBJ1638]
-GrhIndex=0
-
-[OBJ1639]
-GrhIndex=0
-
-[OBJ1640]
-GrhIndex=0
-
-[OBJ1641]
-GrhIndex=0
-
-[OBJ1642]
-GrhIndex=0
-
-[OBJ1643]
-GrhIndex=0
-
-[OBJ1644]
-GrhIndex=0
-
-[OBJ1645]
-GrhIndex=0
-
 [OBJ1646]
 Name=Ascua Fugaz
 Texto=Causa entre 35 a 45 puntos de daño al objetivo que selecciones.
@@ -30024,9 +28914,6 @@ GrhIndex=49200
 Valor=2000000
 Objtype=24
 Texto=Causes 90 to 95 points of damage on the victim.
-
-[OBJ1650]
-GrhIndex=0
 
 [OBJ1651]
 Name=Curar heridas graves
@@ -30324,12 +29211,6 @@ MINDEF=15
 Valor=1000
 Texto=Escudo de Vanguardia Real
 
-[OBJ1693]
-GrhIndex=0
-
-[OBJ1694]
-GrhIndex=0
-
 [OBJ1695]
 Name=Escudo de Campeón
 GrhIndex=86132
@@ -30338,9 +29219,6 @@ MAXDEF=13
 MINDEF=10
 Valor=0
 Texto=Escudo de Campeón
-
-[OBJ1696]
-GrhIndex=0
 
 [OBJ1697]
 Name=Escudo Felino
@@ -30378,9 +29256,6 @@ MaxDef=2
 MinDef=1
 Valor=150
 
-[OBJ1701]
-GrhIndex=0
-
 [OBJ1702]
 Name=Shield of the Valley
 texto=Defense 7/9
@@ -30401,12 +29276,6 @@ MAXDEF=12
 MINDEF=10
 Valor=30000
 Texto=Exclusivo de bardos.
-
-[OBJ1704]
-GrhIndex=0
-
-[OBJ1705]
-GrhIndex=0
 
 [OBJ1706]
 Name=Escudo doble
@@ -30443,9 +29312,6 @@ Name=English Shield
 ObjType=16
 Texto=10/20 defense
 Valor=500
-
-[OBJ1710]
-GrhIndex=0
 
 [OBJ1711]
 Name=Escudo Maldito
@@ -30615,9 +29481,6 @@ Valor=200000
 Objtype=24
 Texto=You strongly reduce the combat capability of the target.
 
-[OBJ1729]
-GrhIndex=0
-
 [OBJ1730]
 GrhIndex=86172
 MaxDef=7
@@ -30625,18 +29488,6 @@ MinDef=5
 Name=Oak Shield +1
 ObjType=16
 Texto=Defense 5/7
-
-[OBJ1731]
-GrhIndex=0
-
-[OBJ1732]
-GrhIndex=0
-
-[OBJ1733]
-GrhIndex=0
-
-[OBJ1734]
-GrhIndex=0
 
 [OBJ1735]
 Name=Reins of the Spider Mutant
@@ -30674,15 +29525,6 @@ MINDEF=1
 Valor=1
 Texto=Sombrero Reforzado RM +15
 
-[OBJ1740]
-GrhIndex=0
-
-[OBJ1741]
-GrhIndex=0
-
-[OBJ1742]
-GrhIndex=0
-
 [OBJ1743]
 Name=Ideal hat
 GrhIndex=4472
@@ -30691,9 +29533,6 @@ MAXDEF=13
 MINDEF=7
 Valor=9000
 Texto=Sombrero Ideal
-
-[OBJ1744]
-GrhIndex=0
 
 [OBJ1745]
 Name=Archmage hat
@@ -30704,30 +29543,6 @@ MINDEF=6
 Valor=0
 Texto=Increases your magic resistance by 7%
 
-[OBJ1746]
-GrhIndex=0
-
-[OBJ1747]
-GrhIndex=0
-
-[OBJ1748]
-GrhIndex=0
-
-[OBJ1749]
-GrhIndex=0
-
-[OBJ1750]
-GrhIndex=0
-
-[OBJ1751]
-GrhIndex=0
-
-[OBJ1752]
-GrhIndex=0
-
-[OBJ1753]
-GrhIndex=0
-
 [OBJ1754]
 Name=Gorro Celestial
 GrhIndex=4483
@@ -30736,15 +29551,6 @@ MAXDEF=30
 MINDEF=20
 Valor=100
 Texto=Gorro Celestial
-
-[OBJ1755]
-GrhIndex=0
-
-[OBJ1756]
-GrhIndex=0
-
-[OBJ1757]
-GrhIndex=0
 
 [OBJ1758]
 Name=Bear Helmet
@@ -30766,9 +29572,6 @@ MINDEF=7
 Valor=650
 Texto=Aureola Karvy
 
-[OBJ1760]
-GrhIndex=0
-
 [OBJ1761]
 Name=Reinforced Iron Helmet
 texto=Defense 12/15
@@ -30789,9 +29592,6 @@ MINDEF=23
 Valor=0
 Texto=Celada de Caballero
 
-[OBJ1763]
-GrhIndex=0
-
 [OBJ1764]
 Name=Casco de Cuernos Reforzado
 GrhIndex=4493
@@ -30810,9 +29610,6 @@ MINDEF=15
 Valor=1400
 Texto=Casco Perseo
 
-[OBJ1766]
-GrhIndex=0
-
 [OBJ1767]
 Name=Hunter Helmet
 texto=Defense 21/23
@@ -30826,9 +29623,6 @@ LingH=200
 LingP=120
 LingO=0
 
-[OBJ1768]
-GrhIndex=0
-
 [OBJ1769]
 Name=Elite Hood
 texto=Defense 16/18
@@ -30841,15 +29635,6 @@ SkSastreria=93
 PIELTIGREBENGALA=40
 PielLoboNegro=10
 PielLobo=0
-
-[OBJ1770]
-GrhIndex=0
-
-[OBJ1771]
-GrhIndex=0
-
-[OBJ1772]
-GrhIndex=0
 
 [OBJ1773]
 Name=Casco del Terror
@@ -30870,12 +29655,6 @@ ObjType=17
 MaxDef=12
 MinDef=10
 Valor=2400
-
-[OBJ1775]
-GrhIndex=0
-
-[OBJ1776]
-GrhIndex=0
 
 [OBJ1777]
 Name=Helm of Enlightenment
@@ -30899,9 +29678,6 @@ PielLobo=15
 PielOsoPardo=0
 PielOsoPolar=0
 
-[OBJ1779]
-GrhIndex=0
-
 [OBJ1780]
 Name=Casco de Husar Alado
 GrhIndex=21705
@@ -30911,9 +29687,6 @@ MINDEF=18
 Valor=0
 Texto=Casco de Husar Alado
 
-[OBJ1781]
-GrhIndex=0
-
 [OBJ1782]
 Name=Helm of the Black Dragon
 GrhIndex=21710
@@ -30922,12 +29695,6 @@ MAXDEF=30
 MINDEF=25
 Valor=30000
 Texto=Yelmo del Dragón Negro
-
-[OBJ1783]
-GrhIndex=0
-
-[OBJ1784]
-GrhIndex=0
 
 [OBJ1785]
 Name=Pirate cap
@@ -30947,9 +29714,6 @@ MaxHIT=8
 Valor=50000
 Texto=Daga
 
-[OBJ1787]
-GrhIndex=0
-
 [OBJ1788]
 Name=Embedded Staff
 Madera=1000
@@ -30960,9 +29724,6 @@ MaxHit=1
 Valor=11400
 Texto=Increase your Magic Damage by 9%
 MaderaElfica=2400
-
-[OBJ1789]
-GrhIndex=0
 
 [OBJ1790]
 Name=Espada de la Iluminación
@@ -30995,18 +29756,6 @@ LingP=0
 LingO=0
 SkHerreria=20
 
-[OBJ1793]
-GrhIndex=0
-
-[OBJ1794]
-GrhIndex=0
-
-[OBJ1795]
-GrhIndex=0
-
-[OBJ1796]
-GrhIndex=0
-
 [OBJ1797]
 Name=Knotted Staff
 GrhIndex=8492
@@ -31016,9 +29765,6 @@ MaxHit=1
 Valor=5400
 Texto=Increase your Magic Damage by 4%
 Madera=1800
-
-[OBJ1798]
-GrhIndex=0
 
 [OBJ1799]
 Name=Pay Sheet
@@ -31038,12 +29784,6 @@ Name=Wooden Staff
 ObjType=2
 Texto=Increase your Magic Damage by 2%
 Valor=1200
-
-[OBJ1801]
-GrhIndex=0
-
-[OBJ1802]
-GrhIndex=0
 
 [OBJ1803]
 Name=Coraza de Harald
@@ -31105,9 +29845,6 @@ MaxHIT=15
 Valor=10125
 Texto=Báculo de Aqualin
 
-[OBJ1807]
-GrhIndex=0
-
 [OBJ1808]
 Name=Garra del Dragón Negro
 GrhIndex=36359
@@ -31116,9 +29853,6 @@ MinHIT=16
 MaxHIT=17
 Valor=50000
 Texto=Garra del Dragón Negro
-
-[OBJ1809]
-GrhIndex=0
 
 [OBJ1810]
 Name=Wizard's Rod
@@ -31129,9 +29863,6 @@ MaxHIT=1
 Valor=0
 Texto=Increase your magic damage by 9%
 
-[OBJ1811]
-GrhIndex=0
-
 [OBJ1812]
 Name=Espada Test
 GrhIndex=36467
@@ -31140,15 +29871,6 @@ valor=3
 MinHIT=5000
 MaxHIT=5000
 Texto=Espada Test
-
-[OBJ1813]
-GrhIndex=0
-
-[OBJ1814]
-GrhIndex=0
-
-[OBJ1815]
-GrhIndex=0
 
 [OBJ1816]
 Name=Báculo de los Elementos
@@ -31267,9 +29989,6 @@ Valor=0
 MaxHit=15
 MinHit=14
 
-[OBJ1827]
-GrhIndex=0
-
 [OBJ1828]
 Name=Vólcora
 Texto=Damage 8/12
@@ -31303,12 +30022,6 @@ LingP=200
 LingO=200
 Valor=35000
 Texto=Hacha de Bjorn
-
-[OBJ1831]
-GrhIndex=0
-
-[OBJ1832]
-GrhIndex=0
 
 [OBJ1833]
 Name=Dagger of the Royal Army
@@ -31611,12 +30324,6 @@ MINDEF=35
 Valor=0
 Texto=Armadura de Wolframio (Bajos)
 
-[OBJ1853]
-GrhIndex=0
-
-[OBJ1854]
-GrhIndex=0
-
 [OBJ1855]
 Name=Knuckle
 Texto=Damage 3/5
@@ -31638,12 +30345,6 @@ Valor=3000
 Texto=Damage 5/7
 LingH=50
 SkHerreria=25
-
-[OBJ1857]
-GrhIndex=0
-
-[OBJ1858]
-GrhIndex=0
 
 [OBJ1859]
 Name=Wolf Cloak
@@ -31678,9 +30379,6 @@ MinHIT=12
 MaxHIT=21
 Valor=3500
 Texto=Espada Gris
-
-[OBJ1861]
-GrhIndex=0
 
 [OBJ1862]
 Name=Espada de los milagros
@@ -31787,15 +30485,6 @@ Proyectil=1
 Municiones=1
 Texto=Arco Infernal
 
-[OBJ1872]
-GrhIndex=0
-
-[OBJ1873]
-GrhIndex=0
-
-[OBJ1874]
-GrhIndex=0
-
 [OBJ1875]
 Name=Bow of the winds
 GrhIndex=38978
@@ -31819,75 +30508,6 @@ Valor=15000
 Proyectil=1
 Municiones=1
 Texto=Damage 7/12
-
-[OBJ1877]
-GrhIndex=0
-
-[OBJ1878]
-GrhIndex=0
-
-[OBJ1879]
-GrhIndex=0
-
-[OBJ1880]
-GrhIndex=0
-
-[OBJ1881]
-GrhIndex=0
-
-[OBJ1882]
-GrhIndex=0
-
-[OBJ1883]
-GrhIndex=0
-
-[OBJ1884]
-GrhIndex=0
-
-[OBJ1885]
-GrhIndex=0
-
-[OBJ1886]
-GrhIndex=0
-
-[OBJ1887]
-GrhIndex=0
-
-[OBJ1888]
-GrhIndex=0
-
-[OBJ1889]
-GrhIndex=0
-
-[OBJ1890]
-GrhIndex=0
-
-[OBJ1891]
-GrhIndex=0
-
-[OBJ1892]
-GrhIndex=0
-
-[OBJ1893]
-GrhIndex=0
-
-[OBJ1894]
-GrhIndex=0
-
-[OBJ1895]
-GrhIndex=0
-
-[OBJ1896]
-GrhIndex=0
-
-[OBJ1897]
-GrhIndex=0
-
-[OBJ1898]
-GrhIndex=0
-
-[OBJ1899]
-GrhIndex=0
 
 [OBJ1900]
 GrhIndex=41314
@@ -31958,9 +30578,6 @@ RopajeGnoma=2543
 ObjType=3
 MAXDEF=20
 MINDEF=15
-
-[OBJ1904]
-GrhIndex=0
 
 [OBJ1905]
 Name=Coraza Mágica de Trevhn (Bajos)
@@ -32141,9 +30758,6 @@ Valor=2100
 LingH=35
 SkHerreria=30
 
-[OBJ1913]
-GrhIndex=0
-
 [OBJ1914]
 Name=Armadura Legendaria
 GrhIndex=39856
@@ -32194,9 +30808,6 @@ LingO=15
 Texto=Armadura de Placas Azules
 Valor=34000
 
-[OBJ1916]
-GrhIndex=0
-
 [OBJ1917]
 Name=Armadura Legendaria (Bajos)
 GrhIndex=39856
@@ -32217,12 +30828,6 @@ MAXDEF=38
 MINDEF=35
 Valor=55000
 Texto=Armadura Legendaria (Bajos)
-
-[OBJ1918]
-GrhIndex=0
-
-[OBJ1919]
-GrhIndex=0
 
 [OBJ1920]
 Name=Blue Leather Armor (E/G)
@@ -32304,12 +30909,6 @@ LingP=200
 LingO=15
 Texto=Armadura de Placas Azules (Mujer)
 Valor=30000
-
-[OBJ1924]
-GrhIndex=0
-
-[OBJ1925]
-GrhIndex=0
 
 [OBJ1926]
 GrhIndex=0
@@ -32393,9 +30992,6 @@ SKSastreria=10
 PielLobo=15
 PielOsoPardo=0
 PielOsoPolar=0
-
-[OBJ1931]
-GrhIndex=0
 
 [OBJ1932]
 Name=Armadura Dragón Azul +1
@@ -32618,9 +31214,6 @@ LingH=100
 LingP=150
 LingO=150
 
-[OBJ1942]
-GrhIndex=0
-
 [OBJ1943]
 Name=Armadura Placas Rojas
 GrhIndex=3502
@@ -32683,9 +31276,6 @@ MAXDEF=20
 MINDEF=15
 Valor=0
 
-[OBJ1946]
-GrhIndex=0
-
 [OBJ1947]
 Name=Festive Clothing
 GrhIndex=41638
@@ -32694,9 +31284,6 @@ MAXDEF=6
 MINDEF=4
 Texto=Ropaje Festivo
 Valor=1800
-
-[OBJ1948]
-GrhIndex=0
 
 [OBJ1949]
 Name=Wizard Robe
@@ -32718,18 +31305,6 @@ MAXDEF=11
 MINDEF=7
 Valor=3000
 Texto=Túnica de Mago
-
-[OBJ1950]
-GrhIndex=0
-
-[OBJ1951]
-GrhIndex=0
-
-[OBJ1952]
-GrhIndex=0
-
-[OBJ1953]
-GrhIndex=0
 
 [OBJ1954]
 Name=Superior Druid Robe
@@ -32974,12 +31549,6 @@ MINDEF=20
 Texto=Exclusivo de bardos.
 Valor=10000
 
-[OBJ1965]
-GrhIndex=0
-
-[OBJ1966]
-GrhIndex=0
-
 [OBJ1967]
 Name=Brown Robe
 GrhIndex=330
@@ -33019,12 +31588,6 @@ Valor=0
 Texto=You almost look like the nobility.
 MAXDEF=0
 MINDEF=0
-
-[OBJ1970]
-GrhIndex=0
-
-[OBJ1971]
-GrhIndex=0
 
 [OBJ1972]
 GrhIndex=4692
@@ -33101,9 +31664,6 @@ SKSastreria=10
 PielLobo=20
 PielOsoPardo=0
 PielOsoPolar=0
-
-[OBJ1976]
-GrhIndex=0
 
 [OBJ1977]
 Name=Prisoner's Clothing
@@ -33445,27 +32005,12 @@ GrhIndex=52017
 ObjType=24
 Valor=200000
 
-[OBJ2002]
-GrhIndex=0
-
 [OBJ2003]
 Name=Disipar Magia
 GrhIndex=609
 Valor=300000
 Objtype=24
 Texto=Cures the negative damage states of the target.
-
-[OBJ2004]
-GrhIndex=0
-
-[OBJ2005]
-GrhIndex=0
-
-[OBJ2006]
-GrhIndex=0
-
-[OBJ2007]
-GrhIndex=0
 
 [OBJ2008]
 Name=Frenesí Berserker (No Mágicas)
@@ -33474,234 +32019,12 @@ Valor=500000
 Objtype=24
 Texto=You get rid of the paralyzing effects at a cost of 250 Health points.
 
-[OBJ2009]
-GrhIndex=0
-
 [OBJ2010]
 Name=Petrify (NPC)
 GrhIndex=609
 Valor=60000
 Objtype=24
 Texto=Petrify creatures for 90 seconds.
-
-[OBJ2011]
-GrhIndex=0
-
-[OBJ2012]
-GrhIndex=0
-
-[OBJ2013]
-GrhIndex=0
-
-[OBJ2014]
-GrhIndex=0
-
-[OBJ2015]
-GrhIndex=0
-
-[OBJ2016]
-GrhIndex=0
-
-[OBJ2017]
-GrhIndex=0
-
-[OBJ2018]
-GrhIndex=0
-
-[OBJ2019]
-GrhIndex=0
-
-[OBJ2020]
-GrhIndex=0
-
-[OBJ2021]
-GrhIndex=0
-
-[OBJ2022]
-GrhIndex=0
-
-[OBJ2023]
-GrhIndex=0
-
-[OBJ2024]
-GrhIndex=0
-
-[OBJ2025]
-GrhIndex=0
-
-[OBJ2026]
-GrhIndex=0
-
-[OBJ2027]
-GrhIndex=0
-
-[OBJ2028]
-GrhIndex=0
-
-[OBJ2029]
-GrhIndex=0
-
-[OBJ2030]
-GrhIndex=0
-
-[OBJ2031]
-GrhIndex=0
-
-[OBJ2032]
-GrhIndex=0
-
-[OBJ2033]
-GrhIndex=0
-
-[OBJ2034]
-GrhIndex=0
-
-[OBJ2035]
-GrhIndex=0
-
-[OBJ2036]
-GrhIndex=0
-
-[OBJ2037]
-GrhIndex=0
-
-[OBJ2038]
-GrhIndex=0
-
-[OBJ2039]
-GrhIndex=0
-
-[OBJ2040]
-GrhIndex=0
-
-[OBJ2041]
-GrhIndex=0
-
-[OBJ2042]
-GrhIndex=0
-
-[OBJ2043]
-GrhIndex=0
-
-[OBJ2044]
-GrhIndex=0
-
-[OBJ2045]
-GrhIndex=0
-
-[OBJ2046]
-GrhIndex=0
-
-[OBJ2047]
-GrhIndex=0
-
-[OBJ2048]
-GrhIndex=0
-
-[OBJ2049]
-GrhIndex=0
-
-[OBJ2050]
-GrhIndex=0
-
-[OBJ2051]
-GrhIndex=0
-
-[OBJ2052]
-GrhIndex=0
-
-[OBJ2053]
-GrhIndex=0
-
-[OBJ2054]
-GrhIndex=0
-
-[OBJ2055]
-GrhIndex=0
-
-[OBJ2056]
-GrhIndex=0
-
-[OBJ2057]
-GrhIndex=0
-
-[OBJ2058]
-GrhIndex=0
-
-[OBJ2059]
-GrhIndex=0
-
-[OBJ2060]
-GrhIndex=0
-
-[OBJ2061]
-GrhIndex=0
-
-[OBJ2062]
-GrhIndex=0
-
-[OBJ2063]
-GrhIndex=0
-
-[OBJ2064]
-GrhIndex=0
-
-[OBJ2065]
-GrhIndex=0
-
-[OBJ2066]
-GrhIndex=0
-
-[OBJ2067]
-GrhIndex=0
-
-[OBJ2068]
-GrhIndex=0
-
-[OBJ2069]
-GrhIndex=0
-
-[OBJ2070]
-GrhIndex=0
-
-[OBJ2071]
-GrhIndex=0
-
-[OBJ2072]
-GrhIndex=0
-
-[OBJ2073]
-GrhIndex=0
-
-[OBJ2074]
-GrhIndex=0
-
-[OBJ2075]
-GrhIndex=0
-
-[OBJ2076]
-GrhIndex=0
-
-[OBJ2077]
-GrhIndex=0
-
-[OBJ2078]
-GrhIndex=0
-
-[OBJ2079]
-GrhIndex=0
-
-[OBJ2080]
-GrhIndex=0
-
-[OBJ2081]
-GrhIndex=0
-
-[OBJ2082]
-GrhIndex=0
-
-[OBJ2083]
-GrhIndex=0
 
 [OBJ2084]
 Name=Backpack
@@ -33780,9 +32103,6 @@ GrhIndex=48892
 ObjType=1
 Valor=7
 Texto=Restores 10 hunger points
-
-[OBJ2095]
-GrhIndex=0
 
 [OBJ2096]
 Name=Nucleo Terrenal
@@ -33953,9 +32273,6 @@ ObjType=18
 valor=200
 Madera=85
 Texto=fishing tool
-
-[OBJ2120]
-GrhIndex=0
 
 [OBJ2121]
 Name=Wild Fishing Rod
@@ -34817,9 +33134,6 @@ Texto=Quest item
 GrhIndex=52182
 ObjType=23
 
-[OBJ2251]
-GrhIndex=0
-
 [OBJ2252]
 Name=Sapphire
 GrhIndex=49181
@@ -34831,9 +33145,6 @@ Name=Ruby powder
 GrhIndex=49180
 Objtype=23
 Texto=Gem of great interchangeable value.
-
-[OBJ2254]
-GrhIndex=0
 
 [OBJ2255]
 Name=Purple Book
@@ -34980,18 +33291,6 @@ GrhIndex=49222
 ObjType=30
 Texto=Caja sorpresa mana
 
-[OBJ2279]
-GrhIndex=0
-
-[OBJ2280]
-GrhIndex=0
-
-[OBJ2281]
-GrhIndex=0
-
-[OBJ2282]
-GrhIndex=0
-
 [OBJ2283]
 Name=Cofre Oscuro
 GrhIndex=49227
@@ -35058,12 +33357,6 @@ GrhIndex=49237
 ObjType=30
 Texto=Cofre verde fuerte
 
-[OBJ2294]
-GrhIndex=0
-
-[OBJ2295]
-GrhIndex=0
-
 [OBJ2296]
 Name=Cofre Violeta
 GrhIndex=49240
@@ -35105,9 +33398,6 @@ Name=Caja Magia
 GrhIndex=49246
 ObjType=30
 Texto=Caja Magia
-
-[OBJ2303]
-GrhIndex=0
 
 [OBJ2304]
 Name=PLUS Coins
@@ -35181,9 +33471,6 @@ Name=Wedding band
 GrhIndex=49259
 ObjType=30
 Texto=Alianza de Boda
-
-[OBJ2316]
-GrhIndex=0
 
 [OBJ2317]
 Name=Man wedding ring
@@ -35281,9 +33568,6 @@ GrhIndex=38140
 ObjType=49
 Valor=10
 Texto=Carbón Catalizador
-
-[OBJ2331]
-GrhIndex=0
 
 [OBJ2332]
 Name=Violet potion (newbie)
@@ -36104,9 +34388,6 @@ GrhIndex=50892
 ObjType=8
 Texto=You are in the center of Arghal.
 Agarrable=1
-
-[OBJ2437]
-GrhIndex=0
 
 [OBJ2438]
 Name=Cartel bander carcel
@@ -37407,9 +35688,6 @@ valor=0
 Objtype=29
 Texto=Monto de oro
 
-[OBJ2619]
-GrhIndex=0
-
 [OBJ2620]
 Name=Tweezers
 GrhIndex=52119
@@ -37592,9 +35870,6 @@ valor=0
 Objtype=29
 Texto=Papel
 
-[OBJ2646]
-GrhIndex=0
-
 [OBJ2647]
 Name=Treasure
 GrhIndex=52172
@@ -37755,9 +36030,6 @@ GrhIndex=55247
 valor=0
 Objtype=29
 Texto=Libro y Pergamino
-
-[OBJ2670]
-GrhIndex=0
 
 [OBJ2671]
 Name=Gold Nugget
@@ -38074,15 +36346,6 @@ GrhIndex=55316
 valor=0
 Objtype=29
 Texto=Farolillo
-
-[OBJ2716]
-GrhIndex=0
-
-[OBJ2717]
-GrhIndex=0
-
-[OBJ2718]
-GrhIndex=0
 
 [OBJ2719]
 Name=Wood Strip
@@ -38424,9 +36687,6 @@ Valor=1800
 Objtype=24
 Texto=Hechizo de daño básico (18 a 25)
 
-[OBJ2767]
-GrhIndex=0
-
 [OBJ2768]
 Name=Guantes de Hurto
 GrhIndex=2001
@@ -38485,21 +36745,6 @@ GrhIndex=28809
 ObjType=100
 Valor=0
 
-[OBJ2776]
-GrhIndex=0
-
-[OBJ2777]
-GrhIndex=0
-
-[OBJ2778]
-GrhIndex=0
-
-[OBJ2779]
-GrhIndex=0
-
-[OBJ2780]
-GrhIndex=0
-
 [OBJ2781]
 Name=Elven Firewood
 GrhIndex=5348
@@ -38535,12 +36780,6 @@ MAXDEF=12
 MINDEF=7
 Texto=Armadura Lóbrera (M)
 
-[OBJ2784]
-GrhIndex=0
-
-[OBJ2785]
-GrhIndex=0
-
 [OBJ2786]
 Name=Armadura Magna (M)
 GrhIndex=10720
@@ -38548,12 +36787,6 @@ ObjType=3
 MAXDEF=12
 MINDEF=7
 Texto=Armadura Magna (M)
-
-[OBJ2787]
-GrhIndex=0
-
-[OBJ2788]
-GrhIndex=0
 
 [OBJ2789]
 Name=Hilo de Pesca Silvestre
@@ -39021,9 +37254,6 @@ MAXDEF=0
 MINDEF=0
 Valor=0
 Texto=Vestimenta de Esclava (E/G-M)
-
-[OBJ2824]
-GRHINDEX=0
 
 [OBJ2825]
 Name=Maid Vestment
@@ -41082,12 +39312,6 @@ MAXDEF=3
 MINDEF=1
 Valor=100
 Texto=Ropaje Rupestre
-
-[OBJ2944]
-GrhIndex=0
-
-[OBJ2945]
-GrhIndex=0
 
 [OBJ2946]
 Name=Legendary Robe (H/E/EO-M)
@@ -59343,21 +57567,6 @@ WindEssence=1
 SkHerreria=100
 Valor=0
 
-[OBJ3092]
-GrhIndex=0
-
-[OBJ3093]
-GrhIndex=0
-
-[OBJ3094]
-GrhIndex=0
-
-[OBJ3119]
-GrhIndex=0
-
-[OBJ3120]
-GrhIndex=0
-
 [OBJ3419]
 Name=Demon Mask 12
 Texto=Change your appearance with this mask
@@ -59445,18 +57654,6 @@ ObjType=35
 Valor=600
 SKHerreria=30
 LingH=10
-
-[OBJ3758]
-GrhIndex=0
-
-[OBJ3759]
-GrhIndex=0
-
-[OBJ3760]
-GrhIndex=0
-
-[OBJ3761]
-GrhIndex=0
 
 [OBJ3762]
 Name=Reins of the Arachnid Mutant (Event)
@@ -59641,9 +57838,6 @@ Texto=Gjermundbu Helmet
 GrhIndex=26521
 ObjType=41
 Valor=600
-
-[OBJ5022]
-GrhIndex=0
 
 [OBJ5023]
 Name=Cult Mask
