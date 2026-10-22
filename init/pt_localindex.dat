@@ -68934,13 +68934,6 @@ MINDEF=10
 Texto=Armadura Cazador
 Valor=17000
 
-[OBJ9048]
-Name=Invocar Lobo
-GrhIndex=609
-Valor=7000
-Objtype=24
-Texto=Invoca um lobo para lutar contra criaturas.
-
 [OBJ9049]
 Name=Garras de Dragón
 GrhIndex=52014
