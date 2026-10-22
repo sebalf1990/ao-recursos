@@ -689,14 +689,6 @@ en_desc=I buy what the sea can offer!
 
 '--------------> Armaduras Por ciudad del 30 al 39 <--------------
 
-[NPC32]'Libre
-
-[NPC33]'Libre
-
-[NPC34]'Libre
-
-[NPC35]'Libre
-
 [NPC36]
 Name=Rethor <Sastrería>
 En_name=Rethor <Tailoring>
@@ -768,20 +760,6 @@ Obj15=32-1
 Obj16=2829-1
 Obj17=1981-1
 en_desc=The best fabrics in the best city, nothing to lose with these prices.
-
-[NPC38]'Libre
-
-[NPC39]'Libre
-
-[NPC40]'Libre
-
-[NPC42]'Libre
-
-[NPC43]'Libre
-
-[NPC44]'Libre
-
-[NPC45]'Libre
 
 [NPC46] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Magnus Elixius <Alquimista Real>
@@ -978,10 +956,6 @@ Obj18=2949-1
 Obj19=2926-1
 Obj20=2908-1
 TestOnly=1
-
-[NPC51]'Libre
-
-[NPC52]'Libre
 
 [NPC53]
 Name=Sioris <Sastre Exotico>
@@ -1197,36 +1171,6 @@ Hostile=0
 Alineacion=0
 NoMapInfo=1
 TipoItems=1
-
-[NPC60]'Libre
-
-[NPC61]'Libre
-
-[NPC62]'Libre
-
-[NPC63]'Libre
-
-[NPC64]'Libre
-
-[NPC65]'Libre
-
-[NPC66]'Libre
-
-[NPC67]'Libre
-
-[NPC68]'Libre
-
-[NPC69]'Libre
-
-'--------------> Hechizos Por ciudad del 70 al 80 <--------------
-
-[NPC70]'Libre
-
-[NPC71]'Libre
-
-[NPC72]'Libre
-
-[NPC73]'Libre
 
 [NPC74] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Onzrie <Hechicero de Arghal>
@@ -9185,8 +9129,6 @@ NPCLVL=1
 MagicResistance=3
 MagicDef=0
 
-[NPC688]'
-
 [NPC689] Penthar
 Name=Glasyan <Pescador>
 Desc=¡Compro lo que el mar puede ofrecer!
@@ -9438,23 +9380,6 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-[NPC701]'Libre
-[NPC702]'Libre
-[NPC703]'Libre
-[NPC704]'Libre
-[NPC705]'Libre
-[NPC706]'Libre
-[NPC707]'Libre
-[NPC708]'Libre
-[NPC709]'Libre
-[NPC710]'Libre
-[NPC711]'Libre
-[NPC712]'Libre
-[NPC713]'Libre
-[NPC714]'Libre
-[NPC715]'Libre
-[NPC716]'Libre
-[NPC717]'Libre
 [NPC718] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=2196
 Desc=¿Crees que alguien como tu podría enfrentarse a esta temible bestia?
@@ -10635,8 +10560,6 @@ MagicResistance=25
 MagicDef=0
 NpcType=0
 
-[NPC937]'Libre
-
 [NPC938]
 Name=Cerdo
 En_Name=Pig
@@ -10700,8 +10623,6 @@ Drop2=4339-10-1-5
 Drop3=4339-1-1-1
 NumDropQuest=1
 DropQuest1=64-2502-1-20
-
-[NPC940]'Libre
 
 [NPC941] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Avestruz
@@ -16626,10 +16547,6 @@ GiveGLD=0
 PoderAtaque=185
 PoderEvasion=130
 
-[NPC1175]'Libre
-
-[NPC1176]'Libre
-
 [NPC1177] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC1015 del oficial, vida mas parecida: SUPUESTO; sin drops
 Name=Borvat
 Head=0
@@ -17829,8 +17746,6 @@ MagicResistance=100
 MagicDef=15
 NumDropQuest=1
 DropQuest1=142-3481-1-2
-
-[NPC1221]'Libre
 
 [NPC1222]
 Name=Horus <Quest>
