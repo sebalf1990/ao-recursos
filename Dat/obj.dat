@@ -2386,15 +2386,6 @@ Valor=7500
 MinELV=25
 Texto=Defensa 17/20
 
-[OBJ134]
-Name=Herradura de Mula 
-GrhIndex=28794
-valor=100000
-Objtype=29
-Crucial=1
-Texto=Herradura de Mula 
-en_Name=Mule Horseshoe
-
 [OBJ135]
 Name=Manto Clerical
 GrhIndex=3097
@@ -5443,14 +5434,6 @@ WeaponType=1
 
 '--------------> Gemas <--------------
 
-[OBJ406]
-Name=Gema Lunar
-GrhIndex=700
-ObjType=29
-Texto=Gema Lunar
-Crucial=0
-NoWiki=1
-
 [OBJ407]
 Name=Gema Polar de Fundación de Clan
 GrhIndex=703
@@ -5472,38 +5455,12 @@ ObjType=29
 Valor=30000
 Crucial=1
 
-[OBJ410]
-Name=Gema Dorada
-GrhIndex=704
-ObjType=29
-Texto=Gema Dorada
-Crucial=0
-NoWiki=1
-
-[OBJ411]
-Name=Gema Naranja
-GrhIndex=55259
-ObjType=29
-Texto=Gema Naranja
-Crucial=0
-NoWiki=1
-
 [OBJ412]
 Name=Gema Verde de Fundación de Clan
 GrhIndex=706
 ObjType=29
 Crucial=1
 Valor=15000
-
-[OBJ413]
-Name=Gema Marrón
-GrhIndex=707
-ObjType=29
-Texto=Gema Marrón
-Crucial=0
-NoWiki=1
-
-'**************************** PIELES ****************************
 
 [OBJ414]
 Name=Piel de Lobo Salvaje
@@ -8955,33 +8912,6 @@ Texto=Llave de la casa de Nix 17
 NFT=0
 en_Name=Nix House Key 17
 
-[OBJ707]
-Name=Herradura de Caballo Marrón 
-GrhIndex=28794
-valor=100000
-Objtype=29
-Crucial=1
-Texto=Herradura de Caballo Marrón 
-en_Name=Brown Horse Horseshoe
-
-[OBJ708]
-Name=Herradura de Caballo Blanco
-GrhIndex=28795
-valor=200000
-Objtype=29
-Crucial=1
-Texto=Herradura de Caballo Blanco 
-en_Name=White Horse Horseshoe
-
-[OBJ709]
-Name=Herradura de Caballo Combatiente
-GrhIndex=28795
-valor=400000
-Objtype=29
-Crucial=1
-Texto=Necesaria para canjear tu montura
-en_Name=Fighters Horseshoe
-
 [OBJ710]
 Name=Teleport a Arghâl
 ObjType=19
@@ -8989,24 +8919,6 @@ GrhIndex=49488
 Agarrable=1
 Texto=Teleport a Arghâl
 en_Name=Teleport to Arghal
-
-[OBJ711]
-Name=Herradura de Caballo Palomino
-GrhIndex=28796
-valor=500000
-Objtype=29
-Crucial=1
-Texto=Necesaria para canjear tu montura
-en_Name=Palomino Horse Horseshoe
-
-[OBJ712]
-Name=Herradura de Unicornio
-GrhIndex=28797
-valor=600000
-Objtype=29
-Crucial=1
-Texto=Herradura de Unicornio
-en_Name=Unicorn Horseshoe
 
 [OBJ714]
 Name=Árbol
@@ -9063,17 +8975,6 @@ Objtype=4
 Agarrable=1
 Texto=Árbol
 en_name=Tree
-
-[OBJ721]
-Name=Herradura de Corcel
-GrhIndex=28798
-valor=600000
-Objtype=29
-Crucial=1
-Texto=Herradura de Corcel
-en_Name=Steeds Horseshoe
-
-'--------------> Desde Arghâl <--------------
 
 [OBJ736]
 Name=Anillo de Comercio (+10)
@@ -13688,48 +13589,6 @@ GrhIndex=49488
 Agarrable=1
 Texto=Teleport a Illiandor
 en_Name=Teleport to Illiandor
-
-[OBJ1364]
-Name=Gema caótica
-GrhIndex=30600
-ObjType=29
-Crucial=0
-Texto=Gema caótica
-
-[OBJ1365]
-Name=Gema caotica
-GrhIndex=30601
-ObjType=29
-Crucial=0
-Texto=Gema caotica
-
-[OBJ1366]
-Name=Gema caotica
-GrhIndex=30602
-ObjType=29
-Crucial=0
-Texto=Gema caotica
-
-[OBJ1367]
-Name=Gema caotica
-GrhIndex=30603
-ObjType=29
-Crucial=0
-Texto=Gema caotica
-
-[OBJ1368]
-Name=Gema caotica
-GrhIndex=30711
-ObjType=29
-Crucial=0
-Texto=Gema caotica
-
-[OBJ1369]
-Name=Gema caotica
-GrhIndex=30712
-ObjType=29
-Crucial=0
-Texto=Gema caotica
 
 [OBJ1377]
 Name=Llave Asamblea
@@ -21779,18 +21638,6 @@ Texto=Restaura 25 puntos de hambre
 en_texto=Restores 25 hunger points
 en_Name=BrowFish
 
-[OBJ1997]
-Name=Energía de Espíritu Poseído
-GrhIndex=28904
-valor=0
-Objtype=29
-Crucial=0
-Texto=Energía recuperada de Espíritu Poseído (QUEST)
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_texto=Energy recovered from Poseid Spirit (QUEST)
-
 [OBJ1998]
 Name=Cartel bienvenido a la ciudad del rey
 Info=bienvenido a la ciudad del rey info
@@ -22535,16 +22382,6 @@ Texto=Restaura 25 puntos de hambre
 en_texto=Restores 25 hunger points
 en_Name=Payara
 
-[OBJ2138]
-Name=Corales
-GrhIndex=48925
-ObjType=29
-Valor=1
-NoSeCae=1
-Texto=Item de quest
-Crucial=0
-en_texto=Quest item
-
 [OBJ2139]
 Name=Langostino
 GrhIndex=48926
@@ -23032,18 +22869,6 @@ ObjType=12
 Valor=9
 Texto=Prismaticos pesca
 en_Name=Fishing binoculars
-
-[OBJ2182]
-Name=Miel
-GrhIndex=48969
-ObjType=29
-NoseCae=1
-Intirable=1
-Instransferible=1
-Texto=Item de quest
-Crucial=0
-en_texto=Quest item
-en_Name=Honey
 
 [OBJ2183]
 CP1=GUERRERO
@@ -26296,44 +26121,6 @@ Instransferible=1
 Intirable=1
 NoseCae=1
 
-[OBJ2476]
-Name=Hoja de libro
-GrhIndex=49293
-valor=0
-Objtype=29
-Crucial=0
-Texto=Item de quest
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_texto=Quest item
-en_Name=Book Sheet
-
-[OBJ2477]
-Name=Calavera
-GrhIndex=49294
-valor=0
-Objtype=29
-Crucial=0
-Texto=Huesos
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_texto=Skull
-
-[OBJ2478]
-Name=Serpiente muerta
-GrhIndex=49295
-valor=0
-Objtype=29
-Crucial=0
-Texto=Item de quest
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_texto=Quest item
-en_Name=Dead snake
-
 [OBJ2479]
 Name=Colmillo de serpiente
 GrhIndex=49296
@@ -26371,31 +26158,6 @@ Instransferible=1
 Intirable=1
 en_texto=wolf tail
 
-[OBJ2482]
-Name=Cabeza de zombie
-GrhIndex=49299
-valor=0
-Objtype=29
-Crucial=0
-Texto=Cabeza Putrefacta
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_texto=Rotten Head
-
-[OBJ2483]
-Name=Pie zombie
-GrhIndex=49300
-valor=0
-Objtype=29
-Crucial=0
-Texto=parte de cuerpo putrefacto
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_texto=rotting body part
-en_Name=Zombie Foot
-
 [OBJ2484]
 Name=Ojos de Araña
 GrhIndex=49301
@@ -26407,66 +26169,6 @@ NoSeCae=1
 Instransferible=1
 Intirable=1
 en_Name=Spider Eyes
-
-[OBJ2485]
-Name=Pinza de araña
-GrhIndex=49302
-valor=0
-Objtype=29
-Crucial=0
-Texto=parte de araña
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_texto=spider party
-en_Name=Spider Clamp
-
-[OBJ2486]
-Name=Ala de dragon rojo
-GrhIndex=49303
-valor=0
-Objtype=29
-Crucial=0
-Texto=Ala de dragon
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_name=Red dragon wing
-en_texto=Dragon wing
-
-[OBJ2487]
-Name=Cola de Pavo Real
-GrhIndex=49304
-valor=0
-Objtype=29
-Crucial=0
-Texto=Cola de Pavo Real
-NoSeCae=1
-Instransferible=1
-Intirable=1
-
-[OBJ2488]
-Name=Cabeza de Medusa
-GrhIndex=49305
-valor=0
-Objtype=29
-Crucial=0
-NoSeCae=1
-Instransferible=1
-Intirable=1
-Texto=Cabeza de Medusa
-
-[OBJ2489]
-Name=Pezuña de medusa
-GrhIndex=49306
-valor=0
-Objtype=29
-Crucial=0
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_Name=Medusa hoof
-Texto=Pezuña de medusa
 
 [OBJ2490]
 Name=Fluido Misterioso
@@ -26492,31 +26194,6 @@ Instransferible=1
 Intirable=1
 en_texto=Quest item
 
-[OBJ2492]
-Name=Fluido de serpiente
-GrhIndex=49309
-valor=0
-Objtype=29
-Crucial=0
-Texto=Item de quest
-Nosecae=1
-Instransferible=1
-Intirable=1
-en_texto=Quest item
-
-[OBJ2493]
-Name=Muestra de sangre
-GrhIndex=49310
-valor=0
-Objtype=29
-Crucial=0
-Texto=Ítem de Quest.
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_texto=Quest item
-en_Name=Blood Sample
-
 [OBJ2494]
 Name=Fluido de escorpión
 GrhIndex=49311
@@ -26528,30 +26205,6 @@ NoSeCae=1
 Instransferible=1
 Intirable=1
 en_texto=Quest item
-
-[OBJ2495]
-Name=Fluido de gallo
-GrhIndex=49312
-valor=0
-Objtype=29
-Crucial=0
-Texto=Item de quest
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_texto=Quest item
-
-[OBJ2496]
-Name=Hoja de libro
-GrhIndex=49313
-valor=0
-Objtype=29
-Crucial=0
-NoSeCae=1
-Instransferible=1
-Intirable=1
-Texto=Hoja de libro
-en_Name=Book Sheet
 
 [OBJ2497] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=52058
@@ -26570,47 +26223,6 @@ Instransferible=1
 Intirable=1
 NoseCae=1
 
-[OBJ2498]
-Name=Veneno de serpiente
-GrhIndex=55446
-Nosecae=1
-valor=3
-Objtype=29
-Crucial=0
-Texto=Antidoto Mágico
-en_texto=Magical Antidote
-en_Name=Snake venom
-
-[OBJ2499]
-Name=Hojas
-GrhIndex=51979
-valor=3
-Objtype=29
-Crucial=0
-Texto=Hojas
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_Name=Sheets
-
-[OBJ2500]
-Name=Pez lila
-GrhIndex=51980
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pez lila
-en_Name=Lilac Fish
-
-[OBJ2501]
-Name=Manzana Pinchada
-GrhIndex=51981
-valor=0
-Objtype=29
-Crucial=0
-Texto=Manzana Pinchada
-en_Name=Punctured Apple
-
 [OBJ2502]
 GrhIndex=28907
 Name=Pergamino de Hechizo
@@ -26621,75 +26233,12 @@ Instransferible=1
 Intirable=1
 NoseCae=1
 
-[OBJ2503]
-Name=Lapida pinchos
-GrhIndex=51983
-valor=0
-Objtype=29
-Crucial=0
-Texto=Lapida pinchos
-en_Name=Tombstone Spikes
-
-[OBJ2504]
-Name=Diamante rojo
-GrhIndex=51984
-valor=0
-Objtype=29
-Crucial=0
-Texto=Diamante rojo
-
-[OBJ2505]
-Name=Pezuña
-GrhIndex=51985
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pezuña
-en_Name=Hoof
-
 [OBJ2506]
 Name=Craneo con Cuernos
 GrhIndex=51986
 Objtype=29
 Crucial=0
 Texto=Craneo con Cuernos
-
-[OBJ2507]
-Name=Hojas verde
-GrhIndex=51987
-valor=0
-Objtype=29
-Crucial=0
-Texto=Hojas verde
-en_Name=Green Leaves
-
-[OBJ2508]
-Name=Jarron
-GrhIndex=51988
-valor=0
-Objtype=29
-Crucial=0
-Texto=Jarron
-en_Name=Vase
-
-[OBJ2509]
-Name=Monedas de plata
-GrhIndex=51989
-valor=0
-Objtype=29
-Crucial=0
-Texto=Monedas de plata
-en_Name=Silver Coins
-
-[OBJ2510]
-Name=Monedas de cobre
-GrhIndex=51990
-valor=0
-Objtype=29
-Crucial=0
-
-Texto=Monedas de cobre
-en_Name=Copper Coins
 
 [OBJ2511]
 Name=Monedas de oro
@@ -26699,24 +26248,6 @@ Objtype=29
 Crucial=0
 Texto=Monedas de oro
 en_Name=Gold Coins
-
-[OBJ2512]
-Name=Moneda de plata
-GrhIndex=51992
-valor=0
-Objtype=29
-Crucial=0
-Texto=Moneda de plata
-en_Name=Silver Coin
-
-[OBJ2513]
-Name=Moneda de oro
-GrhIndex=51994
-valor=0
-Objtype=29
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=
-en_Name=Copper Coin
 
 [OBJ2514] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=28922
@@ -26754,33 +26285,6 @@ Instransferible=1
 Intirable=1
 NoseCae=1
 
-[OBJ2516]
-Name=Hacha nueva
-GrhIndex=51997
-valor=0
-Objtype=29
-Crucial=0
-Texto=Hacha nueva
-en_Name=New Ax
-
-[OBJ2517]
-Name=Hoz nueva
-GrhIndex=51998
-valor=0
-Objtype=29
-Crucial=0
-Texto=Hoz nueva
-en_Name=New Sickle
-
-[OBJ2518]
-Name=Martillo nuevo
-GrhIndex=51999
-valor=0
-Objtype=29
-Crucial=0
-Texto=Martillo nuevo
-en_Name=New Hammer
-
 [OBJ2524]
 Name=Yacimiento de Carbón
 Info=Yacimiento de Carbón
@@ -26793,39 +26297,6 @@ VidaUtil=1250
 TiempoRegenerar=1900
 en_name=Coal deposit
 
-[OBJ2525]
-Name=Cuerda
-GrhIndex=52006
-valor=0
-Objtype=29
-Crucial=0
-Texto=Cuerda
-
-[OBJ2526]
-Name=Diamante amarillo
-GrhIndex=52007
-valor=0
-Objtype=29
-Crucial=0
-Nosecae=1
-Texto=Diamante amarillo
-
-[OBJ2527]
-Name=Diamante Azul
-GrhIndex=52008
-valor=0
-Objtype=29
-Crucial=0
-Texto=Diamante Azul
-
-[OBJ2528]
-Name=Diamante Rojo
-GrhIndex=52009
-valor=0
-Objtype=29
-Crucial=0
-Texto=Diamante Rojo
-
 [OBJ2529]
 Name=Calavera y huesos
 GrhIndex=52010
@@ -26834,15 +26305,6 @@ Objtype=29
 Crucial=0
 NoSeCae=1
 Texto=Calavera y huesos
-
-[OBJ2530]
-Name=Huesos
-GrhIndex=52011
-valor=0
-Objtype=29
-Crucial=0
-Texto=Huesos
-en_Name=Bones
 
 [OBJ2531]
 Name=Huevo de Mutante Aracnido
@@ -26854,24 +26316,6 @@ NoSeCae=1
 Texto=Huevo de Mutante Aracnido
 en_Name=Spider Mutant Egg
 
-[OBJ2532]
-Name=Huevos lilas
-GrhIndex=52013
-valor=0
-Objtype=29
-Crucial=0
-Texto=Huevos lilas
-en_Name=Purple Eggs
-
-[OBJ2533]
-Name=Huevos lilas
-GrhIndex=52014
-valor=0
-Objtype=29
-Crucial=0
-Texto=Huevos lilas
-en_Name=Purple Eggs
-
 [OBJ2534] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 Name=Corazón de Pyrrak
 Texto=Puede servir para los investigadores..
@@ -26881,140 +26325,6 @@ Valor=0
 Instransferible=1
 Intirable=1
 NoseCae=1
-
-[OBJ2535]
-Name=Runa roja
-GrhIndex=52015
-valor=0
-Objtype=29
-Crucial=0
-Texto=Runa roja
-en_Name=Red rune
-
-[OBJ2536]
-Name=Runa lila
-GrhIndex=52016
-valor=0
-Objtype=29
-Crucial=0
-Texto=Runa lila
-en_Name=Lilac rune
-
-[OBJ2537]
-Name=Runa azul
-GrhIndex=52017
-valor=0
-Objtype=29
-Crucial=0
-Texto=Runa azul
-en_Name=Blue rune
-
-[OBJ2538]
-Name=Runa verde
-GrhIndex=52018
-valor=0
-Objtype=29
-Crucial=0
-Texto=Runa verde
-en_Name=Green rune
-
-[OBJ2539]
-Name=Runa virgen
-GrhIndex=52019
-valor=0
-Objtype=29
-Crucial=0
-Texto=Runa virgen
-en_Name=Virgin rune
-
-[OBJ2540]
-Name=Cuerno
-GrhIndex=52020
-valor=0
-Objtype=29
-Crucial=0
-Texto=Cuerno
-
-[OBJ2541]
-Name=Collar
-GrhIndex=52021
-valor=0
-Objtype=29
-Crucial=0
-Texto=Collar
-
-[OBJ2542]
-Name=Collar Simple
-GrhIndex=52022
-valor=0
-Objtype=29
-Crucial=0
-Texto=Collar Simple
-
-[OBJ2543]
-Name=Bolsita
-GrhIndex=52023
-valor=0
-Objtype=29
-Crucial=0
-Texto=Bolsita
-
-[OBJ2544]
-Name=Bolsita
-GrhIndex=52024
-valor=0
-Objtype=29
-Crucial=0
-Texto=Bolsita
-
-[OBJ2545]
-Name=Corteza árbol
-GrhIndex=52026
-Objtype=29
-Crucial=0
-Texto=Corteza árbol
-
-[OBJ2546]
-Name=Corteza árbol
-GrhIndex=52027
-valor=0
-Objtype=29
-Crucial=0
-Texto=Corteza árbol
-
-[OBJ2547]
-Name=Corteza árbol
-GrhIndex=52028
-valor=0
-Objtype=29
-Crucial=0
-Texto=Corteza árbol
-
-[OBJ2548]
-Name=Corteza árbol
-GrhIndex=52029
-valor=0
-Objtype=29
-Crucial=0
-Texto=Corteza árbol
-
-[OBJ2549]
-Name=Raspas pescado
-GrhIndex=52029
-valor=0
-Objtype=29
-Crucial=0
-Texto=Raspas pescado
-en_Name=fish bones
-
-[OBJ2550]
-Name=Raspas pescados
-GrhIndex=52030
-valor=0
-Objtype=29
-Crucial=0
-Texto=Raspas pescados
-en_Name=fish bones
 
 [OBJ2551]
 Name=Pluma de aguila
@@ -27043,332 +26353,6 @@ Crucial=0
 Texto=Pluma Cuervo
 en_Name=Raven Feather
 
-[OBJ2555]
-Name=Bolas de plomo
-GrhIndex=52041
-valor=0
-Objtype=29
-Crucial=0
-Texto=Bolas de plomo
-
-[OBJ2556]
-Name=Llave nueva
-GrhIndex=52042
-valor=0
-Objtype=29
-Crucial=0
-Texto=Llave nueva
-en_Name=New Key
-
-[OBJ2557]
-Name=Llave nueva pequeña
-GrhIndex=52043
-valor=0
-Objtype=29
-Crucial=0
-Texto=Llave nueva pequeña
-en_Name=Small new key
-
-[OBJ2558]
-Name=Llave nueva standar
-GrhIndex=52044
-valor=0
-Objtype=29
-Crucial=0
-Texto=Llave nueva standar
-en_Name=New Standard Key
-
-[OBJ2559]
-Name=Llave nueva oro
-GrhIndex=52045
-valor=0
-Objtype=29
-Crucial=0
-Texto=Llave nueva oro
-en_Name=New Gold Key
-
-[OBJ2560]
-Name=Llave mágica
-GrhIndex=52046
-valor=0
-Objtype=29
-Crucial=0
-Texto=Llave mágica
-en_Name=Magic Key
-
-[OBJ2561]
-Name=Llave especial
-GrhIndex=52047
-valor=0
-Objtype=29
-Crucial=0
-Texto=Llave especial
-en_Name=Special Key
-
-[OBJ2562]
-Name=Llave mágica
-GrhIndex=52048
-valor=0
-Objtype=29
-Crucial=0
-Texto=Llave mágica
-en_Name=Magic Key
-
-[OBJ2563]
-Name=Cuchillo
-GrhIndex=52064
-valor=0
-Objtype=29
-Crucial=0
-Texto=Cuchillo
-
-[OBJ2564]
-Name=Tenedor
-GrhIndex=52065
-valor=0
-Objtype=29
-Crucial=0
-Texto=Tenedor
-en_Name=Fork
-
-[OBJ2565]
-Name=Cuchara
-GrhIndex=52066
-valor=0
-Objtype=29
-Crucial=0
-Texto=Cuchara
-
-[OBJ2566]
-Name=Pocion nueva azul
-GrhIndex=52067
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pocion nueva azul
-en_Name=Blue new potion
-
-[OBJ2567]
-Name=Pocion nueva lila
-GrhIndex=52068
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pocion nueva lila
-en_Name=Purple new potion
-
-[OBJ2568]
-Name=Pocion nueva blanca
-GrhIndex=52069
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pocion nueva blanca
-en_Name=White new potion
-
-[OBJ2569]
-Name=Objeto elemental fuego
-GrhIndex=52070
-valor=0
-Objtype=29
-Crucial=0
-Texto=Objeto elemental fuego
-en_Name=Fire Elemental Item
-
-[OBJ2570]
-Name=Objeto elemental tierra
-GrhIndex=52071
-valor=0
-Objtype=29
-Crucial=0
-Texto=Objeto elemental tierra
-en_Name=Earth Elemental Item
-
-[OBJ2571]
-Name=Objeto elemental agua
-GrhIndex=52072
-valor=0
-Objtype=29
-Crucial=0
-Texto=Objeto elemental agua
-en_Name=Water Elemental Item
-
-[OBJ2572]
-Name=Objeto elemental
-GrhIndex=52073
-valor=0
-Objtype=29
-Crucial=0
-Texto=Objeto elemental
-en_Name=Elemental Item
-
-[OBJ2573]
-Name=Objeto elemental
-GrhIndex=52074
-valor=0
-Objtype=29
-Crucial=0
-Texto=Objeto elemental
-en_Name=Elemental Item
-
-[OBJ2574]
-Name=Jarrón cerámico
-GrhIndex=52075
-valor=0
-Objtype=29
-Crucial=0
-NoSeCae=1
-Instransferible=1
-Intirable=1
-Texto=Jarrón cerámico
-en_Name=Ceramic Vase
-
-[OBJ2575]
-Name=Espejo de plata
-GrhIndex=52076
-valor=0
-Objtype=29
-Crucial=0
-Texto=Espejo de plata
-
-[OBJ2576]
-Name=Chuleta de Jabalí
-GrhIndex=52077
-valor=0
-Objtype=29
-Crucial=0
-Texto=Chuleta de Jabalí
-NoSeCae=1
-
-[OBJ2577]
-Name=Chuleton de oso
-GrhIndex=52078
-valor=0
-Objtype=29
-Crucial=0
-Texto=Chuleton de oso
-
-[OBJ2578]
-Name=Chuleton de Lobo
-GrhIndex=52079
-valor=0
-Objtype=29
-Crucial=0
-Texto=Chuleton de Lobo
-
-[OBJ2579]
-Name=Nido de pajaro
-GrhIndex=52080
-valor=0
-Objtype=29
-Crucial=0
-Texto=Nido de pajaro
-en_Name=Bird Nest
-
-[OBJ2580]
-Name=Queso
-GrhIndex=52081
-valor=0
-Objtype=29
-Crucial=0
-Texto=Queso
-en_name=Cheese
-
-[OBJ2581]
-Name=Queso viejo
-GrhIndex=52082
-valor=0
-Objtype=29
-Crucial=0
-Texto=Queso viejo
-en_name=Old cheese
-
-[OBJ2582]
-Name=Lana blanca
-GrhIndex=52083
-valor=0
-Objtype=29
-Crucial=0
-Texto=Lana blanca
-en_Name=White wool
-
-[OBJ2583]
-Name=Lana roja
-GrhIndex=52084
-valor=0
-Objtype=29
-Crucial=0
-Texto=Lana roja
-en_Name=Red wool
-
-[OBJ2584]
-Name=Lana azul
-GrhIndex=52085
-valor=0
-Objtype=29
-Crucial=0
-Texto=Lana azul
-en_Name=Blue wool
-
-[OBJ2585]
-Name=Lana vieja
-GrhIndex=52086
-valor=0
-Objtype=29
-Crucial=0
-Texto=Lana vieja
-en_Name=Old wool
-
-[OBJ2586]
-Name=Agujas de coser
-GrhIndex=52087
-valor=0
-Objtype=29
-Crucial=0
-Texto=Agujas de coser
-en_name=Sewing needles
-
-[OBJ2587]
-Name=Tijeras
-GrhIndex=52088
-valor=0
-Objtype=29
-Crucial=0
-Texto=Tijeras
-en_Name=Scissors
-
-[OBJ2588]
-Name=Baul
-GrhIndex=52089
-valor=0
-Objtype=29
-Crucial=0
-Texto=Baul
-
-[OBJ2589]
-Name=Baul con cerrojo
-GrhIndex=52090
-valor=0
-Objtype=29
-Crucial=0
-Texto=Baul con cerrojo
-
-[OBJ2590]
-Name=Baul gris
-GrhIndex=52091
-valor=0
-Objtype=29
-Crucial=0
-Texto=Baul gris
-
-[OBJ2591]
-Name=Baul dorado
-GrhIndex=52092
-valor=0
-Objtype=29
-Crucial=0
-Texto=Baul dorado
-
 [OBJ2592]
 Name=Vino
 GrhIndex=52093
@@ -27380,50 +26364,6 @@ Texto=Restaura 30 puntos de sed
 en_texto=Restores 30 thirst points
 en_Name=Wine
 ApplyEffectId=10
-
-[OBJ2593]
-Name=Cofre
-GrhIndex=52094
-valor=0
-Objtype=29
-Crucial=0
-Texto=Cofre
-
-[OBJ2594]
-Name=Cofre negro
-GrhIndex=52095
-valor=0
-Objtype=29
-Crucial=0
-Texto=Cofre negro
-
-[OBJ2595]
-Name=Sombrero de paja
-GrhIndex=52096
-valor=0
-Objtype=29
-Crucial=0
-Texto=Sombrero de paja
-en_Name=Straw hat
-
-[OBJ2596]
-Name=Plumas de gallo
-GrhIndex=52097
-valor=0
-Objtype=29
-Crucial=0
-NoSeCae=1
-Texto=Plumas de gallo
-en_Name=Rooster Feathers
-
-[OBJ2597]
-Name=Saco de cereal
-GrhIndex=52098
-valor=0
-Objtype=29
-Crucial=0
-Texto=Saco de cereal
-en_Name=Bag of Cereal
 
 [OBJ2598]
 CP1=GUERRERO
@@ -27462,299 +26402,6 @@ FR_texto=Dommages 8/11
 IT_Name=Nocca Prismatica
 IT_texto=Danno 8/11
 
-[OBJ2599]
-Name=Saco
-GrhIndex=52100
-valor=0
-Objtype=29
-Crucial=0
-Texto=Saco
-en_Name=Bag
-
-[OBJ2600]
-Name=Saco
-GrhIndex=52101
-valor=0
-Objtype=29
-Crucial=0
-Texto=Saco
-en_Name=Bag
-
-[OBJ2601]
-Name=Saco
-GrhIndex=52102
-valor=0
-Objtype=29
-Crucial=0
-Texto=Saco
-en_Name=Bag
-
-[OBJ2602]
-Name=Hilo verde
-GrhIndex=52103
-valor=0
-Objtype=29
-Crucial=0
-Texto=Hilo verde
-en_Name=Green Thread
-
-[OBJ2603]
-Name=Hilo naranja
-GrhIndex=52104
-valor=0
-Objtype=29
-Crucial=0
-Texto=Hilo naranja
-en_Name=Orange Thread
-
-[OBJ2604]
-Name=Hilo rojo
-GrhIndex=52105
-valor=0
-Objtype=29
-Crucial=0
-Texto=Hilo rojo
-en_Name=Red Thread
-
-[OBJ2605]
-Name=Hilo lila
-GrhIndex=52106
-valor=0
-Objtype=29
-Crucial=0
-Texto=Hilo lila
-en_Name=Lilac Thread
-
-[OBJ2606]
-Name=Hilo azul
-GrhIndex=52107
-valor=0
-Objtype=29
-Crucial=0
-Texto=Hilo azul
-en_Name=Blue thread
-
-[OBJ2607]
-Name=Saca corchos
-GrhIndex=52170
-valor=0
-Objtype=29
-Crucial=0
-Texto=Saca corchos
-en_Name=Corkscrew
-
-[OBJ2608]
-Name=Hilo blanco
-GrhIndex=52108
-valor=0
-Objtype=29
-Crucial=0
-Texto=Hilo blanco
-en_Name=White Thread
-
-[OBJ2609]
-Name=tijeras
-GrhIndex=52109
-valor=0
-Objtype=29
-Crucial=0
-Texto=tijeras
-en_Name=Scissors
-
-[OBJ2610]
-Name=Tela blanca
-GrhIndex=52110
-valor=0
-Objtype=29
-Crucial=0
-Texto=Tela blanca
-en_Name=white cloth
-
-[OBJ2611]
-Name=Tela azul
-GrhIndex=52111
-valor=0
-Objtype=29
-Crucial=0
-Texto=Tela azul
-en_Name=Blue cloth
-
-[OBJ2612]
-Name=Tela verde
-GrhIndex=52112
-valor=0
-Objtype=29
-Crucial=0
-Texto=Tela verde
-en_Name=green cloth
-
-[OBJ2613]
-Name=Plato de comida
-GrhIndex=52227
-valor=0
-Objtype=29
-Crucial=0
-Texto=Plato de comida
-en_Name=Plate of food
-
-[OBJ2614]
-Name=Pala
-GrhIndex=52113
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pala
-en_Name=Shovel
-
-[OBJ2616]
-Name=Monto de Plata
-GrhIndex=52115
-valor=0
-Objtype=29
-Crucial=0
-Texto=Monto de Plata
-en_Name=Amount of Silver
-
-[OBJ2617]
-Name=Monto de Cobre
-GrhIndex=52116
-valor=0
-Objtype=29
-Crucial=0
-Texto=Monto de Cobre
-en_Name=Amount of Copper
-
-[OBJ2618]
-Name=Monto de oro
-GrhIndex=52117
-valor=0
-Objtype=29
-Crucial=0
-Texto=Monto de oro
-en_Name=Amount of Gold
-
-[OBJ2620]
-Name=Pinzas
-GrhIndex=52119
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pinzas
-en_Name=Tweezers
-
-[OBJ2621]
-Name=Palo Amarillo
-GrhIndex=52120
-valor=0
-Objtype=29
-Crucial=0
-Texto=Palo Amarillo
-en_Name=Yellow Stick
-
-[OBJ2622]
-Name=Palo Negro
-GrhIndex=52121
-valor=0
-Objtype=29
-Crucial=0
-Texto=Palo Negro
-en_Name=Balck Stick
-
-[OBJ2623]
-Name=Lana
-GrhIndex=52122
-valor=0
-Objtype=29
-Crucial=0
-Texto=Lana
-en_Name=Wool
-
-[OBJ2624]
-Name=Lana Lila
-GrhIndex=52123
-valor=0
-Objtype=29
-Crucial=0
-Texto=Lana Lila
-en_Name=Lilac wool
-
-[OBJ2625]
-Name=Corteza de Madera
-GrhIndex=52142
-valor=0
-Objtype=29
-Crucial=0
-Texto=Corteza de Madera
-
-[OBJ2626]
-Name=Caja Cerrada
-GrhIndex=52127
-valor=0
-Objtype=29
-Crucial=0
-Texto=Caja Cerrada
-
-[OBJ2627]
-Name=Caja Cerrada
-GrhIndex=52128
-valor=0
-Objtype=29
-Crucial=0
-Texto=Caja Cerrada
-
-[OBJ2628]
-Name=Mochila Azul
-GrhIndex=52131
-valor=0
-Objtype=29
-Crucial=0
-Texto=Mochila Azul
-en_Name=Blue Backpack
-
-[OBJ2629]
-Name=Mochila Lila
-GrhIndex=52132
-valor=0
-Objtype=29
-Crucial=0
-Texto=Mochila Lila
-en_Name=Lilac Backpack
-
-[OBJ2630]
-Name=Mochila Verde
-GrhIndex=52133
-valor=0
-Objtype=29
-Crucial=0
-Texto=Mochila Verde
-en_Name=Green Backpack
-
-[OBJ2631]
-Name=Puñado de Diamantes
-GrhIndex=52135
-valor=0
-Objtype=29
-Crucial=0
-Texto=Puñado de Diamantes
-en_Name=Handful of diamonds
-
-[OBJ2632]
-Name=Telescopio
-GrhIndex=52138
-valor=0
-Objtype=29
-Crucial=0
-en_Name=Telescope
-Texto=Telescopio
-
-[OBJ2633]
-Name=Brujula
-GrhIndex=52139
-valor=0
-Objtype=29
-Crucial=0
-Texto=Brujula
-
 [OBJ2634]
 GrhIndex=55401
 Name=Corazón del Leviatán
@@ -27762,119 +26409,6 @@ ObjType=100
 Texto=Item de Quest
 Valor=0
 NoseCae=1
-
-[OBJ2635]
-Name=Garra de Tigre
-GrhIndex=52143
-valor=0
-Objtype=29
-Crucial=0
-NoSeCae=1
-Texto=Garra de Tigre
-
-[OBJ2636]
-Name=Cuero
-GrhIndex=52145
-valor=0
-Objtype=29
-Crucial=0
-Texto=Cuero
-
-[OBJ2637]
-Name=Clavos
-GrhIndex=52146
-valor=0
-Objtype=29
-Crucial=0
-Texto=Clavos
-
-[OBJ2638]
-Name=Cubo de Metal
-GrhIndex=52147
-valor=0
-Objtype=29
-Crucial=0
-
-Texto=Cubo de Metal
-
-[OBJ2639]
-Name=Lamina
-GrhIndex=52152
-valor=0
-Objtype=29
-Crucial=0
-Texto=Lamina
-en_Name=Leaf
-
-[OBJ2640]
-Name=Muelle
-GrhIndex=52153
-valor=0
-Objtype=29
-Crucial=0
-en_Name=Dock
-Texto=Muelle
-
-[OBJ2641]
-Name=Engranaje
-GrhIndex=52154
-valor=0
-Objtype=29
-Crucial=0
-Texto=Engranaje
-
-[OBJ2642]
-Name=Dinamita
-GrhIndex=52156
-valor=0
-Objtype=29
-Crucial=0
-Texto=Dinamita
-
-[OBJ2643]
-Name=Semilla
-GrhIndex=52157
-valor=0
-Objtype=29
-Crucial=0
-Texto=Semilla
-en_Name=Seed
-
-[OBJ2644]
-Name=Libro Antiguo
-GrhIndex=52158
-valor=0
-Objtype=29
-Crucial=0
-Texto=Libro Antiguo
-en_Name=Old book
-
-[OBJ2645]
-Name=Papel
-GrhIndex=52160
-valor=0
-Objtype=29
-Crucial=0
-Texto=Papel
-en_Name=Paper
-
-[OBJ2647]
-Name=Tesoro
-GrhIndex=52172
-valor=0
-Objtype=29
-Crucial=0
-Texto=Tesoro
-en_Name=Treasure
-
-[OBJ2648]
-Name=Pluma y Tinta
-GrhIndex=52179
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pluma y Tinta
-en_Name=Pen and Ink
 
 [OBJ2649]
 Name=Anillo de Oro
@@ -27886,25 +26420,6 @@ NoSeCae=1
 Texto=Anillo de Oro
 en_Name=Golden Ring
 
-[OBJ2650]
-Name=Carta abierta
-GrhIndex=52182
-valor=0
-NoSeCae=1
-Instransferible=1
-Intirable=1
-Objtype=29
-Crucial=0
-Texto=Carta abierta
-
-[OBJ2651]
-Name=Calavera
-GrhIndex=52185
-valor=0
-Objtype=29
-Crucial=0
-Texto=Calavera
-
 [OBJ2652]
 Name=Pergamino
 GrhIndex=52199
@@ -27914,187 +26429,6 @@ Crucial=0
 Texto=Pergamino
 en_Name=Parchment
 
-[OBJ2653]
-Name=Calavera de Oro
-GrhIndex=52207
-valor=0
-Objtype=29
-Crucial=0
-NoSeCae=1
-Instransferible=1
-Intirable=1
-Texto=Item de quest
-en_texto=Quest item
-
-[OBJ2654]
-Name=Tinta
-GrhIndex=52209
-valor=0
-Objtype=29
-Crucial=0
-Texto=Tinta
-en_Name=Ink
-
-[OBJ2655]
-Name=Cubiertos de Oro
-GrhIndex=52210
-valor=0
-Objtype=29
-Crucial=0
-NoSeCae=1
-Instransferible=1
-Intirable=1
-Texto=Item de quest
-en_texto=Quest item
-
-[OBJ2656]
-Name=Dientes
-GrhIndex=52220
-valor=0
-Objtype=29
-Crucial=0
-Texto=Dientes
-
-[OBJ2657]
-Name=Botones
-GrhIndex=52222
-valor=0
-Objtype=29
-Crucial=0
-Texto=Botones
-
-[OBJ2658]
-Name=Olla Falsa
-GrhIndex=52226
-valor=0
-Objtype=29
-Crucial=0
-Texto=Olla
-en_Name=Cooking pot
-NoWiki=1
-
-[OBJ2660]
-Name=Tubitos con Fluido Lila
-GrhIndex=55235
-valor=0
-Objtype=29
-Crucial=0
-Texto=Tubitos con Fluido Lila
-en_Name=Tubes with lilac Fluid
-
-[OBJ2661]
-Name=Tubitos con Fluido Azul Celeste
-GrhIndex=55236
-valor=0
-Objtype=29
-Crucial=0
-Texto=Tubitos con Fluido Azul Celeste
-en_Name=Tubes with Light blue Fuild
-
-[OBJ2662]
-Name=Tubitos con Fluido Azul
-GrhIndex=55237
-valor=0
-Objtype=29
-Crucial=0
-Texto=Tubitos con Fluido Azul
-en_Name=Tubes with blue Fuild
-
-[OBJ2663]
-Name=Corona Real
-GrhIndex=55238
-valor=0
-Objtype=29
-Crucial=0
-Texto=Corona Real
-
-[OBJ2664]
-Name=Olla
-GrhIndex=55239
-valor=0
-Objtype=29
-Crucial=0
-Texto=Olla
-en_Name=Cooking pot
-
-[OBJ2665]
-Name=Olla
-GrhIndex=55240
-valor=0
-Objtype=29
-Crucial=0
-Texto=Olla
-en_Name=Cooking pot
-
-[OBJ2666]
-Name=Olla
-GrhIndex=55241
-valor=0
-Objtype=29
-Crucial=0
-Texto=Olla
-en_Name=Cooking pot
-
-[OBJ2667]
-Name=Calabaza
-GrhIndex=55242
-valor=0
-Objtype=29
-Crucial=0
-Texto=Calabaza
-
-[OBJ2668]
-Name=Dado
-GrhIndex=55244
-valor=0
-Objtype=29
-Crucial=0
-Texto=Dado
-
-[OBJ2669]
-Name=Libro y Pergamino
-GrhIndex=55247
-valor=0
-Objtype=29
-Crucial=0
-Texto=Libro y Pergamino
-en_Name=Book and Scroll
-
-[OBJ2671]
-Name=Pepita de Oro
-GrhIndex=55249
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pepita de Oro
-en_Name=Gold Nugget
-
-[OBJ2672]
-Name=Pepita de Plata
-GrhIndex=55250
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pepita de Plata
-en_Name=Silver nugget
-
-[OBJ2673]
-Name=Escalera
-GrhIndex=55252
-valor=0
-Objtype=29
-Crucial=0
-Texto=Escalera
-
-[OBJ2674]
-Name=Antorcha Apagada
-GrhIndex=55253
-valor=0
-Objtype=29
-Crucial=0
-Texto=Antorcha Apagada
-en_Name=Torch off
-
 [OBJ2675]
 Name=Antorcha Encendida
 GrhIndex=55254
@@ -28103,33 +26437,6 @@ Objtype=29
 Crucial=0
 Texto=Antorcha Encendida
 en_Name=Torch on
-
-[OBJ2676]
-Name=Piedra
-GrhIndex=55255
-valor=0
-Objtype=29
-Crucial=0
-Texto=Piedra
-en_Name=Stone
-
-[OBJ2677]
-Name=Herradura de Plata
-GrhIndex=55256
-valor=0
-Objtype=29
-Crucial=0
-Texto=Herradura de Plata
-en_Name=Silver Horseshoe
-
-[OBJ2678]
-Name=Herradura de Oro
-GrhIndex=55257
-valor=0
-Objtype=29
-Crucial=0
-Texto=Herradura de Oro
-en_Name=Golden Horseshoe
 
 [OBJ2679]
 Name=Rueda de Carro
@@ -28142,186 +26449,6 @@ SkCarpinteria=37
 Madera=100
 Texto=Rueda de Carro
 en_Name=cart-wheel
-
-[OBJ2680]
-Name=Gema Naranja
-GrhIndex=55259
-valor=0
-Objtype=29
-Crucial=0
-Texto=Gema Naranja
-
-[OBJ2681]
-Name=Gema Lila
-GrhIndex=55260
-valor=0
-Objtype=29
-Nosecae=1
-Crucial=0
-Texto=Gema Lila
-
-[OBJ2682]
-Name=Gema Roja
-GrhIndex=55261
-valor=0
-Objtype=29
-Crucial=0
-Texto=Gema Roja
-
-[OBJ2683]
-Name=Gema Verde
-GrhIndex=55262
-valor=0
-Objtype=29
-Crucial=0
-Texto=Gema Verde
-
-[OBJ2684]
-Name=Gema Azul Celeste
-GrhIndex=55263
-valor=0
-Objtype=29
-Crucial=0
-Texto=Gema Azul Celeste
-
-[OBJ2685]
-Name=Muñeco Vudú
-GrhIndex=55267
-valor=0
-Objtype=29
-Crucial=0
-Texto=Item de quest
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_texto=Quest item
-en_Name=Voodoo Doll
-
-[OBJ2686]
-Name=Flores
-GrhIndex=55268
-valor=0
-Objtype=29
-Crucial=0
-Texto=Flores
-
-[OBJ2687]
-Name=Gomera
-GrhIndex=55269
-valor=0
-Objtype=29
-Crucial=0
-Texto=Gomera
-
-[OBJ2688]
-Name=Candado
-GrhIndex=55271
-valor=0
-Objtype=29
-Crucial=0
-Texto=Candado
-
-[OBJ2689]
-Name=Alas
-GrhIndex=55272
-valor=0
-Objtype=29
-Crucial=0
-Texto=Alas
-en_name=Wing
-
-[OBJ2690]
-Name=Ramitas
-GrhIndex=55273
-valor=0
-Objtype=29
-Crucial=0
-Texto=Ramitas
-en_name=twigs
-
-[OBJ2691]
-Name=Bola de Nieve
-GrhIndex=55274
-valor=0
-Objtype=29
-Crucial=0
-Texto=Bola de Nieve
-
-[OBJ2692]
-Name=Flor Azul
-GrhIndex=55279
-Objtype=29
-Texto=Flor Azul
-Crucial=0
-Valor=0
-
-[OBJ2693]
-Name=Red Flower
-GrhIndex=55280
-Objtype=29
-Texto=Red Flower
-Crucial=0
-valor=0
-
-[OBJ2694]
-Name=Lupa
-GrhIndex=55281
-valor=0
-Objtype=29
-Crucial=0
-Texto=Lupa
-en_Name=Magnifyng glass
-
-[OBJ2695]
-Name=Cristal Azul
-GrhIndex=55287
-valor=0
-Objtype=29
-Crucial=0
-Texto=Cristal Azul
-
-[OBJ2696]
-Name=Cristal Lila
-GrhIndex=55288
-valor=0
-Objtype=29
-Crucial=0
-Texto=Cristal Lila
-
-[OBJ2697]
-Name=Cristal Rosa
-GrhIndex=55289
-valor=0
-Objtype=29
-Crucial=0
-Texto=Cristal Rosa
-
-[OBJ2698]
-Name=Cristal Rojo
-GrhIndex=55290
-valor=0
-Objtype=29
-Crucial=0
-Texto=Cristal Rojo
-
-[OBJ2699]
-Name=Cristal Verde
-GrhIndex=55291
-valor=0
-Objtype=29
-Crucial=0
-Texto=Cristal Verde
-Nosecae=1
-
-[OBJ2700]
-Name=Saco de cristales Azul
-GrhIndex=55292
-valor=0
-Objtype=29
-Crucial=0
-Texto=Saco de cristales Azul
-Nosecae=1
-en_Name=Bag of Crystals Blue
 
 [OBJ2701]
 Name=Saco de Cristales Rojo
@@ -28343,298 +26470,6 @@ Texto=Saco de Cristales Lila
 Nosecae=1
 en_Name=Bag of Crystals Lilac
 
-[OBJ2703]
-Name=Tres Pociones
-GrhIndex=55295
-valor=0
-Objtype=29
-Crucial=0
-Nosecae=1
-Texto=Tres Pociones
-en_Name=Three Potions
-
-[OBJ2704]
-Name=Triple Pocion
-GrhIndex=55296
-valor=0
-Objtype=29
-Crucial=0
-Texto=Triple Pocion
-en_Name=Triple Potion
-
-[OBJ2705]
-Name=Diente Marino
-GrhIndex=55302
-valor=0
-Objtype=29
-Crucial=0
-Texto=Diente Marino
-Nosecae=1
-
-[OBJ2706]
-Name=Pendientes Mágicos
-GrhIndex=55305
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pendientes Mágicos
-en_Name=Magic Earrings
-
-[OBJ2707]
-Name=Pendientes Mágicos
-GrhIndex=55306
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pendientes Mágicos
-Nosecae=1
-en_Name=Magic Earrings
-
-[OBJ2708]
-Name=Pendientes Mágicos
-GrhIndex=55307
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pendientes Mágicos
-en_Name=Magic Earrings
-
-[OBJ2709]
-Name=Pendientes Mágicos
-GrhIndex=55308
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pendientes Mágicos
-Nosecae=1
-en_Name=Magic Earrings
-
-[OBJ2710]
-Name=Pendientes Mágicos
-GrhIndex=55309
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pendientes Mágicos
-Nosecae=1
-en_Name=Magic Earrings
-
-[OBJ2711]
-Name=Pendientes Mágicos
-GrhIndex=55310
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pendientes Mágicos
-Nosecae=1
-en_Name=Magic Earrings
-
-[OBJ2712]
-Name=Pendientes Mágicos
-GrhIndex=55311
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pendientes Mágicos
-Nosecae=1
-en_Name=Magic Earrings
-
-[OBJ2713]
-Name=Pendientes Mágicos
-GrhIndex=55312
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pendientes Mágicos
-en_Name=Magic Earrings
-
-[OBJ2714]
-Name=Latigo
-GrhIndex=55313
-valor=0
-Objtype=29
-Crucial=0
-Texto=Latigo
-en_Name=Whip
-
-[OBJ2715]
-Name=Farolillo
-GrhIndex=55316
-valor=0
-Objtype=29
-Crucial=0
-Texto=Farolillo
-
-[OBJ2719]
-Name=Liston de madera
-GrhIndex=55321
-valor=0
-Objtype=29
-Crucial=0
-Texto=Liston de madera
-en_Name=Wood Strip
-
-[OBJ2720]
-Name=Tronco
-GrhIndex=55341
-valor=0
-Objtype=29
-Crucial=0
-Texto=Tronco
-en_Name=Trunk
-
-[OBJ2721]
-Name=Pocion Amarilla
-GrhIndex=55363
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pocion Amarilla
-en_Name=Yellow Potion
-
-[OBJ2722]
-Name=Pocion Violeta
-GrhIndex=55364
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pocion Violeta
-en_Name=Violet potion
-
-[OBJ2723]
-Name=Pocion Roja
-GrhIndex=55365
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pocion Roja
-en_Name=Red Potion
-
-[OBJ2724]
-Name=Hoja de árbol
-GrhIndex=55372
-valor=0
-Objtype=29
-Crucial=0
-Texto=Hoja de árbol
-en_Name=Tree Leaf
-
-[OBJ2725]
-Name=Hojas de árbol
-GrhIndex=55373
-valor=0
-Objtype=29
-Crucial=0
-Texto=Hojas de árbol
-en_Name=Tree Leaves
-
-[OBJ2726]
-Name=Flores
-GrhIndex=55375
-valor=0
-Objtype=29
-Crucial=0
-Texto=Flores
-
-[OBJ2727]
-Name=Hierbas
-GrhIndex=55376
-valor=0
-Objtype=29
-Crucial=0
-Texto=Hierbas
-en_Name=Herbs
-
-[OBJ2728]
-Name=Hierbas Regenerativas
-GrhIndex=55377
-valor=0
-Objtype=29
-Crucial=0
-Texto=Hierbas
-Nosecae=1
-en_Name=Herbs
-
-[OBJ2729]
-Name=Hierbas
-GrhIndex=55378
-valor=0
-Objtype=29
-Crucial=0
-Texto=Hierbas
-Nosecae=1
-en_Name=Herbs
-
-[OBJ2730]
-Name=Hierbas Fucsias
-GrhIndex=55379
-valor=0
-Objtype=29
-Crucial=0
-Texto=Hierbas Fucsias
-en_Name=Fuchsia Herbs
-
-[OBJ2731]
-Name=Tronco
-GrhIndex=55380
-valor=0
-Objtype=29
-Crucial=0
-Texto=Tronco
-en_Name=Trunk
-
-[OBJ2732]
-Name=Huevo
-GrhIndex=55387
-valor=0
-Objtype=29
-Crucial=0
-Texto=Huevo
-en_Name=Egg
-
-[OBJ2733]
-Name=Colmillo
-GrhIndex=55388
-valor=0
-Objtype=29
-Crucial=0
-Texto=Colmillo
-
-[OBJ2734]
-Name=Huevo dorado
-GrhIndex=55395
-valor=0
-Objtype=29
-Crucial=0
-Texto=Huevo dorado
-en_Name=Golden Egg
-
-[OBJ2735]
-Name=Huevo podrido
-GrhIndex=55396
-valor=0
-Objtype=29
-Crucial=0
-Texto=Huevo podrido
-en_Name=Rotten Egg
-
-[OBJ2736]
-Name=Dentadura
-GrhIndex=55397
-valor=0
-Objtype=29
-Crucial=0
-Texto=Dentadura
-
-[OBJ2737]
-Name=Pico
-GrhIndex=55398
-valor=0
-Objtype=29
-Crucial=0
-Texto=Pico
-en_Name=Peak
-
 [OBJ2738]
 Name=Corazón Rojo
 GrhIndex=55399
@@ -28655,22 +26490,6 @@ Intirable=1
 Texto=Item de quest
 en_texto=Quest item
 
-[OBJ2740]
-Name=Corazón Naranja
-GrhIndex=55401
-valor=0
-Objtype=29
-Crucial=0
-Texto=Corazón Naranja
-
-[OBJ2741]
-Name=Botella con mensaje
-GrhIndex=55412
-valor=0
-Objtype=29
-Crucial=0
-Texto=Botella con mensaje
-
 [OBJ2742]
 Name=Flor
 GrhIndex=55435
@@ -28678,149 +26497,6 @@ valor=0
 Objtype=20
 Crucial=0
 Texto=Flor
-
-[OBJ2743]
-Name=Flor
-GrhIndex=55436
-valor=0
-Objtype=29
-Crucial=0
-Texto=Flor
-
-[OBJ2744]
-Name=Flores
-GrhIndex=55437
-valor=0
-Objtype=29
-Crucial=0
-Texto=Flores
-
-[OBJ2745]
-Name=Flores
-GrhIndex=55438
-valor=0
-Objtype=29
-Crucial=0
-Texto=Flores
-
-[OBJ2746]
-Name=Seta
-GrhIndex=55440
-valor=0
-Objtype=29
-Crucial=0
-en_Name=Mushroom
-Texto=Seta
-
-[OBJ2747]
-Name=Seta
-GrhIndex=55441
-valor=0
-Objtype=29
-Crucial=0
-en_Name=Mushroom
-Texto=Seta
-
-[OBJ2748]
-Name=Huevo Rojo
-GrhIndex=55442
-valor=0
-Objtype=29
-Crucial=0
-en_Name=Red Egg
-Texto=Huevo Rojo
-
-[OBJ2749]
-Name=Ojo
-GrhIndex=55445
-valor=0
-Objtype=29
-Crucial=0
-en_Name=Eye
-Texto=Ojo
-
-[OBJ2750]
-Name=Pan
-GrhIndex=55450
-valor=0
-Objtype=29
-Crucial=0
-en_Name=Bread
-Texto=Pan
-
-[OBJ2751]
-Name=Platanos
-GrhIndex=55451
-valor=0
-Objtype=29
-Crucial=0
-en_Name=Bananas
-Texto=Platanos
-
-[OBJ2752]
-Name=Zanahoria
-GrhIndex=55452
-valor=0
-Objtype=29
-Crucial=0
-en_name=Carrot
-Texto=Zanahoria
-
-[OBJ2753]
-Name=Racimo de Uva
-GrhIndex=55464
-valor=0
-Objtype=29
-Crucial=0
-en_name=Grape cluster
-Texto=Racimo de Uva
-
-[OBJ2754]
-Name=Mano
-GrhIndex=55465
-valor=0
-Objtype=29
-Crucial=0
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_Name=Hand
-Texto=Mano
-
-[OBJ2755]
-Name=Pie
-GrhIndex=55466
-valor=0
-Objtype=29
-Crucial=0
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_Name=Foot
-Texto=Pie
-
-[OBJ2756]
-Name=Oreja
-GrhIndex=55467
-valor=0
-Objtype=29
-Crucial=0
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_Name=Ear
-Texto=Oreja
-
-[OBJ2757]
-Name=Cabeza
-GrhIndex=55468
-valor=0
-Objtype=29
-Crucial=0
-NoSeCae=1
-Instransferible=1
-Intirable=1
-Texto=Cabeza
 
 [OBJ2758]
 Name=Cartel
@@ -28841,21 +26517,6 @@ ObjType=20
 Agarrable=1
 Texto=Arbol
 en_Name=Tree
-
-[OBJ2762] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
-GrhIndex=38097
-Name=Colgante Valioso
-ObjType=29
-Texto=¡Puede valer una fortuna!
-Valor=0
-en_Name=Valuable Pendant
-en_Texto=It could be worth a fortune!
-fr_Name=Pendentif précieux
-fr_Texto=Vous pouvez utiliser une fortune!
-it_Name=Prezioso ciondolo
-it_Texto=Puoi usare una fortuna!
-pt_Name=Pingente valioso
-pt_Texto=Você pode usar uma fortuna!
 
 [OBJ2763]
 Name=Curar heridas leves
@@ -29290,21 +26951,6 @@ it_Name=Green Thread (Quest)
 it_Texto=Articolo di ricerca
 pt_Name=Linha verde (missão)
 pt_Texto=Item de missão
-
-[OBJ2810] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
-GrhIndex=52013
-Name=Ooteca Aracnida
-ObjType=29
-Texto=Estos huevos pueden dar a luz a cientos de peligrosas arañas
-Valor=0
-en_Name=Arachnid Ootheca
-en_Texto=These eggs can give birth to hundreds of dangerous spiders.
-fr_Name=Ooteca Aracnida
-fr_Texto=Ces œufs peuvent donner naissance à des centaines d'araignées dangereuses
-it_Name=Ooteca Aracnida
-it_Texto=Queste uova possono dare alla luce centinaia di ragni pericolosi
-pt_Name=Ooteca aracnida
-pt_Texto=Esses ovos podem dar à luz centenas de aranhas perigosas
 
 [OBJ2811] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=28714
@@ -41663,32 +39309,6 @@ PielOsoPolar=40
 Texto=Morral
 en_Name=Bag
 
-[OBJ3463]
-Name=Gema del Aventurero
-GrhIndex=38057
-valor=0
-Objtype=29
-Crucial=0
-Texto=Gema del Aventurero
-
-[OBJ3464]
-Name=Mano izquierda de Perón
-GrhIndex=48999
-valor=0
-Objtype=29
-Crucial=0
-Texto=Mano izquierda de Perón
-en_Name=Peron left hand
-
-[OBJ3465]
-Name=Mano derecha de Perón
-GrhIndex=49000
-valor=0
-Objtype=29
-Crucial=0
-Texto=Mano derecha de Perón
-en_Name=Peron right hand
-
 [OBJ3466]
 CP1=CLERIGO
 CP2=PIRATA
@@ -41882,17 +39502,6 @@ Objtype=24
 Texto=Destierro (Area)(NPCS)
 Nowiki=1
 
-[OBJ3474]
-Name=Carta de Recomendación
-GrhIndex=52182
-valor=0
-NoSeCae=1
-Instransferible=1
-Intirable=1
-Objtype=29
-Crucial=0
-Texto=Carta de Recomendación
-
 [OBJ3476]
 Name=Puerta abierta nueva cabaña
 GrhIndex=16330
@@ -41952,30 +39561,6 @@ Texto=Llave de la casa nueva cabaña
 NFT=0
 en_Name=House key New Cabin
 
-[OBJ3480]
-Name=Energía de Humano
-GrhIndex=28897
-valor=0
-Objtype=29
-Crucial=0
-Texto=Energía recuperada de raza Humano (QUEST)
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_texto=Human Race Recovered Energy (QUEST)
-
-[OBJ3481]
-Name=Energía de Elfo
-GrhIndex=28905
-valor=0
-Objtype=29
-Crucial=0
-Texto=Energía recuperada de raza Elfo (QUEST)
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_texto=Elf Race Recovered Energy (QUEST)
-
 [OBJ3482]
 Name=Energía de Elfo Oscuro
 GrhIndex=28904
@@ -41987,42 +39572,6 @@ NoSeCae=1
 Instransferible=1
 Intirable=1
 en_texto=Energy recovered from Dark Elf race (QUEST)
-
-[OBJ3483]
-Name=Energía de Gnomo
-GrhIndex=28898
-valor=0
-Objtype=29
-Crucial=0
-Texto=Energía recuperada de raza Gnomo (QUEST)
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_texto=Gnome Breed Recovered Energy (QUEST)
-
-[OBJ3484]
-Name=Energía de Orco
-GrhIndex=28900
-valor=0
-Objtype=29
-Crucial=0
-Texto=Energía recuperada de raza Orco (QUEST)
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_texto=Orc Breed Recovered Energy (QUEST)
-
-[OBJ3485]
-Name=Energía de Enano
-GrhIndex=28901
-valor=0
-Objtype=29
-Crucial=0
-Texto=Energía recuperada de raza Enano (QUEST)
-NoSeCae=1
-Instransferible=1
-Intirable=1
-en_texto=Dwarf Breed Recovered Energy (QUEST)
 
 [OBJ3487]
 Name=Espada del Principiante
@@ -42300,21 +39849,6 @@ MinELV=1
 en_name=Beginner Bullet
 en_texto=Beginner Bullet
 
-[OBJ3499] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
-GrhIndex=49057
-Name=Sangre Reptiliana
-ObjType=29
-Texto=Algún coleccionista podría pagar una fortuna por esto.
-Valor=75000
-en_Name=Reptilian blood
-en_Texto=Some collector could pay a fortune for this.
-fr_Name=Sang reptilien
-fr_Texto=Un collectionneur pourrait payer une fortune pour cela.
-it_Name=Sangue rettiliano
-it_Texto=Alcuni collezionisti potrebbero pagare una fortuna per questo.
-pt_Name=Sangue réptil
-pt_Texto=Alguns colecionadores podem pagar uma fortuna por isso.
-
 [OBJ3500]
 Name=Armadura del Principiante
 GrhIndex=3524
@@ -42338,21 +39872,6 @@ newbie=1
 Instransferible=1
 Texto=Armadura del Principiante
 en_Name=Beginner Armor
-
-[OBJ3501] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
-GrhIndex=3494
-Name=Garrote del Gigantor
-ObjType=29
-Texto=Algún coleccionista podría pagar una fortuna por esto.
-Valor=75000
-en_Name=Gigantor club
-en_Texto=Some collector could pay a fortune for this.
-fr_Name=Club de gigantor
-fr_Texto=Un collectionneur pourrait payer une fortune pour cela.
-it_Name=Gigantor Club
-it_Texto=Alcuni collezionisti potrebbero pagare una fortuna per questo.
-pt_Name=Gigantor Club
-pt_Texto=Alguns colecionadores podem pagar uma fortuna por isso.
 
 [OBJ3502]
 Name=Túnica del Principiante
@@ -54378,22 +51897,6 @@ CP12=MAGO
 Objtype=24
 Texto=Receta de Vida
 en_texto=
-
-[OBJ4304]
-Name=Mortero obsoleto
-GrhIndex=28703
-Objtype=29
-Texto=Herramienta para Alquimia
-Crucial=1
-Valor=4
-
-[OBJ4305] 
-Name=Frasco obsoleto
-GrhIndex=28704
-Objtype=29
-Texto=Necesario para crear pociones a través de la Alquimia
-Crucial=1
-valor=4
 
 [OBJ4306]
 Name=Frasco Elixir superior
