@@ -54,8 +54,6 @@ it_Nombre=Primi passi in alchimia
 it_Desc=Giovane lavoratore, ho bisogno che tu prenda questa ricetta che ti do la mia amica Caelum, in modo che ti mostri quello che vuoi imparare!
 it_DescFinal=Buona fortuna!
 
-[QUEST3]
-
 [QUEST4]
 Nombre=Veneno mortal
 Desc=Veo que te sobra valor pero necesitarás más que eso para sobrevivir en estas tierras. Deberás tener a mano todo tipo de pociones para la aventura. Mata 10 serpientes y tráeme su veneno, creo que podré hacer unos cuantos antídotos para ti.
@@ -118,8 +116,6 @@ it_Nombre=La tua prima caccia
 it_Desc=Lupi selvaggi si aggirano per le nostre terre all'ombra di una luna malata. Il Maestro d'Armi Bertram ti convoca: non devi solo cacciarli, ma anche strappare a uno di loro la sua zanna maledetta. Solo un lupo, toccato dall'oscurità, la porta. Cerca, attendi... e ascolta il distinto ululato. La Zanna del Lupo non si conquista con la fortuna, ma con la determinazione. Una volta ottenuta, vieni a trovarmi alla Fucina di Nix.
 it_DescFinal=Avventuriero... Ce l'hai fatta! Quella zanna non è senza coraggio. Parlami ancora, ho un compito per te.
 
-[QUEST6]
-
 [QUEST7]
 Nombre=Recetas para pociones
 Desc=Vamos a probar si realmente funciona esto, necesito una pluma de gallo para poder apuntar mis recetas. Mejor tráeme varias por si acaso.
@@ -144,10 +140,6 @@ fr_Desc=Nous allons essayer si cela fonctionne vraiment, j'ai besoin d'un stylo 
 it_Nombre=Ricette per pozioni
 it_Desc=Proveremo se questo funziona davvero, ho bisogno di una penna di corvo per mirare le mie ricette. Meglio portarmi diversi per ogni evenienza.
 NoWiki=1
-
-[QUEST8]
-
-[QUEST9]
 
 [QUEST10]
 
@@ -179,8 +171,6 @@ it_Nombre=Rabbia del nano
 it_Desc=Sono già stanco di questi dannati orchi, il mio bestiame si è decimato. È questa la tua foresta? Non mi interessa. Loro e quelle creature basse ... devi annientarle! Noi buoni cittadini di Ullathorpe dobbiamo riprendere il controllo della zona. Vai e uccidi cinque di ciascuno. Portami anche gli assi di quegli orchi, saranno utili.
 it_DescFinal=Eccellente! Allo stesso modo strano per la mia mucca, avere questa ricompensa.
 NoWiki=1
-
-[QUEST12]
 
 [QUEST13]
 Nombre=Ojo por ojo, daga por daga
@@ -545,8 +535,6 @@ it_Desc=MH, mi hanno raccontato di te, che sei bravo, coraggioso, abile e hai l'
 it_DescFinal=Ecco il tuo premio
 NoWiki=1
 
-[QUEST26]
-
 [QUEST27]
 Nombre=Distintos tipos de hechiceros
 Desc=Si quieres aprender a dominar la magia deberías comenzar enfrentandote a quienes la aplican, ve y emprende a cacería dentro de la isla. ¡Buena suerte!
@@ -744,8 +732,6 @@ it_Nombre=Uno stelo della mia taglia
 it_Desc=Che fortuna per vederti! Pensavo che non avrei mai visto qualcuno qui intorno. Non sei un bandito, giusto? Bah, cosa dico. Se eri già ferito. Ho bisogno di materiali per finire di costruire la mia cabina. Saresti in grado di portarmi un po 'di legno?
 it_DescFinal=Ora posso finire la mia casa! Grazie mille
 NoWiki=1
-
-[QUEST35]
 
 [QUEST36]
 Nombre=Entrada Norte
@@ -1589,8 +1575,6 @@ fr_Desc=Légionnaire, j'ai observé vos efforts au nom de la Légion Noire. Tous
 it_Nombre=Scudo legionario
 it_Desc=Legionario, ho osservato i tuoi sforzi in nome della Legione Oscura. Non tutti possiedono la disciplina e la forza d'animo necessarie per portare i nostri emblemi, ma tu potresti essere l'eccezione. Se riuscirai a raccogliere 10 Distintivi Rossi, trofei conquistati in combattimento, torna da me. In cambio, ti concederò uno Scudo della Legione, forgiato per coloro che hanno dimostrato vera lealtà e resilienza. Ricorda, questo onore non è per tutti. Solo Cacciatori, Lavoratori, Bardi, Assassini e Banditi possono aspirare a portare questo simbolo della nostra forza. Vai, legionario. Dimostra di esserne degno.
 
-[QUEST67]
-
 [QUEST68]
 Nombre=Escudo Real
 Desc=Soldado, tu servicio a la Armada Real no ha pasado desapercibido. La disciplina y el honor son los pilares que nos sostienen... y tú has demostrado comprender su valor. Reúne 10 Insignias Azules y preséntate ante mí. A cambio, se te concederá un Escudo de la Armada, digno de aquellos que protegen el orden y la corona. Este reconocimiento está reservado únicamente para Guerreros, Trabajadores, Paladines y Clérigos al servicio de la Armada. Cumple con tu deber, y serás recompensado como corresponde.
@@ -1709,8 +1693,6 @@ it_Nombre=Monte di combattente
 it_Desc=Hai bisogno di qualcosa di più veloce del cavallo bianco di mio fratello? Se riesci a ottenere per me 1 ferro di cavallo, posso darti il ??mio cavallo per migliorare i tuoi trasferimenti. Non accettare questa missione a meno che tu non sia pronto a completarla. Se abbandoni questa missione, rischi di perdere la tua cavalcatura attuale.
 it_DescFinal=Ora puoi impostare il mio supporto! Quando sei più forte, visita mio fratello Guido, forse ho un regalo migliore per te!
 NoWiki=1
-
-[QUEST73]
 
 [QUEST74]
 Nombre=Terror Troll
@@ -1944,14 +1926,6 @@ fr_Desc=La meilleure arche impériale disponible dans ce monde.
 it_Nombre=Impero Arc
 it_Desc=Il miglior arco imperiale disponibile in questo mondo.
 
-[QUEST85]
-
-[QUEST86]
-
-[QUEST87]
-
-[QUEST88]
-
 [QUEST89]
 Nombre=Exceso de suciedad
 Desc=No sé si alguna vez has visto las cloacas de la ciudad, ojalá no hayas corrido esa suerte. Pero si necesitas algunas monedas podrías conocer el lugar. Hay una feroz plaga de ratas que vienen a contaminar la ciudad y se refugian allí abajo, si quieres ayudar a la grandeza de Banderbill y de paso conseguir algo de oro, ve y mata la mayor cantidad que puedas, cuidado con las personas allí debajo, es el escondite de la peor calaña de bandidos.
@@ -2086,14 +2060,6 @@ fr_Desc=Soldat, votre service à la Marine royale n'est pas passé inaperçu. Di
 it_Nombre=Scudo Reale
 it_Desc=Soldato, il tuo servizio alla Royal Navy non è passato inosservato. Disciplina e onore sono i pilastri che ci sostengono... e tu hai dimostrato di comprenderne il valore. Raccogli 10 Distintivi Blu e presentati a me. In cambio, ti verrà conferito uno Scudo della Marina, degno di coloro che proteggono l'ordine e la corona. Questo riconoscimento è riservato esclusivamente a Cacciatori, Lavoratori, Bardi, Banditi e Assassini al servizio della Marina. Fai il tuo dovere e sarai ricompensato di conseguenza.
 
-[QUEST95]
-
-[QUEST96]
-
-[QUEST97]
-
-[QUEST98]
-
 [QUEST99]
 Nombre=Necesidad de Lider
 Desc=Hemos perdido la noción del tiempo, incontables lunas han pasado desde que cruzamos la entrada de este máldito laberinto. Las sombras nos acechan, susurros en lenguas antiguas se arrastran por los pasillos, y el hedor a descomposición llena el aire. Si eres el faro en esta oscuridad, derrota a los Esqueletos Deambulantes y guíanos fuera de este infierno antes de que seamos parte de él.
@@ -2172,8 +2138,6 @@ fr_DescFinal=Ces derniers jours, la grotte de la désolation a été en proie à
 it_Nombre=Luna piena
 it_Desc=In questi ultimi giorni la grotta della desolazione è stata afflitta da lupi, il temibile secolare ha raggiunto un grande potere. Se riesci a sconfiggerlo e portarmi la pelle dei tuoi soggetti, imparerai un incantesimo che non viene venduto in nessuna città.1
 it_DescFinal=Negli ultimi giorni, la grotta della desolazione è stata afflitta dai lupi. Il temibile laicano è salito in grande potere. Se riesci a sconfiggermi e portarmi le pelli dei suoi soggetti, imparerai che uno s del gioco non viene venduto in nessuna città.
-
-[QUEST102]
 
 [QUEST103]
 Nombre=Avanzando por el Drenaje
@@ -2773,8 +2737,6 @@ it_Desc=Cosa vuoi fare uno zaino? Portami i materiali necessari e ti aiuterò vo
 it_DescFinal=È stato un piacere servirlo Signore, qui ha il suo zaino!
 NoWiki=1
 
-[QUEST127]
-
 [QUEST128]
 Nombre=Caballo Palomino
 Desc=¿Necesitas algo mas veloz que la Montura del Combatiente de mi hermano? Si logras conseguir para mi 1 Herradura de Caballo Palomino, puedo darte a cambio mi caballo para mejorar tus traslados. No tomes esta misión a menos que estés preparado para completarla, si abandonas esta misión corres riesgo de perder tu montura actual.
@@ -2800,8 +2762,6 @@ it_Nombre=Palomino Horse
 it_Desc=Hai bisogno di qualcosa di più veloce della montatura del combattente di mio fratello? Se riesci a ottenere per me 1 Palomino Horse Horses, posso darti il ??mio cavallo per migliorare i tuoi trasferimenti. Non accettare questa missione a meno che tu non sia pronto a completarla. Se abbandoni questa missione, rischi di perdere la tua cavalcatura attuale.
 it_DescFinal=Ora puoi guidare i miei popcorn! Quando sei più forte, visita mio padre Juan, cavaliere esperto di queste terre, potrebbe avere un regalo migliore per te!
 NoWiki=1
-
-[QUEST129]
 
 [QUEST130]
 Nombre=La última misión.
@@ -2925,8 +2885,6 @@ it_Nombre=Una risorsa molto preziosa
 it_Desc=Come si può vedere, la nostra gloriosa città di Penthar è emersa da una vecchia miniera di carbone. I nostri depositi di carbone sono stati minati per molte generazioni, quindi molti non rimangono più. Pensi di potermi aiutare a ottenere un po 'di carbone per poter fornire i fabbri di queste terre? Penso che con 5.000 unità sarà sufficiente. Non preoccuparti, i tuoi sforzi saranno ben premiati.
 it_DescFinal=Grazie mille per il tuo aiuto! Con questi minerali possiamo mantenere i forni illuminati per divertirsi. Qui hai la tua ricompensa!
 NoWiki=1
-
-[QUEST135]
 
 [QUEST136]
 Nombre=Tormenta de Fuego
@@ -3680,8 +3638,6 @@ fr_DescFinal=Votre reliquaire a été béni!
 it_Nombre=Benedire!
 it_Desc=Se mi porti un reliquiario, posso benedirlo per alcune monete d'oro ..
 it_DescFinal=Il tuo reliquiario è stato benedetto!
-
-[QUEST162]
 
 [QUEST163]
 Nombre=Guardias del Cementerio
@@ -4586,8 +4542,6 @@ it_Desc=Sei riuscito a superare quelle iene e gli osservatori senza alcun proble
 it_DescFinal=Sei riuscito a ottenere l'incantesimo? Nessun problema, puoi ottenerlo per monete d'oro, a sud di qui, nella città di Arkhein.
 NoWiki=1
 
-[QUEST197]
-
 [QUEST198]
 Nombre=Exilio Dragón
 Desc=¿Donde se han ido los pequeños Dragones? Esta nueva raza se ha adueñado de la zona y prometen aniquilar a cualquiera que se adentre en el Dungeon Dragon. Si lográs derrotar a Pyrrak y arrancar su corazón, te daré una increible recompensa.
@@ -4785,8 +4739,6 @@ fr_DescFinal=Vous êtes revenu! Beaucoup étaient en route sans pouvoir m'aider.
 it_Nombre=Venti Eldoria
 it_Desc=Nelle vicinanze di questa città, sono presenti creature esotiche rilasciate con un potere incalcolabile. Ho cercato di avvicinarmi, ma uno spirito di guardia lo impedisce. Se osi e riesci a sconfiggerli e prendi la runa del vento per me, ti ricompenserò con un grande incantesimo.
 it_DescFinal=Sei tornato! Molti erano in arrivo senza essere in grado di aiutarmi. Apprezzo la tua Valentia, prendi questo vento e ne approfitto nella tua avventura!
-
-[QUEST205]
 
 [QUEST206]
 Nombre=Sangre por Sangre
@@ -5182,8 +5134,6 @@ fr_Nombre=Manteau de force légionnaire
 fr_Desc=Je peux vous forger un bouclier, il sera digne des forces du chaos.
 it_Nombre=Cappotto di forza legionaria
 it_Desc=Posso forgiare uno scudo per te, sarà degno delle forze del caos.
-
-[QUEST221]
 
 [QUEST222]
 Nombre=1kk
