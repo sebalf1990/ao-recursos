@@ -46,6 +46,8 @@ DescFinal=Hoy el Cementerio es más tranquilo gracias a tu fuerza. Toma esto nob
 Repetible=1
 RequiredLevel=13
 PosMap=4
+DescAudio=1048
+DescFinalAudio=1049
 
 [QUEST2]
 Nombre=Primeros pasos en la Alquimia
@@ -53,6 +55,8 @@ Desc=Joven trabajador, necesito que le lleves esta receta que te obsequio a mi a
 DescFinal=¡Buena suerte!
 Repetible=0
 RequiredLevel=6
+DescAudio=1050
+DescFinalAudio=1051
 
 [QUEST4]
 Nombre=Veneno mortal
@@ -61,6 +65,8 @@ DescFinal=Buen trabajo, aguardame un instante...
 Repetible=0
 RequiredLevel=1
 PosMap=44
+DescAudio=1052
+DescFinalAudio=1053
 
 [QUEST5]
 Nombre=Tu primer Caceria
@@ -68,6 +74,8 @@ Desc=Los Lobos Salvajes rondan nuestras tierras bajo la sombra de una luna enfer
 DescFinal=Aventurero.. ¡Lo has logrado! Ese colmillo no se obtiene sin coraje. Vuelve a hablar conmigo, tengo un encargo para ti.
 Repetible=0
 RequiredLevel=15
+DescAudio=1054
+DescFinalAudio=1055
 
 [QUEST7]
 Nombre=Recetas para pociones
@@ -75,6 +83,7 @@ Desc=Vamos a probar si realmente funciona esto, necesito una pluma de gallo para
 Repetible=0
 RequiredLevel=4
 PosMap=218
+DescAudio=1056
 
 [QUEST11]
 Nombre=Ira del Enano
@@ -83,6 +92,8 @@ DescFinal=¡Qué bueno! De igual modo extraño a mi vaca, ten esto de recompensa
 Repetible=0
 RequiredLevel=16
 PosMap=39
+DescAudio=1057
+DescFinalAudio=1058
 
 [QUEST13]
 Nombre=Ojo por ojo, daga por daga
@@ -90,6 +101,7 @@ Desc=Al parecer a la cofradía de criminales no le ha gustado la masacre que hem
 Repetible=0
 RequiredLevel=17
 PosMap=1
+DescAudio=1059
 
 [QUEST14]
 Nombre=¡Demasiados lobos!
@@ -98,6 +110,8 @@ DescFinal=¡Los ciudadanos de Ullathorpe te agradecen!
 Repetible=0
 RequiredLevel=9
 PosMap=11
+DescAudio=1060
+DescFinalAudio=1061
 
 [QUEST15]
 Nombre=Pertrechos para el Combate
@@ -106,6 +120,8 @@ DescFinal=¡Ten tu recompensa!
 Repetible=0
 RequiredLevel=11
 PosMap=36
+DescAudio=1062
+DescFinalAudio=1063
 
 [QUEST16]
 Nombre=La Gran Estafa
@@ -114,6 +130,8 @@ DescFinal=Qué bien quedarán estas cabezas en la plaza de la ciudad. Gracias.
 Repetible=0
 RequiredLevel=13
 PosMap=270
+DescAudio=1064
+DescFinalAudio=1065
 
 [QUEST17]
 Nombre=Entre la sombra y la herida
@@ -122,6 +140,8 @@ DescFinal=Supiste moverte sin ser visto donde no se puede detener al enemigo y m
 Repetible=0
 RequiredLevel=25
 PosMap=408
+DescAudio=1066
+DescFinalAudio=1067
 
 [QUEST18]
 Nombre=Hora de Fumigar
@@ -130,6 +150,8 @@ DescFinal=¡Gracias por tu ayuda!
 Repetible=1
 RequiredLevel=15
 PosMap=38
+DescAudio=1068
+DescFinalAudio=1069
 
 [QUEST19]
 Nombre=Baja Temperatura
@@ -138,6 +160,8 @@ DescFinal=Te agradezco la ayuda, puedes volver a ayudarme con esta tarea cuando 
 Repetible=0
 RequiredLevel=13
 PosMap=20
+DescAudio=1070
+DescFinalAudio=1071
 
 [QUEST20]
 Nombre=Gran mutación
@@ -146,6 +170,8 @@ DescFinal=No puedo creerlo, estábamos desesperados. Creíamos que sería el fin
 Repetible=0
 RequiredLevel=14
 PosMap=174
+DescAudio=1072
+DescFinalAudio=1073
 
 [QUEST21]
 Nombre=El Guardián del Mausoleo
@@ -185,6 +211,8 @@ Desc=Mh, me han comentado de tí, que eres bueno, valiente, habilidoso y tienes 
 DescFinal=Aquí tienes tu premio
 Repetible=0
 RequiredLevel=26
+DescAudio=1287
+DescFinalAudio=1288
 
 [QUEST27]
 Nombre=Distintos tipos de hechiceros
@@ -200,6 +228,8 @@ DescFinal=¡Bien! Esto es madera de verdad. Mirá estas vetas. Torcidas, duras, 
 Repetible=1
 RequiredLevel=25
 PosMap=408
+DescAudio=1291
+DescFinalAudio=1292
 
 [QUEST29]
 Nombre=Ecos de Astas Antiguas
@@ -208,6 +238,8 @@ DescFinal=Estos cráneos pesan más de lo que parecen. El bosque va a sentir su 
 Repetible=1
 RequiredLevel=25
 PosMap=65
+DescAudio=1230
+DescFinalAudio=1231
 
 [QUEST30]
 Nombre=Forja del Piquete de Blodium
@@ -239,6 +271,8 @@ DescFinal=¡Ahora si podré terminar mi hogar! Muchas gracias
 Repetible=0
 RequiredLevel=15
 PosMap=271
+DescAudio=1090
+DescFinalAudio=1091
 
 [QUEST36]
 Nombre=Entrada Norte
@@ -247,6 +281,8 @@ DescFinal=Te felicito guerrero, excelente trabajo. Ten esto.
 Repetible=1
 RequiredLevel=5
 PosMap=5
+DescAudio=1238
+DescFinalAudio=1239
 
 [QUEST37]
 Nombre=Magia ancestral
@@ -255,6 +291,8 @@ DescFinal=Excelente tarea! Por fin nuestros magos podran explorar ese poder ocul
 Repetible=1
 RequiredLevel=20
 PosMap=1
+DescAudio=1092
+DescFinalAudio=1093
 
 [QUEST38]
 Nombre=¡Comienza la Aventura!
@@ -262,6 +300,8 @@ Desc=¡Ya has alcanzado el nivel 13, felicitaciones! A partir de ahora, comienza
 DescFinal=¡Que la suerte te acompañe! En el Manual encontrarás todas las respuestas que andas buscando.
 Repetible=0
 RequiredLevel=13
+DescAudio=1167
+DescFinalAudio=1168
 
 [QUEST39]
 Nombre=Dos tipos de Lobos
@@ -270,6 +310,8 @@ DescFinal=¡Bien hecho!
 Repetible=0
 RequiredLevel=14
 PosMap=1
+DescAudio=1094
+DescFinalAudio=1095
 
 [QUEST40]
 Nombre=Camino a Ullathorpe
@@ -278,6 +320,8 @@ DescFinal=Ten esto, te lo mereces.
 Repetible=0
 RequiredLevel=7
 PosMap=508
+DescAudio=1248
+DescFinalAudio=1249
 
 [QUEST41]
 Nombre=Colmillos de Fuego
@@ -317,6 +361,8 @@ DescFinal=Bien hecho. El avance se detuvo... por ahora. Mientras los mantengamos
 Repetible=1
 RequiredLevel=18
 PosMap=75
+DescAudio=1184
+DescFinalAudio=1185
 
 [QUEST46]
 Nombre=Hierro marcado por el Fuego
@@ -325,6 +371,8 @@ DescFinal=Lo sabía... el hierro volvió a enfriarse. Has cortado el vínculo en
 Repetible=1
 RequiredLevel=20
 PosMap=22
+DescAudio=1186
+DescFinalAudio=1187
 
 [QUEST47]
 Nombre=La Purga de Marabel
@@ -333,6 +381,8 @@ DescFinal=Buen trabajo. La sangre derramada hoy mantendrá a Marabel bajo contro
 Repetible=1
 RequiredLevel=20
 PosMap=70
+DescAudio=1188
+DescFinalAudio=1189
 
 [QUEST48]
 Nombre=El pecado del Capitán
@@ -348,6 +398,8 @@ Desc=Los historiadores siempre han dado con que en Veril pudieron notar la prese
 DescFinal=¡Ten, acabas de hacer un gran aporte a la ciencia!
 Repetible=1
 RequiredLevel=33
+DescAudio=1268
+DescFinalAudio=1269
 
 [QUEST50]
 Nombre=El Legendario
@@ -368,6 +420,8 @@ Desc=Acercate, noble guerrero, te contaré una historia.. Al norte de la Fortale
 DescFinal=Esto sí que es único, no lo pierdas.
 Repetible=0
 RequiredLevel=36
+DescAudio=1280
+DescFinalAudio=1281
 
 [QUEST53]
 Nombre=Conocer el plan enemigo
@@ -389,6 +443,8 @@ Desc=Hacia el oeste se encuentra una isla abandonada por Dios. Desde ella accede
 DescFinal=¡Gracias muchacho, tu lealtad al imperio no tiene precio!
 Repetible=1
 RequiredLevel=33
+DescAudio=1096
+DescFinalAudio=1097
 
 [QUEST56]
 Nombre=Nuevos Jefes Minotauros
@@ -397,6 +453,8 @@ DescFinal=¡Ten estas monedas de oro como premio por tu valentía!
 Repetible=1
 RequiredLevel=18
 PosMap=369
+DescAudio=1236
+DescFinalAudio=1237
 
 [QUEST57]
 Nombre=Piramide III
@@ -411,6 +469,8 @@ Desc=Escucha con atención, noble guerrero: Existe un antiguo rumor de que aquí
 DescFinal=¡Lo has logrado! Con esta llave podrás acceder al siguiente nivel dentro de estas Catacumbas. ¡Te deseo los mejores exitos en tu aventura dentro de Argentum Online, recuerda ser siempre una buena persona!
 Repetible=0
 RequiredLevel=15
+DescAudio=1098
+DescFinalAudio=1099
 
 [QUEST59]
 Nombre=Asegurar el paso
@@ -432,6 +492,8 @@ Desc=Si te alejas un poco de los caminos del Rey podrás encontrar distintos tip
 DescFinal=Ten estas monedas, gracias por tu valentia.
 Repetible=0
 RequiredLevel=13
+DescAudio=1100
+DescFinalAudio=1101
 
 [QUEST62]
 Nombre=Explorando el Pantano
@@ -439,6 +501,8 @@ Desc=Al norte se encuentra el Pantano, una de las zonas mas peligrosas a los alr
 DescFinal=¡Gran trabajo! ¡Espera! No te vayas, aun queda trabajo por hacer..
 Repetible=0
 RequiredLevel=18
+DescAudio=1258
+DescFinalAudio=1259
 
 [QUEST63]
 Nombre=Plaga de Criaturas
@@ -447,6 +511,8 @@ DescFinal=¡Recordaré por siempre tu nombre!
 Repetible=1
 RequiredLevel=13
 PosMap=82
+DescAudio=1102
+DescFinalAudio=1103
 
 [QUEST64]
 Nombre=Presteza de los Bosques
@@ -455,6 +521,8 @@ DescFinal=Esto me viene de lujo. Ten, lo prometido.
 Repetible=0
 RequiredLevel=20
 PosMap=194
+DescAudio=1244
+DescFinalAudio=1245
 
 [QUEST65]
 Nombre=Fuerza Bruta
@@ -463,6 +531,8 @@ DescFinal=Buen trabajo, esto te será de gran ayuda para tu entrenamiento.
 Repetible=0
 RequiredLevel=18
 PosMap=25
+DescAudio=1246
+DescFinalAudio=1247
 
 [QUEST66]
 Nombre=Escudo Legionario
@@ -470,6 +540,7 @@ Desc=Legionario, he observado tus esfuerzos en nombre de la Legión Oscura. No t
 Repetible=1
 RequiredLevel=23
 PosMap=295
+DescAudio=1104
 
 [QUEST68]
 Nombre=Escudo Real
@@ -510,6 +581,8 @@ Desc=Esos malditos Troll Oscuros pagarán todo el miedo que han infundido en nue
 DescFinal=¡Excelente trabajo! Ten esto, siempre serás bienvenido por aquí.
 Repetible=0
 RequiredLevel=19
+DescAudio=1260
+DescFinalAudio=1261
 
 [QUEST75]
 Nombre=Cofre de Armas Legendarias
@@ -550,6 +623,8 @@ Desc=Te estaba esperando, discipulo. Lo que muchos ven como simples criaturas...
 DescFinal=La esencia responde a tu llamado... y vuelve a tomar forma. No todos comprenden lo que acabas de hacer... pero yo sí. No lo olvides: incluso la Luz... puede volver a fragmentarse.
 Repetible=0
 RequiredLevel=29
+DescAudio=1182
+DescFinalAudio=1183
 
 [QUEST81]
 Nombre=Escudo de la Legión Oscura
@@ -579,6 +654,8 @@ Desc=Había un oso, un oso, ¡un oso!, era negro, era enorme, ¡cubierto de pelo
 DescFinal=Qué dulce era ella, y pura, y bella.
 Repetible=0
 RequiredLevel=15
+DescAudio=1179
+DescFinalAudio=1180
 
 [QUEST91]
 Nombre=Puñal de la Armada Real
@@ -633,6 +710,8 @@ Desc=Has logrado eliminar a los primeros defensores, pero debemos adentrarnos en
 DescFinal=¿Lo lograste ver?
 Repetible=0
 RequiredLevel=17
+DescAudio=1270
+DescFinalAudio=1271
 
 [QUEST104]
 Nombre=Los Guardianes Reptaescama
@@ -640,6 +719,8 @@ Desc=Parte de la leyenda decía que la guarida de la bestia estaba protegida por
 DescFinal=¡Es cierto! Deberás entrenar muy bien para enfrentarte al poderoso Har Nareth
 Repetible=0
 RequiredLevel=18
+DescAudio=1272
+DescFinalAudio=1273
 
 [QUEST105]
 Nombre=Escudo Legionario
@@ -660,6 +741,8 @@ Desc=Cuenta la leyenda que dentro del drenaje habita una bestia inmensa, que ate
 DescFinal=Gran trabajo, pero debemos continuar.. ¡Restaura tu equipamiento y vuelve a hablarme!
 Repetible=0
 RequiredLevel=16
+DescAudio=1274
+DescFinalAudio=1275
 
 [QUEST110]
 Nombre=Primer Desembarco
@@ -709,6 +792,8 @@ DescFinal=¡Esto es para tí, gracias por tu labor!
 Repetible=0
 RequiredLevel=9
 PosMap=501
+DescAudio=1250
+DescFinalAudio=1251
 
 [QUEST117]
 Nombre=Tiempos Bandidos
@@ -725,6 +810,8 @@ DescFinal=¡Con estas pociones podras seguir entrenando!
 Repetible=0
 RequiredLevel=9
 PosMap=185
+DescAudio=1252
+DescFinalAudio=1253
 
 [QUEST119]
 Nombre=Orcos hambrientos
@@ -733,6 +820,8 @@ DescFinal=¡Estaremos eternamente agradecidos!
 Repetible=1
 RequiredLevel=5
 PosMap=188
+DescAudio=1177
+DescFinalAudio=1178
 
 [QUEST120]
 Nombre=Puñales traicioneros
@@ -836,6 +925,8 @@ DescFinal=¡Puedes sentirte más cerca de la superación, como un verdadero viaj
 Repetible=1
 RequiredLevel=29
 PosMap=354
+DescAudio=1240
+DescFinalAudio=1241
 
 [QUEST139]
 Nombre=Fortaleza invernal
@@ -844,6 +935,8 @@ DescFinal=Has sido muy valiente, con esto podrás resistir mucho tiempo por aqu�
 Repetible=1
 RequiredLevel=25
 PosMap=354
+DescAudio=1242
+DescFinalAudio=1243
 
 [QUEST140]
 Nombre=La destreza del Eyewarden
@@ -868,6 +961,8 @@ DescFinal=¡Felicidades! Con este hechizo podrás sanar hasta las heridas más p
 Repetible=0
 RequiredLevel=26
 PosMap=214
+DescAudio=1204
+DescFinalAudio=1205
 
 [QUEST143]
 Nombre=Carrito de principiante (Pescador).
@@ -924,6 +1019,8 @@ Desc=La vieja carreta, veo que te ha sido de gran utilidad aunque no soportará 
 DescFinal=Toma, podrás cargar tantos kilos de leña como desees, aunque he de informarte que ya no dispongo de las herramientas para seguir mejorandolo.
 Repetible=0
 RequiredLevel=30
+DescAudio=1105
+DescFinalAudio=1106
 
 [QUEST151]
 Nombre=Carrito de Elite (Minero).
@@ -944,6 +1041,8 @@ Nombre=El Desafío del Subsuelo
 Desc=Los sótanos y drenajes de la ciudad están infestados. Debes eliminar una cantidad de ratas negras y grises de tu casa, y aventurarte hasta los drenajes donde la Rata Gigante gobierna, eliminando varios de estos peligrosos especímenes. Este desafío requiere paciencia, constancia y habilidad, pues solo los que mantengan su suscripción activa podrán progresar cada día. Al completar esta prueba, la recompensa será única y duradera: una montura especial que te permitirá recorrer la ciudad con la fuerza de estas criaturas.
 DescFinal=Has demostrado perseverancia y valor frente a las amenazas del subsuelo. Tu constancia y habilidad no han pasado desapercibidas. ¡Ten esta Montura como reconocimiento a tu esfuerzo y dedicación!
 Repetible=1
+DescAudio=1106
+DescFinalAudio=1107
 
 [QUEST154]
 Nombre=El sello del Sol
@@ -951,6 +1050,8 @@ Desc=El jade que llevas no es simple piedra. Cada fragmento que reuniste estuvo 
 DescFinal=No olvides: el desierto observa, y los secretos del Sol Caído no se revelan dos veces. Que tu camino esté marcado por tu valor y tu prudencia.
 Repetible=0
 RequiredLevel=18
+DescAudio=1262
+DescFinalAudio=1263
 
 [QUEST155]
 Nombre=El Rompecabezas de Jade
@@ -959,6 +1060,8 @@ DescFinal=Cada fragmento guarda la marca del desierto, pero juntos recuperan el 
 Repetible=0
 RequiredLevel=18
 PosMap=1
+DescAudio=1165
+DescFinalAudio=1166
 
 [QUEST156]
 Nombre=El Collar del Rey Sin Nombre
@@ -967,6 +1070,8 @@ DescFinal=Las momias no lo custodiaban por lealtad, sino por condena. Este objet
 Repetible=1
 RequiredLevel=18
 PosMap=17
+DescAudio=1264
+DescFinalAudio=1265
 
 [QUEST157]
 Nombre=Tablones Cepillados.
@@ -974,6 +1079,8 @@ Desc=Puedo cepillar todo ese leño por ti, de 10000 Leños puedo entregarte 1000
 DescFinal=Mira que buen trabajo he realizado. Aquí lo tienes.
 Repetible=0
 RequiredLevel=1
+DescAudio=1107
+DescFinalAudio=1108
 
 [QUEST158]
 Nombre=Tablones Cepillados Élficos.
@@ -995,6 +1102,8 @@ DescFinal=Has descifrado los secretos de la antigua necromancia egipcia. Tu hech
 Repetible=0
 RequiredLevel=22
 PosMap=16
+DescAudio=1206
+DescFinalAudio=1207
 
 [QUEST161]
 Nombre=¡Bendecir!
@@ -1002,6 +1111,8 @@ Desc=Si me traes un Relicario, puedo bendecirlo por algunas monedas de oro..
 DescFinal=¡Tu Relicario fue Bendecido!
 Repetible=1
 RequiredLevel=23
+DescAudio=1115
+DescFinalAudio=1116
 
 [QUEST163]
 Nombre=Guardias del Cementerio
@@ -1026,6 +1137,8 @@ DescFinal=¡Muchas gracias! Ten un poco de esto, es lo ultimo que me queda..
 Repetible=0
 RequiredLevel=7
 PosMap=418
+DescAudio=1254
+DescFinalAudio=1255
 
 [QUEST167]
 Nombre=Adentrandose en la Cueva
@@ -1048,6 +1161,8 @@ DescFinal=¡Has sobrevivido! Tienes la fuerza necesaria para ayudarme a cumplir 
 Repetible=1
 RequiredLevel=13
 PosMap=17
+DescAudio=1266
+DescFinalAudio=1267
 
 [QUEST170]
 Nombre=Cercanias de la Piramide
@@ -1084,12 +1199,16 @@ Nombre=Control de Plaga Persistente
 Desc=En los últimos días hemos recibido informes sobre la presencia de ratas negras en los sótanos de varias Casas Patreon. Estos espacios amplios y poco transitados suelen convertirse en refugio ideal para plagas persistentes. No podemos permitir que una propiedad distinguida caiga en descuido. Desciende a tu sótano, elimina a las criaturas que encuentres y tráeme pruebas de que la situación ha sido controlada adecuadamente.
 DescFinal=Veo que has cumplido con tu tarea. La infestación ha sido reducida y, por el momento, tu propiedad vuelve a estar en condiciones apropiadas.
 Repetible=1
+DescAudio=1108
+DescFinalAudio=1109
 
 [QUEST175]
 Nombre=Especímenes Anómalos
 Desc=En raras ocasiones, entre las ratas del sótano aparece un ejemplar inusual, reconocible por la tonalidad pálida de su cola. No se trata de una plaga común, sino de una anomalía que muy pocos propietarios llegan a ver. Estos especímenes son escurridizos y su aparición es impredecible. Si tienes la fortuna (y la habilidad) de encontrar uno, tráeme su cola como prueba. La recompensa estará a la altura del esfuerzo.
 DescFinal=Debo admitir que no muchos logran traerme una prueba como esta. Has demostrado paciencia y determinación, cualidades poco frecuentes incluso entre propietarios distinguidos. No es habitual que estos ejemplares se dejen ver, así que considera este logro como algo excepcional. Si la anomalía vuelve a manifestarse en el futuro, confío en que sabrás reconocerla nuevamente.
 Repetible=1
+DescAudio=1110
+DescFinalAudio=1112
 
 [QUEST176]
 Nombre=Sangre de Lynn
@@ -1196,6 +1315,8 @@ DescFinal=¡Gran trabajo, aquí tienes tu recompensa!
 Repetible=1
 RequiredLevel=1
 PosMap=168
+DescAudio=1232
+DescFinalAudio=1233
 
 [QUEST191]
 Nombre=Veneno mortal
@@ -1218,6 +1339,8 @@ DescFinal=¡Vaya, lo has logrado! Esos lobos aprenderán a no meterse en nuestro
 Repetible=0
 RequiredLevel=2
 PosMap=264
+DescAudio=1234
+DescFinalAudio=1235
 
 [QUEST194]
 Nombre=Wolfang
@@ -1232,6 +1355,8 @@ Desc=En los exteriores de Arkhein conviven unas criaturas acuaticas muy peligros
 DescFinal=¡Estaré eternamente agradecido contigo!
 Repetible=0
 RequiredLevel=28
+DescAudio=1289
+DescFinalAudio=1290
 
 [QUEST196]
 Nombre=Dragones Pequeños
@@ -1254,6 +1379,8 @@ Desc=Si lográs conseguir para mi una buena cantidad de Tablones, puedo crear es
 DescFinal=¡A navegar!
 Repetible=1
 RequiredLevel=25
+DescAudio=1161
+DescFinalAudio=1162
 
 [QUEST200]
 Nombre=Mas que Salvajes
@@ -1294,6 +1421,8 @@ DescFinal=¡Has vuelto! Muchos quedaron en el camino sin poder ayudarme. Agradez
 Repetible=0
 RequiredLevel=29
 PosMap=123
+DescAudio=1171
+DescFinalAudio=1172
 
 [QUEST206]
 Nombre=Sangre por Sangre
@@ -1385,6 +1514,8 @@ DescFinal=El sudor paga con una buena recompensa, toma esto.
 Repetible=0
 RequiredLevel=13
 PosMap=34
+DescAudio=1155
+DescFinalAudio=1156
 
 [QUEST219]
 Nombre=Introducción a la Carpinteria
@@ -1393,6 +1524,8 @@ DescFinal=El pueblo agradecerá tu cooperación, le enviaré estos recursos al c
 Repetible=0
 RequiredLevel=14
 PosMap=78
+DescAudio=1228
+DescFinalAudio=1229
 
 [QUEST220]
 Nombre=Escudo de Fortaleza Legionaria
@@ -1458,6 +1591,8 @@ Desc=Esa piel que me trajiste... magnífica. Pero no basta para crear lo que ten
 DescFinal=Así que lo lograste... derrotaste a Bruin. Puedo sentir su fuerza, incluso a través de su piel. Es como sostener la furia del invierno contenido en una sola pieza. Con esto, y con la piel plateada que me diste antes, el arnés estará completo. Pero lo que has ganado va más allá de una Montura: has conquistado el respeto de la propia naturaleza.
 Repetible=0
 RequiredLevel=1
+DescAudio=1157
+DescFinalAudio=1158
 
 [QUEST231]
 Nombre=La Aguja y la Garra
@@ -1465,6 +1600,8 @@ Desc=Escucha bien, viajero. Busco una piel excepcional, una que no todos los ojo
 DescFinal=¿Realmente lo has logrado? Esa textura, ese brillo… inconfundible.
 Repetible=0
 RequiredLevel=1
+DescAudio=1159
+DescFinalAudio=1160
 
 [QUEST232]
 Nombre=Sangre de Lynn
@@ -1589,6 +1726,8 @@ DescFinal=Gracias, igual podrías haber sido un poco más generoso.
 Repetible=0
 RequiredLevel=1
 PosMap=34
+DescAudio=1109
+DescFinalAudio=1110
 
 [QUEST248]
 Nombre=Pociones de Veneno
@@ -1792,6 +1931,8 @@ DescFinal=Desde ahora, tus hojas beberán veneno con cada golpe. Este es el Filo
 Repetible=0
 RequiredLevel=25
 PosMap=560
+DescAudio=1283
+DescFinalAudio=1284
 
 [QUEST276]
 Nombre=Recuperar el Pendiente
@@ -1853,6 +1994,8 @@ DescFinal=Entonces... mis temores eran ciertos. Estas antenas no pertenecen a ho
 Repetible=1
 RequiredLevel=13
 PosMap=1
+DescAudio=1113
+DescFinalAudio=1114
 
 [QUEST286]
 Nombre=La Custodia de los Frogians
@@ -1869,6 +2012,8 @@ DescFinal=Ah... ¡Perfecto! Estos cuernos aún conservan la energía primal del 
 Repetible=0
 RequiredLevel=4
 PosMap=157
+DescAudio=1285
+DescFinalAudio=1286
 
 [QUEST288]
 Nombre=Ecos del Bosque Profano
@@ -1877,6 +2022,8 @@ DescFinal=Por los dioses... cincuenta Semillas Prósperas. No recordaba la últi
 Repetible=0
 RequiredLevel=8
 PosMap=319
+DescAudio=1295
+DescFinalAudio=1296
 
 [QUEST289]
 Nombre=Lección Verde
@@ -1999,12 +2146,16 @@ Nombre=Cenizas del Primer Fuego
 Desc=Escucha bien, forastero, porque esto no lo cuento dos veces. El Fénix no siempre deja lo mismo al morir. La mayoría de las veces, solo cenizas y una pluma arrancada por el combate. Pero en contadas ocasiones, muy contadas, su fuego se condensa en algo más. Un Huevo. He visto cientos de renacimientos desde esta fragua, y te juro por la lava de Morgrim que apenas uno de cada cien deja un huevo completo. Si el destino te sonríe y el Fénix lo suelta al caer, considérate elegido. Pero no todos confían su futuro a la suerte. Cada pluma que arranques del Fénix guarda un fragmento de su renacer. Una no basta. Dos tampoco. Diez plumas... de diez muertes distintas... juntas laten como un corazón de fuego. Tráeme diez plumas, y yo haré lo que el azar no quiso: forjaré un Huevo de Fénix con mis propias manos.
 DescFinal=Diez plumas, aún arden. No todas vienen del mismo renacer. Eso es bueno. El fuego necesita conflicto para despertar. Mira cómo tiemblan, el Huevo ya reclama forma. Tómalo. Recuerda esto, Portador del Fuego: el Fénix siempre renace... y ahora, su fuego camina contigo.
 Repetible=1
+DescAudio=1173
+DescFinalAudio=1174
 
 [QUEST315]
 Nombre=Las Alas del Fuego Eterno
 Desc=Creí que el fuego se calmaría después del Huevo... Pero no. El Fénix te ha reconocido. Cada vez que cae y vuelve a alzarse, sus alas se fortalecen. No son simples extremidades... son el símbolo de su renacer. Arrancar una pluma es desafiar su voluntad. Arrancar veinte… es caminar sobre su sombra. Escúchame bien: una o diez plumas contienen poder, sí... pero veinte plumas guardan memoria. La memoria de cada vuelo, de cada caída, de cada vez que el Fénix eligió volver a vivir. Con veinte plumas puedo forjar algo que ningún enano ha vuelto a intentar. No alas verdaderas... sino un eco de las suyas. Alas que no te elevarán al cielo, pero anunciarán a todos que has sobrevivido al fuego una y otra vez. Tráeme veinte plumas de Fénix. Y deja que el mundo sepa que el fuego no te consumió.
 DescFinal=Veinte plumas... Cada una quemó mis dedos al tocarlas. Buen augurio. Mira cómo el fuego obedece... las alas recuerdan cómo arder. Tómalas. No te darán vuelo, pero sí presencia. Donde camines, sabrán que desafiaste al Fénix veinte veces... y sigues en pie.
 Repetible=1
+DescAudio=1175
+DescFinalAudio=1176
 
 [QUEST316]
 Nombre=Plumas por Montura
@@ -2018,6 +2169,8 @@ DescFinal=Lo que hiciste no fue solo cazar bestias… fue frenar una tragedia. L
 Repetible=1
 RequiredLevel=16
 PosMap=418
+DescAudio=1256
+DescFinalAudio=1257
 
 [QUEST318]
 Nombre=El Clan de las Arenas
@@ -2026,6 +2179,8 @@ DescFinal=Buen trabajo. El clan ha sentido el golpe. No ha sido destruido, pero 
 Repetible=1
 RequiredLevel=14
 PosMap=16
+DescAudio=1208
+DescFinalAudio=1209
 
 [QUEST319]
 Nombre=Energía contaminada
@@ -2034,6 +2189,8 @@ DescFinal=Lo que observaste coincide con mis sospechas. Los Miastrix no se mueve
 Repetible=1
 RequiredLevel=13
 PosMap=1
+DescAudio=1117
+DescFinalAudio=1118
 
 [QUEST320]
 Nombre=Resonancia anómala
@@ -2042,6 +2199,8 @@ DescFinal=No todos tendrían la prudencia suficiente para hacerlo. Quizás eso t
 Repetible=1
 RequiredLevel=13
 PosMap=34
+DescAudio=1119
+DescFinalAudio=1120
 
 [QUEST321]
 Nombre=El despertar de la Pirámide
@@ -2050,6 +2209,8 @@ DescFinal=Buen trabajo. La pirámide vuelve a estar en silencio... por ahora. El
 Repetible=1
 RequiredLevel=18
 PosMap=17
+DescAudio=1121
+DescFinalAudio=1122
 
 [QUEST322]
 Nombre=Purgando el Bosque de los caídos
@@ -2058,6 +2219,8 @@ DescFinal=Lo que hiciste hoy le dio un respiro a la ciudad. Las patrullas report
 Repetible=1
 RequiredLevel=13
 PosMap=58
+DescAudio=1123
+DescFinalAudio=1124
 
 [QUEST323]
 Nombre=El Llamado de las Bestias
@@ -2066,6 +2229,8 @@ DescFinal=La piedra guarda la furia del huargo y la resistencia del oso. No se s
 Repetible=0
 RequiredLevel=13
 PosMap=55
+DescAudio=1125
+DescFinalAudio=1126
 
 [QUEST324]
 Nombre=El Sello de la Furia Ancestral
@@ -2074,6 +2239,8 @@ DescFinal=Así que la isla te permitió volver... Esta runa fue grabada cuando e
 Repetible=0
 RequiredLevel=25
 PosMap=236
+DescAudio=1127
+DescFinalAudio=1282
 
 [QUEST325]
 Nombre=Gemas del Fuego Antiguo
@@ -2082,6 +2249,8 @@ DescFinal=¡Bien hecho! No cualquiera vuelve con vida del Dungeon Dragón, y men
 Repetible=1
 RequiredLevel=31
 PosMap=78
+DescAudio=1210
+DescFinalAudio=1211
 
 [QUEST326]
 Nombre=Un pedido Especial
@@ -2090,6 +2259,8 @@ DescFinal=¡Haz salvado mi cuello! Estare eternamente agradecido. Si gustas cons
 RequiredLevel=1
 Repetible=1
 PosMap=34
+DescAudio=1128
+DescFinalAudio=1129
 
 [QUEST327]
 Nombre=El viejo Jacobo
@@ -2098,6 +2269,8 @@ DescFinal=¡Eso le enseñara a esos malditos goblins a no meterse con el gremio 
 Repetible=1
 RequiredLevel=14
 PosMap=34
+DescAudio=1163
+DescFinalAudio=1164
 
 [QUEST328]
 Nombre=Mensaje Misterioso
@@ -2106,6 +2279,8 @@ DescFinal=¡Si vuelves a pescar una botella, no dudes en volver!
 Repetible=1
 RequiredLevel=14
 PosMap=254
+DescAudio=1222
+DescFinalAudio=1224
 
 [QUEST329]
 Nombre=Más allá del Anzuelo
@@ -2119,21 +2294,25 @@ PosMap=61
 Nombre=Intercambio de Copas de Bronce
 Desc=¡Puedes intercambiar tus Copas de Bronce por algo mejor! Si dispones de 5 Copas, puedo cambiartelas por una Copa de Plata.
 Repetible=1
+DescAudio=1074
 
 [QUEST331]
 Nombre=Intercambio de Copas de Plata
 Desc=¡Puedes intercambiar tus Copas de Plata por algo mejor! Si dispones de 5 Copas, puedo cambiartelas por una Copa de Oro.
 Repetible=1
+DescAudio=1075
 
 [QUEST332]
 Nombre=Intercambio de Copas de Oro
 Desc=¡Puedes intercambiar tus Copas de Oro por algo mejor! Si dispones de 5 Copas, puedo cambiartelas por una Túnica Pretoriana.
 Repetible=1
+DescAudio=1076
 
 [QUEST333]
 Nombre=Intercambio de Copas de Oro
 Desc=¡Puedes intercambiar tus Copas de Oro por algo mejor! Si dispones de 5 Copas, puedo cambiartelas por una Túnica Pretoriana.
 Repetible=1
+DescAudio=1077
 
 [QUEST334]
 Nombre=Sedas Elementales
@@ -2141,6 +2320,8 @@ Desc=He dedicado gran parte de mi vida a estudiar antiguas técnicas arcanas cap
 DescFinal=Veo que has regresado... y no con las manos vacías. Déjame ver esas sedas... Increíble. La energía elemental que contienen es incluso más pura de lo que esperaba. Con una cantidad como esta finalmente podré comenzar mi trabajo en el telar. Entretejer las esencias del agua, fuego, viento y tierra no es tarea sencilla, pero si las antiguas leyendas dicen la verdad, este será el primer paso para crear un material digno de las criaturas más mágicas que han existido. Has hecho un gran trabajo, aventurero. Toma esto: es un Hilo Liviano de Amida. Es solo el comienzo de algo mucho más grande… y quizás, si las historias no mienten, también el primer paso hacia el misterio del Unicornio."
 Repetible=1
 PosMap=1
+DescAudio=1046
+DescFinalAudio=1047
 
 [QUEST335]
 Nombre=El Telar Arcano
@@ -2148,6 +2329,8 @@ Desc=Arkhavel ha dado el primer paso al crear el Hilo Liviano de Amida, pero aho
 DescFinal=Esto es... extraordinario. Jamás pensé ver tantos Hilos Livianos de Amida reunidos en un solo lugar. Tejer este material no ha sido una tarea sencilla, pero el resultado habla por sí mismo. La energía elemental fluye a través de cada fibra del tejido. Este es el Lienzo de Unicornio. Según las antiguas leyendas, telas como esta eran utilizadas en rituales para atraer y vincular criaturas de pureza mágica. Si los viejos relatos son ciertos... este lienzo podría ser la clave para encontrarte con uno de ellos.
 Repetible=1
 PosMap=151
+DescAudio=1078
+DescFinalAudio=1079
 
 [QUEST336]
 Nombre=Vínculo del Unicornio
@@ -2155,18 +2338,24 @@ Desc=El Lienzo de Unicornio que llevas es único, tejido con energías elemental
 DescFinal=Cuídalo bien, aventurero, pues solo quienes honran la magia del mundo pueden mantener su confianza.
 Repetible=1
 PosMap=517
+DescAudio=1080
+DescFinalAudio=1081
 
 [QUEST337]
 Nombre=Camello
 Desc=AA
 DescFinal=AA
 Repetible=1
+DescAudio=1082
+DescFinalAudio=1083
 
 [QUEST338]
 Nombre=Camello
 Desc=AA
 DescFinal=AA
 Repetible=1
+DescAudio=1084
+DescFinalAudio=1085
 
 [QUEST339]
 Nombre=La Llama del Heroísmo
@@ -2174,6 +2363,8 @@ Desc=Dentro del templo de los Paladines existe un antiguo ritual reservado solo 
 DescFinal=El ritual está completo. Tu voluntad será la chispa.
 Repetible=0
 RequiredLevel=25
+DescAudio=1086
+DescFinalAudio=1087
 
 [QUEST340]
 Nombre=La disputa de las Islas
@@ -2204,6 +2395,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1130
+DescFinalAudio=1131
 
 [QUEST344]
 Nombre=Quest solo armada
@@ -2211,6 +2404,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1132
+DescFinalAudio=1133
 
 [QUEST345]
 Nombre=Quest solo ciuda y armada
@@ -2218,6 +2413,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1134
+DescFinalAudio=1135
 
 [QUEST346]
 Nombre=Quest solo consejo real
@@ -2225,6 +2422,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1136
+DescFinalAudio=1137
 
 [QUEST347]
 Nombre=Quest armada y consejo
@@ -2232,6 +2431,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1138
+DescFinalAudio=1139
 
 [QUEST348]
 Nombre=Quest ciuda armada y consejo
@@ -2239,6 +2440,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1140
+DescFinalAudio=1141
 
 [QUEST349]
 Nombre=Quest solo criminal
@@ -2246,6 +2449,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1142
+DescFinalAudio=1143
 
 [QUEST350]
 Nombre=Quest solo legion
@@ -2253,6 +2458,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1144
+DescFinalAudio=1145
 
 [QUEST351]
 Nombre=Quest solo criminal y legion
@@ -2260,6 +2467,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1146
+DescFinalAudio=1147
 
 [QUEST352]
 Nombre=Quest Solo Concilio
@@ -2267,6 +2476,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1148
+DescFinalAudio=1149
 
 [QUEST353]
 Nombre=Quest Solo Legion, Criminal y concilio
@@ -2274,6 +2485,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1150
+DescFinalAudio=1151
 
 [QUEST354]
 Nombre=Limpieza del Drenaje (LVL1-19)
@@ -2377,6 +2590,8 @@ Desc=Atención, los vigías nos han advertido de que se avecina una horda de est
 DescFinal=Muy bien lo haz logrado, hemos frenado la avanzadilla, la próxima vez se lo pensaran dos veces!
 Repetible=1
 RequiredLevel=25
+DescAudio=1138
+DescFinalAudio=1139
 
 [QUEST371]
 Nombre=Debemos contraatacar!
@@ -2384,6 +2599,8 @@ Desc=Es momento de demostrarles de que estamos hechos, ve al frente y mata tanta
 DescFinal=Bien, haz acabado con las alimañas, te lo agradezco!
 Repetible=1
 RequiredLevel=25
+DescAudio=1138
+DescFinalAudio=1139
 
 [QUEST372]
 Nombre=Mantener el frente!
@@ -2391,6 +2608,8 @@ Desc=Atención, los vigías nos han advertido de que se avecina una horda de est
 DescFinal=Muy bien lo haz logrado, hemos frenado la avanzadilla, la próxima vez se lo pensaran dos veces!
 Repetible=1
 RequiredLevel=25
+DescAudio=1138
+DescFinalAudio=1139
 
 [QUEST373]
 Nombre=Debemos contraatacar!
@@ -2398,6 +2617,8 @@ Desc=Es momento de demostrarles de que estamos hechos, ve al frente y mata tanta
 DescFinal=Bien, haz acabado con las alimañas, te lo agradezco!
 Repetible=1
 RequiredLevel=25
+DescAudio=1138
+DescFinalAudio=1139
 
 [QUEST380]
 Nombre=La Ofrenda de Dolgrin
@@ -2454,6 +2675,8 @@ Desc=Si has llegado hasta aquí, supongo que no le temes al Inframundo. Pero hay
 DescFinal=Has demostrado paciencia, precisión y el temple necesario para sobrevivir en el Inframundo. Aquí tienes la recompensa que te prometí
 Repetible=1
 RequiredLevel=36
+DescAudio=1594
+DescFinalAudio=1595
 
 [QUEST391]
 Nombre=La Plaga de las Esporas
@@ -2462,6 +2685,8 @@ DescFinal=Las esporas siguen flotando en el aire, pero ya no lo hacen con la mis
 Repetible=1
 RequiredLevel=25
 PosMap=289
+DescAudio=1521
+DescFinalAudio=1522
 
 [QUEST392]
 Nombre=La Furia de las Profundidades
@@ -2469,6 +2694,8 @@ Desc=Las aguas que rodean la Ciudad Abandonada ya no son seguras. En sus profund
 DescFinal=Las profundidades han sido conquistadas. Zeraphon y Kaelthor yacen derrotados, y con ellos cae el mito de su invencibilidad. Los marineros de tu facción ya cuentan la hazaña en los puertos, y tu nombre se suma a la lista de quienes se atrevieron a desafiar al mar y volvieron con vida. Como reconocimiento a tu valentía, recibes una Poción de Honor Faccionario.
 Repetible=1
 RequiredLevel=27
+DescAudio=1483
+DescFinalAudio=1484
 
 [QUEST406]
 Nombre=Los Cuatro Nidos
@@ -2476,6 +2703,8 @@ Desc=No cualquiera llega hasta este lugar. La llave que abre las Catacumbas Infe
 DescFinal=Las cuatro colonias han sufrido un duro golpe y la actividad en el segundo nivel de las catacumbas se ha reducido de forma notable. El aire vuelve a sentirse inmóvil, la tierra ha dejado de estremecerse, las llamas se extinguen con mayor facilidad y las galerías inundadas recuperaron una calma que hacía mucho tiempo no conocían. Las fuerzas elementales siguen presentes en las profundidades y, tarde o temprano, nuevas criaturas ocuparán los nidos vacíos. Sin embargo, por ahora, el equilibrio ha sido restaurado y quienes se aventuren a cruzar estas ruinas tendrán una oportunidad mucho mayor de regresar con vida. Has demostrado ser digno de superar uno de los desafíos más peligrosos de las Catacumbas. Toma tu recompensa.
 Repetible=1
 RequiredLevel=13
+DescAudio=1466
+DescFinalAudio=1467
 
 [QUEST407]
 Nombre=Una nueva aventura
@@ -2483,6 +2712,8 @@ Desc=¡Bienvenido, Aventurero! Pareces fuerte. Quizás puedas ayudarnos a que es
 DescFinal=¡Gracias! ¡Gracias, Aventurero! Has hecho un gran trabajo. Las criaturas que rondaban al norte de Forgat ya no representan una amenaza para quienes se aventuran fuera de la ciudad. Puede parecer poco, pero cada pequeño esfuerzo cuenta. Con tu ayuda y la de otros aventureros, podremos comenzar a limpiar los alrededores y reconstruir nuestro pueblo poco a poco. No tenemos mucho para ofrecerte, pero cumplimos nuestra palabra. Recuerda que en Forgat siempre tendrá trabajo para aquellos dispuestos a ayudar.
 Repetible=0
 RequiredLevel=1
+DescAudio=1469
+DescFinalAudio=1470
 
 [QUEST408]
 Nombre=Tierra de depredadores
@@ -2490,6 +2721,8 @@ Desc=Hola nuevamente, Aventurero. Tengo un mensaje de emergencia proveniente de 
 DescFinal=Has hecho bien, Aventurero. La manada ha perdido a su líder y, con él, la furia que parecía haberse apoderado de las bestias comienza a desaparecer. Los avestruces han vuelto a alejarse de las casas y los cuervos ya no atacan a quienes se acercan al bosque. Por ahora, las familias del sur pueden respirar tranquilas. Sin embargo, algo no termina de encajar. Los animales no suelen comportarse de esta manera sin motivo. Tal vez el alfa simplemente estaba defendiendo su territorio... o tal vez algo más lo estaba empujando a actuar así. Sea como sea, has cumplido con tu tarea. Acepta tu recompensa y mantente alerta. El bosque vuelve a estar tranquilo, pero no sabemos cuánto durará.
 Repetible=0
 RequiredLevel=3
+DescAudio=1471
+DescFinalAudio=1472
 
 [QUEST409]
 Nombre=Fuera de la ley
@@ -2497,6 +2730,8 @@ Desc=Al norte de Forgat, los caminos han comenzado a volverse peligrosos. Viajer
 DescFinal=Los mercenarios han sufrido un duro golpe y los lobos que acechaban a viajeros y comerciantes ya no representan la misma amenaza. Por ahora, quienes deban cruzar el norte de Forgat podrán hacerlo sin temer una emboscada a cada paso. Mercenarios tan bien equipados no aparecen en una región por casualidad. Alguien los contrató, y mientras no sepamos quién fue ni qué buscaban realmente, no podemos dar por terminado este asunto. Por ahora has cumplido con tu parte. Acepta tu recompensa.
 Repetible=0
 RequiredLevel=5
+DescAudio=1473
+DescFinalAudio=1474
 
 [QUEST410]
 Nombre=Retribución oscura
@@ -2504,6 +2739,8 @@ Desc=Tenemos un nuevo problema, Aventurero, y esta vez no se trata de simples be
 DescFinal=Has regresado con vida. Eso ya es más de lo que muchos pueden decir. Los asesinos han sido eliminados y los esqueletos que recorrían los caminos han vuelto a quedar donde pertenecen: bajo tierra. Pero hay algo que no podemos ignorar. Esos esqueletos no pertenecían a estas tierras. Alguien los trajo desde otra región y los levantó mediante nigromancia. Y si un grupo de nigromantes se está tomando tantas molestias para enviar muertos hasta Forgat, seguramente existe una razón. Acepta tu recompensa. Y recuerda, Aventurero... cuando los muertos comienzan a caminar, rara vez lo hacen sin que alguien los esté guiando.
 Repetible=0
 RequiredLevel=7
+DescAudio=1475
+DescFinalAudio=1476
 
 [QUEST411]
 Nombre=El Altar corrupto
@@ -2511,6 +2748,8 @@ Desc=Tenemos noticias preocupantes, Aventurero. Al norte de la ciudad existe un 
 DescFinal=Has conseguido limpiar el altar. Los muertos que caminaban entre las ruinas han vuelto a quedar en silencio, y las criaturas corrompidas que infestaban los alrededores ya no representan una amenaza. Pero temo que hayamos llegado demasiado tarde para salvar completamente este lugar. La energía divina que quedaba en el altar ha sido casi destruida. Lo poco que permanece apenas puede sentirse, como una llama a punto de extinguirse. Los nigromantes no se limitaron a levantar muertos. Están buscando lugares donde todavía exista algún rastro de poder y lo están corrompiendo para sus propios propósitos. Esto confirma nuestros peores temores. Lo ocurrido en el altar no fue un ataque aislado. Los nigromantes están avanzando y, si continúan así, Forgat podría no ser su verdadero objetivo... sino simplemente el comienzo. Acepta tu recompensa, Aventurero. Y si encuentras otro lugar sagrado en peligro, no esperes a que la última llama se apague.
 Repetible=0
 RequiredLevel=9
+DescAudio=1477
+DescFinalAudio=1478
 
 [QUEST412]
 Nombre=La guarida maldita
@@ -2518,6 +2757,8 @@ Desc=Finalmente hemos encontrado el origen de todo. Durante semanas, los nigroma
 DescFinal=Lo has conseguido. La guarida de los Scrammers ha sido destruida y sus fuerzas han sido derrotadas. Los muertos han dejado de levantarse y, por primera vez en mucho tiempo, la oscuridad que se extendía alrededor de Forgat parece haberse detenido. Los Scrammers que sobrevivieron han huido, abandonando las ruinas y dejando atrás los restos de sus rituales. Pero el Anciano... Su presencia era diferente. El poder que manejaba no se parecía al de los demás. Incluso después de todo lo ocurrido, resulta difícil creer que alguien como él pudiera haber obtenido semejante conocimiento por su cuenta. Los esqueletos, los asesinatos, el altar corrupto... todo formaba parte de algo. Y aunque hemos destruido su guarida, todavía quedan demasiadas preguntas sin respuesta. ¿De dónde aprendieron los Scrammers a manipular estas fuerzas? ¿Quién enseñó al Anciano? ¿Y cuántos otros lugares han sido corrompidos antes de que llegáramos? Por ahora, Forgat puede respirar tranquila. Has cumplido una misión que pocos habrían aceptado. Acepta tu recompensa, Aventurero. Pero no olvides lo que viste allí dentro. La oscuridad ha sido derrotada, no necesariamente destruida.
 Repetible=0
 RequiredLevel=11
+DescAudio=1479
+DescFinalAudio=1480
 
 [QUEST413]
 Nombre=El Legado de las Sombras
@@ -2525,6 +2766,8 @@ Desc=Al este de Penthar se encuentra una construcción que durante años permane
 DescFinal=La Guarida Abandonada ha quedado en silencio. Los Esbirros y Esbirras Demoníacos ya no recorren sus corredores, los Espectros han desaparecido de sus antiguas cámaras y las gárgolas que dominaban el segundo piso han sido derrotadas. Zevkar y Gorath no volverán a vigilar desde las alturas, y por primera vez en mucho tiempo las ruinas han dejado de servir como refugio para criaturas demoníacas. No sabemos qué ocurrió realmente dentro de esas paredes ni por qué tantas criaturas se reunieron allí, pero mientras permanezcan en silencio, Penthar estará a salvo de su amenaza. Has cumplido con tu parte. Toma tu recompensa.
 Repetible=1
 RequiredLevel=25
+DescAudio=1597
+DescFinalAudio=1598
 PosMap=461
 
 [QUEST414]
@@ -2533,6 +2776,8 @@ Desc=Al sur de Kamal, donde el desierto cede su lugar al mar, una pequeña isla 
 DescFinal=La actividad de los piratas ha disminuido de forma considerable. Las rutas cercanas a la isla vuelven a ser transitables y las embarcaciones mercantes pueden navegar con mucha menos preocupación. Aunque siempre surgirán nuevos forajidos dispuestos a ocupar el lugar de los caídos, esta banda ya no representa una amenaza para Kamal. Tu victoria ha permitido que el comercio vuelva a fluir entre el desierto y el mar, devolviendo la calma a quienes dependen de estas aguas para sobrevivir. Aquí tienes la recompensa prometida. Has demostrado que incluso los piratas más temidos pueden ser derrotados cuando alguien decide enfrentarlos.
 Repetible=1
 RequiredLevel=25
+DescAudio=1481
+DescFinalAudio=1482
 PosMap=17
 
 [QUEST415]
@@ -2541,6 +2786,8 @@ Desc=Si has llegado hasta aquí, ya has visto las ruinas que se esconden bajo la
 DescFinal=Las aguas vuelven a estar tranquilas. Los guerreros que custodiaban las profundidades han caído y aquellos que dirigían a los Hijos de las Mareas ya no podrán continuar extendiendo su dominio. Kadru, Lynn, Aksha y Varec han sido derrotados, pero sus cavernas todavía guardan secretos que quizás nunca lleguemos a comprender. Las ruinas que se encuentran bajo el arrecife son mucho más antiguas que cualquier asentamiento conocido y, si esta estirpe sobrevivió allí durante tanto tiempo, seguramente no fueron los primeros habitantes de aquellas profundidades. Por ahora, sin embargo, las aguas vuelven a pertenecer a quienes se atreven a navegarlas. Has regresado de un lugar del que pocos consiguen salir. Eso merece una recompensa.
 Repetible=1
 RequiredLevel=27
+DescAudio=1601
+DescFinalAudio=1602
 PosMap=478
 
 [QUEST416]
@@ -2550,6 +2797,8 @@ DescFinal=Excelente trabajo. Has reunido suficientes piezas de las mantis asesin
 Repetible=0
 RequiredLevel=15
 PosMap=1
+DescAudio=1464
+DescFinalAudio=1465
 
 [QUEST417]
 Nombre=El Último Mensaje
@@ -2557,6 +2806,8 @@ Desc=Encontraste una botella sellada flotando entre las olas. En su interior hay
 DescFinal=Ja... la vieja botella cumplió su propósito. ¿Qué? ¿No lo sabías? En otros tiempos, fui un osado capitán que navegó estos mares. Pero jamás creí que ese mensaje pudiera llegar a alguien alguna vez. Menos luego de tantas décadas. Los Leviatanes, Tiburones, Sirenas y Criptococos han sufrido grandes pérdidas, y las rutas marítimas vuelven a ser un poco más seguras para pescadores, comerciantes y viajeros. El peligro aún no ha desaparecido. Mientras existan las profundidades, siempre habrá monstruos aguardando bajo las olas. Pero hoy, gracias a ti, el continente puede respirar un poco más tranquilo. Quédate con esta recompensa.
 Repetible=1
 RequiredLevel=25
+DescAudio=1294
+DescFinalAudio=1442
 PosMap=254
 
 [QUEST418]
@@ -2566,6 +2817,8 @@ DescFinal=Has vuelto... y traes contigo lo que tanto necesitábamos. La Medusa, 
 Repetible=1
 RequiredLevel=33
 PosMap=171
+DescAudio=1038
+DescFinalAudio=1293
 
 [QUEST419]
 Nombre=El Fragmento de los Cuatro
@@ -2573,6 +2826,8 @@ Desc=Has encontrado un extraño fragmento entre los restos de una criatura derro
 DescFinal=El fragmento ha vuelto a tus manos después de la caída de los cuatro dominadores. Gaia ya no gobierna el Hormiguero, Laican ha perdido su dominio sobre la Cueva de la Desolación, Nocthral ha sido derrotado en las profundidades del Dungeon Dragon y Escarlath ya no reina en las oscuras galerías de Marabel. Al reunir las marcas de los cuatro jefes sobre el fragmento, los símbolos comenzaron a brillar y una antigua inscripción apareció en su superficie: "Cuando cuatro reinos caigan, el camino volverá a quedar abierto". No sabemos qué camino menciona la inscripción ni quién creó este extraño objeto. Tal vez los cuatro jefes fueron elegidos por una razón que todavía desconocemos. Lo que sí sabemos es que has derrotado a cuatro de las criaturas más poderosas que dominaban distintas regiones del continente. Por haber cumplido con tu misión, toma tu recompensa.
 Repetible=1
 RequiredLevel=13
+DescAudio=888
+DescFinalAudio=908
 PosMap=189
 
 [QUEST420]
@@ -2590,6 +2845,8 @@ DescFinal=El hielo guarda más secretos de los que la mayoría se atreve a busca
 Repetible=1
 RequiredLevel=29
 PosMap=354
+DescAudio=1021
+DescFinalAudio=1035
 
 [QUEST422]
 Nombre=El Corazón del Inframundo
@@ -2597,6 +2854,8 @@ Desc=El Inframundo ha vuelto a abrir sus puertas, aunque solo durante unas pocas
 DescFinal=Las criaturas de fuego han caído y, durante un instante, las llamas del Inframundo parecen haberse debilitado. Su esencia ardiente se ha disipado por las profundidades, como si algo mucho más antiguo estuviera perdiendo su fuerza. No sabemos dónde se encuentra el Corazón del Inframundo ni qué ocurrirá cuando vuelva a recuperar su poder. Pero has logrado alterar el equilibrio de las profundidades y sobrevivido a uno de los lugares más peligrosos del continente. Por haber cumplido con tu misión, toma tu recompensa.
 Repetible=1
 RequiredLevel=36
+DescAudio=1019
+DescFinalAudio=1020
 
 [QUEST423]
 Nombre=El Decreto de los Guardianes
@@ -2604,6 +2863,8 @@ Desc=Has encontrado un antiguo pergamino sellado con un emblema que ya nadie rec
 DescFinal=Los cuatro guardianes han caído y, por primera vez en siglos, sus dominios han quedado en silencio. Al observar el pergamino, puedo distinguir una pequeña inscripción oculta bajo el sello: "Cuatro han caído. El equilibrio puede comenzar a restablecerse". No sé quién escribió estas palabras ni por qué estos cuatro colosos fueron elegidos. Tal vez su derrota forme parte de algo mucho más antiguo de lo que imaginamos. Has cumplido con tu misión, toma tu recompensa.
 Repetible=1
 RequiredLevel=25
+DescAudio=918
+DescFinalAudio=1017
 
 [QUEST424]
 Nombre=Más Allá del Enredo
@@ -2612,6 +2873,8 @@ DescFinal=Lo has conseguido. Has aprendido a llevar el poder de Enredar mucho m�
 Repetible=0
 RequiredLevel=24
 PosMap=560
+DescAudio=852
+DescFinalAudio=853
 
 [QUEST425]
 Nombre=El Arte de la Invisibilidad
@@ -2619,6 +2882,8 @@ Desc=La invisibilidad es un arte compleja, que pocos dominan por completo. Ocult
 DescFinal=Has aprendido a controlar las fuerzas que te permiten desaparecer por completo de la vista. Tu antiguo dominio de la invisibilidad ha quedado atrás y ahora eres capaz de utilizar una versión mucho más poderosa del hechizo. Pocos conocen los secretos de esta técnica, y aún menos son capaces de dominarla. Toma este conocimiento y úsalo con sabiduría.
 Repetible=0
 PosMap=354
+DescAudio=793
+DescFinalAudio=794
 RequiredLevel=0
 
 [QUEST426]
@@ -2627,6 +2892,8 @@ Desc=La invisibilidad es un arte compleja, que pocos dominan por completo. Ocult
 DescFinal=Has aprendido a controlar las fuerzas que te permiten desaparecer por completo de la vista. Tu antiguo dominio de la invisibilidad ha quedado atrás y ahora eres capaz de utilizar una versión mucho más poderosa del hechizo. Pocos conocen los secretos de esta técnica, y aún menos son capaces de dominarla. Toma este conocimiento y úsalo con sabiduría.
 Repetible=0
 PosMap=354
+DescAudio=795
+DescFinalAudio=801
 RequiredLevel=0
 
 [QUEST427]
@@ -2635,6 +2902,8 @@ Desc=Cerca de Makrom encontrarás dos ratas preparadas para esta misión. Derró
 DescFinal=Muy bien. Ya aprendiste el ciclo completo de una misión: aceptar el encargo, seguirlo en el Diario, fijar el objetivo, completar la tarea y regresar por la recompensa. Este es solo el comienzo de tu aventura.
 Repetible=0
 RequiredLevel=1
+DescAudio=714
+DescFinalAudio=720
 
 [QUEST900]
 Nombre=Cenizas del Primer Fuego

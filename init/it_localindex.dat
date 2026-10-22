@@ -2278,6 +2278,8 @@ DescFinal=Oggi il cimitero è più silenzioso grazie alla tua forza. Prendi ques
 Repetible=1
 RequiredLevel=13
 PosMap=4
+DescAudio=1048
+DescFinalAudio=1049
 
 [QUEST2]
 Nombre=Primi passi in alchimia
@@ -2285,6 +2287,8 @@ Desc=Giovane lavoratore, ho bisogno che tu prenda questa ricetta che ti do la mi
 DescFinal=Buona fortuna!
 Repetible=0
 RequiredLevel=6
+DescAudio=1050
+DescFinalAudio=1051
 
 [QUEST4]
 Nombre=Veleno mortale
@@ -2293,6 +2297,8 @@ DescFinal=Buon lavoro, aspettami per un momento ...
 Repetible=0
 RequiredLevel=1
 PosMap=44
+DescAudio=1052
+DescFinalAudio=1053
 
 [QUEST5]
 Nombre=La tua prima caccia
@@ -2300,6 +2306,8 @@ Desc=Lupi selvaggi si aggirano per le nostre terre all'ombra di una luna malata.
 DescFinal=Avventuriero... Ce l'hai fatta! Quella zanna non è senza coraggio. Parlami ancora, ho un compito per te.
 Repetible=0
 RequiredLevel=15
+DescAudio=1054
+DescFinalAudio=1055
 
 [QUEST7]
 Nombre=Ricette per pozioni
@@ -2307,6 +2315,7 @@ Desc=Proveremo se questo funziona davvero, ho bisogno di una penna di corvo per 
 Repetible=0
 RequiredLevel=4
 PosMap=218
+DescAudio=1056
 
 [QUEST11]
 Nombre=Rabbia del nano
@@ -2315,6 +2324,8 @@ DescFinal=Eccellente! Allo stesso modo strano per la mia mucca, avere questa ric
 Repetible=0
 RequiredLevel=16
 PosMap=39
+DescAudio=1057
+DescFinalAudio=1058
 
 [QUEST13]
 Nombre=Eye for Eye, Dagger Dagger
@@ -2322,6 +2333,7 @@ Desc=Apparentemente alla Fratellanza dei criminali non piaceva il massacro che a
 Repetible=0
 RequiredLevel=17
 PosMap=1
+DescAudio=1059
 
 [QUEST14]
 Nombre=Troppi lupi!
@@ -2330,6 +2342,8 @@ DescFinal=I cittadini di Ullthorpe grazie!
 Repetible=0
 RequiredLevel=9
 PosMap=11
+DescAudio=1060
+DescFinalAudio=1061
 
 [QUEST15]
 Nombre=Forniture di combattimento
@@ -2338,6 +2352,8 @@ DescFinal=Avere la tua ricompensa!
 Repetible=0
 RequiredLevel=11
 PosMap=36
+DescAudio=1062
+DescFinalAudio=1063
 
 [QUEST16]
 Nombre=La grande truffa
@@ -2346,6 +2362,8 @@ DescFinal=Quanto saranno buone queste teste nella piazza della città. Grazie.
 Repetible=0
 RequiredLevel=13
 PosMap=270
+DescAudio=1064
+DescFinalAudio=1065
 
 [QUEST17]
 Nombre=Tra ombra e ferita
@@ -2354,6 +2372,8 @@ DescFinal=Sapevi come muoverti senza essere visto dove il nemico non poteva esse
 Repetible=0
 RequiredLevel=25
 PosMap=408
+DescAudio=1066
+DescFinalAudio=1067
 
 [QUEST18]
 Nombre=Fumigare tempo
@@ -2362,6 +2382,8 @@ DescFinal=Grazie per l'aiuto!
 Repetible=1
 RequiredLevel=15
 PosMap=38
+DescAudio=1068
+DescFinalAudio=1069
 
 [QUEST19]
 Nombre=Bassa temperatura
@@ -2370,6 +2392,8 @@ DescFinal=Ti ringrazio per l'aiuto, puoi aiutarmi di nuovo con questo compito og
 Repetible=0
 RequiredLevel=13
 PosMap=20
+DescAudio=1070
+DescFinalAudio=1071
 
 [QUEST20]
 Nombre=Grande mutazione
@@ -2378,6 +2402,8 @@ DescFinal=Non ci posso credere, eravamo disperati. Abbiamo pensato che sarebbe s
 Repetible=0
 RequiredLevel=14
 PosMap=174
+DescAudio=1072
+DescFinalAudio=1073
 
 [QUEST21]
 Nombre=Il tutore del mausoleo
@@ -2417,6 +2443,8 @@ Desc=MH, mi hanno raccontato di te, che sei bravo, coraggioso, abile e hai l'att
 DescFinal=Ecco il tuo premio
 Repetible=0
 RequiredLevel=26
+DescAudio=1287
+DescFinalAudio=1288
 
 [QUEST27]
 Nombre=Diversi tipi di stregoni
@@ -2432,6 +2460,8 @@ DescFinal=Ben fatto! Questo è vero legno. Guardate queste venature. Contorte, d
 Repetible=1
 RequiredLevel=25
 PosMap=408
+DescAudio=1291
+DescFinalAudio=1292
 
 [QUEST29]
 Nombre=Echi di Antiche Corna
@@ -2440,6 +2470,8 @@ DescFinal=Questi teschi pesano più di quanto sembrino. La foresta ne sentirà l
 Repetible=1
 RequiredLevel=25
 PosMap=65
+DescAudio=1230
+DescFinalAudio=1231
 
 [QUEST30]
 Nombre=Forgia di picchetti di Blodium
@@ -2471,6 +2503,8 @@ DescFinal=Ora posso finire la mia casa! Grazie mille
 Repetible=0
 RequiredLevel=15
 PosMap=271
+DescAudio=1090
+DescFinalAudio=1091
 
 [QUEST36]
 Nombre=Ingresso nord
@@ -2479,6 +2513,8 @@ DescFinal=Mi congratulo con te Guerrero, lavoro eccellente. Avere questo.
 Repetible=1
 RequiredLevel=5
 PosMap=5
+DescAudio=1238
+DescFinalAudio=1239
 
 [QUEST37]
 Nombre=Magia ancestrale
@@ -2487,6 +2523,8 @@ DescFinal=Ottimo compito! Infine, i nostri maghi possono esplorare quel potere n
 Repetible=1
 RequiredLevel=20
 PosMap=1
+DescAudio=1092
+DescFinalAudio=1093
 
 [QUEST38]
 Nombre=L'avventura inizia!
@@ -2494,6 +2532,8 @@ Desc=Hai già raggiunto il livello 13, congratulazioni! D'ora in poi inizia l'av
 DescFinal=Possa la fortuna accompagnarti! Nel manuale troverai tutte le risposte che stai cercando.
 Repetible=0
 RequiredLevel=13
+DescAudio=1167
+DescFinalAudio=1168
 
 [QUEST39]
 Nombre=Due tipi di lupi
@@ -2502,6 +2542,8 @@ DescFinal=Ben fatto!
 Repetible=0
 RequiredLevel=14
 PosMap=1
+DescAudio=1094
+DescFinalAudio=1095
 
 [QUEST40]
 Nombre=Sulla strada per il Ullathorpe
@@ -2510,6 +2552,8 @@ DescFinal=Avere questo, te lo meriti.
 Repetible=0
 RequiredLevel=7
 PosMap=508
+DescAudio=1248
+DescFinalAudio=1249
 
 [QUEST41]
 Nombre=Zanne di Fuoco
@@ -2549,6 +2593,8 @@ DescFinal=Ben fatto. L'avanzata si è fermata... per ora. Finché li terremo lon
 Repetible=1
 RequiredLevel=18
 PosMap=75
+DescAudio=1184
+DescFinalAudio=1185
 
 [QUEST46]
 Nombre=Ferro marchiato dal fuoco
@@ -2557,6 +2603,8 @@ DescFinal=Lo sapevo... il ferro si è raffreddato di nuovo. Hai reciso il legame
 Repetible=1
 RequiredLevel=20
 PosMap=22
+DescAudio=1186
+DescFinalAudio=1187
 
 [QUEST47]
 Nombre=La Purga di Marabel
@@ -2565,6 +2613,8 @@ DescFinal=Ottimo lavoro. Il sangue versato oggi terrà Marabel sotto controllo, 
 Repetible=1
 RequiredLevel=20
 PosMap=70
+DescAudio=1188
+DescFinalAudio=1189
 
 [QUEST48]
 Nombre=Il peccato del capitano
@@ -2580,6 +2630,8 @@ Desc=Gli storici hanno sempre dato che in Veril potevano notare la presenza di u
 DescFinal=Dieci, hai appena dato un grande contributo alla scienza!
 Repetible=1
 RequiredLevel=33
+DescAudio=1268
+DescFinalAudio=1269
 
 [QUEST50]
 Nombre=Il leggendario
@@ -2600,6 +2652,8 @@ Desc=Approccio, nobile guerriero, ti racconterò una storia .. A nord della fort
 DescFinal=Questo è unico, non perderlo.
 Repetible=0
 RequiredLevel=36
+DescAudio=1280
+DescFinalAudio=1281
 
 [QUEST53]
 Nombre=Conosci il piano nemico
@@ -2621,6 +2675,8 @@ Desc=A ovest c'è un'isola abbandonata da Dio. Da esso accedi alle rovine di Ear
 DescFinal=Grazie ragazzo, la tua lealtà verso l'Impero non ha prezzo!
 Repetible=1
 RequiredLevel=33
+DescAudio=1096
+DescFinalAudio=1097
 
 [QUEST56]
 Nombre=Nuovi boss del Minotauro
@@ -2629,6 +2685,8 @@ DescFinal=Prendi queste monete d'oro come ricompensa per il tuo coraggio!
 Repetible=1
 RequiredLevel=18
 PosMap=369
+DescAudio=1236
+DescFinalAudio=1237
 
 [QUEST57]
 Nombre=Pyramid III
@@ -2643,6 +2701,8 @@ Desc=Ascolta attentamente, nobile guerriero: c'è un'antica voce che i ragni lan
 DescFinal=Sei riuscito! Con questa chiave puoi accedere al livello successivo all'interno di queste catacombe. Ti auguro il miglior successo nella tua avventura all'interno di Argentum online, ricorda di essere sempre una brava persona!
 Repetible=0
 RequiredLevel=15
+DescAudio=1098
+DescFinalAudio=1099
 
 [QUEST59]
 Nombre=Garantire il passo
@@ -2664,6 +2724,8 @@ Desc=Se ti allontani dalle strade del re puoi trovare diversi tipi di grotte con
 DescFinal=Avere queste monete, grazie per la tua Valentia.
 Repetible=0
 RequiredLevel=13
+DescAudio=1100
+DescFinalAudio=1101
 
 [QUEST62]
 Nombre=Esplorare la palude
@@ -2671,6 +2733,8 @@ Desc=A nord si trova la palude, una delle aree più pericolose intorno alla nost
 DescFinal=Ottimo lavoro! Aspettare! Non andartene, c'è ancora lavoro da fare ..
 Repetible=0
 RequiredLevel=18
+DescAudio=1258
+DescFinalAudio=1259
 
 [QUEST63]
 Nombre=Peste di creature
@@ -2679,6 +2743,8 @@ DescFinal=Ricorderò il tuo nome per sempre!
 Repetible=1
 RequiredLevel=13
 PosMap=82
+DescAudio=1102
+DescFinalAudio=1103
 
 [QUEST64]
 Nombre=Silvicoltura
@@ -2687,6 +2753,8 @@ DescFinal=Questo mi viene in mente nel lusso. Dieci, ciò che è stato promesso.
 Repetible=0
 RequiredLevel=20
 PosMap=194
+DescAudio=1244
+DescFinalAudio=1245
 
 [QUEST65]
 Nombre=Forza bruta
@@ -2695,6 +2763,8 @@ DescFinal=Buon lavoro, questo sarà di grande aiuto per la tua formazione.
 Repetible=0
 RequiredLevel=18
 PosMap=25
+DescAudio=1246
+DescFinalAudio=1247
 
 [QUEST66]
 Nombre=Scudo legionario
@@ -2702,6 +2772,7 @@ Desc=Legionario, ho osservato i tuoi sforzi in nome della Legione Oscura. Non tu
 Repetible=1
 RequiredLevel=23
 PosMap=295
+DescAudio=1104
 
 [QUEST68]
 Nombre=Scudo Reale
@@ -2742,6 +2813,8 @@ Desc=Quei dannati troll oscuri pagheranno tutta la paura che hanno infuso nella 
 DescFinal=Ottimo lavoro! Avere questo, sarai sempre il benvenuto qui.
 Repetible=0
 RequiredLevel=19
+DescAudio=1260
+DescFinalAudio=1261
 
 [QUEST75]
 Nombre=Cassa di armi leggendarie
@@ -2782,6 +2855,8 @@ Desc=Ti stavo aspettando, discepolo. Ciò che molti considerano semplici creatur
 DescFinal=L'essenza risponde alla tua chiamata... e riprende forma. Non tutti capiscono cosa hai appena fatto... ma io sì. Non dimenticare: anche la Luce... può frantumarsi di nuovo.
 Repetible=0
 RequiredLevel=29
+DescAudio=1182
+DescFinalAudio=1183
 
 [QUEST81]
 Nombre=Scudo della legione scura
@@ -2811,6 +2886,8 @@ Desc=C'era un orso, un orso, un orso! Era nero, era enorme, coperto di capelli o
 DescFinal=Quanto era dolce, pura e bella.
 Repetible=0
 RequiredLevel=15
+DescAudio=1179
+DescFinalAudio=1180
 
 [QUEST91]
 Nombre=Pecadada della Royal Navy
@@ -2865,6 +2942,8 @@ Desc=Sei riuscito a eliminare i primi difensori, ma dobbiamo entrare nella profo
 DescFinal=L'hai visto?
 Repetible=0
 RequiredLevel=17
+DescAudio=1270
+DescFinalAudio=1271
 
 [QUEST104]
 Nombre=Il ritiro dei tutori
@@ -2872,6 +2951,8 @@ Desc=Parte della leggenda disse che la tana della bestia era protetta dai suoi t
 DescFinal=È vero! Devi allenarti molto bene per affrontare il potente Har Nareth
 Repetible=0
 RequiredLevel=18
+DescAudio=1272
+DescFinalAudio=1273
 
 [QUEST105]
 Nombre=Scudo legionario
@@ -2892,6 +2973,8 @@ Desc=La leggenda risulta che all'interno dello scarico c'è un'immensa bestia, c
 DescFinal=Ottimo lavoro, ma dobbiamo continuare .. Ripristina la tua attrezzatura e parlami di nuovo!
 Repetible=0
 RequiredLevel=16
+DescAudio=1274
+DescFinalAudio=1275
 
 [QUEST110]
 Nombre=Primo atterraggio
@@ -2941,6 +3024,8 @@ DescFinal=Questo è per te, grazie per il tuo lavoro!
 Repetible=0
 RequiredLevel=9
 PosMap=501
+DescAudio=1250
+DescFinalAudio=1251
 
 [QUEST117]
 Nombre=Banditi
@@ -2957,6 +3042,8 @@ DescFinal=Con queste pozioni puoi continuare ad allenarti!
 Repetible=0
 RequiredLevel=9
 PosMap=185
+DescAudio=1252
+DescFinalAudio=1253
 
 [QUEST119]
 Nombre=Orchi affamati
@@ -2965,6 +3052,8 @@ DescFinal=Saremo eternamente grati!
 Repetible=1
 RequiredLevel=5
 PosMap=188
+DescAudio=1177
+DescFinalAudio=1178
 
 [QUEST120]
 Nombre=Daggers da trayoner
@@ -3068,6 +3157,8 @@ DescFinal=Puoi sentirti più vicino al miglioramento, come un vero viaggiatore p
 Repetible=1
 RequiredLevel=29
 PosMap=354
+DescAudio=1240
+DescFinalAudio=1241
 
 [QUEST139]
 Nombre=Forza invernale
@@ -3076,6 +3167,8 @@ DescFinal=Sei stato molto coraggioso, con questo puoi resistere a molto tempo qu
 Repetible=1
 RequiredLevel=25
 PosMap=354
+DescAudio=1242
+DescFinalAudio=1243
 
 [QUEST140]
 Nombre=Abilità oculare
@@ -3100,6 +3193,8 @@ DescFinal=Congratulazioni! Con questo incantesimo puoi guarire alle ferite più 
 Repetible=0
 RequiredLevel=26
 PosMap=214
+DescAudio=1204
+DescFinalAudio=1205
 
 [QUEST143]
 Nombre=Carrello per principianti (pescatore).
@@ -3156,6 +3251,8 @@ Desc=Il vecchio carrello, vedo che è stato molto utile anche se non sopporterà
 DescFinal=Prendi, puoi caricare tutti i chili di legna da ardere che desideri, anche se devo informarti che non ho più gli strumenti per continuare a migliorarlo.
 Repetible=0
 RequiredLevel=30
+DescAudio=1105
+DescFinalAudio=1106
 
 [QUEST151]
 Nombre=Carrello d'élite (minatore).
@@ -3176,6 +3273,8 @@ Nombre=La sfida sotterranea
 Desc=Gli scantinati e gli scarichi della città sono infestati. Devi eliminare un certo numero di ratti neri e grigi dalla tua casa e avventurarti negli scarichi dove regna il Ratto Gigante, eliminando molti di questi pericolosi esemplari. Questa sfida richiede pazienza, perseveranza e abilità, poiché solo chi mantiene attivo il proprio abbonamento potrà progredire ogni giorno. Al completamento di questa prova, la ricompensa sarà unica e duratura: una cavalcatura speciale che vi permetterà di viaggiare per la città con la forza di queste creature.
 DescFinal=Hai dimostrato perseveranza e coraggio di fronte alle minacce sotterranee. La tua perseveranza e bravura non sono passate inosservate. Ottieni questo Monte come riconoscimento del tuo impegno e dedizione!
 Repetible=1
+DescAudio=1106
+DescFinalAudio=1107
 
 [QUEST154]
 Nombre=Il sigillo del Sole
@@ -3183,6 +3282,8 @@ Desc=La giada che porti con te non è una semplice pietra. Ogni frammento che ha
 DescFinal=Ricorda: il deserto veglia e i segreti del Sole Caduto non vengono rivelati due volte. Che il tuo cammino sia segnato dal tuo coraggio e dalla tua saggezza.
 Repetible=0
 RequiredLevel=18
+DescAudio=1262
+DescFinalAudio=1263
 
 [QUEST155]
 Nombre=Il puzzle di giada
@@ -3191,6 +3292,8 @@ DescFinal=Ogni frammento porta il segno del deserto, ma insieme ricatturano il b
 Repetible=0
 RequiredLevel=18
 PosMap=1
+DescAudio=1165
+DescFinalAudio=1166
 
 [QUEST156]
 Nombre=La collana del re senza nome
@@ -3199,6 +3302,8 @@ DescFinal=Le mummie la custodivano non per lealtà, ma come una maledizione. Que
 Repetible=1
 RequiredLevel=18
 PosMap=17
+DescAudio=1264
+DescFinalAudio=1265
 
 [QUEST157]
 Nombre=Assi spazzolate.
@@ -3206,6 +3311,8 @@ Desc=Posso spazzolare tutto quel legno per te, 10000 legno può darti 1000 assi
 DescFinal=Guarda che buon lavoro ho fatto. Ecco qui.
 Repetible=0
 RequiredLevel=1
+DescAudio=1107
+DescFinalAudio=1108
 
 [QUEST158]
 Nombre=Pennelli spazzolati.
@@ -3227,6 +3334,8 @@ DescFinal=Hai svelato i segreti dell'antica negromanzia egizia. Il tuo incantesi
 Repetible=0
 RequiredLevel=22
 PosMap=16
+DescAudio=1206
+DescFinalAudio=1207
 
 [QUEST161]
 Nombre=Benedire!
@@ -3234,6 +3343,8 @@ Desc=Se mi porti un reliquiario, posso benedirlo per alcune monete d'oro ..
 DescFinal=Il tuo reliquiario è stato benedetto!
 Repetible=1
 RequiredLevel=23
+DescAudio=1115
+DescFinalAudio=1116
 
 [QUEST163]
 Nombre=Guardie del cimitero
@@ -3258,6 +3369,8 @@ DescFinal=Grazie mille! Avere un po 'di questo, è l'ultima cosa che mi è rimas
 Repetible=0
 RequiredLevel=7
 PosMap=418
+DescAudio=1254
+DescFinalAudio=1255
 
 [QUEST167]
 Nombre=Entrare nella grotta
@@ -3280,6 +3393,8 @@ DescFinal=Sei sopravvissuto! Hai la forza necessaria per aiutarmi a compiere la 
 Repetible=1
 RequiredLevel=13
 PosMap=17
+DescAudio=1266
+DescFinalAudio=1267
 
 [QUEST170]
 Nombre=Piramide vicino al
@@ -3316,12 +3431,16 @@ Nombre=Controllo persistente dei parassiti
 Desc=Negli ultimi giorni abbiamo ricevuto segnalazioni della presenza di ratti neri negli scantinati di diverse Patreon House. Questi ampi spazi raramente percorribili diventano spesso rifugi ideali per parassiti persistenti. Non possiamo permettere che un immobile illustre cada in abbandono. Scendi nel tuo seminterrato, elimina tutte le creature che trovi e portami la prova che la situazione è stata adeguatamente controllata.
 DescFinal=Vedo che hai adempiuto al tuo compito. L'infestazione si è ridotta e, per il momento, la tua proprietà è tornata in buone condizioni.
 Repetible=1
+DescAudio=1108
+DescFinalAudio=1109
 
 [QUEST175]
 Nombre=Specimen Anomali
 Desc=In rare occasioni, tra i topi del seminterrato appare un esemplare insolito, riconoscibile dal pallore della sua coda. Non si tratta di una semplice infestazione, ma di un’anomalia che pochissimi proprietari riescono a vedere. Questi esemplari sono sfuggenti e la loro apparizione è imprevedibile. Se avrai la fortuna e l’abilità di trovarne uno, portami la sua coda come prova. La ricompensa sarà all’altezza del tuo impegno.
 DescFinal=Devo ammettere che pochi riescono a portarmi una prova simile. Hai dimostrato pazienza e determinazione, qualità rare anche tra i proprietari più distinti. Questi esemplari non si mostrano spesso, quindi considera questo risultato eccezionale. Se l’anomalia dovesse ripresentarsi, confido che saprai riconoscerla.
 Repetible=1
+DescAudio=1110
+DescFinalAudio=1112
 
 [QUEST176]
 Nombre=Il sangue di Lynn
@@ -3428,6 +3547,8 @@ DescFinal=Ottimo lavoro, ecco la tua ricompensa!
 Repetible=1
 RequiredLevel=1
 PosMap=168
+DescAudio=1232
+DescFinalAudio=1233
 
 [QUEST191]
 Nombre=Veleno mortale
@@ -3450,6 +3571,8 @@ DescFinal=Wow, ci sei riuscito! Quei lupi impareranno a non entrare nel nostro t
 Repetible=0
 RequiredLevel=2
 PosMap=264
+DescAudio=1234
+DescFinalAudio=1235
 
 [QUEST194]
 Nombre=Wolfang
@@ -3464,6 +3587,8 @@ Desc=Agli esterni di Arkhein, coesistono creature acquatiche molto pericolose, h
 DescFinal=Sarò eternamente grato con te!
 Repetible=0
 RequiredLevel=28
+DescAudio=1289
+DescFinalAudio=1290
 
 [QUEST196]
 Nombre=Piccoli draghi
@@ -3486,6 +3611,8 @@ Desc=Se riesci a ottenere una buona quantità di assi per me, posso creare quell
 DescFinal=Per navigare!
 Repetible=1
 RequiredLevel=25
+DescAudio=1161
+DescFinalAudio=1162
 
 [QUEST200]
 Nombre=Più che selvaggio
@@ -3526,6 +3653,8 @@ DescFinal=Sei tornato! Molti erano in arrivo senza essere in grado di aiutarmi. 
 Repetible=0
 RequiredLevel=29
 PosMap=123
+DescAudio=1171
+DescFinalAudio=1172
 
 [QUEST206]
 Nombre=Sangue per sangue
@@ -3617,6 +3746,8 @@ DescFinal=Il sudore paga con una buona ricompensa, prende questo.
 Repetible=0
 RequiredLevel=13
 PosMap=34
+DescAudio=1155
+DescFinalAudio=1156
 
 [QUEST219]
 Nombre=Introduzione alla carpenteria
@@ -3625,6 +3756,8 @@ DescFinal=Le persone ringrazieranno la tua collaborazione, invierò immediatamen
 Repetible=0
 RequiredLevel=14
 PosMap=78
+DescAudio=1228
+DescFinalAudio=1229
 
 [QUEST220]
 Nombre=Cappotto di forza legionaria
@@ -3690,6 +3823,8 @@ Desc=Quella pelle che mi hai portato... magnifica. Ma non è sufficiente per cre
 DescFinal=Quindi ce l'hai fatta... hai sconfitto Bruin. Riesco a percepire la sua forza, persino attraverso la sua pelle. È come racchiudere la furia dell'inverno in un unico pezzo. Con questo, e la pelle d'argento che mi hai dato prima, l'imbracatura sarà completa. Ma ciò che hai ottenuto va oltre una cavalcatura: ti sei guadagnato il rispetto della natura stessa.
 Repetible=0
 RequiredLevel=1
+DescAudio=1157
+DescFinalAudio=1158
 
 [QUEST231]
 Nombre=L'ago e l'artiglio
@@ -3697,6 +3832,8 @@ Desc=Ascolta attentamente, viaggiatore. Cerco una pelle rara, una che non tutti 
 DescFinal=Ci sei riuscita davvero? Quella texture, quella lucentezza... inconfondibili.
 Repetible=0
 RequiredLevel=1
+DescAudio=1159
+DescFinalAudio=1160
 
 [QUEST232]
 Nombre=Il sangue di Lynn
@@ -3821,6 +3958,8 @@ DescFinal=Grazie, avresti potuto essere un po 'più generoso.
 Repetible=0
 RequiredLevel=1
 PosMap=34
+DescAudio=1109
+DescFinalAudio=1110
 
 [QUEST248]
 Nombre=Pozioni di veleno
@@ -4024,6 +4163,8 @@ DescFinal=D'ora in poi, le tue lame assorbiranno veleno a ogni colpo. Questa è 
 Repetible=0
 RequiredLevel=25
 PosMap=560
+DescAudio=1283
+DescFinalAudio=1284
 
 [QUEST276]
 Nombre=Recuperare la pendenza
@@ -4085,6 +4226,8 @@ DescFinal=Quindi... i miei timori erano fondati. Queste antenne non appartengono
 Repetible=1
 RequiredLevel=13
 PosMap=1
+DescAudio=1113
+DescFinalAudio=1114
 
 [QUEST286]
 Nombre=La custodia dei Frogiani
@@ -4101,6 +4244,8 @@ DescFinal=Ah... Perfetto! Queste corna trattengono ancora l'energia primordiale 
 Repetible=0
 RequiredLevel=4
 PosMap=157
+DescAudio=1285
+DescFinalAudio=1286
 
 [QUEST288]
 Nombre=Echi della foresta profana
@@ -4109,6 +4254,8 @@ DescFinal=Per gli dei... cinquanta Semi Prosperosi. Non ricordo l'ultima volta c
 Repetible=0
 RequiredLevel=8
 PosMap=319
+DescAudio=1295
+DescFinalAudio=1296
 
 [QUEST289]
 Nombre=Lezione Verde
@@ -4231,12 +4378,16 @@ Nombre=Ceneri del primo fuoco
 Desc=Ascolta attentamente, straniero, perché non lo ripeterò. La Fenice non lascia sempre la stessa cosa quando muore. Il più delle volte, solo cenere e una piuma strappata in combattimento. Ma in rare occasioni, anzi rarissime, il suo fuoco si condensa in qualcosa di più. Un Uovo. Ho assistito a centinaia di rinascite da questa fucina, e giuro sulla lava di Morgrim che a malapena una su cento lascia un uovo completo. Se il destino ti sorride e la Fenice ne lascia cadere uno cadendo, considerati un prescelto. Ma non tutti affidano il proprio futuro al caso. Ogni piuma che strappi alla Fenice contiene un frammento della sua rinascita. Una non basta. Né due. Dieci piume... da dieci morti diverse... insieme battono come un cuore di fuoco. Portami dieci piume, e farò ciò che il caso non ha fatto: forgerò un Uovo di Fenice con le mie mani.
 DescFinal=Dieci piume, ancora ardenti. Non provengono tutte dalla stessa rinascita. Questo è un bene. Il fuoco ha bisogno del conflitto per risvegliarsi. Guarda come tremano, l'Uovo rivendica già la sua forma. Prendilo. Ricorda questo, Portatore di Fuoco: la Fenice risorge sempre... e ora, il suo fuoco cammina con te.
 Repetible=1
+DescAudio=1173
+DescFinalAudio=1174
 
 [QUEST315]
 Nombre=Le ali del fuoco eterno
 Desc=Pensavo che il fuoco si sarebbe placato dopo l'Uovo... Ma no. La Fenice ti ha riconosciuto. Ogni volta che cade e si rialza, le sue ali si rafforzano. Non sono semplici arti... sono il simbolo della sua rinascita. Strapparne una sola è sfidare la sua volontà. Strapparne venti... è camminare sulla sua ombra. Ascolta attentamente: una o dieci piume racchiudono potere, sì... ma venti piume racchiudono memoria. La memoria di ogni volo, di ogni caduta, di ogni volta che la Fenice ha scelto di rivivere. Con venti piume, posso forgiare qualcosa che nessun nano ha tentato da allora. Non vere ali... ma un'eco delle sue. Ali che non ti solleveranno al cielo, ma annunceranno a tutti che sei sopravvissuto al fuoco più e più volte. Portami venti piume di Fenice. E fai sapere al mondo che il fuoco non ti ha consumato.
 DescFinal=Venti piume... Ognuna mi ha bruciato le dita toccandole. Un buon auspicio. Guarda come il fuoco obbedisce... le ali ricordano come bruciare. Prendile. Non ti daranno il volo, ma ti daranno presenza. Ovunque tu vada, sapranno che hai sfidato la Fenice venti volte... e sei ancora in piedi.
 Repetible=1
+DescAudio=1175
+DescFinalAudio=1176
 
 [QUEST316]
 Nombre=Natale in pericolo
@@ -4250,6 +4401,8 @@ DescFinal=Ciò che hai fatto non è stato solo cacciare bestie… è stato ferma
 Repetible=1
 RequiredLevel=16
 PosMap=418
+DescAudio=1256
+DescFinalAudio=1257
 
 [QUEST318]
 Nombre=Il Clan delle Sabbie
@@ -4258,6 +4411,8 @@ DescFinal=Ottimo lavoro. Il clan ha sentito il colpo. Non è stato distrutto, ma
 Repetible=1
 RequiredLevel=14
 PosMap=16
+DescAudio=1208
+DescFinalAudio=1209
 
 [QUEST319]
 Nombre=Energia contaminata
@@ -4266,6 +4421,8 @@ DescFinal=Ciò che hai osservato conferma i miei sospetti. I Miastrix non si muo
 Repetible=1
 RequiredLevel=13
 PosMap=1
+DescAudio=1117
+DescFinalAudio=1118
 
 [QUEST320]
 Nombre=Risonanza anomala
@@ -4274,6 +4431,8 @@ DescFinal=Non tutti sarebbero abbastanza prudenti da farlo. Forse questo ti rend
 Repetible=1
 RequiredLevel=13
 PosMap=34
+DescAudio=1119
+DescFinalAudio=1120
 
 [QUEST321]
 Nombre=Il risveglio della Piramide
@@ -4282,6 +4441,8 @@ DescFinal=Ottimo lavoro. La piramide è tornata in silenzio... per ora. L’avan
 Repetible=1
 RequiredLevel=18
 PosMap=17
+DescAudio=1121
+DescFinalAudio=1122
 
 [QUEST322]
 Nombre=Purificando la Foresta dei Caduti
@@ -4290,6 +4451,8 @@ DescFinal=Ciò che hai fatto oggi ha dato un respiro alle città. Le pattuglie r
 Repetible=1
 RequiredLevel=13
 PosMap=58
+DescAudio=1123
+DescFinalAudio=1124
 
 [QUEST323]
 Nombre=Il richiamo delle bestie
@@ -4298,6 +4461,8 @@ DescFinal=La pietra racchiude la furia del metalupo e la resilienza dell'orso. N
 Repetible=0
 RequiredLevel=13
 PosMap=55
+DescAudio=1125
+DescFinalAudio=1126
 
 [QUEST324]
 Nombre=Il Sigillo dell'Antica Furia
@@ -4306,6 +4471,8 @@ DescFinal=Quindi l'isola ti ha permesso di tornare... Questa runa è stata incis
 Repetible=0
 RequiredLevel=25
 PosMap=236
+DescAudio=1127
+DescFinalAudio=1282
 
 [QUEST325]
 Nombre=Antiche gemme di fuoco
@@ -4314,6 +4481,8 @@ DescFinal=Ben fatto! Non tutti tornano vivi dal Dungeon del Drago, figuriamoci c
 Repetible=1
 RequiredLevel=31
 PosMap=78
+DescAudio=1210
+DescFinalAudio=1211
 
 [QUEST326]
 Nombre=Un ordine speciale
@@ -4322,6 +4491,8 @@ DescFinal=Fai salvare il collo! Sarò eternamente grato. Se ti piace avere più 
 RequiredLevel=1
 Repetible=1
 PosMap=34
+DescAudio=1128
+DescFinalAudio=1129
 
 [QUEST327]
 Nombre=Il vecchio Jacobo
@@ -4330,6 +4501,8 @@ DescFinal=Ciò insegnerà a quei dannati folletti a non scherzare con la gilda d
 Repetible=1
 RequiredLevel=14
 PosMap=34
+DescAudio=1163
+DescFinalAudio=1164
 
 [QUEST328]
 Nombre=Messaggio misterioso
@@ -4338,6 +4511,8 @@ DescFinal=Se peschi di nuovo una bottiglia, non esitare a tornare!
 Repetible=1
 RequiredLevel=14
 PosMap=254
+DescAudio=1222
+DescFinalAudio=1224
 
 [QUEST329]
 Nombre=Oltre il gancio
@@ -4351,21 +4526,25 @@ PosMap=61
 Nombre=Scambio Coppa di Bronzo
 Desc=Puoi scambiare le tue Coppe di Bronzo con qualcosa di meglio! Se hai 5 Coppe, posso scambiarle con una Coppa d'Argento.
 Repetible=1
+DescAudio=1074
 
 [QUEST331]
 Nombre=Scambio Coppa d'Argento
 Desc=Puoi scambiare le tue Coppe d'Argento con qualcosa di meglio! Se hai 5 Coppe, posso scambiarle con una Coppa d'Oro.
 Repetible=1
+DescAudio=1075
 
 [QUEST332]
 Nombre=Scambio Coppa d'Oro
 Desc=Puoi scambiare le tue Coppe d'Oro con qualcosa di meglio! Se hai 5 Coppe, posso scambiarle con una Tunica Pretoriana.
 Repetible=1
+DescAudio=1076
 
 [QUEST333]
 Nombre=Scambio Coppa d'Oro
 Desc=Puoi scambiare le tue Coppe d'Oro con qualcosa di meglio! Se hai 5 Coppe, posso scambiarle con una Tunica Pretoriana.
 Repetible=1
+DescAudio=1077
 
 [QUEST334]
 Nombre=Sete Elementali
@@ -4373,6 +4552,8 @@ Desc=Ho dedicato gran parte della mia vita allo studio di antiche tecniche arcan
 DescFinal=Vedo che sei tornato... e non a mani vuote. Fammi vedere quelle sete... Incredibili. L'energia elementale che contengono è persino più pura di quanto mi aspettassi. Con una quantità come questa, posso finalmente iniziare il mio lavoro al telaio. Intrecciare insieme le essenze di acqua, fuoco, vento e terra non è un compito facile, ma se le antiche leggende sono vere, questo sarà il primo passo verso la creazione di un materiale degno delle creature più magiche mai esistite. Hai fatto un ottimo lavoro, avventuriero. Prendi questo: è il Filo di Luce di Amida. È solo l'inizio di qualcosa di molto più grande... e forse, se le storie sono vere, anche il primo passo verso il mistero dell'Unicorno.
 Repetible=1
 PosMap=1
+DescAudio=1046
+DescFinalAudio=1047
 
 [QUEST335]
 Nombre=Il Telaio Arcano
@@ -4380,6 +4561,8 @@ Desc=Arkhavel ha compiuto il primo passo creando il Filo di Amida Leggera, ma or
 DescFinal=Questo è... straordinario. Non avrei mai pensato di vedere così tanti filati di Amida Leggeri raccolti in un unico posto. Tessere questo materiale non è stato facile, ma il risultato parla da sé. L'energia elementale scorre attraverso ogni fibra del tessuto. Questa è la Tela Unicorno. Secondo antiche leggende, tessuti come questo venivano usati nei rituali per attrarre e legare creature di magica purezza. Se le antiche leggende sono vere... questa tela potrebbe essere la chiave per incontrarne una.
 Repetible=1
 PosMap=151
+DescAudio=1078
+DescFinalAudio=1079
 
 [QUEST336]
 Nombre=Legame dell'unicorno
@@ -4387,18 +4570,24 @@ Desc=La Tela dell'Unicorno che indossi è unica, tessuta con pure energie elemen
 DescFinal=Abbiatene cura, avventuriero, perché solo coloro che onorano la magia del mondo possono mantenere la sua fiducia.
 Repetible=1
 PosMap=517
+DescAudio=1080
+DescFinalAudio=1081
 
 [QUEST337]
 Nombre=Legame dell'unicorno
 Desc=La Tela dell'Unicorno che indossi è unica, tessuta con pure energie elementali e antiche tecniche quasi dimenticate dai mortali. Secondo la leggenda, solo coloro che hanno dimostrato pazienza, dedizione e rispetto per la magia del mondo possono avvicinarsi a un Unicorno. Questa tela non è semplicemente un tessuto; è un canale per l'energia di queste creature, capace di attrarle e legarle a un degno cavaliere. Se desideri camminare al fianco di un Unicorno e condividere il suo potere, devi donarlo a me. In cambio, riceverai la Cavalcatura dell'Unicorno, un essere nobile e magico che risponderà alla tua chiamata.
 DescFinal=Abbiatene cura, avventuriero, perché solo coloro che onorano la magia del mondo possono mantenere la sua fiducia.
 Repetible=1
+DescAudio=1082
+DescFinalAudio=1083
 
 [QUEST338]
 Nombre=Legame dell'unicorno
 Desc=La Tela dell'Unicorno che indossi è unica, tessuta con pure energie elementali e antiche tecniche quasi dimenticate dai mortali. Secondo la leggenda, solo coloro che hanno dimostrato pazienza, dedizione e rispetto per la magia del mondo possono avvicinarsi a un Unicorno. Questa tela non è semplicemente un tessuto; è un canale per l'energia di queste creature, capace di attrarle e legarle a un degno cavaliere. Se desideri camminare al fianco di un Unicorno e condividere il suo potere, devi donarlo a me. In cambio, riceverai la Cavalcatura dell'Unicorno, un essere nobile e magico che risponderà alla tua chiamata.
 DescFinal=Abbiatene cura, avventuriero, perché solo coloro che onorano la magia del mondo possono mantenere la sua fiducia.
 Repetible=1
+DescAudio=1084
+DescFinalAudio=1085
 
 [QUEST339]
 Nombre=La fiamma dell'eroismo
@@ -4406,6 +4595,8 @@ Desc=Nel Tempio dei Paladini si cela un antico rituale riservato unicamente a co
 DescFinal=Il rituale è completo. La tua volontà sarà la scintilla.
 Repetible=0
 RequiredLevel=25
+DescAudio=1086
+DescFinalAudio=1087
 
 [QUEST340]
 Nombre=La disputa sulle isole
@@ -4436,6 +4627,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1130
+DescFinalAudio=1131
 
 [QUEST344]
 Nombre=Quest solo armada
@@ -4443,6 +4636,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1132
+DescFinalAudio=1133
 
 [QUEST345]
 Nombre=Quest solo ciuda y armada
@@ -4450,6 +4645,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1134
+DescFinalAudio=1135
 
 [QUEST346]
 Nombre=Quest solo consejo real
@@ -4457,6 +4654,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1136
+DescFinalAudio=1137
 
 [QUEST347]
 Nombre=Quest armada y consejo
@@ -4464,6 +4663,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1138
+DescFinalAudio=1139
 
 [QUEST348]
 Nombre=Quest ciuda armada y consejo
@@ -4471,6 +4672,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1140
+DescFinalAudio=1141
 
 [QUEST349]
 Nombre=Quest solo criminal
@@ -4478,6 +4681,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1142
+DescFinalAudio=1143
 
 [QUEST350]
 Nombre=Quest solo legion
@@ -4485,6 +4690,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1144
+DescFinalAudio=1145
 
 [QUEST351]
 Nombre=Quest solo criminal y legion
@@ -4492,6 +4699,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1146
+DescFinalAudio=1147
 
 [QUEST352]
 Nombre=Quest Solo Concilio
@@ -4499,6 +4708,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1148
+DescFinalAudio=1149
 
 [QUEST353]
 Nombre=Quest Solo Legion, Criminal y concilio
@@ -4506,6 +4717,8 @@ Desc=Si eres capaz de obtener 5000 Leñas y 5000 Leñas Élficas, podré darte u
 DescFinal=Excelente, ten un poco de experiencia para mejorar tu camino, vuelve a hablarme si quieres progresar aun más.
 Repetible=1
 RequiredLevel=25
+DescAudio=1150
+DescFinalAudio=1151
 
 [QUEST354]
 Nombre=Limpieza del Drenaje (LVL1-19)
@@ -4609,6 +4822,8 @@ Desc=Atención, los vigías nos han advertido de que se avecina una horda de est
 DescFinal=Muy bien lo haz logrado, hemos frenado la avanzadilla, la próxima vez se lo pensaran dos veces!
 Repetible=1
 RequiredLevel=25
+DescAudio=1138
+DescFinalAudio=1139
 
 [QUEST371]
 Nombre=Debemos contraatacar!
@@ -4616,6 +4831,8 @@ Desc=Es momento de demostrarles de que estamos hechos, ve al frente y mata tanta
 DescFinal=Bien, haz acabado con las alimañas, te lo agradezco!
 Repetible=1
 RequiredLevel=25
+DescAudio=1138
+DescFinalAudio=1139
 
 [QUEST372]
 Nombre=Mantener el frente!
@@ -4623,6 +4840,8 @@ Desc=Atención, los vigías nos han advertido de que se avecina una horda de est
 DescFinal=Muy bien lo haz logrado, hemos frenado la avanzadilla, la próxima vez se lo pensaran dos veces!
 Repetible=1
 RequiredLevel=25
+DescAudio=1138
+DescFinalAudio=1139
 
 [QUEST373]
 Nombre=Debemos contraatacar!
@@ -4630,6 +4849,8 @@ Desc=Es momento de demostrarles de que estamos hechos, ve al frente y mata tanta
 DescFinal=Bien, haz acabado con las alimañas, te lo agradezco!
 Repetible=1
 RequiredLevel=25
+DescAudio=1138
+DescFinalAudio=1139
 
 [QUEST380]
 Nombre=L'Offerta di Dolgrin
@@ -4686,6 +4907,8 @@ Desc=Se sei arrivato fin qui, immagino che il Sottomondo non ti spaventi. Ma c'�
 DescFinal=Hai dimostrato pazienza, precisione e la determinazione necessaria per sopravvivere nel Sottomondo. Ecco la ricompensa che ti avevo promesso. Te la sei meritata.
 Repetible=1
 RequiredLevel=36
+DescAudio=1594
+DescFinalAudio=1595
 
 [QUEST391]
 Nombre=La Piaga delle Spore
@@ -4694,6 +4917,8 @@ DescFinal=Le spore continuano a fluttuare nell'aria, ma non più con la stessa i
 Repetible=1
 RequiredLevel=25
 PosMap=289
+DescAudio=1521
+DescFinalAudio=1522
 
 [QUEST392]
 Nombre=La Furia degli Abissi
@@ -4701,6 +4926,8 @@ Desc=Le acque che circondano la Città Abbandonata non sono più sicure. Nelle s
 DescFinal=Gli abissi sono stati conquistati. Zeraphon e Kaelthor giacciono sconfitti, e con loro cade il mito della loro invincibilità. I marinai della tua fazione raccontano già l'impresa nei porti, e il tuo nome si aggiunge alla lista di coloro che hanno osato sfidare il mare e sono tornati vivi. In riconoscimento del tuo coraggio, ricevi una Pozione d'Onore di Fazione.
 Repetible=1
 RequiredLevel=27
+DescAudio=1483
+DescFinalAudio=1484
 
 [QUEST406]
 Nombre=I Quattro Nidi
@@ -4708,6 +4935,8 @@ Desc=Non tutti riescono ad arrivare fin qui. La chiave che apre le Catacombe Inf
 DescFinal=Le quattro colonie hanno subito un duro colpo e l'attività nel secondo livello delle Catacombe si è ridotta notevolmente. L'aria è tornata immobile, la terra ha smesso di tremare, le fiamme si spengono più facilmente e le gallerie allagate hanno ritrovato una calma perduta da tempo. Le forze elementali sono ancora presenti nelle profondità e, prima o poi, nuove creature occuperanno i nidi ormai vuoti. Per il momento, però, l'equilibrio è stato ristabilito e chi avrà il coraggio di attraversare queste rovine avrà molte più possibilità di fare ritorno vivo. Hai dimostrato di essere degno di superare una delle sfide più pericolose delle Catacombe. Accetta la tua ricompensa.
 Repetible=1
 RequiredLevel=13
+DescAudio=1466
+DescFinalAudio=1467
 
 [QUEST407]
 Nombre=Una Nuova Avventura
@@ -4715,6 +4944,8 @@ Desc=Benvenuto, Avventuriero! Sembri forte. Forse puoi aiutarci a riportare temp
 DescFinal=Grazie! Grazie, Avventuriero! Hai fatto un ottimo lavoro. Le creature che si aggiravano a nord di Forgat non rappresentano più una minaccia per coloro che si avventurano fuori dalla città. Potrebbe sembrare poco, ma ogni piccolo sforzo conta. Con il tuo aiuto e quello degli altri avventurieri, potremo iniziare a ripulire i dintorni e ricostruire la nostra città poco alla volta. Non abbiamo molto da offrirti, ma manteniamo la nostra parola. Ricorda che a Forgat ci sarà sempre del lavoro per chi è disposto ad aiutare.
 Repetible=0
 RequiredLevel=1
+DescAudio=1469
+DescFinalAudio=1470
 
 [QUEST408]
 Nombre=Terra dei Predatori
@@ -4722,6 +4953,8 @@ Desc=Salve di nuovo, Avventuriero. Ho un messaggio urgente proveniente dalle cas
 DescFinal=Hai fatto bene, Avventuriero. Il branco ha perso il suo capo e, con lui, la furia che sembrava essersi impossessata delle bestie comincia a svanire. Gli struzzi sono tornati ad allontanarsi dalle case e i corvi non attaccano più coloro che si avvicinano alla foresta. Per ora, le famiglie del sud possono tirare un sospiro di sollievo. Tuttavia, qualcosa non torna. Gli animali normalmente non si comportano in questo modo senza motivo. Forse l'alfa stava semplicemente difendendo il suo territorio... oppure qualcosa di diverso lo stava spingendo ad agire in quel modo. In ogni caso, hai portato a termine il tuo compito. Accetta la tua ricompensa e rimani vigile. La foresta è tornata tranquilla, ma non sappiamo quanto durerà.
 Repetible=0
 RequiredLevel=3
+DescAudio=1471
+DescFinalAudio=1472
 
 [QUEST409]
 Nombre=Fuorilegge
@@ -4729,6 +4962,8 @@ Desc=A nord di Forgat, le strade hanno iniziato a diventare pericolose. Viaggiat
 DescFinal=I mercenari hanno subito un duro colpo e i lupi che minacciavano viaggiatori e mercanti non rappresentano più la stessa minaccia. Per ora, coloro che devono attraversare il nord di Forgat potranno farlo senza temere un'imboscata a ogni passo. Mercenari così ben equipaggiati non compaiono in una regione per caso. Qualcuno li ha assoldati e, finché non sapremo chi è stato o cosa stessero realmente cercando, non possiamo considerare questa faccenda conclusa. Per ora hai fatto la tua parte. Accetta la tua ricompensa.
 Repetible=0
 RequiredLevel=5
+DescAudio=1473
+DescFinalAudio=1474
 
 [QUEST410]
 Nombre=Oscura Retribuzione
@@ -4736,6 +4971,8 @@ Desc=Abbiamo un nuovo problema, Avventuriero, e questa volta non si tratta di se
 DescFinal=Sei tornato vivo. Questo è già più di quanto molti possano dire. Gli assassini sono stati eliminati e gli scheletri che percorrevano le strade sono tornati dove appartengono: sotto terra. Ma c'è qualcosa che non possiamo ignorare. Quegli scheletri non appartenevano a queste terre. Qualcuno li ha portati da un'altra regione e li ha rianimati attraverso la negromanzia. E se un gruppo di negromanti si sta dando così tanto da fare per mandare dei morti fino a Forgat, deve esserci una ragione. Accetta la tua ricompensa. E ricorda, Avventuriero... quando i morti iniziano a camminare, raramente lo fanno senza che qualcuno li stia guidando.
 Repetible=0
 RequiredLevel=7
+DescAudio=1475
+DescFinalAudio=1476
 
 [QUEST411]
 Nombre=L'Altare Corrotto
@@ -4743,6 +4980,8 @@ Desc=Abbiamo notizie preoccupanti, Avventuriero. A nord della città si trova un
 DescFinal=Sei riuscito a purificare l'altare. I morti che camminavano tra le rovine sono tornati al silenzio e le creature corrotte che infestavano i dintorni non rappresentano più una minaccia. Ma temo che siamo arrivati troppo tardi per salvare completamente questo luogo. L'energia divina che rimaneva nell'altare è stata quasi completamente distrutta. Quel poco che resta si percepisce a malapena, come una fiamma sul punto di spegnersi. I negromanti non si sono limitati a rianimare i morti. Stanno cercando luoghi dove esista ancora qualche traccia di potere e la stanno corrompendo per i propri scopi. Questo conferma i nostri peggiori timori. Ciò che è accaduto all'altare non è stato un attacco isolato. I negromanti stanno avanzando e, se continueranno così, Forgat potrebbe non essere il loro vero obiettivo... ma soltanto l'inizio. Accetta la tua ricompensa, Avventuriero. E se trovi un altro luogo sacro in pericolo, non aspettare che l'ultima fiamma si spenga.
 Repetible=0
 RequiredLevel=9
+DescAudio=1477
+DescFinalAudio=1478
 
 [QUEST412]
 Nombre=Il Rifugio Maledetto
@@ -4750,6 +4989,8 @@ Desc=Finalmente abbiamo trovato l'origine di tutto. Per settimane, i negromanti 
 DescFinal=Ce l'hai fatta. Il rifugio degli Scrammers è stato distrutto e le loro forze sono state sconfitte. I morti hanno smesso di rialzarsi e, per la prima volta dopo molto tempo, l'oscurità che si diffondeva intorno a Forgat sembra essersi fermata. Gli Scrammers sopravvissuti sono fuggiti, abbandonando le rovine e lasciandosi alle spalle i resti dei loro rituali. Ma l'Anziano... La sua presenza era diversa. Il potere che controllava non assomigliava a quello degli altri. Anche dopo tutto ciò che è accaduto, è difficile credere che qualcuno come lui abbia potuto acquisire una conoscenza simile da solo. Gli scheletri, gli omicidi, l'altare corrotto... tutto faceva parte di qualcosa. E anche se abbiamo distrutto il loro rifugio, rimangono ancora troppe domande senza risposta. Dove hanno imparato gli Scrammers a manipolare queste forze? Chi ha insegnato all'Anziano? E quanti altri luoghi sono stati corrotti prima che arrivassimo? Per ora, Forgat può tirare un sospiro di sollievo. Hai portato a termine una missione che pochi avrebbero accettato. Accetta la tua ricompensa, Avventuriero. Ma non dimenticare ciò che hai visto là dentro. L'oscurità è stata sconfitta, ma non necessariamente distrutta
 Repetible=0
 RequiredLevel=11
+DescAudio=1479
+DescFinalAudio=1480
 
 [QUEST413]
 Nombre=L'Eredità delle Ombre
@@ -4757,6 +4998,8 @@ Desc=A est di Penthar si trova una costruzione rimasta vuota e dimenticata per a
 DescFinal=Il Rifugio Abbandonato è tornato al silenzio. I Servitori Demoniaci e le Serve Demoniache non percorrono più i suoi corridoi, gli Spettri sono scomparsi dalle loro antiche stanze e le gargoyle che dominavano il secondo piano sono state sconfitte. Zevkar e Gorath non sorveglieranno più le rovine dall'alto e, per la prima volta dopo molto tempo, i corridoi abbandonati hanno smesso di servire da rifugio per le creature demoniache. Non sappiamo cosa sia realmente accaduto tra quelle mura né perché così tante creature si siano radunate lì, ma finché le rovine rimarranno silenziose, Penthar sarà al sicuro dalla loro minaccia. Hai fatto la tua parte. Accetta la tua ricompensa.
 Repetible=1
 RequiredLevel=25
+DescAudio=1597
+DescFinalAudio=1598
 PosMap=461
 
 [QUEST414]
@@ -4765,6 +5008,8 @@ Desc=A sud di Kamal, dove il deserto incontra il mare, una piccola isola è dive
 DescFinal=L'attività dei pirati è diminuita notevolmente. Le acque intorno all'isola sono tornate a essere molto più sicure da attraversare e le navi mercantili possono nuovamente navigare con maggiore tranquillità. Anche se in futuro altri fuorilegge potrebbero prendere il posto dei caduti, questa ciurma non rappresenta più una seria minaccia per Kamal. La tua vittoria ha riaperto un'importante rotta commerciale tra il deserto e il mare, riportando stabilità a chi dipende da essa. Accetta la tua ricompensa. Hai dimostrato che anche i pirati più temibili possono essere sconfitti.
 Repetible=1
 RequiredLevel=25
+DescAudio=1481
+DescFinalAudio=1482
 PosMap=17
 
 [QUEST415]
@@ -4773,6 +5018,8 @@ Desc=Se sei arrivato fin qui, hai già visto le rovine nascoste sotto le acque d
 DescFinal=Le acque sono di nuovo tranquille. I guerrieri che sorvegliavano le profondità sono caduti e coloro che guidavano i Figli delle Maree non potranno più continuare ad ampliare il loro dominio. Kadru, Lynn, Aksha e Varec sono stati sconfitti, ma le loro caverne custodiscono ancora segreti che forse non riusciremo mai a comprendere. Le rovine sotto la barriera sono molto più antiche di qualsiasi insediamento conosciuto e, se questa razza è sopravvissuta lì per così tanto tempo, di certo non furono i primi abitanti di quelle profondità. Per ora, tuttavia, le acque sono tornate ad appartenere a coloro che hanno il coraggio di attraversarle. Sei tornato da un luogo dal quale pochi riescono a fuggire. Questo merita una ricompensa.
 Repetible=1
 RequiredLevel=27
+DescAudio=1601
+DescFinalAudio=1602
 PosMap=478
 
 [QUEST416]
@@ -4782,6 +5029,8 @@ DescFinal=Ottimo lavoro. Hai raccolto abbastanza parti delle mantidi assassine. 
 Repetible=0
 RequiredLevel=15
 PosMap=1
+DescAudio=1464
+DescFinalAudio=1465
 
 [QUEST417]
 Nombre=L'Ultimo Messaggio
@@ -4789,6 +5038,8 @@ Desc=Hai trovato una bottiglia sigillata alla deriva tra le onde. Al suo interno
 DescFinal=Ah... la vecchia bottiglia ha compiuto il suo scopo. Cosa? Non lo sapevi? Molto tempo fa ero un capitano audace che solcava questi mari. Ma non avrei mai creduto che quel messaggio potesse arrivare a qualcuno. Tanto meno dopo così tanti decenni. I Leviatani, gli Squali, le Sirene e i Criptococchi hanno subito gravi perdite, e le rotte marittime sono nuovamente un po' più sicure per pescatori, mercanti e viaggiatori. Il pericolo non è scomparso. Finché esisteranno le profondità, ci saranno sempre mostri in agguato sotto le onde. Ma oggi, grazie a te, il continente può respirare un po' più tranquillo. Tieni questa ricompensa.
 Repetible=1
 RequiredLevel=25
+DescAudio=1294
+DescFinalAudio=1442
 PosMap=254
 
 [QUEST418]
@@ -4798,6 +5049,8 @@ DescFinal=Sei tornato... e porti con te ciò di cui avevamo tanto bisogno. La Me
 Repetible=1
 RequiredLevel=33
 PosMap=171
+DescAudio=1038
+DescFinalAudio=1293
 
 [QUEST419]
 Nombre=Il Frammento dei Quattro
@@ -4805,6 +5058,8 @@ Desc=Hai trovato uno strano frammento tra i resti di una creatura sconfitta. A p
 DescFinal=Il frammento è tornato nelle tue mani dopo la caduta dei quattro dominatori. Gaia non governa più il Formicaio, Laican ha perso il suo dominio sulla Caverna della Desolazione, Nocthral è stato sconfitto nelle profondità del Dungeon del Drago ed Escarlath non regna più sulle oscure gallerie di Marabel. Quando i simboli dei quattro capi furono riuniti sul frammento, iniziarono a brillare e un'antica iscrizione apparve sulla sua superficie: "Quando quattro regni cadranno, il cammino sarà nuovamente aperto." Non sappiamo a quale cammino si riferisca l'iscrizione, né chi abbia creato questo strano oggetto. Forse i quattro capi furono scelti per una ragione che ancora non conosciamo. Ciò che sappiamo è che hai sconfitto quattro delle creature più potenti che dominavano diverse regioni del continente. Per aver compiuto la tua missione, prendi la tua ricompensa.
 Repetible=1
 RequiredLevel=13
+DescAudio=888
+DescFinalAudio=908
 PosMap=189
 
 [QUEST420]
@@ -4822,6 +5077,8 @@ DescFinal=Il ghiaccio custodisce più segreti di quanti la maggior parte osi cer
 Repetible=1
 RequiredLevel=29
 PosMap=354
+DescAudio=1021
+DescFinalAudio=1035
 
 [QUEST422]
 Nombre=Il Cuore degli Inferi
@@ -4829,6 +5086,8 @@ Desc=Gli Inferi hanno aperto nuovamente i loro cancelli, anche se solo per poche
 DescFinal=Le creature di fuoco sono cadute e, per un breve istante, le fiamme degli Inferi sembrano essersi indebolite. La loro essenza ardente si è dispersa nelle profondità, come se qualcosa di molto più antico stesse perdendo la propria forza. Non sappiamo dove si trovi il Cuore degli Inferi né cosa accadrà quando riacquisterà il suo potere. Ma sei riuscito ad alterare l'equilibrio delle profondità e a sopravvivere a uno dei luoghi più pericolosi del continente. Per aver completato la tua missione, prendi la tua ricompensa.
 Repetible=1
 RequiredLevel=36
+DescAudio=1019
+DescFinalAudio=1020
 
 [QUEST423]
 Nombre=Il Decreto dei Guardiani
@@ -4836,6 +5095,8 @@ Desc=Hai trovato un antico pergamena sigillata con un emblema che ormai nessuno 
 DescFinal=I quattro guardiani sono caduti e, per la prima volta dopo secoli, i loro domini sono rimasti in silenzio. Osservando la pergamena, riesco a distinguere una piccola iscrizione nascosta sotto il sigillo: "Quattro sono caduti. L'equilibrio può iniziare a essere ristabilito." Non so chi abbia scritto queste parole né perché siano stati scelti proprio questi quattro colossi. Forse la loro sconfitta fa parte di qualcosa di molto più antico di quanto possiamo immaginare. Hai compiuto la tua missione. Prendi la tua ricompensa.
 Repetible=1
 RequiredLevel=25
+DescAudio=918
+DescFinalAudio=1017
 
 [QUEST424]
 Nombre=Oltre Intrappolare
@@ -4844,6 +5105,8 @@ DescFinal=Ci sei riuscito. Hai imparato a portare il potere di Intrappolare molt
 Repetible=0
 RequiredLevel=24
 PosMap=560
+DescAudio=852
+DescFinalAudio=853
 
 [QUEST425]
 Nombre=L'Arte dell'Invisibilità
@@ -4851,6 +5114,8 @@ Desc=L'invisibilità è un'arte complessa, che pochi riescono a padroneggiare co
 DescFinal=Hai imparato a controllare le forze che ti permettono di scomparire completamente alla vista. La tua precedente padronanza dell'invisibilità appartiene ormai al passato e ora sei in grado di utilizzare una versione molto più potente dell'incantesimo. Pochi conoscono i segreti di questa tecnica, e ancora meno sono in grado di padroneggiarla. Fai tesoro di questa conoscenza e usala con saggezza.
 Repetible=0
 PosMap=354
+DescAudio=793
+DescFinalAudio=794
 RequiredLevel=0
 
 [QUEST426]
@@ -4859,6 +5124,8 @@ Desc=L'invisibilità è un'arte complessa, che pochi riescono a padroneggiare co
 DescFinal=Hai imparato a controllare le forze che ti permettono di scomparire completamente alla vista. La tua precedente padronanza dell'invisibilità appartiene ormai al passato e ora sei in grado di utilizzare una versione molto più potente dell'incantesimo. Pochi conoscono i segreti di questa tecnica, e ancora meno sono in grado di padroneggiarla. Fai tesoro di questa conoscenza e usala con saggezza.
 Repetible=0
 PosMap=354
+DescAudio=795
+DescFinalAudio=801
 RequiredLevel=0
 
 [QUEST427]
@@ -4867,6 +5134,8 @@ Desc=Vicino a Makrom troverai due ratti preparati per questa missione. Sconfiggi
 DescFinal=Molto bene. Hai imparato il ciclo completo di una missione: accettare l'incarico, seguirlo nel Diario, fissare l'obiettivo, completarlo e tornare per la ricompensa. Questo è solo l'inizio della tua avventura.
 Repetible=0
 RequiredLevel=1
+DescAudio=714
+DescFinalAudio=720
 
 [QUEST900]
 Nombre=Cenizas del Primer Fuego
@@ -4947,7 +5216,7 @@ NoMapInfo=1
 
 [NPC4]
 Name=Lilith <Maestra Alchimista>
-Desc=¡Bienvenido! ¿Estás por viajar? Aquí encontrarás las mejores pociones.
+Desc=Benvenuto! Stai per viaggiare? Qui troverai le migliori pozioni.
 Body=6242
 Head=0
 Comercia=1
@@ -4985,7 +5254,7 @@ Obj3=161-100
 
 [NPC7]
 Name=JONAS <Bernero>
-Desc=¡Hola! Bienvenido al famoso Mesón Hostigado. ¿Qué deseas beber?
+Desc=Ciao! Benvenuti nel famoso Mesón molestato. Cosa vuoi bere?
 DescClose=¡Hasta luego!
 Body=26
 Head=28
@@ -5012,7 +5281,7 @@ NoMapInfo=1
 
 [NPC9]
 Name=Igor <Materiale per principianti>
-Desc=¡Hola, joven aventurero! Debo advertirte: si tienes hambre o sed, pronto te quedarás sin energía
+Desc=Ciao, giovane avventuriero! Devo avvertirti: se hai fame o sete, presto finirai senza energia
 DescClose=¡Hasta pronto!
 Body=491
 Head=0
@@ -5024,7 +5293,7 @@ Obj2=3749-100
 
 [NPC10]
 Name=Northern Farmer <Pissions>
-Desc=¡Bienvenido a mi huerta! Tengo las mejores frutas de la zona. No podrás encontrarlas de mejor calidad.
+Desc=Benvenuti nel mio giardino! Ho i migliori frutti della zona. Non sarai in grado di trovarli di qualità migliore.
 DescClose=¡Hasta luego!
 Body=66
 Head=604
@@ -5047,7 +5316,7 @@ CambioAIdle=10
 
 [NPC12]
 Name=Durgan <Minatore>
-Desc=¡Ey, tú! ¿Quieres trabajar? Acércate, tengo la herramienta necesaria para extraer los minerales en este mundo!
+Desc=Ey, tu! Vuoi lavorare? Approccio, ho lo strumento necessario per estrarre minerali in questo mondo!
 Body=6164
 Head=0
 Comercia=1
@@ -5072,7 +5341,7 @@ Obj3=5079-100
 
 [NPC14]
 Name=Thorek <Minatore Esperto>
-Desc=¡Puedo ofrecerte algo mejor que ese piquete básico!
+Desc=Posso offrirti qualcosa di meglio di quel picchetto di base!
 Body=425
 Head=0
 NpcType=0
@@ -5085,7 +5354,7 @@ NoMapInfo=1
 
 [NPC15]
 Name=Joseph <Mercante>
-Desc=¡Hola, bienvenido a mi tienda! Estoy interesado en todo tipo de productos. No olvides de pasar de vez en cuando, puede que mañana ya hayan comprado lo que estabas buscando!
+Desc=Ciao, benvenuto nel mio negozio! Sono interessato a tutti i tipi di prodotti. Non dimenticare di passare di tanto in tanto, forse domani hai già comprato quello che stavi cercando!
 Body=6181
 Head=0
 BodyIdle=6181
@@ -5120,7 +5389,7 @@ NoMapInfo=1
 
 [NPC18]
 Name=Rusk <Prigioniero>
-Desc=No mires las cadenas. Mira el tiempo. Cada ciertos minutos los espectros se mueven... y yo también. Si vuelves antes de que lleguen, tendré algo para ti: un sable que aún corta, agua para no caer, pan para seguir andando... y pociones. Unas curan. Otras matan. Elige bien.
+Desc=Non guardare le catene. Guarda il tempo. Ogni pochi minuti gli spettri si muovono... e lo faccio anch'io. Se torni prima che arrivino, avrò qualcosa per te: una spada che taglia ancora, acqua per impedirti di cadere, pane per tenerti in vita... e pozioni. Alcune curano. Altre uccidono. Scegli con saggezza.
 Body=1549
 Head=224
 NpcType=0
@@ -5182,7 +5451,7 @@ Obj3=4337-1000
 
 [NPC25]
 Name=Godwin <Venditore di Selle>
-Desc=Si quieres montar, deberás pagar muy bien por ello.
+Desc=Se vuoi farci un giro, dovrai pagarlo molto bene.
 Body=421
 Head=0
 NpcType=0
@@ -5212,7 +5481,7 @@ NpcType=24
 
 [NPC28]
 Name=Venditore di biglietti
-Desc=Interactua conmigo si quieres viajar por el mundo.
+Desc=Interagisci con me se vuoi viaggiare per il mondo.
 Body=281
 Head=46
 NpcType=0
@@ -5268,7 +5537,7 @@ Obj3=32-1
 
 [NPC46]
 Name=Magnus Elixius <Alchimista Reale>
-Desc=¡Las mejores Alquimias de este Reino!
+Desc=Le migliori alchimie di questo Regno!
 Body=6127
 Head=0
 BodyIdle=6126
@@ -5283,7 +5552,7 @@ CambioAIdle=10
 
 [NPC47]
 Name=Alchimista caotico
-Desc=¡Con estas Alquimias podrás esparcir el Mal!
+Desc=Con queste Alchimie puoi diffondere il Male!
 Body=6118
 Head=0
 BodyIdle=6119
@@ -5299,7 +5568,7 @@ CambioAIdle=10
 
 [NPC48]
 Name=Ether <Combat Merchant>
-Desc=¿Deseas mejorar tu equipamiento inicial? Seguro que con esto podrás defenderte mejor.
+Desc=Vuoi migliorare la tua attrezzatura iniziale? Sicuramente con questo puoi difenderti meglio.
 Body=496
 Head=0
 NpcType=0
@@ -5355,7 +5624,7 @@ Obj3=964-1
 
 [NPC55]
 Name=Thaladir <Carpentiere>
-Desc=¡Bienvenidos a mi Taller! Aquí la madera se transforma en objetos artesanales de incomparable elegancia y poder.
+Desc=Benvenuti nel mio laboratorio! Qui il legno si trasforma in oggetti artigianali di incomparabili eleganza e potere.
 Body=6190
 Head=0
 BodyIdle=6190
@@ -5385,7 +5654,7 @@ CambioAIdle=10
 
 [NPC57]
 Name=Lirenn <Herrera>
-Desc=¡Bienvenidos a mi Forja! Aqui, la destreza elfa te protegerá con las mejores armaduras y escudos.
+Desc=Benvenuti nella mia fucina! Qui, l'abilità ELF ti proteggerà con le migliori armature e scudi.
 DescClose=¡Hasta luego!
 Body=6184
 Head=0
@@ -5401,7 +5670,7 @@ NoMapInfo=1
 
 [NPC58]
 Name=Stavros <Locandiere>
-Desc=Ey, tu! Noto en tu mirada que necesitas algo fresco. ¡Has llegado al lugar correcto!
+Desc=Ei, tu! Noto nel tuo sguardo che hai bisogno di qualcosa di nuovo. Hai raggiunto il posto giusto!
 Body=6256
 Head=0
 NpcType=0
@@ -5414,7 +5683,7 @@ NoMapInfo=1
 
 [NPC59]
 Name=Ines <Cuoca>
-Desc=¡Hola! Ven a ver estos productos, sólo aquí conseguirás las mejores provisiones de todas estas tierras.
+Desc=Ciao! Vieni a vedere questi prodotti, solo qui otterrai le migliori disposizioni di tutte queste terre.
 DescClose=¡Hasta pronto!
 Body=6241
 Head=0
@@ -5428,7 +5697,7 @@ NoMapInfo=1
 
 [NPC74]
 Name=Zonrie <Arghal Sgercero>
-Desc=¡Tengo una gran variedad de hechizos!
+Desc=Ho un'ampia varietà di incantesimi!
 DescClose=¡Que la magia te acompañe!
 Body=901
 Head=118
@@ -5597,7 +5866,7 @@ Obj3=161-100
 
 [NPC101]
 Name=DAENA <pvisiones>
-Desc=¡Bienvenido a mi huerta! Tengo las mejores frutas de la zona. No podrás encontrarlas de mejor calidad.
+Desc=Benvenuti nel mio giardino! Ho i migliori frutti della zona. Non sarai in grado di trovarli di qualità migliore.
 DescClose=¡Hasta luego!
 Body=6152
 Head=0
@@ -5613,7 +5882,7 @@ NoMapInfo=1
 
 [NPC102]
 Name=Mildred <Strega>
-Desc=¡Bienvenido a mi tienda! Ofrezco los hechizos básicos de este mundo.
+Desc=Benvenuti nel mio negozio! Offro gli incantesimi base di questo mondo.
 Body=6101
 Head=0
 BodyIdle=6101
@@ -5650,7 +5919,7 @@ Obj3=138-1
 
 [NPC105]
 Name=Durrotha <Mercader>
-Desc=¡Hola! Estoy interesado en todo tipo de productos.
+Desc=Ciao! Sono interessato a tutti i tipi di prodotti.
 Body=6142
 Head=0
 BodyIdle=6142
@@ -8735,7 +9004,7 @@ PuedeInvocar=1
 
 [NPC685]
 Name=Grakka <Alchimista>
-Desc=Con mis pociones, la raza Orca dominará este Mundo.
+Desc=Con le mie pozioni, la razza Orca dominerà questo mondo!
 Body=6254
 NpcType=0
 Comercia=1
@@ -10789,7 +11058,7 @@ MinHIT=35
 
 [NPC993]
 Name=ISEN <Abbigliamento invernale>
-Desc=¡Haz tu compra antes de que el invierno nos atrape!
+Desc=Fai il tuo acquisto prima che l'inverno ci catturasse!
 Body=488
 Head=0
 NpcType=0
@@ -11290,7 +11559,7 @@ MinHIT=0
 
 [NPC1038]
 Name=Van <Alchimista Iniziale>
-Desc=¡Bienvenido! Tengo un producto muy especial para tus aventuras.
+Desc=Benvenuti! Ho un prodotto davvero speciale per le vostre avventure.
 Body=6122
 Head=0
 BodyIdle=6123
@@ -11306,7 +11575,7 @@ CambioAIdle=10
 
 [NPC1039]
 Name=Sven <Sarto Polare>
-Desc=¡Las mejores vestimentas que podrás conseguir!
+Desc=I vestiti migliori che puoi ottenere!
 Body=406
 Head=0
 NpcType=0
@@ -11772,7 +12041,7 @@ ORO=20
 
 [NPC1080]
 Name=Rethor <Sarto>
-Desc=¡Las mejores telas, no tienes nada que perder con estos precios!
+Desc=I migliori tessuti, non hai nulla da perdere con questi prezzi!
 DescClose=¡Que lo disfrutes!
 Body=6193
 Head=0
@@ -11855,7 +12124,7 @@ Obj3=1665-1
 
 [NPC1086]
 Name=Halving <Falegname>
-Desc=¡Bienvenido! Trabajo todo tipo de leña. ¿En qué puedo ayudarte?
+Desc=Benvenuto! Lavoro tutti i tipi di legna da ardere. Cosa posso aiutarti?
 Body=6102
 Head=0
 BodyIdle=6102
@@ -11881,7 +12150,7 @@ Obj3=515-1
 
 [NPC1088]
 Name=Cormac <Pescatore>
-Desc=¡El mar tiene tanto por ofrecer! Revisa mis herramientas, puede que haya algo que te sirva.
+Desc=Il mare ha così tanto da offrire! Controlla i miei strumenti, potrebbe esserci qualcosa che ti serve.
 Body=6258
 NpcType=0
 Comercia=1
@@ -11930,7 +12199,7 @@ Obj3=1004-1
 
 [NPC1092]
 Name=Alberich <Anziano Arcano>
-Desc=¡Tengo una gran variedad de hechizos!
+Desc=Ho una vasta gamma di incantesimi!
 Body=6210
 Head=0
 NpcType=0
@@ -12247,7 +12516,7 @@ Obj3=1004-1
 
 [NPC1120]
 Name=Skabrot <Penthar Stregone>
-Desc=Mira estos hechizos, tal vez alguno pueda interesarte.
+Desc=Guarda questi incantesimi, forse alcuni potrebbero interessarti.
 Body=6239
 Head=0
 NpcType=0
@@ -12293,7 +12562,7 @@ ObJ3=2927-1
 
 [NPC1124]
 Name=Dominic <Armaiolo>
-Desc=¡Son mis ultimas armas, aprovéchalas!
+Desc=Sono le mie ultime armi, approfittane!
 DescClose=¡Hasta pronto!
 Body=6259
 Head=0
@@ -12307,7 +12576,7 @@ NoMapInfo=1
 
 [NPC1125]
 Name=Khyo <Fucina>
-Desc=Me quedan algunos objetos por vender antes de marcharme de aquí.
+Desc=Ho degli oggetti da vendere prima di partire qui!
 DescClose=¡Hasta pronto!
 Body=410
 Head=0
@@ -12332,7 +12601,7 @@ Obj3=1004-1
 
 [NPC1127]
 Name=Khadir <Hechicera> <Stregone>
-Desc=¡Todo lo referido a la Magia, en un solo lugar!
+Desc=Tutto si riferiva alla magia, in un posto!
 Body=430
 Head=0
 NpcType=0
@@ -12345,7 +12614,7 @@ NoMapInfo=1
 
 [NPC1128]
 Name=Nero <Armi>
-Desc=El único forjador de Armas en estas frías tierras.
+Desc=L'unica arma da fuoco in queste terre fredde.
 Body=400
 Head=0
 NpcType=0
@@ -12371,7 +12640,7 @@ NoMapInfo=1
 
 [NPC1130]
 Name=Therwina <Magia>
-Desc=¡Los mejores hechizos de este planeta, en un solo lugar!
+Desc=I migliori incantesimi su questo pianeta, in un posto!
 Body=453
 Head=0
 NpcType=0
@@ -12384,7 +12653,7 @@ NoMapInfo=1
 
 [NPC1131]
 Name=Galvinga <Falegname>
-Desc=Te ofrezco una herramienta ideal para la zona élfica.
+Desc=Ti offro uno strumento ideale per l'area sfuggente
 Body=442
 Head=0
 NpcType=0
@@ -12397,7 +12666,7 @@ NoMapInfo=1
 
 [NPC1132]
 Name=Marie <Herrera>
-Desc=¡Las mejores Armas y Armaduras para tus travesías!
+Desc=Le migliori armi e armature per i tuoi viaggi!
 Body=441
 Head=0
 NpcType=0
@@ -12527,7 +12796,7 @@ MinHIT=75
 
 [NPC1142]
 Name=Baradh <Minatore>
-Desc=Las mejores herramientas para obtener minerales.
+Desc=I migliori strumenti per ottenere minerali.
 Body=1339
 Head=564
 NpcType=0
@@ -12539,7 +12808,7 @@ Obj3=390-1000
 
 [NPC1143]
 Name=Fenrir <Magia>
-Desc=¡Tengo gran variedad de Objetos Mágicos destinados al combate!
+Desc=Ho un'ampia varietà di Oggetti Magici adatti al combattimento!
 Body=408
 Head=0
 NpcType=0
@@ -12882,7 +13151,7 @@ NpcType=17
 
 [NPC1180]
 Name=Thaldris <Incantatrice>
-Desc=¡Tengo gran variedad de Objetos Mágicos destinados al combate!
+Desc=Ho un'ampia varietà di oggetti magici destinati al combattimento!
 Body=6156
 Head=0
 BodyIdle=6156
@@ -12897,7 +13166,7 @@ NoMapInfo=1
 
 [NPC1181]
 Name=Brunno <Sarto>
-Desc=¡Las mejores vestimentas que podrás conseguir!
+Desc=I migliori abiti che puoi ottenere!
 Body=6183
 Head=0
 BodyIdle=6183
@@ -12912,7 +13181,7 @@ NoMapInfo=1
 
 [NPC1182]
 Name=Grelka <Alchimista>
-Desc=¡Bienvenido! ¿Estás por viajar? Aquí encontrarás las mejores pociones.
+Desc=Benvenuto! Stai per viaggiare? Qui troverai le migliori pozioni.
 DescClose=¡Mas vale salir prevenidos!
 Body=6128
 Head=0
@@ -12929,7 +13198,7 @@ CambioAIdle=10
 
 [NPC1183]
 Name=Dwalin <Disposizioni>
-Desc=¡Hola! Ven a ver estos productos, sólo aquí conseguirás las mejores provisiones de todas estas tierras.
+Desc=Ciao! Vieni a vedere questi prodotti, solo qui otterrai le migliori disposizioni di tutte queste terre.
 DescClose=¡Hasta pronto!
 Body=6159
 Head=0
@@ -12953,7 +13222,7 @@ NoMapInfo=1
 
 [NPC1185]
 Name=Korinh <Mercante>
-Desc=¡Hola, bienvenido a mi tienda! Estoy interesado en todo tipo de productos. No olvides de pasar de vez en cuando, puede que mañana ya hayan comprado lo que estabas buscando!
+Desc=Ciao, benvenuto nel mio negozio! Sono interessato a tutti i tipi di prodotti. Non dimenticare di passare di tanto in tanto, domani potrebbero già aver comprato quello che stavi cercando!
 Body=6098
 Head=0
 BodyIdle=6098
@@ -12967,7 +13236,7 @@ NoMapInfo=1
 
 [NPC1186]
 Name=Grum <Fabbro Tenace>
-Desc=¡Bienvenidos a mi Forja!
+Desc=Benvenuti nella mia Forgia!
 DescClose=¡Hasta pronto!
 Body=5832
 NpcType=0
@@ -12980,7 +13249,7 @@ NoMapInfo=1
 
 [NPC1187]
 Name=Thrain <Martello Instancabile>
-Desc=¡Consigue aqui, solo lo mejor!
+Desc=Prendi solo il meglio qui!
 Body=6083
 Head=0
 BodyIdle=6082
@@ -13593,7 +13862,7 @@ NoMapInfo=1
 
 [NPC1247]
 Name=Said <Falegname>
-Desc=Quedan pocos arboles en esta zona..
+Desc=Pochi alberi rimangono in quest'area ..
 Body=607
 Head=323
 NpcType=0
@@ -13618,7 +13887,7 @@ Obj3=36-10000
 
 [NPC1249]
 Name=Gaara <Magia>
-Desc=Puedo ofrecerte algunos instrumentos mágicos
+Desc=Posso offrirti alcuni strumenti magici
 Body=619
 Head=401
 NpcType=0
@@ -13881,7 +14150,7 @@ NoMapInfo=1
 
 [NPC1273]
 Name=Pothir <Perdhat Alchemist>
-Desc=Hola! Bienvenido a mi cabaña. Tengo a la venta la mas amplia gama de pociones para tu viaje.
+Desc=Ciao! Benvenuti nella mia cabina. Ho in vendita la più ampia gamma di pozioni per il tuo viaggio.
 Body=6130
 Head=0
 BodyIdle=6131
@@ -13897,7 +14166,7 @@ CambioAIdle=10
 
 [NPC1274]
 Name=Pandora <Sorceress>
-Desc=¡Soy experta en las Artes Arcanas! Prueba mis productos, tendrás un gran beneficio mágico!
+Desc=Sono un esperto nelle arti arcane! Prova i miei prodotti, avrai un grande vantaggio magico!
 Body=454
 Head=0
 NpcType=0
@@ -13910,7 +14179,7 @@ NoMapInfo=1
 
 [NPC1275]
 Name=Eurydice <Sorceress>
-Desc=¡Bienvenido a mi Tienda! ¡Poseo los pergaminos arcanos mas buscados por los jovenes hechiceros de este mundo!
+Desc=Benvenuti nel mio negozio! Ho le pergamene arcan più ricercate dai giovani stregoni di questo mondo!
 Body=457
 Head=0
 NpcType=0
@@ -13923,7 +14192,7 @@ NoMapInfo=1
 
 [NPC1276]
 Name=Adelle <Gestore della taverna>
-Desc=Si lo que buscás es algo fresco, estás en el lugar indicado! ¿Qué quieres tomar?
+Desc=Se quello che stai cercando è qualcosa di fresco, sei nel posto giusto! Cosa vuoi prendere?
 Body=46
 Head=727
 NpcType=0
@@ -13947,7 +14216,7 @@ Obj3=138-1
 
 [NPC1278]
 Name=Oshurk <Carpenter>
-Desc=¡Bienvenido a la carpintería de Forgat!
+Desc=Benvenuti nella carpenteria di perdonazione!
 Body=6201
 Head=0
 BodyIdle=6201
@@ -13962,7 +14231,7 @@ NoMapInfo=1
 
 [NPC1279]
 Name=Hilda <Provviste>
-Desc=¡Vendo una gran variedad de provisiones!
+Desc=Vendo un'ampia varietà di disposizioni!
 Body=2250
 Head=57
 NpcType=0
@@ -14550,7 +14819,7 @@ NpcType=17
 
 [NPC1340]
 Name=Ferrut <Sarto>
-Desc=Estamos muy lejos de las grandes ciudades, esto es lo mejor que te puedo ofrecer
+Desc=Siamo molto lontani dalle grandi città, questa è la cosa migliore che posso offrirti
 Body=427
 Head=0
 NpcType=0
@@ -14563,7 +14832,7 @@ NoMapInfo=1
 
 [NPC1341]
 Name=Erindhir <Sarto>
-Desc=Las mejores telas en la mejor ciudad, nada que perder con estos precios.
+Desc=I migliori tessuti nella migliore città, niente da perdere con questi prezzi.
 Body=6194
 Head=0
 BodyIdle=6194
@@ -14592,7 +14861,7 @@ Obj3=161-100
 
 [NPC1343]
 Name=Thessalio <Alchimista>
-Desc=Tengo a la venta la mas amplia gama de pociones para tu viaje.
+Desc=Ho in vendita la più ampia gamma di pozioni per il tuo viaggio.
 Body=6120
 Head=0
 BodyIdle=6121
@@ -14608,7 +14877,7 @@ CambioAIdle=10
 
 [NPC1344]
 Name=Erevan <strobous>
-Desc=¡Soy experta en las Artes Arcanas! Prueba mis productos, tendrás un gran beneficio mágico!
+Desc=Sono un esperto nelle arti arcane! Prova i miei prodotti, avrai un grande vantaggio magico!
 Body=2027
 Head=158
 NpcType=0
@@ -14620,7 +14889,7 @@ Obj3=540-1
 
 [NPC1345]
 Name=Thalin <Eldoria Stregone>
-Desc=¡Bienvenido a mi Tienda! ¡Poseo los pergaminos arcanos mas buscados por los hechiceros de este mundo!
+Desc=Benvenuti nel mio negozio! Ho le pergamene arcan più ricercate dagli stregoni di questo mondo!
 Body=6236
 Head=0
 NpcType=0
@@ -14633,7 +14902,7 @@ NoMapInfo=1
 
 [NPC1346]
 Name=Josephelf <Merchant>
-Desc=¡Hola! Estoy interesado en todo tipo de productos
+Desc=Ciao! Sono interessato a tutti i tipi di prodotti
 Body=14
 Head=109
 NpcType=0
@@ -15813,7 +16082,7 @@ NoMapInfo=1
 
 [NPC1511]
 Name=Cleff <Stregone di Banderbill>
-Desc=¡Tengo gran variedad de hechizos!
+Desc=Ho una grande varietà di incantesimi!
 Body=6238
 Head=0
 NpcType=0
@@ -15965,7 +16234,7 @@ NpcType=1
 
 [NPC1561]
 Name=Ligno <Stregone di Arkhein>
-Desc=Tengo gran variedad de hechizos!
+Desc=Ho una grande varietà di incantesimi!
 Body=6237
 Head=0
 NpcType=0
@@ -16549,7 +16818,7 @@ NoMapInfo=1
 
 [NPC1812]
 Name=Mhor <Fabbro Vichingo>
-Desc=Un flacucho como tú necesita un buen acero allí fuera.
+Desc=Un rammollito come te ha bisogno di un buon acciaio là fuori.
 DescClose=¡Hasta pronto!
 Body=6081
 Head=0
@@ -16565,7 +16834,7 @@ CambioAIdle=10
 
 [NPC1813]
 Name=Heracio <Maestro Fabbro>
-Desc=Un flacucho como tú necesita un buen acero allí fuera.
+Desc=Un rammollito come te ha bisogno di un buon acciaio là fuori.
 DescClose=¡Hasta pronto!
 Body=6089
 Head=0
@@ -17265,12 +17534,11 @@ Nombre=Invisibilità Minore
 Desc=Rende invisibile il bersaglio. L'effetto non è permanente.
 HechizeroMsg=Hai lanciato Invisibilità Minore su
 TargetMsg=ha lanciato Invisibilità Minore su di te.
-PROPIOMSG=Te has vuelto invisible.
+PROPIOMSG=Sei diventato invisibile.
 MinSkill=63
 ManaRequerido=400
 StaRequerido=150
 IconoIndex=35734
-PropioMsg=Sei diventato invisibile.
 
 [HECHIZO25]
 Nombre=Paralizar
@@ -20358,7 +20626,6 @@ ObjType=2
 MinHit=3
 MaxHit=5
 Valor=800
-Texto=Para combatir contra criaturas y usuarios
 LingH=20
 SkHerreria=25
 
@@ -20463,7 +20730,6 @@ SkHerreria=0
 LingH=3
 LingP=0
 LingO=0
-Texto=Daño 1/2
 
 [OBJ16]
 Name=Puerta abierta
@@ -20584,7 +20850,6 @@ ObjType=3
 MaxDef=11
 MinDef=7
 Valor=1350
-Texto=Defensa 7/11
 
 [OBJ31]
 Name=Árbol Pino
@@ -20617,7 +20882,6 @@ SKSastreria=2
 PielLobo=1
 PielOsoPardo=0
 PielOsoPolar=0
-Texto=Vestimenta Común
 
 [OBJ33]
 GrhIndex=504
@@ -20625,9 +20889,8 @@ MaxHit=3
 MinHit=1
 Name=Spada
 ObjType=2
-Texto=Para combatir contra criaturas y usuarios
+Texto=Per combattere contro creature e utenti
 Valor=360
-texto=Per combattere contro creature e utenti
 
 [OBJ34]
 GrhIndex=28852
@@ -20660,7 +20923,6 @@ SKSastreria=2
 PielLobo=1
 PielOsoPardo=0
 PielOsoPolar=0
-Texto=Vestimenta Común
 
 [OBJ36]
 Name=Pozione di agilità
@@ -20668,7 +20930,6 @@ texto=Aumenta la tua agilità tra 2 e 4 punti
 GrhIndex=28751
 ObjType=11
 Valor=36
-Texto=Aumenta tu agilidad entre 2 y 4 puntos
 
 [OBJ37]
 Name=Pozione di Maná
@@ -20676,7 +20937,6 @@ texto=Ripristina il 5% del tuo mana
 GrhIndex=28754
 ObjType=11
 Valor=20
-Texto=Restaura un 5% de tu maná
 
 [OBJ38]
 Name=Pozione di vita
@@ -20684,7 +20944,6 @@ texto=Ripristina 27 punti di vita
 GrhIndex=28748
 ObjType=11
 Valor=24
-Texto=Restaura 27 puntos de vida
 
 [OBJ39]
 Name=Forzare la pozione
@@ -20692,7 +20951,6 @@ texto=Aumenta la tua forza tra 2 e 5 punti
 GrhIndex=28752
 ObjType=11
 Valor=32
-Texto=Aumenta tu fuerza entre 2 y 5 puntos
 
 [OBJ40]
 Name=Flauta Élfica
@@ -20829,7 +21087,6 @@ ObjType=3
 MaxDef=7
 MinDef=4
 Valor=820
-Texto=Traje de Duque
 
 [OBJ56]
 Name=Abito duchessa
@@ -20851,7 +21108,6 @@ ObjType=3
 MaxDef=7
 MinDef=4
 Valor=820
-Texto=Vestido de Duquesa
 
 [OBJ57]
 Name=Orbe de la Ponzoña
@@ -20875,7 +21131,7 @@ Agarrable=1
 Texto=Árbol
 
 [OBJ60]
-Name=Camiseta de la Selección Argentina
+Name=Maglia della nazionale argentina
 GrhIndex=617
 RopajeHumano=304
 RopajeElfo=304
@@ -20893,12 +21149,10 @@ ObjType=3
 MAXDEF=0
 MINDEF=0
 Valor=0
-Texto=¡Alenta a la Selección!
-name=Maglia della nazionale argentina
-texto=Fai il tifo per la nazionale!
+Texto=Fai il tifo per la nazionale!
 
 [OBJ61]
-Name=Camiseta de la Selección Argentina
+Name=Maglia della nazionale argentina
 GrhIndex=3527
 RopajeHumano=95
 RopajeElfo=95
@@ -20916,20 +21170,16 @@ ObjType=3
 MAXDEF=0
 MINDEF=0
 Valor=0
-Texto=¡Alenta a la Selección!
-name=Maglia della nazionale argentina
-texto=Fai il tifo per la nazionale!
+Texto=Fai il tifo per la nazionale!
 
 [OBJ62]
-Name=Gorro de Argentina
+Name=Cappello argentino
 GrhIndex=615
 ObjType=17
 MAXDEF=0
 MINDEF=0
 Valor=0
-Texto=¡Alenta a la Selección!
-name=Cappello argentino
-texto=Fai il tifo per la nazionale!
+Texto=Fai il tifo per la nazionale!
 
 [OBJ63]
 Name=Fogata
@@ -21390,7 +21640,6 @@ LingH=100
 LingP=0
 LingO=0
 SkHerreria=73
-Texto=Daño 8/12
 
 [OBJ124]
 Name=Katana
@@ -21404,7 +21653,6 @@ LingH=85
 LingP=110
 Lingo=0
 SkHerreria=93
-Texto=Daño 13/15
 
 [OBJ125]
 Name=Pozione nera
@@ -21412,11 +21660,10 @@ texto=Muori quando lo consumi. Utile per casi drastici.
 GrhIndex=55359
 ObjType=11
 Valor=1500
-Texto=Mueres al consumirla. Útil para casos drásticos.
 
 [OBJ126]
 Name=Spada d'argento
-Texto=Daño 13/19
+Texto=Danno 13/19
 GrhIndex=713
 ObjType=2
 Valor=19200
@@ -21425,7 +21672,6 @@ LingH=140
 LingP=220
 MaxHit=19
 MinHit=13
-texto=Danno 13/19
 
 [OBJ127]
 Name=Lumberjack Ax
@@ -21433,7 +21679,6 @@ texto=Strumento di registrazione
 GrhIndex=52002
 ObjType=18
 Valor=600
-Texto=Herramienta de tala
 
 [OBJ128]
 Name=Yacimiento de Blodium
@@ -21464,7 +21709,7 @@ Info=Yacimiento De Blodium
 
 [OBJ131]
 Name=Zafiro Sword
-Texto=Daño 13/18
+Texto=Danno 13/18
 GrhIndex=86206
 ObjType=2
 Valor=18600
@@ -21473,7 +21718,6 @@ LingH=130
 LingP=220
 MaxHit=18
 MinHit=13
-texto=Danno 13/18
 
 [OBJ132]
 Name=Casco di Ferro Completo
@@ -21487,11 +21731,10 @@ LingP=40
 LingO=0
 SkHerreria=73
 Valor=7500
-Texto=Defensa 17/20
 
 [OBJ133]
 Name=Aurora
-Texto=Daño 12/15
+Texto=Danno 12/15
 GrhIndex=36521
 ObjType=2
 Valor=12000
@@ -21500,7 +21743,6 @@ LingH=85
 LingP=110
 MaxHit=15
 MinHit=12
-texto=Danno 12/15
 
 [OBJ134]
 Name=Herradura de Mula
@@ -21547,7 +21789,6 @@ Name=Spada dell'Abisso
 texto=Danno 13/17
 ObjType=2
 SkHerreria=100
-Texto=Daño 13/17
 Valor=17400
 
 [OBJ138]
@@ -21556,7 +21797,6 @@ texto=Strumento di pesca, utilizzabile solo ad Altamar.
 GrhIndex=52140
 ObjType=18
 Valor=15000
-Texto=Herramienta de pesca, solo utilizable en altamar.
 CD=30000
 CDTYPE=5
 
@@ -21707,7 +21947,6 @@ LingH=110
 LingP=0
 LingO=0
 SkHerreria=73
-Texto=Daño 9/14
 
 [OBJ160]
 Name=Cerveza
@@ -21751,7 +21990,6 @@ LingH=85
 LingP=0
 LingO=0
 SkHerreria=45
-Texto=Arma corta con chance de Apuñalar
 
 [OBJ165]
 Name=Dagger +1
@@ -21765,7 +22003,6 @@ LingH=30
 LingP=0
 LingO=0
 SkHerreria=15
-Texto=Daño 1/3
 
 [OBJ166]
 Name=Antidoto
@@ -21773,7 +22010,6 @@ texto=Guarisce il veleno dell'utente che lo consuma.
 GrhIndex=28750
 ObjType=11
 Valor=30
-Texto=Cura el veneno del usuario que la consume.
 
 [OBJ167]
 Name=Sillon
@@ -21794,7 +22030,6 @@ texto=Ripristina tra 5 e 15 punti energetici.
 GrhIndex=28753
 ObjType=11
 Valor=26
-Texto=Restaura entre 5 y 15 puntos de energía.
 
 [OBJ170]
 Name=Ropaje de Batida (Mujer)
@@ -21941,7 +22176,6 @@ texto=Strumento necessario per minare
 GrhIndex=52001
 ObjType=18
 Valor=600
-Texto=Herramienta necesaria para minar
 
 [OBJ188]
 Name=Yacimiento de Hierro
@@ -22026,7 +22260,6 @@ ObjType=3
 MaxDef=7
 MinDef=5
 Valor=900
-Texto=Defensa 5/7
 SKSastreria=25
 PielLobo=70
 PielOsoPardo=0
@@ -22042,7 +22275,6 @@ MinHit=0
 MaxHIT=0
 MinDef=0
 MaxDef=0
-Texto=Te permite nadar cerca de las costas.
 
 [OBJ198]
 Name=Sega
@@ -22052,7 +22284,6 @@ ObjType=18
 Valor=12000
 LingH=14
 SkHerreria=12
-Texto=Herramienta de carpintería
 
 [OBJ199]
 Name=Tuta di gomma speciale
@@ -22063,7 +22294,6 @@ ObjType=31
 Valor=20000
 MinDef=0
 MaxDef=0
-Texto=Te permite caminar en aguas contaminadas.
 
 [OBJ200]
 GrhIndex=579
@@ -22084,11 +22314,10 @@ GrhIndex=0
 
 [OBJ203]
 Name=Picchetto dei minatori
-Texto=Herramienta de extracción de yacimiento.
+Texto=Strumento di estrazione dei depositi.
 GrhIndex=52001
 ObjType=18
 Valor=1800
-texto=Strumento di estrazione dei depositi.
 
 [OBJ204]
 Name=Cofre de Hechizos Legendarios
@@ -22151,7 +22380,6 @@ GrhIndex=49194
 Name=Antidoto (P)
 texto=Guarisce il veleno dell'utente che lo consuma.
 ObjType=11
-Texto=Cura el veneno del usuario que la consume.
 Valor=18
 
 [OBJ213]
@@ -22314,7 +22542,6 @@ ObjType=3
 MaxDef=10
 MinDef=8
 Valor=1350
-Texto=Defensa 8/10
 
 [OBJ239]
 Name=Cassa di rifornimenti
@@ -22347,7 +22574,6 @@ SKSastreria=0
 PielLobo=7
 PielOsoPardo=0
 PielOsoPolar=0
-Texto=Vestimenta Verde
 
 [OBJ241]
 Name=Puerta abierta
@@ -23217,7 +23443,6 @@ ObjType=3
 MaxDef=19
 MinDef=15
 Valor=3900
-Texto=Defensa 15/19
 
 [OBJ360]
 Name=Hunter Armor
@@ -23241,7 +23466,6 @@ ObjType=3
 MaxDef=25
 MinDef=23
 Valor=7500
-Texto=Defensa 23/25
 
 [OBJ361]
 Name=Ascia ammissibile
@@ -23249,7 +23473,6 @@ texto=Necessario tagliare legna da ardere.
 GrhIndex=44361
 ObjType=18
 Valor=3000
-Texto=Necesaria para talar leña élfica.
 
 [OBJ362]
 Name=Tambor
@@ -23266,7 +23489,6 @@ ObjType=18
 Valor=6000
 LingH=20
 SkHerreria=18
-Texto=Herramienta necesaria para minar en yacimientos de oro
 
 [OBJ364]
 GrhIndex=0
@@ -23279,13 +23501,12 @@ ObjType=2
 MinHit=2
 MaxHit=5
 Valor=5700
-Texto=Daño 2/5
 LingH=95
 SkHerreria=50
 
 [OBJ366]
 Name=Pugnale +3
-Texto=Daño 3/6
+Texto=Danno 3/6
 GrhIndex=35792
 ObjType=2
 Valor=12600
@@ -23297,11 +23518,10 @@ MinHit=3
 MAXARMORPENETRATIONFLAT=10
 MINARMORPENETRATIONFLAT=5
 EXTRACRITANDSTABCHANCE=5
-texto=Danno 3/6
 
 [OBJ367]
 Name=Pugnale +4
-Texto=Daño 4/7
+Texto=Danno 4/7
 GrhIndex=8493
 ObjType=2
 Valor=18000
@@ -23313,7 +23533,6 @@ MinHit=4
 MAXARMORPENETRATIONFLAT=10
 MINARMORPENETRATIONFLAT=5
 EXTRACRITANDSTABCHANCE=10
-texto=Danno 4/7
 
 [OBJ368]
 Name=Lápida
@@ -23430,7 +23649,6 @@ ObjType=3
 MaxDef=8
 MinDef=6
 Valor=1200
-Texto=Defensa 6/8
 PIELLOBO=65
 SkSastreria=25
 
@@ -23497,11 +23715,10 @@ Texto=Herramienta obsoleta
 
 [OBJ390]
 Name=Herrero Hammer
-Texto=Herramienta necesaria para forjar items
+Texto=Strumento necessario per forgiare gli articoli
 GrhIndex=38135
 ObjType=18
 Valor=10000
-texto=Strumento necessario per forgiare gli articoli
 
 [OBJ391]
 Name=Bastón de los Elementos
@@ -23546,7 +23763,7 @@ Texto=Los movimientos del objetivo pasan a ser lentos.
 
 [OBJ398]
 Name=Maestro Sciabola
-Texto=Daño 10/16
+Texto=Danno 10/16
 GrhIndex=37844
 ObjType=2
 Valor=10500
@@ -23555,7 +23772,6 @@ LingH=75
 LingP=100
 MaxHit=16
 MinHit=10
-texto=Danno 10/16
 
 [OBJ399]
 Name=Scimitarra
@@ -23568,11 +23784,10 @@ MaxHit=14
 Valor=11400
 LingH=90
 SkHerreria=73
-Texto=Daño 9/14
 
 [OBJ400]
 Name=Falcata
-Texto=Daño 12/16
+Texto=Danno 12/16
 GrhIndex=1207
 ObjType=2
 Valor=16800
@@ -23581,7 +23796,6 @@ LingH=145
 LingP=190
 MaxHit=16
 MinHit=12
-texto=Danno 12/16
 
 [OBJ401]
 GrhIndex=44037
@@ -23591,9 +23805,8 @@ MinHit=6
 Name=Ascia di pietra
 ObjType=2
 SkHerreria=25
-Texto=Daño 6/9
+Texto=Danno 6/9
 Valor=2400
-texto=Danno 6/9
 
 [OBJ402]
 Name=Spada dell'uccisore di draghi
@@ -23607,7 +23820,6 @@ LingH=500
 LingP=400
 LingO=250
 SkHerreria=100
-Texto=Único instrumento para acabar con el Gran Dragón.
 
 [OBJ403]
 Name=Espada de Héroes
@@ -24081,7 +24293,6 @@ SKSastreria=2
 PielLobo=1
 PielOsoPardo=0
 PielOsoPolar=0
-Texto=Vestimenta básica
 
 [OBJ464]
 GrhIndex=55486
@@ -24176,7 +24387,6 @@ GrhIndex=4547
 ObjType=31
 Madera=20000
 Valor=240000
-Texto=Requiere nivel 25. Se compra en los muelles o se fabrica con Carpintería 73.
 
 [OBJ475]
 Name=Cambusa
@@ -24190,7 +24400,6 @@ MinHit=5
 MaxHit=10
 MinDef=5
 MaxDef=10
-Texto=Requiere nivel 33. Exclusiva de Piratas y pescadores de oficio. Se compra en los muelles o se fabrica con Carpintería 93.
 
 [OBJ476]
 Name=Galeón
@@ -24243,7 +24452,6 @@ Valor=600
 Madera=200
 Proyectil=1
 Municiones=1
-Texto=Daño 1/3
 
 [OBJ480]
 Name=Freccia
@@ -24254,7 +24462,6 @@ MinHit=1
 MaxHit=4
 Valor=3
 Madera=1
-Texto=Daño 1/4
 
 [OBJ481]
 Name=Armadura de Dragón Rojo
@@ -24404,7 +24611,6 @@ Texto=Puerta abierta
 [OBJ495]
 Name=Armatura scarlatta
 texto=Difesa 34/38
-Texto=Defensa 34/38
 GrhIndex=1466
 RopajeHumano=48
 RopajeElfo=48
@@ -24429,7 +24635,7 @@ SkHerreria=100
 
 [OBJ496]
 Name=Armatura leggera
-Texto=Defensa 31/35
+Texto=Difesa 31/35
 GrhIndex=3505
 ObjType=3
 Valor=19800
@@ -24450,7 +24656,6 @@ RopajeHumana=2171
 RopajeHumano=262
 RopajeOrca=3237
 RopajeOrco=1306
-texto=Difesa 31/35
 
 [OBJ497]
 Name=Armadura de la Tiniebla
@@ -24645,7 +24850,6 @@ ObjType=3
 MaxDef=17
 MinDef=13
 Valor=3900
-Texto=Defensa 13/17
 PIELOSOPARDO=43
 SkSastreria=45
 RopajeElfa=2246
@@ -24666,11 +24870,10 @@ GrhIndex=0
 
 [OBJ512]
 Name=La Scheggia Lunare
-Texto=Fragmento lunar arrancado del dragón negro.
+Texto=Frammento lunare strappato al drago nero.
 GrhIndex=38141
 ObjType=100
 Valor=0
-texto=Frammento lunare strappato al drago nero.
 
 [OBJ513]
 Name=Vestido de Bruja (H/E/EO-M)
@@ -24720,7 +24923,6 @@ SKSastreria=2
 PielLobo=1
 PielOsoPardo=0
 PielOsoPolar=0
-Texto=Vestimenta Común
 
 [OBJ516]
 Name=Puerta abierta
@@ -24778,7 +24980,6 @@ RopajeGnoma=2597
 ObjType=3
 MaxDef=32
 MinDef=28
-Texto=Defensa 28/32
 Valor=18000
 SkSastreria=100
 PielLobo=45
@@ -24807,7 +25008,6 @@ ObjType=3
 MaxDef=17
 MinDef=13
 Valor=3900
-Texto=Defensa 13/17
 
 [OBJ521]
 Name=Árbol
@@ -24918,7 +25118,6 @@ ObjType=3
 MaxDef=21
 MinDef=19
 Valor=5400
-Texto=Defensa 19/21
 
 [OBJ531]
 Name=Tunica druida scura
@@ -25081,7 +25280,6 @@ ObjType=32
 MinHit=3
 MaxHit=4
 Valor=9
-Texto=Daño 3/4
 Madera=3
 
 [OBJ552]
@@ -25094,7 +25292,6 @@ MinHit=4
 MaxHit=5
 Valor=15
 MaderaElfica=2
-Texto=Daño 4/5
 
 [OBJ553]
 Name=Freccia +3
@@ -25106,7 +25303,6 @@ MinHit=3
 MaxHit=5
 Valor=12
 Madera=2
-Texto=Daño 3/5
 
 [OBJ554]
 Name=Sangre
@@ -25216,7 +25412,6 @@ ObjType=3
 MaxDef=4
 MinDef=2
 Valor=270
-Texto=Vestido de Marquesa
 RopajeElfa=2230
 RopajeElfaOscura=3687
 RopajeElfo=2230
@@ -25280,7 +25475,6 @@ Name=Fuoco artificiale i
 texto=Celebrare!
 GrhIndex=32456
 ObjType=11
-Texto=¡Festeja!
 Valor=1
 
 [OBJ581]
@@ -25288,7 +25482,6 @@ Name=Fuoco artificiale II
 texto=Celebrare!
 GrhIndex=32457
 ObjType=11
-Texto=¡Festeja!
 Valor=1
 
 [OBJ582]
@@ -25296,7 +25489,6 @@ Name=Fuoco artificiale III
 texto=Celebrare!
 GrhIndex=32458
 ObjType=11
-Texto=¡Festeja!
 Valor=1
 
 [OBJ583]
@@ -25304,7 +25496,6 @@ Name=Fuoco artificiale IV
 texto=Celebrare!
 GrhIndex=32459
 ObjType=11
-Texto=¡Festeja!
 Valor=1
 
 [OBJ584]
@@ -25312,7 +25503,6 @@ Name=Fire artificiale v
 texto=Celebrare!
 GrhIndex=32460
 ObjType=11
-Texto=¡Festeja!
 Valor=1
 
 [OBJ585]
@@ -25320,7 +25510,6 @@ Name=Fuoco artificiale VI
 texto=Celebrare!
 GrhIndex=32461
 ObjType=11
-Texto=¡Festeja!
 Valor=1
 
 [OBJ586]
@@ -25328,7 +25517,6 @@ Name=Fuoco artificiale VII
 texto=Celebrare!
 GrhIndex=32462
 ObjType=11
-Texto=¡Festeja!
 Valor=1
 
 [OBJ587]
@@ -25336,7 +25524,6 @@ Name=Fumo giallo
 texto=Celebrare!
 GrhIndex=32464
 ObjType=11
-Texto=¡Festeja!
 Valor=1
 
 [OBJ588]
@@ -25344,7 +25531,6 @@ Name=Bengala di fumo rosso
 texto=Celebrare!
 GrhIndex=32466
 ObjType=11
-Texto=¡Festeja!
 Valor=1
 
 [OBJ589]
@@ -25352,7 +25538,6 @@ Name=Bengala blu fumo
 texto=Celebrare!
 GrhIndex=32465
 ObjType=11
-Texto=¡Festeja!
 Valor=1
 
 [OBJ590]
@@ -25360,7 +25545,6 @@ Name=Bengala di fumo grigio
 texto=Celebrare!
 GrhIndex=32467
 ObjType=11
-Texto=¡Festeja!
 Valor=1
 
 [OBJ591]
@@ -25374,7 +25558,6 @@ Name=Bengala di fumo verde
 texto=Celebrare!
 GrhIndex=32468
 ObjType=11
-Texto=¡Festeja!
 Valor=1
 
 [OBJ594]
@@ -25382,7 +25565,6 @@ Name=Bengala fumo rosa
 texto=Celebrare!
 GrhIndex=32469
 ObjType=11
-Texto=¡Festeja!
 Valor=1
 
 [OBJ595]
@@ -25390,7 +25572,6 @@ Name=Black Smoke Bengal
 texto=Celebrare!
 GrhIndex=32471
 ObjType=11
-Texto=¡Festeja!
 Valor=1
 
 [OBJ596]
@@ -25398,7 +25579,6 @@ Name=Bengala di fumo arancione
 texto=Celebrare!
 GrhIndex=32470
 ObjType=11
-Texto=¡Festeja!
 Valor=1
 
 [OBJ597]
@@ -25425,7 +25605,6 @@ SkHerreria=100
 LingH=110
 LingP=60
 LingO=60
-Texto=Defensa 22/25
 
 [OBJ602]
 GrhIndex=0
@@ -25790,11 +25969,10 @@ GrhIndex=0
 
 [OBJ653]
 Name=Unicorno
-Texto=Te permite montar un Unicornio
+Texto=Ti permette di cavalcare un unicorno
 GrhIndex=32742
 ObjType=44
 Valor=2000000
-texto=Ti permette di cavalcare un unicorno
 
 [OBJ654]
 Name=Pendiente del Superviviente
@@ -25805,11 +25983,10 @@ Texto=Aumenta tu Skills en supervivencia 25 puntos.
 
 [OBJ655]
 Name=Monte dei topi
-Texto=Te permite montar una Rata
+Texto=Ti permette di cavalcare un Ratto
 GrhIndex=24694
 ObjType=44
 Valor=0
-texto=Ti permette di cavalcare un Ratto
 
 [OBJ656]
 Name=Lanza
@@ -25825,19 +26002,17 @@ Texto=Lanza
 
 [OBJ657]
 Name=Monte dell'Orso
-Texto=Te permite montar un Oso
+Texto=Ti permette di cavalcare un orso
 GrhIndex=1192
 ObjType=44
 Valor=15000
-texto=Ti permette di cavalcare un orso
 
 [OBJ658]
 Name=Cavalcatura Orso Corazzato
-Texto=Te permite montar un Oso
+Texto=Ti permette di cavalcare un orso
 GrhIndex=1193
 ObjType=44
 Valor=15000
-texto=Ti permette di cavalcare un orso
 
 [OBJ659]
 Name=MONTURA FUEGO
@@ -27308,7 +27483,6 @@ texto=Strumento di pesca di base
 GrhIndex=48908
 ObjType=18
 Valor=1200
-Texto=Herramienta básica de Pesca
 
 [OBJ882]
 GRHINDEX=0
@@ -27334,7 +27508,6 @@ texto=Strumento di sartoria
 GrhIndex=983
 ObjType=18
 Valor=6000
-Texto=Herramienta de Sastrería
 
 [OBJ887]
 Name=ALCHEMY POT
@@ -27344,7 +27517,6 @@ ObjType=18
 Valor=10000
 LingH=10
 SkHerreria=12
-Texto=Herramienta necesaria para crear pociones de Alquimia
 
 [OBJ888]
 Name=Raiz
@@ -27864,7 +28036,6 @@ ObjType=3
 MaxDef=2
 MinDef=1
 Valor=80
-Texto=Vestimenta de Aldeano
 
 [OBJ965]
 GrhIndex=0
@@ -28048,7 +28219,6 @@ ObjType=17
 MaxDef=7
 MinDef=5
 Valor=1800
-Texto=Defensa 5/7, aumenta un 3% tu Resistencia Mágica
 SkSastreria=73
 PielLoboNegro=28
 PielTigreBengala=3
@@ -28056,7 +28226,7 @@ PIELTIGRE=24
 
 [OBJ993]
 Name=Cappello da mago
-Texto=Defensa 8/10, aumenta un 5% tu Resistencia Mágica
+Texto=Difesa 8/10, la tua resistenza magica aumenta del 5%
 GrhIndex=17516
 ObjType=17
 Valor=3600
@@ -28064,7 +28234,6 @@ MaxDef=10
 MinDef=8
 SkSastreria=70
 PIELTIGRE=48
-texto=Difesa 8/10, la tua resistenza magica aumenta del 5%
 
 [OBJ994]
 GrhIndex=0
@@ -28113,7 +28282,6 @@ ObjType=3
 MaxDef=12
 MinDef=8
 Valor=1500
-Texto=Defensa 8/12
 
 [OBJ999]
 Name=Escudo Infernal
@@ -28310,7 +28478,6 @@ SemillasPros=1
 FRASCOALQ=1
 MORTERO=1
 Hechizo=289
-Texto=Restaura entre 12 y 25 puntos de energía.
 
 [OBJ1020]
 Name=Máscara Locomia
@@ -28675,7 +28842,7 @@ Texto=Casco Sajón de Bronce
 
 [OBJ1081]
 Name=Tunica GM
-Texto=Vestimenta de GM
+Texto=Abito GM
 GrhIndex=71
 ObjType=3
 Valor=0
@@ -28693,7 +28860,6 @@ RopajeHumana=2101
 RopajeHumano=144
 RopajeOrca=3151
 RopajeOrco=1112
-texto=Abito GM
 
 [OBJ1082]
 GrhIndex=0
@@ -28754,7 +28920,6 @@ ObjType=3
 MaxDef=17
 MinDef=15
 Valor=4200
-Texto=Defensa 15/17
 SkSastreria=73
 PielLobo=70
 PIELOSOPARDO=46
@@ -28844,7 +29009,7 @@ Texto=Danno 7/15
 
 [OBJ1098]
 Name=Piatti di Gala
-Texto=Defensa 28/30
+Texto=Difesa 28/30
 GrhIndex=3502
 ObjType=3
 Valor=12300
@@ -28865,11 +29030,10 @@ RopajeHumana=2164
 RopajeHumano=255
 RopajeOrca=3230
 RopajeOrco=1299
-texto=Difesa 28/30
 
 [OBJ1099]
 Name=Armatura a piastra
-Texto=Defensa 25/27
+Texto=Difesa 25/27
 GrhIndex=2604
 ObjType=3
 Valor=11400
@@ -28890,7 +29054,6 @@ RopajeHumana=2162
 RopajeHumano=253
 RopajeOrca=3228
 RopajeOrco=1297
-texto=Difesa 25/27
 
 [OBJ1100]
 Name=Armatura Branica
@@ -29243,7 +29406,6 @@ ObjType=3
 MaxDef=11
 MinDef=7
 Valor=1800
-Texto=Ropa de Minero
 
 [OBJ1143]
 GrhIndex=0
@@ -29764,7 +29926,6 @@ ObjType=17
 MaxDef=5
 MinDef=3
 Valor=900
-Texto=Defensa 3/5, aumenta tu Resistencia Mágica un 1%
 SkSastreria=40
 PIELLOBONEGRO=15
 
@@ -29788,7 +29949,6 @@ ObjType=3
 MaxDef=10
 MinDef=5
 Valor=None
-Texto=Defensa 5/10
 
 [OBJ1241]
 Name=Uniforme Legionario de Trabajador de 1ª Jerarquía (Bajos)
@@ -29843,7 +30003,6 @@ ObjType=3
 MaxDef=10
 MinDef=5
 Valor=None
-Texto=Defensa 5/10
 
 [OBJ1245]
 Name=Uniforme Imperial de Trabajador de 1ª Jerarquía (Bajos)
@@ -29868,7 +30027,7 @@ Texto=Uniforme Imperial de Trabajador de 1ª Jerarquía (Bajos)
 
 [OBJ1246]
 Name=War Ax Two Edges
-Texto=Daño 11/17
+Texto=Danno 11/17
 GrhIndex=44091
 ObjType=2
 Valor=13200
@@ -29877,7 +30036,6 @@ LingH=90
 LingP=120
 MaxHit=17
 MinHit=11
-texto=Danno 11/17
 
 [OBJ1247]
 GrhIndex=0
@@ -30002,7 +30160,6 @@ ObjType=3
 MaxDef=1
 MinDef=1
 Valor=30
-Texto=Vestimenta de Mujer
 RopajeElfa=2234
 RopajeElfaOscura=3691
 RopajeElfo=0
@@ -30027,7 +30184,6 @@ Valor=30
 PielLobo=2
 PielOsoPardo=0
 Sksastreria=10
-Texto=Vestimenta de Mujer
 RopajeElfa=2233
 RopajeElfaOscura=3690
 RopajeElfo=0
@@ -30093,7 +30249,6 @@ ObjType=17
 MinDef=6
 MaxDef=8
 Valor=1500
-Texto=Defensa 6/8
 LingH=25
 LingP=0
 LingO=0
@@ -30460,11 +30615,10 @@ Texto=Montura deprecada, intercambiala en Ullathorpe
 
 [OBJ1347]
 Name=Grifone Corazzato
-Texto=Te permite volar en un poderoso Grifo
+Texto=Ti permette di volare su un potente Grifone
 GrhIndex=38383
 ObjType=44
 Valor=15000
-texto=Ti permette di volare su un potente Grifone
 
 [OBJ1348]
 Name=Grifone da Guerra
@@ -30472,7 +30626,6 @@ texto=Ti permette di volare su un potente Grifone
 GrhIndex=38384
 ObjType=44
 Valor=15000
-Texto=Te permite volar en un poderoso Grifo
 
 [OBJ1349]
 Name=Montura Legionaria de Hechicero
@@ -30497,11 +30650,10 @@ Texto=Te permite cabalgar.
 
 [OBJ1352]
 Name=Grifone
-Texto=Te permite volar en un poderoso Grifo
+Texto=Ti permette di volare su un potente Grifone
 GrhIndex=38382
 ObjType=44
 Valor=10000
-texto=Ti permette di volare su un potente Grifone
 
 [OBJ1353]
 Name=Nudillo del Principiante
@@ -31403,7 +31555,6 @@ ObjType=3
 MaxDef=7
 MinDef=5
 Valor=40000
-Texto=Defensa 5/7
 
 [OBJ1494]
 GRHINDEX=0
@@ -31869,7 +32020,6 @@ ObjType=3
 MaxDef=10
 MinDef=7
 Valor=40000
-Texto=Defensa 7/10
 
 [OBJ1523]
 Name=Armadura de Clérigo del Caos de 2ª Jerarquía (Bajos)
@@ -31912,7 +32062,6 @@ ObjType=3
 MaxDef=9
 MinDef=6
 Valor=0
-Texto=Defensa 6/9
 
 [OBJ1525]
 Name=Túnica de Mago del Caos de 2ª Jerarquía (Bajos)
@@ -31954,7 +32103,6 @@ ObjType=3
 MaxDef=11
 MinDef=8
 Valor=0
-Texto=Defensa 8/11
 
 [OBJ1527]
 Name=Armadura de Guerrero del Caos de 2ª Jerarquía (Bajos)
@@ -31997,7 +32145,6 @@ ObjType=3
 MaxDef=10
 MinDef=7
 Valor=0
-Texto=Defensa 7/10
 
 [OBJ1529]
 Name=Armadura de Asesino del Caos de 2ª Jerarquía (Bajos)
@@ -32040,7 +32187,6 @@ ObjType=3
 MaxDef=9
 MinDef=6
 Valor=40000
-Texto=Defensa 6/9
 
 [OBJ1531]
 Name=Túnica de Bardo del Caos de 2ª Jerarquía (Bajos)
@@ -32083,7 +32229,6 @@ ObjType=3
 MaxDef=9
 MinDef=6
 Valor=0
-Texto=Defensa 6/9
 
 [OBJ1533]
 Name=Túnica de Druida del Caos de 2ª Jerarquía (Bajos)
@@ -32126,7 +32271,6 @@ ObjType=3
 MaxDef=10
 MinDef=7
 Valor=0
-Texto=Defensa 7/10
 
 [OBJ1535]
 Name=Armadura de Bandido del Caos de 2ª Jerarquía (Bajos)
@@ -32169,7 +32313,6 @@ ObjType=3
 MaxDef=11
 MinDef=8
 Valor=40000
-Texto=Defensa 8/11
 
 [OBJ1537]
 Name=Armadura de Paladín del Caos de 2ª Jerarquía (Bajos)
@@ -32212,7 +32355,6 @@ ObjType=3
 MaxDef=11
 MinDef=8
 Valor=0
-Texto=Defensa 8/11
 
 [OBJ1539]
 Name=Armadura de Cazador del Caos de 2ª Jerarquía (Bajos)
@@ -32729,7 +32871,6 @@ ObjType=3
 MaxDef=10
 MinDef=7
 Valor=0
-Texto=Defensa 7/10
 
 [OBJ1567]
 Name=Túnica de Clérigo Imperial de 2ª Jerarquía (Bajos)
@@ -32772,7 +32913,6 @@ ObjType=3
 MaxDef=9
 MinDef=6
 Valor=0
-Texto=Defensa 6/9
 
 [OBJ1569]
 Name=Túnica de Mago Imperial de 2ª Jerarquía (Bajos)
@@ -32815,7 +32955,6 @@ ObjType=3
 MaxDef=11
 MinDef=8
 Valor=0
-Texto=Defensa 8/11
 
 [OBJ1571]
 Name=Armadura de Guerrero Imperial de 2ª Jerarquía (Bajos)
@@ -32858,7 +32997,6 @@ ObjType=3
 MaxDef=10
 MinDef=7
 Valor=0
-Texto=Defensa 7/10
 
 [OBJ1573]
 Name=Armadura de Asesino Imperial de 2ª Jerarquía (Bajos)
@@ -32901,7 +33039,6 @@ ObjType=3
 MaxDef=9
 MinDef=6
 Valor=0
-Texto=Defensa 6/9
 
 [OBJ1575]
 Name=Túnica de Bardo Imperial de 2ª Jerarquía (Bajos)
@@ -32944,7 +33081,6 @@ ObjType=3
 MaxDef=9
 MinDef=6
 Valor=0
-Texto=Defensa 6/9
 
 [OBJ1577]
 Name=Túnica de Druida Imperial de 2ª Jerarquía (Bajos)
@@ -33029,7 +33165,6 @@ ObjType=3
 MaxDef=11
 MinDef=8
 Valor=0
-Texto=Defensa 8/11
 
 [OBJ1581]
 Name=Armadura de Paladín Imperial de 2ª Jerarquía (Bajos)
@@ -33072,7 +33207,6 @@ ObjType=3
 MaxDef=11
 MinDef=8
 Valor=0
-Texto=Defensa 8/11
 
 [OBJ1583]
 Name=Armadura de Cazador Imperial de 2ª Jerarquía (Bajos)
@@ -33115,7 +33249,6 @@ ObjType=3
 MaxDef=10
 MinDef=7
 Valor=0
-Texto=Defensa 7/10
 
 [OBJ1585]
 Name=Armadura de Bandido Imperial de 2ª Jerarquía (Bajos)
@@ -33195,14 +33328,12 @@ texto=Modifica casualmente il volto attuale dell'utente, non cade.
 GrhIndex=32171
 ObjType=11
 Valor=800
-Texto=Modifica aleatoriamente la cara actual del usuario, no se cae.
 
 [OBJ1602]
 Name=Pozione di cambio di sesso
 texto=Cambia l'utente nel sesso opposto, non cade.
 GrhIndex=32173
 ObjType=11
-Texto=Cambia al usuario al sexo opuesto, no se cae.
 Valor=600
 
 [OBJ1603]
@@ -33817,7 +33948,6 @@ ObjType=16
 MaxDef=2
 MinDef=1
 Valor=150
-Texto=Defensa 1/2
 
 [OBJ1701]
 GrhIndex=0
@@ -33832,7 +33962,6 @@ MinDef=7
 Valor=6000
 SkHerreria=100
 LingP=115
-Texto=Defensa 7/9
 LingH=210
 
 [OBJ1703]
@@ -33909,7 +34038,7 @@ Texto=Escudo Errante
 
 [OBJ1713]
 Name=Shield di ferro rinforzato
-Texto=Defensa 3/5
+Texto=3/5 difesa
 GrhIndex=86137
 ObjType=16
 Valor=1080
@@ -33917,7 +34046,6 @@ SkHerreria=50
 LingH=18
 MaxDef=5
 MinDef=3
-texto=3/5 difesa
 
 [OBJ1714]
 Name=Escudo de la Legión Oscura
@@ -33938,7 +34066,6 @@ MinDef=1
 Valor=600
 SkHerreria=15
 LingH=10
-Texto=Defensa 1/3
 
 [OBJ1716]
 Name=Escudo Incognito
@@ -33976,7 +34103,6 @@ MaxDef=4
 MinDef=2
 Valor=900
 Madera=300
-Texto=Defensa 2/3
 
 [OBJ1720]
 Name=Escudo de Huesos
@@ -33989,18 +34115,17 @@ Texto=Escudo de Huesos
 
 [OBJ1721]
 Name=Scudo di legno
-Texto=Defensa 1/2
+Texto=1/2 difesa
 GrhIndex=9632
 ObjType=16
 Valor=480
 Madera=160
 MaxDef=2
 MinDef=1
-texto=1/2 difesa
 
 [OBJ1722]
 Name=Rodella rinforzata
-Texto=Defensa 4/6
+Texto=4/6 difesa
 GrhIndex=86169
 ObjType=16
 Valor=3600
@@ -34008,7 +34133,6 @@ Madera=800
 MaderaElfica=200
 MaxDef=6
 MinDef=4
-texto=4/6 difesa
 
 [OBJ1723]
 Name=Adarga Natural (Cazador)
@@ -34029,7 +34153,6 @@ MaxDef=8
 MinDef=6
 Valor=5400
 Madera=2240
-Texto=Defensa 6/8
 
 [OBJ1725]
 Name=Escudo de Morngrim
@@ -34202,7 +34325,6 @@ ObjType=17
 MaxDef=16
 MinDef=14
 Valor=6600
-Texto=Defensa 14/16, aumenta tu Resistencia Mágica en un 7%
 SkSastreria=93
 PIELTIGREBENGALA=37
 
@@ -34228,7 +34350,6 @@ ObjType=17
 MaxDef=15
 MinDef=12
 Valor=2700
-Texto=Defensa 12/15
 
 [OBJ1762]
 Name=Celada de Caballero
@@ -34275,7 +34396,6 @@ SkHerreria=100
 LingH=200
 LingP=120
 LingO=0
-Texto=Defensa 21/23
 
 [OBJ1768]
 GrhIndex=0
@@ -34288,7 +34408,6 @@ ObjType=17
 MaxDef=18
 MinDef=16
 Valor=7200
-Texto=Defensa 16/18
 SkSastreria=93
 PIELTIGREBENGALA=40
 PielLoboNegro=10
@@ -34322,7 +34441,6 @@ ObjType=17
 MaxDef=12
 MinDef=10
 Valor=2400
-Texto=Defensa 10/12
 
 [OBJ1775]
 GrhIndex=0
@@ -34412,7 +34530,6 @@ ObjType=2
 MinHit=1
 MaxHit=1
 Valor=11400
-Texto=Aumenta tu Daño Mágico en un 9%
 MaderaElfica=2400
 
 [OBJ1789]
@@ -34448,7 +34565,6 @@ LingH=20
 LingP=0
 LingO=0
 SkHerreria=20
-Texto=Daño 5/8
 
 [OBJ1793]
 GrhIndex=0
@@ -34470,7 +34586,6 @@ ObjType=2
 MinHit=1
 MaxHit=1
 Valor=5400
-Texto=Aumenta tu Daño Mágico un 4%
 Madera=1800
 
 [OBJ1798]
@@ -34492,9 +34607,8 @@ MaxHit=1
 MinHit=1
 Name=Personale di legno
 ObjType=2
-Texto=Aumenta tu Daño Mágico un 2%
+Texto=Aumenta il tuo danno magico del 2%
 Valor=1200
-texto=Aumenta il tuo danno magico del 2%
 
 [OBJ1801]
 GrhIndex=0
@@ -34624,13 +34738,12 @@ MinHit=7
 Name=Alfanje
 ObjType=2
 SkHerreria=30
-Texto=Daño 7/11
+Texto=Danno 7/11
 Valor=2700
-texto=Danno 7/11
 
 [OBJ1818]
 Name=Mandobile
-Texto=Arma de dos manos, no permite usar escudo.
+Texto=Due mani, non ti consente di usare uno scudo.
 GrhIndex=25196
 ObjType=2
 Valor=3300
@@ -34638,11 +34751,10 @@ SkHerreria=35
 LingH=55
 MaxHit=13
 MinHit=8
-texto=Due mani, non ti consente di usare uno scudo.
 
 [OBJ1819]
 Name=Ascia lunga
-Texto=Daño 8/12
+Texto=Danno 8/12
 GrhIndex=44010
 ObjType=2
 Valor=3000
@@ -34650,11 +34762,10 @@ SkHerreria=35
 LingH=50
 MaxHit=12
 MinHit=8
-texto=Danno 8/12
 
 [OBJ1820]
 Name=Mazza di guerra
-Texto=Arma de dos manos.
+Texto=Due mani.
 GrhIndex=6959
 ObjType=2
 Valor=7200
@@ -34662,11 +34773,10 @@ SkHerreria=65
 LingH=120
 MaxHit=15
 MinHit=11
-texto=Due mani.
 
 [OBJ1821]
 Name=Foglia di Giada
-Texto=Arma de dos manos, no permite usar escudo. Daño 12/18
+Texto=Due mani, non ti consente di usare uno scudo. Danno 12/18
 GrhIndex=8491
 ObjType=2
 Valor=13500
@@ -34675,11 +34785,10 @@ LingH=95
 LingP=120
 MaxHit=18
 MinHit=12
-texto=Due mani, non ti consente di usare uno scudo. Danno 12/18
 
 [OBJ1822]
 Name=Foglia Ignea
-Texto=Arma de dos manos, no permite usar escudo. Daño 14/20
+Texto=Due mani, non ti consente di usare uno scudo. Danno 14/20
 GrhIndex=35900
 ObjType=2
 Valor=19800
@@ -34688,7 +34797,6 @@ LingH=150
 LingP=220
 MaxHit=20
 MinHit=14
-texto=Due mani, non ti consente di usare uno scudo. Danno 14/20
 
 [OBJ1823]
 Name=Bastón de la Eterna Noche
@@ -34710,7 +34818,7 @@ Texto=Espada electrica
 
 [OBJ1825]
 Name=Nocca di Mithril
-Texto=Daño 10/12
+Texto=Danno 10/12
 GrhIndex=86202
 ObjType=2
 Valor=18000
@@ -34720,7 +34828,6 @@ LingP=200
 MaxHit=12
 MinHit=10
 EXTRACRITANDSTABCHANCE=10
-texto=Danno 10/12
 
 [OBJ1826]
 Name=Aamantine Knuckles
@@ -34736,7 +34843,7 @@ GrhIndex=0
 
 [OBJ1828]
 Name=Vólcora
-Texto=Daño 8/12
+Texto=Danno 8/12
 GrhIndex=37844
 ObjType=2
 Valor=3000
@@ -34744,7 +34851,6 @@ SkHerreria=30
 LingH=50
 MaxHit=12
 MinHit=8
-texto=Danno 8/12
 
 [OBJ1829]
 Name=Espada Larzul
@@ -35084,7 +35190,7 @@ GrhIndex=0
 
 [OBJ1855]
 Name=Nocca
-Texto=Daño 3/5
+Texto=Danni 3/5
 GrhIndex=44577
 ObjType=2
 Valor=1800
@@ -35092,7 +35198,6 @@ SkHerreria=25
 LingH=35
 MaxHit=5
 MinHit=3
-texto=Danni 3/5
 
 [OBJ1856]
 Name=Tirapugni di bronzo
@@ -35102,7 +35207,6 @@ ObjType=2
 MaxHit=7
 MinHit=5
 Valor=3000
-Texto=Daño 5/7
 LingH=50
 SkHerreria=25
 
@@ -35136,7 +35240,6 @@ SKSastreria=65
 PielLobo=80
 PielOsoPardo=15
 PielOsoPolar=1
-Texto=Defensa 11/17
 
 [OBJ1860]
 Name=Espada Gris
@@ -35206,7 +35309,6 @@ Valor=4800
 Madera=1600
 Proyectil=1
 Municiones=1
-Texto=Daño 4/8
 
 [OBJ1868]
 Name=Arco del Imperio
@@ -35221,7 +35323,7 @@ Texto=Arco del Imperio
 
 [OBJ1869]
 Name=Maestro Arco
-Texto=Daño 5/9
+Texto=Danno 5/9
 GrhIndex=38897
 ObjType=2
 Valor=11100
@@ -35231,7 +35333,6 @@ Proyectil=1
 MaxHit=9
 MinHit=5
 Municiones=1
-texto=Danno 5/9
 
 [OBJ1870]
 Name=Arco di quercia
@@ -35245,7 +35346,6 @@ Valor=12000
 Madera=600
 Proyectil=1
 Municiones=1
-Texto=Daño 6/10
 
 [OBJ1871]
 Name=Arco Infernal
@@ -35290,7 +35390,6 @@ MaderaElfica=3000
 Valor=15000
 Proyectil=1
 Municiones=1
-Texto=Daño 7/12
 
 [OBJ1877]
 GrhIndex=0
@@ -35367,7 +35466,7 @@ MaxDef=6
 MinDef=4
 Name=Vestiti blu del mantello
 ObjType=3
-Texto=Ropaje con Capa Azul
+Texto=Vestiti blu del mantello
 Valor=680
 RopajeElfa=2158
 RopajeElfaOscura=3615
@@ -35381,7 +35480,6 @@ RopajeHumana=2158
 RopajeHumano=249
 RopajeOrca=3224
 RopajeOrco=1249
-texto=Vestiti blu del mantello
 
 [OBJ1901]
 Name=Vestiti a strati verdi
@@ -35402,7 +35500,6 @@ RopajeGnoma=654
 ObjType=3
 MaxDef=6
 MinDef=4
-Texto=Ropaje con Capa Verde
 Valor=680
 
 [OBJ1902]
@@ -35501,7 +35598,6 @@ Valor=20100
 ObjType=3
 MaxDef=36
 MinDef=32
-Texto=Defensa 32/36
 
 [OBJ1908]
 Name=Cota del Gran Cazador (Bajos)
@@ -35591,7 +35687,6 @@ RopajeGnoma=697
 ObjType=3
 MaxDef=23
 MinDef=21
-Texto=Defensa 21/23
 Valor=6900
 
 [OBJ1912]
@@ -35613,7 +35708,6 @@ RopajeGnoma=2854
 ObjType=3
 MaxDef=16
 MinDef=13
-Texto=Defensa 13/16
 Valor=2100
 LingH=35
 SkHerreria=30
@@ -35743,7 +35837,6 @@ RopajeGnoma=2554
 ObjType=3
 MaxDef=21
 MinDef=19
-Texto=Defensa 19/21
 Valor=5400
 
 [OBJ1922]
@@ -35853,7 +35946,6 @@ RopajeGnoma=690
 ObjType=3
 MaxDef=32
 MinDef=29
-Texto=Defensa 29/32
 SkHerreria=100
 LingH=95
 LingP=150
@@ -36096,7 +36188,6 @@ SkHerreria=100
 LingH=100
 LingP=150
 LingO=150
-Texto=Defensa 30/34
 
 [OBJ1942]
 GrhIndex=0
@@ -36251,7 +36342,6 @@ RopajeGnoma=731
 ObjType=3
 MaxDef=19
 MinDef=15
-Texto=Defensa 15/19
 Valor=4500
 SkSastreria=73
 PielLobo=60
@@ -36390,7 +36480,6 @@ SkSastreria=73
 PielLobo=80
 PIELOSOPARDO=53
 PielOsoPolar=1
-Texto=Defensa 17/19
 Valor=4800
 
 [OBJ1962]
@@ -36433,7 +36522,6 @@ RopajeGnoma=2589
 ObjType=3
 MaxDef=5
 MinDef=4
-Texto=Vestimenta de Pregonero
 Valor=510
 
 [OBJ1964]
@@ -36579,7 +36667,6 @@ RopajeGnoma=585
 ObjType=3
 MaxDef=4
 MinDef=2
-Texto=Ropa de Clan
 Valor=270
 SKSastreria=10
 PielLobo=20
@@ -36596,7 +36683,6 @@ GrhIndex=2603
 ObjType=3
 MaxDef=1
 MinDef=1
-Texto=Ropa de prisión
 Valor=90
 RopajeElfa=2094
 RopajeElfaOscura=3551
@@ -36669,7 +36755,6 @@ RopajeGnoma=2550
 ObjType=3
 MaxDef=3
 MinDef=2
-Texto=Vestimenta Combinada
 Valor=180
 
 [OBJ1982]
@@ -36742,7 +36827,6 @@ GrhIndex=11497
 ObjType=3
 MaxDef=15
 MinDef=13
-Texto=Defensa 13/15
 Valor=3600
 PIELOSOPARDO=40
 SkSastreria=45
@@ -36792,7 +36876,6 @@ LingH=95
 LingP=70
 LingO=0
 SkHerreria=93
-Texto=Defensa 27/29
 
 [OBJ1988]
 Name=Ropaje Desértico (Bajos)
@@ -37219,7 +37302,6 @@ texto=Un pesce in cattive condizioni, privo di valore commerciale.
 GrhIndex=48874
 ObjType=100
 Valor=3
-Texto=Un pez en mal estado sin valor comercial.
 
 [OBJ2088]
 Name=Sardina
@@ -37234,7 +37316,6 @@ texto=Ripristina 5 punti di fame
 GrhIndex=48942
 ObjType=1
 Valor=3
-Texto=Restaura 5 puntos de hambre
 
 [OBJ2090]
 Name=Arenque
@@ -37256,7 +37337,6 @@ texto=Ripristina 70 punti di fame
 GrhIndex=48950
 ObjType=1
 Valor=18
-Texto=Restaura 70 puntos de hambre
 
 [OBJ2093]
 Name=Bagre di mare
@@ -37264,7 +37344,6 @@ texto=Ripristina 15 punti di fame
 GrhIndex=48880
 ObjType=1
 Valor=5
-Texto=Restaura 15 puntos de hambre
 
 [OBJ2094]
 Name=Pesce roca
@@ -37272,7 +37351,6 @@ texto=Ripristina 10 punti di fame
 GrhIndex=48892
 ObjType=1
 Valor=7
-Texto=Restaura 10 puntos de hambre
 
 [OBJ2095]
 GrhIndex=0
@@ -37311,7 +37389,6 @@ texto=Ripristina 35 punti di fame
 GrhIndex=48887
 ObjType=1
 Valor=12
-Texto=Restaura 35 puntos de hambre
 
 [OBJ2101]
 Name=Salmone
@@ -37319,7 +37396,6 @@ texto=Ripristina 10 punti di fame
 GrhIndex=48888
 ObjType=1
 Valor=4
-Texto=Restaura 10 puntos de hambre
 
 [OBJ2102]
 Name=Fuco
@@ -37327,7 +37403,6 @@ texto=Ripristina 20 punti di fame
 GrhIndex=48889
 ObjType=1
 Valor=11
-Texto=Restaura 20 puntos de hambre
 
 [OBJ2103]
 Name=Mero Rojo
@@ -37370,7 +37445,6 @@ texto=Ripristina 15 punti di fame
 GrhIndex=48926
 ObjType=1
 Valor=20
-Texto=Restaura 15 puntos de hambre
 
 [OBJ2109]
 Name=Telescópico
@@ -37399,7 +37473,6 @@ texto=Ripristina 60 punti di fame
 GrhIndex=48899
 ObjType=1
 Valor=16
-Texto=Restaura 60 puntos de hambre
 
 [OBJ2113]
 Name=Pez Violeta
@@ -37461,7 +37534,6 @@ texto=Strumento da pesca rinforzato
 GrhIndex=48907
 ObjType=18
 Valor=3600
-Texto=Herramienta de Pesca reforzada
 
 [OBJ2122]
 Name=Machete de pesca
@@ -37546,7 +37618,6 @@ texto=Advanced Fishing Tool
 GrhIndex=48920
 ObjType=18
 Valor=5400
-Texto=Herramienta de Pesca avanzada
 
 [OBJ2134]
 Name=Anzuelo triple
@@ -37632,7 +37703,6 @@ texto=Ripristina 25 punti di fame
 GrhIndex=48932
 ObjType=1
 Valor=10
-Texto=Restaura 25 puntos de hambre
 
 [OBJ2146]
 Name=Estrella de mar
@@ -37647,7 +37717,6 @@ texto=Ripristina 75 punti di fame
 GrhIndex=48934
 ObjType=1
 Valor=20
-Texto=Restaura 75 puntos de hambre
 
 [OBJ2148]
 Name=Cangrejo
@@ -37662,7 +37731,6 @@ texto=Ripristina 100 punti di fame
 GrhIndex=48936
 ObjType=1
 Valor=135
-Texto=Restaura 100 puntos de hambre
 
 [OBJ2150]
 Name=Pez Chum
@@ -37677,7 +37745,6 @@ texto=Ripristina 50 punti di fame
 GrhIndex=48938
 ObjType=1
 Valor=13
-Texto=Restaura 50 puntos de hambre
 
 [OBJ2152]
 Name=Fondi semplici (e)
@@ -37685,7 +37752,6 @@ texto=Ripristina 100 punti di fame
 GrhIndex=48939
 ObjType=1
 Valor=240
-Texto=Restaura 100 puntos de hambre
 
 [OBJ2153]
 Name=Pesce a palloncino
@@ -37693,7 +37759,6 @@ texto=Ripristina 25 punti di fame
 GrhIndex=48940
 ObjType=1
 Valor=6
-Texto=Restaura 25 puntos de hambre
 
 [OBJ2154]
 Name=Mantaraya
@@ -37708,7 +37773,6 @@ texto=Ripristina 20 punti di fame
 GrhIndex=48876
 ObjType=1
 Valor=6
-Texto=Restaura 20 puntos de hambre
 
 [OBJ2156]
 Name=Pata de Cangrejo
@@ -37750,7 +37814,6 @@ texto=Ripristina 20 punti di fame
 GrhIndex=48948
 ObjType=1
 Valor=9
-Texto=Restaura 20 puntos de hambre
 
 [OBJ2162]
 Name=Jack
@@ -37765,7 +37828,6 @@ texto=Ripristina 15 punti di fame
 GrhIndex=48879
 ObjType=1
 Valor=8
-Texto=Restaura 15 puntos de hambre
 
 [OBJ2164]
 Name=Cofre
@@ -37905,7 +37967,6 @@ texto=Articolo necessario per riparare una canna da pesca
 GrhIndex=49116
 ObjType=18
 Valor=120
-Texto=Objeto necesario para reparar la Caña de Pesca
 
 [OBJ2184]
 Name=Brazalete Azul
@@ -37940,7 +38001,6 @@ ObjType=100
 MinHIT=0
 MaxHIT=0
 Valor=1200
-Texto=Un objeto mágico apreciado por mercaderes
 
 [OBJ2188]
 Name=Collar Esmeralda
@@ -38106,11 +38166,10 @@ Texto=Ballesta
 
 [OBJ2214]
 Name=Stoffa strappata
-Texto=Un trozo de tela inservible
+Texto=Un pezzo di stoffa inutile
 GrhIndex=38214
 ObjType=100
 Valor=6
-texto=Un pezzo di stoffa inutile
 
 [OBJ2215]
 Name=Amuleto +5
@@ -38687,7 +38746,6 @@ texto=Un gioiello prezioso perso nell'acqua.
 GrhIndex=49258
 Valor=600
 ObjType=100
-Texto=Una joya valiosa perdida en el agua.
 
 [OBJ2315]
 Name=Alianza de Boda
@@ -40768,7 +40826,7 @@ Texto=Saco de cereal
 
 [OBJ2598]
 Name=Nocca Prismatica
-Texto=Daño 8/11
+Texto=Danno 8/11
 GrhIndex=44253
 ObjType=2
 Valor=12600
@@ -40778,7 +40836,6 @@ LingP=110
 MaxHit=11
 MinHit=8
 EXTRACRITANDSTABCHANCE=5
-texto=Danno 8/11
 
 [OBJ2599]
 Name=Saco
@@ -42161,7 +42218,7 @@ MinDef=22
 Name=Guscio composto
 ObjType=3
 SkHerreria=75
-Texto=Defensa 22/24
+Texto=Difesa 22/24
 Valor=7200
 RopajeElfa=2300
 RopajeElfaOscura=3816
@@ -42175,7 +42232,6 @@ RopajeHumana=2300
 RopajeHumano=61
 RopajeOrca=3399
 RopajeOrco=1203
-texto=Difesa 22/24
 
 [OBJ2802]
 Name=Cota de Mallas Larga (H/E/EO/M)
@@ -42218,7 +42274,6 @@ ObjType=3
 MaxDef=15
 MinDef=11
 Valor=1800
-Texto=Defensa 11/15
 LingH=30
 SkHerreria=40
 
@@ -42242,7 +42297,6 @@ ObjType=3
 MaxDef=26
 MinDef=24
 Valor=7800
-Texto=Defensa 24/26
 LingH=130
 LingP=110
 SkHerreria=75
@@ -42309,7 +42363,6 @@ ObjType=3
 MaxDef=14
 MinDef=10
 Valor=4800
-Texto=Defensa 10/14
 
 [OBJ2808]
 Name=Abbigliamento Invernale (donna)
@@ -42331,7 +42384,6 @@ ObjType=3
 MaxDef=14
 MinDef=10
 Valor=4800
-Texto=Defensa 10/14
 
 [OBJ2809]
 GrhIndex=52103
@@ -42444,14 +42496,13 @@ ObjType=3
 MaxDef=23
 MinDef=21
 Valor=6000
-Texto=Defensa 21/23
 SkHerreria=60
 LingH=100
 
 [OBJ2819]
 GrhIndex=3126
 Name=Cappotto da Viaggiatore Polare
-Texto=Defensa 16/20
+Texto=Difesa 16/20
 ObjType=3
 Valor=12000
 MaxDef=20
@@ -42468,11 +42519,10 @@ RopajeElfaOscura=3877
 RopajeEnana=2876
 RopajeOrca=3444
 RopajeGnoma=2876
-texto=Difesa 16/20
 
 [OBJ2820]
 Name=Uniforme Polare Imperiale (4a Gerarchia)
-Texto=Defensa 3/7
+Texto=Difesa 3/7
 ObjType=3
 Valor=0
 MaxDef=7
@@ -42490,11 +42540,10 @@ RopajeElfaOscura=3826
 RopajeEnana=2841
 RopajeOrca=3409
 RopajeGnoma=2841
-texto=Difesa 3/7
 
 [OBJ2821]
 Name=Uniforme Polare Legionaria (4a Gerarchia)
-Texto=Defensa 3/7
+Texto=Difesa 3/7
 ObjType=3
 Valor=0
 MaxDef=7
@@ -42512,7 +42561,6 @@ RopajeElfaOscura=3828
 RopajeEnana=2843
 RopajeOrca=3411
 RopajeGnoma=2843
-texto=Difesa 3/7
 
 [OBJ2822]
 Name=Túnica Real Pretoriana (E/G)
@@ -42629,7 +42677,6 @@ ObjType=3
 MaxDef=12
 MinDef=7
 Valor=2200
-Texto=Defensa 7/12
 
 [OBJ2830]
 Name=Gabán de Cuero Pequeño
@@ -43590,7 +43637,6 @@ ObjType=3
 MaxDef=19
 MinDef=17
 Valor=4800
-Texto=Defensa 17/19
 PIELOSOPARDO=53
 SkSastreria=60
 
@@ -43935,7 +43981,6 @@ ObjType=3
 MaxDef=5
 MinDef=2
 Valor=330
-Texto=Defensa 3/5
 
 [OBJ2908]
 Name=Túnica Rosa
@@ -43999,7 +44044,6 @@ ObjType=3
 MaxDef=2
 MinDef=1
 Valor=50
-Texto=Vestimenta Común
 
 [OBJ2911]
 Name=Ropa de Burgués Turquesa
@@ -44046,7 +44090,6 @@ ObjType=3
 MaxDef=5
 MinDef=3
 Valor=420
-Texto=Ropa Azul de Navegante
 
 [OBJ2913]
 Name=Vestiti in pelle
@@ -44068,7 +44111,6 @@ ObjType=3
 MaxDef=5
 MinDef=3
 Valor=420
-Texto=Ropa de Cuero
 
 [OBJ2914]
 Name=Traje de Gala
@@ -44111,11 +44153,10 @@ ObjType=3
 MaxDef=3
 MinDef=1
 Valor=90
-Texto=Ropa de Trabajador
 
 [OBJ2916]
 Name=Abbigliamento scuro
-Texto=Defensa 23/25
+Texto=Difesa 23/25
 GrhIndex=442
 ObjType=3
 Valor=10200
@@ -44135,7 +44176,6 @@ RopajeHumana=2305
 RopajeHumano=224
 RopajeOrca=3404
 RopajeOrco=1208
-texto=Difesa 23/25
 
 [OBJ2917]
 Name=Manto del Campeón
@@ -44181,7 +44221,7 @@ RopajeOrco=1056
 
 [OBJ2919]
 Name=Armatura da boscaiolo
-Texto=Defensa 16/20
+Texto=Difesa 16/20
 GrhIndex=446
 ObjType=3
 Valor=4200
@@ -44201,12 +44241,11 @@ RopajeHumana=2056
 RopajeHumano=72
 RopajeOrca=3106
 RopajeOrco=1056
-texto=Difesa 16/20
 
 [OBJ2920]
 GrhIndex=24508
 Name=Quota del Minatore Esperto
-Texto=Defensa 25/27
+Texto=Difesa 20/22
 RopajeElfa=2290
 RopajeElfaOscura=3806
 RopajeElfo=51
@@ -44225,7 +44264,6 @@ SkHerreria=75
 LingH=135
 MaxDef=27
 MinDef=25
-texto=Difesa 20/22
 
 [OBJ2921]
 Name=Sírica Élfica Rojiza (H/E/EO-M)
@@ -44277,7 +44315,6 @@ ObjType=3
 MaxDef=6
 MinDef=4
 Valor=680
-Texto=Vestido de Gala Alcarinqua
 
 [OBJ2924]
 Name=Vestido Caperucita (H/E/EO-M)
@@ -44326,7 +44363,6 @@ ObjType=3
 MaxDef=3
 MinDef=2
 Valor=180
-Texto=Vestido de Claritos
 RopajeHumano=0
 RopajeElfo=0
 RopajeElfoOscuro=0
@@ -44369,7 +44405,6 @@ ObjType=3
 MaxDef=7
 MinDef=5
 Valor=1000
-Texto=Vestido de Caperucita Roja (H/E/EO-M)
 
 [OBJ2930]
 Name=Hábito de Ritual Femenino
@@ -44413,7 +44448,6 @@ SkSastreria=73
 PielLobo=70
 PIELOSOPARDO=50
 PielOsoPolar=0
-Texto=Defensa 15/19
 RopajeElfa=2236
 RopajeElfaOscura=3693
 RopajeElfo=2236
@@ -44438,7 +44472,6 @@ Valor=4200
 LingH=40
 LingP=20
 SkHerreria=73
-Texto=Defensa 5/7
 
 [OBJ2934]
 Name=Vestimenta Clásica (M)
@@ -44490,7 +44523,6 @@ ObjType=3
 MaxDef=17
 MinDef=15
 Valor=4200
-Texto=Defensa 15/17
 PIELOSOPARDO=46
 SkSastreria=55
 RopajeElfa=2248
@@ -44599,7 +44631,6 @@ ObjType=3
 MaxDef=5
 MinDef=3
 Valor=420
-Texto=Ropa de Aldeana
 
 [OBJ2943]
 Name=Ropaje Rupestre
@@ -44868,7 +44899,6 @@ ObjType=3
 MaxDef=12
 MinDef=8
 Valor=0
-Texto=Defensa 8/12
 
 [OBJ2963]
 Name=Túnica de Mago del Caos de 3ª Jerarquía (Bajos)
@@ -44995,7 +45025,6 @@ ObjType=3
 MaxDef=13
 MinDef=9
 Valor=0
-Texto=Defensa 9/13
 
 [OBJ2969]
 Name=Armadura de Clerigo del Caos de 3ª Jerarquía (Bajos)
@@ -45080,7 +45109,6 @@ ObjType=3
 MaxDef=14
 MinDef=10
 Valor=0
-Texto=Defensa 10/14
 
 [OBJ2973]
 Name=Armadura de Guerrero del Caos de 3ª Jerarquía (Bajos)
@@ -45165,7 +45193,6 @@ ObjType=3
 MaxDef=13
 MinDef=9
 Valor=0
-Texto=Defensa 9/13
 
 [OBJ2977]
 Name=Armadura de Asesino del Caos de 3ª Jerarquía (Bajos)
@@ -45250,7 +45277,6 @@ ObjType=3
 MaxDef=13
 MinDef=9
 Valor=0
-Texto=Defensa 9/13
 
 [OBJ2981]
 Name=Armadura de Bandido del Caos de 3ª Jerarquía (Bajos)
@@ -45335,7 +45361,6 @@ ObjType=3
 MaxDef=14
 MinDef=10
 Valor=0
-Texto=Defensa 10/14
 
 [OBJ2985]
 Name=Armadura de Cazador del Caos de 3ª Jerarquía (Bajos)
@@ -45419,7 +45444,6 @@ ObjType=3
 MaxDef=14
 MinDef=10
 Valor=0
-Texto=Defensa 10/14
 
 [OBJ2989]
 Name=Armadura de Paladín del Caos de 3ª Jerarquía (Bajos)
@@ -45588,7 +45612,6 @@ ObjType=3
 MaxDef=12
 MinDef=8
 Valor=0
-Texto=Defensa 8/12
 
 [OBJ2997]
 Name=Túnica de Druida del Caos de 3ª Jerarquía (Bajos)
@@ -45757,7 +45780,6 @@ ObjType=3
 MaxDef=12
 MinDef=8
 Valor=0
-Texto=Defensa 8/12
 
 [OBJ3005]
 Name=Túnica de Mago Imperial de 3ª Jerarquía (Bajos)
@@ -45842,7 +45864,6 @@ ObjType=3
 MaxDef=13
 MinDef=9
 Valor=0
-Texto=Defensa 9/13
 
 [OBJ3009]
 Name=Armadura de Clérigo Imperial de 3ª Jerarquía (Bajos)
@@ -45927,7 +45948,6 @@ ObjType=3
 MaxDef=14
 MinDef=10
 Valor=0
-Texto=Defensa 10/14
 
 [OBJ3013]
 Name=Armadura de Paladín Imperial de 3ª Jerarquía (Bajos)
@@ -46012,7 +46032,6 @@ ObjType=3
 MaxDef=14
 MinDef=10
 Valor=0
-Texto=Defensa 10/14
 
 [OBJ3017]
 Name=Armadura de Guerrero Imperial de 3ª Jerarquía (Bajos)
@@ -46097,7 +46116,6 @@ ObjType=3
 MaxDef=12
 MinDef=8
 Valor=0
-Texto=Defensa 8/12
 
 [OBJ3021]
 Name=Túnica de Druida Imperial de 3ª Jerarquía (Bajos)
@@ -46182,7 +46200,6 @@ ObjType=3
 MaxDef=12
 MinDef=8
 Valor=0
-Texto=Defensa 8/12
 
 [OBJ3025]
 Name=Túnica de Bardo Imperial de 3ª Jerarquía (Bajos)
@@ -46267,7 +46284,6 @@ ObjType=3
 MaxDef=14
 MinDef=10
 Valor=0
-Texto=Defensa 10/14
 
 [OBJ3029]
 Name=Armadura de Cazador Imperial de 3ª Jerarquía (Bajos)
@@ -46352,7 +46368,6 @@ ObjType=3
 MaxDef=13
 MinDef=9
 Valor=0
-Texto=Defensa 9/13
 
 [OBJ3033]
 Name=Armadura de Asesino Imperial de 3ª Jerarquía (Bajos)
@@ -46437,7 +46452,6 @@ ObjType=3
 MaxDef=13
 MinDef=9
 Valor=0
-Texto=Defensa 9/13
 
 [OBJ3037]
 Name=Armadura de Bandido Imperial de 3ª Jerarquía (Bajos)
@@ -47317,7 +47331,6 @@ texto=Questa cassa contiene un tesoro casuale.
 GrhIndex=49234
 ObjType=48
 Agarrable=0
-Texto=Este cofre contiene una recompensa aleatoria.
 
 [OBJ3141]
 Name=Puerta abierta Banco Bander
@@ -48618,7 +48631,6 @@ texto=Chissà cosa potrebbe contenere?
 GrhIndex=48971
 ObjType=48
 Agarrable=0
-Texto=¿Quién sabe lo que pueda contener?
 Valor=0
 
 [OBJ3301]
@@ -48649,7 +48661,6 @@ Valor=0
 GrhIndex=48977
 ObjType=100
 Agarrable=0
-Texto=Una botella, una botella, una botella flotando!!!
 
 [OBJ3305]
 Name=Nota de Rescate
@@ -48726,7 +48737,6 @@ texto=Ripristina 100 punti di fame
 GrhIndex=48984
 ObjType=1
 Valor=165
-Texto=Restaura 100 puntos de hambre
 
 [OBJ3317]
 Name=Tigre Shark (E)
@@ -48734,7 +48744,6 @@ texto=Ripristina 100 punti di fame
 GrhIndex=48985
 ObjType=1
 Valor=50
-Texto=Restaura 100 puntos de hambre
 
 [OBJ3318]
 Name=Squalo bianco (e)
@@ -48742,7 +48751,6 @@ texto=Ripristina 100 punti di fame
 GrhIndex=48986
 ObjType=1
 Valor=60
-Texto=Restaura 100 puntos de hambre
 
 [OBJ3319]
 Name=Hammer Shark (E)
@@ -48750,7 +48758,6 @@ texto=Ripristina 100 punti di fame
 GrhIndex=48987
 ObjType=1
 Valor=60
-Texto=Restaura 100 puntos de hambre
 
 [OBJ3320]
 Name=Calamari giganti (e)
@@ -48758,7 +48765,6 @@ texto=Ripristina 100 punti di fame
 GrhIndex=48988
 ObjType=1
 Valor=240
-Texto=Restaura 100 puntos de hambre
 
 [OBJ3321]
 Name=Pesce limone (E)
@@ -48766,7 +48772,6 @@ texto=Ripristina 100 punti di fame
 GrhIndex=48983
 ObjType=1
 Valor=60
-Texto=Restaura 100 puntos de hambre
 
 [OBJ3322]
 Name=Reliquia Familiar
@@ -49919,7 +49924,6 @@ Valor=1500
 Madera=500
 Proyectil=1
 Municiones=1
-Texto=Daño 2/6
 
 [OBJ3467]
 Name=Muro de Espinas (NPCS)
@@ -50276,7 +50280,6 @@ ObjType=3
 MaxDef=12
 MinDef=10
 Valor=1500
-Texto=Defensa 10/12
 
 [OBJ3506]
 Name=Puerta abierta nueva cabaña 2
@@ -50600,7 +50603,6 @@ MinHit=2
 MaxHit=4
 Valor=6
 Madera=2
-Texto=Daño 2/4
 
 [OBJ3551]
 Name=Carrera 01 Puerta abierta
@@ -50947,7 +50949,7 @@ texto=Cambia tu apariencia con esta mascara
 
 [OBJ3596]
 Name=Casco di volpe
-Texto=Defensa 4/6, aumenta tu resistencia mágica un 1%
+Texto=4/6 difesa, aumenta la tua resistenza magica del 2%
 GrhIndex=26543
 ObjType=17
 Valor=1200
@@ -50955,7 +50957,6 @@ MaxDef=6
 MinDef=4
 SkSastreria=40
 PIELLOBONEGRO=20
-texto=4/6 difesa, aumenta la tua resistenza magica del 2%
 
 [OBJ3597]
 Name=Grito del Guerrero
@@ -52105,11 +52106,10 @@ Texto=Tablones Cepillados Elficos
 
 [OBJ3744]
 Name=Cavalcatura Drago Blu (Evento)
-Texto=Item Exclusivo de Evento
+Texto=Articolo di evento esclusivo
 GrhIndex=38355
 ObjType=44
 Valor=0
-texto=Articolo di evento esclusivo
 
 [OBJ3745]
 Name=Camiseta Humano Argentina Mundial
@@ -52136,9 +52136,8 @@ Texto=Camiseta Humano Argentina Mundial
 GrhIndex=38353
 Name=Red Dragon Mount (evento)
 ObjType=44
-Texto=Item Exclusivo de Evento
+Texto=Articolo di evento esclusivo
 Valor=0
-texto=Articolo di evento esclusivo
 
 [OBJ3747]
 Name=Camiseta y pelota Humano Argentina Mundial
@@ -53173,7 +53172,6 @@ texto=Applica del veleno alla tua arma per alcuni secondi.
 GrhIndex=49017
 ObjType=11
 Valor=54
-Texto=Aplica veneno en tu arma durante unos segundos.
 CD=10000
 CDTYPE=8
 Hechizo=344
@@ -53789,14 +53787,13 @@ Texto=Cabaña Sigmud Puerta con Llave
 [OBJ3976]
 GrhIndex=4507
 Name=Elmo del lupo
-Texto=Defensa 9/11, aumenta tu Resistencia Mágica en un 5%
+Texto=Difesa 9/11, Aumenta la tua resistenza magica del 5%
 ObjType=17
 Valor=4200
 MaxDef=11
 MinDef=9
 SkSastreria=70
 PIELTIGRE=56
-texto=Difesa 9/11, Aumenta la tua resistenza magica del 5%
 
 [OBJ3977]
 Name=Túnica Dorkeana
@@ -53872,7 +53869,7 @@ SkHerreria=80
 
 [OBJ3983]
 Name=Corna di Alce
-Texto=Defensa 6/8, aumenta tu Resistencia Mágica en un 3%
+Texto=Difesa 6/8, Aumenta la tua resistenza magica del 3%
 GrhIndex=4488
 ObjType=17
 Valor=2100
@@ -53880,7 +53877,6 @@ MaxDef=8
 MinDef=6
 SkSastreria=70
 PIELTIGRE=28
-texto=Difesa 6/8, Aumenta la tua resistenza magica del 3%
 
 [OBJ3984]
 Name=Cruz Mágica
@@ -53913,7 +53909,6 @@ ObjType=2
 MaxHit=9
 MinHit=7
 Valor=6300
-Texto=Daño 7/9
 LingH=105
 SkHerreria=60
 
@@ -53929,7 +53924,6 @@ LingH=90
 LingP=0
 LingO=0
 SkHerreria=50
-Texto=Daño 6/11
 
 [OBJ3989]
 Name=Barril
@@ -53947,7 +53941,6 @@ ObjType=17
 MaxDef=15
 MinDef=13
 Valor=6000
-Texto=Defensa 13/15, aumenta un 7% tu Resistencia Mágica.
 SkSastreria=93
 PielOsoPolar=6
 
@@ -56559,7 +56552,6 @@ LingH=85
 LingP=0
 LingO=0
 SkHerreria=60
-Texto=Defensa 18/20
 
 [OBJ4333]
 Name=Vestimenta de Esclavo
@@ -56589,7 +56581,6 @@ GrhIndex=49194
 ObjType=11
 Valor=2
 DESTRUYE=1
-Texto=Cura el veneno
 
 [OBJ4335]
 Name=Life Potion (P)
@@ -56598,7 +56589,6 @@ GrhIndex=49195
 ObjType=11
 Valor=2
 DESTRUYE=1
-Texto=Restaura 15 puntos de salud
 
 [OBJ4336]
 Name=Maná Pozione (P)
@@ -56607,7 +56597,6 @@ GrhIndex=49196
 ObjType=11
 Valor=2
 DESTRUYE=1
-Texto=Restaura un 3% de tu maná
 
 [OBJ4337]
 Name=Pozione di agilità (P)
@@ -56616,7 +56605,6 @@ GrhIndex=49198
 ObjType=11
 Valor=4
 DESTRUYE=1
-Texto=Aumenta temporalmente tu agilidad
 
 [OBJ4338]
 Name=Forza Pozione (P)
@@ -56625,7 +56613,6 @@ GrhIndex=49197
 ObjType=11
 Valor=3
 DESTRUYE=1
-Texto=Aumenta temporalmente tu fuerza
 
 [OBJ4339]
 Name=Piel de Tigre
@@ -56654,7 +56641,6 @@ ObjType=3
 MaxDef=7
 MinDef=5
 Valor=40000
-Texto=Defensa 5/7
 
 [OBJ4341]
 Name=Armadura con Capa
@@ -56697,7 +56683,6 @@ ObjType=3
 MaxDef=22
 MinDef=20
 Valor=5700
-Texto=Defensa 20/22
 LingH=95
 SkHerreria=60
 
@@ -56721,7 +56706,6 @@ ObjType=3
 MaxDef=15
 MinDef=13
 Valor=3600
-Texto=Defensa 13/15
 PIELOSOPARDO=40
 SkSastreria=45
 
@@ -61298,9 +61282,8 @@ Name=Cappello del mago
 ObjType=17
 PIELTIGREBENGALA=55
 SkSastreria=100
-Texto=Defensa 16/18, aumenta un 8% tu Resistencia Mágica.
+Texto=Difesa 16/18, la tua resistenza magica aumenta del 8%.
 Valor=9900
-texto=Difesa 16/18, la tua resistenza magica aumenta del 8%.
 
 [OBJ4934]
 GrhIndex=4487
@@ -61310,9 +61293,8 @@ Name=Casco Tigre
 ObjType=17
 PIELTIGREBENGALA=57
 SkSastreria=100
-Texto=Defensa 17/19, aumenta tu Resistencia Mágica en un 8%
+Texto=Difesa 17/19, Aumenta la tua resistenza magica dell'8%
 Valor=10200
-texto=Difesa 17/19, Aumenta la tua resistenza magica dell'8%
 
 [OBJ4935]
 GrhIndex=4492
@@ -61322,9 +61304,8 @@ Name=Cappuccio d'élite
 ObjType=17
 PIELTIGREBENGALA=60
 SkSastreria=100
-Texto=Defensa 20/22
+Texto=Difesa 20/22
 Valor=10800
-texto=Difesa 20/22
 
 [OBJ4936]
 GrhIndex=4472
@@ -61334,9 +61315,8 @@ Name=Cappello ideale
 ObjType=17
 PIELTIGREBENGALA=58
 SkSastreria=100
-Texto=Defensa 19/21
+Texto=Difesa 19/21
 Valor=10500
-texto=Difesa 19/21
 
 [OBJ4937]
 Name=Capucha Negra (BARDO)
@@ -61470,18 +61450,16 @@ Valor=1
 [OBJ4948]
 GrhIndex=87837
 Name=Cavalcatura della Legione (Quinta Gerarchia)
-Texto=Recompensa única de la Facción Legionaria.
+Texto=Ricompensa unica della fazione dei Legionari.
 ObjType=44
 Valor=0
-texto=Ricompensa unica della fazione dei Legionari.
 
 [OBJ4949]
 GrhIndex=87841
 Name=Cavalcatura della Legione (Sesta Gerarchia)
-Texto=Recompensa única de la Facción Legionaria.
+Texto=Ricompensa unica della fazione dei Legionari.
 ObjType=44
 Valor=0
-texto=Ricompensa unica della fazione dei Legionari.
 
 [OBJ4950]
 Name=Garra del Dragón Negro (BANDIDO)
@@ -61495,18 +61473,16 @@ Texto=Garra del Dragón Negro
 [OBJ4951]
 GrhIndex=87839
 Name=Monte Reale (Quinta Gerarchia)
-Texto=Recompensa única de la Facción Real.
+Texto=Ricompensa unica della Fazione Reale.
 ObjType=44
 Valor=0
-texto=Ricompensa unica della Fazione Reale.
 
 [OBJ4952]
 GrhIndex=87241
 Name=Monte Reale (Sesta Gerarchia)
-Texto=Recompensa única de la Facción Real.
+Texto=Ricompensa unica della Fazione Reale.
 ObjType=44
 Valor=0
-texto=Ricompensa unica della Fazione Reale.
 
 [OBJ4953]
 Name=Garra del Dragón Negro (GUERRERO)
@@ -61520,50 +61496,44 @@ Texto=Garra del Dragón Negro
 [OBJ4954]
 GrhIndex=87264
 Name=Mulo Azteco
-Texto=Montura exclusiva por Patreon
+Texto=Cavalcatura esclusiva disponibile tramite Patreon
 ObjType=44
 Valor=6000
-texto=Cavalcatura esclusiva disponibile tramite Patreon
 
 [OBJ4955]
 GrhIndex=24689
 Name=Corazziere Moresco
-Texto=Te permite cabalgar.
+Texto=Ti permette di guidare.
 ObjType=44
 Valor=50000
-texto=Ti permette di guidare.
 
 [OBJ4956]
 GrhIndex=24641
 Name=Cavalli da combattimento
-Texto=Te permite cabalgar.
+Texto=Ti permette di guidare.
 ObjType=44
 Valor=50000
-texto=Ti permette di guidare.
 
 [OBJ4957]
 GrhIndex=24666
 Name=Cavallo bianco
-Texto=Te permite cabalgar.
+Texto=Ti permette di guidare.
 ObjType=44
 Valor=50000
-texto=Ti permette di guidare.
 
 [OBJ4958]
 GrhIndex=24669
 Name=Cavallo marrone corazzato
-Texto=Te permite cabalgar.
+Texto=Ti permette di guidare.
 ObjType=44
 Valor=50000
-texto=Ti permette di guidare.
 
 [OBJ4959]
 GrhIndex=87263
 Name=Mulo
-Texto=Montura
+Texto=Montare
 ObjType=44
 Valor=50000
-texto=Montare
 
 [OBJ4960]
 Name=Cofre del Dragón Legendario
@@ -63862,7 +63832,7 @@ RopajeGnoma=2615
 
 [OBJ5996]
 Name=Pozione Maná (Alchimy)
-Texto=Restaura un 5% de tu maná
+Texto=Ripristina il 5% del tuo mana
 GrhIndex=28721
 ObjType=11
 Valor=24
@@ -63871,11 +63841,10 @@ FLOROCEANO=1
 FRASCOALQ=1
 MORTERO=1
 SkPociones=20
-texto=Ripristina il 5% del tuo mana
 
 [OBJ5997]
 Name=Life Potion (Alchemy)
-Texto=Restaura 27 puntos de Vida
+Texto=Ripristina 27 punti di vita
 GrhIndex=28722
 ObjType=11
 Valor=30
@@ -63884,11 +63853,10 @@ FLORROJA=1
 FRASCOALQ=1
 MORTERO=1
 SkPociones=0
-texto=Ripristina 27 punti di vita
 
 [OBJ5998]
 Name=Pozione di agilità (alchimia)
-Texto=Aumenta tu agilidad entre 3 y 6 puntos
+Texto=Aumenta la tua agilità tra 3 e 6 punti
 GrhIndex=28725
 ObjType=11
 Valor=48
@@ -63897,11 +63865,10 @@ COLADEZORRO=1
 FRASCOALQ=1
 MORTERO=1
 SkPociones=35
-texto=Aumenta la tua agilità tra 3 e 6 punti
 
 [OBJ5999]
 Name=Forza Pozione (Alchemy)
-Texto=Aumenta tu fuerza entre 3 y 5 puntos
+Texto=Aumenta la tua forza tra 3 e 5 punti
 GrhIndex=28723
 ObjType=11
 Valor=42
@@ -63910,7 +63877,6 @@ FRASCOALQ=1
 MORTERO=1
 SkPociones=40
 TUNA=1
-texto=Aumenta la tua forza tra 3 e 5 punti
 
 [OBJ6000]
 Name=Abbigliamento comune
@@ -68235,11 +68201,10 @@ Valor=0
 
 [OBJ6239]
 Name=Rodolfo
-Texto=Montura exclusiva de Evento
+Texto=Cavalcatura evento esclusiva
 GrhIndex=24695
 ObjType=44
 Valor=0
-texto=Cavalcatura evento esclusiva
 
 [OBJ6243]
 Name=Nudillo de Mithril (Navidad)
@@ -71246,8 +71211,7 @@ Name=Intrappolare
 GrhIndex=609
 Valor=48000
 Objtype=24
-Texto=Atrapa a tus enemigos (nivel máximo 24)
-texto=Intrappola i tuoi nemici (livello massimo 24)
+Texto=Intrappola i tuoi nemici (livello massimo 24)
 
 [NPC9000]
 Name=Maestro Carpintero y Lenador <Carpinteria y Tala>
