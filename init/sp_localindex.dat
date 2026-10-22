@@ -1689,15 +1689,6 @@ PuedeInvocar=1
 Comercia=0
 NoMapInfo=1
 
-[NPC2]
-Name=Juan <Sacerdote>
-Desc=¡Hola, hijo mio! Soy el Sacerdote de este pueblo. Si quieres ser resucitado, hazme click izquierdo y luego escribe /Resucitar
-Body=5814
-Head=0
-NpcType=1
-Comercia=0
-NoMapInfo=1
-
 [NPC3]
 Name=Krix <Finanzas Goliath>
 Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
@@ -1736,30 +1727,6 @@ Obj2=160-1000
 Obj3=42-1000
 NoMapInfo=1
 
-[NPC6]
-Name=Makarena <Tabernera>
-Desc=¡Hola! Noto frescura en tu mirada, algo me dice que eres nuevo por aquí. ¿Estás sediento? Cuéntame de tus aventuras, yo invito el primer trago!
-Body=287
-Head=53
-Comercia=1
-NROITEMS=4
-Obj1=43-100
-Obj2=160-100
-Obj3=161-100
-
-[NPC7]
-Name=Jonas <Tabernero>
-Desc=¡Hola! Bienvenido al famoso Mesón Hostigado. ¿Qué deseas beber?
-DescClose=¡Hasta luego!
-Body=26
-Head=28
-NpcType=0
-Comercia=1
-NROITEMS=4
-Obj1=43-100
-Obj2=160-100
-Obj3=161-100
-
 [NPC8]
 Name=Feviena <Provisiones>
 Desc=¡Hola! Ven a ver estos productos, sólo aquí conseguirás las mejores provisiones de todas estas tierras.
@@ -1785,19 +1752,6 @@ Comercia=1
 NROITEMS=2
 Obj1=3748-100
 Obj2=3749-100
-
-[NPC10]
-Name=Granjero Norte <Provisiones>
-Desc=¡Bienvenido a mi huerta! Tengo las mejores frutas de la zona. No podrás encontrarlas de mejor calidad.
-DescClose=¡Hasta luego!
-Body=66
-Head=604
-NpcType=0
-Comercia=1
-NROITEMS=10
-Obj1=1-100
-Obj2=22-100
-Obj3=23-100
 
 [NPC11]
 Name=Seraphia <Quest de Alquimia>
@@ -1956,33 +1910,12 @@ Obj1=4959-10
 Obj2=4958-10
 Obj3=4957-10
 
-[NPC26]
-Name=McGlashan
-Desc=¡Compro lo que el mar puede ofrecer!
-Body=23
-Head=426
-Comercia=1
-NROITEMS=2
-Obj1=881-1
-Obj2=2183-1
-Obj3=138-1
-
 [NPC27]
 Name=Nixerino <Guardia de Arena>
 Desc=¡Demuestra tu valor en combate! El ingreso a la arena cuesta 500 monedas de oro. Escribe /ARENA para ingresar.
 Body=904
 Head=0
 NpcType=24
-
-[NPC28]
-Name=Vendedor de Pasajes
-Desc=Interactua conmigo si quieres viajar por el mundo.
-Body=281
-Head=46
-NpcType=0
-Comercia=1
-NROITEMS=1
-Obj1=6300-10000
 
 [NPC30]
 Name=Xantros <Equipamiento de Mago>
@@ -2007,28 +1940,6 @@ NROITEMS=3
 Obj1=1963-100
 Obj2=1900-100
 Obj3=1901-100
-
-[NPC36]
-Name=Rethor <Sastrería>
-Desc=Las mejores telas en la mejor ciudad, nada que perder con estos precios.
-Body=22
-Head=15
-Comercia=1
-NROITEMS=18
-Obj1=2910-1
-Obj2=2906-1
-Obj3=964-1
-
-[NPC37]
-Name=Rethor <Sastre de Ullathorpe>
-Desc=Las mejores telas en la mejor ciudad, nada que perder con estos precios.
-Body=22
-Head=15
-Comercia=1
-NROITEMS=17
-Obj1=463-1
-Obj2=32-1
-Obj3=32-1
 
 [NPC46]
 Name=Magnus Elixius <Alquimista Real>
@@ -2073,17 +1984,6 @@ Obj1=15-1
 Obj2=2-1
 Obj3=1700-1
 
-[NPC49]
-Name=Lyhn <Sastre de Nix>
-Desc=Calidad en pieles. ¡Solo para damas!
-Body=676
-Head=165
-Comercia=1
-NROITEMS=18
-Obj1=2927-1
-Obj2=1272-1
-Obj3=1985-1
-
 [NPC50]
 Name=Horacio <Sastre de Nuevos Ropajes>
 Desc=Vendo ropajes nuevos que dan dolores de cabeza
@@ -2094,28 +1994,6 @@ NROITEMS=20
 Obj1=4497-1
 Obj2=4352-1
 Obj3=4351-1
-
-[NPC53]
-Name=Sioris <Sastre Exotico>
-Desc=Estas costuras fueron realizadas por nuestros ancestros, aún puede notarse la tela exótica.
-Body=3063
-Head=607
-Comercia=1
-NROITEMS=4
-Obj1=2878-1
-Obj2=1957-1
-Obj3=519-1
-
-[NPC54]
-Name=Richard <Sastre de Nix>
-Desc=¡La mejor sastrería del continente! No vas a arrepentirte.
-Body=17
-Head=612
-Comercia=1
-NROITEMS=18
-Obj1=2910-1
-Obj2=2906-1
-Obj3=964-1
 
 [NPC55]
 Name=Thaladir <Carpintero>
@@ -2204,68 +2082,11 @@ Obj2=2764-100
 Obj3=2763-100
 NoMapInfo=1
 
-[NPC77]
-Name=Xyret
-Desc=Acercate maldito, aquí encontrarás lo mejor que el mar ofrece.
-Body=4582
-Comercia=1
-NROITEMS=4
-Obj1=881-1
-Obj2=2183-1
-Obj3=138-1
-
-[NPC83]
-Name=Azke <Tabernero>
-Desc=Te vendería cianuro, pero quedaría sin clientes.
-Body=4583
-Comercia=1
-NROITEMS=4
-Obj1=43-100
-Obj2=160-100
-Obj3=161-100
-
-[NPC84]
-Name=Irnk <Provisiones>
-Desc=Esta comida da asco, pero más asco das tú.
-Body=4582
-Comercia=1
-NROITEMS=10
-Obj1=1-100
-Obj2=22-100
-Obj3=23-100
-
-[NPC85]
-Name=Eza Talrê <Quest>
-Desc=Ven muchacho/a este es tu momento para aprender a dominar el poder que llevas dentro. Anímate.
-Body=1099
-Head=73
-NpcType=17
-
-[NPC86]
-Name=Snyder <Quest>
-Desc=Ando buscando quien logre desplegar su poder y sea capaz de ayudar tanto en tierra firme como en el mar. No tengo dudas que este será un valioso intercambio.
-Body=962
-Head=702
-NpcType=17
-
 [NPC87]
 Name=Dalgleish <Quest>
 Desc=¡Oye! ¿En busca de acción? En tus ojos noto el fuego interior necesario para el desafío que te propongo.
 Body=942
 Head=15
-NpcType=17
-
-[NPC88]
-Name=Bothwell <Quest>
-Body=247
-Head=712
-NpcType=17
-
-[NPC89]
-Name=Holyrood <Quest>
-Desc=¡Oh por todos los reyes y dioses! Necesito ayuda para combatir esta tortura.
-Body=17
-Head=17
 NpcType=17
 
 [NPC90]
@@ -2274,46 +2095,11 @@ Body=126
 Head=697
 NpcType=17
 
-[NPC91]
-Name=Reiz Ez <Quest>
-Desc=Hay mucha criatura que necesita ser combatida en este mundo. Eres el indicado para hacerlo. ¡Empecemos!
-Body=91
-Head=11
-NpcType=17
-
-[NPC92]
-Name=Ofelia <Quest>
-Desc=¡Estoy desesperada, por favor ayudame!
-Body=1049
-Head=561
-NpcType=17
-
-[NPC93]
-Name=Bael el Bardo <Quest>
-Desc=¿Tienes tiempo libre para oir unas canciones?
-Body=125
-Head=102
-NpcType=17
-
-[NPC94]
-Name=Mezier <Quest>
-Desc=Estaba buscando un aventurero como tu. Claro que serás bien recompensado.
-Body=192
-Head=109
-NpcType=17
-
 [NPC95]
 Name=Aurelion Valtheris <Quest de Fragmentos>
 Desc=La Luz te ha traído hasta mí.
 Body=484
 Head=0
-NpcType=17
-
-[NPC96]
-Name=Morthon <Quest>
-Desc=El mejor acero del reino.
-Body=132
-Head=34
 NpcType=17
 
 [NPC97]
@@ -2334,18 +2120,6 @@ BodyIdle=4011
 Ataque1=4011
 NpcType=4
 NoMapInfo=1
-
-[NPC99]
-Name=Banquero Enano <Finanzas Goliath>
-Desc=Hola, bienvenido a la cadena de finanzas Goliath.
-Body=5823
-Head=0
-NpcType=4
-NoMapInfo=1
-NROITEMS=9
-Obj1=38-10000
-Obj2=37-10000
-Obj3=36-10000
 
 [NPC100]
 Name=Therona <Tabernera>
@@ -2390,28 +2164,6 @@ Obj2=2763-100
 Obj3=2467-100
 NoMapInfo=1
 
-[NPC103]
-Name=Bagul <Minero>
-Desc=¿Estas interesado en la minería? Cuento con todas las herramientas necesarias.
-Body=1032
-Head=509
-Comercia=1
-NROITEMS=6
-Obj1=187-1
-Obj2=363-1
-Obj3=2818-1
-
-[NPC104]
-Name=Mebag <Pescador>
-Desc=Aquí conseguirás lo mejor que el mar puede ofrecer!
-Body=17
-Head=525
-Comercia=1
-NROITEMS=7
-Obj1=881-1
-Obj2=2183-1
-Obj3=138-1
-
 [NPC105]
 Name=Durrotha <Mercader>
 Desc=¡Hola! Estoy interesado en todo tipo de productos.
@@ -2445,13 +2197,6 @@ Name=Eldric <Quest de Dungeon Marabel>
 Desc=No deberías estar aquí... pero si has llegado hasta este lugar, tal vez aún quede esperanza. Las criptas de Marabel han sido profanadas. Orcos salvajes, liches y brujos impíos deambulan sin control. Si deseas oro y experiencia, ayúdame a reducir su número antes de que el mal se extienda más allá de estas paredes.
 Body=906
 Head=0
-NpcType=17
-
-[NPC110]
-Name=Grimrot <Quest>
-Desc=Prueba el acero Orco, tal vez te lleves una sorpresa.
-Body=59
-Head=516
 NpcType=17
 
 [NPC111]
@@ -2501,20 +2246,6 @@ Name=Gamora <Quest del Escudo Legionario>
 Desc=Tengo el más poderoso acero Orco para ti.
 Body=3005
 Head=518
-NpcType=17
-
-[NPC117]
-Name=Grindal <Quest>
-Desc=¿Cómo demonios entraste aqui?
-Body=268
-Head=38
-NpcType=17
-
-[NPC118]
-Name=Carol <Quest>
-Desc=Refuerzo armas de trabajadores, acercate y charlemos.
-Body=27
-Head=79
 NpcType=17
 
 [NPC119]
@@ -2701,65 +2432,12 @@ Head=0
 NpcType=12
 NoMapInfo=1
 
-[NPC260]
-Name=Camello <Quest>
-Desc=No puedo decirte exactamente qué haré con él... pero sé que su energía vale oro para quien pueda estudiarla.
-Body=5639
-Head=0
-BodyIdle=5637
-Ataque1=5638
-NpcType=17
-
-[NPC261]
-Name=Guardia Imperial
-Desc=¡Viva el rey Tancredo!
-Body=5554
-Head=0
-HP=10000
-NpcType=2
-Comercia=0
-MaxHIT=250
-MinHIT=150
-NROITEMS=0
-
-[NPC262]
-Name=Sacerdote Imperial
-Desc=¡Oh, hijo mío! ¡Que la llama de la virtud arda en tu Corazón!
-Body=147
-Head=4
-HP=10000
-NpcType=2
-Comercia=0
-MaxHIT=100
-MinHIT=100
-NROITEMS=0
-
-[NPC263]
-Name=Sacerdote Imperial
-Desc=¡Oh, hijo mío! ¡Que la llama de la virtud arda en tu Corazón!
-Body=147
-Head=4
-HP=10000
-NpcType=2
-Comercia=0
-MaxHIT=100
-MinHIT=100
-NROITEMS=0
-
 [NPC265]
 Name=Subastador
 Desc=Subastador
 Body=289
 Head=114
 NpcType=16
-
-[NPC266]
-Name=Guardia del Caos
-Body=4516
-HP=1500
-EXP=900
-MaxHIT=150
-MinHIT=70
 
 [NPC267]
 Name=Nivor <Cabra de la Nieve>
@@ -2792,56 +2470,6 @@ NpcType=13
 NoMapInfo=1
 MaxHIT=25000
 MinHIT=25000
-
-[NPC270]
-Name=Mago del Caos
-Desc=¡El caos reinará en estas tierras!
-Body=209
-Head=205
-HP=9550
-NpcType=0
-Comercia=0
-MaxHIT=100
-MinHIT=100
-NROITEMS=0
-
-[NPC271]
-Name=Guardia del Caos
-Desc=Mataré a todos los ciudadanos.
-Body=4516
-Head=0
-HP=10000
-NpcType=8
-Comercia=0
-MaxHIT=255
-MinHIT=150
-NROITEMS=0
-
-[NPC275]
-Name=Guardia Imperial de Nix
-Desc=Daré carcel a todos los criminales.
-Body=5554
-HP=10000
-MaxHIT=100
-MinHIT=100
-
-[NPC276]
-Name=Arquero Imperial
-Desc=Mi deber es resguardar las murallas de esta ciudad.
-Body=364
-Head=31
-HP=7500
-NpcType=0
-Comercia=0
-MaxHIT=150
-MinHIT=100
-
-[NPC290]
-Name=Apostador
-Desc=Si deseas apostar, escribe /APOSTAR e ingresa la cantidad con la que jugarás.
-Body=36
-Head=9
-NpcType=7
 
 [NPC301]
 Name=Aelion <Rey de Eldoria>
@@ -2876,37 +2504,6 @@ HP=500000
 NpcType=5
 MaxHIT=350
 MinHIT=300
-
-[NPC306]
-Name=Defias
-Desc=Pssst, tengo algo que podría interesarte.
-Body=4895
-Head=402
-Comercia=1
-NROITEMS=1
-Obj1=2768-100
-
-[NPC307]
-Name=Tytha <Sastrería Bajos>
-Desc=¡Tengo las mejores vestimentas y tunicas para bajos de todas las tierras!
-Body=964
-Head=353
-Comercia=1
-NROITEMS=16
-Obj1=2843-100
-Obj2=2841-100
-Obj3=2829-100
-
-[NPC308]
-Name=Lagartija 2
-Body=4844
-HP=200000
-GIVEEXPCLAN=100
-MaxHIT=5000
-MinHIT=1000
-NumQuiza=1
-QUIZADROPEA1=1649
-QuizaProb=100
 
 [NPC400]
 Name=Abyssal
@@ -2979,34 +2576,10 @@ Head=0
 NpcType=17
 Comercia=0
 
-[NPC409]
-Name=Bowkrag <Quest>
-Desc=Tu mirada me dice que las oscuras leyendas del sur no te acobardan. Necesitamos de un gran explorador. ¿Lo eres?
-Body=260
-Head=685
-NpcType=17
-Comercia=0
-
 [NPC410]
 Name=Octis <Quest del Minero Explorador>
 Desc=¡Una cara nueva! Qué gusto verte, me presento, soy Otis. Quizás podamos sernos de utilidad.
 Body=6092
-NpcType=17
-Comercia=0
-
-[NPC411]
-Name=Astan <Quest>
-Desc=A ti te da miedo, y a mi me encanta estar aquí!
-Body=1145
-Head=304
-NpcType=17
-Comercia=0
-
-[NPC412]
-Name=John Silver <Quest>
-Desc=¡Se ha escapado mi loro! Ah, perdona. No te había visto.
-Body=277
-Head=616
 NpcType=17
 Comercia=0
 
@@ -3026,14 +2599,6 @@ BodyIdle=6179
 Ataque1=6179
 NpcType=17
 
-[NPC419]
-Name=Trevor <Quest>
-Desc=Hola, yo soy el encargado de la seguridad de esta ciudad.
-Body=92
-Head=8
-NpcType=17
-Comercia=0
-
 [NPC420]
 Name=Cold <Ciudadano de Eleusis>
 Desc=¿Tienes frío? ¡Yo apenas lo siento!
@@ -3049,30 +2614,6 @@ Body=431
 Head=0
 NpcType=17
 
-[NPC423]
-Name=Coltrane <Quest>
-Desc=Me he quedado sin recursos.
-Body=1174
-Head=309
-NpcType=17
-Comercia=0
-
-[NPC424]
-Name=Eldariel <Quest>
-Desc=¡Les sacaré el otro ojo!
-Body=232
-Head=692
-NpcType=17
-Comercia=0
-
-[NPC425]
-Name=Ulises <Quest>
-Desc=Ven acercate tengo trabajo para ti.
-Body=753
-Head=420
-NpcType=17
-Comercia=0
-
 [NPC426]
 Name=Dragga <Quest de Celeridad>
 Desc=Esta ubicación es muy linda! Pero yo llegué primera.
@@ -3087,34 +2628,12 @@ Body=418
 Head=0
 NpcType=17
 
-[NPC428]
-Name=Tairon <Quest>
-Desc=¡Hola aventurero, necesito tu ayuda!
-Body=63
-Head=13
-NpcType=17
-
-[NPC429]
-Name=Adha <Quest>
-Desc=¡Por fin te encontré! Un gran desafio te espera.
-Body=2050
-Head=178
-NpcType=17
-
 [NPC430]
 Name=Barlock <Quest de Goblins>
 Desc=¡Oye tú, ser mágico, ayuda por favor!
 Body=475
 Head=0
 NpcType=17
-
-[NPC431]
-Name=Altair <Quest>
-Desc=!Aqui estas tú! ¡Sé que lograremos hacer algo con esos piratas!
-Body=26
-Head=15
-NpcType=17
-Comercia=0
 
 [NPC432]
 Name=Alaric von Nix <Quest de Pieles>
@@ -3143,39 +2662,6 @@ BodyIdle=4010
 Ataque1=4010
 NpcType=4
 NoMapInfo=1
-
-[NPC492]
-Name=Keldor <Finanzas Goliath>
-Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
-Body=5825
-Head=0
-NpcType=4
-NoMapInfo=1
-
-[NPC493]
-Name=Banquero Elfo <Finanzas Goliath>
-Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
-Body=5821
-Head=0
-NpcType=4
-NoMapInfo=1
-
-[NPC494]
-Name=Banquero Negro <Finanzas Goliath>
-Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
-Body=5821
-Head=0
-NpcType=4
-NoMapInfo=1
-
-[NPC498]
-Name=Centinela
-Desc=Soy el Centinela, guardián de los recursos. Hazme click derecho si estás trabajando y me ves cerca, corres riesgo de perder tu personaje. Mantente atento.
-Body=168
-Head=175
-NpcType=15
-Comercia=0
-NROITEMS=0
 
 [NPC499]
 Name=Centinela
@@ -3744,18 +3230,6 @@ MaxHIT=85
 MinHIT=35
 Nivel=20
 
-[NPC538]
-Name=Euríale
-Body=4563
-HP=8000
-Nivel=45
-Comercia=0
-EXP=22000
-GiveEXPClan=3
-ORO=770
-MaxHIT=190
-MinHIT=175
-
 [NPC540]
 Name=Medusa
 Body=4856
@@ -4079,20 +3553,6 @@ MaxHIT=1
 MinHIT=1
 NROITEMS=0
 
-[NPC564]
-Name=Capitan Wynne
-Body=132
-Head=604
-HP=9000
-EXP=0
-ORO=0
-MaxHIT=160
-MinHIT=120
-NumQuiza=1
-QuizaDropea1=3175-1
-QuizaProb=100
-NpcType=0
-
 [NPC565]
 Name=Anubis
 Body=4910
@@ -4105,32 +3565,6 @@ ORO=85
 MaxHIT=85
 MinHIT=40
 Nivel=20
-
-[NPC566]
-Name=Mezier <Quest>
-Desc=¡La Ciudad del Comercio está en problemas!
-Body=192
-Head=109
-NpcType=17
-
-[NPC567]
-Name=Calaveras
-Body=4002
-HP=1
-Comercia=0
-
-[NPC568]
-Name=Humana No-Muerta
-Body=3704
-Head=629
-HP=300
-EXP=150
-MaxHIT=20
-MinHIT=15
-NumQuiza=1
-ORO=8
-QUIZADROPEA1=1239
-QuizaProb=125
 
 [NPC569]
 Name=Cápitan Pyke
@@ -4145,17 +3579,6 @@ ORO=265
 MaxHIT=190
 MinHIT=150
 Nivel=28
-
-[NPC570]
-Name=Piet Heyn
-Body=285
-Head=26
-HP=3000
-EXP=2550
-ORO=125
-MaxHIT=125
-MinHIT=80
-NpcType=0
 
 [NPC571]
 Name=Delvina <Quest de Zombies>
@@ -4244,39 +3667,6 @@ MaxHIT=16
 MinHIT=7
 Nivel=5
 
-[NPC577]
-Name=Aquilore Antártico
-Body=4239
-HP=2000
-EXP=2160
-MaxHIT=130
-MinHIT=80
-ORO=160
-
-[NPC578]
-Name=Tigre Antártico
-Body=4913
-HP=2800
-EXP=3248
-MaxHIT=60
-MinHIT=38
-ORO=120
-
-[NPC579]
-Name=Gorila Antártico
-Body=4922
-HP=3300
-EXP=3000
-MaxHIT=160
-MinHIT=115
-ORO=160
-
-[NPC580]
-Name=Pedro <Quest>
-Desc=He quedado varado aqui desde hace unos días, me alegra volver a ver a alguien por aqui!
-Body=615
-Head=328
-
 [NPC581]
 Name=Compi
 Body=4813
@@ -4304,19 +3694,6 @@ MinHIT=35
 ORO=15
 EXP=450
 Nivel=28
-
-[NPC583]
-Name=Piraña de Costa
-Body=5482
-Head=0
-BodyIdle=5480
-Ataque1=5481
-HP=50
-NpcType=0
-EXP=0
-ORO=0
-MaxHIT=90
-MinHIT=55
 
 [NPC584]
 Name=Rata Gigante
@@ -4371,22 +3748,6 @@ ORO=95
 MaxHIT=75
 MinHIT=45
 Nivel=20
-
-[NPC588]
-Name=Pirata Jack
-Body=282
-Head=32
-HP=3500
-Comercia=0
-EXP=2800
-ORO=150
-MaxHIT=90
-MinHIT=75
-NumQuiza=1
-QuizaDropea1=1863-1
-QuizaProb=2
-GiveEXPClan=1
-NpcType=0
 
 [NPC589]
 Name=Scylla
@@ -4522,13 +3883,6 @@ QuizaDropea3=2649-1
 QuizaDropea4=2104-1
 QuizaProb=1
 
-[NPC600]
-Name=Rey de Arkhein
-Desc=Rey de Arkhein
-Body=4432
-Head=0
-NpcType=17
-
 [NPC601]
 Name=Robot
 Desc=Padre, dame piernas!!!
@@ -4549,13 +3903,6 @@ Name=Caja Misteriosa
 Body=4426
 HP=1
 Comercia=0
-
-[NPC604]
-Name=Franklin <Quest>
-Desc=¡Necesito de tu ayuda para conocer mas sobre la Medusa!
-Body=721
-Head=403
-NpcType=17
 
 [NPC605]
 Name=Araña Negra
@@ -4629,17 +3976,6 @@ MinHIT=20
 NpcType=0
 Nivel=15
 
-[NPC610]
-Name=Grebdioz
-Body=4418
-Head=0
-HP=8000
-Comercia=0
-EXP=18500
-ORO=640
-MaxHIT=180
-MinHIT=150
-
 [NPC611]
 Name=Murciélago Gigante
 Body=4417
@@ -4666,34 +4002,6 @@ NpcType=19
 Name=Blanco II
 Desc=Tiro al Blanco
 Body=4065
-HP=1000000
-NpcType=19
-
-[NPC614]
-Name=Blanco
-Desc=Tiro al Blanco
-Body=4064
-HP=1000000
-NpcType=19
-
-[NPC615]
-Name=Blanco
-Desc=Tiro al Blanco
-Body=4063
-HP=1000000
-NpcType=19
-
-[NPC616]
-Name=Blanco
-Desc=Tiro al Blanco
-Body=4062
-HP=1000000
-NpcType=19
-
-[NPC617]
-Name=Blanco
-Desc=Tiro al Blanco
-Body=4061
 HP=1000000
 NpcType=19
 
@@ -4793,11 +4101,6 @@ Body=4410
 Head=0
 NROITEMS=1
 Obj1=3314-1
-
-[NPC627]
-Name=Ojos Murcielago
-Head=0
-BodyIdle=4408
 
 [NPC628]
 Name=Ojos Murcielago
@@ -5031,21 +4334,6 @@ MinHIT=40
 NpcType=0
 Nivel=20
 
-[NPC648]
-Name=Reydmon
-Desc=¿Has oído las noticias? Los representantes de todas las razas y los reyes de ambas facciones se han reunido en el Mesón Hostigado. Esto nunca había pasado en la historia… Están reclutando soldados para una gran batalla según escuche. ¡No pierdas tiempo y ve!
-Body=4912
-Head=310
-NpcType=17
-Comercia=0
-
-[NPC649]
-Name=Entrenador
-Desc=¡Hola amigo! Soy el maestro de armas Personal. Si deseas que traiga una criatura sólo debes pedírmelo. "/Entrenar"""
-Body=73
-Head=6
-NpcType=3
-
 [NPC650]
 Name=Rata Negra
 Body=5160
@@ -5083,13 +4371,6 @@ MaxHIT=45
 MinHIT=30
 NpcType=0
 Nivel=20
-
-[NPC653]
-Name=Entrenador de Combate
-Desc=Soy el Maestro de Armas personal. Si deseas aprender sobre tus daños, hazme doble click, invocaré un objetivo de defensa para que practiques!
-Body=254
-Head=6
-NpcType=3
 
 [NPC654]
 Name=Serpiente Albina
@@ -5196,18 +4477,6 @@ NpcType=0
 GiveEXPClan=1
 Nivel=28
 
-[NPC662]
-Name=Orius
-Body=4331
-Head=0
-BodyIdle=4332
-Ataque1=4330
-HP=5000
-EXP=4000
-ORO=200
-MaxHIT=145
-MinHIT=100
-
 [NPC663]
 Name=Alacrán
 Body=4338
@@ -5237,19 +4506,6 @@ MinHIT=10
 NpcType=0
 Nivel=5
 
-[NPC665]
-Name=Quiróptero
-Body=4340
-Head=0
-BodyIdle=4340
-Ataque1=4339
-HP=300
-Comercia=0
-EXP=300
-ORO=20
-MaxHIT=35
-MinHIT=15
-
 [NPC666]
 Name=Elapidae
 Body=4342
@@ -5267,22 +4523,6 @@ QuizaDropea1=2498-1
 QuizaProb=50
 NpcType=0
 Nivel=5
-
-[NPC667]
-Name=Naja
-Body=4345
-Head=0
-BodyIdle=4346
-Ataque1=4344
-HP=360
-Comercia=0
-EXP=360
-ORO=20
-MaxHIT=38
-MinHIT=18
-NumQuiza=1
-QuizaDropea1=2498-1
-QuizaProb=50
 
 [NPC668]
 Name=Scramer Acolito
@@ -5339,18 +4579,6 @@ MinHIT=20
 ORO=25
 NpcType=0
 Nivel=20
-
-[NPC672]
-Name=Coloso flora
-Body=4360
-Head=0
-BodyIdle=4361
-Ataque1=4359
-HP=400
-EXP=4000
-ORO=32
-MaxHIT=40
-MinHIT=25
 
 [NPC673]
 Name=Vulpes
@@ -5454,11 +4682,6 @@ ORO=28
 NpcType=0
 Nivel=15
 
-[NPC680]
-Name=Elanrullk
-Body=4382
-NpcType=17
-
 [NPC681]
 Name=Araña del Desierto
 Body=4303
@@ -5509,51 +4732,6 @@ Obj2=38-1000
 Obj3=36-1000
 NoMapInfo=1
 
-[NPC686]
-Name=Jonas <Tabernero Penthar>
-Desc=¡Hola! Bienvenido mi negocio. ¿Qué deseas beber?
-Body=26
-Head=28
-Comercia=1
-NROITEMS=4
-Obj1=43-100
-Obj2=160-100
-Obj3=161-100
-
-[NPC687]
-Name=Granjero Norte <Provisiones Penthar>
-Desc=¡Bienvenido a mi huerta! Tengo las mejores frutas de la zona. No podrás encontrarlas de mejor calidad.
-Body=66
-Head=604
-Comercia=1
-NROITEMS=10
-Obj1=1-100
-Obj2=22-100
-Obj3=23-100
-
-[NPC689]
-Name=Glasyan <Pescador>
-Desc=¡Compro lo que el mar puede ofrecer!
-Body=1222
-Head=520
-NpcType=0
-Comercia=1
-NROITEMS=2
-Obj1=881-1
-Obj2=2183-1
-
-[NPC690]
-Name=Esqueleto Guardian
-Body=4374
-Head=0
-BodyIdle=4375
-Ataque1=4273
-HP=2500
-EXP=2340
-ORO=220
-MaxHIT=120
-MinHIT=70
-
 [NPC691]
 Name=Murciélago Invocado
 Body=4417
@@ -5591,39 +4769,6 @@ NpcType=1
 PuedeInvocar=1
 Comercia=0
 
-[NPC694]
-Name=Sheila <Quest>
-Desc=Puedo intuir que necesitas mi ayuda. Cuentame.
-Body=221
-Head=55
-NpcType=17
-
-[NPC695]
-Name=Teggar <Quest>
-Desc=¡Bienvenido guerrero! Te estaba esperando.
-Body=4057
-NpcType=17
-
-[NPC696]
-Name=Anco <Quest>
-Desc=¡Bienvenido guerrero! Te estaba esperando.
-Body=4058
-NpcType=17
-
-[NPC697]
-Name=Rudoph <Quest>
-Desc=¡Aqui te veo! Creo que vienes por mi.
-Body=1295
-Head=43
-NpcType=17
-
-[NPC698]
-Name=Antoine <Quest>
-Desc=¿Tú que quieres? No cualquiera pertenece al gremio de pescadores. Déjame verte.
-Body=14
-Head=305
-NpcType=17
-
 [NPC699]
 Name=Ralph <Quest>
 Desc=Ya veo, mi hermano Jacobo siempre ha tenido buen ojo para reconocer grandes pescadores.
@@ -5642,31 +4787,6 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
-
-[NPC718]
-Name=Eugenia <Quest>
-Desc=¿Crees que alguien como tu podría enfrentarse a esta temible bestia?
-Body=2196
-Head=172
-NpcType=17
-
-[NPC719]
-Name=Explorador <Quest>
-Desc=Hay rumores sobre el escape de un temible Lobo de la Cueva de la Desolación, temo por los ciudadanos de Arghal y el futuro de la Ciudad. Necesitamos organizar las defensas. ¿Cuento con tu ayuda?
-Body=187
-Head=21
-
-[NPC720]
-Name=Enano de las Profundidades
-Body=4477
-HP=7000
-Comercia=0
-MaxHIT=190
-MinHIT=90
-NumQuiza=0
-QuizaDropea1=1715-1
-QuizaDropea2=159-1
-QuizaProb=15
 
 [NPC721]
 Name=Brumak
@@ -5825,18 +4945,6 @@ QUIZADROPEA1=239
 QuizaProb=200
 NpcType=0
 Nivel=20
-
-[NPC754]
-Name=Espíritu Poseído
-Body=4246
-Head=0
-BodyIdle=4249
-Ataque1=4247
-HP=8000
-EXP=2400
-ORO=200
-MaxHIT=190
-MinHIT=150
 
 [NPC755]
 Name=Gigantor
@@ -6067,18 +5175,6 @@ MinHIT=75
 EXP=5000
 ORO=0
 
-[NPC820]
-Name=Horror Tóxico
-Body=5434
-Head=0
-BodyIdle=5432
-Ataque1=5433
-HP=3600
-EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
-
 [NPC822]
 Name=Bruin
 Body=4930
@@ -6288,18 +5384,6 @@ EXP=1450
 ORO=70
 Nivel=32
 
-[NPC841]
-Name=Piraña Test
-Body=5479
-Head=0
-BodyIdle=5477
-Ataque1=5478
-HP=1
-EXP=0
-ORO=0
-MaxHIT=1
-MinHIT=1
-
 [NPC842]
 Name=Ignarok
 Body=5588
@@ -6417,30 +5501,6 @@ ORO=0
 MaxHIT=0
 MinHIT=0
 
-[NPC854]
-Name='Leon Blanco'
-Body=5630
-Head=0
-BodyIdle=5628
-Ataque1=5629
-HP=3600
-EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
-
-[NPC855]
-Name='Leon Negro'
-Body=5633
-Head=0
-BodyIdle=5631
-Ataque1=5632
-HP=3600
-EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
-
 [NPC856]
 Name=Kingion
 Body=5636
@@ -6467,48 +5527,12 @@ ORO=0
 MaxHIT=0
 MinHIT=0
 
-[NPC858]
-Name=Gunnarof
-Body=6003
-Head=0
-BodyIdle=6001
-Ataque1=6002
-HP=3600
-EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
-
-[NPC859]
-Name=Escaldra
-Body=6006
-Head=0
-BodyIdle=6004
-Ataque1=6005
-HP=3600
-EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
-
 [NPC860]
 Name=Capitan Orla
 Body=5684
 Head=0
 BodyIdle=5682
 Ataque1=5683
-HP=3600
-EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
-
-[NPC861]
-Name=Marcoc
-Body=5687
-Head=0
-BodyIdle=5685
-Ataque1=5686
 HP=3600
 EXP=0
 ORO=0
@@ -6742,21 +5766,6 @@ QuizaProb=100
 NpcType=0
 GiveEXPClan=2
 
-[NPC925]
-Name=Ninfa
-Body=4561
-Head=0
-HP=2500
-Comercia=0
-EXP=1900
-ORO=250
-MaxHIT=140
-MinHIT=75
-NumQuiza=2
-QuizaDropea1=469-1
-QuizaDropea2=540-1
-QuizaProb=20
-
 [NPC926]
 Name=Pixie de Tierra
 Body=5416
@@ -6852,17 +5861,6 @@ ORO=0
 MaxHIT=10
 MinHIT=5
 
-[NPC933]
-Name=Hada
-Body=4559
-Head=0
-HP=75
-Comercia=0
-EXP=75
-ORO=0
-MaxHIT=13
-MinHIT=5
-
 [NPC934]
 Name=Dragón Negro
 Body=5503
@@ -6906,17 +5904,6 @@ MaxHIT=25
 MinHIT=15
 NpcType=0
 
-[NPC938]
-Name=Cerdo
-Body=4552
-Head=0
-HP=100
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=45
-MinHIT=35
-
 [NPC939]
 Name=Tigre
 Body=4916
@@ -6950,28 +5937,6 @@ ORO=9
 MaxHIT=18
 MinHIT=8
 Nivel=5
-
-[NPC942]
-Name=Sapo
-Body=4069
-Head=0
-HP=25
-Comercia=0
-EXP=16
-ORO=4
-MaxHIT=8
-MinHIT=3
-
-[NPC943]
-Name=Quark
-Body=4545
-Head=0
-HP=15
-Comercia=0
-EXP=25
-ORO=0
-MaxHIT=13
-MinHIT=5
 
 [NPC944]
 Name=Golem Infernal
@@ -7072,22 +6037,6 @@ MaxHIT=20
 MinHIT=10
 Nivel=20
 
-[NPC951]
-Name=Calaveras
-Body=4002
-HP=100
-Comercia=0
-EXP=0
-ORO=0
-
-[NPC952]
-Name=Huevo de Arácnido
-Body=4534
-HP=1
-Comercia=0
-EXP=0
-ORO=0
-
 [NPC953]
 Name=Zombie Invocado
 Body=4943
@@ -7098,14 +6047,6 @@ HP=700
 NpcType=0
 MaxHIT=11
 MinHIT=8
-
-[NPC954]
-Name=Lapida
-Body=4533
-HP=1
-Comercia=0
-EXP=0
-ORO=0
 
 [NPC955]
 Name=Verraco Invocado
@@ -7276,17 +6217,6 @@ MinHIT=55
 NpcType=0
 Nivel=20
 
-[NPC969]
-Name=Araña Poecilotheria
-Body=4527
-Head=0
-HP=1725
-Comercia=0
-EXP=2500
-ORO=220
-MaxHIT=100
-MinHIT=75
-
 [NPC970]
 Name=Kaelthor
 Body=5524
@@ -7344,27 +6274,6 @@ MinHIT=75
 NpcType=0
 Nivel=20
 
-[NPC975]
-Name=Araña Venenosa
-Body=4522
-Head=0
-BodyIdle=4521
-HP=2400
-Comercia=0
-EXP=1080
-ORO=96
-MaxHIT=100
-MinHIT=70
-
-[NPC976]
-Name=Latrodectus
-Body=4526
-HP=3000
-EXP=1500
-MaxHIT=110
-MinHIT=80
-ORO=120
-
 [NPC977]
 Name=Zevkar
 Body=5476
@@ -7410,18 +6319,6 @@ QUIZADROPEA1=2531
 QuizaProb=18
 NpcType=0
 Nivel=20
-
-[NPC980]
-Name=Esqueleto Boss
-Body=5069
-Head=0
-BodyIdle=5067
-Ataque1=5068
-HP=3600
-EXP=4350
-ORO=150
-MaxHIT=95
-MinHIT=75
 
 [NPC981]
 Name=Scorvex
@@ -7470,29 +6367,6 @@ EXP=150
 ORO=7
 MaxHIT=45
 MinHIT=25
-
-[NPC985]
-Name='Escorpion Grande'
-Body=5600
-Head=0
-BodyIdle=5598
-Ataque1=5599
-HP=3600
-EXP=0
-ORO=0
-MaxHIT=0
-MinHIT=0
-
-[NPC986]
-Name=Pato nadando
-Body=4511
-Head=0
-HP=50
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=15
-MinHIT=10
 
 [NPC987]
 Name=Thalanor <Quest de Isla Pirata>
@@ -7562,28 +6436,6 @@ NROITEMS=2
 Obj1=2807-1
 Obj2=2808-1
 
-[NPC994]
-Name=Alma en Llamas
-Body=4541
-BodyIdle=4541
-HP=6100
-Nivel=45
-EXP=11000
-ORO=400
-MaxHIT=245
-MinHIT=225
-NumQuiza=1
-QuizaDropea1=868-1
-QuizaProb=150
-
-[NPC995]
-Name=LeChuck
-Desc=Soy LeChuck
-Body=4436
-Head=0
-BodyIdle=4433
-NpcType=17
-
 [NPC996]
 Name=Oso Polar
 Body=4331
@@ -7633,14 +6485,6 @@ MinHIT=50
 NpcType=0
 EXP=0
 ORO=0
-
-[NPC999]
-Name=Elaine
-Desc=Ayudame,donde demonios te has metido Guybrush!
-Body=4437
-Head=0
-BodyIdle=4434
-NpcType=17
 
 [NPC1000]
 Name=Nadador
@@ -7700,34 +6544,11 @@ Body=6148
 Head=0
 NpcType=17
 
-[NPC1005]
-Name=Yoel
-Desc=Es mejor tener precaución por aquí muchacho, es muy peligroso.
-Body=63
-Head=2
-Comercia=0
-NROITEMS=0
-
 [NPC1006]
 Name=Aldren <Quest de Rugido Salvaje>
 Desc=Los jabalíes de esta zona son fieros, pero sus cuerpos guardan la esencia salvaje que necesito para completar mi investigación.
 Body=890
 Head=0
-NpcType=17
-
-[NPC1007]
-Name=Guardián de Gulfas
-Desc=Aqui yace Gulfas Morgolock, creador de este universo.
-Body=123
-Head=5
-Comercia=0
-NROITEMS=0
-
-[NPC1008]
-Name=Esmeralda <Quest>
-Desc=¿Crees que alguien como tu podría enfrentar al famoso Gran Dragón Rojo? No lo creo...
-Body=183
-Head=172
 NpcType=17
 
 [NPC1009]
@@ -7818,13 +6639,6 @@ MinHIT=45
 NpcType=0
 GiveEXPClan=1
 Nivel=30
-
-[NPC1017]
-Name=Snyder <Quest>
-Desc=Ando buscando quien logre desplegar su poder y sea capaz de ayudar tanto en tierra firme como en el mar. No tengo dudas que este será un valioso intercambio.
-Body=562
-Head=702
-NpcType=17
 
 [NPC1018]
 Name=Arkan <Quest de Galeones>
@@ -7919,32 +6733,6 @@ Desc=Dummy
 Body=4431
 HP=1000000
 NpcType=19
-
-[NPC1028]
-Name=Serpiente de Euríale
-Body=4191
-Head=0
-BodyIdle=4192
-Ataque1=4190
-HP=1000
-Nivel=45
-Comercia=0
-EXP=600
-ORO=60
-MaxHIT=130
-MinHIT=90
-NpcType=0
-
-[NPC1029]
-Name=Patriarca Drake
-Body=4468
-BodyIdle=4467
-HP=12000
-Comercia=0
-EXP=18000
-ORO=1440
-MaxHIT=190
-MinHIT=130
 
 [NPC1030]
 Name=Minotauro
@@ -8081,20 +6869,6 @@ Obj2=4343-100
 Obj3=520-100
 NoMapInfo=1
 
-[NPC1040]
-Name=Cobra
-Body=4445
-Head=0
-BodyIdle=4445
-Ataque1=4445
-HP=350
-Comercia=0
-EXP=256
-ORO=28
-MaxHIT=40
-MinHIT=20
-NROITEMS=0
-
 [NPC1041]
 Name=Vorathis
 Body=5446
@@ -8121,41 +6895,6 @@ MaxHIT=85
 MinHIT=40
 NpcType=0
 Nivel=15
-
-[NPC1043]
-Name=Reina Gorgona
-Body=4444
-HP=80000
-Comercia=0
-EXP=125000
-GiveEXPClan=350
-MaxHIT=300
-MinHIT=200
-NumQuiza=20
-QuizaDropea1=2236-1
-QuizaDropea2=2237-1
-QuizaDropea3=2236-1
-QuizaDropea4=2237-1
-QuizaDropea5=2236-1
-QuizaDropea6=2237-1
-QuizaDropea7=2236-1
-QuizaDropea8=2237-1
-QuizaDropea9=2236-1
-QuizaDropea10=2237-1
-QuizaDropea11=2236-1
-QuizaDropea12=2237-1
-QuizaDropea13=2236-1
-QuizaDropea14=2237-1
-QuizaDropea15=2236-2
-QuizaDropea16=2237-2
-QuizaProb=1
-
-[NPC1044]
-Name=Rey Gigantor
-Body=4245
-HP=85000
-MaxHIT=170
-MinHIT=135
 
 [NPC1045]
 Name=Guardia del Pantano
@@ -8340,31 +7079,6 @@ MaxHIT=1
 MinHIT=1
 Nivel=20
 
-[NPC1057]
-Name=Jarl Morngrim
-Body=133
-Head=686
-HP=75000
-Comercia=0
-EXP=0
-MaxHIT=300
-MinHIT=250
-NumQuiza=4
-QuizaDropea1=2897-1
-QuizaDropea2=1859-1
-QuizaDropea3=1080-1
-QuizaDropea4=1725-1
-QuizaProb=25
-GiveEXPClan=60
-NpcType=0
-
-[NPC1058]
-Name=Elias
-Desc=Habla conmigo si quieres amalgamar tus gemas.
-Body=590
-Head=462
-NpcType=0
-
 [NPC1059]
 Name=Rhamses <Quest de Piramide>
 Desc=¡Que placer encontrar a alguien por aquí!
@@ -8384,38 +7098,6 @@ MaxHIT=65
 MinHIT=30
 EXP=0
 ORO=0
-
-[NPC1061]
-Name=Fabian <Monturas>
-Desc=Mi hermano Sergio me habló de tí
-Body=4780
-Head=603
-
-[NPC1062]
-Name=Christian <Monturas>
-Desc=Mi hermano Fabian me habló de tí
-Body=4778
-Head=601
-
-[NPC1063]
-Name=Marcelo <Monturas>
-Desc=Mi hermano Christian me habló de tí
-Body=4787
-Head=600
-
-[NPC1064]
-Name=Guido <Monturas>
-Desc=Mi hermano Marcelo me habló de tí
-Body=4785
-Head=535
-
-[NPC1065]
-Name=Intercambio de Monturas
-Desc=Si habias conseguido una Mula, Caballo Marrón, Caballo Blanco, Montura del Combatiente o Caballo Palomino, tengo una propuesta para ti.
-DescClose=¡Hasta pronto!
-Body=73
-Head=536
-NpcType=17
 
 [NPC1066]
 Name=Holyrood <Quest de Arañas>
@@ -8511,17 +7193,6 @@ MaxHIT=175
 MinHIT=145
 EXP=0
 ORO=0
-
-[NPC1078]
-Name=Grog
-Body=728
-Head=329
-HP=2200
-EXP=1540
-MaxHIT=135
-MinHIT=60
-ORO=88
-NpcType=0
 
 [NPC1079]
 Name=Luchador de las Minas
@@ -8655,17 +7326,6 @@ Obj2=2183-1000
 Obj3=2789-1000
 NoMapInfo=1
 
-[NPC1089]
-Name=Celyne <Sastre de Nix>
-Desc=¡Tengo las mejores vestimentas y tunicas para bajos de todas las tierras!
-Body=1194
-Head=351
-Comercia=1
-NROITEMS=18
-Obj1=240-1
-Obj2=9044-1
-Obj3=2843-1
-
 [NPC1090]
 Name=Leo <Pescador>
 Desc=¡El mar tiene tanto por ofrecer! Revisa mis herramientas, puede que haya algo que te sirva.
@@ -8705,72 +7365,6 @@ Obj2=2764-100
 Obj3=2763-100
 NoMapInfo=1
 
-[NPC1093]
-Name=Halving <Carpintero de Nix>
-Desc=Bienvenido. Trabajo todo tipo de leña.
-Body=14
-Head=318
-Comercia=1
-NROITEMS=8
-Obj1=198-1
-Obj2=127-1
-Obj3=361-1
-
-[NPC1094]
-Name=Tjen <Sastre de Banderbill>
-Desc=El único sastre habilitado personalmente por el Rey Tancredo.
-Body=183
-Head=117
-Comercia=1
-NROITEMS=7
-Obj1=55-1
-Obj2=196-1
-Obj3=381-1
-
-[NPC1095]
-Name=Angie <Sastre de Banderbill>
-Desc=Aquí es donde fabricamos las túnicas para la realeza. Pero quizás también tenga algo para alguien como tú.
-Body=183
-Head=167
-Comercia=1
-NROITEMS=9
-Obj1=2924-1
-Obj2=2955-1
-ObJ3=381-1
-
-[NPC1096]
-Name=Morena <Sastre de Banderbill>
-Desc=¡Tengo las mejores vestimentas y tunicas para bajos de todas las tierras!
-Body=1185
-Head=707
-Comercia=1
-NROITEMS=11
-Obj1=2826-1
-Obj2=195-1
-Obj3=1226-1
-
-[NPC1097]
-Name=Perseo <Armero de Banderbill>
-Desc=¿De dónde crees que salieron las lanzas imperiales? ¡Así es!
-Body=62
-Head=17
-Comercia=1
-NROITEMS=9
-Obj1=15-1
-Obj2=165-1
-Obj3=1094-1
-
-[NPC1098]
-Name=Roy <Armaduras de Banderbill>
-Desc=Acercate, tengo algunas armaduras que podrían protegerte.
-Body=337
-Head=604
-Comercia=1
-NROITEMS=10
-Obj1=30-1
-Obj2=529-1
-Obj3=1004-1
-
 [NPC1099]
 Name=Borvat
 Body=6028
@@ -8787,38 +7381,6 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
-
-[NPC1100]
-Name=Halving <Carpintero de Banderbill>
-Desc=Bienvenido. Trabajo todo tipo de leña.
-Body=14
-Head=318
-Comercia=1
-NROITEMS=8
-Obj1=198-1
-Obj2=127-1
-Obj3=361-1
-
-[NPC1101]
-Name=Rethor <Sastre de Arkhein>
-Desc=Las mejores telas en la mejor ciudad, nada que perder con estos precios.
-Body=22
-Head=15
-Comercia=1
-NROITEMS=7
-Obj1=55-1
-Obj2=196-1
-Obj3=381-1
-
-[NPC1102]
-Name=Jadís <Sastre de Arkhein>
-Desc=Siempre hay un roto para un descosido.
-Body=4567
-Comercia=1
-NROITEMS=9
-Obj1=2924-1
-Obj2=2955-1
-ObJ3=381-1
 
 [NPC1103]
 Name=Criptococo
@@ -8889,35 +7451,6 @@ Obj1=198-1
 Obj2=127-1
 Obj3=361-1
 
-[NPC1108]
-Name=Rethor <Sastre de Arghal>
-Desc=Las mejores telas en la mejor ciudad, nada que perder con estos precios.
-Body=22
-Head=15
-Comercia=1
-NROITEMS=21
-Obj1=32-1
-Obj2=35-1
-Obj3=515-1
-
-[NPC1109]
-Name=Tony <Quest>
-Desc=¡Tengo unas misiones para ti!
-Body=1655
-Head=204
-NpcType=17
-
-[NPC1110]
-Name=Celyne <Sastre de Arghal>
-Desc=¡Tengo las mejores vestimentas y tunicas para bajos de todas las tierras!
-Body=1194
-Head=351
-Comercia=1
-NROITEMS=18
-Obj1=240-1
-Obj2=527-1
-Obj3=2843-1
-
 [NPC1111]
 Name=Zaldivar <Quest de la Cueva Glaciar>
 Desc=¿Tienes la agilidad necesaria para ayudarme?
@@ -8942,13 +7475,6 @@ Obj1=30-1
 Obj2=529-1
 Obj3=1004-1
 
-[NPC1113]
-Name=Sylas <Quest>
-Desc=Hola, si te sobra un poco de tiempo para charlar conmigo, tengo buenas noticias para ti.
-Body=548
-Head=642
-NpcType=17
-
 [NPC1114]
 Name=Jace <Quest de Dungeon Marabel>
 Desc=¡Oye, tu! No pareces ser Arqueólogo, pero necesito de tus musculos!
@@ -8957,22 +7483,6 @@ Head=0
 BodyIdle=6192
 Ataque1=6192
 NpcType=17
-
-[NPC1115]
-Name=Thorgin
-Desc=¡Vino de Banderbill, cerveza de Arkhein y los mejores muebles de Ullathorpe, tientan a cualquiera!
-Body=599
-Head=312
-NpcType=0
-NoMapInfo=1
-
-[NPC1116]
-Name=Valdemar
-Desc=¡Este terreno acaba de ser comprado, veremos que construye el nuevo dueño! Solo me preocupa que la obra afecte los tuneles debajo de la ciudad..
-Body=80
-Head=14
-NpcType=0
-NoMapInfo=1
 
 [NPC1117]
 Name=Windall <Quest de Bosque de los Espiritus>
@@ -8986,28 +7496,6 @@ NROITEMS=16
 Obj1=240-1
 Obj2=527-1
 Obj3=2843-1
-
-[NPC1118]
-Name=Naz <Armero de Penthar>
-Desc=No llegarás muy lejos con ese armamento. Prueba alguna de estas armas.
-Body=4936
-Head=501
-Comercia=1
-NROITEMS=11
-Obj1=401-1
-Obj2=1792-1
-Obj3=3980-1
-
-[NPC1119]
-Name=Gollik <Armaduras de Penthar>
-Desc=Necesitarás algo mejor que esa ropa para adentrarte en el bosque. Echa un vistazo.
-Body=248
-Head=500
-Comercia=1
-NROITEMS=5
-Obj1=30-1
-Obj2=529-1
-Obj3=1004-1
 
 [NPC1120]
 Name=Skabrot <Hechicero de Penthar>
@@ -9172,60 +7660,6 @@ Obj2=123-100
 Obj3=3987-100
 NoMapInfo=1
 
-[NPC1133]
-Name=Victarion <Armaduras Profesionales>
-Desc=Un guerrero no sería el mismo sin su espada, ¡y yo no sería quién sin mi fragua!
-Body=295
-Head=602
-Comercia=1
-NROITEMS=22
-Obj1=1719-1
-Obj2=1715-1
-Obj3=1774-1
-
-[NPC1134]
-Name=Fenrir <Hechicero Oscuro>
-Desc=¡Tengo gran variedad de hechizos destinados al combate!
-Body=225
-Head=205
-Comercia=1
-NROITEMS=8
-Obj1=992-1
-Obj2=1797-1
-Obj3=469-1
-
-[NPC1135]
-Name=Halving <Carpintero Profesional>
-Desc=Bienvenido. Trabajo todo tipo de leña.
-Body=14
-Head=318
-Comercia=1
-NROITEMS=9
-Obj1=198-1
-Obj2=127-1
-Obj3=361-1
-
-[NPC1136]
-Name=Rethor <Sastre de Esperanza>
-Desc=Las mejores telas en la mejor ciudad, nada que perder con estos precios.
-Body=22
-Head=15
-Comercia=1
-NROITEMS=9
-Obj1=2901-1
-Obj2=1955-1
-Obj3=1982-1
-
-[NPC1137]
-Name=Jadís <Sastre de Esperanza>
-Desc=Siempre hay un roto para un descosido.
-Body=4567
-Comercia=1
-NROITEMS=14
-Obj1=467-1
-Obj2=468-1
-Obj3=2928-1
-
 [NPC1138]
 Name=Camello
 Body=5639
@@ -9289,18 +7723,6 @@ Obj3=998-1
 MaxHIT=90
 MinHIT=75
 
-[NPC1142]
-Name=Baradh <Minero>
-Desc=Las mejores herramientas para obtener minerales.
-Body=1339
-Head=564
-NpcType=0
-Comercia=1
-NROITEMS=4
-Obj1=203-1000
-Obj2=1142-1000
-Obj3=390-1000
-
 [NPC1143]
 Name=Fenrir <Magia>
 Desc=¡Tengo gran variedad de Objetos Mágicos destinados al combate!
@@ -9326,19 +7748,6 @@ ORO=85
 Nivel=28
 MaxHIT=125
 MinHIT=90
-
-[NPC1145]
-Name=Dalyor <Habitante de Penthar>
-Desc=Bienvenido a Penthar!
-Body=4945
-Head=527
-NpcType=0
-
-[NPC1146]
-Name=Brayer
-Desc=Habla conmigo si quieres Cambiar Contador de Evento Bufón Caótico .
-Body=226
-Head=8
 
 [NPC1147]
 Name=Elemental de Viento Liberado
@@ -9381,13 +7790,6 @@ MaxHIT=100
 MinHIT=55
 Nivel=20
 
-[NPC1150]
-Name=Elhandar <Quest>
-Desc=¡uhm!¡Tantas cosas que hacer y conseguir y siempre con tan poco tiempo! umGr...
-Body=140
-Head=171
-NpcType=17
-
 [NPC1151]
 Name=Lempard <Quest>
 Desc=La confianza es muy valiosa en estos tiempos y he escuchado mucho sobre ti.
@@ -9423,14 +7825,6 @@ Desc=Si crees que tienes lo necesario para convertirte en el mejor pescador, ace
 Body=479
 Head=10
 NpcType=0
-
-[NPC1155]
-Name=Malvur
-Desc=Todo esta muy tranquilo por el puerto de pescadores!
-Body=26
-Head=305
-NpcType=17
-Comercia=0
 
 [NPC1156]
 Name=Albi
@@ -9480,13 +7874,6 @@ Body=1582
 Head=213
 NpcType=17
 
-[NPC1161]
-Name=Serik
-Desc=No fijes tus ojos en los míos. Aquí, quienes observan demasiado... desaparecen.
-Body=19
-Head=106
-NpcType=17
-
 [NPC1162]
 Name=Mantis Marrón
 Body=5606
@@ -9512,13 +7899,6 @@ ORO=35
 MaxHIT=115
 MinHIT=65
 Nivel=20
-
-[NPC1164]
-Name=Aduin
-Desc=Ah... un viajero llega hasta estas islas barridas por el viento. Aquí, donde el cielo toca la tierra y las alas trazan destinos invisibles. Cuéntame... ¿Qué busca tu corazón?
-Body=771
-Head=310
-NpcType=17
 
 [NPC1165]
 Name=Phenoba <Quest de Dungeon Veril>
@@ -9558,12 +7938,6 @@ MaxHIT=85
 MinHIT=50
 Nivel=20
 
-[NPC1169]
-Name=Cazador (Legendario)
-Desc=Equipamiento Legendario para Cazadores
-Body=2042
-Head=102
-
 [NPC1170]
 Name=Borvat
 Body=6028
@@ -9576,13 +7950,6 @@ MaxHIT=85
 MinHIT=55
 EXP=0
 ORO=0
-
-[NPC1171]
-Name=Pretoria <Quest>
-Desc=¿Tienes el valor de enfrentar la oscuridad por un poder que puede cambiarlo todo?
-Body=2195
-Head=54
-NpcType=17
 
 [NPC1172]
 Name=Sheila <Quest de Piedras Primordiales>
@@ -9625,15 +7992,6 @@ MaxHIT=190
 MinHIT=160
 EXP=0
 ORO=0
-
-[NPC1178]
-Name=Grimbak <Finanzas Goliath>
-Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
-DescClose=¡Hasta luego!
-Body=592
-Head=460
-NpcType=4
-NoMapInfo=1
 
 [NPC1179]
 Name=Thirgo Brumhildo <Quest de Trabajador>
@@ -9764,13 +8122,6 @@ Body=905
 Head=0
 NpcType=17
 
-[NPC1189]
-Name=Laan <Quest>
-Desc=¡Tengo lo necesario para derrotar a los Nagas!
-Body=2142
-Head=52
-NpcType=17
-
 [NPC1190]
 Name=Krugg
 Body=6025
@@ -9866,33 +8217,6 @@ MaxHIT=170
 MinHIT=150
 EXP=0
 ORO=0
-
-[NPC1198]
-Name=Orco Asesino
-Body=293
-Head=512
-HP=6500
-Comercia=0
-MaxHIT=350
-MinHIT=100
-
-[NPC1199]
-Name=Orco Arquero
-Body=129
-Head=577
-HP=6500
-Comercia=0
-MaxHIT=250
-MinHIT=220
-
-[NPC1200]
-Name=Orco Nigromante
-Body=2128
-Head=556
-HP=3500
-Comercia=0
-MaxHIT=250
-MinHIT=200
 
 [NPC1201]
 Name=Mercader Clerigo
@@ -10004,61 +8328,6 @@ Obj1=1910-10000
 Obj2=1911-10000
 Obj3=1724-10000
 
-[NPC1211]
-Name=Rey Elfo Capturado
-Body=40
-Head=636
-HP=500
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=300
-MinHIT=200
-
-[NPC1212]
-Name=Rey Humano Capturado
-Body=267
-Head=623
-HP=500
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=300
-MinHIT=200
-
-[NPC1213]
-Name=Rey Enano Capturado
-Body=747
-Head=643
-HP=500
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=300
-MinHIT=200
-
-[NPC1214]
-Name=Rey Oscuro Capturado
-Body=298
-Head=639
-HP=500
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=300
-MinHIT=200
-
-[NPC1215]
-Name=Rey Gnomo Capturado
-Body=858
-Head=644
-HP=500
-Comercia=0
-EXP=0
-ORO=0
-MaxHIT=300
-MinHIT=200
-
 [NPC1216]
 Name=Amanita
 Body=4838
@@ -10097,61 +8366,6 @@ Obj1=2764-1
 Obj2=1648-1
 Obj3=1660-1
 
-[NPC1219]
-Name=Rey Luther <Quest>
-Desc=Hemos logrado deshacernos de los súbditos de Gúl Belthor gracias a la unión de nuestras fuerzas. Pero no toda felicidad es completa.
-Body=94
-Head=5
-NpcType=17
-
-[NPC1220]
-Name=Orco Hechicero
-Body=205
-Head=517
-HP=1750
-Comercia=0
-NROITEMS=0
-MaxHIT=250
-MinHIT=200
-
-[NPC1222]
-Name=Horus <Quest>
-Desc=Veo que estás intentando desentrañar los secretos de la cámara de Anubis.Han pasado ya muchos años desde la última vez que lo hán intentado. Puedo ayudarte si quieres, pero te recomiendo que busques mas guerreros. Tu solo no podras acabar con el.
-Body=671
-Head=0
-NpcType=17
-
-[NPC1223]
-Name=Escorpión
-Body=4335
-Head=0
-BodyIdle=4334
-Ataque1=4333
-HP=500
-Comercia=0
-EXP=550
-ORO=75
-MaxHIT=60
-MinHIT=40
-
-[NPC1224]
-Name=Escorpión Califa
-Body=4088
-Head=0
-HP=1500
-Comercia=0
-EXP=900
-ORO=54
-MaxHIT=130
-MinHIT=70
-
-[NPC1225]
-Name=Sloane <Quest>
-Desc=Oye tú ¿Alguna vez has visto una Naga? Ayúdame con esto y verás de que se trata.
-Body=759
-Head=58
-NpcType=17
-
 [NPC1226]
 Name=Elemental Infernal
 Body=4541
@@ -10176,13 +8390,6 @@ Head=74
 HP=350
 NpcType=0
 
-[NPC1229]
-Name=Golem Capturado
-Body=4032
-HP=230
-MaxHIT=150
-MinHIT=100
-
 [NPC1230]
 Name=Eulaccia
 Body=4384
@@ -10191,20 +8398,6 @@ HP=1
 NpcType=0
 PuedeInvocar=0
 Comercia=0
-
-[NPC1231]
-Name=Kandal
-Desc=La desesperación me carcome. Sin tu ayuda moriré al igual que todo Banderbill ¡Te necesitamos!
-Body=19
-Head=137
-NpcType=17
-
-[NPC1232]
-Name=Brendall
-Desc=¡Sin tu ayuda moriré al igual que todo Arkhein!  ¡Te necesitamos!
-Body=19
-Head=306
-NpcType=17
 
 [NPC1233]
 Name=Guerrero Lord <Orden de las Sombras>
@@ -10238,107 +8431,6 @@ EXP=3000
 ORO=296
 MaxHIT=160
 MinHIT=75
-
-[NPC1236]
-Name=Arquero <Orden de las Sombras>
-Body=124
-Head=82
-HP=1750
-EXP=2200
-ORO=200
-MaxHIT=160
-MinHIT=75
-
-[NPC1237]
-Name=Arquero Lord <Orden de las Sombras>
-Body=124
-Head=82
-HP=1750
-EXP=2200
-ORO=200
-MaxHIT=160
-MinHIT=75
-
-[NPC1238]
-Name=Asesina Impiadosa <Orden de las Sombras>
-Body=2030
-Head=122
-HP=1750
-EXP=2200
-ORO=200
-MaxHIT=160
-MinHIT=75
-
-[NPC1239]
-Name=Hechicera Oscura <Orden de las Sombras>
-Body=2030
-Head=122
-HP=1750
-EXP=2200
-ORO=200
-MaxHIT=160
-MinHIT=75
-
-[NPC1240]
-Name=Hechicera Impiadosa <Orden de las Sombras>
-Body=2030
-Head=82
-HP=1750
-EXP=2200
-ORO=200
-MaxHIT=160
-MinHIT=75
-
-[NPC1241]
-Name=Cazadora Letal <Orden de las Sombras>
-Body=2030
-Head=82
-HP=1750
-EXP=2200
-ORO=200
-MaxHIT=160
-MinHIT=75
-
-[NPC1242]
-Name=Hechicero Oscuro <Orden de las Sombras>
-Body=530
-Head=90
-HP=1750
-EXP=2200
-ORO=200
-MaxHIT=160
-MinHIT=75
-
-[NPC1243]
-Name=Guerrero Oscuro <Orden de las Sombras>
-Body=530
-Head=90
-HP=1750
-EXP=2200
-ORO=200
-MaxHIT=160
-MinHIT=75
-
-[NPC1244]
-Name=Verdugo Oscuro <Orden de las Sombras>
-Body=530
-Head=82
-HP=1750
-EXP=2200
-ORO=200
-MaxHIT=160
-MinHIT=75
-
-[NPC1245]
-Name=Horan <Armero de Kamal>
-Desc=¡Hey, tú! Rata de Alcantarilla. Un flacucho como tú necesita un buen acero allí fuera.
-Body=73
-Head=34
-Comercia=1
-NROITEMS=7
-Obj1=15-1
-Obj2=165-1
-Obj3=3980-1
 
 [NPC1246]
 Name=Sigurd <Carpintero Vikingo>
@@ -10401,28 +8493,6 @@ Head=0
 BodyIdle=6180
 Ataque1=6180
 NpcType=17
-
-[NPC1251]
-Name=Serin
-Desc=Siempre hay un roto para un descosido.
-Body=634
-Head=170
-Comercia=1
-NROITEMS=21
-Obj1=1272-1
-Obj2=1274-1
-ObJ3=2927-1
-
-[NPC1252]
-Name=Darisia <Sastre de Kamal>
-Desc=¡Tengo las mejores vestimentas y tunicas para bajos de todas las tierras!
-Body=3134
-Head=166
-Comercia=1
-NROITEMS=18
-Obj1=240-1
-Obj2=9044-1
-Obj3=2843-1
 
 [NPC1254]
 Name=Keke <Caos primera jerarquia>
@@ -10524,16 +8594,6 @@ Obj1=2885-1
 Obj2=1846-1
 Obj3=2887-1
 
-[NPC1264]
-Name=Huargo
-Body=4029
-Head=0
-HP=550
-EXP=200
-ORO=25
-MaxHIT=115
-MinHIT=100
-
 [NPC1265]
 Name=Troll Lúgubre
 Body=4378
@@ -10567,61 +8627,6 @@ NpcType=0
 EXP=1500
 ORO=75
 Nivel=20
-
-[NPC1266]
-Name=Golem de Piedra Mayor
-Body=4033
-Head=0
-HP=8000
-Comercia=0
-EXP=52500
-ORO=640
-MaxHIT=215
-MinHIT=150
-
-[NPC1267]
-Name=Oso Pardo
-Body=4328
-Head=0
-BodyIdle=4329
-Ataque1=4327
-HP=600
-MaxHIT=100
-MinHIT=65
-
-[NPC1268]
-Name=Vendedor
-Desc=Un flacucho como tú necesita un buen acero allí fuera.
-DescClose=¡Vuelve cuando quieras a comprar!
-Body=2049
-Head=34
-NpcType=0
-Comercia=1
-Obj1=2831-1
-Obj2=2832-1
-NROITEMS=2
-
-[NPC1269]
-Name=Cañonero
-Body=281
-Head=615
-HP=3500
-MaxHIT=90
-MinHIT=65
-NpcType=0
-EXP=0
-ORO=0
-
-[NPC1270]
-Name=Ballestero
-Body=281
-Head=615
-HP=3500
-MaxHIT=90
-MinHIT=65
-NpcType=0
-EXP=0
-ORO=0
 
 [NPC1271]
 Name=Vorgrash
@@ -10698,17 +8703,6 @@ Obj2=160-100
 Obj3=161-100
 PuedeInvocar=1
 
-[NPC1277]
-Name=Ámora <Pescadora de Forgat>
-Desc=Aquí conseguirás lo mejor que el mar puede ofrecer!
-Body=751
-Head=688
-Comercia=1
-NROITEMS=7
-Obj1=881-1
-Obj2=2183-1
-Obj3=138-1
-
 [NPC1278]
 Name=Oshurk <Carpintero de Forgat>
 Desc=¡Bienvenido a la carpintería de Forgat!
@@ -10736,67 +8730,6 @@ Obj1=1-1000
 Obj2=22-1000
 Obj3=29-1000
 PuedeInvocar=1
-
-[NPC1280]
-Name=Renata <Herrera de Forgat>
-Desc=Yo comercializo las mejores armaduras de estas tierras.
-Body=4945
-Head=51
-Comercia=1
-NROITEMS=6
-Obj1=30-1
-Obj2=30-1
-Obj3=1004-1
-
-[NPC1281]
-Name=Raquel <Armera de Forgat>
-Desc=Acá forjamos las armas más resistentes!
-Body=305
-Head=59
-Comercia=1
-NROITEMS=11
-Obj1=1820-1
-Obj2=1792-1
-Obj3=3980-1
-
-[NPC1282]
-Name=Mar <Minera de Forgat>
-Desc=Tengo las mejores herramientas!
-Body=217
-Head=473
-Comercia=1
-NROITEMS=5
-Obj1=187-1
-Obj2=363-1
-Obj3=2818-1
-
-[NPC1283]
-Name=Brenan <Quest>
-Desc=¡Hola querido colega! Mi padre Salem me encargó buscar a futuros talentos como tú para darles una recompensa, nada más y nada menos que los planos e instrucciones para fabricar sus famosas carretas.
-Body=4919
-Head=33
-NpcType=17
-
-[NPC1284]
-Name=Rengal <Quest>
-Desc=Eres el futuro de nuestro trabajo, sé consciente de que nuestro Dios Grodnar nos premia y nos protege en todo momento, él me encargó enseñarle a las futuras generaciones la técnica para fabricar nuestros preciados vagones
-Body=645
-Head=38
-NpcType=17
-
-[NPC1285]
-Name=Fisch <Quest>
-Desc=Buenas querido pescador de estas tierras, mi amada necesita varios ingredientes para preparar un gran banquete para los aventureros que están de pasada por la ciudad de Nix. Si nos ayudas podria pasarte indicaciones para construir una buena carretilla para tu mercancia.
-Body=217
-Head=12
-NpcType=17
-
-[NPC1286]
-Name=LucAstilla <Quest>
-Desc=¡Chssss, Aquí amigo!, puedo cepillar toda esa leña por ti en un instante y ahorrarte mucho tiempo
-Body=29
-Head=22
-NpcType=17
 
 [NPC1287]
 Name=Marinero Robusto
@@ -10827,13 +8760,6 @@ Head=0
 NpcType=1
 NoMapInfo=1
 
-[NPC1290]
-Name=Stefanie <Quest>
-Desc=Maldición Sigmud.... creo que he llegado muy tarde.
-Body=221
-Head=55
-NpcType=17
-
 [NPC1291]
 Name=Escritorio <Quest de Pesca>
 Desc=Este viejo libro parece tener lo que buscaba!
@@ -10848,22 +8774,6 @@ Body=4283
 Head=0
 NpcType=17
 
-[NPC1293]
-Name=Olaf <Armero de Forgat>
-Desc=¿No sabes lo que es un hacha arrojadiza?, ¿Que clase de guerrero eres?. Puedo venderte una, no es lo mejor pero te será útil para comenzar. De todas formas te recomiendo que veas a Jorgen para mas ayuda.
-Body=217
-Head=46
-Comercia=0
-
-[NPC1294]
-Name=Jorgen <Quest>
-Desc=Ya veo, te ha enviado Olaf. Dejame ver, puedes practicar con esa hacha, pero si en verdad quieres ser diestro en este arte debemos ir mejorándola con los materialesa adecuados.
-Body=878
-Head=36
-NROITEMS=1
-NpcType=17
-Obj1=3703-1
-
 [NPC1295]
 Name=Astrid <Quest Hongo de Luz>
 Desc=¡Estudiaba la Serpiente Albina para poder extraer y sinterizar su veneno, pero por un descuido ocurrió una catástrofe!
@@ -10876,20 +8786,6 @@ Name=Krazgor <Quest de Bosses>
 Desc=Hay quienes hablan de un fragmento extraño que aparece entre los restos de criaturas poderosas. Nadie sabe quién lo creó ni qué propósito cumple. Algunos dicen que lleva siglos esperando algo... o a alguien. Lo único que se sabe es que cuatro grandes jefes parecen estar ligados a su existencia. Cuatro criaturas. Cuatro regiones. Y un secreto que, hasta ahora, nadie ha conseguido revelar.
 Body=899
 Head=0
-NpcType=17
-
-[NPC1297]
-Name=Elise <Quest>
-Desc=Bienvenido a Jourmut, tengo dos encargos para que descubras y te familiarices con estas tierras desconocidas...
-Body=2233
-Head=59
-NpcType=17
-
-[NPC1298]
-Name=Aurora <Quest>
-Desc=Dichosos los ojos que te ven, necesitaba de una persona dispuesta a combatir contra unas criaturas malditas que me tienen atrapada...
-Body=2232
-Head=60
 NpcType=17
 
 [NPC1299]
@@ -10908,27 +8804,6 @@ NumQuiza=2
 QuizaDropea1=3301-1
 QuizaDropea2=3302-1
 QuizaProb=3
-
-[NPC1301]
-Name=Quijote <Quest>
-Desc=Hola aventurero, soy Quijote, como te habras dado cuenta esto es mas que un simple molino, tu me comprendes verdad?
-Body=254
-Head=22
-NpcType=17
-
-[NPC1302]
-Name=Garret <Quest>
-Desc=¡Auú, auú! dime que al menos te lo creiste, me costó mucho confeccionar este traje. Estás por entrar a Cueva de la Desolación, tengo información que puede serte de gran ayuda si quieres sobrevivir adentro.
-Body=4078
-Head=0
-NpcType=17
-
-[NPC1303]
-Name=Heinrich <Quest>
-Desc=Bienvenido a mi humilde morada, estoy muy sediento y necesito a una persona aventurera y valiente como tu.
-Body=20
-Head=306
-NpcType=17
 
 [NPC1304]
 Name=Tiburón de Altamar
@@ -11026,101 +8901,6 @@ NROITEMS=2
 Obj1=534-100
 Obj2=199-100
 
-[NPC1312]
-Name=Rowan
-Body=55
-Head=115
-HP=5000
-EXP=0
-ORO=400
-MaxHIT=260
-MinHIT=140
-NpcType=0
-
-[NPC1313]
-Name=Torgath <Quest>
-Desc=Hola, acercate por favor, creo que podemos ayudarnos mutuamente.
-Body=1203
-Head=34
-NpcType=17
-
-[NPC1314]
-Name=Einar <Quest>
-Desc=Hola, las cosas se están volviendo peligrosas por aquí, habla conmigo si crees poder hacer algo al respecto.
-Body=1219
-Head=610
-NpcType=17
-
-[NPC1315]
-Name=Lysander <Quest>
-Desc=Hola, si has decidido ser un cazador, puedo enseñarte nuevas habilidades muy interesantes.
-Body=549
-Head=641
-NpcType=17
-
-[NPC1316]
-Name=Sylas <Quest>
-Desc=Hola, si te sobra un poco de tiempo para charlar conmigo, tengo buenas noticias para ti.
-Body=548
-Head=642
-NpcType=17
-
-[NPC1317]
-Name=Lirien <Quest>
-Desc=Hola, habla conmigo si te interesa perfeccionar tus ataques y volverlos más letales.
-Body=75
-Head=613
-NpcType=17
-
-[NPC1318]
-Name=Morgan <Quest>
-Desc=Ahoy, habla conmigo si te interesa ser el terror de los mares, aaarrr.
-Body=4101
-Head=0
-NpcType=17
-
-[NPC1319]
-Name=Sonata <Quest>
-Desc=Hola, tengo conocimientos avanzados en partituras, habla conmigo para entender mejor lo que digo.
-Body=306
-Head=158
-NpcType=17
-
-[NPC1320]
-Name=Havoc <Quest>
-Desc=Pssst, acercate, tengo información que podría serte útil.
-Body=1203
-Head=301
-NpcType=17
-
-[NPC1321]
-Name=Thorgrim <Quest>
-Desc=Soy un herrero fuera de lo común, habla conmigo si necesitas ayuda.
-Body=291
-Head=304
-NpcType=17
-
-[NPC1322]
-Name=Leif <Quest>
-Desc=Afilo armas de trabajadores, acercate y charlemos.
-Body=4254
-Head=0
-NpcType=17
-
-[NPC1323]
-Name=Hjalmar <Quest>
-Desc=Puedo convertirte en un instrumento poderoso de la voluntad divina.
-Body=3249
-Head=328
-NpcType=17
-
-[NPC1324]
-Name=Aria <Quest>
-Desc=Habla conmigo para obtener un nuevo hechizo.
-Body=202
-Head=369
-NpcType=17
-
 [NPC1325]
 Name=Mago Pirata
 Body=2029
@@ -11130,15 +8910,6 @@ HP=10000
 MaxHIT=160
 MinHIT=115
 NpcType=0
-
-[NPC1326]
-Name=Espíritu del bosque
-Body=4250
-BodyIdle=4253
-Ataque1=4251
-HP=4000
-MaxHIT=160
-MinHIT=115
 
 [NPC1327]
 Name=Marino Cazador
@@ -11370,18 +9141,6 @@ Obj3=36-1000
 NoMapInfo=1
 CambioAIdle=10
 
-[NPC1344]
-Name=Erevan <Hechicera>
-Desc=¡Soy experta en las Artes Arcanas! Prueba mis productos, tendrás un gran beneficio mágico!
-Body=2027
-Head=158
-NpcType=0
-Comercia=1
-NROITEMS=9
-Obj1=3984-1
-Obj2=469-1
-Obj3=540-1
-
 [NPC1345]
 Name=Thalin <Hechicero de Eldoria>
 Desc=¡Bienvenido a mi Tienda! ¡Poseo los pergaminos arcanos mas buscados por los hechiceros de este mundo!
@@ -11394,17 +9153,6 @@ Obj1=1651-100
 Obj2=1655-100
 Obj3=1654-100
 NoMapInfo=1
-
-[NPC1346]
-Name=Josephelf <Mercader>
-Desc=¡Hola! Estoy interesado en todo tipo de productos
-Body=14
-Head=109
-NpcType=0
-Comercia=1
-NROITEMS=2
-Obj1=534-1
-Obj2=199-1
 
 [NPC1347]
 Name=Ghelfa <Provisiones de Eldoria>
@@ -11658,19 +9406,6 @@ ORO=3500
 MaxHIT=235
 MinHIT=175
 
-[NPC1365]
-Name=Araña Silvestre
-Body=4205
-Head=0
-BodyIdle=4204
-Ataque1=4203
-HP=3600
-Comercia=0
-EXP=5400
-ORO=120
-MaxHIT=95
-MinHIT=75
-
 [NPC1366]
 Name=Criptococo
 Body=4202
@@ -11747,30 +9482,6 @@ MinHIT=20
 NpcType=0
 Nivel=15
 
-[NPC1371]
-Name=Esqueleto de la Noche
-Body=4376
-Head=0
-BodyIdle=4377
-Ataque1=4274
-HP=8000
-EXP=6000
-ORO=400
-MaxHIT=80
-MinHIT=60
-
-[NPC1372]
-Name=Esqueleto de Elite
-Body=4374
-Head=0
-BodyIdle=4375
-Ataque1=4273
-HP=10000
-EXP=7000
-ORO=480
-MaxHIT=120
-MinHIT=60
-
 [NPC1373]
 Name=Fenix
 Body=4174
@@ -11824,34 +9535,6 @@ EXP=0
 ORO=0
 MaxHIT=60
 MinHIT=40
-
-[NPC1377]
-Name=Megafolia
-Body=4166
-Head=0
-BodyIdle=4166
-Ataque1=4166
-HP=600
-MaxHIT=100
-MinHIT=65
-NumQuiza=1
-QuizaDropea1=415-1
-QuizaProb=1
-
-[NPC1378]
-Name=Dark Ghilgui <Quest>
-Desc=Intenté hacer lo mejor que pude, pero todo se salió de control.
-Body=4165
-Head=0
-BodyIdle=1
-Ataque1=1
-HP=3600
-Comercia=0
-NpcType=17
-EXP=4350
-ORO=150
-MaxHIT=95
-MinHIT=75
 
 [NPC1379]
 Name=Gallimimo
@@ -11909,28 +9592,6 @@ MaxHIT=95
 MinHIT=75
 NpcType=0
 
-[NPC1383]
-Name=Demonio Gris
-Body=5467
-HP=1500
-EXP=900
-MaxHIT=115
-MinHIT=85
-ORO=52
-
-[NPC1384]
-Name=New Pirata
-Body=4150
-Head=0
-BodyIdle=4152
-Ataque1=4151
-HP=3600
-Comercia=0
-EXP=3480
-ORO=120
-MaxHIT=95
-MinHIT=75
-
 [NPC1385]
 Name=Pirata Cañonero
 Body=281
@@ -11946,12 +9607,6 @@ QuizaProb=3
 NpcType=0
 GiveEXPClan=1
 Nivel=28
-
-[NPC1386]
-Name=Organizador de eventos
-Body=73
-Head=6
-NpcType=23
 
 [NPC1387]
 Name=Planta de pimientos Muerte
@@ -12111,76 +9766,6 @@ QUIZADROPEA1=408
 QuizaProb=575
 NpcType=0
 Nivel=20
-
-[NPC1405]
-Name=Reina Eleanor
-Desc=¡Levantaos, fieles soldados! Juntos resistiremos y defenderemos nuestra tierra gran honor frente a estos invasores
-Body=289
-Head=151
-HP=20000
-MaxHIT=100
-MinHIT=75
-
-[NPC1406]
-Name=Galahad
-Desc=¡Listo para servir, mi Reina!
-Body=243
-Head=712
-HP=750
-MaxHIT=180
-MinHIT=150
-
-[NPC1407]
-Name=Guinevere
-Desc=¡Lista para servir, mi Reina!
-Body=2306
-Head=69
-HP=750
-MaxHIT=190
-MinHIT=130
-
-[NPC1408]
-Name=Alden
-Desc=¡Listo para servir, mi Reina!
-Body=261
-Head=127
-HP=750
-MaxHIT=50
-MinHIT=45
-
-[NPC1409]
-Name=Lyanna
-Desc=¡Lista para servir, mi Reina!
-Body=2313
-Head=170
-HP=750
-MaxHIT=170
-MinHIT=130
-
-[NPC1410]
-Name=Gareth
-Desc=¡Listo para servir, mi Reina!
-Body=668
-Head=618
-HP=750
-MaxHIT=80
-MinHIT=60
-
-[NPC1411]
-Name=Fenris
-Desc=¡Listo para servir, mi Reina!
-Body=2624
-Head=411
-HP=750
-MaxHIT=190
-MinHIT=130
-
-[NPC1412]
-Name=Sombrio
-Body=4072
-HP=400
-MaxHIT=140
-MinHIT=115
 
 [NPC1413]
 Name=Dolgrin <Quest>
@@ -13430,14 +11015,6 @@ BodyIdle=5555
 Ataque1=5556
 NpcType=17
 NoMapInfo=1
-
-[NPC1900]
-Name=Marinero de Prueba
-Desc=¿A dónde quieres viajar?
-DescClose=¡Buen viaje!
-Body=2058
-Head=77
-NpcType=26
 
 [NPC1912]
 Name=Thokk

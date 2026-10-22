@@ -204,24 +204,6 @@ ShowName=1
 Minimap=1
 NoMapInfo=1
 
-[NPC2]
-Name=Juan <Sacerdote>
-en_Name=John <Priest>
-NpcType=1
-ShowName=1
-Desc=¡Hola, hijo mio! Soy el Sacerdote de este pueblo. Si quieres ser resucitado, hazme click izquierdo y luego escribe /Resucitar
-en_Desc=Hi, son! I am the priest of this town. If you want to be resurrected, left click me and type /Resucitar
-Body=5814
-Head=0
-Heading=3
-Movement=1
-Attackable=0
-Comercia=0
-Hostile=0
-Minimap=1
-
-'--------------> Banquero <--------------
-NoMapInfo=1
 [NPC3]
 Name=Krix <Finanzas Goliath>
 en_Name=Banker <Goliath Finance>
@@ -319,57 +301,6 @@ Hostile=0
 ReSpawn=0
 Heading=3
 TipoItems=13
-[NPC6]
-Name=Makarena <Tabernera>
-En_Name=Makarena <Innkeeper>
-ShowName=1
-Desc=¡Hola! Noto frescura en tu mirada, algo me dice que eres nuevo por aquí. ¿Estás sediento? Cuéntame de tus aventuras, yo invito el primer trago!
-en_Desc=Hello! I notice freshness in your eyes, something tells me that you are new here. Are you thirsty? Tell me about your adventures, I’ll buy you the first drink!
-Head=53
-Body=287
-Heading=3
-Movement=1
-Comercia=1
-Minimap=1
-TipoItems=13
-NROITEMS=4
-Obj1=43-100
-Obj2=160-100
-Obj3=161-100
-Obj4=42-100
-SoundOpen=214
-SoundClose=215
-
-[NPC7]
-Name=Jonas <Tabernero>
-NpcType=0
-DescClose=¡Hasta luego!
-IT_Desc=Ciao! Benvenuti nel famoso Mesón molestato. Cosa vuoi bere?
-FR_Desc=Bonjour! Bienvenue dans le célèbre Mesón harcelé. Que voulez-vous boire?
-PT_Desc=Olá! Bem -vindo ao famoso Mesón assediado. O que você quer beber?
-IT_Name=JONAS <Bernero>
-FR_Name=Jonas <Tabernero>
-PT_Name=Jonas <Babernero>
-en_Name=Jonas <Innkeeper>
-ShowName=1
-Desc=¡Hola! Bienvenido al famoso Mesón Hostigado. ¿Qué deseas beber?
-en_Desc=Hello! Welcome to the famous Inn Harassed. What do you want to drink?
-Head=28
-Body=26
-Heading=3
-Movement=1
-Comercia=1
-NROITEMS=4
-Obj1=43-100
-Obj2=160-100
-Obj3=161-100
-Obj4=42-100
-Minimap=1
-SoundOpen=601
-SoundClose=603
-
-'--------------> Comidas <--------------
-TipoItems=13
 [NPC8] 'RESYNC desde sp_localindex.dat (lote3 pat B)
 Name=Feviena <Provisiones>
 Desc=¡Hola! Ven a ver estos productos, sólo aquí conseguirás las mejores provisiones de todas estas tierras.
@@ -428,41 +359,6 @@ Obj2=3749-100
 Minimap=1
 SoundOpen=600
 SoundClose=609
-TipoItems=1
-
-[NPC10]
-Name=Granjero Norte <Provisiones>
-NpcType=0
-DescClose=¡Hasta luego!
-IT_Desc=Benvenuti nel mio giardino! Ho i migliori frutti della zona. Non sarai in grado di trovarli di qualità migliore.
-FR_Desc=Bienvenue dans mon jardin! J'ai les meilleurs fruits de la région. Vous ne pourrez pas les trouver de meilleure qualité.
-PT_Desc=Bem -vindo ao meu jardim! Eu tenho as melhores frutas da área. Você não poderá encontrá -los em melhor qualidade.
-IT_Name=Northern Farmer <Pissions>
-FR_Name=Agriculteurs du Nord <dispositions>
-PT_Name=Northern Farmer <Provisões>
-en_Name=North Farmer <Provisions>
-Desc=¡Bienvenido a mi huerta! Tengo las mejores frutas de la zona. No podrás encontrarlas de mejor calidad.
-Head=604
-Body=66
-Heading=3
-ShowName=1
-Movement=1
-Comercia=1
-NROITEMS=10
-Obj1=1-100
-Obj2=22-100
-Obj3=23-100
-Obj4=24-100
-Obj5=25-100
-Obj6=21-100
-Obj7=29-100
-Obj8=28-100
-Obj9=27-100
-Obj10=26-100
-Minimap=1
-SoundOpen=600
-SoundClose=607
-en_Desc=Welcome to my garden! I have the best fruits in the area. You will not be able to find them of better quality.
 TipoItems=1
 
 [NPC11]
@@ -665,102 +561,6 @@ Obj4=4338-1000
 Obj5=4334-1000
 TipoItems=11
 
-[NPC26]
-Name=McGlashan
-Desc=¡Compro lo que el mar puede ofrecer!
-Head=426
-Body=23
-ShowName=1
-Heading=3
-Movement=1
-Comercia=1
-TipoItems=1
-SoundOpen=600
-Minimap=1
-NROITEMS=2
-'Caña Simple
-Obj1=881-1
-'Red de pesca
-Obj2=2183-1
-Obj3=138-1
-en_desc=I buy what the sea can offer!
-
-'--------------> Vendedores by OX <--------------
-
-'--------------> Armaduras Por ciudad del 30 al 39 <--------------
-
-[NPC36]
-Name=Rethor <Sastrería>
-En_name=Rethor <Tailoring>
-Desc=Las mejores telas en la mejor ciudad, nada que perder con estos precios.
-ShowName=1
-Head=15
-Body=22
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=17
-Hostile=0
-Alineacion=0
-ReSpawn=0
-Minimap=1
-NROITEMS=18
-Obj1=2910-1
-Obj2=2906-1
-Obj3=964-1
-Obj4=2915-1
-Obj5=1981-1
-Obj6=1956-1
-Obj7=2913-1
-Obj8=2912-1
-Obj9=2914-1
-Obj10=2911-1
-Obj11=1963-1
-Obj12=1901-1
-Obj13=196-1
-Obj14=381-1
-Obj15=238-1
-Obj16=2901-1
-Obj17=1955-1
-Obj18=1982-1
-en_desc=The best fabrics in the best city, nothing to lose with these prices.
-
-[NPC37]'EN PROCESO
-Name=Rethor <Sastre de Ullathorpe>
-Desc=Las mejores telas en la mejor ciudad, nada que perder con estos precios.
-ShowName=1
-Head=15
-Body=22
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=17
-Hostile=0
-Alineacion=0
-ReSpawn=0
-Minimap=1
-NROITEMS=17
-Obj1=463-1
-Obj2=32-1
-Obj3=32-1
-Obj4=32-1
-Obj5=35-1
-Obj6=32-1
-Obj7=6002-1
-Obj8=6003-1
-Obj9=2843-1
-Obj10=515-1
-Obj11=9203-1
-Obj12=9204-1
-Obj13=32-1
-Obj14=32-1
-Obj15=32-1
-Obj16=2829-1
-Obj17=1981-1
-en_desc=The best fabrics in the best city, nothing to lose with these prices.
-
 [NPC46] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Magnus Elixius <Alquimista Real>
 SoundOpen=955
@@ -878,45 +678,6 @@ ReSpawn=0
 Minimap=1
 TipoItems=3
 
-[NPC49]
-Name=Lyhn <Sastre de Nix>
-En_Name=Lyhn <Tailer of Nix>
-Desc=Calidad en pieles. ¡Solo para damas!
-Head=165
-ShowName=1
-Body=676
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=3
-Hostile=0
-Alineacion=0
-ReSpawn=0
-Minimap=1
-NROITEMS=18
-Obj1=2927-1
-Obj2=1272-1
-Obj3=1985-1
-Obj4=462-1
-Obj5=2942-1
-Obj6=2943-1
-Obj7=2941-1
-Obj8=2937-1
-Obj9=2934-1
-Obj10=2930-1
-Obj11=2923-1
-Obj12=2922-1
-Obj13=2866-1
-Obj14=4344-1
-Obj15=381-1
-Obj16=2955-1
-Obj17=2947-1
-Obj18=56-1
-en_desc=Quality in leathers. Only for ladies!
-
-'--------------> Sastres (Altos y bajos) Por ciudad del 50 al 69 <--------------
-
 [NPC50]
 Name=Horacio <Sastre de Nuevos Ropajes>
 En_Name=Horatio <Tailor of New Clothes>
@@ -956,66 +717,6 @@ Obj18=2949-1
 Obj19=2926-1
 Obj20=2908-1
 TestOnly=1
-
-[NPC53]
-Name=Sioris <Sastre Exotico>
-En_name=Sioris <Exotic Tailor>
-ShowName=1
-Desc=Estas costuras fueron realizadas por nuestros ancestros, aún puede notarse la tela exótica.
-Head=607
-Body=3063
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=3
-Hostile=0
-Alineacion=0
-ReSpawn=0
-Minimap=1
-NROITEMS=4
-Obj1=2878-1
-Obj2=1957-1
-Obj3=519-1
-Obj4=2905-1
-en_desc=These seams were made by our ancestors, you can still notice the exotic fabric.
-
-[NPC54]
-Name=Richard <Sastre de Nix>
-En_name=Richard <Tailer of Nix>
-Desc=¡La mejor sastrería del continente! No vas a arrepentirte.
-Head=612
-ShowName=1
-Body=17
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=3
-Hostile=0
-Alineacion=0
-ReSpawn=0
-Minimap=1
-NROITEMS=18
-Obj1=2910-1
-Obj2=2906-1
-Obj3=964-1
-Obj4=2915-1
-Obj5=1981-1
-Obj6=1956-1
-Obj7=2913-1
-Obj8=2912-1
-Obj9=1963-1
-Obj10=2911-1
-Obj11=2914-1
-Obj12=1901-1
-Obj13=196-1
-Obj14=381-1
-Obj15=238-1
-Obj16=2901-1
-Obj17=1955-1
-Obj18=1982-1
-en_desc=The best tailor shop on the continent! You're not going to regret it.
 
 [NPC55] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Thaladir <Carpintero>
@@ -1228,96 +929,6 @@ Alineacion=0
 DescClose=¡Que la magia te acompañe!
 TipoItems=24
 
-[NPC77]
-Name=Xyret
-Desc=Acercate maldito, aquí encontrarás lo mejor que el mar ofrece.
-Body=4582
-ShowName=1
-Heading=3
-Movement=1
-Comercia=1
-TipoItems=1
-Minimap=1
-NROITEMS=4
-'Caña de Pesca
-Obj1=881-1
-'Red de Pesca
-Obj2=2183-1
-Obj3=138-1
-en_desc=Come damn, here you will find the best that the sea offers.
-
-[NPC83]
-Name=Azke <Tabernero>
-En_Name=Azke <Innkeeper>
-ShowName=1
-Desc=Te vendería cianuro, pero quedaría sin clientes.
-Body=4583
-Heading=3
-Movement=1
-Comercia=1
-TipoItems=13
-Minimap=1
-NROITEMS=4
-Obj1=43-100
-Obj2=160-100
-Obj3=161-100
-Obj4=42-100
-SoundOpen=600
-SoundClose=609
-en_desc=I would sell you cyanide, but I would run out of customers.
-
-[NPC84]
-Name=Irnk <Provisiones>
-En_Name=Irnk <Provisions>
-Desc=Esta comida da asco, pero más asco das tú.
-ShowName=1
-Body=4582
-Heading=3
-Movement=1
-Comercia=1
-TipoItems=1
-Minimap=1
-NROITEMS=10
-Obj1=1-100
-Obj2=22-100
-Obj3=23-100
-Obj4=24-100
-Obj5=25-100
-Obj6=21-100
-Obj7=29-100
-Obj8=28-100
-Obj9=27-100
-Obj10=26-100
-SoundOpen=602
-SoundClose=607
-en_desc=This food is disgusting, but you are more disgusted.
-
-'--------------------------MISIONES------------------------------
-
-[NPC85]
-Name=Eza Talrê <Quest>
-NpcType=17
-Desc=Ven muchacho/a este es tu momento para aprender a dominar el poder que llevas dentro. Anímate.
-ShowName=1
-Head=73
-Heading=3
-Body=1099
-Movement=1
-BackUp=0
-en_desc=Come boy this is your time to learn to master the power you carry within. Cheer up.
-
-[NPC86]'Desactivada Quest58 por falta de NPC
-Name=Snyder <Quest>
-NpcType=17
-Desc=Ando buscando quien logre desplegar su poder y sea capaz de ayudar tanto en tierra firme como en el mar. No tengo dudas que este será un valioso intercambio.
-ShowName=1
-Head=702
-Heading=3
-Body=962
-Movement=1
-BackUp=0
-en_desc=I am looking for someone who manages to deploy his power and is able to help both on land and at sea. I have no doubt that this will be a valuable exchange.
-
 [NPC87]
 Name=Dalgleish <Quest>
 NpcType=17
@@ -1331,29 +942,6 @@ Movement=1
 BackUp=0
 Testonly=1
 
-[NPC88]
-Name=Bothwell <Quest>
-NpcType=17
-ShowName=1
-Head=712
-Arma=5
-Heading=3
-Body=247
-Movement=1
-BackUp=0
-
-[NPC89]
-Name=Holyrood <Quest>
-NpcType=17
-Desc=¡Oh por todos los reyes y dioses! Necesito ayuda para combatir esta tortura.
-ShowName=1
-Head=17
-Heading=3
-Body=17
-Movement=1
-BackUp=0
-en_desc=O for all the kings and gods! I need help to combat this torture.
-
 [NPC90]
 Name=Darnley <Quest>
 NpcType=17
@@ -1363,82 +951,6 @@ Heading=3
 Body=126
 Movement=1
 BackUp=0
-
-[NPC91]
-Name=Reiz Ez <Quest>
-NpcType=17
-Desc=Hay mucha criatura que necesita ser combatida en este mundo. Eres el indicado para hacerlo. ¡Empecemos!
-ShowName=1
-Head=11
-Heading=3
-Body=91
-Movement=1
-BackUp=0
-en_desc=There are many creatures that need to be fought in this world. You are the one to do it. Start!
-
-[NPC92] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=1049
-Desc=¡Estoy desesperada, por favor ayudame!
-Head=561
-Name=Ofelia <Quest>
-NpcType=17
-en_Desc=I'm desperate, please help me!
-en_Name=OFELIA <Quest>
-fr_Desc=Je suis désespéré, aidez-moi s'il vous plaît!
-fr_Name=Ofelia <Quest>
-it_Desc=Sono disperato, per favore aiutami!
-it_Name=Ofelia <Quest>
-pt_Desc=Estou desesperado, por favor me ajude!
-pt_Name=Ofelia <miss>
-
-[NPC93]
-Name=Bael el Bardo <Quest>
-En_Name=Bael the Bard
-NpcType=17
-Desc=¿Tienes tiempo libre para oir unas canciones?
-ShowName=1
-Head=102
-Heading=3
-Body=125
-Movement=1
-BackUp=0
-en_desc=Do you have free time to listen to some songs?
-
-[NPC94]
-Name=Mezier <Quest>
-NpcType=17
-Desc=Estaba buscando un aventurero como tu. Claro que serás bien recompensado.
-ShowName=1
-Head=109
-Heading=3
-Body=192
-Arma=48
-Movement=1
-BackUp=0
-en_desc=I was looking for an adventurer like you. Of course you will be well rewarded.
-
-' === BLOQUE PRIVADO ORIGINAL DE NPC95 (preservado para migracion futura de quests) ===
-' Fecha resync: 2026-05-06
-' [NPC95]
-' Name=Montaigne <Quest>
-' Desc=El mejor acero del reino.
-' ShowName=1
-' NpcType=17
-' Head=34
-' Body=62
-' Escudo=5
-' Heading=3
-' Movement=1
-' Attackable=0
-' Hostile=0
-' Alineacion=0
-' ReSpawn=0
-' NumQuest=2
-' QuestNumber1=80
-' QuestNumber2=94
-' en_desc=The best steel in the kingdom.
-' 
-' === FIN BLOQUE PRIVADO ===
 
 [NPC95] 'RESYNC desde sp_localindex.dat (lote3 pass2 C)
 Name=Aurelion Valtheris <Quest de Fragmentos>
@@ -1457,26 +969,6 @@ Alineacion=0
 DisabledInBattleServer=1
 NumQuest=1
 QuestNumber1=80
-[NPC96]
-Name=Morthon <Quest>
-Desc=El mejor acero del reino.
-ShowName=1
-NpcType=17
-Head=34
-Body=132
-Escudo=55
-Heading=3
-Movement=1
-Attackable=0
-Hostile=0
-Alineacion=0
-ReSpawn=0
-en_desc=The best steel in the kingdom.
-
-'--------------------------NPC Orcos Ciudad de Phentar------------------------------
-NumQuest=1
-QuestNumber1=81
-
 [NPC97] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Grognak <Sacerdote de Penthar>
 Desc=Puedo sentir el poder fluir dentro de tí, dejalo salir!. Soy el shaman de este pueblo. si quieres ser resucitado escribe /Resucitar o haz clic derecho sobre mi.
@@ -1508,41 +1000,6 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 Heading=3
-[NPC99] 'RESYNC desde sp_localindex.dat (fase B)
-Name=Banquero Enano <Finanzas Goliath>
-SoundOpen=700
-SoundClose=703
-Desc=Hola, bienvenido a la cadena de finanzas Goliath.
-Body=5823
-Head=0
-NpcType=4
-NoMapInfo=1
-ShowName=1
-Movement=1
-Attackable=0
-Hostile=0
-ReSpawn=0
-Heading=3
-NROITEMS=9
-TipoItems=11
-'Poción Roja
-Obj1=38-10000
-'Poción Azul
-Obj2=37-10000
-'Poción Amarilla
-Obj3=36-10000
-'Poción Verde
-Obj4=39-10000
-'Poción Violeta
-Obj5=166-10000
-'Poción Negra
-Obj6=125-10000
-'Poción de Energía
-Obj7=169-10000
-'Mortero
-Obj8=4304-10000
-'Frasco de Alquimista
-Obj9=4305-10000
 [NPC100]
 Name=Therona <Tabernera>
 En_Name=Therona <Innkeeper>
@@ -1642,49 +1099,6 @@ Alineacion=0
 NoMapInfo=1
 TipoItems=24
 
-[NPC103]
-Name=Bagul <Minero>
-En_name=Bagul <Miner>
-Desc=¿Estas interesado en la minería? Cuento con todas las herramientas necesarias.
-Head=509
-Body=1032
-Heading=3
-Movement=1
-Comercia=1
-TipoItems=23
-Minimap=1
-NROITEMS=6
-Obj1=187-1
-Obj2=363-1
-Obj3=2818-1
-Obj4=2858-1
-Obj5=1142-1
-Obj6=389-1
-ShowName=1
-SoundOpen=601
-SoundClose=606
-en_desc=Are you interested in mining? I have all the necessary tools.
-
-[NPC104]
-Name=Mebag <Pescador>
-En_Name=Mebag <Fisherman>
-Desc=Aquí conseguirás lo mejor que el mar puede ofrecer!
-Head=525
-Body=17
-Heading=3
-Movement=1
-Comercia=1
-TipoItems=1
-SoundOpen=600
-Minimap=1
-NROITEMS=7
-'Caña Simple
-Obj1=881-1
-ShowName=1
-Obj2=2183-1
-Obj3=138-1
-en_desc=Here you will get the best that the sea can offer!
-
 [NPC105] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Durrotha <Mercader>
 SoundOpen=600
@@ -1753,26 +1167,6 @@ Hostile=0
 ReSpawn=0
 NumQuest=1
 QuestNumber1=47
-[NPC110]
-Name=Grimrot <Quest>
-Desc=Prueba el acero Orco, tal vez te lleves una sorpresa.
-ShowName=1
-NpcType=17
-Head=516
-Body=59
-Escudo=55
-Heading=3
-Movement=1
-Attackable=0
-Hostile=0
-Alineacion=0
-ReSpawn=0
-en_desc=Try orc steel, maybe you'll be surprised.
-
---------------------NPC para ciudades-------------------------------
-NumQuest=1
-QuestNumber1=81
-
 [NPC111] 'Murcielago | RESYNC sp_localindex
 Name=Costhas <Quest de Pesca>
 Desc=Este muelle es mi vida..
@@ -1895,38 +1289,6 @@ MagicResistance=15
 MagicDef=0
 NumQuest=1
 QuestNumber1=81
-
-[NPC117]
-Name=Grindal <Quest>
-Desc=¿Cómo demonios entraste aqui?
-Head=38
-Body=268
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=How the hell did you get in here?
-NoWiki=1
-NPCLVL=39
-MagicResistance=97
-MagicDef=15
-
-[NPC118]
-Name=Carol <Quest>
-Desc=Refuerzo armas de trabajadores, acercate y charlemos.
-Head=79
-Body=27
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=I reinforce workers' weapons, come closer and let's chat.
-NoWiki=1
-NPCLVL=39
-MagicResistance=97
-MagicDef=15
 
 [NPC119] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Bertram <Quest de Dungeon Dragon>
@@ -2108,126 +1470,6 @@ MagicDef=15
 
 '--------------> Guardias Buenos del 260 al 269 <--------------
 
-[NPC260] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Name=Camello <Quest>
-Ataque1=5638
-BodyIdle=5637
-Desc=No puedo decirte exactamente qué haré con él... pero sé que su energía vale oro para quien pueda estudiarla.
-Body=5639
-Head=0
-NpcType=17
-
-[NPC261]
-Name=Guardia Imperial
-ShowName=0
-En_name=Imperial Guard
-NpcType=2
-Desc=¡Viva el rey Tancredo!
-Head=0
-Body=5554
-Heading=3
-Movement=2
-Attackable=1
-AfectaParalisis=1
-Comercia=0
-Hostile=1
-MinHP=10000
-MaxHP=10000
-MaxHIT=250
-MinHIT=150
-'--- era PosOrig, clave que no lee NADIE. El loader lee OrigPos
-'--- (MODULO_NPCs.bas:1244); sin ella CrearNPC cae al Else y respawnea en una
-'--- posicion al azar de TODO el mapa (RandomNumber, :505-506). Plan 07.002 ola 4.
-OrigPos=1
-DEF=40
-Alineacion=1
-Faccion=3
-ReSpawn=0
-NROITEMS=0
-PoderAtaque=1500
-PoderEvasion=300
-LanzaSpells=0
-Sp1=53
-RangoSpell=6
-ELV=50
-Humanoide=1
-NoWiki=1
-en_desc=Long live King Tancredo!
-NPCLVL=39
-MagicResistance=97
-MagicDef=15
-
-[NPC262]
-Name=Sacerdote Imperial
-ShowName=0
-En_Name=Imperial Priest
-Desc=¡Oh, hijo mío! ¡Que la llama de la virtud arda en tu Corazón!
-NpcType=2
-Head=4
-Body=147
-Heading=3
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-MinHP=10000
-MaxHP=10000
-MaxHIT=100
-MinHIT=100
-'--- era PosOrig, clave que no lee NADIE. El loader lee OrigPos
-'--- (MODULO_NPCs.bas:1244); sin ella CrearNPC cae al Else y respawnea en una
-'--- posicion al azar de TODO el mapa (RandomNumber, :505-506). Plan 07.002 ola 4.
-OrigPos=1
-DEF=0
-Alineacion=1
-Faccion=3
-ReSpawn=0
-NROITEMS=0
-PoderAtaque=1500
-PoderEvasion=300
-LanzaSpells=1
-Sp1=53
-RangoSpell=6
-ELV=50
-Humanoide=1
-NoWiki=1
-en_desc=Ohhh my son!! May the flame of virtue burn in your heart!!!
-NPCLVL=39
-MagicResistance=97
-MagicDef=15
-
-[NPC263] 'le faltaba la C: el loader arma la clave como NPC + numero y por eso esta seccion nunca se cargaba
-Name=Sacerdote Imperial
-En_Name=Imperial Priest
-NpcType=2
-Desc=¡Oh, hijo mío! ¡Que la llama de la virtud arda en tu Corazón!
-Head=4
-Body=147
-Heading=3
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-MinHP=9550
-MaxHP=10000
-MaxHIT=100
-MinHIT=100
-'--- era PosOrig, clave muerta; el loader lee OrigPos. Cero spawns hoy, asi que
-'--- esto no cambia nada: es para que quede bien el dia que se coloque.
-OrigPos=1
-DEF=0
-Alineacion=1
-Faccion=3
-ReSpawn=0
-NROITEMS=0
-PoderAtaque=1500
-PoderEvasion=300
-LanzaSpells=2
-Sp1=34
-Sp2=9
-RangoSpell=6
-NoWiki=1
-
 [NPC267] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Nivor <Cabra de la Nieve>
 Body=5018
@@ -2340,148 +1582,6 @@ Hostile=0
 ReSpawn=0
 Alineacion=0
 
-[NPC270]
-Name=Mago del Caos
-ShowName=0
-En_Name=Chaos Wizard
-NpcType=0
-Desc=¡El caos reinará en estas tierras!
-Head=205
-Body=209
-Arma=117
-Heading=3
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-MinHP=9550
-MaxHP=9550
-MaxHIT=100
-MinHIT=100
-'--- era PosOrig, clave que no lee NADIE. El loader lee OrigPos
-'--- (MODULO_NPCs.bas:1244); sin ella CrearNPC cae al Else y respawnea en una
-'--- posicion al azar de TODO el mapa (RandomNumber, :505-506). Plan 07.002 ola 4.
-OrigPos=1
-DEF=0
-ReSpawn=0
-NROITEMS=0
-PoderAtaque=1500
-PoderEvasion=300
-LanzaSpells=2
-Sp1=9
-Sp2=25
-Faccion=2
-Alineacion=2
-AfectaParalisis=1
-RangoSpell=4
-Humanoide=1
-NoWiki=1
-en_desc=Chaos will reign in these lands!
-NPCLVL=39
-MagicResistance=97
-MagicDef=15
-
-[NPC271]
-Name=Guardia del Caos
-ShowName=0
-En_Name=Chaos Guard
-NpcType=8
-Desc=Mataré a todos los ciudadanos.
-Head=0
-Body=4516
-Heading=3
-Movement=2
-Attackable=1
-AfectaParalisis=1
-Comercia=0
-Hostile=1
-MinHP=10000
-MaxHP=10000
-MaxHIT=255
-MinHIT=150
-'--- era PosOrig, clave que no lee NADIE. El loader lee OrigPos
-'--- (MODULO_NPCs.bas:1244); sin ella CrearNPC cae al Else y respawnea en una
-'--- posicion al azar de TODO el mapa (RandomNumber, :505-506). Plan 07.002 ola 4.
-OrigPos=1
-DEF=40
-ReSpawn=0
-NROITEMS=0
-PoderAtaque=500
-PoderEvasion=300
-LanzaSpells=0
-Sp1=53
-RangoSpell=6
-ELV=50
-Faccion=2
-Alineacion=2
-Humanoide=1
-NoWiki=1
-en_desc=I will kill all the citizens.
-NPCLVL=39
-MagicResistance=97
-MagicDef=15
-
-'------------------>Guardias con recorridos de Nix>------------------
-
-[NPC275] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=5554
-Desc=Daré carcel a todos los criminales.
-MaxHp=10000
-MinHp=10000
-MaxHIT=100
-MinHIT=100
-Name=Guardia Imperial de Nix
-en_Desc=I will jail all criminals.
-en_Name=Nix Imperial Guard
-fr_Desc=Je donnerai une prison à tous les criminels.
-fr_Name=Garde impériale Nix
-it_Desc=Darò una prigione a tutti i criminali.
-it_Name=Nix Imperial Guard
-pt_Desc=Vou dar uma prisão a todos os criminosos.
-pt_Name=Nix Guarda Imperial
-
-[NPC276]
-Name=Arquero Imperial
-ShowName=0
-En_name=Imperial Archer
-NpcType=0
-Desc=Mi deber es resguardar las murallas de esta ciudad.
-Head=31
-Body=364
-Arma=119
-Heading=3
-Movement=20
-Attackable=1
-Comercia=0
-Hostile=1
-MinHP=7500
-MaxHP=7500
-MaxHIT=150
-MinHIT=100
-'--- era PosOrig, clave muerta; el loader lee OrigPos. Cero spawns hoy, asi que
-'--- esto no cambia nada: es para que quede bien el dia que se coloque.
-OrigPos=1
-DEF=0
-Alineacion=1
-Faccion=2
-ReSpawn=0
-AfectaParalisis=1
-LanzaSpells=1
-Sp1=205
-IntervaloLanzarHechizo=1500
-PoderAtaque=1500
-PoderEvasion=750
-RangoSpell=6
-Humanoide=1
-NoWiki=1
-en_desc=My duty is to guard the walls of this city.
-NPCLVL=45
-MagicResistance=100
-MagicDef=15
-
-'--------------> NPCS comunes del 300 al 399 <--------------
-
-'--------------> Apuestas <--------------
 [NPC301] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Aelion <Rey de Eldoria>
 Desc=B
@@ -2610,118 +1710,6 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 DisabledInBattleServer=1
-
-[NPC306]
-Name=Defias
-Desc=Pssst, tengo algo que podría interesarte.
-ShowName=1
-Head=402
-Body=4895
-Casco=85
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=16
-Hostile=0
-Alineacion=0
-ReSpawn=0
-Minimap=1
-NROITEMS=1
-Obj1=2768-100
-en_desc=Pssst, I have something you might be interested in.
-NPCLVL=40
-MagicResistance=100
-MagicDef=15
-
-[NPC307]
-Name=Tytha <Sastrería Bajos>
-En_Name=Tytha <Lower Tailoring>
-ShowName=1
-Desc=¡Tengo las mejores vestimentas y tunicas para bajos de todas las tierras!
-Head=353
-Body=964
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=3
-Hostile=0
-Alineacion=0
-ReSpawn=0
-Minimap=1
-NROITEMS=16
-Obj1=2843-100
-Obj2=2841-100
-Obj3=2829-100
-Obj4=2839-100
-Obj5=9056-100
-Obj6=2830-100
-Obj7=9051-100
-Obj8=2816-100
-Obj9=1309-100
-Obj10=9055-100
-Obj11=4343-100
-Obj12=1226-100
-Obj13=2857-100
-Obj14=2855-100
-Obj15=2828-100
-Obj16=2827-100
-en_desc=I have the best clothes and tunics for bass of all the lands!
-NPCLVL=40
-MagicResistance=100
-MagicDef=15
-
-'--------------> NPCS DE  <--------------
-
-'--- COPIA PRIVADA ORIGINAL NPC400 (Gran Dragón Negro) antes de oficializar; cliente oficial era Abyssal ---
-'[NPC400]
-'Name=Gran Dragón Negro
-'En_Name=Great Black Dragon
-'NpcType=6
-'Body=4110
-'Heading=3
-'Movement=2
-'Alineacion=0
-'Hostile=1
-'Attackable=1
-'ReSpawn=0
-'GiveEXP
-'GiveEXPClan=25
-'MinHP=500000
-'MaxHP=500000
-'MaxHIT=150
-'MinHIT=100
-'DEF=400
-'PoderAtaque=400
-'PoderEvasion=320
-'LanzaSpells=1
-'Sp1=4
-'SND1=30
-'SND2=31
-'SND3=32
-'AfectaParalisis=1
-'TranslationInmune=1
-'IntervaloLanzarHechizo=4000
-'NumQuiza=6
-'QuizaDropea1=1649-1
-'QuizaDropea2=1217-1
-'QuizaDropea3=997-1
-'QuizaDropea4=1808-1
-'QuizaDropea5=1782-1
-'QuizaDropea6=1218-1
-'QuizaProb=17
-'IntervaloRespawn=3600
-'IntervaloRespawnMin=2700
-'InformarReSpawn=1
-'Humanoide=0
-'MagicDef=100
-'MagicResistance=100
-'NPCLVL=40
-'DontHitVisiblePlayers=1
-'NoWiki=1
-'
-'--- fin copia privada ---
 
 [NPC400] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Abyssal
@@ -2987,29 +1975,6 @@ MagicDef=0
 NumQuest=1
 QuestNumber1=427
 
-[NPC409]
-Name=Bowkrag <Quest>
-NpcType=17
-Desc=Tu mirada me dice que las oscuras leyendas del sur no te acobardan. Necesitamos de un gran explorador. ¿Lo eres?
-ShowName=1
-Head=685
-Heading=3
-Body=260
-Escudo=56
-Arma=68
-Movement=1
-Attackable=0
-ReSpawn=0
-Hostile=0
-Alineacion=0
-Comercia=0
-BackUp=0
-en_desc=Your gaze tells me that the dark legends of the south do not cower you. We need a great explorer. Are you?
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
-NumQuest=0
-
 [NPC410]'Desactivada quest57 por falta de npc
 Name=Octis <Quest del Minero Explorador>
 En_Name=Octis <Quest Miner>
@@ -3035,49 +2000,6 @@ MagicResistance=15
 MagicDef=0
 NumQuest=1
 QuestNumber1=56
-
-[NPC411]
-Name=Astan <Quest>
-En_name=Astan <Livestock Farmer>
-NpcType=17
-Desc=A ti te da miedo, y a mi me encanta estar aquí!
-ShowName=1
-Head=304
-Body=1145
-Heading=3
-Movement=1
-Attackable=0
-ReSpawn=0
-Hostile=0
-Alineacion=0
-Comercia=0
-BackUp=0
-en_desc=You're scared, and I love being here!
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
-
-[NPC412]
-Name=John Silver <Quest>
-En_name=John Silver <Privateer>
-NpcType=17
-Desc=¡Se ha escapado mi loro! Ah, perdona. No te había visto.
-ShowName=1
-Head=616
-Body=277
-Arma=43
-Heading=3
-Movement=1
-Attackable=0
-ReSpawn=0
-Hostile=0
-Alineacion=0
-Comercia=0
-BackUp=0
-en_desc=My parrot has escaped! Ah, sorry. I hadn't seen you.
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
 
 [NPC413]
 Name=Galar
@@ -3117,33 +2039,6 @@ MagicResistance=15
 MagicDef=0
 NumQuest=1
 QuestNumber1=38
-
-[NPC419]
-Name=Trevor <Quest>
-En_name=Trevor <Head of the Guard>
-NpcType=17
-Desc=Hola, yo soy el encargado de la seguridad de esta ciudad.
-ShowName=1
-Head=8
-Arma=9
-Escudo=1
-Body=92
-Heading=3
-Movement=20
-Attackable=0
-ReSpawn=0
-Hostile=0
-Alineacion=0
-Comercia=0
-BackUp=0
-IntervaloMovimiento=300
-CaminataLen=2
-Caminata1=0:0:3000
-Caminata2=7:0:3000
-en_desc=Hello, I am in charge of the security of this city.
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
 
 [NPC420]
 Name=Cold <Ciudadano de Eleusis>
@@ -3188,67 +2083,6 @@ NumQuest=2
 QuestNumber1=139
 QuestNumber2=137
 
-[NPC423]
-Name=Coltrane <Quest>
-En_name=Coltrane <Hermit>
-NpcType=17
-Desc=Me he quedado sin recursos.
-ShowName=1
-Head=309
-Heading=3
-Body=1174
-Movement=1
-Attackable=0
-ReSpawn=0
-Hostile=0
-Alineacion=0
-Comercia=0
-BackUp=0
-en_desc=I have run out of resources.
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
-
-[NPC424]
-Name=Eldariel <Quest>
-NpcType=17
-Desc=¡Les sacaré el otro ojo!
-ShowName=1
-Head=692
-Body=232
-Heading=3
-Movement=1
-Attackable=0
-ReSpawn=0
-Hostile=0
-Alineacion=0
-Comercia=0
-en_desc=I'll take out the other eye!
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
-NumQuest=0
-
-[NPC425]
-Name=Ulises <Quest>
-NpcType=17
-Desc=Ven acercate tengo trabajo para ti.
-ShowName=1
-Head=420
-Heading=3
-Body=753
-Movement=1
-Attackable=0
-ReSpawn=0
-Hostile=0
-Alineacion=0
-Comercia=0
-BackUp=0
-en_desc=Come about I have work for you.
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
-
 [NPC426] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Dragga <Quest de Celeridad>
 Desc=Esta ubicación es muy linda! Pero yo llegué primera.
@@ -3289,51 +2123,6 @@ MagicResistance=15
 MagicDef=0
 NumQuest=1
 QuestNumber1=65
-[NPC431]
-Name=Altair <Quest>
-NpcType=17
-Desc=!Aqui estas tú! ¡Sé que lograremos hacer algo con esos piratas!
-ShowName=1
-Head=15
-Heading=3
-Body=26
-Movement=20
-Attackable=0
-ReSpawn=0
-Hostile=0
-Alineacion=0
-Comercia=0
-BackUp=0
-en_desc=! Here you are! I know we will manage to do something with those pirates!
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
-
-'--------------> CENTINELAS (NO CAMBIAR INDEX) <--------------
-[NPC498] ' Checkeador de macros
-Name=Centinela
-En_name=Sentinel
-NpcType=15
-Desc=Soy el Centinela, guardián de los recursos. Hazme click derecho si estás trabajando y me ves cerca, corres riesgo de perder tu personaje. Mantente atento.
-Head=175
-Body=168
-Heading=3
-Movement=1
-Attackable=0
-Comercia=0
-Hostile=0
-Minimap=1
-NROITEMS=0
-WeaponAnim=7
-ReSpawn=1
-LanzaSpells=1
-ShowName=1
-Sp1=9
-en_desc=I am the Sentinel, guardian of resources. Right click on me if you are working and you see me nearby, you are at risk of losing your character. Stay tuned.
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
-
 [NPC499] ' Checkeador de macros (agua)
 Name=Centinela
 En_Name=Sentinel
@@ -4840,37 +3629,6 @@ Nivel=20
 PoderAtaque=170
 PoderEvasion=90
 
-[NPC538]
-Name=Euríale
-ShowName=0
-Body=4563
-Heading=3
-Nivel=45
-Movement=2
-Alineacion=0
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=22000
-GiveEXPClan=3
-GiveGLD=770
-MinHP=11000
-MaxHP=8000
-MaxHIT=190
-MinHIT=175
-DEF=0
-PoderAtaque=220
-PoderEvasion=165
-ReSpawn=0
-LanzaSpells=2
-Sp1=25
-Sp2=51
-Veneno=3
-Humanoide=1
-NPCLVL=25
-MagicResistance=63
-MagicDef=10
-
 [NPC540]
 Name=Medusa
 ShowName=0
@@ -5777,68 +4535,6 @@ NPCLVL=17
 MagicResistance=43
 MagicDef=10
 DisabledInBattleServer=1
-[NPC564]
-Name=Capitan Wynne
-ShowName=0
-En_Name=Captain Wynne
-Head=604
-Body=132
-Arma=160
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=0
-GiveGLD=0
-MinHP=9000
-MaxHP=9000
-MaxHIT=160
-MinHIT=120
-LanzaSpells=1
-Sp1=256
-PoderAtaque=70
-PoderEvasion=115
-NumQuiza=1
-QuizaDropea1=3175-1
-QuizaProb=100
-Humanoide=1
-NPCLVL=16
-
-'--- COPIA PRIVADA ORIGINAL NPC565 (Capitan Low) antes de oficializar; cliente oficial era Anubis ---
-NpcType=0
-'[NPC565]
-'Name=Capitan Low
-'en_name=Captain Low
-'Head=0
-'Body=4910
-'BodyIdle=4152
-'Ataque1=4151
-'CastAnimation=0
-'Heading=3
-'Movement=2
-'Attackable=1
-'Hostile=1
-'Comercia=0
-'Alineacion=0
-'Veneno=6
-'GiveEXPClan=3
-'GiveEXP=22800
-'GiveGLD=1200
-'MinHP=12000
-'MaxHP=12000
-'MaxHIT=220
-'MinHIT=175
-'PoderAtaque=250
-'PoderEvasion=150
-'NumQuiza=1
-'QuizaDropea1=2237-1
-'QuizaProb=375
-'NPCLVL=10
-'MagicResistance=25
-'
-'--- fin copia privada ---
-
 [NPC565] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Anubis
 Body=4910
@@ -5864,39 +4560,6 @@ DropCount=1
 Drop1=412-400-1-1
 PoderAtaque=160
 PoderEvasion=120
-
-[NPC566] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=192
-Desc=¡La Ciudad del Comercio está en problemas!
-Head=109
-Name=Mezier <Quest>
-NpcType=17
-en_Desc=Commerce City is in trouble!
-en_Name=Mezier <stro>
-fr_Desc=La ville de commerce est en difficulté!
-fr_Name=Mezier <stro>
-it_Desc=La città di commercio è nei guai!
-it_Name=Mezier <stro>
-pt_Desc=A cidade do comércio está com problemas!
-pt_Name=Mezier <Stro>
-
-[NPC567]
-Name=Calaveras
-en_name=Skulls
-Body=4002
-Heading=1
-Attackable=1
-Movement=1
-Comercia=0
-Hostile=0
-MinHP=1
-MaxHP=1
-SND3=211
-IntervaloRespawn=1800
-IntervaloRespawnMin=1500
-NPCLVL=38
-MagicResistance=95
-MagicDef=15
 
 [NPC569] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Cápitan Pyke
@@ -5926,32 +4589,6 @@ en_Name=Captain Pyke
 pt_Name=Capitao Pyke
 fr_Name=Capitaine Pyke
 it_Name=Capitano Pyke
-
-[NPC570]
-Name=Piet Heyn
-ShowName=0
-en_name=Piet Heyn
-Body=285
-Heading=3
-Movement=2
-Hostile=1
-Attackable=1
-GiveEXP=2550
-GiveGLD=125
-MinHP=2000
-MaxHP=3000
-MaxHIT=125
-MinHIT=80
-DEF=0
-PoderAtaque=80
-PoderEvasion=150
-Humanoide=1
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-Head=26
-NpcType=0
-NumDropQuest=0
 
 [NPC571] 'RESYNC desde sp_localindex.dat (mapa34 collision fix)
 Name=Delvina <Quest de Zombies>
@@ -6179,62 +4816,6 @@ MinHp=110
 PoderAtaque=31
 PoderEvasion=21
 Domable=67
-[NPC577] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=4239
-GiveEXP=2160
-MaxHp=2000
-MinHp=2000
-MaxHIT=130
-MinHIT=80
-Name=Aquilore Antártico
-GiveGLD=160
-en_Name=Antarctic Aquilore
-fr_Name=Aquilore antarctique
-it_Name=Antartic Aquilorere
-pt_Name=Antártico Aquilore
-
-[NPC578] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=4913
-GiveEXP=3248
-MaxHp=2800
-MinHp=2800
-MaxHIT=60
-MinHIT=38
-Name=Tigre Antártico
-GiveGLD=120
-en_Name=Antarctic Tiger
-fr_Name=Tigre antarctique
-it_Name=Tigre antartica
-pt_Name=Tigre Antártico
-
-[NPC579] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=4922
-GiveEXP=3000
-MaxHp=3300
-MinHp=3300
-MaxHIT=160
-MinHIT=115
-Name=Gorila Antártico
-GiveGLD=160
-en_Name=Antarctic Gorilla
-fr_Name=Gorille antarctique
-it_Name=Gorilla antartica
-pt_Name=Gorila Antártica
-
-[NPC580] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=615
-Desc=He quedado varado aqui desde hace unos días, me alegra volver a ver a alguien por aqui!
-Head=328
-Name=Pedro <Quest>
-en_Desc=I've been stranded here for a few days, I'm glad to see someone here again!
-en_Name=Pedro <Quest>
-fr_Desc=Je suis bloqué ici depuis quelques jours, je suis content de voir quelqu'un ici!
-fr_Name=Pedro <Quest>
-it_Desc=Sono stato bloccato qui per alcuni giorni, sono contento di vedere qualcuno qui!
-it_Name=Pedro <Quest>
-pt_Desc=Fico preso aqui por alguns dias, fico feliz em ver alguém aqui!
-pt_Name=PEDRO <PESS>
-
 [NPC581] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Compi
 Body=4813
@@ -6281,20 +4862,6 @@ DisabledInBattleServer=1
 MinHp=500
 PoderAtaque=135
 PoderEvasion=125
-
-[NPC583] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Name=Piraña de Costa
-Body=5482
-Head=0
-BodyIdle=5480
-Ataque1=5481
-MaxHp=50
-MinHp=50
-NpcType=0
-GiveEXP=0
-GiveGLD=0
-MaxHIT=90
-MinHIT=55
 
 [NPC584]
 Name=Rata Gigante
@@ -6451,41 +5018,6 @@ NumDropQuest=1
 DropQuest1=198-2534-1-40
 PoderAtaque=160
 PoderEvasion=115
-
-[NPC588]
-Name=Pirata Jack
-ShowName=0
-En_Name=Pirate Jack
-Body=282
-Heading=3
-Alineacion=0
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=2800
-GiveGLD=150
-MinHP=3000
-MaxHP=3500
-MaxHIT=90
-MinHIT=75
-DEF=0
-PoderAtaque=133
-PoderEvasion=135
-LanzaSpells=1
-Sp1=53
-IntervaloLanzarHechizo=5000
-NumQuiza=1
-QuizaDropea1=1863-1
-QuizaProb=2
-Humanoide=1
-NPCLVL=19
-MagicResistance=47
-MagicDef=10
-GiveEXPClan=1
-Head=32
-NpcType=0
-NumDropQuest=0
 
 [NPC589] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=5488
@@ -6808,23 +5340,6 @@ MagicDef=10
 
 '*******************NUEVOS NPCS*********************
 
-[NPC600]'Rey Arkhein
-Name=Rey de Arkhein
-Desc=Rey de Arkhein
-en_name=King of Arkhein
-ShowName=0
-NpcType=17
-Head=0
-Heading=3
-Body=4432
-Movement=2
-BackUp=0
-Minimap=1
-en_desc=King of Arkhein
-NPCLVL=30
-MagicResistance=75
-MagicDef=10
-
 [NPC601] 'Robot
 Name=Robot
 Desc=Padre, dame piernas!!!
@@ -6878,21 +5393,6 @@ IntervaloRespawn=20
 NPCLVL=30
 MagicResistance=75
 MagicDef=10
-
-[NPC604] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=721
-Desc=¡Necesito de tu ayuda para conocer mas sobre la Medusa!
-Head=403
-Name=Franklin <Quest>
-NpcType=17
-en_Desc=I need your help to learn more about the Medusa!
-en_Name=Franklin <stro>
-fr_Desc=J'ai besoin de votre aide pour en savoir plus sur les méduses!
-fr_Name=Franklin <stro>
-it_Desc=Ho bisogno del tuo aiuto per saperne di più sulla medusa!
-it_Name=Franklin <stro>
-pt_Desc=Preciso da sua ajuda para aprender mais sobre a água -viva!
-pt_Name=Franklin <Stro>
 
 [NPC605] 'Araña Drenaje 1
 Name=Araña Negra
@@ -7050,34 +5550,6 @@ MagicDef=10
 NpcType=0
 Nivel=15
 
-[NPC610]
-Name=Grebdioz
-ShowName=0
-Head=0
-Body=4418
-Heading=3
-Movement=2
-Alineacion=0
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=18500
-GiveGLD=640
-MinHP=10000
-MaxHP=8000
-MaxHIT=180
-MinHIT=150
-DEF=0
-Veneno=6
-PoderAtaque=300
-PoderEvasion=150
-AguaValida=1
-TierraInvalida=1
-Humanoide=0
-NPCLVL=12
-MagicResistance=30
-MagicDef=0
-
 [NPC611] 'murcielago gigante
 Name=Murciélago Gigante
 ShowName=0
@@ -7138,78 +5610,6 @@ Desc=Tiro al Blanco
 ShowName=0
 NpcType=19
 Body=4065
-Heading=3
-Movement=1
-Attackable=1
-MinHP=1000000
-MaxHP=1000000
-en_desc=Target shooting
-TranslationInmune=1
-NPCLVL=38
-MagicResistance=95
-MagicDef=15
-
-[NPC614] 'tiro al blanco
-Name=Blanco
-En_Name=Target
-Desc=Tiro al Blanco
-ShowName=0
-NpcType=19
-Body=4064
-Heading=3
-Movement=1
-Attackable=1
-MinHP=1000000
-MaxHP=1000000
-en_desc=Target shooting
-TranslationInmune=1
-NPCLVL=38
-MagicResistance=95
-MagicDef=15
-
-[NPC615] 'tiro al blanco
-Name=Blanco
-En_Name=Target
-Desc=Tiro al Blanco
-ShowName=0
-NpcType=19
-Body=4063
-Heading=3
-Movement=1
-Attackable=1
-MinHP=1000000
-MaxHP=1000000
-en_desc=Target shooting
-TranslationInmune=1
-NPCLVL=38
-MagicResistance=95
-MagicDef=15
-
-[NPC616] 'tiro al blanco
-Name=Blanco
-En_Name=Target
-Desc=Tiro al Blanco
-ShowName=0
-NpcType=19
-Body=4062
-Heading=3
-Movement=1
-Attackable=1
-MinHP=1000000
-MaxHP=1000000
-en_desc=Target shooting
-TranslationInmune=1
-NPCLVL=38
-MagicResistance=95
-MagicDef=15
-
-[NPC617] 'tiro al blanco
-Name=Blanco
-En_Name=Target
-Desc=Tiro al Blanco
-ShowName=0
-NpcType=19
-Body=4061
 Heading=3
 Movement=1
 Attackable=1
@@ -7411,19 +5811,6 @@ NPCLVL=38
 MagicResistance=95
 MagicDef=15
 TESTONLY=1
-
-[NPC627] 'ojos murcielago
-Name=Ojos Murcielago
-En_Name=Bat Eyes
-Head=0
-BodyIdle=4408
-Heading=3
-Movement=1
-Attackable=0
-NPCLVL=38
-MagicResistance=95
-MagicDef=15
-NoWiki=1
 
 [NPC628] 'ojos murcielago
 Name=Ojos Murcielago
@@ -7858,54 +6245,6 @@ DropQuest3=155-3531-1-200
 DropQuest4=155-3532-1-200
 DropQuest5=155-3533-1-200
 
-[NPC648]
-Name=Reydmon
-Desc=¿Has oído las noticias? Los representantes de todas las razas y los reyes de ambas facciones se han reunido en el Mesón Hostigado. Esto nunca había pasado en la historia… Están reclutando soldados para una gran batalla según escuche. ¡No pierdas tiempo y ve!
-Head=310
-Body=4912
-Arma=3
-Heading=3
-Movement=0
-NpcType=17
-Attackable=0
-Comercia=0
-Hostile=0
-ShowName=1
-Alineacion=0
-ReSpawn=0
-SoundOpen=648
-Minimap=1
-en_desc=Have you heard the news? Representatives of all races and kings of both factions have gathered at the Harassed Inn. This had never happened in history... They are recruiting soldiers for a great battle as I heard. Don't waste time and go!
-NPCLVL=2
-MagicResistance=5
-MagicDef=0
-
-[NPC649]
-Name=Entrenador
-en_name=Trainer
-NpcType=3
-Desc=¡Hola amigo! Soy el maestro de armas Personal. Si deseas que traiga una criatura sólo debes pedírmelo. "/Entrenar"""
-Head=6
-Body=73
-Heading=3
-Movement=1
-NroCriaturas=5
-CI1=506
-CI2=500
-CI3=502
-CI4=509
-CI5=522
-CN1=Murcielago
-CN2=Lobo
-CN3=Serpiente
-CN4=Escorpion
-CN5=Goblin
-Domable=0
-en_desc=Hey, buddy! I am the Personal weapon master. If you want me to bring a creature you just have to ask me. "/Entrenar""
-NPCLVL=2
-MagicResistance=5
-MagicDef=0
-
 [NPC650] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=5160
 GiveEXP=150
@@ -7985,13 +6324,6 @@ MagicResistance=30
 MagicDef=0
 NpcType=0
 Nivel=20
-
-[NPC653] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Name=Entrenador de Combate
-Desc=Soy el Maestro de Armas personal. Si deseas aprender sobre tus daños, hazme doble click, invocaré un objetivo de defensa para que practiques!
-Body=254
-Head=6
-NpcType=3
 
 [NPC654] 'Blanca
 Name=Serpiente Albina
@@ -8260,39 +6592,6 @@ Nivel=28
 NumDropQuest=1
 DropQuest1=324-464-1-20
 
-[NPC662] 'Oso Polar
-Name=Orius
-ShowName=0
-Head=0
-BodyIdle=4332
-Body=4331
-Ataque1=4330
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=4000
-GiveGLD=200
-MinHP=4000
-MaxHP=5000
-MaxHIT=145
-MinHIT=100
-PoderAtaque=250
-PoderEvasion=110
-SND1=78
-SND2=138
-SND3=89
-'miedo=5
-'LocaleID=200
-'SubeSupervivencia=1
-DEF=0
-Humanoide=0
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-AguaValida=0
-
 [NPC663] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Alacrán
 Body=4338
@@ -8344,35 +6643,6 @@ MagicDef=0
 NpcType=0
 Nivel=5
 
-[NPC665] Quiróptero
-Name=Quiróptero
-ShowName=0
-En_Name=Chiropteran
-Head=0
-Body=4340
-BodyIdle=4340
-Ataque1=4339
-IntervaloMovimiento=222
-Heading=3
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-Alineacion=0
-GiveEXP=300
-GiveGLD=20
-MinHP=300
-MaxHP=300
-MaxHIT=35
-MinHIT=15
-TierraInvalida=0
-PoderAtaque=30
-PoderEvasion=30
-Humanoide=0
-NPCLVL=7
-MagicResistance=17
-MagicDef=0
-
 [NPC666] Elapidae
 Name=Elapidae
 ShowName=0
@@ -8409,41 +6679,6 @@ MagicResistance=5
 MagicDef=0
 NpcType=0
 Nivel=5
-
-[NPC667] Cobra roja
-Name=Naja
-ShowName=0
-Head=0
-Body=4345
-BodyIdle=4346
-Ataque1=4344
-Heading=3
-Movement=2
-Alineacion=0
-Veneno=1
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=360
-GiveGLD=20
-MinHP=360
-MaxHP=360
-MaxHIT=38
-MinHIT=18
-SND1=127
-SND2=128
-SND3=103
-DEF=0
-AguaValida=0
-PoderAtaque=50
-PoderEvasion=15
-Humanoide=0
-NumQuiza=1
-QuizaDropea1=2498-1
-QuizaProb=50
-NPCLVL=4
-MagicResistance=10
-MagicDef=0
 
 [NPC668] Scramer Picaro 
 Name=Scramer Acolito
@@ -8574,35 +6809,6 @@ en_Name=Scramer
 fr_Name=Camion
 it_Name=Scamer
 pt_Name=Scamer
-
-[NPC672] Coloso flora
-Name=Coloso flora
-ShowName=0
-en_Name=Colossus Flora
-Head=0
-Body=4360
-BodyIdle=4361
-Ataque1=4359
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=4000
-GiveGLD=32
-MinHP=7700
-MaxHP=400
-MaxHIT=40
-MinHIT=25
-PoderAtaque=200
-PoderEvasion=100
-Humanoide=1
-AguaValida=0
-NPCLVL=8
-MagicResistance=20
-MagicDef=0
-IntervaloRespawn=360
-IntervaloRespawnMin=180
 
 [NPC673]Vulpes 'Zorro
 Name=Vulpes
@@ -8936,19 +7142,6 @@ pt_Name=Aranha misteriosa
 NumDropQuest=1
 DropQuest1=58-2497-1-10000
 
-[NPC680]
-Name=Elanrullk
-NpcType=17
-ShowName=1
-Heading=3
-Body=4382
-Movement=1
-BackUp=0
-Minimap=1
-NPCLVL=1
-MagicResistance=3
-MagicDef=0
-
 [NPC681] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Araña del Desierto
 Body=4303
@@ -9077,115 +7270,6 @@ NPCLVL=1
 MagicResistance=3
 MagicDef=0
 TipoItems=11
-[NPC686] Penthar
-Name=Jonas <Tabernero Penthar>
-ShowName=1
-Desc=¡Hola! Bienvenido mi negocio. ¿Qué deseas beber?
-Head=28
-Body=26
-Heading=3
-Movement=1
-Comercia=1
-TipoItems=13
-Minimap=1
-NROITEMS=4
-Obj1=43-100
-Obj2=160-100
-Obj3=161-100
-Obj4=42-100
-SoundOpen=601
-SoundClose=603
-en_desc=Hello! Welcome my business. What do you want to drink?
-NPCLVL=1
-MagicResistance=3
-MagicDef=0
-
-[NPC687] Penthar
-Name=Granjero Norte <Provisiones Penthar>
-Desc=¡Bienvenido a mi huerta! Tengo las mejores frutas de la zona. No podrás encontrarlas de mejor calidad.
-Head=604
-Body=66
-Heading=3
-ShowName=1
-Movement=1
-Comercia=1
-TipoItems=1
-Minimap=1
-NROITEMS=10
-Obj1=1-100
-Obj2=22-100
-Obj3=23-100
-Obj4=24-100
-Obj5=25-100
-Obj6=21-100
-Obj7=29-100
-Obj8=28-100
-Obj9=27-100
-Obj10=26-100
-SoundOpen=600
-SoundClose=607
-en_desc=Welcome to my garden! I have the best fruits in the area. You will not be able to find them of better quality.
-NPCLVL=1
-MagicResistance=3
-MagicDef=0
-
-[NPC689] Penthar
-Name=Glasyan <Pescador>
-Desc=¡Compro lo que el mar puede ofrecer!
-Head=520
-Body=1222
-NpcType=0
-IT_Desc=Compro ciò che il mare può offrire!
-FR_Desc=J'achète ce que la mer peut offrir!
-PT_Desc=Eu compro o que o mar pode oferecer!
-IT_Name=Glasyan <Pescatore>
-FR_Name=Glasyan <Pêcheur>
-PT_Name=Glasyan <Pescador>
-en_Name=Glasyan <Fisherman>
-ShowName=1
-Heading=3
-Movement=1
-Comercia=1
-NROITEMS=2
-Obj1=881-1
-Obj2=2183-1
-SoundOpen=978
-Minimap=1
-'Caña Simple
-en_Desc=I buy what the sea can offer!
-NPCLVL=1
-MagicResistance=3
-MagicDef=0
-TipoItems=1
-
-[NPC690]
-Name=Esqueleto Guardian
-ShowName=0
-en_Name=Guardian Skeleton
-Head=0
-Body=4374
-BodyIdle=4375
-Ataque1=4273
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=2340
-GiveGLD=220
-MinHP=1800
-MaxHP=2500
-MaxHIT=120
-MinHIT=70
-PoderAtaque=150
-PoderEvasion=100
-Humanoide=1
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
-IntervaloRespawn=80
-IntervaloRespawnMin=60
-
 [NPC691] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=4417
 GiveEXP=48
@@ -9252,97 +7336,6 @@ NPCLVL=1
 MagicResistance=3
 MagicDef=0
 
-[NPC694]
-Name=Sheila <Quest>
-Desc=Puedo intuir que necesitas mi ayuda. Cuentame.
-Body=221
-Head=55
-Heading=3
-Movement=1
-Attackable=0
-NpcType=17
-Hostile=0
-Alineacion=0
-ReSpawn=0
-ShowName=1
-Minimap=1
-en_desc=I can sense that you need my help. Tell me.
-NPCLVL=1
-MagicResistance=3
-MagicDef=0
-
-[NPC695]
-Name=Teggar <Quest>
-Desc=¡Bienvenido guerrero! Te estaba esperando.
-Body=4057
-Heading=3
-Movement=1
-Attackable=0
-NpcType=17
-Hostile=0
-Alineacion=0
-ReSpawn=0
-ShowName=1
-en_desc=Welcome warrior! I was waiting for you.
-NPCLVL=1
-MagicResistance=3
-MagicDef=0
-
-[NPC696]
-Name=Anco <Quest>
-Desc=¡Bienvenido guerrero! Te estaba esperando.
-Body=4058
-Heading=3
-Movement=20
-Attackable=0
-NpcType=17
-Hostile=0
-Alineacion=0
-ReSpawn=0
-ShowName=1
-en_desc=Welcome warrior! I was waiting for you.
-NPCLVL=1
-MagicResistance=3
-MagicDef=0
-
-[NPC697]
-Name=Rudoph <Quest>
-Desc=¡Aqui te veo! Creo que vienes por mi.
-Head=43
-Body=1295
-Heading=3
-Movement=1
-Attackable=0
-NpcType=17
-Hostile=0
-Alineacion=0
-ReSpawn=0
-ShowName=1
-en_desc=Here I see you! I think you're coming for me.
-NPCLVL=1
-MagicResistance=3
-MagicDef=0
-NumQuest=1
-QuestNumber1=109
-
-[NPC698]
-Name=Antoine <Quest>
-Desc=¿Tú que quieres? No cualquiera pertenece al gremio de pescadores. Déjame verte.
-Head=305
-Body=14
-Heading=3
-Movement=1
-Attackable=0
-NpcType=17
-Hostile=0
-Alineacion=0
-ReSpawn=0
-ShowName=1
-en_desc=What do you want? Not everyone belongs to the fishermen's guild. Let me see you.
-NPCLVL=1
-MagicResistance=3
-MagicDef=0
-
 [NPC699]
 Name=Ralph <Quest>
 Desc=Ya veo, mi hermano Jacobo siempre ha tenido buen ojo para reconocer grandes pescadores.
@@ -9380,94 +7373,6 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-[NPC718] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=2196
-Desc=¿Crees que alguien como tu podría enfrentarse a esta temible bestia?
-Head=172
-Name=Eugenia <Quest>
-NpcType=17
-en_Desc=Do you think someone like you could face this fearsome beast?
-en_Name=Eugenia <stro>
-fr_Desc=Pensez-vous que quelqu'un comme vous pourrait faire face à cette redoutable bête?
-fr_Name=Eugenia <stro>
-it_Desc=Pensi che qualcuno come te potrebbe affrontare questa temibile bestia?
-it_Name=Eugenia <stro>
-pt_Desc=Você acha que alguém como se pudesse enfrentar essa fera temível?
-pt_Name=Eugenia <Stro>
-
-[NPC719] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=187
-Desc=Hay rumores sobre el escape de un temible Lobo de la Cueva de la Desolación, temo por los ciudadanos de Arghal y el futuro de la Ciudad. Necesitamos organizar las defensas. ¿Cuento con tu ayuda?
-Head=21
-Name=Explorador <Quest>
-en_Desc=There are rumors about the escape of the fearsome Laican from the Cave of Desolation, I fear for the citizens of Arghal and the future of the City. We need to organize defenses. I count on your help?
-en_Name=Explorator <stro>
-fr_Desc=Il y a des rumeurs sur l'évasion d'un loup redoutable de la grotte de la désolation, je crains pour les citoyens d'Arghal et l'avenir de la ville. Nous devons organiser des défenses. Dites votre aide?
-fr_Name=Explorateur <stro>
-it_Desc=Ci sono voci sulla fuga di un temibile lupo dalla grotta della desolazione, temo per i cittadini di Arghal e il futuro della città. Dobbiamo organizzare le difese. Di 'il tuo aiuto?
-it_Name=Esploratore <stro>
-pt_Desc=Há rumores sobre a fuga de um lobo assustador da caverna da desolação, temo os cidadãos de Arghal e o futuro da cidade. Precisamos organizar as defesas. Conte sua ajuda?
-pt_Name=Explorator <Stro>
-
-[NPC720]
-Name=Enano de las Profundidades
-ShowName=0
-En_Name=Deep Dwarf
-Body=4477
-Heading=3
-Movement=2
-Alineacion=0
-Attackable=1
-Comercia=0
-Hostile=1
-MinHP=7000
-MaxHP=7000
-MaxHIT=190
-MinHIT=90
-DEF=0
-PoderAtaque=200
-PoderEvasion=150
-NumQuiza=0
-QuizaDropea1=1715-1
-QuizaDropea2=159-1
-QuizaProb=15
-Humanoide=1
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-NoWiki=1
-
-'--- COPIA PRIVADA ORIGINAL NPC721 (Orco Nigromante) antes de oficializar; cliente oficial era Brumak ---
-'[NPC721]
-'Name=Orco Nigromante
-'En_Name=Necromancer Orc
-'Body=1217
-'Head=556
-'Arma=117
-'Casco=140
-'Heading=3
-'Movement=2
-'Attackable=1
-'Comercia=0
-'Hostile=1
-'Alineacion=0
-'ReSpawn=0
-'MinHP=12000
-'MaxHP=12000
-'MaxHIT=250
-'MinHIT=200
-'PoderAtaque=400
-'PoderEvasion=255
-'CantidadInvocaciones=4
-'NumDropQuest=0
-'DropQuest1=142-3482-1-2
-'AfectaParalisis=1
-'NPCLVL=36
-'MagicResistance=90
-'MagicDef=15
-'
-'--- fin copia privada ---
-
 [NPC721] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Brumak
 Body=5455
@@ -9795,45 +7700,6 @@ Drop1=239-200-1-1
 NumDropQuest=2
 DropQuest1=214-2231-1-2
 DropQuest2=286-2475-1-40
-
-[NPC754] 
-Name=Espíritu Poseído
-ShowName=0
-En_Name=Possessed Spirit
-Head=0
-Body=4246
-BodyIdle=4249
-Ataque1=4247
-CastAnimation=4248
-Heading=3
-Movement=11
-Alineacion=0
-Veneno=1
-Attackable=1
-RangoSpell=18
-Hostile=1
-Alineacion=0
-GiveEXP=2400
-GiveGLD=200
-MinHP=4000
-MaxHP=8000
-MaxHIT=190
-MinHIT=150
-PoderAtaque=140
-PoderEvasion=80
-Humanoide=1
-LanzaSpells=1
-Sp1=51
-IntervaloRespawn=60
-NPCLVL=15
-MagicResistance=37
-MagicDef=10
-AguaValida=0
-IntervaloRespawn=360
-IntervaloRespawnMin=180
-NumDropQuest=2
-DropQuest1=219-1997-1-2
-DropQuest2=214-2231-1-2
 
 [NPC755]'new gigante
 Name=Gigantor
@@ -10211,76 +8077,6 @@ DropCount=1
 Drop1=465-1-1-1
 DisabledInBattleServer=1
 
-[NPC925]
-Name=Ninfa
-ShowName=0
-Head=0
-Body=4561
-Heading=3
-Movement=2
-Alineacion=0
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=1900
-GiveGLD=250
-MinHP=2500
-MaxHP=2500
-MaxHIT=140
-MinHIT=75
-DEF=0
-PoderAtaque=200
-PoderEvasion=200
-LanzaSpells=1
-Sp1=51
-IntervaloLanzarHechizo=4000
-NumQuiza=2
-QuizaDropea1=469-1
-QuizaDropea2=540-1
-QuizaProb=20
-Humanoide=1
-NPCLVL=30
-MagicResistance=75
-MagicDef=10
-
-'--- COPIA PRIVADA ORIGINAL NPC926 (Hada Oscura) antes de oficializar; cliente oficial era Pixie de Tierra ---
-NumDropQuest=3
-DropQuest1=29-2214-1-1
-DropQuest2=29-2276-1-2
-DropQuest3=29-2205-1-3
-'[NPC926]
-'Name=Hada Oscura
-'En_Name=Dark Fairy
-'Head=0
-'Body=5416
-'Heading=3
-'Movement=2
-'Alineacion=0
-'Attackable=1
-'Comercia=0
-'Hostile=1
-'GiveEXP=2500
-'GiveGLD=250
-'MinHP=2000
-'MaxHP=2000
-'MaxHIT=125
-'MinHIT=60
-'DEF=0
-'Veneno=4
-'LanzaSpells=1
-'Sp1=25
-'PoderAtaque=150
-'PoderEvasion=170
-'NumQuiza=1
-'QuizaDropea1=1797-1
-'QuizaProb=10
-'Humanoide=1
-'NPCLVL=30
-'MagicResistance=75
-'MagicDef=10
-'
-'--- fin copia privada ---
-
 [NPC926] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Pixie de Tierra
 DropCount=1
@@ -10444,29 +8240,6 @@ GiveGLD=0
 MaxHIT=10
 MinHIT=5
 
-[NPC933]
-Name=Hada
-En_Name=Fairy
-Head=0
-Body=4559
-Heading=3
-Movement=2
-Attackable=0
-Hostile=0
-Comercia=0
-Alineacion=0
-GiveEXP=75
-GiveGLD=0
-MinHP=75
-MaxHP=75
-MaxHIT=13
-MinHIT=5
-PoderAtaque=100
-PoderEvasion=45
-NPCLVL=10
-MagicResistance=25
-MagicDef=0
-
 [NPC934] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Dragón Negro
 Body=5503
@@ -10560,29 +8333,6 @@ MagicResistance=25
 MagicDef=0
 NpcType=0
 
-[NPC938]
-Name=Cerdo
-En_Name=Pig
-Head=0
-Body=4552
-Heading=3
-Movement=2
-Attackable=1
-Hostile=0
-Comercia=0
-Alineacion=0
-GiveEXP=0
-GiveGLD=0
-MinHP=100
-MaxHP=100
-MaxHIT=45
-MinHIT=35
-PoderAtaque=100
-PoderEvasion=45
-NPCLVL=10
-MagicResistance=25
-MagicDef=0
-
 [NPC939]
 Name=Tigre
 ShowName=0
@@ -10649,53 +8399,6 @@ fr_Name=Autruche
 it_Name=Struzzo
 NumDropQuest=1
 DropQuest1=137-2552-1-1
-
-[NPC942] 'Sapo
-Name=Sapo
-ShowName=0
-En_Name=Toad
-Head=0
-Body=4069
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Comercia=0
-Alineacion=0
-GiveEXP=16
-GiveGLD=4
-MinHP=25
-MaxHP=25
-MaxHIT=8
-MinHIT=3
-PoderAtaque=100
-PoderEvasion=45
-snd1=101
-NPCLVL=10
-MagicResistance=25
-MagicDef=0
-
-[NPC943]
-Name=Quark
-Head=0
-Body=4545
-Heading=3
-Movement=2
-Attackable=1
-Hostile=0
-Comercia=0
-Alineacion=0
-GiveEXP=25
-GiveGLD=0
-MinHP=15
-MaxHP=15
-MaxHIT=13
-MinHIT=5
-PoderAtaque=100
-PoderEvasion=45
-NPCLVL=10
-MagicResistance=25
-MagicDef=0
 
 [NPC944]
 Name=Golem Infernal
@@ -10973,44 +8676,6 @@ Hostile=1
 PoderAtaque=70
 PoderEvasion=50
 
-[NPC951]
-Name=Calaveras
-En_Name=Skulls
-Body=4002
-Heading=1
-Attackable=1
-Movement=1
-Comercia=0
-Hostile=0
-GiveEXP=0
-GiveGLD=0
-MinHP=100
-MaxHP=100
-SND3=211
-NPCLVL=11
-MagicResistance=27
-MagicDef=0
-
-[NPC952]
-Name=Huevo de Arácnido
-En_Name=Arachnid Egg
-Body=4534
-Heading=1
-Attackable=1
-Movement=1
-Comercia=0
-Hostile=0
-GiveEXP=0
-GiveGLD=0
-MinHP=1
-MaxHP=1
-SND3=211
-IntervaloRespawn=7200
-IntervaloRespawnMin=6300
-NPCLVL=11
-MagicResistance=27
-MagicDef=0
-
 [NPC953] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Zombie Invocado
 Body=4943
@@ -11032,28 +8697,6 @@ en_Name=Summoned Zombie
 pt_Name=Zumbi Convocado
 fr_Name=Zombie Invoqué
 it_Name=Zombie Evocato
-
-[NPC954]
-Name=Lapida
-En_Name=Stones
-Body=4533
-Heading=1
-Attackable=1
-Movement=1
-Comercia=0
-Hostile=0
-GiveEXP=0
-GiveGLD=0
-MinHP=1
-MaxHP=1
-SND3=211
-IntervaloRespawn=7200
-IntervaloRespawnMin=6300
-NPCLVL=11
-MagicResistance=27
-MagicDef=0
-
-#######'INVOCACIONES'#######
 
 [NPC957] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Piraña Invocada
@@ -11309,63 +8952,6 @@ Ataque1=4203
 NpcType=0
 Nivel=20
 
-[NPC969] 'Araña gigante azul
-Name=Araña Poecilotheria
-ShowName=0
-En_Name=Poecilotheria Spider
-Head=0
-Body=4527
-Heading=3
-Movement=2
-Alineacion=0
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=2500
-GiveGLD=220
-MinHP=1725
-MaxHP=1725
-MaxHIT=100
-MinHIT=75
-DEF=0
-Veneno=6
-PoderAtaque=150
-PoderEvasion=70
-Humanoide=0
-NPCLVL=12
-MagicResistance=30
-MagicDef=0
-
-'--- COPIA PRIVADA ORIGINAL NPC970 (Araña Nociva) antes de oficializar; cliente oficial era Kaelthor ---
-'[NPC970] 'Araña gris gignate
-'Name=Araña Nociva
-'En_Name=Harmful Spider
-'Head=0
-'Body=5524
-'BodyIdle=4525
-'Heading=3
-'Movement=2
-'Alineacion=0
-'Attackable=1
-'Comercia=0
-'Hostile=1
-'GiveEXP=2530
-'GiveGLD=242
-'MinHP=2200
-'MaxHP=2200
-'MaxHIT=110
-'MinHIT=95
-'DEF=0
-'Veneno=6
-'PoderAtaque=150
-'PoderEvasion=80
-'Humanoide=0
-'NPCLVL=16
-'MagicResistance=40
-'MagicDef=10
-'
-'--- fin copia privada ---
-
 [NPC970] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Kaelthor
 Body=5524
@@ -11421,64 +9007,6 @@ MagicDef=10
 Ataque1=5257
 NpcType=0
 Nivel=20
-
-[NPC975]
-Name=Araña Venenosa
-ShowName=0
-En_Name=Venomous Spider
-Head=0
-Body=4522
-BodyIdle=4521
-Heading=3
-Movement=2
-Alineacion=0
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=1080
-GiveGLD=96
-MinHP=2350
-MaxHP=2400
-MaxHIT=100
-MinHIT=70
-DEF=0
-Veneno=4
-PoderAtaque=150
-PoderEvasion=85
-Humanoide=0
-NPCLVL=16
-MagicResistance=40
-MagicDef=10
-
-'--- COPIA PRIVADA ORIGINAL NPC977 (Araña Poison) antes de oficializar; cliente oficial era Zevkar ---
-'[NPC977]
-'Name=Araña Poison
-'En_Name=Poison Spider
-'Head=0
-'Body=5476
-'BodyIdle=4527
-'Heading=3
-'Movement=2
-'Alineacion=0
-'Attackable=1
-'Comercia=0
-'Hostile=1
-'GiveEXP=2750
-'GiveGLD=300
-'MinHP=2500
-'MaxHP=2500
-'MaxHIT=120
-'MinHIT=110
-'DEF=0
-'Veneno=1
-'PoderAtaque=150
-'PoderEvasion=100
-'Humanoide=0
-'NPCLVL=17
-'MagicResistance=43
-'MagicDef=10
-'
-'--- fin copia privada ---
 
 [NPC977] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Zevkar
@@ -11621,43 +9149,6 @@ PoderAtaque=180
 PoderEvasion=50
 Domable=167
 
-[NPC985] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Name='Escorpion Grande'
-Body=5600
-Head=0
-BodyIdle=5598
-Ataque1=5599
-MaxHp=3600
-MinHp=3600
-GiveEXP=0
-GiveGLD=0
-MaxHIT=0
-MinHIT=0
-
-[NPC986] '
-Name=Pato nadando
-Head=0
-Body=4511
-Heading=3
-Movement=2
-Attackable=1
-Hostile=0
-Comercia=0
-Alineacion=0
-AguaValida=1
-TierraInvalida=1
-GiveEXP=0
-GiveGLD=0
-MinHP=50
-MaxHP=50
-MaxHIT=15
-MinHIT=10
-PoderAtaque=100
-PoderEvasion=45
-NPCLVL=10
-MagicResistance=25
-MagicDef=0
-
 [NPC987] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Thalanor <Quest de Isla Pirata>
 Desc=Pocos humanos caminan este bosque sin romper su armonía. Kael habló de vos. Pero hay un lugar donde incluso los elfos evitan cazar.
@@ -11769,56 +9260,6 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 TipoItems=3
-[NPC994]
-Name=Alma en Llamas
-ShowName=0
-En_Name=Burning Soul
-Body=4541
-Nivel=45
-BodyIdle=4541
-Heading=3
-Movement=2
-Alineacion=0
-Attackable=1
-Hostile=1
-ReSpawn=0
-GiveEXP=11000
-GiveGLD=400
-MinHP=6100
-MaxHP=6100
-MaxHIT=245
-MinHIT=225
-DEF=0
-PoderAtaque=170
-PoderEvasion=160
-LanzaSpells=1
-Sp1=53
-IntervaloLanzarHechizo=2000
-NumQuiza=1
-QuizaDropea1=868-1
-QuizaProb=150
-Humanoide=0
-NPCLVL=45
-MagicResistance=100
-MagicDef=15
-
-[NPC995] 'LeChuck
-Name=LeChuck
-Desc=Soy LeChuck
-ShowName=1
-NpcType=17
-Head=0
-Heading=3
-Body=4436
-BodyIdle=4433
-Movement=2
-PoderEvasion=190
-en_desc=I'm LeChuck
-NPCLVL=30
-MagicResistance=75
-MagicDef=10
-NoWiki=1
-
 [NPC996]
 Name=Oso Polar
 ShowName=0
@@ -11924,23 +9365,6 @@ it_Name=Ursus
 pt_Name=Ursus
 Domable=250
 
-[NPC999] 'Elaine
-Name=Elaine
-Desc=Ayudame,donde demonios te has metido Guybrush!
-ShowName=1
-NpcType=17
-Head=0
-Heading=2
-Body=4437
-BodyIdle=4434
-Movement=2
-PoderEvasion=190
-en_desc=Help me, where the hell you got Guybrush!
-NPCLVL=30
-MagicResistance=75
-MagicDef=10
-NoWiki=1
-
 [NPC1000]
 Name=Nadador
 En_Name=Swimmer
@@ -12039,32 +9463,6 @@ Movement=1
 NumQuest=1
 QuestNumber1=275
 
-[NPC1005]
-Name=Yoel
-ShowName=1
-Desc=Es mejor tener precaución por aquí muchacho, es muy peligroso.
-Head=2
-Body=63
-Heading=3
-Movement=20
-Attackable=0
-Comercia=0
-Hostile=0
-NROITEMS=0
-IntervaloMovimiento=300
-CaminataLen=6
-Caminata1=0:0:3000
-Caminata2=0:2:3000
-Caminata3=-32:2:3000
-Caminata4=-9:2:5000
-Caminata5=-9:-4:3000
-Caminata6=0:-4:3000
-Minimap=1
-en_desc=It's better to be cautious around here boy, it's very dangerous.
-NPCLVL=13
-MagicResistance=33
-MagicDef=0
-
 [NPC1006] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Aldren <Quest de Rugido Salvaje>
 Desc=Los jabalíes de esta zona son fieros, pero sus cuerpos guardan la esencia salvaje que necesito para completar mi investigación.
@@ -12094,60 +9492,6 @@ MagicResistance=33
 MagicDef=0
 NumQuest=1
 QuestNumber1=287
-[NPC1007]
-Name=Guardián de Gulfas
-En_Name=Gulfas Guardian
-Desc=Aqui yace Gulfas Morgolock, creador de este universo.
-Head=5
-Body=123
-Heading=3
-Movement=2
-Attackable=0
-Comercia=0
-Hostile=0
-NROITEMS=0
-ShowName=1
-Minimap=1
-en_desc=Here lies Gulfas Morgolock, creator of this universe.
-NPCLVL=13
-MagicResistance=33
-MagicDef=0
-
-''''''''''''''''''''''''''''''''''''''''''''NPCs para Bosque Elfico'''''''''''''''''''''''''''''''''''''''''''''''''''
-
-'--- COPIA PRIVADA ORIGINAL NPC1010 (Cazador Élfico) antes de oficializar; cliente oficial era Eltherion <Quest> ---
-'[NPC1010]
-'Name=Cazador Élfico
-'En_Name=Elven Hunter
-'Head=121
-'Heading=3
-'Arma=126
-'Escudo=6
-'Body=68
-'Movement=2
-'Hostile=1
-'Attackable=1
-'ReSpawn=0
-'GiveEXP=2800
-'GiveGLD=280
-'MinHP=2800
-'MaxHP=2800
-'MaxHIT=115
-'MinHIT=85
-'DEF=0
-'PoderAtaque=140
-'PoderEvasion=105
-'NumQuiza=1
-'QuizaDropea1=1867-1 'Arco Compuesto
-'QuizaProb=35
-'Humanoide=1
-'NPCLVL=13
-'MagicResistance=33
-'MagicDef=0
-'
-'
-'--- fin copia privada ---
-
 [NPC1010] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Eltherion <Quest del Bosque Profano>
 Desc=Bienvenido, hijo de la luz. Mi deber es preservar el equilibrio entre la vida y lo que yace más allá. Si buscas dominar artes profanas, antes deberás demostrar que comprendes el peligro que representan.
@@ -12666,93 +10010,6 @@ NPCLVL=15
 MagicResistance=37
 MagicDef=10
 
-[NPC1028]
-Name=Serpiente de Euríale
-ShowName=0
-En_Name=Euriale Snake
-Head=0
-Body=4191
-BodyIdle=4192
-Ataque1=4190
-Nivel=45
-Heading=3
-Movement=2
-Alineacion=0
-Veneno=1
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=600
-GiveGLD=60
-MinHP=1000
-MaxHP=1000
-MaxHIT=130
-MinHIT=90
-SND1=127
-SND2=128
-SND3=103
-DEF=0
-AguaValida=0
-PoderAtaque=350
-PoderEvasion=50
-IntervaloRespawn=120
-Humanoide=0
-NPCLVL=15
-MagicResistance=0
-MagicDef=0
-NpcType=0
-
-[NPC1029]
-Name=Patriarca Drake
-ShowName=0
-En_Name=Drake Patriarch
-ReSpawn=0
-Body=4468
-BodyIdle=4467
-Heading=3
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=18000
-GiveGLD=1440
-MinHP=12000
-MaxHP=12000
-MaxHIT=190
-MinHIT=130
-DEF=25
-PoderAtaque=250
-PoderEvasion=250
-IntervaloRespawn=300
-
-'--- COPIA PRIVADA ORIGINAL NPC1030 (Duohorn) antes de oficializar; cliente oficial era Minotauro ---
-'[NPC1030]
-'Name=Duohorn
-'ReSpawn=0
-'Body=5075
-'BodyIdle=4457
-'Heading=3
-'Movement=2
-'Attackable=1
-'Comercia=0
-'Hostile=1
-'GiveEXP=8400
-'GiveGLD=450
-'GiveEXPClan=1
-'MinHP=6000
-'MaxHP=6000
-'MaxHIT=170
-'MinHIT=80
-'DEF=0
-'PoderAtaque=120
-'PoderEvasion=160
-'Humanoide=0
-'NPCLVL=30
-'MagicResistance=75
-'MagicDef=10
-'
-'--- fin copia privada ---
-
 [NPC1030] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Minotauro
 Body=5075
@@ -13149,40 +10406,6 @@ NPCLVL=2
 MagicResistance=5
 MagicDef=0
 TipoItems=3
-[NPC1040]
-Name=Cobra
-ShowName=0
-Head=0
-Body=4445
-BodyIdle=4445
-Ataque1=4445
-Heading=3
-Movement=2
-Alineacion=0
-Veneno=1
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=256
-GiveGLD=28
-MinHP=350
-MaxHP=350
-MaxHIT=40
-MinHIT=20
-SND1=127
-SND2=128
-SND3=103
-DEF=0
-NROITEMS=0
-AguaValida=0
-PoderAtaque=30
-PoderEvasion=10
-SubeSupervivencia=1
-Humanoide=0
-NPCLVL=2
-MagicResistance=5
-MagicDef=0
-
 [NPC1042]
 Name=Azog
 ShowName=0
@@ -13213,89 +10436,6 @@ NpcType=0
 Nivel=15
 NumDropQuest=1
 DropQuest1=323-459-1-20
-
-[NPC1043]
-Name=Reina Gorgona
-ShowName=0
-En_Name=Gorgon Queen
-Body=4444
-Heading=3
-Movement=2
-Alineacion=0
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=125000
-GiveEXPClan=350
-MinHP=250000
-MaxHP=80000
-MaxHIT=300
-MinHIT=200
-DEF=40
-PoderAtaque=350
-PoderEvasion=295
-ReSpawn=0
-AfectaParalisis=1
-LanzaSpells=10
-TranslationInmune=1
-Sp1=213 'Inmovilizar en AREA
-Sp2=214 'Apocalipsis en AREA
-Sp3=215 'Aliento en AREA
-Sp4=216 'Incinera en AREA
-Sp5=217 'Descarga en AREA
-Sp6=218 'Slow en AREA
-Sp7=219 'Destierro en AREA
-Sp8=214 'Apocalipsis en AREA
-Sp9=217 'Descarga en AREA
-Sp10=232 'Invoca arqueros capturados
-IntervaloLanzarHechizo=1300
-Veneno=3
-IntervaloRespawn=25200
-InformarReSpawn=1
-NumQuiza=20
-QuizaDropea1=2236-1'Insignia Roja
-QuizaDropea2=2237-1'Insignia Azul
-QuizaDropea3=2236-1'Insignia Roja
-QuizaDropea4=2237-1'Insignia Azul
-QuizaDropea5=2236-1'Insignia Roja
-QuizaDropea6=2237-1'Insignia Azul
-QuizaDropea7=2236-1'Insignia Roja
-QuizaDropea8=2237-1'Insignia Azul
-QuizaDropea9=2236-1'Insignia Roja
-QuizaDropea10=2237-1'Insignia Azul
-QuizaDropea11=2236-1'Insignia Roja
-QuizaDropea12=2237-1'Insignia Azul
-QuizaDropea13=2236-1'Insignia Roja
-QuizaDropea14=2237-1'Insignia Azul
-QuizaDropea15=2236-2'Insignia Roja
-QuizaDropea16=2237-2'Insignia Azul
-QuizaDropea17=2236-3'Insignia Roja
-QuizaDropea18=2237-3'Insignia Azul
-QuizaDropea19=2236-4'Insignia Roja
-QuizaDropea20=2237-4'Insignia Azul
-QuizaProb=1
-Humanoide=1
-CantidadInvocaciones=2
-NPCLVL=38
-MagicResistance=95
-MagicDef=15
-DontHitVisiblePlayers=1
-PosOrig=1
-OrigPos=1
-
-'Nuevos NPCS PANTANO'
-
-[NPC1044] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=4245
-MaxHp=85000
-MinHp=85000
-MaxHIT=170
-MinHIT=135
-Name=Rey Gigantor
-en_Name=King Gigantor
-fr_Name=Roi Gigantor
-it_Name=King Gigantor
-pt_Name=Rei Gigantor
 
 [NPC1045] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Guardia del Pantano
@@ -13589,70 +10729,6 @@ GiveGLD=00
 MaxHIT=1
 MinHIT=1
 Nivel=20
-
-[NPC1057]
-Name=Jarl Morngrim
-ShowName=0
-Head=686
-Body=133
-Casco=26
-Arma=110
-Escudo=42
-Heading=3
-Movement=2
-Alineacion=0
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=0
-MinHP=75000
-MaxHP=75000
-MaxHIT=300
-MinHIT=250
-DEF=40
-PoderAtaque=4000
-PoderEvasion=200
-ReSpawn=0
-LanzaSpells=6
-Sp1=213 'Inmovilizar en AREA
-Sp2=214 'Apocalipsis en AREA
-Sp3=215 'Aliento en AREA
-Sp4=216 'Incinera en AREA
-Sp5=217 'Descarga en AREA
-Sp6=218 'Slow en AREA
-IntervaloLanzarHechizo=1700
-AfectaParalisis=1
-IntervaloRespawn=21600
-IntervaloRespawnMin=20700
-NumQuiza=4
-QuizaDropea1=2897-1
-QuizaDropea2=1859-1
-QuizaDropea3=1080-1
-QuizaDropea4=1725-1
-QuizaProb=25
-InformarReSpawn=1
-GiveEXPClan=60
-Humanoide=1
-NPCLVL=30
-MagicResistance=75
-MagicDef=10
-NpcType=0
-
-[NPC1058]
-Name=Elias
-Desc=Habla conmigo si quieres amalgamar tus gemas.
-ShowName=1
-Head=462
-Body=590
-Heading=3
-Movement=1
-Craftea=1
-Minimap=1
-en_desc=Talk to me if you want to amalgamate your gems.
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-NpcType=0
 
 [NPC1059] 'Del oficial (pack 2026-10-01); quest. El numero era nuestro Grey el Coleccionista, mudado a NPC9052. Plan 17.001 Ola 3. sin quest: habla y nada mas
 Name=Rhamses <Quest de Piramide>
@@ -13996,45 +11072,6 @@ Obj4=2790-1000
 NoMapInfo=1
 TipoItems=1
 
-[NPC1089]
-Name=Celyne <Sastre de Nix>
-ShowName=1
-Desc=¡Tengo las mejores vestimentas y tunicas para bajos de todas las tierras!
-Head=351
-Body=1194
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=3
-Hostile=0
-Alineacion=0
-ReSpawn=0
-Minimap=1
-NROITEMS=18
-Obj1=240-1
-Obj2=9044-1
-Obj3=2843-1
-Obj4=2841-1
-Obj5=2839-1
-Obj6=9056-1
-Obj7=9051-1
-Obj8=9055-1
-Obj9=2830-1
-Obj10=1309-1
-Obj11=2816-1
-Obj12=2825-1
-Obj13=2826-1
-Obj14=4343-1
-Obj15=1226-1
-Obj16=2813-1
-Obj17=9054-1
-Obj18=886-1
-en_desc=I have the best clothes and tunics for bass of all the lands!
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
 [NPC1090] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Leo <Pescador>
 Desc=¡El mar tiene tanto por ofrecer! Revisa mis herramientas, puede que haya algo que te sirva.
@@ -14154,188 +11191,6 @@ MagicResistance=60
 MagicDef=5
 TipoItems=24
 
-[NPC1093]
-Name=Halving <Carpintero de Nix>
-Desc=Bienvenido. Trabajo todo tipo de leña.
-Head=318
-Body=14
-Arma=138
-ShowName=1
-Heading=3
-Movement=1
-Comercia=1
-NROITEMS=8
-Obj1=198-1
-Obj2=127-1
-Obj3=361-1
-Obj4=2906-1
-Obj5=2829-1
-Obj6=479-1
-Obj7=3466-1
-Obj8=480-10000
-Minimap=1
-en_desc=Welcome. I work all kinds of firewood.
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
-[NPC1094]
-Name=Tjen <Sastre de Banderbill>
-Desc=El único sastre habilitado personalmente por el Rey Tancredo.
-ShowName=1
-Head=117
-Body=183
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=17
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=7
-Obj1=55-1
-Obj2=196-1
-Obj3=381-1
-Obj4=238-1
-Obj5=1982-1
-Obj6=1089-1
-Obj7=886-1
-Minimap=1
-en_desc=The only tailor personally qualified by King Tancredo.
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
-[NPC1095]
-Name=Angie <Sastre de Banderbill>
-Desc=Aquí es donde fabricamos las túnicas para la realeza. Pero quizás también tenga algo para alguien como tú.
-ShowName=1
-Head=167
-Body=183
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=17
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=9
-Obj1=2924-1
-Obj2=2955-1
-ObJ3=381-1
-Obj4=2919-1
-Obj5=1089-1
-Obj6=2889-1
-Obj7=467-1
-Obj8=468-1
-Obj9=2932-1
-Minimap=1
-en_desc=This is where we make the robes for royalty. But maybe it also has something for someone like you.
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
-[NPC1096]
-Name=Morena <Sastre de Banderbill>
-ShowName=1
-Desc=¡Tengo las mejores vestimentas y tunicas para bajos de todas las tierras!
-Head=707
-Body=1185
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=3
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=11
-Obj1=2826-1
-Obj2=195-1
-Obj3=1226-1
-Obj4=2813-1
-Obj5=2833-1
-Obj6=2840-1
-Obj7=1988-1
-Obj8=3388-1
-Obj9=1088-1
-Obj10=2857-1
-Obj11=886-1
-Minimap=1
-en_desc=I have the best clothes and tunics for bass of all the lands!
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
-[NPC1097]
-Name=Perseo <Armero de Banderbill>
-Desc=¿De dónde crees que salieron las lanzas imperiales? ¡Así es!
-ShowName=1
-Head=17
-Body=62
-Escudo=67
-Arma=4
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=3
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=9
-Obj1=15-1
-Obj2=165-1
-Obj3=1094-1
-Obj4=1792-1
-Obj5=1817-1
-Obj6=401-1
-Obj7=165-1
-Obj8=3978-1
-Obj9=3980-1
-SoundOpen=2200
-SoundClose=2201
-Minimap=1
-en_desc=Where do you think the imperial spears came from? That's right!
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
-[NPC1098]
-Name=Roy <Armaduras de Banderbill>
-Desc=Acercate, tengo algunas armaduras que podrían protegerte.
-ShowName=1
-Head=604
-Body=337
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=16
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=10
-Obj1=30-1
-Obj2=529-1
-Obj3=1004-1
-Obj4=1700-1
-Obj5=1278-1
-Obj6=998-1
-Obj7=1920-1
-Obj8=2831-1
-Obj9=2876-1
-Obj10=2801-1
-SoundOpen=2194
-SoundClose=2189
-Minimap=1
-en_desc=Get closer, I have some armor that could protect you.
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
 [NPC1099] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Borvat
 Body=6028
@@ -14374,88 +11229,6 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-[NPC1100]
-Name=Halving <Carpintero de Banderbill>
-Desc=Bienvenido. Trabajo todo tipo de leña.
-Head=318
-Body=14
-Arma=138
-ShowName=1
-Heading=3
-Movement=1
-Comercia=1
-NROITEMS=8
-Obj1=198-1
-Obj2=127-1
-Obj3=361-1
-Obj4=2906-1
-Obj5=2829-1
-Obj6=479-1
-Obj7=3466-1
-Obj8=480-10000
-Minimap=1
-en_desc=Welcome. I work all kinds of firewood.
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
-[NPC1101]
-Name=Rethor <Sastre de Arkhein>
-Desc=Las mejores telas en la mejor ciudad, nada que perder con estos precios.
-ShowName=1
-Head=15
-Body=22
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=17
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=7
-Obj1=55-1
-Obj2=196-1
-Obj3=381-1
-Obj4=238-1
-Obj5=1982-1
-Obj6=1089-1
-Obj7=886-1
-Minimap=1
-en_desc=The best fabrics in the best city, nothing to lose with these prices.
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
-[NPC1102]
-Name=Jadís <Sastre de Arkhein>
-Desc=Siempre hay un roto para un descosido.
-ShowName=1
-Body=4567
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=3
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=9
-Obj1=2924-1
-Obj2=2955-1
-ObJ3=381-1
-Obj4=2919-1
-Obj5=1089-1
-Obj6=2889-1
-Obj7=467-1
-Obj8=468-1
-Obj9=2932-1
-Minimap=1
-en_desc=There is always a break for a unsewn.
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
 [NPC1103] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Criptococo
 Body=4202
@@ -14609,102 +11382,6 @@ MagicResistance=60
 MagicDef=5
 NumQuest=1
 QuestNumber1=41
-[NPC1108]
-Name=Rethor <Sastre de Arghal>
-Desc=Las mejores telas en la mejor ciudad, nada que perder con estos precios.
-ShowName=1
-Head=15
-Body=22
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=17
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=21
-Obj1=32-1
-Obj2=35-1
-Obj3=515-1
-Obj4=2910-1
-Obj5=964-1
-Obj6=2915-1
-Obj7=1981-1
-Obj8=1956-1
-Obj9=1975-1
-Obj10=2907-1
-Obj11=2913-1
-Obj12=2912-1
-Obj13=2914-1
-Obj14=2911-1
-Obj15=1963-1
-Obj16=1901-1
-Obj17=55-1
-Obj18=196-1
-Obj19=381-1
-Obj20=238-1
-Obj21=886-1
-Minimap=1
-en_desc=The best fabrics in the best city, nothing to lose with these prices.
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
-[NPC1109] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=1655
-Desc=¡Tengo unas misiones para ti!
-Head=204
-Name=Tony <Quest>
-NpcType=17
-en_Desc=I have some missions for you!
-en_Name=Tony <stro>
-fr_Desc=J'ai des missions pour vous!
-fr_Name=Tony <stro>
-it_Desc=Ho alcune missioni per te!
-it_Name=Tony <stro>
-pt_Desc=Eu tenho algumas missões para você!
-pt_Name=Tony <Stro>
-
-[NPC1110]
-Name=Celyne <Sastre de Arghal>
-ShowName=1
-Desc=¡Tengo las mejores vestimentas y tunicas para bajos de todas las tierras!
-Head=351
-Body=1194
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=3
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=18
-Obj1=240-1
-Obj2=527-1
-Obj3=2843-1
-Obj4=2841-1
-Obj5=2839-1
-Obj6=2837-1
-Obj7=2819-1
-Obj8=2836-1
-Obj9=2830-1
-Obj10=1309-1
-Obj11=2816-1
-Obj12=2825-1
-Obj13=2826-1
-Obj14=195-1
-Obj15=1226-1
-Obj16=2813-1
-Obj17=2833-1
-Obj18=886-1
-Minimap=1
-en_desc=I have the best clothes and tunics for bass of all the lands!
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
 [NPC1111] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Zaldivar <Quest de la Cueva Glaciar>
 SoundOpen=2202
@@ -14770,22 +11447,6 @@ MagicResistance=60
 MagicDef=5
 NumQuest=1
 QuestNumber1=141
-[NPC1113]
-Name=Sylas <Quest>
-Desc=Hola, si te sobra un poco de tiempo para charlar conmigo, tengo buenas noticias para ti.
-Head=642
-Body=548
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=Hello, if you have some spare time to chat with me, I have good news for you.
-NoWiki=1
-NPCLVL=23
-MagicResistance=57
-MagicDef=5
-
 [NPC1114]
 Name=Jace <Quest de Dungeon Marabel>
 Desc=¡Oye, tu! No pareces ser Arqueólogo, pero necesito de tus musculos!
@@ -14802,34 +11463,6 @@ Hostile=0
 Alineacion=0
 NumQuest=1
 QuestNumber1=37
-
-[NPC1115]
-Name=Thorgin
-Desc=¡Vino de Banderbill, cerveza de Arkhein y los mejores muebles de Ullathorpe, tientan a cualquiera!
-Head=312
-Body=599
-NpcType=0
-ShowName=1
-Heading=3
-Movement=1
-Attackable=0
-Hostile=0
-Alineacion=0
-NoMapInfo=1
-
-[NPC1116]
-Name=Valdemar
-Desc=¡Este terreno acaba de ser comprado, veremos que construye el nuevo dueño! Solo me preocupa que la obra afecte los tuneles debajo de la ciudad..
-Head=14
-Body=80
-NpcType=0
-ShowName=1
-Heading=3
-Movement=1
-Attackable=0
-Hostile=0
-Alineacion=0
-NoMapInfo=1
 
 [NPC1117] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Windall <Quest de Bosque de los Espiritus>
@@ -14870,69 +11503,6 @@ MagicDef=5
 DisabledInBattleServer=1
 NumQuest=1
 QuestNumber1=204
-[NPC1118] Penthar
-Name=Naz <Armero de Penthar>
-ShowName=1
-Desc=No llegarás muy lejos con ese armamento. Prueba alguna de estas armas.
-Head=501
-Body=4936
-Arma=151
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=2
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=11
-Obj1=401-1
-Obj2=1792-1
-Obj3=3980-1
-Obj4=3978-1
-Obj5=15-1
-Obj6=165-1
-Obj7=1856-1
-Obj8=1817-1
-Obj9=2-1
-Obj10=1848-1
-Obj11=9-1
-SoundOpen=2203
-SoundClose=2205
-Minimap=1
-en_desc=You won't get very far with that weaponry. Try any of these weapons.
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
-[NPC1119] Penthar
-Name=Gollik <Armaduras de Penthar>
-ShowName=1
-Desc=Necesitarás algo mejor que esa ropa para adentrarte en el bosque. Echa un vistazo.
-Head=500
-Body=248
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=2
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=5
-Obj1=30-1
-Obj2=529-1
-Obj3=1004-1
-Obj4=1700-1
-Obj5=1278-1
-SoundOpen=2199
-SoundClose=2198
-Minimap=1
-en_desc=You'll need something better than those clothes to get into the woods. Take a look.
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
 [NPC1120] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Skabrot <Hechicero de Penthar>
 SoundOpen=1002
@@ -15478,173 +12048,6 @@ NPCLVL=24
 MagicResistance=60
 MagicDef=5
 TipoItems=2
-[NPC1133]
-Name=Victarion <Armaduras Profesionales>
-ShowName=1
-Desc=Un guerrero no sería el mismo sin su espada, ¡y yo no sería quién sin mi fragua!
-Head=602
-Body=295
-Arma=111
-Escudo=59
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=2
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=22
-Obj1=1719-1
-Obj2=1715-1
-Obj3=1774-1
-Obj4=1761-1
-Obj5=499-1
-Obj6=1635-1
-Obj7=2876-1
-Obj8=2801-1
-Obj9=2831-1
-Obj10=359-1
-Obj11=360-1
-Obj12=1005-1
-Obj13=2871-1
-Obj14=2874-1
-Obj15=2875-1
-Obj16=2877-1
-Obj17=1911-1
-Obj18=1910-1
-Obj19=2803-1
-Obj20=2804-1
-Obj21=4330-1
-Obj22=4332-1
-SoundOpen=2196
-SoundClose=2191
-Minimap=1
-en_desc=A warrior would not be the same without his sword, and I would not be who without my forge!
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
-[NPC1134]
-Name=Fenrir <Hechicero Oscuro>
-ShowName=1
-Desc=¡Tengo gran variedad de hechizos destinados al combate!
-Head=205
-Body=225
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=24
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=8
-Obj1=992-1
-Obj2=1797-1
-Obj3=469-1
-Obj4=540-1
-Obj5=2324-1
-Obj6=3576-1
-Obj7=3983-1
-Minimap=1
-en_desc=I have a wide variety of spells intended for combat!
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
-[NPC1135]
-Name=Halving <Carpintero Profesional>
-Desc=Bienvenido. Trabajo todo tipo de leña.
-Head=318
-Body=14
-Arma=138
-ShowName=1
-Heading=3
-Movement=1
-Comercia=1
-NROITEMS=9
-Obj1=198-1
-Obj2=127-1
-Obj3=361-1
-Obj4=2906-1
-Obj5=2829-1
-Obj6=479-1
-Obj7=3466-1
-Obj8=1867-1
-Obj9=480-10000
-Minimap=1
-en_desc=Welcome. I work all kinds of firewood.
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
-[NPC1136]
-Name=Rethor <Sastre de Esperanza>
-Desc=Las mejores telas en la mejor ciudad, nada que perder con estos precios.
-ShowName=1
-Head=15
-Body=22
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=17
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=9
-Obj1=2901-1
-Obj2=1955-1
-Obj3=1982-1
-Obj4=2889-1
-Obj5=357-1
-Obj6=530-1
-Obj7=2916-1
-Obj8=2940-1
-Obj9=1962-1
-Obj10=886-1
-Minimap=1
-en_desc=The best fabrics in the best city, nothing to lose with these prices.
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
-[NPC1137]
-Name=Jadís <Sastre de Esperanza>
-Desc=Siempre hay un roto para un descosido.
-ShowName=1
-Body=4567
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=3
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=14
-Obj1=467-1
-Obj2=468-1
-Obj3=2928-1
-Obj4=1986-1
-Obj5=510-1
-Obj6=513-1
-Obj7=503-1
-Obj8=1961-1
-Obj9=2921-1
-Obj10=2938-1
-Obj11=886-1
-Obj12=2936-1
-Obj13=550-1
-Obj14=2909-1
-Obj15=4331-1
-Minimap=1
-en_desc=There is always a break for a unsewn.
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
 [NPC1138] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Camello
 Body=5639
@@ -15784,37 +12187,6 @@ PoderEvasion=175
 Domable=283
 MinTameLevel=31
 
-[NPC1142]
-Name=Baradh <Minero>
-NpcType=0
-IT_Desc=I migliori strumenti per ottenere minerali.
-FR_Desc=Les meilleurs outils pour obtenir des minéraux.
-PT_Desc=As melhores ferramentas para obter minerais.
-IT_Name=Baradh <Minatore>
-FR_Name=Baradh <Mineur>
-PT_Name=Baradh <Mineiro>
-en_Name=Baradh <Miner>
-Desc=Las mejores herramientas para obtener minerales.
-Head=564
-Body=1339
-Heading=3
-Movement=1
-Comercia=1
-NROITEMS=4
-Obj1=203-1000
-Obj2=1142-1000
-Obj3=390-1000
-Obj4=1912-1000
-ShowName=1
-SoundOpen=1009
-SoundClose=606
-Minimap=1
-en_Desc=The best tools to obtain minerals
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-TipoItems=49
-
 [NPC1143] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Fenrir <Magia>
 SoundOpen=909
@@ -15900,69 +12272,6 @@ MinHIT=90
 MinHp=2000
 PoderAtaque=180
 PoderEvasion=125
-[NPC1145] ' Futuro NPC quest penthar
-Name=Dalyor <Habitante de Penthar>
-Desc=Bienvenido a Penthar!
-Head=527
-Body=4945
-Heading=3
-Movement=1
-Attackable=0
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NpcType=0
-ShowName=1
-Minimap=1
-en_desc=Welcome to Penthar!
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
-[NPC1146]
-Name=Brayer
-Desc=Habla conmigo si quieres Cambiar Contador de Evento Bufón Caótico .
-ShowName=1
-Head=8
-Body=226
-Heading=3
-Movement=1
-Craftea=2
-Minimap=1
-en_desc=Talk to me if you want to Change Chaotic Jester Event Counter.
-NPCLVL=24
-MagicResistance=60
-MagicDef=5
-
-'--- COPIA PRIVADA ORIGINAL NPC1147 (Ogro) antes de oficializar; cliente oficial era Elemental de Viento Liberado ---
-'[NPC1147] 'Ogro NUEVA ESPERANZA
-'Name=Ogro
-'En_Name=Ogre
-'Body=5497
-'BodyIdle=4494
-'Heading=3
-'Movement=2
-'Attackable=1
-'Comercia=0
-'Hostile=1
-'GiveEXP=3250
-'MinHP=2250
-'MaxHP=2250
-'MaxHIT=175
-'MinHIT=65
-'DEF=0
-'PoderAtaque=260
-'PoderEvasion=160
-'IntervaloAtaque=1800
-'NROITEMS=1
-'Obj1=1848-1
-'Humanoide=1
-'NPCLVL=24
-'MagicResistance=50
-'MagicDef=5
-'
-'--- fin copia privada ---
-
 [NPC1147] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Elemental de Viento Liberado
 ElementalTags=8
@@ -16102,24 +12411,6 @@ Nivel=20
 PoderAtaque=170
 PoderEvasion=95
 
-[NPC1150]
-Name=Elhandar <Quest>
-NpcType=17
-Desc=¡uhm!¡Tantas cosas que hacer y conseguir y siempre con tan poco tiempo! umGr...
-ShowName=1
-Body=140
-Head=171
-Escudo=43
-Arma=127
-Casco=23
-Heading=3
-Movement=1
-BackUp=0
-en_desc=So many things to do and get and always with so little time! umGr...
-NPCLVL=30
-MagicResistance=75
-MagicDef=10
-
 [NPC1151]
 Name=Lempard <Quest>
 NpcType=17
@@ -16201,26 +12492,6 @@ MagicResistance=40
 MagicDef=10
 NumQuest=1
 QuestNumber1=417
-
-[NPC1155]'Se le quitan las dos Quests, porque ninguna estaba operativa quest124, quest125
-Name=Malvur
-NpcType=17
-Desc=Todo esta muy tranquilo por el puerto de pescadores!
-ShowName=1
-Head=305
-Heading=3
-Body=26
-Movement=20
-Attackable=0
-ReSpawn=0
-Hostile=0
-Alineacion=0
-Comercia=0
-BackUp=0
-en_desc=Everything is very quiet by the fishing port!
-NPCLVL=16
-MagicResistance=40
-MagicDef=10
 
 [NPC1156] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Albi
@@ -16322,13 +12593,6 @@ QuestNumber1=212
 QuestNumber2=210
 QuestNumber3=273
 
-[NPC1161] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Name=Serik
-Desc=No fijes tus ojos en los míos. Aquí, quienes observan demasiado... desaparecen.
-Body=19
-Head=106
-NpcType=17
-
 [NPC1162] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Mantis Marrón
 Body=5606
@@ -16373,13 +12637,6 @@ Drop1=6088-4000-1-1
 MinHp=1800
 PoderAtaque=160
 PoderEvasion=90
-[NPC1164] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Name=Aduin
-Desc=Ah... un viajero llega hasta estas islas barridas por el viento. Aquí, donde el cielo toca la tierra y las alas trazan destinos invisibles. Cuéntame... ¿Qué busca tu corazón?
-Body=771
-Head=310
-NpcType=17
-
 [NPC1165] 'Del oficial (pack 2026-10-01); quest. El numero era nuestro Bardo (Legendario), mudado a NPC9053. Plan 17.001 Ola 3. sin quest: habla y nada mas
 Name=Phenoba <Quest de Dungeon Veril>
 Desc=Su mirada petrifica, si no recuperamos el libro antiguo, pagaran los inocentes y la oscuridad acechara nuestro mundo.
@@ -16450,20 +12707,6 @@ PoderAtaque=165
 PoderEvasion=95
 NumDropQuest=1
 DropQuest1=44-2833-1-1000
-[NPC1169] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=2042
-Desc=Equipamiento Legendario para Cazadores
-Head=102
-Name=Cazador (Legendario)
-en_Desc=Legendary Equipment For Hunters
-en_Name=Hunter (legendary)
-fr_Desc=Équipement légendaire pour les chasseurs
-fr_Name=Chasseur (légendaire)
-it_Desc=Equipaggiamento leggendario per i cacciatori
-it_Name=Hunter (leggendario)
-pt_Desc=Equipamento lendário para caçadores
-pt_Name=Hunter (lendário)
-
 [NPC1170] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Guerrero (Legendario), mudado a NPC9054. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC541 del oficial, vida mas parecida: SUPUESTO; sin drops
 Name=Borvat
 Head=0
@@ -16483,14 +12726,6 @@ GiveEXP=0
 GiveGLD=0
 PoderAtaque=105
 PoderEvasion=80
-
-[NPC1171] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Name=Pretoria <Quest>
-Desc=¿Tienes el valor de enfrentar la oscuridad por un poder que puede cambiarlo todo?
-Body=2195
-Head=54
-NpcType=17
-DisabledInBattleServer=1
 
 [NPC1172] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Sheila <Quest de Piedras Primordiales>
@@ -16566,15 +12801,6 @@ GiveEXP=0
 GiveGLD=0
 PoderAtaque=215
 PoderEvasion=160
-
-[NPC1178] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Name=Grimbak <Finanzas Goliath>
-Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
-DescClose=¡Hasta luego!
-Body=592
-Head=460
-NpcType=4
-NoMapInfo=1
 
 [NPC1179] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Thirgo Brumhildo <Quest de Trabajador>
@@ -16874,23 +13100,6 @@ MagicDef=0
 NumQuest=1
 QuestNumber1=132
 
-[NPC1189] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=2142
-Desc=¡Tengo lo necesario para derrotar a los Nagas!
-Head=52
-Name=Laan <Quest>
-NpcType=17
-en_Desc=I have what it takes to Defeat the Nagas!
-en_Name=LAAN <Quest>
-fr_Desc=J'ai ce dont j'ai besoin pour vaincre les Nagas!
-fr_Name=Laan <Quest>
-it_Desc=Ho ciò di cui ho bisogno per sconfiggere i Nagas!
-it_Name=Laan <Quest>
-pt_Desc=Eu tenho o que preciso para derrotar os Nagas!
-pt_Name=LAAN <Imiss>
-NumQuest=1
-QuestNumber1=165
-
 [NPC1190] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC547 del oficial, vida mas parecida: SUPUESTO; sin drops
 Name=Krugg
 Head=0
@@ -17052,89 +13261,6 @@ GiveEXP=0
 GiveGLD=0
 PoderAtaque=245
 PoderEvasion=165
-
-[NPC1198]
-Name=Orco Asesino
-ShowName=0
-En_Name=Orc Killer
-Body=293
-Head=512
-Escudo=41
-Arma=115
-Heading=3
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-Alineacion=0
-ReSpawn=0
-MinHP=6500
-MaxHP=6500
-MaxHIT=350
-MinHIT=100
-PoderAtaque=275
-PoderEvasion=185
-NPCLVL=29
-MagicResistance=73
-MagicDef=10
-NumDropQuest=1
-DropQuest1=142-3484-1-2
-
-[NPC1199]
-Name=Orco Arquero
-ShowName=0
-En_name=Orc Archer
-Body=129
-Head=577
-Escudo=52
-Arma=127
-Heading=3
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-Alineacion=0
-ReSpawn=0
-MinHP=6500
-MaxHP=6500
-MaxHIT=250
-MinHIT=220
-PoderAtaque=400
-PoderEvasion=150
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-NumDropQuest=1
-DropQuest1=142-3485-1-2
-
-[NPC1200]
-Name=Orco Nigromante
-ShowName=0
-En_Name=Orc Necromancer
-Body=2128
-Head=556
-Arma=117
-Casco=140
-Heading=3
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-Alineacion=0
-ReSpawn=0
-MinHP=3500
-MaxHP=3500
-MaxHIT=250
-MinHIT=200
-PoderAtaque=400
-PoderEvasion=255
-CantidadInvocaciones=4
-AfectaParalisis=1
-NPCLVL=36
-MagicResistance=90
-MagicDef=15
-NumDropQuest=1
-DropQuest1=142-3482-1-2
 
 [NPC1201]
 Name=Mercader Clerigo
@@ -17433,162 +13559,6 @@ MagicDef=10
 TestOnly=1
 NoWiki=1
 
-[NPC1211] 'Npc para que invoque el nigromante orco
-Name=Rey Elfo Capturado
-ShowName=0
-En_Name=Captured Elf King
-Body=40
-Head=636
-Escudo=59
-Arma=15
-Casco=23
-Heading=3
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=0
-GiveGLD=0
-MinHP=500
-MaxHP=500
-MaxHIT=300
-MinHIT=200
-DEF=35
-PoderAtaque=300
-PoderEvasion=200
-IntervaloAtaque=400
-Humanoide=1
-AfectaParalisis=1
-NPCLVL=30
-MagicResistance=75
-MagicDef=10
-NumDropQuest=5
-DropQuest1=142-3480-6
-DropQuest2=142-3485-4
-DropQuest3=142-3490-4
-DropQuest4=142-3494-4
-DropQuest5=142-3500-4
-
-[NPC1212] 'Npc para que invoque el nigromante orco
-Name=Rey Humano Capturado
-ShowName=0
-En_name=Captured Human King
-Body=267
-Head=623
-Casco=21
-Escudo=9
-Arma=81
-Heading=3
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=0
-GiveGLD=0
-MinHP=500
-MaxHP=500
-MaxHIT=300
-MinHIT=200
-DEF=35
-PoderAtaque=300
-PoderEvasion=200
-IntervaloAtaque=400
-Humanoide=1
-AfectaParalisis=1
-NPCLVL=30
-MagicResistance=75
-MagicDef=10
-
-[NPC1213] 'Npc para que invoque el nigromante orco
-Name=Rey Enano Capturado
-ShowName=0
-En_name=Captured Dwarf King
-Body=747
-Head=643
-Casco=8
-Escudo=75
-Arma=42
-Heading=3
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=0
-GiveGLD=0
-MinHP=500
-MaxHP=500
-MaxHIT=300
-MinHIT=200
-DEF=35
-PoderAtaque=300
-PoderEvasion=200
-IntervaloAtaque=400
-Humanoide=1
-AfectaParalisis=1
-NPCLVL=30
-MagicResistance=75
-MagicDef=10
-
-[NPC1214] 'Npc para que invoque el nigromante orco
-Name=Rey Oscuro Capturado
-ShowName=0
-En_name=Captured Dark King
-Body=298
-Head=639
-Casco=9
-Escudo=41
-Arma=44
-Heading=3
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=0
-GiveGLD=0
-MinHP=500
-MaxHP=500
-MaxHIT=300
-MinHIT=200
-DEF=35
-PoderAtaque=300
-PoderEvasion=200
-IntervaloAtaque=400
-Humanoide=1
-AfectaParalisis=1
-NPCLVL=30
-MagicResistance=75
-MagicDef=10
-
-[NPC1215] 'Npc para que invoque el nigromante orco
-Name=Rey Gnomo Capturado
-ShowName=0
-En_Name=Captured Gnome King
-Body=858
-Head=644
-Casco=37
-Arma=74
-Heading=3
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=0
-GiveGLD=0
-MinHP=500
-MaxHP=500
-MaxHIT=300
-MinHIT=200
-DEF=35
-PoderAtaque=300
-PoderEvasion=200
-IntervaloAtaque=400
-Humanoide=1
-AfectaParalisis=1
-NPCLVL=30
-MagicResistance=75
-MagicDef=10
-NoWiki=1
-
 [NPC1216] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Amanita
 Body=4838
@@ -17691,150 +13661,6 @@ MagicResistance=100
 MagicDef=15
 TestOnly=1
 
-[NPC1219]
-Name=Rey Luther <Quest>
-En_name=Luther King
-Desc=Hemos logrado deshacernos de los súbditos de Gúl Belthor gracias a la unión de nuestras fuerzas. Pero no toda felicidad es completa.
-ShowName=1
-NpcType=17
-Head=5
-Body=94
-Arma=5
-Casco=37
-Escudo=43
-Heading=3
-Movement=1
-Attackable=0
-SoundOpen=1219
-en_desc=We have managed to get rid of the subjects of Gul Belthor thanks to the union of our forces. But not all happiness is complete.
-NPCLVL=42
-MagicResistance=100
-MagicDef=15
-NumQuest=1
-QuestNumber1=142
-
-[NPC1220]
-Name=Orco Hechicero
-ShowName=0
-En_name=Orc Sorcerer
-Body=205
-Head=517
-Arma=55
-Casco=38
-Heading=3
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-Alineacion=0
-NROITEMS=0
-ReSpawn=0
-MinHP=1750
-MaxHP=1750
-MaxHIT=250
-MinHIT=200
-PoderAtaque=400
-PoderEvasion=355
-LanzaSpells=3
-Sp1=219
-Sp2=217
-Sp3=214
-IntervaloLanzarHechizo=4000
-AfectaParalisis=1
-NPCLVL=42
-MagicResistance=100
-MagicDef=15
-NumDropQuest=1
-DropQuest1=142-3481-1-2
-
-[NPC1222]
-Name=Horus <Quest>
-Desc=Veo que estás intentando desentrañar los secretos de la cámara de Anubis.Han pasado ya muchos años desde la última vez que lo hán intentado. Puedo ayudarte si quieres, pero te recomiendo que busques mas guerreros. Tu solo no podras acabar con el.
-en_Desc=I see that you are trying to unravel the secrets of Anubis' camera.It has been many years since the last time you tried. I can help you if you want, but I recommend that you look for more warriors. You alone will not be able to end it. r. It has been many years since you last tried. I can help you if you want, but I recommend you look for more warriors. You just can't finish him off.
-ShowName=1
-NpcType=17
-Head=0
-Body=671
-Arma=3
-Casco=0
-Escudo=0
-Heading=3
-Movement=1
-Attackable=0
-NPCLVL=7
-MagicResistance=17
-MagicDef=0
-NumQuest=1
-QuestNumber1=155
-
-[NPC1223]'Para piramide
-Name=Escorpión
-ShowName=0
-En_Name=Scorpion
-Head=0
-Body=4335
-BodyIdle=4334
-Ataque1=4333
-Heading=3
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-Alineacion=0
-GiveEXP=550
-GiveGLD=75
-MinHP=500
-MaxHP=500
-MaxHIT=60
-MinHIT=40
-Veneno=0
-PoderAtaque=60
-PoderEvasion=30
-SubeSupervivencia=0
-Humanoide=0
-NPCLVL=7
-
-[NPC1224] 'Para Piramide
-Name=Escorpión Califa
-ShowName=0
-En_Name=Caliph Scorpion
-Head=0
-Body=4088
-Heading=3
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-Alineacion=0
-ELV=5
-ReSpawn=0
-GiveEXP=900
-GiveGLD=54
-MinHP=1500
-MaxHP=1500
-MaxHIT=130
-MinHIT=70
-Veneno=3
-PoderAtaque=100
-PoderEvasion=75
-Humanoide=0
-NPCLVL=13
-
-[NPC1225]
-Name=Sloane <Quest>
-NpcType=17
-Desc=Oye tú ¿Alguna vez has visto una Naga? Ayúdame con esto y verás de que se trata.
-ShowName=1
-Head=58
-Heading=3
-Body=759
-Movement=1
-BackUp=0
-en_desc=Hey you Have you ever seen a Naga? Help me with this and you will see what it is.
-NPCLVL=12
-MagicResistance=30
-MagicDef=0
-
 [NPC1226] 'Elemental que invoca el Devorador del inframundo
 Name=Elemental Infernal
 ElementalTags=1
@@ -17928,28 +13754,6 @@ MagicResistance=30
 MagicDef=0
 NpcType=0
 
-[NPC1229] 'Golem que invoca Eztbron
-Name=Golem Capturado
-ShowName=0
-En_Name=Captured Golem
-Body=4032
-Movement=2
-Attackable=1
-Hostile=1
-ReSpawn=1
-MinHP=150
-MaxHP=230
-MaxHIT=150
-MinHIT=100
-PoderAtaque=350
-PoderEvasion=150
-AfectaParalisis=1
-IntervaloAtaque=1200
-Humanoide=1
-NPCLVL=12
-MagicResistance=0
-MagicDef=0
-
 [NPC1230]
 Name=Eulaccia
 NpcType=0
@@ -17974,38 +13778,6 @@ TestOnly=1
 NumDropQuest=2
 DropQuest1=153-3538-1-3
 DropQuest2=154-3538-1-3
-
-[NPC1231]'Desactivada la quest 155 por falta de npc
-Name=Kandal
-NpcType=17
-Desc=La desesperación me carcome. Sin tu ayuda moriré al igual que todo Banderbill ¡Te necesitamos!
-ShowName=1
-Head=137
-Heading=3
-Body=19
-Arma=109
-Movement=1
-BackUp=0
-en_desc=Despair eats away at me. Without your help I will die just like all Banderbill We need you!
-NPCLVL=28
-MagicResistance=70
-MagicDef=10
-
-[NPC1232]
-Name=Brendall
-NpcType=17
-Desc=¡Sin tu ayuda moriré al igual que todo Arkhein!  ¡Te necesitamos!
-ShowName=1
-Head=306
-Heading=3
-Body=19
-Arma=109
-Movement=1
-BackUp=0
-en_desc=Without your help I will die just like all Arkhein!  We need you!
-NPCLVL=28
-MagicResistance=70
-MagicDef=10
 
 [NPC1233]
 Name=Guerrero Lord <Orden de las Sombras>
@@ -18099,272 +13871,6 @@ NPCLVL=31
 MagicResistance=40
 MagicDef=10
 TestOnly=1
-
-[NPC1236]
-Name=Arquero <Orden de las Sombras>
-ShowName=0
-En_Name=Archer <Order of Shadows>
-Head=82
-Body=124
-Casco=79
-Arma=122
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=2200
-GiveGLD=200
-MinHP=1750
-MaxHP=1750
-MaxHIT=160
-MinHIT=75
-PoderAtaque=260
-PoderEvasion=120
-Humanoide=1
-NPCLVL=17
-MagicResistance=43
-MagicDef=10
-
-[NPC1237]
-Name=Arquero Lord <Orden de las Sombras>
-ShowName=0
-En_Name=Archer Lord <Order of Shadows>
-Head=82
-Body=124
-Casco=162
-Arma=122
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=2200
-GiveGLD=200
-MinHP=1750
-MaxHP=1750
-MaxHIT=160
-MinHIT=75
-PoderAtaque=260
-PoderEvasion=120
-Humanoide=1
-NPCLVL=17
-MagicResistance=43
-MagicDef=10
-
-[NPC1238]
-Name=Asesina Impiadosa <Orden de las Sombras>
-ShowName=0
-En_Name=Merciless Assassin <Shadow Order>
-Head=122
-Body=2030
-Casco=93
-Arma=81
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=2200
-GiveGLD=200
-MinHP=1750
-MaxHP=1750
-MaxHIT=160
-MinHIT=75
-PoderAtaque=260
-PoderEvasion=120
-Humanoide=1
-NPCLVL=17
-MagicResistance=43
-MagicDef=10
-
-[NPC1239]
-Name=Hechicera Oscura <Orden de las Sombras>
-ShowName=0
-En_name=Dark Sorceress <Order of Shadows>
-Head=122
-Body=2030
-Casco=162
-Arma=48
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=2200
-GiveGLD=200
-MinHP=1750
-MaxHP=1750
-MaxHIT=160
-MinHIT=75
-PoderAtaque=260
-PoderEvasion=120
-Humanoide=1
-NPCLVL=17
-MagicResistance=43
-MagicDef=10
-
-[NPC1240]
-Name=Hechicera Impiadosa <Orden de las Sombras>
-ShowName=0
-En_Name=Merciless Sorceress <Order of Shadows>
-Head=82
-Body=2030
-Casco=115
-Arma=48
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=2200
-GiveGLD=200
-MinHP=1750
-MaxHP=1750
-MaxHIT=160
-MinHIT=75
-PoderAtaque=260
-PoderEvasion=120
-Humanoide=1
-NPCLVL=17
-MagicResistance=43
-MagicDef=10
-
-[NPC1241]
-Name=Cazadora Letal <Orden de las Sombras>
-ShowName=0
-En_name=Lethal Huntress <Shadow Order>
-Head=82
-Body=2030
-Casco=76
-Arma=123
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=2200
-GiveGLD=200
-MinHP=1750
-MaxHP=1750
-MaxHIT=160
-MinHIT=75
-PoderAtaque=260
-PoderEvasion=120
-Humanoide=1
-NPCLVL=17
-MagicResistance=43
-MagicDef=10
-
-[NPC1242]
-Name=Hechicero Oscuro <Orden de las Sombras>
-ShowName=0
-En_Name=Dark Sorcerer <Order of Shadows>
-Head=90
-Body=530
-Casco=162
-Arma=16
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=2200
-GiveGLD=200
-MinHP=1750
-MaxHP=1750
-MaxHIT=160
-MinHIT=75
-PoderAtaque=260
-PoderEvasion=120
-Humanoide=1
-NPCLVL=17
-MagicResistance=43
-MagicDef=10
-
-[NPC1243]
-Name=Guerrero Oscuro <Orden de las Sombras>
-ShowName=0
-En_name=Dark Warrior <Order of Shadows>
-Head=90
-Body=530
-Casco=29
-Arma=4
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=2200
-GiveGLD=200
-MinHP=1750
-MaxHP=1750
-MaxHIT=160
-MinHIT=75
-PoderAtaque=260
-PoderEvasion=120
-Humanoide=1
-NPCLVL=17
-MagicResistance=43
-MagicDef=10
-
-[NPC1244]
-Name=Verdugo Oscuro <Orden de las Sombras>
-ShowName=0
-En_Name=Dark Executioner <Order of Shadows>
-Head=82
-Body=530
-Casco=81
-Arma=121
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=2200
-GiveGLD=200
-MinHP=1750
-MaxHP=1750
-MaxHIT=160
-MinHIT=75
-PoderAtaque=260
-PoderEvasion=120
-Humanoide=1
-NPCLVL=17
-MagicResistance=43
-MagicDef=10
-
-[NPC1245]
-Name=Horan <Armero de Kamal>
-ShowName=1
-Desc=¡Hey, tú! Rata de Alcantarilla. Un flacucho como tú necesita un buen acero allí fuera.
-Head=34
-Body=73
-Arma=151
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=2
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=7
-Obj1=15-1
-Obj2=165-1
-Obj3=3980-1
-Obj4=1792-1
-Obj5=1818-1
-Obj6=1820-1
-Obj7=3978-1
-SoundOpen=2202
-SoundClose=2204
-Minimap=1
-en_desc=Hey, you! Sewer rat. A skinny like you needs a good steel out there.
-NoWiki=1
-NPCLVL=15
-MagicResistance=37
-MagicDef=10
 
 [NPC1246] 'Del oficial (pack 2026-10-01); vendedor. El numero era nuestro Keia, mudado a NPC9063. Plan 17.001 Ola 3
 Name=Sigurd <Carpintero Vikingo>
@@ -18512,87 +14018,6 @@ Heading=3
 Movement=1
 NumQuest=1
 QuestNumber1=391
-
-[NPC1251]
-Name=Serin
-Desc=Siempre hay un roto para un descosido.
-ShowName=1
-Head=170
-Body=634
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=3
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=21
-Obj1=1272-1
-Obj2=1274-1
-ObJ3=2927-1
-Obj4=571-1
-Obj5=2943-1
-Obj6=2942-1
-Obj7=462-1
-Obj8=2941-1
-Obj9=2937-1
-Obj10=2934-1
-Obj11=2930-1
-Obj12=2923-1
-Obj13=2922-1
-Obj14=2924-1
-Obj15=2929-1
-Obj16=508-1
-Obj17=56-1
-Obj18=4344-1
-Obj19=381-1
-Obj20=2955-1
-Obj21=886-1
-Minimap=1
-en_desc=There is always a break for a unsewn.
-NPCLVL=15
-MagicResistance=37
-MagicDef=10
-
-[NPC1252]
-Name=Darisia <Sastre de Kamal>
-ShowName=1
-Desc=¡Tengo las mejores vestimentas y tunicas para bajos de todas las tierras!
-Head=166
-Body=3134
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=3
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=18
-Obj1=240-1
-Obj2=9044-1
-Obj3=2843-1
-Obj4=2841-1
-Obj5=2839-1
-Obj6=9056-1
-Obj7=9051-1
-Obj8=9055-1
-Obj9=2830-1
-Obj10=1309-1
-Obj11=2816-1
-Obj12=2825-1
-Obj13=2826-1
-Obj14=4343-1
-Obj15=1226-1
-Obj16=2813-1
-Obj17=9054-1
-Obj18=886-1
-Minimap=1
-en_desc=I have the best clothes and tunics for bass of all the lands!
-NPCLVL=15
-MagicResistance=37
-MagicDef=10
 
 [NPC1254]
 Name=Keke <Caos primera jerarquia>
@@ -18992,33 +14417,6 @@ MagicResistance=37
 MagicDef=10
 TestOnly=1
 
-[NPC1264]
-Name=Huargo
-ShowName=0
-En_Name=Direwolf
-Head=0
-Body=4029
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=200
-GiveGLD=25
-MinHP=550
-MaxHP=550
-MaxHIT=115
-MinHIT=100
-PoderAtaque=230
-PoderEvasion=110
-DEF=0
-Humanoide=0
-NPCLVL=15
-MagicResistance=37
-MagicDef=10
-
-'Nuevos NPCS PANTANO'
-
 [NPC1265]
 Name=Troll Lúgubre
 ShowName=0
@@ -19101,137 +14499,6 @@ GiveGLD=75
 DropCount=1
 Drop1=1647-320-1-1
 Nivel=20
-
-[NPC1266]'pitonisa
-Name=Golem de Piedra Mayor
-ShowName=0
-En_name=Greater Stone Golem
-Head=0
-Body=4033
-Heading=3
-Movement=2
-Attackable=1
-Comercia=0
-Hostile=1
-GiveEXP=52500
-GiveGLD=640
-MinHP=30000
-MaxHP=8000
-MaxHIT=215
-MinHIT=150
-DEF=15
-PoderAtaque=350
-PoderEvasion=200
-Humanoide=0
-NPCLVL=0
-MagicResistance=0
-MagicDef=0
-
-[NPC1267] 'para invocar druida
-Name=Oso Pardo
-ShowName=0
-En_Name=Grizzly
-Head=0
-BodyIdle=4329
-Body=4328
-Ataque1=4327
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-MinHP=600
-MaxHP=600
-MaxHIT=100
-MinHIT=65
-PoderAtaque=250
-PoderEvasion=65
-RestriccionDeAtaque=2
-SND1=0
-SND2=0
-SND3=89
-Humanoide=0
-NPCLVL=11
-MagicResistance=27
-MagicDef=0
-
-'--- COPIA PRIVADA ORIGINAL NPC1268 (Tiburón) antes de oficializar; cliente oficial era Vendedor ---
-'[NPC1268] 'para invocar druida
-'Name=Tiburón
-'En_Name=Shark
-'NpcType=0
-'Body=4105
-'Heading=3
-'Movement=2
-'Alineacion=0
-'Hostile=1
-'Attackable=1
-'MinHP=450
-'MaxHP=450
-'MaxHIT=100
-'MinHIT=90
-'DEF=0
-'Domable=320
-'PoderAtaque=220
-'PoderEvasion=150
-'AguaValida=1
-'TierraInvalida=1
-'Humanoide=0
-'NPCLVL=22
-'MagicResistance=55
-'MagicDef=5
-'
-'--- fin copia privada ---
-
-[NPC1268] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
-Name=Vendedor
-Desc=Un flacucho como tú necesita un buen acero allí fuera.
-Body=2049
-Head=34
-NpcType=0
-Comercia=1
-Obj1=2831-1
-Obj2=2832-1
-ShowName=1
-Heading=3
-Movement=1
-Attackable=0
-Hostile=0
-ReSpawn=0
-DescClose=¡Vuelve cuando quieras a comprar!
-NROITEMS=2
-
-[NPC1269] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=281
-Head=615
-MaxHp=3500
-MinHp=3500
-MaxHIT=90
-MinHIT=65
-Name=Cañonero
-NpcType=0
-GiveEXP=0
-GiveGLD=0
-en_Name=Gunner
-fr_Name=Canonnier
-it_Name=Gunner
-pt_Name=Artilheiro
-
-[NPC1270] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=281
-Head=615
-MaxHp=3500
-MinHp=3500
-MaxHIT=90
-MinHIT=65
-Name=Ballestero
-NpcType=0
-GiveEXP=0
-GiveGLD=0
-en_Name=Crossbowman
-fr_Name=Balle
-it_Name=Balletto
-pt_Name=Ballestero
 
 [NPC1271] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Vorgrash
@@ -19433,29 +14700,6 @@ MagicResistance=55
 MagicDef=5
 TipoItems=13
 
-[NPC1277]
-Name=Ámora <Pescadora de Forgat>
-En_Name=Amora <Forgat Fisherwoman>
-Desc=Aquí conseguirás lo mejor que el mar puede ofrecer!
-Head=688
-Body=751
-Heading=3
-Movement=1
-Comercia=1
-TipoItems=1
-Minimap=1
-NROITEMS=7
-'Caña Simple
-Obj1=881-1
-ShowName=1
-Obj2=2183-1
-Obj3=138-1
-en_desc=Here you will get the best that the sea can offer!
-NoWiki=1
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-
 [NPC1278] 'RESYNC desde sp_localindex.dat (lote3 cosmetico)
 Name=Oshurk <Carpintero de Forgat>
 SoundOpen=906
@@ -19529,165 +14773,6 @@ MagicResistance=55
 MagicDef=5
 TipoItems=1
 
-[NPC1280]
-Name=Renata <Herrera de Forgat>
-En_Name=Renata <Forgat Blacksmith>
-Desc=Yo comercializo las mejores armaduras de estas tierras.
-ShowName=1
-Head=51
-Body=4945
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=2
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=6
-Obj1=30-1
-Obj2=30-1
-Obj3=1004-1
-Obj4=1700-1
-Obj5=389-1
-Obj6=1278-1
-Minimap=1
-en_desc=I trade the best armor in these lands.
-NoWiki=1
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-
-[NPC1281]
-Name=Raquel <Armera de Forgat>
-En_Name=Rachel <Armor of Forgat>
-Desc=Acá forjamos las armas más resistentes!
-ShowName=1
-Head=59
-Body=305
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-TipoItems=2
-Hostile=0
-Alineacion=0
-ReSpawn=0
-NROITEMS=11
-Obj1=1820-1
-Obj2=1792-1
-Obj3=3980-1
-Obj4=3978-1
-Obj5=15-1
-Obj6=165-1
-Obj7=1856-1
-Obj8=1818-1
-Obj9=2-1
-Obj10=1848-1
-Obj11=9-1
-Minimap=1
-en_desc=Here we forge the most resistant weapons!
-NoWiki=1
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-
-[NPC1282]
-Name=Mar <Minera de Forgat>
-En_name=Sea <Forgat Mining>
-Desc=Tengo las mejores herramientas!
-Head=473
-Body=217
-Heading=3
-Movement=1
-Comercia=1
-TipoItems=23
-Minimap=1
-NROITEMS=5
-Obj1=187-1
-Obj2=363-1
-Obj3=2818-1
-Obj4=2858-1
-Obj5=389-1
-ShowName=1
-en_desc=I have the best tools!
-NoWiki=1
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-
-[NPC1283]
-Name=Brenan <Quest>
-Desc=¡Hola querido colega! Mi padre Salem me encargó buscar a futuros talentos como tú para darles una recompensa, nada más y nada menos que los planos e instrucciones para fabricar sus famosas carretas.
-en_Desc=Hello dear colleague! My father Salem commissioned me to find future talents like you to give them a reward, nothing more and nothing less than the plans and instructions to build their famous wagons.
-ShowName=1
-NpcType=17
-Head=33
-Body=4919
-Arma=163
-Casco=0
-Escudo=0
-Heading=3
-Movement=1
-Attackable=0
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-
-[NPC1284]
-Name=Rengal <Quest>
-Desc=Eres el futuro de nuestro trabajo, sé consciente de que nuestro Dios Grodnar nos premia y nos protege en todo momento, él me encargó enseñarle a las futuras generaciones la técnica para fabricar nuestros preciados vagones
-en_Desc=You are the future of our work, be aware that our God Grodnar rewards us and protects us at all times, he commissioned me to teach future generations the technique to manufacture our precious wagons
-ShowName=1
-NpcType=17
-Head=38
-Body=645
-Arma=0
-Casco=0
-Escudo=0
-Heading=3
-Movement=1
-Attackable=0
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-
-[NPC1285]
-Name=Fisch <Quest>
-Desc=Buenas querido pescador de estas tierras, mi amada necesita varios ingredientes para preparar un gran banquete para los aventureros que están de pasada por la ciudad de Nix. Si nos ayudas podria pasarte indicaciones para construir una buena carretilla para tu mercancia.
-en_Desc=Hello dear fisherman of these lands, my beloved needs several ingredients to prepare a great banquet for the adventurers who are passing through the city of Nix. If you help us I could pass you instructions to build a good wheelbarrow for your merchandise.
-ShowName=1
-NpcType=17
-Head=12
-Body=217
-Arma=0
-Casco=0
-Escudo=0
-Heading=3
-Movement=1
-Attackable=0
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-
-[NPC1286]
-Name=LucAstilla <Quest>
-Desc=¡Chssss, Aquí amigo!, puedo cepillar toda esa leña por ti en un instante y ahorrarte mucho tiempo
-en_Desc=Ptss.. here mate, I can brush all that firewood for you in no time and save you a lot of time
-ShowName=1
-NpcType=17
-Head=22
-Body=29
-Arma=161
-Casco=0
-Escudo=0
-Heading=3
-Movement=1
-Attackable=0
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-
 [NPC1287]
 Name=Marinero Robusto
 ShowName=0
@@ -19758,20 +14843,6 @@ Heading=3
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
-[NPC1290]
-Name=Stefanie <Quest>
-Desc=Maldición Sigmud.... creo que he llegado muy tarde.
-Body=221
-Head=55
-Heading=3
-Movement=1
-ShowName=1
-NpcType=17
-en_desc=Damn Sigmud... I think I'm too late.
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
-
 [NPC1291]
 Name=Escritorio <Quest de Pesca>
 En_Name=Desktop
@@ -19806,42 +14877,6 @@ MagicDef=0
 NumQuest=1
 QuestNumber1=165
 
-[NPC1293]
-Name=Olaf <Armero de Forgat>
-En_name=Olaf <Forgat Armorer>
-Desc=¿No sabes lo que es un hacha arrojadiza?, ¿Que clase de guerrero eres?. Puedo venderte una, no es lo mejor pero te será útil para comenzar. De todas formas te recomiendo que veas a Jorgen para mas ayuda.
-Head=46
-Body=217
-Heading=3
-Movement=1
-Comercia=0
-TipoItems=23
-Minimap=1
-ShowName=1
-en_desc=You don't know what a throwing ax is? What kind of warrior are you? I can sell you one, it is not the best but it will be useful to start. Anyway I recommend that you see Jorgen for more help.
-NoWiki=1
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
-
-[NPC1294]
-Name=Jorgen <Quest>
-Desc=Ya veo, te ha enviado Olaf. Dejame ver, puedes practicar con esa hacha, pero si en verdad quieres ser diestro en este arte debemos ir mejorándola con los materialesa adecuados.
-Head=36
-Body=878
-Heading=4
-Movement=1
-Minimap=1
-NROITEMS=1
-NpcType=17
-Obj1=3703-1
-ShowName=1
-en_desc=I see, Olaf sent you. Let me see, you can practice with that axe, but if you really want to be skilled in this art, we must improve it with the appropriate materials.
-NoWiki=1
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
-
 [NPC1295] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Astrid <Quest Hongo de Luz>
 Desc=¡Estudiaba la Serpiente Albina para poder extraer y sinterizar su veneno, pero por un descuido ocurrió una catástrofe!
@@ -19862,42 +14897,6 @@ Heading=3
 Movement=1
 NumQuest=1
 QuestNumber1=419
-
-[NPC1297]
-Name=Elise <Quest>
-Desc=Bienvenido a Jourmut, tengo dos encargos para que descubras y te familiarices con estas tierras desconocidas...
-Head=59
-Body=2233
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=Welcome to the New Adventurous Continent, I have two orders for you to discover and become familiar with in these unknown lands...
-NoWiki=1
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-
-[NPC1298]
-Name=Aurora <Quest>
-Desc=Dichosos los ojos que te ven, necesitaba de una persona dispuesta a combatir contra unas criaturas malditas que me tienen atrapada...
-Head=60
-Body=2232
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=Blessed are the eyes that see you, I needed a person willing to fight against some cursed creatures that have me trapped...
-NoWiki=1
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-NumQuest=3
-QuestNumber1=172
-QuestNumber2=173
-QuestNumber3=250
 
 [NPC1299]
 Name=Barril
@@ -19939,99 +14938,6 @@ QuizaProb=3
 NPCLVL=22
 MagicResistance=55
 MagicDef=5
-
-[NPC1301]
-Name=Quijote <Quest>
-Desc=Hola aventurero, soy Quijote, como te habras dado cuenta esto es mas que un simple molino, tu me comprendes verdad?
-Head=22
-Body=254
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=Blessed are the eyes that see you, I needed a person willing to fight against some cursed creatures that have me trapped...
-NoWiki=1
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-NumQuest=2
-QuestNumber1=174
-QuestNumber2=175
-
-[NPC1302]
-Name=Garret <Quest>
-Desc=¡Auú, auú! dime que al menos te lo creiste, me costó mucho confeccionar este traje. Estás por entrar a Cueva de la Desolación, tengo información que puede serte de gran ayuda si quieres sobrevivir adentro.
-Head=0
-Body=4078
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=Whoa, whoa! You are about to enter to the cave of desolation, I have information that can be of great help if you want to survive in there.
-NoWiki=1
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-NumQuest=2
-QuestNumber1=176
-QuestNumber2=177
-
-[NPC1303]
-Name=Heinrich <Quest>
-Desc=Bienvenido a mi humilde morada, estoy muy sediento y necesito a una persona aventurera y valiente como tu.
-Head=306
-Body=20
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=Welcome to my humble abode, I am very thirsty and I need an adventurous and brave person like you.
-NoWiki=1
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-
-'--- COPIA PRIVADA ORIGINAL NPC1304 (Tiburón Océanico) antes de oficializar; cliente oficial era Tiburón de Altamar ---
-NumQuest=2
-QuestNumber1=178
-QuestNumber2=179
-'[NPC1304] 
-'Name=Tiburón Océanico
-'En_name=Oceanic Shark
-'NpcType=0
-'Body=4263
-'BodyIdle=4262
-'Ataque1=4262
-'Heading=3
-'Movement=20
-'Alineacion=0
-'Hostile=1
-'Attackable=1
-'MinHP=450
-'MaxHP=450
-'MaxHIT=100
-'MinHIT=90
-'DEF=0
-'PoderAtaque=220
-'PoderEvasion=150
-'AguaValida=1
-'TierraInvalida=0
-'OrigPos=1
-'CaminataLen=4
-'Humanoide=0
-'IntervaloMovimiento=800
-'NPCLVL=22
-'MagicResistance=55
-'MagicDef=5
-'Caminata1=0:0:0
-'Caminata2=0:17:0
-'Caminata3=67:17:0
-'Caminata4=67:0:0
-'
-'--- fin copia privada ---
 
 [NPC1304] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Tiburón de Altamar
@@ -20263,225 +15169,6 @@ Obj2=199-100
 NPCLVL=26
 MagicResistance=65
 MagicDef=10
-[NPC1312] Npc Flecha Cargada
-Name=Rowan
-ShowName=0
-Head=115
-Body=55
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=0
-GiveGLD=400
-MinHP=5000
-MaxHP=5000
-MaxHIT=260
-MinHIT=140
-PoderAtaque=240
-PoderEvasion=170
-Humanoide=0
-LanzaSpells=1
-Sp1=248 'Flecha Cargada
-CantidadInvocaciones=1
-NPCLVL=26
-MagicResistance=65
-MagicDef=10
-NpcType=0
-
-[NPC1313]
-Name=Torgath <Quest>
-Desc=Hola, acercate por favor, creo que podemos ayudarnos mutuamente.
-Head=34
-Body=1203
-Heading=2
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=Hello, please come closer, I think we can help each other.
-NoWiki=1
-NPCLVL=23
-MagicResistance=57
-MagicDef=5
-
-[NPC1314]
-Name=Einar <Quest>
-Desc=Hola, las cosas se están volviendo peligrosas por aquí, habla conmigo si crees poder hacer algo al respecto.
-Head=610
-Body=1219
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=Hello, things are getting dangerous around here, talk to me if you think you can do something about it.
-NoWiki=1
-NPCLVL=23
-MagicResistance=57
-MagicDef=5
-
-[NPC1315]
-Name=Lysander <Quest>
-Desc=Hola, si has decidido ser un cazador, puedo enseñarte nuevas habilidades muy interesantes.
-Head=641
-Body=549
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=Hello, if you have decided to be a hunter, I can teach you very interesting new skills.
-NoWiki=1
-NPCLVL=23
-MagicResistance=57
-MagicDef=5
-
-[NPC1316]
-Name=Sylas <Quest>
-Desc=Hola, si te sobra un poco de tiempo para charlar conmigo, tengo buenas noticias para ti.
-Head=642
-Body=548
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=Hello, if you have some spare time to chat with me, I have good news for you.
-NoWiki=1
-NPCLVL=23
-MagicResistance=57
-MagicDef=5
-
-[NPC1317]
-Name=Lirien <Quest>
-Desc=Hola, habla conmigo si te interesa perfeccionar tus ataques y volverlos más letales.
-Head=613
-Body=75
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=Hello, talk to me if you are interested in perfecting your attacks and making them more deadly.
-NoWiki=1
-NPCLVL=23
-MagicResistance=57
-MagicDef=5
-
-[NPC1318]
-Name=Morgan <Quest>
-Desc=Ahoy, habla conmigo si te interesa ser el terror de los mares, aaarrr.
-Head=0
-Body=4101
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=Ahoy, talk to me if you're interested in being the terror of the seas, aaarrr.
-NoWiki=1
-NPCLVL=23
-MagicResistance=57
-MagicDef=5
-
-[NPC1319]
-Name=Sonata <Quest>
-Desc=Hola, tengo conocimientos avanzados en partituras, habla conmigo para entender mejor lo que digo.
-Head=158
-Body=306
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=Hello, I have advanced knowledge in sheet music, talk to me to better understand what I am saying.
-NoWiki=1
-NPCLVL=23
-MagicResistance=57
-MagicDef=5
-
-[NPC1320]
-Name=Havoc <Quest>
-Desc=Pssst, acercate, tengo información que podría serte útil.
-Head=301
-Body=1203
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=Pssst, come closer, I have information that could be useful to you.
-NoWiki=1
-NPCLVL=23
-MagicResistance=57
-MagicDef=5
-
-[NPC1321]
-Name=Thorgrim <Quest>
-Desc=Soy un herrero fuera de lo común, habla conmigo si necesitas ayuda.
-Head=304
-Body=291
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=I am a blacksmith out of the ordinary, talk to me if you need help.
-NoWiki=1
-NPCLVL=23
-MagicResistance=57
-MagicDef=5
-
-[NPC1322]
-Name=Leif <Quest>
-Desc=Afilo armas de trabajadores, acercate y charlemos.
-Head=0
-Body=4254
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=I sharpen workers' weapons, come closer and let's chat.
-NoWiki=1
-NPCLVL=23
-MagicResistance=57
-MagicDef=5
-
-[NPC1323]
-Name=Hjalmar <Quest>
-Desc=Puedo convertirte en un instrumento poderoso de la voluntad divina.
-Head=328
-Body=3249
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=I can make you a powerful instrument of divine will.
-NoWiki=1
-NPCLVL=23
-MagicResistance=57
-MagicDef=5
-
-[NPC1324]
-Name=Aria <Quest>
-Desc=Habla conmigo para obtener un nuevo hechizo.
-Head=369
-Body=202
-Heading=3
-Movement=1
-Minimap=1
-NpcType=17
-ShowName=1
-en_desc=I can make you a powerful spell.
-NoWiki=1
-NPCLVL=23
-MagicResistance=57
-MagicDef=5
-
 [NPC1325]
 Name=Mago Pirata
 ShowName=0
@@ -20526,41 +15213,6 @@ PreferedRange=5
 NPCLVL=23
 MagicDef=5
 NpcType=0
-
-[NPC1326]
-Name=Espíritu del bosque
-En_name=Forest Spirit
-Body=4250
-BodyIdle=4253
-Ataque1=4251
-CastAnimation=4252
-Heading=3
-Movement=11
-Alineacion=0
-Attackable=0
-Hostile=0
-ReSpawn=0
-MinHP=4000
-MaxHP=4000
-MaxHIT=160
-MinHIT=115
-DEF=0
-RestriccionDeAyuda=2
-RestriccionDeAtaque=1
-PoderAtaque=220
-PoderEvasion=155
-RangoSpell=16
-LanzaSpells=1
-Sp1=242
-Cd1=15
-IntervaloLanzarHechizo=2000
-Humanoide=1
-DisplayCastMessage=1
-AddToMapAiList=1
-OrigPos=1
-NPCLVL=23
-MagicResistance=57
-MagicDef=5
 
 [NPC1327]
 Name=Marino Cazador
@@ -21198,46 +15850,6 @@ MagicResistance=55
 MagicDef=5
 TipoItems=11
 CambioAIdle=10
-[NPC1344]
-Name=Erevan <Hechicera>
-NpcType=0
-IT_Desc=Sono un esperto nelle arti arcane! Prova i miei prodotti, avrai un grande vantaggio magico!
-FR_Desc=Je suis un expert dans les arts arcaniques! Essayez mes produits, vous aurez un excellent avantage magique!
-PT_Desc=Eu sou um especialista nas Artes Arcanas! Experimente meus produtos, você terá um ótimo benefício mágico!
-IT_Name=Erevan <strobous>
-FR_Name=Erevan <strobous>
-PT_Name=Erevan <Strobous>
-en_Name=Erevan <Sorceress>
-ShowName=1
-Desc=¡Soy experta en las Artes Arcanas! Prueba mis productos, tendrás un gran beneficio mágico!
-Head=158
-Body=2027
-SoundOpen=1040
-Heading=3
-Movement=1
-Attackable=0
-Comercia=1
-NROITEMS=9
-Obj1=3984-1
-Obj2=469-1
-Obj3=540-1
-Obj4=1797-1
-Obj5=992-1
-Obj6=3983-1
-Obj7=3577-1
-Obj8=2324-1
-Obj9=3576-1
-Hostile=0
-Alineacion=0
-ReSpawn=0
-Minimap=1
-en_Desc=I am an expert in the Arcane Arts! Try my products, you will have a great magical benefit!
-NoWiki=1
-NPCLVL=22
-MagicResistance=55
-MagicDef=5
-TipoItems=24
-
 [NPC1345] 'RESYNC desde sp_localindex.dat (lote3 pat B)
 Name=Thalin <Hechicero de Eldoria>
 SoundOpen=1170
@@ -21293,33 +15905,6 @@ NPCLVL=22
 MagicResistance=55
 MagicDef=5
 TipoItems=3
-[NPC1346] Mercader de Eldoria
-Name=Josephelf <Mercader>
-NpcType=0
-IT_Desc=Ciao! Sono interessato a tutti i tipi di prodotti
-FR_Desc=Bonjour! Je m'intéresse à toutes sortes de produits
-PT_Desc=Olá! Estou interessado em todos os tipos de produtos
-IT_Name=Josephelf <Merchant>
-FR_Name=Josephelf <Merchant>
-PT_Name=Josephefl <Merchant>
-en_Name=Josephelf <Merchant>
-Desc=¡Hola! Estoy interesado en todo tipo de productos
-Head=109
-Body=14
-ShowName=1
-Heading=3
-Movement=1
-Comercia=1
-NROITEMS=2
-Obj1=534-1
-Obj2=199-1
-SoundOpen=600
-en_Desc=Hello! I am interested in all kinds of products.
-NPCLVL=26
-MagicResistance=65
-MagicDef=10
-TipoItems=100
-
 [NPC1347]
 Name=Ghelfa <Provisiones de Eldoria>
 En_Name=Ghelfa <Eldoria Supplies>
@@ -21973,65 +16558,6 @@ it_Name=Golem di Ghiaccio
 DropCount=1
 Drop1=5180-100-1-1
 
-[NPC1365]'Araña Marron Nueva
-Name=Araña Silvestre
-ShowName=0
-En_Name=Wild Spider
-Head=0
-Body=4205
-BodyIdle=4204
-Ataque1=4203
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Comercia=0
-Alineacion=0
-Veneno=6
-GiveEXP=5400
-GiveGLD=120
-MinHP=3600
-MaxHP=3600
-MaxHIT=95
-MinHIT=75
-PoderAtaque=150
-PoderEvasion=70
-SND2=53
-NPCLVL=10
-MagicResistance=25
-MagicDef=0
-
-'--- COPIA PRIVADA ORIGINAL NPC1366 (Criptocroco) antes de oficializar; cliente oficial era Criptococo ---
-'[NPC1366]'Criptocroco
-'Name=Criptocroco
-'En_name=Cryptocrocus
-'Head=0
-'Body=4202
-'BodyIdle=4201
-'Ataque1=4200
-'Heading=3
-'Movement=2
-'Attackable=1
-'AguaValida=1
-'TierraInvalida=1
-'Hostile=1
-'Comercia=0
-'Alineacion=0
-'GiveEXP=4200
-'GiveGLD=350
-'MinHP=3500
-'MaxHP=3500
-'MaxHIT=140
-'MinHIT=125
-'PoderAtaque=150
-'PoderEvasion=100
-'SND2=54
-'NPCLVL=10
-'MagicResistance=25
-'MagicDef=0
-'
-'--- fin copia privada ---
-
 [NPC1366] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Criptococo
 Body=4202
@@ -22208,69 +16734,6 @@ NPCLVL=10
 MagicResistance=25
 NpcType=0
 Nivel=15
-
-[NPC1371]Esqueleto de la Noche (Dungeon)
-Name=Esqueleto de la Noche
-ShowName=0
-En_Name=Night Skeleton
-Head=0
-Body=4376
-BodyIdle=4377
-Ataque1=4274
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=6000
-GiveGLD=400
-MinHP=8000
-MaxHP=8000
-MaxHIT=80
-MinHIT=60
-AttackRange=10
-PreferedRange=5
-ProjectileType=2
-PoderAtaque=300
-PoderEvasion=150
-Humanoide=1
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
-AguaValida=0
-IntervaloRespawn=360
-IntervaloRespawnMin=180
-
-[NPC1372]Esqueleto de Elite (Dungeon)
-Name=Esqueleto de Elite
-ShowName=0
-En_name=Elite Skeleton
-Head=0
-Body=4374
-BodyIdle=4375
-Ataque1=4273
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Alineacion=0
-GiveEXP=7000
-GiveGLD=480
-MinHP=10000
-MaxHP=10000
-MaxHIT=120
-MinHIT=60
-LanzaSpells=1
-Sp1=26
-PoderAtaque=300
-PoderEvasion=150
-Humanoide=1
-NPCLVL=6
-MagicResistance=15
-MagicDef=0
-AguaValida=0
-IntervaloRespawn=360
-IntervaloRespawnMin=180
 
 [NPC1373]
 Name=Fenix
@@ -22460,68 +16923,6 @@ fr_Name=Cerf
 it_Name=Cervo
 Domable=210
 
-[NPC1377]
-Name=Megafolia
-ShowName=0
-Head=0
-BodyIdle=4166
-Body=4166
-Ataque1=4166
-Heading=3
-Movement=1
-Attackable=1
-Hostile=1
-Alineacion=0
-MinHP=600
-MaxHP=600
-MaxHIT=100
-MinHIT=65
-PoderAtaque=250
-PoderEvasion=65
-RestriccionDeAtaque=2
-SND1=0
-SND2=0
-SND3=89
-NumQuiza=1
-QuizaDropea1=415-1
-QuizaProb=1
-miedo=5
-SubeSupervivencia=1
-Humanoide=0
-NPCLVL=11
-MagicResistance=27
-MagicDef=0
-NoWiki=1
-
-[NPC1378]
-Name=Dark Ghilgui <Quest>
-Desc=Intenté hacer lo mejor que pude, pero todo se salió de control.
-Head=0
-Body=4165
-BodyIdle=1
-Ataque1=1
-CastAnimation=0
-Heading=3
-Movement=2
-Attackable=1
-Hostile=0
-Comercia=0
-Alineacion=0
-Veneno=6
-NpcType=17
-GiveEXP=4350
-GiveGLD=150
-MinHP=3600
-MaxHP=3600
-MaxHIT=95
-MinHIT=75
-PoderAtaque=150
-PoderEvasion=70
-SND2=53
-NPCLVL=10
-MagicResistance=25
-NoWiki=1
-
 [NPC1379]
 Name=Gallimimo
 ShowName=0
@@ -22641,48 +17042,6 @@ MagicResistance=25
 NoWiki=1
 NpcType=0
 
-[NPC1383] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Body=5467
-GiveEXP=900
-MaxHp=1500
-MinHp=1500
-MaxHIT=115
-MinHIT=85
-Name=Demonio Gris
-GiveGLD=52
-en_Name=Gray Demon
-fr_Name=Démon gris
-it_Name=Demone grigio
-pt_Name=Demônio cinza
-
-[NPC1384]
-Name=New Pirata
-ShowName=0
-Head=0
-Body=4150
-BodyIdle=4152
-Ataque1=4151
-CastAnimation=0
-Heading=3
-Movement=2
-Attackable=1
-Hostile=1
-Comercia=0
-Alineacion=0
-Veneno=6
-GiveEXP=3480
-GiveGLD=120
-MinHP=3600
-MaxHP=3600
-MaxHIT=95
-MinHIT=75
-PoderAtaque=150
-PoderEvasion=70
-SND2=53
-NPCLVL=10
-MagicResistance=25
-NoWiki=1
-
 [NPC1385]
 Name=Pirata Cañonero
 ShowName=0
@@ -22716,18 +17075,6 @@ NpcType=0
 GiveEXPClan=1
 Nivel=28
 NumDropQuest=0
-
-[NPC1386]
-Name=Organizador de eventos
-En_Name=Event planner
-NpcType=23
-Desc=
-Head=6
-Body=73
-Heading=3
-Movement=1
-en_desc=
-NoWiki=1
 
 [NPC1387] '  Pimiento Muerte
 Name=Planta de pimientos Muerte
@@ -24463,36 +18810,6 @@ Hostile=0
 ReSpawn=0
 TipoItems=3
 
-[NPC428] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
-Name=Tairon <Quest>
-Desc=¡Hola aventurero, necesito tu ayuda!
-Body=63
-Head=13
-NpcType=17
-ShowName=1
-Heading=3
-Movement=1
-Attackable=0
-Hostile=0
-ReSpawn=0
-NumQuest=1
-QuestNumber1=40
-
-[NPC429] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
-Name=Adha <Quest>
-Desc=¡Por fin te encontré! Un gran desafio te espera.
-Body=2050
-Head=178
-NpcType=17
-ShowName=1
-Heading=3
-Movement=1
-Attackable=0
-Hostile=0
-ReSpawn=0
-NumQuest=1
-QuestNumber1=116
-
 [NPC256] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Jarl Njord <Gobernador de Forgat>
 Head=0
@@ -24658,19 +18975,6 @@ Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
 Body=4010
 Ataque1=4010
 BodyIdle=4010
-Head=0
-NpcType=4
-NoMapInfo=1
-Heading=3
-Movement=1
-Attackable=0
-Hostile=0
-ReSpawn=0
-ShowName=1
-[NPC492] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
-Name=Keldor <Finanzas Goliath>
-Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
-Body=5825
 Head=0
 NpcType=4
 NoMapInfo=1
@@ -26270,26 +20574,6 @@ Nivel=20
 ' fuente primaria. Stats server de hostiles desde getAllHostileNpcs.
 ' Plan 10.001 Fase 3, batch NPCs.
 ' =====================================================================
-[NPC28] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name=Vendedor de Pasajes
-SoundOpen=954
-IT_Desc=Interagisci con me se vuoi viaggiare per il mondo.
-FR_Desc=Contactez-moi si vous souhaitez voyager à travers le monde.
-PT_Desc=Entre em contato comigo se você quiser viajar pelo mundo.
-en_Desc=Interact with me if you want to travel the world.
-IT_Name=Venditore di biglietti
-FR_Name=Vendeur de billets
-PT_Name=Vendedor de ingressos
-en_Name=Ticket Seller
-Desc=Interactua conmigo si quieres viajar por el mundo.
-Body=281
-Head=46
-NpcType=0
-Comercia=1
-NROITEMS=1
-Obj1=6300-10000
-TipoItems=100
-
 [NPC259] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Blorin <Gobernador de Morgrim>
 Head=0
@@ -26305,42 +20589,6 @@ Body=289
 Head=114
 NpcType=16
 
-[NPC266] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=4516
-GiveEXP=900
-MaxHp=1500
-MinHp=1500
-MaxHIT=150
-MinHIT=70
-Name=Guardia del Caos
-en_Name=Chaos Guard
-fr_Name=Garde du chaos
-it_Name=Chaos Guard
-pt_Name=Guarda do caos
-
-[NPC290] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name=Apostador
-Desc=Si deseas apostar, escribe /APOSTAR e ingresa la cantidad con la que jugarás.
-Body=36
-Head=9
-NpcType=7
-
-[NPC308] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=4844
-GIVEEXPCLAN=100
-MaxHp=200000
-MinHp=200000
-MaxHIT=5000
-MinHIT=1000
-Name=Lagartija 2
-NumQuiza=1
-QUIZADROPEA1=1649
-QuizaProb=100
-en_Name=Lagartija 2
-fr_Name=Lézard 2
-it_Name=Lizard 2
-pt_Name=Lizard 2
-
 [NPC490] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Krix <Finanzas Goliath>
 Desc=¡Hola, bienvenido a la cadena de Finanzas Goliath!
@@ -26349,40 +20597,6 @@ Head=0
 NpcType=4
 NoMapInfo=1
 PuedeInvocar=1
-
-[NPC493] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name=Banquero Elfo <Finanzas Goliath>
-Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
-Body=5821
-Head=0
-NpcType=4
-NoMapInfo=1
-
-[NPC494] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name=Banquero Negro <Finanzas Goliath>
-Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
-Body=5821
-Head=0
-NpcType=4
-NoMapInfo=1
-
-[NPC568] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=3704
-GiveEXP=150
-Head=629
-MaxHp=300
-MinHp=300
-MaxHIT=20
-MinHIT=15
-Name=Humana No-Muerta
-NumQuiza=1
-GiveGLD=8
-QUIZADROPEA1=1239
-QuizaProb=125
-en_Name=Undead Human
-fr_Name=Non-muerta humain
-it_Name=Non-Muerta umano
-pt_Name=Não-muerta humano
 
 [NPC806] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Golem de Oro
@@ -26517,19 +20731,6 @@ OrigPos=1
 IntervaloRespawn=300
 IntervaloRespawnMin=240
 TierraInvalida=0
-
-[NPC820] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name=Horror Tóxico
-Body=5434
-Head=0
-BodyIdle=5432
-Ataque1=5433
-MaxHp=3600
-MinHp=3600
-GiveEXP=0
-GiveGLD=0
-MaxHIT=0
-MinHIT=0
 
 [NPC823] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Luzlum
@@ -26707,19 +20908,6 @@ PoderAtaque=175
 PoderEvasion=135
 Nivel=32
 
-[NPC841] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name=Piraña Test
-Body=5479
-Head=0
-BodyIdle=5477
-Ataque1=5478
-MaxHp=1
-MinHp=1
-GiveEXP=0
-GiveGLD=0
-MaxHIT=1
-MinHIT=1
-
 [NPC842] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, ElementalTags
 Name=Ignarok
 Body=5588
@@ -26840,32 +21028,6 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-[NPC854] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name='Leon Blanco'
-Body=5630
-Head=0
-BodyIdle=5628
-Ataque1=5629
-MaxHp=3600
-MinHp=3600
-GiveEXP=0
-GiveGLD=0
-MaxHIT=0
-MinHIT=0
-
-[NPC855] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name='Leon Negro'
-Body=5633
-Head=0
-BodyIdle=5631
-Ataque1=5632
-MaxHp=3600
-MinHp=3600
-GiveEXP=0
-GiveGLD=0
-MaxHIT=0
-MinHIT=0
-
 [NPC856] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, ElementalTags
 Name=Kingion
 Body=5636
@@ -26902,51 +21064,12 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-[NPC858] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name=Gunnarof
-Body=6003
-Head=0
-BodyIdle=6001
-Ataque1=6002
-MaxHp=3600
-MinHp=3600
-GiveEXP=0
-GiveGLD=0
-MaxHIT=0
-MinHIT=0
-
-[NPC859] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name=Escaldra
-Body=6006
-Head=0
-BodyIdle=6004
-Ataque1=6005
-MaxHp=3600
-MinHp=3600
-GiveEXP=0
-GiveGLD=0
-MaxHIT=0
-MinHIT=0
-
 [NPC860] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Capitan Orla
 Body=5684
 Head=0
 BodyIdle=5682
 Ataque1=5683
-MaxHp=3600
-MinHp=3600
-GiveEXP=0
-GiveGLD=0
-MaxHIT=0
-MinHIT=0
-
-[NPC861] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name=Marcoc
-Body=5687
-Head=0
-BodyIdle=5685
-Ataque1=5686
 MaxHp=3600
 MinHp=3600
 GiveEXP=0
@@ -27046,33 +21169,6 @@ fr_Name=Gorille invoqué
 it_Name=Gorilla ha invocato
 pt_Name=Gorila invocou
 
-[NPC976] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=4526
-GiveEXP=1500
-MaxHp=3000
-MinHp=3000
-MaxHIT=110
-MinHIT=80
-Name=Latrodectus
-GiveGLD=120
-en_Name=Latrodectus
-fr_Name=Latrodectus
-it_Name=Latrodectus
-pt_Name=Latrodectus
-
-[NPC980] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name=Esqueleto Boss
-Body=5069
-Head=0
-BodyIdle=5067
-Ataque1=5068
-MaxHp=3600
-MinHp=3600
-GiveEXP=4350
-GiveGLD=150
-MaxHIT=95
-MinHIT=75
-
 [NPC982] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Body=5255
 MaxHp=100000
@@ -27109,36 +21205,6 @@ Hostile=1
 PoderAtaque=160
 PoderEvasion=150
 
-[NPC1008] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=183
-Desc=¿Crees que alguien como tu podría enfrentar al famoso Gran Dragón Rojo? No lo creo...
-Head=172
-Name=Esmeralda <Quest>
-NpcType=17
-en_Desc=Do you think someone like you could face the famous Great Red Dragon? I don't think so...
-en_Name=Emerald <Quest>
-fr_Desc=Pensez-vous que quelqu'un comme vous pourrait affronter le célèbre dragon rouge? Je ne le crois pas ...
-fr_Name=Esmeralda <Quest>
-it_Desc=Pensi che qualcuno come tu possa affrontare il famoso drago rosso? Non ci credo ...
-it_Name=Esmeralda <Quest>
-pt_Desc=Você acha que alguém como se pudesse enfrentar o famoso dragão vermelho? Eu não acredito nisso ...
-pt_Name=Esmeralda <Imiss>
-
-[NPC1017] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=562
-Desc=Ando buscando quien logre desplegar su poder y sea capaz de ayudar tanto en tierra firme como en el mar. No tengo dudas que este será un valioso intercambio.
-Head=702
-Name=Snyder <Quest>
-NpcType=17
-en_Desc=I am looking for someone who manages to deploy his power and is able to help both on land and at sea. I have no doubt that this will be a valuable exchange.
-en_Name=SNYDER <Quest>
-fr_Desc=Je cherche qui parvient à afficher sa puissance et est en mesure d'aider à la fois sur le principal et dans la mer. Je ne doute pas que ce sera un échange précieux.
-fr_Name=Snyder <Quest>
-it_Desc=Sto cercando chi riesce a mostrare il suo potere ed è in grado di aiutare sia sul principale che nel mare. Non ho dubbi che questo sarà uno scambio prezioso.
-it_Name=Snyder <Quest>
-pt_Desc=Procuro quem consegue mostrar seu poder e é capaz de ajudar tanto na principal quanto no mar. Não tenho dúvidas de que essa será uma troca valiosa.
-pt_Name=Snyder <itement>
-
 [NPC1060] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Sergio <Monturas>, mudado a NPC9056. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC520 del oficial, vida mas parecida: SUPUESTO; sin drops
 Name=Philiph
 Head=0
@@ -27158,224 +21224,6 @@ GiveEXP=0
 GiveGLD=0
 PoderAtaque=140
 PoderEvasion=105
-
-[NPC1061] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=4780
-Desc=Mi hermano Sergio me habló de tí
-Head=603
-Name=Fabian <Monturas>
-en_Desc=My brother Sergio told me about you
-en_Name=FABIAN <Mentures>
-fr_Desc=Mon frère Sergio m'a parlé de toi
-fr_Name=Fabian <Mentures>
-it_Desc=Mio fratello Sergio mi ha parlato di te
-it_Name=Fabian <menziona>
-pt_Desc=Meu irmão Sergio me contou sobre você
-pt_Name=Fabian <Mentures>
-
-[NPC1062] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=4778
-Desc=Mi hermano Fabian me habló de tí
-Head=601
-Name=Christian <Monturas>
-en_Desc=My brother Fabian told me about you
-en_Name=Christian <Mounts>
-fr_Desc=Mon frère Fabian m'a parlé de toi
-fr_Name=Christian <Mount>
-it_Desc=Mio fratello Fabian mi ha parlato di te
-it_Name=Christian <Mounts>
-pt_Desc=Meu irmão Fabian me contou sobre você
-pt_Name=Cristão <Mounts>
-
-[NPC1063] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=4787
-Desc=Mi hermano Christian me habló de tí
-Head=600
-Name=Marcelo <Monturas>
-en_Desc=My brother Christian told me about you
-en_Name=Marcelo <dougles>
-fr_Desc=Mon frère Christian m'a parlé de toi
-fr_Name=Marcelo <Dougles>
-it_Desc=Mio fratello Christian mi ha parlato di te
-it_Name=Marcelo <Dougles>
-pt_Desc=Meu irmão Christian me contou sobre você
-pt_Name=Marcelo <Dougles>
-
-[NPC1064] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=4785
-Desc=Mi hermano Marcelo me habló de tí
-Head=535
-Name=Guido <Monturas>
-en_Desc=My brother Marcelo told me about you
-en_Name=Guido <mounts>
-fr_Desc=Mon frère Marcelo m'a parlé de toi
-fr_Name=Guido <Mount>
-it_Desc=Mio fratello Marcelo mi ha raccontato di te
-it_Name=Guido <Mounts>
-pt_Desc=Meu irmão Marcelo me contou sobre você
-pt_Name=Guido <Mounts>
-
-[NPC1065] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name=Intercambio de Monturas
-Desc=Si habias conseguido una Mula, Caballo Marrón, Caballo Blanco, Montura del Combatiente o Caballo Palomino, tengo una propuesta para ti.
-DescClose=¡Hasta pronto!
-Body=73
-Head=536
-NpcType=17
-
-[NPC1078] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=728
-GiveEXP=1540
-Head=329
-MaxHp=2200
-MinHp=2200
-MaxHIT=135
-MinHIT=60
-Name=Grog
-GiveGLD=88
-NpcType=0
-en_Name=Grog
-fr_Name=Grog
-it_Name=Grog
-pt_Name=Grog
-
-[NPC1405] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=289
-Desc=¡Levantaos, fieles soldados! Juntos resistiremos y defenderemos nuestra tierra gran honor frente a estos invasores
-Head=151
-MaxHp=20000
-MinHp=20000
-MaxHIT=100
-MinHIT=75
-Name=Reina Eleanor
-en_Desc=Raise us, faithful soldiers! Together we will resist and defend our land great honor against these invaders
-en_Name=Queen Eleanor
-fr_Desc=Élevez-nous, fidèles soldats! Ensemble, nous résisterons et défendrons notre grand honneur contre ces envahisseurs
-fr_Name=Reine Eleanor
-it_Desc=Allevaci, soldati fedeli! Insieme resisteremo e difenderemo il nostro grande onore contro questi invasori
-it_Name=Queen Eleanor
-pt_Desc=Levante -nos, soldados fiéis! Juntos, resistiremos e defenderemos nossa grande honra contra esses invasores
-pt_Name=Rainha Eleanor
-
-[NPC1406] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=243
-Desc=¡Listo para servir, mi Reina!
-Head=712
-MaxHp=750
-MinHp=750
-MaxHIT=180
-MinHIT=150
-Name=Galahad
-en_Desc=¡Ready to serve, my Queen!
-en_Name=Galahad
-fr_Desc=Prêt à servir, ma reine!
-fr_Name=Galahad
-it_Desc=Pronto a servire, mia regina!
-it_Name=Galahad
-pt_Desc=Pronto para servir, minha rainha!
-pt_Name=Galahad
-
-[NPC1407] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=2306
-Desc=¡Lista para servir, mi Reina!
-Head=69
-MaxHp=750
-MinHp=750
-MaxHIT=190
-MinHIT=130
-Name=Guinevere
-en_Desc=¡Ready to serve, my Queen!
-en_Name=Guinevere
-fr_Desc=Liste pour servir, ma reine!
-fr_Name=Guvénière
-it_Desc=Elenco da servire, mia regina!
-it_Name=Ginevra
-pt_Desc=Lista para servir, minha rainha!
-pt_Name=Guinevere
-
-[NPC1408] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=261
-Desc=¡Listo para servir, mi Reina!
-Head=127
-MaxHp=750
-MinHp=750
-MaxHIT=50
-MinHIT=45
-Name=Alden
-en_Desc=¡Ready to serve, my Queen!
-en_Name=Alden
-fr_Desc=Prêt à servir, ma reine!
-fr_Name=Alden
-it_Desc=Pronto a servire, mia regina!
-it_Name=Alden
-pt_Desc=Pronto para servir, minha rainha!
-pt_Name=Alden
-
-[NPC1409] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=2313
-Desc=¡Lista para servir, mi Reina!
-Head=170
-MaxHp=750
-MinHp=750
-MaxHIT=170
-MinHIT=130
-Name=Lyanna
-en_Desc=¡Ready to serve, my Queen!
-en_Name=Lyanna
-fr_Desc=Liste pour servir, ma reine!
-fr_Name=Lyanna
-it_Desc=Elenco da servire, mia regina!
-it_Name=Lyanna
-pt_Desc=Lista para servir, minha rainha!
-pt_Name=Lyanna
-
-[NPC1410] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=668
-Desc=¡Listo para servir, mi Reina!
-Head=618
-MaxHp=750
-MinHp=750
-MaxHIT=80
-MinHIT=60
-Name=Gareth
-en_Desc=¡Ready to serve, my Queen!
-en_Name=Gareth
-fr_Desc=Prêt à servir, ma reine!
-fr_Name=Gareth
-it_Desc=Pronto a servire, mia regina!
-it_Name=Gareth
-pt_Desc=Pronto para servir, minha rainha!
-pt_Name=Gareth
-
-[NPC1411] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=2624
-Desc=¡Listo para servir, mi Reina!
-Head=411
-MaxHp=750
-MinHp=750
-MaxHIT=190
-MinHIT=130
-Name=Fenris
-en_Desc=¡Ready to serve, my Queen!
-en_Name=FENRIS
-fr_Desc=Prêt à servir, ma reine!
-fr_Name=Fenris
-it_Desc=Pronto a servire, mia regina!
-it_Name=Fenris
-pt_Desc=Pronto para servir, minha rainha!
-pt_Name=Fenris
-
-[NPC1412] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Body=4072
-MaxHp=400
-MinHp=400
-MaxHIT=140
-MinHIT=115
-Name=Sombrio
-en_Name=Gloomy
-fr_Name=Sombre
-it_Name=Cupola
-pt_Name=Sombrio
 
 [NPC1413] 'Custom 2026-09-01 (plan meta 01.002): dador de QUEST380 "La Ofrenda de Dolgrin". Visual provisorio de herrero enano (remapear via auditor si se quiere uno propio)
 Name=Dolgrin <Quest>
@@ -27768,16 +21616,6 @@ BodyIdle=5555
 Ataque1=5556
 NpcType=17
 NoMapInfo=1
-
-[NPC1900] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
-Name=Marinero de Prueba
-Desc=¿A dónde quieres viajar?
-DescClose=¡Buen viaje!
-Body=2058
-Head=77
-NpcType=26
-
-' ---- Customs reubicados (colision con slots oficiales) ----
 
 [NPC9007] 'Reubicado de NPC1804 por colision con slot oficial; conservado como ejemplo (plan 10.001 fase 3)
 Name=Vibora Test Perfil Nuevo (TEST)
