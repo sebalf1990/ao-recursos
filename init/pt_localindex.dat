@@ -2480,6 +2480,8 @@ DescFinal=Perfeito! Com essas peles, vou conseguir sobreviver à descida. Pegue 
 Repetible=1
 RequiredLevel=25
 PosMap=182
+DescAudio=1504
+DescFinalAudio=1505
 
 [QUEST31]
 Nombre=Colecionador de corais
@@ -2487,6 +2489,8 @@ Desc=Olá, como vai?. Não sou muito bom, já que perdi a mobilidade no meio do 
 DescFinal=Podemos continuar trabalhando juntos.
 Repetible=0
 RequiredLevel=25
+DescAudio=1306
+DescFinalAudio=1307
 
 [QUEST32]
 Nombre=Luta nigromância
@@ -2562,6 +2566,8 @@ DescFinal=Os cidadãos do Nix podem ficar mais calmos sabendo que essa ameaça f
 Repetible=0
 RequiredLevel=5
 PosMap=35
+DescAudio=1394
+DescFinalAudio=1395
 
 [QUEST42]
 Nombre=Um problema gigante
@@ -2585,6 +2591,8 @@ Desc=Ouçam com atenção, pois não tenho tempo para dramas... Em uma ilha ao s
 DescFinal=Achei que nunca mais veria um... A linhagem Griffon viverá graças a você! O quê? Encontrou uma Carta Misteriosa?
 Repetible=0
 RequiredLevel=15
+DescAudio=1374
+DescFinalAudio=1375
 
 [QUEST45]
 Nombre=A Ameaça do Pântano
@@ -2623,6 +2631,8 @@ DescFinal=O mar se acalma... por um instante. Sinto algumas vozes se dissipando,
 Repetible=1
 RequiredLevel=25
 PosMap=211
+DescAudio=1308
+DescFinalAudio=1309
 
 [QUEST49]
 Nombre=Ciência ou mito?
@@ -2661,6 +2671,8 @@ Desc=São monstros de água que conseguiram evoluir a ponto de poder se mover em
 DescFinal=Excelente. Este é o seu pagamento generoso por seus serviços.
 Repetible=0
 RequiredLevel=33
+DescAudio=1518
+DescFinalAudio=1519
 
 [QUEST54]
 Nombre=Desbloqueie os túneis
@@ -2780,6 +2792,7 @@ Desc=Soldado, seu serviço à Marinha Real não passou despercebido. Disciplina 
 Repetible=1
 RequiredLevel=23
 PosMap=294
+DescAudio=1302
 
 [QUEST69]
 Nombre=Escudo de vanguarda real
@@ -2914,6 +2927,7 @@ Desc=Soldado, seu serviço à Marinha Real não passou despercebido. Disciplina 
 Repetible=1
 RequiredLevel=23
 PosMap=294
+DescAudio=1303
 
 [QUEST99]
 Nombre=Necessidade de líder
@@ -2921,6 +2935,8 @@ Desc=Perdemos a noção de tempo, inúmeras luas passaram desde que atravessamos
 DescFinal=Estamos seguros, você provou ser um verdadeiro líder!
 Repetible=1
 RequiredLevel=18
+DescAudio=1370
+DescFinalAudio=1371
 
 [QUEST100]
 Nombre=Lobos pretos abastou florestas
@@ -2935,6 +2951,8 @@ Desc=Nestes últimos dias, a caverna da desolação foi atormentada por lobos, o
 DescFinal=Nos últimos dias, a caverna da desolação foi atormentada pelos lobos. O temível laican aumentou para grande poder. Se você puder me derrotar e me trazer as peles de seus súditos, você aprenderá que uma espata não será vendida em nenhuma cidade.
 RequiredLevel=16
 PosMap=151
+DescAudio=1420
+DescFinalAudio=1421
 
 [QUEST103]
 Nombre=Avançando para drenagem
@@ -2960,6 +2978,7 @@ Desc=Legionário, observei seus esforços em nome da Legião Negra. Nem todos po
 Repetible=1
 RequiredLevel=23
 PosMap=295
+DescAudio=1297
 
 [QUEST108]
 Nombre=Guilda dos pescadores
@@ -2996,6 +3015,8 @@ Desc=O que você quer? Você também quer um maiô? Você não vê que estou ocu
 DescFinal=Parabéns, você conseguiu, é isso que eu prometi a você.
 Repetible=0
 RequiredLevel=18
+DescAudio=1430
+DescFinalAudio=1431
 
 [QUEST113]
 Nombre=Pequenos problemas.
@@ -3010,6 +3031,8 @@ DescFinal=Espero que você tenha aprendido a não mexer conosco, obrigado pela s
 Repetible=0
 RequiredLevel=9
 PosMap=11
+DescAudio=1396
+DescFinalAudio=1397
 
 [QUEST115]
 Nombre=Presas à noite.
@@ -3034,6 +3057,8 @@ DescFinal=Minhas lenhadoras podem trabalhar em silêncio. Dez, espero que isso a
 Repetible=0
 RequiredLevel=9
 PosMap=11
+DescAudio=1398
+DescFinalAudio=1399
 
 [QUEST118]
 Nombre=Horda mágica
@@ -3061,18 +3086,24 @@ Desc=Ratos impuros. Os elfos escuros antes sabiam ser nossos aliados, mas sua â
 DescFinal=Obrigado agora, os pobres viajantes podem explorar em paz. Por agora..
 Repetible=1
 RequiredLevel=18
+DescAudio=1432
+DescFinalAudio=1433
 
 [QUEST121]
 Nombre=Vazamento gigante.
 Desc=O que você sabe sobre os ogros? Não, eles não são como orcs, mas maiores? Eles são muito piores. Você verá, por um longo tempo, eles foram presos na masmorra Marabel, mas alguém (ou algo) os lançou e agora a única coisa mais importante é o apetite por vingança. Vingança e carne humana. Cuidado e não seja levado pelo tamanho deles, eles são bestas extremamente atléticas, você verá o que quero dizer.
 DescFinal=Você ainda está vivo?! Ehem, eu digo, é claro, nunca lhe daria uma tarefa em que sua vida está correndo? Tenha este ouro e não faça mais perguntas.
 Repetible=0
+DescAudio=1434
+DescFinalAudio=1435
 
 [QUEST122]
 Nombre=Uma amizade valiosa.
 Desc=Neste ponto, posso dizer que pessoas como você sempre serão bem -vindas aqui. Pessoalmente, cuidarei de todo o ELF que as pessoas conhecem sua lealdade e valor.
 DescFinal=O que eu te dou é apenas um pouco do que sua amizade merece. Pegar
 Repetible=0
+DescAudio=1436
+DescFinalAudio=1437
 
 [QUEST123]
 Nombre=Mensagem misteriosa
@@ -3115,12 +3146,16 @@ Nombre=A última missão.
 Desc=Você não tem idéia do quanto você nos ajudou, mas ainda temos mais um problema que acreditamos que você pode resolver. Este inimigo não olha para todos aqueles que você já enfrentou antes. Com um único golpe, você pode até matar a anã mais forte. Você deve ter cuidado, mas se você conseguir, a recompensa será enorme.
 DescFinal=Uau! Você é realmente um guerreiro de primeiro nível. É mais você deve ser você que guarda aqui e não eu. Bem, você também não vai acontecer com você. Da mesma forma, muito obrigado por sua ajuda.
 Repetible=0
+DescAudio=1438
+DescFinalAudio=1439
 
 [QUEST131]
 Nombre=Entrega imediata
 Desc=Ouça, eu vi como você ajudou Elhandar e estou surpreso. Tenho uma proposta para fazer você: recebi uma carta de Ho Ka Rdum, uma orca que vive em uma fazenda nos arredores de Penthar. Não estamos muito relacionados aos do gênero, mas ela tentou ser confiável. Você precisa de ajuda e é o certo.
 DescFinal=Vá com isso e diga a ele que você está indo de mim.
 Repetible=0
+DescAudio=1440
+DescFinalAudio=1441
 
 [QUEST132]
 Nombre=Fazenda em alerta
@@ -3129,6 +3164,8 @@ DescFinal=No momento, ele chega, mas fique por aqui, você pode precisar da sua 
 Repetible=0
 RequiredLevel=6
 PosMap=188
+DescAudio=1514
+DescFinalAudio=1515
 
 [QUEST133]
 Nombre=Muito obrigado pela sua ajuda!
@@ -3149,6 +3186,8 @@ Desc=Para obter o poder divino dos dragões, você deve enfrentá -los, eliminar
 DescFinal=Você tem sido muito corajoso, com esse feitiço que sempre pode carregar o fogo interno com você.
 Repetible=0
 RequiredLevel=24
+DescAudio=1553
+DescFinalAudio=1554
 
 [QUEST137]
 Nombre=Caça aos observadores oculares
@@ -3177,6 +3216,8 @@ DescFinal=Eu pensei que você não conseguiria! Agora a habilidade faz parte do 
 Repetible=0
 RequiredLevel=30
 PosMap=354
+DescAudio=1410
+DescFinalAudio=1411
 
 [QUEST141]
 Nombre=A força do kadru
@@ -3185,6 +3226,8 @@ DescFinal=Você mostrou que a força dentro de você é suficiente para aprender
 Repetible=0
 RequiredLevel=28
 PosMap=123
+DescAudio=1412
+DescFinalAudio=1413
 
 [QUEST142]
 Nombre=A última luz
@@ -3202,6 +3245,8 @@ Desc=Obtenha os ingredientes necessários para preparar o grande banquete e, em 
 DescFinal=Vamos ver ... acho que isso ajudará você a se divertir, lembre -se de que podemos melhorá -lo quando você quiser.
 Repetible=0
 RequiredLevel=15
+DescAudio=1533
+DescFinalAudio=1534
 
 [QUEST144]
 Nombre=Carrinho para iniciantes (lenhador).
@@ -3209,6 +3254,8 @@ Desc=Se você quiser que eu ajude você a criar um carrinho adequado para o seu 
 DescFinal=Vamos ver ... acho que isso ajudará você a se divertir, lembre -se de que podemos melhorá -lo quando você quiser.
 Repetible=0
 RequiredLevel=15
+DescAudio=1523
+DescFinalAudio=1524
 
 [QUEST145]
 Nombre=Carrinho para iniciantes (mineiro).
@@ -3216,6 +3263,8 @@ Desc=Você é o futuro do nosso trabalho, esteja ciente de que nosso Deus Grodna
 DescFinal=Vamos ver ... acho que isso ajudará você a se divertir, lembre -se de que podemos melhorá -lo quando você quiser.
 Repetible=0
 RequiredLevel=15
+DescAudio=1527
+DescFinalAudio=1528
 
 [QUEST146]
 Nombre=Carrinho reforçado (Fisherman).
@@ -3223,6 +3272,8 @@ Desc=Ei você! Esse carrinho de mão é muito pequeno para a quantidade de peixe
 DescFinal=Este caminhão de seguros será muito mais útil e ajudará você a manter sua mercadoria por mais tempo. Ainda assim, podemos continuar melhorando, se desejar.
 Repetible=0
 RequiredLevel=25
+DescAudio=1535
+DescFinalAudio=1536
 
 [QUEST147]
 Nombre=Carrinho reforçado (lenhador).
@@ -3230,6 +3281,8 @@ Desc=Vejo que você deseja melhorar seu carro antigo, obter os seguintes materia
 DescFinal=Um carro reforçado que exalta a profissão lembra que podemos melhorá -lo quando quiser.
 Repetible=0
 RequiredLevel=25
+DescAudio=1525
+DescFinalAudio=1526
 
 [QUEST148]
 Nombre=Carrinho reforçado (mineiro).
@@ -3237,6 +3290,8 @@ Desc=Eu acho que é hora de melhorar esse carro antigo para um carro real adequa
 DescFinal=Pegar! Você verá como é fácil com este carro adequado para minas. Lembre -se de que você pode continuar melhorando, se desejar.
 Repetible=0
 RequiredLevel=25
+DescAudio=1529
+DescFinalAudio=1530
 
 [QUEST149]
 Nombre=Carrinho de elite (pescador).
@@ -3244,6 +3299,8 @@ Desc=Você precisa mudar o caminhão?, O que você progride rapidamente. Vamos v
 DescFinal=Aqui você tem, sem dúvida, um dos meus melhores empregos!, Embora eu me arrependa de lhe dizer que daqui você deve encontrar seu próprio estilo.
 Repetible=0
 RequiredLevel=30
+DescAudio=1537
+DescFinalAudio=1538
 
 [QUEST150]
 Nombre=Carrinho de elite (lenhador).
@@ -3260,6 +3317,8 @@ Desc=Ohh, incrível! Tenho orgulho de ver o uso que você deu a este carro. Se v
 DescFinal=O terror dos trilhos será chamado. Assista, você não encontrará nada da mesma forma que espero que você o acompanhe pelo resto do seu passeio, porque não acho que possamos construir algo melhor.
 Repetible=0
 RequiredLevel=30
+DescAudio=1531
+DescFinalAudio=1532
 
 [QUEST152]
 Nombre=Soletrar peito
@@ -3353,6 +3412,8 @@ DescFinal=Quantos ossos!
 Repetible=0
 RequiredLevel=10
 PosMap=30
+DescAudio=1400
+DescFinalAudio=1401
 
 [QUEST165]
 Nombre=Traje especial
@@ -3361,6 +3422,8 @@ DescFinal=Bom trabalho, aqui você tem sua recompensa.
 Repetible=1
 RequiredLevel=27
 PosMap=557
+DescAudio=1516
+DescFinalAudio=1517
 
 [QUEST166]
 Nombre=Limpe a entrada
@@ -3417,6 +3480,8 @@ DescFinal=O Limiar te deu conhecimento. O Norte te deu força.
 Repetible=0
 RequiredLevel=29
 PosMap=354
+DescAudio=1498
+DescFinalAudio=1499
 
 [QUEST173]
 Nombre=Sangue de Lynn
@@ -3425,6 +3490,8 @@ DescFinal=Ótimo trabalho, com este flash, você terá um poder incrível!
 Repetible=0
 RequiredLevel=31
 PosMap=517
+DescAudio=1541
+DescFinalAudio=1542
 
 [QUEST174]
 Nombre=Controle persistente de pragas
@@ -3462,6 +3529,8 @@ Desc=Se você conseguir obter 3000 minerais de carvão para mim, posso lhe dar u
 DescFinal=Excelente, tenha um pouco de experiência para melhorar seu caminho, converse comigo novamente se quiser progredir ainda mais.
 Repetible=0
 RequiredLevel=10
+DescAudio=1545
+DescFinalAudio=1546
 
 [QUEST179]
 Nombre=Flores vermelhas
@@ -3469,6 +3538,8 @@ Desc=Se você conseguir obter 200 flores vermelhas para mim, posso lhe dar uma b
 DescFinal=Excelente, tenha um pouco de experiência para melhorar seu caminho, converse comigo novamente se quiser progredir ainda mais.
 Repetible=0
 RequiredLevel=10
+DescAudio=1547
+DescFinalAudio=1548
 
 [QUEST180]
 Nombre=Um peixe e uma garrafa
@@ -3476,6 +3547,8 @@ Desc=Se você conseguir obter três meros peixes dos fundos e 1 garrafa com uma 
 DescFinal=Excelente, tenha um pouco de experiência para melhorar seu caminho, converse comigo novamente se quiser progredir ainda mais.
 Repetible=0
 RequiredLevel=15
+DescAudio=1549
+DescFinalAudio=1550
 
 [QUEST181]
 Nombre=Mais madeira
@@ -3483,6 +3556,8 @@ Desc=Se você conseguir obter 6000 leñas para mim, posso lhe dar uma boa recomp
 DescFinal=Excelente, tenha um pouco de experiência para melhorar seu caminho, converse comigo novamente se quiser progredir ainda mais.
 Repetible=0
 RequiredLevel=15
+DescAudio=1551
+DescFinalAudio=1552
 
 [QUEST182]
 Nombre=Mais carvão
@@ -3533,6 +3608,8 @@ DescFinal=Obrigado! Vou te dar meu pote de alquimia como um presente para o pedi
 Repetible=0
 RequiredLevel=6
 PosMap=561
+DescAudio=1559
+DescFinalAudio=1560
 
 [QUEST189]
 Nombre=Defesa de Arghal
@@ -3604,6 +3681,8 @@ DescFinal=Obrigado pela ajuda! Aqui está sua recompensa
 Repetible=1
 RequiredLevel=20
 PosMap=11
+DescAudio=1555
+DescFinalAudio=1556
 
 [QUEST199]
 Nombre=Barco
@@ -3621,6 +3700,8 @@ DescFinal=Ótimo trabalho!
 Repetible=0
 RequiredLevel=10
 PosMap=30
+DescAudio=1402
+DescFinalAudio=1403
 
 [QUEST201]
 Nombre=Aguilas no céu
@@ -3629,6 +3710,8 @@ DescFinal=Ótimo trabalho!
 Repetible=0
 RequiredLevel=10
 PosMap=30
+DescAudio=1404
+DescFinalAudio=1405
 
 [QUEST202]
 Nombre=Morto .. vivo!
@@ -3637,6 +3720,8 @@ DescFinal=Ótimo trabalho!
 Repetible=0
 RequiredLevel=11
 PosMap=36
+DescAudio=1406
+DescFinalAudio=1407
 
 [QUEST203]
 Nombre=Humanos, há um tempo atrás
@@ -3645,6 +3730,8 @@ DescFinal=Ótimo trabalho!
 Repetible=0
 RequiredLevel=11
 PosMap=36
+DescAudio=1408
+DescFinalAudio=1409
 
 [QUEST204]
 Nombre=Eldoria Winds
@@ -3663,6 +3750,8 @@ DescFinal=Com esse feitiço, você pode se defender de qualquer ameaça em Altam
 Repetible=0
 RequiredLevel=25
 PosMap=78
+DescAudio=1424
+DescFinalAudio=1425
 
 [QUEST207]
 Nombre=O mal desperta
@@ -3684,6 +3773,8 @@ Desc=Ouvi o murmúrio do seu caminho... vozes de pântanos, ecos de aço, passos
 DescFinal=Muitos empunham aço, mas poucos compreendem o peso de uma ação. Você carrega algo diferente. Não é apenas força... é propósito, mesmo que você ainda não o compreenda completamente.
 Repetible=0
 RequiredLevel=25
+DescAudio=1494
+DescFinalAudio=1495
 
 [QUEST210]
 Nombre=Reduzir suas forças.
@@ -3691,6 +3782,8 @@ Desc=Escute com atenção: sou um espião, não um guerreiro. Meu trabalho é ob
 DescFinal=Impressionante. Não pensei que você conseguiria fazer isso com tanta eficiência.
 Repetible=0
 RequiredLevel=25
+DescAudio=1443
+DescFinalAudio=1444
 
 [QUEST211]
 Nombre=Reduzir suas forças.
@@ -3698,6 +3791,8 @@ Desc=Escute. Sou olhos, uma voz em sussurros... mas não uma espada. Meu dever �
 DescFinal=Magnífico. O sistema de drenagem de Banderbill ainda treme com a sua presença.
 Repetible=0
 RequiredLevel=25
+DescAudio=1450
+DescFinalAudio=1488
 
 [QUEST212]
 Nombre=Troca Real
@@ -3705,6 +3800,8 @@ Desc=Uau... então você conseguiu. Não esperava que chegasse com o Tomo da Sab
 DescFinal=Kael estende a mão e pega o Tomo com reverência contida.
 Repetible=0
 RequiredLevel=25
+DescAudio=1445
+DescFinalAudio=1446
 
 [QUEST213]
 Nombre=Intercâmbio Legionário
@@ -3712,6 +3809,8 @@ Desc=Ah… vous avez donc survécu jusqu’ici. Et le Tome de l’Expertise est 
 DescFinal=Serik pega o Tomo com dedos cuidadosos, quase cerimoniais.
 Repetible=0
 RequiredLevel=25
+DescAudio=1489
+DescFinalAudio=1490
 
 [QUEST214]
 Nombre=O encontro com Kael
@@ -3842,6 +3941,8 @@ DescFinal=Ótimo trabalho, com este flash, você terá um poder incrível!
 Repetible=0
 RequiredLevel=27
 PosMap=517
+DescAudio=1422
+DescFinalAudio=1423
 
 [QUEST233]
 Nombre=Coração ígneo do Leviatã
@@ -3850,6 +3951,8 @@ DescFinal=Ótimo trabalho, tenha sua recompensa!
 Repetible=0
 RequiredLevel=25
 PosMap=171
+DescAudio=1426
+DescFinalAudio=1427
 
 [QUEST234]
 Nombre=O poder da magia
@@ -3858,6 +3961,8 @@ DescFinal=Você conseguiu! Tenha essa equipe de aprendizes como recompensa.
 Repetible=0
 RequiredLevel=7
 PosMap=264
+DescAudio=1376
+DescFinalAudio=1377
 
 [QUEST235]
 Nombre=Chamadas da natureza
@@ -3866,6 +3971,8 @@ DescFinal=A natureza aprecia seu controle no mundo, mas lembre -se de que, sem e
 Repetible=0
 RequiredLevel=7
 PosMap=264
+DescAudio=1378
+DescFinalAudio=1379
 
 [QUEST236]
 Nombre=A luz do ritmo
@@ -3874,6 +3981,8 @@ DescFinal=Agora você entende o poder que a música nos dá? Tenha este alaúde 
 Repetible=0
 RequiredLevel=7
 PosMap=264
+DescAudio=1380
+DescFinalAudio=1381
 
 [QUEST237]
 Nombre=O Reino das Sombras
@@ -3882,6 +3991,8 @@ DescFinal=A magia das sombras nos fortalece! Tenha essa adaga de aprendizado, aj
 Repetible=0
 RequiredLevel=7
 PosMap=264
+DescAudio=1382
+DescFinalAudio=1383
 
 [QUEST238]
 Nombre=A força da fé
@@ -3890,6 +4001,8 @@ DescFinal=Finalmente, a floresta pode descansar em paz. Pegue esta espada do apr
 Repetible=0
 RequiredLevel=7
 PosMap=264
+DescAudio=1384
+DescFinalAudio=1385
 
 [QUEST239]
 Nombre=Lucky Blow
@@ -3898,6 +4011,8 @@ DescFinal=A sorte está do seu lado! Tenha essas juntas do aprendiz para melhora
 Repetible=0
 RequiredLevel=7
 PosMap=264
+DescAudio=1386
+DescFinalAudio=1387
 
 [QUEST240]
 Nombre=Purificação necessária
@@ -3906,6 +4021,8 @@ DescFinal=A Terra é um pouco mais limpa com sua ajuda. Pegue esta espada do apr
 Repetible=0
 RequiredLevel=7
 PosMap=264
+DescAudio=1388
+DescFinalAudio=1389
 
 [QUEST241]
 Nombre=A força bruta
@@ -3914,6 +4031,8 @@ DescFinal=Sua arma e seu corpo são você mesmo, pegue esta espada do aprendiz p
 Repetible=0
 RequiredLevel=7
 PosMap=264
+DescAudio=1390
+DescFinalAudio=1391
 
 [QUEST242]
 Nombre=Tiro -alvo
@@ -3922,6 +4041,8 @@ DescFinal=Eu posso ver que seu arco e suas flechas nunca falham! Este arco de ap
 Repetible=0
 RequiredLevel=7
 PosMap=264
+DescAudio=1392
+DescFinalAudio=1393
 
 [QUEST243]
 Nombre=Crusher de Aranha
@@ -3929,6 +4050,7 @@ Desc=Você deve parar o ataque da rainha da arenida! Se você conseguir vencer u
 Repetible=0
 RequiredLevel=1
 Descfinal=¡Gran trabajo derrotando al Triturador, pero debes volver al norte, la ciudad aun te necesita!
+DescAudio=1414
 
 [QUEST244]
 Nombre=Anomalia da arenida
@@ -3936,6 +4058,7 @@ Desc=Você deve parar o ataque da rainha da arenida! Se você conseguir vencer u
 Repetible=0
 RequiredLevel=1
 Descfinal=¡Gran trabajo derrotando a la Anomalía, pero debes volver al norte, la ciudad aun te necesita!
+DescAudio=1415
 
 [QUEST245]
 Nombre=Arachnid Sortílego
@@ -3943,6 +4066,8 @@ Desc=Você deve parar o ataque da rainha da arenida! Se você conseguir vencer u
 DescFinal=Ótimo trabalho derrotando o Sortílego, mas você deve voltar para o norte, a cidade ainda precisa de você!
 Repetible=0
 RequiredLevel=1
+DescAudio=1416
+DescFinalAudio=1417
 
 [QUEST246]
 Nombre=A rainha aracnida
@@ -3950,6 +4075,8 @@ Desc=O último esforço para defender esta cidade. Se você conseguir derrotar G
 DescFinal=Você conseguiu isso, finalmente essa história termina. A cidade de Ullthorpe restaura sua paz, você estará na história deste jogo. Tenha esse rédeio mutante aracnídeo como reconhecimento de sua coragem!
 Repetible=0
 RequiredLevel=1
+DescAudio=1418
+DescFinalAudio=1419
 
 [QUEST247]
 Nombre=Nível 24
@@ -3967,6 +4094,8 @@ Desc=Agora você tem um conhecimento básico de Alquimia. Se quiser adquirir a h
 DescFinal=Ótimo trabalho! Aqui você tem sua receita, agora você pode criar poções de força.
 Repetible=0
 RequiredLevel=18
+DescAudio=1561
+DescFinalAudio=1562
 
 [QUEST249]
 Nombre=O Fogo do Antigo
@@ -3975,6 +4104,8 @@ DescFinal=Poucos enfrentaram tamanha fúria e viveram para contar a história. V
 Repetible=0
 RequiredLevel=31
 PosMap=17
+DescAudio=1428
+DescFinalAudio=1429
 
 [QUEST250]
 Nombre=Receita anti -total
@@ -3983,6 +4114,8 @@ DescFinal=Ótimo trabalho! Aqui você tem sua receita, agora você pode criar an
 Repetible=0
 RequiredLevel=10
 PosMap=561
+DescAudio=1543
+DescFinalAudio=1544
 
 [QUEST251]
 Nombre=Poções da vida
@@ -3991,6 +4124,8 @@ DescFinal=Ótimo trabalho! Aqui você tem sua receita, agora você pode criar po
 Repetible=0
 RequiredLevel=6
 PosMap=561
+DescAudio=1563
+DescFinalAudio=1564
 
 [QUEST252]
 Nombre=Maná Poções
@@ -3999,6 +4134,8 @@ DescFinal=Ótimo trabalho! Aqui você tem sua receita, agora você pode criar po
 Repetible=0
 RequiredLevel=8
 PosMap=561
+DescAudio=1565
+DescFinalAudio=1566
 
 [QUEST253]
 Nombre=Poções de força
@@ -4007,6 +4144,8 @@ DescFinal=Ótimo trabalho! Aqui você tem sua receita, agora você pode criar po
 Repetible=0
 RequiredLevel=16
 PosMap=561
+DescAudio=1567
+DescFinalAudio=1568
 
 [QUEST254]
 Nombre=Poções de agilidade
@@ -4015,6 +4154,8 @@ DescFinal=Ótimo trabalho! Aqui você tem sua receita, agora você pode criar po
 Repetible=0
 RequiredLevel=14
 PosMap=561
+DescAudio=1569
+DescFinalAudio=1570
 
 [QUEST255]
 Nombre=Poções de energia
@@ -4023,6 +4164,8 @@ DescFinal=Ótimo trabalho! Aqui você tem sua receita, agora você pode criar po
 Repetible=0
 RequiredLevel=12
 PosMap=561
+DescAudio=1571
+DescFinalAudio=1572
 
 [QUEST256]
 Nombre=Cavaleiro Nível 1
@@ -4031,6 +4174,8 @@ DescFinal=Ótimo trabalho! Aqui está este consumível. Volte aqui quando estive
 Repetible=0
 RequiredLevel=10
 PosMap=188
+DescAudio=1358
+DescFinalAudio=1359
 
 [QUEST257]
 Nombre=Cavaleiro Nível 2
@@ -4039,6 +4184,8 @@ DescFinal=Ótimo trabalho! Aqui está este consumível. Volte aqui quando estive
 Repetible=0
 RequiredLevel=15
 PosMap=188
+DescAudio=1360
+DescFinalAudio=1361
 
 [QUEST258]
 Nombre=Cavaleiro Nível 3
@@ -4047,6 +4194,8 @@ DescFinal=Ótimo trabalho! Aqui está este consumível. Volte aqui quando estive
 Repetible=0
 RequiredLevel=20
 PosMap=188
+DescAudio=1362
+DescFinalAudio=1363
 
 [QUEST259]
 Nombre=Cavaleiro Nível 4
@@ -4055,6 +4204,8 @@ DescFinal=Ótimo trabalho! Aqui está este consumível. Volte aqui quando estive
 Repetible=0
 RequiredLevel=25
 PosMap=188
+DescAudio=1364
+DescFinalAudio=1365
 
 [QUEST260]
 Nombre=Cavaleiro Nível 5
@@ -4063,6 +4214,8 @@ DescFinal=Ótimo trabalho! Aqui está este consumível. Volte aqui quando estive
 Repetible=0
 RequiredLevel=30
 PosMap=188
+DescAudio=1366
+DescFinalAudio=1367
 
 [QUEST261]
 Nombre=Cavaleiro Nível 6
@@ -4071,6 +4224,8 @@ DescFinal=Ótimo trabalho! Aqui está este consumível. Volte aqui quando estive
 Repetible=0
 RequiredLevel=35
 PosMap=188
+DescAudio=1368
+DescFinalAudio=1369
 
 [QUEST262]
 Nombre=Cavaleiro Nível 7
@@ -4093,6 +4248,8 @@ Desc=Se você obteve a Mula anteriormente, aceite esta Missão e eu o recompensa
 DescFinal=Você pode consumir o item que lhe ofereço.
 Repetible=0
 RequiredLevel=20
+DescAudio=1348
+DescFinalAudio=1349
 
 [QUEST266]
 Nombre=Bolsa de Cavalos Marrons
@@ -4100,6 +4257,8 @@ Desc=Se você obteve a Cavalos Marrons anteriormente, aceite esta Missão e eu o
 DescFinal=Você pode consumir o item que lhe ofereço.
 Repetible=0
 RequiredLevel=24
+DescAudio=1350
+DescFinalAudio=1351
 
 [QUEST267]
 Nombre=Bolsa de Cavalos Brancos
@@ -4107,6 +4266,8 @@ Desc=Se você obteve a Cavalos Brancos anteriormente, aceite esta Missão e eu o
 DescFinal=Você pode consumir o item que lhe ofereço.
 Repetible=0
 RequiredLevel=28
+DescAudio=1352
+DescFinalAudio=1353
 
 [QUEST268]
 Nombre=Troca de Montaria de Lutador
@@ -4114,6 +4275,8 @@ Desc=Se você já obteve a Montaria do Guerreiro, aceite esta Missão e eu o rec
 DescFinal=Você pode consumir o item que lhe ofereço.
 Repetible=0
 RequiredLevel=32
+DescAudio=1354
+DescFinalAudio=1355
 
 [QUEST269]
 Nombre=Troca de Cavalos Palomino
@@ -4121,6 +4284,8 @@ Desc=Se você obteve o Cavalo Palomino anteriormente, aceite esta Missão e eu o
 DescFinal=Você pode consumir o item que lhe ofereço.
 Repetible=0
 RequiredLevel=36
+DescAudio=1356
+DescFinalAudio=1357
 
 [QUEST270]
 Nombre=O Legado das Sombras
@@ -4129,18 +4294,22 @@ DescFinal=Você completou a tarefa que muitos consideravam impossível. As 9 Ped
 Repetible=0
 RequiredLevel=35
 PosMap=171
+DescAudio=1500
+DescFinalAudio=1501
 
 [QUEST271]
 Nombre=Troca de chaves por armadura
 Desc=Se você obteve a Chave da Escuridão, reivindique esta missão para obter sua Armadura
 Repetible=0
 RequiredLevel=35
+DescAudio=1502
 
 [QUEST272]
 Nombre=Troca de Chave por Robe
 Desc=Se você obteve a Chave da Escuridão, reivindique esta missão para obter seu Manto.
 Repetible=0
 RequiredLevel=35
+DescAudio=1503
 
 [QUEST273]
 Nombre=Obter a escala.
@@ -4148,6 +4317,8 @@ Desc=Com essa vantagem, chegou a hora da próxima jogada. Nas profundezas do Esg
 DescFinal=Agora você deve viajar para a Ilha dos Grifos. Entre penhascos e ventos, você encontrará Aduin, o Andarilho. Ele não pertence nem à Coroa nem às Sombras; é um sábio que vive observando o mundo sem tomar partido. Leve esta carta a ele o mais rápido possível.
 Repetible=0
 RequiredLevel=25
+DescAudio=1447
+DescFinalAudio=1486
 
 [QUEST274]
 Nombre=Obter a escala.
@@ -4155,6 +4326,8 @@ Desc=Esse desequilíbrio joga a nosso favor, e agora podemos entrar na fase cruc
 DescFinal=Agora você deve viajar para a Ilha dos Grifos. Entre penhascos e ventos, você encontrará Aduin, o Andarilho. Ele não pertence nem à Coroa nem às Sombras; é um sábio que vive observando o mundo sem tomar partido. Leve esta carta a ele o mais rápido possível.
 Repetible=0
 RequiredLevel=25
+DescAudio=1491
+DescFinalAudio=1492
 
 [QUEST275]
 Nombre=Veneno de Adaga
@@ -4172,6 +4345,8 @@ Desc=O Pingente dos Presságios é mais valioso do que qualquer arma ou gema. N�
 DescFinal=Escute com atenção: este objeto não deve ser perdido. Nem esquecido. Nem trocado. Você deve retornar à sua capital... lá eles entenderão o significado do que você agora carrega.
 Repetible=0
 RequiredLevel=25
+DescAudio=1496
+DescFinalAudio=1497
 
 [QUEST277]
 Nombre=O Renascimento
@@ -4194,6 +4369,8 @@ DescFinal=Ah! Consigo sentir o cheiro de fumaça em suas roupas e ver o brilho d
 Repetible=0
 RequiredLevel=25
 PosMap=594
+DescAudio=1506
+DescFinalAudio=1507
 
 [QUEST280]
 Nombre=Aprenda a receita da Água.
@@ -4202,6 +4379,8 @@ DescFinal=Vejo que você aprendeu a lição da água... paciente, constante, inq
 Repetible=0
 RequiredLevel=25
 PosMap=594
+DescAudio=1508
+DescFinalAudio=1509
 
 [QUEST281]
 Nombre=Aprenda a receita do Vento
@@ -4210,6 +4389,8 @@ DescFinal=Você se moveu com rapidez, como um riacho pelas montanhas. O vento n�
 Repetible=0
 RequiredLevel=25
 PosMap=594
+DescAudio=1510
+DescFinalAudio=1511
 
 [QUEST282]
 Nombre=Aprenda a receita para a Terra.
@@ -4218,6 +4399,8 @@ DescFinal=Firme como uma rocha. Assim são forjados os verdadeiros artesãos. Tu
 Repetible=0
 RequiredLevel=25
 PosMap=594
+DescAudio=1512
+DescFinalAudio=1513
 
 [QUEST285]
 Nombre=Antenas Subterrâneas
@@ -4236,6 +4419,8 @@ DescFinal=Pelas raízes de Milthas! Você conseguiu! Pensei que aquelas criatura
 Repetible=1
 RequiredLevel=16
 PosMap=62
+DescAudio=1557
+DescFinalAudio=1558
 
 [QUEST287]
 Nombre=Força vital da floresta
@@ -4264,6 +4449,8 @@ DescFinal=A morte obedece porque não tem escolha. Os vivos obedecem porque voc�
 Repetible=0
 RequiredLevel=12
 PosMap=186
+DescAudio=1313
+DescFinalAudio=1314
 
 [QUEST290]
 Nombre=O Rugido que Abre Caminho
@@ -4272,6 +4459,8 @@ DescFinal=A magia responde àqueles que ousam enfrentar a fera e não recuam. De
 Repetible=0
 RequiredLevel=12
 PosMap=247
+DescAudio=1315
+DescFinalAudio=1316
 
 [QUEST291]
 Nombre=O Pulso do Fogo Ancestral
@@ -4280,6 +4469,8 @@ DescFinal=Vejo as marcas de fogo em seu espírito. Aquelas criaturas humanoides 
 Repetible=0
 RequiredLevel=22
 PosMap=30
+DescAudio=1317
+DescFinalAudio=1318
 
 [QUEST292]
 Nombre=Ecos Ardentes dos Mortos
@@ -4288,6 +4479,8 @@ DescFinal=Não preciso perguntar o que você viu lá dentro. A areia já não gr
 Repetible=0
 RequiredLevel=18
 PosMap=20
+DescAudio=1319
+DescFinalAudio=1320
 
 [QUEST293]
 Nombre=O sopro que forja o Gelo
@@ -4295,6 +4488,8 @@ Desc=O poder nascido nos Ventos do Norte começou a mudar. O gelo que você apre
 DescFinal=O norte te deu força. O fogo te deu seu hálito.
 Repetible=0
 RequiredLevel=31
+DescAudio=1321
+DescFinalAudio=1322
 
 [QUEST300]
 Nombre=A magia compartilhada do Natal
@@ -4521,6 +4716,8 @@ DescFinal=Aí está: a Vara de Pesca de Ferro. Leve, durável e com um carretel 
 Repetible=0
 RequiredLevel=20
 PosMap=61
+DescAudio=1372
+DescFinalAudio=1373
 
 [QUEST330]
 Nombre=Troca da Taça Bronze
@@ -4604,6 +4801,8 @@ Desc=As ilhas de Nova Esperança e da Floresta Élfica não são mais as mesmas.
 DescFinal=Os estandartes da sua facção tremulam mais alto do que nunca. Sua vitória não passou despercebida. Mensageiros já trazem notícias do seu feito, e seu nome começa a ressoar entre seu povo como um símbolo de determinação e lealdade. Você provou que, mesmo em territórios disputados, sua vontade é mais forte do que qualquer ameaça. Em reconhecimento, você recebe uma Poção de Honra da Facção.
 Repetible=1
 RequiredLevel=25
+DescAudio=1298
+DescFinalAudio=1299
 
 [QUEST341]
 Nombre=Subjugar o Guerreiro
@@ -4612,6 +4811,8 @@ DescFinal=A força prevalece onde a razão falha!
 Repetible=0
 RequiredLevel=16
 PosMap=69
+DescAudio=1311
+DescFinalAudio=1312
 
 [QUEST342]
 Nombre=O Eco dos Uivos
@@ -4725,96 +4926,128 @@ Nombre=Limpieza del Drenaje (LVL1-19)
 Desc=Si queremos acercarnos a su guarida, debemos limpiar el camino. ¡Aniquila a tantos cocodrilos como podamos, recuerda golpear primero y luego preguntar! Espera, no te vayas, me olvidaba de decirte? nada, nada, ¡solo ve!
 DescFinal=Oh has regresado, ¡pensé que? nunca dudé de ti! -esconde una lista de apuestas-
 RequiredLevel=1
+DescAudio=1324
+DescFinalAudio=1325
 
 [QUEST355]
 Nombre=Limpieza del Drenaje (LVL20-24)
 Desc=Si queremos acercarnos a su guarida, debemos limpiar el camino. ¡Aniquila a tantos cocodrilos como podamos, recuerda golpear primero y luego preguntar! Espera, no te vayas, me olvidaba de decirte? nada, nada, ¡solo ve!
 DescFinal=Oh has regresado, ¡pensé que? nunca dudé de ti! -esconde una lista de apuestas-
 RequiredLevel=20
+DescAudio=1326
+DescFinalAudio=1327
 
 [QUEST356]
 Nombre=Limpieza del Drenaje (LVL25-30)
 Desc=Si queremos acercarnos a su guarida, debemos limpiar el camino. ¡Aniquila a tantos cocodrilos como podamos, recuerda golpear primero y luego preguntar! Espera, no te vayas, me olvidaba de decirte? nada, nada, ¡solo ve!
 DescFinal=Oh has regresado, ¡pensé que? nunca dudé de ti! -esconde una lista de apuestas-
 RequiredLevel=25
+DescAudio=1328
+DescFinalAudio=1329
 
 [QUEST357]
 Nombre=Limpieza del Drenaje (LVL31+)
 Desc=Si queremos acercarnos a su guarida, debemos limpiar el camino. ¡Aniquila a tantos cocodrilos como podamos, recuerda golpear primero y luego preguntar! Espera, no te vayas, me olvidaba de decirte? nada, nada, ¡solo ve!
 DescFinal=Oh has regresado, ¡pensé que? nunca dudé de ti! -esconde una lista de apuestas-
 RequiredLevel=31
+DescAudio=1330
+DescFinalAudio=1331
 
 [QUEST358]
 Nombre=Que la caza continue! (LVL1-19)
 Desc=Has manejado bastante bien la situación, mi consorte me dijo que no lo lograrían, pero le dije que si podrían, esa hembra siempre me lleva la contraria, deberían tratar con ell, saca de sus casillas hasta al cocodrilo más? si, si lo siento, me disperso.  Necesito que hagas lo siguiente.
 DescFinal=Bien hecho y gracias por traerme *objeto*, siempre quise tener uno y ahora tengo todos los que quiera, saben lo crueles que pueden ser los cocodrilos? Por mi tamaño y mi inteligencia ?superior? nunca me deja? si, si, lo siento.
 RequiredLevel=1
+DescAudio=1332
+DescFinalAudio=1333
 
 [QUEST359]
 Nombre=Que la caza continue! (LVL20-24)
 Desc=Has manejado bastante bien la situación, mi consorte me dijo que no lo lograrían, pero le dije que si podrían, esa hembra siempre me lleva la contraria, deberían tratar con ell, saca de sus casillas hasta al cocodrilo más? si, si lo siento, me disperso.  Necesito que hagas lo siguiente.
 DescFinal=Bien hecho y gracias por traerme *objeto*, siempre quise tener uno y ahora tengo todos los que quiera, saben lo crueles que pueden ser los cocodrilos? Por mi tamaño y mi inteligencia ?superior? nunca me deja? si, si, lo siento.
 RequiredLevel=20
+DescAudio=1334
+DescFinalAudio=1335
 
 [QUEST360]
 Nombre=Que la caza continue! (LVL25-30)
 Desc=Has manejado bastante bien la situación, mi consorte me dijo que no lo lograrían, pero le dije que si podrían, esa hembra siempre me lleva la contraria, deberían tratar con ell, saca de sus casillas hasta al cocodrilo más? si, si lo siento, me disperso.  Necesito que hagas lo siguiente.
 DescFinal=Bien hecho y gracias por traerme *objeto*, siempre quise tener uno y ahora tengo todos los que quiera, saben lo crueles que pueden ser los cocodrilos? Por mi tamaño y mi inteligencia ?superior? nunca me deja? si, si, lo siento.
 RequiredLevel=25
+DescAudio=1336
+DescFinalAudio=1337
 
 [QUEST361]
 Nombre=Que la caza continue! (LVL31+)
 Desc=Has manejado bastante bien la situación, mi consorte me dijo que no lo lograrían, pero le dije que si podrían, esa hembra siempre me lleva la contraria, deberían tratar con ell, saca de sus casillas hasta al cocodrilo más? si, si lo siento, me disperso.  Necesito que hagas lo siguiente.
 DescFinal=Bien hecho y gracias por traerme *objeto*, siempre quise tener uno y ahora tengo todos los que quiera, saben lo crueles que pueden ser los cocodrilos? Por mi tamaño y mi inteligencia ?superior? nunca me deja? si, si, lo siento.
 RequiredLevel=31
+DescAudio=1338
+DescFinalAudio=1339
 
 [QUEST362]
 Nombre=Matad chamanes! (LVL1-19)
 Desc=Escúchame bien, debes acabar con esos molestos chamanes, ya me tienen cansado con sus molestos canticos, sus rituales y sus molestas reglas, ¿qué? Ah si, si, también debes acabar con ellos porque con su magia propagan las aguas contaminadas, es mucho muy importante que lo hagas
 DescFinal=Bien, lo has hecho, ¡no puedo creer que ya no tendré que escucharlos nunca mas!
 RequiredLevel=1
+DescAudio=1340
+DescFinalAudio=1341
 
 [QUEST363]
 Nombre=Matad chamanes! (LVL20-24)
 Desc=Escúchame bien, debes acabar con esos molestos chamanes, ya me tienen cansado con sus molestos canticos, sus rituales y sus molestas reglas, ¿qué? Ah si, si, también debes acabar con ellos porque con su magia propagan las aguas contaminadas, es mucho muy importante que lo hagas
 DescFinal=Bien, lo has hecho, ¡no puedo creer que ya no tendré que escucharlos nunca mas!
 RequiredLevel=20
+DescAudio=1342
+DescFinalAudio=1343
 
 [QUEST364]
 Nombre=Matad chamanes! (LVL25-30)
 Desc=Escúchame bien, debes acabar con esos molestos chamanes, ya me tienen cansado con sus molestos canticos, sus rituales y sus molestas reglas, ¿qué? Ah si, si, también debes acabar con ellos porque con su magia propagan las aguas contaminadas, es mucho muy importante que lo hagas
 DescFinal=Bien, lo has hecho, ¡no puedo creer que ya no tendré que escucharlos nunca mas!
 RequiredLevel=25
+DescAudio=1344
+DescFinalAudio=1345
 
 [QUEST365]
 Nombre=Matad chamanes! (LVL31+)
 Desc=Escúchame bien, debes acabar con esos molestos chamanes, ya me tienen cansado con sus molestos canticos, sus rituales y sus molestas reglas, ¿qué? Ah si, si, también debes acabar con ellos porque con su magia propagan las aguas contaminadas, es mucho muy importante que lo hagas
 DescFinal=Bien, lo has hecho, ¡no puedo creer que ya no tendré que escucharlos nunca mas!
 RequiredLevel=31
+DescAudio=1346
+DescFinalAudio=1347
 
 [QUEST366]
 Nombre=Primer Ritual
 Desc=Escúchame, conozco un poco de esto de la magia, digamos que robe algún que otro pergamino en algún momento. Traedme sangre de cada cocodrilo que mates los podre utilizar para una pócima que nos permita purificar el agua, creo
 DescFinal=Bien has vuelto y con lo que te pedí, ¡Puaj! No espere que fuera tanto.
 RequiredLevel=0
+DescAudio=1585
+DescFinalAudio=1586
 
 [QUEST367]
 Nombre=Segundo Ritual
 Desc=Bien, no ha sido suficiente, traedme mas sangre!, no fallare!
 DescFinal=Eso si que ha sido rápido, no esperaba menos de ti!
 RequiredLevel=0
+DescAudio=1587
+DescFinalAudio=1588
 
 [QUEST368]
 Nombre=Tercer Ritual
 Desc=Si, lo sé, he fallado las anteriores veces, pero esta vez lo lograre, vamos confía, traedme mas sangre, esta vez creo saber en que me equivoque, vamos, di que sí, como amigos!
 DescFinal=Vaya, has vuelto, no pensé que lo harías, pero has vuelto, ¡eso quiere decir que me quieres! que? ¿Que solo has vuelto por el ritual? Ah, si, si claro, lo sabía
 RequiredLevel=0
+DescAudio=1589
+DescFinalAudio=1590
 
 [QUEST369]
 Nombre=El Jefazo
 Desc=¿Escúchame bien, solo queda una cosa por hacer, debemos eliminar al Jefazo, si, sé que te he pedido mucho pero no es nada comparado con lo que me pide mi consorte, ya te lo dije, esa hembra es insoportable? lo siento, en que estábamos? Ah si, debes acabar con El Jefazo.
 DescFinal=No lo puedo creer, debo serte sincero, pensé que terminarías muerto, pero lo has logrado, gracias a ti todo esto es mío ahora, ¿cómo puedo recompensarte?
 RequiredLevel=0
+DescAudio=1591
+DescFinalAudio=1592
 
 [QUEST370]
 Nombre=Mantener el frente!
@@ -4858,6 +5091,8 @@ Desc=Os quatro elementos não se dominam. Eles se reúnem. Desde que os anões d
 DescFinal=As runas encontraram sua forma. O cofre é seu... por enquanto. Mas os elementos nunca param de fluir, e Dolgrin nunca para de esperar. Se algum dia você reunir o suficiente novamente, já sabe onde me encontrar.
 Repetible=1
 PosMap=591
+DescAudio=1574
+DescFinalAudio=1575
 
 [QUEST381]
 Nombre=O Cavaleiro do Fogo
@@ -4865,6 +5100,8 @@ Desc=Nem todos os que buscam o Cavalo de Fogo o merecem. Dolgrin sabe disso. Por
 DescFinal=As chamas te reconheceram. O Cavalo de Fogo é seu. Trate-o bem... ou ele não te perdoará.
 Repetible=0
 PosMap=591
+DescAudio=1576
+DescFinalAudio=1577
 
 [QUEST382]
 Nombre=O Cavaleiro da Terra
@@ -4872,6 +5109,8 @@ Desc=A terra não se conquista. Se ganha com paciência, com esforço, com peso 
 DescFinal=A terra te aceitou. O Cavalo de Terra é seu. Tão firme quanto as raízes da própria Morgrim.
 Repetible=0
 PosMap=591
+DescAudio=1578
+DescFinalAudio=1579
 
 [QUEST383]
 Nombre=O Cavaleiro do Vento
@@ -4879,6 +5118,8 @@ Desc=O vento não espera. Não perdoa a dúvida nem a lentidão. O Cavalo de Ven
 DescFinal=O vento te escolheu. O Cavalo de Vento é seu. Que nada nem ninguém te detenha.
 Repetible=0
 PosMap=591
+DescAudio=1580
+DescFinalAudio=1581
 
 [QUEST384]
 Nombre=O Cavaleiro do Gelo
@@ -4886,6 +5127,8 @@ Desc=O gelo não arde nem sopra. Espera. E nessa espera, julga. O Cavalo de Gelo
 DescFinal=O gelo te reconheceu. O Cavalo de Gelo é seu. Tão eterno e sereno quanto as profundezas das quais nasceu.
 Repetible=0
 PosMap=591
+DescAudio=1582
+DescFinalAudio=1583
 
 [QUEST385]
 Nombre=Reduzir as Forças
@@ -4893,6 +5136,8 @@ Desc=Soldado! Os Guardas Legionários que protegem Arkhein usam um brazalete ver
 DescFinal=Eu sabia. Sabia que você era capaz. Este brazalete é muito mais do que um objeto ? é a prova de que as forças da Legião não são invencíveis. O Reino não esquece aqueles que lutam por ele. Aqui está sua recompensa, bem merecida.
 Repetible=1
 RequiredLevel=25
+DescAudio=1304
+DescFinalAudio=1305
 
 [QUEST386]
 Nombre=Reduzir as Forças
@@ -4900,6 +5145,8 @@ Desc=Ouça com atenção. Os Guardas Reais de Banderbill usam um brazalete azul,
 DescFinal=Muito bem. Este brazalete azul, que antes usavam com tanto orgulho, agora está nas mãos da Legião. É exatamente o que precisávamos. Sua lealdade não passa despercebida. Pegue sua recompensa.
 Repetible=1
 RequiredLevel=25
+DescAudio=1300
+DescFinalAudio=1301
 
 [QUEST390]
 Nombre=O Vigia do Subsolo
