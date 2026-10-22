@@ -449,36 +449,6 @@ en_name=Tree
 
 '**************************** PUERTAS ****************************
 
-[OBJ7]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=7
-IndexCerrada=8
-IndexCerradaLlave=8
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ8]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=7
-IndexCerrada=8
-IndexCerradaLlave=8
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-'--------------> Otras <--------------
-
 [OBJ9]
 Name=Horquilla
 GrhIndex=508
@@ -587,34 +557,6 @@ apuñala=1
 Texto=Daño 1/2
 en_Name=Dagger
 WeaponType=2
-
-[OBJ16]
-Name=Puerta abierta
-GrhIndex=5599
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=16
-IndexCerrada=17
-IndexCerradaLlave=17
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ17]
-Name=Puerta cerrada
-GrhIndex=5600
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=16
-IndexCerrada=17
-IndexCerradaLlave=17
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
 
 [OBJ18] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Árbol
@@ -1433,17 +1375,6 @@ ObjType=15
 Agarrable=1
 Texto=Fogata
 
-[OBJ64]
-Name=Manzana Roja
-GrhIndex=506
-ObjType=1
-MinHam=10
-Valor=2
-Respawn=1
-Texto=Restaura 10 puntos de hambre
-en_name=Red Apple
-en_texto=Restores 10 hunger points
-
 [OBJ65]
 Name=Llave casa Ullathorpe Nro: 02
 ExtraStr=Llave de la casa de Ullathorpe 02
@@ -1663,18 +1594,6 @@ Info=Yacimiento minero
 MineralIndex=192
 VidaUtil=1500
 TiempoRegenerar=1900
-
-[OBJ81]
-Name=Sandia
-GrhIndex=523
-ObjType=1
-MinHP=4
-MinHam=25
-Valor=4
-Respawn=1
-Texto=Restaura 25 puntos de hambre
-en_texto=Restores 25 hunger points
-en_Name=Watermelon
 
 [OBJ82] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=8619
@@ -2991,73 +2910,6 @@ en_Name=Energy Potion
 
 '--------------> de Mujer <--------------
 
-[OBJ170]
-Name=Ropaje de Batida (Mujer)
-GrhIndex=2610
-RopajeHumano=879
-RopajeElfo=879
-RopajeElfoOscuro=2362
-RopajeEnano=1728
-RopajeOrco=2346
-RopajeGnomo=1728
-RopajeHumana=879
-RopajeElfa=879
-RopajeElfaOscura=2362
-RopajeEnana=1187
-RopajeOrca=3094
-RopajeGnoma=1187
-ObjType=3
-MAXDEF=0
-MINDEF=0
-Valor=50
-Crucial=0 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Ropaje de Batida (Mujer)
-en_Name=Batida Clothing (Woman)
-NoWiki=1
-
-[OBJ171]
-Name=Puerta abierta
-GrhIndex=5599
-ObjType=6
-Cerrada=0
-Agarrable=1
-IndexAbierta=171
-IndexCerrada=172
-IndexCerradaLlave=173
-
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ172]
-Name=Puerta cerrada
-GrhIndex=5600
-ObjType=6
-Cerrada=1
-Agarrable=1
-IndexAbierta=171
-IndexCerrada=172
-IndexCerradaLlave=173
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ173]
-Name=Puerta cerrada con llave ruinas
-GrhIndex=5600
-ObjType=6
-Cerrada=1
-llave=1
-clave=1017
-Agarrable=1
-IndexAbierta=171
-IndexCerrada=172
-IndexCerradaLlave=173
-
-Texto=Puerta cerrada con llave ruinas
-en_Name=ruined locked door
-ExtraStr=Puerta cerrada con llave ruinas
-
 [OBJ174]
 Name=Llave de Ruinas
 GrhIndex=509
@@ -3069,51 +2921,6 @@ ExtraStr=Llave de Ruinas
 en_texto=This key opens or closes Ruins
 en_Name=Ruins Key
 
-[OBJ175]
-Name=Puerta abierta
-GrhIndex=5599
-ObjType=6
-Cerrada=0
-llave=0
-clave=1018
-Agarrable=1
-IndexAbierta=175
-IndexCerrada=176
-IndexCerradaLlave=177
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ176]
-Name=Puerta cerrada
-GrhIndex=5600
-ObjType=6
-Cerrada=1
-llave=0
-clave=1018
-Agarrable=1
-IndexAbierta=175
-IndexCerrada=176
-IndexCerradaLlave=177
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ177]
-Name=Puerta cerrada con llave
-GrhIndex=5600
-ObjType=6
-Cerrada=1
-llave=1
-clave=1018
-Agarrable=1
-IndexAbierta=175
-IndexCerrada=176
-IndexCerradaLlave=177
-Texto=Puerta cerrada con llave
-en_Name=locked door
-ExtraStr=Puerta cerrada con llave
-
 [OBJ178]
 Name=Llave de Ruinas
 GrhIndex=509
@@ -3123,51 +2930,6 @@ Texto=Llave de Ruinas
 ExtraStr=Llave de Ruinas
 en_texto=This key opens or closes Ruins
 en_Name=Ruins Key
-
-[OBJ179]
-Name=Puerta abierta
-GrhIndex=5599
-ObjType=6
-Cerrada=0
-llave=0
-clave=1019
-Agarrable=1
-IndexAbierta=179
-IndexCerrada=180
-IndexCerradaLlave=181
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ180]
-Name=Puerta cerrada
-GrhIndex=5600
-ObjType=6
-Cerrada=1
-llave=0
-clave=1019
-Agarrable=1
-IndexAbierta=179
-IndexCerrada=180
-IndexCerradaLlave=181
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ181]
-Name=Puerta cerrada con llave
-GrhIndex=5600
-ObjType=6
-Cerrada=1
-llave=1
-clave=1019
-Agarrable=1
-IndexAbierta=179
-IndexCerrada=180
-IndexCerradaLlave=181
-Texto=Puerta cerrada con llave
-en_Name=locked door
-ExtraStr=Puerta cerrada con llave
 
 [OBJ182]
 Name=Llave de Ruinas
@@ -3191,51 +2953,6 @@ en_texto=This key opens or closes Dorck Fort
 en_Name=Fort Dorck Key
 
 '--------------> Fuerte Sudoeste de Ullathorpe <--------------
-
-[OBJ184]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-clave=1020
-Agarrable=1
-IndexAbierta=184
-IndexCerrada=185
-IndexCerradaLlave=186
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ185]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-clave=1020
-Agarrable=1
-IndexAbierta=184
-IndexCerrada=185
-IndexCerradaLlave=186
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ186]
-Name=Puerta cerrada con llave fuerte Ullathorpe
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-clave=1020
-Agarrable=1
-IndexAbierta=184
-IndexCerrada=185
-IndexCerradaLlave=186
-Texto=Puerta cerrada con llave fuerte Ullathorpe
-en_Name=Strong locked door ullathorpe
-ExtraStr=Puerta cerrada con llave fuerte Ullathorpe
 
 [OBJ187]
 CP1=GUERRERO
@@ -3931,34 +3648,6 @@ PielOsoPolar=0
 en_Name=Green Vestment
 Texto=Vestimenta Verde
 
-[OBJ241]
-Name=Puerta abierta
-GrhIndex=95007
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=241
-IndexCerrada=242
-IndexCerradaLlave=241
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ242]
-Name=Puerta cerrada
-GrhIndex=95006
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=241
-IndexCerrada=242
-IndexCerradaLlave=241
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
 [OBJ243] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=52089
 Name=Cofre de Pociones (Eventos)
@@ -3973,90 +3662,6 @@ it_Name=Pozioni toraciche (eventi)
 it_Texto=Pozioni toraciche per eventi
 pt_Name=Poções de peito (eventos)
 pt_Texto=Poções no peito para eventos
-
-[OBJ244]
-Name=Puerta abierta
-GrhIndex=9199
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=244
-IndexCerrada=245
-IndexCerradaLlave=245
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ245]
-Name=Puerta cerrada
-GrhIndex=9193
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=244
-IndexCerrada=245
-IndexCerradaLlave=245
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ246]
-Name=Puerta abierta
-GrhIndex=9200
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=246
-IndexCerrada=247
-IndexCerradaLlave=247
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ247]
-Name=Puerta cerrada
-GrhIndex=9194
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=246
-IndexCerrada=247
-IndexCerradaLlave=247
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ248]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=248
-IndexCerrada=249
-IndexCerradaLlave=249
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ249]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=248
-IndexCerrada=249
-IndexCerradaLlave=249
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
 
 [OBJ250]
 Name=Puerta abierta
@@ -4085,112 +3690,6 @@ IndexCerradaLlave=251
 Texto=Puerta cerrada
 en_name=Door closed
 ExtraStr=Puerta cerrada
-
-[OBJ252]
-Name=Puerta abierta
-GrhIndex=9203
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=252
-IndexCerrada=253
-IndexCerradaLlave=253
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ253]
-Name=Puerta cerrada
-GrhIndex=9197
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=252
-IndexCerrada=253
-IndexCerradaLlave=253
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ254]
-Name=Puerta abierta
-GrhIndex=9204
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=254
-IndexCerrada=255
-IndexCerradaLlave=255
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ255]
-Name=Puerta cerrada
-GrhIndex=9198
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=254
-IndexCerrada=255
-IndexCerradaLlave=255
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ263]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=25
-Agarrable=1
-IndexAbierta=263
-IndexCerrada=264
-IndexCerradaLlave=265
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ264]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=25
-Agarrable=1
-IndexAbierta=263
-IndexCerrada=264
-IndexCerradaLlave=265
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ265]
-Name=Puerta cerrada con Llave casa 1 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=25
-Agarrable=1
-IndexAbierta=263
-IndexCerrada=264
-IndexCerradaLlave=265
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 1 of Old banderbill
-ExtraStr=Esta honorable casa pertenece a
-
-'--------------> Banderbill <--------------
 
 [OBJ266]
 Name=Llave casa vieja Banderbill Nro: 01
@@ -4263,66 +3762,6 @@ Texto=Llave de la casa 2 de la vieja Banderbill
 en_Name=Old Banderbill House Key 2
 
 '--------------> Casa número 3 de Banderbill <--------------
-
-[OBJ271]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=27
-Agarrable=1
-IndexAbierta=271
-IndexCerrada=272
-IndexCerradaLlave=273
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ272]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=27
-Agarrable=1
-IndexAbierta=271
-IndexCerrada=272
-IndexCerradaLlave=273
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ273]
-Name=Puerta cerrada con Llave casa 3 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=27
-Agarrable=1
-IndexAbierta=271
-IndexCerrada=272
-IndexCerradaLlave=273
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 3 of Old banderbill
-ExtraStr=Esta honorable casa pertenece a
-
-[OBJ274]
-Name=Llave casa vieja Banderbill Nro: 03
-ExtraStr=Llave de la casa 3 de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=27
-Valor=
-Texto=Llave de la casa 3 de la vieja Banderbill
-en_Name=Old Banderbill House Key 3
-
-'--------------> Casa número 4 de Banderbill <--------------
 
 [OBJ275]
 Name=Puerta abierta
@@ -4432,18 +3871,6 @@ en_texto=This honorable house belongs to
 en_Name=locked door house 5 of Old banderbill
 ExtraStr=Esta honorable casa pertenece a
 
-[OBJ282]
-Name=Llave casa vieja Banderbill Nro: 05
-ExtraStr=Llave de la casa 5 de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=29
-Valor=
-Texto=Llave de la casa 5 de la vieja Banderbill
-en_Name=Old Banderbill House Key 5
-
-'--------------> Casa número 6 de Banderbill <--------------
-
 [OBJ283]
 Name=Puerta abierta
 GrhIndex=9201
@@ -4503,66 +3930,6 @@ Texto=Llave de la casa 6 de la vieja Banderbill
 en_Name=Old Banderbill House Key 6
 
 '--------------> Casa número 7 de Banderbill <--------------
-
-[OBJ287]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=31
-Agarrable=1
-IndexAbierta=287
-IndexCerrada=288
-IndexCerradaLlave=289
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ288]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=31
-Agarrable=1
-IndexAbierta=287
-IndexCerrada=288
-IndexCerradaLlave=289
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ289]
-Name=Puerta cerrada con Llave casa 7 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=31
-Agarrable=1
-IndexAbierta=287
-IndexCerrada=288
-IndexCerradaLlave=289
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 7 of Old banderbill
-ExtraStr=Esta honorable casa pertenece a
-
-[OBJ290]
-Name=Llave casa vieja Banderbill Nro: 07
-ExtraStr=Llave de la casa 7 de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=31
-Valor=
-Texto=Llave de la casa 7 de la vieja Banderbill
-en_Name=Old Banderbill House Key 7
-
-'--------------> Casa número 8 de Banderbill <--------------
 
 [OBJ291]
 Name=Puerta abierta
@@ -4742,51 +4109,6 @@ en_Name=Old Banderbill Grand Council Key
 
 '--------------> Vault 1 del Gran Consejo de Banderbill <--------------
 
-[OBJ303]
-Name=Puerta abierta
-GrhIndex=9199
-ObjType=6
-Cerrada=0
-llave=0
-Clave=35
-Agarrable=1
-IndexAbierta=303
-IndexCerrada=304
-IndexCerradaLlave=305
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ304]
-Name=Puerta cerrada
-GrhIndex=9193
-ObjType=6
-Cerrada=1
-llave=0
-Clave=35
-Agarrable=1
-IndexAbierta=303
-IndexCerrada=304
-IndexCerradaLlave=305
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ305]
-Name=Puerta cerrada con Llave  Bóveda 1 Gran Consejo de Banderbill
-GrhIndex=9193
-ObjType=6
-Cerrada=1
-llave=1
-Clave=35
-Agarrable=1
-IndexAbierta=303
-IndexCerrada=304
-IndexCerradaLlave=305
-Texto=Puerta cerrada con Llave  Bóveda 1 Gran Consejo de Banderbill
-en_Name=locked door vualt 1 banderbill grand Banderbill Council
-ExtraStr=Puerta cerrada con Llave  Bóveda 1 Gran Consejo de Banderbill
-
 [OBJ306]
 Name=Llave bóveda 1 del Gran Consejo vieja Banderbill
 ExtraStr=Llave de la bóveda 1 del Gran Consejo de la vieja Banderbill
@@ -4800,51 +4122,6 @@ en_Name=Old Banderbill Grand Council Vault 1 Key
 
 '--------------> Vault 2 del Gran Consejo de Banderbill <--------------
 
-[OBJ307]
-Name=Puerta abierta
-GrhIndex=9199
-ObjType=6
-Cerrada=0
-llave=0
-Clave=36
-Agarrable=1
-IndexAbierta=307
-IndexCerrada=308
-IndexCerradaLlave=309
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ308]
-Name=Puerta cerrada
-GrhIndex=9193
-ObjType=6
-Cerrada=1
-llave=0
-Clave=36
-Agarrable=1
-IndexAbierta=307
-IndexCerrada=308
-IndexCerradaLlave=309
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ309]
-Name=Puerta cerrada con Llave Bóveda 2 Gran Consejo de Banderbill
-GrhIndex=9193
-ObjType=6
-Cerrada=1
-llave=1
-Clave=36
-Agarrable=1
-IndexAbierta=307
-IndexCerrada=308
-IndexCerradaLlave=309
-Texto=Puerta cerrada con Llave Bóveda 2 Gran Consejo de Banderbill
-en_Name=Locked door vault 2 grand Banderbill Council
-ExtraStr=Puerta cerrada con Llave Bóveda 2 Gran Consejo de Banderbill
-
 [OBJ310]
 Name=Llave bóveda 2 del Gran Consejo vieja Banderbill
 ExtraStr=Llave de la bóveda 2 del Gran Consejo de la vieja Banderbill
@@ -4857,51 +4134,6 @@ en_texto=This Key opens or closes one of the vaults of the Great Council of the 
 en_Name=Old Banderbill Grand Council Vault 2 Key
 
 '--------------> Bóveda de Finanzas Goliath <--------------
-
-[OBJ311]
-Name=Puerta abierta
-GrhIndex=9199
-ObjType=6
-Cerrada=0
-llave=0
-Clave=37
-Agarrable=1
-IndexAbierta=311
-IndexCerrada=312
-IndexCerradaLlave=313
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ312]
-Name=Puerta cerrada
-GrhIndex=9193
-ObjType=6
-Cerrada=1
-llave=0
-Clave=37
-Agarrable=1
-IndexAbierta=311
-IndexCerrada=312
-IndexCerradaLlave=313
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ313]
-Name=Puerta cerrada con llave Finanzas Goliath
-GrhIndex=9193
-ObjType=6
-Cerrada=1
-llave=1
-Clave=37
-Agarrable=1
-IndexAbierta=311
-IndexCerrada=312
-IndexCerradaLlave=313
-Texto=Puerta cerrada con llave Finanzas Goliath
-en_Name=locked door finance Goliath
-ExtraStr=Puerta cerrada con llave Finanzas Goliath
 
 [OBJ314]
 Name=Llave bóveda de Finanzas Goliath
@@ -5391,76 +4623,6 @@ en_texto=This honorable house belongs to
 en_Name=locked door house 17 of Old banderbill
 ExtraStr=Esta honorable casa pertenece a
 
-[OBJ351]
-Name=Llave casa vieja Banderbill Nro: 17
-GrhIndex=509
-ObjType=9
-Clave=44
-Valor=
-Texto=Llave de la casa 17 de la vieja Banderbill
-ExtraStr=Llave de la casa 17 de la vieja Banderbill
-en_Name=Old Banderbill House Key 17
-
-'--------------> Casa número 18 de Banderbill <--------------
-
-[OBJ352]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=45
-Agarrable=1
-IndexAbierta=352
-IndexCerrada=353
-IndexCerradaLlave=354
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ353]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=45
-Agarrable=1
-IndexAbierta=352
-IndexCerrada=353
-IndexCerradaLlave=354
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ354]
-Name=Puerta cerrada con Llave casa 18 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=45
-Agarrable=1
-IndexAbierta=352
-IndexCerrada=353
-IndexCerradaLlave=354
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 18 of Old Banderbill
-ExtraStr=Esta honorable casa pertenece a
-
-[OBJ355]
-Name=Llave casa vieja Banderbill Nro: 18
-GrhIndex=509
-ObjType=9
-Clave=45
-Valor=
-Texto=Llave de la casa 18 de la vieja Banderbill
-ExtraStr=Llave de la casa 18 de la vieja Banderbill
-en_Name=Old Banderbill House Key 18
-
 [OBJ356]
 Name=Cofre de Fuegos Artificiales
 GrhIndex=48951
@@ -5928,54 +5090,6 @@ Nowiki=1
 
 '--------------> Isla Veleta <--------------
 
-[OBJ373]
-Name=Puerta abierta
-Info=Isla Veleta
-GrhIndex=9202
-ObjType=6
-Cerrada=0
-llave=0
-clave=49
-Agarrable=1
-IndexAbierta=373
-IndexCerrada=374
-IndexCerradaLlave=375
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ374]
-Name=Puerta cerrada
-Info=Isla Veleta
-GrhIndex=9196
-ObjType=6
-Cerrada=1
-llave=0
-clave=49
-Agarrable=1
-IndexAbierta=373
-IndexCerrada=374
-IndexCerradaLlave=375
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ375]
-Name=Puerta cerrada con Llave Prisión de isla Veleta
-Info=Isla Veleta
-GrhIndex=9196
-ObjType=6
-Cerrada=1
-llave=1
-clave=49
-Agarrable=1
-IndexAbierta=373
-IndexCerrada=374
-IndexCerradaLlave=375
-Texto=Puerta cerrada con Llave Prisión de isla Veleta
-en_Name=locked door veleta island prison
-ExtraStr=Puerta cerrada con Llave Prisión de isla Veleta
-
 [OBJ376]
 Name=Llave de Isla Veleta
 ExtraStr=Llave de Isla Veleta
@@ -6195,31 +5309,6 @@ en_texto=It cures 60 to 85 Health points and eliminates negative effects of the 
 en_Name=Divine Prayer (Cleric)
 NoWiki=1
 SPELLINDEX=132
-
-[OBJ397]
-Name=Ralentizar
-GrhIndex=55485
-Valor=200000
-Crucial=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-MinELV=1
-HechizoIndex=57
-Objtype=24
-Texto=Los movimientos del objetivo pasan a ser lentos.
-en_name=Slow down (Wizard)
-en_texto=The movements of the target become slow.
-NoWiki=1
-SPELLINDEX=57
 
 [OBJ399]
 CP1=GUERRERO
@@ -6815,54 +5904,6 @@ en_Name=Lindos House Key 6
 
 '--------------> Abadía de Lindos <--------------
 
-[OBJ441]
-Name=Puerta abierta
-GrhIndex=9203
-ObjType=6
-Cerrada=0
-llave=0
-clave=1056
-Agarrable=1
-IndexAbierta=441
-IndexCerrada=442
-IndexCerradaLlave=443
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ442]
-Name=Puerta cerrada
-GrhIndex=9197
-ObjType=6
-Cerrada=1
-llave=0
-clave=1056
-Agarrable=1
-IndexAbierta=441
-IndexCerrada=442
-IndexCerradaLlave=443
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ443]
-Name=Puerta cerrada con Llave Abadía de Lindos
-GrhIndex=9197
-ObjType=6
-Cerrada=1
-llave=1
-clave=1056
-Agarrable=1
-IndexAbierta=441
-IndexCerrada=442
-IndexCerradaLlave=443
-Texto=Puerta cerrada con Llave Abadía de Lindos
-en_texto=This honorable house belongs to
-en_Name=door locked with key abbey of lindos
-ExtraStr=Puerta cerrada con Llave Abadía de Lindos
-
 [OBJ444]
 Name=Llave Abadía de Lindos
 ExtraStr=Llave de la Abadía de Lindos
@@ -6875,51 +5916,6 @@ en_Name=Lindos Abbey Key
 
 '--------------> Vault de Abadía de Lindos <--------------
 
-[OBJ445]
-Name=Puerta abierta
-GrhIndex=9203
-ObjType=6
-Cerrada=0
-llave=0
-clave=1057
-Agarrable=1
-IndexAbierta=445
-IndexCerrada=446
-IndexCerradaLlave=447
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ446]
-Name=Puerta cerrada
-GrhIndex=9197
-ObjType=6
-Cerrada=1
-llave=0
-clave=1057
-Agarrable=1
-IndexAbierta=445
-IndexCerrada=446
-IndexCerradaLlave=447
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ447]
-Name=Puerta cerrada con Llave Bóveda Abadía de Lindos
-GrhIndex=9197
-ObjType=6
-Cerrada=1
-llave=1
-clave=1057
-Agarrable=1
-IndexAbierta=445
-IndexCerrada=446
-IndexCerradaLlave=447
-Texto=Puerta cerrada con Llave Bóveda Abadía de Lindos
-en_Name=locked door vault abbey of lindos
-ExtraStr=Puerta cerrada con Llave Bóveda Abadía de Lindos
-
 [OBJ448]
 Name=Llave bóveda Abadía de Lindos
 ExtraStr=Llave de la bóveda de la Abadía de Lindos
@@ -6931,51 +5927,6 @@ Texto=Llave de la bóveda de la Abadía de Lindos
 en_Name=Lindos Abbey Vault Key
 
 '--------------> Prisión de Banderbill <--------------
-
-[OBJ449]
-Name=Puerta abierta
-GrhIndex=9202
-ObjType=6
-Cerrada=0
-llave=0
-clave=1058
-Agarrable=1
-IndexAbierta=449
-IndexCerrada=450
-IndexCerradaLlave=451
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ450]
-Name=Puerta cerrada
-GrhIndex=9196
-ObjType=6
-Cerrada=1
-llave=0
-clave=1058
-Agarrable=1
-IndexAbierta=449
-IndexCerrada=450
-IndexCerradaLlave=451
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ451]
-Name=Puerta cerrada con Llave Prisión de Banderbill
-GrhIndex=9196
-ObjType=6
-Cerrada=1
-llave=1
-clave=1058
-Agarrable=1
-IndexAbierta=449
-IndexCerrada=450
-IndexCerradaLlave=451
-Texto=Puerta cerrada con Llave Prisión de Banderbill
-en_Name=locked door banderbill prision
-ExtraStr=Puerta cerrada con Llave Prisión de Banderbill
 
 [OBJ452]
 Name=Llave Prisión vieja Banderbill
@@ -7525,29 +6476,6 @@ IndexCerrada=483
 IndexCerradaLlave=484
 Texto=Puerta de Puerta Meson
 
-[OBJ486]
-Name=Vestimenta Común (Bajo)
-GrhIndex=59361
-RopajeHumano=16
-RopajeElfo=16
-RopajeElfoOscuro=1546
-RopajeEnano=3105
-RopajeOrco=2560
-RopajeGnomo=3105
-RopajeHumana=2686
-RopajeElfa=2686
-RopajeElfaOscura=2734
-RopajeEnana=2702
-RopajeOrca=2718
-RopajeGnoma=2702
-ObjType=3
-MAXDEF=0
-MINDEF=0
-Valor=50
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-en_Name=Basic Vestment (E/G)
-Texto=Vestimenta Común (Bajo)
-
 [OBJ487]
 Name=Dama de las Tinieblas
 NumRopaje=208
@@ -7592,23 +6520,6 @@ RopajeEnana=208
 RopajeOrca=208
 RopajeGnoma=208
 
-[OBJ488]
-Name=White Lady (M)
-NumRopaje=3107
-GrhIndex=59354
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=2
-MINDEF=1
-Valor=50000
-Mujer=1
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=White Lady (M)
-en_Name=White Lady (Woman)
-
 [OBJ490] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=55394
 Name=Fragmento de Núcleo Terráneo
@@ -7629,20 +6540,6 @@ Name=Fragmento de la Brasa Primigenia
 Texto=Item de quest
 ObjType=100
 Valor=0
-
-[OBJ494]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=494
-IndexCerrada=498
-IndexCerradaLlave=498
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
 
 [OBJ495]
 CP1=PALADIN
@@ -7692,53 +6589,6 @@ peso=360
 subastable=1
 Crucial=1
 
-[OBJ498]
-Name=Puerta cerrada
-GrhIndex=95014
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=494
-IndexCerrada=498
-IndexCerradaLlave=498
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ499]
-Name=Cota de Mallas (Mujer)
-NumRopaje=2058
-GrhIndex=30867
-MAXDEF=22
-MINDEF=15
-Valor=7200
-Mujer=1
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-CP7=DRUIDA
-CP8=BARDO
-CP12=MAGO
-MinELV=1
-peso=100
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Cota de Mallas (Mujer)
-RopajeHumano=2058
-RopajeElfo=2058
-RopajeElfoOscuro=1834
-RopajeEnano=1159
-RopajeOrco=1786
-RopajeGnomo=1159
-RopajeHumana=2058
-RopajeElfa=2058
-RopajeElfaOscura=1834
-RopajeEnana=1159
-RopajeOrca=1786
-RopajeGnoma=1159
-
 [OBJ500]
 Name=Armadura Bruñida
 GrhIndex=41476
@@ -7775,57 +6625,6 @@ peso=500
 Texto=Armadura Bruñida
 en_Name=Burnished armor (E/G)
 
-[OBJ501]
-Name=Vestimenta de Campesino
-GrhIndex=15129
-RopajeHumano=111
-RopajeElfo=111
-RopajeElfoOscuro=1544
-RopajeEnano=1164
-RopajeOrco=2558
-RopajeGnomo=1164
-RopajeHumana=2684
-RopajeElfa=2684
-RopajeElfaOscura=2732
-RopajeEnana=2700
-RopajeOrca=2716
-RopajeGnoma=2700
-ObjType=3
-MAXDEF=5
-MINDEF=3
-Valor=700
-CP3=PIRATA
-CP12=MAGO
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-peso=60
-Texto=Vestimenta de Campesino
-en_Name=Farmer Vestment
-
-[OBJ502]'Borrar proxima temporada
-Name=Vestimenta de Campo (Bajos)
-GrhIndex=1470
-RopajeHumano=60
-RopajeElfo=60
-RopajeElfoOscuro=2311
-RopajeEnano=1018
-RopajeOrco=2083
-RopajeGnomo=1018
-RopajeHumana=112
-RopajeElfa=60
-RopajeElfaOscura=2311
-RopajeEnana=1018
-RopajeOrca=2083
-RopajeGnoma=1018
-ObjType=3
-MAXDEF=5
-MINDEF=3
-Valor=650
-CP3=PIRATA
-CP12=MAGO
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Vestimenta de Campo (Bajos)
-en_Name=Field Vestment (E/G)
-
 [OBJ503]
 Name=Trampa Visual (M)
 GrhIndex=5279
@@ -7859,62 +6658,6 @@ Crucial=1
 peso=200
 Texto=Trampa Visual (M)
 en_Name=Visual Trap (M)
-
-[OBJ504]
-Name=Puerta abierta
-GrhIndex=95018
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=504
-IndexCerrada=505
-IndexCerradaLlave=505
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ505]
-Name=Puerta cerrada
-GrhIndex=95015
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=504
-IndexCerrada=505
-IndexCerradaLlave=505
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ506]
-Name=Puerta abierta
-GrhIndex=95019
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=506
-IndexCerrada=507
-IndexCerradaLlave=507
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ507]
-Name=Puerta cerrada
-GrhIndex=95016
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=506
-IndexCerrada=507
-IndexCerradaLlave=507
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
 
 [OBJ508]
 Name=Ropa Estuaria (M)
@@ -8055,34 +6798,6 @@ PielOsoPardo=0
 PielOsoPolar=0
 en_Name=Basic Vestment
 Texto=Vestimenta Común
-
-[OBJ516]
-Name=Puerta abierta
-GrhIndex=95020
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=516
-IndexCerrada=517
-IndexCerradaLlave=517
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ517]
-Name=Puerta cerrada
-GrhIndex=95017
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=516
-IndexCerrada=517
-IndexCerradaLlave=517
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
 
 [OBJ519]
 CP1=GUERRERO
@@ -8684,49 +7399,6 @@ RopajeHumano=2230
 RopajeOrca=3312
 RopajeOrco=3312
 
-[OBJ572]
-Name=Botella de Agua (Newbie)
-GrhIndex=537
-ObjType=13
-MinAgu=60
-Valor=0
-newbie=1
-Texto=Restaura 60 puntos de sed
-Instransferible=1
-Destruye=1
-en_name=Water bottle (Newbie)
-en_texto=Restores 60 thirst points
-
-[OBJ573]
-Name=Manzana Roja (Newbie)
-GrhIndex=506
-ObjType=1
-MinHam=10
-Valor=0
-newbie=1
-Instransferible=1
-Texto=Restaura 10 puntos de hambre
-Destruye=1
-en_name=Red Apple (Newbie)
-en_texto=Restores 10 hunger points
-
-'--------------> Martillos <--------------
-
-[OBJ574]
-Name=Martillo de Piedra (Newbie)
-GrhIndex=708
-Objtype=2
-MinHIT=2
-MaxHIT=4
-Valor=0
-Anim=1
-newbie=1
-Texto=Martillo de Piedra (Newbie)
-Instransferible=1
-en_Name=Stone Hammer (Newbie)
-NoWiki=1
-WeaponType=5
-
 [OBJ577]
 Name=Cartel
 Info=Magia Versión 2
@@ -9160,15 +7832,6 @@ Valor=0
 Instransferible=1
 Intirable=1
 NoseCae=1
-
-[OBJ613]
-Name=Tapete
-Info=Medio
-GrhIndex=26206
-ObjType=20
-Agarrable=1
-Texto=Tapete
-en_Name=rug
 
 [OBJ614]
 Name=Tapete
@@ -9765,15 +8428,6 @@ NoWiki=1
 
 '--------------> Cascos <--------------
 
-[OBJ659] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
-Name=MONTURA FUEGO
-Texto=Te permite montar un Unicornio
-GrhIndex=31254
-ObjType=44
-Valor=0
-NoseCae=1
-VELOCIDAD=1
-
 [OBJ663]
 Name=Escalera hacia arriba
 GrhIndex=955
@@ -10301,22 +8955,6 @@ Texto=Llave de la casa de Nix 17
 NFT=0
 en_Name=Nix House Key 17
 
-[OBJ706]
-Name=Carcaj de Flechas Incendiarias
-GrhIndex=49010
-ObjType=48
-Subtipo=2
-Agarrable=0
-Texto=Carcaj de Flechas Incendiarias
-CantItem=1
-CantEntrega=1
-Item1=3536	'Flecha Incendiaria
-Cantidad1=500
-SkCarpinteria=100
-Madera=3675
-Valor=22050
-NoSeCae=1
-
 [OBJ707]
 Name=Herradura de Caballo Marrón 
 GrhIndex=28794
@@ -10369,30 +9007,6 @@ Objtype=29
 Crucial=1
 Texto=Herradura de Unicornio
 en_Name=Unicorn Horseshoe
-
-[OBJ713]'Borrar proxima temporada
-Name=Traje de Novio (Bajos)
-GrhIndex=11101
-RopajeHumano=28
-RopajeElfo=28
-RopajeElfoOscuro=1873
-RopajeEnano=4758
-RopajeOrco=1857
-RopajeGnomo=4758
-RopajeHumana=28
-RopajeElfa=28
-RopajeElfaOscura=1873
-RopajeEnana=4758
-RopajeOrca=1857
-RopajeGnoma=4758
-MinELV=1
-ObjType=3
-MAXDEF=3
-MINDEF=2
-Valor=340
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Traje de Novio (Bajos)
-en_Name=Wedding Suit (E/G)
 
 [OBJ714]
 Name=Árbol
@@ -11429,54 +10043,6 @@ en_Name=Arghal House Key 15
 
 '--------------> Mansión de Suramei <--------------
 
-[OBJ818]
-Name=Puerta abierta
-GrhIndex=9203
-ObjType=6
-Cerrada=0
-llave=0
-clave=1100
-Agarrable=1
-IndexAbierta=818
-IndexCerrada=819
-IndexCerradaLlave=820
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ819]
-Name=Puerta cerrada
-GrhIndex=9197
-ObjType=6
-Cerrada=1
-llave=0
-clave=1100
-Agarrable=1
-IndexAbierta=818
-IndexCerrada=819
-IndexCerradaLlave=820
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ820]
-Name=Puerta cerrada con Llave Mansión de Suramei
-GrhIndex=9197
-ObjType=6
-Cerrada=1
-llave=1
-clave=1100
-Agarrable=1
-IndexAbierta=818
-IndexCerrada=819
-IndexCerradaLlave=820
-Texto=Puerta cerrada con Llave Mansión de Suramei
-en_texto=This honorable house belongs to
-en_Name=Suramei Mansion locked door
-ExtraStr=Puerta cerrada con Llave Mansión de Suramei
-
 [OBJ821]
 Name=Llave Mansión de Suramei
 ExtraStr=Llave de la Mansión de Suramei
@@ -11488,68 +10054,6 @@ Texto=Llave de la Mansión de Suramei
 en_Name=Suramei Mansion Key
 
 '--------------> Casa número 1 de Illiandor <--------------
-
-[OBJ822]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-clave=101
-Agarrable=1
-IndexAbierta=822
-IndexCerrada=823
-IndexCerradaLlave=824
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ823]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-clave=101
-Agarrable=1
-IndexAbierta=822
-IndexCerrada=823
-IndexCerradaLlave=824
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ824]
-Name=Puerta cerrada con llave Casa 1 de illiandor
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-clave=101
-Agarrable=1
-IndexAbierta=822
-IndexCerrada=823
-IndexCerradaLlave=824
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 1 of Illiandor
-ExtraStr=Esta honorable casa pertenece a
-
-'--------------> Illiandor <--------------
-
-[OBJ825]
-Name=Llave casa Illiandor Nro: 01
-ExtraStr=Llave de la casa 1 de Illiandor
-GrhIndex=509
-ObjType=9
-Clave=101
-Valor=
-Texto=Llave de la casa 1 de Illiandor
-en_Name=Illiandor House Key 1
-
-'--------------> Casa número 2 de Illiandor <--------------
 
 [OBJ826]
 Name=Puerta abierta
@@ -11598,78 +10102,6 @@ Texto=Esta honorable casa pertenece a
 en_texto=This honorable house belongs to
 en_Name=locked door house 2 of Illiandor
 ExtraStr=Esta honorable casa pertenece a
-
-[OBJ829]
-Name=Llave casa Illiandor Nro: 02
-ExtraStr=Llave de la casa 2 de Illiandor
-GrhIndex=509
-ObjType=9
-Clave=102
-Valor=
-Texto=Llave de la casa 2 de Illiandor
-en_Name=Illiandor House Key 2
-
-'--------------> Casa número 3 de Illiandor <--------------
-
-[OBJ830]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-clave=103
-Agarrable=1
-IndexAbierta=830
-IndexCerrada=831
-IndexCerradaLlave=832
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ831]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-clave=103
-Agarrable=1
-IndexAbierta=830
-IndexCerrada=831
-IndexCerradaLlave=832
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ832]
-Name=Puerta cerrada con llave Casa 3 de illiandor
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-clave=103
-Agarrable=1
-IndexAbierta=830
-IndexCerrada=831
-IndexCerradaLlave=832
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 3 of Illiandor
-ExtraStr=Esta honorable casa pertenece a
-
-[OBJ833]
-Name=Llave casa Illiandor Nro: 03
-ExtraStr=Llave de la casa 3 de Illiandor
-GrhIndex=509
-ObjType=9
-Clave=103
-Valor=
-Texto=Llave de la casa 3 de Illiandor
-en_Name=Illiandor House 3 Key
-
-'--------------> Casa número 4 de Illiandor <--------------
 
 [OBJ834]
 Name=Puerta abierta
@@ -11779,18 +10211,6 @@ en_texto=This honorable house belongs to
 en_Name=locked door house 5 of illiandor
 ExtraStr=Esta honorable casa pertenece a
 
-[OBJ841]
-Name=Llave casa Illiandor Nro: 05
-ExtraStr=Llave de la casa 5 de Illiandor
-GrhIndex=509
-ObjType=9
-Clave=105
-Valor=
-Texto=Llave de la casa 5 de Illiandor
-en_Name=Illiandor house 5 Key
-
-'--------------> Casa número 6 de Illiandor <--------------
-
 [OBJ842]
 Name=Puerta abierta
 GrhIndex=5592
@@ -11838,18 +10258,6 @@ Texto=Esta honorable casa pertenece a
 en_texto=This honorable house belongs to
 en_Name=locked door house 6 of Lilliandor
 ExtraStr=Esta honorable casa pertenece a
-
-[OBJ845]
-Name=Llave casa Illiandor Nro: 06
-ExtraStr=Llave de la casa 6 de Illiandor
-GrhIndex=509
-ObjType=9
-Clave=106
-Valor=
-Texto=Llave de la casa 6 de Illiandor
-en_Name=Illiandor House Key 6
-
-'--------------> Casa número 7 de Illiandor <--------------
 
 [OBJ846]
 Name=Puerta abierta
@@ -11958,76 +10366,6 @@ Texto=Esta honorable casa pertenece a
 en_texto=This honorable house belongs to
 en_Name=locked door house 8 of Illiandor
 ExtraStr=Esta honorable casa pertenece a
-
-[OBJ853]
-Name=Llave casa Illiandor Nro: 08
-ExtraStr=Llave de la casa 8 de Illiandor
-GrhIndex=509
-ObjType=9
-Clave=108
-Valor=
-Texto=Llave de la casa 8 de Illiandor
-en_Name=Key to house 8 of Illiandor
-
-'--------------> Casa número 9 de Illiandor <--------------
-
-[OBJ854]
-Name=Puerta abierta
-GrhIndex=9203
-ObjType=6
-Cerrada=0
-llave=0
-Clave=109
-Agarrable=1
-IndexAbierta=854
-IndexCerrada=855
-IndexCerradaLlave=856
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ855]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-Clave=109
-Agarrable=1
-IndexAbierta=854
-IndexCerrada=855
-IndexCerradaLlave=856
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ856]
-Name=Puerta cerrada con llave Casa 9 de illiandor
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-Clave=109
-Agarrable=1
-IndexAbierta=854
-IndexCerrada=855
-IndexCerradaLlave=856
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 9 by illiandor
-ExtraStr=Esta honorable casa pertenece a
-
-[OBJ857]
-Name=Llave casa Illiandor Nro: 09
-ExtraStr=Llave de la casa 9 de Illiandor
-GrhIndex=509
-ObjType=9
-Clave=109
-Valor=
-Texto=Llave de la casa 9 de Illiandor
-en_Name=Key to house 9 of Illiandor
 
 [OBJ860]
 Name=Cartel
@@ -12202,16 +10540,6 @@ NoWiki=1
 
 '**************************** RAICES ****************************
 
-[OBJ888]
-Name=Raiz
-GrhIndex=21926
-ObjType=42
-valor=21
-Texto=Brote intacto 
-en_name=Root
-en_texto=Allows you to build potions
-NoWiki=1
-
 [OBJ889]
 Name=Poción de Agilidad
 GrhIndex=28735
@@ -12360,13 +10688,6 @@ en_Name=Anti-Stupidity Potion (Alchemy)
 
 '--------------> Otros <--------------
 
-[OBJ897]
-Name=Cadáver
-GrhIndex=962
-ObjType=43
-Agarrable=1
-Texto=Cadáver
-
 [OBJ898]
 GrhIndex=49016
 Name=Olla de Alquimia (QUEST)
@@ -12374,29 +10695,6 @@ ObjType=18
 Texto=Herramienta necesaria para crear pociones de Alquimia
 Valor=0
 Crucial=1
-
-[OBJ901]
-Name=Ropa de Clan (Bajos)
-GrhIndex=46974
-RopajeHumano=24
-RopajeElfo=24
-RopajeElfoOscuro=1869
-RopajeEnano=3101
-RopajeOrco=1853
-RopajeGnomo=3101
-RopajeHumana=24
-RopajeElfa=24
-RopajeElfaOscura=1869
-RopajeEnana=3101
-RopajeOrca=1853
-RopajeGnoma=3101
-ObjType=3
-MAXDEF=5
-MINDEF=3
-Valor=500
-Texto=Ropa de Clan (Bajos)
-Nowiki=1
-en_Name=Clothes of Clan (E/G)
 
 [OBJ910]
 Name=Árbol
@@ -12409,18 +10707,6 @@ TiempoRegenerar=3600
 en_name=Tree
 
 '--------------> Tiama <--------------
-
-[OBJ911]
-Name=Llave casa Tiama Nro: 01
-ExtraStr=Llave de la casa de Tiama 01
-GrhIndex=509
-ObjType=9
-Clave=110
-valor=
-Texto=Llave de la casa de Tiama 01
-en_Name=Tiama house Key 01
-
-'--------------> Casa número 1 de Tiama <--------------
 
 [OBJ912]
 Name=Puerta abierta
@@ -12530,18 +10816,6 @@ en_texto=This honorable house belongs to
 en_Name=locked door house 2 of Tiama
 ExtraStr=Esta honorable casa pertenece a
 
-[OBJ919]
-Name=Llave casa Tiama Nro: 03
-ExtraStr=Llave de la casa 3 de Tiama
-GrhIndex=509
-ObjType=9
-Clave=112
-valor=
-Texto=Llave de la casa 3 de Tiama
-en_Name=Tiama House Key 3
-
-'--------------> Casa número 3 de Tiama <--------------
-
 [OBJ920]
 Name=Puerta abierta
 GrhIndex=5592
@@ -12649,18 +10923,6 @@ Texto=Esta honorable casa pertenece a
 en_texto=This honorable house belongs to
 en_Name=locked door house 4 of Tiama
 ExtraStr=Esta honorable casa pertenece a
-
-[OBJ927]
-Name=Llave casa Tiama Nro: 05
-ExtraStr=Llave de la casa 5 de Tiama
-GrhIndex=509
-ObjType=9
-Clave=114
-valor=
-Texto=Llave de la casa 5 de Tiama
-en_Name=Tiama House Key 5
-
-'--------------> Casa número 5 de Tiama <--------------
 
 [OBJ928]
 Name=Puerta abierta
@@ -12940,33 +11202,6 @@ Crucial=1
 Texto=Vestimenta de Aldeano
 en_Name=Villager Outfit
 
-[OBJ971]
-Name=Vestido de Novia (Bajas)
-NumRopaje=2763
-GrhIndex=11668
-ObjType=3
-MAXDEF=25
-MINDEF=20
-Valor=120000
-Mujer=1
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-RazaEnana=1
-RazaGnoma=1
-Texto=Vestido de Novia (Bajas)
-en_Name=Wedding Dress (E/G)
-RopajeEnana=2763
-RopajeGnoma=2763
-
-[OBJ974]
-Name=Anillo del Ladrón (+10)
-GrhIndex=880
-valor=500
-Objtype=20
-MinELV=1
-Texto=Aumenta tu Skills en 10 puntos
-en_texto=Increase your Skills by 10 points
-en_Name=Thief's ring (+10) +10) +10)
-
 [OBJ980]
 Name=Hacha Arrojadiza
 Objtype=2
@@ -13018,36 +11253,6 @@ Instransferible=1
 Texto=Túnica Elegante
 Nowiki=1
 en_Name=Elegant Rope
-
-[OBJ988]'Borrar proxima temporada
-Name=Vestimentas Tribales (Newbies)
-GrhIndex=11107
-RopajeHumano=114
-RopajeElfo=114
-RopajeElfoOscuro=1520
-RopajeEnano=1143
-RopajeOrco=1748
-RopajeGnomo=1143
-RopajeHumana=2491
-RopajeElfa=2491
-RopajeElfaOscura=2533
-RopajeEnana=2501
-RopajeOrca=2517
-RopajeGnoma=2501
-ObjType=3
-MAXDEF=1
-MINDEF=1
-newbie=1
-valor=0
-Instransferible=1
-RazaOrca=1
-Texto=Vestimentas Tribales (Newbies)
-Nowiki=1
-en_Name=Tribal vestment (Newbies)
-
-'--------------> Arcos y Ballestas <--------------
-
-'--------------> Gorros <--------------
 
 [OBJ992]
 CP1=GUERRERO
@@ -13165,29 +11370,6 @@ peso=100
 Texto=Defensa 8/12
 en_Name=Blue Leather Armor
 
-[OBJ999]
-Name=Escudo Infernal
-Anim=17
-NumRopaje=2
-GrhIndex=17520
-ObjType=16
-Subtipo=2
-MAXDEF=3
-MINDEF=1
-Valor=5500
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP12=MAGO
-MinELV=1
-peso=200
-Crucial=0
-Texto=Escudo Infernal
-Nowiki=1
-Porcentaje=100
-
 [OBJ1000]
 Name=Escudo de Plata
 Anim=74
@@ -13214,57 +11396,6 @@ Crucial=0
 Nowiki=1
 Porcentaje=100
 Texto=Escudo de Plata
-
-[OBJ1001]
-Name=Escudo Sangriento
-Anim=77
-MinELV=1
-NumRopaje=2
-GrhIndex=86128
-ObjType=16
-MAXDEF=16
-MINDEF=15
-Valor=4650
-CP1=BANDIDO
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP11=CLERIGO
-CP12=MAGO
-subastable=1
-DosManos=1
-Crucial=0
-MinHit=15
-Nowiki=1
-Porcentaje=100
-Texto=Escudo Sangriento
-
-[OBJ1002]
-Name=Escudo de Torre Imperial
-Anim=11
-NumRopaje=2
-GrhIndex=1019
-ObjType=16
-Subtipo=2
-MAXDEF=12
-MINDEF=8
-Valor=10000
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-MinELV=1
-Real=1
-Texto=Escudo de Torre Imperial
-Nowiki=1
-Porcentaje=100
 
 [OBJ1003]
 Name=Égida Templaria
@@ -14435,29 +12566,6 @@ Agarrable=1
 en_texto=One of the purest divinities who have set foot on these lands, Simp has earned a place thanks to everything he has offered in benevolence of these parts.
 en_Name=Simp Tombstone
 
-[OBJ1179]
-Name=Túnica Pretoriana
-NumRopaje=3047
-GrhIndex=3128
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=1
-MINDEF=1
-Valor=3
-peso=70
-Crucial=0
-Texto=Ahora eres de la Realeza!
-NoseCae=1
-Intirable=1
-Instransferible=1
-Nowiki=1
-en_Name=Praetorian Royal Robe
-
-'--------------> Decorativos <--------------
-
 [OBJ1183]
 Name=Sillon
 GrhIndex=593
@@ -14513,16 +12621,6 @@ Name=Petardo Elemental (NPC)
 ObjType=24
 Texto=Causa 180 a 220 puntos de daño.
 Valor=2400000
-
-[OBJ1190]
-GRHINDEX=324
-MAXDEF=37
-MINDEF=32
-NAME=Manto Encantado de Guinevere
-OBJTYPE=3
-TEXTO=Defensa 32/37
-
-'--------------> Deteriorados <--------------
 
 [OBJ1195]
 GRHINDEX=0
@@ -14701,34 +12799,6 @@ Agarrable=1
 IndexAbierta=1232
 IndexCerrada=1233
 IndexCerradaLlave=1233
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1234]
-Name=Puerta abierta
-GrhIndex=95005
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1234
-IndexCerrada=1235
-IndexCerradaLlave=1235
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1235]
-Name=Puerta cerrada
-GrhIndex=6962
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1234
-IndexCerrada=1235
-IndexCerradaLlave=1235
 Texto=Puerta cerrada
 en_name=Door closed
 ExtraStr=Puerta cerrada
@@ -14933,29 +13003,6 @@ CP9=ASESINO
 CP10=GUERRERO
 CP11=CLERIGO
 CP12=MAGO
-
-[OBJ1243]
-Name=Hacha de Hierro Vieja
-GrhIndex=44064
-Objtype=2
-MinHIT=7
-MaxHIT=19
-Valor=3500
-Anim=134
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP11=CLERIGO
-CP12=MAGO
-MinELV=1
-peso=75
-subastable=1
-Texto=Hacha de Hierro Vieja
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Nowiki=1
-WeaponType=7
 
 [OBJ1244]
 CP1=GUERRERO
@@ -15382,78 +13429,6 @@ MinELV=1
 Valor=30000
 Nowiki=1
 
-[OBJ1283]
-Name=Vestimentas de Mujer (Newbie)
-NumRopaje=2235
-GrhIndex=11501
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-mujer=1
-Valor=0
-MAXDEF=1
-MINDEF=0
-newbie=1
-Instransferible=1
-Texto=Vestimentas de Mujer (Newbie)
-en_Name=Woman vestment (Newbies)
-RopajeGnoma=2750
-RopajeEnana=2750
-RopajeHumana=2235
-RopajeElfa=2235
-RopajeElfaOscura=3692
-RopajeOrca=3317
-
-[OBJ1284]
-Name=Vestimentas de Mujer (Newbie)
-NumRopaje=2232
-GrhIndex=11498
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-Mujer=1
-Valor=0
-MAXDEF=1
-MINDEF=1
-newbie=1
-Instransferible=1
-Texto=Vestimentas de Mujer (Newbie)
-en_Name=Woman vestment (Newbies)
-RopajeGnoma=2747
-RopajeEnana=2747
-RopajeHumana=2232
-RopajeElfa=2232
-RopajeElfaOscura=3689
-RopajeOrca=3314
-
-[OBJ1285]
-Name=Vestimentas de Mujer (Newbie)
-NumRopaje=2233
-GrhIndex=11499
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-mujer=1
-Valor=0
-MAXDEF=1
-MINDEF=1
-newbie=1
-Instransferible=1
-Texto=Vestimentas de Mujer (Newbie)
-en_Name=Woman vestment (Newbies)
-RopajeGnoma=2748
-RopajeEnana=2748
-RopajeHumana=2233
-RopajeElfa=2233
-RopajeElfaOscura=3690
-RopajeOrca=3315
-
 [OBJ1293]
 Name=Pintura
 GrhIndex=20995
@@ -15524,99 +13499,6 @@ Valor=600
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Túnica Bordo
 en_Name=Bordo Robe
-
-[OBJ1328] 'no se usa actualmente - BORRAR 16.001: race-split deprecado, icono+ropaje basura (6/6 sin fuente)
-Name=Armadura de Placas Azules (M)
-NumRopaje=4921
-GrhIndex=3527
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-Mujer=1
-MAXDEF=45
-MINDEF=40
-Valor=30000
-LingH=350
-LingP=250
-LingO=100
-SkHerreria=80
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-MinELV=1
-peso=200
-Crucial=0
-Texto=Armadura de Placas Azules (M)
-RopajeHumano=4921
-RopajeElfo=4921
-RopajeElfoOscuro=4921
-RopajeEnano=4921
-RopajeOrco=4921
-RopajeGnomo=4921
-RopajeHumana=4921
-RopajeElfa=4921
-RopajeElfaOscura=4921
-RopajeEnana=4921
-RopajeOrca=4921
-RopajeGnoma=4921
-
-[OBJ1333]
-Name=Montura Real de Combatientes
-NumRopaje=721
-GrhIndex=9731
-ObjType=44
-valor=0
-Crucial=0
-CP7=DRUIDA
-CP8=BARDO
-CP12=MAGO
-Real=1
-Texto=Te permite cabalgar.
-SkillRequerido=Supervivencia-100
-Velocidad=1.3
-NoseCae=1
-Intirable=1
-Instransferible=1
-MINELV=1
-SND1=56
-en_texto=It allows you to ride.
-en_Name=Royal Saddle of Fighters
-
-'--------------> Portón principal Banderbill <--------------
-
-[OBJ1334]
-Name=Entrada Principal
-Info=Abierta
-GrhIndex=29554
-ObjType=6
-Cerrada=0
-Agarrable=1
-IndexAbierta=1334
-IndexCerrada=1335
-Texto=Entrada Principal
-IndexCerradaLlave=1335
-ExtraStr=Entrada Principal
-
-[OBJ1335]
-Name=Entrada Principal
-Info=Cerrada
-GrhIndex=29555
-ObjType=6
-Cerrada=1
-Agarrable=1
-IndexAbierta=1334
-IndexCerrada=1335
-Texto=Entrada Principal
-IndexCerradaLlave=1335
-ExtraStr=Entrada Principal
 
 [OBJ1336]
 Name=Puente
@@ -15701,68 +13583,6 @@ Intirable=1
 en_texto=It allows you to ride.
 Instransferible=1
 
-[OBJ1344]
-Name=Corcel Invencible
-NumRopaje=197
-GrhIndex=9729
-ObjType=44
-valor=
-Crucial=0
-Texto=Te permite cabalgar.
-NoseCae=1
-Intirable=1
-Instransferible=1
-SkillRequerido=Supervivencia-100
-Velocidad=1.33
-MINELV=1
-SND1=56
-en_texto=It allows you to ride.
-
-[OBJ1345]
-Name=Montura Real de Hechiceros
-NumRopaje=3234
-GrhIndex=9731
-ObjType=44
-valor=0
-Crucial=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-Real=1
-Texto=Te permite cabalgar.
-SkillRequerido=Supervivencia-100
-Velocidad=1.3
-NoseCae=1
-Intirable=1
-Instransferible=1
-MINELV=1
-SND1=56
-en_texto=It allows you to ride.
-en_Name=Wizard Royal Saddle
-
-[OBJ1346]
-Name=Montura de Caballo Combatiente
-NumRopaje=3232
-GrhIndex=9755
-ObjType=44
-Crucial=0
-Texto=Montura deprecada, intercambiala en Ullathorpe
-SkillRequerido=Supervivencia-100
-Velocidad=0.4
-NoseCae=1
-MINELV=32
-SND1=56
-Intirable=1
-en_texto=It allows you to ride.
-en_Name=Combatant Saddle
-Instransferible=1
-
 [OBJ1347] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 Name=Grifo Acorazado
 Texto=Te permite volar en un poderoso Grifo
@@ -15809,71 +13629,6 @@ INTIRABLE=1
 en_texto=Allows you to fly on a powerful Gryphon
 en_Name=War Gryphon
 
-[OBJ1349]
-Name=Montura Legionaria de Hechicero
-NumRopaje=3177
-GrhIndex=9729
-ObjType=44
-valor=0
-Crucial=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-Texto=Te permite cabalgar.
-NoseCae=1
-Intirable=1
-Instransferible=1
-Caos=1
-SkillRequerido=Supervivencia-100
-Velocidad=1.3
-MINELV=1
-SND1=56
-en_texto=It allows you to ride.
-en_Name=Sorcerer Legionary Saddle
-
-[OBJ1350]
-Name=Montura Legionaria de Combatiente
-NumRopaje=3197
-GrhIndex=9729
-ObjType=44
-valor=0
-Texto=Te permite cabalgar.
-CP7=DRUIDA
-CP8=BARDO
-CP12=MAGO
-NoseCae=1
-Intirable=1
-Instransferible=1
-Caos=1
-SkillRequerido=Supervivencia-100
-Velocidad=1.3
-MINELV=1
-SND1=56
-en_texto=It allows you to ride.
-en_Name=Combatant Legionary Saddle
-
-[OBJ1351]
-Name=Unicornio
-NumRopaje=723
-GrhIndex=9733
-ObjType=44
-valor=0
-NoseCae=1
-Texto=Te permite cabalgar.
-SkillRequerido=Supervivencia-100
-Velocidad=1.33
-MINELV=1
-SND1=56
-Intirable=1
-en_texto=It allows you to ride.
-en_Name=Unicorn
-
 [OBJ1352] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 Name=Grifo
 Texto=Te permite volar en un poderoso Grifo
@@ -15909,92 +13664,6 @@ Instransferible=1
 en_Name=Beginner Knuckles
 en_Texto=Beginner Knuckles
 Texto=Daño 1/2
-
-[OBJ1354]
-Name=Nudillos  (Newbie)
-GrhIndex=25678
-valor=0
-MINHIT=1
-MAXHIT=2
-Objtype=2
-WeaponType=8
-Crucial=0
-newbie=1
-Instransferible=1
-en_Name=Knuckles (Newbie)
-Texto=Nudillos (Newbie)
-
-[OBJ1355]
-Name=Arco Simple (Newbies)
-GrhIndex=17525
-Objtype=2
-MinHIT=1
-MaxHIT=3
-Valor=0
-Anim=7
-CP12=MAGO
-Proyectil=1
-Municiones=1
-Crucial=0
-newbie=1
-Instransferible=1
-Texto=Arco Simple (Newbies)
-en_Name=Single bow (Newbies)
-WeaponType=3
-
-'--------------> Báculos <--------------
-
-[OBJ1356]
-Name=Báculo (Newbie)
-GrhIndex=36143
-Anim=51
-Objtype=2
-MagicAbsoluteBonus=5
-MinHIT=1
-MaxHIT=2
-Valor=0
-Crucial=0
-newbie=1
-Texto=Báculo (Newbie)
-Instransferible=1
-WeaponType=4
-
-[OBJ1357]
-Name=Flecha (Newbies)
-GrhIndex=752
-Objtype=32
-Subtipo=1
-MinHIT=1
-MaxHIT=1
-Valor=0
-CP12=MAGO
-newbie=1
-Instransferible=1
-Texto=Flecha (Newbies)
-ProjectileType=1
-
-[OBJ1359]
-Name=Riendas del Huargo
-NumRopaje=3237
-GrhIndex=29967
-ObjType=44
-MinELV=1
-valor=
-CP3=LADRON
-CP4=TRABAJADOR
-CP6=CLERIGO
-CP7=DRUIDA
-CP8=BARDO
-CP12=MAGO
-Crucial=0
-Texto=Te permite usar al huargo de montura
-SkillRequerido=Supervivencia-100
-Velocidad=1.30
-SND1=59
-NoseCae=1
-Intirable=1
-en_texto=It allows you to ride.
-en_Name=Direwolf
 
 [OBJ1360]
 Name=Teleport a Newbie Dungeon (Nivel 2)
@@ -16062,95 +13731,6 @@ ObjType=29
 Crucial=0
 Texto=Gema caotica
 
-[OBJ1371]
-Name=Puerta abierta
-ExtraStr=Puerta abierta
-GrhIndex=95009
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1371
-IndexCerrada=1372
-IndexCerradaLlave=1373
-Texto=Puerta abierta
-en_name=Open door
-
-[OBJ1372]
-Name=Puerta cerrada
-ExtraStr=Puerta cerrada
-GrhIndex=26108
-ObjType=6
-Cerrada=1
-llave=0
-clave=1122
-Agarrable=1
-IndexAbierta=1371
-IndexCerrada=1372
-IndexCerradaLlave=1373
-
-Texto=Puerta cerrada
-en_name=Door closed
-
-[OBJ1373]
-Name=Puerta cerrada con llave Asamblea
-ExtraStr=Puerta cerrada con llave Asamblea
-GrhIndex=26108
-ObjType=6
-Cerrada=1
-llave=1
-clave=1122
-Agarrable=1
-IndexAbierta=1371
-IndexCerrada=1372
-IndexCerradaLlave=1373
-Texto=Puerta cerrada con llave Asamblea
-en_Name=locked door assembly
-
-[OBJ1374]
-Name=Puerta abierta
-ExtraStr=Puerta abierta
-GrhIndex=95008
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1374
-IndexCerrada=1375
-IndexCerradaLlave=1376
-Texto=Puerta abierta
-en_name=Open door
-
-[OBJ1375]
-Name=Puerta cerrada
-ExtraStr=Puerta cerrada
-GrhIndex=26105
-ObjType=6
-Cerrada=1
-llave=0
-clave=1122
-Agarrable=1
-IndexAbierta=1374
-IndexCerrada=1375
-IndexCerradaLlave=1376
-Texto=Puerta cerrada
-en_name=Door closed
-
-[OBJ1376]
-Name=Puerta cerrada con llave Asamblea
-ExtraStr=Puerta cerrada con llave Asamblea
-GrhIndex=26105
-ObjType=6
-Cerrada=1
-llave=1
-clave=1122
-Agarrable=1
-IndexAbierta=1374
-IndexCerrada=1375
-IndexCerradaLlave=1376
-Texto=Puerta cerrada con llave Asamblea
-en_Name=locked door assembly
-
 [OBJ1377]
 Name=Llave Asamblea
 GrhIndex=509
@@ -16162,54 +13742,6 @@ ExtraStr=Llave de la Asamblea
 en_Name=Assembly Key
 
 '>>>>>>>>>>>>>>>>>>>>>Arenas<<<<<<<<<<<<<<<<<<<<<
-
-[OBJ1391]
-Name=Puerta abierta
-GrhIndex=9199
-ObjType=6
-Cerrada=0
-llave=0
-clave=1123
-Agarrable=1
-IndexAbierta=1391
-IndexCerrada=1392
-IndexCerradaLlave=1393
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ1392]
-Name=Puerta cerrada
-GrhIndex=9193
-ObjType=6
-Cerrada=1
-llave=0
-clave=1123
-Agarrable=1
-IndexAbierta=1391
-IndexCerrada=1392
-IndexCerradaLlave=1393
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ1393]
-Name=Puerta cerrada con Llave Bóveda de Banderbill
-GrhIndex=9193
-ObjType=6
-Cerrada=1
-llave=1
-clave=1123
-Agarrable=1
-IndexAbierta=1391
-IndexCerrada=1392
-IndexCerradaLlave=1393
-Texto=Puerta cerrada con Llave Bóveda de Banderbill
-en_texto=This honorable house belongs to
-en_Name=locked door vault of Banderbill
-ExtraStr=Puerta cerrada con Llave Bóveda de Banderbill
 
 [OBJ1394]
 Name=Llave Bóveda de Banderbill
@@ -16253,443 +13785,6 @@ NoSeCae=1
 en_name=Christmas hat
 en_texto=Change your appearance with this mask
 
-[OBJ1403]
-Name=Puerta abierta
-GrhIndex=26088
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1403
-IndexCerrada=1404
-IndexCerradaLlave=1404
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1404]
-Name=Puerta cerrada
-GrhIndex=26089
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1403
-IndexCerrada=1404
-IndexCerradaLlave=1404
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1405]
-Name=Puerta abierta
-GrhIndex=26087
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1405
-IndexCerrada=1406
-IndexCerradaLlave=1406
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1406]
-Name=Puerta cerrada
-GrhIndex=26086
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1405
-IndexCerrada=1406
-IndexCerradaLlave=1406
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1407]
-Name=Puerta abierta
-GrhIndex=26093
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1407
-IndexCerrada=1408
-IndexCerradaLlave=1408
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1408]
-Name=Puerta cerrada
-GrhIndex=26092
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1407
-IndexCerrada=1408
-IndexCerradaLlave=1408
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1409]
-Name=Puerta abierta
-GrhIndex=26091
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1409
-IndexCerrada=1410
-IndexCerradaLlave=1410
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1410]
-Name=Puerta cerrada
-GrhIndex=26090
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1409
-IndexCerrada=1410
-IndexCerradaLlave=1410
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1411]
-Name=Puerta abierta
-GrhIndex=26097
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1411
-IndexCerrada=1412
-IndexCerradaLlave=1412
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1412]
-Name=Puerta cerrada
-GrhIndex=26096
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1411
-IndexCerrada=1412
-IndexCerradaLlave=1412
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1413]
-Name=Puerta abierta
-GrhIndex=26095
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1413
-IndexCerrada=1414
-IndexCerradaLlave=1414
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1414]
-Name=Puerta cerrada
-GrhIndex=26094
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1413
-IndexCerrada=1414
-IndexCerradaLlave=1414
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1415]
-Name=Puerta abierta
-GrhIndex=26100
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1415
-IndexCerrada=1416
-IndexCerradaLlave=1416
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1416]
-Name=Puerta cerrada
-GrhIndex=26101
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1415
-IndexCerrada=1416
-IndexCerradaLlave=1416
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1417]
-Name=Puerta abierta
-GrhIndex=26099
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1417
-IndexCerrada=1418
-IndexCerradaLlave=1418
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1418]
-Name=Puerta cerrada
-GrhIndex=26098
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1417
-IndexCerrada=1418
-IndexCerradaLlave=1418
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1419]
-Name=Puerta abierta
-GrhIndex=26103
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1419
-IndexCerrada=1420
-IndexCerradaLlave=1420
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1420]
-Name=Puerta cerrada
-GrhIndex=26104
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1419
-IndexCerrada=1420
-IndexCerradaLlave=1420
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1421]
-Name=Puerta abierta
-GrhIndex=26200
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1421
-IndexCerrada=1422
-IndexCerradaLlave=1422
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1422]
-Name=Puerta cerrada
-GrhIndex=26102
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1421
-IndexCerrada=1422
-IndexCerradaLlave=1422
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1423]
-Name=Puerta abierta
-GrhIndex=95009
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1423
-IndexCerrada=1424
-IndexCerradaLlave=1424
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1424]
-Name=Puerta cerrada
-GrhIndex=26108
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1423
-IndexCerrada=1424
-IndexCerradaLlave=1424
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1425]
-Name=Puerta abierta
-GrhIndex=95008
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1425
-IndexCerrada=1426
-IndexCerradaLlave=1426
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1426]
-Name=Puerta cerrada
-GrhIndex=26105
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1425
-IndexCerrada=1426
-IndexCerradaLlave=1426
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1427]
-Name=Puerta abierta
-GrhIndex=95012
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1427
-IndexCerrada=1428
-IndexCerradaLlave=1428
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1428]
-Name=Puerta cerrada
-GrhIndex=95013
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1427
-IndexCerrada=1428
-IndexCerradaLlave=1428
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1429]
-Name=Puerta abierta
-GrhIndex=95011
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1429
-IndexCerrada=1430
-IndexCerradaLlave=1430
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1430]
-Name=Puerta cerrada
-GrhIndex=95010
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1429
-IndexCerrada=1430
-IndexCerradaLlave=1430
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1431]
-Name=Puerta abierta
-GrhIndex=95007
-ObjType=6
-Cerrada=0
-llave=0
-clave=1117
-Agarrable=1
-IndexAbierta=1431
-IndexCerrada=1432
-IndexCerradaLlave=1433
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1432]
-Name=Puerta cerrada
-GrhIndex=95006
-ObjType=6
-Cerrada=1
-llave=0
-clave=1117
-Agarrable=1
-IndexAbierta=1431
-IndexCerrada=1432
-IndexCerradaLlave=1433
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1433]
-Name=Puerta cerrada con llave para Mapa de Trivias
-GrhIndex=95006
-ObjType=6
-Cerrada=1
-llave=1
-clave=1117
-Agarrable=1
-IndexAbierta=1431
-IndexCerrada=1432
-IndexCerradaLlave=1433
-Texto=Puerta cerrada con llave para Mapa de Trivias
-en_Name=locked door to trivia map
-ExtraStr=Puerta cerrada con llave para Mapa de Trivias
-
 [OBJ1434]
 Name=Llave del Salón de Trivias
 ExtraStr=Llave del Salón de Trivias
@@ -16700,354 +13795,6 @@ Valor=0
 
 Texto=Llave del Salón de Trivias
 en_Name=Trivial Hall Key
-
-[OBJ1439]
-Name=Puerta abierta
-GrhIndex=26944
-ObjType=6
-Cerrada=0
-llave=0
-clave=1118
-Agarrable=1
-IndexAbierta=1439
-IndexCerrada=1440
-IndexCerradaLlave=1441
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1440]
-Name=Puerta cerrada
-GrhIndex=26941
-ObjType=6
-Cerrada=1
-llave=0
-clave=1118
-Agarrable=1
-IndexAbierta=1439
-IndexCerrada=1440
-IndexCerradaLlave=1441
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1441]
-Name=Puerta cerrada con llave modelo 9 pliego
-GrhIndex=26941
-ObjType=6
-Cerrada=1
-llave=1
-clave=1118
-Agarrable=1
-IndexAbierta=1439
-IndexCerrada=1440
-IndexCerradaLlave=1441
-Texto=Puerta cerrada con llave modelo 9 pliego
-en_Name=door locked with key model 9 sheet
-ExtraStr=Puerta cerrada con llave modelo 9 pliego
-
-[OBJ1442]
-Name=Puerta abierta
-GrhIndex=26943
-ObjType=6
-Cerrada=0
-llave=0
-clave=1118
-Agarrable=1
-IndexAbierta=1442
-IndexCerrada=1443
-IndexCerradaLlave=1444
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1443]
-Name=Puerta cerrada
-GrhIndex=26942
-ObjType=6
-Cerrada=1
-llave=0
-clave=1118
-Agarrable=1
-IndexAbierta=1442
-IndexCerrada=1443
-IndexCerradaLlave=1444
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1444]
-Name=Puerta cerrada con llave modelo 9 pliego
-GrhIndex=26942
-ObjType=6
-Cerrada=1
-llave=1
-clave=1118
-Agarrable=1
-IndexAbierta=1442
-IndexCerrada=1443
-IndexCerradaLlave=1444
-Texto=Puerta cerrada con llave modelo 9 pliego
-en_Name=door locked with key model 9 sheet
-ExtraStr=Puerta cerrada con llave modelo 9 pliego
-
-[OBJ1445]
-Name=Puerta abierta
-GrhIndex=26920
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1445
-IndexCerrada=1446
-IndexCerradaLlave=1447
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1446]
-Name=Puerta cerrada
-GrhIndex=26918
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1445
-IndexCerrada=1446
-IndexCerradaLlave=1447
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1447]
-Name=Puerta cerrada con llave modelo 10 pliego
-GrhIndex=26918
-ObjType=6
-Cerrada=1
-llave=1
-clave=1119
-Agarrable=1
-IndexAbierta=1445
-IndexCerrada=1446
-IndexCerradaLlave=1447
-Texto=Puerta cerrada con llave modelo 10 pliego
-en_Name=door locked with key model 10 sheet
-ExtraStr=Puerta cerrada con llave modelo 10 pliego
-
-[OBJ1448]
-Name=Puerta abierta
-GrhIndex=26921
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1448
-IndexCerrada=1449
-IndexCerradaLlave=1450
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1449]
-Name=Puerta cerrada
-GrhIndex=26919
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1448
-IndexCerrada=1449
-IndexCerradaLlave=1450
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1450]
-Name=Puerta cerrada con llave modelo 10 pliego
-GrhIndex=26919
-ObjType=6
-Cerrada=1
-llave=1
-clave=1119
-Agarrable=1
-IndexAbierta=1448
-IndexCerrada=1449
-IndexCerradaLlave=1450
-Texto=Puerta cerrada con llave modelo 10 pliego
-en_Name=door locked with key model 10 sheet
-ExtraStr=Puerta cerrada con llave modelo 10 pliego
-
-[OBJ1451]
-Name=Puerta abierta
-GrhIndex=26924
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1451
-IndexCerrada=1452
-IndexCerradaLlave=1453
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1452]
-Name=Puerta cerrada
-GrhIndex=26922
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1451
-IndexCerrada=1452
-IndexCerradaLlave=1453
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1453]
-Name=Puerta cerrada con llave modelo 11 pliego
-GrhIndex=26922
-ObjType=6
-Cerrada=1
-llave=1
-clave=1120
-Agarrable=1
-IndexAbierta=1451
-IndexCerrada=1452
-IndexCerradaLlave=1453
-Texto=Puerta cerrada con llave modelo 11 pliego
-en_Name=door locked with key model 11 sheet
-ExtraStr=Puerta cerrada con llave modelo 11 pliego
-
-[OBJ1454]
-Name=Puerta abierta
-GrhIndex=26925
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1454
-IndexCerrada=1455
-IndexCerradaLlave=1456
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1455]
-Name=Puerta cerrada
-GrhIndex=26923
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1454
-IndexCerrada=1455
-IndexCerradaLlave=1456
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1456]
-Name=Puerta cerrada con llave modelo 11 pliego
-GrhIndex=26923
-ObjType=6
-Cerrada=1
-llave=1
-clave=1120
-Agarrable=1
-IndexAbierta=1454
-IndexCerrada=1455
-IndexCerradaLlave=1456
-Texto=Puerta cerrada con llave modelo 11 pliego
-en_Name=door locked with key model 11 sheet
-ExtraStr=Puerta cerrada con llave modelo 11 pliego
-
-[OBJ1457]
-Name=Puerta abierta
-GrhIndex=26928
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1457
-IndexCerrada=1458
-IndexCerradaLlave=1459
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1458]
-Name=Puerta cerrada
-GrhIndex=26926
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1457
-IndexCerrada=1458
-IndexCerradaLlave=1459
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1459]
-Name=Puerta cerrada con llave modelo 12 pliego
-GrhIndex=26926
-ObjType=6
-Cerrada=1
-llave=1
-clave=1121
-Agarrable=1
-IndexAbierta=1457
-IndexCerrada=1458
-IndexCerradaLlave=1459
-Texto=Puerta cerrada con llave modelo 12 pliego
-en_Name=door locked with key model 12 sheet
-ExtraStr=Puerta cerrada con llave modelo 12 pliego
-
-[OBJ1460]
-Name=Puerta abierta
-GrhIndex=26929
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1460
-IndexCerrada=1461
-IndexCerradaLlave=1462
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ1461]
-Name=Puerta cerrada
-GrhIndex=26927
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1460
-IndexCerrada=1461
-IndexCerradaLlave=1462
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
-[OBJ1462]
-Name=Puerta cerrada con llave modelo 12 pliego
-GrhIndex=26927
-ObjType=6
-Cerrada=1
-llave=1
-clave=1121
-Agarrable=1
-IndexAbierta=1460
-IndexCerrada=1461
-IndexCerradaLlave=1462
-Texto=Puerta cerrada con llave modelo 12 pliego
-en_Name=door locked with key model 12 sheet
-ExtraStr=Puerta cerrada con llave modelo 12 pliego
 
 [OBJ1463]
 Name=Llave del Fuerte del Infierno
@@ -17145,20 +13892,6 @@ ObjType=20
 Agarrable=1
 Texto=Tumba
 en_Name=Grave
-
-[OBJ1491]
-Name=Estandarte de la Armada Real
-GrhIndex=58712
-Objtype=20
-Agarrable=1
-Texto=Estandarte de la Armada Real
-
-[OBJ1492]
-Name=Estandarte de las Hordas del Caos
-GrhIndex=60298
-Objtype=20
-Agarrable=1
-Texto=Estandarte de las Hordas del Caos
 
 [OBJ1493]
 CP1=TRABAJADOR
@@ -20461,73 +17194,6 @@ NoWiki=1
 en_texto=Restore 5% of your mana
 en_Name=Mana potion(Newbie)
 
-[OBJ1618]
-Name=Poción de Agilidad (newbie)
-GrhIndex=49198
-ObjType=11
-TipoPocion=1
-SND1=135
-MaxModificador=5
-MinModificador=3
-Instransferible=1
-Valor=5
-newbie=1
-Crucial=1
-DuracionEfecto=54
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Destruye=1
-Texto=Aumenta temporalmente tu agilidad
-NoWiki=1
-en_texto=Temporarily increases your agility
-en_Name=Agiliy Potion (Newbie)
-
-[OBJ1619]
-Name=Poción de Fuerza (newbie)
-GrhIndex=49197
-ObjType=11
-TipoPocion=2
-MaxModificador=5
-MinModificador=3
-Valor=4
-newbie=1
-Instransferible=1
-DuracionEfecto=54
-Crucial=1
-SND1=135
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Destruye=1
-Texto=Aumenta temporalmente tu fuerza
-NoWiki=1
-en_texto=Temporarily increases your strength
-en_Name=Strength Potion (Newbie)
-
-[OBJ1622]'Borrar proxima temporada
-Name=Vestimenta Común (Newbie)
-GrhIndex=452
-RopajeHumano=66
-RopajeElfo=66
-RopajeElfoOscuro=1826
-RopajeEnano=669
-RopajeOrco=1778
-RopajeGnomo=669
-RopajeHumana=2891
-RopajeElfa=2891
-RopajeElfaOscura=1826
-RopajeEnana=2877
-RopajeOrca=1778
-RopajeGnoma=2877
-ObjType=3
-MAXDEF=0
-MINDEF=0
-Destruye=1
-Texto=Vestimenta Común (Newbie)
-Instransferible=1
-Valor=0
-newbie=1
-en_Name=Basic Vestment (Newbie)
-
-'**************************** Armaduras ****************************
-
 [OBJ1634]'Borrar proxima temporada
 Name=Armadura de las Sombras (E/G)
 GrhIndex=24424
@@ -20566,38 +17232,6 @@ Crucial=1
 Valor=50000
 
 en_Name=Shadow armor (E/G)
-
-[OBJ1635]'Borrar proxima temporada
-Name=Cota de Mallas (E/G)
-GrhIndex=30867
-RopajeHumano=74
-RopajeElfo=74
-RopajeElfoOscuro=1834
-RopajeEnano=1182
-RopajeOrco=1786
-RopajeGnomo=1182
-RopajeHumana=2058
-RopajeElfa=2058
-RopajeElfaOscura=1834
-RopajeEnana=1159
-RopajeOrca=1786
-RopajeGnoma=1159
-ObjType=3
-MAXDEF=22
-MINDEF=15
-Valor=7200
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP7=DRUIDA
-CP8=BARDO
-CP12=MAGO
-MinELV=1
-Texto=Cota de Mallas (E/G)
-
-'**************************** HECHIZOS ****************************
-
-'Si el hechizo no tiene ningún CP, podrá ser utilizado por todas las clases.
-
-'--------------> Entrenamiento <--------------
 
 [OBJ1648]
 Name=Misil Mágico
@@ -20998,86 +17632,6 @@ MinELV=1
 Porcentaje=100
 Texto=Escudo de Campeón
 
-[OBJ1697]
-Name=Escudo Felino
-Anim=71
-MinELV=1
-NumRopaje=2
-GrhIndex=86134
-ObjType=16
-MAXDEF=11
-MINDEF=11
-Valor=5500
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-subastable=1
-DosManos=1
-Crucial=0
-Nowiki=1
-Porcentaje=100
-Porcentaje=100
-Texto=Escudo Felino
-
-[OBJ1698]
-Name=Escudo de León
-Anim=70
-MinELV=1
-NumRopaje=2
-GrhIndex=86118
-ObjType=16
-MAXDEF=10
-MINDEF=7
-Valor=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-subastable=1
-DosManos=1
-Crucial=0
-Nowiki=0
-Porcentaje=100
-Texto=Escudo de León
-
-[OBJ1699]
-Name=Escudo Arcano
-Anim=69
-NumRopaje=2
-GrhIndex=86136
-ObjType=16
-MAXDEF=10
-MINDEF=7
-Valor=0
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=BANDIDO
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-DosManos=1
-Crucial=0
-MinELV=1
-Porcentaje=100
-Texto=Escudo Arcano
-
 [OBJ1700]
 CP1=PIRATA
 CP2=LADRON
@@ -21139,178 +17693,6 @@ Porcentaje=100
 Texto=Defensa 7/9
 LingH=210
 
-[OBJ1703]
-Name=Escudo Armónico
-Anim=65
-NumRopaje=2
-GrhIndex=86140
-ObjType=16
-MAXDEF=12
-MINDEF=10
-Valor=50000
-'ResistenciaMagica=2
-Texto=Exclusivo de bardos.
-Valor=30000
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-MinELV=1
-Nowiki=1
-Porcentaje=100
-
-[OBJ1706]
-Name=Escudo doble
-Anim=64
-MinELV=1
-NumRopaje=2
-GrhIndex=86141
-ObjType=16
-MAXDEF=2
-MINDEF=2
-Valor=450
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-subastable=1
-DosManos=1
-Crucial=0
-Nowiki=1
-Porcentaje=100
-Texto=Escudo doble
-
-[OBJ1707]
-Name=Escudo de la Iluminación
-Anim=63
-NumRopaje=2
-GrhIndex=86113
-ObjType=16
-MAXDEF=13
-MINDEF=10
-Valor=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-subastable=1
-Crucial=0
-MinELV=1
-Porcentaje=100
-Texto=Escudo de la Iluminación
-
-[OBJ1708]
-Name=Escudo de la Armada Real
-Anim=61
-MinELV=1
-NumRopaje=2
-GrhIndex=86148
-ObjType=16
-MAXDEF=9
-MINDEF=6
-Valor=50000
-CP2=LADRON
-CP4=TRABAJADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-subastable=1
-DosManos=1
-Crucial=0
-Real=1
-Porcentaje=100
-Texto=Escudo de la Armada Real
-
-[OBJ1709] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
-GrhIndex=86147
-MaxDef=20
-MinDef=10
-Name=Escudo Inglés
-ObjType=16
-Texto=Defensa 10/20
-Valor=500
-en_Name=English Shield
-en_Texto=10/20 defense
-fr_Name=Bouclier anglais
-fr_Texto=Défense 10/20
-it_Name=Scudo inglese
-it_Texto=10/20 difesa
-pt_Name=Escudo inglês
-pt_Texto=10/20 Defesa
-
-[OBJ1711]
-Name=Escudo Maldito
-Anim=58
-NumRopaje=2
-GrhIndex=86149
-ObjType=16
-MAXDEF=13
-MINDEF=10
-'ResistenciaMagica=2
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-Texto=Escudo Maldito
-MinELV=1
-Valor=1000
-Crucial=0
-Porcentaje=100
-
-[OBJ1712]
-Name=Escudo Errante
-Anim=57
-MinELV=1
-NumRopaje=2
-GrhIndex=86150
-ObjType=16
-MAXDEF=13
-MINDEF=13
-Valor=4100
-CP1=MAGO
-CP2=PALADIN
-CP3=PIRATA
-CP4=CLERIGO
-CP5=BANDIDO
-CP6=TRABAJADOR
-CP7=DRUIDA
-CP8=CAZADOR
-CP9=GUERRERO
-CP10=ASESINO
-subastable=1
-DosManos=1
-Crucial=0
-Nowiki=1
-Porcentaje=100
-Texto=Escudo Errante
-
 [OBJ1714]
 Name=Escudo de la Legión Oscura
 Anim=55
@@ -21368,33 +17750,6 @@ Crucial=1
 Texto=Defensa 1/3
 Porcentaje=100
 
-[OBJ1716]
-Name=Escudo Incognito
-Anim=52
-NumRopaje=2
-GrhIndex=86155
-MinELV=1
-ObjType=16
-MAXDEF=10
-MINDEF=7
-Valor=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-DosManos=1
-Crucial=0
-Nowiki=0
-Porcentaje=100
-Texto=Escudo Incognito
-
 [OBJ1718]
 Name=Escudo Vikingo
 Anim=50
@@ -21451,31 +17806,6 @@ Crucial=1
 en_Name=Buckler
 Porcentaje=100
 Texto=Defensa 2/3
-
-[OBJ1720]
-Name=Escudo de Huesos
-Anim=48
-NumRopaje=2
-GrhIndex=86159
-ObjType=16
-MAXDEF=10
-MINDEF=7
-MinELV=1
-Valor=0
-CP1=MAGO
-CP2=ASESINO
-CP3=LADRON
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP10=GUERRERO
-CP11=CLERIGO
-SUBASTABLE=1
-Crucial=0
-Porcentaje=100
-Texto=Escudo de Huesos
 
 [OBJ1723]
 Name=Adarga Natural (Cazador)
@@ -21562,33 +17892,6 @@ Nowiki=1
 Porcentaje=100
 Texto=Escudo de Morngrim
 
-[OBJ1726]
-Name=Escudo Titán
-Anim=41
-NumRopaje=2
-GrhIndex=86153
-ObjType=16
-MinELV=1
-MAXDEF=13
-MINDEF=10
-Valor=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-DosManos=1
-Crucial=0
-Nowiki=0
-Porcentaje=100
-Texto=Escudo Titán
-
 [OBJ1727]
 Name=TESTEO GRHS
 GrhIndex=609
@@ -21631,24 +17934,6 @@ en_Name=Disabling Hock
 nowiki=1
 
 '###################Cascos y Gorros###################
-
-[OBJ1735]
-Name=Riendas del Mutante Arácnido
-NumRopaje=3100
-GrhIndex=2607
-ObjType=44
-valor=
-Crucial=0
-Texto=Te permite usar al mutante arácnido de montura.
-NoseCae=1
-SkillRequerido=Supervivencia-100
-Velocidad=1.30
-MINELV=1
-SND1=56
-Intirable=1
-en_texto=It allows you to use the Saddle arachnid mutant.
-NoWiki=1
-en_Name=Reins of the Spider Mutant
 
 [OBJ1736]
 Name=Montura de Dragón Dorado Adulto
@@ -21728,33 +18013,6 @@ Texto=Sombrero Reforzado RM +15
 MinELV=1
 Nowiki=1
 en_Name=Reinforced Hat MR +15
-
-[OBJ1743]
-Name=Sombrero Ideal
-Anim=54
-NumRopaje=2
-GrhIndex=4472
-MinELV=1
-ObjType=17
-Subtipo=1
-MAXDEF=13
-MINDEF=7
-Valor=9000
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-peso=50
-Crucial=0
-Texto=Sombrero Ideal
-en_Name=Ideal hat
 
 [OBJ1745]
 Name=Sombrero de Archimago
@@ -22300,28 +18558,6 @@ en_Texto=Sword of Enlightment
 SUBASTABLE=1
 WeaponType=1
 
-[OBJ1791]
-Name=Harbinger Kin
-GrhIndex=35900
-Anim=42
-Objtype=2
-MinHIT=1
-MaxHIT=1
-Valor=350
-Crucial=0
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP11=CLERIGO
-CP12=MAGO
-Texto=Harbinger Kin
-Nowiki=1
-en_Name=harbinger Kin
-WeaponType=1
-
 [OBJ1792]
 CP1=GUERRERO
 CP2=PALADIN
@@ -22642,32 +18878,6 @@ Crucial=0
 NoWiki=1
 Texto=Espada Test
 WeaponType=1
-
-[OBJ1816]
-Name=Báculo de los Elementos
-GrhIndex=36575
-Anim=67
-Objtype=2
-MinHIT=11
-MaxHIT=15
-MagicDamageBonus=1
-MagicPenetration=0
-Valor=0
-MinELV=1
-Crucial=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-Texto=Exclusivo de Druidas.
-WeaponType=4
 
 [OBJ1817] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 CP1=CAZADOR
@@ -23298,33 +19508,6 @@ MinElv=1
 Texto=Garrote
 WeaponType=5
 
-[OBJ1849]
-Name=Túnica Oscura (Bajos)
-GrhIndex=22106
-RopajeHumano=240
-RopajeElfo=240
-RopajeElfoOscuro=2025
-RopajeEnano=998
-RopajeOrco=2009
-RopajeGnomo=998
-RopajeHumana=2149
-RopajeElfa=2149
-RopajeElfaOscura=3606
-RopajeEnana=2648
-RopajeOrca=3215
-RopajeGnoma=2648
-ObjType=3
-MAXDEF=37
-MINDEF=33
-Valor=0
-Crucial=0
-Caos=1
-Texto=Túnica Oscura (Bajos)
-NoseCae=1
-Intirable=1
-Instransferible=1
-en_Name=Dark Robe (E/G)
-
 [OBJ1850]
 Name=Armadura de Escolta (Bajos)
 GrhIndex=22100
@@ -23592,61 +19775,6 @@ CP10=GUERRERO
 CP11=CLERIGO
 CP12=MAGO
 Texto=Espada Pirata
-WeaponType=1
-
-[OBJ1864]
-Name=Daga Envenenada
-GrhIndex=37871
-Anim=115
-Objtype=2
-MinHIT=4
-MaxHIT=7
-Valor=13500
-MinELV=1
-apuñala=1
-Crucial=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-Texto=Daga Envenenada.
-peso=15
-Nowiki=1
-en_texto=Daga Envenenada.
-WeaponType=2
-
-[OBJ1865]
-Name=Alfanje
-GrhIndex=37898
-Anim=116
-Objtype=2
-Subtipo=2
-MinHIT=12
-MaxHIT=16
-Valor=0
-Crucial=0
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-MinELV=1
-Texto=Aplica golpes críticos.
-en_name=Cutlass
-en_texto=Applies critical hits.
 WeaponType=1
 
 [OBJ1866]
@@ -23949,29 +20077,6 @@ Valor=680
 Crucial=1
 en_Name=Garment with Green Cloak
 
-[OBJ1902]
-Name=Armadura luchador
-MinELV=1
-NumRopaje=264
-GrhIndex=47332
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP11=CLERIGO
-CP12=MAGO
-MAXDEF=12
-MINDEF=9
-Texto=Armadura luchador
-Valor=5800
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-
 [OBJ1903]
 Name=Armadura Sombria
 GrhIndex=39262
@@ -24007,40 +20112,6 @@ CP8=BARDO
 CP10=GUERRERO
 CP11=CLERIGO
 CP12=MAGO
-
-[OBJ1905]
-Name=Coraza Mágica de Trevhn (Bajos)
-GrhIndex=3130
-RopajeHumano=291
-RopajeElfo=291
-RopajeElfoOscuro=2068
-RopajeEnano=4903
-RopajeOrco=2052
-RopajeGnomo=4903
-RopajeHumana=220
-RopajeElfa=291
-RopajeElfaOscura=2068
-RopajeEnana=4903
-RopajeOrca=2052
-RopajeGnoma=4903
-MinELV=1
-Valor=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP11=CLERIGO
-CP12=MAGO
-ObjType=3
-MAXDEF=47
-MINDEF=42
-ResistenciaMagica=1
-Texto=Coraza Mágica de Trevhn (Bajos)
-en_texto=Trevhn's Magic Breastplate (Bass)
 
 [OBJ1906]
 Name=Coraza Mágica de Trevhn
@@ -24348,96 +20419,6 @@ MinELV=1
 Valor=55000
 Texto=Armadura Legendaria
 
-[OBJ1915]
-Name=Armadura de Placas Azules
-GrhIndex=2658
-RopajeHumano=257
-RopajeElfo=257
-RopajeElfoOscuro=2334
-RopajeEnano=1707
-RopajeOrco=2318
-RopajeGnomo=1707
-RopajeHumana=257
-RopajeElfa=257
-RopajeElfaOscura=2334
-RopajeEnana=1707
-RopajeOrca=2318
-RopajeGnoma=1707
-MinELV=1
-ObjType=3
-MAXDEF=37
-MINDEF=30
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-SkHerreria=75
-LingH=300
-LingP=200
-LingO=15
-Texto=Armadura de Placas Azules
-Valor=34000
-Crucial=0
-
-[OBJ1917]'Borrar proxima temporada
-Name=Armadura Legendaria (Bajos)
-GrhIndex=39856
-RopajeHumano=237
-RopajeElfo=237
-RopajeElfoOscuro=2022
-RopajeEnano=4913
-RopajeOrco=2006
-RopajeGnomo=4913
-RopajeHumana=2919
-RopajeElfa=2919
-RopajeElfaOscura=2955
-RopajeEnana=2928
-RopajeOrca=2939
-RopajeGnoma=2928
-ObjType=3
-MAXDEF=38
-MINDEF=35
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-Valor=55000
-Crucial=0
-Texto=Armadura Legendaria (Bajos)
-
-[OBJ1920]'Borrar proxima temporada
-Name=Armadura de Cuero Azul (Bajos)
-GrhIndex=40720
-RopajeHumano=65
-RopajeElfo=65
-RopajeElfoOscuro=1825
-RopajeEnano=4702
-RopajeOrco=1777
-RopajeGnomo=4702
-RopajeHumana=2890
-RopajeElfa=2890
-RopajeElfaOscura=1825
-RopajeEnana=961
-RopajeOrca=1777
-RopajeGnoma=961
-MinELV=1
-ObjType=3
-MAXDEF=15
-MINDEF=10
-CP7=DRUIDA
-CP12=MAGO
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Valor=3000
-en_Name=Blue Leather Armor (E/G)
-Texto=Armadura de Cuero Azul (Bajos)
-
 [OBJ1921]
 CP1=GUERRERO
 CP2=BANDIDO
@@ -24519,31 +20500,6 @@ MinELV=1
 Texto=Coraza de la Iluminación
 Crucial=0
 
-[OBJ1923]
-Name=Armadura de Placas Azules (Mujer)
-NumRopaje=4921
-GrhIndex=3527
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=37
-MINDEF=30
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-SkHerreria=75
-LingH=300
-LingP=200
-LingO=15
-MinELV=1
-Texto=Armadura de Placas Azules (Mujer)
-Valor=30000
-Mujer=1
-Crucial=0
-
 [OBJ1927]
 Name=Armadura Empírea
 GrhIndex=3633
@@ -24575,38 +20531,6 @@ MinELV=1
 Valor=15000
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Armadura Empírea
-
-[OBJ1928]
-Name=Armadura Empírea (Bajos)
-GrhIndex=11671
-RopajeHumano=351
-RopajeElfo=351
-RopajeElfoOscuro=2165
-RopajeEnano=4927
-RopajeOrco=2609
-RopajeGnomo=4927
-RopajeHumana=351
-RopajeElfa=351
-RopajeElfaOscura=2165
-RopajeEnana=4927
-RopajeOrca=2609
-RopajeGnoma=4927
-ObjType=3
-MAXDEF=32
-MINDEF=25
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-MinELV=1
-Valor=20000
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Armadura Empírea (Bajos)
 
 [OBJ1929]
 CP1=GUERRERO
@@ -24767,36 +20691,6 @@ CP9=ASESINO
 CP12=MAGO
 Texto=Armadura Dragón Blanco +1
 Crucial=0
-Nowiki=1
-
-[OBJ1935]
-Name=Armadura Dragón Legendario
-GrhIndex=1448
-RopajeHumano=245
-RopajeElfo=245
-RopajeElfoOscuro=2030
-RopajeEnano=745
-RopajeOrco=2014
-RopajeGnomo=745
-RopajeHumana=2154
-RopajeElfa=2154
-RopajeElfaOscura=3611
-RopajeEnana=2653
-RopajeOrca=3220
-RopajeGnoma=2653
-MinELV=1
-ObjType=3
-MAXDEF=30
-MINDEF=30
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-Texto=Armadura Dragón Legendario
-Valor=4500
 Nowiki=1
 
 [OBJ1936]
@@ -24995,34 +20889,6 @@ LingP=150
 LingO=150
 en_Name=Marsh Armor
 Texto=Defensa 30/34
-
-[OBJ1943]
-Name=Armadura Placas Rojas
-GrhIndex=3502
-RopajeHumano=255
-RopajeElfo=255
-RopajeElfoOscuro=2332
-RopajeEnano=3102
-RopajeOrco=2316
-RopajeGnomo=3102
-RopajeHumana=255
-RopajeElfa=255
-RopajeElfaOscura=2332
-RopajeEnana=3102
-RopajeOrca=2316
-RopajeGnoma=3102
-MinELV=1
-ObjType=3
-MAXDEF=21
-MINDEF=20
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-Texto=Armadura Placas Rojas
-Valor=4000
-Crucial=0
-Nowiki=1
 
 [OBJ1944]
 Name=Armadura Milenaria
@@ -25286,42 +21152,6 @@ PielOsoPardo=130
 PielOsoPolar=16
 en_Name=Legendary Robe (E/G)
 
-[OBJ1958]'Borrar proxima temporada
-Name=Túnica de Archimago (Bajos)
-GrhIndex=75
-RopajeHumano=226
-RopajeElfo=226
-RopajeElfoOscuro=1963
-RopajeEnano=631
-RopajeOrco=1947
-RopajeGnomo=631
-RopajeHumana=226
-RopajeElfa=226
-RopajeElfaOscura=1963
-RopajeEnana=631
-RopajeOrca=1947
-RopajeGnoma=631
-ObjType=3
-MAXDEF=40
-MINDEF=35
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-Texto=Túnica de Archimago (Bajos)
-Valor=0
-ResistenciaMagica=1
-MinELV=1
-Crucial=0
-en_Name=Archmage Robe (E/G)
-
 [OBJ1959]
 Name=Túnica de Archimago
 GrhIndex=75
@@ -25438,40 +21268,6 @@ Crucial=1
 Valor=4800
 en_Name=Natural Robe
 
-[OBJ1962]'Borrar proxima temporada
-Name=Atuendo Musical
-GrhIndex=81
-RopajeHumano=285
-RopajeElfo=285
-RopajeElfoOscuro=2062
-RopajeEnano=637
-RopajeOrco=2046
-RopajeGnomo=637
-RopajeHumana=285
-RopajeElfa=285
-RopajeElfaOscura=2062
-RopajeEnana=637
-RopajeOrca=2046
-RopajeGnoma=637
-ObjType=3
-MAXDEF=25
-MINDEF=20
-MinELV=1
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Exclusivo de bardos.
-Valor=10000
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-
 [OBJ1963]
 CP1=PIRATA
 CP2=LADRON
@@ -25538,36 +21334,6 @@ CP10=GUERRERO
 CP11=CLERIGO
 CP12=MAGO
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-
-[OBJ1967]
-Name=Túnica Marrón
-GrhIndex=330
-RopajeHumano=164
-RopajeElfo=164
-RopajeElfoOscuro=1584
-RopajeEnano=3258
-RopajeOrco=2241
-RopajeGnomo=3258
-RopajeHumana=2121
-RopajeElfa=2121
-RopajeElfaOscura=4866
-RopajeEnana=3258
-RopajeOrca=4850
-RopajeGnoma=3258
-MinELV=1
-ObjType=3
-CP1=BANDIDO
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-MAXDEF=11
-MINDEF=7
-Texto=Túnica Marrón
-Valor=2000
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-en_Name=Brown Robe
 
 [OBJ1968]
 Name=Corona de Plata
@@ -25739,85 +21505,6 @@ RopajeOrca=3144
 RopajeOrco=1099
 JailObject=1
 
-[OBJ1978]
-Name=Vestido Violeta (ORCO)
-MinELV=1
-NumRopaje=665
-GrhIndex=449
-Mujer=1
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=16
-MINDEF=13
-Texto=Vestido Violeta (ORCO)
-Valor=3200
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-en_Name=Violet dress (ORC)
-
-[OBJ1979]
-Name=Vestido Rosado (ORCO)
-MinELV=1
-NumRopaje=666
-GrhIndex=450
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=16
-MINDEF=13
-Texto=Vestido Rosado (ORCO)
-Valor=3200
-Mujer=1
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-en_Name=Pink dress (ORC)
-
-[OBJ1980]'Borrar proxima temporada
-Name=Vestimenta Rosa
-GrhIndex=15126
-RopajeHumano=11
-RopajeElfo=11
-RopajeElfoOscuro=1541
-RopajeEnano=1165
-RopajeOrco=2555
-RopajeGnomo=1165
-RopajeHumana=2681
-RopajeElfa=2681
-RopajeElfaOscura=2729
-RopajeEnana=2697
-RopajeOrca=2713
-RopajeGnoma=2697
-MinELV=1
-ObjType=3
-MAXDEF=20
-MINDEF=19
-Texto=Vestimenta Rosa
-Valor=1624
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-RazaEnana=1
-RazaGnoma=1
-Nowiki=1
-en_Name=Pink Vestment
-
 [OBJ1981]
 CP1=PIRATA
 CP2=LADRON
@@ -25881,64 +21568,6 @@ Valor=3200
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 en_Name=Desert garb
 
-[OBJ1983]
-Name=Cota de Mallas Negra
-GrhIndex=2652
-RopajeHumano=71
-RopajeElfo=71
-RopajeElfoOscuro=1831
-RopajeEnano=4897
-RopajeOrco=1783
-RopajeGnomo=4897
-RopajeHumana=1215
-RopajeElfa=1215
-RopajeElfaOscura=1831
-RopajeEnana=2879
-RopajeOrca=1783
-RopajeGnoma=2879
-ObjType=3
-MAXDEF=22
-MINDEF=15
-CP7=DRUIDA
-CP8=BARDO
-CP12=MAGO
-MinELV=1
-Valor=7200
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Cota de Mallas Negra
-En_texto=Black Chainmail
-En_name=Black Chainmail
-
-[OBJ1984]
-Name=Túnica Infernal
-GrhIndex=25048
-RopajeHumano=159
-RopajeElfo=159
-RopajeElfoOscuro=1579
-RopajeEnano=675
-RopajeOrco=2236
-RopajeGnomo=675
-RopajeHumana=2116
-RopajeElfa=2116
-RopajeElfaOscura=4861
-RopajeEnana=675
-RopajeOrca=4845
-RopajeGnoma=675
-MinELV=1
-ObjType=3
-MAXDEF=18
-MINDEF=17
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-Texto=Túnica Infernal
-Valor=18000
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Nowiki=1
-en_Name=Hell Robe
-
 [OBJ1985]
 CP1=GUERRERO
 CP2=PALADIN
@@ -25986,32 +21615,6 @@ RopajeHumano=0
 RopajeOrca=3313
 RopajeOrco=0
 
-[OBJ1986]
-Name=Vestido Duquesa (M)
-MinELV=1
-NumRopaje=678
-GrhIndex=43582
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=20
-MINDEF=10
-Texto=Vestido Duquesa (M)
-Valor=6000
-Mujer=1
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-en_Name=Duchess Dress (M)
-
 [OBJ1987]
 CP1=BANDIDO
 CP2=ASESINO
@@ -26055,37 +21658,6 @@ LingP=70
 LingO=0
 SkHerreria=93
 Texto=Defensa 27/29
-
-[OBJ1988]'Borrar proxima temporada
-Name=Ropaje Desértico (Bajos)
-GrhIndex=454
-RopajeHumano=69
-RopajeElfo=69
-RopajeElfoOscuro=1829
-RopajeEnano=671
-RopajeOrco=1781
-RopajeGnomo=671
-RopajeHumana=2892
-RopajeElfa=2892
-RopajeElfaOscura=1829
-RopajeEnana=4751
-RopajeOrca=1781
-RopajeGnoma=4751
-ObjType=3
-MAXDEF=16
-MINDEF=13
-CP3=LADRON
-CP4=TRABAJADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-MinELV=1
-Texto=Ropaje Desértico (Bajos)
-Valor=3200
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-en_Name=Desert Garb (E/G)
 
 [OBJ1989]
 Name=Ropaje desértico
@@ -26344,22 +21916,6 @@ LocaleID=37
 Texto=Expande 6 slots de tu inventario
 en_name=Backpack
 en_texto=Expand your inventory 6 slots.
-
-[OBJ2085]
-Name=Espada Larga (Newbie)
-GrhIndex=504
-Objtype=2
-subtipo=2
-MinHIT=2
-MaxHIT=4
-Anim=1
-newbie=1
-CP7=DRUIDA
-CP8=BARDO
-CP12=MAGO
-Instransferible=1
-Texto=Espada Larga (Newbie)
-WeaponType=1
 
 [OBJ2086]
 Name=Huesos Pescado
@@ -27321,13 +22877,6 @@ ObjType=12
 Valor=9
 Texto=Cofre
 
-[OBJ2165]
-Name=Bota
-GrhIndex=48952
-ObjType=12
-Valor=9
-Texto=Bota
-
 [OBJ2166]
 Name=Caracola
 GrhIndex=48953
@@ -27817,18 +23366,6 @@ it_Texto=Contiene monete d'oro.
 pt_Name=Bolsa de coral
 pt_Texto=Contém moedas de ouro.
 
-[OBJ2206]
-Name=Escudo Cruz
-GrhIndex=49149
-valor=
-ObjType=30
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Escudo Cruz
-NoseCae=1
-Intirable=1
-Instransferible=1
-NoWiki=1
-
 [OBJ2208]
 Name=Amuleto Simple
 GrhIndex=49151
@@ -28016,30 +23553,6 @@ Texto=Brazalete reforzado
 NoseCae=1
 Intirable=1
 Instransferible=1
-NoWiki=1
-
-[OBJ2224]
-Name=Escudo Gargola
-GrhIndex=49168
-valor=
-ObjType=30
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-NoseCae=1
-Intirable=1
-Instransferible=1
-Texto=Escudo Gargola
-NoWiki=1
-
-[OBJ2225]
-Name=Escudo Pirata
-GrhIndex=49169
-valor=
-ObjType=30
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-NoseCae=1
-Intirable=1
-Instransferible=1
-Texto=Escudo Pirata
 NoWiki=1
 
 [OBJ2226]
@@ -28482,15 +23995,6 @@ Texto=Pergamino
 en_Name=Parchment
 NoWiki=1
 
-[OBJ2267]
-Name=Escudo Horizontal
-GrhIndex=49211
-valor=
-ObjType=30
-Crucial=0
-Texto=Escudo Horizontal
-NoWiki=1
-
 [OBJ2268]
 Name=Alas Demoniacas
 GrhIndex=49212
@@ -28534,15 +24038,6 @@ Intirable=1
 en_Name=Gorilla Fur
 Texto=Pelaje de Gorila
 
-[OBJ2272]
-Name=Escudo Oscuro +5
-GrhIndex=49216
-valor=
-ObjType=30
-Crucial=0
-Texto=Escudo Oscuro +5
-NoWiki=1
-
 [OBJ2273]
 Name=Medalla Mochila
 GrhIndex=49217
@@ -28561,24 +24056,6 @@ ObjType=30
 Crucial=0
 Texto=Medalla de la vida
 en_Name=Health Medal
-NoWiki=1
-
-[OBJ2275]
-Name=Escudo Pureza
-GrhIndex=49219
-valor=
-ObjType=30
-Crucial=0
-Texto=Escudo Pureza
-NoWiki=1
-
-[OBJ2276]
-Name=Escudo Forjado
-GrhIndex=49220
-valor=
-ObjType=30
-Crucial=0
-Texto=Escudo Forjado
 NoWiki=1
 
 [OBJ2277]
@@ -28917,15 +24394,6 @@ ObjType=30
 Crucial=0
 Texto=Amuleto Mana
 en_Name=Mana amulet
-NoWiki=1
-
-[OBJ2320]
-Name=Escudo Azul Dos
-GrhIndex=49264
-valor=
-ObjType=30
-Crucial=0
-Texto=Escudo Azul Dos
 NoWiki=1
 
 [OBJ2321]
@@ -33365,34 +28833,6 @@ Agarrable=1
 en_name=Sign
 en_texto=I moved to the island. Atte: The Merchant.
 
-[OBJ2759]
-Name=Puerta abierta
-GrhIndex=55655
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=2759
-IndexCerrada=2760
-IndexCerradaLlave=2760
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
-
-[OBJ2760]
-Name=Puerta cerrada
-GrhIndex=55649
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=2759
-IndexCerrada=2760
-IndexCerradaLlave=2760
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
-
 [OBJ2761]
 Name=Arbol
 Info=Version2
@@ -33655,44 +29095,6 @@ IT_texto=Difesa 22/24
 PT_Name=Shell composto
 PT_texto=Defesa 22/24
 
-[OBJ2802] 'BORRAR 16.001: variante (H/E/EO/M) race-split legacy, orca usa body humano, sin arte por raza
-Name=Cota de Mallas Larga (H/E/EO/M)
-MinELV=1
-NumRopaje=93
-GrhIndex=2560
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=17
-MINDEF=13
-Valor=4200
-Mujer=1
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-Texto=Cota de Mallas Larga (H/E/EO/M)
-RopajeHumano=93
-RopajeElfo=93
-RopajeElfoOscuro=2005
-RopajeEnano=1700
-RopajeOrco=93
-RopajeGnomo=1700
-RopajeHumana=93
-RopajeElfa=93
-RopajeElfaOscura=2005
-RopajeEnana=1700
-RopajeOrca=93
-RopajeGnoma=1700
-
 [OBJ2803]
 CP1=PIRATA
 CP2=LADRON
@@ -33774,38 +29176,6 @@ Texto=Defensa 24/26
 LingH=130
 LingP=110
 SkHerreria=75
-
-[OBJ2805]
-Name=Coraza Compuesta (H/E/EO)
-GrhIndex=2561
-RopajeHumano=61
-RopajeElfo=61
-RopajeElfoOscuro=2312
-RopajeEnano=4741
-RopajeOrco=2084
-RopajeGnomo=4741
-RopajeHumana=61
-RopajeElfa=61
-RopajeElfaOscura=2312
-RopajeEnana=2831
-RopajeOrca=2084
-RopajeGnoma=2831
-MinELV=1
-ObjType=3
-MAXDEF=35
-MINDEF=23
-Valor=14115
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-Nowiki=1
-Texto=Coraza Compuesta (H/E/EO)
 
 [OBJ2806]'Libre
 GrhIndex=3680
@@ -33960,37 +29330,6 @@ Instransferible=1
 Intirable=1
 NoseCae=1
 
-[OBJ2813]'Borrar en proxima temporada
-Name=Túnica Marrón (E/G)
-GrhIndex=59351
-RopajeHumano=119
-RopajeElfo=119
-RopajeElfoOscuro=1525
-RopajeEnano=3268
-RopajeOrco=1753
-RopajeGnomo=3268
-RopajeHumana=2494
-RopajeElfa=2494
-RopajeElfaOscura=2538
-RopajeEnana=788
-RopajeOrca=2522
-RopajeGnoma=788
-ObjType=3
-MinELV=1
-MAXDEF=11
-MINDEF=7
-Valor=2000
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-en_Name=Brown Robe (E/G)
-Texto=Túnica Marrón (E/G)
-
 [OBJ2814] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 Name=Invocar Gorila
 Texto=Invoca un gorila para que te ayude a entrenar.
@@ -34017,41 +29356,6 @@ ObjType=24
 SPELLINDEX=238
 Texto=Enaltece al Bandido para el combate.
 Valor=200000
-
-[OBJ2816]'Borrar proximo parche
-Name=Túnica Elegante (E/G)
-GrhIndex=11107
-RopajeHumano=114
-RopajeElfo=114
-RopajeElfoOscuro=1520
-RopajeEnano=1143
-RopajeOrco=1748
-RopajeGnomo=1143
-RopajeHumana=2491
-RopajeElfa=2491
-RopajeElfaOscura=2533
-RopajeEnana=2501
-RopajeOrca=2517
-RopajeGnoma=2501
-ObjType=3
-MAXDEF=7
-MINDEF=5
-Valor=1000
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-en_Name=Elegant Robe (E/G)
-Texto=Túnica Elegante (E/G)
-
-[OBJ2817]
-Name=Alifafe de Pirata (E/G)
-NumRopaje=964
-GrhIndex=11079
-ObjType=3
-MAXDEF=16
-MINDEF=4
-Valor=0
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Nowiki=1
-Texto=Alifafe de Pirata (E/G)
 
 [OBJ2818]
 CP1=GUERRERO
@@ -34133,49 +29437,6 @@ FR_texto=Défense 16/20
 IT_Name=Cappotto da Viaggiatore Polare
 IT_texto=Difesa 16/20
 
-[OBJ2822]
-Name=Túnica Real Pretoriana (E/G)
-GrhIndex=3128
-RopajeHumano=289
-RopajeElfo=289
-RopajeElfoOscuro=2066
-RopajeEnano=1149
-RopajeOrco=2050
-RopajeGnomo=1149
-RopajeHumana=289
-RopajeElfa=289
-RopajeElfaOscura=2066
-RopajeEnana=1149
-RopajeOrca=2050
-RopajeGnoma=1149
-ObjType=3
-MAXDEF=0
-MINDEF=0
-Valor=3
-Crucial=0
-NoseCae=1
-Intirable=1
-Instransferible=1
-Nowiki=1
-en_Name=Praetorian Royal Robe (E/G)
-Texto=Túnica Real Pretoriana (E/G)
-
-[OBJ2823]
-Name=Vestimenta de Esclava (E/G-M)
-NumRopaje=1150
-GrhIndex=4038
-ObjType=3
-MAXDEF=0
-MINDEF=0
-Valor=0
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-RazaEnana=1
-RazaGnoma=1
-Mujer=1
-Nowiki=1
-en_Name=Slave Vestment (E/G/M)
-Texto=Vestimenta de Esclava (E/G-M)
-
 [OBJ2825]
 Name=Vestimenta de Sirvienta (E/G-M)
 NumRopaje=1152
@@ -34213,48 +29474,6 @@ Valor=1000
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 en_Name=Servitude Vestment (E/G)
 Texto=Vestimenta de Servidumbre (E/G)
-
-[OBJ2827] 'BORRAR 16.001: variante (E/G-M) race-split legacy marcada para borrar
-Name=Vestido de Novia (E/G-M)
-NumRopaje=1154
-GrhIndex=11668
-ObjType=3
-MAXDEF=2
-MINDEF=1
-Valor=100000
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-RazaEnana=1
-RazaGnoma=1
-Mujer=1
-en_Name=Wedding Dress (E/G-M)
-Texto=Vestido de Novia (E/G-M)
-RopajeEnana=2763
-RopajeGnoma=2763
-
-[OBJ2828]
-Name=Vestido de Gala Azul
-GrhIndex=11508
-RopajeHumano=2227
-RopajeElfo=2227
-RopajeElfoOscuro=3684
-RopajeEnano=2742
-RopajeOrco=3309
-RopajeGnomo=2742
-RopajeHumana=1
-RopajeElfa=2227
-RopajeElfaOscura=2813
-RopajeEnana=2781
-RopajeOrca=2797
-RopajeGnoma=2781
-ObjType=3
-MAXDEF=2
-MINDEF=1
-Valor=100000
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-RazaEnana=1
-RazaGnoma=1
-en_Name=Blue Gala Dress (E/G)
-Texto=Vestido de Gala Azul (E/G)
 
 [OBJ2829]
 CP1=GUERRERO
@@ -34403,30 +29622,6 @@ Instransferible=1
 Intirable=1
 NoseCae=1
 
-[OBJ2838]'Borrar proxima temporada
-Name=Vestimenta Elegante (E/G)
-GrhIndex=15127
-RopajeHumano=12
-RopajeElfo=12
-RopajeElfoOscuro=1542
-RopajeEnano=1172
-RopajeOrco=2556
-RopajeGnomo=1172
-RopajeHumana=2682
-RopajeElfa=2682
-RopajeElfaOscura=2730
-RopajeEnana=2698
-RopajeOrca=2714
-RopajeGnoma=2698
-ObjType=3
-MAXDEF=3
-MINDEF=1
-Valor=0
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Nowiki=1
-en_Name=Vestments Elegant (E/G)
-Texto=Vestimenta Elegante (E/G)
-
 [OBJ2839]'Borrar proxima temporada
 Name=Ropaje Ligero (E/G)
 GrhIndex=15128
@@ -34503,30 +29698,6 @@ Valor=80
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 en_Name=Vestment Green Villager  (E/G)
 Texto=Vestimenta Verde de Poblador (E/G)
-
-[OBJ2842]'Borrar proxima temporada
-Name=Vestimenta Común Azul
-GrhIndex=2728
-RopajeHumano=2
-RopajeElfo=2
-RopajeElfoOscuro=1532
-RopajeEnano=1177
-RopajeOrco=2546
-RopajeGnomo=1177
-RopajeHumana=2676
-RopajeElfa=2676
-RopajeElfaOscura=2720
-RopajeEnana=1170
-RopajeOrca=2704
-RopajeGnoma=1170
-ObjType=3
-MAXDEF=3
-MINDEF=1
-Valor=0
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Nowiki=1
-en_Name=Blue Vestment
-Texto=Vestimenta Comun Azul
 
 [OBJ2843]'Borrar proxima temporada
 Name=Vestimenta Bordo de Poblador (E/G)
@@ -34639,80 +29810,6 @@ Nowiki=1
 en_Name=Beggar Clothes (E/G)
 Texto=Ropa de Mendigo (E/G)
 
-[OBJ2848]
-Name=Vestimenta de Pescador (E/G)
-NumRopaje=1184
-GrhIndex=43474
-ObjType=3
-MAXDEF=1
-MINDEF=1
-Valor=0
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-RazaEnana=1
-RazaGnoma=1
-
-[OBJ2849]
-Name=Traje de Bruja (E/G-M)
-GrhIndex=2717
-RopajeHumano=336
-RopajeElfo=336
-RopajeElfoOscuro=2150
-RopajeEnano=4928
-RopajeOrco=2594
-RopajeGnomo=4928
-RopajeHumana=336
-RopajeElfa=336
-RopajeElfaOscura=2150
-RopajeEnana=1186
-RopajeOrca=2594
-RopajeGnoma=1186
-ObjType=3
-MAXDEF=20
-MINDEF=15
-Valor=0
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Mujer=1
-en_Name=Witch Costume (E/G-M)
-Texto=Traje de Bruja (E/G-M)
-
-[OBJ2850]
-Name=Vestido Elegante Púrpura (E/G-M)
-GrhIndex=1459
-RopajeHumano=371
-RopajeElfo=371
-RopajeElfoOscuro=2394
-RopajeEnano=1188
-RopajeOrco=2378
-RopajeGnomo=1188
-RopajeHumana=371
-RopajeElfa=371
-RopajeElfaOscura=2394
-RopajeEnana=1188
-RopajeOrca=2378
-RopajeGnoma=1188
-ObjType=3
-MAXDEF=28
-MINDEF=20
-Valor=0
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Mujer=1
-Nowiki=1
-en_Name=Elegant Purple Dress (E/G-M)
-Texto=Vestido Elegante Púrpura (E/G-M)
-
-[OBJ2851]
-Name=Túnica de Shaman (E/G)
-NumRopaje=1187
-GrhIndex=43474
-ObjType=3
-MAXDEF=30
-MINDEF=20
-Valor=0
-Crucial=0
-RazaEnana=1
-RazaGnoma=1
-Nowiki=1
-
 [OBJ2852]
 Name=Vestido de Gala Turquesa
 GrhIndex=11506
@@ -34739,21 +29836,6 @@ Mujer=1
 Nowiki=1
 en_Name=Turquoise Gala Dress
 Texto=Vestido de Gala Turquesa
-
-[OBJ2853]
-Name=Toga de Aprendiz (E/G)
-NumRopaje=1191
-GrhIndex=43474
-ObjType=3
-MAXDEF=10
-MINDEF=5
-Valor=0
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-RazaEnana=1
-RazaGnoma=1
-Nowiki=1
-en_Name=Apprentice Robe (E/G)
-Texto=Toga de Aprendiz (E/G)
 
 [OBJ2854]
 Name=Sotana de Gran Hechicero
@@ -34791,47 +29873,6 @@ PielOsoPolar=2
 en_Name=Grand Sorcerer Cassock
 Texto=Sotana de Gran Hechicero
 
-[OBJ2855]
-Name=Túnica de Gran Hechicera (E/G)
-NumRopaje=1193
-GrhIndex=17408
-ObjType=3
-ElV=20
-MAXDEF=15
-MINDEF=10
-Valor=2700
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Mujer=1
-RazaEnana=1
-RazaGnoma=1
-en_Name=Grand Sorceress Robe (E/G)
-Texto=Túnica de Gran Hechicera (E/G)
-
-[OBJ2856]
-Name=Túnica de Gala Roja (E/G)
-NumRopaje=1194
-GrhIndex=43474
-ObjType=3
-MAXDEF=23
-MINDEF=19
-Valor=0
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-RazaEnana=1
-RazaGnoma=1
-Nowiki=1
-en_Name=Red Gala Robe (E/G)
-Texto=Túnica de Gala Roja (E/G)
-
 [OBJ2857]
 Name=Túnica Dorada de Gala
 GrhIndex=11108
@@ -34861,41 +29902,6 @@ PielOsoPolar=0
 en_Name=Golden Gala Robe
 Texto=Túnica Dorada de Gala
 
-[OBJ2858]'Borrar proxima temporada
-Name=Ropa de Minero (E/G)
-ProfesionId=19
-GrhIndex=446
-RopajeHumano=72
-RopajeElfo=72
-RopajeElfoOscuro=1832
-RopajeEnano=1196
-RopajeOrco=1784
-RopajeGnomo=1196
-RopajeHumana=2893
-RopajeElfa=2893
-RopajeElfaOscura=1832
-RopajeEnana=2880
-RopajeOrca=1784
-RopajeGnoma=2880
-ObjType=3
-MAXDEF=12
-MINDEF=7
-Valor=2200
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-en_Name=Miner Clothes (E/G)
-Texto=Ropa de Minero (E/G)
-
 [OBJ2859]
 Name=Vestimenta de Capitán Marino
 GrhIndex=17405
@@ -34922,32 +29928,6 @@ Nowiki=1
 en_Name=Captain sea Vestment
 Texto=Vestimenta de Capitán Marino
 
-[OBJ2860]'Borrar proxima temporada
-Name=Vestimenta de Capitán Marino (E/G)
-GrhIndex=17405
-RopajeHumano=277
-RopajeElfo=277
-RopajeElfoOscuro=2054
-RopajeEnano=1198
-RopajeOrco=2038
-RopajeGnomo=1198
-RopajeHumana=277
-RopajeElfa=277
-RopajeElfaOscura=2054
-RopajeEnana=1198
-RopajeOrca=2038
-RopajeGnoma=1198
-ObjType=3
-MAXDEF=20
-MINDEF=15
-Valor=7500
-CP7=DRUIDA
-CP12=MAGO
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Nowiki=1
-en_Name=Captain sea Vestment (E/G)
-Texto=Vestimenta de Capitán Marino (E/G)
-
 [OBJ2861]
 Name=Túnica de Joven Aprendiz
 GrhIndex=3091
@@ -34971,54 +29951,6 @@ Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Nowiki=1
 en_Name=Young Apprentice Robe
 Texto=Túnica de Joven Aprendiz
-
-[OBJ2862]
-Name=Túnica Ecliptica (E/G)
-GrhIndex=3088
-RopajeHumano=205
-RopajeElfo=205
-RopajeElfoOscuro=1625
-RopajeEnano=1200
-RopajeOrco=2266
-RopajeGnomo=1200
-RopajeHumana=205
-RopajeElfa=205
-RopajeElfaOscura=1625
-RopajeEnana=1200
-RopajeOrca=2266
-RopajeGnoma=1200
-ObjType=3
-MAXDEF=30
-MINDEF=20
-Valor=0
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Nowiki=1
-en_Name=Ecliptic Robe (E/G)
-Texto=Túnica Ecliptica (E/G)
-
-[OBJ2863]
-Name=Armadura de Cuero Reforzada
-GrhIndex=3672
-RopajeHumano=92
-RopajeElfo=92
-RopajeElfoOscuro=2004
-RopajeEnano=1699
-RopajeOrco=1988
-RopajeGnomo=1699
-RopajeHumana=92
-RopajeElfa=92
-RopajeElfaOscura=2004
-RopajeEnana=1699
-RopajeOrca=3431
-RopajeGnoma=1699
-ObjType=3
-MAXDEF=20
-MINDEF=15
-Valor=0
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Nowiki=1
-en_Name=Reinforced Leather Armor
-Texto=Armadura de Cuero Reforzada
 
 [OBJ2864]
 Name=Vestimenta de Aventurero
@@ -35052,196 +29984,6 @@ Valor=0
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Nowiki=1
 Texto=Cota de Anillas Compuesta (H/E/EO)
-
-[OBJ2866]
-Name=Vestido de Arquera (H/E/EO-M)
-NumRopaje=1205
-GrhIndex=17400
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=14
-MINDEF=9
-Valor=2400
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Mujer=1
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-MinELV=1
-en_Name=Archer's Dress (H/E/EO-M) (H/E/EO-M)
-Texto=Vestido de Arquera (H/E/EO-M)
-
-[OBJ2867]
-Name=Cota de Peto Liso (H/E/EO/M)
-NumRopaje=1206
-GrhIndex=4324
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=18
-MINDEF=14
-Mujer=1
-Valor=5000
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-Texto=Cota de Peto Liso (H/E/EO)
-
-[OBJ2868]
-Name=Armadura de Cuero Reforzada(M)
-NumRopaje=1207
-GrhIndex=4028
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=20
-MINDEF=15
-Valor=0
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Mujer=1
-en_Name=Reinforced Leather Armor (Woman)
-Texto=Armadura de Cuero Reforzada(M)
-
-[OBJ2869]
-Name=Coraza Compuesta Roja (H/E/EO/M)
-NumRopaje=1208
-GrhIndex=17396
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-Mujer=1
-MAXDEF=30
-MINDEF=25
-Valor=15000
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-Nowiki=1
-Texto=Coraza Compuesta Roja (H/E/EO/M)
-
-[OBJ2870]
-Name=Anillas Con Manto Verde (H/E/EO/M)
-NumRopaje=1209
-GrhIndex=17389
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=16
-MINDEF=13
-Valor=3200
-Mujer=1
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-Texto=Cotas Con Manto Verde (H/E/EO)
-
-[OBJ2871]
-Name=Armadura de Cruzada (H/E/EO/M)
-NumRopaje=1210
-GrhIndex=17388
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-Mujer=1
-MAXDEF=25
-MINDEF=15
-Valor=8000
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-en_Name=Crusade Armor (H/E/EO/M)
-Texto=Armadura de Cruzada (H/E/EO/M)
-
-[OBJ2872]
-Name=Armadura de Placas Combinada (H/E/EO-M)
-NumRopaje=1211
-GrhIndex=17410
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=35
-MINDEF=30
-Valor=0
-Crucial=0
-Mujer=1
-Nowiki=1
-Texto=Armadura de Placas Combinada (H/E/EO-M)
-
-[OBJ2873]
-Name=Cota de Mallas Enteriza (H/E/EO/M)
-NumRopaje=1212
-GrhIndex=17409
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-Mujer=1
-MAXDEF=20
-MINDEF=15
-Valor=7000
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-Texto=Cota de Mallas Enteriza (H/E/EO/M)
 
 [OBJ2874]
 Name=Cota de Mallas a Medida
@@ -35361,65 +30103,6 @@ CP7=DRUIDA
 CP8=BARDO
 CP12=MAGO
 Texto=Cotas de Manto Marrón
-
-[OBJ2878]
-Name=Túnica de Morgana (H/E/EO-M)
-GrhIndex=11653
-RopajeHumano=171
-RopajeElfo=171
-RopajeElfoOscuro=1591
-RopajeEnano=1192
-RopajeOrco=2248
-RopajeGnomo=1192
-RopajeHumana=1217
-RopajeElfa=1217
-RopajeElfaOscura=4873
-RopajeEnana=4841
-RopajeOrca=4857
-RopajeGnoma=4841
-ObjType=3
-MAXDEF=23
-MINDEF=17
-Valor=8000
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Mujer=1
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-en_Name=Morgana Robe (H/E/EO-M)
-Texto=Túnica de Morgana (H/E/EO-M)
-
-[OBJ2879]
-Name=Manto del Dragón (H/E/EO-M)
-NumRopaje=1218
-GrhIndex=4027
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=37
-MINDEF=33
-Valor=75000
-Crucial=0
-Mujer=1
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP9=ASESINO
-CP10=GUERRERO
-en_Name=Dragon Mantle(H/E/EO-M)
-Texto=Manto del Dragón (H/E/EO-M)
 
 [OBJ2880]
 Name=Armadura Esstharul
@@ -36016,30 +30699,6 @@ CP11=CLERIGO
 CP12=MAGO
 en_Name=Ancient armor
 
-[OBJ2896]
-Name=Armadura de Ladron 2da Jerarquía (H/E/EO)
-GrhIndex=22103
-RopajeHumano=1235
-RopajeElfo=1235
-RopajeElfoOscuro=2399
-RopajeEnano=96
-RopajeOrco=2383
-RopajeGnomo=96
-RopajeHumana=1235
-RopajeElfa=1235
-RopajeElfaOscura=3886
-RopajeEnana=96
-RopajeOrca=2383
-RopajeGnoma=96
-ObjType=3
-MAXDEF=35
-MINDEF=30
-Valor=27500
-Crucial=0
-Nowiki=1
-en_Name=2nd Tief Armor (H/E/EO)
-Texto=Armadura de Ladron 2da Jerarquía (H/E/EO)
-
 [OBJ2897]
 Name=Armadura de Morngrim
 GrhIndex=22101
@@ -36268,62 +30927,6 @@ CP12=MAGO
 MinELV=1
 Crucial=0
 Texto=Coraza de Ocre
-
-[OBJ2904]
-Name=Coraza Compuesta(H/E/EO/M)
-NumRopaje=1044
-GrhIndex=17387
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=35
-MINDEF=23
-Valor=14115
-Mujer=1
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-Texto=Coraza Compuesta(H/E/EO/M)
-
-[OBJ2905]
-Name=Cruzado Desértico (H/E/EO)
-GrhIndex=17395
-RopajeHumano=232
-RopajeElfo=232
-RopajeElfoOscuro=1969
-RopajeEnano=1690
-RopajeOrco=1953
-RopajeGnomo=1690
-RopajeHumana=232
-RopajeElfa=232
-RopajeElfaOscura=1969
-RopajeEnana=1690
-RopajeOrca=1953
-RopajeGnoma=1690
-ObjType=3
-MAXDEF=37
-MINDEF=33
-Valor=50000
-Crucial=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-Texto=Cruzado Desértico (H/E/EO)
 
 [OBJ2906]
 Name=Ropa de Leñador (H/E/EO)
@@ -36817,33 +31420,6 @@ FR_texto=Défense 20/22
 IT_Name=Quota del Minatore Esperto
 IT_texto=Difesa 20/22
 
-[OBJ2921]
-Name=Sírica Élfica Rojiza (H/E/EO-M)
-NumRopaje=1111
-GrhIndex=18233
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=25
-MINDEF=20
-Valor=10000
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Mujer=1
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-MinELV=1
-en_Name=Reddish Elven Sirica (H/E/EO-M)
-Texto=Sírica Élfica Rojiza (H/E/EO-M)
-
 [OBJ2922]
 Name=Vestido Auré
 NumRopaje=1099
@@ -36937,31 +31513,6 @@ CP10=GUERRERO
 en_Name=Little riding hood dress (H/E/EO-M)
 Texto=Vestido Caperucita (H/E/EO-M)
 
-[OBJ2925]
-Name=Atuendo de Bruja (H/E/EO-M)
-NumRopaje=1038
-GrhIndex=18228
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=18
-MINDEF=14
-Valor=5000
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Mujer=1
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-MinELV=1
-Texto=Atuendo de Bruja (H/E/EO-M)
-
 [OBJ2926]
 Name=Hábito de Ritual de Hombre
 GrhIndex=10791
@@ -37019,31 +31570,6 @@ RopajeElfaOscura=3710
 RopajeEnana=2768
 RopajeOrca=3335
 RopajeGnoma=2768
-
-[OBJ2928]
-Name=Vestido de Elfa Empatica (H/E/EO-M)
-NumRopaje=1045
-GrhIndex=18227
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=13
-MINDEF=10
-Valor=2400
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Mujer=1
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-en_Name=Elf Empathic Dress (H/E/EO-M)
-Texto=Vestido de Elfa Empatica (H/E/EO-M)
 
 [OBJ2929]
 CP1=GUERRERO
@@ -37119,24 +31645,6 @@ RopajeHumana=2182
 RopajeHumano=2182
 RopajeOrca=3248
 RopajeOrco=3248
-
-[OBJ2931]
-Name=Vestimenta de Servidumbre (H/E/EO-M)
-NumRopaje=1040
-GrhIndex=22108
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=1
-MINDEF=1
-Valor=50
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Mujer=1
-Nowiki=1
-en_Name=Servitude Vestment (H/E/EO-M)
-Texto=Vestimenta de Servidumbre (H/E/EO-M)
 
 [OBJ2932]
 CP1=GUERRERO
@@ -37349,94 +31857,6 @@ RopajeHumano=300
 RopajeOrca=3251
 RopajeOrco=1336
 
-[OBJ2938]'Para borrar proxima temporada
-Name=Empírea Bordada (M)
-NumRopaje=102
-GrhIndex=3633
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=25
-MINDEF=20
-Valor=10000
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Mujer=1
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-SKSastreria=65
-PielLobo=80
-PielOsoPardo=15
-PielOsoPolar=1
-Texto=Empírea Bordada (M)
-
-[OBJ2939]'Borrar para la proxima temporada
-Name=Túnica de Druida (M)
-GrhIndex=10117
-RopajeHumano=123
-RopajeElfo=123
-RopajeElfoOscuro=1529
-RopajeEnano=3088
-RopajeOrco=1757
-RopajeGnomo=3088
-RopajeHumana=1096
-RopajeElfa=1096
-RopajeElfaOscura=2542
-RopajeEnana=2510
-RopajeOrca=2526
-RopajeGnoma=2510
-ObjType=3
-Mujer=1
-MAXDEF=20
-MINDEF=15
-Valor=7000
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-MinELV=1
-en_Name=Druid Robe (M)
-Texto=Túnica de Druida (M)
-
-[OBJ2940]
-Name=Valya Silmeanar (H/E/EO)
-NumRopaje=1114
-GrhIndex=4424
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=25
-MINDEF=20
-Valor=10000
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-MinELV=1
-en_Name=Valya Silmeanar (H/E/EO)
-Texto=Valya Silmeanar (H/E/EO)
-
 [OBJ2941]
 Name=Atuendo de Pueblerina (M)
 NumRopaje=747
@@ -37513,107 +31933,6 @@ MinELV=1
 en_Name=Rock Clothing
 Texto=Ropaje Rupestre
 
-[OBJ2946]'Borrar proxima temporada
-Name=Túnica Legendaria (H/E/EO-M)
-GrhIndex=2597
-RopajeHumano=141
-RopajeElfo=141
-RopajeElfoOscuro=1561
-RopajeEnano=1660
-RopajeOrco=2188
-RopajeGnomo=1660
-RopajeHumana=1061
-RopajeElfa=1061
-RopajeElfaOscura=4821
-RopajeEnana=4789
-RopajeOrca=4805
-RopajeGnoma=4789
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-Mujer=1
-Crucial=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-MAXDEF=35
-MINDEF=30
-Valor=21000
-MinELV=1
-en_Name=Legendary Robe (H/E/EO-M)
-Texto=Túnica Legendaria (H/E/EO-M)
-
-[OBJ2947]
-Name=Túnica de Gran Hechicera (H/E/EO-M)
-NumRopaje=1036
-GrhIndex=17408
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-Mujer=1
-MAXDEF=18
-MINDEF=14
-MinELV=1
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-Valor=5000
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-en_Name=Grand Sorceress Robe (H/E/EO-M)
-Texto=Túnica de Gran Hechicera (H/E/EO-M)
-
-[OBJ2948]
-Name=Coraza Clerical (Bajos)
-GrhIndex=2601
-RopajeHumano=47
-RopajeElfo=47
-RopajeElfoOscuro=2298
-RopajeEnano=4912
-RopajeOrco=2070
-RopajeGnomo=4912
-RopajeHumana=38
-RopajeElfa=47
-RopajeElfaOscura=2298
-RopajeEnana=4912
-RopajeOrca=2070
-RopajeGnoma=4912
-ObjType=3
-MAXDEF=43
-MINDEF=38
-ResistenciaMagica=1
-Valor=50000
-Crucial=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP12=MAGO
-peso=160
-MinELV=1
-Texto=Coraza Clerical (Bajos)
-
 [OBJ2949]
 Name=Manto de Agonía (Bajos)
 GrhIndex=22108
@@ -37652,36 +31971,6 @@ CP11=CLERIGO
 CP12=MAGO
 en_Name=Mantle of Agony (E/G)
 
-[OBJ2950]'Borrar proxima temporada
-Name=Piwafwi Purpura del Silencio
-GrhIndex=41746
-RopajeHumano=112
-RopajeElfo=112
-RopajeElfoOscuro=1518
-RopajeEnano=1140
-RopajeOrco=1746
-RopajeGnomo=1140
-RopajeHumana=1034
-RopajeElfa=1034
-RopajeElfaOscura=2531
-RopajeEnana=1191
-RopajeOrca=2515
-RopajeGnoma=1191
-ObjType=3
-MAXDEF=24
-MINDEF=20
-Valor=4185
-Crucial=0
-Mujer=1
-CP3=PIRATA
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP12=MAGO
-Nowiki=1
-en_Name=Piwafwi Purple OF Silence (EO-M)
-Texto=Piwafwi Purpura del Silencio (EO-M)
-
 [OBJ2951]
 Name=Manto Oscuro
 GrhIndex=324
@@ -37716,41 +32005,6 @@ NFT=0
 Nowiki=1
 en_Name=Dark Cloak
 Texto=Manto Oscuro
-
-[OBJ2952]'Borrar proxima temporada
-Name=Manto Oscuro (Bajos)
-GrhIndex=324
-RopajeHumano=225
-RopajeElfo=225
-RopajeElfoOscuro=1962
-RopajeEnano=641
-RopajeOrco=1946
-RopajeGnomo=641
-RopajeHumana=225
-RopajeElfa=225
-RopajeElfaOscura=1962
-RopajeEnana=641
-RopajeOrca=1946
-RopajeGnoma=641
-ObjType=3
-MAXDEF=25
-MINDEF=20
-Valor=10000
-Crucial=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-MinELV=1
-NFT=0
-Nowiki=1
-en_Name=Dark Cloak (E/G)
-Texto=Manto Oscuro (Bajos)
 
 [OBJ2953]
 Name=Corona de Druida
@@ -41227,34 +35481,6 @@ Cantidad11=1
 SND1=453
 CreaFX=102
 
-[OBJ3048] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
-GrhIndex=52090
-Name=Cofre de Bronce
-ObjType=48
-Texto=Recompensas del Tier 3
-en_Name=Bronze Chest
-en_Texto=Tier 3 Rewards
-fr_Name=Coffre en bronze
-fr_Texto=Récompenses de niveau 3
-it_Name=Petto di bronzo
-it_Texto=Premi di livello 3
-pt_Name=Peito de bronze
-pt_Texto=Recompensas de Nível 3
-
-[OBJ3049] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
-GrhIndex=52091
-Name=Cofre de Plata
-ObjType=48
-Texto=Recompensas Únicas
-en_Name=Silver Chest
-en_Texto=Unique Rewards
-fr_Name=Coffre argenté
-fr_Texto=Récompenses uniques
-it_Name=Torace d'argento
-it_Texto=Premi unici
-pt_Name=Peito prateado
-pt_Texto=Recompensas únicas
-
 [OBJ3050] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=52092
 Name=Cofre de Oro
@@ -42709,23 +36935,6 @@ Cantidad1=1
 SND1=453
 CreaFX=102
 NoWiki=1
-
-[OBJ3146]
-Name=Cofre Perdido
-GrhIndex=52095
-ObjType=48
-Subtipo=2
-Agarrable=0
-Texto=Este cofre contiene.
-CantItem=1
-CantEntrega=1
-Item1=3544	'llave catas
-Cantidad1=1
-SND1=453
-CreaFX=102
-NoWiki=1
-
-'--------------> Casa número 11 de Banderbill New <--------------
 
 [OBJ3147]
 Name=Puerta abierta 11 new bander
@@ -44463,31 +38672,6 @@ CP5=LADRON
 CP6=PALADIN
 CP7=PIRATA
 CP8=TRABAJADOR
-
-[OBJ3257]
-Name=Túnica Roja de Gran Campeón AO20
-GrhIndex=2557
-RopajeHumano=292
-RopajeElfo=292
-RopajeElfoOscuro=2069
-RopajeEnano=760
-RopajeOrco=2053
-RopajeGnomo=760
-RopajeHumana=292
-RopajeElfa=292
-RopajeElfaOscura=2069
-RopajeEnana=760
-RopajeOrca=2053
-RopajeGnoma=760
-ObjType=3
-MAXDEF=2
-MINDEF=1
-NoseCae=1
-Intirable=1
-Instransferible=1
-NoWiki=1
-Texto=Ganador del segundo torneo 1vs1
-en_Name=AO20 Grand Champion Robe
 
 [OBJ3258]
 Name=Armadura de Gran Campeón AO20
@@ -47709,29 +41893,6 @@ Objtype=29
 Crucial=0
 Texto=Carta de Recomendación
 
-[OBJ3475]
-Name=Ira de chicken (Area)(GMs)
-GrhIndex=609
-Valor=15000000
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-HechizoIndex=221
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-Objtype=24
-Texto=Ira de chicken (Area)(GMs)
-Nowiki=1
-en_Name=Chicken Wrath (Area) (GMs)
-
 [OBJ3476]
 Name=Puerta abierta nueva cabaña
 GrhIndex=16330
@@ -47862,38 +42023,6 @@ NoSeCae=1
 Instransferible=1
 Intirable=1
 en_texto=Dwarf Breed Recovered Energy (QUEST)
-
-[OBJ3486]
-Name=Cota de Mallas Larga (H/E/EO)
-GrhIndex=2560
-RopajeHumano=93
-RopajeElfo=93
-RopajeElfoOscuro=2005
-RopajeEnano=1700
-RopajeOrco=1989
-RopajeGnomo=1700
-RopajeHumana=93
-RopajeElfa=93
-RopajeElfaOscura=2005
-RopajeEnana=1700
-RopajeOrca=1989
-RopajeGnoma=1700
-MinELV=1
-ObjType=3
-MAXDEF=17
-MINDEF=13
-Valor=4200
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-Texto=Cota de Mallas Larga (H/E/EO)
 
 [OBJ3487]
 Name=Espada del Principiante
@@ -48248,32 +42377,6 @@ newbie=1
 Instransferible=1
 Texto=Vestimentas comunes (Newbie)
 en_Name=Basic Vestment (newbie)
-
-[OBJ3503]
-Name=Cofre de Escudos Legendarios
-GrhIndex=49227
-ObjType=48
-Subtipo=2
-Agarrable=0
-NoseCae=1
-Texto=Este cofre contiene escudos legendarios.
-CantItem=7
-CantEntrega=1
-Item1=1003 'Egida templaría
-Cantidad1=1
-Item2=1695 'Escudo de Campeón
-Cantidad2=1
-Item3=1698 'Escudo de León
-Cantidad3=1
-Item4=1726 'Escudo Titán
-Cantidad4=1
-Item5=1716 'Escudo Incognito
-Cantidad5=1
-Item6=1699 'Escudo Arcano
-Cantidad6=1
-Item7=1720 'Escudo de Huesos
-Cantidad7=1
-Snd1=463
 
 [OBJ3504] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=49071
@@ -49655,51 +43758,6 @@ Texto=Aumenta por unos segundos tu velocidad de movimiento.
 en_texto=Briefly increases your movement speed.
 en_Name=War Cry
 SPELLINDEX=237
-
-[OBJ3598]
-Name=Cabaña Vikingo Puerta abierta
-GrhIndex=15634
-ObjType=6
-Cerrada=0
-llave=0
-Clave=1310
-Agarrable=1
-IndexAbierta=3598
-IndexCerrada=3599
-IndexCerradaLlave=3600
-Texto=Cabaña Vikingo Puerta abierta
-en_texto=career gate
-ExtraStr=Cabaña Vikingo Puerta abierta
-
-[OBJ3599]
-Name=Cabaña Vikingo Puerta cerrada
-GrhIndex=15633
-ObjType=6
-Cerrada=1
-llave=0
-Clave=1310
-Agarrable=1
-IndexAbierta=3598
-IndexCerrada=3599
-IndexCerradaLlave=3600
-Texto=Cabaña Vikingo Puerta cerrada
-en_texto=career gate
-ExtraStr=Cabaña Vikingo Puerta cerrada
-
-[OBJ3600]
-Name=Cabaña Vikingo Puerta cerrada con llave
-GrhIndex=15633
-ObjType=6
-Cerrada=1
-llave=1
-Clave=1310
-Agarrable=1
-IndexAbierta=3598
-IndexCerrada=3599
-IndexCerradaLlave=3600
-Texto=Cabaña Vikingo Puerta cerrada con llave
-en_texto=career gate
-ExtraStr=Cabaña Vikingo Puerta cerrada con llave
 
 [OBJ3601]
 Name=Llave Cabaña Vikingo
@@ -53333,26 +47391,6 @@ en_name=Harp of the Cosmos
 en_texto=Harp of the Cosmos
 NoWiki=1
 
-[OBJ3841]
-Name=Escudo de Fortaleza Legionaria
-Anim=62
-NumRopaje=2
-GrhIndex=86114
-ObjType=16
-Subtipo=2
-MAXDEF=13
-MINDEF=10
-Valor=10000
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP12=MAGO
-MinELV=1
-Caos=1
-Texto=Escudo de Fortaleza Legionaria
-Porcentaje=100
-
 [OBJ3842]
 Name=Barril
 GrhIndex=37901
@@ -53403,30 +47441,6 @@ Objtype=51
 Crucial=0
 Nosecae=1
 Texto=Piedra Nocturna
-
-[OBJ3848]
-Name=Escudo de la Oscuridad
-Anim=7
-NumRopaje=2
-GrhIndex=86120
-MinELV=1
-ObjType=16
-MAXDEF=8
-MINDEF=12
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP12=MAGO
-Caos=1
-Valor=1000
-Crucial=0
-Porcentaje=100
-Texto=Escudo de Oscuridad Legionaria
 
 [OBJ3849]
 Name=Desplazamiento Veloz
@@ -58742,65 +52756,6 @@ ObjType=9
 Clave=373
 Valor=
 Texto=Llave Banderbill Nro 18
-NFT=0
-
-[OBJ4191]
-Name=Penthar Nro 19 Puerta Abierta.
-GrhIndex=12134
-ObjType=6
-Subtipo=0
-Cerrada=0
-llave=0
-Clave=374
-Agarrable=1
-IndexAbierta=4191
-IndexCerrada=4192
-IndexCerradaLlave=4193
-Texto=Name=Penthar Nro 19 Puerta Abierta.
-en_texto=Only Authorized will be able to enter
-en_Name=open sewer door
-ExtraStr=Name=Penthar Nro 19 Puerta Abierta.
-
-[OBJ4192]
-Name=Penthar Nro 19 Puerta Cerrada.
-GrhIndex=12133
-ObjType=6
-Subtipo=0
-Cerrada=1
-llave=0
-Clave=374
-Agarrable=1
-IndexAbierta=4191
-IndexCerrada=4192
-IndexCerradaLlave=4193
-Texto=Puerta de Penthar
-en_texto=Only Authorized will be able to enter
-en_Name=Closed sewer door
-
-[OBJ4193]
-Name=Penthar Nro 19 Con Llave
-GrhIndex=12133
-ObjType=6
-Subtipo=0
-Cerrada=1
-llave=1
-Clave=374
-Agarrable=1
-IndexAbierta=4191
-IndexCerrada=4192
-IndexCerradaLlave=4193
-Texto=Puerta de Penthar
-en_texto=Only Authorized will be able to enter
-en_Name=Closed sewer door
-
-[OBJ4194]
-Name=Llave casa Penthar Nro: 45
-ExtraStr=Llave PentharNro 19
-GrhIndex=509
-ObjType=9
-Clave=374
-Valor=
-Texto=Llave Penthar Nro 45
 NFT=0
 
 [OBJ4195]
@@ -70143,59 +64098,6 @@ IT_texto=Difesa 19/21
 PT_Name=Chapéu ideal
 PT_texto=Defesa 19/21
 
-[OBJ4937]
-Name=Capucha Negra (BARDO)
-Anim=230
-NumRopaje=2
-GrhIndex=31357
-ObjType=17
-Subtipo=1
-MAXDEF=16
-MINDEF=13
-ResistenciaMagica=1
-Valor=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP8=DRUIDA
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-Texto=Capucha Negra
-en_Name=Black Hood
-en_texto=Black Hood
-NoWiki=1
-
-[OBJ4938]
-Name=Laúd Negro (BARDO)
-GrhIndex=11382
-VGrande=32615 
-Valor=0
-Objtype=30
-MagicDamageBonus=8
-Texto=Aumenta el daño mágico un 8%.
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-Revive=1
-en_name=Black Lute
-en_texto=Increases magic damage by 7%
-NoWiki=1
-
-'------> Clerigo <-------
-
 [OBJ4939]
 Name=Armadura del Dragón Legendario
 GrhIndex=3676
@@ -70233,60 +64135,6 @@ Texto=Armadura del Dragón Legendario
 en_texto=Black Dragon Armor
 NoWiki=1
 
-[OBJ4940]
-Name=Yelmo del Dragón Negro (CLERIGO)
-Anim=29 
-GrhIndex=21710 
-ObjType=17
-Subtipo=1
-MAXDEF=27
-MINDEF=25
-ResistenciaMagica=1
-Valor=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP9=ASESINO
-CP10=GUERRERO
-CP11=BARDO
-CP12=MAGO
-Texto=Yelmo del Dragón Negro
-en_Name=Helm of the Black Dragon
-en_texto=Helm of the Black Dragon
-NoWiki=1
-
-[OBJ4941]
-Name=Garra del Dragón Negro (CLERIGO)
-GrhIndex=36359
-Anim=59
-Objtype=2
-Subtipo=2
-MinHIT=15
-MaxHIT=18
-Valor=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP9=ASESINO
-CP10=GUERRERO
-CP11=BARDO
-CP12=MAGO
-WeaponType=1
-Texto=Garra del Dragón Negro
-en_Name=Black Dragon Claw
-en_texto=Black Dragon Claw
-NoWiki=1
-
-'------> Asesino <-------
-
 [OBJ4942]
 Name=Armadura del Dragón Negro (ASESINO)
 GrhIndex=2607
@@ -70323,60 +64171,6 @@ en_Name=Black Dragon Armor
 Texto=Armadura del Dragón Negro
 en_texto=Black Dragon Armor
 NoWiki=1
-
-[OBJ4943]
-Name=Yelmo del Dragón Negro (ASESINO)
-Anim=29 
-GrhIndex=21710 
-ObjType=17
-Subtipo=1
-MAXDEF=23
-MINDEF=20
-ResistenciaMagica=1
-Valor=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP9=CLERIGO
-CP10=GUERRERO
-CP11=BARDO
-CP12=MAGO
-Texto=Yelmo del Dragón Negro
-en_Name=Helm of the Black Dragon
-en_texto=Helm of the Black Dragon
-NoWiki=1
-
-[OBJ4944]
-Name=Puñal del Dragón Negro (ASESINO)
-GrhIndex=11377
-Anim=169
-Objtype=2
-Subtipo=2
-MinHIT=7
-MaxHIT=9
-Valor=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP9=CLERIGO
-CP10=GUERRERO
-CP11=BARDO
-CP12=MAGO
-WeaponType=1
-Texto=Garra del Dragón Negro
-en_Name=Black Dragon Claw
-en_texto=Black Dragon Claw
-NoWiki=1
-
-'------> Paladin <-------
 
 [OBJ4945]
 Name=Armadura del Dragón Negro (PALADIN)
@@ -70473,34 +64267,6 @@ FR_texto=Récompense unique de la faction légionnaire.
 IT_Name=Cavalcatura della Legione (Sesta Gerarchia)
 IT_texto=Ricompensa unica della fazione dei Legionari.
 
-[OBJ4950]
-Name=Garra del Dragón Negro (BANDIDO)
-GrhIndex=36359
-Anim=59
-Objtype=2
-Subtipo=2
-MinHIT=14
-MaxHIT=16
-Valor=0
-CP1=CLERIGO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP9=ASESINO
-CP10=GUERRERO
-CP11=BARDO
-CP12=MAGO
-WeaponType=1
-Texto=Garra del Dragón Negro
-en_Name=Black Dragon Claw
-en_texto=Black Dragon Claw
-NoWiki=1
-
-'------> Guerrero <-------
-
 [OBJ4951] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=87839
 Name=Montura Real (Quinta Jerarquía)
@@ -70544,34 +64310,6 @@ FR_Name=Mont Royal (Sixième Hiérarchie)
 FR_texto=Récompense unique de la faction royale.
 IT_Name=Monte Reale (Sesta Gerarchia)
 IT_texto=Ricompensa unica della Fazione Reale.
-
-[OBJ4953]
-Name=Garra del Dragón Negro (GUERRERO)
-GrhIndex=36359
-Anim=59
-Objtype=2
-Subtipo=2
-MinHIT=17
-MaxHIT=20
-Valor=0
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP9=ASESINO
-CP10=CLERIGO
-CP11=BARDO
-CP12=MAGO
-WeaponType=1
-Texto=Garra del Dragón Negro
-en_Name=Black Dragon Claw
-en_texto=Black Dragon Claw
-NoWiki=1
-
-'------> Cazador <-------
 
 [OBJ4954] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=87264
@@ -70766,37 +64504,6 @@ SND1=453
 CreaFX=102
 NoWiki=1
 Valor=0
-
-[OBJ4962]
-Name=Cofre de Armas de Dragón Negro
-GrhIndex=49238
-ObjType=48
-Subtipo=2
-Agarrable=0
-Texto=Contiene Armas de Dragón Negro.
-CantItem=9
-CantEntrega=1
-Item1=4932	' Mago
-Cantidad1=1
-Item2=4935	' Druida
-Cantidad2=1
-Item3=4938	' Bardo
-Cantidad3=1
-Item4=4941	' Clerigo
-Cantidad4=1
-Item5=4944	' Asesino
-Cantidad5=1
-Item6=4947	' Paladin
-Cantidad6=1
-Item7=4950	' Bandido
-Cantidad7=1
-Item8=4953	' Guerrero
-Cantidad8=1
-Item9=4956	' Cazador
-Cantidad9=1
-SND1=453
-CreaFX=102
-NoWiki=1
 
 [OBJ4963]
 Name=Casco Blanco de Aviador
@@ -72925,74 +66632,6 @@ Texto=Flecha de prueba con Neurotoxina fija. TOGGLE26.
 en_Name=Test Neurotoxin Arrow
 NoWiki=1
 
-[OBJ6288]
-Name=Runa de Fuego
-Texto=Encanta un arma con elemento Fuego. No se puede remover.
-en_Name=Fire Rune
-en_Texto=Enchant a weapon with Fire element. It cannot be removed.
-GrhIndex=52015
-ObjType=55
-ElementalTags=1
-Blodium=5000
-FireEssence=1
-SkHerreria=100
-Valor=0
-Crucial=0
-Peso=1
-
-[OBJ6289]
-Name=Runa de Agua
-Texto=Encanta un arma con elemento Agua. No se puede remover.
-en_Name=Water Rune
-en_Texto=Enchant a weapon with Water element. It cannot be removed.
-GrhIndex=52017
-ObjType=55
-ElementalTags=2
-Blodium=5000
-WaterEssence=1
-SkHerreria=100
-Valor=0
-Crucial=0
-Peso=1
-
-[OBJ6290]
-Name=Runa de Tierra
-Texto=Encanta un arma con elemento Tierra. No se puede remover.
-en_Name=Earth Rune
-en_Texto=Enchant a weapon with Earth element. It cannot be removed.
-GrhIndex=52018
-ObjType=55
-ElementalTags=4
-Blodium=5000
-EarthEssence=1
-SkHerreria=100
-Valor=0
-Crucial=0
-Peso=1
-
-[OBJ6291]
-Name=Runa de Viento
-Texto=Encanta un arma con elemento Viento. No se puede remover.
-en_Name=Wind Rune
-en_Texto=Enchant a weapon with Wind element. It cannot be removed.
-GrhIndex=52016
-ObjType=55
-ElementalTags=8
-Blodium=5000
-WindEssence=1
-SkHerreria=100
-Valor=0
-Crucial=0
-Peso=1
-
-' =====================================================================
-' OBJs reconstruidos del localindex oficial (Steam 2026-06-08) y de la
-' wiki API oficial donde hubo item_id coincidente. El repo publico de
-' ao-org no incluye su logica server (capado): los stubs sin wiki solo
-' traen los campos cliente del localindex.
-' Plan 10.001 Fase 3, batch OBJs.
-' =====================================================================
-
 [OBJ131] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 CP1=BANDIDO
 CP2=ASESINO
@@ -73718,27 +67357,6 @@ FR_texto=Vous permet de monter un ours
 IT_Name=Cavalcatura Orso Corazzato
 IT_texto=Ti permette di cavalcare un orso
 
-[OBJ660] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=MONTURA TIERRA
-Texto=Te permite montar un
-GrhIndex=24687
-ObjType=44
-Valor=0
-
-[OBJ661] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=MONTURA VIENTO
-Texto=Te permite montar un Unicornio
-GrhIndex=24668
-ObjType=44
-Valor=0
-
-[OBJ662] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=MONTURA AGUA
-Texto=Te permite montar un Unicornio
-GrhIndex=24664
-ObjType=44
-Valor=0
-
 [OBJ665] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Seda Elemental
 Texto=Item de Quest
@@ -73777,41 +67395,6 @@ GrhIndex=38328
 ObjType=100
 Valor=0
 Crucial=1
-
-[OBJ722] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Montura de Camello
-Texto=Te permite montar una Rata
-GrhIndex=14641
-ObjType=44
-Valor=0
-
-[OBJ723] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Montura de Camello 2
-Texto=Te permite montar una Rata
-GrhIndex=24722
-ObjType=44
-Valor=0
-
-[OBJ724] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Montura de Camello 3
-Texto=Te permite montar una Rata
-GrhIndex=24723
-ObjType=44
-Valor=0
-
-[OBJ725] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Montura de Camello 4
-Texto=Te permite montar una Rata
-GrhIndex=14639
-ObjType=44
-Valor=0
-
-[OBJ726] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Montura de Camello 5
-Texto=Te permite montar una Rata
-GrhIndex=14640
-ObjType=44
-Valor=0
 
 [OBJ727] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Montura de Rata
@@ -74058,39 +67641,6 @@ it_Texto=Difesa 30/35
 pt_Name=Túnica lendária cinza
 pt_Texto=Defesa 30/35
 
-[OBJ1092] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=36413
-MaxHit=1
-MinHit=1
-Name=Báculo Zaphyr
-ObjType=2
-Texto=Aumenta tu Daño Mágico en un 7%
-en_Name=Socketed Staff
-en_Texto=Increase your Magic Damage by 7%
-fr_Name=Personnel de Zaphyr
-fr_Texto=Augmentez vos dégâts magiques de 7%
-it_Name=Staff di Zaphyr
-it_Texto=Aumenta il tuo danno magico del 7%
-pt_Name=Equipe Zaphyr
-pt_Texto=Aumente seu dano mágico em 7%
-' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1810)
-WeaponType=4
-Anim=61
-Revive=1
-MinELV=1
-MagicDamageBonus=7
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP7=DRUIDA
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-
 [OBJ1093] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Sombrero Zaphyr
 Texto=Aumenta un 7% tu resistencia mágica
@@ -74124,22 +67674,6 @@ it_Name=Cappuccio
 it_Texto=Difesa 7/13
 pt_Name=Capuz
 pt_Texto=Defesa 7/13
-
-[OBJ1097] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=1063
-MaxHit=15
-MinHit=7
-Name=Bastón Lirial
-ObjType=2
-Texto=Daño 7/15
-en_Name=Lirial Staff
-en_Texto=Damage 7/15
-fr_Name=Canne lirial
-fr_Texto=Dommages 7/15
-it_Name=Canna liriale
-it_Texto=Danno 7/15
-pt_Name=Bengala lirial
-pt_Texto=Dano 7/15
 
 [OBJ1098] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 CP1=PALADIN
@@ -74290,67 +67824,6 @@ it_Texto=Difesa 20/25
 pt_Name=Capacete dourado
 pt_Texto=Defesa 20/25
 
-[OBJ1103] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=9631
-MaxDef=7
-MinDef=5
-Name=Escudo Imperial
-ObjType=16
-Texto=Defensa 5/7
-en_Name=Imperial Shield
-en_Texto=Defense 5/7
-fr_Name=Bouclier impérial
-fr_Texto=Défense 5/7
-it_Name=Scudo imperiale
-it_Texto=5/7 difesa
-pt_Name=Escudo imperial
-pt_Texto=5/7 Defesa
-
-[OBJ1104] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=86184
-MaxDef=10
-MinDef=7
-Name=Escudo del Valle +1
-ObjType=16
-Texto=Defensa 7/10
-en_Name=Shield of the Valley
-en_Texto=Defense 7/10
-fr_Name=Valley Shield +1
-fr_Texto=Défense 7/10
-it_Name=Valley Shield +1
-it_Texto=7/10 difesa
-pt_Name=Valley Shield +1
-pt_Texto=7/10 Defesa
-
-[OBJ1105] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=37359
-MaxHit=18
-MinHit=9
-Name=Hacha Dorada de Guerra
-ObjType=2
-Texto=Daño 9/18
-en_Name=Two-Edged War Ax
-en_Texto=Damage 9/18
-fr_Name=Hache d'or
-fr_Texto=Dommages 9/18
-it_Name=Ascia dorata
-it_Texto=Danno 9/18
-pt_Name=Machado dourado
-pt_Texto=Danos 9/18
-' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1246)
-WeaponType=7
-Anim=133
-MinELV=25
-CP1=BANDIDO
-CP2=ASESINO
-CP3=TRABAJADOR
-CP4=CAZADOR
-CP5=PIRATA
-CP6=LADRON
-CP7=BARDO
-CP8=DRUIDA
-CP9=MAGO
-
 [OBJ1106] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Armadura de las Sombras +1
 Texto=Defensa 30/37
@@ -74380,41 +67853,6 @@ it_Texto=Difesa 30/37
 pt_Name=Armadura de sombra +1
 pt_Texto=Defesa 30/37
 
-[OBJ1107] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=35792
-MaxHit=5
-MinHit=3
-Name=Daga Envenenada
-ObjType=2
-Texto=Daño 3/5
-en_Name=Poisoned Dagger
-en_Texto=Damage 3/5
-fr_Name=Poignard empoisonné
-fr_Texto=Dommages 3/5
-it_Name=Pugnale avvelenato
-it_Texto=Danno 3/5
-pt_Name=Adaga envenenada
-pt_Texto=Dano 3/5
-' Reparado 07.001 ola 2c (decision del dueno): queda como daga COMUN, por debajo de la
-' Daga Envenenada 1864 (4/7, exclusiva de asesino). Dano 3/5, clases de la Daga +3.
-' El GrhIndex original (37844) era el del Sable Maestro OBJ398: corregido al de una daga.
-WeaponType=2
-Anim=115
-APUÑALA=1
-MinELV=1
-Valor=4500
-peso=15
-Crucial=0
-CP1=GUERRERO
-CP2=PALADIN
-CP3=BANDIDO
-CP4=CLERIGO
-CP5=TRABAJADOR
-CP6=PIRATA
-CP7=LADRON
-CP8=DRUIDA
-CP9=MAGO
-
 [OBJ1108] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Daga Oscura
 Texto=Daño 5/8
@@ -74431,70 +67869,6 @@ it_Name=Dagger oscuro
 it_Texto=Danno 5/8
 pt_Name=Dagger escura
 pt_Texto=Dano 5/8
-
-[OBJ1109] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=3497
-MaxHit=16
-MinHit=8
-Name=Katana +1
-ObjType=2
-Texto=Daño 8/16
-en_Name=Katana +1
-en_Texto=Damage 8/16
-fr_Name=Katana +1
-fr_Texto=Dommages 8/16
-it_Name=Katana +1
-it_Texto=Danno 8/16
-pt_Name=Katana +1
-pt_Texto=Danos 8/16
-' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ124)
-WeaponType=1
-Anim=106
-Subtipo=2
-DosManos=0
-MinELV=25
-CP1=GUERRERO
-CP2=PALADIN
-CP3=CLERIGO
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PIRATA
-CP7=LADRON
-CP8=BARDO
-CP9=DRUIDA
-CP10=MAGO
-
-[OBJ1110] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=44226
-MaxHit=13
-MinHit=10
-Name=Guantes de Oro
-ObjType=2
-Texto=Daño 10/13
-en_Name=Golden Gloves
-en_Texto=Damage 10/13
-fr_Name=Gants d'or
-fr_Texto=Dommages 10/13
-it_Name=Guanti d'oro
-it_Texto=Danno 10/13
-pt_Name=Luvas de ouro
-pt_Texto=Dano 10/13
-' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1825)
-WeaponType=8
-Anim=76
-Subtipo=2
-MinELV=33
-CP1=GUERRERO
-CP2=PALADIN
-CP3=ASESINO
-CP4=CLERIGO
-CP5=TRABAJADOR
-CP6=CAZADOR
-CP7=PIRATA
-CP8=LADRON
-CP9=BARDO
-CP10=DRUIDA
-CP11=MAGO
 
 [OBJ1111] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Nudillo de Mithril +1
@@ -75442,22 +68816,6 @@ IT_Name=Rodella rinforzata
 IT_texto=4/6 difesa
 PT_Name=Rodella reforçado
 PT_texto=4/6 Defesa
-
-[OBJ1730] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=86172
-MaxDef=7
-MinDef=5
-Name=Escudo de Roble +1
-ObjType=16
-Texto=Defensa 5/7
-en_Name=Oak Shield +1
-en_Texto=Defense 5/7
-fr_Name=Oak Shield +1
-fr_Texto=Défense 5/7
-it_Name=Oak Shield +1
-it_Texto=5/7 difesa
-pt_Name=Escudo de carvalho +1
-pt_Texto=5/7 Defesa
 
 [OBJ1818] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 CP1=PALADIN
@@ -80607,50 +73965,6 @@ RequiereObjeto=196
 MaxDef=0
 MinDef=0
 
-[OBJ6111] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Skin de Ropaje 6111
-Texto=ropa nro 6111
-GrhIndex=2647
-ObjType=39
-Valor=1200
-RopajeElfa=2156
-RopajeElfaOscura=3613
-RopajeElfo=247
-RopajeElfoOscuro=1747
-RopajeEnana=2655
-RopajeEnano=747
-RopajeGnoma=2655
-RopajeGnomo=747
-RopajeHumana=2156
-RopajeHumano=247
-RopajeOrca=3222
-RopajeOrco=1247
-RequiereObjeto=196
-MaxDef=0
-MinDef=0
-
-[OBJ6112] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Skin de Ropaje 6112
-Texto=ropa nro 6112
-GrhIndex=41206
-ObjType=39
-Valor=1200
-RopajeElfa=2157
-RopajeElfaOscura=3614
-RopajeElfo=248
-RopajeElfoOscuro=1748
-RopajeEnana=2656
-RopajeEnano=748
-RopajeGnoma=2656
-RopajeGnomo=748
-RopajeHumana=2157
-RopajeHumano=248
-RopajeOrca=3223
-RopajeOrco=1248
-RequiereObjeto=196
-MaxDef=0
-MinDef=0
-
 [OBJ6113] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Skin de Ropaje 6113
 Texto=ropa nro 6113
@@ -82944,14 +76258,6 @@ MinHit=0
 ' Reparado 07.001 ola 2c: animacion deducida por la convencion icono/sprite del atlas
 ' y verificada pixel a pixel. Sin esto el arma se ve INVISIBLE al equipar el skin.
 Anim=216
-
-[OBJ6256] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Solicitud del Perdón Faccionario
-Texto=Con este objeto podrás solicitar a un Administrador el Perdón Faccionario.
-GrhIndex=49313
-ObjType=100
-Valor=0
-NoseCae=1
 
 [OBJ6257] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Puerta de Hielo abierta
