@@ -2,13 +2,15 @@ import os
 import configparser
 import re
 
-def main():
+def main(carpeta_base=None):
     # === CONFIGURACIÓN ===
     # Get the script's directory and navigate to find the correct base folder
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    
+
     # If running from tools folder, go up to Recursos folder (where Dat and init are located)
-    if os.path.basename(script_dir) == "tools":
+    if carpeta_base:
+        CARPETA_BASE = carpeta_base  # Explicit base folder (used by the tests)
+    elif os.path.basename(script_dir) == "tools":
         CARPETA_BASE = os.path.dirname(script_dir)  # This is the Recursos folder
     else:
         # Fallback to original logic
@@ -73,7 +75,8 @@ def main():
             "RopajeOrco"
         ],
         "QUE": [
-            "Name", "Desc", "DescFinal", "NextQuest", "Nombre", "PosMap", "Repetible", "RequiredLevel"
+            "Name", "Desc", "DescFinal", "NextQuest", "Nombre", "PosMap", "Repetible", "RequiredLevel",
+            "DescAudio", "DescFinalAudio"
         ],
         "HEC": [
             "Nombre", "Desc", "Texto", "GrhIndex", "ManaRequerido", "HechizoTipo", "MinSkill",
@@ -176,6 +179,22 @@ def main():
             pref = f"[{prefijo}"
             return sum(1 for linea in f if linea.strip().startswith(pref))
 
+    def asignar_clave(claves, clave, valor, especifica):
+        """One entry per key ignoring case: the client looks keys up case-insensitively, so
+        'Texto' and 'texto' in one section made the shown text depend on its search order.
+        The first spelling seen is kept; a language-specific value always beats the base one,
+        except an empty translation ('en_name='), which means "not translated"."""
+        if especifica and valor == "":
+            return
+        previa = claves.get(clave.lower())
+        if previa and previa[2] and not especifica:
+            return
+        nombre = previa[0] if previa else clave
+        claves[clave.lower()] = (nombre, valor, especifica)
+
+    def volcar_claves(claves):
+        return {nombre: valor for nombre, valor, _ in claves.values()}
+
     def procesar_archivo(ruta, secciones_dict):
         """Parseo tolerante: '[NPC601] 'coment' → usa 'NPC601' y descarta comentario."""
         if not os.path.exists(ruta):
@@ -193,7 +212,7 @@ def main():
                     if cierra > 0:
                         if seccion:
                             for lang in IDIOMAS:
-                                secciones_dict[lang][seccion] = claves_por_idioma[lang]
+                                secciones_dict[lang][seccion] = volcar_claves(claves_por_idioma[lang])
                             claves_por_idioma = {lang: {} for lang in IDIOMAS}
                         seccion = linea[1:cierra].strip()
                         continue
@@ -203,13 +222,13 @@ def main():
                     valor = valor.strip()
                     idioma, clave_limpia = normalizar_idioma(clave)
                     if idioma:
-                        claves_por_idioma[idioma][clave_limpia] = valor
+                        asignar_clave(claves_por_idioma[idioma], clave_limpia, valor, True)
                     else:
                         for lang in IDIOMAS:
-                            claves_por_idioma[lang][clave] = valor
+                            asignar_clave(claves_por_idioma[lang], clave, valor, False)
             if seccion:
                 for lang in IDIOMAS:
-                    secciones_dict[lang][seccion] = claves_por_idioma[lang]
+                    secciones_dict[lang][seccion] = volcar_claves(claves_por_idioma[lang])
 
     def ordenar_por_prioridad(claves, tipo_sec, renombrar_lower):
         prefer = PRIORIDAD_CLAVES.get(tipo_sec, [])
