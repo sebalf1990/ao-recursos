@@ -60,7 +60,7 @@ def main(carpeta_base=None):
             "QuizaDropea6", "QuizaDropea7", "QuizaDropea8", "QuizaDropea9",
             "QuizaDropea10", "QuizaDropea11", "QuizaDropea12", "QuizaDropea13",
             "QuizaDropea14", "QuizaDropea15", "QuizaDropea16",
-            "QuizaProb", "NROITEMS", "Obj1", "Obj2", "Obj3", "NpcType", "Comercia","Nivel"
+            "QuizaProb", "NROITEMS", "Obj1", "Obj2", "Obj3", "NpcType", "Comercia","Nivel", "DisabledInBattleServer"
         ],
         "OBJ": [
             "Name", "GrhIndex", "ObjType", "Agarrable", "Texto", "Llave", "Valor", "MaxDef", "MinDef", "MinHit", "MaxHit","MaxArmorPenetrationFlat","MinArmorPenetrationFlat","ExtraCritAndStabChance",
