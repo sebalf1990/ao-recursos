@@ -3,7 +3,7 @@ NUMEROHECHIZO=425
 NUMLOCALEMSG=9015
 NUMMAPAS=750
 NUMNPCS=9063
-NUMOBJS=9206
+NUMOBJS=9229
 NUMQUESTS=905
 NUMSUGERENCIAS=6
 
@@ -5166,10 +5166,11 @@ MinHIT=80
 ORO=95
 NpcType=0
 GiveEXPClan=1
-Nivel=28
+Nivel=32
 DisabledInBattleServer=1
-DropCount=1
-Drop1=5180-1000-1-1
+DropCount=2
+Drop1=509-500-1-1
+Drop2=5180-1000-1-1
 
 [NPC516]
 Name=Leviatán
@@ -5183,11 +5184,13 @@ ORO=185
 MaxHIT=215
 MinHIT=145
 NpcType=0
-Nivel=28
-DropCount=3
-Drop1=6105-8000-1-1
-Drop2=6188-8000-1-1
-Drop3=5180-1000-1-1
+Nivel=32
+DropCount=5
+Drop1=509-500-1-1
+Drop2=5180-1000-1-1
+Drop3=6105-8000-1-1
+Drop4=6188-8000-1-1
+Drop5=6489-10000-1-1
 
 [NPC517]
 Name=Zulrik <Goblin Hechicero>
@@ -5406,8 +5409,9 @@ MaxHIT=135
 MinHIT=90
 GiveEXPClan=1
 Nivel=28
-DropCount=1
+DropCount=2
 Drop1=5180-1000-1-1
+Drop2=293-10000-1-1
 
 [NPC531]
 Name=Kryos
@@ -5827,7 +5831,10 @@ NROITEMS=1
 Obj1=1848-1
 GiveEXPClan=1
 NpcType=0
-Nivel=28
+Nivel=30
+DropCount=2
+Drop1=5181-1000-1-1
+Drop2=6747-10000-1-1
 
 [NPC562]
 Name=Rathen <Quest de Bandido>
@@ -5938,8 +5945,9 @@ MaxHIT=190
 MinHIT=135
 GiveEXPClan=2
 Nivel=28
-DropCount=1
+DropCount=2
 Drop1=5182-1000-1-1
+Drop2=562-10000-1-1
 
 [NPC576]
 Name=Cobra
@@ -7229,9 +7237,10 @@ MinHIT=160
 GiveEXPClan=30
 NpcType=0
 DisabledInBattleServer=1
-Nivel=28
-DropCount=1
+Nivel=32
+DropCount=2
 Drop1=5181-100-1-1
+Drop2=503-33-1-1
 
 [NPC756]
 Name=Murciélago
@@ -7318,8 +7327,9 @@ ORO=0
 MaxHIT=250
 MinHIT=190
 GiveEXPClan=50
-DropCount=1
-Drop1=5179-100-1-1
+DropCount=2
+Drop1=5988-1-1-1
+Drop2=5179-100-1-1
 
 [NPC810]
 Name=Golem de Viento
@@ -7346,8 +7356,9 @@ MaxHIT=240
 MinHIT=155
 Nivel=32
 GiveEXPClan=3
-DropCount=1
+DropCount=2
 Drop1=5182-1000-1-1
+Drop2=561-10000-1-1
 
 [NPC812]
 Name=Kobold Rojo
@@ -7410,8 +7421,9 @@ ORO=25
 Nivel=20
 MaxHIT=140
 MinHIT=85
-DropCount=1
-Drop1=5181-10000-1-1
+DropCount=2
+Drop1=268-10000-1-1
+Drop2=5181-10000-1-1
 
 [NPC816]
 Name=Varec
@@ -7434,12 +7446,13 @@ Head=0
 BodyIdle=5420
 Ataque1=5421
 HP=4400
-DropCount=1
+DropCount=2
 Drop1=5182-1000-1-1
+Drop2=568-10000-1-1
 NpcType=0
 EXP=3300
 ORO=120
-Nivel=28
+Nivel=30
 MaxHIT=130
 MinHIT=90
 
@@ -7550,13 +7563,14 @@ NpcType=0
 EXP=3850
 GiveEXPClan=2
 ORO=135
-Nivel=28
+Nivel=30
 MaxHIT=185
 MinHIT=150
-DropCount=3
-Drop1=6109-8000-1-1
-Drop2=3256-8000-1-1
-Drop3=5182-1000-1-1
+DropCount=4
+Drop1=5182-1000-1-1
+Drop2=6109-8000-1-1
+Drop3=3256-8000-1-1
+Drop4=904-10000-1-1
 
 [NPC831]
 Name=Gallina Blanca
@@ -7679,6 +7693,9 @@ MinHIT=90
 EXP=1450
 ORO=70
 Nivel=32
+DropCount=2
+Drop1=5180-1000-1-1
+Drop2=954-10000-1-1
 
 [NPC842]
 Name=Ignarok
@@ -7692,6 +7709,9 @@ MinHIT=90
 EXP=1400
 ORO=65
 Nivel=30
+DropCount=2
+Drop1=5179-1000-1-1
+Drop2=945-10000-1-1
 
 [NPC844]
 Name=Minertopo
@@ -7745,6 +7765,10 @@ MinHIT=115
 EXP=5600
 ORO=0
 GiveEXPClan=2
+DropCount=3
+Drop1=5989-1-1-1
+Drop2=5179-1000-1-1
+Drop3=949-10000-1-1
 
 [NPC850]
 Name=Astaroth
@@ -7810,6 +7834,9 @@ EXP=2560
 ORO=110
 Nivel=30
 GiveEXPClan=1
+DropCount=2
+Drop1=5179-1000-1-1
+Drop2=6719-10000-1-1
 
 [NPC857]
 Name=Aelion
@@ -8067,14 +8094,15 @@ Head=0
 BodyIdle=5414
 Ataque1=5415
 HP=4200
-DropCount=1
+DropCount=2
 Drop1=5181-1000-1-1
+Drop2=566-10000-1-1
 NpcType=0
 EXP=2940
 ORO=115
 MaxHIT=125
 MinHIT=75
-Nivel=28
+Nivel=30
 
 [NPC927]
 Name=Chancho <Devorador Voraz>
@@ -8291,14 +8319,15 @@ Head=0
 BodyIdle=5417
 Ataque1=5418
 HP=4600
-DropCount=1
+DropCount=2
 Drop1=5179-1000-1-1
+Drop2=567-10000-1-1
 NpcType=0
 EXP=3450
 ORO=110
 MaxHIT=150
 MinHIT=95
-Nivel=28
+Nivel=30
 
 [NPC948]
 Name=Verraco Alfa
@@ -8602,8 +8631,9 @@ MaxHIT=150
 MinHIT=115
 GiveEXPClan=2
 Nivel=28
-DropCount=1
+DropCount=2
 Drop1=5182-1000-1-1
+Drop2=734-10000-1-1
 
 [NPC978]
 Name=Esqueto Vikingo
@@ -8647,6 +8677,9 @@ MinHIT=75
 EXP=1260
 ORO=60
 Nivel=30
+DropCount=2
+Drop1=5179-1000-1-1
+Drop2=947-10000-1-1
 
 [NPC982]
 Name=Arachnid Sortílego
@@ -9065,9 +9098,10 @@ ORO=105
 MaxHIT=190
 MinHIT=145
 GiveEXPClan=2
-Nivel=28
-DropCount=1
+Nivel=30
+DropCount=2
 Drop1=5181-1000-1-1
+Drop2=923-10000-1-1
 
 [NPC1031]
 Name=Umbrax
@@ -9081,7 +9115,10 @@ GiveEXPClan=30
 ORO=2750
 MaxHIT=225
 MinHIT=165
-Nivel=28
+Nivel=30
+DropCount=2
+Drop1=5181-100-1-1
+Drop2=924-10000-1-1
 
 [NPC1032]
 Name=Minotauro Joven
@@ -9107,9 +9144,10 @@ EXP=2400
 ORO=90
 MaxHIT=155
 MinHIT=110
-Nivel=28
-DropCount=1
+Nivel=30
+DropCount=2
 Drop1=5181-1000-1-1
+Drop2=920-10000-1-1
 
 [NPC1034]
 Name=Minotauro Guerrero
@@ -9123,9 +9161,10 @@ ORO=95
 MaxHIT=175
 MinHIT=125
 GiveEXPClan=1
-Nivel=28
-DropCount=1
+Nivel=30
+DropCount=2
 Drop1=5181-1000-1-1
+Drop2=921-10000-1-1
 
 [NPC1035]
 Name=Philiph
@@ -9245,9 +9284,10 @@ ORO=165
 MaxHIT=105
 MinHIT=45
 NpcType=0
-DropCount=2
+DropCount=3
 Drop1=2781-1-15-50
 Drop2=5181-1000-1-1
+Drop3=941-10000-1-1
 Nivel=28
 
 [NPC1047]
@@ -11589,8 +11629,9 @@ ORO=115
 MaxHIT=140
 MinHIT=95
 Nivel=32
-DropCount=1
-Drop1=6260-1000-1-1
+DropCount=2
+Drop1=5180-1000-1-1
+Drop2=6260-2000-1-1
 DisabledInBattleServer=1
 
 [NPC1354]
@@ -11719,8 +11760,9 @@ Head=0
 BodyIdle=5389
 Ataque1=5390
 HP=5500
-DropCount=1
+DropCount=2
 Drop1=5180-1000-1-1
+Drop2=565-10000-1-1
 NpcType=0
 EXP=4125
 ORO=150
@@ -11757,8 +11799,9 @@ GiveEXPClan=40
 ORO=3500
 MaxHIT=235
 MinHIT=175
-DropCount=1
+DropCount=2
 Drop1=5180-100-1-1
+Drop2=339-10000-1-1
 
 [NPC1366]
 Name=Criptococo
@@ -11790,7 +11833,7 @@ ORO=105
 MaxHIT=120
 MinHIT=75
 GiveEXPClan=1
-Nivel=28
+Nivel=32
 DisabledInBattleServer=1
 DropCount=1
 Drop1=5181-1000-1-1
@@ -12264,8 +12307,9 @@ EXP=1200
 ORO=45
 MaxHIT=85
 MinHIT=60
-DropCount=1
-Drop1=5179-2000-1-1
+DropCount=2
+Drop1=5260-1000-1-1
+Drop2=5179-10000-1-1
 DisabledInBattleServer=1
 Nivel=20
 
@@ -12281,8 +12325,9 @@ EXP=1200
 ORO=45
 MaxHIT=85
 MinHIT=60
-DropCount=1
-Drop1=5180-2000-1-1
+DropCount=2
+Drop1=5261-1000-1-1
+Drop2=5180-10000-1-1
 DisabledInBattleServer=1
 Nivel=20
 
@@ -12298,8 +12343,9 @@ EXP=1200
 ORO=45
 MaxHIT=85
 MinHIT=60
-DropCount=1
-Drop1=5181-2000-1-1
+DropCount=2
+Drop1=5262-1000-1-1
+Drop2=5181-10000-1-1
 DisabledInBattleServer=1
 Nivel=20
 
@@ -12315,8 +12361,9 @@ EXP=1200
 ORO=45
 MaxHIT=85
 MinHIT=60
-DropCount=1
-Drop1=5182-2000-1-1
+DropCount=2
+Drop1=5263-1000-1-1
+Drop2=5182-10000-1-1
 DisabledInBattleServer=1
 Nivel=20
 
@@ -12350,8 +12397,9 @@ GiveEXPClan=2
 ORO=85
 MaxHIT=170
 MinHIT=100
-DropCount=1
+DropCount=2
 Drop1=5179-1000-1-1
+Drop2=332-10000-1-1
 DisabledInBattleServer=1
 Nivel=30
 
@@ -12367,8 +12415,9 @@ GiveEXPClan=2
 ORO=85
 MaxHIT=170
 MinHIT=100
-DropCount=1
+DropCount=2
 Drop1=5180-1000-1-1
+Drop2=333-10000-1-1
 DisabledInBattleServer=1
 Nivel=30
 
@@ -12384,8 +12433,9 @@ GiveEXPClan=2
 ORO=85
 MaxHIT=170
 MinHIT=100
-DropCount=1
+DropCount=2
 Drop1=5181-1000-1-1
+Drop2=331-10000-1-1
 DisabledInBattleServer=1
 Nivel=30
 
@@ -12401,8 +12451,9 @@ GiveEXPClan=2
 ORO=85
 MaxHIT=170
 MinHIT=100
-DropCount=1
+DropCount=2
 Drop1=5182-1000-1-1
+Drop2=334-10000-1-1
 DisabledInBattleServer=1
 Nivel=30
 
@@ -13105,6 +13156,10 @@ MaxHIT=165
 MinHIT=110
 EXP=2800
 ORO=0
+DropCount=3
+Drop1=5991-1-1-1
+Drop2=5179-1000-1-1
+Drop3=844-10000-1-1
 
 [NPC1635]
 Name=Arkhavel <Quest Sedas Elementales>
@@ -18861,29 +18916,10 @@ GrhIndex=509
 ObjType=9
 Texto=Llave de la casa 1 de la vieja Banderbill
 
-[OBJ267]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=Puerta abierta
-
 [OBJ268]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=Puerta cerrada
-
-[OBJ269]
-Name=Puerta cerrada con Llave casa 2 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=Esta honorable casa pertenece a
+Name=Carta Miastrix
+GrhIndex=52190
+ObjType=57
 
 [OBJ270]
 Name=Llave casa vieja Banderbill Nro: 02
@@ -18975,29 +19011,10 @@ GrhIndex=509
 ObjType=9
 Texto=Llave de la casa 6 de la vieja Banderbill
 
-[OBJ291]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=Puerta abierta
-
-[OBJ292]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=Puerta cerrada
-
 [OBJ293]
-Name=Puerta cerrada con Llave casa 8 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=Esta honorable casa pertenece a
+Name=Carta Goruk
+GrhIndex=52190
+ObjType=57
 
 [OBJ294]
 Name=Llave casa vieja Banderbill Nro: 08
@@ -19159,34 +19176,24 @@ Agarrable=1
 Texto=Esta honorable casa pertenece a
 
 [OBJ331]
-Name=Llave casa vieja Banderbill Nro: 12
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 12 de la vieja Banderbill
+Name=Carta Geot
+GrhIndex=52190
+ObjType=57
 
 [OBJ332]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=Puerta abierta
+Name=Carta Pyrot
+GrhIndex=52190
+ObjType=57
 
 [OBJ333]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=Puerta cerrada
+Name=Carta Hydrot
+GrhIndex=52190
+ObjType=57
 
 [OBJ334]
-Name=Puerta cerrada con Llave casa 13 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=Esta honorable casa pertenece a
+Name=Carta Eolot
+GrhIndex=52190
+ObjType=57
 
 [OBJ335]
 Name=Llave casa vieja Banderbill Nro: 13
@@ -19219,10 +19226,9 @@ Agarrable=1
 Texto=Esta honorable casa pertenece a
 
 [OBJ339]
-Name=Llave casa vieja Banderbill Nro: 14
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 14 de la vieja Banderbill
+Name=Carta Golem de Hielo
+GrhIndex=52190
+ObjType=57
 
 [OBJ340]
 Name=Puerta abierta
@@ -20399,25 +20405,10 @@ Valor=2500
 Texto=Armadura Bruñida
 
 [OBJ503]
-Name=Trampa Visual (M)
-GrhIndex=5279
-RopajeHumano=1095
-RopajeElfo=1095
-RopajeElfoOscuro=2541
-RopajeEnano=2509
-RopajeOrco=2525
-RopajeGnomo=2509
-RopajeHumana=1095
-RopajeElfa=1095
-RopajeElfaOscura=2541
-RopajeEnana=2509
-RopajeOrca=2525
-RopajeGnoma=2509
-ObjType=3
-MAXDEF=25
-MINDEF=20
-Valor=10000
-Texto=Trampa Visual (M)
+Name=Pergaminho do Guardião
+GrhIndex=52200
+ObjType=51
+Valor=0
 
 [OBJ508]
 Name=Ropa Estuaria (M)
@@ -20433,7 +20424,10 @@ PielOsoPardo=0
 PielOsoPolar=0
 
 [OBJ509]
-GrhIndex=0
+Name=Mensagem na Garrafa
+GrhIndex=28737
+ObjType=51
+Valor=0
 
 [OBJ510]
 Name=Vestido indulgente
@@ -20916,28 +20910,14 @@ Valor=0
 Texto=Daga Ígnea
 
 [OBJ561]
-GrhIndex=0
+Name=Carta Glazrath
+GrhIndex=52190
+ObjType=57
 
 [OBJ562]
-Name=Vestimentas de Bajo (Newbie)
-GrhIndex=59361
-RopajeHumano=16
-RopajeElfo=16
-RopajeElfoOscuro=1546
-RopajeEnano=3105
-RopajeOrco=2560
-RopajeGnomo=3105
-RopajeHumana=2686
-RopajeElfa=2686
-RopajeElfaOscura=2734
-RopajeEnana=2702
-RopajeOrca=2718
-RopajeGnoma=2702
-ObjType=3
-MAXDEF=0
-MINDEF=0
-Valor=0
-Texto=Vestimentas de Bajo (Newbie)
+Name=Carta Gorath
+GrhIndex=52190
+ObjType=57
 
 [OBJ563]
 Name=Vestimentas de Baja (Newbie)
@@ -20952,16 +20932,24 @@ Texto=Vestimentas de Baja (Newbie)
 GrhIndex=0
 
 [OBJ565]
-GRHINDEX=0
+Name=Carta Pixie de Hielo
+GrhIndex=52190
+ObjType=57
 
 [OBJ566]
-GrhIndex=0
+Name=Carta Pixie de Tierra
+GrhIndex=52190
+ObjType=57
 
 [OBJ567]
-GrhIndex=0
+Name=Carta Pixie de Fuego
+GrhIndex=52190
+ObjType=57
 
 [OBJ568]
-GrhIndex=0
+Name=Carta Pixie de Viento
+GrhIndex=52190
+ObjType=57
 
 [OBJ569]
 GrhIndex=0
@@ -21881,7 +21869,9 @@ ObjType=44
 Valor=0
 
 [OBJ734]
-GrhIndex=0
+Name=Carta Zevkar
+GrhIndex=52190
+ObjType=57
 
 [OBJ736]
 Name=Anillo de Comercio (+10)
@@ -22437,29 +22427,10 @@ llave=1
 Agarrable=1
 Texto=Esta honorable casa pertenece a
 
-[OBJ842]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=Puerta abierta
-
-[OBJ843]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=Puerta cerrada
-
 [OBJ844]
-Name=Puerta cerrada con llave Casa 6 de illiandor
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=Esta honorable casa pertenece a
+Name=Carta Mantis de Fuego
+GrhIndex=52190
+ObjType=57
 
 [OBJ846]
 Name=Puerta abierta
@@ -22680,7 +22651,9 @@ Texto=Herramienta necesaria para crear pociones de Alquimia
 Valor=0
 
 [OBJ904]
-GrhIndex=0
+Name=Carta Typhon
+GrhIndex=52190
+ObjType=57
 
 [OBJ905]
 GrhIndex=0
@@ -22747,58 +22720,24 @@ Agarrable=1
 Texto=Esta honorable casa pertenece a
 
 [OBJ920]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=Puerta abierta
+Name=Carta Minotauro Barbaro
+GrhIndex=52190
+ObjType=57
 
 [OBJ921]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=Puerta cerrada
-
-[OBJ922]
-Name=Puerta cerrada con llave Casa 3 de Tiama
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=Esta honorable casa pertenece a
+Name=Carta Minotauro Guerrero
+GrhIndex=52190
+ObjType=57
 
 [OBJ923]
-Name=Llave casa Tiama Nro: 04
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 4 de Tiama
+Name=Carta Minotauro
+GrhIndex=52190
+ObjType=57
 
 [OBJ924]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=Puerta abierta
-
-[OBJ925]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=Puerta cerrada
-
-[OBJ926]
-Name=Puerta cerrada con llave Casa 4 de Tiama
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=Esta honorable casa pertenece a
+Name=Carta Umbrax
+GrhIndex=52190
+ObjType=57
 
 [OBJ928]
 Name=Puerta abierta
@@ -22895,7 +22834,9 @@ Agarrable=1
 Texto=Árbol
 
 [OBJ941]
-GrhIndex=0
+Name=Carta Ent
+GrhIndex=52190
+ObjType=57
 
 [OBJ943]
 GrhIndex=0
@@ -22904,16 +22845,22 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ945]
-GrhIndex=0
+Name=Carta Ignarok
+GrhIndex=52190
+ObjType=57
 
 [OBJ946]
 GrhIndex=0
 
 [OBJ947]
-GrhIndex=0
+Name=Carta Scorvex
+GrhIndex=52190
+ObjType=57
 
 [OBJ949]
-GrhIndex=0
+Name=Carta Flamora
+GrhIndex=52190
+ObjType=57
 
 [OBJ950]
 Name=Traje de Marques
@@ -22943,7 +22890,9 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ954]
-GrhIndex=0
+Name=Carta Cryon
+GrhIndex=52190
+ObjType=57
 
 [OBJ955]
 GrhIndex=0
@@ -50771,6 +50720,21 @@ GrhIndex=11403
 ObjType=17
 Texto=Casco de Dragón Negro
 
+[OBJ6489]
+Name=Carta Leviatan
+GrhIndex=52190
+ObjType=57
+
+[OBJ6719]
+Name=Carta Kingion
+GrhIndex=52190
+ObjType=57
+
+[OBJ6747]
+Name=Carta Chasdo
+GrhIndex=52190
+ObjType=57
+
 [OBJ9000]
 Name=Manual de Carpinteria
 GrhIndex=49210
@@ -52651,6 +52615,655 @@ Texto=Enciende los mecanismos de defensa del Exoesqueleto Enano proporcionando u
 GrhIndex=609
 ObjType=24
 Valor=0
+
+[OBJ5200]
+Name=Arco
+GrhIndex=17525
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=600
+Proyectil=1
+Municiones=1
+Texto=Dano 1/3
+ElementalTags=1
+
+[OBJ5201]
+Name=Arco composto
+GrhIndex=38735
+ObjType=2
+MinHit=4
+MaxHit=8
+Valor=4800
+Proyectil=1
+Municiones=1
+Texto=Dano 4/8
+ElementalTags=1
+
+[OBJ5202]
+Name=Dagger
+GrhIndex=5603
+ObjType=2
+MinHit=1
+MaxHit=2
+Valor=60
+Texto=Dano 1/2
+ElementalTags=1
+
+[OBJ5203]
+Name=Dagger +1
+GrhIndex=51996
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=1800
+Texto=Dano 1/3
+ElementalTags=1
+
+[OBJ5204]
+Name=Junta
+Texto=Dano 3/5
+GrhIndex=44577
+ObjType=2
+Valor=1800
+MaxHit=5
+MinHit=3
+ElementalTags=1
+
+[OBJ5205]
+Name=Junta de Bronze
+GrhIndex=25678
+ObjType=2
+MaxHit=7
+MinHit=5
+Valor=3000
+Texto=Dano 5/7
+ElementalTags=1
+
+[OBJ5206]
+Name=Sabre
+GrhIndex=563
+ObjType=2
+MinHit=5
+MaxHit=8
+Valor=1200
+Texto=Dano 5/8
+ElementalTags=1
+
+[OBJ5207]
+GrhIndex=44037
+MaxHit=9
+MinHit=6
+Name=Machado de pedra
+ObjType=2
+Texto=Dano 6/9
+Valor=2400
+ElementalTags=1
+
+[OBJ5208]
+GrhIndex=37898
+MaxHit=11
+MinHit=7
+Name=Alfanje
+ObjType=2
+Texto=Dano 7/11
+Valor=2700
+ElementalTags=1
+
+[OBJ5209]
+Name=Vólcora
+Texto=Dano 8/12
+GrhIndex=37844
+ObjType=2
+Valor=3000
+MaxHit=12
+MinHit=8
+ElementalTags=1
+
+[OBJ5210]
+Name=War Mace
+Texto=Duas mãos.
+GrhIndex=6959
+ObjType=2
+Valor=7200
+MaxHit=15
+MinHit=11
+ElementalTags=1
+
+[OBJ5211]
+Name=Mandoble
+Texto=Duas mãos, não permite que você use um escudo.
+GrhIndex=25196
+ObjType=2
+Valor=3300
+MaxHit=13
+MinHit=10
+ElementalTags=1
+
+[OBJ5212]
+GrhIndex=1062
+MaxHit=1
+MinHit=1
+Name=Pessoal de madeira
+ObjType=2
+Texto=Aumente seu dano mágico em 2%
+Valor=1200
+ElementalTags=1
+
+[OBJ5213]
+Name=Flauta
+GrhIndex=538
+ObjType=30
+Valor=600
+Texto=Aumente seu dano mágico em 1%
+ElementalTags=1
+
+[OBJ5214]
+Name=Alaúde
+GrhIndex=539
+ObjType=30
+Valor=600
+Texto=Aumente seu dano mágico em 1%
+ElementalTags=1
+
+[OBJ5215]
+Name=Arco
+GrhIndex=17525
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=600
+Proyectil=1
+Municiones=1
+Texto=Dano 1/3
+ElementalTags=2
+
+[OBJ5216]
+Name=Arco composto
+GrhIndex=38735
+ObjType=2
+MinHit=4
+MaxHit=8
+Valor=4800
+Proyectil=1
+Municiones=1
+Texto=Dano 4/8
+ElementalTags=2
+
+[OBJ5217]
+Name=Dagger
+GrhIndex=5603
+ObjType=2
+MinHit=1
+MaxHit=2
+Valor=60
+Texto=Dano 1/2
+ElementalTags=2
+
+[OBJ5218]
+Name=Dagger +1
+GrhIndex=51996
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=1800
+Texto=Dano 1/3
+ElementalTags=2
+
+[OBJ5219]
+Name=Junta
+Texto=Dano 3/5
+GrhIndex=44577
+ObjType=2
+Valor=1800
+MaxHit=5
+MinHit=3
+ElementalTags=2
+
+[OBJ5220]
+Name=Junta de Bronze
+GrhIndex=25678
+ObjType=2
+MaxHit=7
+MinHit=5
+Valor=3000
+Texto=Dano 5/7
+ElementalTags=2
+
+[OBJ5221]
+Name=Sabre
+GrhIndex=563
+ObjType=2
+MinHit=5
+MaxHit=8
+Valor=1200
+Texto=Dano 5/8
+ElementalTags=2
+
+[OBJ5222]
+GrhIndex=44037
+MaxHit=9
+MinHit=6
+Name=Machado de pedra
+ObjType=2
+Texto=Dano 6/9
+Valor=2400
+ElementalTags=2
+
+[OBJ5223]
+GrhIndex=37898
+MaxHit=11
+MinHit=7
+Name=Alfanje
+ObjType=2
+Texto=Dano 7/11
+Valor=2700
+ElementalTags=2
+
+[OBJ5224]
+Name=Vólcora
+Texto=Dano 8/12
+GrhIndex=37844
+ObjType=2
+Valor=3000
+MaxHit=12
+MinHit=8
+ElementalTags=2
+
+[OBJ5225]
+Name=War Mace
+Texto=Duas mãos.
+GrhIndex=6959
+ObjType=2
+Valor=7200
+MaxHit=15
+MinHit=11
+ElementalTags=2
+
+[OBJ5226]
+Name=Mandoble
+Texto=Duas mãos, não permite que você use um escudo.
+GrhIndex=25196
+ObjType=2
+Valor=3300
+MaxHit=13
+MinHit=10
+ElementalTags=2
+
+[OBJ5227]
+GrhIndex=1062
+MaxHit=1
+MinHit=1
+Name=Pessoal de madeira
+ObjType=2
+Texto=Aumente seu dano mágico em 2%
+Valor=1200
+ElementalTags=2
+
+[OBJ5228]
+Name=Flauta
+GrhIndex=538
+ObjType=30
+Valor=600
+Texto=Aumente seu dano mágico em 1%
+ElementalTags=2
+
+[OBJ5229]
+Name=Alaúde
+GrhIndex=539
+ObjType=30
+Valor=600
+Texto=Aumente seu dano mágico em 1%
+ElementalTags=2
+
+[OBJ5230]
+Name=Arco
+GrhIndex=17525
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=600
+Proyectil=1
+Municiones=1
+Texto=Dano 1/3
+ElementalTags=4
+
+[OBJ5231]
+Name=Arco composto
+GrhIndex=38735
+ObjType=2
+MinHit=4
+MaxHit=8
+Valor=4800
+Proyectil=1
+Municiones=1
+Texto=Dano 4/8
+ElementalTags=4
+
+[OBJ5232]
+Name=Dagger
+GrhIndex=5603
+ObjType=2
+MinHit=1
+MaxHit=2
+Valor=60
+Texto=Dano 1/2
+ElementalTags=4
+
+[OBJ5233]
+Name=Dagger +1
+GrhIndex=51996
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=1800
+Texto=Dano 1/3
+ElementalTags=4
+
+[OBJ5234]
+Name=Junta
+Texto=Dano 3/5
+GrhIndex=44577
+ObjType=2
+Valor=1800
+MaxHit=5
+MinHit=3
+ElementalTags=4
+
+[OBJ5235]
+Name=Junta de Bronze
+GrhIndex=25678
+ObjType=2
+MaxHit=7
+MinHit=5
+Valor=3000
+Texto=Dano 5/7
+ElementalTags=4
+
+[OBJ5236]
+Name=Sabre
+GrhIndex=563
+ObjType=2
+MinHit=5
+MaxHit=8
+Valor=1200
+Texto=Dano 5/8
+ElementalTags=4
+
+[OBJ5237]
+GrhIndex=44037
+MaxHit=9
+MinHit=6
+Name=Machado de pedra
+ObjType=2
+Texto=Dano 6/9
+Valor=2400
+ElementalTags=4
+
+[OBJ5238]
+GrhIndex=37898
+MaxHit=11
+MinHit=7
+Name=Alfanje
+ObjType=2
+Texto=Dano 7/11
+Valor=2700
+ElementalTags=4
+
+[OBJ5239]
+Name=Vólcora
+Texto=Dano 8/12
+GrhIndex=37844
+ObjType=2
+Valor=3000
+MaxHit=12
+MinHit=8
+ElementalTags=4
+
+[OBJ5240]
+Name=War Mace
+Texto=Duas mãos.
+GrhIndex=6959
+ObjType=2
+Valor=7200
+MaxHit=15
+MinHit=11
+ElementalTags=4
+
+[OBJ5241]
+Name=Mandoble
+Texto=Duas mãos, não permite que você use um escudo.
+GrhIndex=25196
+ObjType=2
+Valor=3300
+MaxHit=13
+MinHit=10
+ElementalTags=4
+
+[OBJ5242]
+GrhIndex=1062
+MaxHit=1
+MinHit=1
+Name=Pessoal de madeira
+ObjType=2
+Texto=Aumente seu dano mágico em 2%
+Valor=1200
+ElementalTags=4
+
+[OBJ5243]
+Name=Flauta
+GrhIndex=538
+ObjType=30
+Valor=600
+Texto=Aumente seu dano mágico em 1%
+ElementalTags=4
+
+[OBJ5244]
+Name=Alaúde
+GrhIndex=539
+ObjType=30
+Valor=600
+Texto=Aumente seu dano mágico em 1%
+ElementalTags=4
+
+[OBJ5245]
+Name=Arco
+GrhIndex=17525
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=600
+Proyectil=1
+Municiones=1
+Texto=Dano 1/3
+ElementalTags=8
+
+[OBJ5246]
+Name=Arco composto
+GrhIndex=38735
+ObjType=2
+MinHit=4
+MaxHit=8
+Valor=4800
+Proyectil=1
+Municiones=1
+Texto=Dano 4/8
+ElementalTags=8
+
+[OBJ5247]
+Name=Dagger
+GrhIndex=5603
+ObjType=2
+MinHit=1
+MaxHit=2
+Valor=60
+Texto=Dano 1/2
+ElementalTags=8
+
+[OBJ5248]
+Name=Dagger +1
+GrhIndex=51996
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=1800
+Texto=Dano 1/3
+ElementalTags=8
+
+[OBJ5249]
+Name=Junta
+Texto=Dano 3/5
+GrhIndex=44577
+ObjType=2
+Valor=1800
+MaxHit=5
+MinHit=3
+ElementalTags=8
+
+[OBJ5250]
+Name=Junta de Bronze
+GrhIndex=25678
+ObjType=2
+MaxHit=7
+MinHit=5
+Valor=3000
+Texto=Dano 5/7
+ElementalTags=8
+
+[OBJ5251]
+Name=Sabre
+GrhIndex=563
+ObjType=2
+MinHit=5
+MaxHit=8
+Valor=1200
+Texto=Dano 5/8
+ElementalTags=8
+
+[OBJ5252]
+GrhIndex=44037
+MaxHit=9
+MinHit=6
+Name=Machado de pedra
+ObjType=2
+Texto=Dano 6/9
+Valor=2400
+ElementalTags=8
+
+[OBJ5253]
+GrhIndex=37898
+MaxHit=11
+MinHit=7
+Name=Alfanje
+ObjType=2
+Texto=Dano 7/11
+Valor=2700
+ElementalTags=8
+
+[OBJ5254]
+Name=Vólcora
+Texto=Dano 8/12
+GrhIndex=37844
+ObjType=2
+Valor=3000
+MaxHit=12
+MinHit=8
+ElementalTags=8
+
+[OBJ5255]
+Name=War Mace
+Texto=Duas mãos.
+GrhIndex=6959
+ObjType=2
+Valor=7200
+MaxHit=15
+MinHit=11
+ElementalTags=8
+
+[OBJ5256]
+Name=Mandoble
+Texto=Duas mãos, não permite que você use um escudo.
+GrhIndex=25196
+ObjType=2
+Valor=3300
+MaxHit=13
+MinHit=10
+ElementalTags=8
+
+[OBJ5257]
+GrhIndex=1062
+MaxHit=1
+MinHit=1
+Name=Pessoal de madeira
+ObjType=2
+Texto=Aumente seu dano mágico em 2%
+Valor=1200
+ElementalTags=8
+
+[OBJ5258]
+Name=Flauta
+GrhIndex=538
+ObjType=30
+Valor=600
+Texto=Aumente seu dano mágico em 1%
+ElementalTags=8
+
+[OBJ5259]
+Name=Alaúde
+GrhIndex=539
+ObjType=30
+Valor=600
+Texto=Aumente seu dano mágico em 1%
+ElementalTags=8
+
+[OBJ5260]
+Name=Baú de Armas Elementais (Fogo)
+Texto=Este baú contém armas de nível 1 com elemento Fogo
+GrhIndex=49233
+ObjType=48
+Agarrable=0
+
+[OBJ5261]
+Name=Baú de Armas Elementais (Água)
+Texto=Este baú contém armas de nível 1 com elemento Água
+GrhIndex=49233
+ObjType=48
+Agarrable=0
+
+[OBJ5262]
+Name=Baú de Armas Elementais (Terra)
+Texto=Este baú contém armas de nível 1 com elemento Terra
+GrhIndex=49233
+ObjType=48
+Agarrable=0
+
+[OBJ5263]
+Name=Baú de Armas Elementais (Ar)
+Texto=Este baú contém armas de nível 1 com elemento Ar
+GrhIndex=49233
+ObjType=48
+Agarrable=0
+
+[OBJ5988]
+Name=Coração do Golem
+Texto=Núcleo vital com energia de pedra antiga.
+GrhIndex=38424
+ObjType=100
+Valor=6300
+
+[OBJ5989]
+Name=Escama de Salamandra
+Texto=Escama resistente às chamas infernais.
+GrhIndex=38425
+ObjType=100
+Valor=190
+
+[OBJ5991]
+Name=Braço de Louva-a-Deus
+Texto=Membro afiado de uma criatura veloz.
+GrhIndex=38420
+ObjType=100
+Valor=130
 
 [OBJ5994]
 Name=Túnica da Cruz
@@ -59666,6 +60279,210 @@ GrhIndex=609
 Valor=48000
 Objtype=24
 Texto=Prende seus inimigos (nível máximo 24)
+
+[OBJ9207]
+Name=Puerta abierta
+GrhIndex=9201
+ObjType=6
+llave=0
+Agarrable=1
+Texto=Puerta abierta
+
+[OBJ9208]
+Name=Puerta cerrada
+GrhIndex=9195
+ObjType=6
+llave=0
+Agarrable=1
+Texto=Puerta cerrada
+
+[OBJ9209]
+Name=Puerta cerrada con Llave casa 2 de la vieja Banderbill
+GrhIndex=9195
+ObjType=6
+llave=1
+Agarrable=1
+Texto=Esta honorable casa pertenece a
+
+[OBJ9210]
+Name=Puerta abierta
+GrhIndex=9201
+ObjType=6
+llave=0
+Agarrable=1
+Texto=Puerta abierta
+
+[OBJ9211]
+Name=Puerta cerrada
+GrhIndex=9195
+ObjType=6
+llave=0
+Agarrable=1
+Texto=Puerta cerrada
+
+[OBJ9212]
+Name=Puerta cerrada con Llave casa 8 de la vieja Banderbill
+GrhIndex=9195
+ObjType=6
+llave=1
+Agarrable=1
+Texto=Esta honorable casa pertenece a
+
+[OBJ9213]
+Name=Llave casa vieja Banderbill Nro: 12
+GrhIndex=509
+ObjType=9
+Texto=Llave de la casa 12 de la vieja Banderbill
+
+[OBJ9214]
+Name=Puerta abierta
+GrhIndex=9201
+ObjType=6
+llave=0
+Agarrable=1
+Texto=Puerta abierta
+
+[OBJ9215]
+Name=Puerta cerrada
+GrhIndex=9195
+ObjType=6
+llave=0
+Agarrable=1
+Texto=Puerta cerrada
+
+[OBJ9216]
+Name=Puerta cerrada con Llave casa 13 de la vieja Banderbill
+GrhIndex=9195
+ObjType=6
+llave=1
+Agarrable=1
+Texto=Esta honorable casa pertenece a
+
+[OBJ9217]
+Name=Llave casa vieja Banderbill Nro: 14
+GrhIndex=509
+ObjType=9
+Texto=Llave de la casa 14 de la vieja Banderbill
+
+[OBJ9218]
+Name=Trampa Visual (M)
+GrhIndex=5279
+RopajeHumano=1095
+RopajeElfo=1095
+RopajeElfoOscuro=2541
+RopajeEnano=2509
+RopajeOrco=2525
+RopajeGnomo=2509
+RopajeHumana=1095
+RopajeElfa=1095
+RopajeElfaOscura=2541
+RopajeEnana=2509
+RopajeOrca=2525
+RopajeGnoma=2509
+ObjType=3
+MAXDEF=25
+MINDEF=20
+Valor=10000
+Texto=Trampa Visual (M)
+
+[OBJ9219]
+Name=Vestimentas de Bajo (Newbie)
+GrhIndex=59361
+RopajeHumano=16
+RopajeElfo=16
+RopajeElfoOscuro=1546
+RopajeEnano=3105
+RopajeOrco=2560
+RopajeGnomo=3105
+RopajeHumana=2686
+RopajeElfa=2686
+RopajeElfaOscura=2734
+RopajeEnana=2702
+RopajeOrca=2718
+RopajeGnoma=2702
+ObjType=3
+MAXDEF=0
+MINDEF=0
+Valor=0
+Texto=Vestimentas de Bajo (Newbie)
+
+[OBJ9220]
+Name=Puerta abierta
+GrhIndex=5592
+ObjType=6
+llave=0
+Agarrable=1
+Texto=Puerta abierta
+
+[OBJ9221]
+Name=Puerta cerrada
+GrhIndex=5593
+ObjType=6
+llave=0
+Agarrable=1
+Texto=Puerta cerrada
+
+[OBJ9222]
+Name=Puerta cerrada con llave Casa 6 de illiandor
+GrhIndex=5593
+ObjType=6
+llave=1
+Agarrable=1
+Texto=Esta honorable casa pertenece a
+
+[OBJ9223]
+Name=Puerta abierta
+GrhIndex=5592
+ObjType=6
+llave=0
+Agarrable=1
+Texto=Puerta abierta
+
+[OBJ9224]
+Name=Puerta cerrada
+GrhIndex=5593
+ObjType=6
+llave=0
+Agarrable=1
+Texto=Puerta cerrada
+
+[OBJ9225]
+Name=Puerta cerrada con llave Casa 3 de Tiama
+GrhIndex=5593
+ObjType=6
+llave=1
+Agarrable=1
+Texto=Esta honorable casa pertenece a
+
+[OBJ9226]
+Name=Llave casa Tiama Nro: 04
+GrhIndex=509
+ObjType=9
+Texto=Llave de la casa 4 de Tiama
+
+[OBJ9227]
+Name=Puerta abierta
+GrhIndex=5592
+ObjType=6
+llave=0
+Agarrable=1
+Texto=Puerta abierta
+
+[OBJ9228]
+Name=Puerta cerrada
+GrhIndex=5593
+ObjType=6
+llave=0
+Agarrable=1
+Texto=Puerta cerrada
+
+[OBJ9229]
+Name=Puerta cerrada con llave Casa 4 de Tiama
+GrhIndex=5593
+ObjType=6
+llave=1
+Agarrable=1
+Texto=Esta honorable casa pertenece a
 
 [NPC9000]
 Name=Maestro Carpintero y Lenador <Carpinteria y Tala>
