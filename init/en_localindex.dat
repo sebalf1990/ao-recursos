@@ -3,7 +3,7 @@ NUMEROHECHIZO=425
 NUMLOCALEMSG=9015
 NUMMAPAS=750
 NUMNPCS=9063
-NUMOBJS=9206
+NUMOBJS=9229
 NUMQUESTS=905
 NUMSUGERENCIAS=6
 
@@ -5160,7 +5160,7 @@ QuizaProb=3
 ORO=95
 NpcType=0
 GiveEXPClan=1
-Nivel=28
+Nivel=32
 DisabledInBattleServer=1
 
 [NPC516]
@@ -5175,7 +5175,7 @@ ORO=185
 MaxHIT=215
 MinHIT=145
 NpcType=0
-Nivel=28
+Nivel=32
 
 [NPC517]
 Name=Zulrik <Goblin Hechicero>
@@ -5775,7 +5775,7 @@ NROITEMS=1
 Obj1=1848-1
 GiveEXPClan=1
 NpcType=0
-Nivel=28
+Nivel=30
 
 [NPC562]
 Name=Rathen <Quest de Bandido>
@@ -7207,7 +7207,7 @@ MinHIT=160
 GiveEXPClan=30
 NpcType=0
 DisabledInBattleServer=1
-Nivel=28
+Nivel=32
 
 [NPC756]
 Name=Murciélago
@@ -7395,7 +7395,7 @@ HP=4400
 NpcType=0
 EXP=3300
 ORO=120
-Nivel=28
+Nivel=30
 MaxHIT=130
 MinHIT=90
 
@@ -7506,7 +7506,7 @@ NpcType=0
 EXP=3850
 GiveEXPClan=2
 ORO=135
-Nivel=28
+Nivel=30
 MaxHIT=185
 MinHIT=150
 
@@ -8028,7 +8028,7 @@ EXP=2940
 ORO=115
 MaxHIT=125
 MinHIT=75
-Nivel=28
+Nivel=30
 
 [NPC927]
 Name=Chancho <Devorador Voraz>
@@ -8244,7 +8244,7 @@ EXP=3450
 ORO=110
 MaxHIT=150
 MinHIT=95
-Nivel=28
+Nivel=30
 
 [NPC948]
 Name=Verraco Alfa
@@ -9003,7 +9003,7 @@ ORO=105
 MaxHIT=190
 MinHIT=145
 GiveEXPClan=2
-Nivel=28
+Nivel=30
 
 [NPC1031]
 Name=Umbrax
@@ -9017,7 +9017,7 @@ GiveEXPClan=30
 ORO=2750
 MaxHIT=225
 MinHIT=165
-Nivel=28
+Nivel=30
 
 [NPC1032]
 Name=Minotauro Joven
@@ -9043,7 +9043,7 @@ EXP=2400
 ORO=90
 MaxHIT=155
 MinHIT=110
-Nivel=28
+Nivel=30
 
 [NPC1034]
 Name=Minotauro Guerrero
@@ -9057,7 +9057,7 @@ ORO=95
 MaxHIT=175
 MinHIT=125
 GiveEXPClan=1
-Nivel=28
+Nivel=30
 
 [NPC1035]
 Name=Philiph
@@ -11712,7 +11712,7 @@ ORO=105
 MaxHIT=120
 MinHIT=75
 GiveEXPClan=1
-Nivel=28
+Nivel=32
 DisabledInBattleServer=1
 
 [NPC1368]
@@ -18854,29 +18854,10 @@ GrhIndex=509
 ObjType=9
 Texto=Llave de la casa 1 de la vieja Banderbill
 
-[OBJ267]
-Name=Open door
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
 [OBJ268]
-Name=Door closed
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
-[OBJ269]
-Name=locked door house 2 of Old Banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Miastrix
+GrhIndex=52190
+ObjType=57
 
 [OBJ270]
 Name=Old Banderbill House Key 2
@@ -18968,29 +18949,10 @@ GrhIndex=509
 ObjType=9
 Texto=Llave de la casa 6 de la vieja Banderbill
 
-[OBJ291]
-Name=Open door
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
-[OBJ292]
-Name=Door closed
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
 [OBJ293]
-Name=locked door house 8 of old banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Goruk
+GrhIndex=52190
+ObjType=57
 
 [OBJ294]
 Name=Old Banderbill House key 8
@@ -19152,34 +19114,24 @@ Agarrable=1
 Texto=This honorable house belongs to
 
 [OBJ331]
-Name=Old Banderbill House Key 12
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 12 de la vieja Banderbill
+Name=Carta Geot
+GrhIndex=52190
+ObjType=57
 
 [OBJ332]
-Name=Open door
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Pyrot
+GrhIndex=52190
+ObjType=57
 
 [OBJ333]
-Name=Door closed
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Hydrot
+GrhIndex=52190
+ObjType=57
 
 [OBJ334]
-Name=locked door house 13 of Old banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Eolot
+GrhIndex=52190
+ObjType=57
 
 [OBJ335]
 Name=Old Banderbill House Key 13
@@ -19212,10 +19164,9 @@ Agarrable=1
 Texto=This honorable house belongs to
 
 [OBJ339]
-Name=Old Banderbill House Key 14
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 14 de la vieja Banderbill
+Name=Carta Golem de Hielo
+GrhIndex=52190
+ObjType=57
 
 [OBJ340]
 Name=Open door
@@ -20392,25 +20343,10 @@ Valor=2500
 Texto=Armadura Bruñida
 
 [OBJ503]
-Name=Visual Trap (M)
-GrhIndex=5279
-RopajeHumano=1095
-RopajeElfo=1095
-RopajeElfoOscuro=2541
-RopajeEnano=2509
-RopajeOrco=2525
-RopajeGnomo=2509
-RopajeHumana=1095
-RopajeElfa=1095
-RopajeElfaOscura=2541
-RopajeEnana=2509
-RopajeOrca=2525
-RopajeGnoma=2509
-ObjType=3
-MAXDEF=25
-MINDEF=20
-Valor=10000
-Texto=Trampa Visual (M)
+Name=Guardian Scroll
+GrhIndex=52200
+ObjType=51
+Valor=0
 
 [OBJ508]
 Name=Estuary Clothes (Woman)
@@ -20426,7 +20362,10 @@ PielOsoPardo=0
 PielOsoPolar=0
 
 [OBJ509]
-GrhIndex=0
+Name=Bottled Message
+GrhIndex=28737
+ObjType=51
+Valor=0
 
 [OBJ510]
 Name=Indulgent Dress
@@ -20909,28 +20848,14 @@ Valor=0
 Texto=Daga Ígnea
 
 [OBJ561]
-GrhIndex=0
+Name=Carta Glazrath
+GrhIndex=52190
+ObjType=57
 
 [OBJ562]
-Name=Vestment (E/G) (newbie)
-GrhIndex=59361
-RopajeHumano=16
-RopajeElfo=16
-RopajeElfoOscuro=1546
-RopajeEnano=3105
-RopajeOrco=2560
-RopajeGnomo=3105
-RopajeHumana=2686
-RopajeElfa=2686
-RopajeElfaOscura=2734
-RopajeEnana=2702
-RopajeOrca=2718
-RopajeGnoma=2702
-ObjType=3
-MAXDEF=0
-MINDEF=0
-Valor=0
-Texto=Vestimentas de Bajo (Newbie)
+Name=Carta Gorath
+GrhIndex=52190
+ObjType=57
 
 [OBJ563]
 Name=Vestment (E/G) (newbie)
@@ -20945,16 +20870,24 @@ Texto=Vestimentas de Baja (Newbie)
 GrhIndex=0
 
 [OBJ565]
-GRHINDEX=0
+Name=Carta Pixie de Hielo
+GrhIndex=52190
+ObjType=57
 
 [OBJ566]
-GrhIndex=0
+Name=Carta Pixie de Tierra
+GrhIndex=52190
+ObjType=57
 
 [OBJ567]
-GrhIndex=0
+Name=Carta Pixie de Fuego
+GrhIndex=52190
+ObjType=57
 
 [OBJ568]
-GrhIndex=0
+Name=Carta Pixie de Viento
+GrhIndex=52190
+ObjType=57
 
 [OBJ569]
 GrhIndex=0
@@ -21874,7 +21807,9 @@ ObjType=44
 Valor=0
 
 [OBJ734]
-GrhIndex=0
+Name=Carta Zevkar
+GrhIndex=52190
+ObjType=57
 
 [OBJ736]
 Name=Trade ring (+10)
@@ -22430,29 +22365,10 @@ llave=1
 Agarrable=1
 Texto=This honorable house belongs to
 
-[OBJ842]
-Name=Open door
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
-[OBJ843]
-Name=Door closed
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
 [OBJ844]
-Name=locked door house 6 of Lilliandor
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Mantis de Fuego
+GrhIndex=52190
+ObjType=57
 
 [OBJ846]
 Name=Open door
@@ -22673,7 +22589,9 @@ Texto=Herramienta necesaria para crear pociones de Alquimia
 Valor=0
 
 [OBJ904]
-GrhIndex=0
+Name=Carta Typhon
+GrhIndex=52190
+ObjType=57
 
 [OBJ905]
 GrhIndex=0
@@ -22740,58 +22658,24 @@ Agarrable=1
 Texto=This honorable house belongs to
 
 [OBJ920]
-Name=Open door
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Minotauro Barbaro
+GrhIndex=52190
+ObjType=57
 
 [OBJ921]
-Name=Door closed
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
-[OBJ922]
-Name=locked door house 3 of Tiama
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Minotauro Guerrero
+GrhIndex=52190
+ObjType=57
 
 [OBJ923]
-Name=Tiama House Key 4
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 4 de Tiama
+Name=Carta Minotauro
+GrhIndex=52190
+ObjType=57
 
 [OBJ924]
-Name=Open door
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
-[OBJ925]
-Name=Door closed
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
-[OBJ926]
-Name=locked door house 4 of Tiama
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Umbrax
+GrhIndex=52190
+ObjType=57
 
 [OBJ928]
 Name=Open door
@@ -22888,7 +22772,9 @@ Agarrable=1
 Texto=Árbol
 
 [OBJ941]
-GrhIndex=0
+Name=Carta Ent
+GrhIndex=52190
+ObjType=57
 
 [OBJ943]
 GrhIndex=0
@@ -22897,16 +22783,22 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ945]
-GrhIndex=0
+Name=Carta Ignarok
+GrhIndex=52190
+ObjType=57
 
 [OBJ946]
 GrhIndex=0
 
 [OBJ947]
-GrhIndex=0
+Name=Carta Scorvex
+GrhIndex=52190
+ObjType=57
 
 [OBJ949]
-GrhIndex=0
+Name=Carta Flamora
+GrhIndex=52190
+ObjType=57
 
 [OBJ950]
 Name=Marquis Suit
@@ -22936,7 +22828,9 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ954]
-GrhIndex=0
+Name=Carta Cryon
+GrhIndex=52190
+ObjType=57
 
 [OBJ955]
 GrhIndex=0
@@ -50766,6 +50660,21 @@ GrhIndex=11403
 ObjType=17
 Texto=Casco de Dragón Negro
 
+[OBJ6489]
+Name=Carta Leviatan
+GrhIndex=52190
+ObjType=57
+
+[OBJ6719]
+Name=Carta Kingion
+GrhIndex=52190
+ObjType=57
+
+[OBJ6747]
+Name=Carta Chasdo
+GrhIndex=52190
+ObjType=57
+
 [OBJ9000]
 Name=Manual de Carpinteria
 GrhIndex=49210
@@ -52646,6 +52555,655 @@ Texto=Enciende los mecanismos de defensa del Exoesqueleto Enano proporcionando u
 GrhIndex=609
 ObjType=24
 Valor=0
+
+[OBJ5200]
+Name=Bow
+GrhIndex=17525
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=600
+Proyectil=1
+Municiones=1
+Texto=Damage 1/3
+ElementalTags=1
+
+[OBJ5201]
+Name=Compund Bow
+GrhIndex=38735
+ObjType=2
+MinHit=4
+MaxHit=8
+Valor=4800
+Proyectil=1
+Municiones=1
+Texto=Damage 4/8
+ElementalTags=1
+
+[OBJ5202]
+Name=Dagger
+GrhIndex=5603
+ObjType=2
+MinHit=1
+MaxHit=2
+Valor=60
+Texto=Damage 1/2
+ElementalTags=1
+
+[OBJ5203]
+Name=Dagger +1
+GrhIndex=51996
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=1800
+Texto=Damage 1/3
+ElementalTags=1
+
+[OBJ5204]
+Name=Knuckle
+Texto=Damage 3/5
+GrhIndex=44577
+ObjType=2
+Valor=1800
+MaxHit=5
+MinHit=3
+ElementalTags=1
+
+[OBJ5205]
+Name=Bronze Knuckle
+GrhIndex=25678
+ObjType=2
+MaxHit=7
+MinHit=5
+Valor=3000
+Texto=Damage 5/7
+ElementalTags=1
+
+[OBJ5206]
+Name=Saber
+GrhIndex=563
+ObjType=2
+MinHit=5
+MaxHit=8
+Valor=1200
+Texto=Damage 5/8
+ElementalTags=1
+
+[OBJ5207]
+GrhIndex=44037
+MaxHit=9
+MinHit=6
+Name=Stone Axe
+ObjType=2
+Texto=Damage 6/9
+Valor=2400
+ElementalTags=1
+
+[OBJ5208]
+GrhIndex=37898
+MaxHit=11
+MinHit=7
+Name=Cutlass
+ObjType=2
+Texto=Damage 7/11
+Valor=2700
+ElementalTags=1
+
+[OBJ5209]
+Name=Vólcora
+Texto=Damage 8/12
+GrhIndex=37844
+ObjType=2
+Valor=3000
+MaxHit=12
+MinHit=8
+ElementalTags=1
+
+[OBJ5210]
+Name=War Mace
+Texto=Two-handed weapon.
+GrhIndex=6959
+ObjType=2
+Valor=7200
+MaxHit=15
+MinHit=11
+ElementalTags=1
+
+[OBJ5211]
+Name=Greasword
+Texto=Two-handed weapon, shield not allowed.
+GrhIndex=25196
+ObjType=2
+Valor=3300
+MaxHit=13
+MinHit=10
+ElementalTags=1
+
+[OBJ5212]
+GrhIndex=1062
+MaxHit=1
+MinHit=1
+Name=Wooden Staff
+ObjType=2
+Texto=Increase your Magic Damage by 2%
+Valor=1200
+ElementalTags=1
+
+[OBJ5213]
+Name=Flute
+GrhIndex=538
+ObjType=30
+Valor=600
+Texto=Increases your Magic Damage by 1%
+ElementalTags=1
+
+[OBJ5214]
+Name=Lute
+GrhIndex=539
+ObjType=30
+Valor=600
+Texto=Increases your Magic Damage by 1%
+ElementalTags=1
+
+[OBJ5215]
+Name=Bow
+GrhIndex=17525
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=600
+Proyectil=1
+Municiones=1
+Texto=Damage 1/3
+ElementalTags=2
+
+[OBJ5216]
+Name=Compund Bow
+GrhIndex=38735
+ObjType=2
+MinHit=4
+MaxHit=8
+Valor=4800
+Proyectil=1
+Municiones=1
+Texto=Damage 4/8
+ElementalTags=2
+
+[OBJ5217]
+Name=Dagger
+GrhIndex=5603
+ObjType=2
+MinHit=1
+MaxHit=2
+Valor=60
+Texto=Damage 1/2
+ElementalTags=2
+
+[OBJ5218]
+Name=Dagger +1
+GrhIndex=51996
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=1800
+Texto=Damage 1/3
+ElementalTags=2
+
+[OBJ5219]
+Name=Knuckle
+Texto=Damage 3/5
+GrhIndex=44577
+ObjType=2
+Valor=1800
+MaxHit=5
+MinHit=3
+ElementalTags=2
+
+[OBJ5220]
+Name=Bronze Knuckle
+GrhIndex=25678
+ObjType=2
+MaxHit=7
+MinHit=5
+Valor=3000
+Texto=Damage 5/7
+ElementalTags=2
+
+[OBJ5221]
+Name=Saber
+GrhIndex=563
+ObjType=2
+MinHit=5
+MaxHit=8
+Valor=1200
+Texto=Damage 5/8
+ElementalTags=2
+
+[OBJ5222]
+GrhIndex=44037
+MaxHit=9
+MinHit=6
+Name=Stone Axe
+ObjType=2
+Texto=Damage 6/9
+Valor=2400
+ElementalTags=2
+
+[OBJ5223]
+GrhIndex=37898
+MaxHit=11
+MinHit=7
+Name=Cutlass
+ObjType=2
+Texto=Damage 7/11
+Valor=2700
+ElementalTags=2
+
+[OBJ5224]
+Name=Vólcora
+Texto=Damage 8/12
+GrhIndex=37844
+ObjType=2
+Valor=3000
+MaxHit=12
+MinHit=8
+ElementalTags=2
+
+[OBJ5225]
+Name=War Mace
+Texto=Two-handed weapon.
+GrhIndex=6959
+ObjType=2
+Valor=7200
+MaxHit=15
+MinHit=11
+ElementalTags=2
+
+[OBJ5226]
+Name=Greasword
+Texto=Two-handed weapon, shield not allowed.
+GrhIndex=25196
+ObjType=2
+Valor=3300
+MaxHit=13
+MinHit=10
+ElementalTags=2
+
+[OBJ5227]
+GrhIndex=1062
+MaxHit=1
+MinHit=1
+Name=Wooden Staff
+ObjType=2
+Texto=Increase your Magic Damage by 2%
+Valor=1200
+ElementalTags=2
+
+[OBJ5228]
+Name=Flute
+GrhIndex=538
+ObjType=30
+Valor=600
+Texto=Increases your Magic Damage by 1%
+ElementalTags=2
+
+[OBJ5229]
+Name=Lute
+GrhIndex=539
+ObjType=30
+Valor=600
+Texto=Increases your Magic Damage by 1%
+ElementalTags=2
+
+[OBJ5230]
+Name=Bow
+GrhIndex=17525
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=600
+Proyectil=1
+Municiones=1
+Texto=Damage 1/3
+ElementalTags=4
+
+[OBJ5231]
+Name=Compund Bow
+GrhIndex=38735
+ObjType=2
+MinHit=4
+MaxHit=8
+Valor=4800
+Proyectil=1
+Municiones=1
+Texto=Damage 4/8
+ElementalTags=4
+
+[OBJ5232]
+Name=Dagger
+GrhIndex=5603
+ObjType=2
+MinHit=1
+MaxHit=2
+Valor=60
+Texto=Damage 1/2
+ElementalTags=4
+
+[OBJ5233]
+Name=Dagger +1
+GrhIndex=51996
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=1800
+Texto=Damage 1/3
+ElementalTags=4
+
+[OBJ5234]
+Name=Knuckle
+Texto=Damage 3/5
+GrhIndex=44577
+ObjType=2
+Valor=1800
+MaxHit=5
+MinHit=3
+ElementalTags=4
+
+[OBJ5235]
+Name=Bronze Knuckle
+GrhIndex=25678
+ObjType=2
+MaxHit=7
+MinHit=5
+Valor=3000
+Texto=Damage 5/7
+ElementalTags=4
+
+[OBJ5236]
+Name=Saber
+GrhIndex=563
+ObjType=2
+MinHit=5
+MaxHit=8
+Valor=1200
+Texto=Damage 5/8
+ElementalTags=4
+
+[OBJ5237]
+GrhIndex=44037
+MaxHit=9
+MinHit=6
+Name=Stone Axe
+ObjType=2
+Texto=Damage 6/9
+Valor=2400
+ElementalTags=4
+
+[OBJ5238]
+GrhIndex=37898
+MaxHit=11
+MinHit=7
+Name=Cutlass
+ObjType=2
+Texto=Damage 7/11
+Valor=2700
+ElementalTags=4
+
+[OBJ5239]
+Name=Vólcora
+Texto=Damage 8/12
+GrhIndex=37844
+ObjType=2
+Valor=3000
+MaxHit=12
+MinHit=8
+ElementalTags=4
+
+[OBJ5240]
+Name=War Mace
+Texto=Two-handed weapon.
+GrhIndex=6959
+ObjType=2
+Valor=7200
+MaxHit=15
+MinHit=11
+ElementalTags=4
+
+[OBJ5241]
+Name=Greasword
+Texto=Two-handed weapon, shield not allowed.
+GrhIndex=25196
+ObjType=2
+Valor=3300
+MaxHit=13
+MinHit=10
+ElementalTags=4
+
+[OBJ5242]
+GrhIndex=1062
+MaxHit=1
+MinHit=1
+Name=Wooden Staff
+ObjType=2
+Texto=Increase your Magic Damage by 2%
+Valor=1200
+ElementalTags=4
+
+[OBJ5243]
+Name=Flute
+GrhIndex=538
+ObjType=30
+Valor=600
+Texto=Increases your Magic Damage by 1%
+ElementalTags=4
+
+[OBJ5244]
+Name=Lute
+GrhIndex=539
+ObjType=30
+Valor=600
+Texto=Increases your Magic Damage by 1%
+ElementalTags=4
+
+[OBJ5245]
+Name=Bow
+GrhIndex=17525
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=600
+Proyectil=1
+Municiones=1
+Texto=Damage 1/3
+ElementalTags=8
+
+[OBJ5246]
+Name=Compund Bow
+GrhIndex=38735
+ObjType=2
+MinHit=4
+MaxHit=8
+Valor=4800
+Proyectil=1
+Municiones=1
+Texto=Damage 4/8
+ElementalTags=8
+
+[OBJ5247]
+Name=Dagger
+GrhIndex=5603
+ObjType=2
+MinHit=1
+MaxHit=2
+Valor=60
+Texto=Damage 1/2
+ElementalTags=8
+
+[OBJ5248]
+Name=Dagger +1
+GrhIndex=51996
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=1800
+Texto=Damage 1/3
+ElementalTags=8
+
+[OBJ5249]
+Name=Knuckle
+Texto=Damage 3/5
+GrhIndex=44577
+ObjType=2
+Valor=1800
+MaxHit=5
+MinHit=3
+ElementalTags=8
+
+[OBJ5250]
+Name=Bronze Knuckle
+GrhIndex=25678
+ObjType=2
+MaxHit=7
+MinHit=5
+Valor=3000
+Texto=Damage 5/7
+ElementalTags=8
+
+[OBJ5251]
+Name=Saber
+GrhIndex=563
+ObjType=2
+MinHit=5
+MaxHit=8
+Valor=1200
+Texto=Damage 5/8
+ElementalTags=8
+
+[OBJ5252]
+GrhIndex=44037
+MaxHit=9
+MinHit=6
+Name=Stone Axe
+ObjType=2
+Texto=Damage 6/9
+Valor=2400
+ElementalTags=8
+
+[OBJ5253]
+GrhIndex=37898
+MaxHit=11
+MinHit=7
+Name=Cutlass
+ObjType=2
+Texto=Damage 7/11
+Valor=2700
+ElementalTags=8
+
+[OBJ5254]
+Name=Vólcora
+Texto=Damage 8/12
+GrhIndex=37844
+ObjType=2
+Valor=3000
+MaxHit=12
+MinHit=8
+ElementalTags=8
+
+[OBJ5255]
+Name=War Mace
+Texto=Two-handed weapon.
+GrhIndex=6959
+ObjType=2
+Valor=7200
+MaxHit=15
+MinHit=11
+ElementalTags=8
+
+[OBJ5256]
+Name=Greasword
+Texto=Two-handed weapon, shield not allowed.
+GrhIndex=25196
+ObjType=2
+Valor=3300
+MaxHit=13
+MinHit=10
+ElementalTags=8
+
+[OBJ5257]
+GrhIndex=1062
+MaxHit=1
+MinHit=1
+Name=Wooden Staff
+ObjType=2
+Texto=Increase your Magic Damage by 2%
+Valor=1200
+ElementalTags=8
+
+[OBJ5258]
+Name=Flute
+GrhIndex=538
+ObjType=30
+Valor=600
+Texto=Increases your Magic Damage by 1%
+ElementalTags=8
+
+[OBJ5259]
+Name=Lute
+GrhIndex=539
+ObjType=30
+Valor=600
+Texto=Increases your Magic Damage by 1%
+ElementalTags=8
+
+[OBJ5260]
+Name=Elemental Weapons Chest (Fire)
+Texto=This chest contains tier 1 weapons with Fire element
+GrhIndex=49233
+ObjType=48
+Agarrable=0
+
+[OBJ5261]
+Name=Elemental Weapons Chest (Water)
+Texto=This chest contains tier 1 weapons with Water element
+GrhIndex=49233
+ObjType=48
+Agarrable=0
+
+[OBJ5262]
+Name=Elemental Weapons Chest (Earth)
+Texto=This chest contains tier 1 weapons with Earth element
+GrhIndex=49233
+ObjType=48
+Agarrable=0
+
+[OBJ5263]
+Name=Elemental Weapons Chest (Air)
+Texto=This chest contains tier 1 weapons with Air element
+GrhIndex=49233
+ObjType=48
+Agarrable=0
+
+[OBJ5988]
+Name=Golem Heart
+Texto=Vital core with ancient stone energy.
+GrhIndex=38424
+ObjType=100
+Valor=6300
+
+[OBJ5989]
+Name=Salamander Scale
+Texto=Scale resistant to infernal flames.
+GrhIndex=38425
+ObjType=100
+Valor=190
+
+[OBJ5991]
+Name=Mantis Arm
+Texto=Sharp limb from a swift creature.
+GrhIndex=38420
+ObjType=100
+Valor=130
 
 [OBJ5994]
 Name=Tunic of the Cross
@@ -59661,6 +60219,210 @@ GrhIndex=609
 Valor=48000
 Objtype=24
 Texto=Trap your enemies (maximum level 24)
+
+[OBJ9207]
+Name=Open door
+GrhIndex=9201
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9208]
+Name=Door closed
+GrhIndex=9195
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9209]
+Name=locked door house 2 of Old Banderbill
+GrhIndex=9195
+ObjType=6
+llave=1
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9210]
+Name=Open door
+GrhIndex=9201
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9211]
+Name=Door closed
+GrhIndex=9195
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9212]
+Name=locked door house 8 of old banderbill
+GrhIndex=9195
+ObjType=6
+llave=1
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9213]
+Name=Old Banderbill House Key 12
+GrhIndex=509
+ObjType=9
+Texto=Llave de la casa 12 de la vieja Banderbill
+
+[OBJ9214]
+Name=Open door
+GrhIndex=9201
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9215]
+Name=Door closed
+GrhIndex=9195
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9216]
+Name=locked door house 13 of Old banderbill
+GrhIndex=9195
+ObjType=6
+llave=1
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9217]
+Name=Old Banderbill House Key 14
+GrhIndex=509
+ObjType=9
+Texto=Llave de la casa 14 de la vieja Banderbill
+
+[OBJ9218]
+Name=Visual Trap (M)
+GrhIndex=5279
+RopajeHumano=1095
+RopajeElfo=1095
+RopajeElfoOscuro=2541
+RopajeEnano=2509
+RopajeOrco=2525
+RopajeGnomo=2509
+RopajeHumana=1095
+RopajeElfa=1095
+RopajeElfaOscura=2541
+RopajeEnana=2509
+RopajeOrca=2525
+RopajeGnoma=2509
+ObjType=3
+MAXDEF=25
+MINDEF=20
+Valor=10000
+Texto=Trampa Visual (M)
+
+[OBJ9219]
+Name=Vestment (E/G) (newbie)
+GrhIndex=59361
+RopajeHumano=16
+RopajeElfo=16
+RopajeElfoOscuro=1546
+RopajeEnano=3105
+RopajeOrco=2560
+RopajeGnomo=3105
+RopajeHumana=2686
+RopajeElfa=2686
+RopajeElfaOscura=2734
+RopajeEnana=2702
+RopajeOrca=2718
+RopajeGnoma=2702
+ObjType=3
+MAXDEF=0
+MINDEF=0
+Valor=0
+Texto=Vestimentas de Bajo (Newbie)
+
+[OBJ9220]
+Name=Open door
+GrhIndex=5592
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9221]
+Name=Door closed
+GrhIndex=5593
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9222]
+Name=locked door house 6 of Lilliandor
+GrhIndex=5593
+ObjType=6
+llave=1
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9223]
+Name=Open door
+GrhIndex=5592
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9224]
+Name=Door closed
+GrhIndex=5593
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9225]
+Name=locked door house 3 of Tiama
+GrhIndex=5593
+ObjType=6
+llave=1
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9226]
+Name=Tiama House Key 4
+GrhIndex=509
+ObjType=9
+Texto=Llave de la casa 4 de Tiama
+
+[OBJ9227]
+Name=Open door
+GrhIndex=5592
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9228]
+Name=Door closed
+GrhIndex=5593
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9229]
+Name=locked door house 4 of Tiama
+GrhIndex=5593
+ObjType=6
+llave=1
+Agarrable=1
+Texto=This honorable house belongs to
 
 [NPC9000]
 Name=Master Carpenter and Woodcutter <Carpinteria y Tala>
