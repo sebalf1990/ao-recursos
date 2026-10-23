@@ -25097,7 +25097,7 @@ GrhIndex=900
 Objtype=2
 MinHIT=6
 MaxHIT=8
-Valor=50000
+Valor=1000
 Texto=Daga
 
 [OBJ1788]
@@ -25314,7 +25314,7 @@ GrhIndex=36764
 Objtype=2
 MinHIT=1
 MaxHIT=1
-Valor=50000
+Valor=1000
 Texto=Gran nigromante de la Legión Oscura.
 
 [OBJ1825]
@@ -25379,7 +25379,7 @@ GrhIndex=37034
 Objtype=2
 MinHIT=6
 MaxHIT=8
-Valor=50000
+Valor=1000
 Texto=Puñal de la Armada Real
 
 [OBJ1834]
@@ -25388,7 +25388,7 @@ GrhIndex=37061
 Objtype=2
 MinHIT=1
 MaxHIT=1
-Valor=50000
+Valor=1000
 Texto=Gran hechicero del Ejército Real.
 
 [OBJ1835]
@@ -25733,7 +25733,7 @@ GrhIndex=37925
 Objtype=2
 MinHIT=1
 MaxHIT=1
-Valor=30000
+Valor=3600
 Texto=Bastón Calavera
 
 [OBJ1867]
@@ -25754,7 +25754,7 @@ GrhIndex=38762
 Objtype=2
 MinHIT=10
 MaxHIT=12
-Valor=50000
+Valor=1000
 Proyectil=1
 Municiones=1
 Texto=Arco del Imperio
@@ -25791,7 +25791,7 @@ GrhIndex=38843
 Objtype=2
 MinHIT=10
 MaxHIT=12
-Valor=50000
+Valor=1000
 Proyectil=1
 Municiones=1
 Texto=Arco Infernal
