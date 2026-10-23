@@ -15,7 +15,7 @@
 '''
 
 [INIT]
-NumRecompensas=90
+NumRecompensas=64
 
 [Recompensas]
 ' Caos Rank 1
@@ -30,94 +30,68 @@ Recompensa7=2-1532
 Recompensa8=2-1534
 Recompensa9=2-1536
 Recompensa10=2-1538
-Recompensa11=2-1540
 ' Caos Rank 3
-Recompensa12=3-2962	'mago ok
-Recompensa13=3-2996
-Recompensa14=3-2968
-Recompensa15=3-2976	'asesino ok
-Recompensa16=3-2984
-Recompensa17=3-2988
-Recompensa18=3-2992
-Recompensa19=3-2972
-Recompensa20=3-2980
-Recompensa21=3-3000
+Recompensa11=3-2962	'mago ok
+Recompensa12=3-2996
+Recompensa13=3-2968
+Recompensa14=3-2976	'asesino ok
+Recompensa15=3-2984
+Recompensa16=3-2988
+Recompensa17=3-2972
+Recompensa18=3-2980
+Recompensa19=3-3000
 ' Caos Rank 4
-Recompensa22=4-2964
-Recompensa23=4-2998
-Recompensa24=4-2970
-Recompensa25=4-2978
-Recompensa26=4-2986
-Recompensa27=4-2990
-Recompensa28=4-2994
-Recompensa29=4-2974
-Recompensa30=4-2982
-Recompensa31=4-3002
-Recompensa32=4-2821
+Recompensa20=4-2964
+Recompensa21=4-2998
+Recompensa22=4-2970
+Recompensa23=4-2978
+Recompensa24=4-2986
+Recompensa25=4-2990
+Recompensa26=4-2974
+Recompensa27=4-2982
+Recompensa28=4-3002
+Recompensa29=4-2821
 ' Caos Rank 5
-Recompensa33=5-2966
-Recompensa34=5-2890
-Recompensa35=5-2894
-Recompensa36=5-1903
-Recompensa37=5-2891
-Recompensa38=5-2893
-Recompensa39=5-2895
-Recompensa40=5-1945
-Recompensa41=5-2899
-Recompensa42=3-2783	'especial clera mujer Rº3
-Recompensa43=3-2786	'especial clera barda mujer Rº3 ARMADA
-Recompensa44=5-4948
+Recompensa30=5-4948
 ' Armada Rank 1
-Recompensa45=1-4340
+Recompensa31=1-4340
 ' Armada Rank 2
-Recompensa46=2-1566
-Recompensa47=2-1568	'mago ok
-Recompensa48=2-1570
-Recompensa49=2-1572	'asesino ok
-Recompensa50=2-1574
-Recompensa51=2-1576	'druida ok
-Recompensa52=2-1578
-Recompensa53=2-1580
-Recompensa54=2-1582
-Recompensa55=2-1584	'bandido ok
+Recompensa32=2-1566
+Recompensa33=2-1568	'mago ok
+Recompensa34=2-1570
+Recompensa35=2-1572	'asesino ok
+Recompensa36=2-1574
+Recompensa37=2-1576	'druida ok
+Recompensa38=2-1580
+Recompensa39=2-1582
+Recompensa40=2-1584	'bandido ok
 ' Armada Rank 3
-Recompensa56=3-3004	'mago ok
-Recompensa57=3-3020	'druida ok
-Recompensa58=3-3024
-Recompensa59=3-3008
-Recompensa60=3-3032	'asesino ok
-Recompensa61=3-3036	'bandido ok
-Recompensa62=3-3028
-Recompensa63=3-3012
-Recompensa64=3-3016
-Recompensa65=3-3040
+Recompensa41=3-3004	'mago ok
+Recompensa42=3-3020	'druida ok
+Recompensa43=3-3024
+Recompensa44=3-3008
+Recompensa45=3-3032	'asesino ok
+Recompensa46=3-3036	'bandido ok
+Recompensa47=3-3028
+Recompensa48=3-3012
+Recompensa49=3-3016
 ' Armada Rank 4
-Recompensa66=4-3006
-Recompensa67=4-3022
-Recompensa68=4-3026
-Recompensa69=4-3010
-Recompensa70=4-3034
-Recompensa71=4-3038
-Recompensa72=4-3030
-Recompensa73=4-3014
-Recompensa74=4-3018
-Recompensa75=4-3042
-Recompensa76=4-2820
+Recompensa50=4-3006
+Recompensa51=4-3022
+Recompensa52=4-3026
+Recompensa53=4-3010
+Recompensa54=4-3034
+Recompensa55=4-3038
+Recompensa56=4-3030
+Recompensa57=4-3014
+Recompensa58=4-3018
+Recompensa59=4-2820
 ' Armada Rank 5
-Recompensa77=5-2885
-Recompensa78=5-2887
-Recompensa79=5-2881
-Recompensa80=5-2883
-Recompensa81=5-2884
-Recompensa82=5-2882
-Recompensa83=5-2880
-Recompensa84=5-2888
-Recompensa85=5-2886
-Recompensa86=5-4951
+Recompensa60=5-4951
 'Trabajadores
-Recompensa87=1-1240
-Recompensa88=1-1244
+Recompensa61=1-1240
+Recompensa62=1-1244
 ' Armada Rank 6
-Recompensa89=6-4952
+Recompensa63=6-4952
 ' Caos Rank 6
-Recompensa90=6-4949
+Recompensa64=6-4949
