@@ -9371,21 +9371,21 @@ MinHIT=75
 Nivel=24
 
 [NPC1052]
-Name=Gru <El Brujo>
+Name=Gru <O Bruxo>
 Body=5294
 Head=0
 BodyIdle=5292
 Ataque1=5293
-HP=1
+HP=4500
 BodyOnLand=5294
 BodyOnWater=5654
 BodyOnWaterIdle=5652
 Ataque2=5653
-EXP=0
-ORO=00
-MaxHIT=1
-MinHIT=1
-Nivel=20
+EXP=3600
+ORO=80
+MaxHIT=95
+MinHIT=60
+Nivel=32
 
 [NPC1053]
 Name=Nilus
