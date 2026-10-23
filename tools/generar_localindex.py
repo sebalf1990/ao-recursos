@@ -69,7 +69,7 @@ def main(carpeta_base=None):
             "LingO", "LingP", "Madera", "MaderaElfica", "Mortero", "Municiones",
             "PielLobo", "PielLoboNegro", "PielOsoPardo", "PielOsoPolar", "PielTigre",
             "PielTigreBengala", "Proyectil", "Raices", "SemillasPros", "SKHerreria",
-            "SKPociones", "SKSastreria", "Tuna", "Blodium","ElementalTags","FireEssence","WaterEssence",
+            "SKPociones", "SKSastreria", "Tuna", "Esporas", "Blodium","ElementalTags","FireEssence","WaterEssence",
             "EarthEssence", "WindEssence","Cala","RequiereObjeto", "RopajeElfa", "RopajeElfaOscura", "RopajeElfo",
             "RopajeElfoOscuro", "RopajeEnana", "RopajeEnano", "RopajeGnoma", "RopajeGnomo", "RopajeHumana", "RopajeHumano",        "RopajeOrca",
             "RopajeOrco"

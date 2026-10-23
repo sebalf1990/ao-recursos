@@ -55694,6 +55694,7 @@ Valor=150
 SkPociones=45
 FrascoAlq=1
 Mortero=1
+Esporas=3
 Texto=Unta tu arma equipada (o tus flechas, si usas arco) con Ácido durante 60s. Puede corroer la defensa del enemigo. 8 cargas.
 
 [OBJ9104]
@@ -55764,6 +55765,7 @@ SkPociones=100
 Hechizo=416
 FrascoAlq=2
 Mortero=1
+Esporas=9
 EarthEssence=1
 Texto=Destilado con una Esencia de Tierra pura. Unta tu arma o flechas con Ácido durante 90s. Puede corroer la defensa del enemigo. 12 cargas.
 
@@ -56799,6 +56801,7 @@ SkPociones=93
 Hechizo=420
 FrascoAlq=2
 Mortero=1
+Esporas=6
 Texto=Destilado con reactivos superiores. Unta tu arma o flechas con Ácido durante 75s. Puede corroer la defensa del enemigo. 10 cargas.
 
 [OBJ9178]

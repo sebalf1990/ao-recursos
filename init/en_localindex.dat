@@ -58053,6 +58053,7 @@ Valor=150
 SkPociones=45
 FrascoAlq=1
 Mortero=1
+Esporas=3
 Texto=Coats your equipped weapon (or your arrows, if using a bow) with Acid for 60s. Can corrode the enemy's defense. 8 charges.
 
 [OBJ9104]
@@ -58123,6 +58124,7 @@ SkPociones=100
 Hechizo=416
 FrascoAlq=2
 Mortero=1
+Esporas=9
 EarthEssence=1
 Texto=Distilled with a pure Earth Essence. Coats your weapon or arrows with Acid for 90s. Can corrode the enemy's defense. 12 charges.
 
@@ -59158,6 +59160,7 @@ SkPociones=93
 Hechizo=420
 FrascoAlq=2
 Mortero=1
+Esporas=6
 Texto=Distilled with superior reagents. Coats your weapon or arrows with Acid for 75s. Can corrode the enemy's defense. 10 charges.
 
 [OBJ9178]
