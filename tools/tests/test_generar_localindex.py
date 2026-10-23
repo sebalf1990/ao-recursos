@@ -52,6 +52,10 @@ NPC_DAT = "\r\n".join([
     "Desc=Compro lo que el mar puede ofrecer!",
     "en_desc=I buy what the sea can offer!",
     "DisabledInBattleServer=1",
+    "DropCount=2",
+    "Drop1=239-250-1-1",
+    "Drop2=5181-1000-2-5",
+    "DropQuest1=56-2834-1-40",
     "",
 ])
 
@@ -156,6 +160,15 @@ class GenerarLocalindexTest(unittest.TestCase):
         # frmAlqui.frm (~402) lists it as an alchemy ingredient; plan 22.002 Q5.
         for lang in ["sp", "en", "pt", "fr", "it"]:
             self.assertEqual(dict(self.out(lang)["OBJ3"]).get("Esporas"), "3", lang)
+
+    def test_npc_drops_reach_every_language(self) -> None:
+        # frmMapaGrande lists DropCount/DropN in the bestiary, the same keys the server rolls (MODULO_NPCs.bas).
+        for lang in ["sp", "en", "pt", "fr", "it"]:
+            npc = dict(self.out(lang)["NPC1"])
+            self.assertEqual(npc.get("DropCount"), "2", lang)
+            self.assertEqual(npc.get("Drop1"), "239-250-1-1", lang)
+            self.assertEqual(npc.get("Drop2"), "5181-1000-2-5", lang)
+            self.assertNotIn("DropQuest1", npc, lang)
 
     def test_spell_stamina_percent_reaches_every_language(self) -> None:
         # Protocol.bas HECINF shows "60% de stamina total." for Resurrect when it is set.
