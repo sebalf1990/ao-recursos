@@ -8674,6 +8674,9 @@ PoderEvasion=140
 ElementalTags=1
 IntervaloRespawnMin=60
 IntervaloRespawn=300
+LanzaSpells=1
+Sp1=223
+IntervaloLanzarHechizo=8000
 
 [NPC949] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Verraco
@@ -19251,6 +19254,9 @@ DropCount=2
 Drop1=268-10000-1-1
 Drop2=5181-10000-1-1
 ElementalTags=4
+LanzaSpells=1
+Sp1=223
+IntervaloLanzarHechizo=3000
 [NPC816] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Varec
 Body=5551

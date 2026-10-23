@@ -5986,7 +5986,7 @@ pt_TargetMsg=Ele lançou o Apocalypse em você.
 fr_TargetMsg=Il a lancé Apocalypse sur vous.
 it_TargetMsg=Ha lanciato Apocalypse su di te.
 
-[HECHIZO223] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+[HECHIZO223] 'Logica propia (plan 23.004 Q3b): fuego 50-70 en area radio 4 como HECHIZO229; el oficial no publica los valores
 Nombre=Tormenta de Fuego (Área)
 Desc=Causa de 50 a 70 puntos de daño sobre la víctima.
 ManaRequerido=0
@@ -6015,6 +6015,16 @@ it_Desc=Causa da 50 a 70 punti di danno alla vittima.
 it_HechizeroMsg=Hai lanciato la tempesta di fuoco
 it_PropioMsg=Hai lanciato la tempesta di fuoco su di te.
 it_TargetMsg=Ha gettato la tempesta di fuoco su di te.
+Tipo=5
+Target=4
+SubeHP=2
+MinHP=50
+MaxHP=70
+AreaAfecta=1
+AreaRadio=4
+WAV=27
+FXgrh=7
+loops=0
 
 [HECHIZO224] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
 ManaRequerido=0
