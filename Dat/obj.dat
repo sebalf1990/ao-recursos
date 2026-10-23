@@ -18266,16 +18266,21 @@ CP8=BARDO
 CP9=ASESINO
 CP10=GUERRERO
 CP11=CLERIGO
-Texto=Aumenta tu daño mágico en un 9%
-MagicDamageBonus=9
+Texto=Aumenta tu Daño Mágico en un 11%
+MagicDamageBonus=11
 
 'MagicPenetration=9
 Revive=1
 MinELV=1
-en_Texto=Increase your magic damage by 9%
+en_Texto=Increase your Magic Damage by 11%
 en_Name=Wizard's Rod
 WeaponType=4
 MagicPower=4
+FR_texto=Augmentez vos dégâts magiques de 11%
+IT_texto=Aumenta il tuo danno magico del 11%
+PT_texto=Aumente seu dano mágico em 11%
+Madera=1500
+MaderaElfica=4100
 
 [OBJ1812]
 Name=Espada Test

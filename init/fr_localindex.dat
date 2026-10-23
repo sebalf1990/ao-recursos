@@ -27461,7 +27461,9 @@ Objtype=2
 MinHIT=1
 MaxHIT=1
 Valor=0
-Texto=Aumenta tu daño mágico en un 9%
+Texto=Augmentez vos dégâts magiques de 11%
+Madera=1500
+MaderaElfica=4100
 
 [OBJ1812]
 Name=Espada Test
