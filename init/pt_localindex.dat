@@ -15972,6 +15972,18 @@ IconoIndex=35756
 MinSkill=0
 StaRequerido=400
 
+[HECHIZO239]
+Nombre=Ataque de veneno inferior (NPCS)
+Desc=Causa 5 a 8 pontos de dano à vítima.
+PropioMsg=Você jogou veneno em você.
+HechizeroMsg=Você lançou veneno em
+TargetMsg=Ele atirou em um veneno em você.
+PalabrasMagicas=TOX ZAP
+MinSkill=20
+ManaRequerido=30
+StaRequerido=5
+IconoIndex=35727
+
 [HECHIZO240]
 Nombre=Invisibilidade
 Desc=Torna o alvo invisível. Efeito não permanente.

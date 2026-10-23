@@ -15972,6 +15972,18 @@ IconoIndex=35756
 MinSkill=0
 StaRequerido=400
 
+[HECHIZO239]
+Nombre=Attaque de poison inférieure (PNJ)
+Desc=Cause de 5 à 8 points de dommages à la victime.
+PropioMsg=Vous vous avez jeté du poison.
+HechizeroMsg=Vous avez libéré du poison
+TargetMsg=Il vous a tiré un poison.
+PalabrasMagicas=TOX ZAP
+MinSkill=20
+ManaRequerido=30
+StaRequerido=5
+IconoIndex=35727
+
 [HECHIZO240]
 Nombre=Invisibilité
 Desc=Rend la cible invisible. Effet non permanent.
