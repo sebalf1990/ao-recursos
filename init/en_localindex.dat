@@ -27617,18 +27617,18 @@ Valor=3300
 SkHerreria=35
 LingH=55
 MaxHit=13
-MinHit=8
+MinHit=10
 
 [OBJ1819]
 Name=Long Ax
-Texto=Damage 8/12
+Texto=Damage 9/12
 GrhIndex=44010
 ObjType=2
-Valor=3000
+Valor=3300
 SkHerreria=35
-LingH=50
+LingH=55
 MaxHit=12
-MinHit=8
+MinHit=9
 
 [OBJ1820]
 Name=War Mace
@@ -43082,19 +43082,19 @@ Texto=Allows you to use the resurrect spell
 
 [OBJ3985]
 Name=Flute
-GrhIndex=686
+GrhIndex=538
 Objtype=30
 Valor=600
 Madera=200
-Texto=Increases magic damage by 3%.
+Texto=Increases your Magic Damage by 1%
 
 [OBJ3986]
 Name=Lute
-GrhIndex=685
+GrhIndex=539
 Objtype=30
 Valor=600
 Madera=200
-Texto=Increases magic damage by 3%.
+Texto=Increases your Magic Damage by 1%
 
 [OBJ3987]
 Name=Iron Knuckle

@@ -25260,18 +25260,18 @@ Valor=3300
 SkHerreria=35
 LingH=55
 MaxHit=13
-MinHit=8
+MinHit=10
 
 [OBJ1819]
 Name=Hacha Larga
-Texto=Daño 8/12
+Texto=Daño 9/12
 GrhIndex=44010
 ObjType=2
-Valor=3000
+Valor=3300
 SkHerreria=35
-LingH=50
+LingH=55
 MaxHit=12
-MinHit=8
+MinHit=9
 
 [OBJ1820]
 Name=Maza de Guerra
@@ -40723,19 +40723,19 @@ Texto=Item de Quest
 
 [OBJ3985]
 Name=Flauta
-GrhIndex=686
+GrhIndex=538
 Objtype=30
 Valor=600
 Madera=200
-Texto=Aumenta el daño mágico un 3%.
+Texto=Aumenta tu Daño Mágico un 1%
 
 [OBJ3986]
 Name=Laúd
-GrhIndex=685
+GrhIndex=539
 Objtype=30
 Valor=600
 Madera=200
-Texto=Aumenta el daño mágico un 3%.
+Texto=Aumenta tu Daño Mágico un 1%
 
 [OBJ3987]
 Name=Nudillo de Hierro

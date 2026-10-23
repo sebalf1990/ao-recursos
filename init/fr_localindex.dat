@@ -27492,18 +27492,18 @@ Valor=3300
 SkHerreria=35
 LingH=55
 MaxHit=13
-MinHit=8
+MinHit=10
 
 [OBJ1819]
 Name=Hache longue
-Texto=Dommages 8/12
+Texto=Dommages 9/12
 GrhIndex=44010
 ObjType=2
-Valor=3000
+Valor=3300
 SkHerreria=35
-LingH=50
+LingH=55
 MaxHit=12
-MinHit=8
+MinHit=9
 
 [OBJ1820]
 Name=Masse de guerre
@@ -42955,19 +42955,19 @@ Texto=Item de Quest
 
 [OBJ3985]
 Name=Flauta
-GrhIndex=686
+GrhIndex=538
 Objtype=30
 Valor=600
 Madera=200
-Texto=Aumenta el daño mágico un 3%.
+Texto=Augmentez vos dégâts magiques de 1%
 
 [OBJ3986]
 Name=Laúd
-GrhIndex=685
+GrhIndex=539
 Objtype=30
 Valor=600
 Madera=200
-Texto=Aumenta el daño mágico un 3%.
+Texto=Augmentez vos dégâts magiques de 1%
 
 [OBJ3987]
 Name=Poing de fer
