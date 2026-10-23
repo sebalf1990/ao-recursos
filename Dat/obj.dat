@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9206
+NumOBJs=9229
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -3650,54 +3650,6 @@ en_Name=Old Banderbill House Key 1
 
 '--------------> Casa número 2 de Banderbill <--------------
 
-[OBJ267]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=26
-Agarrable=1
-IndexAbierta=267
-IndexCerrada=268
-IndexCerradaLlave=269
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ268]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=26
-Agarrable=1
-IndexAbierta=267
-IndexCerrada=268
-IndexCerradaLlave=269
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ269]
-Name=Puerta cerrada con Llave casa 2 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=26
-Agarrable=1
-IndexAbierta=267
-IndexCerrada=268
-IndexCerradaLlave=269
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 2 of Old Banderbill
-ExtraStr=Esta honorable casa pertenece a
-
 [OBJ270]
 Name=Llave casa vieja Banderbill Nro: 02
 ExtraStr=Llave de la casa 2 de la vieja Banderbill
@@ -3877,54 +3829,6 @@ Texto=Llave de la casa 6 de la vieja Banderbill
 en_Name=Old Banderbill House Key 6
 
 '--------------> Casa número 7 de Banderbill <--------------
-
-[OBJ291]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=32
-Agarrable=1
-IndexAbierta=291
-IndexCerrada=292
-IndexCerradaLlave=293
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ292]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=32
-Agarrable=1
-IndexAbierta=291
-IndexCerrada=292
-IndexCerradaLlave=293
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ293]
-Name=Puerta cerrada con Llave casa 8 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=32
-Agarrable=1
-IndexAbierta=291
-IndexCerrada=292
-IndexCerradaLlave=293
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 8 of old banderbill
-ExtraStr=Esta honorable casa pertenece a
 
 [OBJ294]
 Name=Llave casa vieja Banderbill Nro: 08
@@ -4233,66 +4137,6 @@ en_texto=This honorable house belongs to
 en_Name=locked door house 12 of Old banderbill
 ExtraStr=Esta honorable casa pertenece a
 
-[OBJ331]
-Name=Llave casa vieja Banderbill Nro: 12
-ExtraStr=Llave de la casa 12 de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=39
-Valor=
-Texto=Llave de la casa 12 de la vieja Banderbill
-en_Name=Old Banderbill House Key 12
-
-'--------------> Casa número 13 de Banderbill <--------------
-
-[OBJ332]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=40
-Agarrable=1
-IndexAbierta=332
-IndexCerrada=333
-IndexCerradaLlave=334
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ333]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=40
-Agarrable=1
-IndexAbierta=332
-IndexCerrada=333
-IndexCerradaLlave=334
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ334]
-Name=Puerta cerrada con Llave casa 13 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=40
-Agarrable=1
-IndexAbierta=332
-IndexCerrada=333
-IndexCerradaLlave=334
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 13 of Old banderbill
-ExtraStr=Esta honorable casa pertenece a
-
 [OBJ335]
 Name=Llave casa vieja Banderbill Nro: 13
 ExtraStr=Llave de la casa 13 de la vieja Banderbill
@@ -4352,18 +4196,6 @@ Texto=Esta honorable casa pertenece a
 en_texto=This honorable house belongs to
 en_Name=locked door house 14 of Old banderbill
 ExtraStr=Esta honorable casa pertenece a
-
-[OBJ339]
-Name=Llave casa vieja Banderbill Nro: 14
-ExtraStr=Llave de la casa 14 de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=41
-Valor=
-Texto=Llave de la casa 14 de la vieja Banderbill
-en_Name=Old Banderbill House Key 14
-
-'--------------> Casa número 15 de Banderbill <--------------
 
 [OBJ340]
 Name=Puerta abierta
@@ -6458,40 +6290,6 @@ peso=500
 Texto=Armadura Bruñida
 en_Name=Burnished armor (E/G)
 
-[OBJ503]
-Name=Trampa Visual (M)
-GrhIndex=5279
-RopajeHumano=1095
-RopajeElfo=1095
-RopajeElfoOscuro=2541
-RopajeEnano=2509
-RopajeOrco=2525
-RopajeGnomo=2509
-RopajeHumana=1095
-RopajeElfa=1095
-RopajeElfaOscura=2541
-RopajeEnana=2509
-RopajeOrca=2525
-RopajeGnoma=2509
-ObjType=3
-MAXDEF=25
-MINDEF=20
-Valor=10000
-Mujer=1
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-MinELV=1
-Crucial=1
-peso=200
-Texto=Trampa Visual (M)
-en_Name=Visual Trap (M)
-
 [OBJ508]
 Name=Ropa Estuaria (M)
 NumRopaje=3120
@@ -7150,30 +6948,6 @@ MinELV=1
 subastable=1
 Texto=Daga Ígnea
 WeaponType=2
-
-[OBJ562]
-Name=Vestimentas de Bajo (Newbie)
-GrhIndex=59361
-RopajeHumano=16
-RopajeElfo=16
-RopajeElfoOscuro=1546
-RopajeEnano=3105
-RopajeOrco=2560
-RopajeGnomo=3105
-RopajeHumana=2686
-RopajeElfa=2686
-RopajeElfaOscura=2734
-RopajeEnana=2702
-RopajeOrca=2718
-RopajeGnoma=2702
-ObjType=3
-MAXDEF=0
-MINDEF=0
-Valor=0
-newbie=1
-Texto=Vestimentas de Bajo (Newbie)
-Instransferible=1
-en_Name=Vestment (E/G) (newbie)
 
 [OBJ563]
 Name=Vestimentas de Baja (Newbie)
@@ -9976,54 +9750,6 @@ en_texto=This honorable house belongs to
 en_Name=locked door house 5 of illiandor
 ExtraStr=Esta honorable casa pertenece a
 
-[OBJ842]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-Clave=106
-Agarrable=1
-IndexAbierta=842
-IndexCerrada=843
-IndexCerradaLlave=844
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ843]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-Clave=106
-Agarrable=1
-IndexAbierta=842
-IndexCerrada=843
-IndexCerradaLlave=844
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ844]
-Name=Puerta cerrada con llave Casa 6 de illiandor
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-Clave=106
-Agarrable=1
-IndexAbierta=842
-IndexCerrada=843
-IndexCerradaLlave=844
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 6 of Lilliandor
-ExtraStr=Esta honorable casa pertenece a
-
 [OBJ846]
 Name=Puerta abierta
 GrhIndex=5592
@@ -10579,114 +10305,6 @@ IndexCerradaLlave=918
 Texto=Esta honorable casa pertenece a
 en_texto=This honorable house belongs to
 en_Name=locked door house 2 of Tiama
-ExtraStr=Esta honorable casa pertenece a
-
-[OBJ920]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-clave=112
-Agarrable=1
-IndexAbierta=920
-IndexCerrada=921
-IndexCerradaLlave=922
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ921]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-clave=112
-Agarrable=1
-IndexAbierta=920
-IndexCerrada=921
-IndexCerradaLlave=922
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ922]
-Name=Puerta cerrada con llave Casa 3 de Tiama
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-clave=112
-Agarrable=1
-IndexAbierta=920
-IndexCerrada=921
-IndexCerradaLlave=922
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 3 of Tiama
-ExtraStr=Esta honorable casa pertenece a
-
-[OBJ923]
-Name=Llave casa Tiama Nro: 04
-ExtraStr=Llave de la casa 4 de Tiama
-GrhIndex=509
-ObjType=9
-Clave=113
-valor=
-Texto=Llave de la casa 4 de Tiama
-en_Name=Tiama House Key 4
-
-'--------------> Casa número 4 de Tiama <--------------
-
-[OBJ924]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-clave=113
-Agarrable=1
-IndexAbierta=924
-IndexCerrada=925
-IndexCerradaLlave=926
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ925]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-clave=113
-Agarrable=1
-IndexAbierta=924
-IndexCerrada=925
-IndexCerradaLlave=926
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ926]
-Name=Puerta cerrada con llave Casa 4 de Tiama
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-clave=113
-Agarrable=1
-IndexAbierta=924
-IndexCerrada=925
-IndexCerradaLlave=926
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 4 of Tiama
 ExtraStr=Esta honorable casa pertenece a
 
 [OBJ928]
@@ -78754,4 +78372,386 @@ fr_Name=Entraver
 fr_texto=Piège tes ennemis (niveau maximum 24)
 it_Name=Intrappolare
 it_texto=Intrappola i tuoi nemici (livello massimo 24)
+
+[OBJ9207] 'Mudado desde OBJ267 (plan 23.002)
+Name=Puerta abierta
+GrhIndex=9201
+ObjType=6
+Cerrada=0
+llave=0
+Clave=26
+Agarrable=1
+IndexAbierta=9207
+IndexCerrada=9208
+IndexCerradaLlave=9209
+Texto=Puerta abierta
+en_name=Open door
+en_texto=This honorable house belongs to
+ExtraStr=Puerta abierta
+
+[OBJ9208] 'Mudado desde OBJ268 (plan 23.002)
+Name=Puerta cerrada
+GrhIndex=9195
+ObjType=6
+Cerrada=1
+llave=0
+Clave=26
+Agarrable=1
+IndexAbierta=9207
+IndexCerrada=9208
+IndexCerradaLlave=9209
+Texto=Puerta cerrada
+en_name=Door closed
+en_texto=This honorable house belongs to
+ExtraStr=Puerta cerrada
+
+[OBJ9209] 'Mudado desde OBJ269 (plan 23.002)
+Name=Puerta cerrada con Llave casa 2 de la vieja Banderbill
+GrhIndex=9195
+ObjType=6
+Cerrada=1
+llave=1
+Clave=26
+Agarrable=1
+IndexAbierta=9207
+IndexCerrada=9208
+IndexCerradaLlave=9209
+Texto=Esta honorable casa pertenece a
+en_texto=This honorable house belongs to
+en_Name=locked door house 2 of Old Banderbill
+ExtraStr=Esta honorable casa pertenece a
+
+[OBJ9210] 'Mudado desde OBJ291 (plan 23.002)
+Name=Puerta abierta
+GrhIndex=9201
+ObjType=6
+Cerrada=0
+llave=0
+Clave=32
+Agarrable=1
+IndexAbierta=9210
+IndexCerrada=9211
+IndexCerradaLlave=9212
+Texto=Puerta abierta
+en_name=Open door
+en_texto=This honorable house belongs to
+ExtraStr=Puerta abierta
+
+[OBJ9211] 'Mudado desde OBJ292 (plan 23.002)
+Name=Puerta cerrada
+GrhIndex=9195
+ObjType=6
+Cerrada=1
+llave=0
+Clave=32
+Agarrable=1
+IndexAbierta=9210
+IndexCerrada=9211
+IndexCerradaLlave=9212
+Texto=Puerta cerrada
+en_name=Door closed
+en_texto=This honorable house belongs to
+ExtraStr=Puerta cerrada
+
+[OBJ9212] 'Mudado desde OBJ293 (plan 23.002)
+Name=Puerta cerrada con Llave casa 8 de la vieja Banderbill
+GrhIndex=9195
+ObjType=6
+Cerrada=1
+llave=1
+Clave=32
+Agarrable=1
+IndexAbierta=9210
+IndexCerrada=9211
+IndexCerradaLlave=9212
+Texto=Esta honorable casa pertenece a
+en_texto=This honorable house belongs to
+en_Name=locked door house 8 of old banderbill
+ExtraStr=Esta honorable casa pertenece a
+
+[OBJ9213] 'Mudado desde OBJ331 (plan 23.002)
+Name=Llave casa vieja Banderbill Nro: 12
+ExtraStr=Llave de la casa 12 de la vieja Banderbill
+GrhIndex=509
+ObjType=9
+Clave=39
+Valor=
+Texto=Llave de la casa 12 de la vieja Banderbill
+en_Name=Old Banderbill House Key 12
+
+'--------------> Casa número 13 de Banderbill <--------------
+
+[OBJ9214] 'Mudado desde OBJ332 (plan 23.002)
+Name=Puerta abierta
+GrhIndex=9201
+ObjType=6
+Cerrada=0
+llave=0
+Clave=40
+Agarrable=1
+IndexAbierta=9214
+IndexCerrada=9215
+IndexCerradaLlave=9216
+Texto=Puerta abierta
+en_name=Open door
+en_texto=This honorable house belongs to
+ExtraStr=Puerta abierta
+
+[OBJ9215] 'Mudado desde OBJ333 (plan 23.002)
+Name=Puerta cerrada
+GrhIndex=9195
+ObjType=6
+Cerrada=1
+llave=0
+Clave=40
+Agarrable=1
+IndexAbierta=9214
+IndexCerrada=9215
+IndexCerradaLlave=9216
+Texto=Puerta cerrada
+en_name=Door closed
+en_texto=This honorable house belongs to
+ExtraStr=Puerta cerrada
+
+[OBJ9216] 'Mudado desde OBJ334 (plan 23.002)
+Name=Puerta cerrada con Llave casa 13 de la vieja Banderbill
+GrhIndex=9195
+ObjType=6
+Cerrada=1
+llave=1
+Clave=40
+Agarrable=1
+IndexAbierta=9214
+IndexCerrada=9215
+IndexCerradaLlave=9216
+Texto=Esta honorable casa pertenece a
+en_texto=This honorable house belongs to
+en_Name=locked door house 13 of Old banderbill
+ExtraStr=Esta honorable casa pertenece a
+
+[OBJ9217] 'Mudado desde OBJ339 (plan 23.002)
+Name=Llave casa vieja Banderbill Nro: 14
+ExtraStr=Llave de la casa 14 de la vieja Banderbill
+GrhIndex=509
+ObjType=9
+Clave=41
+Valor=
+Texto=Llave de la casa 14 de la vieja Banderbill
+en_Name=Old Banderbill House Key 14
+
+'--------------> Casa número 15 de Banderbill <--------------
+
+[OBJ9218] 'Mudado desde OBJ503 (plan 23.002)
+Name=Trampa Visual (M)
+GrhIndex=5279
+RopajeHumano=1095
+RopajeElfo=1095
+RopajeElfoOscuro=2541
+RopajeEnano=2509
+RopajeOrco=2525
+RopajeGnomo=2509
+RopajeHumana=1095
+RopajeElfa=1095
+RopajeElfaOscura=2541
+RopajeEnana=2509
+RopajeOrca=2525
+RopajeGnoma=2509
+ObjType=3
+MAXDEF=25
+MINDEF=20
+Valor=10000
+Mujer=1
+CP1=BANDIDO
+CP2=LADRON
+CP3=PIRATA
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PALADIN
+CP9=ASESINO
+CP10=GUERRERO
+MinELV=1
+Crucial=1
+peso=200
+Texto=Trampa Visual (M)
+en_Name=Visual Trap (M)
+
+[OBJ9219] 'Mudado desde OBJ562 (plan 23.002)
+Name=Vestimentas de Bajo (Newbie)
+GrhIndex=59361
+RopajeHumano=16
+RopajeElfo=16
+RopajeElfoOscuro=1546
+RopajeEnano=3105
+RopajeOrco=2560
+RopajeGnomo=3105
+RopajeHumana=2686
+RopajeElfa=2686
+RopajeElfaOscura=2734
+RopajeEnana=2702
+RopajeOrca=2718
+RopajeGnoma=2702
+ObjType=3
+MAXDEF=0
+MINDEF=0
+Valor=0
+newbie=1
+Texto=Vestimentas de Bajo (Newbie)
+Instransferible=1
+en_Name=Vestment (E/G) (newbie)
+
+[OBJ9220] 'Mudado desde OBJ842 (plan 23.002)
+Name=Puerta abierta
+GrhIndex=5592
+ObjType=6
+Cerrada=0
+llave=0
+Clave=106
+Agarrable=1
+IndexAbierta=9220
+IndexCerrada=9221
+IndexCerradaLlave=9222
+Texto=Puerta abierta
+en_name=Open door
+en_texto=This honorable house belongs to
+ExtraStr=Puerta abierta
+
+[OBJ9221] 'Mudado desde OBJ843 (plan 23.002)
+Name=Puerta cerrada
+GrhIndex=5593
+ObjType=6
+Cerrada=1
+llave=0
+Clave=106
+Agarrable=1
+IndexAbierta=9220
+IndexCerrada=9221
+IndexCerradaLlave=9222
+Texto=Puerta cerrada
+en_name=Door closed
+en_texto=This honorable house belongs to
+ExtraStr=Puerta cerrada
+
+[OBJ9222] 'Mudado desde OBJ844 (plan 23.002)
+Name=Puerta cerrada con llave Casa 6 de illiandor
+GrhIndex=5593
+ObjType=6
+Cerrada=1
+llave=1
+Clave=106
+Agarrable=1
+IndexAbierta=9220
+IndexCerrada=9221
+IndexCerradaLlave=9222
+Texto=Esta honorable casa pertenece a
+en_texto=This honorable house belongs to
+en_Name=locked door house 6 of Lilliandor
+ExtraStr=Esta honorable casa pertenece a
+
+[OBJ9223] 'Mudado desde OBJ920 (plan 23.002)
+Name=Puerta abierta
+GrhIndex=5592
+ObjType=6
+Cerrada=0
+llave=0
+clave=112
+Agarrable=1
+IndexAbierta=9223
+IndexCerrada=9224
+IndexCerradaLlave=9225
+Texto=Puerta abierta
+en_name=Open door
+en_texto=This honorable house belongs to
+ExtraStr=Puerta abierta
+
+[OBJ9224] 'Mudado desde OBJ921 (plan 23.002)
+Name=Puerta cerrada
+GrhIndex=5593
+ObjType=6
+Cerrada=1
+llave=0
+clave=112
+Agarrable=1
+IndexAbierta=9223
+IndexCerrada=9224
+IndexCerradaLlave=9225
+Texto=Puerta cerrada
+en_name=Door closed
+en_texto=This honorable house belongs to
+ExtraStr=Puerta cerrada
+
+[OBJ9225] 'Mudado desde OBJ922 (plan 23.002)
+Name=Puerta cerrada con llave Casa 3 de Tiama
+GrhIndex=5593
+ObjType=6
+Cerrada=1
+llave=1
+clave=112
+Agarrable=1
+IndexAbierta=9223
+IndexCerrada=9224
+IndexCerradaLlave=9225
+Texto=Esta honorable casa pertenece a
+en_texto=This honorable house belongs to
+en_Name=locked door house 3 of Tiama
+ExtraStr=Esta honorable casa pertenece a
+
+[OBJ9226] 'Mudado desde OBJ923 (plan 23.002)
+Name=Llave casa Tiama Nro: 04
+ExtraStr=Llave de la casa 4 de Tiama
+GrhIndex=509
+ObjType=9
+Clave=113
+valor=
+Texto=Llave de la casa 4 de Tiama
+en_Name=Tiama House Key 4
+
+'--------------> Casa número 4 de Tiama <--------------
+
+[OBJ9227] 'Mudado desde OBJ924 (plan 23.002)
+Name=Puerta abierta
+GrhIndex=5592
+ObjType=6
+Cerrada=0
+llave=0
+clave=113
+Agarrable=1
+IndexAbierta=9227
+IndexCerrada=9228
+IndexCerradaLlave=9229
+Texto=Puerta abierta
+en_name=Open door
+en_texto=This honorable house belongs to
+ExtraStr=Puerta abierta
+
+[OBJ9228] 'Mudado desde OBJ925 (plan 23.002)
+Name=Puerta cerrada
+GrhIndex=5593
+ObjType=6
+Cerrada=1
+llave=0
+clave=113
+Agarrable=1
+IndexAbierta=9227
+IndexCerrada=9228
+IndexCerradaLlave=9229
+Texto=Puerta cerrada
+en_name=Door closed
+en_texto=This honorable house belongs to
+ExtraStr=Puerta cerrada
+
+[OBJ9229] 'Mudado desde OBJ926 (plan 23.002)
+Name=Puerta cerrada con llave Casa 4 de Tiama
+GrhIndex=5593
+ObjType=6
+Cerrada=1
+llave=1
+clave=113
+Agarrable=1
+IndexAbierta=9227
+IndexCerrada=9228
+IndexCerradaLlave=9229
+Texto=Esta honorable casa pertenece a
+en_texto=This honorable house belongs to
+en_Name=locked door house 4 of Tiama
+ExtraStr=Esta honorable casa pertenece a
 
