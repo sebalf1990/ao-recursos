@@ -52576,7 +52576,7 @@ Name=Liuto
 GrhIndex=539
 ObjType=30
 Valor=600
-Texto=Aumenta il tuo danno magico dell
+Texto=Aumenta il tuo danno magico dell'1%
 ElementalTags=1
 
 [OBJ5215]
@@ -52726,7 +52726,7 @@ Name=Liuto
 GrhIndex=539
 ObjType=30
 Valor=600
-Texto=Aumenta il tuo danno magico dell
+Texto=Aumenta il tuo danno magico dell'1%
 ElementalTags=2
 
 [OBJ5230]
@@ -52876,7 +52876,7 @@ Name=Liuto
 GrhIndex=539
 ObjType=30
 Valor=600
-Texto=Aumenta il tuo danno magico dell
+Texto=Aumenta il tuo danno magico dell'1%
 ElementalTags=4
 
 [OBJ5245]
@@ -53026,7 +53026,7 @@ Name=Liuto
 GrhIndex=539
 ObjType=30
 Valor=600
-Texto=Aumenta il tuo danno magico dell
+Texto=Aumenta il tuo danno magico dell'1%
 ElementalTags=8
 
 [OBJ5260]

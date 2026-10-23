@@ -52545,7 +52545,7 @@ ElementalTags=1
 
 [OBJ5211]
 Name=Mandoble
-Texto=Deux mains, cela ne vous permet pas d
+Texto=Deux mains, cela ne vous permet pas d'utiliser un bouclier.
 GrhIndex=25196
 ObjType=2
 Valor=3300
@@ -52695,7 +52695,7 @@ ElementalTags=2
 
 [OBJ5226]
 Name=Mandoble
-Texto=Deux mains, cela ne vous permet pas d
+Texto=Deux mains, cela ne vous permet pas d'utiliser un bouclier.
 GrhIndex=25196
 ObjType=2
 Valor=3300
@@ -52845,7 +52845,7 @@ ElementalTags=4
 
 [OBJ5241]
 Name=Mandoble
-Texto=Deux mains, cela ne vous permet pas d
+Texto=Deux mains, cela ne vous permet pas d'utiliser un bouclier.
 GrhIndex=25196
 ObjType=2
 Valor=3300
@@ -52995,7 +52995,7 @@ ElementalTags=8
 
 [OBJ5256]
 Name=Mandoble
-Texto=Deux mains, cela ne vous permet pas d
+Texto=Deux mains, cela ne vous permet pas d'utiliser un bouclier.
 GrhIndex=25196
 ObjType=2
 Valor=3300
@@ -53030,28 +53030,28 @@ Texto=Augmentez vos dégâts magiques de 1%
 ElementalTags=8
 
 [OBJ5260]
-Name=Coffre d
+Name=Coffre d'Armes Élémentaires (Feu)
 Texto=Ce coffre contient des armes de niveau 1 avec élément Feu
 GrhIndex=49233
 ObjType=48
 Agarrable=0
 
 [OBJ5261]
-Name=Coffre d
+Name=Coffre d'Armes Élémentaires (Eau)
 Texto=Ce coffre contient des armes de niveau 1 avec élément Eau
 GrhIndex=49233
 ObjType=48
 Agarrable=0
 
 [OBJ5262]
-Name=Coffre d
+Name=Coffre d'Armes Élémentaires (Terre)
 Texto=Ce coffre contient des armes de niveau 1 avec élément Terre
 GrhIndex=49233
 ObjType=48
 Agarrable=0
 
 [OBJ5263]
-Name=Coffre d
+Name=Coffre d'Armes Élémentaires (Air)
 Texto=Ce coffre contient des armes de niveau 1 avec élément Air
 GrhIndex=49233
 ObjType=48
@@ -53073,7 +53073,7 @@ Valor=190
 
 [OBJ5991]
 Name=Bras de Mante
-Texto=Membre tranchant d
+Texto=Membre tranchant d'une créature rapide.
 GrhIndex=38420
 ObjType=100
 Valor=130

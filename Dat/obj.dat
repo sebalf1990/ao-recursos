@@ -68307,7 +68307,7 @@ en_texto=Two-handed weapon, shield not allowed.
 pt_Name=Mandoble
 pt_texto=Duas mãos, não permite que você use um escudo.
 fr_Name=Mandoble
-fr_texto=Deux mains, cela ne vous permet pas d
+fr_texto=Deux mains, cela ne vous permet pas d'utiliser un bouclier.
 it_Name=Mandobile
 it_texto=Due mani, non ti consente di usare uno scudo.
 
@@ -68410,7 +68410,7 @@ pt_texto=Aumente seu dano mágico em 1%
 fr_Name=Luth
 fr_texto=Augmentez vos dégâts magiques de 1%
 it_Name=Liuto
-it_texto=Aumenta il tuo danno magico dell
+it_texto=Aumenta il tuo danno magico dell'1%
 
 [OBJ5215] 'Plan 23.002: arma tier 1 con elemento 2, base OBJ479
 CP1=PIRATA
@@ -68792,7 +68792,7 @@ en_texto=Two-handed weapon, shield not allowed.
 pt_Name=Mandoble
 pt_texto=Duas mãos, não permite que você use um escudo.
 fr_Name=Mandoble
-fr_texto=Deux mains, cela ne vous permet pas d
+fr_texto=Deux mains, cela ne vous permet pas d'utiliser un bouclier.
 it_Name=Mandobile
 it_texto=Due mani, non ti consente di usare uno scudo.
 
@@ -68895,7 +68895,7 @@ pt_texto=Aumente seu dano mágico em 1%
 fr_Name=Luth
 fr_texto=Augmentez vos dégâts magiques de 1%
 it_Name=Liuto
-it_texto=Aumenta il tuo danno magico dell
+it_texto=Aumenta il tuo danno magico dell'1%
 
 [OBJ5230] 'Plan 23.002: arma tier 1 con elemento 4, base OBJ479
 CP1=PIRATA
@@ -69277,7 +69277,7 @@ en_texto=Two-handed weapon, shield not allowed.
 pt_Name=Mandoble
 pt_texto=Duas mãos, não permite que você use um escudo.
 fr_Name=Mandoble
-fr_texto=Deux mains, cela ne vous permet pas d
+fr_texto=Deux mains, cela ne vous permet pas d'utiliser un bouclier.
 it_Name=Mandobile
 it_texto=Due mani, non ti consente di usare uno scudo.
 
@@ -69380,7 +69380,7 @@ pt_texto=Aumente seu dano mágico em 1%
 fr_Name=Luth
 fr_texto=Augmentez vos dégâts magiques de 1%
 it_Name=Liuto
-it_texto=Aumenta il tuo danno magico dell
+it_texto=Aumenta il tuo danno magico dell'1%
 
 [OBJ5245] 'Plan 23.002: arma tier 1 con elemento 8, base OBJ479
 CP1=PIRATA
@@ -69762,7 +69762,7 @@ en_texto=Two-handed weapon, shield not allowed.
 pt_Name=Mandoble
 pt_texto=Duas mãos, não permite que você use um escudo.
 fr_Name=Mandoble
-fr_texto=Deux mains, cela ne vous permet pas d
+fr_texto=Deux mains, cela ne vous permet pas d'utiliser un bouclier.
 it_Name=Mandobile
 it_texto=Due mani, non ti consente di usare uno scudo.
 
@@ -69865,7 +69865,7 @@ pt_texto=Aumente seu dano mágico em 1%
 fr_Name=Luth
 fr_texto=Augmentez vos dégâts magiques de 1%
 it_Name=Liuto
-it_texto=Aumenta il tuo danno magico dell
+it_texto=Aumenta il tuo danno magico dell'1%
 
 [OBJ5260] 'Plan 23.002: desde el pack oficial 2026-10-01 (contenido: SUPUESTO D5)
 Name=Cofre de Armas Elemental (Fuego)
@@ -69910,7 +69910,7 @@ en_Name=Elemental Weapons Chest (Fire)
 en_texto=This chest contains tier 1 weapons with Fire element
 pt_Name=Baú de Armas Elementais (Fogo)
 pt_texto=Este baú contém armas de nível 1 com elemento Fogo
-fr_Name=Coffre d
+fr_Name=Coffre d'Armes Élémentaires (Feu)
 fr_texto=Ce coffre contient des armes de niveau 1 avec élément Feu
 it_Name=Forziere di Armi Elementali (Fuoco)
 it_texto=Questo forziere contiene armi di livello 1 con elemento Fuoco
@@ -69958,7 +69958,7 @@ en_Name=Elemental Weapons Chest (Water)
 en_texto=This chest contains tier 1 weapons with Water element
 pt_Name=Baú de Armas Elementais (Água)
 pt_texto=Este baú contém armas de nível 1 com elemento Água
-fr_Name=Coffre d
+fr_Name=Coffre d'Armes Élémentaires (Eau)
 fr_texto=Ce coffre contient des armes de niveau 1 avec élément Eau
 it_Name=Forziere di Armi Elementali (Acqua)
 it_texto=Questo forziere contiene armi di livello 1 con elemento Acqua
@@ -70006,7 +70006,7 @@ en_Name=Elemental Weapons Chest (Earth)
 en_texto=This chest contains tier 1 weapons with Earth element
 pt_Name=Baú de Armas Elementais (Terra)
 pt_texto=Este baú contém armas de nível 1 com elemento Terra
-fr_Name=Coffre d
+fr_Name=Coffre d'Armes Élémentaires (Terre)
 fr_texto=Ce coffre contient des armes de niveau 1 avec élément Terre
 it_Name=Forziere di Armi Elementali (Terra)
 it_texto=Questo forziere contiene armi di livello 1 con elemento Terra
@@ -70054,7 +70054,7 @@ en_Name=Elemental Weapons Chest (Air)
 en_texto=This chest contains tier 1 weapons with Air element
 pt_Name=Baú de Armas Elementais (Ar)
 pt_texto=Este baú contém armas de nível 1 com elemento Ar
-fr_Name=Coffre d
+fr_Name=Coffre d'Armes Élémentaires (Air)
 fr_texto=Ce coffre contient des armes de niveau 1 avec élément Air
 it_Name=Forziere di Armi Elementali (Aria)
 it_texto=Questo forziere contiene armi di livello 1 con elemento Aria
@@ -70100,7 +70100,7 @@ en_texto=Sharp limb from a swift creature.
 pt_Name=Braço de Louva-a-Deus
 pt_texto=Membro afiado de uma criatura veloz.
 fr_Name=Bras de Mante
-fr_texto=Membre tranchant d
+fr_texto=Membre tranchant d'une créature rapide.
 it_Name=Braccio di Mantide
 it_texto=Arto affilato di una creatura veloce.
 
