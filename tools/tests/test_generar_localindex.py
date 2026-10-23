@@ -74,6 +74,7 @@ HECHIZOS_DAT = "\r\n".join([
     "",
     "[HECHIZO1]",
     "Nombre=Dardo",
+    "StaPercentRequired=60",
     "",
 ])
 
@@ -155,6 +156,11 @@ class GenerarLocalindexTest(unittest.TestCase):
         # frmAlqui.frm (~402) lists it as an alchemy ingredient; plan 22.002 Q5.
         for lang in ["sp", "en", "pt", "fr", "it"]:
             self.assertEqual(dict(self.out(lang)["OBJ3"]).get("Esporas"), "3", lang)
+
+    def test_spell_stamina_percent_reaches_every_language(self) -> None:
+        # Protocol.bas HECINF shows "60% de stamina total." for Resurrect when it is set.
+        for lang in ["sp", "en", "pt", "fr", "it"]:
+            self.assertEqual(dict(self.out(lang)["HECHIZO1"]).get("StaPercentRequired"), "60", lang)
 
     def test_init_counters_and_crlf_are_kept(self) -> None:
         raw = (self.base / "init" / "sp_localindex.dat").read_bytes()

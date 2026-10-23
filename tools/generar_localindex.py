@@ -81,7 +81,7 @@ def main(carpeta_base=None):
         "HEC": [
             "Nombre", "Desc", "Texto", "GrhIndex", "ManaRequerido", "HechizoTipo", "MinSkill",
             "MaxSkill", "HechizeroMsg", "Cooldown", "IconoIndex", "PalabrasMagicas", "PropioMsg",
-            "StaRequerido", "TargetMsg"
+            "StaRequerido", "StaPercentRequired", "TargetMsg"
         ]
     }
 
