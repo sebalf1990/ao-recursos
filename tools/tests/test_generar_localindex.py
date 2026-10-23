@@ -37,6 +37,7 @@ OBJ_DAT = "\r\n".join([
     "[OBJ3]",
     "Name=Escudo",
     "Texto=Defensa 5",
+    "Esporas=3",
     "en_name=",
     "en_Texto=",
     "",
@@ -50,6 +51,7 @@ NPC_DAT = "\r\n".join([
     "Name=McGlashan",
     "Desc=Compro lo que el mar puede ofrecer!",
     "en_desc=I buy what the sea can offer!",
+    "DisabledInBattleServer=1",
     "",
 ])
 
@@ -143,6 +145,16 @@ class GenerarLocalindexTest(unittest.TestCase):
             quest = dict(self.out(lang)["QUEST1"])
             self.assertEqual(quest.get("DescAudio"), "1048", lang)
             self.assertEqual(quest.get("DescFinalAudio"), "1049", lang)
+
+    def test_npc_battle_server_flag_reaches_every_language(self) -> None:
+        # The client reads it in Recursos.bas (~1396) for the world map; plan 22.002 Q5.
+        for lang in ["sp", "en", "pt", "fr", "it"]:
+            self.assertEqual(dict(self.out(lang)["NPC1"]).get("DisabledInBattleServer"), "1", lang)
+
+    def test_obj_spores_ingredient_reaches_every_language(self) -> None:
+        # frmAlqui.frm (~402) lists it as an alchemy ingredient; plan 22.002 Q5.
+        for lang in ["sp", "en", "pt", "fr", "it"]:
+            self.assertEqual(dict(self.out(lang)["OBJ3"]).get("Esporas"), "3", lang)
 
     def test_init_counters_and_crlf_are_kept(self) -> None:
         raw = (self.base / "init" / "sp_localindex.dat").read_bytes()

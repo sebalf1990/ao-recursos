@@ -1787,6 +1787,7 @@ NROITEMS=9
 Obj1=5077-100
 Obj2=5078-100
 Obj3=5079-100
+DisabledInBattleServer=1
 
 [NPC14]
 Name=Thorek <Minero Experto>
@@ -1870,6 +1871,7 @@ Desc=¡El Fénix ha despertado nuevamente! Renace de sus cenizas cada cierto tie
 Body=881
 Head=0
 NpcType=17
+DisabledInBattleServer=1
 
 [NPC22]
 Name=Linxes <Guardia de Arena>
@@ -1909,6 +1911,7 @@ NROITEMS=6
 Obj1=4959-10
 Obj2=4958-10
 Obj3=4957-10
+DisabledInBattleServer=1
 
 [NPC27]
 Name=Nixerino <Guardia de Arena>
@@ -2101,6 +2104,7 @@ Desc=La Luz te ha traído hasta mí.
 Body=484
 Head=0
 NpcType=17
+DisabledInBattleServer=1
 
 [NPC97]
 Name=Grognak <Sacerdote de Penthar>
@@ -2256,6 +2260,7 @@ Head=0
 NpcType=17
 NROITEMS=1
 Obj1=1278-1
+DisabledInBattleServer=1
 
 [NPC120]
 Name=Eustaquio <Talador>
@@ -2477,12 +2482,14 @@ Desc=B
 Body=5809
 NpcType=0
 NROITEMS=0
+DisabledInBattleServer=1
 
 [NPC302]
 Name=Dorim II <Rey de Morgrim>
 Desc=Bienvenido
 Body=5808
 NpcType=0
+DisabledInBattleServer=1
 
 [NPC303]
 Name=Tancredo <Rey de Banderbill>
@@ -2495,6 +2502,7 @@ MinHIT=300
 NumQuiza=1
 QuizaDropea1=2236-3
 QuizaProb=1
+DisabledInBattleServer=1
 
 [NPC304]
 Name=Zarok <Rey de Arkheinl>
@@ -2504,6 +2512,7 @@ HP=500000
 NpcType=5
 MaxHIT=350
 MinHIT=300
+DisabledInBattleServer=1
 
 [NPC400]
 Name=Abyssal
@@ -2537,6 +2546,7 @@ Desc=¡Buongiorno! Soy el Guardián de estas Catacumbas, conozco a la perfecció
 Body=490
 Head=0
 NpcType=17
+DisabledInBattleServer=1
 
 [NPC404]
 Name=Roman <Quest de Araña Gigante>
@@ -2643,6 +2653,7 @@ Head=0
 BodyIdle=6174
 Ataque1=6174
 NpcType=17
+DisabledInBattleServer=1
 
 [NPC490]
 Name=Krix <Finanzas Goliath>
@@ -2918,6 +2929,7 @@ ORO=95
 NpcType=0
 GiveEXPClan=1
 Nivel=28
+DisabledInBattleServer=1
 
 [NPC516]
 Name=Leviatán
@@ -3539,6 +3551,7 @@ Desc=Si caminas entre sombras y dejas heridas que no sanan, quiza estés listo. 
 Body=445
 Head=0
 NpcType=17
+DisabledInBattleServer=1
 
 [NPC563]
 Name=Lobo BATTLE TEST
@@ -3552,6 +3565,7 @@ ORO=0
 MaxHIT=1
 MinHIT=1
 NROITEMS=0
+DisabledInBattleServer=1
 
 [NPC565]
 Name=Anubis
@@ -3625,6 +3639,7 @@ QuizaProb=1
 GiveEXPClan=350
 NROITEMS=1
 Obj1=2236-1
+DisabledInBattleServer=1
 
 [NPC573]
 Name=Abdul el Tallador <Quest de Piramide>
@@ -3632,6 +3647,7 @@ Desc=El jade no miente, solo espera al artesano correcto. Pocos en Ullathorpe en
 Body=6108
 Head=0
 NpcType=17
+DisabledInBattleServer=1
 
 [NPC574]
 Name=Heral <Quest de Desierto>
@@ -3680,6 +3696,7 @@ ORO=12
 MaxHIT=45
 MinHIT=25
 Nivel=28
+DisabledInBattleServer=1
 
 [NPC582]
 Name=Compi Ambar
@@ -3694,6 +3711,7 @@ MinHIT=35
 ORO=15
 EXP=450
 Nivel=28
+DisabledInBattleServer=1
 
 [NPC584]
 Name=Rata Gigante
@@ -3734,6 +3752,7 @@ GiveEXPClan=1
 ORO=120
 NpcType=0
 Nivel=28
+DisabledInBattleServer=1
 
 [NPC587]
 Name=Pyrrak
@@ -4072,6 +4091,7 @@ ORO=2750
 MaxHIT=225
 MinHIT=160
 Nivel=28
+DisabledInBattleServer=1
 
 [NPC624]
 Name=Esfera del Dragón 5
@@ -4397,6 +4417,7 @@ MaxHIT=145
 MinHIT=85
 GiveEXPClan=1
 Nivel=28
+DisabledInBattleServer=1
 
 [NPC656]
 Name=Dactila
@@ -4953,6 +4974,7 @@ MaxHIT=225
 MinHIT=160
 GiveEXPClan=30
 NpcType=0
+DisabledInBattleServer=1
 Nivel=28
 
 [NPC756]
@@ -5726,6 +5748,7 @@ QuizaDropea2=2237-1
 QuizaProb=80
 NpcType=0
 GiveEXPClan=3
+DisabledInBattleServer=1
 
 [NPC923]
 Name=Nocthral
@@ -5759,6 +5782,7 @@ QuizaDropea1=2236-1
 QuizaProb=100
 NpcType=0
 GiveEXPClan=2
+DisabledInBattleServer=1
 
 [NPC926]
 Name=Pixie de Tierra
@@ -5867,6 +5891,7 @@ GiveEXPClan=2
 ORO=100
 MaxHIT=230
 MinHIT=150
+DisabledInBattleServer=1
 
 [NPC935]
 Name=Serpiente Collet
@@ -6224,6 +6249,7 @@ ORO=3250
 MaxHIT=265
 MinHIT=165
 GiveEXPClan=35
+DisabledInBattleServer=1
 
 [NPC971]
 Name=Faraon Zombie
@@ -6368,6 +6394,7 @@ Desc=Pocos humanos caminan este bosque sin romper su armonía. Kael habló de vo
 Body=67
 Head=131
 NpcType=17
+DisabledInBattleServer=1
 
 [NPC988]
 Name=Kael el Rastreador <Quest de Bosque>
@@ -6375,6 +6402,7 @@ Desc=El bosque ya te reconoce, Cazador... pero todavía no te obedece. Si queré
 Body=482
 Head=0
 NpcType=17
+DisabledInBattleServer=1
 
 [NPC989]
 Name=Oso Pardo
@@ -6584,6 +6612,7 @@ Desc=Lo mejor que podrás conseguir en este mundo, solo para los más dignos seg
 Body=481
 Head=0
 NpcType=17
+DisabledInBattleServer=1
 
 [NPC1013]
 Name=Ezzyr <Equipamiento Real>
@@ -6640,6 +6669,7 @@ Desc=Eh... cuidado dónde pisas, forastero. ¿Ves el horizonte al sur? El mar no
 Body=419
 Head=0
 NpcType=17
+DisabledInBattleServer=1
 
 [NPC1019]
 Name=Tharzug <Quest de Orcos>
@@ -6692,6 +6722,7 @@ Nivel=45
 EXP=12500
 MaxHIT=250
 MinHIT=215
+DisabledInBattleServer=1
 
 [NPC1025]
 Name=Esbirro Demoníaco
@@ -7037,6 +7068,7 @@ Nivel=20
 Name=Karkadan
 Body=5298
 HP=1800
+DisabledInBattleServer=1
 MinHIT=50
 MaxHIT=80
 Nivel=24
@@ -7106,6 +7138,7 @@ Desc=¡Saludos, viajero! No todos los caminos se recorren a pie, y los verdadero
 Body=900
 Head=0
 NpcType=17
+DisabledInBattleServer=1
 
 [NPC1068]
 Name=Reiz Ez <Quest de Piramide>
@@ -7268,6 +7301,7 @@ NROITEMS=5
 Obj1=30-1
 Obj2=529-1
 Obj3=1004-1
+DisabledInBattleServer=1
 
 [NPC1085]
 Name=Jacobo <Quest de Pesca>
@@ -7307,6 +7341,7 @@ NROITEMS=22
 Obj1=32-1
 Obj2=35-1
 Obj3=515-1
+DisabledInBattleServer=1
 
 [NPC1088]
 Name=Cormac <Pescador>
@@ -7490,6 +7525,7 @@ NROITEMS=16
 Obj1=240-1
 Obj2=527-1
 Obj3=2843-1
+DisabledInBattleServer=1
 
 [NPC1120]
 Name=Skabrot <Hechicero de Penthar>
@@ -7575,6 +7611,7 @@ NROITEMS=5
 Obj1=30-1
 Obj2=529-1
 Obj3=1004-1
+DisabledInBattleServer=1
 
 [NPC1127]
 Name=Khadir <Hechicera>
@@ -7716,6 +7753,7 @@ Obj2=84-1
 Obj3=998-1
 MaxHIT=90
 MinHIT=75
+DisabledInBattleServer=1
 
 [NPC1143]
 Name=Fenrir <Magia>
@@ -7756,6 +7794,7 @@ ORO=85
 MaxHIT=135
 MinHIT=70
 Nivel=28
+DisabledInBattleServer=1
 
 [NPC1148]
 Name=Elemental de Fuego Liberado
@@ -7770,6 +7809,7 @@ ORO=85
 MaxHIT=135
 MinHIT=70
 Nivel=28
+DisabledInBattleServer=1
 
 [NPC1149]
 Name=Primal
@@ -7951,6 +7991,7 @@ Desc=¿Tienes el valor de enfrentar la oscuridad por un poder que puede cambiarl
 Body=498
 Head=0
 NpcType=17
+DisabledInBattleServer=1
 
 [NPC1173]
 Name=Viejo Forjador <Quest de Pico de Blodium>
@@ -7960,6 +8001,7 @@ Head=0
 BodyIdle=6164
 Ataque1=6164
 NpcType=17
+DisabledInBattleServer=1
 
 [NPC1174]
 Name=Borvat
@@ -7995,6 +8037,7 @@ Head=0
 BodyIdle=6160
 Ataque1=6160
 NpcType=17
+DisabledInBattleServer=1
 
 [NPC1180]
 Name=Thaldris <Hechicera>
@@ -8231,6 +8274,7 @@ Head=0
 BodyIdle=6182
 Ataque1=6182
 NpcType=17
+DisabledInBattleServer=1
 
 [NPC1203]
 Name=Mercader Mago
@@ -8339,6 +8383,7 @@ MaxHIT=85
 MinHIT=35
 ORO=95
 Nivel=28
+DisabledInBattleServer=1
 
 [NPC1217]
 Name=Landon <Shop Patreon>
@@ -8828,6 +8873,7 @@ Desc=Necesito que consigas los componentes del rito. Solo un paladín que los ob
 Body=6249
 Head=0
 NpcType=17
+DisabledInBattleServer=1
 
 [NPC1307]
 Name=Zoltan <Quest>
@@ -8849,6 +8895,7 @@ MaxHIT=50
 MinHIT=30
 NpcType=0
 Nivel=28
+DisabledInBattleServer=1
 
 [NPC1309]
 Name=Niscalo
@@ -8880,6 +8927,7 @@ NROITEMS=1
 Obj1=3833-1
 NpcType=0
 Nivel=28
+DisabledInBattleServer=1
 
 [NPC1311]
 Name=Elfer <Mercader>
@@ -9240,6 +9288,7 @@ ORO=115
 MaxHIT=140
 MinHIT=95
 Nivel=32
+DisabledInBattleServer=1
 
 [NPC1354]
 Name=Eyewarden Ártico
@@ -9432,6 +9481,7 @@ MaxHIT=120
 MinHIT=75
 GiveEXPClan=1
 Nivel=28
+DisabledInBattleServer=1
 
 [NPC1368]
 Name=Tiranosaurio Magnus
@@ -9487,6 +9537,7 @@ Comercia=0
 MaxHIT=0
 MinHIT=0
 NpcType=0
+DisabledInBattleServer=1
 
 [NPC1374]
 Name=Ent Élfico
@@ -9501,6 +9552,7 @@ ORO=2750
 MaxHIT=225
 MinHIT=160
 GiveEXPClan=30
+DisabledInBattleServer=1
 Nivel=28
 
 [NPC1375]
@@ -9767,6 +9819,7 @@ Desc=Los cuatro elementos no se dominan: se reúnen. Los enanos de Morgrim lo su
 Body=6089
 Head=0
 NpcType=17
+DisabledInBattleServer=1
 
 [NPC1449]
 Name=Pantera Invocada
@@ -9887,6 +9940,7 @@ EXP=1200
 ORO=45
 MaxHIT=85
 MinHIT=60
+DisabledInBattleServer=1
 Nivel=20
 
 [NPC1466]
@@ -9901,6 +9955,7 @@ EXP=1200
 ORO=45
 MaxHIT=85
 MinHIT=60
+DisabledInBattleServer=1
 Nivel=20
 
 [NPC1467]
@@ -9915,6 +9970,7 @@ EXP=1200
 ORO=45
 MaxHIT=85
 MinHIT=60
+DisabledInBattleServer=1
 Nivel=20
 
 [NPC1468]
@@ -9929,6 +9985,7 @@ EXP=1200
 ORO=45
 MaxHIT=85
 MinHIT=60
+DisabledInBattleServer=1
 Nivel=20
 
 [NPC1469]
@@ -9944,6 +10001,7 @@ ORO=150
 Nivel=28
 MaxHIT=150
 MinHIT=80
+DisabledInBattleServer=1
 
 [NPC1470]
 Name=Pyrot
@@ -9957,6 +10015,7 @@ GiveEXPClan=2
 ORO=85
 MaxHIT=170
 MinHIT=100
+DisabledInBattleServer=1
 Nivel=30
 
 [NPC1471]
@@ -9971,6 +10030,7 @@ GiveEXPClan=2
 ORO=85
 MaxHIT=170
 MinHIT=100
+DisabledInBattleServer=1
 Nivel=30
 
 [NPC1472]
@@ -9985,6 +10045,7 @@ GiveEXPClan=2
 ORO=85
 MaxHIT=170
 MinHIT=100
+DisabledInBattleServer=1
 Nivel=30
 
 [NPC1473]
@@ -9999,6 +10060,7 @@ GiveEXPClan=2
 ORO=85
 MaxHIT=170
 MinHIT=100
+DisabledInBattleServer=1
 Nivel=30
 
 [NPC1474]
@@ -10198,6 +10260,7 @@ Body=291
 Head=109
 NpcType=0
 Comercia=1
+DisabledInBattleServer=1
 
 [NPC1550]
 Name=Malek <Herrero Oscuro>
@@ -10326,6 +10389,7 @@ Body=1311
 Head=519
 NpcType=0
 Comercia=1
+DisabledInBattleServer=1
 
 [NPC1600]
 Name=Krampus
@@ -55630,6 +55694,7 @@ Valor=150
 SkPociones=45
 FrascoAlq=1
 Mortero=1
+Esporas=3
 Texto=Unta tu arma equipada (o tus flechas, si usas arco) con Ácido durante 60s. Puede corroer la defensa del enemigo. 8 cargas.
 
 [OBJ9104]
@@ -55700,6 +55765,7 @@ SkPociones=100
 Hechizo=416
 FrascoAlq=2
 Mortero=1
+Esporas=9
 EarthEssence=1
 Texto=Destilado con una Esencia de Tierra pura. Unta tu arma o flechas con Ácido durante 90s. Puede corroer la defensa del enemigo. 12 cargas.
 
@@ -56735,6 +56801,7 @@ SkPociones=93
 Hechizo=420
 FrascoAlq=2
 Mortero=1
+Esporas=6
 Texto=Destilado con reactivos superiores. Unta tu arma o flechas con Ácido durante 75s. Puede corroer la defensa del enemigo. 10 cargas.
 
 [OBJ9178]
