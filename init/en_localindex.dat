@@ -28079,8 +28079,8 @@ Texto=Espada de los milagros
 Name=Espada Pirata
 GrhIndex=563
 Objtype=2
-MinHIT=6
-MaxHIT=8
+MinHIT=1
+MaxHIT=2
 Valor=1500
 Texto=Espada Pirata
 
