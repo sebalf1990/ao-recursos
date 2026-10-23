@@ -16553,13 +16553,13 @@ Cooldown=0
 
 [HECHIZO291]
 Nombre=Onda Mágica
-Desc=Deals 10 to 14 hit points to the target.
+Desc=Deals 5 to 10 hit points to the target.
 PalabrasMagicas=OHND MAGI
 HechizeroMsg=Casted Magic Wave on
 TargetMsg=has casted Magic Wave on you
 Nombre=Magic Wave
 MinSkill=0
-ManaRequerido=3
+ManaRequerido=8
 StaRequerido=6
 IconoIndex=35684
 
