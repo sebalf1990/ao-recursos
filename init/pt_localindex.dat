@@ -16446,12 +16446,12 @@ Cooldown=0
 
 [HECHIZO291]
 Nombre=Onda Mágica
-Desc=Causa de 10 a 14 puntos de daño a la víctima.
+Desc=Causa de 5 a 10 puntos de daño a la víctima.
 PalabrasMagicas=OHND MAGI
 HechizeroMsg=Has lanzado Onda Mágica sobre
 TargetMsg=lanzó Onda Mágica sobre vos.
 MinSkill=0
-ManaRequerido=3
+ManaRequerido=8
 StaRequerido=6
 IconoIndex=35684
 

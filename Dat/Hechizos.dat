@@ -3865,12 +3865,12 @@ IsBindable=0
 
 [HECHIZO291]
 Nombre=Onda Mágica
-Desc=Causa de 10 a 14 puntos de daño a la víctima.
+Desc=Causa de 5 a 10 puntos de daño a la víctima.
 PalabrasMagicas=OHND MAGI
 HechizeroMsg=Has lanzado Onda Mágica sobre
 TargetMsg=lanzó Onda Mágica sobre vos.
 en_name=Magic Wave
-en_Desc=Deals 10 to 14 hit points to the target.
+en_Desc=Deals 5 to 10 hit points to the target.
 PalabrasMagicas=OHND MAGI
 en_HechizeroMsg=Casted Magic Wave on
 en_TargetMsg=has casted Magic Wave on you
@@ -3880,12 +3880,12 @@ WAV=16
 FXgrh=15
 loops=0
 SubeHP=2
-MinHP=10
-MaxHP=14
+MinHP=5
+MaxHP=10
 MinSkill=0
-ManaRequerido=3
+ManaRequerido=8
 StaRequerido=6
-Target=2
+Target=3
 IconoIndex=35684
 ParticleViaje=186
 
