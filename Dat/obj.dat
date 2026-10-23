@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9206
+NumOBJs=9229
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -3650,53 +3650,17 @@ en_Name=Old Banderbill House Key 1
 
 '--------------> Casa número 2 de Banderbill <--------------
 
-[OBJ267]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=26
-Agarrable=1
-IndexAbierta=267
-IndexCerrada=268
-IndexCerradaLlave=269
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ268]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=26
-Agarrable=1
-IndexAbierta=267
-IndexCerrada=268
-IndexCerradaLlave=269
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ269]
-Name=Puerta cerrada con Llave casa 2 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=26
-Agarrable=1
-IndexAbierta=267
-IndexCerrada=268
-IndexCerradaLlave=269
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 2 of Old Banderbill
-ExtraStr=Esta honorable casa pertenece a
+[OBJ268] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Miastrix
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\11.png
+CollectibleCardIndex=11
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Miastrix
+pt_Name=Carta Miastrix
+fr_Name=Carta Miastrix
+it_Name=Carta Miastrix
 
 [OBJ270]
 Name=Llave casa vieja Banderbill Nro: 02
@@ -3878,53 +3842,17 @@ en_Name=Old Banderbill House Key 6
 
 '--------------> Casa número 7 de Banderbill <--------------
 
-[OBJ291]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=32
-Agarrable=1
-IndexAbierta=291
-IndexCerrada=292
-IndexCerradaLlave=293
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ292]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=32
-Agarrable=1
-IndexAbierta=291
-IndexCerrada=292
-IndexCerradaLlave=293
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ293]
-Name=Puerta cerrada con Llave casa 8 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=32
-Agarrable=1
-IndexAbierta=291
-IndexCerrada=292
-IndexCerradaLlave=293
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 8 of old banderbill
-ExtraStr=Esta honorable casa pertenece a
+[OBJ293] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Goruk
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\36.png
+CollectibleCardIndex=36
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Goruk
+pt_Name=Carta Goruk
+fr_Name=Carta Goruk
+it_Name=Carta Goruk
 
 [OBJ294]
 Name=Llave casa vieja Banderbill Nro: 08
@@ -4233,65 +4161,53 @@ en_texto=This honorable house belongs to
 en_Name=locked door house 12 of Old banderbill
 ExtraStr=Esta honorable casa pertenece a
 
-[OBJ331]
-Name=Llave casa vieja Banderbill Nro: 12
-ExtraStr=Llave de la casa 12 de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=39
-Valor=
-Texto=Llave de la casa 12 de la vieja Banderbill
-en_Name=Old Banderbill House Key 12
+[OBJ331] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Geot
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\53.png
+CollectibleCardIndex=53
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Geot
+pt_Name=Carta Geot
+fr_Name=Carta Geot
+it_Name=Carta Geot
 
-'--------------> Casa número 13 de Banderbill <--------------
+[OBJ332] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Pyrot
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\54.png
+CollectibleCardIndex=54
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Pyrot
+pt_Name=Carta Pyrot
+fr_Name=Carta Pyrot
+it_Name=Carta Pyrot
 
-[OBJ332]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=40
-Agarrable=1
-IndexAbierta=332
-IndexCerrada=333
-IndexCerradaLlave=334
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ333] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Hydrot
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\55.png
+CollectibleCardIndex=55
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hydrot
+pt_Name=Carta Hydrot
+fr_Name=Carta Hydrot
+it_Name=Carta Hydrot
 
-[OBJ333]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=40
-Agarrable=1
-IndexAbierta=332
-IndexCerrada=333
-IndexCerradaLlave=334
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ334]
-Name=Puerta cerrada con Llave casa 13 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=40
-Agarrable=1
-IndexAbierta=332
-IndexCerrada=333
-IndexCerradaLlave=334
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 13 of Old banderbill
-ExtraStr=Esta honorable casa pertenece a
+[OBJ334] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Eolot
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\56.png
+CollectibleCardIndex=56
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Eolot
+pt_Name=Carta Eolot
+fr_Name=Carta Eolot
+it_Name=Carta Eolot
 
 [OBJ335]
 Name=Llave casa vieja Banderbill Nro: 13
@@ -4353,17 +4269,17 @@ en_texto=This honorable house belongs to
 en_Name=locked door house 14 of Old banderbill
 ExtraStr=Esta honorable casa pertenece a
 
-[OBJ339]
-Name=Llave casa vieja Banderbill Nro: 14
-ExtraStr=Llave de la casa 14 de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=41
-Valor=
-Texto=Llave de la casa 14 de la vieja Banderbill
-en_Name=Old Banderbill House Key 14
-
-'--------------> Casa número 15 de Banderbill <--------------
+[OBJ339] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Golem de Hielo
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\61.png
+CollectibleCardIndex=61
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Golem de Hielo
+pt_Name=Carta Golem de Hielo
+fr_Name=Carta Golem de Hielo
+it_Name=Carta Golem de Hielo
 
 [OBJ340]
 Name=Puerta abierta
@@ -6458,39 +6374,15 @@ peso=500
 Texto=Armadura Bruñida
 en_Name=Burnished armor (E/G)
 
-[OBJ503]
-Name=Trampa Visual (M)
-GrhIndex=5279
-RopajeHumano=1095
-RopajeElfo=1095
-RopajeElfoOscuro=2541
-RopajeEnano=2509
-RopajeOrco=2525
-RopajeGnomo=2509
-RopajeHumana=1095
-RopajeElfa=1095
-RopajeElfaOscura=2541
-RopajeEnana=2509
-RopajeOrca=2525
-RopajeGnoma=2509
-ObjType=3
-MAXDEF=25
-MINDEF=20
-Valor=10000
-Mujer=1
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-MinELV=1
-Crucial=1
-peso=200
-Texto=Trampa Visual (M)
-en_Name=Visual Trap (M)
+[OBJ503] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Pergamino del Guardian
+GrhIndex=52200
+ObjType=51
+Valor=0
+en_Name=Guardian Scroll
+pt_Name=Pergaminho do Guardião
+fr_Name=Parchemin du Gardien
+it_Name=Pergamena del Guardiano
 
 [OBJ508]
 Name=Ropa Estuaria (M)
@@ -7151,29 +7043,17 @@ subastable=1
 Texto=Daga Ígnea
 WeaponType=2
 
-[OBJ562]
-Name=Vestimentas de Bajo (Newbie)
-GrhIndex=59361
-RopajeHumano=16
-RopajeElfo=16
-RopajeElfoOscuro=1546
-RopajeEnano=3105
-RopajeOrco=2560
-RopajeGnomo=3105
-RopajeHumana=2686
-RopajeElfa=2686
-RopajeElfaOscura=2734
-RopajeEnana=2702
-RopajeOrca=2718
-RopajeGnoma=2702
-ObjType=3
-MAXDEF=0
-MINDEF=0
-Valor=0
-newbie=1
-Texto=Vestimentas de Bajo (Newbie)
-Instransferible=1
-en_Name=Vestment (E/G) (newbie)
+[OBJ562] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Gorath
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\85.png
+CollectibleCardIndex=85
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Gorath
+pt_Name=Carta Gorath
+fr_Name=Carta Gorath
+it_Name=Carta Gorath
 
 [OBJ563]
 Name=Vestimentas de Baja (Newbie)
@@ -7191,8 +7071,17 @@ Texto=Vestimentas de Baja (Newbie)
 Instransferible=1
 en_Name=Vestment (E/G) (newbie)
 
-[OBJ565]
-GRHINDEX=0
+[OBJ565] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Pixie de Hielo
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\88.png
+CollectibleCardIndex=88
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Pixie de Hielo
+pt_Name=Carta Pixie de Hielo
+fr_Name=Carta Pixie de Hielo
+it_Name=Carta Pixie de Hielo
 
 [OBJ571]
 CP1=PIRATA
@@ -9976,53 +9865,17 @@ en_texto=This honorable house belongs to
 en_Name=locked door house 5 of illiandor
 ExtraStr=Esta honorable casa pertenece a
 
-[OBJ842]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-Clave=106
-Agarrable=1
-IndexAbierta=842
-IndexCerrada=843
-IndexCerradaLlave=844
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ843]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-Clave=106
-Agarrable=1
-IndexAbierta=842
-IndexCerrada=843
-IndexCerradaLlave=844
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ844]
-Name=Puerta cerrada con llave Casa 6 de illiandor
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-Clave=106
-Agarrable=1
-IndexAbierta=842
-IndexCerrada=843
-IndexCerradaLlave=844
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 6 of Lilliandor
-ExtraStr=Esta honorable casa pertenece a
+[OBJ844] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Mantis de Fuego
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\158.png
+CollectibleCardIndex=158
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Mantis de Fuego
+pt_Name=Carta Mantis de Fuego
+fr_Name=Carta Mantis de Fuego
+it_Name=Carta Mantis de Fuego
 
 [OBJ846]
 Name=Puerta abierta
@@ -10581,113 +10434,53 @@ en_texto=This honorable house belongs to
 en_Name=locked door house 2 of Tiama
 ExtraStr=Esta honorable casa pertenece a
 
-[OBJ920]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-clave=112
-Agarrable=1
-IndexAbierta=920
-IndexCerrada=921
-IndexCerradaLlave=922
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ920] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Minotauro Barbaro
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\212.png
+CollectibleCardIndex=212
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Minotauro Barbaro
+pt_Name=Carta Minotauro Barbaro
+fr_Name=Carta Minotauro Barbaro
+it_Name=Carta Minotauro Barbaro
 
-[OBJ921]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-clave=112
-Agarrable=1
-IndexAbierta=920
-IndexCerrada=921
-IndexCerradaLlave=922
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
+[OBJ921] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Minotauro Guerrero
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\213.png
+CollectibleCardIndex=213
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Minotauro Guerrero
+pt_Name=Carta Minotauro Guerrero
+fr_Name=Carta Minotauro Guerrero
+it_Name=Carta Minotauro Guerrero
 
-[OBJ922]
-Name=Puerta cerrada con llave Casa 3 de Tiama
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-clave=112
-Agarrable=1
-IndexAbierta=920
-IndexCerrada=921
-IndexCerradaLlave=922
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 3 of Tiama
-ExtraStr=Esta honorable casa pertenece a
+[OBJ923] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Minotauro
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\215.png
+CollectibleCardIndex=215
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Minotauro
+pt_Name=Carta Minotauro
+fr_Name=Carta Minotauro
+it_Name=Carta Minotauro
 
-[OBJ923]
-Name=Llave casa Tiama Nro: 04
-ExtraStr=Llave de la casa 4 de Tiama
-GrhIndex=509
-ObjType=9
-Clave=113
-valor=
-Texto=Llave de la casa 4 de Tiama
-en_Name=Tiama House Key 4
-
-'--------------> Casa número 4 de Tiama <--------------
-
-[OBJ924]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-clave=113
-Agarrable=1
-IndexAbierta=924
-IndexCerrada=925
-IndexCerradaLlave=926
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ925]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-clave=113
-Agarrable=1
-IndexAbierta=924
-IndexCerrada=925
-IndexCerradaLlave=926
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ926]
-Name=Puerta cerrada con llave Casa 4 de Tiama
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-clave=113
-Agarrable=1
-IndexAbierta=924
-IndexCerrada=925
-IndexCerradaLlave=926
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 4 of Tiama
-ExtraStr=Esta honorable casa pertenece a
+[OBJ924] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Umbrax
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\216.png
+CollectibleCardIndex=216
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Umbrax
+pt_Name=Carta Umbrax
+fr_Name=Carta Umbrax
+it_Name=Carta Umbrax
 
 [OBJ928]
 Name=Puerta abierta
@@ -61864,6 +61657,42 @@ NoSeCae=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Casco de Dragón Negro
 
+[OBJ6489] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Leviatan
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\8.png
+CollectibleCardIndex=8
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Leviatan
+pt_Name=Carta Leviatan
+fr_Name=Carta Leviatan
+it_Name=Carta Leviatan
+
+[OBJ6719] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Kingion
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\238.png
+CollectibleCardIndex=238
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Kingion
+pt_Name=Carta Kingion
+fr_Name=Carta Kingion
+it_Name=Carta Kingion
+
+[OBJ6747] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Chasdo
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\266.png
+CollectibleCardIndex=266
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Chasdo
+pt_Name=Carta Chasdo
+fr_Name=Carta Chasdo
+it_Name=Carta Chasdo
+
 [OBJ9000]
 Name=Manual de Carpinteria
 GrhIndex=49210
@@ -63947,8 +63776,15 @@ CP3=LADRON
 CP4=MAGO
 CP5=PIRATA
 
-[OBJ509] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ509] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Mensaje embotellado
+GrhIndex=28737
+ObjType=51
+Valor=0
+en_Name=Bottled Message
+pt_Name=Mensagem na Garrafa
+fr_Name=Message en Bouteille
+it_Name=Messaggio nella Bottiglia
 
 [OBJ511] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -64142,20 +63978,56 @@ CP4=BARDO
 CP5=DRUIDA
 CP6=MAGO
 
-[OBJ561] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ561] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Glazrath
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\84.png
+CollectibleCardIndex=84
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Glazrath
+pt_Name=Carta Glazrath
+fr_Name=Carta Glazrath
+it_Name=Carta Glazrath
 
 [OBJ564] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
 
-[OBJ566] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ566] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Pixie de Tierra
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\89.png
+CollectibleCardIndex=89
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Pixie de Tierra
+pt_Name=Carta Pixie de Tierra
+fr_Name=Carta Pixie de Tierra
+it_Name=Carta Pixie de Tierra
 
-[OBJ567] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ567] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Pixie de Fuego
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\90.png
+CollectibleCardIndex=90
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Pixie de Fuego
+pt_Name=Carta Pixie de Fuego
+fr_Name=Carta Pixie de Fuego
+it_Name=Carta Pixie de Fuego
 
-[OBJ568] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ568] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Pixie de Viento
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\91.png
+CollectibleCardIndex=91
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Pixie de Viento
+pt_Name=Carta Pixie de Viento
+fr_Name=Carta Pixie de Viento
+it_Name=Carta Pixie de Viento
 
 [OBJ569] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -64306,11 +64178,29 @@ GrhIndex=24694
 ObjType=44
 Valor=0
 
-[OBJ734] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ734] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Zevkar
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\116.png
+CollectibleCardIndex=116
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Zevkar
+pt_Name=Carta Zevkar
+fr_Name=Carta Zevkar
+it_Name=Carta Zevkar
 
-[OBJ904] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ904] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Typhon
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\197.png
+CollectibleCardIndex=197
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Typhon
+pt_Name=Carta Typhon
+fr_Name=Carta Typhon
+it_Name=Carta Typhon
 
 [OBJ905] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -64318,8 +64208,17 @@ GrhIndex=0
 [OBJ939] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
 
-[OBJ941] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ941] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Ent
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\231.png
+CollectibleCardIndex=231
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ent
+pt_Name=Carta Ent
+fr_Name=Carta Ent
+it_Name=Carta Ent
 
 [OBJ943] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -64327,17 +64226,44 @@ GrhIndex=0
 [OBJ944] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
 
-[OBJ945] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ945] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Ignarok
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\235.png
+CollectibleCardIndex=235
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ignarok
+pt_Name=Carta Ignarok
+fr_Name=Carta Ignarok
+it_Name=Carta Ignarok
 
 [OBJ946] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
 
-[OBJ947] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ947] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Scorvex
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\237.png
+CollectibleCardIndex=237
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Scorvex
+pt_Name=Carta Scorvex
+fr_Name=Carta Scorvex
+it_Name=Carta Scorvex
 
-[OBJ949] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ949] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Flamora
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\239.png
+CollectibleCardIndex=239
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Flamora
+pt_Name=Carta Flamora
+fr_Name=Carta Flamora
+it_Name=Carta Flamora
 
 [OBJ951] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -64345,8 +64271,17 @@ GrhIndex=0
 [OBJ953] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
 
-[OBJ954] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ954] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Carta Cryon
+GrhIndex=52190
+CollectibleCardImgPathing=Cartas\244.png
+CollectibleCardIndex=244
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Cryon
+pt_Name=Carta Cryon
+fr_Name=Carta Cryon
+it_Name=Carta Cryon
 
 [OBJ955] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -67991,6 +67926,2183 @@ Texto=Enciende los mecanismos de defensa del Exoesqueleto Enano proporcionando u
 GrhIndex=609
 ObjType=24
 Valor=0
+
+[OBJ5200] 'Plan 23.002: arma tier 1 con elemento 1, base OBJ479
+CP1=PIRATA
+CP2=LADRON
+CP3=DRUIDA
+CP4=MAGO
+Name=Arco
+BOWCATEGORY=1
+GrhIndex=17525
+ObjType=2
+MinELV=1
+MinHit=1
+MaxHit=3
+Valor=600
+Anim=7
+Proyectil=1
+Municiones=1
+Crucial=1
+Texto=Daño 1/3
+DosManos=0
+WeaponType=3
+ElementalTags=1
+en_Name=Bow
+en_texto=Damage 1/3
+pt_Name=Arco
+pt_texto=Dano 1/3
+fr_Name=Arc
+fr_texto=Dommages 1/3
+it_Name=Arco
+it_texto=Danno 1/3
+
+[OBJ5201] 'Plan 23.002: arma tier 1 con elemento 1, base OBJ1867
+CP1=CLERIGO
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
+Name=Arco Compuesto
+BOWCATEGORY=3
+GrhIndex=38735
+Anim=118
+ObjType=2
+MinHit=4
+MaxHit=8
+MinELV=25
+Valor=4800
+Proyectil=1
+Municiones=1
+Crucial=1
+Texto=Daño 4/8
+WeaponType=3
+ElementalTags=1
+en_Name=Compund Bow
+en_texto=Damage 4/8
+pt_Name=Arco composto
+pt_texto=Dano 4/8
+fr_Name=Arc composé
+fr_texto=Dommages 4/8
+it_Name=Arco composto
+it_texto=Danno 4/8
+
+[OBJ5202] 'Plan 23.002: arma tier 1 con elemento 1, base OBJ15
+CP1=PIRATA
+CP2=LADRON
+Name=Daga
+GrhIndex=5603
+ObjType=2
+Subtipo=11
+MinHit=1
+MaxHit=2
+Valor=60
+Anim=8
+Crucial=1
+apuñala=1
+Texto=Daño 1/2
+WeaponType=2
+ElementalTags=1
+en_Name=Dagger
+en_texto=Damage 1/2
+pt_Name=Dagger
+pt_texto=Dano 1/2
+fr_Name=Poignard
+fr_texto=Dommages 1/2
+it_Name=Dagger
+it_texto=Danno 1/2
+
+[OBJ5203] 'Plan 23.002: arma tier 1 con elemento 1, base OBJ165
+CP1=BANDIDO
+CP2=PIRATA
+CP3=LADRON
+CP4=MAGO
+Name=Daga +1
+MinHitToNpc=2
+MaxHitToNpc=4
+GrhIndex=51996
+Anim=8
+ObjType=2
+Subtipo=11
+MinHit=1
+MaxHit=3
+Valor=1800
+APUÑALA=1
+peso=10
+Crucial=1
+MinELV=1
+Texto=Daño 1/3
+WeaponType=2
+ElementalTags=1
+en_Name=Dagger +1
+en_texto=Damage 1/3
+pt_Name=Dagger +1
+pt_texto=Dano 1/3
+fr_Name=Poignard +1
+fr_texto=Dommages 1/3
+it_Name=Dagger +1
+it_texto=Danno 1/3
+
+[OBJ5204] 'Plan 23.002: arma tier 1 con elemento 1, base OBJ1855
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
+Name=Nudillo
+Texto=Daño 3/5
+GrhIndex=44577
+ObjType=2
+Valor=1800
+MaxHit=5
+MinHit=3
+Anim=152
+Crucial=1
+MinELV=1
+SubTipo=11
+WeaponType=8
+ElementalTags=1
+en_Name=Knuckle
+en_texto=Damage 3/5
+pt_Name=Junta
+pt_texto=Dano 3/5
+fr_Name=Articulation
+fr_texto=Dommages 3/5
+it_Name=Nocca
+it_texto=Danni 3/5
+
+[OBJ5205] 'Plan 23.002: arma tier 1 con elemento 1, base OBJ1856
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
+Name=Nudillo de Bronce
+SubTipo=11
+GrhIndex=25678
+Anim=142
+ObjType=2
+WeaponType=8
+MaxHit=7
+MinHit=5
+MinELV=1
+Valor=3000
+Crucial=1
+Texto=Daño 5/7
+MaxHitToNpc=8
+MinHitToNpc=6
+ElementalTags=1
+en_Name=Bronze Knuckle
+en_texto=Damage 5/7
+pt_Name=Junta de Bronze
+pt_texto=Dano 5/7
+fr_Name=Coup de poing américain
+fr_texto=Dommages 5/7
+it_Name=Tirapugni di bronzo
+it_texto=Danni 5/7
+
+[OBJ5206] 'Plan 23.002: arma tier 1 con elemento 1, base OBJ1792
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=MAGO
+Name=Sable
+MinHitToNpc=6
+MaxHitToNpc=9
+GrhIndex=563
+Anim=43
+ObjType=2
+MinHit=5
+MaxHit=8
+MinELV=1
+Subtipo=11
+Valor=1200
+Crucial=1
+Texto=Daño 5/8
+WeaponType=1
+ElementalTags=1
+en_Name=Saber
+en_texto=Damage 5/8
+pt_Name=Sabre
+pt_texto=Dano 5/8
+fr_Name=Sabre
+fr_texto=Dégâts 5/8
+it_Name=Sciabola
+it_texto=Danno 5/8
+
+[OBJ5207] 'Plan 23.002: arma tier 1 con elemento 1, base OBJ401
+CP1=CAZADOR
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
+GrhIndex=44037
+MaxHit=9
+MinHit=6
+Name=Hacha de Piedra
+ObjType=2
+Subtipo=11
+Texto=Daño 6/9
+Valor=2400
+MaxHitToNpc=10
+MinHitToNpc=7
+Anim=132
+Crucial=1
+MinELV=1
+WeaponType=5
+ElementalTags=1
+en_Name=Stone Axe
+en_texto=Damage 6/9
+pt_Name=Machado de pedra
+pt_texto=Dano 6/9
+fr_Name=Hache de pierre
+fr_texto=Dommages 6/9
+it_Name=Ascia di pietra
+it_texto=Danno 6/9
+
+[OBJ5208] 'Plan 23.002: arma tier 1 con elemento 1, base OBJ1817
+CP1=CAZADOR
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
+GrhIndex=37898
+MaxHit=11
+MinHit=7
+Name=Alfanje
+ObjType=2
+Subtipo=11
+Texto=Daño 7/11
+Valor=2700
+MaxHitToNpc=12
+MinHitToNpc=8
+Anim=116
+Crucial=1
+MinELV=1
+WeaponType=1
+ElementalTags=1
+en_Name=Cutlass
+en_texto=Damage 7/11
+pt_Name=Alfanje
+pt_texto=Dano 7/11
+fr_Name=Alfanje
+fr_texto=Dommages 7/11
+it_Name=Alfanje
+it_texto=Danno 7/11
+
+[OBJ5209] 'Plan 23.002: arma tier 1 con elemento 1, base OBJ1828
+CP1=CAZADOR
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
+Name=Vólcora
+Texto=Daño 8/12
+GrhIndex=37844
+ObjType=2
+Valor=3000
+MaxHit=12
+MinHit=8
+MaxHitToNpc=13
+Anim=114
+Crucial=0
+MinELV=1
+WeaponType=1
+ElementalTags=1
+en_Name=Vólcora
+en_texto=Damage 8/12
+pt_Name=Vólcora
+pt_texto=Dano 8/12
+fr_Name=Vólcora
+fr_texto=Dommages 8/12
+it_Name=Vólcora
+it_texto=Danno 8/12
+
+[OBJ5210] 'Plan 23.002: arma tier 1 con elemento 1, base OBJ1820
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
+Name=Maza de Guerra
+Texto=Arma de dos manos.
+GrhIndex=6959
+ObjType=2
+Subtipo=11
+Valor=7200
+MaxHit=15
+MinHit=11
+Anim=45
+Crucial=1
+DOSMANOS=1
+MinELV=25
+WeaponType=1
+ElementalTags=1
+en_Name=War Mace
+en_texto=Two-handed weapon.
+pt_Name=War Mace
+pt_texto=Duas mãos.
+fr_Name=Masse de guerre
+fr_texto=Deux mains.
+it_Name=Mazza di guerra
+it_texto=Due mani.
+
+[OBJ5211] 'Plan 23.002: arma tier 1 con elemento 1, base OBJ1818
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
+Name=Mandoble
+Texto=Arma de dos manos, no permite usar escudo.
+GrhIndex=25196
+ObjType=2
+Subtipo=11
+Valor=3300
+MaxHitToNpc=14
+MaxHit=13
+MinHitToNpc=11
+MinHit=10
+Anim=186
+Crucial=1
+DOSMANOS=1
+MinELV=1
+WeaponType=1
+ElementalTags=1
+en_Name=Greasword
+en_texto=Two-handed weapon, shield not allowed.
+pt_Name=Mandoble
+pt_texto=Duas mãos, não permite que você use um escudo.
+fr_Name=Mandoble
+fr_texto=Deux mains, cela ne vous permet pas d'utiliser un bouclier.
+it_Name=Mandobile
+it_texto=Due mani, non ti consente di usare uno scudo.
+
+[OBJ5212] 'Plan 23.002: arma tier 1 con elemento 1, base OBJ1800
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=DRUIDA
+GrhIndex=1062
+MaxHit=1
+MinHit=1
+Name=Báculo de Madera
+ObjType=2
+Texto=Aumenta tu Daño Mágico un 2%
+Valor=1200
+Anim=16
+Crucial=1
+MAGICDAMAGEBONUS=2
+MinELV=1
+WeaponType=4
+MagicPower=1
+ElementalTags=1
+en_Name=Wooden Staff
+en_texto=Increase your Magic Damage by 2%
+pt_Name=Pessoal de madeira
+pt_texto=Aumente seu dano mágico em 2%
+fr_Name=Personnel en bois
+fr_texto=Augmentez vos dégâts magiques de 2%
+it_Name=Personale di legno
+it_texto=Aumenta il tuo danno magico del 2%
+
+[OBJ5213] 'Plan 23.002: arma tier 1 con elemento 1, base OBJ3985
+Name=Flauta
+GrhIndex=538
+ObjType=30
+Valor=600
+MinELV=1
+subastable=1
+MagicDamageBonus=1
+MagicPenetration=0
+Texto=Aumenta tu Daño Mágico un 1%
+CP1=BANDIDO
+CP2=LADRON
+CP3=PIRATA
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PALADIN
+CP8=BARDO
+CP9=ASESINO
+CP10=GUERRERO
+CP11=CLERIGO
+CP12=MAGO
+Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
+MagicPower=1
+ElementalTags=1
+en_Name=Flute
+en_texto=Increases your Magic Damage by 1%
+pt_Name=Flauta
+pt_texto=Aumente seu dano mágico em 1%
+fr_Name=Flûte
+fr_texto=Augmentez vos dégâts magiques de 1%
+it_Name=Flauto
+it_texto=Aumenta il tuo danno magico del 1%
+
+[OBJ5214] 'Plan 23.002: arma tier 1 con elemento 1, base OBJ3986
+Name=Laúd
+GrhIndex=539
+ObjType=30
+Valor=600
+MinELV=1
+subastable=1
+MagicDamageBonus=1
+MagicPenetration=0
+Texto=Aumenta tu Daño Mágico un 1%
+CP1=BANDIDO
+CP2=LADRON
+CP3=PIRATA
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PALADIN
+CP8=DRUIDA
+CP9=ASESINO
+CP10=GUERRERO
+CP11=CLERIGO
+CP12=MAGO
+Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
+MagicPower=1
+ElementalTags=1
+en_Name=Lute
+en_texto=Increases your Magic Damage by 1%
+pt_Name=Alaúde
+pt_texto=Aumente seu dano mágico em 1%
+fr_Name=Luth
+fr_texto=Augmentez vos dégâts magiques de 1%
+it_Name=Liuto
+it_texto=Aumenta il tuo danno magico dell'1%
+
+[OBJ5215] 'Plan 23.002: arma tier 1 con elemento 2, base OBJ479
+CP1=PIRATA
+CP2=LADRON
+CP3=DRUIDA
+CP4=MAGO
+Name=Arco
+BOWCATEGORY=1
+GrhIndex=17525
+ObjType=2
+MinELV=1
+MinHit=1
+MaxHit=3
+Valor=600
+Anim=7
+Proyectil=1
+Municiones=1
+Crucial=1
+Texto=Daño 1/3
+DosManos=0
+WeaponType=3
+ElementalTags=2
+en_Name=Bow
+en_texto=Damage 1/3
+pt_Name=Arco
+pt_texto=Dano 1/3
+fr_Name=Arc
+fr_texto=Dommages 1/3
+it_Name=Arco
+it_texto=Danno 1/3
+
+[OBJ5216] 'Plan 23.002: arma tier 1 con elemento 2, base OBJ1867
+CP1=CLERIGO
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
+Name=Arco Compuesto
+BOWCATEGORY=3
+GrhIndex=38735
+Anim=118
+ObjType=2
+MinHit=4
+MaxHit=8
+MinELV=25
+Valor=4800
+Proyectil=1
+Municiones=1
+Crucial=1
+Texto=Daño 4/8
+WeaponType=3
+ElementalTags=2
+en_Name=Compund Bow
+en_texto=Damage 4/8
+pt_Name=Arco composto
+pt_texto=Dano 4/8
+fr_Name=Arc composé
+fr_texto=Dommages 4/8
+it_Name=Arco composto
+it_texto=Danno 4/8
+
+[OBJ5217] 'Plan 23.002: arma tier 1 con elemento 2, base OBJ15
+CP1=PIRATA
+CP2=LADRON
+Name=Daga
+GrhIndex=5603
+ObjType=2
+Subtipo=11
+MinHit=1
+MaxHit=2
+Valor=60
+Anim=8
+Crucial=1
+apuñala=1
+Texto=Daño 1/2
+WeaponType=2
+ElementalTags=2
+en_Name=Dagger
+en_texto=Damage 1/2
+pt_Name=Dagger
+pt_texto=Dano 1/2
+fr_Name=Poignard
+fr_texto=Dommages 1/2
+it_Name=Dagger
+it_texto=Danno 1/2
+
+[OBJ5218] 'Plan 23.002: arma tier 1 con elemento 2, base OBJ165
+CP1=BANDIDO
+CP2=PIRATA
+CP3=LADRON
+CP4=MAGO
+Name=Daga +1
+MinHitToNpc=2
+MaxHitToNpc=4
+GrhIndex=51996
+Anim=8
+ObjType=2
+Subtipo=11
+MinHit=1
+MaxHit=3
+Valor=1800
+APUÑALA=1
+peso=10
+Crucial=1
+MinELV=1
+Texto=Daño 1/3
+WeaponType=2
+ElementalTags=2
+en_Name=Dagger +1
+en_texto=Damage 1/3
+pt_Name=Dagger +1
+pt_texto=Dano 1/3
+fr_Name=Poignard +1
+fr_texto=Dommages 1/3
+it_Name=Dagger +1
+it_texto=Danno 1/3
+
+[OBJ5219] 'Plan 23.002: arma tier 1 con elemento 2, base OBJ1855
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
+Name=Nudillo
+Texto=Daño 3/5
+GrhIndex=44577
+ObjType=2
+Valor=1800
+MaxHit=5
+MinHit=3
+Anim=152
+Crucial=1
+MinELV=1
+SubTipo=11
+WeaponType=8
+ElementalTags=2
+en_Name=Knuckle
+en_texto=Damage 3/5
+pt_Name=Junta
+pt_texto=Dano 3/5
+fr_Name=Articulation
+fr_texto=Dommages 3/5
+it_Name=Nocca
+it_texto=Danni 3/5
+
+[OBJ5220] 'Plan 23.002: arma tier 1 con elemento 2, base OBJ1856
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
+Name=Nudillo de Bronce
+SubTipo=11
+GrhIndex=25678
+Anim=142
+ObjType=2
+WeaponType=8
+MaxHit=7
+MinHit=5
+MinELV=1
+Valor=3000
+Crucial=1
+Texto=Daño 5/7
+MaxHitToNpc=8
+MinHitToNpc=6
+ElementalTags=2
+en_Name=Bronze Knuckle
+en_texto=Damage 5/7
+pt_Name=Junta de Bronze
+pt_texto=Dano 5/7
+fr_Name=Coup de poing américain
+fr_texto=Dommages 5/7
+it_Name=Tirapugni di bronzo
+it_texto=Danni 5/7
+
+[OBJ5221] 'Plan 23.002: arma tier 1 con elemento 2, base OBJ1792
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=MAGO
+Name=Sable
+MinHitToNpc=6
+MaxHitToNpc=9
+GrhIndex=563
+Anim=43
+ObjType=2
+MinHit=5
+MaxHit=8
+MinELV=1
+Subtipo=11
+Valor=1200
+Crucial=1
+Texto=Daño 5/8
+WeaponType=1
+ElementalTags=2
+en_Name=Saber
+en_texto=Damage 5/8
+pt_Name=Sabre
+pt_texto=Dano 5/8
+fr_Name=Sabre
+fr_texto=Dégâts 5/8
+it_Name=Sciabola
+it_texto=Danno 5/8
+
+[OBJ5222] 'Plan 23.002: arma tier 1 con elemento 2, base OBJ401
+CP1=CAZADOR
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
+GrhIndex=44037
+MaxHit=9
+MinHit=6
+Name=Hacha de Piedra
+ObjType=2
+Subtipo=11
+Texto=Daño 6/9
+Valor=2400
+MaxHitToNpc=10
+MinHitToNpc=7
+Anim=132
+Crucial=1
+MinELV=1
+WeaponType=5
+ElementalTags=2
+en_Name=Stone Axe
+en_texto=Damage 6/9
+pt_Name=Machado de pedra
+pt_texto=Dano 6/9
+fr_Name=Hache de pierre
+fr_texto=Dommages 6/9
+it_Name=Ascia di pietra
+it_texto=Danno 6/9
+
+[OBJ5223] 'Plan 23.002: arma tier 1 con elemento 2, base OBJ1817
+CP1=CAZADOR
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
+GrhIndex=37898
+MaxHit=11
+MinHit=7
+Name=Alfanje
+ObjType=2
+Subtipo=11
+Texto=Daño 7/11
+Valor=2700
+MaxHitToNpc=12
+MinHitToNpc=8
+Anim=116
+Crucial=1
+MinELV=1
+WeaponType=1
+ElementalTags=2
+en_Name=Cutlass
+en_texto=Damage 7/11
+pt_Name=Alfanje
+pt_texto=Dano 7/11
+fr_Name=Alfanje
+fr_texto=Dommages 7/11
+it_Name=Alfanje
+it_texto=Danno 7/11
+
+[OBJ5224] 'Plan 23.002: arma tier 1 con elemento 2, base OBJ1828
+CP1=CAZADOR
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
+Name=Vólcora
+Texto=Daño 8/12
+GrhIndex=37844
+ObjType=2
+Valor=3000
+MaxHit=12
+MinHit=8
+MaxHitToNpc=13
+Anim=114
+Crucial=0
+MinELV=1
+WeaponType=1
+ElementalTags=2
+en_Name=Vólcora
+en_texto=Damage 8/12
+pt_Name=Vólcora
+pt_texto=Dano 8/12
+fr_Name=Vólcora
+fr_texto=Dommages 8/12
+it_Name=Vólcora
+it_texto=Danno 8/12
+
+[OBJ5225] 'Plan 23.002: arma tier 1 con elemento 2, base OBJ1820
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
+Name=Maza de Guerra
+Texto=Arma de dos manos.
+GrhIndex=6959
+ObjType=2
+Subtipo=11
+Valor=7200
+MaxHit=15
+MinHit=11
+Anim=45
+Crucial=1
+DOSMANOS=1
+MinELV=25
+WeaponType=1
+ElementalTags=2
+en_Name=War Mace
+en_texto=Two-handed weapon.
+pt_Name=War Mace
+pt_texto=Duas mãos.
+fr_Name=Masse de guerre
+fr_texto=Deux mains.
+it_Name=Mazza di guerra
+it_texto=Due mani.
+
+[OBJ5226] 'Plan 23.002: arma tier 1 con elemento 2, base OBJ1818
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
+Name=Mandoble
+Texto=Arma de dos manos, no permite usar escudo.
+GrhIndex=25196
+ObjType=2
+Subtipo=11
+Valor=3300
+MaxHitToNpc=14
+MaxHit=13
+MinHitToNpc=11
+MinHit=10
+Anim=186
+Crucial=1
+DOSMANOS=1
+MinELV=1
+WeaponType=1
+ElementalTags=2
+en_Name=Greasword
+en_texto=Two-handed weapon, shield not allowed.
+pt_Name=Mandoble
+pt_texto=Duas mãos, não permite que você use um escudo.
+fr_Name=Mandoble
+fr_texto=Deux mains, cela ne vous permet pas d'utiliser un bouclier.
+it_Name=Mandobile
+it_texto=Due mani, non ti consente di usare uno scudo.
+
+[OBJ5227] 'Plan 23.002: arma tier 1 con elemento 2, base OBJ1800
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=DRUIDA
+GrhIndex=1062
+MaxHit=1
+MinHit=1
+Name=Báculo de Madera
+ObjType=2
+Texto=Aumenta tu Daño Mágico un 2%
+Valor=1200
+Anim=16
+Crucial=1
+MAGICDAMAGEBONUS=2
+MinELV=1
+WeaponType=4
+MagicPower=1
+ElementalTags=2
+en_Name=Wooden Staff
+en_texto=Increase your Magic Damage by 2%
+pt_Name=Pessoal de madeira
+pt_texto=Aumente seu dano mágico em 2%
+fr_Name=Personnel en bois
+fr_texto=Augmentez vos dégâts magiques de 2%
+it_Name=Personale di legno
+it_texto=Aumenta il tuo danno magico del 2%
+
+[OBJ5228] 'Plan 23.002: arma tier 1 con elemento 2, base OBJ3985
+Name=Flauta
+GrhIndex=538
+ObjType=30
+Valor=600
+MinELV=1
+subastable=1
+MagicDamageBonus=1
+MagicPenetration=0
+Texto=Aumenta tu Daño Mágico un 1%
+CP1=BANDIDO
+CP2=LADRON
+CP3=PIRATA
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PALADIN
+CP8=BARDO
+CP9=ASESINO
+CP10=GUERRERO
+CP11=CLERIGO
+CP12=MAGO
+Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
+MagicPower=1
+ElementalTags=2
+en_Name=Flute
+en_texto=Increases your Magic Damage by 1%
+pt_Name=Flauta
+pt_texto=Aumente seu dano mágico em 1%
+fr_Name=Flûte
+fr_texto=Augmentez vos dégâts magiques de 1%
+it_Name=Flauto
+it_texto=Aumenta il tuo danno magico del 1%
+
+[OBJ5229] 'Plan 23.002: arma tier 1 con elemento 2, base OBJ3986
+Name=Laúd
+GrhIndex=539
+ObjType=30
+Valor=600
+MinELV=1
+subastable=1
+MagicDamageBonus=1
+MagicPenetration=0
+Texto=Aumenta tu Daño Mágico un 1%
+CP1=BANDIDO
+CP2=LADRON
+CP3=PIRATA
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PALADIN
+CP8=DRUIDA
+CP9=ASESINO
+CP10=GUERRERO
+CP11=CLERIGO
+CP12=MAGO
+Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
+MagicPower=1
+ElementalTags=2
+en_Name=Lute
+en_texto=Increases your Magic Damage by 1%
+pt_Name=Alaúde
+pt_texto=Aumente seu dano mágico em 1%
+fr_Name=Luth
+fr_texto=Augmentez vos dégâts magiques de 1%
+it_Name=Liuto
+it_texto=Aumenta il tuo danno magico dell'1%
+
+[OBJ5230] 'Plan 23.002: arma tier 1 con elemento 4, base OBJ479
+CP1=PIRATA
+CP2=LADRON
+CP3=DRUIDA
+CP4=MAGO
+Name=Arco
+BOWCATEGORY=1
+GrhIndex=17525
+ObjType=2
+MinELV=1
+MinHit=1
+MaxHit=3
+Valor=600
+Anim=7
+Proyectil=1
+Municiones=1
+Crucial=1
+Texto=Daño 1/3
+DosManos=0
+WeaponType=3
+ElementalTags=4
+en_Name=Bow
+en_texto=Damage 1/3
+pt_Name=Arco
+pt_texto=Dano 1/3
+fr_Name=Arc
+fr_texto=Dommages 1/3
+it_Name=Arco
+it_texto=Danno 1/3
+
+[OBJ5231] 'Plan 23.002: arma tier 1 con elemento 4, base OBJ1867
+CP1=CLERIGO
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
+Name=Arco Compuesto
+BOWCATEGORY=3
+GrhIndex=38735
+Anim=118
+ObjType=2
+MinHit=4
+MaxHit=8
+MinELV=25
+Valor=4800
+Proyectil=1
+Municiones=1
+Crucial=1
+Texto=Daño 4/8
+WeaponType=3
+ElementalTags=4
+en_Name=Compund Bow
+en_texto=Damage 4/8
+pt_Name=Arco composto
+pt_texto=Dano 4/8
+fr_Name=Arc composé
+fr_texto=Dommages 4/8
+it_Name=Arco composto
+it_texto=Danno 4/8
+
+[OBJ5232] 'Plan 23.002: arma tier 1 con elemento 4, base OBJ15
+CP1=PIRATA
+CP2=LADRON
+Name=Daga
+GrhIndex=5603
+ObjType=2
+Subtipo=11
+MinHit=1
+MaxHit=2
+Valor=60
+Anim=8
+Crucial=1
+apuñala=1
+Texto=Daño 1/2
+WeaponType=2
+ElementalTags=4
+en_Name=Dagger
+en_texto=Damage 1/2
+pt_Name=Dagger
+pt_texto=Dano 1/2
+fr_Name=Poignard
+fr_texto=Dommages 1/2
+it_Name=Dagger
+it_texto=Danno 1/2
+
+[OBJ5233] 'Plan 23.002: arma tier 1 con elemento 4, base OBJ165
+CP1=BANDIDO
+CP2=PIRATA
+CP3=LADRON
+CP4=MAGO
+Name=Daga +1
+MinHitToNpc=2
+MaxHitToNpc=4
+GrhIndex=51996
+Anim=8
+ObjType=2
+Subtipo=11
+MinHit=1
+MaxHit=3
+Valor=1800
+APUÑALA=1
+peso=10
+Crucial=1
+MinELV=1
+Texto=Daño 1/3
+WeaponType=2
+ElementalTags=4
+en_Name=Dagger +1
+en_texto=Damage 1/3
+pt_Name=Dagger +1
+pt_texto=Dano 1/3
+fr_Name=Poignard +1
+fr_texto=Dommages 1/3
+it_Name=Dagger +1
+it_texto=Danno 1/3
+
+[OBJ5234] 'Plan 23.002: arma tier 1 con elemento 4, base OBJ1855
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
+Name=Nudillo
+Texto=Daño 3/5
+GrhIndex=44577
+ObjType=2
+Valor=1800
+MaxHit=5
+MinHit=3
+Anim=152
+Crucial=1
+MinELV=1
+SubTipo=11
+WeaponType=8
+ElementalTags=4
+en_Name=Knuckle
+en_texto=Damage 3/5
+pt_Name=Junta
+pt_texto=Dano 3/5
+fr_Name=Articulation
+fr_texto=Dommages 3/5
+it_Name=Nocca
+it_texto=Danni 3/5
+
+[OBJ5235] 'Plan 23.002: arma tier 1 con elemento 4, base OBJ1856
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
+Name=Nudillo de Bronce
+SubTipo=11
+GrhIndex=25678
+Anim=142
+ObjType=2
+WeaponType=8
+MaxHit=7
+MinHit=5
+MinELV=1
+Valor=3000
+Crucial=1
+Texto=Daño 5/7
+MaxHitToNpc=8
+MinHitToNpc=6
+ElementalTags=4
+en_Name=Bronze Knuckle
+en_texto=Damage 5/7
+pt_Name=Junta de Bronze
+pt_texto=Dano 5/7
+fr_Name=Coup de poing américain
+fr_texto=Dommages 5/7
+it_Name=Tirapugni di bronzo
+it_texto=Danni 5/7
+
+[OBJ5236] 'Plan 23.002: arma tier 1 con elemento 4, base OBJ1792
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=MAGO
+Name=Sable
+MinHitToNpc=6
+MaxHitToNpc=9
+GrhIndex=563
+Anim=43
+ObjType=2
+MinHit=5
+MaxHit=8
+MinELV=1
+Subtipo=11
+Valor=1200
+Crucial=1
+Texto=Daño 5/8
+WeaponType=1
+ElementalTags=4
+en_Name=Saber
+en_texto=Damage 5/8
+pt_Name=Sabre
+pt_texto=Dano 5/8
+fr_Name=Sabre
+fr_texto=Dégâts 5/8
+it_Name=Sciabola
+it_texto=Danno 5/8
+
+[OBJ5237] 'Plan 23.002: arma tier 1 con elemento 4, base OBJ401
+CP1=CAZADOR
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
+GrhIndex=44037
+MaxHit=9
+MinHit=6
+Name=Hacha de Piedra
+ObjType=2
+Subtipo=11
+Texto=Daño 6/9
+Valor=2400
+MaxHitToNpc=10
+MinHitToNpc=7
+Anim=132
+Crucial=1
+MinELV=1
+WeaponType=5
+ElementalTags=4
+en_Name=Stone Axe
+en_texto=Damage 6/9
+pt_Name=Machado de pedra
+pt_texto=Dano 6/9
+fr_Name=Hache de pierre
+fr_texto=Dommages 6/9
+it_Name=Ascia di pietra
+it_texto=Danno 6/9
+
+[OBJ5238] 'Plan 23.002: arma tier 1 con elemento 4, base OBJ1817
+CP1=CAZADOR
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
+GrhIndex=37898
+MaxHit=11
+MinHit=7
+Name=Alfanje
+ObjType=2
+Subtipo=11
+Texto=Daño 7/11
+Valor=2700
+MaxHitToNpc=12
+MinHitToNpc=8
+Anim=116
+Crucial=1
+MinELV=1
+WeaponType=1
+ElementalTags=4
+en_Name=Cutlass
+en_texto=Damage 7/11
+pt_Name=Alfanje
+pt_texto=Dano 7/11
+fr_Name=Alfanje
+fr_texto=Dommages 7/11
+it_Name=Alfanje
+it_texto=Danno 7/11
+
+[OBJ5239] 'Plan 23.002: arma tier 1 con elemento 4, base OBJ1828
+CP1=CAZADOR
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
+Name=Vólcora
+Texto=Daño 8/12
+GrhIndex=37844
+ObjType=2
+Valor=3000
+MaxHit=12
+MinHit=8
+MaxHitToNpc=13
+Anim=114
+Crucial=0
+MinELV=1
+WeaponType=1
+ElementalTags=4
+en_Name=Vólcora
+en_texto=Damage 8/12
+pt_Name=Vólcora
+pt_texto=Dano 8/12
+fr_Name=Vólcora
+fr_texto=Dommages 8/12
+it_Name=Vólcora
+it_texto=Danno 8/12
+
+[OBJ5240] 'Plan 23.002: arma tier 1 con elemento 4, base OBJ1820
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
+Name=Maza de Guerra
+Texto=Arma de dos manos.
+GrhIndex=6959
+ObjType=2
+Subtipo=11
+Valor=7200
+MaxHit=15
+MinHit=11
+Anim=45
+Crucial=1
+DOSMANOS=1
+MinELV=25
+WeaponType=1
+ElementalTags=4
+en_Name=War Mace
+en_texto=Two-handed weapon.
+pt_Name=War Mace
+pt_texto=Duas mãos.
+fr_Name=Masse de guerre
+fr_texto=Deux mains.
+it_Name=Mazza di guerra
+it_texto=Due mani.
+
+[OBJ5241] 'Plan 23.002: arma tier 1 con elemento 4, base OBJ1818
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
+Name=Mandoble
+Texto=Arma de dos manos, no permite usar escudo.
+GrhIndex=25196
+ObjType=2
+Subtipo=11
+Valor=3300
+MaxHitToNpc=14
+MaxHit=13
+MinHitToNpc=11
+MinHit=10
+Anim=186
+Crucial=1
+DOSMANOS=1
+MinELV=1
+WeaponType=1
+ElementalTags=4
+en_Name=Greasword
+en_texto=Two-handed weapon, shield not allowed.
+pt_Name=Mandoble
+pt_texto=Duas mãos, não permite que você use um escudo.
+fr_Name=Mandoble
+fr_texto=Deux mains, cela ne vous permet pas d'utiliser un bouclier.
+it_Name=Mandobile
+it_texto=Due mani, non ti consente di usare uno scudo.
+
+[OBJ5242] 'Plan 23.002: arma tier 1 con elemento 4, base OBJ1800
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=DRUIDA
+GrhIndex=1062
+MaxHit=1
+MinHit=1
+Name=Báculo de Madera
+ObjType=2
+Texto=Aumenta tu Daño Mágico un 2%
+Valor=1200
+Anim=16
+Crucial=1
+MAGICDAMAGEBONUS=2
+MinELV=1
+WeaponType=4
+MagicPower=1
+ElementalTags=4
+en_Name=Wooden Staff
+en_texto=Increase your Magic Damage by 2%
+pt_Name=Pessoal de madeira
+pt_texto=Aumente seu dano mágico em 2%
+fr_Name=Personnel en bois
+fr_texto=Augmentez vos dégâts magiques de 2%
+it_Name=Personale di legno
+it_texto=Aumenta il tuo danno magico del 2%
+
+[OBJ5243] 'Plan 23.002: arma tier 1 con elemento 4, base OBJ3985
+Name=Flauta
+GrhIndex=538
+ObjType=30
+Valor=600
+MinELV=1
+subastable=1
+MagicDamageBonus=1
+MagicPenetration=0
+Texto=Aumenta tu Daño Mágico un 1%
+CP1=BANDIDO
+CP2=LADRON
+CP3=PIRATA
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PALADIN
+CP8=BARDO
+CP9=ASESINO
+CP10=GUERRERO
+CP11=CLERIGO
+CP12=MAGO
+Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
+MagicPower=1
+ElementalTags=4
+en_Name=Flute
+en_texto=Increases your Magic Damage by 1%
+pt_Name=Flauta
+pt_texto=Aumente seu dano mágico em 1%
+fr_Name=Flûte
+fr_texto=Augmentez vos dégâts magiques de 1%
+it_Name=Flauto
+it_texto=Aumenta il tuo danno magico del 1%
+
+[OBJ5244] 'Plan 23.002: arma tier 1 con elemento 4, base OBJ3986
+Name=Laúd
+GrhIndex=539
+ObjType=30
+Valor=600
+MinELV=1
+subastable=1
+MagicDamageBonus=1
+MagicPenetration=0
+Texto=Aumenta tu Daño Mágico un 1%
+CP1=BANDIDO
+CP2=LADRON
+CP3=PIRATA
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PALADIN
+CP8=DRUIDA
+CP9=ASESINO
+CP10=GUERRERO
+CP11=CLERIGO
+CP12=MAGO
+Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
+MagicPower=1
+ElementalTags=4
+en_Name=Lute
+en_texto=Increases your Magic Damage by 1%
+pt_Name=Alaúde
+pt_texto=Aumente seu dano mágico em 1%
+fr_Name=Luth
+fr_texto=Augmentez vos dégâts magiques de 1%
+it_Name=Liuto
+it_texto=Aumenta il tuo danno magico dell'1%
+
+[OBJ5245] 'Plan 23.002: arma tier 1 con elemento 8, base OBJ479
+CP1=PIRATA
+CP2=LADRON
+CP3=DRUIDA
+CP4=MAGO
+Name=Arco
+BOWCATEGORY=1
+GrhIndex=17525
+ObjType=2
+MinELV=1
+MinHit=1
+MaxHit=3
+Valor=600
+Anim=7
+Proyectil=1
+Municiones=1
+Crucial=1
+Texto=Daño 1/3
+DosManos=0
+WeaponType=3
+ElementalTags=8
+en_Name=Bow
+en_texto=Damage 1/3
+pt_Name=Arco
+pt_texto=Dano 1/3
+fr_Name=Arc
+fr_texto=Dommages 1/3
+it_Name=Arco
+it_texto=Danno 1/3
+
+[OBJ5246] 'Plan 23.002: arma tier 1 con elemento 8, base OBJ1867
+CP1=CLERIGO
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
+Name=Arco Compuesto
+BOWCATEGORY=3
+GrhIndex=38735
+Anim=118
+ObjType=2
+MinHit=4
+MaxHit=8
+MinELV=25
+Valor=4800
+Proyectil=1
+Municiones=1
+Crucial=1
+Texto=Daño 4/8
+WeaponType=3
+ElementalTags=8
+en_Name=Compund Bow
+en_texto=Damage 4/8
+pt_Name=Arco composto
+pt_texto=Dano 4/8
+fr_Name=Arc composé
+fr_texto=Dommages 4/8
+it_Name=Arco composto
+it_texto=Danno 4/8
+
+[OBJ5247] 'Plan 23.002: arma tier 1 con elemento 8, base OBJ15
+CP1=PIRATA
+CP2=LADRON
+Name=Daga
+GrhIndex=5603
+ObjType=2
+Subtipo=11
+MinHit=1
+MaxHit=2
+Valor=60
+Anim=8
+Crucial=1
+apuñala=1
+Texto=Daño 1/2
+WeaponType=2
+ElementalTags=8
+en_Name=Dagger
+en_texto=Damage 1/2
+pt_Name=Dagger
+pt_texto=Dano 1/2
+fr_Name=Poignard
+fr_texto=Dommages 1/2
+it_Name=Dagger
+it_texto=Danno 1/2
+
+[OBJ5248] 'Plan 23.002: arma tier 1 con elemento 8, base OBJ165
+CP1=BANDIDO
+CP2=PIRATA
+CP3=LADRON
+CP4=MAGO
+Name=Daga +1
+MinHitToNpc=2
+MaxHitToNpc=4
+GrhIndex=51996
+Anim=8
+ObjType=2
+Subtipo=11
+MinHit=1
+MaxHit=3
+Valor=1800
+APUÑALA=1
+peso=10
+Crucial=1
+MinELV=1
+Texto=Daño 1/3
+WeaponType=2
+ElementalTags=8
+en_Name=Dagger +1
+en_texto=Damage 1/3
+pt_Name=Dagger +1
+pt_texto=Dano 1/3
+fr_Name=Poignard +1
+fr_texto=Dommages 1/3
+it_Name=Dagger +1
+it_texto=Danno 1/3
+
+[OBJ5249] 'Plan 23.002: arma tier 1 con elemento 8, base OBJ1855
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
+Name=Nudillo
+Texto=Daño 3/5
+GrhIndex=44577
+ObjType=2
+Valor=1800
+MaxHit=5
+MinHit=3
+Anim=152
+Crucial=1
+MinELV=1
+SubTipo=11
+WeaponType=8
+ElementalTags=8
+en_Name=Knuckle
+en_texto=Damage 3/5
+pt_Name=Junta
+pt_texto=Dano 3/5
+fr_Name=Articulation
+fr_texto=Dommages 3/5
+it_Name=Nocca
+it_texto=Danni 3/5
+
+[OBJ5250] 'Plan 23.002: arma tier 1 con elemento 8, base OBJ1856
+CP1=GUERRERO
+CP2=PALADIN
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
+Name=Nudillo de Bronce
+SubTipo=11
+GrhIndex=25678
+Anim=142
+ObjType=2
+WeaponType=8
+MaxHit=7
+MinHit=5
+MinELV=1
+Valor=3000
+Crucial=1
+Texto=Daño 5/7
+MaxHitToNpc=8
+MinHitToNpc=6
+ElementalTags=8
+en_Name=Bronze Knuckle
+en_texto=Damage 5/7
+pt_Name=Junta de Bronze
+pt_texto=Dano 5/7
+fr_Name=Coup de poing américain
+fr_texto=Dommages 5/7
+it_Name=Tirapugni di bronzo
+it_texto=Danni 5/7
+
+[OBJ5251] 'Plan 23.002: arma tier 1 con elemento 8, base OBJ1792
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=MAGO
+Name=Sable
+MinHitToNpc=6
+MaxHitToNpc=9
+GrhIndex=563
+Anim=43
+ObjType=2
+MinHit=5
+MaxHit=8
+MinELV=1
+Subtipo=11
+Valor=1200
+Crucial=1
+Texto=Daño 5/8
+WeaponType=1
+ElementalTags=8
+en_Name=Saber
+en_texto=Damage 5/8
+pt_Name=Sabre
+pt_texto=Dano 5/8
+fr_Name=Sabre
+fr_texto=Dégâts 5/8
+it_Name=Sciabola
+it_texto=Danno 5/8
+
+[OBJ5252] 'Plan 23.002: arma tier 1 con elemento 8, base OBJ401
+CP1=CAZADOR
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
+GrhIndex=44037
+MaxHit=9
+MinHit=6
+Name=Hacha de Piedra
+ObjType=2
+Subtipo=11
+Texto=Daño 6/9
+Valor=2400
+MaxHitToNpc=10
+MinHitToNpc=7
+Anim=132
+Crucial=1
+MinELV=1
+WeaponType=5
+ElementalTags=8
+en_Name=Stone Axe
+en_texto=Damage 6/9
+pt_Name=Machado de pedra
+pt_texto=Dano 6/9
+fr_Name=Hache de pierre
+fr_texto=Dommages 6/9
+it_Name=Ascia di pietra
+it_texto=Danno 6/9
+
+[OBJ5253] 'Plan 23.002: arma tier 1 con elemento 8, base OBJ1817
+CP1=CAZADOR
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
+GrhIndex=37898
+MaxHit=11
+MinHit=7
+Name=Alfanje
+ObjType=2
+Subtipo=11
+Texto=Daño 7/11
+Valor=2700
+MaxHitToNpc=12
+MinHitToNpc=8
+Anim=116
+Crucial=1
+MinELV=1
+WeaponType=1
+ElementalTags=8
+en_Name=Cutlass
+en_texto=Damage 7/11
+pt_Name=Alfanje
+pt_texto=Dano 7/11
+fr_Name=Alfanje
+fr_texto=Dommages 7/11
+it_Name=Alfanje
+it_texto=Danno 7/11
+
+[OBJ5254] 'Plan 23.002: arma tier 1 con elemento 8, base OBJ1828
+CP1=CAZADOR
+CP2=PIRATA
+CP3=LADRON
+CP4=BARDO
+CP5=DRUIDA
+CP6=MAGO
+Name=Vólcora
+Texto=Daño 8/12
+GrhIndex=37844
+ObjType=2
+Valor=3000
+MaxHit=12
+MinHit=8
+MaxHitToNpc=13
+Anim=114
+Crucial=0
+MinELV=1
+WeaponType=1
+ElementalTags=8
+en_Name=Vólcora
+en_texto=Damage 8/12
+pt_Name=Vólcora
+pt_texto=Dano 8/12
+fr_Name=Vólcora
+fr_texto=Dommages 8/12
+it_Name=Vólcora
+it_texto=Danno 8/12
+
+[OBJ5255] 'Plan 23.002: arma tier 1 con elemento 8, base OBJ1820
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=CAZADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
+Name=Maza de Guerra
+Texto=Arma de dos manos.
+GrhIndex=6959
+ObjType=2
+Subtipo=11
+Valor=7200
+MaxHit=15
+MinHit=11
+Anim=45
+Crucial=1
+DOSMANOS=1
+MinELV=25
+WeaponType=1
+ElementalTags=8
+en_Name=War Mace
+en_texto=Two-handed weapon.
+pt_Name=War Mace
+pt_texto=Duas mãos.
+fr_Name=Masse de guerre
+fr_texto=Deux mains.
+it_Name=Mazza di guerra
+it_texto=Due mani.
+
+[OBJ5256] 'Plan 23.002: arma tier 1 con elemento 8, base OBJ1818
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=CAZADOR
+CP7=PIRATA
+CP8=LADRON
+CP9=BARDO
+CP10=DRUIDA
+CP11=MAGO
+Name=Mandoble
+Texto=Arma de dos manos, no permite usar escudo.
+GrhIndex=25196
+ObjType=2
+Subtipo=11
+Valor=3300
+MaxHitToNpc=14
+MaxHit=13
+MinHitToNpc=11
+MinHit=10
+Anim=186
+Crucial=1
+DOSMANOS=1
+MinELV=1
+WeaponType=1
+ElementalTags=8
+en_Name=Greasword
+en_texto=Two-handed weapon, shield not allowed.
+pt_Name=Mandoble
+pt_texto=Duas mãos, não permite que você use um escudo.
+fr_Name=Mandoble
+fr_texto=Deux mains, cela ne vous permet pas d'utiliser un bouclier.
+it_Name=Mandobile
+it_texto=Due mani, non ti consente di usare uno scudo.
+
+[OBJ5257] 'Plan 23.002: arma tier 1 con elemento 8, base OBJ1800
+CP1=GUERRERO
+CP2=PALADIN
+CP3=BANDIDO
+CP4=ASESINO
+CP5=CLERIGO
+CP6=TRABAJADOR
+CP7=CAZADOR
+CP8=PIRATA
+CP9=LADRON
+CP10=BARDO
+CP11=DRUIDA
+GrhIndex=1062
+MaxHit=1
+MinHit=1
+Name=Báculo de Madera
+ObjType=2
+Texto=Aumenta tu Daño Mágico un 2%
+Valor=1200
+Anim=16
+Crucial=1
+MAGICDAMAGEBONUS=2
+MinELV=1
+WeaponType=4
+MagicPower=1
+ElementalTags=8
+en_Name=Wooden Staff
+en_texto=Increase your Magic Damage by 2%
+pt_Name=Pessoal de madeira
+pt_texto=Aumente seu dano mágico em 2%
+fr_Name=Personnel en bois
+fr_texto=Augmentez vos dégâts magiques de 2%
+it_Name=Personale di legno
+it_texto=Aumenta il tuo danno magico del 2%
+
+[OBJ5258] 'Plan 23.002: arma tier 1 con elemento 8, base OBJ3985
+Name=Flauta
+GrhIndex=538
+ObjType=30
+Valor=600
+MinELV=1
+subastable=1
+MagicDamageBonus=1
+MagicPenetration=0
+Texto=Aumenta tu Daño Mágico un 1%
+CP1=BANDIDO
+CP2=LADRON
+CP3=PIRATA
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PALADIN
+CP8=BARDO
+CP9=ASESINO
+CP10=GUERRERO
+CP11=CLERIGO
+CP12=MAGO
+Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
+MagicPower=1
+ElementalTags=8
+en_Name=Flute
+en_texto=Increases your Magic Damage by 1%
+pt_Name=Flauta
+pt_texto=Aumente seu dano mágico em 1%
+fr_Name=Flûte
+fr_texto=Augmentez vos dégâts magiques de 1%
+it_Name=Flauto
+it_texto=Aumenta il tuo danno magico del 1%
+
+[OBJ5259] 'Plan 23.002: arma tier 1 con elemento 8, base OBJ3986
+Name=Laúd
+GrhIndex=539
+ObjType=30
+Valor=600
+MinELV=1
+subastable=1
+MagicDamageBonus=1
+MagicPenetration=0
+Texto=Aumenta tu Daño Mágico un 1%
+CP1=BANDIDO
+CP2=LADRON
+CP3=PIRATA
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PALADIN
+CP8=DRUIDA
+CP9=ASESINO
+CP10=GUERRERO
+CP11=CLERIGO
+CP12=MAGO
+Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
+MagicPower=1
+ElementalTags=8
+en_Name=Lute
+en_texto=Increases your Magic Damage by 1%
+pt_Name=Alaúde
+pt_texto=Aumente seu dano mágico em 1%
+fr_Name=Luth
+fr_texto=Augmentez vos dégâts magiques de 1%
+it_Name=Liuto
+it_texto=Aumenta il tuo danno magico dell'1%
+
+[OBJ5260] 'Plan 23.002: desde el pack oficial 2026-10-01 (contenido: SUPUESTO D5)
+Name=Cofre de Armas Elemental (Fuego)
+Texto=Este cofre contiene armas de tier 1 con elemento Fuego
+GrhIndex=49233
+ObjType=48
+Agarrable=0
+Subtipo=2
+CantItem=15
+CantEntrega=1
+Item1=5200 'Arco
+Cantidad1=1
+Item2=5201 'Arco Compuesto
+Cantidad2=1
+Item3=5202 'Daga
+Cantidad3=1
+Item4=5203 'Daga +1
+Cantidad4=1
+Item5=5204 'Nudillo
+Cantidad5=1
+Item6=5205 'Nudillo de Bronce
+Cantidad6=1
+Item7=5206 'Sable
+Cantidad7=1
+Item8=5207 'Hacha de Piedra
+Cantidad8=1
+Item9=5208 'Alfanje
+Cantidad9=1
+Item10=5209 'Vólcora
+Cantidad10=1
+Item11=5210 'Maza de Guerra
+Cantidad11=1
+Item12=5211 'Mandoble
+Cantidad12=1
+Item13=5212 'Báculo de Madera
+Cantidad13=1
+Item14=5213 'Flauta
+Cantidad14=1
+Item15=5214 'Laúd
+Cantidad15=1
+en_Name=Elemental Weapons Chest (Fire)
+en_texto=This chest contains tier 1 weapons with Fire element
+pt_Name=Baú de Armas Elementais (Fogo)
+pt_texto=Este baú contém armas de nível 1 com elemento Fogo
+fr_Name=Coffre d'Armes Élémentaires (Feu)
+fr_texto=Ce coffre contient des armes de niveau 1 avec élément Feu
+it_Name=Forziere di Armi Elementali (Fuoco)
+it_texto=Questo forziere contiene armi di livello 1 con elemento Fuoco
+
+[OBJ5261] 'Plan 23.002: desde el pack oficial 2026-10-01 (contenido: SUPUESTO D5)
+Name=Cofre de Armas Elemental (Agua)
+Texto=Este cofre contiene armas de tier 1 con elemento Agua
+GrhIndex=49233
+ObjType=48
+Agarrable=0
+Subtipo=2
+CantItem=15
+CantEntrega=1
+Item1=5215 'Arco
+Cantidad1=1
+Item2=5216 'Arco Compuesto
+Cantidad2=1
+Item3=5217 'Daga
+Cantidad3=1
+Item4=5218 'Daga +1
+Cantidad4=1
+Item5=5219 'Nudillo
+Cantidad5=1
+Item6=5220 'Nudillo de Bronce
+Cantidad6=1
+Item7=5221 'Sable
+Cantidad7=1
+Item8=5222 'Hacha de Piedra
+Cantidad8=1
+Item9=5223 'Alfanje
+Cantidad9=1
+Item10=5224 'Vólcora
+Cantidad10=1
+Item11=5225 'Maza de Guerra
+Cantidad11=1
+Item12=5226 'Mandoble
+Cantidad12=1
+Item13=5227 'Báculo de Madera
+Cantidad13=1
+Item14=5228 'Flauta
+Cantidad14=1
+Item15=5229 'Laúd
+Cantidad15=1
+en_Name=Elemental Weapons Chest (Water)
+en_texto=This chest contains tier 1 weapons with Water element
+pt_Name=Baú de Armas Elementais (Água)
+pt_texto=Este baú contém armas de nível 1 com elemento Água
+fr_Name=Coffre d'Armes Élémentaires (Eau)
+fr_texto=Ce coffre contient des armes de niveau 1 avec élément Eau
+it_Name=Forziere di Armi Elementali (Acqua)
+it_texto=Questo forziere contiene armi di livello 1 con elemento Acqua
+
+[OBJ5262] 'Plan 23.002: desde el pack oficial 2026-10-01 (contenido: SUPUESTO D5)
+Name=Cofre de Armas Elemental (Tierra)
+Texto=Este cofre contiene armas de tier 1 con elemento Tierra
+GrhIndex=49233
+ObjType=48
+Agarrable=0
+Subtipo=2
+CantItem=15
+CantEntrega=1
+Item1=5230 'Arco
+Cantidad1=1
+Item2=5231 'Arco Compuesto
+Cantidad2=1
+Item3=5232 'Daga
+Cantidad3=1
+Item4=5233 'Daga +1
+Cantidad4=1
+Item5=5234 'Nudillo
+Cantidad5=1
+Item6=5235 'Nudillo de Bronce
+Cantidad6=1
+Item7=5236 'Sable
+Cantidad7=1
+Item8=5237 'Hacha de Piedra
+Cantidad8=1
+Item9=5238 'Alfanje
+Cantidad9=1
+Item10=5239 'Vólcora
+Cantidad10=1
+Item11=5240 'Maza de Guerra
+Cantidad11=1
+Item12=5241 'Mandoble
+Cantidad12=1
+Item13=5242 'Báculo de Madera
+Cantidad13=1
+Item14=5243 'Flauta
+Cantidad14=1
+Item15=5244 'Laúd
+Cantidad15=1
+en_Name=Elemental Weapons Chest (Earth)
+en_texto=This chest contains tier 1 weapons with Earth element
+pt_Name=Baú de Armas Elementais (Terra)
+pt_texto=Este baú contém armas de nível 1 com elemento Terra
+fr_Name=Coffre d'Armes Élémentaires (Terre)
+fr_texto=Ce coffre contient des armes de niveau 1 avec élément Terre
+it_Name=Forziere di Armi Elementali (Terra)
+it_texto=Questo forziere contiene armi di livello 1 con elemento Terra
+
+[OBJ5263] 'Plan 23.002: desde el pack oficial 2026-10-01 (contenido: SUPUESTO D5)
+Name=Cofre de Armas Elemental (Aire)
+Texto=Este cofre contiene armas de tier 1 con elemento Aire
+GrhIndex=49233
+ObjType=48
+Agarrable=0
+Subtipo=2
+CantItem=15
+CantEntrega=1
+Item1=5245 'Arco
+Cantidad1=1
+Item2=5246 'Arco Compuesto
+Cantidad2=1
+Item3=5247 'Daga
+Cantidad3=1
+Item4=5248 'Daga +1
+Cantidad4=1
+Item5=5249 'Nudillo
+Cantidad5=1
+Item6=5250 'Nudillo de Bronce
+Cantidad6=1
+Item7=5251 'Sable
+Cantidad7=1
+Item8=5252 'Hacha de Piedra
+Cantidad8=1
+Item9=5253 'Alfanje
+Cantidad9=1
+Item10=5254 'Vólcora
+Cantidad10=1
+Item11=5255 'Maza de Guerra
+Cantidad11=1
+Item12=5256 'Mandoble
+Cantidad12=1
+Item13=5257 'Báculo de Madera
+Cantidad13=1
+Item14=5258 'Flauta
+Cantidad14=1
+Item15=5259 'Laúd
+Cantidad15=1
+en_Name=Elemental Weapons Chest (Air)
+en_texto=This chest contains tier 1 weapons with Air element
+pt_Name=Baú de Armas Elementais (Ar)
+pt_texto=Este baú contém armas de nível 1 com elemento Ar
+fr_Name=Coffre d'Armes Élémentaires (Air)
+fr_texto=Ce coffre contient des armes de niveau 1 avec élément Air
+it_Name=Forziere di Armi Elementali (Aria)
+it_texto=Questo forziere contiene armi di livello 1 con elemento Aria
+
+[OBJ5988] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Corazón del Golem
+Texto=Núcleo vital con energía de piedra antigua.
+GrhIndex=38424
+ObjType=100
+Valor=6300
+en_Name=Golem Heart
+en_texto=Vital core with ancient stone energy.
+pt_Name=Coração do Golem
+pt_texto=Núcleo vital com energia de pedra antiga.
+fr_Name=Cœur du Golem
+fr_texto=Noyau vital avec une ancienne énergie de pierre.
+it_Name=Cuore del Golem
+it_texto=Nucleo vitale con energia di pietra antica.
+
+[OBJ5989] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Escama de Salamandra
+Texto=Escama resistente al fuego infernal.
+GrhIndex=38425
+ObjType=100
+Valor=190
+en_Name=Salamander Scale
+en_texto=Scale resistant to infernal flames.
+pt_Name=Escama de Salamandra
+pt_texto=Escama resistente às chamas infernais.
+fr_Name=Écaille de Salamandre
+fr_texto=Écaille résistante aux flammes infernales.
+it_Name=Scaglia di Salamandra
+it_texto=Scaglia resistente alle fiamme infernali.
+
+[OBJ5991] 'Plan 23.002: desde el pack oficial 2026-10-01
+Name=Brazo de Mantis
+Texto=Extremidad afilada de una criatura veloz.
+GrhIndex=38420
+ObjType=100
+Valor=130
+en_Name=Mantis Arm
+en_texto=Sharp limb from a swift creature.
+pt_Name=Braço de Louva-a-Deus
+pt_texto=Membro afiado de uma criatura veloz.
+fr_Name=Bras de Mante
+fr_texto=Membre tranchant d'une créature rapide.
+it_Name=Braccio di Mantide
+it_texto=Arto affilato di una creatura veloce.
 
 [OBJ5994] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Túnica de la Cruz
@@ -78754,4 +80866,386 @@ fr_Name=Entraver
 fr_texto=Piège tes ennemis (niveau maximum 24)
 it_Name=Intrappolare
 it_texto=Intrappola i tuoi nemici (livello massimo 24)
+
+[OBJ9207] 'Mudado desde OBJ267 (plan 23.002)
+Name=Puerta abierta
+GrhIndex=9201
+ObjType=6
+Cerrada=0
+llave=0
+Clave=26
+Agarrable=1
+IndexAbierta=9207
+IndexCerrada=9208
+IndexCerradaLlave=9209
+Texto=Puerta abierta
+en_name=Open door
+en_texto=This honorable house belongs to
+ExtraStr=Puerta abierta
+
+[OBJ9208] 'Mudado desde OBJ268 (plan 23.002)
+Name=Puerta cerrada
+GrhIndex=9195
+ObjType=6
+Cerrada=1
+llave=0
+Clave=26
+Agarrable=1
+IndexAbierta=9207
+IndexCerrada=9208
+IndexCerradaLlave=9209
+Texto=Puerta cerrada
+en_name=Door closed
+en_texto=This honorable house belongs to
+ExtraStr=Puerta cerrada
+
+[OBJ9209] 'Mudado desde OBJ269 (plan 23.002)
+Name=Puerta cerrada con Llave casa 2 de la vieja Banderbill
+GrhIndex=9195
+ObjType=6
+Cerrada=1
+llave=1
+Clave=26
+Agarrable=1
+IndexAbierta=9207
+IndexCerrada=9208
+IndexCerradaLlave=9209
+Texto=Esta honorable casa pertenece a
+en_texto=This honorable house belongs to
+en_Name=locked door house 2 of Old Banderbill
+ExtraStr=Esta honorable casa pertenece a
+
+[OBJ9210] 'Mudado desde OBJ291 (plan 23.002)
+Name=Puerta abierta
+GrhIndex=9201
+ObjType=6
+Cerrada=0
+llave=0
+Clave=32
+Agarrable=1
+IndexAbierta=9210
+IndexCerrada=9211
+IndexCerradaLlave=9212
+Texto=Puerta abierta
+en_name=Open door
+en_texto=This honorable house belongs to
+ExtraStr=Puerta abierta
+
+[OBJ9211] 'Mudado desde OBJ292 (plan 23.002)
+Name=Puerta cerrada
+GrhIndex=9195
+ObjType=6
+Cerrada=1
+llave=0
+Clave=32
+Agarrable=1
+IndexAbierta=9210
+IndexCerrada=9211
+IndexCerradaLlave=9212
+Texto=Puerta cerrada
+en_name=Door closed
+en_texto=This honorable house belongs to
+ExtraStr=Puerta cerrada
+
+[OBJ9212] 'Mudado desde OBJ293 (plan 23.002)
+Name=Puerta cerrada con Llave casa 8 de la vieja Banderbill
+GrhIndex=9195
+ObjType=6
+Cerrada=1
+llave=1
+Clave=32
+Agarrable=1
+IndexAbierta=9210
+IndexCerrada=9211
+IndexCerradaLlave=9212
+Texto=Esta honorable casa pertenece a
+en_texto=This honorable house belongs to
+en_Name=locked door house 8 of old banderbill
+ExtraStr=Esta honorable casa pertenece a
+
+[OBJ9213] 'Mudado desde OBJ331 (plan 23.002)
+Name=Llave casa vieja Banderbill Nro: 12
+ExtraStr=Llave de la casa 12 de la vieja Banderbill
+GrhIndex=509
+ObjType=9
+Clave=39
+Valor=
+Texto=Llave de la casa 12 de la vieja Banderbill
+en_Name=Old Banderbill House Key 12
+
+'--------------> Casa número 13 de Banderbill <--------------
+
+[OBJ9214] 'Mudado desde OBJ332 (plan 23.002)
+Name=Puerta abierta
+GrhIndex=9201
+ObjType=6
+Cerrada=0
+llave=0
+Clave=40
+Agarrable=1
+IndexAbierta=9214
+IndexCerrada=9215
+IndexCerradaLlave=9216
+Texto=Puerta abierta
+en_name=Open door
+en_texto=This honorable house belongs to
+ExtraStr=Puerta abierta
+
+[OBJ9215] 'Mudado desde OBJ333 (plan 23.002)
+Name=Puerta cerrada
+GrhIndex=9195
+ObjType=6
+Cerrada=1
+llave=0
+Clave=40
+Agarrable=1
+IndexAbierta=9214
+IndexCerrada=9215
+IndexCerradaLlave=9216
+Texto=Puerta cerrada
+en_name=Door closed
+en_texto=This honorable house belongs to
+ExtraStr=Puerta cerrada
+
+[OBJ9216] 'Mudado desde OBJ334 (plan 23.002)
+Name=Puerta cerrada con Llave casa 13 de la vieja Banderbill
+GrhIndex=9195
+ObjType=6
+Cerrada=1
+llave=1
+Clave=40
+Agarrable=1
+IndexAbierta=9214
+IndexCerrada=9215
+IndexCerradaLlave=9216
+Texto=Esta honorable casa pertenece a
+en_texto=This honorable house belongs to
+en_Name=locked door house 13 of Old banderbill
+ExtraStr=Esta honorable casa pertenece a
+
+[OBJ9217] 'Mudado desde OBJ339 (plan 23.002)
+Name=Llave casa vieja Banderbill Nro: 14
+ExtraStr=Llave de la casa 14 de la vieja Banderbill
+GrhIndex=509
+ObjType=9
+Clave=41
+Valor=
+Texto=Llave de la casa 14 de la vieja Banderbill
+en_Name=Old Banderbill House Key 14
+
+'--------------> Casa número 15 de Banderbill <--------------
+
+[OBJ9218] 'Mudado desde OBJ503 (plan 23.002)
+Name=Trampa Visual (M)
+GrhIndex=5279
+RopajeHumano=1095
+RopajeElfo=1095
+RopajeElfoOscuro=2541
+RopajeEnano=2509
+RopajeOrco=2525
+RopajeGnomo=2509
+RopajeHumana=1095
+RopajeElfa=1095
+RopajeElfaOscura=2541
+RopajeEnana=2509
+RopajeOrca=2525
+RopajeGnoma=2509
+ObjType=3
+MAXDEF=25
+MINDEF=20
+Valor=10000
+Mujer=1
+CP1=BANDIDO
+CP2=LADRON
+CP3=PIRATA
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PALADIN
+CP9=ASESINO
+CP10=GUERRERO
+MinELV=1
+Crucial=1
+peso=200
+Texto=Trampa Visual (M)
+en_Name=Visual Trap (M)
+
+[OBJ9219] 'Mudado desde OBJ562 (plan 23.002)
+Name=Vestimentas de Bajo (Newbie)
+GrhIndex=59361
+RopajeHumano=16
+RopajeElfo=16
+RopajeElfoOscuro=1546
+RopajeEnano=3105
+RopajeOrco=2560
+RopajeGnomo=3105
+RopajeHumana=2686
+RopajeElfa=2686
+RopajeElfaOscura=2734
+RopajeEnana=2702
+RopajeOrca=2718
+RopajeGnoma=2702
+ObjType=3
+MAXDEF=0
+MINDEF=0
+Valor=0
+newbie=1
+Texto=Vestimentas de Bajo (Newbie)
+Instransferible=1
+en_Name=Vestment (E/G) (newbie)
+
+[OBJ9220] 'Mudado desde OBJ842 (plan 23.002)
+Name=Puerta abierta
+GrhIndex=5592
+ObjType=6
+Cerrada=0
+llave=0
+Clave=106
+Agarrable=1
+IndexAbierta=9220
+IndexCerrada=9221
+IndexCerradaLlave=9222
+Texto=Puerta abierta
+en_name=Open door
+en_texto=This honorable house belongs to
+ExtraStr=Puerta abierta
+
+[OBJ9221] 'Mudado desde OBJ843 (plan 23.002)
+Name=Puerta cerrada
+GrhIndex=5593
+ObjType=6
+Cerrada=1
+llave=0
+Clave=106
+Agarrable=1
+IndexAbierta=9220
+IndexCerrada=9221
+IndexCerradaLlave=9222
+Texto=Puerta cerrada
+en_name=Door closed
+en_texto=This honorable house belongs to
+ExtraStr=Puerta cerrada
+
+[OBJ9222] 'Mudado desde OBJ844 (plan 23.002)
+Name=Puerta cerrada con llave Casa 6 de illiandor
+GrhIndex=5593
+ObjType=6
+Cerrada=1
+llave=1
+Clave=106
+Agarrable=1
+IndexAbierta=9220
+IndexCerrada=9221
+IndexCerradaLlave=9222
+Texto=Esta honorable casa pertenece a
+en_texto=This honorable house belongs to
+en_Name=locked door house 6 of Lilliandor
+ExtraStr=Esta honorable casa pertenece a
+
+[OBJ9223] 'Mudado desde OBJ920 (plan 23.002)
+Name=Puerta abierta
+GrhIndex=5592
+ObjType=6
+Cerrada=0
+llave=0
+clave=112
+Agarrable=1
+IndexAbierta=9223
+IndexCerrada=9224
+IndexCerradaLlave=9225
+Texto=Puerta abierta
+en_name=Open door
+en_texto=This honorable house belongs to
+ExtraStr=Puerta abierta
+
+[OBJ9224] 'Mudado desde OBJ921 (plan 23.002)
+Name=Puerta cerrada
+GrhIndex=5593
+ObjType=6
+Cerrada=1
+llave=0
+clave=112
+Agarrable=1
+IndexAbierta=9223
+IndexCerrada=9224
+IndexCerradaLlave=9225
+Texto=Puerta cerrada
+en_name=Door closed
+en_texto=This honorable house belongs to
+ExtraStr=Puerta cerrada
+
+[OBJ9225] 'Mudado desde OBJ922 (plan 23.002)
+Name=Puerta cerrada con llave Casa 3 de Tiama
+GrhIndex=5593
+ObjType=6
+Cerrada=1
+llave=1
+clave=112
+Agarrable=1
+IndexAbierta=9223
+IndexCerrada=9224
+IndexCerradaLlave=9225
+Texto=Esta honorable casa pertenece a
+en_texto=This honorable house belongs to
+en_Name=locked door house 3 of Tiama
+ExtraStr=Esta honorable casa pertenece a
+
+[OBJ9226] 'Mudado desde OBJ923 (plan 23.002)
+Name=Llave casa Tiama Nro: 04
+ExtraStr=Llave de la casa 4 de Tiama
+GrhIndex=509
+ObjType=9
+Clave=113
+valor=
+Texto=Llave de la casa 4 de Tiama
+en_Name=Tiama House Key 4
+
+'--------------> Casa número 4 de Tiama <--------------
+
+[OBJ9227] 'Mudado desde OBJ924 (plan 23.002)
+Name=Puerta abierta
+GrhIndex=5592
+ObjType=6
+Cerrada=0
+llave=0
+clave=113
+Agarrable=1
+IndexAbierta=9227
+IndexCerrada=9228
+IndexCerradaLlave=9229
+Texto=Puerta abierta
+en_name=Open door
+en_texto=This honorable house belongs to
+ExtraStr=Puerta abierta
+
+[OBJ9228] 'Mudado desde OBJ925 (plan 23.002)
+Name=Puerta cerrada
+GrhIndex=5593
+ObjType=6
+Cerrada=1
+llave=0
+clave=113
+Agarrable=1
+IndexAbierta=9227
+IndexCerrada=9228
+IndexCerradaLlave=9229
+Texto=Puerta cerrada
+en_name=Door closed
+en_texto=This honorable house belongs to
+ExtraStr=Puerta cerrada
+
+[OBJ9229] 'Mudado desde OBJ926 (plan 23.002)
+Name=Puerta cerrada con llave Casa 4 de Tiama
+GrhIndex=5593
+ObjType=6
+Cerrada=1
+llave=1
+clave=113
+Agarrable=1
+IndexAbierta=9227
+IndexCerrada=9228
+IndexCerradaLlave=9229
+Texto=Esta honorable casa pertenece a
+en_texto=This honorable house belongs to
+en_Name=locked door house 4 of Tiama
+ExtraStr=Esta honorable casa pertenece a
 

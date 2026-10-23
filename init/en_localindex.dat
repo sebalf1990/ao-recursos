@@ -3,7 +3,7 @@ NUMEROHECHIZO=425
 NUMLOCALEMSG=9015
 NUMMAPAS=750
 NUMNPCS=9063
-NUMOBJS=9206
+NUMOBJS=9229
 NUMQUESTS=905
 NUMSUGERENCIAS=6
 
@@ -4731,9 +4731,6 @@ HP=500000
 NpcType=5
 MaxHIT=350
 MinHIT=300
-NumQuiza=1
-QuizaDropea1=2236-3
-QuizaProb=1
 DisabledInBattleServer=1
 
 [NPC304]
@@ -4756,6 +4753,9 @@ EXP=650000
 MaxHIT=5000
 MinHIT=500
 GiveEXPClan=150
+DropCount=2
+Drop1=1217-50-1-1
+Drop2=1218-50-1-1
 
 [NPC401]
 Name=Pedestal
@@ -4926,11 +4926,12 @@ Comercia=0
 EXP=30
 MaxHIT=12
 MinHIT=6
-QuizaProb=5
 NROITEMS=1
 Obj1=414-1
 ORO=3
 NpcType=0
+DropCount=1
+Drop1=2481-1-1-1
 Nivel=5
 
 [NPC501]
@@ -4946,6 +4947,8 @@ ORO=0
 MaxHIT=4
 MinHIT=3
 Nivel=5
+DropCount=1
+Drop1=26-1-1-1
 
 [NPC502]
 Name=Snake
@@ -4962,6 +4965,8 @@ MinHIT=3
 NROITEMS=0
 NpcType=0
 Nivel=5
+DropCount=1
+Drop1=2479-1-1-1
 
 [NPC503]
 Name=Mediterranean Turtle
@@ -4975,11 +4980,10 @@ MaxHIT=47
 MinHIT=25
 NROITEMS=1
 Obj1=1700-1
-NumQuiza=1
 ORO=20
-QUIZADROPEA1=1700
-QuizaProb=8
 NpcType=0
+DropCount=1
+Drop1=1700-8-1-1
 Nivel=20
 
 [NPC504]
@@ -5008,6 +5012,8 @@ EXP=225
 ORO=8
 MaxHIT=30
 MinHIT=20
+DropCount=1
+Drop1=964-10-1-1
 Nivel=15
 
 [NPC506]
@@ -5024,6 +5030,8 @@ MaxHIT=5
 MinHIT=3
 NpcType=0
 Nivel=5
+DropCount=1
+Drop1=2480-1-1-1
 
 [NPC507]
 Name=Zombie
@@ -5052,6 +5060,8 @@ ORO=14
 MaxHIT=28
 MinHIT=16
 Nivel=8
+DropCount=1
+Drop1=5997-10-1-1
 
 [NPC509]
 Name=Scorpion
@@ -5067,6 +5077,8 @@ MaxHIT=8
 MinHIT=5
 NpcType=0
 Nivel=5
+DropCount=1
+Drop1=2494-1-1-1
 
 [NPC510]
 Name=Orc
@@ -5079,9 +5091,6 @@ Comercia=0
 EXP=400
 MaxHIT=50
 MinHIT=35
-NumQuiza=1
-QuizaDropea1=3-1
-QuizaProb=5
 ORO=20
 NpcType=0
 Nivel=20
@@ -5127,6 +5136,8 @@ ORO=110
 MaxHIT=135
 MinHIT=90
 Nivel=28
+DropCount=1
+Drop1=1149-200-1-1
 
 [NPC514]
 Name=Skeleton
@@ -5152,16 +5163,14 @@ HP=3500
 EXP=2625
 MaxHIT=145
 MinHIT=80
-NumQuiza=3
-QuizaDropea1=394-1
-QuizaDropea2=394-2
-QuizaDropea3=394-3
-QuizaProb=3
 ORO=95
 NpcType=0
 GiveEXPClan=1
-Nivel=28
+Nivel=32
 DisabledInBattleServer=1
+DropCount=2
+Drop1=509-500-1-1
+Drop2=5180-1000-1-1
 
 [NPC516]
 Name=Leviatán
@@ -5175,7 +5184,13 @@ ORO=185
 MaxHIT=215
 MinHIT=145
 NpcType=0
-Nivel=28
+Nivel=32
+DropCount=5
+Drop1=509-500-1-1
+Drop2=5180-1000-1-1
+Drop3=6105-8000-1-1
+Drop4=6188-8000-1-1
+Drop5=6489-10000-1-1
 
 [NPC517]
 Name=Zulrik <Goblin Hechicero>
@@ -5189,6 +5204,10 @@ EXP=200
 ORO=0
 MaxHIT=15
 MinHIT=5
+DropCount=3
+Drop1=1800-120-1-1
+Drop2=5996-1-1-1
+Drop3=5996-20-1-10
 
 [NPC518]
 Name=Barbarian Goblin
@@ -5202,6 +5221,8 @@ EXP=300
 ORO=18
 MaxHIT=40
 MinHIT=28
+DropCount=1
+Drop1=1847-16-1-1
 Nivel=15
 
 [NPC519]
@@ -5230,6 +5251,8 @@ MaxHIT=70
 MinHIT=45
 NpcType=0
 Nivel=20
+DropCount=1
+Drop1=237-100-1-1
 
 [NPC521]
 Name=Throgar
@@ -5243,6 +5266,8 @@ EXP=700
 ORO=63
 MaxHIT=80
 MinHIT=45
+DropCount=1
+Drop1=2803-30-1-1
 
 [NPC522]
 Name=Goblin
@@ -5255,12 +5280,11 @@ Comercia=0
 EXP=75
 MaxHIT=22
 MinHIT=12
-NumQuiza=1
-QuizaDropea1=1278
-QuizaProb=133
 ORO=9
 NpcType=0
 Nivel=8
+DropCount=1
+Drop1=1278-133-1-1
 
 [NPC523]
 Name=Zombie Guerrero
@@ -5288,6 +5312,8 @@ EXP=660
 ORO=33
 MaxHIT=20
 MinHIT=10
+DropCount=1
+Drop1=2649-27-1-1
 Nivel=20
 
 [NPC525]
@@ -5303,6 +5329,8 @@ MaxHIT=130
 MinHIT=90
 GiveEXPClan=1
 Nivel=28
+DropCount=1
+Drop1=164-1000-1-1
 
 [NPC526]
 Name=Holt
@@ -5317,6 +5345,9 @@ MaxHIT=135
 MinHIT=95
 GiveEXPClan=1
 Nivel=28
+DropCount=2
+Drop1=3988-1000-1-1
+Drop2=4341-1000-1-1
 
 [NPC527]
 Name=Wolog
@@ -5345,6 +5376,8 @@ MinHIT=15
 Obj1=5997-1
 NROITEMS=1
 Nivel=15
+DropCount=1
+Drop1=5997-1-1-1
 
 [NPC529]
 Name=Troll Ártico
@@ -5359,6 +5392,8 @@ ORO=120
 MaxHIT=160
 MinHIT=130
 GiveEXPClan=1
+DropCount=1
+Drop1=407-325-1-1
 Nivel=28
 
 [NPC530]
@@ -5374,6 +5409,9 @@ MaxHIT=135
 MinHIT=90
 GiveEXPClan=1
 Nivel=28
+DropCount=2
+Drop1=5180-1000-1-1
+Drop2=293-10000-1-1
 
 [NPC531]
 Name=Kryos
@@ -5401,6 +5439,9 @@ ORO=1100
 MaxHIT=235
 MinHIT=180
 GiveEXPClan=10
+DropCount=2
+Drop1=869-200-1-1
+Drop2=3394-1-1-1
 Nivel=28
 
 [NPC533]
@@ -5413,9 +5454,6 @@ EXP=4000
 ORO=160
 MaxHIT=130
 MinHIT=90
-NumQuiza=1
-QuizaDropea1=1239-1
-QuizaProb=20
 NpcType=0
 
 [NPC534]
@@ -5430,6 +5468,9 @@ ORO=160
 MaxHIT=165
 MinHIT=75
 GiveEXPClan=2
+DropCount=2
+Drop1=37-20-15-50
+Drop2=38-20-10-35
 
 [NPC535]
 Name=Glacius
@@ -5460,6 +5501,8 @@ MaxHIT=215
 MinHIT=180
 GiveEXPClan=18
 Nivel=20
+DropCount=1
+Drop1=1679-200-1-1
 
 [NPC537]
 Name=Gralthar
@@ -5485,10 +5528,9 @@ GiveEXPClan=3
 ORO=200
 MaxHIT=160
 MinHIT=115
-NumQuiza=1
-QuizaDropea1=2835
-QuizaProb=100
 NpcType=0
+DropCount=1
+Drop1=2846-100-1-1
 
 [NPC541]
 Name=Ferrion
@@ -5501,6 +5543,10 @@ EXP=750
 ORO=35
 MaxHIT=85
 MinHIT=60
+DropCount=3
+Drop1=192-1-25-100
+Drop2=192-5-50-200
+Drop3=192-20-100-250
 
 [NPC542]
 Name=Caballo Marrón
@@ -5550,6 +5596,10 @@ EXP=2100
 ORO=90
 MaxHIT=135
 MinHIT=85
+DropCount=3
+Drop1=193-1-25-100
+Drop2=193-5-50-200
+Drop3=193-20-100-250
 
 [NPC546]
 Name=Rata
@@ -5595,6 +5645,9 @@ EXP=650000
 MaxHIT=5000
 MinHIT=500
 GiveEXPClan=150
+DropCount=2
+Drop1=481-50-1-1
+Drop2=2806-50-1-1
 
 [NPC550]
 Name=Serath <Quest de Lobos>
@@ -5613,12 +5666,13 @@ HP=900
 EXP=450
 MaxHIT=55
 MinHIT=35
-NumQuiza=1
-QuizaDropea1=415
-QuizaProb=1
 NpcType=0
 ORO=0
 Nivel=20
+DropCount=3
+Drop1=415-100-1-10
+Drop2=415-10-1-5
+Drop3=415-1-1-1
 
 [NPC552]
 Name=Assassin
@@ -5631,11 +5685,11 @@ Comercia=0
 EXP=400
 MaxHIT=40
 MinHIT=25
-NumQuiza=1
-QuizaDropea1=165
-QuizaProb=146
 ORO=15
 NpcType=0
+DropCount=2
+Drop1=165-120-1-1
+Drop2=1721-32-1-1
 Nivel=20
 
 [NPC553]
@@ -5650,11 +5704,11 @@ EXP=300
 ORO=12
 MaxHIT=35
 MinHIT=20
-NumQuiza=1
-QuizaDropea1=1856
-QuizaProb=266
 NpcType=0
 Nivel=20
+DropCount=2
+Drop1=1856-250-1-1
+Drop2=1721-40-1-1
 
 [NPC554]
 Name=Toxic Stingray
@@ -5702,6 +5756,8 @@ MaxHIT=75
 MinHIT=40
 NpcType=0
 Nivel=23
+DropCount=1
+Drop1=237-100-1-1
 
 [NPC558]
 Name=Wild Wolf
@@ -5716,12 +5772,12 @@ MaxHIT=18
 MinHIT=11
 NROITEMS=1
 Obj1=414-1
-NumQuiza=1
-QUIZADROPEA1=414
-QuizaProb=1
 NpcType=0
 ORO=3
 Nivel=20
+DropCount=2
+Drop1=414-100-1-5
+Drop2=414-1-1-1
 
 [NPC559]
 Name=Black Wolf
@@ -5737,10 +5793,10 @@ MinHIT=20
 ORO=0
 NROITEMS=1
 Obj1=1146-1
-NumQuiza=1
-QUIZADROPEA1=1146
-QuizaProb=1
 NpcType=0
+DropCount=2
+Drop1=1146-100-1-5
+Drop2=1146-1-1-1
 Nivel=20
 
 [NPC560]
@@ -5775,7 +5831,10 @@ NROITEMS=1
 Obj1=1848-1
 GiveEXPClan=1
 NpcType=0
-Nivel=28
+Nivel=30
+DropCount=2
+Drop1=5181-1000-1-1
+Drop2=6747-10000-1-1
 
 [NPC562]
 Name=Rathen <Quest de Bandido>
@@ -5811,6 +5870,8 @@ ORO=85
 MaxHIT=85
 MinHIT=40
 Nivel=20
+DropCount=1
+Drop1=412-400-1-1
 
 [NPC569]
 Name=Captain Pyke
@@ -5824,6 +5885,10 @@ GiveEXPClan=3
 ORO=265
 MaxHIT=190
 MinHIT=150
+DropCount=3
+Drop1=480-1-15-15
+Drop2=3550-1-5-5
+Drop3=551-1-3-3
 Nivel=28
 
 [NPC571]
@@ -5837,24 +5902,6 @@ EXP=300000
 MaxHIT=350
 MinHIT=300
 GiveEXPClan=400
-NumQuiza=16
-QuizaDropea1=2236-1
-QuizaDropea2=2237-1
-QuizaDropea3=2236-1
-QuizaDropea4=2237-1
-QuizaDropea5=2236-1
-QuizaDropea6=2237-1
-QuizaDropea7=2236-1
-QuizaDropea8=2237-1
-QuizaDropea9=2236-1
-QuizaDropea10=2237-1
-QuizaDropea11=2236-2
-QuizaDropea12=2237-2
-QuizaDropea13=2236-3
-QuizaDropea14=2237-3
-QuizaDropea15=2236-4
-QuizaDropea16=2237-4
-QuizaProb=1
 
 [NPC572]
 Name=Khemet <Quest del Manto del Sol Caido>
@@ -5865,9 +5912,6 @@ HP=15000
 NpcType=17
 MaxHIT=210
 MinHIT=190
-NumQuiza=1
-QuizaDropea1=2237-1
-QuizaProb=1
 GiveEXPClan=350
 NROITEMS=1
 Obj1=2236-1
@@ -5901,6 +5945,9 @@ MaxHIT=190
 MinHIT=135
 GiveEXPClan=2
 Nivel=28
+DropCount=2
+Drop1=5182-1000-1-1
+Drop2=562-10000-1-1
 
 [NPC576]
 Name=Cobra
@@ -5985,6 +6032,8 @@ ORO=120
 NpcType=0
 Nivel=28
 DisabledInBattleServer=1
+DropCount=1
+Drop1=2104-20-1-1
 
 [NPC587]
 Name=Pyrrak
@@ -5999,6 +6048,9 @@ ORO=95
 MaxHIT=75
 MinHIT=45
 Nivel=20
+DropCount=2
+Drop1=1677-580-1-1
+Drop2=1678-580-1-1
 
 [NPC589]
 Name=Scylla
@@ -6095,6 +6147,13 @@ NpcType=0
 NoMapInfo=1
 MaxHIT=40
 MinHIT=20
+DropCount=6
+Drop1=5996-1-50-250
+Drop2=5997-1-35-150
+Drop3=5998-1-15-80
+Drop4=5999-1-10-60
+Drop5=161-1-1-100
+Drop6=28-1-1-200
 
 [NPC597]
 Name=Fangs
@@ -6127,12 +6186,6 @@ Name=Shipwreck Box
 Body=4426
 HP=350
 Comercia=0
-NumQuiza=4
-QuizaDropea1=2209-1
-QuizaDropea2=2169-1
-QuizaDropea3=2649-1
-QuizaDropea4=2104-1
-QuizaProb=1
 
 [NPC601]
 Name=Robot
@@ -6241,6 +6294,8 @@ MaxHIT=28
 MinHIT=15
 NpcType=0
 Nivel=8
+DropCount=1
+Drop1=2491-1-1-1
 
 [NPC612]
 Name=Target
@@ -6396,9 +6451,6 @@ Body=4402
 BodyIdle=4402
 HP=200
 NoMapInfo=1
-NumQuiza=2
-QUIZADROPEA1=0
-QUIZADROPEA2=0
 NpcType=0
 EXP=0
 ORO=0
@@ -6485,13 +6537,12 @@ Ataque1=4393
 HP=80000
 MaxHIT=180
 MinHIT=130
-NumQuiza=3
-QUIZADROPEA1=2236
-QUIZADROPEA2=2237
-QUIZADROPEA3=4960
-QuizaProb=100
 NpcType=0
 EXP=0
+DropCount=3
+Drop1=2236-100-1-1
+Drop2=2237-100-1-1
+Drop3=4960-100-1-1
 
 [NPC641]
 Name=Araña New
@@ -6566,11 +6617,10 @@ EXP=1495
 ORO=65
 MaxHIT=65
 MinHIT=60
-NumQuiza=1
-QUIZADROPEA1=239
-QuizaProb=200
 NpcType=0
 Nivel=20
+DropCount=1
+Drop1=239-100-1-1
 
 [NPC647]
 Name=Beetle
@@ -6593,11 +6643,10 @@ HP=150
 EXP=150
 MaxHIT=5
 MinHIT=1
-NumQuiza=1
-QUIZADROPEA1=4977
-QuizaProb=1
 NpcType=0
 ORO=0
+DropCount=1
+Drop1=4977-1-1-1
 
 [NPC651]
 Name=Character Salesman
@@ -6826,6 +6875,8 @@ MinHIT=20
 ORO=25
 NpcType=0
 Nivel=20
+DropCount=1
+Drop1=525-50-1-1
 
 [NPC673]
 Name=Vulpes
@@ -6878,10 +6929,7 @@ HP=200
 EXP=100
 MaxHIT=20
 MinHIT=10
-NumQuiza=1
 ORO=8
-QUIZADROPEA1=3596
-QuizaProb=150
 NpcType=0
 Nivel=8
 
@@ -6911,9 +6959,8 @@ EXP=150
 ORO=12
 MaxHIT=37
 MinHIT=22
-NumQuiza=1
-QUIZADROPEA1=401
-QuizaProb=183
+DropCount=1
+Drop1=401-183-1-1
 
 [NPC679]
 Name=Mysterius Spider
@@ -7005,6 +7052,8 @@ EXP=400
 ORO=0
 MaxHIT=20
 MinHIT=5
+DropCount=1
+Drop1=4981-100-1-1
 
 [NPC693]
 Name=Sacerdote Penthar
@@ -7047,6 +7096,9 @@ ORO=95
 MaxHIT=95
 MinHIT=50
 Nivel=20
+DropCount=2
+Drop1=1679-840-1-1
+Drop2=1680-840-1-1
 
 [NPC722]
 Name=Espectro
@@ -7081,23 +7133,6 @@ Head=41
 HP=300000
 MaxHIT=160
 MinHIT=110
-NumQuiza=16
-QuizaDropea1=3702
-QuizaDropea2=3701
-QuizaDropea3=3700
-QuizaDropea4=3699
-QuizaDropea5=3698
-QuizaDropea6=3697
-QuizaDropea7=3696
-QuizaDropea8=3695
-QuizaDropea9=3694
-QuizaDropea10=3693
-QuizaDropea11=3692
-QuizaDropea12=3691
-QuizaDropea13=3390
-QuizaDropea14=3689
-QuizaDropea15=3688
-QuizaDropea16=3687
 NROITEMS=3
 Obj1=356-1
 OBJ2=2236-1
@@ -7153,11 +7188,10 @@ EXP=900
 ORO=55
 MaxHIT=50
 MinHIT=25
-NumQuiza=1
-QUIZADROPEA1=1653
-QuizaProb=525
 NpcType=0
 Nivel=20
+DropCount=1
+Drop1=1653-650-1-1
 
 [NPC752]
 Name=Laican
@@ -7170,10 +7204,7 @@ NpcType=0
 EXP=6500
 MaxHIT=70
 MinHIT=35
-NumQuiza=1
 ORO=450
-QUIZADROPEA1=1859
-QuizaProb=142
 Nivel=20
 
 [NPC753]
@@ -7187,11 +7218,10 @@ EXP=720
 ORO=50
 MaxHIT=55
 MinHIT=30
-NumQuiza=1
-QUIZADROPEA1=239
-QuizaProb=200
 NpcType=0
 Nivel=20
+DropCount=1
+Drop1=239-200-1-1
 
 [NPC755]
 Name=Gigantor
@@ -7207,7 +7237,10 @@ MinHIT=160
 GiveEXPClan=30
 NpcType=0
 DisabledInBattleServer=1
-Nivel=28
+Nivel=32
+DropCount=2
+Drop1=5181-100-1-1
+Drop2=503-33-1-1
 
 [NPC756]
 Name=Murciélago
@@ -7277,6 +7310,9 @@ EXP=450
 ORO=18
 MaxHIT=55
 MinHIT=30
+DropCount=2
+Drop1=365-283-1-1
+Drop2=5180-10000-1-1
 Nivel=20
 
 [NPC809]
@@ -7291,6 +7327,9 @@ ORO=0
 MaxHIT=250
 MinHIT=190
 GiveEXPClan=50
+DropCount=2
+Drop1=5988-1-1-1
+Drop2=5179-100-1-1
 
 [NPC810]
 Name=Golem de Viento
@@ -7317,6 +7356,9 @@ MaxHIT=240
 MinHIT=155
 Nivel=32
 GiveEXPClan=3
+DropCount=2
+Drop1=5182-1000-1-1
+Drop2=561-10000-1-1
 
 [NPC812]
 Name=Kobold Rojo
@@ -7330,6 +7372,9 @@ EXP=550
 ORO=20
 MaxHIT=65
 MinHIT=40
+DropCount=2
+Drop1=1820-327-1-1
+Drop2=5179-10000-1-1
 Nivel=20
 
 [NPC813]
@@ -7343,6 +7388,9 @@ EXP=500
 ORO=20
 MaxHIT=60
 MinHIT=35
+DropCount=2
+Drop1=159-330-1-1
+Drop2=5181-10000-1-1
 
 [NPC814]
 Name=Kobold Gris
@@ -7357,6 +7405,9 @@ ORO=24
 MaxHIT=70
 MinHIT=45
 Nivel=20
+DropCount=2
+Drop1=164-237-1-1
+Drop2=5182-10000-1-1
 
 [NPC815]
 Name=Miastrix
@@ -7370,6 +7421,9 @@ ORO=25
 Nivel=20
 MaxHIT=140
 MinHIT=85
+DropCount=2
+Drop1=268-10000-1-1
+Drop2=5181-10000-1-1
 
 [NPC816]
 Name=Varec
@@ -7392,10 +7446,13 @@ Head=0
 BodyIdle=5420
 Ataque1=5421
 HP=4400
+DropCount=2
+Drop1=5182-1000-1-1
+Drop2=568-10000-1-1
 NpcType=0
 EXP=3300
 ORO=120
-Nivel=28
+Nivel=30
 MaxHIT=130
 MinHIT=90
 
@@ -7506,9 +7563,14 @@ NpcType=0
 EXP=3850
 GiveEXPClan=2
 ORO=135
-Nivel=28
+Nivel=30
 MaxHIT=185
 MinHIT=150
+DropCount=4
+Drop1=5182-1000-1-1
+Drop2=6109-8000-1-1
+Drop3=3256-8000-1-1
+Drop4=904-10000-1-1
 
 [NPC831]
 Name=Gallina Blanca
@@ -7631,6 +7693,9 @@ MinHIT=90
 EXP=1450
 ORO=70
 Nivel=32
+DropCount=2
+Drop1=5180-1000-1-1
+Drop2=954-10000-1-1
 
 [NPC842]
 Name=Ignarok
@@ -7644,6 +7709,9 @@ MinHIT=90
 EXP=1400
 ORO=65
 Nivel=30
+DropCount=2
+Drop1=5179-1000-1-1
+Drop2=945-10000-1-1
 
 [NPC844]
 Name=Minertopo
@@ -7697,6 +7765,10 @@ MinHIT=115
 EXP=5600
 ORO=0
 GiveEXPClan=2
+DropCount=3
+Drop1=5989-1-1-1
+Drop2=5179-1000-1-1
+Drop3=949-10000-1-1
 
 [NPC850]
 Name=Astaroth
@@ -7762,6 +7834,9 @@ EXP=2560
 ORO=110
 Nivel=30
 GiveEXPClan=1
+DropCount=2
+Drop1=5179-1000-1-1
+Drop2=6719-10000-1-1
 
 [NPC857]
 Name=Aelion
@@ -7934,9 +8009,6 @@ MaxHIT=50
 MinHIT=25
 NROITEMS=1
 Obj1=414-1
-NumQuiza=1
-QUIZADROPEA1=239
-QuizaProb=250
 NpcType=0
 Nivel=20
 
@@ -7974,12 +8046,10 @@ MaxHIT=240
 MinHIT=165
 NROITEMS=1
 Obj1=2534-2
-NumQuiza=2
-QuizaDropea1=2236-1
-QuizaDropea2=2237-1
-QuizaProb=80
 NpcType=0
 GiveEXPClan=3
+DropCount=1
+Drop1=467-1-1-1
 DisabledInBattleServer=1
 
 [NPC923]
@@ -7995,6 +8065,8 @@ MaxHIT=200
 MinHIT=175
 GiveEXPClan=15
 Nivel=20
+DropCount=1
+Drop1=1663-200-1-1
 
 [NPC924]
 Name=Red Dragon
@@ -8009,11 +8081,10 @@ MaxHIT=220
 MinHIT=145
 NROITEMS=1
 Obj1=2534-1
-NumQuiza=1
-QuizaDropea1=2236-1
-QuizaProb=100
 NpcType=0
 GiveEXPClan=2
+DropCount=1
+Drop1=465-1-1-1
 DisabledInBattleServer=1
 
 [NPC926]
@@ -8023,12 +8094,15 @@ Head=0
 BodyIdle=5414
 Ataque1=5415
 HP=4200
+DropCount=2
+Drop1=5181-1000-1-1
+Drop2=566-10000-1-1
 NpcType=0
 EXP=2940
 ORO=115
 MaxHIT=125
 MinHIT=75
-Nivel=28
+Nivel=30
 
 [NPC927]
 Name=Chancho <Devorador Voraz>
@@ -8042,6 +8116,8 @@ EXP=50
 ORO=0
 MaxHIT=15
 MinHIT=7
+DropCount=1
+Drop1=34-1-1-1
 
 [NPC928]
 Name=Turtle
@@ -8082,6 +8158,8 @@ ORO=0
 MaxHIT=18
 MinHIT=9
 NpcType=0
+DropCount=1
+Drop1=27-1-1-1
 
 [NPC931]
 Name=Crow
@@ -8123,6 +8201,8 @@ GiveEXPClan=2
 ORO=100
 MaxHIT=230
 MinHIT=150
+DropCount=1
+Drop1=466-1-1-1
 DisabledInBattleServer=1
 
 [NPC935]
@@ -8140,6 +8220,8 @@ MinHIT=4
 NROITEMS=0
 NpcType=0
 Nivel=5
+DropCount=1
+Drop1=890-10-1-1
 
 [NPC936]
 Name=Eagle
@@ -8169,11 +8251,12 @@ MaxHIT=55
 MinHIT=45
 NROITEMS=1
 Obj1=4339-1
-NumQuiza=1
-QUIZADROPEA1=4339
-QuizaProb=1
 NpcType=0
 Nivel=20
+DropCount=3
+Drop1=4339-100-1-10
+Drop2=4339-10-1-5
+Drop3=4339-1-1-1
 
 [NPC941]
 Name=Ostrich
@@ -8199,9 +8282,6 @@ EXP=89000
 ORO=4000
 MaxHIT=230
 MinHIT=210
-NumQuiza=1
-QuizaDropea1=2236-1
-QuizaProb=500
 
 [NPC945]
 Name=Warrior Skeleton
@@ -8239,12 +8319,15 @@ Head=0
 BodyIdle=5417
 Ataque1=5418
 HP=4600
+DropCount=2
+Drop1=5179-1000-1-1
+Drop2=567-10000-1-1
 NpcType=0
 EXP=3450
 ORO=110
 MaxHIT=150
 MinHIT=95
-Nivel=28
+Nivel=30
 
 [NPC948]
 Name=Verraco Alfa
@@ -8258,6 +8341,8 @@ EXP=600
 ORO=0
 MaxHIT=40
 MinHIT=20
+DropCount=1
+Drop1=2207-1-1-1
 Nivel=20
 
 [NPC949]
@@ -8273,6 +8358,8 @@ ORO=35
 MaxHIT=25
 MinHIT=15
 Nivel=20
+DropCount=1
+Drop1=2196-1-1-1
 
 [NPC950]
 Name=Jabato
@@ -8287,6 +8374,8 @@ ORO=25
 MaxHIT=20
 MinHIT=10
 Nivel=20
+DropCount=1
+Drop1=3396-10000-1-1
 
 [NPC953]
 Name=Summoned Zombie
@@ -8510,6 +8599,8 @@ MinHIT=110
 NROITEMS=1
 Obj1=3894-5
 Nivel=20
+DropCount=1
+Drop1=3894-1-1-5
 
 [NPC973]
 Name=Black Widow
@@ -8540,6 +8631,9 @@ MaxHIT=150
 MinHIT=115
 GiveEXPClan=2
 Nivel=28
+DropCount=2
+Drop1=5182-1000-1-1
+Drop2=734-10000-1-1
 
 [NPC978]
 Name=Esqueto Vikingo
@@ -8566,10 +8660,9 @@ ORO=280
 GiveEXPClan=1
 MaxHIT=150
 MinHIT=115
-NumQuiza=1
-QUIZADROPEA1=2531
-QuizaProb=18
 NpcType=0
+DropCount=1
+Drop1=2531-18-1-1
 Nivel=20
 
 [NPC981]
@@ -8584,6 +8677,9 @@ MinHIT=75
 EXP=1260
 ORO=60
 Nivel=30
+DropCount=2
+Drop1=5179-1000-1-1
+Drop2=947-10000-1-1
 
 [NPC982]
 Name=Arachnid Spellcaster
@@ -8703,10 +8799,10 @@ MaxHIT=120
 MinHIT=90
 NROITEMS=1
 Obj1=416-1
-NumQuiza=1
-QUIZADROPEA1=416
-QuizaProb=1
 NpcType=0
+DropCount=2
+Drop1=416-100-1-5
+Drop2=416-1-1-1
 
 [NPC997]
 Name=Bengal Tiger
@@ -8722,10 +8818,10 @@ MaxHIT=115
 MinHIT=80
 NROITEMS=1
 Obj1=1145-1
-NumQuiza=1
-QUIZADROPEA1=1145
-QuizaProb=1
 NpcType=0
+DropCount=2
+Drop1=1145-100-1-5
+Drop2=1145-1-1-1
 
 [NPC998]
 Name=Ursus
@@ -8763,6 +8859,8 @@ EXP=450
 ORO=25
 MaxHIT=65
 MinHIT=35
+DropCount=1
+Drop1=239-250-1-1
 Nivel=20
 
 [NPC1002]
@@ -8834,9 +8932,6 @@ EXP=2750
 ORO=225
 MaxHIT=130
 MinHIT=90
-NumQuiza=1
-QuizaDropea1=365-1
-QuizaProb=35
 
 [NPC1012]
 Name=Tiberius <Equipamiento Legionario>
@@ -9003,7 +9098,10 @@ ORO=105
 MaxHIT=190
 MinHIT=145
 GiveEXPClan=2
-Nivel=28
+Nivel=30
+DropCount=2
+Drop1=5181-1000-1-1
+Drop2=923-10000-1-1
 
 [NPC1031]
 Name=Umbrax
@@ -9017,7 +9115,10 @@ GiveEXPClan=30
 ORO=2750
 MaxHIT=225
 MinHIT=165
-Nivel=28
+Nivel=30
+DropCount=2
+Drop1=5181-100-1-1
+Drop2=924-10000-1-1
 
 [NPC1032]
 Name=Minotauro Joven
@@ -9043,7 +9144,10 @@ EXP=2400
 ORO=90
 MaxHIT=155
 MinHIT=110
-Nivel=28
+Nivel=30
+DropCount=2
+Drop1=5181-1000-1-1
+Drop2=920-10000-1-1
 
 [NPC1034]
 Name=Minotauro Guerrero
@@ -9057,7 +9161,10 @@ ORO=95
 MaxHIT=175
 MinHIT=125
 GiveEXPClan=1
-Nivel=28
+Nivel=30
+DropCount=2
+Drop1=5181-1000-1-1
+Drop2=921-10000-1-1
 
 [NPC1035]
 Name=Philiph
@@ -9176,10 +9283,11 @@ EXP=4000
 ORO=165
 MaxHIT=105
 MinHIT=45
-NumQuiza=1
-QUIZADROPEA1=3466
-QuizaProb=46
 NpcType=0
+DropCount=3
+Drop1=2781-1-15-50
+Drop2=5181-1000-1-1
+Drop3=941-10000-1-1
 Nivel=28
 
 [NPC1047]
@@ -10054,6 +10162,8 @@ EXP=900
 ORO=45
 MaxHIT=100
 MinHIT=55
+DropCount=1
+Drop1=2520-2-1-1
 Nivel=20
 
 [NPC1151]
@@ -10165,6 +10275,8 @@ ORO=35
 MaxHIT=115
 MinHIT=65
 Nivel=20
+DropCount=1
+Drop1=6088-4000-1-1
 
 [NPC1165]
 Name=Phenoba <Quest de Dungeon Veril>
@@ -10422,10 +10534,10 @@ NpcType=0
 EXP=125
 MaxHIT=21
 MinHIT=10
-NumQuiza=1
 ORO=5
-QUIZADROPEA1=3466
-QuizaProb=125
+DropCount=2
+Drop1=3466-125-1-1
+Drop2=480-1-2-2
 
 [NPC1193]
 Name=Orco Embrujado
@@ -10460,6 +10572,8 @@ MaxHIT=35
 MinHIT=26
 ORO=6
 Nivel=15
+DropCount=1
+Drop1=1715-75-1-1
 
 [NPC1196]
 Name=Krugg
@@ -10873,30 +10987,14 @@ Ataque1=4130
 HP=2500
 MaxHIT=85
 MinHIT=65
-NumQuiza=20
-QuizaDropea1=2236-1
-QuizaDropea2=2237-1
-QuizaDropea3=2236-1
-QuizaDropea4=2237-1
-QuizaDropea5=2236-1
-QuizaDropea6=2237-1
-QuizaDropea7=2236-1
-QuizaDropea8=2237-1
-QuizaDropea9=2236-1
-QuizaDropea10=2237-1
-QuizaDropea11=2236-1
-QuizaDropea12=2237-1
-QuizaDropea13=2236-1
-QuizaDropea14=2237-1
-QuizaDropea15=2236-1
-QuizaDropea16=2237-1
-QuizaProb=1
 NROITEMS=1
 OBJ1=408-1
 GiveEXPClan=100
 NpcType=0
 EXP=1500
 ORO=75
+DropCount=1
+Drop1=1647-320-1-1
 Nivel=20
 
 [NPC1271]
@@ -11064,17 +11162,12 @@ Name=Barrel
 Body=4269
 HP=1
 Comercia=0
-NumQuiza=1
 
 [NPC1300]
 Name=Mysterious Remains
 Body=4265
 HP=1
 Comercia=0
-NumQuiza=2
-QuizaDropea1=3301-1
-QuizaDropea2=3302-1
-QuizaProb=3
 
 [NPC1304]
 Name=Tiburón de Altamar
@@ -11127,6 +11220,8 @@ MaxHIT=50
 MinHIT=30
 NpcType=0
 Nivel=28
+DropCount=1
+Drop1=5997-1-1-5
 DisabledInBattleServer=1
 
 [NPC1309]
@@ -11143,6 +11238,8 @@ MinHIT=30
 NROITEMS=1
 Obj1=3832-1
 Nivel=30
+DropCount=1
+Drop1=5998-1-1-4
 
 [NPC1310]
 Name=Comatus
@@ -11159,6 +11256,8 @@ NROITEMS=1
 Obj1=3833-1
 NpcType=0
 Nivel=28
+DropCount=1
+Drop1=5999-1-1-3
 DisabledInBattleServer=1
 
 [NPC1311]
@@ -11247,6 +11346,8 @@ EXP=260
 ORO=6
 MaxHIT=42
 MinHIT=26
+DropCount=1
+Drop1=1675-10000-1-1
 Nivel=15
 
 [NPC1333]
@@ -11260,6 +11361,8 @@ EXP=220
 ORO=10
 MaxHIT=40
 MinHIT=28
+DropCount=1
+Drop1=1676-5000-1-1
 Nivel=15
 
 [NPC1334]
@@ -11311,6 +11414,8 @@ EXP=520
 ORO=28
 MaxHIT=60
 MinHIT=38
+DropCount=1
+Drop1=239-250-1-1
 Nivel=20
 
 [NPC1337]
@@ -11328,6 +11433,9 @@ EXP=360
 ORO=18
 MaxHIT=50
 MinHIT=35
+DropCount=2
+Drop1=1715-50-1-1
+Drop2=1721-50-1-1
 Nivel=15
 
 [NPC1338]
@@ -11487,10 +11595,9 @@ MaxHIT=70
 MinHIT=40
 NROITEMS=1
 Obj1=2551-1
-NumQuiza=1
-QUIZADROPEA1=2551
-QuizaProb=5
 NpcType=0
+DropCount=1
+Drop1=2551-5-1-1
 
 [NPC1352]
 Name=Aquilore
@@ -11505,6 +11612,8 @@ ORO=8
 MaxHIT=30
 MinHIT=20
 NpcType=0
+DropCount=1
+Drop1=2519-10-1-1
 
 [NPC1353]
 Name=Arctic Swain
@@ -11520,6 +11629,9 @@ ORO=115
 MaxHIT=140
 MinHIT=95
 Nivel=32
+DropCount=2
+Drop1=5180-1000-1-1
+Drop2=6260-2000-1-1
 DisabledInBattleServer=1
 
 [NPC1354]
@@ -11537,6 +11649,8 @@ MinHIT=165
 GiveEXPClan=3
 NpcType=0
 Nivel=32
+DropCount=1
+Drop1=2807-50-1-1
 
 [NPC1355]
 Name=Ice Undead
@@ -11580,6 +11694,8 @@ ORO=19
 MaxHIT=40
 MinHIT=15
 NpcType=0
+DropCount=1
+Drop1=158-1-1-5
 Nivel=20
 
 [NPC1358]
@@ -11644,6 +11760,9 @@ Head=0
 BodyIdle=5389
 Ataque1=5390
 HP=5500
+DropCount=2
+Drop1=5180-1000-1-1
+Drop2=565-10000-1-1
 NpcType=0
 EXP=4125
 ORO=150
@@ -11680,6 +11799,9 @@ GiveEXPClan=40
 ORO=3500
 MaxHIT=235
 MinHIT=175
+DropCount=2
+Drop1=5180-100-1-1
+Drop2=339-10000-1-1
 
 [NPC1366]
 Name=Criptococo
@@ -11694,10 +11816,9 @@ ORO=210
 MaxHIT=155
 MinHIT=95
 GiveEXPClan=2
-NumQuiza=1
-QUIZADROPEA1=409
-QuizaProb=550
 Nivel=28
+DropCount=1
+Drop1=409-300-1-1
 
 [NPC1367]
 Name=Velocirraptor
@@ -11712,8 +11833,10 @@ ORO=105
 MaxHIT=120
 MinHIT=75
 GiveEXPClan=1
-Nivel=28
+Nivel=32
 DisabledInBattleServer=1
+DropCount=1
+Drop1=5181-1000-1-1
 
 [NPC1368]
 Name=Tyrannosaurus Magnus
@@ -11765,6 +11888,9 @@ Head=0
 BodyIdle=4173
 Ataque1=4173
 HP=1
+DropCount=2
+Drop1=3504-100-1-1
+Drop2=460-1-1-1
 Comercia=0
 MaxHIT=0
 MinHIT=0
@@ -11784,6 +11910,8 @@ ORO=2750
 MaxHIT=225
 MinHIT=160
 GiveEXPClan=30
+DropCount=1
+Drop1=2781-1-50-250
 DisabledInBattleServer=1
 Nivel=28
 
@@ -11879,9 +12007,6 @@ EXP=2800
 ORO=125
 MaxHIT=90
 MinHIT=65
-NumQuiza=1
-QuizaDropea1=1863-1
-QuizaProb=3
 NpcType=0
 GiveEXPClan=1
 Nivel=28
@@ -11901,6 +12026,8 @@ HP=1
 NpcType=0
 NROITEMS=1
 Obj1=4320-20
+DropCount=1
+Drop1=4320-1-10-20
 
 [NPC1389]
 Name=Red Leaved Fern
@@ -11933,11 +12060,8 @@ HP=1
 NpcType=0
 NROITEMS=1
 Obj1=4316-20
-NumQuiza=3
-QUIZADROPEA1=4316
-QUIZADROPEA2=4316
-QUIZADROPEA3=4316
-QuizaProb=1
+DropCount=1
+Drop1=4316-1-10-20
 
 [NPC1393]
 Name=Dark Lobelia
@@ -11946,6 +12070,8 @@ HP=1
 Comercia=0
 NROITEMS=1
 Obj1=4315-20
+DropCount=1
+Drop1=4315-1-10-20
 
 [NPC1394]
 Name=Feather Brown
@@ -11954,6 +12080,8 @@ HP=1
 Comercia=0
 NROITEMS=1
 Obj1=4314-20
+DropCount=1
+Drop1=4314-1-10-20
 
 [NPC1395]
 Name=Cala de Triple Brote
@@ -11962,6 +12090,8 @@ HP=1
 NpcType=0
 NROITEMS=1
 Obj1=4313-1
+DropCount=1
+Drop1=4313-1-10-20
 
 [NPC1396]
 Name=Flower Cactus
@@ -11970,6 +12100,8 @@ HP=1
 Comercia=0
 NROITEMS=1
 Obj1=4312-20
+DropCount=1
+Drop1=4312-1-10-20
 
 [NPC1397]
 Name=Seed Fungus
@@ -11978,6 +12110,8 @@ HP=1
 Comercia=0
 NROITEMS=1
 Obj1=4311-1
+DropCount=1
+Drop1=4311-1-10-20
 
 [NPC1398]
 Name=Light Mushroom
@@ -11986,6 +12120,8 @@ HP=1
 Comercia=0
 NROITEMS=1
 Obj1=4310-20
+DropCount=1
+Drop1=4310-1-10-20
 
 [NPC1399]
 Name=Old trunk of roots
@@ -12039,10 +12175,9 @@ EXP=840
 ORO=63
 MaxHIT=85
 MinHIT=50
-NumQuiza=1
-QUIZADROPEA1=408
-QuizaProb=575
 NpcType=0
+DropCount=1
+Drop1=408-375-1-1
 Nivel=20
 
 [NPC1413]
@@ -12172,6 +12307,9 @@ EXP=1200
 ORO=45
 MaxHIT=85
 MinHIT=60
+DropCount=2
+Drop1=5260-1000-1-1
+Drop2=5179-10000-1-1
 DisabledInBattleServer=1
 Nivel=20
 
@@ -12187,6 +12325,9 @@ EXP=1200
 ORO=45
 MaxHIT=85
 MinHIT=60
+DropCount=2
+Drop1=5261-1000-1-1
+Drop2=5180-10000-1-1
 DisabledInBattleServer=1
 Nivel=20
 
@@ -12202,6 +12343,9 @@ EXP=1200
 ORO=45
 MaxHIT=85
 MinHIT=60
+DropCount=2
+Drop1=5262-1000-1-1
+Drop2=5181-10000-1-1
 DisabledInBattleServer=1
 Nivel=20
 
@@ -12217,6 +12361,9 @@ EXP=1200
 ORO=45
 MaxHIT=85
 MinHIT=60
+DropCount=2
+Drop1=5263-1000-1-1
+Drop2=5182-10000-1-1
 DisabledInBattleServer=1
 Nivel=20
 
@@ -12233,6 +12380,9 @@ ORO=150
 Nivel=28
 MaxHIT=150
 MinHIT=80
+DropCount=2
+Drop1=6191-500-1-1
+Drop2=6192-500-1-1
 DisabledInBattleServer=1
 
 [NPC1470]
@@ -12247,6 +12397,9 @@ GiveEXPClan=2
 ORO=85
 MaxHIT=170
 MinHIT=100
+DropCount=2
+Drop1=5179-1000-1-1
+Drop2=332-10000-1-1
 DisabledInBattleServer=1
 Nivel=30
 
@@ -12262,6 +12415,9 @@ GiveEXPClan=2
 ORO=85
 MaxHIT=170
 MinHIT=100
+DropCount=2
+Drop1=5180-1000-1-1
+Drop2=333-10000-1-1
 DisabledInBattleServer=1
 Nivel=30
 
@@ -12277,6 +12433,9 @@ GiveEXPClan=2
 ORO=85
 MaxHIT=170
 MinHIT=100
+DropCount=2
+Drop1=5181-1000-1-1
+Drop2=331-10000-1-1
 DisabledInBattleServer=1
 Nivel=30
 
@@ -12292,6 +12451,9 @@ GiveEXPClan=2
 ORO=85
 MaxHIT=170
 MinHIT=100
+DropCount=2
+Drop1=5182-1000-1-1
+Drop2=334-10000-1-1
 DisabledInBattleServer=1
 Nivel=30
 
@@ -12307,7 +12469,10 @@ GiveEXPClan=1
 ORO=120
 MaxHIT=155
 MinHIT=115
+DropCount=2
+Drop1=5179-1000-1-1
 Nivel=30
+Drop2=609-10-1-1
 
 [NPC1475]
 Name=Portador de Agua
@@ -12321,7 +12486,10 @@ GiveEXPClan=1
 ORO=120
 MaxHIT=155
 MinHIT=115
+DropCount=2
+Drop1=5180-1000-1-1
 Nivel=30
+Drop2=610-10-1-1
 
 [NPC1476]
 Name=Portador de Tierra
@@ -12335,7 +12503,10 @@ GiveEXPClan=1
 ORO=120
 MaxHIT=155
 MinHIT=115
+DropCount=2
+Drop1=5181-1000-1-1
 Nivel=30
+Drop2=611-10-1-1
 
 [NPC1477]
 Name=Portador de Viento
@@ -12349,7 +12520,10 @@ GiveEXPClan=1
 ORO=120
 MaxHIT=155
 MinHIT=115
+DropCount=2
+Drop1=5182-1000-1-1
 Nivel=30
+Drop2=612-10-1-1
 
 [NPC1500]
 Name=Aurum <Herrero Real>
@@ -12982,6 +13156,10 @@ MaxHIT=165
 MinHIT=110
 EXP=2800
 ORO=0
+DropCount=3
+Drop1=5991-1-1-1
+Drop2=5179-1000-1-1
+Drop3=844-10000-1-1
 
 [NPC1635]
 Name=Arkhavel <Quest Sedas Elementales>
@@ -13158,6 +13336,10 @@ NpcType=0
 EXP=0
 MaxHIT=180
 MinHIT=130
+DropCount=3
+Drop1=2236-100-1-1
+Drop2=2237-100-1-1
+Drop3=4960-100-1-1
 
 [NPC1809]
 Name=Tyran
@@ -13169,6 +13351,10 @@ NpcType=0
 EXP=0
 MaxHIT=180
 MinHIT=130
+DropCount=3
+Drop1=2236-100-1-1
+Drop2=2237-100-1-1
+Drop3=4960-100-1-1
 
 [NPC1810]
 Name=Cano <El Eterno Chitero>
@@ -13811,6 +13997,7 @@ MinSkill=100
 ManaRequerido=550
 StaRequerido=300
 IconoIndex=35725
+StaPercentRequired=60
 
 [HECHIZO15]
 Nombre=Detectar Invisibilidad
@@ -18854,29 +19041,10 @@ GrhIndex=509
 ObjType=9
 Texto=Llave de la casa 1 de la vieja Banderbill
 
-[OBJ267]
-Name=Open door
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
 [OBJ268]
-Name=Door closed
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
-[OBJ269]
-Name=locked door house 2 of Old Banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Miastrix
+GrhIndex=52190
+ObjType=57
 
 [OBJ270]
 Name=Old Banderbill House Key 2
@@ -18968,29 +19136,10 @@ GrhIndex=509
 ObjType=9
 Texto=Llave de la casa 6 de la vieja Banderbill
 
-[OBJ291]
-Name=Open door
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
-[OBJ292]
-Name=Door closed
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
 [OBJ293]
-Name=locked door house 8 of old banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Goruk
+GrhIndex=52190
+ObjType=57
 
 [OBJ294]
 Name=Old Banderbill House key 8
@@ -19152,34 +19301,24 @@ Agarrable=1
 Texto=This honorable house belongs to
 
 [OBJ331]
-Name=Old Banderbill House Key 12
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 12 de la vieja Banderbill
+Name=Carta Geot
+GrhIndex=52190
+ObjType=57
 
 [OBJ332]
-Name=Open door
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Pyrot
+GrhIndex=52190
+ObjType=57
 
 [OBJ333]
-Name=Door closed
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Hydrot
+GrhIndex=52190
+ObjType=57
 
 [OBJ334]
-Name=locked door house 13 of Old banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Eolot
+GrhIndex=52190
+ObjType=57
 
 [OBJ335]
 Name=Old Banderbill House Key 13
@@ -19212,10 +19351,9 @@ Agarrable=1
 Texto=This honorable house belongs to
 
 [OBJ339]
-Name=Old Banderbill House Key 14
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 14 de la vieja Banderbill
+Name=Carta Golem de Hielo
+GrhIndex=52190
+ObjType=57
 
 [OBJ340]
 Name=Open door
@@ -20392,25 +20530,10 @@ Valor=2500
 Texto=Armadura Bruñida
 
 [OBJ503]
-Name=Visual Trap (M)
-GrhIndex=5279
-RopajeHumano=1095
-RopajeElfo=1095
-RopajeElfoOscuro=2541
-RopajeEnano=2509
-RopajeOrco=2525
-RopajeGnomo=2509
-RopajeHumana=1095
-RopajeElfa=1095
-RopajeElfaOscura=2541
-RopajeEnana=2509
-RopajeOrca=2525
-RopajeGnoma=2509
-ObjType=3
-MAXDEF=25
-MINDEF=20
-Valor=10000
-Texto=Trampa Visual (M)
+Name=Guardian Scroll
+GrhIndex=52200
+ObjType=51
+Valor=0
 
 [OBJ508]
 Name=Estuary Clothes (Woman)
@@ -20426,7 +20549,10 @@ PielOsoPardo=0
 PielOsoPolar=0
 
 [OBJ509]
-GrhIndex=0
+Name=Bottled Message
+GrhIndex=28737
+ObjType=51
+Valor=0
 
 [OBJ510]
 Name=Indulgent Dress
@@ -20909,28 +21035,14 @@ Valor=0
 Texto=Daga Ígnea
 
 [OBJ561]
-GrhIndex=0
+Name=Carta Glazrath
+GrhIndex=52190
+ObjType=57
 
 [OBJ562]
-Name=Vestment (E/G) (newbie)
-GrhIndex=59361
-RopajeHumano=16
-RopajeElfo=16
-RopajeElfoOscuro=1546
-RopajeEnano=3105
-RopajeOrco=2560
-RopajeGnomo=3105
-RopajeHumana=2686
-RopajeElfa=2686
-RopajeElfaOscura=2734
-RopajeEnana=2702
-RopajeOrca=2718
-RopajeGnoma=2702
-ObjType=3
-MAXDEF=0
-MINDEF=0
-Valor=0
-Texto=Vestimentas de Bajo (Newbie)
+Name=Carta Gorath
+GrhIndex=52190
+ObjType=57
 
 [OBJ563]
 Name=Vestment (E/G) (newbie)
@@ -20945,16 +21057,24 @@ Texto=Vestimentas de Baja (Newbie)
 GrhIndex=0
 
 [OBJ565]
-GRHINDEX=0
+Name=Carta Pixie de Hielo
+GrhIndex=52190
+ObjType=57
 
 [OBJ566]
-GrhIndex=0
+Name=Carta Pixie de Tierra
+GrhIndex=52190
+ObjType=57
 
 [OBJ567]
-GrhIndex=0
+Name=Carta Pixie de Fuego
+GrhIndex=52190
+ObjType=57
 
 [OBJ568]
-GrhIndex=0
+Name=Carta Pixie de Viento
+GrhIndex=52190
+ObjType=57
 
 [OBJ569]
 GrhIndex=0
@@ -21874,7 +21994,9 @@ ObjType=44
 Valor=0
 
 [OBJ734]
-GrhIndex=0
+Name=Carta Zevkar
+GrhIndex=52190
+ObjType=57
 
 [OBJ736]
 Name=Trade ring (+10)
@@ -22430,29 +22552,10 @@ llave=1
 Agarrable=1
 Texto=This honorable house belongs to
 
-[OBJ842]
-Name=Open door
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
-[OBJ843]
-Name=Door closed
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
 [OBJ844]
-Name=locked door house 6 of Lilliandor
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Mantis de Fuego
+GrhIndex=52190
+ObjType=57
 
 [OBJ846]
 Name=Open door
@@ -22673,7 +22776,9 @@ Texto=Herramienta necesaria para crear pociones de Alquimia
 Valor=0
 
 [OBJ904]
-GrhIndex=0
+Name=Carta Typhon
+GrhIndex=52190
+ObjType=57
 
 [OBJ905]
 GrhIndex=0
@@ -22740,58 +22845,24 @@ Agarrable=1
 Texto=This honorable house belongs to
 
 [OBJ920]
-Name=Open door
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Minotauro Barbaro
+GrhIndex=52190
+ObjType=57
 
 [OBJ921]
-Name=Door closed
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
-[OBJ922]
-Name=locked door house 3 of Tiama
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Minotauro Guerrero
+GrhIndex=52190
+ObjType=57
 
 [OBJ923]
-Name=Tiama House Key 4
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 4 de Tiama
+Name=Carta Minotauro
+GrhIndex=52190
+ObjType=57
 
 [OBJ924]
-Name=Open door
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
-[OBJ925]
-Name=Door closed
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
-[OBJ926]
-Name=locked door house 4 of Tiama
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Umbrax
+GrhIndex=52190
+ObjType=57
 
 [OBJ928]
 Name=Open door
@@ -22888,7 +22959,9 @@ Agarrable=1
 Texto=Árbol
 
 [OBJ941]
-GrhIndex=0
+Name=Carta Ent
+GrhIndex=52190
+ObjType=57
 
 [OBJ943]
 GrhIndex=0
@@ -22897,16 +22970,22 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ945]
-GrhIndex=0
+Name=Carta Ignarok
+GrhIndex=52190
+ObjType=57
 
 [OBJ946]
 GrhIndex=0
 
 [OBJ947]
-GrhIndex=0
+Name=Carta Scorvex
+GrhIndex=52190
+ObjType=57
 
 [OBJ949]
-GrhIndex=0
+Name=Carta Flamora
+GrhIndex=52190
+ObjType=57
 
 [OBJ950]
 Name=Marquis Suit
@@ -22936,7 +23015,9 @@ GrhIndex=0
 GrhIndex=0
 
 [OBJ954]
-GrhIndex=0
+Name=Carta Cryon
+GrhIndex=52190
+ObjType=57
 
 [OBJ955]
 GrhIndex=0
@@ -50766,6 +50847,21 @@ GrhIndex=11403
 ObjType=17
 Texto=Casco de Dragón Negro
 
+[OBJ6489]
+Name=Carta Leviatan
+GrhIndex=52190
+ObjType=57
+
+[OBJ6719]
+Name=Carta Kingion
+GrhIndex=52190
+ObjType=57
+
+[OBJ6747]
+Name=Carta Chasdo
+GrhIndex=52190
+ObjType=57
+
 [OBJ9000]
 Name=Manual de Carpinteria
 GrhIndex=49210
@@ -52646,6 +52742,655 @@ Texto=Enciende los mecanismos de defensa del Exoesqueleto Enano proporcionando u
 GrhIndex=609
 ObjType=24
 Valor=0
+
+[OBJ5200]
+Name=Bow
+GrhIndex=17525
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=600
+Proyectil=1
+Municiones=1
+Texto=Damage 1/3
+ElementalTags=1
+
+[OBJ5201]
+Name=Compund Bow
+GrhIndex=38735
+ObjType=2
+MinHit=4
+MaxHit=8
+Valor=4800
+Proyectil=1
+Municiones=1
+Texto=Damage 4/8
+ElementalTags=1
+
+[OBJ5202]
+Name=Dagger
+GrhIndex=5603
+ObjType=2
+MinHit=1
+MaxHit=2
+Valor=60
+Texto=Damage 1/2
+ElementalTags=1
+
+[OBJ5203]
+Name=Dagger +1
+GrhIndex=51996
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=1800
+Texto=Damage 1/3
+ElementalTags=1
+
+[OBJ5204]
+Name=Knuckle
+Texto=Damage 3/5
+GrhIndex=44577
+ObjType=2
+Valor=1800
+MaxHit=5
+MinHit=3
+ElementalTags=1
+
+[OBJ5205]
+Name=Bronze Knuckle
+GrhIndex=25678
+ObjType=2
+MaxHit=7
+MinHit=5
+Valor=3000
+Texto=Damage 5/7
+ElementalTags=1
+
+[OBJ5206]
+Name=Saber
+GrhIndex=563
+ObjType=2
+MinHit=5
+MaxHit=8
+Valor=1200
+Texto=Damage 5/8
+ElementalTags=1
+
+[OBJ5207]
+GrhIndex=44037
+MaxHit=9
+MinHit=6
+Name=Stone Axe
+ObjType=2
+Texto=Damage 6/9
+Valor=2400
+ElementalTags=1
+
+[OBJ5208]
+GrhIndex=37898
+MaxHit=11
+MinHit=7
+Name=Cutlass
+ObjType=2
+Texto=Damage 7/11
+Valor=2700
+ElementalTags=1
+
+[OBJ5209]
+Name=Vólcora
+Texto=Damage 8/12
+GrhIndex=37844
+ObjType=2
+Valor=3000
+MaxHit=12
+MinHit=8
+ElementalTags=1
+
+[OBJ5210]
+Name=War Mace
+Texto=Two-handed weapon.
+GrhIndex=6959
+ObjType=2
+Valor=7200
+MaxHit=15
+MinHit=11
+ElementalTags=1
+
+[OBJ5211]
+Name=Greasword
+Texto=Two-handed weapon, shield not allowed.
+GrhIndex=25196
+ObjType=2
+Valor=3300
+MaxHit=13
+MinHit=10
+ElementalTags=1
+
+[OBJ5212]
+GrhIndex=1062
+MaxHit=1
+MinHit=1
+Name=Wooden Staff
+ObjType=2
+Texto=Increase your Magic Damage by 2%
+Valor=1200
+ElementalTags=1
+
+[OBJ5213]
+Name=Flute
+GrhIndex=538
+ObjType=30
+Valor=600
+Texto=Increases your Magic Damage by 1%
+ElementalTags=1
+
+[OBJ5214]
+Name=Lute
+GrhIndex=539
+ObjType=30
+Valor=600
+Texto=Increases your Magic Damage by 1%
+ElementalTags=1
+
+[OBJ5215]
+Name=Bow
+GrhIndex=17525
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=600
+Proyectil=1
+Municiones=1
+Texto=Damage 1/3
+ElementalTags=2
+
+[OBJ5216]
+Name=Compund Bow
+GrhIndex=38735
+ObjType=2
+MinHit=4
+MaxHit=8
+Valor=4800
+Proyectil=1
+Municiones=1
+Texto=Damage 4/8
+ElementalTags=2
+
+[OBJ5217]
+Name=Dagger
+GrhIndex=5603
+ObjType=2
+MinHit=1
+MaxHit=2
+Valor=60
+Texto=Damage 1/2
+ElementalTags=2
+
+[OBJ5218]
+Name=Dagger +1
+GrhIndex=51996
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=1800
+Texto=Damage 1/3
+ElementalTags=2
+
+[OBJ5219]
+Name=Knuckle
+Texto=Damage 3/5
+GrhIndex=44577
+ObjType=2
+Valor=1800
+MaxHit=5
+MinHit=3
+ElementalTags=2
+
+[OBJ5220]
+Name=Bronze Knuckle
+GrhIndex=25678
+ObjType=2
+MaxHit=7
+MinHit=5
+Valor=3000
+Texto=Damage 5/7
+ElementalTags=2
+
+[OBJ5221]
+Name=Saber
+GrhIndex=563
+ObjType=2
+MinHit=5
+MaxHit=8
+Valor=1200
+Texto=Damage 5/8
+ElementalTags=2
+
+[OBJ5222]
+GrhIndex=44037
+MaxHit=9
+MinHit=6
+Name=Stone Axe
+ObjType=2
+Texto=Damage 6/9
+Valor=2400
+ElementalTags=2
+
+[OBJ5223]
+GrhIndex=37898
+MaxHit=11
+MinHit=7
+Name=Cutlass
+ObjType=2
+Texto=Damage 7/11
+Valor=2700
+ElementalTags=2
+
+[OBJ5224]
+Name=Vólcora
+Texto=Damage 8/12
+GrhIndex=37844
+ObjType=2
+Valor=3000
+MaxHit=12
+MinHit=8
+ElementalTags=2
+
+[OBJ5225]
+Name=War Mace
+Texto=Two-handed weapon.
+GrhIndex=6959
+ObjType=2
+Valor=7200
+MaxHit=15
+MinHit=11
+ElementalTags=2
+
+[OBJ5226]
+Name=Greasword
+Texto=Two-handed weapon, shield not allowed.
+GrhIndex=25196
+ObjType=2
+Valor=3300
+MaxHit=13
+MinHit=10
+ElementalTags=2
+
+[OBJ5227]
+GrhIndex=1062
+MaxHit=1
+MinHit=1
+Name=Wooden Staff
+ObjType=2
+Texto=Increase your Magic Damage by 2%
+Valor=1200
+ElementalTags=2
+
+[OBJ5228]
+Name=Flute
+GrhIndex=538
+ObjType=30
+Valor=600
+Texto=Increases your Magic Damage by 1%
+ElementalTags=2
+
+[OBJ5229]
+Name=Lute
+GrhIndex=539
+ObjType=30
+Valor=600
+Texto=Increases your Magic Damage by 1%
+ElementalTags=2
+
+[OBJ5230]
+Name=Bow
+GrhIndex=17525
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=600
+Proyectil=1
+Municiones=1
+Texto=Damage 1/3
+ElementalTags=4
+
+[OBJ5231]
+Name=Compund Bow
+GrhIndex=38735
+ObjType=2
+MinHit=4
+MaxHit=8
+Valor=4800
+Proyectil=1
+Municiones=1
+Texto=Damage 4/8
+ElementalTags=4
+
+[OBJ5232]
+Name=Dagger
+GrhIndex=5603
+ObjType=2
+MinHit=1
+MaxHit=2
+Valor=60
+Texto=Damage 1/2
+ElementalTags=4
+
+[OBJ5233]
+Name=Dagger +1
+GrhIndex=51996
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=1800
+Texto=Damage 1/3
+ElementalTags=4
+
+[OBJ5234]
+Name=Knuckle
+Texto=Damage 3/5
+GrhIndex=44577
+ObjType=2
+Valor=1800
+MaxHit=5
+MinHit=3
+ElementalTags=4
+
+[OBJ5235]
+Name=Bronze Knuckle
+GrhIndex=25678
+ObjType=2
+MaxHit=7
+MinHit=5
+Valor=3000
+Texto=Damage 5/7
+ElementalTags=4
+
+[OBJ5236]
+Name=Saber
+GrhIndex=563
+ObjType=2
+MinHit=5
+MaxHit=8
+Valor=1200
+Texto=Damage 5/8
+ElementalTags=4
+
+[OBJ5237]
+GrhIndex=44037
+MaxHit=9
+MinHit=6
+Name=Stone Axe
+ObjType=2
+Texto=Damage 6/9
+Valor=2400
+ElementalTags=4
+
+[OBJ5238]
+GrhIndex=37898
+MaxHit=11
+MinHit=7
+Name=Cutlass
+ObjType=2
+Texto=Damage 7/11
+Valor=2700
+ElementalTags=4
+
+[OBJ5239]
+Name=Vólcora
+Texto=Damage 8/12
+GrhIndex=37844
+ObjType=2
+Valor=3000
+MaxHit=12
+MinHit=8
+ElementalTags=4
+
+[OBJ5240]
+Name=War Mace
+Texto=Two-handed weapon.
+GrhIndex=6959
+ObjType=2
+Valor=7200
+MaxHit=15
+MinHit=11
+ElementalTags=4
+
+[OBJ5241]
+Name=Greasword
+Texto=Two-handed weapon, shield not allowed.
+GrhIndex=25196
+ObjType=2
+Valor=3300
+MaxHit=13
+MinHit=10
+ElementalTags=4
+
+[OBJ5242]
+GrhIndex=1062
+MaxHit=1
+MinHit=1
+Name=Wooden Staff
+ObjType=2
+Texto=Increase your Magic Damage by 2%
+Valor=1200
+ElementalTags=4
+
+[OBJ5243]
+Name=Flute
+GrhIndex=538
+ObjType=30
+Valor=600
+Texto=Increases your Magic Damage by 1%
+ElementalTags=4
+
+[OBJ5244]
+Name=Lute
+GrhIndex=539
+ObjType=30
+Valor=600
+Texto=Increases your Magic Damage by 1%
+ElementalTags=4
+
+[OBJ5245]
+Name=Bow
+GrhIndex=17525
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=600
+Proyectil=1
+Municiones=1
+Texto=Damage 1/3
+ElementalTags=8
+
+[OBJ5246]
+Name=Compund Bow
+GrhIndex=38735
+ObjType=2
+MinHit=4
+MaxHit=8
+Valor=4800
+Proyectil=1
+Municiones=1
+Texto=Damage 4/8
+ElementalTags=8
+
+[OBJ5247]
+Name=Dagger
+GrhIndex=5603
+ObjType=2
+MinHit=1
+MaxHit=2
+Valor=60
+Texto=Damage 1/2
+ElementalTags=8
+
+[OBJ5248]
+Name=Dagger +1
+GrhIndex=51996
+ObjType=2
+MinHit=1
+MaxHit=3
+Valor=1800
+Texto=Damage 1/3
+ElementalTags=8
+
+[OBJ5249]
+Name=Knuckle
+Texto=Damage 3/5
+GrhIndex=44577
+ObjType=2
+Valor=1800
+MaxHit=5
+MinHit=3
+ElementalTags=8
+
+[OBJ5250]
+Name=Bronze Knuckle
+GrhIndex=25678
+ObjType=2
+MaxHit=7
+MinHit=5
+Valor=3000
+Texto=Damage 5/7
+ElementalTags=8
+
+[OBJ5251]
+Name=Saber
+GrhIndex=563
+ObjType=2
+MinHit=5
+MaxHit=8
+Valor=1200
+Texto=Damage 5/8
+ElementalTags=8
+
+[OBJ5252]
+GrhIndex=44037
+MaxHit=9
+MinHit=6
+Name=Stone Axe
+ObjType=2
+Texto=Damage 6/9
+Valor=2400
+ElementalTags=8
+
+[OBJ5253]
+GrhIndex=37898
+MaxHit=11
+MinHit=7
+Name=Cutlass
+ObjType=2
+Texto=Damage 7/11
+Valor=2700
+ElementalTags=8
+
+[OBJ5254]
+Name=Vólcora
+Texto=Damage 8/12
+GrhIndex=37844
+ObjType=2
+Valor=3000
+MaxHit=12
+MinHit=8
+ElementalTags=8
+
+[OBJ5255]
+Name=War Mace
+Texto=Two-handed weapon.
+GrhIndex=6959
+ObjType=2
+Valor=7200
+MaxHit=15
+MinHit=11
+ElementalTags=8
+
+[OBJ5256]
+Name=Greasword
+Texto=Two-handed weapon, shield not allowed.
+GrhIndex=25196
+ObjType=2
+Valor=3300
+MaxHit=13
+MinHit=10
+ElementalTags=8
+
+[OBJ5257]
+GrhIndex=1062
+MaxHit=1
+MinHit=1
+Name=Wooden Staff
+ObjType=2
+Texto=Increase your Magic Damage by 2%
+Valor=1200
+ElementalTags=8
+
+[OBJ5258]
+Name=Flute
+GrhIndex=538
+ObjType=30
+Valor=600
+Texto=Increases your Magic Damage by 1%
+ElementalTags=8
+
+[OBJ5259]
+Name=Lute
+GrhIndex=539
+ObjType=30
+Valor=600
+Texto=Increases your Magic Damage by 1%
+ElementalTags=8
+
+[OBJ5260]
+Name=Elemental Weapons Chest (Fire)
+Texto=This chest contains tier 1 weapons with Fire element
+GrhIndex=49233
+ObjType=48
+Agarrable=0
+
+[OBJ5261]
+Name=Elemental Weapons Chest (Water)
+Texto=This chest contains tier 1 weapons with Water element
+GrhIndex=49233
+ObjType=48
+Agarrable=0
+
+[OBJ5262]
+Name=Elemental Weapons Chest (Earth)
+Texto=This chest contains tier 1 weapons with Earth element
+GrhIndex=49233
+ObjType=48
+Agarrable=0
+
+[OBJ5263]
+Name=Elemental Weapons Chest (Air)
+Texto=This chest contains tier 1 weapons with Air element
+GrhIndex=49233
+ObjType=48
+Agarrable=0
+
+[OBJ5988]
+Name=Golem Heart
+Texto=Vital core with ancient stone energy.
+GrhIndex=38424
+ObjType=100
+Valor=6300
+
+[OBJ5989]
+Name=Salamander Scale
+Texto=Scale resistant to infernal flames.
+GrhIndex=38425
+ObjType=100
+Valor=190
+
+[OBJ5991]
+Name=Mantis Arm
+Texto=Sharp limb from a swift creature.
+GrhIndex=38420
+ObjType=100
+Valor=130
 
 [OBJ5994]
 Name=Tunic of the Cross
@@ -59661,6 +60406,210 @@ GrhIndex=609
 Valor=48000
 Objtype=24
 Texto=Trap your enemies (maximum level 24)
+
+[OBJ9207]
+Name=Open door
+GrhIndex=9201
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9208]
+Name=Door closed
+GrhIndex=9195
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9209]
+Name=locked door house 2 of Old Banderbill
+GrhIndex=9195
+ObjType=6
+llave=1
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9210]
+Name=Open door
+GrhIndex=9201
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9211]
+Name=Door closed
+GrhIndex=9195
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9212]
+Name=locked door house 8 of old banderbill
+GrhIndex=9195
+ObjType=6
+llave=1
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9213]
+Name=Old Banderbill House Key 12
+GrhIndex=509
+ObjType=9
+Texto=Llave de la casa 12 de la vieja Banderbill
+
+[OBJ9214]
+Name=Open door
+GrhIndex=9201
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9215]
+Name=Door closed
+GrhIndex=9195
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9216]
+Name=locked door house 13 of Old banderbill
+GrhIndex=9195
+ObjType=6
+llave=1
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9217]
+Name=Old Banderbill House Key 14
+GrhIndex=509
+ObjType=9
+Texto=Llave de la casa 14 de la vieja Banderbill
+
+[OBJ9218]
+Name=Visual Trap (M)
+GrhIndex=5279
+RopajeHumano=1095
+RopajeElfo=1095
+RopajeElfoOscuro=2541
+RopajeEnano=2509
+RopajeOrco=2525
+RopajeGnomo=2509
+RopajeHumana=1095
+RopajeElfa=1095
+RopajeElfaOscura=2541
+RopajeEnana=2509
+RopajeOrca=2525
+RopajeGnoma=2509
+ObjType=3
+MAXDEF=25
+MINDEF=20
+Valor=10000
+Texto=Trampa Visual (M)
+
+[OBJ9219]
+Name=Vestment (E/G) (newbie)
+GrhIndex=59361
+RopajeHumano=16
+RopajeElfo=16
+RopajeElfoOscuro=1546
+RopajeEnano=3105
+RopajeOrco=2560
+RopajeGnomo=3105
+RopajeHumana=2686
+RopajeElfa=2686
+RopajeElfaOscura=2734
+RopajeEnana=2702
+RopajeOrca=2718
+RopajeGnoma=2702
+ObjType=3
+MAXDEF=0
+MINDEF=0
+Valor=0
+Texto=Vestimentas de Bajo (Newbie)
+
+[OBJ9220]
+Name=Open door
+GrhIndex=5592
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9221]
+Name=Door closed
+GrhIndex=5593
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9222]
+Name=locked door house 6 of Lilliandor
+GrhIndex=5593
+ObjType=6
+llave=1
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9223]
+Name=Open door
+GrhIndex=5592
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9224]
+Name=Door closed
+GrhIndex=5593
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9225]
+Name=locked door house 3 of Tiama
+GrhIndex=5593
+ObjType=6
+llave=1
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9226]
+Name=Tiama House Key 4
+GrhIndex=509
+ObjType=9
+Texto=Llave de la casa 4 de Tiama
+
+[OBJ9227]
+Name=Open door
+GrhIndex=5592
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9228]
+Name=Door closed
+GrhIndex=5593
+ObjType=6
+llave=0
+Agarrable=1
+Texto=This honorable house belongs to
+
+[OBJ9229]
+Name=locked door house 4 of Tiama
+GrhIndex=5593
+ObjType=6
+llave=1
+Agarrable=1
+Texto=This honorable house belongs to
 
 [NPC9000]
 Name=Master Carpenter and Woodcutter <Carpinteria y Tala>
