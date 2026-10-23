@@ -9371,21 +9371,21 @@ MinHIT=75
 Nivel=24
 
 [NPC1052]
-Name=Gru <El Brujo>
+Name=Gru <O Bruxo>
 Body=5294
 Head=0
 BodyIdle=5292
 Ataque1=5293
-HP=1
+HP=4500
 BodyOnLand=5294
 BodyOnWater=5654
 BodyOnWaterIdle=5652
 Ataque2=5653
-EXP=0
-ORO=00
-MaxHIT=1
-MinHIT=1
-Nivel=20
+EXP=3600
+ORO=80
+MaxHIT=95
+MinHIT=60
+Nivel=32
 
 [NPC1053]
 Name=Nilus
@@ -15972,6 +15972,18 @@ IconoIndex=35756
 MinSkill=0
 StaRequerido=400
 
+[HECHIZO239]
+Nombre=Ataque de veneno inferior (NPCS)
+Desc=Causa 5 a 8 pontos de dano à vítima.
+PropioMsg=Você jogou veneno em você.
+HechizeroMsg=Você lançou veneno em
+TargetMsg=Ele atirou em um veneno em você.
+PalabrasMagicas=TOX ZAP
+MinSkill=20
+ManaRequerido=30
+StaRequerido=5
+IconoIndex=35727
+
 [HECHIZO240]
 Nombre=Invisibilidade
 Desc=Torna o alvo invisível. Efeito não permanente.
@@ -17475,7 +17487,7 @@ GrhIndex=538
 Objtype=30
 Valor=9600
 MaderaElfica=2100
-Texto=Aumenta el daño mágico un 7%.
+Texto=Aumente seu dano mágico em 8%
 Madera=1000
 
 [OBJ41]
@@ -17484,7 +17496,7 @@ GrhIndex=30866
 Valor=8700
 Objtype=30
 MaderaElfica=2100
-Texto=Aumenta el daño mágico un 6%.
+Texto=Aumente seu dano mágico em 7%
 Madera=700
 
 [OBJ42]
@@ -20092,7 +20104,7 @@ GrhIndex=685
 Objtype=30
 Valor=4200
 Madera=1400
-Texto=Aumenta el daño mágico un 4%.
+Texto=Aumente seu dano mágico em 4%.
 
 [OBJ470]
 Name=Palmera
@@ -20773,7 +20785,7 @@ GrhIndex=686
 Objtype=30
 Valor=4500
 Madera=1500
-Texto=Aumenta el daño mágico un 5%.
+Texto=Aumente seu dano mágico em 4%
 
 [OBJ542]
 GrhIndex=0
@@ -20907,7 +20919,7 @@ Objtype=2
 MinHIT=6
 MaxHIT=9
 Valor=0
-Texto=Daga Ígnea
+Texto=Dano 6/9
 
 [OBJ561]
 Name=Carta Glazrath
@@ -27329,7 +27341,7 @@ GrhIndex=900
 Objtype=2
 MinHIT=6
 MaxHIT=8
-Valor=50000
+Valor=1000
 Texto=Daga
 
 [OBJ1788]
@@ -27373,7 +27385,7 @@ Objtype=2
 MinHIT=13
 MaxHIT=18
 Valor=0
-Texto=Hoja Preste
+Texto=Dano 13/18
 
 [OBJ1800]
 GrhIndex=1062
@@ -27434,7 +27446,7 @@ Objtype=2
 MinHIT=15
 MaxHIT=20
 Valor=0
-Texto=Espada Legendaria Exclusiva de Guerreros
+Texto=Dano 15/20
 
 [OBJ1806]
 Name=Báculo de Aqualin
@@ -27461,7 +27473,9 @@ Objtype=2
 MinHIT=1
 MaxHIT=1
 Valor=0
-Texto=Aumenta tu daño mágico en un 9%
+Texto=Aumente seu dano mágico em 11%
+Madera=1500
+MaderaElfica=4100
 
 [OBJ1812]
 Name=Espada Test
@@ -27492,18 +27506,18 @@ Valor=3300
 SkHerreria=35
 LingH=55
 MaxHit=13
-MinHit=8
+MinHit=10
 
 [OBJ1819]
 Name=Machado longo
-Texto=Dano 8/12
+Texto=Dano 9/12
 GrhIndex=44010
 ObjType=2
-Valor=3000
+Valor=3300
 SkHerreria=35
-LingH=50
+LingH=55
 MaxHit=12
-MinHit=8
+MinHit=9
 
 [OBJ1820]
 Name=War Mace
@@ -27546,7 +27560,7 @@ GrhIndex=36764
 Objtype=2
 MinHIT=1
 MaxHIT=1
-Valor=50000
+Valor=1000
 Texto=Gran nigromante de la Legión Oscura.
 
 [OBJ1825]
@@ -27611,7 +27625,7 @@ GrhIndex=37034
 Objtype=2
 MinHIT=6
 MaxHIT=8
-Valor=50000
+Valor=1000
 Texto=Puñal de la Armada Real
 
 [OBJ1834]
@@ -27620,7 +27634,7 @@ GrhIndex=37061
 Objtype=2
 MinHIT=1
 MaxHIT=1
-Valor=50000
+Valor=1000
 Texto=Gran hechicero del Ejército Real.
 
 [OBJ1835]
@@ -27954,8 +27968,8 @@ Texto=Espada de los milagros
 Name=Espada Pirata
 GrhIndex=563
 Objtype=2
-MinHIT=6
-MaxHIT=8
+MinHIT=1
+MaxHIT=2
 Valor=1500
 Texto=Espada Pirata
 
@@ -27965,7 +27979,7 @@ GrhIndex=37925
 Objtype=2
 MinHIT=1
 MaxHIT=1
-Valor=30000
+Valor=3600
 Texto=Bastón Calavera
 
 [OBJ1867]
@@ -27986,7 +28000,7 @@ GrhIndex=38762
 Objtype=2
 MinHIT=10
 MaxHIT=12
-Valor=50000
+Valor=1000
 Proyectil=1
 Municiones=1
 Texto=Arco del Imperio
@@ -28023,7 +28037,7 @@ GrhIndex=38843
 Objtype=2
 MinHIT=10
 MaxHIT=12
-Valor=50000
+Valor=1000
 Proyectil=1
 Municiones=1
 Texto=Arco Infernal
@@ -28037,7 +28051,7 @@ MaxHIT=13
 Valor=0
 Proyectil=1
 Municiones=1
-Texto=Arco de los Vientos
+Texto=Danos 11/13
 
 [OBJ1876]
 Name=Arco do caçador
@@ -38578,7 +38592,7 @@ Objtype=2
 MinHIT=4
 MaxHIT=7
 Valor=0
-Texto=Daga de Mithril
+Texto=Dano 4/7
 
 [OBJ3390]
 Name=Yacimiento de Carbón
@@ -39298,7 +39312,7 @@ Objtype=2
 MinHIT=1
 MaxHIT=3
 Destruye=1
-Texto=Espada del Principiante
+Texto=Dano 1/3
 
 [OBJ3488]
 Name=Escudo del Principiante
@@ -39336,7 +39350,7 @@ MaxHIT=2
 Valor=0
 Proyectil=1
 Municiones=1
-Texto=Arco del Principiante
+Texto=Dano 1/2
 
 [OBJ3492]
 Name=Flecha del Principiante
@@ -39345,7 +39359,7 @@ Objtype=32
 MinHIT=1
 MaxHIT=2
 Valor=1
-Texto=Flecha del Principiante
+Texto=Dano 1/2
 
 [OBJ3493]
 Name=Sombrero del Principiante
@@ -40762,7 +40776,7 @@ MinHIT=1
 MaxHIT=2
 Valor=0
 Destruye=1
-Texto=Daga del Principiante
+Texto=Dano 1/2
 
 [OBJ3687]
 Name=Libro espíritu Dragón Púrpura
@@ -42955,19 +42969,19 @@ Texto=Item de Quest
 
 [OBJ3985]
 Name=Flauta
-GrhIndex=686
+GrhIndex=538
 Objtype=30
 Valor=600
 Madera=200
-Texto=Aumenta el daño mágico un 3%.
+Texto=Aumente seu dano mágico em 1%
 
 [OBJ3986]
 Name=Laúd
-GrhIndex=685
+GrhIndex=539
 Objtype=30
 Valor=600
 Madera=200
-Texto=Aumenta el daño mágico un 3%.
+Texto=Aumente seu dano mágico em 1%
 
 [OBJ3987]
 Name=Junta de Ferro

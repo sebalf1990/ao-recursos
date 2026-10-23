@@ -2542,7 +2542,49 @@ en_Desc=Increase the speed of the character.
 
 [HECHIZO238]'Libre
 
-[HECHIZO239]'Libre
+[HECHIZO239]'Logica propia (plan 23.004 Q3e): copia del HECHIZO267 con dano 5-8; textos del pack, el oficial no publica los valores
+Nombre=Ataque de Veneno Inferior (NPCS)
+Desc=Causa 5 a 8 puntos de daño a la víctima.
+PropioMsg=Has lanzado veneno sobre ti.
+HechizeroMsg=Has lanzado veneno sobre
+TargetMsg=disparó un veneno sobre vos.
+PalabrasMagicas=TOX ZAP
+en_Nombre=Poison Attack (NPCS)
+en_Desc=Causes 5 to 8 hit points to the target.
+en_PropioMsg=You have released poison on yourself.
+en_HechizeroMsg=You have thrown poison on
+en_TargetMsg=shot a poison on you.
+pt_Nombre=Ataque de veneno inferior (NPCS)
+pt_Desc=Causa 5 a 8 pontos de dano à vítima.
+pt_PropioMsg=Você jogou veneno em você.
+pt_HechizeroMsg=Você lançou veneno em
+pt_TargetMsg=Ele atirou em um veneno em você.
+fr_Nombre=Attaque de poison inférieure (PNJ)
+fr_Desc=Cause de 5 à 8 points de dommages à la victime.
+fr_PropioMsg=Vous vous avez jeté du poison.
+fr_HechizeroMsg=Vous avez libéré du poison
+fr_TargetMsg=Il vous a tiré un poison.
+it_Nombre=Attacco al veleno inferiore (NPC)
+it_Desc=Causare da 5 a 8 punti di danno alla vittima.
+it_PropioMsg=Hai lanciato veleno su di te.
+it_HechizeroMsg=Hai rilasciato veleno su
+it_TargetMsg=Ti ha sparato un veleno.
+Tipo=1
+WAV=249
+SubeHP=2
+FXgrh=86
+loops=0
+MinSkill=20
+ManaRequerido=30
+StaRequerido=5
+IconoIndex=35727
+Target=3
+AntiRm=1
+ParticleViaje=204
+Nowiki=1
+EOTID=38
+MinHP=5
+MaxHP=8
 
 [HECHIZO240] 'Del oficial (API 2026-10-02). Plan 17.001, ola de quests
 Nombre=Invisibilidad
@@ -5986,7 +6028,7 @@ pt_TargetMsg=Ele lançou o Apocalypse em você.
 fr_TargetMsg=Il a lancé Apocalypse sur vous.
 it_TargetMsg=Ha lanciato Apocalypse su di te.
 
-[HECHIZO223] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
+[HECHIZO223] 'Logica propia (plan 23.004 Q3b): fuego 50-70 en area radio 4 como HECHIZO229; el oficial no publica los valores
 Nombre=Tormenta de Fuego (Área)
 Desc=Causa de 50 a 70 puntos de daño sobre la víctima.
 ManaRequerido=0
@@ -6015,6 +6057,16 @@ it_Desc=Causa da 50 a 70 punti di danno alla vittima.
 it_HechizeroMsg=Hai lanciato la tempesta di fuoco
 it_PropioMsg=Hai lanciato la tempesta di fuoco su di te.
 it_TargetMsg=Ha gettato la tempesta di fuoco su di te.
+Tipo=5
+Target=4
+SubeHP=2
+MinHP=50
+MaxHP=70
+AreaAfecta=1
+AreaRadio=4
+WAV=27
+FXgrh=7
+loops=0
 
 [HECHIZO224] 'Reconstruido de localindex oficial 2026-06-10; logica server pendiente (repo capado)
 ManaRequerido=0

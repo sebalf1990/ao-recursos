@@ -1734,6 +1734,8 @@ Drop1=1217-50-1-1
 Drop2=1218-50-1-1
 PoderAtaque=400
 PoderEvasion=275
+LanzaSpells=1
+Sp1=4
 
 [NPC401]
 Name=Pedestal
@@ -2570,6 +2572,9 @@ NumDropQuest=1
 DropQuest1=142-2502-1-50
 PoderAtaque=210
 PoderEvasion=147
+LanzaSpells=1
+Sp1=50
+IntervaloLanzarHechizo=3500
 
 [NPC514] 'Esqueleto
 Name=Esqueleto
@@ -3265,6 +3270,10 @@ PoderEvasion=160
 '
 '
 '--- fin copia privada ---
+LanzaSpells=2
+Sp1=25
+Sp2=51
+IntervaloLanzarHechizo=2500
 
 [NPC530] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Goruk
@@ -3497,6 +3506,10 @@ PoderEvasion=180
 DropCount=2
 Drop1=37-20-15-50
 Drop2=38-20-10-35
+LanzaSpells=2
+Sp1=25
+Sp2=41
+IntervaloLanzarHechizo=3500
 
 [NPC535] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Glacius
@@ -4070,6 +4083,8 @@ Drop1=481-50-1-1
 Drop2=2806-50-1-1
 PoderAtaque=400
 PoderEvasion=275
+LanzaSpells=1
+Sp1=4
 
 [NPC550] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Serath <Quest de Lobos>
@@ -4293,6 +4308,9 @@ PoderAtaque=130
 PoderEvasion=110
 NumDropQuest=1
 DropQuest1=37-2262-1-40
+LanzaSpells=1
+Sp1=3
+IntervaloLanzarHechizo=2600
 
 [NPC556] 'NPC
 Name=Fuego Fatuo
@@ -5029,6 +5047,8 @@ NumDropQuest=1
 DropQuest1=198-2534-1-40
 PoderAtaque=160
 PoderEvasion=115
+LanzaSpells=1
+Sp1=41
 
 [NPC589] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=5488
@@ -5267,6 +5287,8 @@ PoderAtaque=165
 PoderEvasion=120
 NumDropQuest=1
 DropQuest1=329-2812-1-20
+LanzaSpells=1
+Sp1=41
 
 [NPC596] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Cofre de Recompensa Patreon
@@ -5808,6 +5830,8 @@ MinHIT=55
 MinHp=3500
 PoderAtaque=170
 PoderEvasion=125
+LanzaSpells=1
+Sp1=40
 [NPC626] 'esferas del Dragón
 Name=Esfera del Dragón 7
 Head=0
@@ -6772,10 +6796,6 @@ MinHP=900
 MaxHP=900
 MaxHIT=20
 MinHIT=15
-LanzaSpells=2
-Sp1=25
-Sp2=51
-IntervaloLanzarHechizo=3000
 PoderAtaque=100
 PoderEvasion=60
 Humanoide=1
@@ -6786,6 +6806,9 @@ NpcType=0
 Nivel=15
 NumDropQuest=1
 DropQuest1=199-2702-1-2
+LanzaSpells=1
+Sp1=25
+IntervaloLanzarHechizo=4000
 
 [NPC671] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=4357
@@ -7431,6 +7454,9 @@ NumDropQuest=0
 'MagicDef=10
 '
 '--- fin copia privada ---
+LanzaSpells=1
+Sp1=28
+IntervaloLanzarHechizo=7000
 
 [NPC722] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Espectro
@@ -7620,10 +7646,6 @@ MaxHIT=50
 MinHIT=25
 PoderAtaque=85
 PoderEvasion=80
-LanzaSpells=2
-IntervaloLanzarHechizo=1000
-Sp1=41
-Sp2=25
 Humanoide=1
 AguaValida=0
 NPCLVL=6
@@ -7640,6 +7662,9 @@ DropCount=1
 Drop1=1653-650-1-1
 NumDropQuest=1
 DropQuest1=286-2475-1-40
+LanzaSpells=1
+Sp1=3
+IntervaloLanzarHechizo=5000
 
 [NPC752] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Laican
@@ -8113,6 +8138,10 @@ Nivel=30
 PoderAtaque=180
 PoderEvasion=140
 ElementalTags=4
+LanzaSpells=2
+Sp1=25
+Sp2=28
+IntervaloLanzarHechizo=3500
 
 [NPC927] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Chancho <Devorador Voraz>
@@ -8274,6 +8303,9 @@ PoderAtaque=235
 PoderEvasion=175
 NumDropQuest=1
 DropQuest1=420-512-1-20
+LanzaSpells=1
+Sp1=4
+IntervaloLanzarHechizo=4000
 [NPC935]'Serpiente Roja
 Name=Serpiente Collet
 ShowName=0
@@ -8312,6 +8344,9 @@ DropCount=1
 Drop1=890-10-1-1
 NumDropQuest=1
 DropQuest1=139-4300-1-1
+LanzaSpells=1
+Sp1=291
+IntervaloLanzarHechizo=3500
 
 [NPC936]
 Name=Aguila
@@ -8637,6 +8672,9 @@ PoderEvasion=140
 ElementalTags=1
 IntervaloRespawnMin=60
 IntervaloRespawn=300
+LanzaSpells=1
+Sp1=223
+IntervaloLanzarHechizo=8000
 
 [NPC949] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Verraco
@@ -10583,6 +10621,9 @@ Alineacion=0
 Nivel=28
 PoderAtaque=190
 PoderEvasion=150
+LanzaSpells=1
+Sp1=40
+IntervaloLanzarHechizo=6000
 
 [NPC1048]
 Name=Abominación
@@ -10683,23 +10724,39 @@ Heading=3
 ShowName=1
 AguaValida=1
 
-[NPC1052] 'Realineado a oficial 2026-06-08 (slot repropuesto)
-Name=Gru <El Brujo>
+[NPC1052] 'Realineado a oficial 2026-06-08 (slot repropuesto); stats y hechizo de la API 2026-10-02 (plan 23.004 Q3c), sin el drop de carta
+Name=Gru
 Body=5294
 Head=0
 BodyIdle=5292
 Ataque1=5293
-MaxHp=1
-MinHp=1
+MaxHp=4500
+MinHp=4500
 BodyOnLand=5294
 BodyOnWater=5654
 BodyOnWaterIdle=5652
 Ataque2=5653
-GiveEXP=0
-GiveGLD=00
-MaxHIT=1
-MinHIT=1
-Nivel=20
+GiveEXP=3600
+GiveGLD=80
+MaxHIT=95
+MinHIT=60
+Nivel=32
+DEF=5
+PoderAtaque=195
+PoderEvasion=145
+Heading=3
+Movement=2
+AguaValida=1
+Attackable=1
+Hostile=1
+ShowName=1
+LanzaSpells=1
+Sp1=25
+IntervaloLanzarHechizo=6200
+en_Name=Gru <The Witcher>
+fr_Name=Gru <Le Sorcier>
+it_Name=Gru <Il Mago>
+pt_Name=Gru <O Bruxo>
 
 [NPC1053] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Nilus
@@ -12503,18 +12560,17 @@ MaxHP=3000
 MaxHIT=150
 MinHIT=95
 DEF=0
-LanzaSpells=2
-Sp1=25
-Sp2=41
 PoderAtaque=170
 PoderEvasion=145
 Humanoide=1
-IntervaloLanzarHechizo=3000
 NPCLVL=30
 BodyIdle=6020
 Ataque1=6021
 NpcType=0
 GiveEXPClan=1
+LanzaSpells=1
+Sp1=41
+IntervaloLanzarHechizo=3000
 
 [NPC1154] 'Fermin
 Name=Fermin <Quest Maritima>
@@ -13222,6 +13278,9 @@ GiveGLD=9
 MinHp=300
 PoderAtaque=50
 PoderEvasion=32
+LanzaSpells=1
+Sp1=43
+IntervaloLanzarHechizo=2600
 [NPC1194] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Orca Granjera
 Body=3103
@@ -13638,6 +13697,10 @@ DisabledInBattleServer=1
 MinHp=2500
 PoderAtaque=140
 PoderEvasion=135
+LanzaSpells=1
+Sp1=15
+RangoSpell=16
+IntervaloLanzarHechizo=3500
 [NPC1217]
 Name=Landon <Shop Patreon>
 En_name=Merchant <Shop Patreon>
@@ -15079,7 +15142,6 @@ OrigPos=1
 Heading=3
 Movement=3
 Attackable=1
-RangoSpell=16
 Hostile=1
 Alineacion=0
 GiveEXP=1630
@@ -15090,9 +15152,6 @@ MaxHIT=50
 MinHIT=30
 PoderAtaque=130
 PoderEvasion=125
-LanzaSpells=1
-Sp1=267
-IntervaloLanzarHechizo=3500
 Humanoide=1
 IntervaloRespawn=300
 IntervaloRespawnMin=90
@@ -15104,6 +15163,10 @@ Nivel=28
 DropCount=1
 Drop1=5997-1-1-5
 DisabledInBattleServer=1
+LanzaSpells=1
+Sp1=32
+RangoSpell=16
+IntervaloLanzarHechizo=8000
 
 [NPC1309] Niscalo (Amarillo)
 Name=Niscalo
@@ -15116,7 +15179,6 @@ OrigPos=1
 Heading=3
 Movement=3
 Attackable=1
-RangoSpell=16
 Hostile=0
 Alineacion=0
 GiveEXP=1630
@@ -15127,9 +15189,6 @@ MaxHIT=50
 MinHIT=30
 PoderAtaque=130
 PoderEvasion=135
-LanzaSpells=1
-Sp1=267
-IntervaloLanzarHechizo=3500
 Humanoide=1
 IntervaloRespawn=300
 IntervaloRespawnMin=90
@@ -15143,6 +15202,10 @@ DropCount=1
 Drop1=5998-1-1-4
 NumDropQuest=1
 DropQuest1=339-3526-1-40
+LanzaSpells=1
+Sp1=25
+RangoSpell=16
+IntervaloLanzarHechizo=6500
 
 [NPC1310] Comatus (Verde)
 Name=Comatus
@@ -15155,7 +15218,6 @@ CastAnimation=4256
 Heading=3
 Movement=3
 Attackable=1
-RangoSpell=16
 Hostile=1
 Alineacion=0
 GiveEXP=1400
@@ -15166,9 +15228,6 @@ MaxHIT=55
 MinHIT=25
 PoderAtaque=125
 PoderEvasion=130
-LanzaSpells=1
-Sp1=267
-IntervaloLanzarHechizo=3500
 Humanoide=1
 OrigPos=1
 IntervaloRespawn=300
@@ -15185,6 +15244,10 @@ Drop1=5999-1-1-3
 NumDropQuest=1
 DropQuest1=339-3525-1-50
 DisabledInBattleServer=1
+LanzaSpells=1
+Sp1=239
+RangoSpell=16
+IntervaloLanzarHechizo=7000
 
 [NPC1311] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Elfer <Mercader>
@@ -16545,6 +16608,9 @@ ElementalTags=2
 DEF=15
 IntervaloRespawnMin=60
 IntervaloRespawn=240
+LanzaSpells=2
+Sp1=25
+Sp2=51
 
 [NPC1363]'Gusano Nuevo
 Name=Dovu
@@ -19201,6 +19267,9 @@ DropCount=2
 Drop1=268-10000-1-1
 Drop2=5181-10000-1-1
 ElementalTags=4
+LanzaSpells=1
+Sp1=223
+IntervaloLanzarHechizo=3000
 [NPC816] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Varec
 Body=5551
@@ -19251,6 +19320,10 @@ MinHp=4400
 PoderAtaque=180
 PoderEvasion=140
 ElementalTags=8
+LanzaSpells=2
+Sp1=25
+Sp2=28
+IntervaloLanzarHechizo=3200
 [NPC822] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Bruin
 Body=4930
@@ -19746,6 +19819,8 @@ PoderAtaque=250
 PoderEvasion=155
 ElementalTags=1
 DEF=10
+LanzaSpells=1
+Sp1=32
 [NPC1471] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Hydrot
 Body=5009
@@ -19776,6 +19851,8 @@ PoderAtaque=250
 PoderEvasion=155
 ElementalTags=2
 DEF=10
+LanzaSpells=1
+Sp1=25
 [NPC1472] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Geot
 Body=5003
@@ -19806,6 +19883,8 @@ PoderAtaque=250
 PoderEvasion=155
 ElementalTags=4
 DEF=10
+LanzaSpells=1
+Sp1=26
 [NPC1473] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Eolot
 Body=5000
@@ -19836,6 +19915,8 @@ PoderAtaque=250
 PoderEvasion=155
 ElementalTags=8
 DEF=10
+LanzaSpells=1
+Sp1=57
 [NPC1599] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Mercader <Facciones>
 Desc=¡Bienvenido a mi tienda! Me encargo de ofrecer objetos únicos para tu facción.
@@ -20821,6 +20902,10 @@ IntervaloRespawn=300
 IntervaloRespawnMin=240
 TierraInvalida=0
 ElementalTags=1
+LanzaSpells=2
+Sp1=53
+Sp2=15
+IntervaloLanzarHechizo=5000
 
 [NPC823] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Luzlum
@@ -21095,6 +21180,9 @@ GiveGLD=0
 PoderAtaque=250
 PoderEvasion=185
 GiveEXPClan=3
+LanzaSpells=1
+Sp1=53
+IntervaloLanzarHechizo=5000
 
 [NPC852] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, hechizos
 Name=Phyrus
@@ -21117,6 +21205,9 @@ PoderEvasion=190
 DEF=20
 GiveEXPClan=4
 AguaValida=0
+LanzaSpells=1
+Sp1=32
+IntervaloLanzarHechizo=6500
 
 [NPC853] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Dorim II <Rey de Morgrim>
