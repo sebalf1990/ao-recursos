@@ -1026,6 +1026,7 @@ MinHit=1
 Crucial=1
 WeaponType=2
 JailObject=1
+Anim=43
 
 [OBJ45]
 Name=Hacha de Pino Nudoso
@@ -3374,6 +3375,7 @@ Name=Vara de Cedro
 ObjType=2
 Texto=Aumenta el Daño Mágico un 3%.
 Valor=7500
+Anim=53
 
 [OBJ226]
 GrhIndex=37250
@@ -3383,6 +3385,7 @@ Name=Bastón Sequoia
 ObjType=2
 Texto=Aumenta el Daño Mágico un 5%.
 Valor=7500
+Anim=92
 
 [OBJ227]
 GrhIndex=37358
@@ -3393,6 +3396,7 @@ Name=Vara de Ébano
 ObjType=2
 Texto=Aumenta el Daño Mágico un 7%.
 Valor=7500
+Anim=96
 
 [OBJ228]
 Name=Yacimiento de Oro
@@ -13229,6 +13233,7 @@ Instransferible=1
 en_Name=Beginner Knuckles
 en_Texto=Beginner Knuckles
 Texto=Daño 1/2
+Anim=152
 
 [OBJ1360]
 Name=Teleport a Newbie Dungeon (Nivel 2)
@@ -18568,6 +18573,7 @@ MaderaElfica=2400
 MaxHit=1
 MinHit=1
 MagicPower=3
+Anim=61
 
 [OBJ1837] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=30866
@@ -39029,7 +39035,7 @@ Objtype=2
 subtipo=2
 MinHIT=1
 MaxHIT=3
-Anim=1
+Anim=186
 newbie=1
 CP7=DRUIDA
 CP8=BARDO
@@ -63059,7 +63065,7 @@ MinArmorPenetrationFlat=5
 ExtraCritAndStabChance=10
 ' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ367)
 WeaponType=2
-Anim=49
+Anim=208
 Apuñala=1
 MinELV=33
 CP1=GUERRERO
@@ -64754,6 +64760,7 @@ it_Name=Dagger oscuro
 it_Texto=Danno 5/8
 pt_Name=Dagger escura
 pt_Texto=Dano 5/8
+Anim=169
 
 [OBJ1112] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Armadura Dorada
@@ -64802,7 +64809,7 @@ pt_Name=Espada prateada +1
 pt_Texto=Danos 11/20
 ' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ126)
 WeaponType=1
-Anim=4
+Anim=155
 MinELV=33
 CP1=BANDIDO
 CP2=ASESINO
@@ -65834,7 +65841,7 @@ pt_Name=Adamantine Knuckles
 pt_Texto=Dano 14/15
 ' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1825)
 WeaponType=8
-Anim=76
+Anim=107
 Subtipo=2
 MinELV=33
 CP1=GUERRERO
@@ -74886,7 +74893,7 @@ SKHerreria=100
 ExtraCritAndStabChance=10
 ' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1825)
 WeaponType=8
-Anim=76
+Anim=201
 Subtipo=2
 MinELV=33
 CP1=GUERRERO
@@ -74914,7 +74921,7 @@ Municiones=1
 ' Reparado 06.002: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1876)
 WeaponType=3
 BOWCATEGORY=5
-Anim=120
+Anim=211
 MinELV=33
 DosManos=0
 CP1=GUERRERO
@@ -74939,7 +74946,7 @@ MaxHit=1
 MinHit=1
 ' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1788)
 WeaponType=4
-Anim=6
+Anim=205
 Revive=1
 MagicDamageBonus=9
 MinELV=25
@@ -74966,7 +74973,7 @@ MaxHit=20
 MinHit=12
 ' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ126)
 WeaponType=1
-Anim=4
+Anim=207
 MinELV=33
 CP1=BANDIDO
 CP2=ASESINO
@@ -74989,7 +74996,7 @@ MaxHit=18
 MinHit=12
 ' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1821)
 WeaponType=1
-Anim=47
+Anim=200
 DosManos=1
 MinELV=25
 CP1=PALADIN
@@ -75013,7 +75020,7 @@ MaxHit=16
 MinHit=12
 ' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ400)
 WeaponType=1
-Anim=197
+Anim=211
 MinELV=33
 CP1=GUERRERO
 CP2=PALADIN
@@ -75036,7 +75043,7 @@ MaxHit=17
 MinHit=11
 ' Reparado 07.001 ola 2: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1246)
 WeaponType=7
-Anim=133
+Anim=215
 MinELV=25
 CP1=BANDIDO
 CP2=ASESINO
