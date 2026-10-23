@@ -15243,7 +15243,7 @@ GrhIndex=538
 Objtype=30
 Valor=9600
 MaderaElfica=2100
-Texto=Aumenta el daño mágico un 7%.
+Texto=Aumenta tu Daño Mágico un 8%
 Madera=1000
 
 [OBJ41]
@@ -15252,7 +15252,7 @@ GrhIndex=30866
 Valor=8700
 Objtype=30
 MaderaElfica=2100
-Texto=Aumenta el daño mágico un 6%.
+Texto=Aumenta tu Daño Mágico un 7%
 Madera=700
 
 [OBJ42]
@@ -17860,7 +17860,7 @@ GrhIndex=685
 Objtype=30
 Valor=4200
 Madera=1400
-Texto=Aumenta el daño mágico un 4%.
+Texto=Aumenta tu Daño Mágico un 4%.
 
 [OBJ470]
 Name=Palmera
@@ -18541,7 +18541,7 @@ GrhIndex=686
 Objtype=30
 Valor=4500
 Madera=1500
-Texto=Aumenta el daño mágico un 5%.
+Texto=Aumenta tu Daño Mágico un 4%
 
 [OBJ542]
 GrhIndex=0
@@ -18675,7 +18675,7 @@ Objtype=2
 MinHIT=6
 MaxHIT=9
 Valor=0
-Texto=Daga Ígnea
+Texto=Daño 6/9
 
 [OBJ561]
 Name=Carta Glazrath
@@ -25141,7 +25141,7 @@ Objtype=2
 MinHIT=13
 MaxHIT=18
 Valor=0
-Texto=Hoja Preste
+Texto=Daño 13/18
 
 [OBJ1800]
 GrhIndex=1062
@@ -25202,7 +25202,7 @@ Objtype=2
 MinHIT=15
 MaxHIT=20
 Valor=0
-Texto=Espada Legendaria Exclusiva de Guerreros
+Texto=Daño 15/20
 
 [OBJ1806]
 Name=Báculo de Aqualin
@@ -25805,7 +25805,7 @@ MaxHIT=13
 Valor=0
 Proyectil=1
 Municiones=1
-Texto=Arco de los Vientos
+Texto=Daño 11/13
 
 [OBJ1876]
 Name=Arco de Cazador
@@ -36346,7 +36346,7 @@ Objtype=2
 MinHIT=4
 MaxHIT=7
 Valor=0
-Texto=Daga de Mithril
+Texto=Daño 4/7
 
 [OBJ3390]
 Name=Yacimiento de Carbón
@@ -37066,7 +37066,7 @@ Objtype=2
 MinHIT=1
 MaxHIT=3
 Destruye=1
-Texto=Espada del Principiante
+Texto=Daño 1/3
 
 [OBJ3488]
 Name=Escudo del Principiante
@@ -37104,7 +37104,7 @@ MaxHIT=2
 Valor=0
 Proyectil=1
 Municiones=1
-Texto=Arco del Principiante
+Texto=Daño 1/2
 
 [OBJ3492]
 Name=Flecha del Principiante
@@ -37113,7 +37113,7 @@ Objtype=32
 MinHIT=1
 MaxHIT=2
 Valor=1
-Texto=Flecha del Principiante
+Texto=Daño 1/2
 
 [OBJ3493]
 Name=Sombrero del Principiante
@@ -38530,7 +38530,7 @@ MinHIT=1
 MaxHIT=2
 Valor=0
 Destruye=1
-Texto=Daga del Principiante
+Texto=Daño 1/2
 
 [OBJ3687]
 Name=Libro espíritu Dragón Púrpura
