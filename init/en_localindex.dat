@@ -13811,6 +13811,7 @@ MinSkill=100
 ManaRequerido=550
 StaRequerido=300
 IconoIndex=35725
+StaPercentRequired=60
 
 [HECHIZO15]
 Nombre=Detectar Invisibilidad
