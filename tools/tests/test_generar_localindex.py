@@ -56,6 +56,9 @@ NPC_DAT = "\r\n".join([
     "Drop1=239-250-1-1",
     "Drop2=5181-1000-2-5",
     "DropQuest1=56-2834-1-40",
+    "NumQuiza=1",
+    "QuizaDropea1=239",
+    "QuizaProb=10",
     "",
 ])
 
@@ -169,6 +172,13 @@ class GenerarLocalindexTest(unittest.TestCase):
             self.assertEqual(npc.get("Drop1"), "239-250-1-1", lang)
             self.assertEqual(npc.get("Drop2"), "5181-1000-2-5", lang)
             self.assertNotIn("DropQuest1", npc, lang)
+
+    def test_dead_quiza_drop_keys_are_not_copied(self) -> None:
+        # Neither the server nor the client reads them since the bestiary moved to DropCount/DropN (plan 23.003).
+        for lang in ["sp", "en", "pt", "fr", "it"]:
+            npc = dict(self.out(lang)["NPC1"])
+            for key in ["NumQuiza", "QuizaDropea1", "QuizaProb"]:
+                self.assertNotIn(key, npc, lang)
 
     def test_spell_stamina_percent_reaches_every_language(self) -> None:
         # Protocol.bas HECINF shows "60% de stamina total." for Resurrect when it is set.

@@ -55,12 +55,8 @@ def main(carpeta_base=None):
         "NPC": [
             "Name", "Desc",  "Body", "BodyIdle", "CambioAIdle", "Ataque1","BodyOnLand","BodyOnWater","BodyOnWaterIdle","Ataque2", "Head","DescClose",
             "EXP", "GiveEXPClan", "ORO", "HP", "MaxHIT", "MinHIT","IsGlobalQuestBoss",
-            "NoMapInfo", "NumQuiza", "PuedeInvocar",
-            "QuizaDropea1", "QuizaDropea2", "QuizaDropea3", "QuizaDropea4", "QuizaDropea5",
-            "QuizaDropea6", "QuizaDropea7", "QuizaDropea8", "QuizaDropea9",
-            "QuizaDropea10", "QuizaDropea11", "QuizaDropea12", "QuizaDropea13",
-            "QuizaDropea14", "QuizaDropea15", "QuizaDropea16",
-            "QuizaProb", "NROITEMS", "Obj1", "Obj2", "Obj3", "NpcType", "Comercia","Nivel", "DisabledInBattleServer",
+            "NoMapInfo", "PuedeInvocar",
+            "NROITEMS", "Obj1", "Obj2", "Obj3", "NpcType", "Comercia","Nivel", "DisabledInBattleServer",
             "DropCount"
         ] + [f"Drop{i}" for i in range(1, 13)],  # 12 = MaxDropCount in the server (Modulo_InventANDobj.bas)
         "OBJ": [
