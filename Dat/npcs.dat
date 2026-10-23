@@ -2601,7 +2601,7 @@ BodyIdle=5055
 Ataque1=5056
 NpcType=0
 
-[NPC515] ' Sirena
+[NPC515] ' Sirena | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Sirena
 ShowName=0
 en_Name=Mermaid
@@ -2635,12 +2635,14 @@ BodyIdle=5036
 Ataque1=5037
 NpcType=0
 GiveEXPClan=1
-Nivel=28
+Nivel=32
 DisabledInBattleServer=1
-DropCount=1
-Drop1=5180-1000-1-1
+DropCount=2
+Drop1=509-500-1-1
+Drop2=5180-1000-1-1
+ElementalTags=2
 
-[NPC516]
+[NPC516] 'Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Leviatán
 ShowName=0
 Body=5443
@@ -2657,7 +2659,7 @@ MinHP=6500
 MaxHP=6500
 MaxHIT=215
 MinHIT=145
-DEF=0
+DEF=10
 PoderAtaque=230
 PoderEvasion=150
 AguaValida=1
@@ -2670,14 +2672,17 @@ MagicResistance=70
 MagicDef=10
 Ataque1=5442
 NpcType=0
-Nivel=28
-DropCount=3
-Drop1=6105-8000-1-1
-Drop2=6188-8000-1-1
-Drop3=5180-1000-1-1
+Nivel=32
+DropCount=5
+Drop1=509-500-1-1
+Drop2=5180-1000-1-1
+Drop3=6105-8000-1-1
+Drop4=6188-8000-1-1
+Drop5=6489-10000-1-1
 NumDropQuest=2
 DropQuest1=233-2634-1-8
 DropQuest2=270-2796-1-200
+ElementalTags=2
 
 [NPC517] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Zulrik <Goblin Hechicero>
@@ -3261,7 +3266,7 @@ PoderEvasion=160
 '
 '--- fin copia privada ---
 
-[NPC530] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC530] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Goruk
 Body=4922
 BodyIdle=4920
@@ -3288,8 +3293,11 @@ PoderEvasion=145
 NumDropQuest=2
 DropQuest1=45-2271-1-2
 DropQuest2=139-2271-1-20
-DropCount=1
+DropCount=2
 Drop1=5180-1000-1-1
+Drop2=293-10000-1-1
+ElementalTags=2
+DEF=5
 
 [NPC531] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Kryos
@@ -4461,7 +4469,7 @@ Ataque1=5031
 NpcType=0
 Nivel=28
 
-[NPC561] 'Ogro Guerrero
+[NPC561] 'Ogro Guerrero | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Chasdo
 ShowName=0
 en_name=Chasdo
@@ -4477,7 +4485,7 @@ MinHP=5000
 MaxHP=5000
 MaxHIT=185
 MinHIT=125
-DEF=0
+DEF=10
 PoderAtaque=190
 PoderEvasion=145
 IntervaloAtaque=1800
@@ -4493,9 +4501,13 @@ GiveEXPClan=1
 BodyIdle=5027
 Ataque1=5028
 NpcType=0
-Nivel=28
+Nivel=30
 NumDropQuest=1
 DropQuest1=28-1848-1-3
+ElementalTags=4
+DropCount=2
+Drop1=5181-1000-1-1
+Drop2=6747-10000-1-1
 
 [NPC562] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Rathen <Quest de Bandido>
@@ -4763,7 +4775,7 @@ QuestNumber2=414
 '
 '--- fin copia privada ---
 
-[NPC575] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC575] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Gorath
 Body=5473
 BodyIdle=5471
@@ -4787,8 +4799,11 @@ Alineacion=0
 Nivel=28
 PoderAtaque=230
 PoderEvasion=150
-DropCount=1
+DropCount=2
 Drop1=5182-1000-1-1
+Drop2=562-10000-1-1
+ElementalTags=8
+DEF=10
 
 [NPC576] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Cobra
@@ -7690,7 +7705,7 @@ NumDropQuest=2
 DropQuest1=214-2231-1-2
 DropQuest2=286-2475-1-40
 
-[NPC755]'new gigante
+[NPC755]'new gigante | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Gigantor
 ShowName=0
 Head=0
@@ -7715,22 +7730,24 @@ MinHIT=160
 PoderAtaque=230
 PoderEvasion=150
 Humanoide=1
-IntervaloRespawn=60
+IntervaloRespawn=21600
 NPCLVL=15
 MagicResistance=37
 MagicDef=10
-IntervaloRespawn=360
-IntervaloRespawnMin=180
+IntervaloRespawnMin=7200
 
 '**********************Obj para destruir ***************************
 GiveEXPClan=30
 NpcType=0
 DisabledInBattleServer=1
-Nivel=28
-DropCount=1
+Nivel=32
+DropCount=2
 Drop1=5181-100-1-1
+Drop2=503-33-1-1
 NumDropQuest=1
 DropQuest1=270-2799-1-20
+ElementalTags=4
+DEF=25
 [NPC800]
 Name=Jarron
 En_Name=Vase
@@ -8066,10 +8083,11 @@ DropCount=1
 Drop1=465-1-1-1
 DisabledInBattleServer=1
 
-[NPC926] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC926] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Pixie de Tierra
-DropCount=1
+DropCount=2
 Drop1=5181-1000-1-1
+Drop2=566-10000-1-1
 NumDropQuest=1
 DropQuest1=80-490-1-40
 Body=5416
@@ -8091,9 +8109,10 @@ Attackable=1
 Hostile=1
 ReSpawn=0
 Alineacion=0
-Nivel=28
+Nivel=30
 PoderAtaque=180
 PoderEvasion=140
+ElementalTags=4
 
 [NPC927] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Chancho <Devorador Voraz>
@@ -8507,10 +8526,11 @@ it_Name=Scheletro guardiano
 '
 '--- fin copia privada ---
 
-[NPC947] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC947] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Pixie de Fuego
-DropCount=1
+DropCount=2
 Drop1=5179-1000-1-1
+Drop2=567-10000-1-1
 NumDropQuest=1
 DropQuest1=80-493-1-4
 Body=5419
@@ -8534,7 +8554,7 @@ ReSpawn=0
 Alineacion=0
 
 '--- COPIA PRIVADA ORIGINAL NPC949 (Eztbron Vientogélido) antes de oficializar; cliente oficial era Verraco ---
-Nivel=28
+Nivel=30
 PoderAtaque=180
 PoderEvasion=140
 '[NPC949]'NPC GEMA DE CLAN
@@ -8614,6 +8634,9 @@ PoderEvasion=140
 'PosOrig=1
 '
 '--- fin copia privada ---
+ElementalTags=1
+IntervaloRespawnMin=60
+IntervaloRespawn=300
 
 [NPC949] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Verraco
@@ -8997,7 +9020,7 @@ Ataque1=5257
 NpcType=0
 Nivel=20
 
-[NPC977] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC977] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Zevkar
 Body=5476
 Head=0
@@ -9022,11 +9045,14 @@ Alineacion=0
 Nivel=28
 PoderAtaque=235
 PoderEvasion=145
-DropCount=1
+DropCount=2
 Drop1=5182-1000-1-1
+Drop2=734-10000-1-1
 NumDropQuest=2
 DropQuest1=270-2795-1-50
 DropQuest2=275-3964-1-50
+ElementalTags=8
+DEF=10
 
 [NPC978] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Esqueto Vikingo
@@ -9080,7 +9106,7 @@ DropCount=1
 Drop1=2531-18-1-1
 Nivel=20
 
-[NPC981] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, ElementalTags
+[NPC981] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Scorvex
 Body=5597
 Head=0
@@ -9099,6 +9125,10 @@ GiveGLD=60
 PoderAtaque=165
 PoderEvasion=130
 Nivel=30
+ElementalTags=1
+DropCount=2
+Drop1=5179-1000-1-1
+Drop2=947-10000-1-1
 
 [NPC983] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Verdarra
@@ -9999,7 +10029,7 @@ NPCLVL=15
 MagicResistance=37
 MagicDef=10
 
-[NPC1030] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC1030] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Minotauro
 Body=5075
 BodyIdle=5073
@@ -10022,7 +10052,7 @@ ReSpawn=0
 Alineacion=0
 
 '--- COPIA PRIVADA ORIGINAL NPC1031 (Matriarca Drake) antes de oficializar; cliente oficial era Umbrax ---
-Nivel=28
+Nivel=30
 PoderAtaque=220
 PoderEvasion=145
 '[NPC1031]
@@ -10049,12 +10079,17 @@ PoderEvasion=145
 '
 '
 '--- fin copia privada ---
-DropCount=1
+DropCount=2
 Drop1=5181-1000-1-1
+Drop2=923-10000-1-1
 NumDropQuest=1
 DropQuest1=56-2834-1-40
+ElementalTags=4
+DEF=20
+IntervaloRespawnMin=45
+IntervaloRespawn=150
 
-[NPC1031] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1031] 'Realineado a oficial 2026-06-08 (slot repropuesto) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Umbrax
 Body=5078
 BodyIdle=5076
@@ -10067,7 +10102,7 @@ GiveEXPClan=30
 GiveGLD=2750
 MaxHIT=225
 MinHIT=165
-Nivel=28
+Nivel=30
 Heading=3
 Movement=2
 Attackable=1
@@ -10104,6 +10139,13 @@ DropQuest2=270-2799-1-40
 'MagicDef=10
 '
 '--- fin copia privada ---
+ElementalTags=4
+DEF=25
+IntervaloRespawnMin=7200
+IntervaloRespawn=21600
+DropCount=2
+Drop1=5181-100-1-1
+Drop2=924-10000-1-1
 
 [NPC1032] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Minotauro Joven
@@ -10161,7 +10203,7 @@ PoderEvasion=125
 '
 '--- fin copia privada ---
 
-[NPC1033] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC1033] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Minotauro Bárbaro
 Body=5072
 BodyIdle=5070
@@ -10183,7 +10225,7 @@ ReSpawn=0
 Alineacion=0
 
 '--- COPIA PRIVADA ORIGINAL NPC1034 (Minero Oscuro) antes de oficializar; cliente oficial era Minotauro Guerrero ---
-Nivel=28
+Nivel=30
 PoderAtaque=185
 PoderEvasion=135
 '[NPC1034]'
@@ -10215,10 +10257,13 @@ PoderEvasion=135
 'MagicDef=5
 '
 '--- fin copia privada ---
-DropCount=1
+DropCount=2
 Drop1=5181-1000-1-1
+Drop2=920-10000-1-1
+ElementalTags=4
+DEF=5
 
-[NPC1034] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC1034] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Minotauro Guerrero
 Body=5084
 BodyIdle=5082
@@ -10239,11 +10284,14 @@ Attackable=1
 Hostile=1
 ReSpawn=0
 Alineacion=0
-Nivel=28
+Nivel=30
 PoderAtaque=190
 PoderEvasion=140
-DropCount=1
+DropCount=2
 Drop1=5181-1000-1-1
+Drop2=921-10000-1-1
+ElementalTags=4
+DEF=15
 
 [NPC1035] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Minero Exiliado, mudado a NPC9055. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC537 del oficial, vida mas parecida: SUPUESTO; sin drops
 Name=Philiph
@@ -10450,7 +10498,7 @@ pt_Name=Salvar o pântano
 fr_Name=Sauver le marais
 it_Name=Salva della palude
 
-[NPC1046]
+[NPC1046] 'Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Ent
 ShowName=0
 Body=4925
@@ -10479,9 +10527,10 @@ NumQuiza=1
 QUIZADROPEA1=3466
 QuizaProb=46
 NpcType=0
-DropCount=2
+DropCount=3
 Drop1=2781-1-15-50
 Drop2=5181-1000-1-1
+Drop3=941-10000-1-1
 Nivel=28
 '[NPC1047]
 'Name=Espectro del Pantano
@@ -10506,6 +10555,9 @@ Nivel=28
 'MagicDef=10
 '
 '--- fin copia privada ---
+ElementalTags=4
+IntervaloRespawnMin=300
+IntervaloRespawn=900
 
 [NPC1047] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Espectro <Guarida>
@@ -16102,7 +16154,7 @@ Drop1=2519-10-1-1
 '--- fin copia privada ---
 Domable=133
 
-[NPC1353] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1353] 'Realineado a oficial 2026-06-08 (slot repropuesto) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Suido
 Body=5379
 Head=0
@@ -16117,8 +16169,9 @@ GiveGLD=115
 MaxHIT=140
 MinHIT=95
 Nivel=32
-DropCount=1
-Drop1=6260-1000-1-1
+DropCount=2
+Drop1=5180-1000-1-1
+Drop2=6260-2000-1-1
 DisabledInBattleServer=1
 Heading=3
 Movement=2
@@ -16130,6 +16183,7 @@ en_Name=Arctic Swain
 pt_Name=Swain do Ártico
 fr_Name=Swain Arctique
 it_Name=Swain Artico
+ElementalTags=2
 
 [NPC1354]'beholder nuevo blanco
 Name=Eyewarden Ártico
@@ -16457,10 +16511,11 @@ PoderEvasion=67
 '
 '--- fin copia privada ---
 
-[NPC1362] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC1362] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Pixie de Hielo
-DropCount=1
+DropCount=2
 Drop1=5180-1000-1-1
+Drop2=565-10000-1-1
 NumDropQuest=1
 DropQuest1=80-491-1-5
 Body=5391
@@ -16486,6 +16541,10 @@ Alineacion=0
 Nivel=32
 PoderAtaque=255
 PoderEvasion=160
+ElementalTags=2
+DEF=15
+IntervaloRespawnMin=60
+IntervaloRespawn=240
 
 [NPC1363]'Gusano Nuevo
 Name=Dovu
@@ -16520,7 +16579,7 @@ MagicDef=0
 NpcType=0
 Nivel=20
 
-[NPC1364] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1364] 'Realineado a oficial 2026-06-08 (slot repropuesto) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Golem de Hielo
 Body=4890
 Head=0
@@ -16544,8 +16603,13 @@ en_Name=Ice Golem
 pt_Name=Golem de Gelo
 fr_Name=Golem de Glace
 it_Name=Golem di Ghiaccio
-DropCount=1
+DropCount=2
 Drop1=5180-100-1-1
+Drop2=339-10000-1-1
+ElementalTags=2
+DEF=30
+IntervaloRespawnMin=10800
+IntervaloRespawn=25200
 
 [NPC1366] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Criptococo
@@ -16607,7 +16671,7 @@ PoderEvasion=150
 '
 '--- fin copia privada ---
 
-[NPC1367] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC1367] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Velocirraptor
 Body=4185
 Head=0
@@ -16629,12 +16693,15 @@ Attackable=1
 Hostile=1
 ReSpawn=0
 Alineacion=0
-Nivel=28
+Nivel=32
 DisabledInBattleServer=1
 PoderAtaque=200
 PoderEvasion=140
 DropCount=1
 Drop1=5181-1000-1-1
+ElementalTags=4
+IntervaloRespawnMin=20
+IntervaloRespawn=60
 
 [NPC1368]
 Name=Tiranosaurio Magnus
@@ -18996,7 +19063,7 @@ Drop1=2803-30-1-1
 MinHp=1400
 PoderAtaque=110
 PoderEvasion=85
-[NPC808] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC808] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Kobold Azul
 Body=5404
 Head=0
@@ -19020,7 +19087,8 @@ Nivel=20
 MinHp=900
 PoderAtaque=88
 PoderEvasion=60
-[NPC812] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+ElementalTags=2
+[NPC812] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Kobold Rojo
 Body=5407
 Head=0
@@ -19051,7 +19119,8 @@ DropCount=2
 Drop1=1820-327-1-1
 Drop2=5179-10000-1-1
 Nivel=20
-[NPC813] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+ElementalTags=1
+[NPC813] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Kobold Marron
 Body=5410
 Head=0
@@ -19074,7 +19143,8 @@ Drop2=5181-10000-1-1
 MinHp=1000
 PoderAtaque=90
 PoderEvasion=60
-[NPC814] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+ElementalTags=4
+[NPC814] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Kobold Gris
 Body=5413
 Head=0
@@ -19105,7 +19175,8 @@ Nivel=20
 DropCount=2
 Drop1=164-237-1-1
 Drop2=5182-10000-1-1
-[NPC815] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+ElementalTags=8
+[NPC815] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Miastrix
 Body=5440
 BodyIdle=5438
@@ -19126,8 +19197,10 @@ MinHIT=85
 MinHp=1800
 PoderAtaque=175
 PoderEvasion=100
-DropCount=1
-Drop1=5181-10000-1-1
+DropCount=2
+Drop1=268-10000-1-1
+Drop2=5181-10000-1-1
+ElementalTags=4
 [NPC816] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Varec
 Body=5551
@@ -19150,10 +19223,11 @@ Nivel=30
 MinHp=3000
 PoderAtaque=155
 PoderEvasion=140
-[NPC817] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC817] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Pixie de Viento
-DropCount=1
+DropCount=2
 Drop1=5182-1000-1-1
+Drop2=568-10000-1-1
 NumDropQuest=1
 DropQuest1=80-492-1-10
 Body=5422
@@ -19170,12 +19244,13 @@ Ataque1=5421
 MaxHp=4400
 GiveEXP=3300
 GiveGLD=120
-Nivel=28
+Nivel=30
 MaxHIT=130
 MinHIT=90
 MinHp=4400
 PoderAtaque=180
 PoderEvasion=140
+ElementalTags=8
 [NPC822] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Bruin
 Body=4930
@@ -19199,7 +19274,7 @@ PoderAtaque=180
 PoderEvasion=100
 NumDropQuest=1
 DropQuest1=230-539-1-5
-[NPC829] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC829] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Typhon
 Body=5449
 BodyIdle=5447
@@ -19215,16 +19290,19 @@ MaxHp=5500
 GiveEXP=3850
 GiveEXPClan=2
 GiveGLD=135
-Nivel=28
+Nivel=30
 MaxHIT=185
 MinHIT=150
-DropCount=3
-Drop1=6109-8000-1-1
-Drop2=3256-8000-1-1
-Drop3=5182-1000-1-1
+DropCount=4
+Drop1=5182-1000-1-1
+Drop2=6109-8000-1-1
+Drop3=3256-8000-1-1
+Drop4=904-10000-1-1
 MinHp=5500
 PoderAtaque=225
 PoderEvasion=150
+ElementalTags=8
+DEF=10
 [NPC844] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Minertopo
 Body=5527
@@ -19496,7 +19574,7 @@ GiveGLD=20
 MinHp=800
 PoderAtaque=110
 PoderEvasion=55
-[NPC1465] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC1465] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Blaze
 Body=5270
 Head=0
@@ -19514,8 +19592,9 @@ GiveEXP=1200
 GiveGLD=45
 MaxHIT=85
 MinHIT=60
-DropCount=1
-Drop1=5179-2000-1-1
+DropCount=2
+Drop1=5260-1000-1-1
+Drop2=5179-10000-1-1
 NumDropQuest=1
 DropQuest1=334-665-1-2
 DisabledInBattleServer=1
@@ -19523,7 +19602,8 @@ Nivel=20
 MinHp=2000
 PoderAtaque=120
 PoderEvasion=85
-[NPC1466] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+ElementalTags=1
+[NPC1466] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Névora
 Body=5267
 Head=0
@@ -19541,8 +19621,9 @@ GiveEXP=1200
 GiveGLD=45
 MaxHIT=85
 MinHIT=60
-DropCount=1
-Drop1=5180-2000-1-1
+DropCount=2
+Drop1=5261-1000-1-1
+Drop2=5180-10000-1-1
 NumDropQuest=1
 DropQuest1=334-666-1-2
 DisabledInBattleServer=1
@@ -19550,7 +19631,8 @@ Nivel=20
 MinHp=2000
 PoderAtaque=120
 PoderEvasion=85
-[NPC1467] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+ElementalTags=2
+[NPC1467] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Tellus
 Body=5276
 Head=0
@@ -19568,8 +19650,9 @@ GiveEXP=1200
 GiveGLD=45
 MaxHIT=85
 MinHIT=60
-DropCount=1
-Drop1=5181-2000-1-1
+DropCount=2
+Drop1=5262-1000-1-1
+Drop2=5181-10000-1-1
 NumDropQuest=1
 DropQuest1=334-668-1-2
 DisabledInBattleServer=1
@@ -19577,7 +19660,8 @@ Nivel=20
 MinHp=2000
 PoderAtaque=120
 PoderEvasion=85
-[NPC1468] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+ElementalTags=4
+[NPC1468] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Gale
 Body=5273
 Head=0
@@ -19595,8 +19679,9 @@ GiveEXP=1200
 GiveGLD=45
 MaxHIT=85
 MinHIT=60
-DropCount=1
-Drop1=5182-2000-1-1
+DropCount=2
+Drop1=5263-1000-1-1
+Drop2=5182-10000-1-1
 NumDropQuest=1
 DropQuest1=334-667-1-2
 DisabledInBattleServer=1
@@ -19604,6 +19689,7 @@ Nivel=20
 MinHp=2000
 PoderAtaque=120
 PoderEvasion=85
+ElementalTags=8
 [NPC1469] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Tortuga Titán
 Body=5252
@@ -19630,7 +19716,7 @@ DisabledInBattleServer=1
 MinHp=4000
 PoderAtaque=180
 PoderEvasion=140
-[NPC1470] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC1470] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Pyrot
 Body=5006
 Head=0
@@ -19648,8 +19734,9 @@ GiveEXPClan=2
 GiveGLD=85
 MaxHIT=170
 MinHIT=100
-DropCount=1
+DropCount=2
 Drop1=5179-1000-1-1
+Drop2=332-10000-1-1
 NumDropQuest=1
 DropQuest1=279-609-1-5
 DisabledInBattleServer=1
@@ -19657,7 +19744,9 @@ Nivel=30
 MinHp=5200
 PoderAtaque=250
 PoderEvasion=155
-[NPC1471] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+ElementalTags=1
+DEF=10
+[NPC1471] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Hydrot
 Body=5009
 Head=0
@@ -19675,8 +19764,9 @@ GiveEXPClan=2
 GiveGLD=85
 MaxHIT=170
 MinHIT=100
-DropCount=1
+DropCount=2
 Drop1=5180-1000-1-1
+Drop2=333-10000-1-1
 NumDropQuest=1
 DropQuest1=280-610-1-5
 DisabledInBattleServer=1
@@ -19684,7 +19774,9 @@ Nivel=30
 MinHp=5200
 PoderAtaque=250
 PoderEvasion=155
-[NPC1472] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+ElementalTags=2
+DEF=10
+[NPC1472] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Geot
 Body=5003
 Head=0
@@ -19702,8 +19794,9 @@ GiveEXPClan=2
 GiveGLD=85
 MaxHIT=170
 MinHIT=100
-DropCount=1
+DropCount=2
 Drop1=5181-1000-1-1
+Drop2=331-10000-1-1
 NumDropQuest=1
 DropQuest1=282-611-1-5
 DisabledInBattleServer=1
@@ -19711,7 +19804,9 @@ Nivel=30
 MinHp=5200
 PoderAtaque=250
 PoderEvasion=155
-[NPC1473] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+ElementalTags=4
+DEF=10
+[NPC1473] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Eolot
 Body=5000
 Head=0
@@ -19729,8 +19824,9 @@ GiveEXPClan=2
 GiveGLD=85
 MaxHIT=170
 MinHIT=100
-DropCount=1
+DropCount=2
 Drop1=5182-1000-1-1
+Drop2=334-10000-1-1
 NumDropQuest=1
 DropQuest1=281-612-1-5
 DisabledInBattleServer=1
@@ -19738,6 +19834,8 @@ Nivel=30
 MinHp=5200
 PoderAtaque=250
 PoderEvasion=155
+ElementalTags=8
+DEF=10
 [NPC1599] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Mercader <Facciones>
 Desc=¡Bienvenido a mi tienda! Me encargo de ofrecer objetos únicos para tu facción.
@@ -20613,7 +20711,7 @@ GiveGLD=150
 MaxHIT=95
 MinHIT=75
 
-[NPC809] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC809] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Golem de Fuego
 Body=4893
 Head=0
@@ -20639,8 +20737,9 @@ ShowName=1
 IntervaloRespawn=12600
 IntervaloRespawnMin=5400
 ElementalTags=1
-DropCount=1
-Drop1=5179-100-1-1
+DropCount=2
+Drop1=5988-1-1-1
+Drop2=5179-100-1-1
 
 [NPC810] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Golem de Viento
@@ -20655,7 +20754,7 @@ GiveGLD=150
 MaxHIT=95
 MinHIT=75
 
-[NPC811] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC811] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Glazrath
 Body=5394
 Head=0
@@ -20682,8 +20781,9 @@ Sp1=25
 IntervaloLanzarHechizo=3000
 CastAnimation=0
 ElementalTags=8
-DropCount=1
+DropCount=2
 Drop1=5182-1000-1-1
+Drop2=561-10000-1-1
 
 [NPC818] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Cirdan
@@ -20698,7 +20798,7 @@ GiveGLD=150
 MaxHIT=95
 MinHIT=75
 
-[NPC819] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: hechizos, ElementalTags
+[NPC819] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: hechizos | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Bael
 Body=5431
 Head=0
@@ -20720,6 +20820,7 @@ OrigPos=1
 IntervaloRespawn=300
 IntervaloRespawnMin=240
 TierraInvalida=0
+ElementalTags=1
 
 [NPC823] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Luzlum
@@ -20877,7 +20978,7 @@ GiveGLD=150
 MaxHIT=95
 MinHIT=75
 
-[NPC840] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, ElementalTags
+[NPC840] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Cryon
 Body=5585
 Head=0
@@ -20896,8 +20997,12 @@ GiveGLD=70
 PoderAtaque=175
 PoderEvasion=135
 Nivel=32
+ElementalTags=2
+DropCount=2
+Drop1=5180-1000-1-1
+Drop2=954-10000-1-1
 
-[NPC842] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, ElementalTags
+[NPC842] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Ignarok
 Body=5588
 Head=0
@@ -20916,8 +21021,12 @@ GiveGLD=65
 PoderAtaque=175
 PoderEvasion=135
 Nivel=30
+ElementalTags=1
+DropCount=2
+Drop1=5179-1000-1-1
+Drop2=945-10000-1-1
 
-[NPC849] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, ElementalTags
+[NPC849] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Flamora
 Body=5612
 Head=0
@@ -20937,6 +21046,11 @@ PoderAtaque=230
 PoderEvasion=175
 DEF=15
 GiveEXPClan=2
+ElementalTags=1
+DropCount=3
+Drop1=5989-1-1-1
+Drop2=5179-1000-1-1
+Drop3=949-10000-1-1
 
 [NPC850] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops
 Name=Astaroth
@@ -21017,7 +21131,7 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-[NPC856] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, ElementalTags
+[NPC856] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Kingion
 Body=5636
 Head=0
@@ -21039,6 +21153,10 @@ Nivel=30
 GiveEXPClan=1
 IntervaloRespawn=90
 IntervaloRespawnMin=25
+ElementalTags=1
+DropCount=2
+Drop1=5179-1000-1-1
+Drop2=6719-10000-1-1
 
 [NPC857] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Aelion
@@ -21529,7 +21647,7 @@ Head=0
 BodyIdle=5332
 NpcType=0
 
-[NPC1634] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, ElementalTags
+[NPC1634] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
 Name=Mantis de Fuego
 Body=5609
 Head=0
@@ -21547,6 +21665,11 @@ GiveEXP=2800
 GiveGLD=0
 PoderAtaque=190
 PoderEvasion=150
+ElementalTags=1
+DropCount=3
+Drop1=5991-1-1-1
+Drop2=5179-1000-1-1
+Drop3=844-10000-1-1
 
 [NPC1799] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC990 del oficial, vida mas parecida: SUPUESTO; sin drops
 Name=Isolda
