@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9229
+NumOBJs=9235
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -1382,6 +1382,18 @@ ObjType=15
 Agarrable=1
 Texto=Fogata
 
+[OBJ64] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Xin
+GrhIndex=52190
+CollectibleCardImgPathing=450.png
+CollectibleCardIndex=450
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Xin
+pt_Name=Carta Xin
+fr_Name=Carta Xin
+it_Name=Carta Xin
+
 [OBJ65]
 Name=Llave casa Ullathorpe Nro: 02
 ExtraStr=Llave de la casa de Ullathorpe 02
@@ -1601,6 +1613,18 @@ Info=Yacimiento minero
 MineralIndex=192
 VidaUtil=1500
 TiempoRegenerar=1900
+
+[OBJ81] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Capitán Trang
+GrhIndex=52190
+CollectibleCardImgPathing=445.png
+CollectibleCardIndex=445
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Capitán Trang
+pt_Name=Carta Capitán Trang
+fr_Name=Carta Capitán Trang
+it_Name=Carta Capitán Trang
 
 [OBJ82] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=8619
@@ -2669,6 +2693,18 @@ en_name=Tree
 
 '--------------> Construibles <--------------
 
+[OBJ154] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Unicornio
+GrhIndex=52190
+CollectibleCardImgPathing=3.png
+CollectibleCardIndex=3
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Unicornio
+pt_Name=Carta Unicornio
+fr_Name=Carta Unicornio
+it_Name=Carta Unicornio
+
 [OBJ155]
 Name=Cama Simple
 Info=Cama Horizontal
@@ -2907,6 +2943,18 @@ en_texto=Restore between 5 and 15 energy points.
 en_Name=Energy Potion
 
 '--------------> de Mujer <--------------
+
+[OBJ170] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Capitán Nazarull Drachenfels
+GrhIndex=52190
+CollectibleCardImgPathing=448.png
+CollectibleCardIndex=448
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Capitán Nazarull Drachenfels
+pt_Name=Carta Capitán Nazarull Drachenfels
+fr_Name=Carta Capitán Nazarull Drachenfels
+it_Name=Carta Capitán Nazarull Drachenfels
 
 [OBJ187]
 CP1=GUERRERO
@@ -3367,6 +3415,30 @@ ObjType=11
 Texto=Cura el veneno del usuario que la consume.
 Valor=18
 
+[OBJ213] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Capitán Doral
+GrhIndex=52190
+CollectibleCardImgPathing=447.png
+CollectibleCardIndex=447
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Capitán Doral
+pt_Name=Carta Capitán Doral
+fr_Name=Carta Capitán Doral
+it_Name=Carta Capitán Doral
+
+[OBJ214] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Capitán Alsetarip
+GrhIndex=52190
+CollectibleCardImgPathing=446.png
+CollectibleCardIndex=446
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Capitán Alsetarip
+pt_Name=Carta Capitán Alsetarip
+fr_Name=Carta Capitán Alsetarip
+it_Name=Carta Capitán Alsetarip
+
 [OBJ225]
 GrhIndex=8497
 MaxHit=8
@@ -3648,22 +3720,70 @@ Texto=Puerta cerrada
 en_name=Door closed
 ExtraStr=Puerta cerrada
 
-[OBJ266]
-Name=Llave casa vieja Banderbill Nro: 01
-ExtraStr=Llave de la casa 1 de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=25
-Valor=
-Texto=Llave de la casa 1 de la vieja Banderbill
-en_Name=Old Banderbill House Key 1
+[OBJ263] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Elemental de Tierra
+GrhIndex=52190
+CollectibleCardImgPathing=6.png
+CollectibleCardIndex=6
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Elemental de Tierra
+pt_Name=Carta Elemental de Tierra
+fr_Name=Carta Elemental de Tierra
+it_Name=Carta Elemental de Tierra
 
-'--------------> Casa número 2 de Banderbill <--------------
+[OBJ264] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Elemental de Viento
+GrhIndex=52190
+CollectibleCardImgPathing=7.png
+CollectibleCardIndex=7
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Elemental de Viento
+pt_Name=Carta Elemental de Viento
+fr_Name=Carta Elemental de Viento
+it_Name=Carta Elemental de Viento
 
-[OBJ268] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ265] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Leviatan
+GrhIndex=52190
+CollectibleCardImgPathing=8.png
+CollectibleCardIndex=8
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Leviatan
+pt_Name=Carta Leviatan
+fr_Name=Carta Leviatan
+it_Name=Carta Leviatan
+
+[OBJ266] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Zeraphon
+GrhIndex=52190
+CollectibleCardImgPathing=9.png
+CollectibleCardIndex=9
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Zeraphon
+pt_Name=Carta Zeraphon
+fr_Name=Carta Zeraphon
+it_Name=Carta Zeraphon
+
+[OBJ267] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Vorathis
+GrhIndex=52190
+CollectibleCardImgPathing=10.png
+CollectibleCardIndex=10
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Vorathis
+pt_Name=Carta Vorathis
+fr_Name=Carta Vorathis
+it_Name=Carta Vorathis
+
+[OBJ268] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Miastrix
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\11.png
+CollectibleCardImgPathing=11.png
 CollectibleCardIndex=11
 CollectibleCardRarity=1
 ObjType=57
@@ -3672,190 +3792,298 @@ pt_Name=Carta Miastrix
 fr_Name=Carta Miastrix
 it_Name=Carta Miastrix
 
-[OBJ270]
-Name=Llave casa vieja Banderbill Nro: 02
-ExtraStr=Llave de la casa 2 de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=26
-Valor=
-Texto=Llave de la casa 2 de la vieja Banderbill
-en_Name=Old Banderbill House Key 2
+[OBJ269] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Brumak
+GrhIndex=52190
+CollectibleCardImgPathing=12.png
+CollectibleCardIndex=12
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Brumak
+pt_Name=Carta Brumak
+fr_Name=Carta Brumak
+it_Name=Carta Brumak
 
-'--------------> Casa número 3 de Banderbill <--------------
+[OBJ270] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Shalgar
+GrhIndex=52190
+CollectibleCardImgPathing=13.png
+CollectibleCardIndex=13
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Shalgar
+pt_Name=Carta Shalgar
+fr_Name=Carta Shalgar
+it_Name=Carta Shalgar
 
-[OBJ275]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=28
-Agarrable=1
-IndexAbierta=275
-IndexCerrada=276
-IndexCerradaLlave=277
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ271] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Tancredo
+GrhIndex=52190
+CollectibleCardImgPathing=14.png
+CollectibleCardIndex=14
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Tancredo
+pt_Name=Carta Tancredo
+fr_Name=Carta Tancredo
+it_Name=Carta Tancredo
 
-[OBJ276]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=28
-Agarrable=1
-IndexAbierta=275
-IndexCerrada=276
-IndexCerradaLlave=277
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
+[OBJ272] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Zarok
+GrhIndex=52190
+CollectibleCardImgPathing=15.png
+CollectibleCardIndex=15
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Zarok
+pt_Name=Carta Zarok
+fr_Name=Carta Zarok
+it_Name=Carta Zarok
 
-[OBJ277]
-Name=Puerta cerrada con Llave casa 4 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=28
-Agarrable=1
-IndexAbierta=275
-IndexCerrada=276
-IndexCerradaLlave=277
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 4 of Old Banderbill
-ExtraStr=Esta honorable casa pertenece a
+[OBJ273] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Guardia Real
+GrhIndex=52190
+CollectibleCardImgPathing=16.png
+CollectibleCardIndex=16
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Guardia Real
+pt_Name=Carta Guardia Real
+fr_Name=Carta Guardia Real
+it_Name=Carta Guardia Real
 
-[OBJ278]
-Name=Llave casa vieja Banderbill Nro: 04
-ExtraStr=Llave de la casa 4 de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=28
-Valor=
-Texto=Llave de la casa 4 de la vieja Banderbill
-en_Name=Old Banderbill House key 4
+[OBJ274] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Guardia Legión
+GrhIndex=52190
+CollectibleCardImgPathing=17.png
+CollectibleCardIndex=17
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Guardia Legión
+pt_Name=Carta Guardia Legión
+fr_Name=Carta Guardia Legión
+it_Name=Carta Guardia Legión
 
-'--------------> Casa número 5 de Banderbill <--------------
+[OBJ275] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Goblin
+GrhIndex=52190
+CollectibleCardImgPathing=18.png
+CollectibleCardIndex=18
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Goblin
+pt_Name=Carta Goblin
+fr_Name=Carta Goblin
+it_Name=Carta Goblin
 
-[OBJ279]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=29
-Agarrable=1
-IndexAbierta=279
-IndexCerrada=280
-IndexCerradaLlave=281
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ276] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Throgar
+GrhIndex=52190
+CollectibleCardImgPathing=19.png
+CollectibleCardIndex=19
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Throgar
+pt_Name=Carta Throgar
+fr_Name=Carta Throgar
+it_Name=Carta Throgar
 
-[OBJ280]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=29
-Agarrable=1
-IndexAbierta=279
-IndexCerrada=280
-IndexCerradaLlave=281
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
+[OBJ277] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Grunak
+GrhIndex=52190
+CollectibleCardImgPathing=20.png
+CollectibleCardIndex=20
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Grunak
+pt_Name=Carta Grunak
+fr_Name=Carta Grunak
+it_Name=Carta Grunak
 
-[OBJ281]
-Name=Puerta cerrada con Llave casa 5 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=29
-Agarrable=1
-IndexAbierta=279
-IndexCerrada=280
-IndexCerradaLlave=281
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 5 of Old banderbill
-ExtraStr=Esta honorable casa pertenece a
+[OBJ278] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Zulrik
+GrhIndex=52190
+CollectibleCardImgPathing=21.png
+CollectibleCardIndex=21
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Zulrik
+pt_Name=Carta Zulrik
+fr_Name=Carta Zulrik
+it_Name=Carta Zulrik
 
-[OBJ283]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=30
-Agarrable=1
-IndexAbierta=283
-IndexCerrada=284
-IndexCerradaLlave=285
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ279] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Rikkar
+GrhIndex=52190
+CollectibleCardImgPathing=22.png
+CollectibleCardIndex=22
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Rikkar
+pt_Name=Carta Rikkar
+fr_Name=Carta Rikkar
+it_Name=Carta Rikkar
 
-[OBJ284]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=30
-Agarrable=1
-IndexAbierta=283
-IndexCerrada=284
-IndexCerradaLlave=285
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
+[OBJ280] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Krampus
+GrhIndex=52190
+CollectibleCardImgPathing=23.png
+CollectibleCardIndex=23
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Krampus
+pt_Name=Carta Krampus
+fr_Name=Carta Krampus
+it_Name=Carta Krampus
 
-[OBJ285]
-Name=Puerta cerrada con Llave casa 6 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=30
-Agarrable=1
-IndexAbierta=283
-IndexCerrada=284
-IndexCerradaLlave=285
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=Locked door house 6 of Old banderbill
-ExtraStr=Esta honorable casa pertenece a
+[OBJ281] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Frosty
+GrhIndex=52190
+CollectibleCardImgPathing=24.png
+CollectibleCardIndex=24
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Frosty
+pt_Name=Carta Frosty
+fr_Name=Carta Frosty
+it_Name=Carta Frosty
 
-[OBJ286]
-Name=Llave casa vieja Banderbill Nro: 06
-ExtraStr=Llave de la casa 6 de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=30
-Valor=
-Texto=Llave de la casa 6 de la vieja Banderbill
-en_Name=Old Banderbill House Key 6
+[OBJ282] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Frostrion
+GrhIndex=52190
+CollectibleCardImgPathing=25.png
+CollectibleCardIndex=25
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Frostrion
+pt_Name=Carta Frostrion
+fr_Name=Carta Frostrion
+it_Name=Carta Frostrion
 
-'--------------> Casa número 7 de Banderbill <--------------
+[OBJ283] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Cascanueces
+GrhIndex=52190
+CollectibleCardImgPathing=26.png
+CollectibleCardIndex=26
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Cascanueces
+pt_Name=Carta Cascanueces
+fr_Name=Carta Cascanueces
+it_Name=Carta Cascanueces
 
-[OBJ293] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ284] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Mimic
+GrhIndex=52190
+CollectibleCardImgPathing=27.png
+CollectibleCardIndex=27
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Mimic
+pt_Name=Carta Mimic
+fr_Name=Carta Mimic
+it_Name=Carta Mimic
+
+[OBJ285] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Eryndor
+GrhIndex=52190
+CollectibleCardImgPathing=28.png
+CollectibleCardIndex=28
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Eryndor
+pt_Name=Carta Eryndor
+fr_Name=Carta Eryndor
+it_Name=Carta Eryndor
+
+[OBJ286] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Papa Noel
+GrhIndex=52190
+CollectibleCardImgPathing=29.png
+CollectibleCardIndex=29
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Papa Noel
+pt_Name=Carta Papa Noel
+fr_Name=Carta Papa Noel
+it_Name=Carta Papa Noel
+
+[OBJ287] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hakon
+GrhIndex=52190
+CollectibleCardImgPathing=30.png
+CollectibleCardIndex=30
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hakon
+pt_Name=Carta Hakon
+fr_Name=Carta Hakon
+it_Name=Carta Hakon
+
+[OBJ288] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Olaf
+GrhIndex=52190
+CollectibleCardImgPathing=31.png
+CollectibleCardIndex=31
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Olaf
+pt_Name=Carta Olaf
+fr_Name=Carta Olaf
+it_Name=Carta Olaf
+
+[OBJ289] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Skadi
+GrhIndex=52190
+CollectibleCardImgPathing=32.png
+CollectibleCardIndex=32
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Skadi
+pt_Name=Carta Skadi
+fr_Name=Carta Skadi
+it_Name=Carta Skadi
+
+[OBJ290] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Eirik
+GrhIndex=52190
+CollectibleCardImgPathing=33.png
+CollectibleCardIndex=33
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Eirik
+pt_Name=Carta Eirik
+fr_Name=Carta Eirik
+it_Name=Carta Eirik
+
+[OBJ291] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Rodolfo
+GrhIndex=52190
+CollectibleCardImgPathing=34.png
+CollectibleCardIndex=34
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Rodolfo
+pt_Name=Carta Rodolfo
+fr_Name=Carta Rodolfo
+it_Name=Carta Rodolfo
+
+[OBJ292] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Primal
+GrhIndex=52190
+CollectibleCardImgPathing=35.png
+CollectibleCardIndex=35
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Primal
+pt_Name=Carta Primal
+fr_Name=Carta Primal
+it_Name=Carta Primal
+
+[OBJ293] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Goruk
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\36.png
+CollectibleCardImgPathing=36.png
 CollectibleCardIndex=36
 CollectibleCardRarity=1
 ObjType=57
@@ -3864,78 +4092,65 @@ pt_Name=Carta Goruk
 fr_Name=Carta Goruk
 it_Name=Carta Goruk
 
-[OBJ294]
-Name=Llave casa vieja Banderbill Nro: 08
-ExtraStr=Llave de la casa 8 de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=32
-Valor=
+[OBJ294] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Infernus
+GrhIndex=52190
+CollectibleCardImgPathing=37.png
+CollectibleCardIndex=37
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Infernus
+pt_Name=Carta Infernus
+fr_Name=Carta Infernus
+it_Name=Carta Infernus
 
-Texto=Llave de la casa 8 de la vieja Banderbill
-en_Name=Old Banderbill House key 8
+[OBJ295] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Abyssal
+GrhIndex=52190
+CollectibleCardImgPathing=38.png
+CollectibleCardIndex=38
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Abyssal
+pt_Name=Carta Abyssal
+fr_Name=Carta Abyssal
+it_Name=Carta Abyssal
 
-'--------------> Casa número 9 de Banderbill <--------------
+[OBJ296] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Dragón Rojo
+GrhIndex=52190
+CollectibleCardImgPathing=39.png
+CollectibleCardIndex=39
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Dragón Rojo
+pt_Name=Carta Dragón Rojo
+fr_Name=Carta Dragón Rojo
+it_Name=Carta Dragón Rojo
 
-[OBJ295]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=33
-Agarrable=1
-IndexAbierta=295
-IndexCerrada=296
-IndexCerradaLlave=297
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ297] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Dragón Negro
+GrhIndex=52190
+CollectibleCardImgPathing=40.png
+CollectibleCardIndex=40
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Dragón Negro
+pt_Name=Carta Dragón Negro
+fr_Name=Carta Dragón Negro
+it_Name=Carta Dragón Negro
 
-[OBJ296]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=33
-Agarrable=1
-IndexAbierta=295
-IndexCerrada=296
-IndexCerradaLlave=297
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ297]
-Name=Puerta cerrada con Llave casa 9 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=33
-Agarrable=1
-IndexAbierta=295
-IndexCerrada=296
-IndexCerradaLlave=297
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 9 of the old banderbill
-ExtraStr=Esta honorable casa pertenece a
-
-[OBJ298]
-Name=Llave casa vieja Banderbill Nro: 09
-ExtraStr=Llave de la casa 9 de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=33
-Valor=
-Texto=Llave de la casa 9 de la vieja Banderbill
-en_Name=Old Banderbill House Key 9
-
-'--------------> Gran Consejo de Banderbill <--------------
+[OBJ298] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Dragón Dorado
+GrhIndex=52190
+CollectibleCardImgPathing=41.png
+CollectibleCardIndex=41
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Dragón Dorado
+pt_Name=Carta Dragón Dorado
+fr_Name=Carta Dragón Dorado
+it_Name=Carta Dragón Dorado
 
 [OBJ299]
 Name=Puerta abierta
@@ -4005,176 +4220,142 @@ Agarrable=1
 en_name=Sign
 en_texto=Welcome traveler! Be careful, you don y of the brittle planks to play tricks on you before you leave.
 
-[OBJ320]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=37
-Agarrable=1
-IndexAbierta=320
-IndexCerrada=321
-IndexCerradaLlave=322
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
+[OBJ320] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Beholder
+GrhIndex=52190
+CollectibleCardImgPathing=42.png
+CollectibleCardIndex=42
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Beholder
+pt_Name=Carta Beholder
+fr_Name=Carta Beholder
+it_Name=Carta Beholder
 
-[OBJ321]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=37
-Agarrable=1
-IndexAbierta=320
-IndexCerrada=321
-IndexCerradaLlave=322
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
+[OBJ321] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Nocthral
+GrhIndex=52190
+CollectibleCardImgPathing=43.png
+CollectibleCardIndex=43
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Nocthral
+pt_Name=Carta Nocthral
+fr_Name=Carta Nocthral
+it_Name=Carta Nocthral
 
-[OBJ322]
-Name=Puerta cerrada con Llave casa 10 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=37
-Agarrable=1
-IndexAbierta=320
-IndexCerrada=321
-IndexCerradaLlave=322
-=319
-Texto=Esta honorable casa pertenece a
-en_Name=locked door house 10 of Old bander
-ExtraStr=Esta honorable casa pertenece a
+[OBJ322] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Pyrrak
+GrhIndex=52190
+CollectibleCardImgPathing=44.png
+CollectibleCardIndex=44
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Pyrrak
+pt_Name=Carta Pyrrak
+fr_Name=Carta Pyrrak
+it_Name=Carta Pyrrak
 
-[OBJ323]
-Name=Llave casa vieja Banderbill Nro: 10
-ExtraStr=Llave de la casa 10 de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=37
-Valor=
-Texto=Llave de la casa 10 de la vieja Banderbill
-en_Name=Old Banderbill House Key 10
+[OBJ323] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Azhurion
+GrhIndex=52190
+CollectibleCardImgPathing=45.png
+CollectibleCardIndex=45
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Azhurion
+pt_Name=Carta Azhurion
+fr_Name=Carta Azhurion
+it_Name=Carta Azhurion
 
-'--------------> Casa número 11 de Banderbill <--------------
+[OBJ324] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Verdanok
+GrhIndex=52190
+CollectibleCardImgPathing=46.png
+CollectibleCardIndex=46
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Verdanok
+pt_Name=Carta Verdanok
+fr_Name=Carta Verdanok
+it_Name=Carta Verdanok
 
-[OBJ324]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=38
-Agarrable=1
-IndexAbierta=324
-IndexCerrada=325
-IndexCerradaLlave=326
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ325] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Kaelthor
+GrhIndex=52190
+CollectibleCardImgPathing=47.png
+CollectibleCardIndex=47
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Kaelthor
+pt_Name=Carta Kaelthor
+fr_Name=Carta Kaelthor
+it_Name=Carta Kaelthor
 
-[OBJ325]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=38
-Agarrable=1
-IndexAbierta=324
-IndexCerrada=325
-IndexCerradaLlave=326
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
+[OBJ326] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Kadru
+GrhIndex=52190
+CollectibleCardImgPathing=48.png
+CollectibleCardIndex=48
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Kadru
+pt_Name=Carta Kadru
+fr_Name=Carta Kadru
+it_Name=Carta Kadru
 
-[OBJ326]
-Name=Puerta cerrada con Llave casa 11 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=38
-Agarrable=1
-IndexAbierta=324
-IndexCerrada=325
-IndexCerradaLlave=326
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 11 of Old Banderbill
-ExtraStr=Esta honorable casa pertenece a
+[OBJ327] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Lynn
+GrhIndex=52190
+CollectibleCardImgPathing=49.png
+CollectibleCardIndex=49
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Lynn
+pt_Name=Carta Lynn
+fr_Name=Carta Lynn
+it_Name=Carta Lynn
 
-[OBJ327]
-Name=Llave casa vieja Banderbill Nro: 11
-ExtraStr=Llave de la casa 11 de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=38
-Valor=
-Texto=Llave de la casa 11 de la vieja Banderbill
-en_Name=Old Banderbill House Key 11
+[OBJ328] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Aksha
+GrhIndex=52190
+CollectibleCardImgPathing=50.png
+CollectibleCardIndex=50
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Aksha
+pt_Name=Carta Aksha
+fr_Name=Carta Aksha
+it_Name=Carta Aksha
 
-'--------------> Casa número 12 de Banderbill <--------------
+[OBJ329] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Cápitan Pyke
+GrhIndex=52190
+CollectibleCardImgPathing=51.png
+CollectibleCardIndex=51
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Cápitan Pyke
+pt_Name=Carta Cápitan Pyke
+fr_Name=Carta Cápitan Pyke
+it_Name=Carta Cápitan Pyke
 
-[OBJ328]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=39
-Agarrable=1
-IndexAbierta=328
-IndexCerrada=329
-IndexCerradaLlave=330
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ330] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Capitan Orla
+GrhIndex=52190
+CollectibleCardImgPathing=52.png
+CollectibleCardIndex=52
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Capitan Orla
+pt_Name=Carta Capitan Orla
+fr_Name=Carta Capitan Orla
+it_Name=Carta Capitan Orla
 
-[OBJ329]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=39
-Agarrable=1
-IndexAbierta=328
-IndexCerrada=329
-IndexCerradaLlave=330
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ330]
-Name=Puerta cerrada con Llave casa 12 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=39
-Agarrable=1
-IndexAbierta=328
-IndexCerrada=329
-IndexCerradaLlave=330
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 12 of Old banderbill
-ExtraStr=Esta honorable casa pertenece a
-
-[OBJ331] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ331] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Geot
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\53.png
+CollectibleCardImgPathing=53.png
 CollectibleCardIndex=53
 CollectibleCardRarity=1
 ObjType=57
@@ -4183,10 +4364,10 @@ pt_Name=Carta Geot
 fr_Name=Carta Geot
 it_Name=Carta Geot
 
-[OBJ332] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ332] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Pyrot
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\54.png
+CollectibleCardImgPathing=54.png
 CollectibleCardIndex=54
 CollectibleCardRarity=1
 ObjType=57
@@ -4195,10 +4376,10 @@ pt_Name=Carta Pyrot
 fr_Name=Carta Pyrot
 it_Name=Carta Pyrot
 
-[OBJ333] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ333] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Hydrot
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\55.png
+CollectibleCardImgPathing=55.png
 CollectibleCardIndex=55
 CollectibleCardRarity=1
 ObjType=57
@@ -4207,10 +4388,10 @@ pt_Name=Carta Hydrot
 fr_Name=Carta Hydrot
 it_Name=Carta Hydrot
 
-[OBJ334] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ334] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Eolot
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\56.png
+CollectibleCardImgPathing=56.png
 CollectibleCardIndex=56
 CollectibleCardRarity=1
 ObjType=57
@@ -4219,70 +4400,58 @@ pt_Name=Carta Eolot
 fr_Name=Carta Eolot
 it_Name=Carta Eolot
 
-[OBJ335]
-Name=Llave casa vieja Banderbill Nro: 13
-ExtraStr=Llave de la casa 13 de la vieja Banderbill
-GrhIndex=509
-ObjType=9
-Clave=40
-Valor=
-Texto=Llave de la casa 13 de la vieja Banderbill
-en_Name=Old Banderbill House Key 13
+[OBJ335] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Tortuga Titán
+GrhIndex=52190
+CollectibleCardImgPathing=57.png
+CollectibleCardIndex=57
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Tortuga Titán
+pt_Name=Carta Tortuga Titán
+fr_Name=Carta Tortuga Titán
+it_Name=Carta Tortuga Titán
 
-'--------------> Casa número 14 de Banderbill <--------------
+[OBJ336] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Tortuga
+GrhIndex=52190
+CollectibleCardImgPathing=58.png
+CollectibleCardIndex=58
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Tortuga
+pt_Name=Carta Tortuga
+fr_Name=Carta Tortuga
+it_Name=Carta Tortuga
 
-[OBJ336]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=41
-Agarrable=1
-IndexAbierta=336
-IndexCerrada=337
-IndexCerradaLlave=338
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ337] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Golem
+GrhIndex=52190
+CollectibleCardImgPathing=59.png
+CollectibleCardIndex=59
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Golem
+pt_Name=Carta Golem
+fr_Name=Carta Golem
+it_Name=Carta Golem
 
-[OBJ337]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=41
-Agarrable=1
-IndexAbierta=336
-IndexCerrada=337
-IndexCerradaLlave=338
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
+[OBJ338] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Golem de Tierra
+GrhIndex=52190
+CollectibleCardImgPathing=60.png
+CollectibleCardIndex=60
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Golem de Tierra
+pt_Name=Carta Golem de Tierra
+fr_Name=Carta Golem de Tierra
+it_Name=Carta Golem de Tierra
 
-[OBJ338]
-Name=Puerta cerrada con Llave casa 14 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=41
-Agarrable=1
-IndexAbierta=336
-IndexCerrada=337
-IndexCerradaLlave=338
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 14 of Old banderbill
-ExtraStr=Esta honorable casa pertenece a
-
-[OBJ339] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ339] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Golem de Hielo
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\61.png
+CollectibleCardImgPathing=61.png
 CollectibleCardIndex=61
 CollectibleCardRarity=1
 ObjType=57
@@ -4291,174 +4460,197 @@ pt_Name=Carta Golem de Hielo
 fr_Name=Carta Golem de Hielo
 it_Name=Carta Golem de Hielo
 
-[OBJ340]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=42
-Agarrable=1
-IndexAbierta=340
-IndexCerrada=341
-IndexCerradaLlave=342
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ340] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Plariom
+GrhIndex=52190
+CollectibleCardImgPathing=62.png
+CollectibleCardIndex=62
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Plariom
+pt_Name=Carta Plariom
+fr_Name=Carta Plariom
+it_Name=Carta Plariom
 
-[OBJ341]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=42
-Agarrable=1
-IndexAbierta=340
-IndexCerrada=341
-IndexCerradaLlave=342
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
+[OBJ341] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Golem de Viento
+GrhIndex=52190
+CollectibleCardImgPathing=63.png
+CollectibleCardIndex=63
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Golem de Viento
+pt_Name=Carta Golem de Viento
+fr_Name=Carta Golem de Viento
+it_Name=Carta Golem de Viento
 
-[OBJ342]
-Name=Puerta cerrada con Llave casa 15 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=42
-Agarrable=1
-IndexAbierta=340
-IndexCerrada=341
-IndexCerradaLlave=342
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 15 of Old Banderbill
-ExtraStr=Esta honorable casa pertenece a
+[OBJ342] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hormiga Guerrera
+GrhIndex=52190
+CollectibleCardImgPathing=64.png
+CollectibleCardIndex=64
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hormiga Guerrera
+pt_Name=Carta Hormiga Guerrera
+fr_Name=Carta Hormiga Guerrera
+it_Name=Carta Hormiga Guerrera
 
-[OBJ343]
-Name=Llave casa vieja Banderbill Nro: 15
-GrhIndex=509
-ObjType=9
-Clave=42
-Valor=
-Texto=Llave de la casa 15 de la vieja Banderbill
-ExtraStr=Llave de la casa 15 de la vieja Banderbill
-en_Name=Old Banderbill House Key 15
+[OBJ343] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hormiga Negra
+GrhIndex=52190
+CollectibleCardImgPathing=65.png
+CollectibleCardIndex=65
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hormiga Negra
+pt_Name=Carta Hormiga Negra
+fr_Name=Carta Hormiga Negra
+it_Name=Carta Hormiga Negra
 
-'--------------> Casa número 16 de Banderbill <--------------
+[OBJ344] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hormiga Amarilla
+GrhIndex=52190
+CollectibleCardImgPathing=66.png
+CollectibleCardIndex=66
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hormiga Amarilla
+pt_Name=Carta Hormiga Amarilla
+fr_Name=Carta Hormiga Amarilla
+it_Name=Carta Hormiga Amarilla
 
-[OBJ344]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=43
-Agarrable=1
-IndexAbierta=344
-IndexCerrada=345
-IndexCerradaLlave=346
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ345] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hormiga Verde
+GrhIndex=52190
+CollectibleCardImgPathing=67.png
+CollectibleCardIndex=67
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hormiga Verde
+pt_Name=Carta Hormiga Verde
+fr_Name=Carta Hormiga Verde
+it_Name=Carta Hormiga Verde
 
-[OBJ345]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=43
-Agarrable=1
-IndexAbierta=344
-IndexCerrada=345
-IndexCerradaLlave=346
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
+[OBJ346] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hormiga Azul
+GrhIndex=52190
+CollectibleCardImgPathing=68.png
+CollectibleCardIndex=68
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hormiga Azul
+pt_Name=Carta Hormiga Azul
+fr_Name=Carta Hormiga Azul
+it_Name=Carta Hormiga Azul
 
-[OBJ346]
-Name=Puerta cerrada con Llave casa 16 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=43
-Agarrable=1
-IndexAbierta=344
-IndexCerrada=345
-IndexCerradaLlave=346
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 16 of Old banderbill
-ExtraStr=Esta honorable casa pertenece a
+[OBJ347] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hormiga Berseker
+GrhIndex=52190
+CollectibleCardImgPathing=69.png
+CollectibleCardIndex=69
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hormiga Berseker
+pt_Name=Carta Hormiga Berseker
+fr_Name=Carta Hormiga Berseker
+it_Name=Carta Hormiga Berseker
 
-[OBJ347]
-Name=Llave casa vieja Banderbill Nro: 16
-GrhIndex=509
-ObjType=9
-Clave=43
-Valor=
-Texto=Llave de la casa 16 de la vieja Banderbill
-ExtraStr=Llave de la casa 16 de la vieja Banderbill
-en_Name=Old Banderbill House Key 16
+[OBJ348] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Gaia
+GrhIndex=52190
+CollectibleCardImgPathing=70.png
+CollectibleCardIndex=70
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Gaia
+pt_Name=Carta Gaia
+fr_Name=Carta Gaia
+it_Name=Carta Gaia
 
-'--------------> Casa número 17 de Banderbill <--------------
+[OBJ349] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Aelion
+GrhIndex=52190
+CollectibleCardImgPathing=71.png
+CollectibleCardIndex=71
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Aelion
+pt_Name=Carta Aelion
+fr_Name=Carta Aelion
+it_Name=Carta Aelion
 
-[OBJ348]
-Name=Puerta abierta
-GrhIndex=9201
-ObjType=6
-Cerrada=0
-llave=0
-Clave=44
-Agarrable=1
-IndexAbierta=348
-IndexCerrada=349
-IndexCerradaLlave=350
-=345
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ350] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Dorim II
+GrhIndex=52190
+CollectibleCardImgPathing=72.png
+CollectibleCardIndex=72
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Dorim II
+pt_Name=Carta Dorim II
+fr_Name=Carta Dorim II
+it_Name=Carta Dorim II
 
-[OBJ349]
-Name=Puerta cerrada
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=0
-Clave=44
-Agarrable=1
-IndexAbierta=348
-IndexCerrada=349
-IndexCerradaLlave=350
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
+[OBJ351] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Guardia Elfico
+GrhIndex=52190
+CollectibleCardImgPathing=73.png
+CollectibleCardIndex=73
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Guardia Elfico
+pt_Name=Carta Guardia Elfico
+fr_Name=Carta Guardia Elfico
+it_Name=Carta Guardia Elfico
 
-[OBJ350]
-Name=Puerta cerrada con Llave casa 17 de la vieja Banderbill
-GrhIndex=9195
-ObjType=6
-Cerrada=1
-llave=1
-Clave=44
-Agarrable=1
-IndexAbierta=348
-IndexCerrada=349
-IndexCerradaLlave=350
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 17 of Old banderbill
-ExtraStr=Esta honorable casa pertenece a
+[OBJ352] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hechicero Elfico
+GrhIndex=52190
+CollectibleCardImgPathing=74.png
+CollectibleCardIndex=74
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hechicero Elfico
+pt_Name=Carta Hechicero Elfico
+fr_Name=Carta Hechicero Elfico
+it_Name=Carta Hechicero Elfico
+
+[OBJ353] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Guardia Enano
+GrhIndex=52190
+CollectibleCardImgPathing=75.png
+CollectibleCardIndex=75
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Guardia Enano
+pt_Name=Carta Guardia Enano
+fr_Name=Carta Guardia Enano
+it_Name=Carta Guardia Enano
+
+[OBJ354] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ballestero Enano
+GrhIndex=52190
+CollectibleCardImgPathing=76.png
+CollectibleCardIndex=76
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ballestero Enano
+pt_Name=Carta Ballestero Enano
+fr_Name=Carta Ballestero Enano
+it_Name=Carta Ballestero Enano
+
+[OBJ355] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hechicero Real
+GrhIndex=52190
+CollectibleCardImgPathing=77.png
+CollectibleCardIndex=77
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hechicero Real
+pt_Name=Carta Hechicero Real
+fr_Name=Carta Hechicero Real
+it_Name=Carta Hechicero Real
 
 [OBJ356]
 Name=Cofre de Fuegos Artificiales
@@ -6397,27 +6589,6 @@ pt_Name=Pergaminho do Guardião
 fr_Name=Parchemin du Gardien
 it_Name=Pergamena del Guardiano
 
-[OBJ508]
-Name=Ropa Estuaria (M)
-NumRopaje=3120
-GrhIndex=59354
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=7
-MINDEF=5
-Valor=1000
-Mujer=1
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Ropa Estuaria (M)
-SKSastreria=25
-PielLobo=30
-PielOsoPardo=0
-PielOsoPolar=0
-en_Name=Estuary Clothes (Woman)
-
 [OBJ510]
 CP1=GUERRERO
 CP2=PALADIN
@@ -6464,44 +6635,6 @@ RopajeHumana=2246
 RopajeHumano=0
 RopajeOrca=3328
 RopajeOrco=0
-
-[OBJ513]
-Name=Vestido de Bruja (H/E/EO-M)
-GrhIndex=11609
-RopajeHumano=604
-RopajeElfo=604
-RopajeElfoOscuro=3126
-RopajeEnano=2839
-RopajeOrco=3125
-RopajeGnomo=2839
-RopajeHumana=604
-RopajeElfa=604
-RopajeElfaOscura=3126
-RopajeEnana=2839
-RopajeOrca=3125
-RopajeGnoma=2839
-ObjType=3
-RazaDrow=1
-RazaElfa=1
-RazaHumana=1
-RazaOrca=1
-MAXDEF=20
-MINDEF=15
-Valor=7000
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-Mujer=1
-MinELV=1
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Vestido de Bruja (H/E/EO-M)
-en_Name=Witch Dress (H/E/EO-M)
 
 [OBJ515]
 Name=Vestimenta Común
@@ -7063,10 +7196,10 @@ FR_texto=Dommages 6/9
 IT_texto=Danno 6/9
 PT_texto=Dano 6/9
 
-[OBJ562] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ562] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Gorath
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\85.png
+CollectibleCardImgPathing=85.png
 CollectibleCardIndex=85
 CollectibleCardRarity=1
 ObjType=57
@@ -7075,26 +7208,10 @@ pt_Name=Carta Gorath
 fr_Name=Carta Gorath
 it_Name=Carta Gorath
 
-[OBJ563]
-Name=Vestimentas de Baja (Newbie)
-NumRopaje=3137
-GrhIndex=59354
-ObjType=3
-MAXDEF=2
-MINDEF=1
-RazaEnana=1
-RazaGnoma=1
-Mujer=1
-Valor=0
-newbie=1
-Texto=Vestimentas de Baja (Newbie)
-Instransferible=1
-en_Name=Vestment (E/G) (newbie)
-
-[OBJ565] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ565] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Pixie de Hielo
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\88.png
+CollectibleCardImgPathing=88.png
 CollectibleCardIndex=88
 CollectibleCardRarity=1
 ObjType=57
@@ -7141,6 +7258,18 @@ RopajeHumano=2230
 RopajeOrca=3312
 RopajeOrco=3312
 
+[OBJ576] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Krogar
+GrhIndex=52190
+CollectibleCardImgPathing=97.png
+CollectibleCardIndex=97
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Krogar
+pt_Name=Carta Krogar
+fr_Name=Carta Krogar
+it_Name=Carta Krogar
+
 [OBJ577]
 Name=Cartel
 Info=Magia Versión 2
@@ -7151,6 +7280,30 @@ Texto=Los pergaminos mágicos de antaño no están perdidos. Están todos aquí 
 Agarrable=1
 en_name=Sign
 en_texto=The magic scrolls of yesteryear are not lost. They
+
+[OBJ578] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Keldor
+GrhIndex=52190
+CollectibleCardImgPathing=98.png
+CollectibleCardIndex=98
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Keldor
+pt_Name=Carta Keldor
+fr_Name=Carta Keldor
+it_Name=Carta Keldor
+
+[OBJ579] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Lilith
+GrhIndex=52190
+CollectibleCardImgPathing=99.png
+CollectibleCardIndex=99
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Lilith
+pt_Name=Carta Lilith
+fr_Name=Carta Lilith
+it_Name=Carta Lilith
 
 [OBJ580]
 Name=Fuego Artificial I
@@ -7388,6 +7541,30 @@ en_texto=Party!
 en_Name=Gray Smoke Bombs
 NOSECAE=1
 
+[OBJ591] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Gladys
+GrhIndex=52190
+CollectibleCardImgPathing=100.png
+CollectibleCardIndex=100
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Gladys
+pt_Name=Carta Gladys
+fr_Name=Carta Gladys
+it_Name=Carta Gladys
+
+[OBJ592] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Grimbash
+GrhIndex=52190
+CollectibleCardImgPathing=101.png
+CollectibleCardIndex=101
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Grimbash
+pt_Name=Carta Grimbash
+fr_Name=Carta Grimbash
+it_Name=Carta Grimbash
+
 [OBJ593]
 Name=Bengala de Humo Verde
 IT_texto=Celebrare!
@@ -7528,6 +7705,30 @@ Texto=Cofre Cerrado
 
 '**************************** ÁRBOLES ****************************
 
+[OBJ606] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Grakka
+GrhIndex=52190
+CollectibleCardImgPathing=106.png
+CollectibleCardIndex=106
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Grakka
+pt_Name=Carta Grakka
+fr_Name=Carta Grakka
+it_Name=Carta Grakka
+
+[OBJ607] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Clarice Coraza
+GrhIndex=52190
+CollectibleCardImgPathing=107.png
+CollectibleCardIndex=107
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Clarice Coraza
+pt_Name=Carta Clarice Coraza
+fr_Name=Carta Clarice Coraza
+it_Name=Carta Clarice Coraza
+
 [OBJ608]
 Name=Experiencia
 GrhIndex=55247
@@ -7575,16 +7776,29 @@ Instransferible=1
 Intirable=1
 NoseCae=1
 
-[OBJ614]
-Name=Tapete
-Info=Abajo
-GrhIndex=26204
-ObjType=20
-Agarrable=1
-Texto=Tapete
-en_Name=rug
+[OBJ613] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Mara
+GrhIndex=52190
+CollectibleCardImgPathing=108.png
+CollectibleCardIndex=108
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Mara
+pt_Name=Carta Mara
+fr_Name=Carta Mara
+it_Name=Carta Mara
 
-'--------------> Casa número 1 de Arghâl <--------------
+[OBJ614] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ferrion
+GrhIndex=52190
+CollectibleCardImgPathing=109.png
+CollectibleCardIndex=109
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ferrion
+pt_Name=Carta Ferrion
+fr_Name=Carta Ferrion
+it_Name=Carta Ferrion
 
 [OBJ615]
 Name=Puerta abierta
@@ -8761,6 +8975,18 @@ Agarrable=1
 Texto=Árbol
 en_name=Tree
 
+[OBJ735] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ines
+GrhIndex=52190
+CollectibleCardImgPathing=117.png
+CollectibleCardIndex=117
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ines
+pt_Name=Carta Ines
+fr_Name=Carta Ines
+it_Name=Carta Ines
+
 [OBJ736]
 Name=Anillo de Comercio (+10)
 GrhIndex=905
@@ -8790,6 +9016,30 @@ MinELV=1
 Texto=Aumenta tus puntos de habilidad en Apuñalar 10 puntos.
 en_texto=Increase your skill points in Backstab by 10 points.
 en_Name=Assasin Earring (+10)
+
+[OBJ740] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ged
+GrhIndex=52190
+CollectibleCardImgPathing=118.png
+CollectibleCardIndex=118
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ged
+pt_Name=Carta Ged
+fr_Name=Carta Ged
+it_Name=Carta Ged
+
+[OBJ741] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Alberich
+GrhIndex=52190
+CollectibleCardImgPathing=119.png
+CollectibleCardIndex=119
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Alberich
+pt_Name=Carta Alberich
+fr_Name=Carta Alberich
+it_Name=Carta Alberich
 
 [OBJ742]
 Name=Lanza Rústica
@@ -8821,6 +9071,78 @@ Nowiki=1
 en_Name=Spear
 WeaponType=10
 
+[OBJ743] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Krix
+GrhIndex=52190
+CollectibleCardImgPathing=120.png
+CollectibleCardIndex=120
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Krix
+pt_Name=Carta Krix
+fr_Name=Carta Krix
+it_Name=Carta Krix
+
+[OBJ744] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Cleff
+GrhIndex=52190
+CollectibleCardImgPathing=121.png
+CollectibleCardIndex=121
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Cleff
+pt_Name=Carta Cleff
+fr_Name=Carta Cleff
+it_Name=Carta Cleff
+
+[OBJ745] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ligno
+GrhIndex=52190
+CollectibleCardImgPathing=122.png
+CollectibleCardIndex=122
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ligno
+pt_Name=Carta Ligno
+fr_Name=Carta Ligno
+it_Name=Carta Ligno
+
+[OBJ746] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Thalin
+GrhIndex=52190
+CollectibleCardImgPathing=123.png
+CollectibleCardIndex=123
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Thalin
+pt_Name=Carta Thalin
+fr_Name=Carta Thalin
+it_Name=Carta Thalin
+
+[OBJ747] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Skabrot
+GrhIndex=52190
+CollectibleCardImgPathing=124.png
+CollectibleCardIndex=124
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Skabrot
+pt_Name=Carta Skabrot
+fr_Name=Carta Skabrot
+it_Name=Carta Skabrot
+
+[OBJ748] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Boran
+GrhIndex=52190
+CollectibleCardImgPathing=125.png
+CollectibleCardIndex=125
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Boran
+pt_Name=Carta Boran
+fr_Name=Carta Boran
+it_Name=Carta Boran
+
 [OBJ749]
 Name=Ballesta
 GrhIndex=896
@@ -8830,6 +9152,66 @@ Texto=Ballesta
 MinELV=1
 
 '**************************** CORREO ****************************
+
+[OBJ750] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Caspian
+GrhIndex=52190
+CollectibleCardImgPathing=126.png
+CollectibleCardIndex=126
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Caspian
+pt_Name=Carta Caspian
+fr_Name=Carta Caspian
+it_Name=Carta Caspian
+
+[OBJ751] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Gertha
+GrhIndex=52190
+CollectibleCardImgPathing=127.png
+CollectibleCardIndex=127
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Gertha
+pt_Name=Carta Gertha
+fr_Name=Carta Gertha
+it_Name=Carta Gertha
+
+[OBJ752] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Eom
+GrhIndex=52190
+CollectibleCardImgPathing=128.png
+CollectibleCardIndex=128
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Eom
+pt_Name=Carta Eom
+fr_Name=Carta Eom
+it_Name=Carta Eom
+
+[OBJ753] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Fizzwick
+GrhIndex=52190
+CollectibleCardImgPathing=129.png
+CollectibleCardIndex=129
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Fizzwick
+pt_Name=Carta Fizzwick
+fr_Name=Carta Fizzwick
+it_Name=Carta Fizzwick
+
+[OBJ754] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Isolda
+GrhIndex=52190
+CollectibleCardImgPathing=130.png
+CollectibleCardIndex=130
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Isolda
+pt_Name=Carta Isolda
+fr_Name=Carta Isolda
+it_Name=Carta Isolda
 
 [OBJ755]
 Name=Anillo del Silencio
@@ -8858,6 +9240,54 @@ Crucial=1
 en_texto=It makes your spells not show the magic words.
 en_Name=Ring of silence (Assassin-Bandit)
 
+[OBJ756] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Gustave
+GrhIndex=52190
+CollectibleCardImgPathing=131.png
+CollectibleCardIndex=131
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Gustave
+pt_Name=Carta Gustave
+fr_Name=Carta Gustave
+it_Name=Carta Gustave
+
+[OBJ757] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Virutt
+GrhIndex=52190
+CollectibleCardImgPathing=132.png
+CollectibleCardIndex=132
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Virutt
+pt_Name=Carta Virutt
+fr_Name=Carta Virutt
+it_Name=Carta Virutt
+
+[OBJ758] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Haytham
+GrhIndex=52190
+CollectibleCardImgPathing=133.png
+CollectibleCardIndex=133
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Haytham
+pt_Name=Carta Haytham
+fr_Name=Carta Haytham
+it_Name=Carta Haytham
+
+[OBJ759] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Gunnarof
+GrhIndex=52190
+CollectibleCardImgPathing=134.png
+CollectibleCardIndex=134
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Gunnarof
+pt_Name=Carta Gunnarof
+fr_Name=Carta Gunnarof
+it_Name=Carta Gunnarof
+
 [OBJ760]
 Name=Cebolla
 GrhIndex=28834
@@ -8870,6 +9300,18 @@ en_name=Onion
 en_texto=Restores 1 hunger points
 
 '--------------> Casa número 1 de Orac <--------------
+
+[OBJ761] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Escaldra
+GrhIndex=52190
+CollectibleCardImgPathing=135.png
+CollectibleCardIndex=135
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Escaldra
+pt_Name=Carta Escaldra
+fr_Name=Carta Escaldra
+it_Name=Carta Escaldra
 
 [OBJ762]
 Name=Puerta abierta
@@ -9729,166 +10171,274 @@ en_Name=Arghal House Key 15
 
 '--------------> Mansión de Suramei <--------------
 
-[OBJ826]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-clave=102
-Agarrable=1
-IndexAbierta=826
-IndexCerrada=827
-IndexCerradaLlave=828
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ822] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Puloj
+GrhIndex=52190
+CollectibleCardImgPathing=136.png
+CollectibleCardIndex=136
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Puloj
+pt_Name=Carta Puloj
+fr_Name=Carta Puloj
+it_Name=Carta Puloj
 
-[OBJ827]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-clave=102
-Agarrable=1
-IndexAbierta=826
-IndexCerrada=827
-IndexCerradaLlave=828
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
+[OBJ823] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Juan XXI
+GrhIndex=52190
+CollectibleCardImgPathing=137.png
+CollectibleCardIndex=137
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Juan XXI
+pt_Name=Carta Juan XXI
+fr_Name=Carta Juan XXI
+it_Name=Carta Juan XXI
 
-[OBJ828]
-Name=Puerta cerrada con llave Casa 2 de illiandor
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-clave=102
-Agarrable=1
-IndexAbierta=826
-IndexCerrada=827
-IndexCerradaLlave=828
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 2 of Illiandor
-ExtraStr=Esta honorable casa pertenece a
+[OBJ824] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Aurelian
+GrhIndex=52190
+CollectibleCardImgPathing=138.png
+CollectibleCardIndex=138
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Aurelian
+pt_Name=Carta Aurelian
+fr_Name=Carta Aurelian
+it_Name=Carta Aurelian
 
-[OBJ834]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-Clave=104
-Agarrable=1
-IndexAbierta=834
-IndexCerrada=835
-IndexCerradaLlave=836
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ825] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Vorn
+GrhIndex=52190
+CollectibleCardImgPathing=139.png
+CollectibleCardIndex=139
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Vorn
+pt_Name=Carta Vorn
+fr_Name=Carta Vorn
+it_Name=Carta Vorn
 
-[OBJ835]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-Clave=104
-Agarrable=1
-IndexAbierta=834
-IndexCerrada=835
-IndexCerradaLlave=836
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
+[OBJ826] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Lyram
+GrhIndex=52190
+CollectibleCardImgPathing=140.png
+CollectibleCardIndex=140
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Lyram
+pt_Name=Carta Lyram
+fr_Name=Carta Lyram
+it_Name=Carta Lyram
 
-[OBJ836]
-Name=Puerta cerrada con llave Casa 4 de illiandor
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-Clave=104
-Agarrable=1
-IndexAbierta=834
-IndexCerrada=835
-IndexCerradaLlave=836
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 4 of Illiandor
-ExtraStr=Esta honorable casa pertenece a
+[OBJ827] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Grognak
+GrhIndex=52190
+CollectibleCardImgPathing=141.png
+CollectibleCardIndex=141
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Grognak
+pt_Name=Carta Grognak
+fr_Name=Carta Grognak
+it_Name=Carta Grognak
 
-[OBJ837]
-Name=Llave casa Illiandor Nro: 04
-ExtraStr=Llave de la casa 4 de Illiandor
-GrhIndex=509
-ObjType=9
-Clave=104
-Valor=
-Texto=Llave de la casa 4 de Illiandor
-en_Name=Illiandor House 4 Key
+[OBJ828] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Bruja Escarlata
+GrhIndex=52190
+CollectibleCardImgPathing=142.png
+CollectibleCardIndex=142
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Bruja Escarlata
+pt_Name=Carta Bruja Escarlata
+fr_Name=Carta Bruja Escarlata
+it_Name=Carta Bruja Escarlata
 
-'--------------> Casa número 5 de Illiandor <--------------
+[OBJ829] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Vorgrash
+GrhIndex=52190
+CollectibleCardImgPathing=143.png
+CollectibleCardIndex=143
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Vorgrash
+pt_Name=Carta Vorgrash
+fr_Name=Carta Vorgrash
+it_Name=Carta Vorgrash
 
-[OBJ838]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-Clave=105
-Agarrable=1
-IndexAbierta=838
-IndexCerrada=839
-IndexCerradaLlave=840
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ830] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Orghaz
+GrhIndex=52190
+CollectibleCardImgPathing=144.png
+CollectibleCardIndex=144
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Orghaz
+pt_Name=Carta Orghaz
+fr_Name=Carta Orghaz
+it_Name=Carta Orghaz
 
-[OBJ839]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-Clave=105
-Agarrable=1
-IndexAbierta=838
-IndexCerrada=839
-IndexCerradaLlave=840
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
+[OBJ831] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Thrukha
+GrhIndex=52190
+CollectibleCardImgPathing=145.png
+CollectibleCardIndex=145
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Thrukha
+pt_Name=Carta Thrukha
+fr_Name=Carta Thrukha
+it_Name=Carta Thrukha
 
-[OBJ840]
-Name=Puerta cerrada con llave Casa 5 de illiandor
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-Clave=105
-Agarrable=1
-IndexAbierta=838
-IndexCerrada=839
-IndexCerradaLlave=840
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 5 of illiandor
-ExtraStr=Esta honorable casa pertenece a
+[OBJ832] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Krugg
+GrhIndex=52190
+CollectibleCardImgPathing=146.png
+CollectibleCardIndex=146
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Krugg
+pt_Name=Carta Krugg
+fr_Name=Carta Krugg
+it_Name=Carta Krugg
 
-[OBJ844] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ833] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Borvat
+GrhIndex=52190
+CollectibleCardImgPathing=147.png
+CollectibleCardIndex=147
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Borvat
+pt_Name=Carta Borvat
+fr_Name=Carta Borvat
+it_Name=Carta Borvat
+
+[OBJ834] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Holt
+GrhIndex=52190
+CollectibleCardImgPathing=148.png
+CollectibleCardIndex=148
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Holt
+pt_Name=Carta Holt
+fr_Name=Carta Holt
+it_Name=Carta Holt
+
+[OBJ835] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Rodrick
+GrhIndex=52190
+CollectibleCardImgPathing=149.png
+CollectibleCardIndex=149
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Rodrick
+pt_Name=Carta Rodrick
+fr_Name=Carta Rodrick
+it_Name=Carta Rodrick
+
+[OBJ836] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Philiph
+GrhIndex=52190
+CollectibleCardImgPathing=150.png
+CollectibleCardIndex=150
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Philiph
+pt_Name=Carta Philiph
+fr_Name=Carta Philiph
+it_Name=Carta Philiph
+
+[OBJ837] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Bandido
+GrhIndex=52190
+CollectibleCardImgPathing=151.png
+CollectibleCardIndex=151
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Bandido
+pt_Name=Carta Bandido
+fr_Name=Carta Bandido
+it_Name=Carta Bandido
+
+[OBJ838] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Asesino
+GrhIndex=52190
+CollectibleCardImgPathing=152.png
+CollectibleCardIndex=152
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Asesino
+pt_Name=Carta Asesino
+fr_Name=Carta Asesino
+it_Name=Carta Asesino
+
+[OBJ839] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Bjornulf
+GrhIndex=52190
+CollectibleCardImgPathing=153.png
+CollectibleCardIndex=153
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Bjornulf
+pt_Name=Carta Bjornulf
+fr_Name=Carta Bjornulf
+it_Name=Carta Bjornulf
+
+[OBJ840] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ghanly
+GrhIndex=52190
+CollectibleCardImgPathing=154.png
+CollectibleCardIndex=154
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ghanly
+pt_Name=Carta Ghanly
+fr_Name=Carta Ghanly
+it_Name=Carta Ghanly
+
+[OBJ841] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Urghal
+GrhIndex=52190
+CollectibleCardImgPathing=155.png
+CollectibleCardIndex=155
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Urghal
+pt_Name=Carta Urghal
+fr_Name=Carta Urghal
+it_Name=Carta Urghal
+
+[OBJ842] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Mantis Verde
+GrhIndex=52190
+CollectibleCardImgPathing=156.png
+CollectibleCardIndex=156
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Mantis Verde
+pt_Name=Carta Mantis Verde
+fr_Name=Carta Mantis Verde
+it_Name=Carta Mantis Verde
+
+[OBJ843] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Mantis Marrón
+GrhIndex=52190
+CollectibleCardImgPathing=157.png
+CollectibleCardIndex=157
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Mantis Marrón
+pt_Name=Carta Mantis Marrón
+fr_Name=Carta Mantis Marrón
+it_Name=Carta Mantis Marrón
+
+[OBJ844] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Mantis de Fuego
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\158.png
+CollectibleCardImgPathing=158.png
 CollectibleCardIndex=158
 CollectibleCardRarity=1
 ObjType=57
@@ -9897,113 +10447,185 @@ pt_Name=Carta Mantis de Fuego
 fr_Name=Carta Mantis de Fuego
 it_Name=Carta Mantis de Fuego
 
-[OBJ846]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-Clave=107
-Agarrable=1
-IndexAbierta=846
-IndexCerrada=847
-IndexCerradaLlave=848
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ845] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Marcoc
+GrhIndex=52190
+CollectibleCardImgPathing=159.png
+CollectibleCardIndex=159
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Marcoc
+pt_Name=Carta Marcoc
+fr_Name=Carta Marcoc
+it_Name=Carta Marcoc
 
-[OBJ847]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-Clave=107
-Agarrable=1
-IndexAbierta=846
-IndexCerrada=847
-IndexCerradaLlave=848
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
+[OBJ846] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Popei
+GrhIndex=52190
+CollectibleCardImgPathing=160.png
+CollectibleCardIndex=160
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Popei
+pt_Name=Carta Popei
+fr_Name=Carta Popei
+it_Name=Carta Popei
 
-[OBJ848]
-Name=Puerta cerrada con llave Casa 7 de illiandor
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-Clave=107
-Agarrable=1
-IndexAbierta=846
-IndexCerrada=847
-IndexCerradaLlave=848
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 7 of Illiandor
-ExtraStr=Esta honorable casa pertenece a
+[OBJ847] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Cano
+GrhIndex=52190
+CollectibleCardImgPathing=161.png
+CollectibleCardIndex=161
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Cano
+pt_Name=Carta Cano
+fr_Name=Carta Cano
+it_Name=Carta Cano
 
-[OBJ849]
-Name=Llave casa Illiandor Nro: 07
-ExtraStr=Llave de la casa 7 de Illiandor
-GrhIndex=509
-ObjType=9
-Clave=107
-Valor=
-Texto=Llave de la casa 7 de Illiandor
-en_Name=Key to House 7 Of Illiandor
+[OBJ848] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Cervatillo
+GrhIndex=52190
+CollectibleCardImgPathing=162.png
+CollectibleCardIndex=162
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Cervatillo
+pt_Name=Carta Cervatillo
+fr_Name=Carta Cervatillo
+it_Name=Carta Cervatillo
 
-'--------------> Casa número 8 de Illiandor <--------------
+[OBJ849] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Bramador
+GrhIndex=52190
+CollectibleCardImgPathing=163.png
+CollectibleCardIndex=163
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Bramador
+pt_Name=Carta Bramador
+fr_Name=Carta Bramador
+it_Name=Carta Bramador
 
-[OBJ850]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-Clave=108
-Agarrable=1
-IndexAbierta=850
-IndexCerrada=851
-IndexCerradaLlave=852
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ850] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Albi
+GrhIndex=52190
+CollectibleCardImgPathing=164.png
+CollectibleCardIndex=164
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Albi
+pt_Name=Carta Albi
+fr_Name=Carta Albi
+it_Name=Carta Albi
 
-[OBJ851]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-Clave=108
-Agarrable=1
-IndexAbierta=850
-IndexCerrada=851
-IndexCerradaLlave=852
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
+[OBJ851] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Midhas
+GrhIndex=52190
+CollectibleCardImgPathing=165.png
+CollectibleCardIndex=165
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Midhas
+pt_Name=Carta Midhas
+fr_Name=Carta Midhas
+it_Name=Carta Midhas
 
-[OBJ852]
-Name=Puerta cerrada con llave Casa 8 de illiandor
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-Clave=108
-Agarrable=1
-IndexAbierta=850
-IndexCerrada=851
-IndexCerradaLlave=852
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 8 of Illiandor
-ExtraStr=Esta honorable casa pertenece a
+[OBJ852] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Luzlum
+GrhIndex=52190
+CollectibleCardImgPathing=166.png
+CollectibleCardIndex=166
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Luzlum
+pt_Name=Carta Luzlum
+fr_Name=Carta Luzlum
+it_Name=Carta Luzlum
+
+[OBJ853] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Blorin
+GrhIndex=52190
+CollectibleCardImgPathing=167.png
+CollectibleCardIndex=167
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Blorin
+pt_Name=Carta Blorin
+fr_Name=Carta Blorin
+it_Name=Carta Blorin
+
+[OBJ854] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Jarl Njord
+GrhIndex=52190
+CollectibleCardImgPathing=168.png
+CollectibleCardIndex=168
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Jarl Njord
+pt_Name=Carta Jarl Njord
+fr_Name=Carta Jarl Njord
+it_Name=Carta Jarl Njord
+
+[OBJ855] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Dhall
+GrhIndex=52190
+CollectibleCardImgPathing=169.png
+CollectibleCardIndex=169
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Dhall
+pt_Name=Carta Dhall
+fr_Name=Carta Dhall
+it_Name=Carta Dhall
+
+[OBJ856] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Maximus
+GrhIndex=52190
+CollectibleCardImgPathing=170.png
+CollectibleCardIndex=170
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Maximus
+pt_Name=Carta Maximus
+fr_Name=Carta Maximus
+it_Name=Carta Maximus
+
+[OBJ857] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Domus
+GrhIndex=52190
+CollectibleCardImgPathing=171.png
+CollectibleCardIndex=171
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Domus
+pt_Name=Carta Domus
+fr_Name=Carta Domus
+it_Name=Carta Domus
+
+[OBJ858] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Haleth
+GrhIndex=52190
+CollectibleCardImgPathing=172.png
+CollectibleCardIndex=172
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Haleth
+pt_Name=Carta Haleth
+fr_Name=Carta Haleth
+it_Name=Carta Haleth
+
+[OBJ859] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Conrad
+GrhIndex=52190
+CollectibleCardImgPathing=173.png
+CollectibleCardIndex=173
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Conrad
+pt_Name=Carta Conrad
+fr_Name=Carta Conrad
+it_Name=Carta Conrad
 
 [OBJ860]
 Name=Cartel
@@ -10038,6 +10660,66 @@ Agarrable=1
 en_name=Sign
 en_texto=To the east you can see a small town, its name is Illiandor. There you will find supplies for your long journey.
 
+[OBJ863] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Vanessa
+GrhIndex=52190
+CollectibleCardImgPathing=174.png
+CollectibleCardIndex=174
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Vanessa
+pt_Name=Carta Vanessa
+fr_Name=Carta Vanessa
+it_Name=Carta Vanessa
+
+[OBJ864] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Robert
+GrhIndex=52190
+CollectibleCardImgPathing=175.png
+CollectibleCardIndex=175
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Robert
+pt_Name=Carta Robert
+fr_Name=Carta Robert
+it_Name=Carta Robert
+
+[OBJ865] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Lady Elanor
+GrhIndex=52190
+CollectibleCardImgPathing=176.png
+CollectibleCardIndex=176
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Lady Elanor
+pt_Name=Carta Lady Elanor
+fr_Name=Carta Lady Elanor
+it_Name=Carta Lady Elanor
+
+[OBJ866] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Thrain
+GrhIndex=52190
+CollectibleCardImgPathing=177.png
+CollectibleCardIndex=177
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Thrain
+pt_Name=Carta Thrain
+fr_Name=Carta Thrain
+it_Name=Carta Thrain
+
+[OBJ867] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Heracio
+GrhIndex=52190
+CollectibleCardImgPathing=178.png
+CollectibleCardIndex=178
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Heracio
+pt_Name=Carta Heracio
+fr_Name=Carta Heracio
+it_Name=Carta Heracio
+
 [OBJ868]
 Name=Orbe Ígneo
 EfectoMagico=10
@@ -10071,6 +10753,138 @@ CP7=MAGO
 CP8=PALADIN
 CP9=PIRATA
 CP10=TRABAJADOR
+
+[OBJ870] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Mhor
+GrhIndex=52190
+CollectibleCardImgPathing=179.png
+CollectibleCardIndex=179
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Mhor
+pt_Name=Carta Mhor
+fr_Name=Carta Mhor
+it_Name=Carta Mhor
+
+[OBJ871] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Aurum
+GrhIndex=52190
+CollectibleCardImgPathing=180.png
+CollectibleCardIndex=180
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Aurum
+pt_Name=Carta Aurum
+fr_Name=Carta Aurum
+it_Name=Carta Aurum
+
+[OBJ872] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Malek
+GrhIndex=52190
+CollectibleCardImgPathing=181.png
+CollectibleCardIndex=181
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Malek
+pt_Name=Carta Malek
+fr_Name=Carta Malek
+it_Name=Carta Malek
+
+[OBJ873] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Grom
+GrhIndex=52190
+CollectibleCardImgPathing=182.png
+CollectibleCardIndex=182
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Grom
+pt_Name=Carta Grom
+fr_Name=Carta Grom
+it_Name=Carta Grom
+
+[OBJ874] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Elerion
+GrhIndex=52190
+CollectibleCardImgPathing=183.png
+CollectibleCardIndex=183
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Elerion
+pt_Name=Carta Elerion
+fr_Name=Carta Elerion
+it_Name=Carta Elerion
+
+[OBJ875] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Thokk
+GrhIndex=52190
+CollectibleCardImgPathing=184.png
+CollectibleCardIndex=184
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Thokk
+pt_Name=Carta Thokk
+fr_Name=Carta Thokk
+it_Name=Carta Thokk
+
+[OBJ876] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Gnargh
+GrhIndex=52190
+CollectibleCardImgPathing=185.png
+CollectibleCardIndex=185
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Gnargh
+pt_Name=Carta Gnargh
+fr_Name=Carta Gnargh
+it_Name=Carta Gnargh
+
+[OBJ877] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Redema
+GrhIndex=52190
+CollectibleCardImgPathing=186.png
+CollectibleCardIndex=186
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Redema
+pt_Name=Carta Redema
+fr_Name=Carta Redema
+it_Name=Carta Redema
+
+[OBJ878] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Shauna
+GrhIndex=52190
+CollectibleCardImgPathing=187.png
+CollectibleCardIndex=187
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Shauna
+pt_Name=Carta Shauna
+fr_Name=Carta Shauna
+it_Name=Carta Shauna
+
+[OBJ879] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Drizzt
+GrhIndex=52190
+CollectibleCardImgPathing=188.png
+CollectibleCardIndex=188
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Drizzt
+pt_Name=Carta Drizzt
+fr_Name=Carta Drizzt
+it_Name=Carta Drizzt
+
+[OBJ880] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ithilien
+GrhIndex=52190
+CollectibleCardImgPathing=189.png
+CollectibleCardIndex=189
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ithilien
+pt_Name=Carta Ithilien
+fr_Name=Carta Ithilien
+it_Name=Carta Ithilien
 
 [OBJ881]
 CP1=GUERRERO
@@ -10177,6 +10991,18 @@ en_Name=Cooking pot
 NoWiki=1
 
 '**************************** RAICES ****************************
+
+[OBJ888] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Smalin
+GrhIndex=52190
+CollectibleCardImgPathing=190.png
+CollectibleCardIndex=190
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Smalin
+pt_Name=Carta Smalin
+fr_Name=Carta Smalin
+it_Name=Carta Smalin
 
 [OBJ889]
 Name=Poción de Agilidad
@@ -10326,6 +11152,18 @@ en_Name=Anti-Stupidity Potion (Alchemy)
 
 '--------------> Otros <--------------
 
+[OBJ897] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ocopin
+GrhIndex=52190
+CollectibleCardImgPathing=191.png
+CollectibleCardIndex=191
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ocopin
+pt_Name=Carta Ocopin
+fr_Name=Carta Ocopin
+it_Name=Carta Ocopin
+
 [OBJ898]
 GrhIndex=49016
 Name=Olla de Alquimia (QUEST)
@@ -10333,6 +11171,54 @@ ObjType=18
 Texto=Herramienta necesaria para crear pociones de Alquimia
 Valor=0
 Crucial=1
+
+[OBJ906] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Cirdan
+GrhIndex=52190
+CollectibleCardImgPathing=199.png
+CollectibleCardIndex=199
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Cirdan
+pt_Name=Carta Cirdan
+fr_Name=Carta Cirdan
+it_Name=Carta Cirdan
+
+[OBJ907] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Tellus
+GrhIndex=52190
+CollectibleCardImgPathing=200.png
+CollectibleCardIndex=200
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Tellus
+pt_Name=Carta Tellus
+fr_Name=Carta Tellus
+it_Name=Carta Tellus
+
+[OBJ908] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Blaze
+GrhIndex=52190
+CollectibleCardImgPathing=201.png
+CollectibleCardIndex=201
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Blaze
+pt_Name=Carta Blaze
+fr_Name=Carta Blaze
+it_Name=Carta Blaze
+
+[OBJ909] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Gale
+GrhIndex=52190
+CollectibleCardImgPathing=202.png
+CollectibleCardIndex=202
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Gale
+pt_Name=Carta Gale
+fr_Name=Carta Gale
+it_Name=Carta Gale
 
 [OBJ910]
 Name=Árbol
@@ -10346,118 +11232,118 @@ en_name=Tree
 
 '--------------> Tiama <--------------
 
-[OBJ912]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-clave=110
-Agarrable=1
-IndexAbierta=912
-IndexCerrada=913
-IndexCerradaLlave=914
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ911] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Névora
+GrhIndex=52190
+CollectibleCardImgPathing=203.png
+CollectibleCardIndex=203
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Névora
+pt_Name=Carta Névora
+fr_Name=Carta Névora
+it_Name=Carta Névora
 
-[OBJ913]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-clave=110
-Agarrable=1
-IndexAbierta=912
-IndexCerrada=913
-IndexCerradaLlave=914
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
+[OBJ912] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Nilus
+GrhIndex=52190
+CollectibleCardImgPathing=204.png
+CollectibleCardIndex=204
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Nilus
+pt_Name=Carta Nilus
+fr_Name=Carta Nilus
+it_Name=Carta Nilus
 
-[OBJ914]
-Name=Puerta cerrada con llave Casa 1 de Tiama
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-clave=110
-Agarrable=1
-IndexAbierta=912
-IndexCerrada=913
-IndexCerradaLlave=914
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 1 of  Tiama
-ExtraStr=Esta honorable casa pertenece a
+[OBJ913] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Karkadan
+GrhIndex=52190
+CollectibleCardImgPathing=205.png
+CollectibleCardIndex=205
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Karkadan
+pt_Name=Carta Karkadan
+fr_Name=Carta Karkadan
+it_Name=Carta Karkadan
 
-[OBJ915]
-Name=Llave casa Tiama Nro: 02
-ExtraStr=Llave de la casa 2 de Tiama
-GrhIndex=509
-ObjType=9
-Clave=111
-valor=
-Texto=Llave de la casa 2 de Tiama
-en_Name=Tiama House Key 2
+[OBJ914] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Crocky
+GrhIndex=52190
+CollectibleCardImgPathing=206.png
+CollectibleCardIndex=206
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Crocky
+pt_Name=Carta Crocky
+fr_Name=Carta Crocky
+it_Name=Carta Crocky
 
-'--------------> Casa número 2 de Tiama <--------------
+[OBJ915] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Kaelus
+GrhIndex=52190
+CollectibleCardImgPathing=207.png
+CollectibleCardIndex=207
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Kaelus
+pt_Name=Carta Kaelus
+fr_Name=Carta Kaelus
+it_Name=Carta Kaelus
 
-[OBJ916]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-clave=111
-Agarrable=1
-IndexAbierta=916
-IndexCerrada=917
-IndexCerradaLlave=918
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
+[OBJ916] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Mordu
+GrhIndex=52190
+CollectibleCardImgPathing=208.png
+CollectibleCardIndex=208
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Mordu
+pt_Name=Carta Mordu
+fr_Name=Carta Mordu
+it_Name=Carta Mordu
 
-[OBJ917]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-clave=111
-Agarrable=1
-IndexAbierta=916
-IndexCerrada=917
-IndexCerradaLlave=918
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
+[OBJ917] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Syla
+GrhIndex=52190
+CollectibleCardImgPathing=209.png
+CollectibleCardIndex=209
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Syla
+pt_Name=Carta Syla
+fr_Name=Carta Syla
+it_Name=Carta Syla
 
-[OBJ918]
-Name=Puerta cerrada con llave Casa 2 de Tiama
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-clave=111
-Agarrable=1
-IndexAbierta=916
-IndexCerrada=917
-IndexCerradaLlave=918
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 2 of Tiama
-ExtraStr=Esta honorable casa pertenece a
+[OBJ918] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Gru
+GrhIndex=52190
+CollectibleCardImgPathing=210.png
+CollectibleCardIndex=210
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Gru
+pt_Name=Carta Gru
+fr_Name=Carta Gru
+it_Name=Carta Gru
 
-[OBJ920] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ919] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Rakhar
+GrhIndex=52190
+CollectibleCardImgPathing=211.png
+CollectibleCardIndex=211
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Rakhar
+pt_Name=Carta Rakhar
+fr_Name=Carta Rakhar
+it_Name=Carta Rakhar
+
+[OBJ920] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Minotauro Barbaro
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\212.png
+CollectibleCardImgPathing=212.png
 CollectibleCardIndex=212
 CollectibleCardRarity=1
 ObjType=57
@@ -10466,10 +11352,10 @@ pt_Name=Carta Minotauro Barbaro
 fr_Name=Carta Minotauro Barbaro
 it_Name=Carta Minotauro Barbaro
 
-[OBJ921] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ921] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Minotauro Guerrero
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\213.png
+CollectibleCardImgPathing=213.png
 CollectibleCardIndex=213
 CollectibleCardRarity=1
 ObjType=57
@@ -10478,10 +11364,22 @@ pt_Name=Carta Minotauro Guerrero
 fr_Name=Carta Minotauro Guerrero
 it_Name=Carta Minotauro Guerrero
 
-[OBJ923] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ922] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Minotauro Joven
+GrhIndex=52190
+CollectibleCardImgPathing=214.png
+CollectibleCardIndex=214
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Minotauro Joven
+pt_Name=Carta Minotauro Joven
+fr_Name=Carta Minotauro Joven
+it_Name=Carta Minotauro Joven
+
+[OBJ923] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Minotauro
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\215.png
+CollectibleCardImgPathing=215.png
 CollectibleCardIndex=215
 CollectibleCardRarity=1
 ObjType=57
@@ -10490,10 +11388,10 @@ pt_Name=Carta Minotauro
 fr_Name=Carta Minotauro
 it_Name=Carta Minotauro
 
-[OBJ924] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ924] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Umbrax
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\216.png
+CollectibleCardImgPathing=216.png
 CollectibleCardIndex=216
 CollectibleCardRarity=1
 ObjType=57
@@ -10501,174 +11399,6 @@ en_Name=Carta Umbrax
 pt_Name=Carta Umbrax
 fr_Name=Carta Umbrax
 it_Name=Carta Umbrax
-
-[OBJ928]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-clave=114
-Agarrable=1
-IndexAbierta=928
-IndexCerrada=929
-IndexCerradaLlave=930
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ929]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-clave=114
-Agarrable=1
-IndexAbierta=928
-IndexCerrada=929
-IndexCerradaLlave=930
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ930]
-Name=Puerta cerrada con llave Casa 5 de Tiama
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-clave=114
-Agarrable=1
-IndexAbierta=928
-IndexCerrada=929
-IndexCerradaLlave=930
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 5 of Tiama
-ExtraStr=Esta honorable casa pertenece a
-
-[OBJ931]
-Name=Llave casa Tiama Nro: 06
-ExtraStr=Llave de la casa 6 de Tiama
-GrhIndex=509
-ObjType=9
-Clave=115
-valor=
-Texto=Llave de la casa 6 de Tiama
-en_Name=Key to House 6 Of Tiama
-
-'--------------> Casa número 6 de Tiama <--------------
-
-[OBJ932]
-Name=Puerta abierta
-GrhIndex=5592
-ObjType=6
-Cerrada=0
-llave=0
-clave=115
-Agarrable=1
-IndexAbierta=932
-IndexCerrada=933
-IndexCerradaLlave=934
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ933]
-Name=Puerta cerrada
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=0
-clave=115
-Agarrable=1
-IndexAbierta=932
-IndexCerrada=933
-IndexCerradaLlave=934
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ934]
-Name=Puerta cerrada con llave Casa 6 de Tiama
-GrhIndex=5593
-ObjType=6
-Cerrada=1
-llave=1
-clave=115
-Agarrable=1
-IndexAbierta=932
-IndexCerrada=932
-IndexCerradaLlave=934
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 6 of Tiama
-ExtraStr=Esta honorable casa pertenece a
-
-[OBJ935]
-Name=Llave casa Tiama Nro: 07
-ExtraStr=Llave de la casa 7 de Tiama
-GrhIndex=509
-ObjType=9
-Clave=116
-valor=
-Texto=Llave de la casa 7 de Tiama
-en_Name=Tiama House Key 7
-
-'--------------> Casa número 7 de Tiama <--------------
-
-[OBJ936]
-Name=Puerta abierta
-GrhIndex=9199
-ObjType=6
-Cerrada=0
-llave=0
-clave=116
-Agarrable=1
-IndexAbierta=936
-IndexCerrada=937
-IndexCerradaLlave=938
-Texto=Puerta abierta
-en_name=Open door
-en_texto=This honorable house belongs to
-ExtraStr=Puerta abierta
-
-[OBJ937]
-Name=Puerta cerrada
-GrhIndex=9193
-ObjType=6
-Cerrada=1
-llave=0
-clave=116
-Agarrable=1
-IndexAbierta=936
-IndexCerrada=937
-IndexCerradaLlave=938
-Texto=Puerta cerrada
-en_name=Door closed
-en_texto=This honorable house belongs to
-ExtraStr=Puerta cerrada
-
-[OBJ938]
-Name=Puerta cerrada con llave Casa 7 de Tiama
-GrhIndex=9193
-ObjType=6
-Cerrada=1
-llave=1
-clave=116
-Agarrable=1
-IndexAbierta=936
-IndexCerrada=937
-IndexCerradaLlave=938
-Texto=Esta honorable casa pertenece a
-en_texto=This honorable house belongs to
-en_Name=locked door house 7 of Tiama
-ExtraStr=Esta honorable casa pertenece a
 
 [OBJ940]
 Name=Árbol
@@ -10680,29 +11410,29 @@ VidaUtil=2500
 TiempoRegenerar=3600
 en_name=Tree
 
-[OBJ950]
-Name=Traje de Marques
-GrhIndex=11103
-RopajeHumano=30
-RopajeElfo=30
-RopajeElfoOscuro=1875
-RopajeEnano=1153
-RopajeOrco=1859
-RopajeGnomo=1153
-RopajeHumana=1216
-RopajeElfa=1216
-RopajeElfaOscura=2773
-RopajeEnana=2751
-RopajeOrca=2762
-RopajeGnoma=2751
-ObjType=3
-MAXDEF=10
-MINDEF=1
-Valor=700
-peso=50
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Traje de Marques
-en_Name=Marquis Suit
+[OBJ959] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Kaiser
+GrhIndex=52190
+CollectibleCardImgPathing=249.png
+CollectibleCardIndex=249
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Kaiser
+pt_Name=Carta Kaiser
+fr_Name=Carta Kaiser
+it_Name=Carta Kaiser
+
+[OBJ960] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Kori
+GrhIndex=52190
+CollectibleCardImgPathing=250.png
+CollectibleCardIndex=250
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Kori
+pt_Name=Carta Kori
+fr_Name=Carta Kori
+it_Name=Carta Kori
 
 [OBJ961]
 Name=Árbol Élfico
@@ -11097,6 +11827,18 @@ en_name=Jester Hat
 texto=Cambia tu apariencia con esta mascara
 en_texto=Change your appearance with this mask
 
+[OBJ1010] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Goat
+GrhIndex=52190
+CollectibleCardImgPathing=264.png
+CollectibleCardIndex=264
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Goat
+pt_Name=Carta Goat
+fr_Name=Carta Goat
+it_Name=Carta Goat
+
 [OBJ1011]
 Name=Corona Ridícula
 Anim=140
@@ -11112,6 +11854,18 @@ NFT=1
 NoSeCae=1
 en_name=Ridiculous Crown
 en_texto=Change your appearance with this mask
+
+[OBJ1012] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Gúl Belthor
+GrhIndex=52190
+CollectibleCardImgPathing=265.png
+CollectibleCardIndex=265
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Gúl Belthor
+pt_Name=Carta Gúl Belthor
+fr_Name=Carta Gúl Belthor
+it_Name=Carta Gúl Belthor
 
 [OBJ1013]
 Name=Máscara de Salmón
@@ -11734,37 +12488,53 @@ ResistenciaMagica=1
 MinELV=1
 Texto=Casco Sajón de Bronce
 
-[OBJ1088]'Borrar proxima temporada
-Name=Túnica de Nigromante (Bajos)
-GrhIndex=24994
-RopajeHumano=157
-RopajeElfo=157
-RopajeElfoOscuro=1577
-RopajeEnano=1670
-RopajeOrco=2234
-RopajeGnomo=1670
-RopajeHumana=4777
-RopajeElfa=4777
-RopajeElfaOscura=4859
-RopajeEnana=1670
-RopajeOrca=4843
-RopajeGnoma=1670
-ObjType=3
-MAXDEF=18
-MINDEF=14
-Valor=5000
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP9=ASESINO
-CP10=GUERRERO
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-MinELV=1
-Texto=Túnica de Nigromante (Bajos)
-en_Name=Necromancer Robe (E/G)
+[OBJ1085] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Kildar
+GrhIndex=52190
+CollectibleCardImgPathing=278.png
+CollectibleCardIndex=278
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Kildar
+pt_Name=Carta Kildar
+fr_Name=Carta Kildar
+it_Name=Carta Kildar
+
+[OBJ1086] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Malakor
+GrhIndex=52190
+CollectibleCardImgPathing=279.png
+CollectibleCardIndex=279
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Malakor
+pt_Name=Carta Malakor
+fr_Name=Carta Malakor
+it_Name=Carta Malakor
+
+[OBJ1087] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Morgok
+GrhIndex=52190
+CollectibleCardImgPathing=280.png
+CollectibleCardIndex=280
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Morgok
+pt_Name=Carta Morgok
+fr_Name=Carta Morgok
+it_Name=Carta Morgok
+
+[OBJ1088] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Sigurd
+GrhIndex=52190
+CollectibleCardImgPathing=281.png
+CollectibleCardIndex=281
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Sigurd
+pt_Name=Carta Sigurd
+fr_Name=Carta Sigurd
+it_Name=Carta Sigurd
 
 [OBJ1089]
 CP1=GUERRERO
@@ -11842,6 +12612,66 @@ it_Name=Rodela superiore
 it_Texto=3/5 difesa
 pt_Name=Upper Rodela
 pt_Texto=3/5 Defesa
+
+[OBJ1124] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Frondelia
+GrhIndex=52190
+CollectibleCardImgPathing=295.png
+CollectibleCardIndex=295
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Frondelia
+pt_Name=Carta Frondelia
+fr_Name=Carta Frondelia
+it_Name=Carta Frondelia
+
+[OBJ1125] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Vorag
+GrhIndex=52190
+CollectibleCardImgPathing=296.png
+CollectibleCardIndex=296
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Vorag
+pt_Name=Carta Vorag
+fr_Name=Carta Vorag
+it_Name=Carta Vorag
+
+[OBJ1127] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Maestro Entomus
+GrhIndex=52190
+CollectibleCardImgPathing=297.png
+CollectibleCardIndex=297
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Maestro Entomus
+pt_Name=Carta Maestro Entomus
+fr_Name=Carta Maestro Entomus
+it_Name=Carta Maestro Entomus
+
+[OBJ1128] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Elsa
+GrhIndex=52190
+CollectibleCardImgPathing=298.png
+CollectibleCardIndex=298
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Elsa
+pt_Name=Carta Elsa
+fr_Name=Carta Elsa
+it_Name=Carta Elsa
+
+[OBJ1129] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Gabriel
+GrhIndex=52190
+CollectibleCardImgPathing=299.png
+CollectibleCardIndex=299
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Gabriel
+pt_Name=Carta Gabriel
+fr_Name=Carta Gabriel
+it_Name=Carta Gabriel
 
 [OBJ1130]
 Name=Cartel Penthar al Norte
@@ -11989,6 +12819,30 @@ Crucial=1
 en_Name=Miner Clothes
 Texto=Ropa de Minero
 
+[OBJ1143] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Kendra
+GrhIndex=52190
+CollectibleCardImgPathing=300.png
+CollectibleCardIndex=300
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Kendra
+pt_Name=Carta Kendra
+fr_Name=Carta Kendra
+it_Name=Carta Kendra
+
+[OBJ1144] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Agatha
+GrhIndex=52190
+CollectibleCardImgPathing=301.png
+CollectibleCardIndex=301
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Agatha
+pt_Name=Carta Agatha
+fr_Name=Carta Agatha
+it_Name=Carta Agatha
+
 [OBJ1145]
 Name=Piel de Tigre de Bengala
 GrhIndex=38208
@@ -12021,6 +12875,42 @@ en_texto=Increases your chance to upgrade skills by 50%
 en_Name=Expert Earring
 
 '**************************** PUESTOS DE ENTRENAMIENTO ****************************
+
+[OBJ1151] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Sylphira
+GrhIndex=52190
+CollectibleCardImgPathing=303.png
+CollectibleCardIndex=303
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Sylphira
+pt_Name=Carta Sylphira
+fr_Name=Carta Sylphira
+it_Name=Carta Sylphira
+
+[OBJ1152] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Xantoras
+GrhIndex=52190
+CollectibleCardImgPathing=304.png
+CollectibleCardIndex=304
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Xantoras
+pt_Name=Carta Xantoras
+fr_Name=Carta Xantoras
+it_Name=Carta Xantoras
+
+[OBJ1153] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Lurmix
+GrhIndex=52190
+CollectibleCardImgPathing=305.png
+CollectibleCardIndex=305
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Lurmix
+pt_Name=Carta Lurmix
+fr_Name=Carta Lurmix
+it_Name=Carta Lurmix
 
 [OBJ1154]
 GrhIndex=38380
@@ -12191,52 +13081,101 @@ ObjType=24
 Texto=Causa 180 a 220 puntos de daño.
 Valor=2400000
 
-[OBJ1195]
-GRHINDEX=0
+[OBJ1193] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Azhara
+GrhIndex=52190
+CollectibleCardImgPathing=324.png
+CollectibleCardIndex=324
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Azhara
+pt_Name=Carta Azhara
+fr_Name=Carta Azhara
+it_Name=Carta Azhara
 
-[OBJ1198]
-GRHINDEX=0
+[OBJ1194] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Windall
+GrhIndex=52190
+CollectibleCardImgPathing=325.png
+CollectibleCardIndex=325
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Windall
+pt_Name=Carta Windall
+fr_Name=Carta Windall
+it_Name=Carta Windall
 
-[OBJ1208]
-GRHINDEX=0
+[OBJ1195] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ruma
+GrhIndex=52190
+CollectibleCardImgPathing=326.png
+CollectibleCardIndex=326
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ruma
+pt_Name=Carta Ruma
+fr_Name=Carta Ruma
+it_Name=Carta Ruma
 
-[OBJ1210]
-Name=Túnica de Druida Superior (Bajos)
-GrhIndex=618
-RopajeHumano=222
-RopajeElfo=222
-RopajeElfoOscuro=1959
-RopajeEnano=621
-RopajeOrco=1943
-RopajeGnomo=621
-RopajeHumana=56
-RopajeElfa=222
-RopajeElfaOscura=3819
-RopajeEnana=621
-RopajeOrca=3402
-RopajeGnoma=621
-MinELV=1
-ObjType=3
-Crucial=1
-MAXDEF=37
-MINDEF=27
-Texto=Solo utilizable por druidas de gran nivel.
-Valor=21000
-CP1=BANDIDO
-CP2=LADRON
-CP3=PIRATA
-CP4=TRABAJADOR
-CP5=CAZADOR
-CP6=PALADIN
-CP8=BARDO
-CP9=ASESINO
-CP10=GUERRERO
-CP11=CLERIGO
-CP12=MAGO
-NFT=0
-Nowiki=1
-en_texto=Only usable by high-level druids.
-en_Name=Superior Druid Robe (E/G)
+[OBJ1196] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Delvina
+GrhIndex=52190
+CollectibleCardImgPathing=327.png
+CollectibleCardIndex=327
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Delvina
+pt_Name=Carta Delvina
+fr_Name=Carta Delvina
+it_Name=Carta Delvina
+
+[OBJ1197] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Alva del Caldero
+GrhIndex=52190
+CollectibleCardImgPathing=328.png
+CollectibleCardIndex=328
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Alva del Caldero
+pt_Name=Carta Alva del Caldero
+fr_Name=Carta Alva del Caldero
+it_Name=Carta Alva del Caldero
+
+[OBJ1198] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Thaladir
+GrhIndex=52190
+CollectibleCardImgPathing=329.png
+CollectibleCardIndex=329
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Thaladir
+pt_Name=Carta Thaladir
+fr_Name=Carta Thaladir
+it_Name=Carta Thaladir
+
+[OBJ1207] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Nargoth
+GrhIndex=52190
+CollectibleCardImgPathing=338.png
+CollectibleCardIndex=338
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Nargoth
+pt_Name=Carta Nargoth
+fr_Name=Carta Nargoth
+it_Name=Carta Nargoth
+
+[OBJ1208] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Daena
+GrhIndex=52190
+CollectibleCardImgPathing=339.png
+CollectibleCardIndex=339
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Daena
+pt_Name=Carta Daena
+fr_Name=Carta Daena
+it_Name=Carta Daena
 
 [OBJ1217]
 Name=Armadura de Dragón Negro
@@ -12341,36 +13280,56 @@ PielOsoPardo=0
 PielOsoPolar=0
 en_Name=Adventurer Robe (E/G)
 
-[OBJ1230]
-GRHINDEX=0
+[OBJ1229] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Eltherion
+GrhIndex=52190
+CollectibleCardImgPathing=358.png
+CollectibleCardIndex=358
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Eltherion
+pt_Name=Carta Eltherion
+fr_Name=Carta Eltherion
+it_Name=Carta Eltherion
 
-[OBJ1232]
-Name=Puerta abierta
-GrhIndex=6959
-ObjType=6
-Cerrada=0
-llave=0
-Agarrable=1
-IndexAbierta=1232
-IndexCerrada=1233
-IndexCerradaLlave=1233
-Texto=Puerta abierta
-en_name=Open door
-ExtraStr=Puerta abierta
+[OBJ1230] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Thaldris
+GrhIndex=52190
+CollectibleCardImgPathing=359.png
+CollectibleCardIndex=359
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Thaldris
+pt_Name=Carta Thaldris
+fr_Name=Carta Thaldris
+it_Name=Carta Thaldris
 
-[OBJ1233]
-Name=Puerta cerrada
-GrhIndex=6961
-ObjType=6
-Cerrada=1
-llave=0
-Agarrable=1
-IndexAbierta=1232
-IndexCerrada=1233
-IndexCerradaLlave=1233
-Texto=Puerta cerrada
-en_name=Door closed
-ExtraStr=Puerta cerrada
+[OBJ1232] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ingril
+GrhIndex=52190
+CollectibleCardImgPathing=361.png
+CollectibleCardIndex=361
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ingril
+pt_Name=Carta Ingril
+fr_Name=Carta Ingril
+it_Name=Carta Ingril
+
+[OBJ1233] 'Item del pack oficial 2026-10-01 (plan 23.005)
+Name=Ojo de Eyewarden
+Texto=El ojo conserva un frío antinatural.
+GrhIndex=38231
+ObjType=51
+Valor=0
+en_Name=Eyewarden's Eye
+en_texto=The eye retains an unnatural cold.
+pt_Name=Olho de Eyewarden
+pt_texto=O olho conserva um frio antinatural.
+fr_Name=L'eil d'Eyewarden
+fr_texto=L'eil conserve un froid contre nature.
+it_Name=Occhio di Eyewarden
+it_texto=L'occhio conserva un freddo innaturale.
 
 [OBJ1236]
 Name=Sombrero Negro de Mago
@@ -51471,31 +52430,44 @@ CP9=MAGO
 CP10=PALADIN
 CP11=PIRATA
 
-[OBJ4330]
-Name=Cota de Gladiador
-GrhIndex=2650
-RopajeHumano=295
-RopajeElfo=295
-RopajeElfoOscuro=2104
-RopajeEnano=789
-RopajeOrco=2088
-RopajeGnomo=789
-RopajeHumana=295
-RopajeElfa=295
-RopajeElfaOscura=2104
-RopajeEnana=789
-RopajeOrca=2088
-RopajeGnoma=789
+[OBJ4330] 'Item del pack oficial 2026-10-01 (plan 23.005)
+Name=Armadura Pirata
+Texto=Defensa 18/20
 ObjType=3
-MAXDEF=22
-MINDEF=15
-CP7=DRUIDA
-CP8=BARDO
-CP12=MAGO
-MinELV=1
-Valor=7200
-Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Cota de Gladiador (Drow)
+Valor=5100
+MaxDef=20
+MinDef=18
+GrhIndex=39424
+RopajeHumano=280
+RopajeElfo=280
+RopajeElfoOscuro=1772
+RopajeEnano=774
+RopajeOrco=1316
+RopajeGnomo=774
+RopajeHumana=2337
+RopajeElfa=2337
+RopajeElfaOscura=3869
+RopajeEnana=2868
+RopajeOrca=3436
+RopajeGnoma=2868
+MinELV=25
+CP1=GUERRERO
+CP2=PALADIN
+CP3=CLERIGO
+CP4=CAZADOR
+CP5=PIRATA
+CP6=LADRON
+CP7=BARDO
+CP8=DRUIDA
+CP9=MAGO
+en_Name=Pirate Armor
+en_texto=Defense 18/20
+pt_Name=Armadura de Pirata
+pt_texto=Defesa 18/20
+fr_Name=Armure de pirate
+fr_texto=Défense 18/20
+it_Name=Armatura da pirata
+it_texto=Difesa 18/20
 
 [OBJ4332]
 CP1=GUERRERO
@@ -61717,10 +62689,10 @@ NoSeCae=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Casco de Dragón Negro
 
-[OBJ6489] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ6489] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Leviatan
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\8.png
+CollectibleCardImgPathing=8.png
 CollectibleCardIndex=8
 CollectibleCardRarity=1
 ObjType=57
@@ -61729,10 +62701,502 @@ pt_Name=Carta Leviatan
 fr_Name=Carta Leviatan
 it_Name=Carta Leviatan
 
-[OBJ6719] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ6493] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Brumak
+GrhIndex=52190
+CollectibleCardImgPathing=12.png
+CollectibleCardIndex=12
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Brumak
+pt_Name=Carta Brumak
+fr_Name=Carta Brumak
+it_Name=Carta Brumak
+
+[OBJ6520] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Dragón Rojo
+GrhIndex=52190
+CollectibleCardImgPathing=39.png
+CollectibleCardIndex=39
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Dragón Rojo
+pt_Name=Carta Dragón Rojo
+fr_Name=Carta Dragón Rojo
+it_Name=Carta Dragón Rojo
+
+[OBJ6521] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Dragón Negro
+GrhIndex=52190
+CollectibleCardImgPathing=40.png
+CollectibleCardIndex=40
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Dragón Negro
+pt_Name=Carta Dragón Negro
+fr_Name=Carta Dragón Negro
+it_Name=Carta Dragón Negro
+
+[OBJ6522] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Dragón Dorado
+GrhIndex=52190
+CollectibleCardImgPathing=41.png
+CollectibleCardIndex=41
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Dragón Dorado
+pt_Name=Carta Dragón Dorado
+fr_Name=Carta Dragón Dorado
+it_Name=Carta Dragón Dorado
+
+[OBJ6523] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Beholder
+GrhIndex=52190
+CollectibleCardImgPathing=42.png
+CollectibleCardIndex=42
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Beholder
+pt_Name=Carta Beholder
+fr_Name=Carta Beholder
+it_Name=Carta Beholder
+
+[OBJ6525] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Pyrrak
+GrhIndex=52190
+CollectibleCardImgPathing=44.png
+CollectibleCardIndex=44
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Pyrrak
+pt_Name=Carta Pyrrak
+fr_Name=Carta Pyrrak
+it_Name=Carta Pyrrak
+
+[OBJ6526] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Azhurion
+GrhIndex=52190
+CollectibleCardImgPathing=45.png
+CollectibleCardIndex=45
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Azhurion
+pt_Name=Carta Azhurion
+fr_Name=Carta Azhurion
+it_Name=Carta Azhurion
+
+[OBJ6527] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Verdanok
+GrhIndex=52190
+CollectibleCardImgPathing=46.png
+CollectibleCardIndex=46
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Verdanok
+pt_Name=Carta Verdanok
+fr_Name=Carta Verdanok
+it_Name=Carta Verdanok
+
+[OBJ6529] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Kadru
+GrhIndex=52190
+CollectibleCardImgPathing=48.png
+CollectibleCardIndex=48
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Kadru
+pt_Name=Carta Kadru
+fr_Name=Carta Kadru
+it_Name=Carta Kadru
+
+[OBJ6530] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Lynn
+GrhIndex=52190
+CollectibleCardImgPathing=49.png
+CollectibleCardIndex=49
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Lynn
+pt_Name=Carta Lynn
+fr_Name=Carta Lynn
+it_Name=Carta Lynn
+
+[OBJ6534] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Geot
+GrhIndex=52190
+CollectibleCardImgPathing=53.png
+CollectibleCardIndex=53
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Geot
+pt_Name=Carta Geot
+fr_Name=Carta Geot
+it_Name=Carta Geot
+
+[OBJ6536] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hydrot
+GrhIndex=52190
+CollectibleCardImgPathing=55.png
+CollectibleCardIndex=55
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hydrot
+pt_Name=Carta Hydrot
+fr_Name=Carta Hydrot
+it_Name=Carta Hydrot
+
+[OBJ6538] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Tortuga Titán
+GrhIndex=52190
+CollectibleCardImgPathing=57.png
+CollectibleCardIndex=57
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Tortuga Titán
+pt_Name=Carta Tortuga Titán
+fr_Name=Carta Tortuga Titán
+it_Name=Carta Tortuga Titán
+
+[OBJ6546] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hormiga Negra
+GrhIndex=52190
+CollectibleCardImgPathing=65.png
+CollectibleCardIndex=65
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hormiga Negra
+pt_Name=Carta Hormiga Negra
+fr_Name=Carta Hormiga Negra
+it_Name=Carta Hormiga Negra
+
+[OBJ6547] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hormiga Amarilla
+GrhIndex=52190
+CollectibleCardImgPathing=66.png
+CollectibleCardIndex=66
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hormiga Amarilla
+pt_Name=Carta Hormiga Amarilla
+fr_Name=Carta Hormiga Amarilla
+it_Name=Carta Hormiga Amarilla
+
+[OBJ6548] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hormiga Verde
+GrhIndex=52190
+CollectibleCardImgPathing=67.png
+CollectibleCardIndex=67
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hormiga Verde
+pt_Name=Carta Hormiga Verde
+fr_Name=Carta Hormiga Verde
+it_Name=Carta Hormiga Verde
+
+[OBJ6549] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hormiga Azul
+GrhIndex=52190
+CollectibleCardImgPathing=68.png
+CollectibleCardIndex=68
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hormiga Azul
+pt_Name=Carta Hormiga Azul
+fr_Name=Carta Hormiga Azul
+it_Name=Carta Hormiga Azul
+
+[OBJ6550] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hormiga Berseker
+GrhIndex=52190
+CollectibleCardImgPathing=69.png
+CollectibleCardIndex=69
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hormiga Berseker
+pt_Name=Carta Hormiga Berseker
+fr_Name=Carta Hormiga Berseker
+it_Name=Carta Hormiga Berseker
+
+[OBJ6563] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Esbirra Demoniaca
+GrhIndex=52190
+CollectibleCardImgPathing=82.png
+CollectibleCardIndex=82
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Esbirra Demoniaca
+pt_Name=Carta Esbirra Demoniaca
+fr_Name=Carta Esbirra Demoniaca
+it_Name=Carta Esbirra Demoniaca
+
+[OBJ6565] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Glazrath
+GrhIndex=52190
+CollectibleCardImgPathing=84.png
+CollectibleCardIndex=84
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Glazrath
+pt_Name=Carta Glazrath
+fr_Name=Carta Glazrath
+it_Name=Carta Glazrath
+
+[OBJ6566] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Gorath
+GrhIndex=52190
+CollectibleCardImgPathing=85.png
+CollectibleCardIndex=85
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Gorath
+pt_Name=Carta Gorath
+fr_Name=Carta Gorath
+it_Name=Carta Gorath
+
+[OBJ6567] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Escorpion Azul
+GrhIndex=52190
+CollectibleCardImgPathing=86.png
+CollectibleCardIndex=86
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Escorpion Azul
+pt_Name=Carta Escorpion Azul
+fr_Name=Carta Escorpion Azul
+it_Name=Carta Escorpion Azul
+
+[OBJ6568] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ghoul de Hielo
+GrhIndex=52190
+CollectibleCardImgPathing=87.png
+CollectibleCardIndex=87
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ghoul de Hielo
+pt_Name=Carta Ghoul de Hielo
+fr_Name=Carta Ghoul de Hielo
+it_Name=Carta Ghoul de Hielo
+
+[OBJ6569] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Pixie de Hielo
+GrhIndex=52190
+CollectibleCardImgPathing=88.png
+CollectibleCardIndex=88
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Pixie de Hielo
+pt_Name=Carta Pixie de Hielo
+fr_Name=Carta Pixie de Hielo
+it_Name=Carta Pixie de Hielo
+
+[OBJ6571] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Pixie de Fuego
+GrhIndex=52190
+CollectibleCardImgPathing=90.png
+CollectibleCardIndex=90
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Pixie de Fuego
+pt_Name=Carta Pixie de Fuego
+fr_Name=Carta Pixie de Fuego
+it_Name=Carta Pixie de Fuego
+
+[OBJ6577] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Suido
+GrhIndex=52190
+CollectibleCardImgPathing=96.png
+CollectibleCardIndex=96
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Suido
+pt_Name=Carta Suido
+fr_Name=Carta Suido
+it_Name=Carta Suido
+
+[OBJ6597] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Zevkar
+GrhIndex=52190
+CollectibleCardImgPathing=116.png
+CollectibleCardIndex=116
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Zevkar
+pt_Name=Carta Zevkar
+fr_Name=Carta Zevkar
+it_Name=Carta Zevkar
+
+[OBJ6623] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Bruja Escarlata
+GrhIndex=52190
+CollectibleCardImgPathing=142.png
+CollectibleCardIndex=142
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Bruja Escarlata
+pt_Name=Carta Bruja Escarlata
+fr_Name=Carta Bruja Escarlata
+it_Name=Carta Bruja Escarlata
+
+[OBJ6629] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Holt
+GrhIndex=52190
+CollectibleCardImgPathing=148.png
+CollectibleCardIndex=148
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Holt
+pt_Name=Carta Holt
+fr_Name=Carta Holt
+it_Name=Carta Holt
+
+[OBJ6633] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Asesino
+GrhIndex=52190
+CollectibleCardImgPathing=152.png
+CollectibleCardIndex=152
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Asesino
+pt_Name=Carta Asesino
+fr_Name=Carta Asesino
+it_Name=Carta Asesino
+
+[OBJ6644] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Bramador
+GrhIndex=52190
+CollectibleCardImgPathing=163.png
+CollectibleCardIndex=163
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Bramador
+pt_Name=Carta Bramador
+fr_Name=Carta Bramador
+it_Name=Carta Bramador
+
+[OBJ6645] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Albi
+GrhIndex=52190
+CollectibleCardImgPathing=164.png
+CollectibleCardIndex=164
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Albi
+pt_Name=Carta Albi
+fr_Name=Carta Albi
+it_Name=Carta Albi
+
+[OBJ6693] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Minotauro Barbaro
+GrhIndex=52190
+CollectibleCardImgPathing=212.png
+CollectibleCardIndex=212
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Minotauro Barbaro
+pt_Name=Carta Minotauro Barbaro
+fr_Name=Carta Minotauro Barbaro
+it_Name=Carta Minotauro Barbaro
+
+[OBJ6694] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Minotauro Guerrero
+GrhIndex=52190
+CollectibleCardImgPathing=213.png
+CollectibleCardIndex=213
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Minotauro Guerrero
+pt_Name=Carta Minotauro Guerrero
+fr_Name=Carta Minotauro Guerrero
+it_Name=Carta Minotauro Guerrero
+
+[OBJ6697] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Umbrax
+GrhIndex=52190
+CollectibleCardImgPathing=216.png
+CollectibleCardIndex=216
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Umbrax
+pt_Name=Carta Umbrax
+fr_Name=Carta Umbrax
+it_Name=Carta Umbrax
+
+[OBJ6706] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Lobo Salvaje
+GrhIndex=52190
+CollectibleCardImgPathing=225.png
+CollectibleCardIndex=225
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Lobo Salvaje
+pt_Name=Carta Lobo Salvaje
+fr_Name=Carta Lobo Salvaje
+it_Name=Carta Lobo Salvaje
+
+[OBJ6709] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Verraco Alfa
+GrhIndex=52190
+CollectibleCardImgPathing=228.png
+CollectibleCardIndex=228
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Verraco Alfa
+pt_Name=Carta Verraco Alfa
+fr_Name=Carta Verraco Alfa
+it_Name=Carta Verraco Alfa
+
+[OBJ6710] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Jabato
+GrhIndex=52190
+CollectibleCardImgPathing=229.png
+CollectibleCardIndex=229
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Jabato
+pt_Name=Carta Jabato
+fr_Name=Carta Jabato
+it_Name=Carta Jabato
+
+[OBJ6714] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Nivor
+GrhIndex=52190
+CollectibleCardImgPathing=233.png
+CollectibleCardIndex=233
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Nivor
+pt_Name=Carta Nivor
+fr_Name=Carta Nivor
+it_Name=Carta Nivor
+
+[OBJ6716] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ignarok
+GrhIndex=52190
+CollectibleCardImgPathing=235.png
+CollectibleCardIndex=235
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ignarok
+pt_Name=Carta Ignarok
+fr_Name=Carta Ignarok
+it_Name=Carta Ignarok
+
+[OBJ6717] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Phyrus
+GrhIndex=52190
+CollectibleCardImgPathing=236.png
+CollectibleCardIndex=236
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Phyrus
+pt_Name=Carta Phyrus
+fr_Name=Carta Phyrus
+it_Name=Carta Phyrus
+
+[OBJ6719] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Kingion
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\238.png
+CollectibleCardImgPathing=238.png
 CollectibleCardIndex=238
 CollectibleCardRarity=1
 ObjType=57
@@ -61741,10 +63205,22 @@ pt_Name=Carta Kingion
 fr_Name=Carta Kingion
 it_Name=Carta Kingion
 
-[OBJ6747] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ6744] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Khem
+GrhIndex=52190
+CollectibleCardImgPathing=263.png
+CollectibleCardIndex=263
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Khem
+pt_Name=Carta Khem
+fr_Name=Carta Khem
+it_Name=Carta Khem
+
+[OBJ6747] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Chasdo
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\266.png
+CollectibleCardImgPathing=266.png
 CollectibleCardIndex=266
 CollectibleCardRarity=1
 ObjType=57
@@ -63496,8 +64972,29 @@ PT_texto=Danos 12/15
 FR_texto=Dommages 12/15
 IT_texto=Danno 12/15
 
-[OBJ151] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ151] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Espectro
+GrhIndex=52190
+CollectibleCardImgPathing=2.png
+CollectibleCardIndex=2
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Espectro
+pt_Name=Carta Espectro
+fr_Name=Carta Espectro
+it_Name=Carta Espectro
+
+[OBJ202] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Elemental de Agua
+GrhIndex=52190
+CollectibleCardImgPathing=4.png
+CollectibleCardIndex=4
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Elemental de Agua
+pt_Name=Carta Elemental de Agua
+fr_Name=Carta Elemental de Agua
+it_Name=Carta Elemental de Agua
 
 [OBJ203] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 CP1=GUERRERO
@@ -63527,6 +65024,18 @@ FR_Name=Piquet de mineur
 FR_texto=Outil d'extraction de dépôts.
 IT_Name=Picchetto dei minatori
 IT_texto=Strumento di estrazione dei depositi.
+
+[OBJ236] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Elemental de Fuego
+GrhIndex=52190
+CollectibleCardImgPathing=5.png
+CollectibleCardIndex=5
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Elemental de Fuego
+pt_Name=Carta Elemental de Fuego
+fr_Name=Carta Elemental de Fuego
+it_Name=Carta Elemental de Fuego
 
 [OBJ237] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Cofre de Armas
@@ -63694,6 +65203,18 @@ FR_Name=Falcate
 FR_texto=Dommages 12/16
 IT_texto=Danno 12/16
 
+[OBJ404] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hechicero Legión
+GrhIndex=52190
+CollectibleCardImgPathing=78.png
+CollectibleCardIndex=78
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hechicero Legión
+pt_Name=Carta Hechicero Legión
+fr_Name=Carta Hechicero Legión
+it_Name=Carta Hechicero Legión
+
 [OBJ405] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Piel de Cabra
 Texto=Item de quest
@@ -63836,6 +65357,21 @@ CP3=LADRON
 CP4=MAGO
 CP5=PIRATA
 
+[OBJ508] 'Item del pack oficial 2026-10-01 (plan 23.005)
+Name=Libro Antiguo
+Texto=Libro sagrado robado por la Medusa corrupta.
+GrhIndex=49282
+ObjType=51
+Valor=0
+en_Name=Antique Book
+en_texto=Sacred book stolen by the corrupted Medusa.
+pt_Name=Livro Antigo
+pt_texto=Livro sagrado roubado pela Medusa corrompida.
+fr_Name=Livre ancien
+fr_texto=Livre sacré volé par la Méduse corrompue.
+it_Name=Libro antico
+it_texto=Libro sacro rubato dalla Medusa corrotta.
+
 [OBJ509] 'Plan 23.002: desde el pack oficial 2026-10-01
 Name=Mensaje embotellado
 GrhIndex=28737
@@ -63846,8 +65382,20 @@ pt_Name=Mensagem na Garrafa
 fr_Name=Message en Bouteille
 it_Name=Messaggio nella Bottiglia
 
-[OBJ511] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ511] 'Item del pack oficial 2026-10-01 (plan 23.005)
+Name=Fragmento de los Cuatro
+Texto=Fragmento de uso desconocido.
+GrhIndex=38062
+ObjType=51
+Valor=0
+en_Name=Fragment of the Four
+en_texto=Fragment of unknown use.
+pt_Name=Fragmento dos Quatro
+pt_texto=Fragmento de uso desconhecido.
+fr_Name=Fragment des Quatre
+fr_texto=Fragment d'usage inconnu.
+it_Name=Frammento dei Quattro
+it_texto=Frammento di uso sconosciuto.
 
 [OBJ512] 'Del oficial (pack 2026-10-01): objeto de la quest 420, lo tira el Dragon Negro. Plan 17.001, ola de quests
 Name=Esquirla Lunar
@@ -63864,8 +65412,35 @@ fr_texto=Fragment lunaire arraché au dragon noir.
 it_Name=La Scheggia Lunare
 it_texto=Frammento lunare strappato al drago nero.
 
-[OBJ514] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ513] 'Item del pack oficial 2026-10-01 (plan 23.005)
+Name=Nota manchada
+Texto=Un pergamino arrugado, manchado por el fuego y las garras.
+GrhIndex=14193
+ObjType=51
+Valor=0
+en_Name=Stained, Worn Note
+en_texto=A crumpled scroll, stained by fire and claws.
+pt_Name=Nota Manchada e Desgastada
+pt_texto=Um pergaminho amassado, manchado pelo fogo e pelas garras.
+fr_Name=Note Tachée et Usée
+fr_texto=Un parchemin froissé, taché par le feu et les griffes.
+it_Name=Nota Macchiata e Consumata
+it_texto=Una pergamena stropicciata, macchiata dal fuoco e dagli artigli.
+
+[OBJ514] 'Item del pack oficial 2026-10-01 (plan 23.005)
+Name=Craneo de Ghoul
+Texto=El cráneo conserva un frío antinatural.
+GrhIndex=49204
+ObjType=51
+Valor=0
+en_Name=Ghoul Skull
+en_texto=The skull retains an unnatural cold.
+pt_Name=Crânio de Ghoul
+pt_texto=O crânio conserva um frio antinatural.
+fr_Name=Crâne de Goule
+fr_texto=Le crâne conserve un froid contre nature.
+it_Name=Teschio di Ghoul
+it_texto=Il teschio conserva un freddo innaturale.
 
 [OBJ518] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Túnica de la Tiniebla
@@ -63957,6 +65532,30 @@ MinELV=20
 CP1=LADRON
 CP2=PIRATA
 
+[OBJ536] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Doria Maderavieja
+GrhIndex=52190
+CollectibleCardImgPathing=79.png
+CollectibleCardIndex=79
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Doria Maderavieja
+pt_Name=Carta Doria Maderavieja
+fr_Name=Carta Doria Maderavieja
+it_Name=Carta Doria Maderavieja
+
+[OBJ537] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Stavros
+GrhIndex=52190
+CollectibleCardImgPathing=80.png
+CollectibleCardIndex=80
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Stavros
+pt_Name=Carta Stavros
+fr_Name=Carta Stavros
+it_Name=Carta Stavros
+
 [OBJ538] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Piel de Oso Pardo (Especial)
 Texto=Objeto de Quest
@@ -63971,8 +65570,29 @@ GrhIndex=38215
 ObjType=100
 Valor=0
 
-[OBJ542] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ541] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Nuri
+GrhIndex=52190
+CollectibleCardImgPathing=81.png
+CollectibleCardIndex=81
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Nuri
+pt_Name=Carta Nuri
+fr_Name=Carta Nuri
+it_Name=Carta Nuri
+
+[OBJ542] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Esbirra Demoniaca
+GrhIndex=52190
+CollectibleCardImgPathing=82.png
+CollectibleCardIndex=82
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Esbirra Demoniaca
+pt_Name=Carta Esbirra Demoniaca
+fr_Name=Carta Esbirra Demoniaca
+it_Name=Carta Esbirra Demoniaca
 
 [OBJ544] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Pendiente del Augurio
@@ -64002,8 +65622,17 @@ GrhIndex=28910
 ObjType=100
 Valor=0
 
-[OBJ556] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ556] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Esbirro Demoniaco
+GrhIndex=52190
+CollectibleCardImgPathing=83.png
+CollectibleCardIndex=83
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Esbirro Demoniaco
+pt_Name=Carta Esbirro Demoniaco
+fr_Name=Carta Esbirro Demoniaco
+it_Name=Carta Esbirro Demoniaco
 
 [OBJ558] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado) + reusada como flecha de Fuego T0 (plan 07.001)
 Name=Flecha Incendiaria
@@ -64038,10 +65667,10 @@ CP4=BARDO
 CP5=DRUIDA
 CP6=MAGO
 
-[OBJ561] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ561] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Glazrath
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\84.png
+CollectibleCardImgPathing=84.png
 CollectibleCardIndex=84
 CollectibleCardRarity=1
 ObjType=57
@@ -64050,13 +65679,34 @@ pt_Name=Carta Glazrath
 fr_Name=Carta Glazrath
 it_Name=Carta Glazrath
 
-[OBJ564] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ563] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Escorpion Azul
+GrhIndex=52190
+CollectibleCardImgPathing=86.png
+CollectibleCardIndex=86
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Escorpion Azul
+pt_Name=Carta Escorpion Azul
+fr_Name=Carta Escorpion Azul
+it_Name=Carta Escorpion Azul
 
-[OBJ566] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ564] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ghoul de Hielo
+GrhIndex=52190
+CollectibleCardImgPathing=87.png
+CollectibleCardIndex=87
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ghoul de Hielo
+pt_Name=Carta Ghoul de Hielo
+fr_Name=Carta Ghoul de Hielo
+it_Name=Carta Ghoul de Hielo
+
+[OBJ566] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Pixie de Tierra
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\89.png
+CollectibleCardImgPathing=89.png
 CollectibleCardIndex=89
 CollectibleCardRarity=1
 ObjType=57
@@ -64065,10 +65715,10 @@ pt_Name=Carta Pixie de Tierra
 fr_Name=Carta Pixie de Tierra
 it_Name=Carta Pixie de Tierra
 
-[OBJ567] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ567] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Pixie de Fuego
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\90.png
+CollectibleCardImgPathing=90.png
 CollectibleCardIndex=90
 CollectibleCardRarity=1
 ObjType=57
@@ -64077,10 +65727,10 @@ pt_Name=Carta Pixie de Fuego
 fr_Name=Carta Pixie de Fuego
 it_Name=Carta Pixie de Fuego
 
-[OBJ568] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ568] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Pixie de Viento
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\91.png
+CollectibleCardImgPathing=91.png
 CollectibleCardIndex=91
 CollectibleCardRarity=1
 ObjType=57
@@ -64089,17 +65739,125 @@ pt_Name=Carta Pixie de Viento
 fr_Name=Carta Pixie de Viento
 it_Name=Carta Pixie de Viento
 
-[OBJ569] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ569] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Pixie Sagrada
+GrhIndex=52190
+CollectibleCardImgPathing=92.png
+CollectibleCardIndex=92
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Pixie Sagrada
+pt_Name=Carta Pixie Sagrada
+fr_Name=Carta Pixie Sagrada
+it_Name=Carta Pixie Sagrada
 
-[OBJ570] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ570] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Troll Artico
+GrhIndex=52190
+CollectibleCardImgPathing=93.png
+CollectibleCardIndex=93
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Troll Artico
+pt_Name=Carta Troll Artico
+fr_Name=Carta Troll Artico
+it_Name=Carta Troll Artico
 
-[OBJ575] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ573] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Balrik
+GrhIndex=52190
+CollectibleCardImgPathing=94.png
+CollectibleCardIndex=94
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Balrik
+pt_Name=Carta Balrik
+fr_Name=Carta Balrik
+it_Name=Carta Balrik
 
-[OBJ600] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ574] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Grum
+GrhIndex=52190
+CollectibleCardImgPathing=95.png
+CollectibleCardIndex=95
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Grum
+pt_Name=Carta Grum
+fr_Name=Carta Grum
+it_Name=Carta Grum
+
+[OBJ575] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Suido
+GrhIndex=52190
+CollectibleCardImgPathing=96.png
+CollectibleCardIndex=96
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Suido
+pt_Name=Carta Suido
+fr_Name=Carta Suido
+it_Name=Carta Suido
+
+[OBJ597] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Nagrakh
+GrhIndex=52190
+CollectibleCardImgPathing=102.png
+CollectibleCardIndex=102
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Nagrakh
+pt_Name=Carta Nagrakh
+fr_Name=Carta Nagrakh
+it_Name=Carta Nagrakh
+
+[OBJ598] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Cormac
+GrhIndex=52190
+CollectibleCardImgPathing=103.png
+CollectibleCardIndex=103
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Cormac
+pt_Name=Carta Cormac
+fr_Name=Carta Cormac
+it_Name=Carta Cormac
+
+[OBJ599] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Valerius
+GrhIndex=52190
+CollectibleCardImgPathing=104.png
+CollectibleCardIndex=104
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Valerius
+pt_Name=Carta Valerius
+fr_Name=Carta Valerius
+it_Name=Carta Valerius
+
+[OBJ600] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Berta
+GrhIndex=52190
+CollectibleCardImgPathing=105.png
+CollectibleCardIndex=105
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Berta
+pt_Name=Carta Berta
+fr_Name=Carta Berta
+it_Name=Carta Berta
+
+[OBJ652] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Golem de Oro
+GrhIndex=52190
+CollectibleCardImgPathing=110.png
+CollectibleCardIndex=110
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Golem de Oro
+pt_Name=Carta Golem de Oro
+fr_Name=Carta Golem de Oro
+it_Name=Carta Golem de Oro
 
 [OBJ653] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Unicornio
@@ -64238,10 +65996,70 @@ GrhIndex=24694
 ObjType=44
 Valor=0
 
-[OBJ734] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ729] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Niva
+GrhIndex=52190
+CollectibleCardImgPathing=111.png
+CollectibleCardIndex=111
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Niva
+pt_Name=Carta Niva
+fr_Name=Carta Niva
+it_Name=Carta Niva
+
+[OBJ730] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Amedio
+GrhIndex=52190
+CollectibleCardImgPathing=112.png
+CollectibleCardIndex=112
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Amedio
+pt_Name=Carta Amedio
+fr_Name=Carta Amedio
+it_Name=Carta Amedio
+
+[OBJ731] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Flint
+GrhIndex=52190
+CollectibleCardImgPathing=113.png
+CollectibleCardIndex=113
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Flint
+pt_Name=Carta Flint
+fr_Name=Carta Flint
+it_Name=Carta Flint
+
+[OBJ732] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ticc
+GrhIndex=52190
+CollectibleCardImgPathing=114.png
+CollectibleCardIndex=114
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ticc
+pt_Name=Carta Ticc
+fr_Name=Carta Ticc
+it_Name=Carta Ticc
+
+[OBJ733] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Tinell
+GrhIndex=52190
+CollectibleCardImgPathing=115.png
+CollectibleCardIndex=115
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Tinell
+pt_Name=Carta Tinell
+fr_Name=Carta Tinell
+it_Name=Carta Tinell
+
+[OBJ734] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Zevkar
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\116.png
+CollectibleCardImgPathing=116.png
 CollectibleCardIndex=116
 CollectibleCardRarity=1
 ObjType=57
@@ -64250,10 +66068,70 @@ pt_Name=Carta Zevkar
 fr_Name=Carta Zevkar
 it_Name=Carta Zevkar
 
-[OBJ904] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ899] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Octis
+GrhIndex=52190
+CollectibleCardImgPathing=192.png
+CollectibleCardIndex=192
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Octis
+pt_Name=Carta Octis
+fr_Name=Carta Octis
+it_Name=Carta Octis
+
+[OBJ900] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Francisco
+GrhIndex=52190
+CollectibleCardImgPathing=193.png
+CollectibleCardIndex=193
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Francisco
+pt_Name=Carta Francisco
+fr_Name=Carta Francisco
+it_Name=Carta Francisco
+
+[OBJ901] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Tyran
+GrhIndex=52190
+CollectibleCardImgPathing=194.png
+CollectibleCardIndex=194
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Tyran
+pt_Name=Carta Tyran
+fr_Name=Carta Tyran
+it_Name=Carta Tyran
+
+[OBJ902] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Zull
+GrhIndex=52190
+CollectibleCardImgPathing=195.png
+CollectibleCardIndex=195
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Zull
+pt_Name=Carta Zull
+fr_Name=Carta Zull
+it_Name=Carta Zull
+
+[OBJ903] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Kryos
+GrhIndex=52190
+CollectibleCardImgPathing=196.png
+CollectibleCardIndex=196
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Kryos
+pt_Name=Carta Kryos
+fr_Name=Carta Kryos
+it_Name=Carta Kryos
+
+[OBJ904] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Typhon
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\197.png
+CollectibleCardImgPathing=197.png
 CollectibleCardIndex=197
 CollectibleCardRarity=1
 ObjType=57
@@ -64262,16 +66140,190 @@ pt_Name=Carta Typhon
 fr_Name=Carta Typhon
 it_Name=Carta Typhon
 
-[OBJ905] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ905] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Miasma
+GrhIndex=52190
+CollectibleCardImgPathing=198.png
+CollectibleCardIndex=198
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Miasma
+pt_Name=Carta Miasma
+fr_Name=Carta Miasma
+it_Name=Carta Miasma
 
-[OBJ939] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ925] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Minertopo
+GrhIndex=52190
+CollectibleCardImgPathing=217.png
+CollectibleCardIndex=217
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Minertopo
+pt_Name=Carta Minertopo
+fr_Name=Carta Minertopo
+it_Name=Carta Minertopo
 
-[OBJ941] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ926] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Vaca Lola
+GrhIndex=52190
+CollectibleCardImgPathing=218.png
+CollectibleCardIndex=218
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Vaca Lola
+pt_Name=Carta Vaca Lola
+fr_Name=Carta Vaca Lola
+it_Name=Carta Vaca Lola
+
+[OBJ927] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Chancho
+GrhIndex=52190
+CollectibleCardImgPathing=219.png
+CollectibleCardIndex=219
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Chancho
+pt_Name=Carta Chancho
+fr_Name=Carta Chancho
+it_Name=Carta Chancho
+
+[OBJ928] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Esqueleto Guerrero
+GrhIndex=52190
+CollectibleCardImgPathing=220.png
+CollectibleCardIndex=220
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Esqueleto Guerrero
+pt_Name=Carta Esqueleto Guerrero
+fr_Name=Carta Esqueleto Guerrero
+it_Name=Carta Esqueleto Guerrero
+
+[OBJ929] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Esqueleto Arquero
+GrhIndex=52190
+CollectibleCardImgPathing=221.png
+CollectibleCardIndex=221
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Esqueleto Arquero
+pt_Name=Carta Esqueleto Arquero
+fr_Name=Carta Esqueleto Arquero
+it_Name=Carta Esqueleto Arquero
+
+[OBJ930] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Guardia del Pantano
+GrhIndex=52190
+CollectibleCardImgPathing=222.png
+CollectibleCardIndex=222
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Guardia del Pantano
+pt_Name=Carta Guardia del Pantano
+fr_Name=Carta Guardia del Pantano
+it_Name=Carta Guardia del Pantano
+
+[OBJ931] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Gigante de Hielo
+GrhIndex=52190
+CollectibleCardImgPathing=223.png
+CollectibleCardIndex=223
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Gigante de Hielo
+pt_Name=Carta Gigante de Hielo
+fr_Name=Carta Gigante de Hielo
+it_Name=Carta Gigante de Hielo
+
+[OBJ932] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Colmillo Blanco
+GrhIndex=52190
+CollectibleCardImgPathing=224.png
+CollectibleCardIndex=224
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Colmillo Blanco
+pt_Name=Carta Colmillo Blanco
+fr_Name=Carta Colmillo Blanco
+it_Name=Carta Colmillo Blanco
+
+[OBJ934] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Lobo Salvaje
+GrhIndex=52190
+CollectibleCardImgPathing=225.png
+CollectibleCardIndex=225
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Lobo Salvaje
+pt_Name=Carta Lobo Salvaje
+fr_Name=Carta Lobo Salvaje
+it_Name=Carta Lobo Salvaje
+
+[OBJ935] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Lobo Gris
+GrhIndex=52190
+CollectibleCardImgPathing=226.png
+CollectibleCardIndex=226
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Lobo Gris
+pt_Name=Carta Lobo Gris
+fr_Name=Carta Lobo Gris
+it_Name=Carta Lobo Gris
+
+[OBJ936] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Lobo Negro
+GrhIndex=52190
+CollectibleCardImgPathing=227.png
+CollectibleCardIndex=227
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Lobo Negro
+pt_Name=Carta Lobo Negro
+fr_Name=Carta Lobo Negro
+it_Name=Carta Lobo Negro
+
+[OBJ937] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Verraco Alfa
+GrhIndex=52190
+CollectibleCardImgPathing=228.png
+CollectibleCardIndex=228
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Verraco Alfa
+pt_Name=Carta Verraco Alfa
+fr_Name=Carta Verraco Alfa
+it_Name=Carta Verraco Alfa
+
+[OBJ938] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Jabato
+GrhIndex=52190
+CollectibleCardImgPathing=229.png
+CollectibleCardIndex=229
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Jabato
+pt_Name=Carta Jabato
+fr_Name=Carta Jabato
+it_Name=Carta Jabato
+
+[OBJ939] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ent Elfico
+GrhIndex=52190
+CollectibleCardImgPathing=230.png
+CollectibleCardIndex=230
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ent Elfico
+pt_Name=Carta Ent Elfico
+fr_Name=Carta Ent Elfico
+it_Name=Carta Ent Elfico
+
+[OBJ941] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Ent
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\231.png
+CollectibleCardImgPathing=231.png
 CollectibleCardIndex=231
 CollectibleCardRarity=1
 ObjType=57
@@ -64280,16 +66332,46 @@ pt_Name=Carta Ent
 fr_Name=Carta Ent
 it_Name=Carta Ent
 
-[OBJ943] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ942] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Bael
+GrhIndex=52190
+CollectibleCardImgPathing=232.png
+CollectibleCardIndex=232
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Bael
+pt_Name=Carta Bael
+fr_Name=Carta Bael
+it_Name=Carta Bael
 
-[OBJ944] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ943] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Nivor
+GrhIndex=52190
+CollectibleCardImgPathing=233.png
+CollectibleCardIndex=233
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Nivor
+pt_Name=Carta Nivor
+fr_Name=Carta Nivor
+it_Name=Carta Nivor
 
-[OBJ945] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ944] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Pyrrion
+GrhIndex=52190
+CollectibleCardImgPathing=234.png
+CollectibleCardIndex=234
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Pyrrion
+pt_Name=Carta Pyrrion
+fr_Name=Carta Pyrrion
+it_Name=Carta Pyrrion
+
+[OBJ945] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Ignarok
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\235.png
+CollectibleCardImgPathing=235.png
 CollectibleCardIndex=235
 CollectibleCardRarity=1
 ObjType=57
@@ -64298,13 +66380,22 @@ pt_Name=Carta Ignarok
 fr_Name=Carta Ignarok
 it_Name=Carta Ignarok
 
-[OBJ946] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ946] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Phyrus
+GrhIndex=52190
+CollectibleCardImgPathing=236.png
+CollectibleCardIndex=236
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Phyrus
+pt_Name=Carta Phyrus
+fr_Name=Carta Phyrus
+it_Name=Carta Phyrus
 
-[OBJ947] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ947] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Scorvex
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\237.png
+CollectibleCardImgPathing=237.png
 CollectibleCardIndex=237
 CollectibleCardRarity=1
 ObjType=57
@@ -64313,10 +66404,10 @@ pt_Name=Carta Scorvex
 fr_Name=Carta Scorvex
 it_Name=Carta Scorvex
 
-[OBJ949] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ949] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Flamora
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\239.png
+CollectibleCardImgPathing=239.png
 CollectibleCardIndex=239
 CollectibleCardRarity=1
 ObjType=57
@@ -64325,16 +66416,58 @@ pt_Name=Carta Flamora
 fr_Name=Carta Flamora
 it_Name=Carta Flamora
 
-[OBJ951] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ950] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Astaroth
+GrhIndex=52190
+CollectibleCardImgPathing=240.png
+CollectibleCardIndex=240
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Astaroth
+pt_Name=Carta Astaroth
+fr_Name=Carta Astaroth
+it_Name=Carta Astaroth
 
-[OBJ953] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ951] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Glacius
+GrhIndex=52190
+CollectibleCardImgPathing=241.png
+CollectibleCardIndex=241
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Glacius
+pt_Name=Carta Glacius
+fr_Name=Carta Glacius
+it_Name=Carta Glacius
 
-[OBJ954] 'Plan 23.002: desde el pack oficial 2026-10-01
+[OBJ952] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Skelter
+GrhIndex=52190
+CollectibleCardImgPathing=242.png
+CollectibleCardIndex=242
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Skelter
+pt_Name=Carta Skelter
+fr_Name=Carta Skelter
+it_Name=Carta Skelter
+
+[OBJ953] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Azog
+GrhIndex=52190
+CollectibleCardImgPathing=243.png
+CollectibleCardIndex=243
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Azog
+pt_Name=Carta Azog
+fr_Name=Carta Azog
+it_Name=Carta Azog
+
+[OBJ954] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Cryon
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\244.png
+CollectibleCardImgPathing=244.png
 CollectibleCardIndex=244
 CollectibleCardRarity=1
 ObjType=57
@@ -64343,14 +66476,53 @@ pt_Name=Carta Cryon
 fr_Name=Carta Cryon
 it_Name=Carta Cryon
 
-[OBJ955] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ955] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Albuss
+GrhIndex=52190
+CollectibleCardImgPathing=245.png
+CollectibleCardIndex=245
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Albuss
+pt_Name=Carta Albuss
+fr_Name=Carta Albuss
+it_Name=Carta Albuss
 
-[OBJ956] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ956] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Quila
+GrhIndex=52190
+CollectibleCardImgPathing=246.png
+CollectibleCardIndex=246
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Quila
+pt_Name=Carta Quila
+fr_Name=Carta Quila
+it_Name=Carta Quila
 
-[OBJ958] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ957] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Terranox
+GrhIndex=52190
+CollectibleCardImgPathing=247.png
+CollectibleCardIndex=247
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Terranox
+pt_Name=Carta Terranox
+fr_Name=Carta Terranox
+it_Name=Carta Terranox
+
+[OBJ958] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta León
+GrhIndex=52190
+CollectibleCardImgPathing=248.png
+CollectibleCardIndex=248
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta León
+pt_Name=Carta León
+fr_Name=Carta León
+it_Name=Carta León
 
 [OBJ966] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Armadura de Lider Faccionario (Armada Real)
@@ -64394,11 +66566,125 @@ RopajeHumano=361
 RopajeOrca=1395
 RopajeOrco=1395
 
-[OBJ986] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ981] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ansuz
+GrhIndex=52190
+CollectibleCardImgPathing=251.png
+CollectibleCardIndex=251
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ansuz
+pt_Name=Carta Ansuz
+fr_Name=Carta Ansuz
+it_Name=Carta Ansuz
 
-[OBJ991] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ982] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Bander
+GrhIndex=52190
+CollectibleCardImgPathing=252.png
+CollectibleCardIndex=252
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Bander
+pt_Name=Carta Bander
+fr_Name=Carta Bander
+it_Name=Carta Bander
+
+[OBJ983] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Cancerbero
+GrhIndex=52190
+CollectibleCardImgPathing=253.png
+CollectibleCardIndex=253
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Cancerbero
+pt_Name=Carta Cancerbero
+fr_Name=Carta Cancerbero
+it_Name=Carta Cancerbero
+
+[OBJ984] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hechicera Orco
+GrhIndex=52190
+CollectibleCardImgPathing=254.png
+CollectibleCardIndex=254
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hechicera Orco
+pt_Name=Carta Hechicera Orco
+fr_Name=Carta Hechicera Orco
+it_Name=Carta Hechicera Orco
+
+[OBJ985] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Guardia Orco
+GrhIndex=52190
+CollectibleCardImgPathing=255.png
+CollectibleCardIndex=255
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Guardia Orco
+pt_Name=Carta Guardia Orco
+fr_Name=Carta Guardia Orco
+it_Name=Carta Guardia Orco
+
+[OBJ986] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Varec
+GrhIndex=52190
+CollectibleCardImgPathing=256.png
+CollectibleCardIndex=256
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Varec
+pt_Name=Carta Varec
+fr_Name=Carta Varec
+it_Name=Carta Varec
+
+[OBJ988] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ponto
+GrhIndex=52190
+CollectibleCardImgPathing=257.png
+CollectibleCardIndex=257
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ponto
+pt_Name=Carta Ponto
+fr_Name=Carta Ponto
+it_Name=Carta Ponto
+
+[OBJ989] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Gnas
+GrhIndex=52190
+CollectibleCardImgPathing=258.png
+CollectibleCardIndex=258
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Gnas
+pt_Name=Carta Gnas
+fr_Name=Carta Gnas
+it_Name=Carta Gnas
+
+[OBJ990] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Asf
+GrhIndex=52190
+CollectibleCardImgPathing=259.png
+CollectibleCardIndex=259
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Asf
+pt_Name=Carta Asf
+fr_Name=Carta Asf
+it_Name=Carta Asf
+
+[OBJ991] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Vult
+GrhIndex=52190
+CollectibleCardImgPathing=260.png
+CollectibleCardIndex=260
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Vult
+pt_Name=Carta Vult
+fr_Name=Carta Vult
+it_Name=Carta Vult
 
 [OBJ993] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 CP1=GUERRERO
@@ -64435,20 +66721,125 @@ FR_texto=Défense 8/10, votre résistance magique augmente de 5%
 IT_Name=Cappello da mago
 IT_texto=Difesa 8/10, la tua resistenza magica aumenta del 5%
 
-[OBJ994] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ994] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Rata Gigante
+GrhIndex=52190
+CollectibleCardImgPathing=261.png
+CollectibleCardIndex=261
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Rata Gigante
+pt_Name=Carta Rata Gigante
+fr_Name=Carta Rata Gigante
+it_Name=Carta Rata Gigante
 
-[OBJ995] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ995] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Horus
+GrhIndex=52190
+CollectibleCardImgPathing=262.png
+CollectibleCardIndex=262
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Horus
+pt_Name=Carta Horus
+fr_Name=Carta Horus
+it_Name=Carta Horus
 
-[OBJ1036] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1036] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hunt
+GrhIndex=52190
+CollectibleCardImgPathing=267.png
+CollectibleCardIndex=267
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hunt
+pt_Name=Carta Hunt
+fr_Name=Carta Hunt
+it_Name=Carta Hunt
 
-[OBJ1037] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1037] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Wolog
+GrhIndex=52190
+CollectibleCardImgPathing=268.png
+CollectibleCardIndex=268
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Wolog
+pt_Name=Carta Wolog
+fr_Name=Carta Wolog
+it_Name=Carta Wolog
 
-[OBJ1077] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1072] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta April
+GrhIndex=52190
+CollectibleCardImgPathing=269.png
+CollectibleCardIndex=269
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta April
+pt_Name=Carta April
+fr_Name=Carta April
+it_Name=Carta April
+
+[OBJ1073] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Birrin
+GrhIndex=52190
+CollectibleCardImgPathing=270.png
+CollectibleCardIndex=270
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Birrin
+pt_Name=Carta Birrin
+fr_Name=Carta Birrin
+it_Name=Carta Birrin
+
+[OBJ1074] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Braknor
+GrhIndex=52190
+CollectibleCardImgPathing=271.png
+CollectibleCardIndex=271
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Braknor
+pt_Name=Carta Braknor
+fr_Name=Carta Braknor
+it_Name=Carta Braknor
+
+[OBJ1075] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Druslo
+GrhIndex=52190
+CollectibleCardImgPathing=272.png
+CollectibleCardIndex=272
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Druslo
+pt_Name=Carta Druslo
+fr_Name=Carta Druslo
+it_Name=Carta Druslo
+
+[OBJ1076] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Helga
+GrhIndex=52190
+CollectibleCardImgPathing=273.png
+CollectibleCardIndex=273
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Helga
+pt_Name=Carta Helga
+fr_Name=Carta Helga
+it_Name=Carta Helga
+
+[OBJ1077] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Joseph
+GrhIndex=52190
+CollectibleCardImgPathing=274.png
+CollectibleCardIndex=274
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Joseph
+pt_Name=Carta Joseph
+fr_Name=Carta Joseph
+it_Name=Carta Joseph
 
 [OBJ1081] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Túnica GM
@@ -64483,8 +66874,41 @@ FR_texto=Robe GM
 IT_Name=Tunica GM
 IT_texto=Abito GM
 
-[OBJ1084] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1082] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Kaelia
+GrhIndex=52190
+CollectibleCardImgPathing=275.png
+CollectibleCardIndex=275
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Kaelia
+pt_Name=Carta Kaelia
+fr_Name=Carta Kaelia
+it_Name=Carta Kaelia
+
+[OBJ1083] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Kaelithia
+GrhIndex=52190
+CollectibleCardImgPathing=276.png
+CollectibleCardIndex=276
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Kaelithia
+pt_Name=Carta Kaelithia
+fr_Name=Carta Kaelithia
+it_Name=Carta Kaelithia
+
+[OBJ1084] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Kargosh
+GrhIndex=52190
+CollectibleCardImgPathing=277.png
+CollectibleCardIndex=277
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Kargosh
+pt_Name=Carta Kargosh
+fr_Name=Carta Kargosh
+it_Name=Carta Kargosh
 
 [OBJ1090] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Poción de Invisibilidad (Alquimia)
@@ -64532,6 +66956,18 @@ it_Texto=Difesa 30/35
 pt_Name=Túnica lendária cinza
 pt_Texto=Defesa 30/35
 
+[OBJ1092] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Varek
+GrhIndex=52190
+CollectibleCardImgPathing=282.png
+CollectibleCardIndex=282
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Varek
+pt_Name=Carta Varek
+fr_Name=Carta Varek
+it_Name=Carta Varek
+
 [OBJ1093] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Sombrero Zaphyr
 Texto=Aumenta un 7% tu resistencia mágica
@@ -64565,6 +67001,18 @@ it_Name=Cappuccio
 it_Texto=Difesa 7/13
 pt_Name=Capuz
 pt_Texto=Defesa 7/13
+
+[OBJ1097] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Vespera
+GrhIndex=52190
+CollectibleCardImgPathing=283.png
+CollectibleCardIndex=283
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Vespera
+pt_Name=Carta Vespera
+fr_Name=Carta Vespera
+it_Name=Carta Vespera
 
 [OBJ1098] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 CP1=PALADIN
@@ -64715,6 +67163,18 @@ it_Texto=Difesa 20/25
 pt_Name=Capacete dourado
 pt_Texto=Defesa 20/25
 
+[OBJ1105] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Vestor
+GrhIndex=52190
+CollectibleCardImgPathing=284.png
+CollectibleCardIndex=284
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Vestor
+pt_Name=Carta Vestor
+fr_Name=Carta Vestor
+it_Name=Carta Vestor
+
 [OBJ1106] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Armadura de las Sombras +1
 Texto=Defensa 30/37
@@ -64744,6 +67204,18 @@ it_Texto=Difesa 30/37
 pt_Name=Armadura de sombra +1
 pt_Texto=Defesa 30/37
 
+[OBJ1107] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Voragoth
+GrhIndex=52190
+CollectibleCardImgPathing=285.png
+CollectibleCardIndex=285
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Voragoth
+pt_Name=Carta Voragoth
+fr_Name=Carta Voragoth
+it_Name=Carta Voragoth
+
 [OBJ1108] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Daga Oscura
 Texto=Daño 5/8
@@ -64761,6 +67233,30 @@ it_Texto=Danno 5/8
 pt_Name=Dagger escura
 pt_Texto=Dano 5/8
 Anim=169
+
+[OBJ1109] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Xalthor
+GrhIndex=52190
+CollectibleCardImgPathing=286.png
+CollectibleCardIndex=286
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Xalthor
+pt_Name=Carta Xalthor
+fr_Name=Carta Xalthor
+it_Name=Carta Xalthor
+
+[OBJ1110] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Rona
+GrhIndex=52190
+CollectibleCardImgPathing=287.png
+CollectibleCardIndex=287
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Rona
+pt_Name=Carta Rona
+fr_Name=Carta Rona
+it_Name=Carta Rona
 
 [OBJ1112] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Armadura Dorada
@@ -64851,39 +67347,17 @@ it_Texto=Difesa 32/37
 pt_Name=Armadura superior do caçador
 pt_Texto=Defesa 32/37
 
-[OBJ1116] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=39005
-MaxHit=12
-MinHit=8
-Municiones=1
-Name=Arco de Roble +1
-ObjType=2
-Proyectil=1
-Texto=Daño 8/12
-en_Name=Oak Bow +1
-en_Texto=Damage 8/12
-fr_Name=Arc de chêne +1
-fr_Texto=Dommages 8/12
-it_Name=Oak Arc +1
-it_Texto=Danno 8/12
-pt_Name=Oak Arc +1
-pt_Texto=Danos 8/12
-' Reparado 06.002: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1870)
-WeaponType=3
-BOWCATEGORY=4
-Anim=121
-MinELV=25
-DosManos=0
-CP1=PALADIN
-CP2=BANDIDO
-CP3=ASESINO
-CP4=CLERIGO
-CP5=TRABAJADOR
-CP6=PIRATA
-CP7=LADRON
-CP8=BARDO
-CP9=DRUIDA
-CP10=MAGO
+[OBJ1116] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Torin
+GrhIndex=52190
+CollectibleCardImgPathing=288.png
+CollectibleCardIndex=288
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Torin
+pt_Name=Carta Torin
+fr_Name=Carta Torin
+it_Name=Carta Torin
 
 [OBJ1117] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=38897
@@ -64920,11 +67394,77 @@ CP9=BARDO
 CP10=DRUIDA
 CP11=MAGO
 
-[OBJ1119] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1118] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Irina
+GrhIndex=52190
+CollectibleCardImgPathing=289.png
+CollectibleCardIndex=289
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Irina
+pt_Name=Carta Irina
+fr_Name=Carta Irina
+it_Name=Carta Irina
 
-[OBJ1123] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1119] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ivar Costahilo
+GrhIndex=52190
+CollectibleCardImgPathing=290.png
+CollectibleCardIndex=290
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ivar Costahilo
+pt_Name=Carta Ivar Costahilo
+fr_Name=Carta Ivar Costahilo
+it_Name=Carta Ivar Costahilo
+
+[OBJ1120] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Jace
+GrhIndex=52190
+CollectibleCardImgPathing=291.png
+CollectibleCardIndex=291
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Jace
+pt_Name=Carta Jace
+fr_Name=Carta Jace
+it_Name=Carta Jace
+
+[OBJ1121] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ragnar
+GrhIndex=52190
+CollectibleCardImgPathing=292.png
+CollectibleCardIndex=292
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ragnar
+pt_Name=Carta Ragnar
+fr_Name=Carta Ragnar
+it_Name=Carta Ragnar
+
+[OBJ1122] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Phirin
+GrhIndex=52190
+CollectibleCardImgPathing=293.png
+CollectibleCardIndex=293
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Phirin
+pt_Name=Carta Phirin
+fr_Name=Carta Phirin
+it_Name=Carta Phirin
+
+[OBJ1123] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Lirenn
+GrhIndex=52190
+CollectibleCardImgPathing=294.png
+CollectibleCardIndex=294
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Lirenn
+pt_Name=Carta Lirenn
+fr_Name=Carta Lirenn
+it_Name=Carta Lirenn
 
 [OBJ1147] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Colmillo de Dovu
@@ -64940,8 +67480,17 @@ GrhIndex=38100
 ObjType=21
 Valor=5000
 
-[OBJ1150] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1150] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Mildred
+GrhIndex=52190
+CollectibleCardImgPathing=302.png
+CollectibleCardIndex=302
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Mildred
+pt_Name=Carta Mildred
+fr_Name=Carta Mildred
+it_Name=Carta Mildred
 
 [OBJ1156] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Amuleto de Sacrificio
@@ -64950,50 +67499,533 @@ GrhIndex=49173
 Valor=0
 ObjType=21
 
-[OBJ1176] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1167] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Solveig
+GrhIndex=52190
+CollectibleCardImgPathing=306.png
+CollectibleCardIndex=306
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Solveig
+pt_Name=Carta Solveig
+fr_Name=Carta Solveig
+it_Name=Carta Solveig
 
-[OBJ1178] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1168] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Eldarika
+GrhIndex=52190
+CollectibleCardImgPathing=307.png
+CollectibleCardIndex=307
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Eldarika
+pt_Name=Carta Eldarika
+fr_Name=Carta Eldarika
+it_Name=Carta Eldarika
 
-[OBJ1180] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1169] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Brynhild
+GrhIndex=52190
+CollectibleCardImgPathing=308.png
+CollectibleCardIndex=308
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Brynhild
+pt_Name=Carta Brynhild
+fr_Name=Carta Brynhild
+it_Name=Carta Brynhild
 
-[OBJ1181] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1170] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Herrim
+GrhIndex=52190
+CollectibleCardImgPathing=309.png
+CollectibleCardIndex=309
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Herrim
+pt_Name=Carta Herrim
+fr_Name=Carta Herrim
+it_Name=Carta Herrim
 
-[OBJ1182] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1171] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Roth
+GrhIndex=52190
+CollectibleCardImgPathing=310.png
+CollectibleCardIndex=310
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Roth
+pt_Name=Carta Roth
+fr_Name=Carta Roth
+it_Name=Carta Roth
 
-[OBJ1192] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1172] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Costhas
+GrhIndex=52190
+CollectibleCardImgPathing=311.png
+CollectibleCardIndex=311
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Costhas
+pt_Name=Carta Costhas
+fr_Name=Carta Costhas
+it_Name=Carta Costhas
 
-[OBJ1201] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1173] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Alaric von Nix
+GrhIndex=52190
+CollectibleCardImgPathing=312.png
+CollectibleCardIndex=312
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Alaric von Nix
+pt_Name=Carta Alaric von Nix
+fr_Name=Carta Alaric von Nix
+it_Name=Carta Alaric von Nix
 
-[OBJ1206] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1174] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Henrietta
+GrhIndex=52190
+CollectibleCardImgPathing=313.png
+CollectibleCardIndex=313
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Henrietta
+pt_Name=Carta Henrietta
+fr_Name=Carta Henrietta
+it_Name=Carta Henrietta
 
-[OBJ1211] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1175] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Lhissa
+GrhIndex=52190
+CollectibleCardImgPathing=314.png
+CollectibleCardIndex=314
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Lhissa
+pt_Name=Carta Lhissa
+fr_Name=Carta Lhissa
+it_Name=Carta Lhissa
 
-[OBJ1213] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1176] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Oshurk
+GrhIndex=52190
+CollectibleCardImgPathing=315.png
+CollectibleCardIndex=315
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Oshurk
+pt_Name=Carta Oshurk
+fr_Name=Carta Oshurk
+it_Name=Carta Oshurk
 
-[OBJ1216] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1177] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ulf Arcas
+GrhIndex=52190
+CollectibleCardImgPathing=316.png
+CollectibleCardIndex=316
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ulf Arcas
+pt_Name=Carta Ulf Arcas
+fr_Name=Carta Ulf Arcas
+it_Name=Carta Ulf Arcas
 
-[OBJ1220] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1178] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Pothir
+GrhIndex=52190
+CollectibleCardImgPathing=317.png
+CollectibleCardIndex=317
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Pothir
+pt_Name=Carta Pothir
+fr_Name=Carta Pothir
+it_Name=Carta Pothir
 
-[OBJ1225] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1180] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Isabella
+GrhIndex=52190
+CollectibleCardImgPathing=318.png
+CollectibleCardIndex=318
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Isabella
+pt_Name=Carta Isabella
+fr_Name=Carta Isabella
+it_Name=Carta Isabella
 
-[OBJ1228] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1181] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Magnus Elixius
+GrhIndex=52190
+CollectibleCardImgPathing=319.png
+CollectibleCardIndex=319
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Magnus Elixius
+pt_Name=Carta Magnus Elixius
+fr_Name=Carta Magnus Elixius
+it_Name=Carta Magnus Elixius
 
-[OBJ1231] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-GrhIndex=0
+[OBJ1182] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Galvin
+GrhIndex=52190
+CollectibleCardImgPathing=320.png
+CollectibleCardIndex=320
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Galvin
+pt_Name=Carta Galvin
+fr_Name=Carta Galvin
+it_Name=Carta Galvin
+
+[OBJ1190] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Roswell
+GrhIndex=52190
+CollectibleCardImgPathing=321.png
+CollectibleCardIndex=321
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Roswell
+pt_Name=Carta Roswell
+fr_Name=Carta Roswell
+it_Name=Carta Roswell
+
+[OBJ1191] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Noland
+GrhIndex=52190
+CollectibleCardImgPathing=322.png
+CollectibleCardIndex=322
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Noland
+pt_Name=Carta Noland
+fr_Name=Carta Noland
+it_Name=Carta Noland
+
+[OBJ1192] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Thessalio
+GrhIndex=52190
+CollectibleCardImgPathing=323.png
+CollectibleCardIndex=323
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Thessalio
+pt_Name=Carta Thessalio
+fr_Name=Carta Thessalio
+it_Name=Carta Thessalio
+
+[OBJ1199] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Finrod
+GrhIndex=52190
+CollectibleCardImgPathing=330.png
+CollectibleCardIndex=330
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Finrod
+pt_Name=Carta Finrod
+fr_Name=Carta Finrod
+it_Name=Carta Finrod
+
+[OBJ1200] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Giorgia
+GrhIndex=52190
+CollectibleCardImgPathing=331.png
+CollectibleCardIndex=331
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Giorgia
+pt_Name=Carta Giorgia
+fr_Name=Carta Giorgia
+it_Name=Carta Giorgia
+
+[OBJ1201] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Erindhir
+GrhIndex=52190
+CollectibleCardImgPathing=332.png
+CollectibleCardIndex=332
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Erindhir
+pt_Name=Carta Erindhir
+fr_Name=Carta Erindhir
+it_Name=Carta Erindhir
+
+[OBJ1202] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Pablo
+GrhIndex=52190
+CollectibleCardImgPathing=333.png
+CollectibleCardIndex=333
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Pablo
+pt_Name=Carta Pablo
+fr_Name=Carta Pablo
+it_Name=Carta Pablo
+
+[OBJ1203] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ghelfa
+GrhIndex=52190
+CollectibleCardImgPathing=334.png
+CollectibleCardIndex=334
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ghelfa
+pt_Name=Carta Ghelfa
+fr_Name=Carta Ghelfa
+it_Name=Carta Ghelfa
+
+[OBJ1204] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Naeris
+GrhIndex=52190
+CollectibleCardImgPathing=335.png
+CollectibleCardIndex=335
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Naeris
+pt_Name=Carta Naeris
+fr_Name=Carta Naeris
+it_Name=Carta Naeris
+
+[OBJ1205] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Elfer
+GrhIndex=52190
+CollectibleCardImgPathing=336.png
+CollectibleCardIndex=336
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Elfer
+pt_Name=Carta Elfer
+fr_Name=Carta Elfer
+it_Name=Carta Elfer
+
+[OBJ1206] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ravenor
+GrhIndex=52190
+CollectibleCardImgPathing=337.png
+CollectibleCardIndex=337
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ravenor
+pt_Name=Carta Ravenor
+fr_Name=Carta Ravenor
+it_Name=Carta Ravenor
+
+[OBJ1209] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Ivir
+GrhIndex=52190
+CollectibleCardImgPathing=340.png
+CollectibleCardIndex=340
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Ivir
+pt_Name=Carta Ivir
+fr_Name=Carta Ivir
+it_Name=Carta Ivir
+
+[OBJ1210] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Banes
+GrhIndex=52190
+CollectibleCardImgPathing=341.png
+CollectibleCardIndex=341
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Banes
+pt_Name=Carta Banes
+fr_Name=Carta Banes
+it_Name=Carta Banes
+
+[OBJ1211] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Rethor
+GrhIndex=52190
+CollectibleCardImgPathing=342.png
+CollectibleCardIndex=342
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Rethor
+pt_Name=Carta Rethor
+fr_Name=Carta Rethor
+it_Name=Carta Rethor
+
+[OBJ1212] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Heather
+GrhIndex=52190
+CollectibleCardImgPathing=343.png
+CollectibleCardIndex=343
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Heather
+pt_Name=Carta Heather
+fr_Name=Carta Heather
+it_Name=Carta Heather
+
+[OBJ1213] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Gora
+GrhIndex=52190
+CollectibleCardImgPathing=344.png
+CollectibleCardIndex=344
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Gora
+pt_Name=Carta Gora
+fr_Name=Carta Gora
+it_Name=Carta Gora
+
+[OBJ1214] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Hiploro
+GrhIndex=52190
+CollectibleCardImgPathing=345.png
+CollectibleCardIndex=345
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Hiploro
+pt_Name=Carta Hiploro
+fr_Name=Carta Hiploro
+it_Name=Carta Hiploro
+
+[OBJ1215] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Lyra
+GrhIndex=52190
+CollectibleCardImgPathing=346.png
+CollectibleCardIndex=346
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Lyra
+pt_Name=Carta Lyra
+fr_Name=Carta Lyra
+it_Name=Carta Lyra
+
+[OBJ1216] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Van
+GrhIndex=52190
+CollectibleCardImgPathing=348.png
+CollectibleCardIndex=348
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Van
+pt_Name=Carta Van
+fr_Name=Carta Van
+it_Name=Carta Van
+
+[OBJ1219] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Helgrim
+GrhIndex=52190
+CollectibleCardImgPathing=349.png
+CollectibleCardIndex=349
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Helgrim
+pt_Name=Carta Helgrim
+fr_Name=Carta Helgrim
+it_Name=Carta Helgrim
+
+[OBJ1220] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Halving
+GrhIndex=52190
+CollectibleCardImgPathing=350.png
+CollectibleCardIndex=350
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Halving
+pt_Name=Carta Halving
+fr_Name=Carta Halving
+it_Name=Carta Halving
+
+[OBJ1221] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Thirgo Brumhildo
+GrhIndex=52190
+CollectibleCardImgPathing=351.png
+CollectibleCardIndex=351
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Thirgo Brumhildo
+pt_Name=Carta Thirgo Brumhildo
+fr_Name=Carta Thirgo Brumhildo
+it_Name=Carta Thirgo Brumhildo
+
+[OBJ1222] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Dargrim
+GrhIndex=52190
+CollectibleCardImgPathing=352.png
+CollectibleCardIndex=352
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Dargrim
+pt_Name=Carta Dargrim
+fr_Name=Carta Dargrim
+it_Name=Carta Dargrim
+
+[OBJ1223] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Arkhavel
+GrhIndex=52190
+CollectibleCardImgPathing=353.png
+CollectibleCardIndex=353
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Arkhavel
+pt_Name=Carta Arkhavel
+fr_Name=Carta Arkhavel
+it_Name=Carta Arkhavel
+
+[OBJ1224] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Darim
+GrhIndex=52190
+CollectibleCardImgPathing=354.png
+CollectibleCardIndex=354
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Darim
+pt_Name=Carta Darim
+fr_Name=Carta Darim
+it_Name=Carta Darim
+
+[OBJ1225] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Durgan
+GrhIndex=52190
+CollectibleCardImgPathing=355.png
+CollectibleCardIndex=355
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Durgan
+pt_Name=Carta Durgan
+fr_Name=Carta Durgan
+it_Name=Carta Durgan
+
+[OBJ1227] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Borin
+GrhIndex=52190
+CollectibleCardImgPathing=356.png
+CollectibleCardIndex=356
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Borin
+pt_Name=Carta Borin
+fr_Name=Carta Borin
+it_Name=Carta Borin
+
+[OBJ1228] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Brunno
+GrhIndex=52190
+CollectibleCardImgPathing=357.png
+CollectibleCardIndex=357
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Brunno
+pt_Name=Carta Brunno
+fr_Name=Carta Brunno
+it_Name=Carta Brunno
+
+[OBJ1231] 'Carta del pack oficial 2026-10-01 (plan 23.005)
+Name=Carta Dwalin
+GrhIndex=52190
+CollectibleCardImgPathing=360.png
+CollectibleCardIndex=360
+CollectibleCardRarity=1
+ObjType=57
+en_Name=Carta Dwalin
+pt_Name=Carta Dwalin
+fr_Name=Carta Dwalin
+it_Name=Carta Dwalin
 
 [OBJ1263] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 GrhIndex=0
@@ -70120,6 +73152,162 @@ fr_texto=Ce coffre contient des armes de niveau 1 avec élément Air
 it_Name=Forziere di Armi Elementali (Aria)
 it_texto=Questo forziere contiene armi di livello 1 con elemento Aria
 
+[OBJ5264] 'Item del pack oficial 2026-10-01 (plan 23.005)
+Name=Armadura de Dragón Rojo
+Texto=Skin exclusiva del Dragón Rojo, apta para cualquier clase.
+ObjType=39
+Valor=0
+GrhIndex=2647
+RopajeHumano=247
+RopajeElfo=247
+RopajeElfoOscuro=1747
+RopajeEnano=747
+RopajeOrco=1247
+RopajeGnomo=747
+RopajeHumana=2156
+RopajeElfa=2156
+RopajeElfaOscura=3613
+RopajeEnana=2655
+RopajeOrca=3222
+RopajeGnoma=2655
+en_Name=Red Dragon Armor
+en_texto=Exclusive Red Dragon skin, suitable for any class.
+pt_Name=Armadura do Dragão Vermelho
+pt_texto=Visual exclusivo Dragão Vermelho, adequado para qualquer classe.
+fr_Name=Armure de dragon rouge
+fr_texto=Apparence exclusive Dragon rouge, adaptée à toutes les classes.
+it_Name=Armatura del Drago Rosso
+it_texto=Skin esclusiva Drago Rosso, adatta a qualsiasi classe.
+
+[OBJ5265] 'Item del pack oficial 2026-10-01 (plan 23.005)
+Name=Armadura de Dragón Negro
+Texto=Skin exclusiva del Dragón Negro, apta para cualquier clase.
+ObjType=39
+Valor=0
+GrhIndex=41206
+RopajeHumano=248
+RopajeElfo=248
+RopajeElfoOscuro=1748
+RopajeEnano=748
+RopajeOrco=1248
+RopajeGnomo=748
+RopajeHumana=2157
+RopajeElfa=2157
+RopajeElfaOscura=3614
+RopajeEnana=2656
+RopajeOrca=3223
+RopajeGnoma=2656
+en_Name=Black Dragon Armor
+en_texto=Exclusive Black Dragon skin, suitable for any class.
+pt_Name=Armadura do Dragão Negro
+pt_texto=Visual exclusivo de Dragão Negro, adequado para qualquer classe.
+fr_Name=Armure de Dragon Noir
+fr_texto=Apparence exclusive Dragon noir, adaptée à toutes les classes.
+it_Name=Armatura del Drago Nero
+it_texto=Skin esclusiva Drago Nero, adatta a qualsiasi classe.
+
+[OBJ5266] 'Item del pack oficial 2026-10-01 (plan 23.005)
+Name=Armadura de Dragón Dorado
+Texto=Skin exclusiva del Dragón Dorado, apta para cualquier clase.
+ObjType=39
+Valor=0
+GrhIndex=1448
+RopajeHumano=245
+RopajeElfo=245
+RopajeElfoOscuro=1745
+RopajeEnano=745
+RopajeOrco=1245
+RopajeGnomo=745
+RopajeHumana=2154
+RopajeElfa=2154
+RopajeElfaOscura=3611
+RopajeEnana=2653
+RopajeOrca=3220
+RopajeGnoma=2653
+en_Name=Golden Dragon Armor
+en_texto=Exclusive Golden Dragon skin, suitable for any class.
+pt_Name=Armadura do Dragão Dourado
+pt_texto=Visual exclusivo Dragão Dourado, adequado para qualquer classe.
+fr_Name=Armure du Dragon d'or
+fr_texto=Apparence exclusive Dragon d'or, adaptée à toutes les classes.
+it_Name=Armatura del Drago d'Oro
+it_texto=Skin esclusiva Drago d'Oro, adatta a qualsiasi classe.
+
+[OBJ5983] 'Item del pack oficial 2026-10-01 (plan 23.005)
+Name=Embrión
+Texto=Cría de araña con energía de fuego latente.
+GrhIndex=38438
+ObjType=100
+Valor=60
+en_Name=Embryo
+en_texto=Spider offspring with latent fire energy.
+pt_Name=Embrião
+pt_texto=Cria de aranha com energia de fogo latente.
+fr_Name=Embryon
+fr_texto=Progéniture d'araignée avec une énergie de feu latente.
+it_Name=Embrione
+it_texto=Cucciolo di ragno con energia di fuoco latente.
+
+[OBJ5984] 'Item del pack oficial 2026-10-01 (plan 23.005)
+Name=Seda Resistente
+Texto=Seda endurecida de la Gran Blaze.
+GrhIndex=38439
+ObjType=100
+Valor=100
+en_Name=Resistant Silk
+en_texto=Hardened silk from the Great Blaze.
+pt_Name=Seda Resistente
+pt_texto=Seda endurecida da Grande Blaze.
+fr_Name=Soie Résistante
+fr_texto=Soie durcie du Grand Blaze.
+it_Name=Seta Resistente
+it_texto=Seta indurita del Grande Blaze.
+
+[OBJ5985] 'Item del pack oficial 2026-10-01 (plan 23.005)
+Name=Colmillo
+Texto=Colmillo de Phyrus impregnado de energía demoníaca.
+GrhIndex=38428
+ObjType=100
+Valor=60
+en_Name=Fang
+en_texto=Phyrus fang infused with demonic energy.
+pt_Name=Canino
+pt_texto=Canino de Phyrus impregnado de energia demoníaca.
+fr_Name=Crochet
+fr_texto=Crochet de Phyrus imprégné d'énergie démoniaque.
+it_Name=Zanna
+it_texto=Zanna di Phyrus intrisa di energia demoniaca.
+
+[OBJ5986] 'Item del pack oficial 2026-10-01 (plan 23.005)
+Name=Oreja
+Texto=Oreja de Phyrus marcada por las llamas.
+GrhIndex=38426
+ObjType=100
+Valor=100
+en_Name=Ear
+en_texto=Phyrus ear marked by infernal flames.
+pt_Name=Orelha
+pt_texto=Orelha de Phyrus marcada pelas chamas.
+fr_Name=Oreille
+fr_texto=Oreille de Phyrus marquée par les flammes.
+it_Name=Orecchio
+it_texto=Orecchio di Phyrus segnato dalle fiamme.
+
+[OBJ5987] 'Item del pack oficial 2026-10-01 (plan 23.005)
+Name=Quelicero del Gran Blaze
+Texto=Mandíbula ardiente de una bestia legendaria.
+GrhIndex=38437
+ObjType=100
+Valor=250
+en_Name=Great Blaze's Chelicera
+en_texto=Burning jaw fragment from a legendary beast.
+pt_Name=Quelícera do Grande Blaze
+pt_texto=Fragmento de mandíbula ardente de uma besta lendária.
+fr_Name=Chélicère du Grand Blaze
+fr_texto=Fragment de mâchoire ardente d'une bête légendaire.
+it_Name=Chelicera del Grande Blaze
+it_texto=Frammento di mandibola ardente di una bestia leggendaria.
+
 [OBJ5988] 'Plan 23.002: desde el pack oficial 2026-10-01
 Name=Corazón del Golem
 Texto=Núcleo vital con energía de piedra antigua.
@@ -70150,6 +73338,21 @@ fr_texto=Écaille résistante aux flammes infernales.
 it_Name=Scaglia di Salamandra
 it_texto=Scaglia resistente alle fiamme infernali.
 
+[OBJ5990] 'Item del pack oficial 2026-10-01 (plan 23.005)
+Name=Pergamino del Inframundo
+Texto=Antiguo pergamino con secretos prohibidos.
+GrhIndex=38427
+ObjType=100
+Valor=220
+en_Name=Underworld Scroll
+en_texto=Ancient scroll containing forbidden secrets.
+pt_Name=Pergaminho do Submundo
+pt_texto=Antigo pergaminho contendo segredos proibidos.
+fr_Name=Parchemin du Monde Souterrain
+fr_texto=Ancien parchemin contenant des secrets interdits.
+it_Name=Pergamena del Sottomondo
+it_texto=Antica pergamena contenente segreti proibiti.
+
 [OBJ5991] 'Plan 23.002: desde el pack oficial 2026-10-01
 Name=Brazo de Mantis
 Texto=Extremidad afilada de una criatura veloz.
@@ -70164,6 +73367,36 @@ fr_Name=Bras de Mante
 fr_texto=Membre tranchant d'une créature rapide.
 it_Name=Braccio di Mantide
 it_texto=Arto affilato di una creatura veloce.
+
+[OBJ5992] 'Item del pack oficial 2026-10-01 (plan 23.005)
+Name=Cuerno del Demonio
+Texto=Cuerno oscuro cargado de maldad.
+GrhIndex=38423
+ObjType=100
+Valor=240
+en_Name=Demon Horn
+en_texto=Dark horn filled with evil energy.
+pt_Name=Chifre do Demônio
+pt_texto=Chifre sombrio carregado de maldade.
+fr_Name=Corne du Démon
+fr_texto=Corne sombre chargée d'énergie maléfique.
+it_Name=Corno del Demone
+it_texto=Corno oscuro colmo di energia maligna.
+
+[OBJ5993] 'Item del pack oficial 2026-10-01 (plan 23.005)
+Name=Ala del Demonio
+Texto=Ala oscura con restos de energía demoníaca.
+GrhIndex=38422
+ObjType=100
+Valor=280
+en_Name=Demon Wing
+en_texto=Dark wing with traces of demonic energy.
+pt_Name=Asa do Demônio
+pt_texto=Asa sombria com restos de energia demoníaca.
+fr_Name=Aile du Démon
+fr_texto=Aile sombre avec des traces d'énergie démoniaque.
+it_Name=Ala del Demone
+it_texto=Ala oscura con tracce di energia demoniaca.
 
 [OBJ5994] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Túnica de la Cruz
@@ -75613,13 +78846,17 @@ Name=Runa de auxilio real
 GrhIndex=52199
 ObjType=50
 
-[OBJ6361] 'Oficial: localindex del pack de Steam 2026-09-12; antes estaba en el OBJ6359 (plan 17.001 D65)
+[OBJ6361] 'Carta del pack oficial 2026-10-01 (plan 23.005)
 Name=Carta Morvanna
 GrhIndex=52190
-CollectibleCardImgPathing=Cartas\1.png
+CollectibleCardImgPathing=1.png
 CollectibleCardIndex=1
 CollectibleCardRarity=1
 ObjType=57
+en_Name=Carta Morvanna
+pt_Name=Carta Morvanna
+fr_Name=Carta Morvanna
+it_Name=Carta Morvanna
 
 [OBJ9014] 'Reubicado de OBJ5170 por colision con slot oficial (plan 10.001 fase 3)
 Name=Detectar Personajes
@@ -81309,4 +84546,158 @@ Texto=Esta honorable casa pertenece a
 en_texto=This honorable house belongs to
 en_Name=locked door house 4 of Tiama
 ExtraStr=Esta honorable casa pertenece a
+
+[OBJ9233] 'Mudado desde OBJ508 (plan 23.005)
+Name=Ropa Estuaria (M)
+NumRopaje=3120
+GrhIndex=59354
+ObjType=3
+RazaDrow=1
+RazaElfa=1
+RazaHumana=1
+RazaOrca=1
+MAXDEF=7
+MINDEF=5
+Valor=1000
+Mujer=1
+Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
+Texto=Ropa Estuaria (M)
+SKSastreria=25
+PielLobo=30
+PielOsoPardo=0
+PielOsoPolar=0
+en_Name=Estuary Clothes (Woman)
+
+[OBJ9234] 'Mudado desde OBJ513 (plan 23.005)
+Name=Vestido de Bruja (H/E/EO-M)
+GrhIndex=11609
+RopajeHumano=604
+RopajeElfo=604
+RopajeElfoOscuro=3126
+RopajeEnano=2839
+RopajeOrco=3125
+RopajeGnomo=2839
+RopajeHumana=604
+RopajeElfa=604
+RopajeElfaOscura=3126
+RopajeEnana=2839
+RopajeOrca=3125
+RopajeGnoma=2839
+ObjType=3
+RazaDrow=1
+RazaElfa=1
+RazaHumana=1
+RazaOrca=1
+MAXDEF=20
+MINDEF=15
+Valor=7000
+CP1=BANDIDO
+CP2=LADRON
+CP3=PIRATA
+CP4=TRABAJADOR
+CP5=CAZADOR
+CP6=PALADIN
+CP9=ASESINO
+CP10=GUERRERO
+CP11=CLERIGO
+Mujer=1
+MinELV=1
+Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
+Texto=Vestido de Bruja (H/E/EO-M)
+en_Name=Witch Dress (H/E/EO-M)
+
+[OBJ9230] 'Mudado desde OBJ614 (plan 23.005)
+Name=Tapete
+Info=Abajo
+GrhIndex=26204
+ObjType=20
+Agarrable=1
+Texto=Tapete
+en_Name=rug
+
+'--------------> Casa número 1 de Arghâl <--------------
+
+[OBJ9231] 'Mudado desde OBJ950 (plan 23.005)
+Name=Traje de Marques
+GrhIndex=11103
+RopajeHumano=30
+RopajeElfo=30
+RopajeElfoOscuro=1875
+RopajeEnano=1153
+RopajeOrco=1859
+RopajeGnomo=1153
+RopajeHumana=1216
+RopajeElfa=1216
+RopajeElfaOscura=2773
+RopajeEnana=2751
+RopajeOrca=2762
+RopajeGnoma=2751
+ObjType=3
+MAXDEF=10
+MINDEF=1
+Valor=700
+peso=50
+Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
+Texto=Traje de Marques
+en_Name=Marquis Suit
+
+[OBJ9232] 'Mudado desde OBJ1116 (plan 23.005) | Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
+GrhIndex=39005
+MaxHit=12
+MinHit=8
+Municiones=1
+Name=Arco de Roble +1
+ObjType=2
+Proyectil=1
+Texto=Daño 8/12
+en_Name=Oak Bow +1
+en_Texto=Damage 8/12
+fr_Name=Arc de chêne +1
+fr_Texto=Dommages 8/12
+it_Name=Oak Arc +1
+it_Texto=Danno 8/12
+pt_Name=Oak Arc +1
+pt_Texto=Danos 8/12
+' Reparado 06.002: claves de logica del server que la reconstruccion de localindex no traia (base OBJ1870)
+WeaponType=3
+BOWCATEGORY=4
+Anim=121
+MinELV=25
+DosManos=0
+CP1=PALADIN
+CP2=BANDIDO
+CP3=ASESINO
+CP4=CLERIGO
+CP5=TRABAJADOR
+CP6=PIRATA
+CP7=LADRON
+CP8=BARDO
+CP9=DRUIDA
+CP10=MAGO
+
+[OBJ9235] 'Mudado desde OBJ4330 (plan 23.005)
+Name=Cota de Gladiador
+GrhIndex=2650
+RopajeHumano=295
+RopajeElfo=295
+RopajeElfoOscuro=2104
+RopajeEnano=789
+RopajeOrco=2088
+RopajeGnomo=789
+RopajeHumana=295
+RopajeElfa=295
+RopajeElfaOscura=2104
+RopajeEnana=789
+RopajeOrca=2088
+RopajeGnoma=789
+ObjType=3
+MAXDEF=22
+MINDEF=15
+CP7=DRUIDA
+CP8=BARDO
+CP12=MAGO
+MinELV=1
+Valor=7200
+Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
+Texto=Cota de Gladiador (Drow)
 
