@@ -3,7 +3,7 @@ NUMEROHECHIZO=425
 NUMLOCALEMSG=9015
 NUMMAPAS=750
 NUMNPCS=9063
-NUMOBJS=9229
+NUMOBJS=9235
 NUMQUESTS=905
 NUMSUGERENCIAS=6
 
@@ -3920,6 +3920,7 @@ NpcType=1
 PuedeInvocar=1
 Comercia=0
 NoMapInfo=1
+CollectibleCardIndex=137
 
 [NPC3]
 Name=Banker <Goliath Finance>
@@ -3931,6 +3932,7 @@ Ataque1=4013
 NpcType=4
 PuedeInvocar=1
 NoMapInfo=1
+CollectibleCardIndex=120
 
 [NPC4]
 Name=Lilith <Master Alchemist>
@@ -3945,6 +3947,7 @@ Obj3=36-1000
 PuedeInvocar=1
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=99
 
 [NPC5]
 Name=Daniel <Provisions>
@@ -4007,6 +4010,7 @@ Obj2=1142-1000
 Obj3=390-1000
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=355
 
 [NPC13]
 Name=Baldric <Farrier>
@@ -4048,6 +4052,7 @@ Obj2=199-1000
 Obj3=197-1000
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=274
 
 [NPC16]
 Name=Vhalek <Dock Merchant>
@@ -4089,6 +4094,7 @@ Head=0
 BodyIdle=6163
 Ataque1=6163
 NpcType=17
+CollectibleCardIndex=346
 
 [NPC20]
 Name=Roth <Quest Pantano>
@@ -4096,6 +4102,7 @@ Desc=Si esas criaturas siguen multiplicándose, Ullathorpe no va a estar a salvo
 Body=6113
 Head=0
 NpcType=17
+CollectibleCardIndex=310
 
 [NPC21]
 Name=Bromdir <Quest del Fenix>
@@ -4190,6 +4197,7 @@ Obj2=38-1000
 Obj3=36-1000
 NoMapInfo=1
 CambioAIdle=10
+CollectibleCardIndex=319
 
 [NPC47]
 Name=Chaotic Alchemist
@@ -4206,6 +4214,7 @@ Obj2=38-1000
 Obj3=36-1000
 NoMapInfo=1
 CambioAIdle=10
+CollectibleCardIndex=337
 
 [NPC48]
 Name=Ether <Combat Merchant>
@@ -4244,6 +4253,7 @@ Obj1=198-100
 Obj2=127-100
 Obj3=361-100
 NoMapInfo=1
+CollectibleCardIndex=329
 
 [NPC56]
 Name=Elerion <Herrero Eterno>
@@ -4259,6 +4269,7 @@ Obj2=123-100
 Obj3=3987-100
 NoMapInfo=1
 CambioAIdle=10
+CollectibleCardIndex=183
 
 [NPC57]
 Name=Lirenn <Herrera>
@@ -4275,6 +4286,7 @@ Obj1=1713-100
 Obj2=1774-100
 Obj3=1761-100
 NoMapInfo=1
+CollectibleCardIndex=294
 
 [NPC58]
 Name=Stavros <Innkeeper>
@@ -4288,6 +4300,7 @@ Obj1=43-1000
 Obj2=160-1000
 Obj3=42-1000
 NoMapInfo=1
+CollectibleCardIndex=80
 
 [NPC59]
 Name=Ines <Cook>
@@ -4302,6 +4315,7 @@ Obj1=1-1000
 Obj2=22-1000
 Obj3=29-1000
 NoMapInfo=1
+CollectibleCardIndex=117
 
 [NPC74]
 Name=Zonrie <Arghal Sorcerero>
@@ -4346,6 +4360,7 @@ Head=0
 BodyIdle=6231
 NpcType=1
 NoMapInfo=1
+CollectibleCardIndex=141
 
 [NPC98]
 Name=Nargog <Finanzas Goliath>
@@ -4356,6 +4371,7 @@ BodyIdle=4011
 Ataque1=4011
 NpcType=4
 NoMapInfo=1
+CollectibleCardIndex=98
 
 [NPC100]
 Name=Therona <Innkeeper>
@@ -4384,6 +4400,7 @@ Obj1=1-1000
 Obj2=22-1000
 Obj3=29-1000
 NoMapInfo=1
+CollectibleCardIndex=339
 
 [NPC102]
 Name=Mildred <Sorcerer>
@@ -4399,6 +4416,7 @@ Obj1=2765-100
 Obj2=2763-100
 Obj3=2467-100
 NoMapInfo=1
+CollectibleCardIndex=302
 
 [NPC105]
 Name=Durrotha <Merchant>
@@ -4448,6 +4466,7 @@ EXP=4
 ORO=2
 MaxHIT=3
 MinHIT=1
+CollectibleCardIndex=311
 
 [NPC112]
 Name=KLERIC <Quest>
@@ -4512,6 +4531,7 @@ BodyIdle=6158
 Ataque1=6158
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=354
 
 [NPC122]
 Name=Rona <Herreria>
@@ -4522,6 +4542,7 @@ BodyIdle=6115
 Ataque1=6115
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=287
 
 [NPC123]
 Name=Borin <Minero>
@@ -4530,6 +4551,7 @@ Body=6154
 Head=0
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=356
 
 [NPC124]
 Name=Druslo <Alquimista>
@@ -4540,6 +4562,7 @@ BodyIdle=6165
 Ataque1=6165
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=272
 
 [NPC125]
 Name=Giorgia <Sastreria>
@@ -4550,6 +4573,7 @@ BodyIdle=6155
 Ataque1=6155
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=331
 
 [NPC126]
 Name=Henrietta <Pescadora>
@@ -4560,6 +4584,7 @@ BodyIdle=6117
 Ataque1=6117
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=313
 
 [NPC247]
 Name=Nundal <Quest de Pesca>
@@ -4583,6 +4608,7 @@ Head=0
 BodyIdle=6161
 Ataque1=6161
 NpcType=17
+CollectibleCardIndex=345
 
 [NPC250]
 Name=Robert <Governor of Ullathorpe>
@@ -4592,6 +4618,7 @@ Head=0
 NpcType=12
 Comercia=0
 NROITEMS=0
+CollectibleCardIndex=175
 
 [NPC251]
 Name=Robert <Governor of Ullathorpe>
@@ -4601,6 +4628,7 @@ Head=0
 NpcType=12
 Comercia=0
 NROITEMS=0
+CollectibleCardIndex=173
 
 [NPC252]
 Name=Maximus <Gobernador de Banderbill>
@@ -4610,6 +4638,7 @@ Head=0
 NpcType=12
 NoMapInfo=1
 NROITEMS=0
+CollectibleCardIndex=170
 
 [NPC253]
 Name=Domus <Gobernador de Arkhein>
@@ -4618,6 +4647,7 @@ Body=4001
 Head=0
 NpcType=12
 NoMapInfo=1
+CollectibleCardIndex=171
 
 [NPC254]
 Name=Vanessa <Gobernadora de Lindos>
@@ -4627,6 +4657,7 @@ Head=0
 NpcType=12
 NoMapInfo=1
 NROITEMS=0
+CollectibleCardIndex=174
 
 [NPC255]
 Name=Lady Élanor <Gobernadora de Arghal>
@@ -4636,6 +4667,7 @@ Head=0
 NpcType=12
 NoMapInfo=1
 NROITEMS=0
+CollectibleCardIndex=176
 
 [NPC256]
 Name=Jarl Njord <Gobernador de Forgat>
@@ -4644,6 +4676,7 @@ Body=4006
 Head=0
 NpcType=12
 NoMapInfo=1
+CollectibleCardIndex=168
 
 [NPC257]
 Name=Haleth <Gobernadora de Eldoria>
@@ -4652,6 +4685,7 @@ Body=4003
 Head=0
 NpcType=12
 NoMapInfo=1
+CollectibleCardIndex=172
 
 [NPC258]
 Name=Dhall <Gobernadora de Penthar>
@@ -4660,6 +4694,7 @@ Body=4005
 Head=0
 NpcType=12
 NoMapInfo=1
+CollectibleCardIndex=169
 
 [NPC259]
 Name=Blorin <Gobernador de Morgrim>
@@ -4668,6 +4703,7 @@ Body=4009
 Head=0
 NpcType=12
 NoMapInfo=1
+CollectibleCardIndex=167
 
 [NPC265]
 Name=Subastador
@@ -4688,6 +4724,9 @@ EXP=600
 ORO=0
 MaxHIT=75
 MinHIT=60
+CollectibleCardIndex=233
+DropCount=1
+Drop1=943-10000-1-1
 
 [NPC268]
 Name=Guardian de la Montaña
@@ -4732,6 +4771,7 @@ NpcType=5
 MaxHIT=350
 MinHIT=300
 DisabledInBattleServer=1
+CollectibleCardIndex=14
 
 [NPC304]
 Name=Zarok <Rey de Arkheinl>
@@ -4742,6 +4782,7 @@ NpcType=5
 MaxHIT=350
 MinHIT=300
 DisabledInBattleServer=1
+CollectibleCardIndex=15
 
 [NPC400]
 Name=Abyssal
@@ -4753,9 +4794,11 @@ EXP=650000
 MaxHIT=5000
 MinHIT=500
 GiveEXPClan=150
-DropCount=2
+DropCount=3
 Drop1=1217-50-1-1
 Drop2=1218-50-1-1
+Drop3=295-10000-1-1
+CollectibleCardIndex=38
 
 [NPC401]
 Name=Pedestal
@@ -4824,6 +4867,7 @@ Desc=A new face! What a pleasure to see you, I introduce myself, I am Otis. Perh
 Body=6092
 NpcType=17
 Comercia=0
+CollectibleCardIndex=192
 
 [NPC413]
 Name=Galar
@@ -4840,6 +4884,7 @@ Head=0
 BodyIdle=6179
 Ataque1=6179
 NpcType=17
+CollectibleCardIndex=343
 
 [NPC420]
 Name=Cold <Citizen of Eleusis>
@@ -4886,6 +4931,7 @@ BodyIdle=6174
 Ataque1=6174
 NpcType=17
 DisabledInBattleServer=1
+CollectibleCardIndex=312
 
 [NPC490]
 Name=Krix <Finanzas Goliath>
@@ -4905,6 +4951,7 @@ BodyIdle=4010
 Ataque1=4010
 NpcType=4
 NoMapInfo=1
+CollectibleCardIndex=81
 
 [NPC499]
 Name=Sentinel
@@ -5136,8 +5183,10 @@ ORO=110
 MaxHIT=135
 MinHIT=90
 Nivel=28
-DropCount=1
+DropCount=2
 Drop1=1149-200-1-1
+Drop2=6361-10000-1-1
+CollectibleCardIndex=1
 
 [NPC514]
 Name=Skeleton
@@ -5191,6 +5240,7 @@ Drop2=5180-1000-1-1
 Drop3=6105-8000-1-1
 Drop4=6188-8000-1-1
 Drop5=6489-10000-1-1
+CollectibleCardIndex=8
 
 [NPC517]
 Name=Zulrik <Goblin Hechicero>
@@ -5208,6 +5258,7 @@ DropCount=3
 Drop1=1800-120-1-1
 Drop2=5996-1-1-1
 Drop3=5996-20-1-10
+CollectibleCardIndex=21
 
 [NPC518]
 Name=Barbarian Goblin
@@ -5221,9 +5272,11 @@ EXP=300
 ORO=18
 MaxHIT=40
 MinHIT=28
-DropCount=1
+DropCount=2
 Drop1=1847-16-1-1
+Drop2=277-10000-1-1
 Nivel=15
+CollectibleCardIndex=20
 
 [NPC519]
 Name=Rikkar
@@ -5237,6 +5290,9 @@ EXP=150
 ORO=12
 MaxHIT=24
 MinHIT=12
+CollectibleCardIndex=22
+DropCount=1
+Drop1=279-10000-1-1
 
 [NPC520]
 Name=Beholder
@@ -5251,8 +5307,10 @@ MaxHIT=70
 MinHIT=45
 NpcType=0
 Nivel=20
-DropCount=1
+DropCount=2
 Drop1=237-100-1-1
+Drop2=320-10000-1-1
+CollectibleCardIndex=42
 
 [NPC521]
 Name=Throgar
@@ -5266,8 +5324,10 @@ EXP=700
 ORO=63
 MaxHIT=80
 MinHIT=45
-DropCount=1
+DropCount=2
 Drop1=2803-30-1-1
+Drop2=276-10000-1-1
+CollectibleCardIndex=19
 
 [NPC522]
 Name=Goblin
@@ -5283,8 +5343,10 @@ MinHIT=12
 ORO=9
 NpcType=0
 Nivel=8
-DropCount=1
+DropCount=2
 Drop1=1278-133-1-1
+Drop2=275-10000-1-1
+CollectibleCardIndex=18
 
 [NPC523]
 Name=Zombie Guerrero
@@ -5312,9 +5374,11 @@ EXP=660
 ORO=33
 MaxHIT=20
 MinHIT=10
-DropCount=1
+DropCount=2
 Drop1=2649-27-1-1
+Drop2=929-10000-1-1
 Nivel=20
+CollectibleCardIndex=221
 
 [NPC525]
 Name=Rodrick
@@ -5329,8 +5393,11 @@ MaxHIT=130
 MinHIT=90
 GiveEXPClan=1
 Nivel=28
-DropCount=1
+DropCount=3
 Drop1=164-1000-1-1
+Drop2=4330-1000-1-1
+Drop3=835-10000-1-1
+CollectibleCardIndex=149
 
 [NPC526]
 Name=Holt
@@ -5345,9 +5412,11 @@ MaxHIT=135
 MinHIT=95
 GiveEXPClan=1
 Nivel=28
-DropCount=2
+DropCount=3
 Drop1=3988-1000-1-1
 Drop2=4341-1000-1-1
+Drop3=834-10000-1-1
+CollectibleCardIndex=148
 
 [NPC527]
 Name=Wolog
@@ -5361,6 +5430,9 @@ EXP=0
 ORO=0
 MaxHIT=80
 MinHIT=60
+CollectibleCardIndex=268
+DropCount=1
+Drop1=1037-10000-1-1
 
 [NPC528]
 Name=Perro Zombie
@@ -5392,9 +5464,11 @@ ORO=120
 MaxHIT=160
 MinHIT=130
 GiveEXPClan=1
-DropCount=1
-Drop1=407-325-1-1
+DropCount=2
+Drop1=407-1000-1-1
+Drop2=570-10000-1-1
 Nivel=28
+CollectibleCardIndex=93
 
 [NPC530]
 Name=Goruk
@@ -5412,6 +5486,7 @@ Nivel=28
 DropCount=2
 Drop1=5180-1000-1-1
 Drop2=293-10000-1-1
+CollectibleCardIndex=36
 
 [NPC531]
 Name=Kryos
@@ -5426,6 +5501,7 @@ ORO=0
 Nivel=28
 MaxHIT=190
 MinHIT=160
+CollectibleCardIndex=196
 
 [NPC532]
 Name=Gigante de Hielo
@@ -5439,10 +5515,13 @@ ORO=1100
 MaxHIT=235
 MinHIT=180
 GiveEXPClan=10
-DropCount=2
+DropCount=4
 Drop1=869-200-1-1
 Drop2=3394-1-1-1
+Drop3=931-10000-1-1
+Drop4=503-33-1-1
 Nivel=28
+CollectibleCardIndex=223
 
 [NPC533]
 Name=Evil Wizard
@@ -5468,9 +5547,11 @@ ORO=160
 MaxHIT=165
 MinHIT=75
 GiveEXPClan=2
-DropCount=2
+DropCount=3
 Drop1=37-20-15-50
 Drop2=38-20-10-35
+Drop3=828-10000-1-1
+CollectibleCardIndex=142
 
 [NPC535]
 Name=Glacius
@@ -5486,6 +5567,9 @@ MaxHIT=215
 MinHIT=155
 GiveEXPClan=3
 Nivel=32
+CollectibleCardIndex=241
+DropCount=1
+Drop1=951-10000-1-1
 
 [NPC536]
 Name=Escarlath
@@ -5501,8 +5585,9 @@ MaxHIT=215
 MinHIT=180
 GiveEXPClan=18
 Nivel=20
-DropCount=1
-Drop1=1679-200-1-1
+DropCount=2
+Drop1=511-10-1-1
+Drop2=1679-200-1-1
 
 [NPC537]
 Name=Gralthar
@@ -5529,8 +5614,9 @@ ORO=200
 MaxHIT=160
 MinHIT=115
 NpcType=0
-DropCount=1
+DropCount=2
 Drop1=2846-100-1-1
+Drop2=508-330-1-1
 
 [NPC541]
 Name=Ferrion
@@ -5543,10 +5629,12 @@ EXP=750
 ORO=35
 MaxHIT=85
 MinHIT=60
-DropCount=3
+DropCount=4
 Drop1=192-1-25-100
 Drop2=192-5-50-200
 Drop3=192-20-100-250
+Drop4=614-10000-1-1
+CollectibleCardIndex=109
 
 [NPC542]
 Name=Caballo Marrón
@@ -5596,10 +5684,12 @@ EXP=2100
 ORO=90
 MaxHIT=135
 MinHIT=85
-DropCount=3
+DropCount=4
 Drop1=193-1-25-100
 Drop2=193-5-50-200
 Drop3=193-20-100-250
+Drop4=340-10000-1-1
+CollectibleCardIndex=62
 
 [NPC546]
 Name=Rata
@@ -5634,6 +5724,8 @@ MaxHIT=165
 MinHIT=105
 GiveEXPClan=2
 Nivel=28
+DropCount=1
+Drop1=509-500-1-1
 
 [NPC549]
 Name=Infernus
@@ -5645,9 +5737,11 @@ EXP=650000
 MaxHIT=5000
 MinHIT=500
 GiveEXPClan=150
-DropCount=2
+DropCount=3
 Drop1=481-50-1-1
 Drop2=2806-50-1-1
+Drop3=294-10000-1-1
+CollectibleCardIndex=37
 
 [NPC550]
 Name=Serath <Quest de Lobos>
@@ -5687,10 +5781,12 @@ MaxHIT=40
 MinHIT=25
 ORO=15
 NpcType=0
-DropCount=2
+DropCount=3
 Drop1=165-120-1-1
 Drop2=1721-32-1-1
+Drop3=838-10000-1-1
 Nivel=20
+CollectibleCardIndex=152
 
 [NPC553]
 Name=Bandit
@@ -5706,9 +5802,11 @@ MaxHIT=35
 MinHIT=20
 NpcType=0
 Nivel=20
-DropCount=2
+DropCount=3
 Drop1=1856-250-1-1
 Drop2=1721-40-1-1
+Drop3=837-10000-1-1
+CollectibleCardIndex=151
 
 [NPC554]
 Name=Toxic Stingray
@@ -5775,9 +5873,11 @@ Obj1=414-1
 NpcType=0
 ORO=3
 Nivel=20
-DropCount=2
+DropCount=3
 Drop1=414-100-1-5
 Drop2=414-1-1-1
+Drop3=934-10000-1-1
+CollectibleCardIndex=225
 
 [NPC559]
 Name=Black Wolf
@@ -5794,10 +5894,12 @@ ORO=0
 NROITEMS=1
 Obj1=1146-1
 NpcType=0
-DropCount=2
+DropCount=3
 Drop1=1146-100-1-5
 Drop2=1146-1-1-1
+Drop3=936-10000-1-1
 Nivel=20
+CollectibleCardIndex=227
 
 [NPC560]
 Name=Ogre
@@ -5835,6 +5937,7 @@ Nivel=30
 DropCount=2
 Drop1=5181-1000-1-1
 Drop2=6747-10000-1-1
+CollectibleCardIndex=266
 
 [NPC562]
 Name=Rathen <Quest de Bandido>
@@ -5871,7 +5974,7 @@ MaxHIT=85
 MinHIT=40
 Nivel=20
 DropCount=1
-Drop1=412-400-1-1
+Drop1=412-700-1-1
 
 [NPC569]
 Name=Captain Pyke
@@ -5890,6 +5993,7 @@ Drop1=480-1-15-15
 Drop2=3550-1-5-5
 Drop3=551-1-3-3
 Nivel=28
+CollectibleCardIndex=51
 
 [NPC571]
 Name=Delvina <Quest de Zombies>
@@ -5902,6 +6006,7 @@ EXP=300000
 MaxHIT=350
 MinHIT=300
 GiveEXPClan=400
+CollectibleCardIndex=327
 
 [NPC572]
 Name=Khemet <Quest del Manto del Sol Caido>
@@ -5948,6 +6053,7 @@ Nivel=28
 DropCount=2
 Drop1=5182-1000-1-1
 Drop2=562-10000-1-1
+CollectibleCardIndex=85
 
 [NPC576]
 Name=Cobra
@@ -6005,6 +6111,9 @@ ORO=15
 MaxHIT=30
 MinHIT=15
 NpcType=0
+CollectibleCardIndex=261
+DropCount=1
+Drop1=994-10000-1-1
 
 [NPC585]
 Name=Piraña
@@ -6048,9 +6157,11 @@ ORO=95
 MaxHIT=75
 MinHIT=45
 Nivel=20
-DropCount=2
+DropCount=3
 Drop1=1677-580-1-1
 Drop2=1678-580-1-1
+Drop3=322-10000-1-1
+CollectibleCardIndex=44
 
 [NPC589]
 Name=Scylla
@@ -6109,6 +6220,9 @@ MaxHIT=65
 MinHIT=35
 ORO=32
 NpcType=0
+CollectibleCardIndex=245
+DropCount=1
+Drop1=955-10000-1-1
 
 [NPC594]
 Name=Quila
@@ -6123,6 +6237,9 @@ EXP=600
 ORO=32
 MaxHIT=65
 MinHIT=35
+CollectibleCardIndex=246
+DropCount=1
+Drop1=956-10000-1-1
 
 [NPC595]
 Name=Azhurion
@@ -6137,6 +6254,9 @@ ORO=90
 MaxHIT=80
 MinHIT=50
 Nivel=20
+CollectibleCardIndex=45
+DropCount=1
+Drop1=323-10000-1-1
 
 [NPC596]
 Name=Cofre de Recompensa Patreon
@@ -6266,6 +6386,9 @@ ORO=75
 Nivel=20
 MaxHIT=80
 MinHIT=45
+CollectibleCardIndex=262
+DropCount=1
+Drop1=995-10000-1-1
 
 [NPC609]
 Name=Lizard
@@ -6347,6 +6470,9 @@ GiveEXPClan=5
 ORO=750
 MaxHIT=270
 MinHIT=215
+CollectibleCardIndex=59
+DropCount=1
+Drop1=337-10000-1-1
 
 [NPC622]
 Name=Griffo
@@ -6379,6 +6505,10 @@ MaxHIT=225
 MinHIT=160
 Nivel=28
 DisabledInBattleServer=1
+CollectibleCardIndex=9
+DropCount=2
+Drop1=266-10000-1-1
+Drop2=503-33-1-1
 
 [NPC624]
 Name=Esfera del Dragón 5
@@ -6401,6 +6531,9 @@ ORO=100
 Nivel=20
 MaxHIT=85
 MinHIT=55
+CollectibleCardIndex=46
+DropCount=1
+Drop1=324-10000-1-1
 
 [NPC626]
 Name=Esfera del Dragón 7
@@ -6594,6 +6727,7 @@ ORO=0
 MaxHIT=300
 MinHIT=300
 NpcType=0
+CollectibleCardIndex=265
 
 [NPC645]
 Name=Mummy
@@ -6608,6 +6742,9 @@ MaxHIT=140
 MinHIT=110
 NpcType=0
 Nivel=20
+CollectibleCardIndex=263
+DropCount=1
+Drop1=6744-10000-1-1
 
 [NPC646]
 Name=Giant Beetle
@@ -6876,7 +7013,7 @@ ORO=25
 NpcType=0
 Nivel=20
 DropCount=1
-Drop1=525-50-1-1
+Drop1=525-20-1-1
 
 [NPC673]
 Name=Vulpes
@@ -6918,6 +7055,9 @@ ORO=70
 MaxHIT=115
 MinHIT=85
 Nivel=28
+CollectibleCardIndex=224
+DropCount=1
+Drop1=932-10000-1-1
 
 [NPC676]
 Name=Gray Wolf
@@ -6932,6 +7072,9 @@ MinHIT=10
 ORO=8
 NpcType=0
 Nivel=8
+CollectibleCardIndex=226
+DropCount=1
+Drop1=935-10000-1-1
 
 [NPC677]
 Name=Kairo
@@ -7025,6 +7168,7 @@ Obj1=37-1000
 Obj2=38-1000
 Obj3=36-1000
 NoMapInfo=1
+CollectibleCardIndex=106
 
 [NPC691]
 Name=Invoked Bat
@@ -7096,9 +7240,11 @@ ORO=95
 MaxHIT=95
 MinHIT=50
 Nivel=20
-DropCount=2
+DropCount=3
 Drop1=1679-840-1-1
 Drop2=1680-840-1-1
+Drop3=269-10000-1-1
+CollectibleCardIndex=12
 
 [NPC722]
 Name=Espectro
@@ -7206,6 +7352,8 @@ MaxHIT=70
 MinHIT=35
 ORO=450
 Nivel=20
+DropCount=1
+Drop1=511-10-1-1
 
 [NPC753]
 Name=Reptilian Frogian
@@ -7286,6 +7434,7 @@ EXP=4350
 ORO=150
 MaxHIT=95
 MinHIT=75
+CollectibleCardIndex=110
 
 [NPC807]
 Name=Golem de Tierra
@@ -7298,6 +7447,7 @@ EXP=4350
 ORO=150
 MaxHIT=95
 MinHIT=75
+CollectibleCardIndex=60
 
 [NPC808]
 Name=Kobold Azul
@@ -7342,6 +7492,7 @@ EXP=4350
 ORO=150
 MaxHIT=95
 MinHIT=75
+CollectibleCardIndex=63
 
 [NPC811]
 Name=Glazrath
@@ -7359,6 +7510,7 @@ GiveEXPClan=3
 DropCount=2
 Drop1=5182-1000-1-1
 Drop2=561-10000-1-1
+CollectibleCardIndex=84
 
 [NPC812]
 Name=Kobold Rojo
@@ -7424,6 +7576,7 @@ MinHIT=85
 DropCount=2
 Drop1=268-10000-1-1
 Drop2=5181-10000-1-1
+CollectibleCardIndex=11
 
 [NPC816]
 Name=Varec
@@ -7438,6 +7591,9 @@ ORO=60
 MaxHIT=125
 MinHIT=65
 Nivel=30
+CollectibleCardIndex=256
+DropCount=1
+Drop1=986-10000-1-1
 
 [NPC817]
 Name=Pixie de Viento
@@ -7455,6 +7611,7 @@ ORO=120
 Nivel=30
 MaxHIT=130
 MinHIT=90
+CollectibleCardIndex=91
 
 [NPC818]
 Name=Cirdan
@@ -7467,6 +7624,7 @@ EXP=4350
 ORO=150
 MaxHIT=95
 MinHIT=75
+CollectibleCardIndex=199
 
 [NPC819]
 Name=Bael
@@ -7479,6 +7637,7 @@ MaxHIT=120
 MinHIT=75
 EXP=5000
 ORO=0
+CollectibleCardIndex=232
 
 [NPC822]
 Name=Bruin
@@ -7504,6 +7663,7 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=166
 
 [NPC824]
 Name=Midhas
@@ -7516,6 +7676,7 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=165
 
 [NPC826]
 Name=Calabaza
@@ -7571,6 +7732,7 @@ Drop1=5182-1000-1-1
 Drop2=6109-8000-1-1
 Drop3=3256-8000-1-1
 Drop4=904-10000-1-1
+CollectibleCardIndex=197
 
 [NPC831]
 Name=Gallina Blanca
@@ -7696,6 +7858,7 @@ Nivel=32
 DropCount=2
 Drop1=5180-1000-1-1
 Drop2=954-10000-1-1
+CollectibleCardIndex=244
 
 [NPC842]
 Name=Ignarok
@@ -7712,6 +7875,7 @@ Nivel=30
 DropCount=2
 Drop1=5179-1000-1-1
 Drop2=945-10000-1-1
+CollectibleCardIndex=235
 
 [NPC844]
 Name=Minertopo
@@ -7724,6 +7888,9 @@ EXP=800
 ORO=35
 MaxHIT=120
 MinHIT=70
+CollectibleCardIndex=217
+DropCount=1
+Drop1=925-10000-1-1
 
 [NPC845]
 Name=Minertopo
@@ -7765,10 +7932,10 @@ MinHIT=115
 EXP=5600
 ORO=0
 GiveEXPClan=2
-DropCount=3
+DropCount=2
 Drop1=5989-1-1-1
-Drop2=5179-1000-1-1
-Drop3=949-10000-1-1
+Drop2=949-10000-1-1
+CollectibleCardIndex=239
 
 [NPC850]
 Name=Astaroth
@@ -7782,6 +7949,10 @@ MinHIT=150
 EXP=12000
 ORO=0
 GiveEXPClan=4
+CollectibleCardIndex=240
+DropCount=2
+Drop1=5992-1-1-1
+Drop2=950-10000-1-1
 
 [NPC851]
 Name=Pyrrion
@@ -7795,6 +7966,10 @@ MinHIT=90
 EXP=9800
 ORO=0
 GiveEXPClan=3
+CollectibleCardIndex=234
+DropCount=2
+Drop1=5990-1-1-1
+Drop2=944-10000-1-1
 
 [NPC852]
 Name=Phyrus
@@ -7808,6 +7983,12 @@ MinHIT=180
 EXP=13500
 ORO=0
 GiveEXPClan=4
+CollectibleCardIndex=236
+DropCount=4
+Drop1=5993-1-1-1
+Drop2=5986-5-1-1
+Drop3=5985-20-1-1
+Drop4=946-10000-1-1
 
 [NPC853]
 Name=Dorim II <Rey de Morgrim>
@@ -7820,6 +8001,7 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=72
 
 [NPC856]
 Name=Kingion
@@ -7837,6 +8019,7 @@ GiveEXPClan=1
 DropCount=2
 Drop1=5179-1000-1-1
 Drop2=6719-10000-1-1
+CollectibleCardIndex=238
 
 [NPC857]
 Name=Aelion
@@ -7849,6 +8032,7 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=71
 
 [NPC860]
 Name=Capitan Orla
@@ -7861,6 +8045,7 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=52
 
 [NPC865]
 Name=Gran Blaze
@@ -7875,6 +8060,10 @@ MinHIT=165
 EXP=10125
 ORO=0
 GiveEXPClan=2
+DropCount=3
+Drop1=5987-1-1-1
+Drop2=5983-5-1-1
+Drop3=5984-20-1-1
 
 [NPC866]
 Name=Urghal
@@ -7887,6 +8076,7 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=155
 
 [NPC867]
 Name=Bjornulf <Rey de Forgat>
@@ -7899,6 +8089,7 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=153
 
 [NPC871]
 Name=Capitán Alsetarip
@@ -7906,6 +8097,7 @@ Desc=Hola, marine... ¿Qué? ¿Te parezco conocido? ¿Pirata yo? ¡No, no! ¡Soy
 Body=462
 Head=0
 NpcType=17
+CollectibleCardIndex=446
 
 [NPC872]
 Name=Xin
@@ -7913,6 +8105,7 @@ Desc=Miaaaaaaaaaaauuuuuuuuuuuuu
 Body=463
 Head=0
 NpcType=17
+CollectibleCardIndex=450
 
 [NPC873]
 Name=Capitán Doral
@@ -7926,6 +8119,7 @@ MaxHIT=130
 MinHIT=100
 EXP=15000
 ORO=0
+CollectibleCardIndex=447
 
 [NPC876]
 Name=Capitán Trang
@@ -7939,6 +8133,7 @@ MaxHIT=110
 MinHIT=90
 EXP=20000
 ORO=0
+CollectibleCardIndex=445
 
 [NPC887]
 Name=Varek <Finanzas Goliath>
@@ -7948,6 +8143,7 @@ Head=0
 NpcType=4
 PuedeInvocar=1
 NoMapInfo=1
+CollectibleCardIndex=282
 
 [NPC888]
 Name=Noland <Finanzas Goliath>
@@ -7957,6 +8153,7 @@ Head=0
 NpcType=4
 PuedeInvocar=1
 NoMapInfo=1
+CollectibleCardIndex=322
 
 [NPC892]
 Name=Provisiones
@@ -7979,6 +8176,7 @@ NROITEMS=4
 Obj1=43-1000
 Obj2=160-1000
 Obj3=42-1000
+CollectibleCardIndex=128
 
 [NPC900]
 Name=Ululantis
@@ -8048,9 +8246,12 @@ NROITEMS=1
 Obj1=2534-2
 NpcType=0
 GiveEXPClan=3
-DropCount=1
+DropCount=3
 Drop1=467-1-1-1
+Drop2=5266-10000-1-1
+Drop3=298-10000-1-1
 DisabledInBattleServer=1
+CollectibleCardIndex=41
 
 [NPC923]
 Name=Nocthral
@@ -8065,8 +8266,11 @@ MaxHIT=200
 MinHIT=175
 GiveEXPClan=15
 Nivel=20
-DropCount=1
-Drop1=1663-200-1-1
+DropCount=3
+Drop1=511-10-1-1
+Drop2=321-10000-1-1
+Drop3=1663-200-1-1
+CollectibleCardIndex=43
 
 [NPC924]
 Name=Red Dragon
@@ -8083,9 +8287,13 @@ NROITEMS=1
 Obj1=2534-1
 NpcType=0
 GiveEXPClan=2
-DropCount=1
+DropCount=4
 Drop1=465-1-1-1
+Drop2=513-400-1-1
+Drop3=5264-10000-1-1
+Drop4=296-10000-1-1
 DisabledInBattleServer=1
+CollectibleCardIndex=39
 
 [NPC926]
 Name=Pixie de Tierra
@@ -8103,6 +8311,7 @@ ORO=115
 MaxHIT=125
 MinHIT=75
 Nivel=30
+CollectibleCardIndex=89
 
 [NPC927]
 Name=Chancho <Devorador Voraz>
@@ -8118,6 +8327,7 @@ MaxHIT=15
 MinHIT=7
 DropCount=1
 Drop1=34-1-1-1
+CollectibleCardIndex=219
 
 [NPC928]
 Name=Turtle
@@ -8131,6 +8341,9 @@ MaxHIT=25
 MinHIT=15
 ORO=9
 NpcType=0
+CollectibleCardIndex=58
+DropCount=1
+Drop1=336-10000-1-1
 
 [NPC929]
 Name=Oso
@@ -8160,6 +8373,7 @@ MinHIT=9
 NpcType=0
 DropCount=1
 Drop1=27-1-1-1
+CollectibleCardIndex=218
 
 [NPC931]
 Name=Crow
@@ -8201,9 +8415,13 @@ GiveEXPClan=2
 ORO=100
 MaxHIT=230
 MinHIT=150
-DropCount=1
+DropCount=4
 Drop1=466-1-1-1
+Drop2=513-400-1-1
+Drop3=5265-10000-1-1
+Drop4=297-10000-1-1
 DisabledInBattleServer=1
+CollectibleCardIndex=40
 
 [NPC935]
 Name=Collet Snake
@@ -8297,6 +8515,9 @@ MaxHIT=35
 MinHIT=20
 NpcType=0
 Nivel=20
+CollectibleCardIndex=220
+DropCount=1
+Drop1=928-10000-1-1
 
 [NPC946]
 Name=Guardian Skeleton
@@ -8328,6 +8549,7 @@ ORO=110
 MaxHIT=150
 MinHIT=95
 Nivel=30
+CollectibleCardIndex=90
 
 [NPC948]
 Name=Verraco Alfa
@@ -8341,9 +8563,11 @@ EXP=600
 ORO=0
 MaxHIT=40
 MinHIT=20
-DropCount=1
+DropCount=2
 Drop1=2207-1-1-1
+Drop2=937-10000-1-1
 Nivel=20
+CollectibleCardIndex=228
 
 [NPC949]
 Name=Verraco
@@ -8374,8 +8598,10 @@ ORO=25
 MaxHIT=20
 MinHIT=10
 Nivel=20
-DropCount=1
+DropCount=2
 Drop1=3396-10000-1-1
+Drop2=938-10000-1-1
+CollectibleCardIndex=229
 
 [NPC953]
 Name=Summoned Zombie
@@ -8387,6 +8613,19 @@ HP=700
 NpcType=0
 MaxHIT=11
 MinHIT=8
+
+[NPC954]
+Name=Sacred Pixie
+Body=5690
+BodyIdle=5688
+Ataque1=5689
+HP=500
+NpcType=0
+CollectibleCardIndex=92
+DropCount=1
+Drop1=569-10000-1-1
+MaxHIT=80
+MinHIT=70
 
 [NPC955]
 Name=Boar Summoned
@@ -8455,6 +8694,9 @@ HP=450
 MaxHIT=75
 MinHIT=60
 NpcType=0
+CollectibleCardIndex=4
+DropCount=1
+Drop1=202-10000-1-1
 
 [NPC961]
 Name=Earth Elemental
@@ -8466,6 +8708,9 @@ HP=450
 MaxHIT=75
 MinHIT=60
 NpcType=0
+CollectibleCardIndex=6
+DropCount=1
+Drop1=263-10000-1-1
 
 [NPC962]
 Name=Fire Elemental
@@ -8477,6 +8722,9 @@ HP=650
 MaxHIT=80
 MinHIT=70
 NpcType=0
+CollectibleCardIndex=5
+DropCount=1
+Drop1=236-10000-1-1
 
 [NPC963]
 Name=Wind Elemental
@@ -8488,6 +8736,9 @@ HP=550
 MaxHIT=80
 MinHIT=65
 NpcType=0
+CollectibleCardIndex=7
+DropCount=1
+Drop1=264-10000-1-1
 
 [NPC964]
 Name=Summoned Goblin
@@ -8571,6 +8822,9 @@ MaxHIT=265
 MinHIT=165
 GiveEXPClan=35
 DisabledInBattleServer=1
+CollectibleCardIndex=47
+DropCount=1
+Drop1=325-10000-1-1
 
 [NPC971]
 Name=Faraon Zombie
@@ -8634,6 +8888,7 @@ Nivel=28
 DropCount=2
 Drop1=5182-1000-1-1
 Drop2=734-10000-1-1
+CollectibleCardIndex=116
 
 [NPC978]
 Name=Esqueto Vikingo
@@ -8680,6 +8935,7 @@ Nivel=30
 DropCount=2
 Drop1=5179-1000-1-1
 Drop2=947-10000-1-1
+CollectibleCardIndex=237
 
 [NPC982]
 Name=Arachnid Spellcaster
@@ -8819,9 +9075,11 @@ MinHIT=80
 NROITEMS=1
 Obj1=1145-1
 NpcType=0
-DropCount=2
+DropCount=3
 Drop1=1145-100-1-5
 Drop2=1145-1-1-1
+Drop3=1036-10000-1-1
+CollectibleCardIndex=267
 
 [NPC998]
 Name=Ursus
@@ -8888,6 +9146,9 @@ ORO=17
 MaxHIT=30
 MinHIT=15
 Nivel=15
+CollectibleCardIndex=13
+DropCount=1
+Drop1=270-10000-1-1
 
 [NPC1004]
 Name=Nargoth <Ques de Guarida Abandonadat>
@@ -8895,6 +9156,7 @@ Desc=¿Tú? Bah, no pareces más que carne blanda. Pero si tienes estómago para
 Body=6148
 Head=0
 NpcType=17
+CollectibleCardIndex=338
 
 [NPC1006]
 Name=Aldren <Quest de Rugido Salvaje>
@@ -8918,6 +9180,7 @@ Head=0
 BodyIdle=6112
 Ataque1=6112
 NpcType=17
+CollectibleCardIndex=358
 
 [NPC1011]
 Name=Mortivar <Quest de Alquimia>
@@ -8961,6 +9224,9 @@ MinHIT=115
 GiveEXPClan=1
 NpcType=0
 Nivel=30
+CollectibleCardIndex=49
+DropCount=1
+Drop1=327-10000-1-1
 
 [NPC1015]
 Name=Kadru
@@ -8975,6 +9241,9 @@ MaxHIT=175
 MinHIT=120
 NpcType=0
 Nivel=30
+CollectibleCardIndex=48
+DropCount=1
+Drop1=326-10000-1-1
 
 [NPC1016]
 Name=Aksha
@@ -8989,6 +9258,9 @@ MinHIT=45
 NpcType=0
 GiveEXPClan=1
 Nivel=30
+CollectibleCardIndex=50
+DropCount=1
+Drop1=328-10000-1-1
 
 [NPC1018]
 Name=Arkan <Quest de Galeones>
@@ -9064,6 +9336,9 @@ GiveEXPClan=1
 ORO=90
 NpcType=0
 Nivel=28
+CollectibleCardIndex=83
+DropCount=1
+Drop1=556-10000-1-1
 
 [NPC1026]
 Name=Demoniac Slash
@@ -9078,6 +9353,9 @@ EXP=2465
 GiveEXPClan=1
 NpcType=0
 Nivel=28
+CollectibleCardIndex=82
+DropCount=1
+Drop1=542-10000-1-1
 
 [NPC1027]
 Name=Training Dummy
@@ -9102,6 +9380,7 @@ Nivel=30
 DropCount=2
 Drop1=5181-1000-1-1
 Drop2=923-10000-1-1
+CollectibleCardIndex=215
 
 [NPC1031]
 Name=Umbrax
@@ -9119,6 +9398,7 @@ Nivel=30
 DropCount=2
 Drop1=5181-100-1-1
 Drop2=924-10000-1-1
+CollectibleCardIndex=216
 
 [NPC1032]
 Name=Minotauro Joven
@@ -9132,6 +9412,9 @@ ORO=70
 MaxHIT=110
 MinHIT=75
 Nivel=28
+CollectibleCardIndex=214
+DropCount=1
+Drop1=922-10000-1-1
 
 [NPC1033]
 Name=Minotauro Bárbaro
@@ -9148,6 +9431,7 @@ Nivel=30
 DropCount=2
 Drop1=5181-1000-1-1
 Drop2=920-10000-1-1
+CollectibleCardIndex=212
 
 [NPC1034]
 Name=Minotauro Guerrero
@@ -9165,6 +9449,7 @@ Nivel=30
 DropCount=2
 Drop1=5181-1000-1-1
 Drop2=921-10000-1-1
+CollectibleCardIndex=213
 
 [NPC1035]
 Name=Philiph
@@ -9178,6 +9463,7 @@ MaxHIT=40
 MinHIT=20
 EXP=0
 ORO=0
+CollectibleCardIndex=150
 
 [NPC1036]
 Name=Leathery Turtle
@@ -9203,6 +9489,7 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=146
 
 [NPC1038]
 Name=Van <Alchimista Iniziale>
@@ -9219,6 +9506,7 @@ Obj2=209-1000
 Obj3=210-1000
 NoMapInfo=1
 CambioAIdle=10
+CollectibleCardIndex=348
 
 [NPC1039]
 Name=Sven <Polar Tailor>
@@ -9245,6 +9533,9 @@ GiveEXPClan=3
 ORO=175
 MaxHIT=245
 MinHIT=180
+CollectibleCardIndex=10
+DropCount=1
+Drop1=267-10000-1-1
 
 [NPC1042]
 Name=Azog
@@ -9259,6 +9550,9 @@ MaxHIT=85
 MinHIT=40
 NpcType=0
 Nivel=15
+CollectibleCardIndex=243
+DropCount=1
+Drop1=953-10000-1-1
 
 [NPC1045]
 Name=Swamp Guardian
@@ -9272,6 +9566,9 @@ ORO=64
 MaxHIT=75
 MinHIT=45
 Nivel=20
+CollectibleCardIndex=222
+DropCount=1
+Drop1=930-10000-1-1
 
 [NPC1046]
 Name=Ent
@@ -9289,6 +9586,7 @@ Drop1=2781-1-15-50
 Drop2=5181-1000-1-1
 Drop3=941-10000-1-1
 Nivel=28
+CollectibleCardIndex=231
 
 [NPC1047]
 Name=Espectro <Guarida>
@@ -9303,6 +9601,8 @@ MaxHIT=160
 MinHIT=95
 GiveEXPClan=1
 Nivel=28
+DropCount=1
+Drop1=151-10000-1-1
 
 [NPC1048]
 Name=Abomination
@@ -9335,6 +9635,7 @@ ORO=00
 MaxHIT=1
 MinHIT=1
 Nivel=20
+CollectibleCardIndex=206
 
 [NPC1050]
 Name=Syla
@@ -9352,6 +9653,9 @@ ORO=40
 MaxHIT=105
 MinHIT=65
 Nivel=24
+CollectibleCardIndex=209
+DropCount=1
+Drop1=917-10000-1-1
 
 [NPC1051]
 Name=Kaelus
@@ -9369,6 +9673,9 @@ ORO=45
 MaxHIT=120
 MinHIT=75
 Nivel=24
+CollectibleCardIndex=207
+DropCount=1
+Drop1=915-10000-1-1
 
 [NPC1052]
 Name=Gru <The Witcher>
@@ -9386,6 +9693,9 @@ ORO=80
 MaxHIT=95
 MinHIT=60
 Nivel=32
+CollectibleCardIndex=210
+DropCount=1
+Drop1=918-10000-1-1
 
 [NPC1053]
 Name=Nilus
@@ -9403,6 +9713,7 @@ ORO=00
 MaxHIT=1
 MinHIT=1
 Nivel=20
+CollectibleCardIndex=204
 
 [NPC1054]
 Name=Karkadan
@@ -9414,6 +9725,9 @@ MaxHIT=80
 Nivel=24
 EXP=990
 ORO=25
+CollectibleCardIndex=205
+DropCount=1
+Drop1=913-10000-1-1
 
 [NPC1055]
 Name=Mordu
@@ -9431,6 +9745,7 @@ ORO=00
 MaxHIT=1
 MinHIT=1
 Nivel=20
+CollectibleCardIndex=208
 
 [NPC1056]
 Name=Rakhar <El Tuerto>
@@ -9444,6 +9759,7 @@ ORO=00
 MaxHIT=1
 MinHIT=1
 Nivel=20
+CollectibleCardIndex=211
 
 [NPC1059]
 Name=Rhamses <Quest de Piramide>
@@ -9464,6 +9780,7 @@ MaxHIT=65
 MinHIT=30
 EXP=0
 ORO=0
+CollectibleCardIndex=150
 
 [NPC1066]
 Name=Holyrood <Quest de Arañas>
@@ -9508,6 +9825,7 @@ Obj1=2808-100
 Obj2=1985-100
 Obj3=510-100
 NoMapInfo=1
+CollectibleCardIndex=326
 
 [NPC1073]
 Name=Philiph
@@ -9521,6 +9839,7 @@ MaxHIT=65
 MinHIT=30
 EXP=0
 ORO=0
+CollectibleCardIndex=150
 
 [NPC1075]
 Name=Isolda
@@ -9534,6 +9853,7 @@ MaxHIT=70
 MinHIT=50
 EXP=0
 ORO=0
+CollectibleCardIndex=130
 
 [NPC1076]
 Name=Isolda
@@ -9547,6 +9867,7 @@ MaxHIT=115
 MinHIT=80
 EXP=0
 ORO=0
+CollectibleCardIndex=130
 
 [NPC1077]
 Name=Isolda
@@ -9560,6 +9881,7 @@ MaxHIT=175
 MinHIT=145
 EXP=0
 ORO=0
+CollectibleCardIndex=130
 
 [NPC1079]
 Name=Luchador de las Minas
@@ -9587,6 +9909,7 @@ Obj2=35-1000
 Obj3=964-1000
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=342
 
 [NPC1081]
 Name=Gertha <Maestra Sastre>
@@ -9601,6 +9924,7 @@ Obj1=1272-1000
 Obj2=1273-1000
 Obj3=2927-1000
 NoMapInfo=1
+CollectibleCardIndex=127
 
 [NPC1082]
 Name=Grom <Herrero Brutal>
@@ -9616,6 +9940,7 @@ Obj2=998-100
 Obj3=2803-100
 NoMapInfo=1
 CambioAIdle=10
+CollectibleCardIndex=182
 
 [NPC1083]
 Name=Clarice Coraza <Forjadora Experta>
@@ -9630,6 +9955,7 @@ Obj1=30-1000
 Obj2=998-1000
 Obj3=1715-1000
 NoMapInfo=1
+CollectibleCardIndex=107
 
 [NPC1084]
 Name=Elvo <Quest de Pesca>
@@ -9670,6 +9996,7 @@ Obj2=127-1000
 Obj3=2829-1000
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=350
 
 [NPC1087]
 Name=Baldros Featherwick <Quest del Grifo>
@@ -9694,6 +10021,7 @@ Obj1=881-1000
 Obj2=2183-1000
 Obj3=2789-1000
 NoMapInfo=1
+CollectibleCardIndex=103
 
 [NPC1090]
 Name=Leo <Fisherman>
@@ -9720,6 +10048,7 @@ NROITEMS=5
 Obj1=30-1
 Obj2=529-1
 Obj3=1004-1
+CollectibleCardIndex=333
 
 [NPC1092]
 Name=Alberich <Arcane Elder>
@@ -9750,6 +10079,7 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=147
 
 [NPC1103]
 Name=Criptococo
@@ -9808,6 +10138,7 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=150
 
 [NPC1107]
 Name=Desh <Quest de Cobras>
@@ -9843,6 +10174,7 @@ NROITEMS=6
 Obj1=30-1
 Obj2=529-1
 Obj3=1004-1
+CollectibleCardIndex=324
 
 [NPC1114]
 Name=Jace <Quest de Dungeon Marabel>
@@ -9852,6 +10184,7 @@ Head=0
 BodyIdle=6192
 Ataque1=6192
 NpcType=17
+CollectibleCardIndex=291
 
 [NPC1117]
 Name=Windall <Quest de Bosque de los Espiritus>
@@ -9866,6 +10199,7 @@ Obj1=240-1
 Obj2=527-1
 Obj3=2843-1
 DisabledInBattleServer=1
+CollectibleCardIndex=325
 
 [NPC1120]
 Name=Skabrot <penthar sorcerer>
@@ -9879,6 +10213,7 @@ Obj1=2763-100
 Obj2=2764-100
 Obj3=2766-100
 NoMapInfo=1
+CollectibleCardIndex=124
 
 [NPC1121]
 Name=Malva <Quest de la Cueva Nagas>
@@ -9926,6 +10261,7 @@ Obj1=3988-1000
 Obj2=123-1000
 Obj3=3987-1000
 NoMapInfo=1
+CollectibleCardIndex=133
 
 [NPC1125]
 Name=Khyo <Smithy>
@@ -10078,6 +10414,9 @@ ORO=48
 MaxHIT=110
 MinHIT=70
 Nivel=20
+CollectibleCardIndex=248
+DropCount=1
+Drop1=958-10000-1-1
 
 [NPC1141]
 Name=Pantera Negra
@@ -10120,6 +10459,9 @@ ORO=85
 Nivel=28
 MaxHIT=125
 MinHIT=90
+CollectibleCardIndex=260
+DropCount=1
+Drop1=991-10000-1-1
 
 [NPC1147]
 Name=Elemental de Viento Liberado
@@ -10162,9 +10504,11 @@ EXP=900
 ORO=45
 MaxHIT=100
 MinHIT=55
-DropCount=1
+DropCount=2
 Drop1=2520-2-1-1
+Drop2=292-10000-1-1
 Nivel=20
+CollectibleCardIndex=35
 
 [NPC1151]
 Name=Lempard <Quest>
@@ -10194,6 +10538,9 @@ MaxHIT=150
 MinHIT=95
 NpcType=0
 GiveEXPClan=1
+CollectibleCardIndex=154
+DropCount=1
+Drop1=840-10000-1-1
 
 [NPC1154]
 Name=Fermin <Quest Maritima>
@@ -10215,6 +10562,9 @@ ORO=140
 Nivel=28
 MaxHIT=135
 MinHIT=80
+CollectibleCardIndex=164
+DropCount=1
+Drop1=850-10000-1-1
 
 [NPC1157]
 Name=Dark Brown Deer
@@ -10229,6 +10579,9 @@ ORO=130
 Nivel=28
 MaxHIT=120
 MinHIT=70
+CollectibleCardIndex=163
+DropCount=1
+Drop1=849-10000-1-1
 
 [NPC1158]
 Name=Tavuk <Talabartero>
@@ -10262,6 +10615,9 @@ ORO=30
 MaxHIT=115
 MinHIT=65
 Nivel=20
+CollectibleCardIndex=157
+DropCount=1
+Drop1=843-10000-1-1
 
 [NPC1163]
 Name=Mantis Verde
@@ -10275,8 +10631,10 @@ ORO=35
 MaxHIT=115
 MinHIT=65
 Nivel=20
-DropCount=1
-Drop1=6088-4000-1-1
+DropCount=2
+Drop1=6088-2000-1-1
+Drop2=842-10000-1-1
+CollectibleCardIndex=156
 
 [NPC1165]
 Name=Phenoba <Quest de Dungeon Veril>
@@ -10328,6 +10686,7 @@ MaxHIT=85
 MinHIT=55
 EXP=0
 ORO=0
+CollectibleCardIndex=147
 
 [NPC1172]
 Name=Sheila <Quest de Piedras Primordiales>
@@ -10359,6 +10718,7 @@ MaxHIT=120
 MinHIT=85
 EXP=0
 ORO=0
+CollectibleCardIndex=147
 
 [NPC1177]
 Name=Borvat
@@ -10372,6 +10732,7 @@ MaxHIT=190
 MinHIT=160
 EXP=0
 ORO=0
+CollectibleCardIndex=147
 
 [NPC1179]
 Name=Thirgo Brumhildo <Quest de Trabajador>
@@ -10382,6 +10743,7 @@ BodyIdle=6160
 Ataque1=6160
 NpcType=17
 DisabledInBattleServer=1
+CollectibleCardIndex=351
 
 [NPC1180]
 Name=Thaldris <Sorceress>
@@ -10397,6 +10759,7 @@ Obj1=3984-1000
 Obj2=469-1000
 Obj3=540-1000
 NoMapInfo=1
+CollectibleCardIndex=359
 
 [NPC1181]
 Name=Brunno <Tailor>
@@ -10412,6 +10775,7 @@ Obj1=2807-100
 Obj2=520-100
 Obj3=1089-100
 NoMapInfo=1
+CollectibleCardIndex=357
 
 [NPC1182]
 Name=Grelka <Alchemist>
@@ -10445,6 +10809,7 @@ Obj1=1-1000
 Obj2=22-1000
 Obj3=29-1000
 NoMapInfo=1
+CollectibleCardIndex=360
 
 [NPC1184]
 Name=Kargun <Resucitador>
@@ -10480,6 +10845,7 @@ Obj1=3988-100
 Obj2=123-100
 Obj3=3987-100
 NoMapInfo=1
+CollectibleCardIndex=177
 
 [NPC1187]
 Name=Thrain <Untiring Hammer>
@@ -10515,6 +10881,7 @@ MaxHIT=65
 MinHIT=55
 EXP=0
 ORO=0
+CollectibleCardIndex=146
 
 [NPC1191]
 Name=Banes <Quest de Galeon Patreon>
@@ -10524,6 +10891,7 @@ Head=0
 BodyIdle=6191
 Ataque1=6191
 NpcType=17
+CollectibleCardIndex=341
 
 [NPC1192]
 Name=Orco Cazador
@@ -10587,6 +10955,7 @@ MaxHIT=100
 MinHIT=80
 EXP=0
 ORO=0
+CollectibleCardIndex=146
 
 [NPC1197]
 Name=Krugg
@@ -10600,6 +10969,7 @@ MaxHIT=170
 MinHIT=150
 EXP=0
 ORO=0
+CollectibleCardIndex=146
 
 [NPC1201]
 Name=Mercader Clerigo
@@ -10621,6 +10991,7 @@ BodyIdle=6182
 Ataque1=6182
 NpcType=17
 DisabledInBattleServer=1
+CollectibleCardIndex=269
 
 [NPC1203]
 Name=Mercader Mago
@@ -10689,6 +11060,7 @@ NROITEMS=5
 Obj1=203-1000
 Obj2=1142-1000
 Obj3=390-1000
+CollectibleCardIndex=344
 
 [NPC1209]
 Name=Mercader Cazador
@@ -10831,6 +11203,7 @@ Obj1=198-1000
 Obj2=127-1000
 Obj3=361-1000
 NoMapInfo=1
+CollectibleCardIndex=281
 
 [NPC1247]
 Name=Said <Carpenter>
@@ -10878,6 +11251,7 @@ Head=0
 BodyIdle=6180
 Ataque1=6180
 NpcType=17
+CollectibleCardIndex=295
 
 [NPC1254]
 Name=Keke <Caos primera jerarquia>
@@ -11008,6 +11382,7 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=143
 
 [NPC1272]
 Name=Naeris <Finanzas Goliath>
@@ -11016,6 +11391,7 @@ Body=6251
 Head=0
 NpcType=4
 NoMapInfo=1
+CollectibleCardIndex=335
 
 [NPC1273]
 Name=Pothir <Forgat Alchemist>
@@ -11032,6 +11408,7 @@ Obj2=209-1000
 Obj3=210-1000
 NoMapInfo=1
 CambioAIdle=10
+CollectibleCardIndex=317
 
 [NPC1274]
 Name=Pandora <Sorceress>
@@ -11086,6 +11463,7 @@ Obj1=198-100
 Obj2=127-100
 Obj3=2829-100
 NoMapInfo=1
+CollectibleCardIndex=315
 
 [NPC1279]
 Name=Hilda <Provisions>
@@ -11120,6 +11498,7 @@ BodyIdle=6096
 Ataque1=6096
 NpcType=17
 CambioAIdle=10
+CollectibleCardIndex=193
 
 [NPC1289]
 Name=Xanthe <Sacerdote>
@@ -11199,6 +11578,7 @@ Body=6249
 Head=0
 NpcType=17
 DisabledInBattleServer=1
+CollectibleCardIndex=108
 
 [NPC1307]
 Name=Zoltan <Quest>
@@ -11273,6 +11653,7 @@ NoMapInfo=1
 NROITEMS=2
 Obj1=534-100
 Obj2=199-100
+CollectibleCardIndex=336
 
 [NPC1325]
 Name=Pirate Wizard
@@ -11346,9 +11727,11 @@ EXP=260
 ORO=6
 MaxHIT=42
 MinHIT=26
-DropCount=1
+DropCount=2
 Drop1=1675-10000-1-1
+Drop2=344-10000-1-1
 Nivel=15
+CollectibleCardIndex=66
 
 [NPC1333]
 Name=Hormiga Verde
@@ -11361,9 +11744,11 @@ EXP=220
 ORO=10
 MaxHIT=40
 MinHIT=28
-DropCount=1
+DropCount=2
 Drop1=1676-5000-1-1
+Drop2=345-10000-1-1
 Nivel=15
+CollectibleCardIndex=67
 
 [NPC1334]
 Name=Hormiga Negra
@@ -11381,6 +11766,9 @@ ORO=8
 MaxHIT=38
 MinHIT=30
 Nivel=15
+CollectibleCardIndex=65
+DropCount=1
+Drop1=343-10000-1-1
 
 [NPC1335]
 Name=Hormiga Berseker
@@ -11398,6 +11786,9 @@ ORO=45
 MaxHIT=70
 MinHIT=40
 Nivel=20
+CollectibleCardIndex=69
+DropCount=1
+Drop1=347-10000-1-1
 
 [NPC1336]
 Name=Hormiga Guerrera
@@ -11414,9 +11805,11 @@ EXP=520
 ORO=28
 MaxHIT=60
 MinHIT=38
-DropCount=1
+DropCount=2
 Drop1=239-250-1-1
+Drop2=342-10000-1-1
 Nivel=20
+CollectibleCardIndex=64
 
 [NPC1337]
 Name=Hormiga Azul
@@ -11433,10 +11826,12 @@ EXP=360
 ORO=18
 MaxHIT=50
 MinHIT=35
-DropCount=2
+DropCount=3
 Drop1=1715-50-1-1
 Drop2=1721-50-1-1
+Drop3=346-10000-1-1
 Nivel=15
+CollectibleCardIndex=68
 
 [NPC1338]
 Name=Gaia
@@ -11455,6 +11850,10 @@ ORO=575
 MaxHIT=95
 MinHIT=60
 Nivel=20
+CollectibleCardIndex=70
+DropCount=2
+Drop1=511-10-1-1
+Drop2=348-10000-1-1
 
 [NPC1339]
 Name=Maestro Entomus <Investigador>
@@ -11464,6 +11863,7 @@ Head=0
 BodyIdle=6109
 Ataque1=6109
 NpcType=17
+CollectibleCardIndex=297
 
 [NPC1340]
 Name=Ferrut <Tailor>
@@ -11492,6 +11892,7 @@ Obj1=4343-100
 Obj2=520-100
 Obj3=1089-100
 NoMapInfo=1
+CollectibleCardIndex=332
 
 [NPC1342]
 Name=Finrod <Innkeeper of Eldoria>
@@ -11506,6 +11907,7 @@ NROITEMS=4
 Obj1=43-100
 Obj2=160-100
 Obj3=161-100
+CollectibleCardIndex=330
 
 [NPC1343]
 Name=Thessalio <Alchemist>
@@ -11522,6 +11924,7 @@ Obj2=38-1000
 Obj3=36-1000
 NoMapInfo=1
 CambioAIdle=10
+CollectibleCardIndex=323
 
 [NPC1345]
 Name=Thalin <Sorceress of Eldoria>
@@ -11535,6 +11938,7 @@ Obj1=1651-100
 Obj2=1655-100
 Obj3=1654-100
 NoMapInfo=1
+CollectibleCardIndex=123
 
 [NPC1347]
 Name=Ghelfa <Eldoria Supplies>
@@ -11549,6 +11953,7 @@ NROITEMS=10
 Obj1=1-100
 Obj2=22-100
 Obj3=23-100
+CollectibleCardIndex=334
 
 [NPC1348]
 Name=Donato <Herborista>
@@ -11580,6 +11985,7 @@ Head=0
 BodyIdle=6229
 NpcType=1
 NoMapInfo=1
+CollectibleCardIndex=140
 
 [NPC1351]
 Name=Arctic Aquilore
@@ -11633,6 +12039,7 @@ DropCount=2
 Drop1=5180-1000-1-1
 Drop2=6260-2000-1-1
 DisabledInBattleServer=1
+CollectibleCardIndex=96
 
 [NPC1354]
 Name=Arctic Eyewarden
@@ -11649,8 +12056,9 @@ MinHIT=165
 GiveEXPClan=3
 NpcType=0
 Nivel=32
-DropCount=1
+DropCount=2
 Drop1=2807-50-1-1
+Drop2=1233-500-1-1
 
 [NPC1355]
 Name=Ice Undead
@@ -11665,6 +12073,10 @@ ORO=95
 MaxHIT=110
 MinHIT=85
 Nivel=32
+CollectibleCardIndex=87
+DropCount=2
+Drop1=514-500-1-1
+Drop2=564-10000-1-1
 
 [NPC1356]
 Name=Escorpión Azul
@@ -11680,6 +12092,9 @@ MaxHIT=115
 MinHIT=90
 GiveEXPClan=1
 Nivel=32
+CollectibleCardIndex=86
+DropCount=1
+Drop1=563-10000-1-1
 
 [NPC1357]
 Name=Capuchin monkey
@@ -11770,6 +12185,7 @@ MaxHIT=240
 MinHIT=180
 GiveEXPClan=2
 Nivel=32
+CollectibleCardIndex=88
 
 [NPC1363]
 Name=Dovu
@@ -11802,6 +12218,7 @@ MinHIT=175
 DropCount=2
 Drop1=5180-100-1-1
 Drop2=339-10000-1-1
+CollectibleCardIndex=61
 
 [NPC1366]
 Name=Criptococo
@@ -11817,8 +12234,9 @@ MaxHIT=155
 MinHIT=95
 GiveEXPClan=2
 Nivel=28
-DropCount=1
-Drop1=409-300-1-1
+DropCount=2
+Drop1=509-500-1-1
+Drop2=409-800-1-1
 
 [NPC1367]
 Name=Velocirraptor
@@ -11910,10 +12328,13 @@ ORO=2750
 MaxHIT=225
 MinHIT=160
 GiveEXPClan=30
-DropCount=1
+DropCount=3
 Drop1=2781-1-50-250
+Drop2=939-10000-1-1
+Drop3=503-33-1-1
 DisabledInBattleServer=1
 Nivel=28
+CollectibleCardIndex=230
 
 [NPC1375]
 Name=Light Brown Deer
@@ -11928,6 +12349,9 @@ ORO=115
 Nivel=28
 MaxHIT=105
 MinHIT=80
+CollectibleCardIndex=162
+DropCount=1
+Drop1=848-10000-1-1
 
 [NPC1376]
 Name=Deer
@@ -12177,7 +12601,7 @@ MaxHIT=85
 MinHIT=50
 NpcType=0
 DropCount=1
-Drop1=408-375-1-1
+Drop1=408-600-1-1
 Nivel=20
 
 [NPC1413]
@@ -12237,6 +12661,7 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=144
 
 [NPC1454]
 Name=Sekhmet
@@ -12294,6 +12719,7 @@ EXP=0
 ORO=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=145
 
 [NPC1465]
 Name=Blaze
@@ -12312,6 +12738,7 @@ Drop1=5260-1000-1-1
 Drop2=5179-10000-1-1
 DisabledInBattleServer=1
 Nivel=20
+CollectibleCardIndex=201
 
 [NPC1466]
 Name=Névora
@@ -12330,6 +12757,7 @@ Drop1=5261-1000-1-1
 Drop2=5180-10000-1-1
 DisabledInBattleServer=1
 Nivel=20
+CollectibleCardIndex=203
 
 [NPC1467]
 Name=Tellus
@@ -12348,6 +12776,7 @@ Drop1=5262-1000-1-1
 Drop2=5181-10000-1-1
 DisabledInBattleServer=1
 Nivel=20
+CollectibleCardIndex=200
 
 [NPC1468]
 Name=Gale
@@ -12366,6 +12795,7 @@ Drop1=5263-1000-1-1
 Drop2=5182-10000-1-1
 DisabledInBattleServer=1
 Nivel=20
+CollectibleCardIndex=202
 
 [NPC1469]
 Name=Tortuga Titán
@@ -12380,10 +12810,12 @@ ORO=150
 Nivel=28
 MaxHIT=150
 MinHIT=80
-DropCount=2
+DropCount=3
 Drop1=6191-500-1-1
 Drop2=6192-500-1-1
+Drop3=335-10000-1-1
 DisabledInBattleServer=1
+CollectibleCardIndex=57
 
 [NPC1470]
 Name=Pyrot
@@ -12402,6 +12834,7 @@ Drop1=5179-1000-1-1
 Drop2=332-10000-1-1
 DisabledInBattleServer=1
 Nivel=30
+CollectibleCardIndex=54
 
 [NPC1471]
 Name=Hydrot
@@ -12420,6 +12853,7 @@ Drop1=5180-1000-1-1
 Drop2=333-10000-1-1
 DisabledInBattleServer=1
 Nivel=30
+CollectibleCardIndex=55
 
 [NPC1472]
 Name=Geot
@@ -12438,6 +12872,7 @@ Drop1=5181-1000-1-1
 Drop2=331-10000-1-1
 DisabledInBattleServer=1
 Nivel=30
+CollectibleCardIndex=53
 
 [NPC1473]
 Name=Eolot
@@ -12456,6 +12891,7 @@ Drop1=5182-1000-1-1
 Drop2=334-10000-1-1
 DisabledInBattleServer=1
 Nivel=30
+CollectibleCardIndex=56
 
 [NPC1474]
 Name=Portador de Fuego
@@ -12538,6 +12974,7 @@ Obj2=998-1000
 Obj3=2803-1000
 NoMapInfo=1
 CambioAIdle=10
+CollectibleCardIndex=180
 
 [NPC1501]
 Name=Lhissa <Sastre de Banderbill>
@@ -12553,6 +12990,7 @@ NROITEMS=8
 Obj1=1963-1000
 Obj2=1900-1000
 Obj3=1901-1000
+CollectibleCardIndex=314
 
 [NPC1502]
 Name=Guardia Real
@@ -12565,6 +13003,7 @@ NpcType=2
 NoMapInfo=1
 MaxHIT=70
 MinHIT=65
+CollectibleCardIndex=16
 
 [NPC1503]
 Name=Guardia Real
@@ -12612,6 +13051,7 @@ NpcType=2
 NoMapInfo=1
 MaxHIT=70
 MinHIT=65
+CollectibleCardIndex=77
 
 [NPC1510]
 Name=Aurelian <Sacerdote de Banderbill>
@@ -12621,6 +13061,7 @@ Head=0
 BodyIdle=6227
 NpcType=1
 NoMapInfo=1
+CollectibleCardIndex=138
 
 [NPC1511]
 Name=Cleff <Sorcerer of Banderbill>
@@ -12634,6 +13075,7 @@ Obj1=2765-100
 Obj2=2763-100
 Obj3=2764-100
 NoMapInfo=1
+CollectibleCardIndex=121
 
 [NPC1512]
 Name=Guardia Real
@@ -12681,6 +13123,7 @@ Obj2=998-1000
 Obj3=2803-1000
 NoMapInfo=1
 CambioAIdle=10
+CollectibleCardIndex=181
 
 [NPC1551]
 Name=Dhoruk <Sastre Legionario>
@@ -12708,6 +13151,7 @@ NpcType=8
 NoMapInfo=1
 MaxHIT=70
 MinHIT=65
+CollectibleCardIndex=17
 
 [NPC1553]
 Name=Guardia Legión
@@ -12766,6 +13210,7 @@ NpcType=8
 NoMapInfo=1
 MaxHIT=70
 MinHIT=65
+CollectibleCardIndex=78
 
 [NPC1560]
 Name=Vorn <Sacerdote de Arkhein>
@@ -12774,6 +13219,7 @@ Body=6232
 Head=0
 BodyIdle=6233
 NpcType=1
+CollectibleCardIndex=139
 
 [NPC1561]
 Name=Ligno <Sorcerer of Arkhein>
@@ -12787,6 +13233,7 @@ Obj1=2765-1000
 Obj2=2763-100
 Obj3=2764-100
 NoMapInfo=1
+CollectibleCardIndex=122
 
 [NPC1599]
 Name=Mercader <Facciones>
@@ -12808,6 +13255,7 @@ EXP=0
 ORO=0
 MaxHIT=200
 MinHIT=100
+CollectibleCardIndex=23
 
 [NPC1601]
 Name=Frostrion
@@ -12834,6 +13282,7 @@ ORO=0
 MaxHIT=55
 MinHIT=35
 Nivel=15
+CollectibleCardIndex=24
 
 [NPC1603]
 Name=Eryndor
@@ -12860,6 +13309,7 @@ ORO=0
 MaxHIT=45
 MinHIT=30
 Nivel=15
+CollectibleCardIndex=26
 
 [NPC1605]
 Name=Olaf <Vocero de Papá Noel>
@@ -12867,6 +13317,7 @@ Desc=Feliz Nochebuena, aventurero. Las criaturas del invierno están siendo derr
 Body=5329
 Head=0
 NpcType=17
+CollectibleCardIndex=31
 
 [NPC1606]
 Name=Frostrion
@@ -12880,6 +13331,7 @@ ORO=0
 MaxHIT=125
 MinHIT=90
 Nivel=25
+CollectibleCardIndex=25
 
 [NPC1607]
 Name=Frosty
@@ -12906,6 +13358,7 @@ ORO=0
 MaxHIT=65
 MinHIT=30
 Nivel=25
+CollectibleCardIndex=28
 
 [NPC1609]
 Name=Cascanueces
@@ -12979,6 +13432,7 @@ Body=5325
 Head=0
 BodyIdle=5323
 NpcType=17
+CollectibleCardIndex=30
 
 [NPC1615]
 Name=Papa Noel <Padre de la Navidad>
@@ -12986,6 +13440,7 @@ Desc=La Nochebuena ha caído sobre Eleusis, pero algo no está bien... Criaturas
 Body=5328
 Head=0
 NpcType=17
+CollectibleCardIndex=29
 
 [NPC1616]
 Name=Skadi <Custodio Navideño>
@@ -12993,6 +13448,7 @@ Desc=L
 Body=5330
 Head=0
 NpcType=0
+CollectibleCardIndex=32
 
 [NPC1617]
 Name=Niva
@@ -13009,6 +13465,7 @@ Body=5331
 Head=0
 BodyIdle=5331
 NpcType=0
+CollectibleCardIndex=33
 
 [NPC1619]
 Name=Niva
@@ -13017,6 +13474,7 @@ Body=5332
 Head=0
 BodyIdle=5332
 NpcType=0
+CollectibleCardIndex=111
 
 [NPC1620]
 Name=Eirik
@@ -13118,6 +13576,7 @@ EXP=0
 ORO=0
 MaxHIT=95
 MinHIT=50
+CollectibleCardIndex=27
 
 [NPC1632]
 Name=Mimic
@@ -13156,10 +13615,10 @@ MaxHIT=165
 MinHIT=110
 EXP=2800
 ORO=0
-DropCount=3
+DropCount=2
 Drop1=5991-1-1-1
-Drop2=5179-1000-1-1
-Drop3=844-10000-1-1
+Drop2=844-10000-1-1
+CollectibleCardIndex=158
 
 [NPC1635]
 Name=Arkhavel <Quest Sedas Elementales>
@@ -13169,6 +13628,7 @@ Head=0
 BodyIdle=6178
 Ataque1=6178
 NpcType=17
+CollectibleCardIndex=353
 
 [NPC1636]
 Name=Lyreno <Quest del Lienzo del Unicornio>
@@ -13185,6 +13645,7 @@ Head=0
 BodyIdle=6199
 Ataque1=6199
 NpcType=17
+CollectibleCardIndex=307
 
 [NPC1638]
 Name=Bjornir <Guardia Vikingo>
@@ -13205,6 +13666,7 @@ NpcType=0
 NoMapInfo=1
 MaxHIT=200
 MinHIT=100
+CollectibleCardIndex=73
 
 [NPC1701]
 Name=Hechicero Elfico <Protector de Eldoria>
@@ -13216,6 +13678,7 @@ NpcType=0
 NoMapInfo=1
 MaxHIT=80
 MinHIT=50
+CollectibleCardIndex=74
 
 [NPC1750]
 Name=Guardia Enano <Protector de Morgrim>
@@ -13228,6 +13691,7 @@ NpcType=0
 NoMapInfo=1
 MaxHIT=200
 MinHIT=100
+CollectibleCardIndex=75
 
 [NPC1751]
 Name=Ballestero Enano <Protector de Morgrim>
@@ -13239,6 +13703,7 @@ NpcType=0
 NoMapInfo=1
 MaxHIT=80
 MinHIT=50
+CollectibleCardIndex=76
 
 [NPC1799]
 Name=Isolda
@@ -13252,6 +13717,7 @@ MaxHIT=45
 MinHIT=30
 EXP=0
 ORO=0
+CollectibleCardIndex=130
 
 [NPC1800]
 Name=Hechicera Orca <Protectora de Penthar>
@@ -13263,6 +13729,7 @@ NpcType=0
 NoMapInfo=1
 MaxHIT=80
 MinHIT=50
+CollectibleCardIndex=254
 
 [NPC1801]
 Name=Guardia Orco
@@ -13299,6 +13766,7 @@ NpcType=0
 NoMapInfo=1
 MaxHIT=200
 MinHIT=100
+CollectibleCardIndex=255
 
 [NPC1804]
 Name=Nagrakh <Senescal de Penthar>
@@ -13306,6 +13774,7 @@ Desc=-Rey? Aquí no hay un Rey, yo soy quien da las órdenes!
 Body=5835
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=102
 
 [NPC1805]
 Name=Caspian <Artesano del Cuero>
@@ -13315,6 +13784,7 @@ Body=5820
 NpcType=0
 Comercia=1
 NoMapInfo=1
+CollectibleCardIndex=126
 
 [NPC1807]
 Name=Mara <Aventurera Viajera>
@@ -13340,6 +13810,7 @@ DropCount=3
 Drop1=2236-100-1-1
 Drop2=2237-100-1-1
 Drop3=4960-100-1-1
+CollectibleCardIndex=195
 
 [NPC1809]
 Name=Tyran
@@ -13355,6 +13826,7 @@ DropCount=3
 Drop1=2236-100-1-1
 Drop2=2237-100-1-1
 Drop3=4960-100-1-1
+CollectibleCardIndex=194
 
 [NPC1810]
 Name=Cano <El Eterno Chitero>
@@ -13363,6 +13835,7 @@ Body=6094
 Head=0
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=161
 
 [NPC1811]
 Name=Emilio Dedos Rápidos
@@ -13387,6 +13860,7 @@ Obj2=998-1000
 Obj3=1715-1000
 NoMapInfo=1
 CambioAIdle=10
+CollectibleCardIndex=179
 
 [NPC1813]
 Name=Heracio <Master Blacksmith>
@@ -13403,6 +13877,7 @@ Obj2=998-1000
 Obj3=1715-1000
 NoMapInfo=1
 CambioAIdle=10
+CollectibleCardIndex=178
 
 [NPC1814]
 Name=Gru Chaman
@@ -13505,6 +13980,7 @@ MinHIT=1
 EXP=0
 ORO=0
 CambioAIdle=10
+CollectibleCardIndex=184
 
 [NPC1913]
 Name=Gnargh
@@ -13519,6 +13995,7 @@ MinHIT=1
 EXP=0
 ORO=0
 CambioAIdle=10
+CollectibleCardIndex=185
 
 [NPC1914]
 Name=Nythar <Quest de Invisibilidad>
@@ -13526,6 +14003,19 @@ Desc=La invisibilidad que conocés no es más que el primer paso. Ocultar el cue
 Body=896
 Head=0
 NpcType=17
+
+[NPC1918]
+Name=Boran <Excavador Tenaz>
+Desc=Las mejores herramientas para obtener minerales.
+Body=6209
+NpcType=0
+CollectibleCardIndex=125
+Comercia=1
+NROITEMS=4
+Obj1=203-1000
+Obj2=1142-1000
+Obj3=390-1000
+NoMapInfo=1
 
 [NPC1919]
 Name=Eldran <Quest de Aturdir>
@@ -13540,6 +14030,31 @@ Desc=Hola marinero. Te recomiendo buscar refugio, mis huesos me dicen que se ave
 Body=6211
 Head=0
 NpcType=17
+CollectibleCardIndex=79
+
+[NPC1921]
+Name=Balrik <Sabio Meticuloso>
+Body=6212
+NpcType=0
+CollectibleCardIndex=94
+Comercia=1
+NROITEMS=4
+Obj1=203-1000
+Obj2=1142-1000
+Obj3=390-1000
+NoMapInfo=1
+
+[NPC1922]
+Name=Krogar <Excavador Rudo>
+Body=6213
+NpcType=0
+CollectibleCardIndex=97
+Comercia=1
+NROITEMS=4
+Obj1=203-1000
+Obj2=1142-1000
+Obj3=390-1000
+NoMapInfo=1
 
 [NPC1923]
 Name=Valerius <Trovador>
@@ -13547,6 +14062,21 @@ Desc=Puedo contarte las mejores historias de Ullathorpe
 Body=6214
 Head=0
 NpcType=0
+NoMapInfo=1
+CollectibleCardIndex=104
+
+[NPC1925]
+Name=Ines <Cook>
+Desc=Hello! Come and see this products, only here will you get the best provisions of all these lands.
+DescClose=See you soon!
+Body=6248
+NpcType=0
+CollectibleCardIndex=100
+Comercia=1
+NROITEMS=6
+Obj1=1-1000
+Obj2=22-1000
+Obj3=29-1000
 NoMapInfo=1
 
 [NPC1927]
@@ -13573,6 +14103,7 @@ BodyIdle=6149
 Ataque1=6149
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=352
 
 [NPC1929]
 Name=Helgrim <Tabernero>
@@ -13588,6 +14119,7 @@ Obj1=43-100
 Obj2=160-100
 Obj3=42-100
 NoMapInfo=1
+CollectibleCardIndex=349
 
 [NPC1930]
 Name=Ingril <Maestra Alquimista>
@@ -13603,6 +14135,7 @@ Obj1=37-1000
 Obj2=38-1000
 Obj3=36-1000
 NoMapInfo=1
+CollectibleCardIndex=361
 
 [NPC1931]
 Name=Galvin <Carpintero de Banderbill>
@@ -13618,6 +14151,7 @@ Obj1=198-1000
 Obj2=127-1000
 Obj3=2829-1000
 NoMapInfo=1
+CollectibleCardIndex=320
 
 [NPC1932]
 Name=Roswell <Carpintería>
@@ -13628,6 +14162,7 @@ BodyIdle=6166
 Ataque1=6166
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=321
 
 [NPC1934]
 Name=Isabella <Cocinera de Banderbill>
@@ -13643,6 +14178,7 @@ Obj1=1-1000
 Obj2=22-1000
 Obj3=29-1000
 NoMapInfo=1
+CollectibleCardIndex=318
 
 [NPC1935]
 Name=Ivar Costahilo <Sastre>
@@ -13658,6 +14194,7 @@ Obj1=32-1000
 Obj2=35-1000
 Obj3=964-1000
 NoMapInfo=1
+CollectibleCardIndex=290
 
 [NPC1936]
 Name=Ulf Arcas <Finanzas Goliath>
@@ -13667,6 +14204,7 @@ Head=0
 NpcType=4
 PuedeInvocar=1
 NoMapInfo=1
+CollectibleCardIndex=316
 
 [NPC1937]
 Name=Harim <Quest de Inframundo>
@@ -13684,6 +14222,7 @@ BodyIdle=6172
 Ataque1=6172
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=309
 
 [NPC1939]
 Name=Brynhild <Sastre de Forgat>
@@ -13699,6 +14238,7 @@ Obj1=1272-1000
 Obj2=1273-1000
 Obj3=2927-1000
 NoMapInfo=1
+CollectibleCardIndex=308
 
 [NPC1940]
 Name=Solveig <Mercader>
@@ -13713,6 +14253,7 @@ NROITEMS=2
 Obj1=534-100
 Obj2=199-100
 NoMapInfo=1
+CollectibleCardIndex=306
 
 [NPC1941]
 Name=Styrkar <Minero>
@@ -13802,6 +14343,7 @@ BodyIdle=6202
 Ataque1=6202
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=340
 
 [NPC1952]
 Name=Kaelen <Quest de Guarida>
@@ -17842,6 +18384,14 @@ ObjType=15
 Agarrable=1
 Texto=Fogata
 
+[OBJ64]
+Name=Carta Xin
+GrhIndex=52190
+CollectibleCardImgPathing=450.png
+CollectibleCardIndex=450
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ65]
 Name=Ullathorpe House Key 02
 GrhIndex=509
@@ -17962,6 +18512,14 @@ GrhIndex=8619
 ObjType=22
 Agarrable=1
 Info=Yacimiento minero
+
+[OBJ81]
+Name=Carta Capitán Trang
+GrhIndex=52190
+CollectibleCardImgPathing=445.png
+CollectibleCardIndex=445
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ82]
 GrhIndex=8619
@@ -18521,7 +19079,12 @@ Agarrable=1
 Texto=Árbol
 
 [OBJ151]
-GrhIndex=0
+Name=Carta Espectro
+GrhIndex=52190
+CollectibleCardImgPathing=2.png
+CollectibleCardIndex=2
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ152]
 Name=Tree
@@ -18536,6 +19099,14 @@ GrhIndex=55626
 Objtype=4
 Agarrable=1
 Texto=Árbol
+
+[OBJ154]
+Name=Carta Unicornio
+GrhIndex=52190
+CollectibleCardImgPathing=3.png
+CollectibleCardIndex=3
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ155]
 Name=Cama Simple
@@ -18660,6 +19231,14 @@ GrhIndex=28753
 ObjType=11
 Valor=26
 Texto=Restore between 5 and 15 energy points.
+
+[OBJ170]
+Name=Carta Capitán Nazarull Drachenfels
+GrhIndex=52190
+CollectibleCardImgPathing=448.png
+CollectibleCardIndex=448
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ187]
 Name=Miner's Pick
@@ -18800,6 +19379,14 @@ ObjType=48
 Agarrable=0
 Texto=Este cofre contiene cascos y coronas legendarias.
 
+[OBJ202]
+Name=Carta Elemental de Agua
+GrhIndex=52190
+CollectibleCardImgPathing=4.png
+CollectibleCardIndex=4
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ203]
 Name=Miner's Picket
 Texto=Deposit extraction tool.
@@ -18869,6 +19456,22 @@ Name=Antidoto (B)
 texto=Cures the poison of the user who consumes it.
 ObjType=11
 Valor=18
+
+[OBJ213]
+Name=Carta Capitán Doral
+GrhIndex=52190
+CollectibleCardImgPathing=447.png
+CollectibleCardIndex=447
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ214]
+Name=Carta Capitán Alsetarip
+GrhIndex=52190
+CollectibleCardImgPathing=446.png
+CollectibleCardIndex=446
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ225]
 GrhIndex=8497
@@ -18962,6 +19565,14 @@ ObjType=22
 Agarrable=1
 Texto=Yacimiento de Plata
 
+[OBJ236]
+Name=Carta Elemental de Fuego
+GrhIndex=52190
+CollectibleCardImgPathing=5.png
+CollectibleCardIndex=5
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ237]
 Name=Weapons Chest
 Texto=This chest contains a Tier 2 weapon!
@@ -19047,147 +19658,293 @@ llave=0
 Agarrable=1
 Texto=Puerta cerrada
 
+[OBJ263]
+Name=Carta Elemental de Tierra
+GrhIndex=52190
+CollectibleCardImgPathing=6.png
+CollectibleCardIndex=6
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ264]
+Name=Carta Elemental de Viento
+GrhIndex=52190
+CollectibleCardImgPathing=7.png
+CollectibleCardIndex=7
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ265]
+Name=Carta Leviatan
+GrhIndex=52190
+CollectibleCardImgPathing=8.png
+CollectibleCardIndex=8
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ266]
-Name=Old Banderbill House Key 1
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 1 de la vieja Banderbill
+Name=Carta Zeraphon
+GrhIndex=52190
+CollectibleCardImgPathing=9.png
+CollectibleCardIndex=9
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ267]
+Name=Carta Vorathis
+GrhIndex=52190
+CollectibleCardImgPathing=10.png
+CollectibleCardIndex=10
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ268]
 Name=Carta Miastrix
 GrhIndex=52190
+CollectibleCardImgPathing=11.png
+CollectibleCardIndex=11
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ269]
+Name=Carta Brumak
+GrhIndex=52190
+CollectibleCardImgPathing=12.png
+CollectibleCardIndex=12
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ270]
-Name=Old Banderbill House Key 2
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 2 de la vieja Banderbill
+Name=Carta Shalgar
+GrhIndex=52190
+CollectibleCardImgPathing=13.png
+CollectibleCardIndex=13
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ271]
+Name=Carta Tancredo
+GrhIndex=52190
+CollectibleCardImgPathing=14.png
+CollectibleCardIndex=14
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ272]
+Name=Carta Zarok
+GrhIndex=52190
+CollectibleCardImgPathing=15.png
+CollectibleCardIndex=15
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ273]
+Name=Carta Guardia Real
+GrhIndex=52190
+CollectibleCardImgPathing=16.png
+CollectibleCardIndex=16
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ274]
+Name=Carta Guardia Legión
+GrhIndex=52190
+CollectibleCardImgPathing=17.png
+CollectibleCardIndex=17
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ275]
-Name=Open door
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Goblin
+GrhIndex=52190
+CollectibleCardImgPathing=18.png
+CollectibleCardIndex=18
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ276]
-Name=Door closed
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Throgar
+GrhIndex=52190
+CollectibleCardImgPathing=19.png
+CollectibleCardIndex=19
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ277]
-Name=locked door house 4 of Old Banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Grunak
+GrhIndex=52190
+CollectibleCardImgPathing=20.png
+CollectibleCardIndex=20
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ278]
-Name=Old Banderbill House key 4
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 4 de la vieja Banderbill
+Name=Carta Zulrik
+GrhIndex=52190
+CollectibleCardImgPathing=21.png
+CollectibleCardIndex=21
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ279]
-Name=Open door
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Rikkar
+GrhIndex=52190
+CollectibleCardImgPathing=22.png
+CollectibleCardIndex=22
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ280]
-Name=Door closed
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Krampus
+GrhIndex=52190
+CollectibleCardImgPathing=23.png
+CollectibleCardIndex=23
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ281]
-Name=locked door house 5 of Old banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Frosty
+GrhIndex=52190
+CollectibleCardImgPathing=24.png
+CollectibleCardIndex=24
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ282]
+Name=Carta Frostrion
+GrhIndex=52190
+CollectibleCardImgPathing=25.png
+CollectibleCardIndex=25
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ283]
-Name=Open door
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Cascanueces
+GrhIndex=52190
+CollectibleCardImgPathing=26.png
+CollectibleCardIndex=26
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ284]
-Name=Door closed
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Mimic
+GrhIndex=52190
+CollectibleCardImgPathing=27.png
+CollectibleCardIndex=27
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ285]
-Name=Locked door house 6 of Old banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Eryndor
+GrhIndex=52190
+CollectibleCardImgPathing=28.png
+CollectibleCardIndex=28
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ286]
-Name=Old Banderbill House Key 6
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 6 de la vieja Banderbill
+Name=Carta Papa Noel
+GrhIndex=52190
+CollectibleCardImgPathing=29.png
+CollectibleCardIndex=29
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ287]
+Name=Carta Hakon
+GrhIndex=52190
+CollectibleCardImgPathing=30.png
+CollectibleCardIndex=30
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ288]
+Name=Carta Olaf
+GrhIndex=52190
+CollectibleCardImgPathing=31.png
+CollectibleCardIndex=31
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ289]
+Name=Carta Skadi
+GrhIndex=52190
+CollectibleCardImgPathing=32.png
+CollectibleCardIndex=32
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ290]
+Name=Carta Eirik
+GrhIndex=52190
+CollectibleCardImgPathing=33.png
+CollectibleCardIndex=33
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ291]
+Name=Carta Rodolfo
+GrhIndex=52190
+CollectibleCardImgPathing=34.png
+CollectibleCardIndex=34
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ292]
+Name=Carta Primal
+GrhIndex=52190
+CollectibleCardImgPathing=35.png
+CollectibleCardIndex=35
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ293]
 Name=Carta Goruk
 GrhIndex=52190
+CollectibleCardImgPathing=36.png
+CollectibleCardIndex=36
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ294]
-Name=Old Banderbill House key 8
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 8 de la vieja Banderbill
+Name=Carta Infernus
+GrhIndex=52190
+CollectibleCardImgPathing=37.png
+CollectibleCardIndex=37
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ295]
-Name=Open door
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Abyssal
+GrhIndex=52190
+CollectibleCardImgPathing=38.png
+CollectibleCardIndex=38
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ296]
-Name=Door closed
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Dragón Rojo
+GrhIndex=52190
+CollectibleCardImgPathing=39.png
+CollectibleCardIndex=39
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ297]
-Name=locked door house 9 of the old banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Dragón Negro
+GrhIndex=52190
+CollectibleCardImgPathing=40.png
+CollectibleCardIndex=40
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ298]
-Name=Old Banderbill House Key 9
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 9 de la vieja Banderbill
+Name=Carta Dragón Dorado
+GrhIndex=52190
+CollectibleCardImgPathing=41.png
+CollectibleCardIndex=41
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ299]
 Name=Open door
@@ -19229,227 +19986,292 @@ Texto=Welcome traveler! Be careful, you don y of the brittle planks to play tric
 Agarrable=1
 
 [OBJ320]
-Name=Open door
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=Puerta abierta
+Name=Carta Beholder
+GrhIndex=52190
+CollectibleCardImgPathing=42.png
+CollectibleCardIndex=42
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ321]
-Name=Door closed
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=Puerta cerrada
+Name=Carta Nocthral
+GrhIndex=52190
+CollectibleCardImgPathing=43.png
+CollectibleCardIndex=43
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ322]
-Name=locked door house 10 of Old bander
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=Esta honorable casa pertenece a
+Name=Carta Pyrrak
+GrhIndex=52190
+CollectibleCardImgPathing=44.png
+CollectibleCardIndex=44
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ323]
-Name=Old Banderbill House Key 10
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 10 de la vieja Banderbill
+Name=Carta Azhurion
+GrhIndex=52190
+CollectibleCardImgPathing=45.png
+CollectibleCardIndex=45
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ324]
-Name=Open door
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Verdanok
+GrhIndex=52190
+CollectibleCardImgPathing=46.png
+CollectibleCardIndex=46
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ325]
-Name=Door closed
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Kaelthor
+GrhIndex=52190
+CollectibleCardImgPathing=47.png
+CollectibleCardIndex=47
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ326]
-Name=locked door house 11 of Old Banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Kadru
+GrhIndex=52190
+CollectibleCardImgPathing=48.png
+CollectibleCardIndex=48
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ327]
-Name=Old Banderbill House Key 11
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 11 de la vieja Banderbill
+Name=Carta Lynn
+GrhIndex=52190
+CollectibleCardImgPathing=49.png
+CollectibleCardIndex=49
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ328]
-Name=Open door
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Aksha
+GrhIndex=52190
+CollectibleCardImgPathing=50.png
+CollectibleCardIndex=50
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ329]
-Name=Door closed
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Cápitan Pyke
+GrhIndex=52190
+CollectibleCardImgPathing=51.png
+CollectibleCardIndex=51
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ330]
-Name=locked door house 12 of Old banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Capitan Orla
+GrhIndex=52190
+CollectibleCardImgPathing=52.png
+CollectibleCardIndex=52
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ331]
 Name=Carta Geot
 GrhIndex=52190
+CollectibleCardImgPathing=53.png
+CollectibleCardIndex=53
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ332]
 Name=Carta Pyrot
 GrhIndex=52190
+CollectibleCardImgPathing=54.png
+CollectibleCardIndex=54
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ333]
 Name=Carta Hydrot
 GrhIndex=52190
+CollectibleCardImgPathing=55.png
+CollectibleCardIndex=55
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ334]
 Name=Carta Eolot
 GrhIndex=52190
+CollectibleCardImgPathing=56.png
+CollectibleCardIndex=56
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ335]
-Name=Old Banderbill House Key 13
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 13 de la vieja Banderbill
+Name=Carta Tortuga Titán
+GrhIndex=52190
+CollectibleCardImgPathing=57.png
+CollectibleCardIndex=57
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ336]
-Name=Open door
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Tortuga
+GrhIndex=52190
+CollectibleCardImgPathing=58.png
+CollectibleCardIndex=58
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ337]
-Name=Door closed
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Golem
+GrhIndex=52190
+CollectibleCardImgPathing=59.png
+CollectibleCardIndex=59
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ338]
-Name=locked door house 14 of Old banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Golem de Tierra
+GrhIndex=52190
+CollectibleCardImgPathing=60.png
+CollectibleCardIndex=60
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ339]
 Name=Carta Golem de Hielo
 GrhIndex=52190
+CollectibleCardImgPathing=61.png
+CollectibleCardIndex=61
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ340]
-Name=Open door
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Plariom
+GrhIndex=52190
+CollectibleCardImgPathing=62.png
+CollectibleCardIndex=62
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ341]
-Name=Door closed
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Golem de Viento
+GrhIndex=52190
+CollectibleCardImgPathing=63.png
+CollectibleCardIndex=63
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ342]
-Name=locked door house 15 of Old Banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Hormiga Guerrera
+GrhIndex=52190
+CollectibleCardImgPathing=64.png
+CollectibleCardIndex=64
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ343]
-Name=Old Banderbill House Key 15
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 15 de la vieja Banderbill
+Name=Carta Hormiga Negra
+GrhIndex=52190
+CollectibleCardImgPathing=65.png
+CollectibleCardIndex=65
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ344]
-Name=Open door
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Hormiga Amarilla
+GrhIndex=52190
+CollectibleCardImgPathing=66.png
+CollectibleCardIndex=66
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ345]
-Name=Door closed
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Hormiga Verde
+GrhIndex=52190
+CollectibleCardImgPathing=67.png
+CollectibleCardIndex=67
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ346]
-Name=locked door house 16 of Old banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Hormiga Azul
+GrhIndex=52190
+CollectibleCardImgPathing=68.png
+CollectibleCardIndex=68
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ347]
-Name=Old Banderbill House Key 16
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 16 de la vieja Banderbill
+Name=Carta Hormiga Berseker
+GrhIndex=52190
+CollectibleCardImgPathing=69.png
+CollectibleCardIndex=69
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ348]
-Name=Open door
-GrhIndex=9201
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Gaia
+GrhIndex=52190
+CollectibleCardImgPathing=70.png
+CollectibleCardIndex=70
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ349]
-Name=Door closed
-GrhIndex=9195
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Aelion
+GrhIndex=52190
+CollectibleCardImgPathing=71.png
+CollectibleCardIndex=71
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ350]
-Name=locked door house 17 of Old banderbill
-GrhIndex=9195
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Dorim II
+GrhIndex=52190
+CollectibleCardImgPathing=72.png
+CollectibleCardIndex=72
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ351]
+Name=Carta Guardia Elfico
+GrhIndex=52190
+CollectibleCardImgPathing=73.png
+CollectibleCardIndex=73
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ352]
+Name=Carta Hechicero Elfico
+GrhIndex=52190
+CollectibleCardImgPathing=74.png
+CollectibleCardIndex=74
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ353]
+Name=Carta Guardia Enano
+GrhIndex=52190
+CollectibleCardImgPathing=75.png
+CollectibleCardIndex=75
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ354]
+Name=Carta Ballestero Enano
+GrhIndex=52190
+CollectibleCardImgPathing=76.png
+CollectibleCardIndex=76
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ355]
+Name=Carta Hechicero Real
+GrhIndex=52190
+CollectibleCardImgPathing=77.png
+CollectibleCardIndex=77
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ356]
 Name=Cofre de Fuegos Artificiales
@@ -19832,6 +20654,14 @@ LingP=210
 LingO=0
 SkHerreria=100
 Texto=Espada de Héroes
+
+[OBJ404]
+Name=Carta Hechicero Legión
+GrhIndex=52190
+CollectibleCardImgPathing=78.png
+CollectibleCardIndex=78
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ405]
 Name=Piel de Cabra
@@ -20548,17 +21378,11 @@ ObjType=51
 Valor=0
 
 [OBJ508]
-Name=Estuary Clothes (Woman)
-GrhIndex=59354
-ObjType=3
-MAXDEF=7
-MINDEF=5
-Valor=1000
-Texto=Ropa Estuaria (M)
-SKSastreria=25
-PielLobo=30
-PielOsoPardo=0
-PielOsoPolar=0
+Name=Antique Book
+Texto=Sacred book stolen by the corrupted Medusa.
+GrhIndex=49282
+ObjType=51
+Valor=0
 
 [OBJ509]
 Name=Bottled Message
@@ -20590,7 +21414,11 @@ RopajeOrca=3328
 RopajeOrco=0
 
 [OBJ511]
-GrhIndex=0
+Name=Fragment of the Four
+Texto=Fragment of unknown use.
+GrhIndex=38062
+ObjType=51
+Valor=0
 
 [OBJ512]
 Name=The Moon Shard
@@ -20600,28 +21428,18 @@ ObjType=100
 Valor=0
 
 [OBJ513]
-Name=Witch Dress (H/E/EO-M)
-GrhIndex=11609
-RopajeHumano=604
-RopajeElfo=604
-RopajeElfoOscuro=3126
-RopajeEnano=2839
-RopajeOrco=3125
-RopajeGnomo=2839
-RopajeHumana=604
-RopajeElfa=604
-RopajeElfaOscura=3126
-RopajeEnana=2839
-RopajeOrca=3125
-RopajeGnoma=2839
-ObjType=3
-MAXDEF=20
-MINDEF=15
-Valor=7000
-Texto=Vestido de Bruja (H/E/EO-M)
+Name=Stained, Worn Note
+Texto=A crumpled scroll, stained by fire and claws.
+GrhIndex=14193
+ObjType=51
+Valor=0
 
 [OBJ514]
-GrhIndex=0
+Name=Ghoul Skull
+Texto=The skull retains an unnatural cold.
+GrhIndex=49204
+ObjType=51
+Valor=0
 
 [OBJ515]
 Name=Basic Vestment
@@ -20890,6 +21708,22 @@ ObjType=8
 Texto=Here lies the body of Gulfas Morgolock, his spirit is found all over this world. Their island is protected by the Gods and the songs of Sirens. Legend has it that there will be a possible reincarnation.
 Agarrable=1
 
+[OBJ536]
+Name=Carta Doria Maderavieja
+GrhIndex=52190
+CollectibleCardImgPathing=79.png
+CollectibleCardIndex=79
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ537]
+Name=Carta Stavros
+GrhIndex=52190
+CollectibleCardImgPathing=80.png
+CollectibleCardIndex=80
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ538]
 Name=Piel de Oso Pardo (Especial)
 Texto=Objeto de Quest
@@ -20912,8 +21746,21 @@ Valor=4500
 Madera=1500
 Texto=Increases your Magic Damage by 4%
 
+[OBJ541]
+Name=Carta Nuri
+GrhIndex=52190
+CollectibleCardImgPathing=81.png
+CollectibleCardIndex=81
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ542]
-GrhIndex=0
+Name=Carta Esbirra Demoniaca
+GrhIndex=52190
+CollectibleCardImgPathing=82.png
+CollectibleCardIndex=82
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ543]
 Name=Tree
@@ -21018,7 +21865,12 @@ Agarrable=1
 Texto=Sangre
 
 [OBJ556]
-GrhIndex=0
+Name=Carta Esbirro Demoniaco
+GrhIndex=52190
+CollectibleCardImgPathing=83.png
+CollectibleCardIndex=83
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ557]
 Name=Plant
@@ -21049,50 +21901,82 @@ Texto=Damage 6/9
 [OBJ561]
 Name=Carta Glazrath
 GrhIndex=52190
+CollectibleCardImgPathing=84.png
+CollectibleCardIndex=84
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ562]
 Name=Carta Gorath
 GrhIndex=52190
+CollectibleCardImgPathing=85.png
+CollectibleCardIndex=85
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ563]
-Name=Vestment (E/G) (newbie)
-GrhIndex=59354
-ObjType=3
-MAXDEF=2
-MINDEF=1
-Valor=0
-Texto=Vestimentas de Baja (Newbie)
+Name=Carta Escorpion Azul
+GrhIndex=52190
+CollectibleCardImgPathing=86.png
+CollectibleCardIndex=86
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ564]
-GrhIndex=0
+Name=Carta Ghoul de Hielo
+GrhIndex=52190
+CollectibleCardImgPathing=87.png
+CollectibleCardIndex=87
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ565]
 Name=Carta Pixie de Hielo
 GrhIndex=52190
+CollectibleCardImgPathing=88.png
+CollectibleCardIndex=88
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ566]
 Name=Carta Pixie de Tierra
 GrhIndex=52190
+CollectibleCardImgPathing=89.png
+CollectibleCardIndex=89
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ567]
 Name=Carta Pixie de Fuego
 GrhIndex=52190
+CollectibleCardImgPathing=90.png
+CollectibleCardIndex=90
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ568]
 Name=Carta Pixie de Viento
 GrhIndex=52190
+CollectibleCardImgPathing=91.png
+CollectibleCardIndex=91
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ569]
-GrhIndex=0
+Name=Carta Pixie Sagrada
+GrhIndex=52190
+CollectibleCardImgPathing=92.png
+CollectibleCardIndex=92
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ570]
-GrhIndex=0
+Name=Carta Troll Artico
+GrhIndex=52190
+CollectibleCardImgPathing=93.png
+CollectibleCardIndex=93
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ571]
 Name=Marquise Dress
@@ -21115,8 +21999,37 @@ RopajeHumano=2230
 RopajeOrca=3312
 RopajeOrco=3312
 
+[OBJ573]
+Name=Carta Balrik
+GrhIndex=52190
+CollectibleCardImgPathing=94.png
+CollectibleCardIndex=94
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ574]
+Name=Carta Grum
+GrhIndex=52190
+CollectibleCardImgPathing=95.png
+CollectibleCardIndex=95
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ575]
-GrhIndex=0
+Name=Carta Suido
+GrhIndex=52190
+CollectibleCardImgPathing=96.png
+CollectibleCardIndex=96
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ576]
+Name=Carta Krogar
+GrhIndex=52190
+CollectibleCardImgPathing=97.png
+CollectibleCardIndex=97
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ577]
 Name=Sign
@@ -21125,6 +22038,22 @@ GrhIndex=622
 ObjType=8
 Texto=The magic scrolls of yesteryear are not lost. They
 Agarrable=1
+
+[OBJ578]
+Name=Carta Keldor
+GrhIndex=52190
+CollectibleCardImgPathing=98.png
+CollectibleCardIndex=98
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ579]
+Name=Carta Lilith
+GrhIndex=52190
+CollectibleCardImgPathing=99.png
+CollectibleCardIndex=99
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ580]
 Name=Fireworks
@@ -21203,6 +22132,22 @@ ObjType=11
 Texto=Party!
 Valor=1
 
+[OBJ591]
+Name=Carta Gladys
+GrhIndex=52190
+CollectibleCardImgPathing=100.png
+CollectibleCardIndex=100
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ592]
+Name=Carta Grimbash
+GrhIndex=52190
+CollectibleCardImgPathing=101.png
+CollectibleCardIndex=101
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ593]
 Name=Green Smoke Bombs
 GrhIndex=32468
@@ -21231,8 +22176,37 @@ ObjType=11
 Texto=Party!
 Valor=1
 
+[OBJ597]
+Name=Carta Nagrakh
+GrhIndex=52190
+CollectibleCardImgPathing=102.png
+CollectibleCardIndex=102
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ598]
+Name=Carta Cormac
+GrhIndex=52190
+CollectibleCardImgPathing=103.png
+CollectibleCardIndex=103
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ599]
+Name=Carta Valerius
+GrhIndex=52190
+CollectibleCardImgPathing=104.png
+CollectibleCardIndex=104
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ600]
-GrhIndex=0
+Name=Carta Berta
+GrhIndex=52190
+CollectibleCardImgPathing=105.png
+CollectibleCardIndex=105
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ601]
 Name=Silver Helmet
@@ -21260,6 +22234,22 @@ GrhIndex=503
 ObjType=20
 Agarrable=1
 Texto=Cofre Cerrado
+
+[OBJ606]
+Name=Carta Grakka
+GrhIndex=52190
+CollectibleCardImgPathing=106.png
+CollectibleCardIndex=106
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ607]
+Name=Carta Clarice Coraza
+GrhIndex=52190
+CollectibleCardImgPathing=107.png
+CollectibleCardIndex=107
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ608]
 Name=Experiencia
@@ -21296,13 +22286,21 @@ Texto=Objeto de Quest
 ObjType=100
 Valor=0
 
+[OBJ613]
+Name=Carta Mara
+GrhIndex=52190
+CollectibleCardImgPathing=108.png
+CollectibleCardIndex=108
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ614]
-Name=rug
-Info=Abajo
-GrhIndex=26204
-ObjType=20
-Agarrable=1
-Texto=Tapete
+Name=Carta Ferrion
+GrhIndex=52190
+CollectibleCardImgPathing=109.png
+CollectibleCardIndex=109
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ615]
 Name=Open door
@@ -21578,6 +22576,14 @@ GrhIndex=911
 valor=3
 Objtype=21
 Texto=Disabled item.
+
+[OBJ652]
+Name=Carta Golem de Oro
+GrhIndex=52190
+CollectibleCardImgPathing=110.png
+CollectibleCardIndex=110
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ653]
 Name=Unicornio
@@ -22005,9 +23011,60 @@ GrhIndex=24694
 ObjType=44
 Valor=0
 
+[OBJ729]
+Name=Carta Niva
+GrhIndex=52190
+CollectibleCardImgPathing=111.png
+CollectibleCardIndex=111
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ730]
+Name=Carta Amedio
+GrhIndex=52190
+CollectibleCardImgPathing=112.png
+CollectibleCardIndex=112
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ731]
+Name=Carta Flint
+GrhIndex=52190
+CollectibleCardImgPathing=113.png
+CollectibleCardIndex=113
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ732]
+Name=Carta Ticc
+GrhIndex=52190
+CollectibleCardImgPathing=114.png
+CollectibleCardIndex=114
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ733]
+Name=Carta Tinell
+GrhIndex=52190
+CollectibleCardImgPathing=115.png
+CollectibleCardIndex=115
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ734]
 Name=Carta Zevkar
 GrhIndex=52190
+CollectibleCardImgPathing=116.png
+CollectibleCardIndex=116
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ735]
+Name=Carta Ines
+GrhIndex=52190
+CollectibleCardImgPathing=117.png
+CollectibleCardIndex=117
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ736]
@@ -22031,6 +23088,22 @@ valor=500
 Objtype=20
 Texto=Increase your skill points in Backstab by 10 points.
 
+[OBJ740]
+Name=Carta Ged
+GrhIndex=52190
+CollectibleCardImgPathing=118.png
+CollectibleCardIndex=118
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ741]
+Name=Carta Alberich
+GrhIndex=52190
+CollectibleCardImgPathing=119.png
+CollectibleCardIndex=119
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ742]
 Name=Spear
 GrhIndex=902
@@ -22043,10 +23116,98 @@ LingP=0
 SkHerreria=25
 Texto=Lanza
 
+[OBJ743]
+Name=Carta Krix
+GrhIndex=52190
+CollectibleCardImgPathing=120.png
+CollectibleCardIndex=120
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ744]
+Name=Carta Cleff
+GrhIndex=52190
+CollectibleCardImgPathing=121.png
+CollectibleCardIndex=121
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ745]
+Name=Carta Ligno
+GrhIndex=52190
+CollectibleCardImgPathing=122.png
+CollectibleCardIndex=122
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ746]
+Name=Carta Thalin
+GrhIndex=52190
+CollectibleCardImgPathing=123.png
+CollectibleCardIndex=123
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ747]
+Name=Carta Skabrot
+GrhIndex=52190
+CollectibleCardImgPathing=124.png
+CollectibleCardIndex=124
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ748]
+Name=Carta Boran
+GrhIndex=52190
+CollectibleCardImgPathing=125.png
+CollectibleCardIndex=125
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ749]
 Name=Ballesta
 GrhIndex=896
 Texto=Ballesta
+
+[OBJ750]
+Name=Carta Caspian
+GrhIndex=52190
+CollectibleCardImgPathing=126.png
+CollectibleCardIndex=126
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ751]
+Name=Carta Gertha
+GrhIndex=52190
+CollectibleCardImgPathing=127.png
+CollectibleCardIndex=127
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ752]
+Name=Carta Eom
+GrhIndex=52190
+CollectibleCardImgPathing=128.png
+CollectibleCardIndex=128
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ753]
+Name=Carta Fizzwick
+GrhIndex=52190
+CollectibleCardImgPathing=129.png
+CollectibleCardIndex=129
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ754]
+Name=Carta Isolda
+GrhIndex=52190
+CollectibleCardImgPathing=130.png
+CollectibleCardIndex=130
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ755]
 Name=Ring of silence (Assassin-Bandit)
@@ -22059,12 +23220,52 @@ LingP=111
 LingO=28
 SkHerreria=100
 
+[OBJ756]
+Name=Carta Gustave
+GrhIndex=52190
+CollectibleCardImgPathing=131.png
+CollectibleCardIndex=131
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ757]
+Name=Carta Virutt
+GrhIndex=52190
+CollectibleCardImgPathing=132.png
+CollectibleCardIndex=132
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ758]
+Name=Carta Haytham
+GrhIndex=52190
+CollectibleCardImgPathing=133.png
+CollectibleCardIndex=133
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ759]
+Name=Carta Gunnarof
+GrhIndex=52190
+CollectibleCardImgPathing=134.png
+CollectibleCardIndex=134
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ760]
 Name=Onion
 GrhIndex=28834
 ObjType=1
 Valor=1
 Texto=Restores 1 hunger points
+
+[OBJ761]
+Name=Carta Escaldra
+GrhIndex=52190
+CollectibleCardImgPathing=135.png
+CollectibleCardIndex=135
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ762]
 Name=Open door
@@ -22486,142 +23687,309 @@ GrhIndex=509
 ObjType=9
 Texto=Llave de la casa de Arghâl 15
 
+[OBJ822]
+Name=Carta Puloj
+GrhIndex=52190
+CollectibleCardImgPathing=136.png
+CollectibleCardIndex=136
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ823]
+Name=Carta Juan XXI
+GrhIndex=52190
+CollectibleCardImgPathing=137.png
+CollectibleCardIndex=137
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ824]
+Name=Carta Aurelian
+GrhIndex=52190
+CollectibleCardImgPathing=138.png
+CollectibleCardIndex=138
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ825]
+Name=Carta Vorn
+GrhIndex=52190
+CollectibleCardImgPathing=139.png
+CollectibleCardIndex=139
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ826]
-Name=Open door
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Lyram
+GrhIndex=52190
+CollectibleCardImgPathing=140.png
+CollectibleCardIndex=140
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ827]
-Name=Door closed
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Grognak
+GrhIndex=52190
+CollectibleCardImgPathing=141.png
+CollectibleCardIndex=141
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ828]
-Name=locked door house 2 of Illiandor
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Bruja Escarlata
+GrhIndex=52190
+CollectibleCardImgPathing=142.png
+CollectibleCardIndex=142
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ829]
+Name=Carta Vorgrash
+GrhIndex=52190
+CollectibleCardImgPathing=143.png
+CollectibleCardIndex=143
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ830]
+Name=Carta Orghaz
+GrhIndex=52190
+CollectibleCardImgPathing=144.png
+CollectibleCardIndex=144
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ831]
+Name=Carta Thrukha
+GrhIndex=52190
+CollectibleCardImgPathing=145.png
+CollectibleCardIndex=145
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ832]
+Name=Carta Krugg
+GrhIndex=52190
+CollectibleCardImgPathing=146.png
+CollectibleCardIndex=146
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ833]
+Name=Carta Borvat
+GrhIndex=52190
+CollectibleCardImgPathing=147.png
+CollectibleCardIndex=147
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ834]
-Name=Open door
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Holt
+GrhIndex=52190
+CollectibleCardImgPathing=148.png
+CollectibleCardIndex=148
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ835]
-Name=Door closed
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Rodrick
+GrhIndex=52190
+CollectibleCardImgPathing=149.png
+CollectibleCardIndex=149
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ836]
-Name=locked door house 4 of Illiandor
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Philiph
+GrhIndex=52190
+CollectibleCardImgPathing=150.png
+CollectibleCardIndex=150
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ837]
-Name=Illiandor House 4 Key
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 4 de Illiandor
+Name=Carta Bandido
+GrhIndex=52190
+CollectibleCardImgPathing=151.png
+CollectibleCardIndex=151
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ838]
-Name=Open door
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Asesino
+GrhIndex=52190
+CollectibleCardImgPathing=152.png
+CollectibleCardIndex=152
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ839]
-Name=Door closed
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Bjornulf
+GrhIndex=52190
+CollectibleCardImgPathing=153.png
+CollectibleCardIndex=153
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ840]
-Name=locked door house 5 of illiandor
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Ghanly
+GrhIndex=52190
+CollectibleCardImgPathing=154.png
+CollectibleCardIndex=154
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ841]
+Name=Carta Urghal
+GrhIndex=52190
+CollectibleCardImgPathing=155.png
+CollectibleCardIndex=155
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ842]
+Name=Carta Mantis Verde
+GrhIndex=52190
+CollectibleCardImgPathing=156.png
+CollectibleCardIndex=156
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ843]
+Name=Carta Mantis Marrón
+GrhIndex=52190
+CollectibleCardImgPathing=157.png
+CollectibleCardIndex=157
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ844]
 Name=Carta Mantis de Fuego
 GrhIndex=52190
+CollectibleCardImgPathing=158.png
+CollectibleCardIndex=158
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ845]
+Name=Carta Marcoc
+GrhIndex=52190
+CollectibleCardImgPathing=159.png
+CollectibleCardIndex=159
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ846]
-Name=Open door
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Popei
+GrhIndex=52190
+CollectibleCardImgPathing=160.png
+CollectibleCardIndex=160
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ847]
-Name=Door closed
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Cano
+GrhIndex=52190
+CollectibleCardImgPathing=161.png
+CollectibleCardIndex=161
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ848]
-Name=locked door house 7 of Illiandor
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Cervatillo
+GrhIndex=52190
+CollectibleCardImgPathing=162.png
+CollectibleCardIndex=162
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ849]
-Name=Key to House 7 Of Illiandor
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 7 de Illiandor
+Name=Carta Bramador
+GrhIndex=52190
+CollectibleCardImgPathing=163.png
+CollectibleCardIndex=163
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ850]
-Name=Open door
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Albi
+GrhIndex=52190
+CollectibleCardImgPathing=164.png
+CollectibleCardIndex=164
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ851]
-Name=Door closed
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Midhas
+GrhIndex=52190
+CollectibleCardImgPathing=165.png
+CollectibleCardIndex=165
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ852]
-Name=locked door house 8 of Illiandor
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Luzlum
+GrhIndex=52190
+CollectibleCardImgPathing=166.png
+CollectibleCardIndex=166
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ853]
+Name=Carta Blorin
+GrhIndex=52190
+CollectibleCardImgPathing=167.png
+CollectibleCardIndex=167
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ854]
+Name=Carta Jarl Njord
+GrhIndex=52190
+CollectibleCardImgPathing=168.png
+CollectibleCardIndex=168
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ855]
+Name=Carta Dhall
+GrhIndex=52190
+CollectibleCardImgPathing=169.png
+CollectibleCardIndex=169
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ856]
+Name=Carta Maximus
+GrhIndex=52190
+CollectibleCardImgPathing=170.png
+CollectibleCardIndex=170
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ857]
+Name=Carta Domus
+GrhIndex=52190
+CollectibleCardImgPathing=171.png
+CollectibleCardIndex=171
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ858]
+Name=Carta Haleth
+GrhIndex=52190
+CollectibleCardImgPathing=172.png
+CollectibleCardIndex=172
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ859]
+Name=Carta Conrad
+GrhIndex=52190
+CollectibleCardImgPathing=173.png
+CollectibleCardIndex=173
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ860]
 Name=Sign
@@ -22647,6 +24015,46 @@ ObjType=8
 Texto=To the east you can see a small town, its name is Illiandor. There you will find supplies for your long journey.
 Agarrable=1
 
+[OBJ863]
+Name=Carta Vanessa
+GrhIndex=52190
+CollectibleCardImgPathing=174.png
+CollectibleCardIndex=174
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ864]
+Name=Carta Robert
+GrhIndex=52190
+CollectibleCardImgPathing=175.png
+CollectibleCardIndex=175
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ865]
+Name=Carta Lady Elanor
+GrhIndex=52190
+CollectibleCardImgPathing=176.png
+CollectibleCardIndex=176
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ866]
+Name=Carta Thrain
+GrhIndex=52190
+CollectibleCardImgPathing=177.png
+CollectibleCardIndex=177
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ867]
+Name=Carta Heracio
+GrhIndex=52190
+CollectibleCardImgPathing=178.png
+CollectibleCardIndex=178
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ868]
 Name=Fiery Orb
 GrhIndex=969
@@ -22660,6 +24068,94 @@ GrhIndex=970
 valor=60000
 Objtype=21
 Texto=It adds probability of paralyzing your blows.
+
+[OBJ870]
+Name=Carta Mhor
+GrhIndex=52190
+CollectibleCardImgPathing=179.png
+CollectibleCardIndex=179
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ871]
+Name=Carta Aurum
+GrhIndex=52190
+CollectibleCardImgPathing=180.png
+CollectibleCardIndex=180
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ872]
+Name=Carta Malek
+GrhIndex=52190
+CollectibleCardImgPathing=181.png
+CollectibleCardIndex=181
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ873]
+Name=Carta Grom
+GrhIndex=52190
+CollectibleCardImgPathing=182.png
+CollectibleCardIndex=182
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ874]
+Name=Carta Elerion
+GrhIndex=52190
+CollectibleCardImgPathing=183.png
+CollectibleCardIndex=183
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ875]
+Name=Carta Thokk
+GrhIndex=52190
+CollectibleCardImgPathing=184.png
+CollectibleCardIndex=184
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ876]
+Name=Carta Gnargh
+GrhIndex=52190
+CollectibleCardImgPathing=185.png
+CollectibleCardIndex=185
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ877]
+Name=Carta Redema
+GrhIndex=52190
+CollectibleCardImgPathing=186.png
+CollectibleCardIndex=186
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ878]
+Name=Carta Shauna
+GrhIndex=52190
+CollectibleCardImgPathing=187.png
+CollectibleCardIndex=187
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ879]
+Name=Carta Drizzt
+GrhIndex=52190
+CollectibleCardImgPathing=188.png
+CollectibleCardIndex=188
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ880]
+Name=Carta Ithilien
+GrhIndex=52190
+CollectibleCardImgPathing=189.png
+CollectibleCardIndex=189
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ881]
 Name=Fishing Rod
@@ -22692,6 +24188,14 @@ ObjType=18
 Valor=10000
 LingH=10
 SkHerreria=12
+
+[OBJ888]
+Name=Carta Smalin
+GrhIndex=52190
+CollectibleCardImgPathing=190.png
+CollectibleCardIndex=190
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ889]
 Name=Yellow Potion (Alchemy)
@@ -22780,6 +24284,14 @@ SkPociones=50
 Raices=250
 Texto=Remove the stupidity
 
+[OBJ897]
+Name=Carta Ocopin
+GrhIndex=52190
+CollectibleCardImgPathing=191.png
+CollectibleCardIndex=191
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ898]
 GrhIndex=49016
 Name=Olla de Alquimia (QUEST)
@@ -22787,13 +24299,93 @@ ObjType=18
 Texto=Herramienta necesaria para crear pociones de Alquimia
 Valor=0
 
+[OBJ899]
+Name=Carta Octis
+GrhIndex=52190
+CollectibleCardImgPathing=192.png
+CollectibleCardIndex=192
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ900]
+Name=Carta Francisco
+GrhIndex=52190
+CollectibleCardImgPathing=193.png
+CollectibleCardIndex=193
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ901]
+Name=Carta Tyran
+GrhIndex=52190
+CollectibleCardImgPathing=194.png
+CollectibleCardIndex=194
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ902]
+Name=Carta Zull
+GrhIndex=52190
+CollectibleCardImgPathing=195.png
+CollectibleCardIndex=195
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ903]
+Name=Carta Kryos
+GrhIndex=52190
+CollectibleCardImgPathing=196.png
+CollectibleCardIndex=196
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ904]
 Name=Carta Typhon
 GrhIndex=52190
+CollectibleCardImgPathing=197.png
+CollectibleCardIndex=197
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ905]
-GrhIndex=0
+Name=Carta Miasma
+GrhIndex=52190
+CollectibleCardImgPathing=198.png
+CollectibleCardIndex=198
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ906]
+Name=Carta Cirdan
+GrhIndex=52190
+CollectibleCardImgPathing=199.png
+CollectibleCardIndex=199
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ907]
+Name=Carta Tellus
+GrhIndex=52190
+CollectibleCardImgPathing=200.png
+CollectibleCardIndex=200
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ908]
+Name=Carta Blaze
+GrhIndex=52190
+CollectibleCardImgPathing=201.png
+CollectibleCardIndex=201
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ909]
+Name=Carta Gale
+GrhIndex=52190
+CollectibleCardImgPathing=202.png
+CollectibleCardIndex=202
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ910]
 Name=Tree
@@ -22802,166 +24394,229 @@ Objtype=4
 Agarrable=1
 Texto=Árbol
 
+[OBJ911]
+Name=Carta Névora
+GrhIndex=52190
+CollectibleCardImgPathing=203.png
+CollectibleCardIndex=203
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ912]
-Name=Open door
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Nilus
+GrhIndex=52190
+CollectibleCardImgPathing=204.png
+CollectibleCardIndex=204
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ913]
-Name=Door closed
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Karkadan
+GrhIndex=52190
+CollectibleCardImgPathing=205.png
+CollectibleCardIndex=205
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ914]
-Name=locked door house 1 of  Tiama
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Crocky
+GrhIndex=52190
+CollectibleCardImgPathing=206.png
+CollectibleCardIndex=206
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ915]
-Name=Tiama House Key 2
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 2 de Tiama
+Name=Carta Kaelus
+GrhIndex=52190
+CollectibleCardImgPathing=207.png
+CollectibleCardIndex=207
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ916]
-Name=Open door
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Mordu
+GrhIndex=52190
+CollectibleCardImgPathing=208.png
+CollectibleCardIndex=208
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ917]
-Name=Door closed
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Syla
+GrhIndex=52190
+CollectibleCardImgPathing=209.png
+CollectibleCardIndex=209
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ918]
-Name=locked door house 2 of Tiama
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Gru
+GrhIndex=52190
+CollectibleCardImgPathing=210.png
+CollectibleCardIndex=210
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ919]
+Name=Carta Rakhar
+GrhIndex=52190
+CollectibleCardImgPathing=211.png
+CollectibleCardIndex=211
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ920]
 Name=Carta Minotauro Barbaro
 GrhIndex=52190
+CollectibleCardImgPathing=212.png
+CollectibleCardIndex=212
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ921]
 Name=Carta Minotauro Guerrero
 GrhIndex=52190
+CollectibleCardImgPathing=213.png
+CollectibleCardIndex=213
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ922]
+Name=Carta Minotauro Joven
+GrhIndex=52190
+CollectibleCardImgPathing=214.png
+CollectibleCardIndex=214
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ923]
 Name=Carta Minotauro
 GrhIndex=52190
+CollectibleCardImgPathing=215.png
+CollectibleCardIndex=215
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ924]
 Name=Carta Umbrax
 GrhIndex=52190
+CollectibleCardImgPathing=216.png
+CollectibleCardIndex=216
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ925]
+Name=Carta Minertopo
+GrhIndex=52190
+CollectibleCardImgPathing=217.png
+CollectibleCardIndex=217
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ926]
+Name=Carta Vaca Lola
+GrhIndex=52190
+CollectibleCardImgPathing=218.png
+CollectibleCardIndex=218
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ927]
+Name=Carta Chancho
+GrhIndex=52190
+CollectibleCardImgPathing=219.png
+CollectibleCardIndex=219
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ928]
-Name=Open door
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Esqueleto Guerrero
+GrhIndex=52190
+CollectibleCardImgPathing=220.png
+CollectibleCardIndex=220
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ929]
-Name=Door closed
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Esqueleto Arquero
+GrhIndex=52190
+CollectibleCardImgPathing=221.png
+CollectibleCardIndex=221
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ930]
-Name=locked door house 5 of Tiama
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Guardia del Pantano
+GrhIndex=52190
+CollectibleCardImgPathing=222.png
+CollectibleCardIndex=222
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ931]
-Name=Key to House 6 Of Tiama
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 6 de Tiama
+Name=Carta Gigante de Hielo
+GrhIndex=52190
+CollectibleCardImgPathing=223.png
+CollectibleCardIndex=223
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ932]
-Name=Open door
-GrhIndex=5592
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
-
-[OBJ933]
-Name=Door closed
-GrhIndex=5593
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Colmillo Blanco
+GrhIndex=52190
+CollectibleCardImgPathing=224.png
+CollectibleCardIndex=224
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ934]
-Name=locked door house 6 of Tiama
-GrhIndex=5593
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Lobo Salvaje
+GrhIndex=52190
+CollectibleCardImgPathing=225.png
+CollectibleCardIndex=225
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ935]
-Name=Tiama House Key 7
-GrhIndex=509
-ObjType=9
-Texto=Llave de la casa 7 de Tiama
+Name=Carta Lobo Gris
+GrhIndex=52190
+CollectibleCardImgPathing=226.png
+CollectibleCardIndex=226
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ936]
-Name=Open door
-GrhIndex=9199
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Lobo Negro
+GrhIndex=52190
+CollectibleCardImgPathing=227.png
+CollectibleCardIndex=227
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ937]
-Name=Door closed
-GrhIndex=9193
-ObjType=6
-llave=0
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Verraco Alfa
+GrhIndex=52190
+CollectibleCardImgPathing=228.png
+CollectibleCardIndex=228
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ938]
-Name=locked door house 7 of Tiama
-GrhIndex=9193
-ObjType=6
-llave=1
-Agarrable=1
-Texto=This honorable house belongs to
+Name=Carta Jabato
+GrhIndex=52190
+CollectibleCardImgPathing=229.png
+CollectibleCardIndex=229
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ939]
-GrhIndex=0
+Name=Carta Ent Elfico
+GrhIndex=52190
+CollectibleCardImgPathing=230.png
+CollectibleCardIndex=230
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ940]
 Name=Tree
@@ -22973,72 +24628,154 @@ Texto=Árbol
 [OBJ941]
 Name=Carta Ent
 GrhIndex=52190
+CollectibleCardImgPathing=231.png
+CollectibleCardIndex=231
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ942]
+Name=Carta Bael
+GrhIndex=52190
+CollectibleCardImgPathing=232.png
+CollectibleCardIndex=232
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ943]
-GrhIndex=0
+Name=Carta Nivor
+GrhIndex=52190
+CollectibleCardImgPathing=233.png
+CollectibleCardIndex=233
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ944]
-GrhIndex=0
+Name=Carta Pyrrion
+GrhIndex=52190
+CollectibleCardImgPathing=234.png
+CollectibleCardIndex=234
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ945]
 Name=Carta Ignarok
 GrhIndex=52190
+CollectibleCardImgPathing=235.png
+CollectibleCardIndex=235
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ946]
-GrhIndex=0
+Name=Carta Phyrus
+GrhIndex=52190
+CollectibleCardImgPathing=236.png
+CollectibleCardIndex=236
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ947]
 Name=Carta Scorvex
 GrhIndex=52190
+CollectibleCardImgPathing=237.png
+CollectibleCardIndex=237
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ949]
 Name=Carta Flamora
 GrhIndex=52190
+CollectibleCardImgPathing=239.png
+CollectibleCardIndex=239
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ950]
-Name=Marquis Suit
-GrhIndex=11103
-RopajeHumano=30
-RopajeElfo=30
-RopajeElfoOscuro=1875
-RopajeEnano=1153
-RopajeOrco=1859
-RopajeGnomo=1153
-RopajeHumana=1216
-RopajeElfa=1216
-RopajeElfaOscura=2773
-RopajeEnana=2751
-RopajeOrca=2762
-RopajeGnoma=2751
-ObjType=3
-MAXDEF=10
-MINDEF=1
-Valor=700
-Texto=Traje de Marques
+Name=Carta Astaroth
+GrhIndex=52190
+CollectibleCardImgPathing=240.png
+CollectibleCardIndex=240
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ951]
-GrhIndex=0
+Name=Carta Glacius
+GrhIndex=52190
+CollectibleCardImgPathing=241.png
+CollectibleCardIndex=241
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ952]
+Name=Carta Skelter
+GrhIndex=52190
+CollectibleCardImgPathing=242.png
+CollectibleCardIndex=242
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ953]
-GrhIndex=0
+Name=Carta Azog
+GrhIndex=52190
+CollectibleCardImgPathing=243.png
+CollectibleCardIndex=243
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ954]
 Name=Carta Cryon
 GrhIndex=52190
+CollectibleCardImgPathing=244.png
+CollectibleCardIndex=244
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ955]
-GrhIndex=0
+Name=Carta Albuss
+GrhIndex=52190
+CollectibleCardImgPathing=245.png
+CollectibleCardIndex=245
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ956]
-GrhIndex=0
+Name=Carta Quila
+GrhIndex=52190
+CollectibleCardImgPathing=246.png
+CollectibleCardIndex=246
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ957]
+Name=Carta Terranox
+GrhIndex=52190
+CollectibleCardImgPathing=247.png
+CollectibleCardIndex=247
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ958]
-GrhIndex=0
+Name=Carta León
+GrhIndex=52190
+CollectibleCardImgPathing=248.png
+CollectibleCardIndex=248
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ959]
+Name=Carta Kaiser
+GrhIndex=52190
+CollectibleCardImgPathing=249.png
+CollectibleCardIndex=249
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ960]
+Name=Carta Kori
+GrhIndex=52190
+CollectibleCardImgPathing=250.png
+CollectibleCardIndex=250
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ961]
 Name=Elven Tree
@@ -23149,8 +24886,53 @@ LingP=0
 SkHerreria=25
 Texto=Hacha Arrojadiza
 
+[OBJ981]
+Name=Carta Ansuz
+GrhIndex=52190
+CollectibleCardImgPathing=251.png
+CollectibleCardIndex=251
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ982]
+Name=Carta Bander
+GrhIndex=52190
+CollectibleCardImgPathing=252.png
+CollectibleCardIndex=252
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ983]
+Name=Carta Cancerbero
+GrhIndex=52190
+CollectibleCardImgPathing=253.png
+CollectibleCardIndex=253
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ984]
+Name=Carta Hechicera Orco
+GrhIndex=52190
+CollectibleCardImgPathing=254.png
+CollectibleCardIndex=254
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ985]
+Name=Carta Guardia Orco
+GrhIndex=52190
+CollectibleCardImgPathing=255.png
+CollectibleCardIndex=255
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ986]
-GrhIndex=0
+Name=Carta Varec
+GrhIndex=52190
+CollectibleCardImgPathing=256.png
+CollectibleCardIndex=256
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ987]
 Name=Elegant Rope
@@ -23173,8 +24955,37 @@ MINDEF=1
 valor=0
 Texto=Túnica Elegante
 
+[OBJ988]
+Name=Carta Ponto
+GrhIndex=52190
+CollectibleCardImgPathing=257.png
+CollectibleCardIndex=257
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ989]
+Name=Carta Gnas
+GrhIndex=52190
+CollectibleCardImgPathing=258.png
+CollectibleCardIndex=258
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ990]
+Name=Carta Asf
+GrhIndex=52190
+CollectibleCardImgPathing=259.png
+CollectibleCardIndex=259
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ991]
-GrhIndex=0
+Name=Carta Vult
+GrhIndex=52190
+CollectibleCardImgPathing=260.png
+CollectibleCardIndex=260
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ992]
 Name=Apprentice Hat
@@ -23201,10 +25012,20 @@ SkSastreria=70
 PIELTIGRE=48
 
 [OBJ994]
-GrhIndex=0
+Name=Carta Rata Gigante
+GrhIndex=52190
+CollectibleCardImgPathing=261.png
+CollectibleCardIndex=261
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ995]
-GrhIndex=0
+Name=Carta Horus
+GrhIndex=52190
+CollectibleCardImgPathing=262.png
+CollectibleCardIndex=262
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ996]
 Name=Boca Shield
@@ -23329,6 +25150,14 @@ MINDEF=0
 Valor=60
 texto=Change your appearance with this mask
 
+[OBJ1010]
+Name=Carta Goat
+GrhIndex=52190
+CollectibleCardImgPathing=264.png
+CollectibleCardIndex=264
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ1011]
 Name=Ridiculous Crown
 GrhIndex=10196
@@ -23337,6 +25166,14 @@ MAXDEF=0
 MINDEF=0
 Valor=60
 Texto=Change your appearance with this mask
+
+[OBJ1012]
+Name=Carta Gúl Belthor
+GrhIndex=52190
+CollectibleCardImgPathing=265.png
+CollectibleCardIndex=265
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1013]
 Name=Salmon Mask
@@ -23540,10 +25377,20 @@ Valor=50
 texto=Change your appearance with this mask
 
 [OBJ1036]
-GrhIndex=0
+Name=Carta Hunt
+GrhIndex=52190
+CollectibleCardImgPathing=267.png
+CollectibleCardIndex=267
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1037]
-GrhIndex=0
+Name=Carta Wolog
+GrhIndex=52190
+CollectibleCardImgPathing=268.png
+CollectibleCardIndex=268
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1038]
 Name=Natural mask
@@ -23644,8 +25491,53 @@ MINDEF=0
 Valor=50
 texto=Change your appearance with this mask
 
+[OBJ1072]
+Name=Carta April
+GrhIndex=52190
+CollectibleCardImgPathing=269.png
+CollectibleCardIndex=269
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1073]
+Name=Carta Birrin
+GrhIndex=52190
+CollectibleCardImgPathing=270.png
+CollectibleCardIndex=270
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1074]
+Name=Carta Braknor
+GrhIndex=52190
+CollectibleCardImgPathing=271.png
+CollectibleCardIndex=271
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1075]
+Name=Carta Druslo
+GrhIndex=52190
+CollectibleCardImgPathing=272.png
+CollectibleCardIndex=272
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1076]
+Name=Carta Helga
+GrhIndex=52190
+CollectibleCardImgPathing=273.png
+CollectibleCardIndex=273
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ1077]
-GrhIndex=0
+Name=Carta Joseph
+GrhIndex=52190
+CollectibleCardImgPathing=274.png
+CollectibleCardIndex=274
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1078]
 Name=Mail coif
@@ -23699,29 +25591,61 @@ RopajeHumano=144
 RopajeOrca=3151
 RopajeOrco=1112
 
+[OBJ1082]
+Name=Carta Kaelia
+GrhIndex=52190
+CollectibleCardImgPathing=275.png
+CollectibleCardIndex=275
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1083]
+Name=Carta Kaelithia
+GrhIndex=52190
+CollectibleCardImgPathing=276.png
+CollectibleCardIndex=276
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ1084]
-GrhIndex=0
+Name=Carta Kargosh
+GrhIndex=52190
+CollectibleCardImgPathing=277.png
+CollectibleCardIndex=277
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1085]
+Name=Carta Kildar
+GrhIndex=52190
+CollectibleCardImgPathing=278.png
+CollectibleCardIndex=278
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1086]
+Name=Carta Malakor
+GrhIndex=52190
+CollectibleCardImgPathing=279.png
+CollectibleCardIndex=279
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1087]
+Name=Carta Morgok
+GrhIndex=52190
+CollectibleCardImgPathing=280.png
+CollectibleCardIndex=280
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1088]
-Name=Necromancer Robe (E/G)
-GrhIndex=24994
-RopajeHumano=157
-RopajeElfo=157
-RopajeElfoOscuro=1577
-RopajeEnano=1670
-RopajeOrco=2234
-RopajeGnomo=1670
-RopajeHumana=4777
-RopajeElfa=4777
-RopajeElfaOscura=4859
-RopajeEnana=1670
-RopajeOrca=4843
-RopajeGnoma=1670
-ObjType=3
-MAXDEF=18
-MINDEF=14
-Valor=5000
-Texto=Túnica de Nigromante (Bajos)
+Name=Carta Sigurd
+GrhIndex=52190
+CollectibleCardImgPathing=281.png
+CollectibleCardIndex=281
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1089]
 Name=Necromancer Robe
@@ -23778,6 +25702,14 @@ RopajeHumano=142
 RopajeOrca=3149
 RopajeOrco=1110
 
+[OBJ1092]
+Name=Carta Varek
+GrhIndex=52190
+CollectibleCardImgPathing=282.png
+CollectibleCardIndex=282
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ1093]
 Name=Superior Wizard Hat
 Texto=Increases your magic resistance by 7%
@@ -23813,6 +25745,14 @@ Name=Reinforced Buckler
 ObjType=16
 Texto=Defense 3/5
 Valor=0
+
+[OBJ1097]
+Name=Carta Vespera
+GrhIndex=52190
+CollectibleCardImgPathing=283.png
+CollectibleCardIndex=283
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1098]
 Name=Gala Plates
@@ -23901,6 +25841,14 @@ Valor=9000
 MaxDef=25
 MinDef=20
 
+[OBJ1105]
+Name=Carta Vestor
+GrhIndex=52190
+CollectibleCardImgPathing=284.png
+CollectibleCardIndex=284
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ1106]
 Name=Shadows Armor +1
 Texto=Defense 30/37
@@ -23922,6 +25870,14 @@ RopajeHumano=50
 RopajeOrca=3388
 RopajeOrco=1192
 
+[OBJ1107]
+Name=Carta Voragoth
+GrhIndex=52190
+CollectibleCardImgPathing=285.png
+CollectibleCardIndex=285
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ1108]
 Name=Dark Dagger
 Texto=Damage 5/8
@@ -23930,6 +25886,22 @@ ObjType=2
 Valor=0
 MaxHit=8
 MinHit=5
+
+[OBJ1109]
+Name=Carta Xalthor
+GrhIndex=52190
+CollectibleCardImgPathing=286.png
+CollectibleCardIndex=286
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1110]
+Name=Carta Rona
+GrhIndex=52190
+CollectibleCardImgPathing=287.png
+CollectibleCardIndex=287
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1112]
 Name=Golden Armor
@@ -23983,14 +25955,12 @@ RopajeOrca=3460
 RopajeOrco=1416
 
 [OBJ1116]
-GrhIndex=39005
-MaxHit=12
-MinHit=8
-Municiones=1
-Name=Oak Bow +1
-ObjType=2
-Proyectil=1
-Texto=Damage 8/12
+Name=Carta Torin
+GrhIndex=52190
+CollectibleCardImgPathing=288.png
+CollectibleCardIndex=288
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1117]
 GrhIndex=38897
@@ -24002,11 +25972,93 @@ ObjType=2
 Proyectil=1
 Texto=Damage 9/13
 
+[OBJ1118]
+Name=Carta Irina
+GrhIndex=52190
+CollectibleCardImgPathing=289.png
+CollectibleCardIndex=289
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ1119]
-GrhIndex=0
+Name=Carta Ivar Costahilo
+GrhIndex=52190
+CollectibleCardImgPathing=290.png
+CollectibleCardIndex=290
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1120]
+Name=Carta Jace
+GrhIndex=52190
+CollectibleCardImgPathing=291.png
+CollectibleCardIndex=291
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1121]
+Name=Carta Ragnar
+GrhIndex=52190
+CollectibleCardImgPathing=292.png
+CollectibleCardIndex=292
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1122]
+Name=Carta Phirin
+GrhIndex=52190
+CollectibleCardImgPathing=293.png
+CollectibleCardIndex=293
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1123]
-GrhIndex=0
+Name=Carta Lirenn
+GrhIndex=52190
+CollectibleCardImgPathing=294.png
+CollectibleCardIndex=294
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1124]
+Name=Carta Frondelia
+GrhIndex=52190
+CollectibleCardImgPathing=295.png
+CollectibleCardIndex=295
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1125]
+Name=Carta Vorag
+GrhIndex=52190
+CollectibleCardImgPathing=296.png
+CollectibleCardIndex=296
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1127]
+Name=Carta Maestro Entomus
+GrhIndex=52190
+CollectibleCardImgPathing=297.png
+CollectibleCardIndex=297
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1128]
+Name=Carta Elsa
+GrhIndex=52190
+CollectibleCardImgPathing=298.png
+CollectibleCardIndex=298
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1129]
+Name=Carta Gabriel
+GrhIndex=52190
+CollectibleCardImgPathing=299.png
+CollectibleCardIndex=299
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1130]
 Name=Cartel Penthar al Norte
@@ -24108,6 +26160,22 @@ MaxDef=11
 MinDef=7
 Valor=1800
 
+[OBJ1143]
+Name=Carta Kendra
+GrhIndex=52190
+CollectibleCardImgPathing=300.png
+CollectibleCardIndex=300
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1144]
+Name=Carta Agatha
+GrhIndex=52190
+CollectibleCardImgPathing=301.png
+CollectibleCardIndex=301
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ1145]
 Name=Bengal Tiger Hide
 GrhIndex=38208
@@ -24143,7 +26211,36 @@ Objtype=21
 Texto=Increases your chance to upgrade skills by 50%
 
 [OBJ1150]
-GrhIndex=0
+Name=Carta Mildred
+GrhIndex=52190
+CollectibleCardImgPathing=302.png
+CollectibleCardIndex=302
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1151]
+Name=Carta Sylphira
+GrhIndex=52190
+CollectibleCardImgPathing=303.png
+CollectibleCardIndex=303
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1152]
+Name=Carta Xantoras
+GrhIndex=52190
+CollectibleCardImgPathing=304.png
+CollectibleCardIndex=304
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1153]
+Name=Carta Lurmix
+GrhIndex=52190
+CollectibleCardImgPathing=305.png
+CollectibleCardIndex=305
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1154]
 GrhIndex=38380
@@ -24235,20 +26332,125 @@ ObjType=8
 Texto=One of the purest divinities who have set foot on these lands, Simp has earned a place thanks to everything he has offered in benevolence of these parts.
 Agarrable=1
 
+[OBJ1167]
+Name=Carta Solveig
+GrhIndex=52190
+CollectibleCardImgPathing=306.png
+CollectibleCardIndex=306
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1168]
+Name=Carta Eldarika
+GrhIndex=52190
+CollectibleCardImgPathing=307.png
+CollectibleCardIndex=307
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1169]
+Name=Carta Brynhild
+GrhIndex=52190
+CollectibleCardImgPathing=308.png
+CollectibleCardIndex=308
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1170]
+Name=Carta Herrim
+GrhIndex=52190
+CollectibleCardImgPathing=309.png
+CollectibleCardIndex=309
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1171]
+Name=Carta Roth
+GrhIndex=52190
+CollectibleCardImgPathing=310.png
+CollectibleCardIndex=310
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1172]
+Name=Carta Costhas
+GrhIndex=52190
+CollectibleCardImgPathing=311.png
+CollectibleCardIndex=311
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1173]
+Name=Carta Alaric von Nix
+GrhIndex=52190
+CollectibleCardImgPathing=312.png
+CollectibleCardIndex=312
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1174]
+Name=Carta Henrietta
+GrhIndex=52190
+CollectibleCardImgPathing=313.png
+CollectibleCardIndex=313
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1175]
+Name=Carta Lhissa
+GrhIndex=52190
+CollectibleCardImgPathing=314.png
+CollectibleCardIndex=314
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ1176]
-GrhIndex=0
+Name=Carta Oshurk
+GrhIndex=52190
+CollectibleCardImgPathing=315.png
+CollectibleCardIndex=315
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1177]
+Name=Carta Ulf Arcas
+GrhIndex=52190
+CollectibleCardImgPathing=316.png
+CollectibleCardIndex=316
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1178]
-GrhIndex=0
+Name=Carta Pothir
+GrhIndex=52190
+CollectibleCardImgPathing=317.png
+CollectibleCardIndex=317
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1180]
-GrhIndex=0
+Name=Carta Isabella
+GrhIndex=52190
+CollectibleCardImgPathing=318.png
+CollectibleCardIndex=318
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1181]
-GrhIndex=0
+Name=Carta Magnus Elixius
+GrhIndex=52190
+CollectibleCardImgPathing=319.png
+CollectibleCardIndex=319
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1182]
-GrhIndex=0
+Name=Carta Galvin
+GrhIndex=52190
+CollectibleCardImgPathing=320.png
+CollectibleCardIndex=320
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1183]
 Name=ArmChair
@@ -24300,53 +26502,221 @@ ObjType=24
 Texto=Causa 180 a 220 puntos de daño.
 Valor=2400000
 
+[OBJ1190]
+Name=Carta Roswell
+GrhIndex=52190
+CollectibleCardImgPathing=321.png
+CollectibleCardIndex=321
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1191]
+Name=Carta Noland
+GrhIndex=52190
+CollectibleCardImgPathing=322.png
+CollectibleCardIndex=322
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ1192]
-GrhIndex=0
+Name=Carta Thessalio
+GrhIndex=52190
+CollectibleCardImgPathing=323.png
+CollectibleCardIndex=323
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1193]
+Name=Carta Azhara
+GrhIndex=52190
+CollectibleCardImgPathing=324.png
+CollectibleCardIndex=324
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1194]
+Name=Carta Windall
+GrhIndex=52190
+CollectibleCardImgPathing=325.png
+CollectibleCardIndex=325
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1195]
-GRHINDEX=0
+Name=Carta Ruma
+GrhIndex=52190
+CollectibleCardImgPathing=326.png
+CollectibleCardIndex=326
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1196]
+Name=Carta Delvina
+GrhIndex=52190
+CollectibleCardImgPathing=327.png
+CollectibleCardIndex=327
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1197]
+Name=Carta Alva del Caldero
+GrhIndex=52190
+CollectibleCardImgPathing=328.png
+CollectibleCardIndex=328
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1198]
-GRHINDEX=0
+Name=Carta Thaladir
+GrhIndex=52190
+CollectibleCardImgPathing=329.png
+CollectibleCardIndex=329
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1199]
+Name=Carta Finrod
+GrhIndex=52190
+CollectibleCardImgPathing=330.png
+CollectibleCardIndex=330
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1200]
+Name=Carta Giorgia
+GrhIndex=52190
+CollectibleCardImgPathing=331.png
+CollectibleCardIndex=331
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1201]
-GrhIndex=0
+Name=Carta Erindhir
+GrhIndex=52190
+CollectibleCardImgPathing=332.png
+CollectibleCardIndex=332
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1202]
+Name=Carta Pablo
+GrhIndex=52190
+CollectibleCardImgPathing=333.png
+CollectibleCardIndex=333
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1203]
+Name=Carta Ghelfa
+GrhIndex=52190
+CollectibleCardImgPathing=334.png
+CollectibleCardIndex=334
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1204]
+Name=Carta Naeris
+GrhIndex=52190
+CollectibleCardImgPathing=335.png
+CollectibleCardIndex=335
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1205]
+Name=Carta Elfer
+GrhIndex=52190
+CollectibleCardImgPathing=336.png
+CollectibleCardIndex=336
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1206]
-GrhIndex=0
+Name=Carta Ravenor
+GrhIndex=52190
+CollectibleCardImgPathing=337.png
+CollectibleCardIndex=337
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1207]
+Name=Carta Nargoth
+GrhIndex=52190
+CollectibleCardImgPathing=338.png
+CollectibleCardIndex=338
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1208]
-GRHINDEX=0
+Name=Carta Daena
+GrhIndex=52190
+CollectibleCardImgPathing=339.png
+CollectibleCardIndex=339
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1209]
+Name=Carta Ivir
+GrhIndex=52190
+CollectibleCardImgPathing=340.png
+CollectibleCardIndex=340
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1210]
-Name=Superior Druid Robe (E/G)
-GrhIndex=618
-RopajeHumano=222
-RopajeElfo=222
-RopajeElfoOscuro=1959
-RopajeEnano=621
-RopajeOrco=1943
-RopajeGnomo=621
-RopajeHumana=56
-RopajeElfa=222
-RopajeElfaOscura=3819
-RopajeEnana=621
-RopajeOrca=3402
-RopajeGnoma=621
-ObjType=3
-MAXDEF=37
-MINDEF=27
-Texto=Only usable by high-level druids.
-Valor=21000
+Name=Carta Banes
+GrhIndex=52190
+CollectibleCardImgPathing=341.png
+CollectibleCardIndex=341
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1211]
-GrhIndex=0
+Name=Carta Rethor
+GrhIndex=52190
+CollectibleCardImgPathing=342.png
+CollectibleCardIndex=342
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1212]
+Name=Carta Heather
+GrhIndex=52190
+CollectibleCardImgPathing=343.png
+CollectibleCardIndex=343
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1213]
-GrhIndex=0
+Name=Carta Gora
+GrhIndex=52190
+CollectibleCardImgPathing=344.png
+CollectibleCardIndex=344
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1214]
+Name=Carta Hiploro
+GrhIndex=52190
+CollectibleCardImgPathing=345.png
+CollectibleCardIndex=345
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1215]
+Name=Carta Lyra
+GrhIndex=52190
+CollectibleCardImgPathing=346.png
+CollectibleCardIndex=346
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1216]
-GrhIndex=0
+Name=Carta Van
+GrhIndex=52190
+CollectibleCardImgPathing=348.png
+CollectibleCardIndex=348
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1217]
 Name=Black Dragon Armor
@@ -24389,11 +26759,61 @@ MINDEF=1
 Valor=0
 Texto=It has magic resistance.
 
+[OBJ1219]
+Name=Carta Helgrim
+GrhIndex=52190
+CollectibleCardImgPathing=349.png
+CollectibleCardIndex=349
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ1220]
-GrhIndex=0
+Name=Carta Halving
+GrhIndex=52190
+CollectibleCardImgPathing=350.png
+CollectibleCardIndex=350
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1221]
+Name=Carta Thirgo Brumhildo
+GrhIndex=52190
+CollectibleCardImgPathing=351.png
+CollectibleCardIndex=351
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1222]
+Name=Carta Dargrim
+GrhIndex=52190
+CollectibleCardImgPathing=352.png
+CollectibleCardIndex=352
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1223]
+Name=Carta Arkhavel
+GrhIndex=52190
+CollectibleCardImgPathing=353.png
+CollectibleCardIndex=353
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1224]
+Name=Carta Darim
+GrhIndex=52190
+CollectibleCardImgPathing=354.png
+CollectibleCardIndex=354
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1225]
-GrhIndex=0
+Name=Carta Durgan
+GrhIndex=52190
+CollectibleCardImgPathing=355.png
+CollectibleCardIndex=355
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1226]
 Name=Adventurer Robe (E/G)
@@ -24420,30 +26840,60 @@ PielLobo=50
 PielOsoPardo=0
 PielOsoPolar=0
 
+[OBJ1227]
+Name=Carta Borin
+GrhIndex=52190
+CollectibleCardImgPathing=356.png
+CollectibleCardIndex=356
+CollectibleCardRarity=1
+ObjType=57
+
 [OBJ1228]
-GrhIndex=0
+Name=Carta Brunno
+GrhIndex=52190
+CollectibleCardImgPathing=357.png
+CollectibleCardIndex=357
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ1229]
+Name=Carta Eltherion
+GrhIndex=52190
+CollectibleCardImgPathing=358.png
+CollectibleCardIndex=358
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1230]
-GRHINDEX=0
+Name=Carta Thaldris
+GrhIndex=52190
+CollectibleCardImgPathing=359.png
+CollectibleCardIndex=359
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1231]
-GrhIndex=0
+Name=Carta Dwalin
+GrhIndex=52190
+CollectibleCardImgPathing=360.png
+CollectibleCardIndex=360
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1232]
-Name=Open door
-GrhIndex=6959
-ObjType=6
-llave=0
-Agarrable=1
-Texto=Puerta abierta
+Name=Carta Ingril
+GrhIndex=52190
+CollectibleCardImgPathing=361.png
+CollectibleCardIndex=361
+CollectibleCardRarity=1
+ObjType=57
 
 [OBJ1233]
-Name=Door closed
-GrhIndex=6961
-ObjType=6
-llave=0
-Agarrable=1
-Texto=Puerta cerrada
+Name=Eyewarden's Eye
+Texto=The eye retains an unnatural cold.
+GrhIndex=38231
+ObjType=51
+Valor=0
 
 [OBJ1236]
 Name=Black Wizard hat
@@ -45652,25 +48102,25 @@ ObjType=24
 Valor=1
 
 [OBJ4330]
-Name=Cota de Gladiador
-GrhIndex=2650
-RopajeHumano=295
-RopajeElfo=295
-RopajeElfoOscuro=2104
-RopajeEnano=789
-RopajeOrco=2088
-RopajeGnomo=789
-RopajeHumana=295
-RopajeElfa=295
-RopajeElfaOscura=2104
-RopajeEnana=789
-RopajeOrca=2088
-RopajeGnoma=789
+Name=Pirate Armor
+Texto=Defense 18/20
 ObjType=3
-MAXDEF=22
-MINDEF=15
-Valor=7200
-Texto=Cota de Gladiador (Drow)
+Valor=5100
+MaxDef=20
+MinDef=18
+GrhIndex=39424
+RopajeHumano=280
+RopajeElfo=280
+RopajeElfoOscuro=1772
+RopajeEnano=774
+RopajeOrco=1316
+RopajeGnomo=774
+RopajeHumana=2337
+RopajeElfa=2337
+RopajeElfaOscura=3869
+RopajeEnana=2868
+RopajeOrca=3436
+RopajeGnoma=2868
 
 [OBJ4332]
 Name=Ebony Armor
@@ -50864,16 +53314,361 @@ Texto=Casco de Dragón Negro
 [OBJ6489]
 Name=Carta Leviatan
 GrhIndex=52190
+CollectibleCardImgPathing=8.png
+CollectibleCardIndex=8
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6493]
+Name=Carta Brumak
+GrhIndex=52190
+CollectibleCardImgPathing=12.png
+CollectibleCardIndex=12
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6520]
+Name=Carta Dragón Rojo
+GrhIndex=52190
+CollectibleCardImgPathing=39.png
+CollectibleCardIndex=39
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6521]
+Name=Carta Dragón Negro
+GrhIndex=52190
+CollectibleCardImgPathing=40.png
+CollectibleCardIndex=40
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6522]
+Name=Carta Dragón Dorado
+GrhIndex=52190
+CollectibleCardImgPathing=41.png
+CollectibleCardIndex=41
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6523]
+Name=Carta Beholder
+GrhIndex=52190
+CollectibleCardImgPathing=42.png
+CollectibleCardIndex=42
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6525]
+Name=Carta Pyrrak
+GrhIndex=52190
+CollectibleCardImgPathing=44.png
+CollectibleCardIndex=44
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6526]
+Name=Carta Azhurion
+GrhIndex=52190
+CollectibleCardImgPathing=45.png
+CollectibleCardIndex=45
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6527]
+Name=Carta Verdanok
+GrhIndex=52190
+CollectibleCardImgPathing=46.png
+CollectibleCardIndex=46
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6529]
+Name=Carta Kadru
+GrhIndex=52190
+CollectibleCardImgPathing=48.png
+CollectibleCardIndex=48
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6530]
+Name=Carta Lynn
+GrhIndex=52190
+CollectibleCardImgPathing=49.png
+CollectibleCardIndex=49
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6534]
+Name=Carta Geot
+GrhIndex=52190
+CollectibleCardImgPathing=53.png
+CollectibleCardIndex=53
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6536]
+Name=Carta Hydrot
+GrhIndex=52190
+CollectibleCardImgPathing=55.png
+CollectibleCardIndex=55
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6538]
+Name=Carta Tortuga Titán
+GrhIndex=52190
+CollectibleCardImgPathing=57.png
+CollectibleCardIndex=57
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6546]
+Name=Carta Hormiga Negra
+GrhIndex=52190
+CollectibleCardImgPathing=65.png
+CollectibleCardIndex=65
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6547]
+Name=Carta Hormiga Amarilla
+GrhIndex=52190
+CollectibleCardImgPathing=66.png
+CollectibleCardIndex=66
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6548]
+Name=Carta Hormiga Verde
+GrhIndex=52190
+CollectibleCardImgPathing=67.png
+CollectibleCardIndex=67
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6549]
+Name=Carta Hormiga Azul
+GrhIndex=52190
+CollectibleCardImgPathing=68.png
+CollectibleCardIndex=68
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6550]
+Name=Carta Hormiga Berseker
+GrhIndex=52190
+CollectibleCardImgPathing=69.png
+CollectibleCardIndex=69
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6563]
+Name=Carta Esbirra Demoniaca
+GrhIndex=52190
+CollectibleCardImgPathing=82.png
+CollectibleCardIndex=82
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6565]
+Name=Carta Glazrath
+GrhIndex=52190
+CollectibleCardImgPathing=84.png
+CollectibleCardIndex=84
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6566]
+Name=Carta Gorath
+GrhIndex=52190
+CollectibleCardImgPathing=85.png
+CollectibleCardIndex=85
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6567]
+Name=Carta Escorpion Azul
+GrhIndex=52190
+CollectibleCardImgPathing=86.png
+CollectibleCardIndex=86
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6568]
+Name=Carta Ghoul de Hielo
+GrhIndex=52190
+CollectibleCardImgPathing=87.png
+CollectibleCardIndex=87
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6569]
+Name=Carta Pixie de Hielo
+GrhIndex=52190
+CollectibleCardImgPathing=88.png
+CollectibleCardIndex=88
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6571]
+Name=Carta Pixie de Fuego
+GrhIndex=52190
+CollectibleCardImgPathing=90.png
+CollectibleCardIndex=90
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6577]
+Name=Carta Suido
+GrhIndex=52190
+CollectibleCardImgPathing=96.png
+CollectibleCardIndex=96
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6597]
+Name=Carta Zevkar
+GrhIndex=52190
+CollectibleCardImgPathing=116.png
+CollectibleCardIndex=116
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6623]
+Name=Carta Bruja Escarlata
+GrhIndex=52190
+CollectibleCardImgPathing=142.png
+CollectibleCardIndex=142
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6629]
+Name=Carta Holt
+GrhIndex=52190
+CollectibleCardImgPathing=148.png
+CollectibleCardIndex=148
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6633]
+Name=Carta Asesino
+GrhIndex=52190
+CollectibleCardImgPathing=152.png
+CollectibleCardIndex=152
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6644]
+Name=Carta Bramador
+GrhIndex=52190
+CollectibleCardImgPathing=163.png
+CollectibleCardIndex=163
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6645]
+Name=Carta Albi
+GrhIndex=52190
+CollectibleCardImgPathing=164.png
+CollectibleCardIndex=164
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6693]
+Name=Carta Minotauro Barbaro
+GrhIndex=52190
+CollectibleCardImgPathing=212.png
+CollectibleCardIndex=212
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6694]
+Name=Carta Minotauro Guerrero
+GrhIndex=52190
+CollectibleCardImgPathing=213.png
+CollectibleCardIndex=213
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6697]
+Name=Carta Umbrax
+GrhIndex=52190
+CollectibleCardImgPathing=216.png
+CollectibleCardIndex=216
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6706]
+Name=Carta Lobo Salvaje
+GrhIndex=52190
+CollectibleCardImgPathing=225.png
+CollectibleCardIndex=225
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6709]
+Name=Carta Verraco Alfa
+GrhIndex=52190
+CollectibleCardImgPathing=228.png
+CollectibleCardIndex=228
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6710]
+Name=Carta Jabato
+GrhIndex=52190
+CollectibleCardImgPathing=229.png
+CollectibleCardIndex=229
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6714]
+Name=Carta Nivor
+GrhIndex=52190
+CollectibleCardImgPathing=233.png
+CollectibleCardIndex=233
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6716]
+Name=Carta Ignarok
+GrhIndex=52190
+CollectibleCardImgPathing=235.png
+CollectibleCardIndex=235
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6717]
+Name=Carta Phyrus
+GrhIndex=52190
+CollectibleCardImgPathing=236.png
+CollectibleCardIndex=236
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ6719]
 Name=Carta Kingion
 GrhIndex=52190
+CollectibleCardImgPathing=238.png
+CollectibleCardIndex=238
+CollectibleCardRarity=1
+ObjType=57
+
+[OBJ6744]
+Name=Carta Khem
+GrhIndex=52190
+CollectibleCardImgPathing=263.png
+CollectibleCardIndex=263
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ6747]
 Name=Carta Chasdo
 GrhIndex=52190
+CollectibleCardImgPathing=266.png
+CollectibleCardIndex=266
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ9000]
@@ -53385,6 +56180,98 @@ GrhIndex=49233
 ObjType=48
 Agarrable=0
 
+[OBJ5264]
+Name=Red Dragon Armor
+Texto=Exclusive Red Dragon skin, suitable for any class.
+ObjType=39
+Valor=0
+GrhIndex=2647
+RopajeHumano=247
+RopajeElfo=247
+RopajeElfoOscuro=1747
+RopajeEnano=747
+RopajeOrco=1247
+RopajeGnomo=747
+RopajeHumana=2156
+RopajeElfa=2156
+RopajeElfaOscura=3613
+RopajeEnana=2655
+RopajeOrca=3222
+RopajeGnoma=2655
+
+[OBJ5265]
+Name=Black Dragon Armor
+Texto=Exclusive Black Dragon skin, suitable for any class.
+ObjType=39
+Valor=0
+GrhIndex=41206
+RopajeHumano=248
+RopajeElfo=248
+RopajeElfoOscuro=1748
+RopajeEnano=748
+RopajeOrco=1248
+RopajeGnomo=748
+RopajeHumana=2157
+RopajeElfa=2157
+RopajeElfaOscura=3614
+RopajeEnana=2656
+RopajeOrca=3223
+RopajeGnoma=2656
+
+[OBJ5266]
+Name=Golden Dragon Armor
+Texto=Exclusive Golden Dragon skin, suitable for any class.
+ObjType=39
+Valor=0
+GrhIndex=1448
+RopajeHumano=245
+RopajeElfo=245
+RopajeElfoOscuro=1745
+RopajeEnano=745
+RopajeOrco=1245
+RopajeGnomo=745
+RopajeHumana=2154
+RopajeElfa=2154
+RopajeElfaOscura=3611
+RopajeEnana=2653
+RopajeOrca=3220
+RopajeGnoma=2653
+
+[OBJ5983]
+Name=Embryo
+Texto=Spider offspring with latent fire energy.
+GrhIndex=38438
+ObjType=100
+Valor=60
+
+[OBJ5984]
+Name=Resistant Silk
+Texto=Hardened silk from the Great Blaze.
+GrhIndex=38439
+ObjType=100
+Valor=100
+
+[OBJ5985]
+Name=Fang
+Texto=Phyrus fang infused with demonic energy.
+GrhIndex=38428
+ObjType=100
+Valor=60
+
+[OBJ5986]
+Name=Ear
+Texto=Phyrus ear marked by infernal flames.
+GrhIndex=38426
+ObjType=100
+Valor=100
+
+[OBJ5987]
+Name=Great Blaze's Chelicera
+Texto=Burning jaw fragment from a legendary beast.
+GrhIndex=38437
+ObjType=100
+Valor=250
+
 [OBJ5988]
 Name=Golem Heart
 Texto=Vital core with ancient stone energy.
@@ -53399,12 +56286,33 @@ GrhIndex=38425
 ObjType=100
 Valor=190
 
+[OBJ5990]
+Name=Underworld Scroll
+Texto=Ancient scroll containing forbidden secrets.
+GrhIndex=38427
+ObjType=100
+Valor=220
+
 [OBJ5991]
 Name=Mantis Arm
 Texto=Sharp limb from a swift creature.
 GrhIndex=38420
 ObjType=100
 Valor=130
+
+[OBJ5992]
+Name=Demon Horn
+Texto=Dark horn filled with evil energy.
+GrhIndex=38423
+ObjType=100
+Valor=240
+
+[OBJ5993]
+Name=Demon Wing
+Texto=Dark wing with traces of demonic energy.
+GrhIndex=38422
+ObjType=100
+Valor=280
 
 [OBJ5994]
 Name=Tunic of the Cross
@@ -58143,6 +61051,9 @@ ObjType=50
 [OBJ6361]
 Name=Carta Morvanna
 GrhIndex=52190
+CollectibleCardImgPathing=1.png
+CollectibleCardIndex=1
+CollectibleCardRarity=1
 ObjType=57
 
 [OBJ9014]
@@ -60624,6 +63535,100 @@ ObjType=6
 llave=1
 Agarrable=1
 Texto=This honorable house belongs to
+
+[OBJ9233]
+Name=Estuary Clothes (Woman)
+GrhIndex=59354
+ObjType=3
+MAXDEF=7
+MINDEF=5
+Valor=1000
+Texto=Ropa Estuaria (M)
+SKSastreria=25
+PielLobo=30
+PielOsoPardo=0
+PielOsoPolar=0
+
+[OBJ9234]
+Name=Witch Dress (H/E/EO-M)
+GrhIndex=11609
+RopajeHumano=604
+RopajeElfo=604
+RopajeElfoOscuro=3126
+RopajeEnano=2839
+RopajeOrco=3125
+RopajeGnomo=2839
+RopajeHumana=604
+RopajeElfa=604
+RopajeElfaOscura=3126
+RopajeEnana=2839
+RopajeOrca=3125
+RopajeGnoma=2839
+ObjType=3
+MAXDEF=20
+MINDEF=15
+Valor=7000
+Texto=Vestido de Bruja (H/E/EO-M)
+
+[OBJ9230]
+Name=rug
+Info=Abajo
+GrhIndex=26204
+ObjType=20
+Agarrable=1
+Texto=Tapete
+
+[OBJ9231]
+Name=Marquis Suit
+GrhIndex=11103
+RopajeHumano=30
+RopajeElfo=30
+RopajeElfoOscuro=1875
+RopajeEnano=1153
+RopajeOrco=1859
+RopajeGnomo=1153
+RopajeHumana=1216
+RopajeElfa=1216
+RopajeElfaOscura=2773
+RopajeEnana=2751
+RopajeOrca=2762
+RopajeGnoma=2751
+ObjType=3
+MAXDEF=10
+MINDEF=1
+Valor=700
+Texto=Traje de Marques
+
+[OBJ9232]
+GrhIndex=39005
+MaxHit=12
+MinHit=8
+Municiones=1
+Name=Oak Bow +1
+ObjType=2
+Proyectil=1
+Texto=Damage 8/12
+
+[OBJ9235]
+Name=Cota de Gladiador
+GrhIndex=2650
+RopajeHumano=295
+RopajeElfo=295
+RopajeElfoOscuro=2104
+RopajeEnano=789
+RopajeOrco=2088
+RopajeGnomo=789
+RopajeHumana=295
+RopajeElfa=295
+RopajeElfaOscura=2104
+RopajeEnana=789
+RopajeOrca=2088
+RopajeGnoma=789
+ObjType=3
+MAXDEF=22
+MINDEF=15
+Valor=7200
+Texto=Cota de Gladiador (Drow)
 
 [NPC9000]
 Name=Master Carpenter and Woodcutter <Carpinteria y Tala>

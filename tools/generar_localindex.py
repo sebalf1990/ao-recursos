@@ -57,7 +57,7 @@ def main(carpeta_base=None):
             "EXP", "GiveEXPClan", "ORO", "HP", "MaxHIT", "MinHIT","IsGlobalQuestBoss",
             "NoMapInfo", "PuedeInvocar",
             "NROITEMS", "Obj1", "Obj2", "Obj3", "NpcType", "Comercia","Nivel", "DisabledInBattleServer",
-            "DropCount"
+            "DropCount", "CollectibleCardIndex"
         ] + [f"Drop{i}" for i in range(1, 13)],  # 12 = MaxDropCount in the server (Modulo_InventANDobj.bas)
         "OBJ": [
             "Name", "GrhIndex", "ObjType", "Agarrable", "Texto", "Llave", "Valor", "MaxDef", "MinDef", "MinHit", "MaxHit","MaxArmorPenetrationFlat","MinArmorPenetrationFlat","ExtraCritAndStabChance",
@@ -69,7 +69,9 @@ def main(carpeta_base=None):
             "SKPociones", "SKSastreria", "Tuna", "Esporas", "Blodium","ElementalTags","FireEssence","WaterEssence",
             "EarthEssence", "WindEssence","Cala","RequiereObjeto", "RopajeElfa", "RopajeElfaOscura", "RopajeElfo",
             "RopajeElfoOscuro", "RopajeEnana", "RopajeEnano", "RopajeGnoma", "RopajeGnomo", "RopajeHumana", "RopajeHumano",        "RopajeOrca",
-            "RopajeOrco"
+            "RopajeOrco",
+            # collectible cards: the client draws CollectibleCardImgPathing in frmCollectibleCard (Recursos.bas)
+            "CollectibleCardImgPathing", "CollectibleCardIndex", "CollectibleCardRarity"
         ],
         "QUE": [
             "Name", "Desc", "DescFinal", "NextQuest", "Nombre", "PosMap", "Repetible", "RequiredLevel",
