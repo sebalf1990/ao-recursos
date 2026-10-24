@@ -73,7 +73,7 @@ Index=1975
 Index=2911
 
 [Obj6]'Ropa Estuaria (M)
-Index=508
+Index=9233
 
 [Obj7]'TÃºnica de Mago
 Index=196
