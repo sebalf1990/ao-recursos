@@ -41,6 +41,14 @@ OBJ_DAT = "\r\n".join([
     "en_name=",
     "en_Texto=",
     "",
+    "[OBJ4]",
+    "Name=Carta Xin",
+    "GrhIndex=52190",
+    "CollectibleCardImgPathing=450.png",
+    "CollectibleCardIndex=450",
+    "CollectibleCardRarity=1",
+    "ObjType=57",
+    "",
 ])
 
 NPC_DAT = "\r\n".join([
@@ -49,6 +57,7 @@ NPC_DAT = "\r\n".join([
     "",
     "[NPC1]",
     "Name=McGlashan",
+    "CollectibleCardIndex=450",
     "Desc=Compro lo que el mar puede ofrecer!",
     "en_desc=I buy what the sea can offer!",
     "DisabledInBattleServer=1",
@@ -163,6 +172,15 @@ class GenerarLocalindexTest(unittest.TestCase):
         # frmAlqui.frm (~402) lists it as an alchemy ingredient; plan 22.002 Q5.
         for lang in ["sp", "en", "pt", "fr", "it"]:
             self.assertEqual(dict(self.out(lang)["OBJ3"]).get("Esporas"), "3", lang)
+
+    def test_collectible_card_keys_reach_every_language(self) -> None:
+        # frmCollectibleCard draws ObjData.CollectibleCardImgPathing (Recursos.bas ~1288); plan 23.005.
+        for lang in ["sp", "en", "pt", "fr", "it"]:
+            card = dict(self.out(lang)["OBJ4"])
+            self.assertEqual(card.get("CollectibleCardImgPathing"), "450.png", lang)
+            self.assertEqual(card.get("CollectibleCardIndex"), "450", lang)
+            self.assertEqual(card.get("CollectibleCardRarity"), "1", lang)
+            self.assertEqual(dict(self.out(lang)["NPC1"]).get("CollectibleCardIndex"), "450", lang)
 
     def test_npc_drops_reach_every_language(self) -> None:
         # frmMapaGrande lists DropCount/DropN in the bestiary, the same keys the server rolls (MODULO_NPCs.bas).
