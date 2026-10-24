@@ -185,7 +185,7 @@ Snd3=Muerte de la criatura
 '---------------------------> Vendedores comunes 1 al 19 <---------------------------
 
 '---------------------------> Resucitadores <----------------------------------------
-[NPC1]
+[NPC1] 'cartas: plan 23.005
 Name=Juan XXI <Sacerdote>
 en_Name=John XXI <Priest>
 NpcType=1
@@ -203,8 +203,9 @@ Hostile=0
 ShowName=1
 Minimap=1
 NoMapInfo=1
+CollectibleCardIndex=137
 
-[NPC3]
+[NPC3] 'cartas: plan 23.005
 Name=Krix <Finanzas Goliath>
 en_Name=Banker <Goliath Finance>
 ShowName=1
@@ -223,7 +224,8 @@ SoundClose=609
 Minimap=1
 '--------------> Alquimia <--------------
 NoMapInfo=1
-[NPC4]
+CollectibleCardIndex=120
+[NPC4] 'cartas: plan 23.005
 Name=Lilith <Maestra Alquimista>
 IT_Desc=Benvenuto! Stai per viaggiare? Qui troverai le migliori pozioni.
 FR_Desc=Accueillir! Êtes-vous sur le point de voyager? Ici, vous trouverez les meilleures potions.
@@ -271,6 +273,7 @@ Minimap=1
 NpcType=0
 NoMapInfo=1
 TipoItems=11
+CollectibleCardIndex=99
 
 [NPC5] 'RESYNC desde sp_localindex.dat (lote3 cosmetico)
 Name=Daniel <Provisiones>
@@ -380,7 +383,7 @@ NumQuest=1
 QuestNumber1=2
 CambioAIdle=10
 
-[NPC12]
+[NPC12] 'cartas: plan 23.005
 Name=Durgan <Minero>
 IT_Desc=Ey, tu! Vuoi lavorare? Approccio, ho lo strumento necessario per estrarre minerali in questo mondo!
 FR_Desc=Ey, toi! Voulez-vous travailler? Approche, j'ai l'outil nécessaire pour extraire des minéraux dans ce monde!
@@ -411,6 +414,7 @@ SoundClose=711
 NpcType=0
 NoMapInfo=1
 TipoItems=23
+CollectibleCardIndex=355
 
 [NPC13] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Baldric <Herrador>
@@ -504,7 +508,7 @@ Heading=3
 
 '--------------> Vendedor General <--------------
 TipoItems=23
-[NPC15]
+[NPC15] 'cartas: plan 23.005
 Name=Joseph <Mercader>
 IT_Desc=Ciao, benvenuto nel mio negozio! Sono interessato a tutti i tipi di prodotti. Non dimenticare di passare di tanto in tanto, forse domani hai già comprato quello che stavi cercando!
 FR_Desc=Bonjour, bienvenue dans mon magasin! Je suis intéressé par toutes sortes de produits. N'oubliez pas de passer de temps en temps, peut-être que demain vous avez déjà acheté ce que vous cherchiez!
@@ -534,6 +538,7 @@ Minimap=1
 NpcType=0
 NoMapInfo=1
 TipoItems=100
+CollectibleCardIndex=274
 
 [NPC24] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Neria <Alquimias de Principiante>
@@ -561,7 +566,7 @@ Obj4=4338-1000
 Obj5=4334-1000
 TipoItems=11
 
-[NPC46] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC46] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Magnus Elixius <Alquimista Real>
 SoundOpen=955
 IT_Desc=Le migliori alchimie di questo Regno!
@@ -603,7 +608,8 @@ Hostile=0
 ReSpawn=0
 TipoItems=11
 CambioAIdle=10
-[NPC47] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+CollectibleCardIndex=319
+[NPC47] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Ravenor <Alquimista Caotico>
 SoundOpen=956
 IT_Desc=Con queste Alchimie puoi diffondere il Male!
@@ -646,6 +652,7 @@ Hostile=0
 ReSpawn=0
 TipoItems=11
 CambioAIdle=10
+CollectibleCardIndex=337
 [NPC48] 'newbie dungeon
 Name=Ether <Mercader de Combate>
 NpcType=0
@@ -718,7 +725,7 @@ Obj19=2926-1
 Obj20=2908-1
 TestOnly=1
 
-[NPC55] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC55] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Thaladir <Carpintero>
 SoundOpen=958
 IT_Desc=Benvenuti nel mio laboratorio! Qui il legno si trasforma in oggetti artigianali di incomparabili eleganza e potere.
@@ -758,7 +765,8 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 TipoItems=100
-[NPC56] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+CollectibleCardIndex=329
+[NPC56] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Elerion <Herrero Eterno>
 Desc=¡Bienvenidos a mi Forja! Aquí, la fortaleza elfa se forja en armas de incomparable belleza y poder.
 DescClose=¡Hasta luego!
@@ -772,8 +780,9 @@ Obj2=123-100
 Obj3=3987-100
 NoMapInfo=1
 CambioAIdle=10
+CollectibleCardIndex=183
 
-[NPC57] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC57] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Lirenn <Herrera>
 IT_Desc=Benvenuti nella mia fucina! Qui, l'abilità ELF ti proteggerà con le migliori armature e scudi.
 FR_Desc=Bienvenue à ma forge! Ici, la compétence Elf vous protégera avec la meilleure armure et boucliers.
@@ -809,7 +818,8 @@ Hostile=0
 ReSpawn=0
 DescClose=¡Hasta luego!
 TipoItems=2
-[NPC58]
+CollectibleCardIndex=294
+[NPC58] 'cartas: plan 23.005
 Name=Stavros <Tabernero>
 SoundOpen=601
 IT_Desc=Ei, tu! Noto nel tuo sguardo che hai bisogno di qualcosa di nuovo. Hai raggiunto il posto giusto!
@@ -838,8 +848,9 @@ Hostile=0
 Alineacion=0
 NoMapInfo=1
 TipoItems=13
+CollectibleCardIndex=80
 
-[NPC59]
+[NPC59] 'cartas: plan 23.005
 Name=Ines <Cocinera>
 IT_Desc=Ciao! Vieni a vedere questi prodotti, solo qui otterrai le migliori disposizioni di tutte queste terre.
 FR_Desc=Bonjour! Venez voir ces produits, seulement ici, vous obtiendrez les meilleures dispositions de toutes ces terres.
@@ -872,6 +883,7 @@ Hostile=0
 Alineacion=0
 NoMapInfo=1
 TipoItems=1
+CollectibleCardIndex=117
 
 [NPC74] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Onzrie <Hechicero de Arghal>
@@ -969,7 +981,7 @@ Alineacion=0
 DisabledInBattleServer=1
 NumQuest=1
 QuestNumber1=80
-[NPC97] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC97] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Grognak <Sacerdote de Penthar>
 Desc=Puedo sentir el poder fluir dentro de tí, dejalo salir!. Soy el shaman de este pueblo. si quieres ser resucitado escribe /Resucitar o haz clic derecho sobre mi.
 Body=6230
@@ -983,7 +995,8 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 Heading=3
-[NPC98] 'RESYNC desde sp_localindex.dat (lote2 colisiones)
+CollectibleCardIndex=141
+[NPC98] 'RESYNC desde sp_localindex.dat (lote2 colisiones) | cartas: plan 23.005
 Name=Nargog <Finanzas Goliath>
 SoundOpen=602
 SoundClose=609
@@ -1000,6 +1013,7 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 Heading=3
+CollectibleCardIndex=98
 [NPC100]
 Name=Therona <Tabernera>
 En_Name=Therona <Innkeeper>
@@ -1022,7 +1036,7 @@ SoundOpen=601
 SoundClose=603
 en_desc=I notice in your gaze that you need something fresh, you have come to the right place.
 
-[NPC101] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC101] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Daena <Provisiones>
 SoundOpen=600
 SoundClose=607
@@ -1061,7 +1075,8 @@ ReSpawn=0
 Heading=3
 DescClose=¡Hasta luego!
 TipoItems=1
-[NPC102]
+CollectibleCardIndex=339
+[NPC102] 'cartas: plan 23.005
 Name=Mildred <Hechicero>
 SoundOpen=894
 IT_Desc=Benvenuti nel mio negozio! Offro gli incantesimi base di questo mondo.
@@ -1098,6 +1113,7 @@ Hostile=0
 Alineacion=0
 NoMapInfo=1
 TipoItems=24
+CollectibleCardIndex=302
 
 [NPC105] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Durrotha <Mercader>
@@ -1167,7 +1183,7 @@ Hostile=0
 ReSpawn=0
 NumQuest=1
 QuestNumber1=47
-[NPC111] 'Murcielago | RESYNC sp_localindex
+[NPC111] 'Murcielago | RESYNC sp_localindex | cartas: plan 23.005
 Name=Costhas <Quest de Pesca>
 Desc=Este muelle es mi vida..
 Body=6114
@@ -1197,6 +1213,7 @@ MagicResistance=5
 MagicDef=0
 NumQuest=1
 QuestNumber1=326
+CollectibleCardIndex=311
 [NPC112] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=432
 Desc=¡El poder de Curar!
@@ -1327,7 +1344,7 @@ DisabledInBattleServer=1
 NumQuest=2
 QuestNumber1=325
 QuestNumber2=420
-[NPC250]
+[NPC250] 'cartas: plan 23.005
 Name=Robert <Gobernador de Ullathorpe>
 En_Name=Robert <Governor of Ullathorpe>
 ShowName=1
@@ -1367,8 +1384,9 @@ en_desc=The city of commerce is always looking for new members.
 NPCLVL=39
 MagicResistance=97
 MagicDef=15
+CollectibleCardIndex=175
 
-[NPC251]
+[NPC251] 'cartas: plan 23.005
 Name=Conrad <Gobernador de Nix>
 En_Name=Robert <Governor of Ullathorpe>
 ShowName=1
@@ -1388,8 +1406,9 @@ en_desc=Do you want to be a citizen of the best port in this world?
 NPCLVL=39
 MagicResistance=97
 MagicDef=15
+CollectibleCardIndex=173
 
-[NPC252] 'RESYNC desde sp_localindex.dat (lote3 pat B)
+[NPC252] 'RESYNC desde sp_localindex.dat (lote3 pat B) | cartas: plan 23.005
 Name=Maximus <Gobernador de Banderbill>
 Desc=Banderbill sigue siendo una ciudad muy grande, pero aún hay espacio para ciudadanos fieles al Rey Tancredo.
 Body=4002
@@ -1408,7 +1427,8 @@ GobernadorDe=3
 NPCLVL=39
 MagicResistance=97
 MagicDef=15
-[NPC253] 'RESYNC desde sp_localindex.dat (lote2 colisiones)
+CollectibleCardIndex=170
+[NPC253] 'RESYNC desde sp_localindex.dat (lote2 colisiones) | cartas: plan 23.005
 Name=Domus <Gobernador de Arkhein>
 Desc=¿Te interesaría convivir con el Mal?
 Body=4001
@@ -1426,7 +1446,8 @@ GobernadorDe=6
 NPCLVL=39
 MagicResistance=97
 MagicDef=15
-[NPC254] 'RESYNC desde sp_localindex.dat (lote3 pat B)
+CollectibleCardIndex=171
+[NPC254] 'RESYNC desde sp_localindex.dat (lote3 pat B) | cartas: plan 23.005
 Name=Vanessa <Gobernadora de Lindos>
 Desc=Una isla pequeña con un corazon enorme.. ¡Este podria ser tu lugar!
 Body=4004
@@ -1445,7 +1466,8 @@ GobernadorDe=4
 NPCLVL=39
 MagicResistance=97
 MagicDef=15
-[NPC255] 'RESYNC desde sp_localindex.dat (lote3 pat B)
+CollectibleCardIndex=174
+[NPC255] 'RESYNC desde sp_localindex.dat (lote3 pat B) | cartas: plan 23.005
 Name=Lady Élanor <Gobernadora de Arghal>
 Desc=¡Bienvenido a Arghal! Te recomiendo pasar la noche en nuestra ciudad. Cuando el sol se oculta, suele convertirse en un territorio muy peligroso.
 Body=4008
@@ -1467,10 +1489,11 @@ GobernadorDe=5
 NPCLVL=39
 MagicResistance=97
 MagicDef=15
+CollectibleCardIndex=176
 
 '--------------> Guardias Buenos del 260 al 269 <--------------
 
-[NPC267] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC267] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Nivor <Cabra de la Nieve>
 Body=5018
 Head=0
@@ -1493,6 +1516,9 @@ NumDropQuest=1
 DropQuest1=30-405-1-5
 PoderAtaque=200
 PoderEvasion=130
+CollectibleCardIndex=233
+DropCount=1
+Drop1=943-10000-1-1
 [NPC268] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Guardian de la Montaña
 Desc=¡No permito criaturas en esta zona!
@@ -1600,7 +1626,7 @@ MagicDef=15
 
 '--------------> Facciones <--------------
 DisabledInBattleServer=1
-[NPC303] 'RESYNC desde sp_localindex.dat (lote2 colisiones)
+[NPC303] 'RESYNC desde sp_localindex.dat (lote2 colisiones) | cartas: plan 23.005
 Name=Tancredo <Rey de Banderbill>
 Desc=Bienvenido al Palacio Real. Si lo que buscas es enlistarte, realiza en este acto el juramento frente a mí. ¡Ahora más que nunca la seguridad del Reino depende de Guerreros como tú!
 Body=5567
@@ -1628,6 +1654,7 @@ NPCLVL=40
 MagicResistance=100
 MagicDef=15
 DisabledInBattleServer=1
+CollectibleCardIndex=14
 [NPC302] 'RESYNC desde sp_localindex.dat (Merlina -> Dorim II Morgrim)
 Name=Dorim II <Rey de Morgrim>
 Desc=Bienvenido
@@ -1683,7 +1710,7 @@ DisabledInBattleServer=1
 '
 '--- fin copia privada ---
 
-[NPC304] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC304] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 '--- Sin Faccion, Val() da 0 y WorldActions.bas:299 lo manda a la rama de la ARMADA
 '--- REAL: el rey del Caos reclutaba para el Reino. Y como los unicos dos
 '--- Enlistador del juego son este y Tancredo, EnlistarCaos no tenia ningun camino
@@ -1710,8 +1737,9 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 DisabledInBattleServer=1
+CollectibleCardIndex=15
 
-[NPC400] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC400] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Abyssal
 Body=4827
 BodyIdle=4110
@@ -1729,13 +1757,15 @@ Attackable=1
 Hostile=1
 ReSpawn=0
 Alineacion=0
-DropCount=2
+DropCount=3
 Drop1=1217-50-1-1
 Drop2=1218-50-1-1
+Drop3=295-10000-1-1
 PoderAtaque=400
 PoderEvasion=275
 LanzaSpells=1
 Sp1=4
+CollectibleCardIndex=38
 
 [NPC401]
 Name=Pedestal
@@ -1977,7 +2007,7 @@ MagicDef=0
 NumQuest=1
 QuestNumber1=427
 
-[NPC410]'Desactivada quest57 por falta de npc
+[NPC410]'Desactivada quest57 por falta de npc | cartas: plan 23.005
 Name=Octis <Quest del Minero Explorador>
 En_Name=Octis <Quest Miner>
 NpcType=17
@@ -2002,6 +2032,7 @@ MagicResistance=15
 MagicDef=0
 NumQuest=1
 QuestNumber1=56
+CollectibleCardIndex=192
 
 [NPC413]
 Name=Galar
@@ -2018,7 +2049,7 @@ MagicResistance=15
 MagicDef=0
 Testonly=1
 
-[NPC415]
+[NPC415] 'cartas: plan 23.005
 Name=Heather <Quest de Equipamiento Basico>
 En_Name=Heather <Quest>
 NpcType=17
@@ -2041,6 +2072,7 @@ MagicResistance=15
 MagicDef=0
 NumQuest=1
 QuestNumber1=38
+CollectibleCardIndex=343
 
 [NPC420]
 Name=Cold <Ciudadano de Eleusis>
@@ -2159,7 +2191,7 @@ MagicDef=0
 '-----------------------------------------------------------------------------------------
 '-----------------------------------------------------------------------------------------
 
-[NPC500] 'Lobo de Dungeon Newbie
+[NPC500] 'Lobo de Dungeon Newbie | cartas: plan 23.005
 Name=Lobo
 ShowName=0
 en_Name=Wolf
@@ -2201,7 +2233,7 @@ NumDropQuest=2
 DropQuest1=10-2494-1-1
 DropQuest2=183-2481-1-1
 
-[NPC501] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC501] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Gallina
 Body=5151
 Head=0
@@ -2228,7 +2260,7 @@ pt_Name=Galinha
 fr_Name=Poule
 Domable=17
 
-[NPC502]'Serpiente cobra
+[NPC502]'Serpiente cobra | cartas: plan 23.005
 Name=Serpiente
 ShowName=0
 en_Name=Snake
@@ -2264,7 +2296,7 @@ Nivel=5
 DropCount=1
 Drop1=2479-1-1-1
 
-[NPC503]
+[NPC503] 'cartas: plan 23.005
 Name=Tortuga Mediterranea
 ShowName=0
 en_Name=Mediterranean Turtle
@@ -2301,7 +2333,7 @@ DropCount=1
 Drop1=1700-8-1-1
 Nivel=20
 
-[NPC506] 'Murcielago
+[NPC506] 'Murcielago | cartas: plan 23.005
 Name=Murciélago
 ShowName=0
 en_Name=Bat
@@ -2332,7 +2364,7 @@ Nivel=5
 DropCount=1
 Drop1=2480-1-1-1
 
-[NPC507] 'Zombie
+[NPC507] 'Zombie | cartas: plan 23.005
 Name=Zombie
 ShowName=0
 Head=0
@@ -2361,7 +2393,7 @@ MagicResistance=20
 MagicDef=0
 NpcType=0
 
-[NPC508] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC508] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Hormiga Roja
 Body=5228
 Head=0
@@ -2388,7 +2420,7 @@ pt_Name=Formiga Vermelha
 fr_Name=Fourmi Rouge
 it_Name=Formica Rossa
 
-[NPC509] 'Escorpion
+[NPC509] 'Escorpion | cartas: plan 23.005
 Name=Escorpión
 ShowName=0
 en_Name=Scorpion
@@ -2423,7 +2455,7 @@ Drop1=2494-1-1-1
 NumDropQuest=1
 DropQuest1=142-2494-1-1
 
-[NPC510] 'Orco
+[NPC510] 'Orco | cartas: plan 23.005
 Name=Orco
 ShowName=0
 en_Name=Orc
@@ -2458,7 +2490,7 @@ Nivel=20
 NumDropQuest=1
 DropQuest1=257-3-1-20
 
-[NPC511] 'Rata Newbie Dungeon
+[NPC511] 'Rata Newbie Dungeon | cartas: plan 23.005
 Name=Rata
 ShowName=0
 en_Name=Rat
@@ -2484,7 +2516,7 @@ Ataque1=5162
 NpcType=0
 Nivel=5
 
-[NPC512] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC512] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Body=4208
 GiveEXP=600
 MaxHp=1000
@@ -2544,7 +2576,7 @@ DropQuest1=17-2484-1-1
 '
 '--- fin copia privada ---
 
-[NPC513] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC513] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Morvanna
 Body=5512
 Head=0
@@ -2566,8 +2598,9 @@ Hostile=1
 ReSpawn=0
 Alineacion=0
 Nivel=28
-DropCount=1
+DropCount=2
 Drop1=1149-200-1-1
+Drop2=6361-10000-1-1
 NumDropQuest=1
 DropQuest1=142-2502-1-50
 PoderAtaque=210
@@ -2575,8 +2608,9 @@ PoderEvasion=147
 LanzaSpells=1
 Sp1=50
 IntervaloLanzarHechizo=3500
+CollectibleCardIndex=1
 
-[NPC514] 'Esqueleto
+[NPC514] 'Esqueleto | cartas: plan 23.005
 Name=Esqueleto
 ShowName=0
 en_Name=Skeleton
@@ -2606,7 +2640,7 @@ BodyIdle=5055
 Ataque1=5056
 NpcType=0
 
-[NPC515] ' Sirena | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC515] ' Sirena | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Sirena
 ShowName=0
 en_Name=Mermaid
@@ -2647,7 +2681,7 @@ Drop1=509-500-1-1
 Drop2=5180-1000-1-1
 ElementalTags=2
 
-[NPC516] 'Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC516] 'Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Leviatán
 ShowName=0
 Body=5443
@@ -2688,8 +2722,9 @@ NumDropQuest=2
 DropQuest1=233-2634-1-8
 DropQuest2=270-2796-1-200
 ElementalTags=2
+CollectibleCardIndex=8
 
-[NPC517] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC517] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Zulrik <Goblin Hechicero>
 Body=5101
 Head=0
@@ -2714,8 +2749,9 @@ LanzaSpells=1
 Sp1=43
 PoderAtaque=25
 PoderEvasion=35
+CollectibleCardIndex=21
 
-[NPC518] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC518] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Grunak
 Body=5098
 Head=0
@@ -2728,8 +2764,9 @@ GiveEXP=300
 GiveGLD=18
 MaxHIT=40
 MinHIT=28
-DropCount=1
+DropCount=2
 Drop1=1847-16-1-1
+Drop2=277-10000-1-1
 Nivel=15
 Heading=3
 Movement=2
@@ -2739,8 +2776,9 @@ PoderAtaque=65
 PoderEvasion=42
 en_Name=Barbarian Goblin
 fr_Name=Gobelin Barbare
+CollectibleCardIndex=20
 
-[NPC519] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC519] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Rikkar
 Body=5104
 Head=0
@@ -2759,8 +2797,11 @@ Attackable=1
 Hostile=1
 PoderAtaque=40
 PoderEvasion=33
+CollectibleCardIndex=22
+DropCount=1
+Drop1=279-10000-1-1
 
-[NPC520] 'Beholder
+[NPC520] 'Beholder | cartas: plan 23.005
 Name=Beholder
 ShowName=0
 Head=0
@@ -2787,12 +2828,14 @@ MagicResistance=50
 MagicDef=10
 NpcType=0
 Nivel=20
-DropCount=1
+DropCount=2
 Drop1=237-100-1-1
+Drop2=320-10000-1-1
 NumDropQuest=1
 DropQuest1=258-2769-1-50
+CollectibleCardIndex=42
 
-[NPC522] 'Goblin
+[NPC522] 'Goblin | cartas: plan 23.005
 Name=Goblin
 ShowName=0
 Head=0
@@ -2825,10 +2868,12 @@ BodyIdle=4897
 Ataque1=4898
 NpcType=0
 Nivel=8
-DropCount=1
+DropCount=2
 Drop1=1278-133-1-1
+Drop2=275-10000-1-1
 NumDropQuest=1
 DropQuest1=327-2159-1-5
+CollectibleCardIndex=18
 '[NPC523]
 'Name=Pirata Ladrón
 'en_Name=Thief Pirate
@@ -2857,7 +2902,7 @@ DropQuest1=327-2159-1-5
 '
 '--- fin copia privada ---
 
-[NPC523] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC523] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Zombie Guerrero
 Body=4943
 Head=0
@@ -2913,7 +2958,7 @@ PoderEvasion=55
 '
 '--- fin copia privada ---
 
-[NPC524] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC524] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Esqueleto Arquero
 Body=5063
 Head=0
@@ -2936,11 +2981,13 @@ ReSpawn=0
 Alineacion=0
 
 '--- COPIA PRIVADA ORIGINAL NPC525 (Pirata Amotinado) antes de oficializar; cliente oficial era Rodrick ---
-DropCount=1
+DropCount=2
 Drop1=2649-27-1-1
+Drop2=929-10000-1-1
 Nivel=20
 PoderAtaque=45
 PoderEvasion=65
+CollectibleCardIndex=221
 '[NPC525]
 'Name=Pirata Amotinado
 'en_Name=Mutinous Pirate
@@ -2972,7 +3019,7 @@ PoderEvasion=65
 '
 '--- fin copia privada ---
 
-[NPC525] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC525] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Rodrick
 Body=6052
 BodyIdle=6050
@@ -3029,10 +3076,13 @@ NumDropQuest=0
 'MagicDef=5
 '
 '--- fin copia privada ---
-DropCount=1
+DropCount=3
 Drop1=164-1000-1-1
+Drop2=4330-1000-1-1
+Drop3=835-10000-1-1
+CollectibleCardIndex=149
 
-[NPC526] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC526] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Holt
 Body=6049
 BodyIdle=6047
@@ -3087,11 +3137,13 @@ NumDropQuest=0
 'MagicDef=10
 '
 '--- fin copia privada ---
-DropCount=2
+DropCount=3
 Drop1=3988-1000-1-1
 Drop2=4341-1000-1-1
+Drop3=834-10000-1-1
+CollectibleCardIndex=148
 
-[NPC527] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC527] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Wolog
 Body=5119
 Head=0
@@ -3115,6 +3167,9 @@ Alineacion=0
 '--- COPIA PRIVADA ORIGINAL NPC528 (Hechicera Maldita) antes de oficializar; cliente oficial era Perro Zombie ---
 PoderAtaque=240
 PoderEvasion=160
+CollectibleCardIndex=268
+DropCount=1
+Drop1=1037-10000-1-1
 '[NPC528]'Bruja 2 Nueva Pitonisa
 'Name=Hechicera Maldita
 'en_Name=Cursed Sorceress
@@ -3152,7 +3207,7 @@ PoderEvasion=160
 '
 '--- fin copia privada ---
 
-[NPC528] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC528] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Perro Zombie
 Body=5175
 Head=0
@@ -3214,7 +3269,7 @@ PoderEvasion=30
 DropCount=1
 Drop1=5997-1-1-1
 
-[NPC529] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC529] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Troll Ártico
 Body=5388
 Head=0
@@ -3238,8 +3293,9 @@ ReSpawn=0
 Alineacion=0
 
 '--- COPIA PRIVADA ORIGINAL NPC530 (Gorila Blanco) antes de oficializar; cliente oficial era Goruk ---
-DropCount=1
-Drop1=407-325-1-1
+DropCount=2
+Drop1=407-1000-1-1
+Drop2=570-10000-1-1
 Nivel=28
 PoderAtaque=200
 PoderEvasion=160
@@ -3274,8 +3330,9 @@ LanzaSpells=2
 Sp1=25
 Sp2=51
 IntervaloLanzarHechizo=2500
+CollectibleCardIndex=93
 
-[NPC530] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC530] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Goruk
 Body=4922
 BodyIdle=4920
@@ -3307,8 +3364,9 @@ Drop1=5180-1000-1-1
 Drop2=293-10000-1-1
 ElementalTags=2
 DEF=5
+CollectibleCardIndex=36
 
-[NPC531] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC531] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Kryos
 Body=5437
 BodyIdle=5435
@@ -3322,6 +3380,7 @@ GiveGLD=0
 Nivel=28
 MaxHIT=190
 MinHIT=160
+CollectibleCardIndex=196
 
 '[NPC532]'
 'Name=Yeti
@@ -3354,7 +3413,7 @@ MinHIT=160
 '
 '--- fin copia privada ---
 
-[NPC532] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC532] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Gigante de Hielo
 Body=5145
 BodyIdle=5143
@@ -3375,9 +3434,11 @@ Attackable=1
 Hostile=1
 ReSpawn=0
 Alineacion=0
-DropCount=2
+DropCount=4
 Drop1=869-200-1-1
 Drop2=3394-1-1-1
+Drop3=931-10000-1-1
+Drop4=503-33-1-1
 Nivel=28
 PoderAtaque=225
 PoderEvasion=170
@@ -3385,6 +3446,7 @@ NumDropQuest=3
 DropQuest1=46-2739-1-2
 DropQuest2=46-3575-1-2
 DropQuest3=270-2800-1-50
+CollectibleCardIndex=223
 
 [NPC533]'
 Name=Mago Malvado
@@ -3452,7 +3514,7 @@ NpcType=0
 '
 '--- fin copia privada ---
 
-[NPC534] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC534] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Bruja Escarlata
 Body=6019
 BodyIdle=6017
@@ -3503,15 +3565,17 @@ PoderEvasion=180
 'MagicDef=0
 '
 '--- fin copia privada ---
-DropCount=2
+DropCount=3
 Drop1=37-20-15-50
 Drop2=38-20-10-35
+Drop3=828-10000-1-1
 LanzaSpells=2
 Sp1=25
 Sp2=41
 IntervaloLanzarHechizo=3500
+CollectibleCardIndex=142
 
-[NPC535] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC535] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Glacius
 Body=5142
 Head=0
@@ -3541,6 +3605,9 @@ PoderEvasion=165
 DEF=10
 NumDropQuest=1
 DropQuest1=260-2771-1-20
+CollectibleCardIndex=241
+DropCount=1
+Drop1=951-10000-1-1
 '[NPC536]
 'Name=Golem de Piedra
 'en_name=Stone Golem
@@ -3570,7 +3637,7 @@ DropQuest1=260-2771-1-20
 '
 '--- fin copia privada ---
 
-[NPC536] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC536] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Escarlath
 Body=4871
 Head=0
@@ -3623,10 +3690,11 @@ DropQuest1=37-2262-1-1
 'MagicDef=0
 '
 '--- fin copia privada ---
-DropCount=1
-Drop1=1679-200-1-1
+DropCount=2
+Drop1=511-10-1-1
+Drop2=1679-200-1-1
 
-[NPC537] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC537] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Gralthar
 Body=4905
 BodyIdle=4903
@@ -3650,7 +3718,7 @@ Nivel=20
 PoderAtaque=170
 PoderEvasion=90
 
-[NPC540]
+[NPC540] 'cartas: plan 23.005
 Name=Medusa
 ShowName=0
 Body=4856
@@ -3686,8 +3754,9 @@ MagicDef=5
 BodyIdle=4855
 Ataque1=4857
 NpcType=0
-DropCount=1
+DropCount=2
 Drop1=2846-100-1-1
+Drop2=508-330-1-1
 NumDropQuest=2
 DropQuest1=261-2772-1-200
 DropQuest2=270-2792-1-500
@@ -3720,7 +3789,7 @@ DropQuest2=270-2792-1-500
 '
 '--- fin copia privada ---
 
-[NPC541] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC541] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Ferrion
 Body=4878
 BodyIdle=4876
@@ -3741,12 +3810,14 @@ ReSpawn=0
 Alineacion=0
 
 '--- COPIA PRIVADA ORIGINAL NPC543 (Demonio) antes de oficializar; cliente oficial era Caballo Blanco ---
-DropCount=3
+DropCount=4
 Drop1=192-1-25-100
 Drop2=192-5-50-200
 Drop3=192-20-100-250
+Drop4=614-10000-1-1
 PoderAtaque=105
 PoderEvasion=80
+CollectibleCardIndex=109
 '[NPC543]
 'Name=Demonio
 'en_Name=Demon
@@ -3883,7 +3954,7 @@ Alineacion=0
 '
 '--- fin copia privada ---
 
-[NPC545] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC545] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Plariom
 Body=4881
 Head=0
@@ -3905,12 +3976,14 @@ ReSpawn=0
 Alineacion=0
 
 '--- COPIA PRIVADA ORIGINAL NPC546 (Golem de Oro) antes de oficializar; cliente oficial era Rata ---
-DropCount=3
+DropCount=4
 Drop1=193-1-25-100
 Drop2=193-5-50-200
 Drop3=193-20-100-250
+Drop4=340-10000-1-1
 PoderAtaque=185
 PoderEvasion=130
+CollectibleCardIndex=62
 '[NPC546]
 'Name=Golem de Oro
 'en_name=Golden Golem
@@ -3960,7 +4033,7 @@ Hostile=1
 ReSpawn=0
 Alineacion=0
 
-[NPC547]
+[NPC547] 'cartas: plan 23.005
 Name=Mantarraya
 ShowName=0
 en_name=Stingray
@@ -3987,7 +4060,7 @@ NPCLVL=10
 MagicResistance=25
 MagicDef=0
 
-[NPC548]
+[NPC548] 'cartas: plan 23.005
 Name=Tiburón
 ShowName=0
 en_name=Shark
@@ -4017,6 +4090,8 @@ MagicDef=5
 '--- COPIA PRIVADA ORIGINAL NPC549 (Gran Dragón Rojo) antes de oficializar; cliente oficial era Infernus ---
 GiveEXPClan=2
 Nivel=28
+DropCount=1
+Drop1=509-500-1-1
 '[NPC549]
 'Name=Gran Dragón Rojo
 'en_name=Great Red Dragon
@@ -4060,7 +4135,7 @@ Nivel=28
 '
 '--- fin copia privada ---
 
-[NPC549] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC549] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Infernus
 Body=4825
 BodyIdle=4046
@@ -4078,13 +4153,15 @@ Attackable=1
 Hostile=1
 ReSpawn=0
 Alineacion=0
-DropCount=2
+DropCount=3
 Drop1=481-50-1-1
 Drop2=2806-50-1-1
+Drop3=294-10000-1-1
 PoderAtaque=400
 PoderEvasion=275
 LanzaSpells=1
 Sp1=4
+CollectibleCardIndex=37
 
 [NPC550] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Serath <Quest de Lobos>
@@ -4101,7 +4178,7 @@ ReSpawn=0
 NumQuest=2
 QuestNumber1=166
 QuestNumber2=317
-[NPC551]
+[NPC551] 'cartas: plan 23.005
 Name=Oso Pardo
 ShowName=0
 en_name=Brown Bear
@@ -4146,7 +4223,7 @@ DropQuest1=65-2502-1-20
 DropQuest2=231-538-1-1000
 DropQuest3=323-459-1-10
 
-[NPC552]
+[NPC552] 'cartas: plan 23.005
 Name=Asesino
 ShowName=0
 en_Name=Assassin
@@ -4184,14 +4261,16 @@ GiveGLD=15
 BodyIdle=6041
 Ataque1=6042
 NpcType=0
-DropCount=2
+DropCount=3
 Drop1=165-120-1-1
 Drop2=1721-32-1-1
+Drop3=838-10000-1-1
 Nivel=20
 NumDropQuest=1
 DropQuest1=17-2738-1-1
+CollectibleCardIndex=152
 
-[NPC553]
+[NPC553] 'cartas: plan 23.005
 Name=Bandido
 ShowName=0
 en_Name=Bandit
@@ -4228,9 +4307,11 @@ BodyIdle=6044
 Ataque1=6045
 NpcType=0
 Nivel=20
-DropCount=2
+DropCount=3
 Drop1=1856-250-1-1
 Drop2=1721-40-1-1
+Drop3=837-10000-1-1
+CollectibleCardIndex=151
 
 [NPC554] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=4042
@@ -4282,7 +4363,7 @@ pt_Name=Mantharya tóxico
 '
 '--- fin copia privada ---
 
-[NPC555] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC555] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Liche Brujo
 Body=4865
 Head=0
@@ -4340,7 +4421,7 @@ NPCLVL=44
 MagicResistance=100
 MagicDef=15
 
-[NPC557]
+[NPC557] 'cartas: plan 23.005
 Name=Liche
 ShowName=0
 en_name=Lich
@@ -4369,7 +4450,7 @@ Nivel=23
 DropCount=1
 Drop1=237-100-1-1
 
-[NPC558] 'Lobo
+[NPC558] 'Lobo | cartas: plan 23.005
 Name=Lobo Salvaje
 ShowName=0
 en_name=Wild Wolf
@@ -4409,13 +4490,15 @@ QuizaProb=1
 NpcType=0
 GiveGLD=3
 Nivel=20
-DropCount=2
+DropCount=3
 Drop1=414-100-1-5
 Drop2=414-1-1-1
+Drop3=934-10000-1-1
 NumDropQuest=1
 DropQuest1=10-2494-1-1
+CollectibleCardIndex=225
 
-[NPC559]
+[NPC559] 'cartas: plan 23.005
 Name=Lobo Negro
 ShowName=0
 en_name=Black Wolf
@@ -4450,12 +4533,14 @@ NumQuiza=1
 QUIZADROPEA1=1146
 QuizaProb=1
 NpcType=0
-DropCount=2
+DropCount=3
 Drop1=1146-100-1-5
 Drop2=1146-1-1-1
+Drop3=936-10000-1-1
 Nivel=20
+CollectibleCardIndex=227
 
-[NPC560] 'Ogro
+[NPC560] 'Ogro | cartas: plan 23.005
 Name=Ogro
 ShowName=0
 en_name=Ogre
@@ -4487,7 +4572,7 @@ Ataque1=5031
 NpcType=0
 Nivel=28
 
-[NPC561] 'Ogro Guerrero | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC561] 'Ogro Guerrero | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Chasdo
 ShowName=0
 en_name=Chasdo
@@ -4526,6 +4611,7 @@ ElementalTags=4
 DropCount=2
 Drop1=5181-1000-1-1
 Drop2=6747-10000-1-1
+CollectibleCardIndex=266
 
 [NPC562] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Rathen <Quest de Bandido>
@@ -4565,7 +4651,7 @@ NPCLVL=17
 MagicResistance=43
 MagicDef=10
 DisabledInBattleServer=1
-[NPC565] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC565] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Anubis
 Body=4910
 BodyIdle=4908
@@ -4587,11 +4673,11 @@ ReSpawn=0
 Alineacion=0
 Nivel=20
 DropCount=1
-Drop1=412-400-1-1
+Drop1=412-700-1-1
 PoderAtaque=160
 PoderEvasion=120
 
-[NPC569] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC569] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Cápitan Pyke
 Body=5563
 BodyIdle=5561
@@ -4619,8 +4705,9 @@ en_Name=Captain Pyke
 pt_Name=Capitao Pyke
 fr_Name=Capitaine Pyke
 it_Name=Capitano Pyke
+CollectibleCardIndex=51
 
-[NPC571] 'RESYNC desde sp_localindex.dat (mapa34 collision fix)
+[NPC571] 'RESYNC desde sp_localindex.dat (mapa34 collision fix) | cartas: plan 23.005
 Name=Delvina <Quest de Zombies>
 Desc=¡Buscamos valientes como tú para la defensa de esta ciudad!
 Body=6106
@@ -4682,6 +4769,7 @@ DontHitVisiblePlayers=1
 PosOrig=1
 NumQuest=1
 QuestNumber1=322
+CollectibleCardIndex=327
 
 [NPC572] 'RESYNC desde sp_localindex.dat (validacion Ullathorpe extras quest collision)
 Name=Khemet <Quest del Manto del Sol Caido>
@@ -4793,7 +4881,7 @@ QuestNumber2=414
 '
 '--- fin copia privada ---
 
-[NPC575] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC575] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Gorath
 Body=5473
 BodyIdle=5471
@@ -4822,8 +4910,9 @@ Drop1=5182-1000-1-1
 Drop2=562-10000-1-1
 ElementalTags=8
 DEF=10
+CollectibleCardIndex=85
 
-[NPC576] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC576] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Cobra
 Body=4191
 Head=0
@@ -4845,7 +4934,7 @@ MinHp=110
 PoderAtaque=31
 PoderEvasion=21
 Domable=67
-[NPC581] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC581] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Compi
 Body=4813
 Head=0
@@ -4868,7 +4957,7 @@ DisabledInBattleServer=1
 MinHp=500
 PoderAtaque=135
 PoderEvasion=125
-[NPC582] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC582] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Compi Ambar
 Body=4816
 Head=0
@@ -4892,7 +4981,7 @@ MinHp=500
 PoderAtaque=135
 PoderEvasion=125
 
-[NPC584]
+[NPC584] 'cartas: plan 23.005
 Name=Rata Gigante
 ShowName=0
 En_Name=Giant Rat
@@ -4919,8 +5008,11 @@ MagicDef=0
 BodyIdle=5164
 Ataque1=5165
 NpcType=0
+CollectibleCardIndex=261
+DropCount=1
+Drop1=994-10000-1-1
 
-[NPC585]
+[NPC585] 'cartas: plan 23.005
 Name=Piraña
 ShowName=0
 Head=0
@@ -4951,7 +5043,7 @@ NpcType=0
 NumDropQuest=1
 DropQuest1=206-2811-1-100
 
-[NPC586]
+[NPC586] 'cartas: plan 23.005
 Name=Galeón Fantasmal
 ShowName=0
 En_Name=Ghostly Galleon
@@ -5018,7 +5110,7 @@ Drop1=2104-20-1-1
 '
 '--- fin copia privada ---
 
-[NPC587] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC587] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Pyrrak
 Body=5047
 Head=0
@@ -5040,15 +5132,17 @@ Hostile=1
 ReSpawn=0
 Alineacion=0
 Nivel=20
-DropCount=2
+DropCount=3
 Drop1=1677-580-1-1
 Drop2=1678-580-1-1
+Drop3=322-10000-1-1
 NumDropQuest=1
 DropQuest1=198-2534-1-40
 PoderAtaque=160
 PoderEvasion=115
 LanzaSpells=1
 Sp1=41
+CollectibleCardIndex=44
 
 [NPC589] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=5488
@@ -5172,7 +5266,7 @@ MagicResistance=77
 MagicDef=10
 NpcType=0
 
-[NPC593] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC593] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Body=5594
 GiveEXP=600
 MaxHp=1200
@@ -5195,8 +5289,11 @@ en_Name=Albuss
 fr_Name=Albuss
 it_Name=Albuss
 pt_Name=Albuss
+CollectibleCardIndex=245
+DropCount=1
+Drop1=955-10000-1-1
 
-[NPC594] 'RESYNC desde sp_localindex.dat (validacion Ullathorpe extras visual hostile)
+[NPC594] 'RESYNC desde sp_localindex.dat (validacion Ullathorpe extras visual hostile) | cartas: plan 23.005
 Name=Quila
 NpcType=0
 ShowName=0
@@ -5229,6 +5326,9 @@ MagicResistance=75
 MagicDef=10
 '--- COPIA PRIVADA ORIGINAL NPC595 (Pequeño Dragón Azul) antes de oficializar; cliente oficial era Azhurion ---
 Ataque1=5590
+CollectibleCardIndex=246
+DropCount=1
+Drop1=956-10000-1-1
 '[NPC595]
 'Name=Pequeño Dragón Azul
 'En_Name=Little Blue Dragon
@@ -5261,7 +5361,7 @@ Ataque1=5590
 '
 '--- fin copia privada ---
 
-[NPC595] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC595] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Azhurion
 Body=5041
 Head=0
@@ -5289,6 +5389,9 @@ NumDropQuest=1
 DropQuest1=329-2812-1-20
 LanzaSpells=1
 Sp1=41
+CollectibleCardIndex=45
+DropCount=1
+Drop1=323-10000-1-1
 
 [NPC596] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Cofre de Recompensa Patreon
@@ -5427,7 +5530,7 @@ NPCLVL=30
 MagicResistance=75
 MagicDef=10
 
-[NPC605] 'Araña Drenaje 1
+[NPC605] 'Araña Drenaje 1 | cartas: plan 23.005
 Name=Araña Negra
 ShowName=0
 En_Name=Black Spider
@@ -5459,7 +5562,7 @@ NpcType=0
 Nivel=20
 NumDropQuest=0
 
-[NPC606] 'Araña Veneno a distancia
+[NPC606] 'Araña Veneno a distancia | cartas: plan 23.005
 Name=Araña Roja
 ShowName=0
 En_Name=Red Spider
@@ -5493,7 +5596,7 @@ Ataque1=5254
 NpcType=0
 Nivel=20
 
-[NPC607] 'Araña colmillos a distancia
+[NPC607] 'Araña colmillos a distancia | cartas: plan 23.005
 Name=Araña Verde
 ShowName=0
 En_Name=Green Spider
@@ -5527,7 +5630,7 @@ Ataque1=5260
 NpcType=0
 Nivel=20
 
-[NPC608] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC608] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Horus
 Body=5139
 Head=0
@@ -5549,7 +5652,10 @@ MinHIT=45
 MinHp=2600
 PoderAtaque=140
 PoderEvasion=115
-[NPC609]
+CollectibleCardIndex=262
+DropCount=1
+Drop1=995-10000-1-1
+[NPC609] 'cartas: plan 23.005
 Name=Lagarto
 ShowName=0
 En_Name=Lizard
@@ -5583,7 +5689,7 @@ MagicDef=10
 NpcType=0
 Nivel=15
 
-[NPC611] 'murcielago gigante
+[NPC611] 'murcielago gigante | cartas: plan 23.005
 Name=Murciélago Gigante
 ShowName=0
 En_Name=Giant Bat
@@ -5706,7 +5812,7 @@ MagicResistance=95
 MagicDef=15
 TESTONLY=1
 
-[NPC621] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC621] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Golem de Piedra
 Body=4875
 Head=0
@@ -5734,6 +5840,9 @@ MinHIT=215
 MinHp=15000
 PoderAtaque=260
 PoderEvasion=190
+CollectibleCardIndex=59
+DropCount=1
+Drop1=337-10000-1-1
 [NPC622] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Griffo
 Body=4836
@@ -5759,7 +5868,7 @@ MinHIT=250
 Ataque1=4835
 GiveEXP=0
 GiveGLD=0
-[NPC623] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC623] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Zeraphon
 Body=5425
 BodyIdle=5423
@@ -5788,6 +5897,10 @@ DisabledInBattleServer=1
 MinHp=30000
 PoderAtaque=230
 PoderEvasion=150
+CollectibleCardIndex=9
+DropCount=2
+Drop1=266-10000-1-1
+Drop2=503-33-1-1
 [NPC624] 'esferas del Dragón
 Name=Esfera del Dragón 5
 Head=0
@@ -5803,7 +5916,7 @@ MagicResistance=95
 MagicDef=15
 TESTONLY=1
 
-[NPC625] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC625] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Verdanok
 Body=5044
 BodyIdle=5042
@@ -5832,6 +5945,9 @@ PoderAtaque=170
 PoderEvasion=125
 LanzaSpells=1
 Sp1=40
+CollectibleCardIndex=46
+DropCount=1
+Drop1=324-10000-1-1
 [NPC626] 'esferas del Dragón
 Name=Esfera del Dragón 7
 Head=0
@@ -6124,7 +6240,7 @@ Movement=2
 Attackable=1
 Hostile=1
 
-[NPC643] 'chico
+[NPC643] 'chico | cartas: plan 23.005
 Name=Leviatán Pequeño
 ShowName=0
 Body=5452
@@ -6154,7 +6270,7 @@ Ataque1=5451
 NpcType=0
 Nivel=28
 
-[NPC644]
+[NPC644] 'cartas: plan 23.005
 Name=Gúl Belthor
 ShowName=0
 Body=5015
@@ -6190,8 +6306,9 @@ NoWiki=1
 BodyIdle=5013
 Ataque1=5014
 NpcType=0
+CollectibleCardIndex=265
 
-[NPC645]
+[NPC645] 'cartas: plan 23.005
 Name=Khem
 ShowName=0
 En_Name=Mummy
@@ -6219,8 +6336,11 @@ Nivel=20
 NumDropQuest=2
 DropQuest1=156-3534-1-40
 DropQuest2=160-2250-1-10
+CollectibleCardIndex=263
+DropCount=1
+Drop1=6744-10000-1-1
 
-[NPC646]
+[NPC646] 'cartas: plan 23.005
 Name=Escarabajo Gigante
 ShowName=0
 En_Name=Giant Beetle
@@ -6248,7 +6368,7 @@ Nivel=20
 DropCount=1
 Drop1=239-100-1-1
 
-[NPC647]
+[NPC647] 'cartas: plan 23.005
 Name=Escarabajo
 ShowName=0
 en_name=Beetle
@@ -6326,7 +6446,7 @@ NPCLVL=12
 MagicResistance=30
 MagicDef=0
 
-[NPC652] 'Araña nueva verde para jourmut
+[NPC652] 'Araña nueva verde para jourmut | cartas: plan 23.005
 Name=Araña Esmeralda
 ShowName=0
 en_name=Emerald Spider
@@ -6393,7 +6513,7 @@ MagicDef=0
 NumDropQuest=1
 DropQuest1=10-2598-1-1
 
-[NPC655] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC655] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Espíritu del Bosque
 Body=4250
 Head=0
@@ -6430,7 +6550,7 @@ MagicDef=10
 GiveEXPClan=1
 Nivel=28
 DisabledInBattleServer=1
-[NPC656]'Dactila
+[NPC656]'Dactila | cartas: plan 23.005
 Name=Dactila
 ShowName=0
 En_Name=Dactyl
@@ -6584,7 +6704,7 @@ NPCLVL=22
 MagicResistance=55
 MagicDef=5
 
-[NPC661] 'Oso Marron
+[NPC661] 'Oso Marron | cartas: plan 23.005
 Name=Ursidae
 ShowName=0
 Head=0
@@ -6624,7 +6744,7 @@ Nivel=28
 NumDropQuest=1
 DropQuest1=324-464-1-20
 
-[NPC663] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC663] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Alacrán
 Body=4338
 Head=0
@@ -6645,7 +6765,7 @@ Hostile=1
 PoderAtaque=42
 PoderEvasion=26
 
-[NPC664] Escorpion rojo
+[NPC664] Escorpion rojo 'cartas: plan 23.005
 Name=Hotten
 ShowName=0
 Head=0
@@ -6675,7 +6795,7 @@ MagicDef=0
 NpcType=0
 Nivel=5
 
-[NPC666] Elapidae
+[NPC666] Elapidae 'cartas: plan 23.005
 Name=Elapidae
 ShowName=0
 Head=0
@@ -6709,7 +6829,7 @@ MagicDef=0
 NpcType=0
 Nivel=5
 
-[NPC668] Scramer Picaro 
+[NPC668] Scramer Picaro  'cartas: plan 23.005
 Name=Scramer Acolito
 ShowName=0
 En_Name=Rogue Scramer
@@ -6742,7 +6862,7 @@ MagicDef=0
 NpcType=0
 Nivel=15
 
-[NPC669] Scramer encapuchado
+[NPC669] Scramer encapuchado 'cartas: plan 23.005
 Name=Scramer Sombrio
 ShowName=0
 En_Name=Hooded Scramer
@@ -6776,7 +6896,7 @@ Nivel=15
 NumDropQuest=1
 DropQuest1=210-2511-1-2
 
-[NPC670] Scramer anciano
+[NPC670] Scramer anciano 'cartas: plan 23.005
 Name=Scramer Nigromante
 ShowName=0
 En_Name=Old Scramer
@@ -6810,7 +6930,7 @@ LanzaSpells=1
 Sp1=25
 IntervaloLanzarHechizo=4000
 
-[NPC671] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC671] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Body=4357
 GiveEXP=600
 MaxHp=1000
@@ -6825,7 +6945,7 @@ Ataque1=4356
 NpcType=0
 Nivel=20
 DropCount=1
-Drop1=525-50-1-1
+Drop1=525-20-1-1
 Heading=3
 Movement=2
 Attackable=1
@@ -6838,7 +6958,7 @@ fr_Name=Camion
 it_Name=Scamer
 pt_Name=Scamer
 
-[NPC673]Vulpes 'Zorro
+[NPC673]Vulpes 'Zorro | cartas: plan 23.005
 Name=Vulpes
 ShowName=0
 Head=0
@@ -6902,7 +7022,7 @@ DropQuest1=198-2701-2-2
 '
 '--- fin copia privada ---
 
-[NPC674] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC674] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Colmillo Blanco
 Body=5579
 Head=0
@@ -6960,7 +7080,7 @@ PoderEvasion=140
 '--- fin copia privada ---
 Domable=210
 
-[NPC675] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC675] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Colmillo Blanco
 Body=5579
 Head=0
@@ -6984,8 +7104,11 @@ Alineacion=0
 Nivel=28
 PoderAtaque=175
 PoderEvasion=135
+CollectibleCardIndex=224
+DropCount=1
+Drop1=932-10000-1-1
 
-[NPC676] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC676] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Body=5573
 GiveEXP=100
 MaxHp=200
@@ -7047,8 +7170,11 @@ pt_Name=Lobo cinza
 '
 '--- fin copia privada ---
 Domable=100
+CollectibleCardIndex=226
+DropCount=1
+Drop1=935-10000-1-1
 
-[NPC677] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC677] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Kairo
 Body=5133
 Head=0
@@ -7114,7 +7240,7 @@ DropQuest4=160-2223-1-10
 '
 '--- fin copia privada ---
 
-[NPC678] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC678] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Esqueleto Agresor
 Body=4374
 Head=0
@@ -7143,7 +7269,7 @@ PoderAtaque=92
 PoderEvasion=35
 NumDropQuest=3
 
-[NPC679] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC679] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Body=4296
 GiveEXP=385
 MaxHp=700
@@ -7170,7 +7296,7 @@ pt_Name=Aranha misteriosa
 NumDropQuest=1
 DropQuest1=58-2497-1-10000
 
-[NPC681] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC681] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Araña del Desierto
 Body=4303
 Head=0
@@ -7251,7 +7377,7 @@ NPCLVL=1
 MagicResistance=3
 MagicDef=0
 
-[NPC685] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC685] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Grakka <Alquimista>
 SoundOpen=700
 SoundClose=703
@@ -7298,6 +7424,7 @@ NPCLVL=1
 MagicResistance=3
 MagicDef=0
 TipoItems=11
+CollectibleCardIndex=106
 [NPC691] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Body=4417
 GiveEXP=48
@@ -7401,7 +7528,7 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-[NPC721] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC721] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Brumak
 Body=5455
 BodyIdle=5453
@@ -7424,9 +7551,10 @@ Alineacion=0
 
 '--- COPIA PRIVADA ORIGINAL NPC722 (Cazadora Letal <Orden de las Sombras>) antes de oficializar; cliente oficial era Espectro ---
 Nivel=20
-DropCount=2
+DropCount=3
 Drop1=1679-840-1-1
 Drop2=1680-840-1-1
+Drop3=269-10000-1-1
 PoderAtaque=165
 PoderEvasion=120
 NumDropQuest=0
@@ -7457,6 +7585,7 @@ NumDropQuest=0
 LanzaSpells=1
 Sp1=28
 IntervaloLanzarHechizo=7000
+CollectibleCardIndex=12
 
 [NPC722] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
 Name=Espectro
@@ -7588,7 +7717,7 @@ MagicDef=0
 NoWiki=1
 NpcType=0
 
-[NPC750] 
+[NPC750]  'cartas: plan 23.005
 Name=Frogian Azulino
 ShowName=0
 En_Name=Blue Frogian
@@ -7625,7 +7754,7 @@ Nivel=20
 NumDropQuest=1
 DropQuest1=286-2475-1-40
 
-[NPC751] 
+[NPC751]  'cartas: plan 23.005
 Name=Frogian Hechicero
 ShowName=0
 En_Name=Sorcerer Frogian
@@ -7666,7 +7795,7 @@ LanzaSpells=1
 Sp1=3
 IntervaloLanzarHechizo=5000
 
-[NPC752] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC752] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Laican
 Body=4804
 Head=0
@@ -7691,7 +7820,9 @@ Nivel=20
 MinHp=6500
 PoderAtaque=180
 PoderEvasion=90
-[NPC753] 
+DropCount=1
+Drop1=511-10-1-1
+[NPC753]  'cartas: plan 23.005
 Name=Frogian Reptiliano
 ShowName=0
 En_Name=Reptilian Frogian
@@ -7730,7 +7861,7 @@ NumDropQuest=2
 DropQuest1=214-2231-1-2
 DropQuest2=286-2475-1-40
 
-[NPC755]'new gigante | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC755]'new gigante | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Gigantor
 ShowName=0
 Head=0
@@ -7845,7 +7976,7 @@ MagicDef=0
 NumDropQuest=1
 DropQuest1=181-3330-1-1
 
-[NPC900] Lobo gris nuevo
+[NPC900] Lobo gris nuevo 'cartas: plan 23.005
 Name=Ululantis
 ShowName=0
 Head=0
@@ -7877,7 +8008,7 @@ IntervaloRespawnMin=180
 NpcType=0
 Nivel=20
 
-[NPC901] Lobo gris nuevo
+[NPC901] Lobo gris nuevo 'cartas: plan 23.005
 Name=Ferus
 ShowName=0
 Head=0
@@ -7912,7 +8043,7 @@ QuizaProb=250
 NpcType=0
 Nivel=20
 
-[NPC902]'Zorro Blanco
+[NPC902]'Zorro Blanco | cartas: plan 23.005
 Name=Vulpes Gris
 ShowName=0
 En_Name=Gray Vulpes
@@ -7943,7 +8074,7 @@ NpcType=0
 Nivel=8
 Domable=100
 
-[NPC922]
+[NPC922] 'cartas: plan 23.005
 Name=Dragón Dorado
 ShowName=0
 En_Name=Golden Dragon
@@ -7988,12 +8119,15 @@ BodyIdle=5507
 Ataque1=5508
 NpcType=0
 GiveEXPClan=3
-DropCount=1
+DropCount=3
 Drop1=467-1-1-1
+Drop2=5266-10000-1-1
+Drop3=298-10000-1-1
 NumDropQuest=2
 DropQuest1=249-2837-1-40
 DropQuest2=270-2793-1-100
 DisabledInBattleServer=1
+CollectibleCardIndex=41
 '[NPC923]
 'Name=Dragón Cárdeno
 'En_Name=Scarlet Dragon
@@ -8035,7 +8169,7 @@ DisabledInBattleServer=1
 '
 '--- fin copia privada ---
 
-[NPC923] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC923] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Nocthral
 Body=5050
 BodyIdle=5048
@@ -8059,10 +8193,13 @@ Alineacion=0
 Nivel=20
 PoderAtaque=240
 PoderEvasion=130
-DropCount=1
-Drop1=1663-200-1-1
+DropCount=3
+Drop1=511-10-1-1
+Drop2=321-10000-1-1
+Drop3=1663-200-1-1
+CollectibleCardIndex=43
 
-[NPC924]
+[NPC924] 'cartas: plan 23.005
 Name=Dragón Rojo
 ShowName=0
 En_Name=Red Dragon
@@ -8104,11 +8241,15 @@ BodyIdle=5504
 Ataque1=5505
 NpcType=0
 GiveEXPClan=2
-DropCount=1
+DropCount=4
 Drop1=465-1-1-1
+Drop2=513-400-1-1
+Drop3=5264-10000-1-1
+Drop4=296-10000-1-1
 DisabledInBattleServer=1
+CollectibleCardIndex=39
 
-[NPC926] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC926] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Pixie de Tierra
 DropCount=2
 Drop1=5181-1000-1-1
@@ -8142,8 +8283,9 @@ LanzaSpells=2
 Sp1=25
 Sp2=28
 IntervaloLanzarHechizo=3500
+CollectibleCardIndex=89
 
-[NPC927] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC927] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Chancho <Devorador Voraz>
 Body=5107
 Head=0
@@ -8158,8 +8300,9 @@ MaxHIT=15
 MinHIT=7
 DropCount=1
 Drop1=34-1-1-1
+CollectibleCardIndex=219
 
-[NPC928] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC928] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Body=5012
 GiveEXP=113
 MaxHp=225
@@ -8183,8 +8326,11 @@ fr_Name=Tortue
 it_Name=Tartaruga
 pt_Name=Tartaruga
 Domable=117
+CollectibleCardIndex=58
+DropCount=1
+Drop1=336-10000-1-1
 
-[NPC929] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC929] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Oso
 Body=4328
 Head=0
@@ -8206,7 +8352,7 @@ MinHp=300
 PoderAtaque=180
 PoderEvasion=50
 Domable=167
-[NPC930] 'vaca
+[NPC930] 'vaca | cartas: plan 23.005
 Name=Vaca Lola
 En_Name=Lola Cow
 Head=0
@@ -8233,8 +8379,9 @@ Ataque1=5127
 NpcType=0
 DropCount=1
 Drop1=27-1-1-1
+CollectibleCardIndex=218
 
-[NPC931] 'cuervo
+[NPC931] 'cuervo | cartas: plan 23.005
 Name=Cuervo
 ShowName=0
 En_Name=Crow
@@ -8277,7 +8424,7 @@ GiveGLD=0
 MaxHIT=10
 MinHIT=5
 
-[NPC934] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC934] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Dragón Negro
 Body=5503
 BodyIdle=5501
@@ -8295,8 +8442,11 @@ GiveEXPClan=2
 GiveGLD=100
 MaxHIT=230
 MinHIT=150
-DropCount=1
+DropCount=4
 Drop1=466-1-1-1
+Drop2=513-400-1-1
+Drop3=5265-10000-1-1
+Drop4=297-10000-1-1
 DisabledInBattleServer=1
 MinHp=6700
 PoderAtaque=235
@@ -8306,7 +8456,8 @@ DropQuest1=420-512-1-20
 LanzaSpells=1
 Sp1=4
 IntervaloLanzarHechizo=4000
-[NPC935]'Serpiente Roja
+CollectibleCardIndex=40
+[NPC935]'Serpiente Roja | cartas: plan 23.005
 Name=Serpiente Collet
 ShowName=0
 En_Name=Collet Snake
@@ -8376,7 +8527,7 @@ MagicResistance=25
 MagicDef=0
 NpcType=0
 
-[NPC939]
+[NPC939] 'cartas: plan 23.005
 Name=Tigre
 ShowName=0
 En_Name=Tiger
@@ -8417,7 +8568,7 @@ Drop3=4339-1-1-1
 NumDropQuest=1
 DropQuest1=64-2502-1-20
 
-[NPC941] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC941] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Avestruz
 Body=5148
 Head=0
@@ -8474,7 +8625,7 @@ MagicDef=15
 TestOnly=1
 NoWiki=1
 
-[NPC945] 'Esqueleto
+[NPC945] 'Esqueleto | cartas: plan 23.005
 Name=Esqueleto Guerrero
 ShowName=0
 En_Name=Warrior Skeleton
@@ -8505,8 +8656,11 @@ NpcType=0
 Nivel=20
 NumDropQuest=1
 DropQuest1=1-2529-1-1
+CollectibleCardIndex=220
+DropCount=1
+Drop1=928-10000-1-1
 
-[NPC946] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC946] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Esqueleto Guardián
 Body=4374
 Head=0
@@ -8561,7 +8715,7 @@ it_Name=Scheletro guardiano
 '
 '--- fin copia privada ---
 
-[NPC947] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC947] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Pixie de Fuego
 DropCount=2
 Drop1=5179-1000-1-1
@@ -8675,8 +8829,9 @@ IntervaloRespawn=300
 LanzaSpells=1
 Sp1=223
 IntervaloLanzarHechizo=8000
+CollectibleCardIndex=90
 
-[NPC949] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC949] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Verraco
 Body=5110
 Head=0
@@ -8703,7 +8858,7 @@ Drop1=2196-1-1-1
 PoderAtaque=75
 PoderEvasion=55
 
-[NPC950] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC950] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Jabato
 Body=5113
 Head=0
@@ -8717,16 +8872,18 @@ GiveGLD=25
 MaxHIT=20
 MinHIT=10
 Nivel=20
-DropCount=1
+DropCount=2
 Drop1=3396-10000-1-1
+Drop2=938-10000-1-1
 Heading=3
 Movement=2
 Attackable=1
 Hostile=1
 PoderAtaque=70
 PoderEvasion=50
+CollectibleCardIndex=229
 
-[NPC953] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC953] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Zombie Invocado
 Body=4943
 Head=0
@@ -8762,7 +8919,7 @@ GiveGLD=0
 MaxHIT=30
 MinHIT=25
 
-[NPC958] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC958] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Body=5582
 MaxHp=300
 MinHp=300
@@ -8784,7 +8941,7 @@ fr_Name=Loup invoqué
 it_Name=Lupo invocato
 pt_Name=Wolf invocou
 
-[NPC959] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC959] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Body=5057
 MaxHp=70
 MinHp=70
@@ -8806,7 +8963,7 @@ fr_Name=Squelette invoqué
 it_Name=Scheletro invocato
 pt_Name=Esqueleto invocado
 
-[NPC960] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC960] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Body=5494
 MaxHp=450
 MinHp=450
@@ -8828,8 +8985,11 @@ en_Name=Water Elemental
 fr_Name=Élémentaire de l'eau
 it_Name=Acqua elementare
 pt_Name=Elementar da água
+CollectibleCardIndex=4
+DropCount=1
+Drop1=202-10000-1-1
 
-[NPC961] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC961] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Body=5491
 MaxHp=450
 MinHp=450
@@ -8851,8 +9011,11 @@ en_Name=Earth Elemental
 fr_Name=Terre élémentaire
 it_Name=Terra elementare
 pt_Name=Terra elementar
+CollectibleCardIndex=6
+DropCount=1
+Drop1=263-10000-1-1
 
-[NPC962]
+[NPC962] 'cartas: plan 23.005
 Name=Elemental de Fuego
 ElementalTags=1
 ShowName=0
@@ -8882,8 +9045,11 @@ MaxHIT=80
 MinHIT=70
 Ataque1=5499
 NpcType=0
+CollectibleCardIndex=5
+DropCount=1
+Drop1=236-10000-1-1
 
-[NPC963]
+[NPC963] 'cartas: plan 23.005
 Name=Elemental de Viento
 ElementalTags=8
 ShowName=0
@@ -8914,8 +9080,11 @@ MaxHIT=80
 MinHIT=65
 Ataque1=5496
 NpcType=0
+CollectibleCardIndex=7
+DropCount=1
+Drop1=264-10000-1-1
 
-[NPC964] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC964] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Goblin Invocado
 Body=5122
 Head=0
@@ -8937,7 +9106,7 @@ pt_Name=Goblin Invocado
 fr_Name=Gobelin Invoqué
 it_Name=Goblin Evocato
 
-[NPC965] 'Lobo MiniBoss ND
+[NPC965] 'Lobo MiniBoss ND | cartas: plan 23.005
 Name=Lobo Alfa
 ShowName=0
 Head=0
@@ -8971,7 +9140,7 @@ Nivel=5
 NumDropQuest=1
 DropQuest1=193-453-1-4
 
-[NPC968] 'Araña gigante azul
+[NPC968] 'Araña gigante azul | cartas: plan 23.005
 Name=Araña Ponzoñosa
 ShowName=0
 En_Name=Poisonous Spider
@@ -9002,7 +9171,7 @@ Ataque1=4203
 NpcType=0
 Nivel=20
 
-[NPC970] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC970] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Kaelthor
 Body=5524
 Head=0
@@ -9026,8 +9195,11 @@ Alineacion=0
 DisabledInBattleServer=1
 PoderAtaque=235
 PoderEvasion=155
+CollectibleCardIndex=47
+DropCount=1
+Drop1=325-10000-1-1
 
-[NPC973]
+[NPC973] 'cartas: plan 23.005
 Name=Viuda Negra
 ShowName=0
 En_Name=Black Widow
@@ -9058,7 +9230,7 @@ Ataque1=5257
 NpcType=0
 Nivel=20
 
-[NPC977] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC977] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Zevkar
 Body=5476
 Head=0
@@ -9091,6 +9263,7 @@ DropQuest1=270-2795-1-50
 DropQuest2=275-3964-1-50
 ElementalTags=8
 DEF=10
+CollectibleCardIndex=116
 
 [NPC978] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Esqueto Vikingo
@@ -9105,7 +9278,7 @@ GiveGLD=150
 MaxHIT=95
 MinHIT=75
 
-[NPC979]
+[NPC979] 'cartas: plan 23.005
 Name=Mutante Arácnido
 ShowName=0
 En_Name=Arachnid Mutant
@@ -9144,7 +9317,7 @@ DropCount=1
 Drop1=2531-18-1-1
 Nivel=20
 
-[NPC981] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC981] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Scorvex
 Body=5597
 Head=0
@@ -9167,8 +9340,9 @@ ElementalTags=1
 DropCount=2
 Drop1=5179-1000-1-1
 Drop2=947-10000-1-1
+CollectibleCardIndex=237
 
-[NPC983] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC983] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Verdarra
 Body=4841
 BodyIdle=4840
@@ -9187,7 +9361,7 @@ PoderAtaque=180
 PoderEvasion=50
 Domable=167
 
-[NPC984] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC984] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Zafirron
 Body=4844
 BodyIdle=4843
@@ -9226,7 +9400,7 @@ DisabledInBattleServer=1
 NumQuest=1
 QuestNumber1=323
 
-[NPC989] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC989] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Oso Pardo
 Body=4328
 Head=0
@@ -9248,7 +9422,7 @@ pt_Name=Urso pardo
 fr_Name=Grizzly
 it_Name=Orso grizzly
 
-[NPC990] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC990] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Huargo
 Body=5116
 Head=0
@@ -9270,7 +9444,7 @@ pt_Name=Lobo gigante
 fr_Name=Loup géant
 it_Name=Metalupo
 
-[NPC992] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC992] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Lobo Huargo
 Body=4369
 Head=0
@@ -9317,7 +9491,7 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 TipoItems=3
-[NPC996]
+[NPC996] 'cartas: plan 23.005
 Name=Oso Polar
 ShowName=0
 En_Name=Polar Bear
@@ -9359,7 +9533,7 @@ DropCount=2
 Drop1=416-100-1-5
 Drop2=416-1-1-1
 
-[NPC997]
+[NPC997] 'cartas: plan 23.005
 Name=Hunt
 ShowName=0
 En_Name=Bengal Tiger
@@ -9393,11 +9567,13 @@ QuizaProb=1
 BodyIdle=4911
 Ataque1=4912
 NpcType=0
-DropCount=2
+DropCount=3
 Drop1=1145-100-1-5
 Drop2=1145-1-1-1
+Drop3=1036-10000-1-1
+CollectibleCardIndex=267
 
-[NPC998] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC998] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Body=4331
 MaxHp=450
 MinHp=450
@@ -9447,7 +9623,7 @@ NPCLVL=10
 MagicResistance=25
 MagicDef=0
 
-[NPC1001] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1001] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Esqueleto Mercenario
 Body=4376
 Head=0
@@ -9487,7 +9663,7 @@ GiveGLD=0
 MaxHIT=0
 MinHIT=0
 
-[NPC1003] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1003] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Shalgar
 Body=5458
 Head=0
@@ -9507,8 +9683,11 @@ Attackable=1
 Hostile=1
 PoderAtaque=55
 PoderEvasion=35
+CollectibleCardIndex=13
+DropCount=1
+Drop1=270-10000-1-1
 
-[NPC1004] 'Del oficial (pack 2026-10-01); quest. El numero era nuestro Monje, mudado a NPC9051. Plan 17.001 Ola 3. sin quest: habla y nada mas
+[NPC1004] 'Del oficial (pack 2026-10-01); quest. El numero era nuestro Monje, mudado a NPC9051. Plan 17.001 Ola 3. sin quest: habla y nada mas | cartas: plan 23.005
 Name=Nargoth <Ques de Guarida Abandonadat>
 Desc=¿Tú? Bah, no pareces más que carne blanda. Pero si tienes estómago para la sangre, quizás sirvas para algo.
 Head=0
@@ -9519,6 +9698,7 @@ Heading=3
 Movement=1
 NumQuest=1
 QuestNumber1=275
+CollectibleCardIndex=338
 
 [NPC1006] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Aldren <Quest de Rugido Salvaje>
@@ -9549,7 +9729,7 @@ MagicResistance=33
 MagicDef=0
 NumQuest=1
 QuestNumber1=287
-[NPC1010] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC1010] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Eltherion <Quest del Bosque Profano>
 Desc=Bienvenido, hijo de la luz. Mi deber es preservar el equilibrio entre la vida y lo que yace más allá. Si buscas dominar artes profanas, antes deberás demostrar que comprendes el peligro que representan.
 Body=6112
@@ -9565,6 +9745,7 @@ Hostile=0
 ReSpawn=0
 NumQuest=1
 QuestNumber1=288
+CollectibleCardIndex=358
 
 [NPC1011] 'RESYNC desde sp_localindex.dat (lote2 colisiones)
 Name=Mortivar <Quest de Alquimia>
@@ -9658,7 +9839,7 @@ QuestNumber4=385
 QuestNumber5=903
 QuestNumber6=392
 
-[NPC1014]
+[NPC1014] 'cartas: plan 23.005
 Name=Lynn
 ShowName=0
 Body=5515
@@ -9692,8 +9873,11 @@ NpcType=0
 Nivel=30
 NumDropQuest=1
 DropQuest1=232-2659-1-40
+CollectibleCardIndex=49
+DropCount=1
+Drop1=327-10000-1-1
 
-[NPC1015]
+[NPC1015] 'cartas: plan 23.005
 Name=Kadru
 ShowName=0
 Body=5521
@@ -9728,8 +9912,11 @@ Nivel=30
 NumDropQuest=2
 DropQuest1=141-2515-1-40
 DropQuest2=270-2797-1-200
+CollectibleCardIndex=48
+DropCount=1
+Drop1=326-10000-1-1
 
-[NPC1016]
+[NPC1016] 'cartas: plan 23.005
 Name=Aksha
 ShowName=0
 Body=5518
@@ -9769,6 +9956,9 @@ Ataque1=5517
 NpcType=0
 GiveEXPClan=1
 Nivel=30
+CollectibleCardIndex=50
+DropCount=1
+Drop1=328-10000-1-1
 '[NPC1020]
 'Name=Banshee
 'Body=666
@@ -9967,7 +10157,7 @@ MagicDef=15
 DisabledInBattleServer=1
 NumQuest=1
 QuestNumber1=293
-[NPC1025]
+[NPC1025] 'cartas: plan 23.005
 Name=Esbirro Demoníaco
 ShowName=0
 En_Name=Demoniac Slash
@@ -10006,8 +10196,11 @@ NpcType=0
 Nivel=28
 NumDropQuest=1
 DropQuest1=259-2770-1-100
+CollectibleCardIndex=83
+DropCount=1
+Drop1=556-10000-1-1
 
-[NPC1026]
+[NPC1026] 'cartas: plan 23.005
 Name=Esbirra Demoníaca
 ShowName=0
 En_Name=Demoniac Slash
@@ -10045,6 +10238,9 @@ NpcType=0
 Nivel=28
 NumDropQuest=1
 DropQuest1=259-2770-1-100
+CollectibleCardIndex=82
+DropCount=1
+Drop1=542-10000-1-1
 
 [NPC1027]
 Name=Dummy de Entrenamiento
@@ -10067,7 +10263,7 @@ NPCLVL=15
 MagicResistance=37
 MagicDef=10
 
-[NPC1030] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC1030] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Minotauro
 Body=5075
 BodyIdle=5073
@@ -10126,8 +10322,9 @@ ElementalTags=4
 DEF=20
 IntervaloRespawnMin=45
 IntervaloRespawn=150
+CollectibleCardIndex=215
 
-[NPC1031] 'Realineado a oficial 2026-06-08 (slot repropuesto) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC1031] 'Realineado a oficial 2026-06-08 (slot repropuesto) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Umbrax
 Body=5078
 BodyIdle=5076
@@ -10184,8 +10381,9 @@ IntervaloRespawn=21600
 DropCount=2
 Drop1=5181-100-1-1
 Drop2=924-10000-1-1
+CollectibleCardIndex=216
 
-[NPC1032] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC1032] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Minotauro Joven
 Body=5081
 BodyIdle=5079
@@ -10210,6 +10408,9 @@ Alineacion=0
 Nivel=28
 PoderAtaque=180
 PoderEvasion=125
+CollectibleCardIndex=214
+DropCount=1
+Drop1=922-10000-1-1
 '[NPC1033]'
 'Name=Minero Olvidado
 'En_Name=Forgotten Miner
@@ -10241,7 +10442,7 @@ PoderEvasion=125
 '
 '--- fin copia privada ---
 
-[NPC1033] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC1033] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Minotauro Bárbaro
 Body=5072
 BodyIdle=5070
@@ -10300,8 +10501,9 @@ Drop1=5181-1000-1-1
 Drop2=920-10000-1-1
 ElementalTags=4
 DEF=5
+CollectibleCardIndex=212
 
-[NPC1034] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC1034] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Minotauro Guerrero
 Body=5084
 BodyIdle=5082
@@ -10330,8 +10532,9 @@ Drop1=5181-1000-1-1
 Drop2=921-10000-1-1
 ElementalTags=4
 DEF=15
+CollectibleCardIndex=213
 
-[NPC1035] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Minero Exiliado, mudado a NPC9055. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC537 del oficial, vida mas parecida: SUPUESTO; sin drops
+[NPC1035] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Minero Exiliado, mudado a NPC9055. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC537 del oficial, vida mas parecida: SUPUESTO; sin drops | cartas: plan 23.005
 Name=Philiph
 Head=0
 Body=6031
@@ -10350,8 +10553,9 @@ GiveEXP=0
 GiveGLD=0
 PoderAtaque=170
 PoderEvasion=90
+CollectibleCardIndex=150
 
-[NPC1036]
+[NPC1036] 'cartas: plan 23.005
 Name=Tortuga Coriacea
 ShowName=0
 En_Name=Leathery Turtle
@@ -10382,7 +10586,7 @@ MagicDef=0
 GiveGLD=90
 NpcType=0
 
-[NPC1037] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1037] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Krugg
 Body=6025
 Head=0
@@ -10394,8 +10598,9 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=146
 
-[NPC1038] 'RESYNC desde sp_localindex.dat (mapa34 collision fix)
+[NPC1038] 'RESYNC desde sp_localindex.dat (mapa34 collision fix) | cartas: plan 23.005
 Name=Van <Alquimista Inicial>
 SoundOpen=994
 IT_Desc=Benvenuti! Ho un prodotto davvero speciale per le vostre avventure.
@@ -10443,6 +10648,7 @@ MagicResistance=5
 MagicDef=0
 TipoItems=11
 CambioAIdle=10
+CollectibleCardIndex=348
 
 [NPC1039] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Sven <Sastre Polar>
@@ -10481,7 +10687,7 @@ NPCLVL=2
 MagicResistance=5
 MagicDef=0
 TipoItems=3
-[NPC1042]
+[NPC1042] 'cartas: plan 23.005
 Name=Azog
 ShowName=0
 En_Name=Azog
@@ -10511,8 +10717,11 @@ NpcType=0
 Nivel=15
 NumDropQuest=1
 DropQuest1=323-459-1-20
+CollectibleCardIndex=243
+DropCount=1
+Drop1=953-10000-1-1
 
-[NPC1045] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1045] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Guardia del Pantano
 Body=5021
 BodyIdle=5019
@@ -10535,8 +10744,11 @@ en_Name=Swamp Guardian
 pt_Name=Salvar o pântano
 fr_Name=Sauver le marais
 it_Name=Salva della palude
+CollectibleCardIndex=222
+DropCount=1
+Drop1=930-10000-1-1
 
-[NPC1046] 'Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC1046] 'Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Ent
 ShowName=0
 Body=4925
@@ -10596,8 +10808,9 @@ Nivel=28
 ElementalTags=4
 IntervaloRespawnMin=300
 IntervaloRespawn=900
+CollectibleCardIndex=231
 
-[NPC1047] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC1047] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Espectro <Guarida>
 Body=5464
 BodyIdle=5462
@@ -10624,8 +10837,10 @@ PoderEvasion=150
 LanzaSpells=1
 Sp1=40
 IntervaloLanzarHechizo=6000
+DropCount=1
+Drop1=151-10000-1-1
 
-[NPC1048]
+[NPC1048] 'cartas: plan 23.005
 Name=Abominación
 ShowName=0
 En_Name=Abomination
@@ -10652,7 +10867,7 @@ Ataque1=5025
 NpcType=0
 Nivel=20
 
-[NPC1049] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1049] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Crocky <Quest>
 Desc=¡Grrraaah... rrrghhh!... ¡Basta! ¡Deténganse, por favor, no me maten! Soy muy joven para morir. ¡Solo quería ser intimidante y evitar la pelea, por favor les diré todo lo que necesiten saber!
 Body=5285
@@ -10671,8 +10886,9 @@ GiveGLD=00
 MaxHIT=1
 MinHIT=1
 Nivel=20
+CollectibleCardIndex=206
 
-[NPC1050] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1050] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Syla
 Body=5288
 Head=0
@@ -10697,8 +10913,11 @@ Movement=2
 Heading=3
 ShowName=1
 AguaValida=1
+CollectibleCardIndex=209
+DropCount=1
+Drop1=917-10000-1-1
 
-[NPC1051] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1051] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Kaelus
 Body=5297
 Head=0
@@ -10723,8 +10942,11 @@ Movement=2
 Heading=3
 ShowName=1
 AguaValida=1
+CollectibleCardIndex=207
+DropCount=1
+Drop1=915-10000-1-1
 
-[NPC1052] 'Realineado a oficial 2026-06-08 (slot repropuesto); stats y hechizo de la API 2026-10-02 (plan 23.004 Q3c), sin el drop de carta
+[NPC1052] 'Realineado a oficial 2026-06-08 (slot repropuesto); stats y hechizo de la API 2026-10-02 (plan 23.004 Q3c), sin el drop de carta | cartas: plan 23.005
 Name=Gru
 Body=5294
 Head=0
@@ -10757,8 +10979,11 @@ en_Name=Gru <The Witcher>
 fr_Name=Gru <Le Sorcier>
 it_Name=Gru <Il Mago>
 pt_Name=Gru <O Bruxo>
+CollectibleCardIndex=210
+DropCount=1
+Drop1=918-10000-1-1
 
-[NPC1053] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1053] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Nilus
 Body=5291
 Head=0
@@ -10775,8 +11000,9 @@ GiveGLD=00
 MaxHIT=1
 MinHIT=1
 Nivel=20
+CollectibleCardIndex=204
 
-[NPC1054] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1054] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Karkadan
 Body=5298
 DisabledInBattleServer=1
@@ -10795,8 +11021,11 @@ Movement=2
 Heading=3
 ShowName=1
 Humanoide=1
+CollectibleCardIndex=205
+DropCount=1
+Drop1=913-10000-1-1
 
-[NPC1055] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1055] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Mordu
 Body=5282
 Head=0
@@ -10813,8 +11042,9 @@ GiveGLD=00
 MaxHIT=1
 MinHIT=1
 Nivel=20
+CollectibleCardIndex=208
 
-[NPC1056] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1056] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Rakhar <El Tuerto>
 Body=5279
 Head=0
@@ -10827,6 +11057,7 @@ GiveGLD=00
 MaxHIT=1
 MinHIT=1
 Nivel=20
+CollectibleCardIndex=211
 
 [NPC1059] 'Del oficial (pack 2026-10-01); quest. El numero era nuestro Grey el Coleccionista, mudado a NPC9052. Plan 17.001 Ola 3. sin quest: habla y nada mas
 Name=Rhamses <Quest de Piramide>
@@ -10841,7 +11072,7 @@ NumQuest=2
 QuestNumber1=321
 QuestNumber2=156
 
-[NPC1076] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Martzia <Sastre Exótico>, mudado a NPC9061. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC646 del oficial, vida mas parecida: SUPUESTO; sin drops
+[NPC1076] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Martzia <Sastre Exótico>, mudado a NPC9061. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC646 del oficial, vida mas parecida: SUPUESTO; sin drops | cartas: plan 23.005
 Name=Isolda
 Head=0
 Body=6009
@@ -10860,8 +11091,9 @@ GiveEXP=0
 GiveGLD=0
 PoderAtaque=150
 PoderEvasion=100
+CollectibleCardIndex=130
 
-[NPC1080]'Altos
+[NPC1080]'Altos | cartas: plan 23.005
 Name=Rethor <Sastre>
 SoundClose=896
 SoundOpen=895
@@ -10910,8 +11142,9 @@ NpcType=0
 DescClose=¡Que lo disfrutes!
 NoMapInfo=1
 TipoItems=17
+CollectibleCardIndex=342
 
-[NPC1081] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1081] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Gertha <Maestra Sastre>
 SoundOpen=702
 SoundClose=703
@@ -10926,8 +11159,9 @@ Obj1=1272-1000
 Obj2=1273-1000
 Obj3=2927-1000
 NoMapInfo=1
+CollectibleCardIndex=127
 
-[NPC1082] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1082] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Grom <Herrero Brutal>
 Desc=Harás respetar nuestra raza con estas armas!
 DescClose=¡Hasta pronto!
@@ -10953,8 +11187,9 @@ Obj14=9194-1000
 Obj15=9201-1000
 NoMapInfo=1
 CambioAIdle=10
+CollectibleCardIndex=182
 
-[NPC1083] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1083] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Clarice Coraza <Forjadora Experta>
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
@@ -10991,6 +11226,7 @@ Obj23=9194-1000
 Obj24=9201-1000
 NoMapInfo=1
 TipoItems=2
+CollectibleCardIndex=107
 
 [NPC1084] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Elvo <Quest de Pesca>
@@ -11059,7 +11295,7 @@ MagicDef=5
 NumQuest=1
 QuestNumber1=327
 
-[NPC1086]
+[NPC1086] 'cartas: plan 23.005
 Name=Halving <Carpintero>
 SoundOpen=845
 IT_Desc=Benvenuto! Lavoro tutti i tipi di legna da ardere. Cosa posso aiutarti?
@@ -11102,6 +11338,7 @@ MagicDef=5
 NpcType=0
 NoMapInfo=1
 TipoItems=100
+CollectibleCardIndex=350
 
 [NPC1087] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Baldros Featherwick <Quest del Grifo>
@@ -11146,7 +11383,7 @@ MagicDef=5
 DisabledInBattleServer=1
 NumQuest=1
 QuestNumber1=44
-[NPC1088] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1088] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Cormac <Pescador>
 IT_Desc=Il mare ha così tanto da offrire! Controlla i miei strumenti, potrebbe esserci qualcosa che ti serve.
 FR_Desc=La mer a tellement à offrir! Vérifiez mes outils, il peut y avoir quelque chose qui vous sert.
@@ -11169,6 +11406,7 @@ Obj3=2789-1000
 Obj4=2790-1000
 NoMapInfo=1
 TipoItems=1
+CollectibleCardIndex=103
 
 [NPC1090] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Leo <Pescador>
@@ -11204,7 +11442,7 @@ MagicResistance=60
 MagicDef=5
 TipoItems=1
 
-[NPC1091] 'RESYNC desde sp_localindex.dat (mapa34 collision fix)
+[NPC1091] 'RESYNC desde sp_localindex.dat (mapa34 collision fix) | cartas: plan 23.005
 Name=Pablo <Sotano Patreon>
 SoundOpen=2193
 SoundClose=2188
@@ -11231,6 +11469,7 @@ Obj5=1278-1
 NPCLVL=24
 MagicResistance=60
 MagicDef=5
+CollectibleCardIndex=333
 [NPC1092] 'RESYNC desde sp_localindex.dat (lote2 colisiones)
 Name=Alberich <Anciano Arcano>
 SoundClose=841
@@ -11289,7 +11528,7 @@ MagicResistance=60
 MagicDef=5
 TipoItems=24
 
-[NPC1099] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1099] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Borvat
 Body=6028
 Head=0
@@ -11327,7 +11566,8 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
-[NPC1103] 'RESYNC desde sp_localindex.dat (fase B)
+CollectibleCardIndex=147
+[NPC1103] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Criptococo
 Body=4202
 Head=0
@@ -11363,7 +11603,7 @@ MinHp=550
 PoderAtaque=240
 PoderEvasion=160
 Domable=283
-[NPC1104] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
+[NPC1104] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D) | cartas: plan 23.005
 Name=Tiburón
 SoundOpen=2200
 SoundClose=2201
@@ -11402,7 +11642,7 @@ MinHp=450
 PoderAtaque=220
 PoderEvasion=155
 Domable=250
-[NPC1105] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1105] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Tortuga Marina
 SoundOpen=2194
 SoundClose=2189
@@ -11440,7 +11680,7 @@ MinHp=350
 PoderAtaque=200
 PoderEvasion=140
 Domable=210
-[NPC1106] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1106] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Philiph
 Body=6031
 Head=0
@@ -11452,6 +11692,7 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=150
 
 [NPC1107] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Desh <Quest de Cobras>
@@ -11515,7 +11756,7 @@ MagicDef=5
 NumQuest=2
 QuestNumber1=140
 QuestNumber2=421
-[NPC1112] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
+[NPC1112] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D) | cartas: plan 23.005
 Name=Azhara <Quest de Nagas>
 SoundOpen=2195
 SoundClose=2190
@@ -11545,7 +11786,8 @@ MagicResistance=60
 MagicDef=5
 NumQuest=1
 QuestNumber1=141
-[NPC1114]
+CollectibleCardIndex=324
+[NPC1114] 'cartas: plan 23.005
 Name=Jace <Quest de Dungeon Marabel>
 Desc=¡Oye, tu! No pareces ser Arqueólogo, pero necesito de tus musculos!
 Head=0
@@ -11561,8 +11803,9 @@ Hostile=0
 Alineacion=0
 NumQuest=1
 QuestNumber1=37
+CollectibleCardIndex=291
 
-[NPC1117] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
+[NPC1117] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D) | cartas: plan 23.005
 Name=Windall <Quest de Bosque de los Espiritus>
 Desc=¡Gran guerrero, bienvenido a las tierras de Eldoria!
 Body=6108
@@ -11601,7 +11844,8 @@ MagicDef=5
 DisabledInBattleServer=1
 NumQuest=1
 QuestNumber1=204
-[NPC1120] 'RESYNC desde sp_localindex.dat (fase B)
+CollectibleCardIndex=325
+[NPC1120] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Skabrot <Hechicero de Penthar>
 SoundOpen=1002
 IT_Desc=Guarda questi incantesimi, forse alcuni potrebbero interessarti.
@@ -11657,6 +11901,7 @@ NPCLVL=24
 MagicResistance=60
 MagicDef=5
 TipoItems=3
+CollectibleCardIndex=124
 [NPC1121] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Malva <Quest de la Cueva Nagas>
 Desc=Intenté acceder al Umbral de las Nagas pero esas bestias son demasiado poderosas..
@@ -11726,7 +11971,7 @@ MagicResistance=60
 MagicDef=5
 NumQuest=1
 QuestNumber1=206
-[NPC1123] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1123] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Magnis <Quest de Leviatanes>
 SoundOpen=702
 SoundClose=703
@@ -11758,7 +12003,7 @@ Obj12=2923-1
 Obj13=2922-1
 Obj14=2924-1
 Obj15=2929-1
-Obj16=508-1
+Obj16=9233-1
 Obj17=56-1
 Obj18=4344-1
 Obj19=2919-1
@@ -11768,7 +12013,7 @@ MagicResistance=60
 MagicDef=5
 NumQuest=1
 QuestNumber1=233
-[NPC1124] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
+[NPC1124] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D) | cartas: plan 23.005
 Name=Haytham <Armero Experto>
 IT_Desc=Sono le mie ultime armi, approfittane!
 FR_Desc=Ce sont mes dernières armes, profitez-en!
@@ -11806,6 +12051,7 @@ MagicResistance=60
 MagicDef=5
 DescClose=¡Hasta pronto!
 TipoItems=2
+CollectibleCardIndex=133
 [NPC1125] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Khyo <Herreria>
 SoundClose=1006
@@ -12146,7 +12392,7 @@ NPCLVL=24
 MagicResistance=60
 MagicDef=5
 TipoItems=2
-[NPC1138] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1138] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Camello
 Body=5639
 BodyIdle=5637
@@ -12182,7 +12428,7 @@ Nivel=20
 MinHp=1700
 PoderAtaque=165
 PoderEvasion=95
-[NPC1139] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1139] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Camello Marrón
 SoundOpen=2203
 SoundClose=2205
@@ -12223,7 +12469,7 @@ Nivel=20
 MinHp=1800
 PoderAtaque=165
 PoderEvasion=95
-[NPC1140] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1140] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=León
 SoundOpen=2196
 SoundClose=2191
@@ -12253,7 +12499,10 @@ PoderEvasion=100
 Humanoide=0
 Ataque1=5626
 Nivel=20
-[NPC1141] 'RESYNC desde sp_localindex.dat (fase B)
+CollectibleCardIndex=248
+DropCount=1
+Drop1=958-10000-1-1
+[NPC1141] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Pantera Negra
 SoundOpen=2193
 SoundClose=2188
@@ -12345,7 +12594,7 @@ TipoItems=24
 ' 
 ' === FIN BLOQUE PRIVADO ===
 
-[NPC1144] 'RESYNC desde sp_localindex.dat (fase B con quest)
+[NPC1144] 'RESYNC desde sp_localindex.dat (fase B con quest) | cartas: plan 23.005
 Name=Vult
 Body=5053
 Head=0
@@ -12370,7 +12619,10 @@ MinHIT=90
 MinHp=2000
 PoderAtaque=180
 PoderEvasion=125
-[NPC1147] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+CollectibleCardIndex=260
+DropCount=1
+Drop1=991-10000-1-1
+[NPC1147] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Elemental de Viento Liberado
 ElementalTags=8
 Body=5497
@@ -12429,7 +12681,7 @@ DropQuest1=204-2836-1-100
 '
 '--- fin copia privada ---
 
-[NPC1148] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC1148] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Elemental de Fuego Liberado
 ElementalTags=1
 Body=5500
@@ -12483,7 +12735,7 @@ PoderEvasion=130
 '
 '--- fin copia privada ---
 
-[NPC1149] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC1149] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Primal
 Body=4919
 BodyIdle=4917
@@ -12503,11 +12755,13 @@ Attackable=1
 Hostile=1
 ReSpawn=0
 Alineacion=0
-DropCount=1
+DropCount=2
 Drop1=2520-2-1-1
+Drop2=292-10000-1-1
 Nivel=20
 PoderAtaque=170
 PoderEvasion=95
+CollectibleCardIndex=35
 
 [NPC1151]
 Name=Lempard <Quest>
@@ -12541,7 +12795,7 @@ NPCLVL=30
 MagicResistance=75
 MagicDef=10
 NoWiki=1
-[NPC1153]
+[NPC1153] 'cartas: plan 23.005
 Name=Ghanly
 ShowName=0
 Body=6022
@@ -12571,6 +12825,9 @@ GiveEXPClan=1
 LanzaSpells=1
 Sp1=41
 IntervaloLanzarHechizo=3000
+CollectibleCardIndex=154
+DropCount=1
+Drop1=840-10000-1-1
 
 [NPC1154] 'Fermin
 Name=Fermin <Quest Maritima>
@@ -12590,7 +12847,7 @@ MagicDef=10
 NumQuest=1
 QuestNumber1=417
 
-[NPC1156] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1156] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Albi
 Body=6067
 BodyIdle=6065
@@ -12616,8 +12873,11 @@ fr_Name=Cerf ancestral
 it_Name=Deer ancestrale
 NumDropQuest=1
 DropQuest1=29-2506-1-3
+CollectibleCardIndex=164
+DropCount=1
+Drop1=850-10000-1-1
 
-[NPC1157] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1157] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Bramador
 Body=6064
 BodyIdle=6062
@@ -12641,6 +12901,9 @@ en_Name=Dark Brown Deer
 pt_Name=Cervo Marrom Escuro
 fr_Name=Cerf Brun Foncé
 it_Name=Cervo Marrone Scuro
+CollectibleCardIndex=163
+DropCount=1
+Drop1=849-10000-1-1
 
 [NPC1158]'Ex NPC Quest Mochila
 Name=Tavuk <Talabartero>
@@ -12690,7 +12953,7 @@ QuestNumber1=212
 QuestNumber2=210
 QuestNumber3=273
 
-[NPC1162] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1162] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Mantis Marrón
 Body=5606
 BodyIdle=5604
@@ -12711,7 +12974,10 @@ Nivel=20
 MinHp=1500
 PoderAtaque=160
 PoderEvasion=90
-[NPC1163] 'RESYNC desde sp_localindex.dat (fase B)
+CollectibleCardIndex=157
+DropCount=1
+Drop1=843-10000-1-1
+[NPC1163] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Mantis Verde
 Body=5603
 BodyIdle=5601
@@ -12729,11 +12995,13 @@ GiveGLD=35
 MaxHIT=115
 MinHIT=65
 Nivel=20
-DropCount=1
-Drop1=6088-4000-1-1
+DropCount=2
+Drop1=6088-2000-1-1
+Drop2=842-10000-1-1
 MinHp=1800
 PoderAtaque=160
 PoderEvasion=90
+CollectibleCardIndex=156
 [NPC1165] 'Del oficial (pack 2026-10-01); quest. El numero era nuestro Bardo (Legendario), mudado a NPC9053. Plan 17.001 Ola 3. sin quest: habla y nada mas
 Name=Phenoba <Quest de Dungeon Veril>
 Desc=Su mirada petrifica, si no recuperamos el libro antiguo, pagaran los inocentes y la oscuridad acechara nuestro mundo.
@@ -12760,7 +13028,7 @@ Hostile=0
 ReSpawn=0
 NumQuest=1
 QuestNumber1=172
-[NPC1167] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1167] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Verdarra
 Body=4841
 BodyIdle=4840
@@ -12782,7 +13050,7 @@ PoderAtaque=165
 PoderEvasion=95
 NumDropQuest=1
 DropQuest1=44-2833-1-1000
-[NPC1168] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1168] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Zafirron
 Body=4844
 BodyIdle=4843
@@ -12804,7 +13072,7 @@ PoderAtaque=165
 PoderEvasion=95
 NumDropQuest=1
 DropQuest1=44-2833-1-1000
-[NPC1170] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Guerrero (Legendario), mudado a NPC9054. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC541 del oficial, vida mas parecida: SUPUESTO; sin drops
+[NPC1170] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Guerrero (Legendario), mudado a NPC9054. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC541 del oficial, vida mas parecida: SUPUESTO; sin drops | cartas: plan 23.005
 Name=Borvat
 Head=0
 Body=6028
@@ -12823,6 +13091,7 @@ GiveEXP=0
 GiveGLD=0
 PoderAtaque=105
 PoderEvasion=80
+CollectibleCardIndex=147
 
 [NPC1172] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Sheila <Quest de Piedras Primordiales>
@@ -12859,7 +13128,7 @@ ReSpawn=0
 DisabledInBattleServer=1
 NumQuest=1
 QuestNumber1=30
-[NPC1174] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC545 del oficial, vida mas parecida: SUPUESTO; sin drops
+[NPC1174] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC545 del oficial, vida mas parecida: SUPUESTO; sin drops | cartas: plan 23.005
 Name=Borvat
 Head=0
 Body=6028
@@ -12878,8 +13147,9 @@ GiveEXP=0
 GiveGLD=0
 PoderAtaque=185
 PoderEvasion=130
+CollectibleCardIndex=147
 
-[NPC1177] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC1015 del oficial, vida mas parecida: SUPUESTO; sin drops
+[NPC1177] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC1015 del oficial, vida mas parecida: SUPUESTO; sin drops | cartas: plan 23.005
 Name=Borvat
 Head=0
 Body=6028
@@ -12898,8 +13168,9 @@ GiveEXP=0
 GiveGLD=0
 PoderAtaque=215
 PoderEvasion=160
+CollectibleCardIndex=147
 
-[NPC1179] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1179] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Thirgo Brumhildo <Quest de Trabajador>
 Desc=Pocos tienen el valor de cruzar el mar y desafiar el frío de esta isla para llegar hasta Morgrim. Si tus manos resisten el martillo y tu espíritu el fuego, quizá te enseñe los secretos de la Forja Elemental. Pero recuerda: el calor de la fragua no perdona a los débiles.
 Body=6160
@@ -12921,7 +13192,8 @@ QuestNumber3=281
 QuestNumber4=282
 QuestNumber5=902
 QuestNumber6=904
-[NPC1180] 'RESYNC desde sp_localindex.dat (fase B)
+CollectibleCardIndex=351
+[NPC1180] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Thaldris <Hechicera>
 SoundOpen=909
 IT_Desc=Ho un'ampia varietà di oggetti magici destinati al combattimento!
@@ -12957,7 +13229,8 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 TipoItems=24
-[NPC1181] 'RESYNC desde sp_localindex.dat (fase B)
+CollectibleCardIndex=359
+[NPC1181] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Brunno <Sastre>
 SoundOpen=907
 IT_Desc=I migliori abiti che puoi ottenere!
@@ -12994,6 +13267,7 @@ NPCLVL=2
 MagicResistance=5
 MagicDef=0
 TipoItems=3
+CollectibleCardIndex=357
 [NPC1182] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Grelka <Alquimista>
 SoundClose=703
@@ -13032,7 +13306,7 @@ ReSpawn=0
 DescClose=¡Mas vale salir prevenidos!
 TipoItems=11
 CambioAIdle=10
-[NPC1183] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1183] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Dwalin <Provisiones>
 SoundClose=607
 SoundOpen=605
@@ -13071,6 +13345,7 @@ Hostile=0
 ReSpawn=0
 DescClose=¡Hasta pronto!
 TipoItems=1
+CollectibleCardIndex=360
 [NPC1184] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Kargun <Resucitador>
 Desc=Ja!, misterios de la ingeniería enana
@@ -13118,7 +13393,7 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 TipoItems=100
-[NPC1186] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1186] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Thrain <Martillo Incansable>
 IT_Desc=Benvenuti nella mia Forgia!
 FR_Desc=Bienvenue dans ma Forge !
@@ -13145,6 +13420,7 @@ Obj6=159-100
 Obj7=1820-100
 NoMapInfo=1
 TipoItems=2
+CollectibleCardIndex=177
 
 [NPC1187] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Thrain <Martillo Incansable>
@@ -13197,7 +13473,7 @@ MagicDef=0
 NumQuest=1
 QuestNumber1=132
 
-[NPC1190] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC547 del oficial, vida mas parecida: SUPUESTO; sin drops
+[NPC1190] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC547 del oficial, vida mas parecida: SUPUESTO; sin drops | cartas: plan 23.005
 Name=Krugg
 Head=0
 Body=6025
@@ -13216,8 +13492,9 @@ GiveEXP=0
 GiveGLD=0
 PoderAtaque=230
 PoderEvasion=125
+CollectibleCardIndex=146
 
-[NPC1191] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC1191] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Banes <Quest de Galeon Patreon>
 Desc=¿Tienes lo necesario para navegar?
 Body=6191
@@ -13234,7 +13511,8 @@ ReSpawn=0
 NumQuest=2
 QuestNumber1=199
 QuestNumber2=905
-[NPC1192] 'RESYNC desde sp_localindex.dat (fase B)
+CollectibleCardIndex=341
+[NPC1192] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Orco Cazador
 Body=1047
 Head=524
@@ -13259,7 +13537,7 @@ Drop2=480-1-2-2
 MinHp=250
 PoderAtaque=45
 PoderEvasion=28
-[NPC1193] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1193] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Orco Embrujado
 Body=3103
 Head=525
@@ -13281,7 +13559,7 @@ PoderEvasion=32
 LanzaSpells=1
 Sp1=43
 IntervaloLanzarHechizo=2600
-[NPC1194] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1194] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Orca Granjera
 Body=3103
 Head=720
@@ -13300,7 +13578,7 @@ GiveGLD=12
 MinHp=300
 PoderAtaque=50
 PoderEvasion=32
-[NPC1195] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1195] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Orco Protector
 Body=1054
 Head=513
@@ -13322,7 +13600,7 @@ Drop1=1715-75-1-1
 MinHp=400
 PoderAtaque=55
 PoderEvasion=35
-[NPC1196] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Orco Paladin, mudado a NPC9058. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC560 del oficial, vida mas parecida: SUPUESTO; sin drops
+[NPC1196] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Orco Paladin, mudado a NPC9058. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC560 del oficial, vida mas parecida: SUPUESTO; sin drops | cartas: plan 23.005
 Name=Krugg
 Head=0
 Body=6025
@@ -13341,8 +13619,9 @@ GiveEXP=0
 GiveGLD=0
 PoderAtaque=170
 PoderEvasion=140
+CollectibleCardIndex=146
 
-[NPC1197] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Orco Guerrero, mudado a NPC9059. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC535 del oficial, vida mas parecida: SUPUESTO; sin drops
+[NPC1197] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Orco Guerrero, mudado a NPC9059. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC535 del oficial, vida mas parecida: SUPUESTO; sin drops | cartas: plan 23.005
 Name=Krugg
 Head=0
 Body=6025
@@ -13361,6 +13640,7 @@ GiveEXP=0
 GiveGLD=0
 PoderAtaque=245
 PoderEvasion=165
+CollectibleCardIndex=146
 
 [NPC1201]
 Name=Mercader Clerigo
@@ -13395,7 +13675,7 @@ MagicDef=10
 TestOnly=1
 NoWiki=1
 
-[NPC1202]
+[NPC1202] 'cartas: plan 23.005
 Name=April <Propiedades>
 Desc=Las propiedades nobles no se mantienen solas. Si eres dueño de una Casa Patreon, necesito tu ayuda con ciertos asuntos del sótano.
 Head=0
@@ -13414,6 +13694,7 @@ NumQuest=3
 QuestNumber1=174
 QuestNumber2=175
 QuestNumber3=153
+CollectibleCardIndex=269
 
 [NPC1203]
 Name=Mercader Mago
@@ -13573,7 +13854,7 @@ MagicDef=10
 TestOnly=1
 NoWiki=1
 
-[NPC1208] 'Del oficial (pack 2026-10-01); vendedor. El numero era nuestro Mercader Guerrero, mudado a NPC9062. Plan 17.001 Ola 3
+[NPC1208] 'Del oficial (pack 2026-10-01); vendedor. El numero era nuestro Mercader Guerrero, mudado a NPC9062. Plan 17.001 Ola 3 | cartas: plan 23.005
 Name=Gora <Minera Experta>
 Head=0
 Body=6147
@@ -13593,6 +13874,7 @@ Obj3=390-1000
 Obj4=1912-1000
 Obj5=3783-1000
 TipoItems=23
+CollectibleCardIndex=344
 
 [NPC1209]
 Name=Mercader Cazador
@@ -13659,7 +13941,7 @@ MagicDef=10
 TestOnly=1
 NoWiki=1
 
-[NPC1216] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1216] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Amanita
 Body=4838
 Head=0
@@ -13976,7 +14258,7 @@ MagicResistance=40
 MagicDef=10
 TestOnly=1
 
-[NPC1246] 'Del oficial (pack 2026-10-01); vendedor. El numero era nuestro Keia, mudado a NPC9063. Plan 17.001 Ola 3
+[NPC1246] 'Del oficial (pack 2026-10-01); vendedor. El numero era nuestro Keia, mudado a NPC9063. Plan 17.001 Ola 3 | cartas: plan 23.005
 Name=Sigurd <Carpintero Vikingo>
 Desc=Te ofrezco una herramienta ideal para la zona élfica.
 Head=0
@@ -14003,6 +14285,7 @@ Obj9=3550-1000
 Obj10=551-1000
 SoundOpen=910
 NoMapInfo=1
+CollectibleCardIndex=281
 
 [NPC1247] 'RESYNC desde sp_localindex.dat (fase B)
 Name=Said <Carpintero>
@@ -14109,7 +14392,7 @@ NPCLVL=15
 MagicResistance=37
 MagicDef=10
 TipoItems=24
-[NPC1250] 'Del oficial (pack 2026-10-01); quest. El numero era nuestro Kalé, mudado a NPC9057. Plan 17.001 Ola 3. sin quest: habla y nada mas
+[NPC1250] 'Del oficial (pack 2026-10-01); quest. El numero era nuestro Kalé, mudado a NPC9057. Plan 17.001 Ola 3. sin quest: habla y nada mas | cartas: plan 23.005
 Name=Frondelia <Micologa>
 Desc=Fascinante y terrible a la vez... esos hongos no deberían existir. La toxina los mutó, los volvió agresivos. Estudio sus esporas desde lejos, porque acercarme sería mi fin. Pero alguien más resistente que yo podría contenerlos.
 Head=0
@@ -14122,6 +14405,7 @@ Heading=3
 Movement=1
 NumQuest=1
 QuestNumber1=391
+CollectibleCardIndex=295
 
 [NPC1254]
 Name=Keke <Caos primera jerarquia>
@@ -14521,7 +14805,7 @@ MagicResistance=37
 MagicDef=10
 TestOnly=1
 
-[NPC1265]
+[NPC1265] 'cartas: plan 23.005
 Name=Troll Lúgubre
 ShowName=0
 en_name=Lugubrious Troll
@@ -14604,7 +14888,7 @@ DropCount=1
 Drop1=1647-320-1-1
 Nivel=20
 
-[NPC1271] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1271] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Vorgrash
 Body=6034
 Head=0
@@ -14616,8 +14900,9 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=143
 
-[NPC1272] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
+[NPC1272] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D) | cartas: plan 23.005
 Name=Naeris <Finanzas Goliath>
 Desc=Hola, bienvenido a la cadena de finanzas Goliath.
 Body=6251
@@ -14633,7 +14918,8 @@ Heading=3
 NPCLVL=22
 MagicResistance=55
 MagicDef=5
-[NPC1273] 'RESYNC desde sp_localindex.dat (lote3 pat B)
+CollectibleCardIndex=335
+[NPC1273] 'RESYNC desde sp_localindex.dat (lote3 pat B) | cartas: plan 23.005
 Name=Pothir <Alquimista de Forgat>
 SoundClose=851
 SoundOpen=850
@@ -14684,6 +14970,7 @@ MagicResistance=55
 MagicDef=5
 TipoItems=11
 CambioAIdle=10
+CollectibleCardIndex=317
 [NPC1274] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Pandora <Hechicera>
 SoundOpen=903
@@ -14804,7 +15091,7 @@ MagicResistance=55
 MagicDef=5
 TipoItems=13
 
-[NPC1278] 'RESYNC desde sp_localindex.dat (lote3 cosmetico)
+[NPC1278] 'RESYNC desde sp_localindex.dat (lote3 cosmetico) | cartas: plan 23.005
 Name=Oshurk <Carpintero de Forgat>
 SoundOpen=906
 IT_Desc=Benvenuti nella carpenteria di perdonazione!
@@ -14843,6 +15130,7 @@ NPCLVL=22
 MagicResistance=55
 MagicDef=5
 TipoItems=100
+CollectibleCardIndex=315
 [NPC1279]
 Name=Hilda <Provisiones>
 NpcType=0
@@ -14911,7 +15199,7 @@ MagicResistance=0
 MagicDef=40
 NoWiki=1
 
-[NPC1288]
+[NPC1288] 'cartas: plan 23.005
 Name=Francisco <Quest del Minero Explorador>
 en_Name=Francisco <Quest>
 Desc=¡Bienvenido, me especializo en elementos Sagrados!
@@ -14930,6 +15218,7 @@ MagicDef=0
 NumQuest=1
 QuestNumber1=161
 CambioAIdle=10
+CollectibleCardIndex=193
 
 [NPC1289] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Xanthe <Sacerdote>
@@ -15043,7 +15332,7 @@ NPCLVL=22
 MagicResistance=55
 MagicDef=5
 
-[NPC1304] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC1304] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Tiburón de Altamar
 Body=1494
 BodyIdle=1495
@@ -15100,7 +15389,7 @@ Caminata3=69:16:0
 Caminata4=16:16:0
 GiveEXP=450
 
-[NPC1306] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1306] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Pleria <Quest de Paladin>
 Desc=Necesito que consigas los componentes del rito. Solo un paladín que los obtenga por sí mismo puede despertar su poder.
 Body=6249
@@ -15109,6 +15398,7 @@ NpcType=17
 DisabledInBattleServer=1
 NumQuest=1
 QuestNumber1=339
+CollectibleCardIndex=108
 
 [NPC1307]
 Name=Zoltan <Quest>
@@ -15130,7 +15420,7 @@ NumQuest=2
 QuestNumber1=180
 QuestNumber2=181
 
-[NPC1308] Bisporus (Rojo)
+[NPC1308] Bisporus (Rojo) 'cartas: plan 23.005
 Name=Bisporus
 ShowName=0
 Head=0
@@ -15168,7 +15458,7 @@ Sp1=32
 RangoSpell=16
 IntervaloLanzarHechizo=8000
 
-[NPC1309] Niscalo (Amarillo)
+[NPC1309] Niscalo (Amarillo) 'cartas: plan 23.005
 Name=Niscalo
 Head=0
 Body=4259
@@ -15207,7 +15497,7 @@ Sp1=25
 RangoSpell=16
 IntervaloLanzarHechizo=6500
 
-[NPC1310] Comatus (Verde)
+[NPC1310] Comatus (Verde) 'cartas: plan 23.005
 Name=Comatus
 ShowName=0
 Head=0
@@ -15249,7 +15539,7 @@ Sp1=239
 RangoSpell=16
 IntervaloLanzarHechizo=7000
 
-[NPC1311] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
+[NPC1311] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D) | cartas: plan 23.005
 Name=Elfer <Mercader>
 SoundOpen=600
 Desc=¡Todo lo que buscas y más!
@@ -15273,6 +15563,7 @@ Obj2=199-100
 NPCLVL=26
 MagicResistance=65
 MagicDef=10
+CollectibleCardIndex=336
 [NPC1325]
 Name=Mago Pirata
 ShowName=0
@@ -15396,7 +15687,7 @@ Obj2=199-1
 Obj3=197-1
 NoMapInfo=1
 
-[NPC1330]
+[NPC1330] 'cartas: plan 23.005
 Name=Vendedor de Sets
 En_Name=Set Seller
 Desc=¡Hola! Vendo SETS.
@@ -15445,7 +15736,7 @@ Obj32=1788-1
 Obj33=1804-1
 Obj34=1246-1
 Obj35=1218-1
-Obj36=1210-1
+Obj36=1954-1
 Obj37=2324-1
 RequireToggle=npcs-beta
 NPCLVL=2
@@ -15495,7 +15786,7 @@ MagicResistance=15
 MagicDef=0
 NumQuest=1
 QuestNumber1=198
-[NPC1332] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1332] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Hormiga Amarilla
 Body=5231
 Head=0
@@ -15507,8 +15798,9 @@ GiveEXP=260
 GiveGLD=6
 MaxHIT=42
 MinHIT=26
-DropCount=1
+DropCount=2
 Drop1=1675-10000-1-1
+Drop2=344-10000-1-1
 NumDropQuest=1
 DropQuest1=285-461-1-1
 Nivel=15
@@ -15522,8 +15814,9 @@ en_Name=Yellow Ant
 pt_Name=Formiga Amarela
 fr_Name=Fourmi Jaune
 it_Name=Formica Gialla
+CollectibleCardIndex=66
 
-[NPC1333] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1333] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Hormiga Verde
 Body=5237
 Head=0
@@ -15540,15 +15833,17 @@ GiveEXP=220
 GiveGLD=10
 MaxHIT=40
 MinHIT=28
-DropCount=1
+DropCount=2
 Drop1=1676-5000-1-1
+Drop2=345-10000-1-1
 NumDropQuest=1
 DropQuest1=285-461-1-1
 Nivel=15
 MinHp=400
 PoderAtaque=50
 PoderEvasion=30
-[NPC1334] 'RESYNC desde sp_localindex.dat (fase B)
+CollectibleCardIndex=67
+[NPC1334] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Hormiga Negra
 SoundOpen=600
 Body=5234
@@ -15610,8 +15905,11 @@ PoderAtaque=55
 PoderEvasion=32
 NumDropQuest=1
 DropQuest1=285-461-1-1
+CollectibleCardIndex=65
+DropCount=1
+Drop1=343-10000-1-1
 
-[NPC1335] 'RESYNC desde sp_localindex.dat (fase B)
+[NPC1335] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Hormiga Berseker
 SoundOpen=702
 SoundClose=703
@@ -15642,7 +15940,7 @@ Obj12=2923-1
 Obj13=2922-1
 Obj14=2924-1
 Obj15=2929-1
-Obj16=508-1
+Obj16=9233-1
 Obj17=56-1
 Obj18=4344-1
 Obj19=2919-1
@@ -15657,7 +15955,10 @@ Nivel=20
 MinHp=1000
 PoderAtaque=95
 PoderEvasion=65
-[NPC1336] 'RESYNC desde sp_localindex.dat (fase B)
+CollectibleCardIndex=69
+DropCount=1
+Drop1=347-10000-1-1
+[NPC1336] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Hormiga Guerrera
 Body=5240
 Head=0
@@ -15696,13 +15997,15 @@ GiveEXP=520
 GiveGLD=28
 MaxHIT=60
 MinHIT=38
-DropCount=1
+DropCount=2
 Drop1=239-250-1-1
+Drop2=342-10000-1-1
 Nivel=20
 MinHp=800
 PoderAtaque=75
 PoderEvasion=50
-[NPC1337] 'RESYNC desde sp_localindex.dat (fase B)
+CollectibleCardIndex=64
+[NPC1337] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Hormiga Azul
 Body=5243
 Head=0
@@ -15746,14 +16049,16 @@ GiveEXP=360
 GiveGLD=18
 MaxHIT=50
 MinHIT=35
-DropCount=2
+DropCount=3
 Drop1=1715-50-1-1
 Drop2=1721-50-1-1
+Drop3=346-10000-1-1
 Nivel=15
 MinHp=600
 PoderAtaque=65
 PoderEvasion=40
-[NPC1338] 'RESYNC desde sp_localindex.dat (fase B)
+CollectibleCardIndex=68
+[NPC1338] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
 Name=Gaia
 Body=5246
 Head=0
@@ -15788,7 +16093,11 @@ Nivel=20
 MinHp=8000
 PoderAtaque=220
 PoderEvasion=100
-[NPC1339]
+CollectibleCardIndex=70
+DropCount=2
+Drop1=511-10-1-1
+Drop2=348-10000-1-1
+[NPC1339] 'cartas: plan 23.005
 Name=Maestro Entomus <Investigador>
 SoundOpen=702
 SoundClose=703
@@ -15806,6 +16115,7 @@ Hostile=0
 Alineacion=0
 NumQuest=1
 QuestNumber1=285
+CollectibleCardIndex=297
 
 [NPC1340] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Ferrut <Sastre>
@@ -15843,7 +16153,7 @@ NPCLVL=24
 MagicResistance=60
 MagicDef=5
 TipoItems=17
-[NPC1341] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
+[NPC1341] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D) | cartas: plan 23.005
 Name=Erindhir <Sastre>
 SoundOpen=1015
 IT_Desc=I migliori tessuti nella migliore città, niente da perdere con questi prezzi.
@@ -15880,7 +16190,8 @@ NPCLVL=24
 MagicResistance=60
 MagicDef=5
 TipoItems=17
-[NPC1342]
+CollectibleCardIndex=332
+[NPC1342] 'cartas: plan 23.005
 Name=Finrod <Tabernero de Eldoria>
 En_Name=Finrod <Innkeeper of Eldoria>
 ShowName=1
@@ -15905,8 +16216,9 @@ NoWiki=1
 NPCLVL=22
 MagicResistance=55
 MagicDef=5
+CollectibleCardIndex=330
 
-[NPC1343] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
+[NPC1343] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D) | cartas: plan 23.005
 Name=Thessalio <Alquimista>
 SoundClose=853
 SoundOpen=852
@@ -15954,7 +16266,8 @@ MagicResistance=55
 MagicDef=5
 TipoItems=11
 CambioAIdle=10
-[NPC1345] 'RESYNC desde sp_localindex.dat (lote3 pat B)
+CollectibleCardIndex=323
+[NPC1345] 'RESYNC desde sp_localindex.dat (lote3 pat B) | cartas: plan 23.005
 Name=Thalin <Hechicero de Eldoria>
 SoundOpen=1170
 IT_Desc=Benvenuti nel mio negozio! Ho le pergamene arcan più ricercate dagli stregoni di questo mondo!
@@ -16009,7 +16322,8 @@ NPCLVL=22
 MagicResistance=55
 MagicDef=5
 TipoItems=3
-[NPC1347]
+CollectibleCardIndex=123
+[NPC1347] 'cartas: plan 23.005
 Name=Ghelfa <Provisiones de Eldoria>
 En_Name=Ghelfa <Eldoria Supplies>
 Desc=¡Hola! Vendo una gran variedad de provisiones!
@@ -16039,6 +16353,7 @@ NoWiki=1
 NPCLVL=22
 MagicResistance=55
 MagicDef=5
+CollectibleCardIndex=334
 
 [NPC1348] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
 Name=Donato <Herborista>
@@ -16106,7 +16421,7 @@ MagicResistance=97
 MagicDef=15
 TipoItems=100
 
-[NPC1350] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D)
+[NPC1350] 'RESYNC desde sp_localindex.dat (lote3 pass2 A+B+D) | cartas: plan 23.005
 Name=Lyram <Sacerdote de Eldoria>
 Desc=¡Hola, hijo mio! Soy el Sacerdote de esta Ciudad Élfica. Si quieres ser resucitado, simplemente hazme click izquierdo y escribe /Resucitar
 Body=6228
@@ -16123,8 +16438,9 @@ Heading=3
 NPCLVL=6
 MagicResistance=15
 MagicDef=0
+CollectibleCardIndex=140
 
-[NPC1351]
+[NPC1351] 'cartas: plan 23.005
 Name=Aquilore Ártico
 ShowName=0
 En_Name=Arctic Aquilore
@@ -16159,7 +16475,7 @@ NpcType=0
 DropCount=1
 Drop1=2551-5-1-1
 
-[NPC1352]'aguila nueva
+[NPC1352]'aguila nueva | cartas: plan 23.005
 Name=Aquilore
 ShowName=0
 Head=0
@@ -16217,7 +16533,7 @@ Drop1=2519-10-1-1
 '--- fin copia privada ---
 Domable=133
 
-[NPC1353] 'Realineado a oficial 2026-06-08 (slot repropuesto) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC1353] 'Realineado a oficial 2026-06-08 (slot repropuesto) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Suido
 Body=5379
 Head=0
@@ -16247,8 +16563,9 @@ pt_Name=Swain do Ártico
 fr_Name=Swain Arctique
 it_Name=Swain Artico
 ElementalTags=2
+CollectibleCardIndex=96
 
-[NPC1354]'beholder nuevo blanco
+[NPC1354]'beholder nuevo blanco | cartas: plan 23.005
 Name=Eyewarden Ártico
 ShowName=0
 En_Name=Arctic Eyewarden
@@ -16281,13 +16598,14 @@ IntervaloRespawnMin=180
 GiveEXPClan=3
 NpcType=0
 Nivel=32
-DropCount=1
+DropCount=2
 Drop1=2807-50-1-1
+Drop2=1233-500-1-1
 NumDropQuest=2
 DropQuest1=140-2514-1-40
 DropQuest2=270-2794-1-200
 
-[NPC1355] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1355] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Ghoul de Hielo
 Body=5385
 Head=0
@@ -16311,6 +16629,10 @@ en_Name=Ice Undead
 pt_Name=Morto-vivo de Gelo
 fr_Name=Mort-vivant de Glace
 it_Name=Non morti di Ghiaccio
+CollectibleCardIndex=87
+DropCount=2
+Drop1=514-500-1-1
+Drop2=564-10000-1-1
 
 '[NPC1356]'Scramer Anciano entrega llave casa 2 mapa 776 (poner solo 1)
 'Name=Scramer Veterano
@@ -16347,7 +16669,7 @@ it_Name=Non morti di Ghiaccio
 '
 '--- fin copia privada ---
 
-[NPC1356] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC1356] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Escorpión Azul
 Body=5382
 Head=0
@@ -16372,8 +16694,11 @@ Alineacion=0
 Nivel=32
 PoderAtaque=190
 PoderEvasion=145
+CollectibleCardIndex=86
+DropCount=1
+Drop1=563-10000-1-1
 
-[NPC1357]'Monito I
+[NPC1357]'Monito I | cartas: plan 23.005
 Name=Mono Capuchino
 ShowName=0
 En_Name=Capuchin monkey
@@ -16404,7 +16729,7 @@ DropCount=1
 Drop1=158-1-1-5
 Nivel=20
 
-[NPC1358]'Monito II
+[NPC1358]'Monito II | cartas: plan 23.005
 Name=Mono Tití
 ShowName=0
 En_Name=Titi monkey
@@ -16433,7 +16758,7 @@ MagicDef=0
 NpcType=0
 Domable=210
 
-[NPC1359]'Antilope I
+[NPC1359]'Antilope I | cartas: plan 23.005
 Name=Antilope
 ShowName=0
 En_Name=Antelope
@@ -16462,7 +16787,7 @@ NpcType=0
 Domable=210
 MinTameLevel=25
 
-[NPC1360]'Antilope II
+[NPC1360]'Antilope II | cartas: plan 23.005
 Name=Antilope Negro
 ShowName=0
 En_Name=Black Antelope
@@ -16521,7 +16846,7 @@ NpcType=0
 Domable=250
 MinTameLevel=25
 
-[NPC1361] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC1361] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Pantera
 Body=4217
 Head=0
@@ -16574,7 +16899,7 @@ PoderEvasion=67
 '
 '--- fin copia privada ---
 
-[NPC1362] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC1362] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Pixie de Hielo
 DropCount=2
 Drop1=5180-1000-1-1
@@ -16611,8 +16936,9 @@ IntervaloRespawn=240
 LanzaSpells=2
 Sp1=25
 Sp2=51
+CollectibleCardIndex=88
 
-[NPC1363]'Gusano Nuevo
+[NPC1363]'Gusano Nuevo | cartas: plan 23.005
 Name=Dovu
 ShowName=0
 Head=0
@@ -16645,7 +16971,7 @@ MagicDef=0
 NpcType=0
 Nivel=20
 
-[NPC1364] 'Realineado a oficial 2026-06-08 (slot repropuesto) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC1364] 'Realineado a oficial 2026-06-08 (slot repropuesto) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Golem de Hielo
 Body=4890
 Head=0
@@ -16676,8 +17002,9 @@ ElementalTags=2
 DEF=30
 IntervaloRespawnMin=10800
 IntervaloRespawn=25200
+CollectibleCardIndex=61
 
-[NPC1366] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC1366] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Criptococo
 Body=4202
 Head=0
@@ -16705,8 +17032,9 @@ NumQuiza=1
 QUIZADROPEA1=409
 QuizaProb=550
 Nivel=28
-DropCount=1
-Drop1=409-300-1-1
+DropCount=2
+Drop1=509-500-1-1
+Drop2=409-800-1-1
 PoderAtaque=250
 PoderEvasion=150
 '[NPC1367]
@@ -16737,7 +17065,7 @@ PoderEvasion=150
 '
 '--- fin copia privada ---
 
-[NPC1367] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC1367] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Velocirraptor
 Body=4185
 Head=0
@@ -16798,7 +17126,7 @@ MagicResistance=25
 NoWiki=1
 NpcType=0
 
-[NPC1369]
+[NPC1369] 'cartas: plan 23.005
 Name=Hiena Marrón
 ShowName=0
 En_Name=Brown Hyena
@@ -16827,7 +17155,7 @@ NPCLVL=10
 MagicResistance=25
 NpcType=0
 
-[NPC1370]
+[NPC1370] 'cartas: plan 23.005
 Name=Hiena Gris
 ShowName=0
 En_name=Gray Hyena
@@ -16934,7 +17262,7 @@ DisabledInBattleServer=1
 '
 '--- fin copia privada ---
 
-[NPC1374] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07)
+[NPC1374] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
 Name=Ent Élfico
 Body=4927
 Head=0
@@ -16958,14 +17286,17 @@ ReSpawn=0
 Alineacion=0
 
 '--- COPIA PRIVADA ORIGINAL NPC1375 (Ciervo Morado) antes de oficializar; cliente oficial era Ciervo ---
-DropCount=1
+DropCount=3
 Drop1=2781-1-50-250
+Drop2=939-10000-1-1
+Drop3=503-33-1-1
 NumDropQuest=1
 DropQuest1=270-2798-1-20
 DisabledInBattleServer=1
 Nivel=28
 PoderAtaque=230
 PoderEvasion=150
+CollectibleCardIndex=230
 '[NPC1375]
 'Name=Ciervo Morado
 'En_Name=Purple Deer
@@ -16995,7 +17326,7 @@ PoderEvasion=150
 '
 '--- fin copia privada ---
 
-[NPC1375] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1375] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Cervatillo
 Body=6061
 Head=0
@@ -17019,8 +17350,11 @@ en_Name=Light Brown Deer
 pt_Name=Cervo Marrom Claro
 fr_Name=Cerf Brun Clair
 it_Name=Cervo Marrone Chiaro
+CollectibleCardIndex=162
+DropCount=1
+Drop1=848-10000-1-1
 
-[NPC1376] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1376] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Cervatillo
 Body=6061
 Head=0
@@ -17164,7 +17498,7 @@ MagicResistance=25
 NoWiki=1
 NpcType=0
 
-[NPC1385]
+[NPC1385] 'cartas: plan 23.005
 Name=Pirata Cañonero
 ShowName=0
 En_Name=Gunboat Pirate
@@ -17504,7 +17838,7 @@ CastAnimation=4131
 Heading=3
 Movement=3
 
-[NPC1404]
+[NPC1404] 'cartas: plan 23.005
 Name=Troll Oscuro
 ShowName=0
 en_Name=Dark Troll
@@ -17537,7 +17871,7 @@ QUIZADROPEA1=408
 QuizaProb=575
 NpcType=0
 DropCount=1
-Drop1=408-375-1-1
+Drop1=408-600-1-1
 Nivel=20
 [NPC9000]
 Name=Maestro Carpintero y Lenador <Carpinteria y Tala>
@@ -17699,7 +18033,7 @@ Obj2=9013-1000
 SoundOpen=700
 SoundClose=703
 
-[NPC20]
+[NPC20] 'cartas: plan 23.005
 Name=Roth <Quest Pantano>
 Desc=Si esas criaturas siguen multiplicándose, Ullathorpe no va a estar a salvo.
 Head=0
@@ -17713,6 +18047,7 @@ Hostile=0
 Alineacion=0
 NumQuest=1
 QuestNumber1=319
+CollectibleCardIndex=310
 
 [NPC120]
 Name=Eustaquio <Talador>
@@ -17729,7 +18064,7 @@ NoMapInfo=1
 BodyIdle=6225
 CambioAIdle=10
 
-[NPC121]
+[NPC121] 'cartas: plan 23.005
 Name=Darim <Carpintero>
 Desc=¡Puedes convertir tu madera en lo que tu quieras! Debes aprender sobre esto items en la sección Carpinteria, dentro de la Wiki Online
 Head=0
@@ -17744,8 +18079,9 @@ Attackable=0
 Hostile=0
 Alineacion=0
 NoMapInfo=1
+CollectibleCardIndex=354
 
-[NPC122]
+[NPC122] 'cartas: plan 23.005
 Name=Rona <Herreria>
 Desc=¿Quieres aprender a forjar tus items? ¡La información que necesitas se encuentra en la Wiki Online, en la sección Herreria!
 Head=0
@@ -17760,8 +18096,9 @@ Attackable=0
 Hostile=0
 Alineacion=0
 NoMapInfo=1
+CollectibleCardIndex=287
 
-[NPC123]
+[NPC123] 'cartas: plan 23.005
 Name=Borin <Minero>
 Desc=Todo lo relacionado a la extracción de minerales en Argentum Online se encuentra en la sección Minar de la Wiki Online. ¡Hecha un vistazo!
 Head=0
@@ -17774,8 +18111,9 @@ Attackable=0
 Hostile=0
 Alineacion=0
 NoMapInfo=1
+CollectibleCardIndex=356
 
-[NPC124]
+[NPC124] 'cartas: plan 23.005
 Name=Druslo <Alquimista>
 Desc=¡El mundo de la Alquimia es maravilloso! Te recomiendo aprender todo lo relacionado, en la sección Alquimia dentro de la Wiki Online
 Head=0
@@ -17790,8 +18128,9 @@ Attackable=0
 Hostile=0
 Alineacion=0
 NoMapInfo=1
+CollectibleCardIndex=272
 
-[NPC125]
+[NPC125] 'cartas: plan 23.005
 Name=Giorgia <Sastreria>
 Desc=Existen varios tipos de pieles a lo largo de este Mundo, puedo enseñarte más sobre esta profesión pero primero debes inspeccionar la sección Sastreria de la Wiki Online
 Head=0
@@ -17806,8 +18145,9 @@ Attackable=0
 Hostile=0
 Alineacion=0
 NoMapInfo=1
+CollectibleCardIndex=331
 
-[NPC1635]
+[NPC1635] 'cartas: plan 23.005
 Name=Arkhavel <Quest Sedas Elementales>
 Desc=Saludos, aventurero. No muchos se acercan a mí sin buscar armas o pociones, pero yo persigo algo diferente: conocimiento. En las profundidades de las Catacumbas habitan unas criaturas fascinantes: arañas imbuidas con el poder de los elementos. Sus sedas contienen fragmentos de esa energía primordial. He dedicado años a estudiar cómo transformarlas en un material único, pero reunirlas es una tarea demasiado peligrosa para un simple erudito.
 Head=0
@@ -17823,6 +18163,7 @@ Hostile=0
 Alineacion=0
 NumQuest=1
 QuestNumber1=334
+CollectibleCardIndex=353
 
 [NPC27] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Nixerino <Guardia de Arena>
@@ -17879,7 +18220,7 @@ PoderEvasion=300
 NumDropQuest=1
 DropQuest1=386-6356-1-10
 
-[NPC19] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC19] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Lyra <Quest de Nucleo Terrenal>
 Desc=No puedo decirte exactamente qué haré con él... pero sé que su energía vale oro para quien pueda estudiarla.
 Body=6163
@@ -17895,8 +18236,9 @@ Hostile=0
 ReSpawn=0
 NumQuest=1
 QuestNumber1=320
+CollectibleCardIndex=346
 
-[NPC126] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC126] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Henrietta <Pescadora>
 Desc=¡El mar es maravilloso! Si deseas aprender como extraer los mejores pescados, inspecciona cuanto antes la sección Pesca dentro de la Wiki Online
 Body=6117
@@ -17911,8 +18253,9 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+CollectibleCardIndex=313
 
-[NPC249] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC249] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Hiploro <Quest de Minas de Hierro>
 Desc=¡Todos quieren nueQuests materiales, somos más ricos de lo que creemos!
 Body=6161
@@ -17928,8 +18271,9 @@ Hostile=0
 ReSpawn=0
 NumQuest=1
 QuestNumber1=218
+CollectibleCardIndex=345
 
-[NPC432] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC432] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Alaric von Nix <Quest de Pieles>
 Desc=¡Ah.. un nuevo rostro entre los copos de esta ciudad! Bienvenido a mi taller, viajero.
 Body=6174
@@ -17947,8 +18291,9 @@ DisabledInBattleServer=1
 NumQuest=2
 QuestNumber1=231
 QuestNumber2=230
+CollectibleCardIndex=312
 
-[NPC1502] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC1502] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 '--- Guardia reparado. Plan 07.002 ola 1. Plantilla NPC261.
 '--- Sin Alineacion atacaria a TODOS (AI_NPC.bas:1341-1348); sin Faccion tambien
 '--- (GameLogic.bas:166-178). Sin OrigPos respawnea en tile al azar; OJO que NO es
@@ -17989,6 +18334,7 @@ PoderEvasion=300
 '--- Brazalete de la QUEST386, 1 en 10, solo con la quest activa (plan 17.001 D65b)
 NumDropQuest=1
 DropQuest1=386-6356-1-10
+CollectibleCardIndex=16
 
 [NPC542] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Caballo Marrón
@@ -18028,7 +18374,7 @@ GiveGLD=5
 MaxHIT=15
 MinHIT=7
 
-[NPC832] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC832] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Gallo
 Body=5157
 Head=0
@@ -18092,7 +18438,7 @@ PoderEvasion=300
 NumDropQuest=1
 DropQuest1=386-6356-1-10
 
-[NPC1506] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC1506] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 '--- Guardia reparado. Plan 07.002 ola 1. Plantilla NPC261.
 '--- Sin Alineacion atacaria a TODOS (AI_NPC.bas:1341-1348); sin Faccion tambien
 '--- (GameLogic.bas:166-178). Sin OrigPos respawnea en tile al azar; OJO que NO es
@@ -18129,8 +18475,9 @@ IntervaloAtaque=1200
 DEF=40
 PoderAtaque=1500
 PoderEvasion=300
+CollectibleCardIndex=77
 
-[NPC1500] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1500] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Aurum <Herrero Real>
 Desc=El equipamiento ideal para un Ciudadano como tú.
 Body=6085
@@ -18159,8 +18506,9 @@ Obj18=9194-1000
 Obj19=9201-1000
 NoMapInfo=1
 CambioAIdle=10
+CollectibleCardIndex=180
 
-[NPC1501] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC1501] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Lhissa <Sastre de Banderbill>
 Desc=Las mejores túnicas para un Ciudadano como tú.
 Body=6197
@@ -18180,8 +18528,9 @@ NROITEMS=8
 Obj1=1963-1000
 Obj2=1900-1000
 Obj3=1901-1000
+CollectibleCardIndex=314
 
-[NPC1511] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC1511] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Cleff <Hechicero de Banderbill>
 SoundOpen=1000
 IT_Desc=Ho una grande varietà di incantesimi!
@@ -18242,6 +18591,7 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 TipoItems=24
+CollectibleCardIndex=121
 
 [NPC17] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Athanasius <Sacerdote Carcelario>
@@ -18323,7 +18673,7 @@ ReSpawn=0
 NumQuest=1
 QuestNumber1=219
 
-[NPC1552] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC1552] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 '--- Guardia reparado. Plan 07.002 ola 1. Plantilla NPC271.
 '--- Sin Alineacion atacaria a TODOS (AI_NPC.bas:1341-1348); sin Faccion tambien
 '--- (GameLogic.bas:166-178). Sin OrigPos respawnea en tile al azar; OJO que NO es
@@ -18364,6 +18714,7 @@ PoderEvasion=300
 '--- Brazalete de la QUEST385, 1 en 10, solo con la quest activa (plan 17.001 D65b)
 NumDropQuest=1
 DropQuest1=385-6355-1-10
+CollectibleCardIndex=17
 
 [NPC1556] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 '--- Guardia reparado. Plan 07.002 ola 1. Plantilla NPC271.
@@ -18403,7 +18754,7 @@ DEF=40
 PoderAtaque=1500
 PoderEvasion=300
 
-[NPC1557] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC1557] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 '--- Guardia reparado. Plan 07.002 ola 1, paso 1.1 (canario). Plantilla NPC271.
 '--- Sin Alineacion el guardia ataca a TODOS (AI_NPC.bas:1341-1348). Sin OrigPos
 '--- respawnea en un tile al azar del mapa (MODULO_NPCs.bas:497). Movement 1 lo
@@ -18440,6 +18791,7 @@ IntervaloAtaque=1200
 DEF=40
 PoderAtaque=1500
 PoderEvasion=300
+CollectibleCardIndex=78
 
 [NPC1553] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 '--- Guardia reparado. Plan 07.002 ola 1. Plantilla NPC271.
@@ -18525,7 +18877,7 @@ PoderEvasion=300
 NumDropQuest=1
 DropQuest1=385-6355-1-10
 
-[NPC504] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC504] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Zombie Putrefacto
 Body=4937
 Head=0
@@ -18585,7 +18937,7 @@ QuestNumber1=224
 QuestNumber2=225
 QuestNumber3=226
 
-[NPC1700] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC1700] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Guardia Elfico <Protector de Eldoria>
 Body=5666
 Head=0
@@ -18603,8 +18955,9 @@ MinHp=1000
 MaxHp=1000
 MaxHIT=200
 MinHIT=100
+CollectibleCardIndex=73
 
-[NPC1701] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC1701] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Hechicero Elfico <Protector de Eldoria>
 Body=5678
 BodyIdle=5676
@@ -18621,6 +18974,7 @@ MinHp=2000
 MaxHp=2000
 MaxHIT=80
 MinHIT=50
+CollectibleCardIndex=74
 
 [NPC247] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Nundal <Quest de Pesca>
@@ -18652,7 +19006,7 @@ ReSpawn=0
 NumQuest=1
 QuestNumber1=335
 
-[NPC505] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC505] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Zombie Andante
 Body=4940
 Head=0
@@ -18677,7 +19031,7 @@ MinHp=450
 PoderAtaque=50
 PoderEvasion=25
 
-[NPC1550] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1550] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Malek <Herrero Oscuro>
 Desc=El equipamiento ideal para un Criminal como tú.
 Body=6091
@@ -18706,6 +19060,7 @@ Obj18=9194-1000
 Obj19=9201-1000
 NoMapInfo=1
 CambioAIdle=10
+CollectibleCardIndex=181
 
 [NPC1551] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Dhoruk <Sastre Legionario>
@@ -18728,7 +19083,7 @@ Obj1=1963-1000
 Obj2=1900-1000
 Obj3=1901-1000
 
-[NPC1561] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC1561] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Ligno <Hechicero de Arkhein>
 SoundOpen=1001
 IT_Desc=Ho una grande varietà di incantesimi!
@@ -18789,6 +19144,7 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 TipoItems=24
+CollectibleCardIndex=122
 
 [NPC1018] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Arkan <Quest de Galeones>
@@ -18850,7 +19206,7 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 
-[NPC1510] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC1510] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Aurelian <Sacerdote de Banderbill>
 Desc=¡Hola, hijo mio! Soy el Sacerdote de este pueblo. Si quieres ser resucitado, hazme click izquierdo y luego escribe /Resucitar
 Body=6226
@@ -18864,6 +19220,7 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+CollectibleCardIndex=138
 
 [NPC1009] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Maelgor <Quest de Isla Esperanza>
@@ -18880,7 +19237,7 @@ ReSpawn=0
 NumQuest=1
 QuestNumber1=28
 
-[NPC257] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC257] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Haleth <Gobernadora de Eldoria>
 Desc=¡Bienvenido a Eldoria la tierra de los Elfos!
 Body=4003
@@ -18896,8 +19253,9 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+CollectibleCardIndex=172
 
-[NPC1070] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC1070] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Ruma <Sastre de Eldoria>
 Desc=¡Los mejores vestidos que podrás conseguir!
 Body=6189
@@ -18931,8 +19289,9 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 TipoItems=3
+CollectibleCardIndex=326
 
-[NPC256] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC256] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Jarl Njord <Gobernador de Forgat>
 Head=0
 Desc=¡Bienvenido a Forgat la tierra de los Vikingos!
@@ -18942,8 +19301,9 @@ NpcType=12
 '--- (array 1 To 9). Peor: dos Case Else le dicen que quedo de Ullathorpe. Plan 07.002.
 GobernadorDe=7
 NoMapInfo=1
+CollectibleCardIndex=168
 
-[NPC1637] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC1637] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Eldarika <Guardiána Mítica>
 Desc=Ese no es un lienzo común. Está impregnado con la esencia de los cuatro elementos y tejido con técnicas que creía perdidas hace siglos.
 Body=6199
@@ -18959,6 +19319,7 @@ Hostile=0
 ReSpawn=0
 NumQuest=1
 QuestNumber1=336
+CollectibleCardIndex=307
 
 [NPC1638] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Bjornir <Guardia Vikingo>
@@ -18989,7 +19350,7 @@ Hostile=0
 ReSpawn=0
 DisabledInBattleServer=1
 
-[NPC1560] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
+[NPC1560] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
 Name=Vorn <Sacerdote de Arkhein>
 Desc=¡Bienvenido al infierno! Si quieres que levante de aquí tu apestoso cadáver, pídemelo.
 Body=6232
@@ -19002,6 +19363,7 @@ Movement=1
 Attackable=0
 Hostile=0
 ReSpawn=0
+CollectibleCardIndex=139
 
 [NPC21] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Bromdir <Quest del Fenix>
@@ -19061,7 +19423,7 @@ ReSpawn=0
 ShowName=1
 DisabledInBattleServer=1
 TipoItems=44
-[NPC258] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC258] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Dhall <Gobernadora de Penthar>
 Desc=¡Bienvenido a Penthar la tierra de los Orcos!
 Body=4005
@@ -19077,6 +19439,7 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 ShowName=1
+CollectibleCardIndex=169
 [NPC430] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Barlock <Quest de Goblins>
 Desc=¡Oye tú, ser mágico, ayuda por favor!
@@ -19091,7 +19454,7 @@ ReSpawn=0
 ShowName=1
 NumQuest=1
 QuestNumber1=118
-[NPC491] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC491] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Nuri <Finanzas Goliath>
 Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
 Body=4010
@@ -19106,7 +19469,8 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 ShowName=1
-[NPC521] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+CollectibleCardIndex=81
+[NPC521] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Throgar
 Body=5122
 Head=0
@@ -19124,12 +19488,14 @@ GiveEXP=700
 GiveGLD=63
 MaxHIT=80
 MinHIT=45
-DropCount=1
+DropCount=2
 Drop1=2803-30-1-1
+Drop2=276-10000-1-1
 MinHp=1400
 PoderAtaque=110
 PoderEvasion=85
-[NPC808] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+CollectibleCardIndex=19
+[NPC808] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Kobold Azul
 Body=5404
 Head=0
@@ -19154,7 +19520,7 @@ MinHp=900
 PoderAtaque=88
 PoderEvasion=60
 ElementalTags=2
-[NPC812] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC812] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Kobold Rojo
 Body=5407
 Head=0
@@ -19186,7 +19552,7 @@ Drop1=1820-327-1-1
 Drop2=5179-10000-1-1
 Nivel=20
 ElementalTags=1
-[NPC813] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC813] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Kobold Marron
 Body=5410
 Head=0
@@ -19210,7 +19576,7 @@ MinHp=1000
 PoderAtaque=90
 PoderEvasion=60
 ElementalTags=4
-[NPC814] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC814] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Kobold Gris
 Body=5413
 Head=0
@@ -19242,7 +19608,7 @@ DropCount=2
 Drop1=164-237-1-1
 Drop2=5182-10000-1-1
 ElementalTags=8
-[NPC815] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC815] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Miastrix
 Body=5440
 BodyIdle=5438
@@ -19270,7 +19636,8 @@ ElementalTags=4
 LanzaSpells=1
 Sp1=223
 IntervaloLanzarHechizo=3000
-[NPC816] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+CollectibleCardIndex=11
+[NPC816] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Varec
 Body=5551
 Head=0
@@ -19292,7 +19659,10 @@ Nivel=30
 MinHp=3000
 PoderAtaque=155
 PoderEvasion=140
-[NPC817] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+CollectibleCardIndex=256
+DropCount=1
+Drop1=986-10000-1-1
+[NPC817] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Pixie de Viento
 DropCount=2
 Drop1=5182-1000-1-1
@@ -19324,7 +19694,8 @@ LanzaSpells=2
 Sp1=25
 Sp2=28
 IntervaloLanzarHechizo=3200
-[NPC822] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+CollectibleCardIndex=91
+[NPC822] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Bruin
 Body=4930
 Head=0
@@ -19347,7 +19718,7 @@ PoderAtaque=180
 PoderEvasion=100
 NumDropQuest=1
 DropQuest1=230-539-1-5
-[NPC829] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC829] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Typhon
 Body=5449
 BodyIdle=5447
@@ -19376,7 +19747,8 @@ PoderAtaque=225
 PoderEvasion=150
 ElementalTags=8
 DEF=10
-[NPC844] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+CollectibleCardIndex=197
+[NPC844] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Minertopo
 Body=5527
 Head=0
@@ -19396,6 +19768,9 @@ MinHIT=70
 MinHp=800
 PoderAtaque=135
 PoderEvasion=115
+CollectibleCardIndex=217
+DropCount=1
+Drop1=925-10000-1-1
 [NPC845] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Minertopo
 Body=5529
@@ -19448,7 +19823,7 @@ ReSpawn=0
 ShowName=1
 MinHp=1
 MaxHp=1
-[NPC948] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC948] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Verraco Alfa
 Body=5125
 Head=0
@@ -19466,13 +19841,15 @@ GiveEXP=600
 GiveGLD=0
 MaxHIT=40
 MinHIT=20
-DropCount=1
+DropCount=2
 Drop1=2207-1-1-1
+Drop2=937-10000-1-1
 Nivel=20
 MinHp=1200
 PoderAtaque=80
 PoderEvasion=60
-[NPC967] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+CollectibleCardIndex=228
+[NPC967] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Lobo Huargo
 Body=4369
 Head=0
@@ -19496,7 +19873,7 @@ PoderAtaque=180
 PoderEvasion=130
 NumDropQuest=1
 DropQuest1=324-464-1-50
-[NPC971] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC971] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Faraon Zombie
 Body=5172
 Head=0
@@ -19517,7 +19894,7 @@ Nivel=20
 MinHp=3100
 PoderAtaque=165
 PoderEvasion=125
-[NPC972] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC972] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Coloso Mutante
 Body=5035
 Head=0
@@ -19556,7 +19933,7 @@ ReSpawn=0
 ShowName=1
 NumQuest=1
 QuestNumber1=341
-[NPC1041] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC1041] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Vorathis
 Body=5446
 BodyIdle=5444
@@ -19577,6 +19954,9 @@ MinHIT=180
 MinHp=8500
 PoderAtaque=245
 PoderEvasion=180
+CollectibleCardIndex=10
+DropCount=1
+Drop1=267-10000-1-1
 [NPC1066] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Holyrood <Quest de Arañas>
 Desc=No es seguro andar por aquí..
@@ -19628,7 +20008,7 @@ ReSpawn=0
 ShowName=1
 NumQuest=1
 QuestNumber1=99
-[NPC1079] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC1079] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Luchador de las Minas
 Body=1079
 Head=512
@@ -19647,7 +20027,7 @@ GiveGLD=20
 MinHp=800
 PoderAtaque=110
 PoderEvasion=55
-[NPC1465] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC1465] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Blaze
 Body=5270
 Head=0
@@ -19676,7 +20056,8 @@ MinHp=2000
 PoderAtaque=120
 PoderEvasion=85
 ElementalTags=1
-[NPC1466] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+CollectibleCardIndex=201
+[NPC1466] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Névora
 Body=5267
 Head=0
@@ -19705,7 +20086,8 @@ MinHp=2000
 PoderAtaque=120
 PoderEvasion=85
 ElementalTags=2
-[NPC1467] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+CollectibleCardIndex=203
+[NPC1467] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Tellus
 Body=5276
 Head=0
@@ -19734,7 +20116,8 @@ MinHp=2000
 PoderAtaque=120
 PoderEvasion=85
 ElementalTags=4
-[NPC1468] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+CollectibleCardIndex=200
+[NPC1468] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Gale
 Body=5273
 Head=0
@@ -19763,7 +20146,8 @@ MinHp=2000
 PoderAtaque=120
 PoderEvasion=85
 ElementalTags=8
-[NPC1469] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+CollectibleCardIndex=202
+[NPC1469] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Tortuga Titán
 Body=5252
 Head=0
@@ -19782,14 +20166,16 @@ GiveGLD=150
 Nivel=28
 MaxHIT=150
 MinHIT=80
-DropCount=2
+DropCount=3
 Drop1=6191-500-1-1
 Drop2=6192-500-1-1
+Drop3=335-10000-1-1
 DisabledInBattleServer=1
 MinHp=4000
 PoderAtaque=180
 PoderEvasion=140
-[NPC1470] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+CollectibleCardIndex=57
+[NPC1470] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Pyrot
 Body=5006
 Head=0
@@ -19821,7 +20207,8 @@ ElementalTags=1
 DEF=10
 LanzaSpells=1
 Sp1=32
-[NPC1471] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+CollectibleCardIndex=54
+[NPC1471] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Hydrot
 Body=5009
 Head=0
@@ -19853,7 +20240,8 @@ ElementalTags=2
 DEF=10
 LanzaSpells=1
 Sp1=25
-[NPC1472] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+CollectibleCardIndex=55
+[NPC1472] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Geot
 Body=5003
 Head=0
@@ -19885,7 +20273,8 @@ ElementalTags=4
 DEF=10
 LanzaSpells=1
 Sp1=26
-[NPC1473] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+CollectibleCardIndex=53
+[NPC1473] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Eolot
 Body=5000
 Head=0
@@ -19917,6 +20306,7 @@ ElementalTags=8
 DEF=10
 LanzaSpells=1
 Sp1=57
+CollectibleCardIndex=56
 [NPC1599] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Mercader <Facciones>
 Desc=¡Bienvenido a mi tienda! Me encargo de ofrecer objetos únicos para tu facción.
@@ -19950,7 +20340,7 @@ GiveGLD=0
 MaxHIT=65
 MinHIT=40
 Nivel=15
-[NPC1602] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC1602] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Frosty
 Body=5316
 Head=0
@@ -19969,6 +20359,7 @@ GiveGLD=0
 MaxHIT=55
 MinHIT=35
 Nivel=15
+CollectibleCardIndex=24
 [NPC1603] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Eryndor
 Body=5319
@@ -19988,7 +20379,7 @@ GiveGLD=0
 MaxHIT=25
 MinHIT=10
 Nivel=15
-[NPC1604] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC1604] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Cascanueces
 Body=5322
 Head=0
@@ -20007,7 +20398,8 @@ GiveGLD=0
 MaxHIT=45
 MinHIT=30
 Nivel=15
-[NPC1605] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+CollectibleCardIndex=26
+[NPC1605] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Olaf <Vocero de Papá Noel>
 Desc=Feliz Nochebuena, aventurero. Las criaturas del invierno están siendo derrotadas, pero la Navidad aún necesita ayuda. Recolectá Galletas Navideñas y traémelas para fortalecer el contador comunitario de Eleusis.
 Body=5329
@@ -20019,7 +20411,8 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 ShowName=1
-[NPC1606] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+CollectibleCardIndex=31
+[NPC1606] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Frostrion
 Body=5313
 Head=0
@@ -20038,6 +20431,7 @@ GiveGLD=0
 MaxHIT=125
 MinHIT=90
 Nivel=25
+CollectibleCardIndex=25
 [NPC1607] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Frosty
 Body=5316
@@ -20057,7 +20451,7 @@ GiveGLD=0
 MaxHIT=120
 MinHIT=85
 Nivel=25
-[NPC1608] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC1608] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Eryndor
 Body=5319
 Head=0
@@ -20076,6 +20470,7 @@ GiveGLD=0
 MaxHIT=65
 MinHIT=30
 Nivel=25
+CollectibleCardIndex=28
 [NPC1609] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Cascanueces
 Body=5322
@@ -20171,7 +20566,7 @@ GiveGLD=0
 MaxHIT=175
 MinHIT=145
 Nivel=35
-[NPC1614] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC1614] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Hakon <El Custodio de Papá Noel>
 Desc=La Nochebuena ha caído sobre Eleusis, pero algo no está bien... Criaturas del frío han salido de los bosques y montañas, robando las galletas sagradas de la Navidad.
 Body=5325
@@ -20184,7 +20579,8 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 ShowName=1
-[NPC1615] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+CollectibleCardIndex=30
+[NPC1615] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Papa Noel <Padre de la Navidad>
 Desc=La Nochebuena ha caído sobre Eleusis, pero algo no está bien... Criaturas del frío han salido de los bosques y montañas, robando las galletas sagradas de la Navidad.
 Body=5328
@@ -20196,7 +20592,8 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 ShowName=1
-[NPC1616] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+CollectibleCardIndex=29
+[NPC1616] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Skadi <Custodio Navideño>
 Desc=L
 Body=5330
@@ -20208,6 +20605,7 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 ShowName=1
+CollectibleCardIndex=32
 [NPC1617] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Niva
 Desc=L
@@ -20221,7 +20619,7 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 ShowName=1
-[NPC1618] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC1618] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Eirik <Guardián de Polo Norte>
 Desc=L
 Body=5331
@@ -20234,6 +20632,7 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 ShowName=1
+CollectibleCardIndex=33
 [NPC1620] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Eirik
 Desc=L
@@ -20364,7 +20763,7 @@ Attackable=0
 Hostile=0
 ReSpawn=0
 ShowName=1
-[NPC1631] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC1631] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Mimic
 Body=5359
 Head=0
@@ -20383,6 +20782,7 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=95
 MinHIT=50
+CollectibleCardIndex=27
 [NPC1632] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Mimic
 Body=5359
@@ -20421,7 +20821,7 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=180
 MinHIT=145
-[NPC1750] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC1750] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Guardia Enano <Protector de Morgrim>
 Body=5669
 Head=0
@@ -20439,7 +20839,8 @@ MinHp=1000
 MaxHp=1000
 MaxHIT=200
 MinHIT=100
-[NPC1751] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+CollectibleCardIndex=75
+[NPC1751] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Ballestero Enano <Protector de Morgrim>
 Body=5681
 BodyIdle=5679
@@ -20456,7 +20857,8 @@ MinHp=2000
 MaxHp=2000
 MaxHIT=80
 MinHIT=50
-[NPC1800] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+CollectibleCardIndex=76
+[NPC1800] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Hechicera Orca <Protectora de Penthar>
 Body=6015
 BodyIdle=6013
@@ -20473,6 +20875,7 @@ MinHp=2000
 MaxHp=2000
 MaxHIT=80
 MinHIT=50
+CollectibleCardIndex=254
 [NPC1801] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
 Name=Guardia Orco
 Body=6012
@@ -20509,7 +20912,7 @@ MinHp=1000
 MaxHp=1000
 MaxHIT=200
 MinHIT=100
-[NPC1803] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B)
+[NPC1803] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs fase B) | cartas: plan 23.005
 Name=Guardia Orco <Protector de Penthar>
 Body=6012
 Head=0
@@ -20528,14 +20931,16 @@ MinHp=1000
 MaxHp=1000
 MaxHIT=200
 MinHIT=100
-[NPC1804] 'Reconstruido de localindex oficial 2026-06-08 (slot era custom nuestro, reubicado)
+CollectibleCardIndex=255
+[NPC1804] 'Reconstruido de localindex oficial 2026-06-08 (slot era custom nuestro, reubicado) | cartas: plan 23.005
 Name=Nagrakh <Senescal de Penthar>
 Desc=-Rey? Aquí no hay un Rey, yo soy quien da las órdenes!
 Body=5835
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=102
 
-[NPC1805] 'Reconstruido de localindex oficial 2026-06-08 (slot era custom nuestro, reubicado)
+[NPC1805] 'Reconstruido de localindex oficial 2026-06-08 (slot era custom nuestro, reubicado) | cartas: plan 23.005
 Name=Caspian <Artesano del Cuero>
 Desc=Vendo pieles
 DescClose=Vuelve pronto
@@ -20543,6 +20948,7 @@ Body=5820
 NpcType=0
 Comercia=1
 NoMapInfo=1
+CollectibleCardIndex=126
 
 [NPC1807] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Mara <Aventurera Viajera>
@@ -20554,7 +20960,7 @@ NpcType=0
 Comercia=1
 NoMapInfo=1
 
-[NPC1808] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1808] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Zull
 Body=6075
 Movement=2
@@ -20575,8 +20981,9 @@ DropCount=3
 Drop1=2236-100-1-1
 Drop2=2237-100-1-1
 Drop3=4960-100-1-1
+CollectibleCardIndex=195
 
-[NPC1809] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1809] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Tyran
 Body=6077
 Movement=2
@@ -20597,14 +21004,16 @@ DropCount=3
 Drop1=2236-100-1-1
 Drop2=2237-100-1-1
 Drop3=4960-100-1-1
+CollectibleCardIndex=194
 
-[NPC1810] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1810] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Cano <El Eterno Chitero>
 Desc=No debí haber hecho eso, me merezco estar eternamente pudriendome en esta celda.
 Body=6094
 Head=0
 NpcType=0
 NoMapInfo=1
+CollectibleCardIndex=161
 
 [NPC1811] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Emilio Dedos Rápidos
@@ -20614,7 +21023,7 @@ Head=0
 NpcType=0
 NoMapInfo=1
 
-[NPC1812] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1812] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Mhor <Herrero Vikingo>
 IT_Desc=Un rammollito come te ha bisogno di un buon acciaio là fuori.
 FR_Desc=Un gringalet comme toi a besoin d'un bon acier là-dehors.
@@ -20647,8 +21056,9 @@ Obj12=1855-1000
 NoMapInfo=1
 TipoItems=2
 CambioAIdle=10
+CollectibleCardIndex=179
 
-[NPC1813] 'Realineado a oficial 2026-06-08 (slot repropuesto)
+[NPC1813] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Heracio <Maestro Herrero>
 IT_Desc=Un rammollito come te ha bisogno di un buon acciaio là fuori.
 FR_Desc=Un gringalet comme toi a besoin d'un bon acier là-dehors.
@@ -20681,6 +21091,7 @@ Obj12=1855-1000
 NoMapInfo=1
 TipoItems=2
 CambioAIdle=10
+CollectibleCardIndex=178
 
 [NPC1814] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Gru Chaman
@@ -20742,13 +21153,14 @@ Nivel=20
 ' fuente primaria. Stats server de hostiles desde getAllHostileNpcs.
 ' Plan 10.001 Fase 3, batch NPCs.
 ' =====================================================================
-[NPC259] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC259] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Blorin <Gobernador de Morgrim>
 Head=0
 Desc=¡Bienvenido a Morgrim la tierra de los Enanos!
 Body=4009
 NpcType=12
 NoMapInfo=1
+CollectibleCardIndex=167
 
 [NPC265] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Subastador
@@ -20766,7 +21178,7 @@ NpcType=4
 NoMapInfo=1
 PuedeInvocar=1
 
-[NPC806] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC806] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Golem de Oro
 Body=4884
 Head=0
@@ -20778,8 +21190,9 @@ GiveEXP=4350
 GiveGLD=150
 MaxHIT=95
 MinHIT=75
+CollectibleCardIndex=110
 
-[NPC807] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC807] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Golem de Tierra
 Body=4887
 Head=0
@@ -20791,8 +21204,9 @@ GiveEXP=4350
 GiveGLD=150
 MaxHIT=95
 MinHIT=75
+CollectibleCardIndex=60
 
-[NPC809] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC809] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Golem de Fuego
 Body=4893
 Head=0
@@ -20822,7 +21236,7 @@ DropCount=2
 Drop1=5988-1-1-1
 Drop2=5179-100-1-1
 
-[NPC810] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC810] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Golem de Viento
 Body=4896
 Head=0
@@ -20834,8 +21248,9 @@ GiveEXP=4350
 GiveGLD=150
 MaxHIT=95
 MinHIT=75
+CollectibleCardIndex=63
 
-[NPC811] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC811] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Glazrath
 Body=5394
 Head=0
@@ -20865,8 +21280,9 @@ ElementalTags=8
 DropCount=2
 Drop1=5182-1000-1-1
 Drop2=561-10000-1-1
+CollectibleCardIndex=84
 
-[NPC818] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC818] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Cirdan
 Body=5428
 Head=0
@@ -20878,8 +21294,9 @@ GiveEXP=4350
 GiveGLD=150
 MaxHIT=95
 MinHIT=75
+CollectibleCardIndex=199
 
-[NPC819] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: hechizos | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC819] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: hechizos | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Bael
 Body=5431
 Head=0
@@ -20906,8 +21323,9 @@ LanzaSpells=2
 Sp1=53
 Sp2=15
 IntervaloLanzarHechizo=5000
+CollectibleCardIndex=232
 
-[NPC823] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC823] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Luzlum
 Body=6070
 Head=0
@@ -20919,8 +21337,9 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=166
 
-[NPC824] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC824] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Midhas
 Body=6073
 Head=0
@@ -20932,6 +21351,7 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=165
 
 [NPC826] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Calabaza
@@ -21063,7 +21483,7 @@ GiveGLD=150
 MaxHIT=95
 MinHIT=75
 
-[NPC840] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC840] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Cryon
 Body=5585
 Head=0
@@ -21086,8 +21506,9 @@ ElementalTags=2
 DropCount=2
 Drop1=5180-1000-1-1
 Drop2=954-10000-1-1
+CollectibleCardIndex=244
 
-[NPC842] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC842] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Ignarok
 Body=5588
 Head=0
@@ -21110,8 +21531,9 @@ ElementalTags=1
 DropCount=2
 Drop1=5179-1000-1-1
 Drop2=945-10000-1-1
+CollectibleCardIndex=235
 
-[NPC849] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC849] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Flamora
 Body=5612
 Head=0
@@ -21132,12 +21554,12 @@ PoderEvasion=175
 DEF=15
 GiveEXPClan=2
 ElementalTags=1
-DropCount=3
+DropCount=2
 Drop1=5989-1-1-1
-Drop2=5179-1000-1-1
-Drop3=949-10000-1-1
+Drop2=949-10000-1-1
+CollectibleCardIndex=239
 
-[NPC850] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops
+[NPC850] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops | cartas: plan 23.005
 Name=Astaroth
 Body=5615
 Head=0
@@ -21160,8 +21582,12 @@ GiveEXPClan=4
 MagicDef=15
 MagicResistance=85
 AguaValida=0
+CollectibleCardIndex=240
+DropCount=2
+Drop1=5992-1-1-1
+Drop2=950-10000-1-1
 
-[NPC851] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, hechizos
+[NPC851] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, hechizos | cartas: plan 23.005
 Name=Pyrrion
 Body=5618
 Head=0
@@ -21183,8 +21609,12 @@ GiveEXPClan=3
 LanzaSpells=1
 Sp1=53
 IntervaloLanzarHechizo=5000
+CollectibleCardIndex=234
+DropCount=2
+Drop1=5990-1-1-1
+Drop2=944-10000-1-1
 
-[NPC852] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, hechizos
+[NPC852] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3; sin portar: drops, hechizos | cartas: plan 23.005
 Name=Phyrus
 Body=5624
 Head=0
@@ -21208,8 +21638,14 @@ AguaValida=0
 LanzaSpells=1
 Sp1=32
 IntervaloLanzarHechizo=6500
+CollectibleCardIndex=236
+DropCount=4
+Drop1=5993-1-1-1
+Drop2=5986-5-1-1
+Drop3=5985-20-1-1
+Drop4=946-10000-1-1
 
-[NPC853] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC853] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Dorim II <Rey de Morgrim>
 Body=5660
 Head=0
@@ -21221,8 +21657,9 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=72
 
-[NPC856] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC856] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Kingion
 Body=5636
 Head=0
@@ -21248,8 +21685,9 @@ ElementalTags=1
 DropCount=2
 Drop1=5179-1000-1-1
 Drop2=6719-10000-1-1
+CollectibleCardIndex=238
 
-[NPC857] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC857] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Aelion
 Body=5663
 Head=0
@@ -21261,8 +21699,9 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=71
 
-[NPC860] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC860] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Capitan Orla
 Body=5684
 Head=0
@@ -21274,8 +21713,9 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=52
 
-[NPC866] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC866] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Urghal
 Body=6055
 Head=0
@@ -21287,8 +21727,9 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=155
 
-[NPC867] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC867] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Bjornulf <Rey de Forgat>
 Body=6058
 Head=0
@@ -21300,8 +21741,38 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=153
 
-[NPC955] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC954] 'Del oficial (API 2026-10-23), sin colocar en mapas (plan 23.005)
+Name=Pixie Sagrada
+NpcType=0
+CollectibleCardIndex=92
+Body=5690
+BodyIdle=5688
+Ataque1=5689
+IntervaloMovimiento=260
+Heading=3
+Movement=2
+Attackable=1
+DEF=0
+Hostile=1
+DropCount=1
+Drop1=569-10000-1-1
+IntervaloAtaque=1850
+MaxHIT=80
+MaxHP=500
+MinHIT=70
+MinHP=500
+PoderAtaque=245
+PoderEvasion=105
+ReSpawn=1
+RestriccionDeAtaque=2
+en_Name=Sacred Pixie
+PT_Name=Duende Sagrado
+FR_Name=Lutin sacré
+IT_Name=Folletto Sacro
+
+[NPC955] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Verraco Invocado
 Body=5125
 Head=0
@@ -21323,7 +21794,7 @@ pt_Name=Javali Invocado
 fr_Name=Sanglier Invoqué
 it_Name=Cinghiale Evocato
 
-[NPC956] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC956] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Momia Invocada
 Body=5136
 Head=0
@@ -21345,7 +21816,7 @@ pt_Name=Múmia invocada
 fr_Name=Momie invoquée
 it_Name=Mummia evocata
 
-[NPC966] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC966] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Body=4919
 MaxHp=140
 MinHp=140
@@ -21385,7 +21856,7 @@ fr_Name=Arachnid sortílego
 it_Name=Arachnid Sortílego
 pt_Name=Arachnid Sortílego
 
-[NPC991] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC991] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Ursidae
 Body=4930
 Head=0
@@ -21403,7 +21874,7 @@ Hostile=1
 PoderAtaque=160
 PoderEvasion=150
 
-[NPC1060] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Sergio <Monturas>, mudado a NPC9056. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC520 del oficial, vida mas parecida: SUPUESTO; sin drops
+[NPC1060] 'Del oficial (pack 2026-10-01); pelea. El numero era nuestro Sergio <Monturas>, mudado a NPC9056. Plan 17.001 Ola 3. PoderAtaque y PoderEvasion del NPC520 del oficial, vida mas parecida: SUPUESTO; sin drops | cartas: plan 23.005
 Name=Philiph
 Head=0
 Body=6031
@@ -21422,6 +21893,7 @@ GiveEXP=0
 GiveGLD=0
 PoderAtaque=140
 PoderEvasion=105
+CollectibleCardIndex=150
 
 [NPC1413] 'Custom 2026-09-01 (plan meta 01.002): dador de QUEST380 "La Ofrenda de Dolgrin". Visual provisorio de herrero enano (remapear via auditor si se quiere uno propio)
 Name=Dolgrin <Quest>
@@ -21485,7 +21957,7 @@ NpcType=0
 MaxHIT=90
 MinHIT=60
 
-[NPC1453] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC1453] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Orghaz
 Body=6037
 Head=0
@@ -21497,6 +21969,7 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=144
 
 [NPC1454] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Sekhmet
@@ -21548,7 +22021,7 @@ NpcType=0
 MaxHIT=190
 MinHIT=145
 
-[NPC1459] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC1459] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Thrukha
 Body=6040
 Head=0
@@ -21560,6 +22033,7 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=0
 MinHIT=0
+CollectibleCardIndex=145
 
 [NPC1474] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Portador de Fuego
@@ -21709,7 +22183,7 @@ MaxHIT=200
 MinHIT=100
 NoMapInfo=1
 
-[NPC1600] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC1600] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Krampus
 Body=5310
 Head=0
@@ -21721,14 +22195,16 @@ GiveEXP=0
 GiveGLD=0
 MaxHIT=200
 MinHIT=100
+CollectibleCardIndex=23
 
-[NPC1619] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
+[NPC1619] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | cartas: plan 23.005
 Name=Niva
 Desc=L
 Body=5332
 Head=0
 BodyIdle=5332
 NpcType=0
+CollectibleCardIndex=111
 
 [NPC1621] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Niva
@@ -21738,7 +22214,7 @@ Head=0
 BodyIdle=5332
 NpcType=0
 
-[NPC1634] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002
+[NPC1634] 'Valores del oficial (API 2026-10-02). Plan 17.001 Ola 3 | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
 Name=Mantis de Fuego
 Body=5609
 Head=0
@@ -21757,12 +22233,12 @@ GiveGLD=0
 PoderAtaque=190
 PoderEvasion=150
 ElementalTags=1
-DropCount=3
+DropCount=2
 Drop1=5991-1-1-1
-Drop2=5179-1000-1-1
-Drop3=844-10000-1-1
+Drop2=844-10000-1-1
+CollectibleCardIndex=158
 
-[NPC1799] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC990 del oficial, vida mas parecida: SUPUESTO; sin drops
+[NPC1799] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC990 del oficial, vida mas parecida: SUPUESTO; sin drops | cartas: plan 23.005
 Name=Isolda
 Head=0
 Body=6009
@@ -21781,6 +22257,7 @@ GiveEXP=0
 GiveGLD=0
 PoderAtaque=140
 PoderEvasion=110
+CollectibleCardIndex=130
 
 [NPC1817] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica)
 Name=Ilusión de Crocky <Quest>
@@ -23229,7 +23706,7 @@ GiveGLD=0
 PoderAtaque=205
 PoderEvasion=20
 
-[NPC865] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. sin drops
+[NPC865] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. sin drops | cartas: plan 23.005
 Name=Gran Blaze
 Head=0
 Body=389
@@ -23252,8 +23729,12 @@ Veneno=1
 GiveEXPClan=2
 PoderAtaque=245
 PoderEvasion=185
+DropCount=3
+Drop1=5987-1-1-1
+Drop2=5983-5-1-1
+Drop3=5984-20-1-1
 
-[NPC871] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
+[NPC871] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas | cartas: plan 23.005
 Name=Capitán Alsetarip
 Desc=Hola, marine... ¿Qué? ¿Te parezco conocido? ¿Pirata yo? ¡No, no! ¡Soy el Capitán Alsetarip!
 Head=0
@@ -23262,8 +23743,9 @@ NpcType=17
 ShowName=1
 Heading=3
 Movement=1
+CollectibleCardIndex=446
 
-[NPC872] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
+[NPC872] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas | cartas: plan 23.005
 Name=Xin
 Desc=Miaaaaaaaaaaauuuuuuuuuuuuu
 Head=0
@@ -23272,8 +23754,9 @@ NpcType=17
 ShowName=1
 Heading=3
 Movement=1
+CollectibleCardIndex=450
 
-[NPC873] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC621 del oficial, vida mas parecida: SUPUESTO; sin drops
+[NPC873] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC621 del oficial, vida mas parecida: SUPUESTO; sin drops | cartas: plan 23.005
 Name=Capitán Doral
 Head=0
 Body=466
@@ -23292,8 +23775,9 @@ GiveEXP=15000
 GiveGLD=0
 PoderAtaque=260
 PoderEvasion=190
+CollectibleCardIndex=447
 
-[NPC876] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC536 del oficial, vida mas parecida: SUPUESTO; sin drops
+[NPC876] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC536 del oficial, vida mas parecida: SUPUESTO; sin drops | cartas: plan 23.005
 Name=Capitán Trang
 Head=0
 Body=472
@@ -23312,8 +23796,9 @@ GiveEXP=20000
 GiveGLD=0
 PoderAtaque=240
 PoderEvasion=130
+CollectibleCardIndex=445
 
-[NPC887] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; banquero. claves de banco de nuestro NPC3
+[NPC887] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; banquero. claves de banco de nuestro NPC3 | cartas: plan 23.005
 Name=Varek <Finanzas Goliath>
 Desc=Hola, bienvenido a la cadena de finanzas Goliath.
 Head=0
@@ -23327,8 +23812,9 @@ SoundOpen=602
 SoundClose=609
 Minimap=1
 NoMapInfo=1
+CollectibleCardIndex=282
 
-[NPC888] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; banquero. claves de banco de nuestro NPC3
+[NPC888] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; banquero. claves de banco de nuestro NPC3 | cartas: plan 23.005
 Name=Noland <Finanzas Goliath>
 Desc=¡Hola! Bienvenido a la cadena de Finanzas Goliath.
 Head=0
@@ -23342,6 +23828,7 @@ SoundOpen=602
 SoundClose=609
 Minimap=1
 NoMapInfo=1
+CollectibleCardIndex=322
 
 [NPC892] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor. comerciante por decision del dueno (en el oficial es figura de relleno); tienda del NPC8 del oficial
 Name=Provisiones
@@ -23364,7 +23851,7 @@ Obj6=28-1000
 SoundOpen=605
 TipoItems=1
 
-[NPC896] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor. comerciante por decision del dueno (en el oficial es figura de relleno); tienda del NPC58 del oficial
+[NPC896] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor. comerciante por decision del dueno (en el oficial es figura de relleno); tienda del NPC58 del oficial | cartas: plan 23.005
 Name=Eom <Tabernero del Meson>
 Head=0
 Body=6261
@@ -23382,6 +23869,7 @@ Obj3=42-1000
 Obj4=161-1000
 SoundOpen=601
 TipoItems=13
+CollectibleCardIndex=128
 
 [NPC921] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
 Name=Udryr <Quest de Druida>
@@ -23395,7 +23883,7 @@ Movement=1
 NumQuest=1
 QuestNumber1=229
 
-[NPC1073] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC926 del oficial, vida mas parecida: SUPUESTO; sin drops
+[NPC1073] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC926 del oficial, vida mas parecida: SUPUESTO; sin drops | cartas: plan 23.005
 Name=Philiph
 Head=0
 Body=6031
@@ -23414,8 +23902,9 @@ GiveEXP=0
 GiveGLD=0
 PoderAtaque=180
 PoderEvasion=140
+CollectibleCardIndex=150
 
-[NPC1075] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC750 del oficial, vida mas parecida: SUPUESTO; sin drops
+[NPC1075] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC750 del oficial, vida mas parecida: SUPUESTO; sin drops | cartas: plan 23.005
 Name=Isolda
 Head=0
 Body=6009
@@ -23434,8 +23923,9 @@ GiveEXP=0
 GiveGLD=0
 PoderAtaque=110
 PoderEvasion=75
+CollectibleCardIndex=130
 
-[NPC1077] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC530 del oficial, vida mas parecida: SUPUESTO; sin drops
+[NPC1077] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC530 del oficial, vida mas parecida: SUPUESTO; sin drops | cartas: plan 23.005
 Name=Isolda
 Head=0
 Body=6009
@@ -23454,6 +23944,7 @@ GiveEXP=0
 GiveGLD=0
 PoderAtaque=220
 PoderEvasion=145
+CollectibleCardIndex=130
 
 [NPC1512] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; guardia. copia de nuestro NPC1504
 Name=Guardia Real
@@ -23526,6 +24017,26 @@ NumQuest=2
 QuestNumber1=425
 QuestNumber2=426
 
+[NPC1918] 'Del oficial (API 2026-10-23), sin colocar en mapas (plan 23.005)
+Name=Boran <Excavador Tenaz>
+Desc=Las mejores herramientas para obtener minerales.
+NpcType=0
+CollectibleCardIndex=125
+Body=6209
+Heading=3
+NPCFACEGRH=7065
+Movement=1
+ShowName=1
+Minimap=1
+Comercia=1
+TipoItems=49
+NROITEMS=4
+Obj1=203-1000
+Obj2=1142-1000
+Obj3=390-1000
+Obj4=1912-1000
+NoMapInfo=1
+
 [NPC1919] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
 Name=Eldran <Quest de Aturdir>
 Desc=Si quieres llevar tu dominio de Enredar más allá, tendrás que demostrar que estás preparado. Los Brumaks pueden enseñarte lo que significa quedar completamente inmóvil.
@@ -23538,7 +24049,7 @@ Movement=1
 NumQuest=1
 QuestNumber1=424
 
-[NPC1920] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
+[NPC1920] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas | cartas: plan 23.005
 Name=Doria Maderavieja <El Navegante>
 Desc=Hola marinero. Te recomiendo buscar refugio, mis huesos me dicen que se avecina una tormenta.
 Head=0
@@ -23547,8 +24058,47 @@ NpcType=17
 ShowName=1
 Heading=3
 Movement=1
+CollectibleCardIndex=79
 
-[NPC1923] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla
+[NPC1921] 'Del oficial (API 2026-10-23), sin colocar en mapas (plan 23.005)
+Name=Balrik <Sabio Meticuloso>
+NpcType=0
+CollectibleCardIndex=94
+Body=6212
+Heading=3
+NPCFACEGRH=8449
+Movement=1
+ShowName=1
+Minimap=1
+Comercia=1
+TipoItems=49
+NROITEMS=4
+Obj1=203-1000
+Obj2=1142-1000
+Obj3=390-1000
+Obj4=1912-1000
+NoMapInfo=1
+
+[NPC1922] 'Del oficial (API 2026-10-23), sin colocar en mapas (plan 23.005)
+Name=Krogar <Excavador Rudo>
+NpcType=0
+CollectibleCardIndex=97
+Body=6213
+Heading=3
+NPCFACEGRH=8429
+Movement=1
+ShowName=1
+Minimap=1
+Comercia=1
+TipoItems=49
+NROITEMS=4
+Obj1=203-1000
+Obj2=1142-1000
+Obj3=390-1000
+Obj4=1912-1000
+NoMapInfo=1
+
+[NPC1923] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla | cartas: plan 23.005
 Name=Valerius <Trovador>
 Desc=Puedo contarte las mejores historias de Ullathorpe
 Head=0
@@ -23560,6 +24110,44 @@ Movement=1
 Attackable=0
 Hostile=0
 NoMapInfo=1
+CollectibleCardIndex=104
+
+[NPC1925] 'Del oficial (API 2026-10-23), sin colocar en mapas (plan 23.005)
+Name=Gladys <Cocinera de Morgrim>
+Desc=¡Hola! Ven a ver estos productos, sólo aquí conseguirás las mejores provisiones de todas estas tierras.
+DescClose=¡Hasta pronto!
+NpcType=0
+CollectibleCardIndex=100
+Body=6248
+Heading=3
+NPCFACEGRH=7058
+Movement=1
+ShowName=1
+Minimap=1
+Comercia=1
+TipoItems=1
+NROITEMS=6
+Obj1=1-1000
+Obj2=22-1000
+Obj3=29-1000
+Obj4=21-1000
+Obj5=23-1000
+Obj6=28-1000
+NoMapInfo=1
+SoundOpen=1153
+SoundClose=1154
+en_Name=Ines <Cook>
+en_desc=Hello! Come and see this products, only here will you get the best provisions of all these lands.
+en_DescClose=See you soon!
+PT_Name=Inês <Cozinheira>
+PT_Desc=Olá! Venha ver esses produtos, apenas aqui você obterá as melhores disposições de todas essas terras.
+pt_DescClose=Vejo você em breve!
+FR_Name=Inès <Cuisinière>
+FR_Desc=Bonjour! Venez voir ces produits, seulement ici, vous obtiendrez les meilleures dispositions de toutes ces terres.
+fr_DescClose=À bientôt!
+IT_Name=Ines <Cuoca>
+IT_Desc=Ciao! Vieni a vedere questi prodotti, solo qui otterrai le migliori disposizioni di tutte queste terre.
+it_DescClose=Arrivederci!
 
 [NPC1927] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor
 Name=Dulgrim <Carpintero>
@@ -23587,7 +24175,7 @@ Obj8=3550-1000
 SoundOpen=845
 NoMapInfo=1
 
-[NPC1928] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla
+[NPC1928] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla | cartas: plan 23.005
 Name=Dargrim <Carpintero>
 Desc=¡Puedes convertir tu madera en lo que tu quieras! Debes aprender sobre esto items en la sección Carpintería, dentro de la Wiki Online
 Head=0
@@ -23601,8 +24189,9 @@ Movement=1
 Attackable=0
 Hostile=0
 NoMapInfo=1
+CollectibleCardIndex=352
 
-[NPC1929] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor. tienda cortada: 3 de 4 items; sin TipoItems: vende pero no compra
+[NPC1929] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor. tienda cortada: 3 de 4 items; sin TipoItems: vende pero no compra | cartas: plan 23.005
 Name=Helgrim <Tabernero>
 Desc=¿Quieres aprender a forjar tus items? ¡La información que necesitas se encuentra en la Wiki Online, en la sección Herreria!
 Head=0
@@ -23621,8 +24210,9 @@ Obj1=43-100
 Obj2=160-100
 Obj3=42-100
 NoMapInfo=1
+CollectibleCardIndex=349
 
-[NPC1930] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor
+[NPC1930] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor | cartas: plan 23.005
 Name=Ingril <Maestra Alquimista>
 Desc=¡Bienvenido! ¿Estás por viajar? Aquí encontrarás las mejores pociones.
 Head=0
@@ -23648,8 +24238,9 @@ Obj8=3075-1000
 SoundOpen=700
 TipoItems=11
 NoMapInfo=1
+CollectibleCardIndex=361
 
-[NPC1931] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor
+[NPC1931] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor | cartas: plan 23.005
 Name=Galvin <Carpintero de Banderbill>
 Desc=¡Bienvenido! Trabajo todo tipo de leña. ¿En qué puedo ayudarte?
 Head=0
@@ -23674,8 +24265,9 @@ Obj7=480-1000
 Obj8=3550-1000
 SoundOpen=845
 NoMapInfo=1
+CollectibleCardIndex=320
 
-[NPC1932] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla
+[NPC1932] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla | cartas: plan 23.005
 Name=Roswell <Carpintería>
 Desc=¡Puedes convertir tu madera en lo que tu quieras! Debes aprender sobre esto items en la sección Carpintería, dentro de la Wiki Online
 Head=0
@@ -23689,8 +24281,9 @@ Movement=1
 Attackable=0
 Hostile=0
 NoMapInfo=1
+CollectibleCardIndex=321
 
-[NPC1934] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor
+[NPC1934] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor | cartas: plan 23.005
 Name=Isabella <Cocinera de Banderbill>
 Desc=¡Hola! Ven a ver estos productos, sólo aquí conseguirás las mejores provisiones de todas estas tierras.
 Head=0
@@ -23714,8 +24307,9 @@ Obj6=28-1000
 SoundOpen=1153
 TipoItems=1
 NoMapInfo=1
+CollectibleCardIndex=318
 
-[NPC1935] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor
+[NPC1935] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor | cartas: plan 23.005
 Name=Ivar Costahilo <Sastre>
 Desc=¡Las mejores telas, no tienes nada que perder con estos precios!
 Head=0
@@ -23747,8 +24341,9 @@ Obj14=886-1000
 SoundOpen=895
 TipoItems=17
 NoMapInfo=1
+CollectibleCardIndex=290
 
-[NPC1936] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; banquero. claves de banco de nuestro NPC3
+[NPC1936] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; banquero. claves de banco de nuestro NPC3 | cartas: plan 23.005
 Name=Ulf Arcas <Finanzas Goliath>
 Desc=Hola, bienvenido a la cadena de finanzas Goliath.
 Head=0
@@ -23762,6 +24357,7 @@ SoundOpen=602
 SoundClose=609
 Minimap=1
 NoMapInfo=1
+CollectibleCardIndex=316
 
 [NPC1937] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
 Name=Harim <Quest de Inframundo>
@@ -23776,7 +24372,7 @@ NumQuest=2
 QuestNumber1=422
 QuestNumber2=390
 
-[NPC1938] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla
+[NPC1938] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla | cartas: plan 23.005
 Name=Herrim <Carpintero>
 Desc=¡Puedes convertir tu madera en lo que tu quieras! Debes aprender sobre esto items en la sección Carpintería, dentro de la Wiki Online
 Head=0
@@ -23790,8 +24386,9 @@ Movement=1
 Attackable=0
 Hostile=0
 NoMapInfo=1
+CollectibleCardIndex=309
 
-[NPC1939] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor. tienda cortada: 3 de 8 items; sin TipoItems: vende pero no compra
+[NPC1939] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor. tienda cortada: 3 de 8 items; sin TipoItems: vende pero no compra | cartas: plan 23.005
 Name=Brynhild <Sastre de Forgat>
 Desc=¡Calidad en pieles, solo para Damas!
 Head=0
@@ -23810,8 +24407,9 @@ Obj1=1272-1000
 Obj2=1273-1000
 Obj3=2927-1000
 NoMapInfo=1
+CollectibleCardIndex=308
 
-[NPC1940] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor. sin TipoItems: vende pero no compra
+[NPC1940] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor. sin TipoItems: vende pero no compra | cartas: plan 23.005
 Name=Solveig <Mercader>
 Desc=¡Todo lo que buscas y más!
 Head=0
@@ -23829,6 +24427,7 @@ NROITEMS=2
 Obj1=534-100
 Obj2=199-100
 NoMapInfo=1
+CollectibleCardIndex=306
 
 [NPC1941] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; vendedor
 Name=Styrkar <Minero>
@@ -23960,7 +24559,7 @@ Attackable=0
 Hostile=0
 NoMapInfo=1
 
-[NPC1950] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla
+[NPC1950] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; habla | cartas: plan 23.005
 Name=Ivir <Alquimista>
 Desc=¡El mundo de la Alquimia es maravilloso! Te recomiendo aprender todo lo relacionado, en la sección Alquimia dentro de la Wiki Online
 Head=0
@@ -23974,6 +24573,7 @@ Movement=1
 Attackable=0
 Hostile=0
 NoMapInfo=1
+CollectibleCardIndex=340
 
 [NPC1952] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; quest. sin quest: habla y nada mas
 Name=Kaelen <Quest de Guarida>
@@ -24028,7 +24628,7 @@ Obj13=3491-100
 Obj14=3492-100
 TipoItems=100
 
-[NPC1912] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. Movement y ShowName de la API; sin NpcFaceGrh ni carta coleccionable
+[NPC1912] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. Movement y ShowName de la API; sin NpcFaceGrh ni carta coleccionable | cartas: plan 23.005
 Name=Thokk
 Head=0
 Body=4028
@@ -24049,8 +24649,9 @@ PoderAtaque=1
 PoderEvasion=1
 ShowName=1
 CambioAIdle=10
+CollectibleCardIndex=184
 
-[NPC1913] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. Movement y ShowName de la API; sin NpcFaceGrh ni carta coleccionable
+[NPC1913] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. Movement y ShowName de la API; sin NpcFaceGrh ni carta coleccionable | cartas: plan 23.005
 Name=Gnargh
 Head=0
 Body=4030
@@ -24071,4 +24672,5 @@ PoderAtaque=1
 PoderEvasion=1
 ShowName=1
 CambioAIdle=10
+CollectibleCardIndex=185
 
