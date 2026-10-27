@@ -20698,6 +20698,7 @@ Head=0
 Desc=¡Bienvenido a Morgrim la tierra de los Enanos!
 Body=4009
 NpcType=12
+GobernadorDe=10
 NoMapInfo=1
 CollectibleCardIndex=167
 
