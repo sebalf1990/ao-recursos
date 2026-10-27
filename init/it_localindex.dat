@@ -4509,8 +4509,6 @@ Desc=¡Otro aventurero que ha sobrevivido lo suficiente como para llegar hasta a
 Body=440
 Head=0
 NpcType=17
-NROITEMS=1
-Obj1=1278-1
 DisabledInBattleServer=1
 
 [NPC120]
@@ -4973,8 +4971,6 @@ Comercia=0
 EXP=30
 MaxHIT=12
 MinHIT=6
-NROITEMS=1
-Obj1=414-1
 ORO=3
 NpcType=0
 DropCount=1
@@ -5025,8 +5021,6 @@ HP=800
 EXP=400
 MaxHIT=47
 MinHIT=25
-NROITEMS=1
-Obj1=1700-1
 ORO=20
 NpcType=0
 DropCount=1
@@ -5445,8 +5439,6 @@ EXP=150
 ORO=0
 MaxHIT=35
 MinHIT=15
-Obj1=5997-1
-NROITEMS=1
 Nivel=15
 DropCount=1
 Drop1=5997-1-1-1
@@ -5868,8 +5860,6 @@ Comercia=0
 EXP=100
 MaxHIT=18
 MinHIT=11
-NROITEMS=1
-Obj1=414-1
 NpcType=0
 ORO=3
 Nivel=20
@@ -5891,8 +5881,6 @@ EXP=250
 MaxHIT=35
 MinHIT=20
 ORO=0
-NROITEMS=1
-Obj1=1146-1
 NpcType=0
 DropCount=3
 Drop1=1146-100-1-5
@@ -5911,8 +5899,6 @@ Comercia=0
 EXP=2880
 MaxHIT=130
 MinHIT=90
-NROITEMS=1
-Obj1=1848-1
 GiveEXPClan=1
 ORO=120
 NpcType=0
@@ -5929,8 +5915,6 @@ EXP=4000
 ORO=125
 MaxHIT=185
 MinHIT=125
-NROITEMS=1
-Obj1=1848-1
 GiveEXPClan=1
 NpcType=0
 Nivel=30
@@ -6018,8 +6002,6 @@ NpcType=17
 MaxHIT=210
 MinHIT=190
 GiveEXPClan=350
-NROITEMS=1
-Obj1=2236-1
 DisabledInBattleServer=1
 
 [NPC573]
@@ -6448,13 +6430,6 @@ Body=4059
 HP=1000000
 NpcType=19
 
-[NPC620]
-Name=Esfera del Dragón 1
-Body=4416
-Head=0
-NROITEMS=1
-Obj1=3308-1
-
 [NPC621]
 Name=Golem de Piedra
 Body=4875
@@ -6463,8 +6438,6 @@ BodyIdle=4873
 Ataque1=4874
 HP=15000
 NpcType=0
-NROITEMS=1
-Obj1=3309-1
 EXP=15000
 GiveEXPClan=5
 ORO=750
@@ -6482,8 +6455,6 @@ BodyIdle=4848
 Ataque1=4835
 HP=5000
 NpcType=0
-NROITEMS=1
-Obj1=3310-1
 MaxHIT=450
 MinHIT=250
 EXP=0
@@ -6496,8 +6467,6 @@ BodyIdle=5423
 Ataque1=5424
 HP=30000
 NpcType=0
-NROITEMS=1
-Obj1=3311-1
 EXP=33000
 GiveEXPClan=30
 ORO=2750
@@ -6510,13 +6479,6 @@ DropCount=2
 Drop1=266-10000-1-1
 Drop2=503-33-1-1
 
-[NPC624]
-Name=Esfera del Dragón 5
-Body=4412
-Head=0
-NROITEMS=1
-Obj1=3312-1
-
 [NPC625]
 Name=Verdanok
 Body=5044
@@ -6524,8 +6486,6 @@ BodyIdle=5042
 Ataque1=5043
 HP=3500
 NpcType=0
-NROITEMS=1
-Obj1=3313-1
 EXP=2450
 ORO=100
 Nivel=20
@@ -6536,11 +6496,17 @@ DropCount=1
 Drop1=324-10000-1-1
 
 [NPC626]
-Name=Esfera del Dragón 7
-Body=4410
+Name=Squalo bianco
+Body=4263
 Head=0
-NROITEMS=1
-Obj1=3314-1
+BodyIdle=4262
+Ataque1=4262
+HP=50000
+NpcType=0
+MinHIT=500
+MaxHIT=550
+EXP=0
+ORO=0
 
 [NPC628]
 Name=Ojos Murcielago
@@ -6907,8 +6873,6 @@ EXP=3040
 ORO=110
 MaxHIT=145
 MinHIT=100
-NROITEMS=1
-Obj1=415-1
 NpcType=0
 GiveEXPClan=1
 Nivel=28
@@ -8189,8 +8153,6 @@ EXP=990
 ORO=50
 MaxHIT=50
 MinHIT=25
-NROITEMS=1
-Obj1=414-1
 NpcType=0
 Nivel=20
 
@@ -8205,8 +8167,6 @@ EXP=1080
 ORO=40
 MaxHIT=50
 MinHIT=25
-NROITEMS=1
-Obj1=414-1
 NpcType=0
 Nivel=20
 
@@ -8242,8 +8202,6 @@ ORO=130
 EXP=7350
 MaxHIT=240
 MinHIT=165
-NROITEMS=1
-Obj1=2534-2
 NpcType=0
 GiveEXPClan=3
 DropCount=3
@@ -8283,8 +8241,6 @@ EXP=6300
 ORO=70
 MaxHIT=220
 MinHIT=145
-NROITEMS=1
-Obj1=2534-1
 NpcType=0
 GiveEXPClan=2
 DropCount=4
@@ -8467,8 +8423,6 @@ EXP=350
 ORO=0
 MaxHIT=55
 MinHIT=45
-NROITEMS=1
-Obj1=4339-1
 NpcType=0
 Nivel=20
 DropCount=3
@@ -8763,8 +8717,6 @@ EXP=40
 ORO=8
 MaxHIT=15
 MinHIT=7
-NROITEMS=1
-Obj1=414-3
 NpcType=0
 Nivel=5
 
@@ -8850,8 +8802,6 @@ EXP=1800
 ORO=200
 MaxHIT=160
 MinHIT=110
-NROITEMS=1
-Obj1=3894-5
 Nivel=20
 DropCount=1
 Drop1=3894-1-1-5
@@ -9053,8 +9003,6 @@ EXP=850
 ORO=0
 MaxHIT=120
 MinHIT=90
-NROITEMS=1
-Obj1=416-1
 NpcType=0
 DropCount=2
 Drop1=416-100-1-5
@@ -9072,8 +9020,6 @@ EXP=700
 ORO=0
 MaxHIT=115
 MinHIT=80
-NROITEMS=1
-Obj1=1145-1
 NpcType=0
 DropCount=3
 Drop1=1145-100-1-5
@@ -9473,8 +9419,6 @@ HP=2500
 EXP=1750
 MaxHIT=100
 MinHIT=85
-NROITEMS=1
-Obj1=1700-1
 ORO=90
 NpcType=0
 
@@ -9963,10 +9907,6 @@ Desc=¿Así que tú eres el que ayudó al viejo Jacobo con sus anzuelos?
 Body=898
 Head=0
 NpcType=17
-NROITEMS=5
-Obj1=30-1
-Obj2=529-1
-Obj3=1004-1
 DisabledInBattleServer=1
 
 [NPC1085]
@@ -9977,10 +9917,6 @@ Head=0
 BodyIdle=6111
 Ataque1=6111
 NpcType=17
-NROITEMS=15
-Obj1=2765-1
-Obj2=2766-1
-Obj3=1665-1
 
 [NPC1086]
 Name=Halving <Falegname>
@@ -10004,10 +9940,6 @@ Desc=¡Aquellos que defiendan los nidos y protejan la isla, tal vez sean dignos 
 Body=356
 Head=5
 NpcType=17
-NROITEMS=22
-Obj1=32-1
-Obj2=35-1
-Obj3=515-1
 DisabledInBattleServer=1
 
 [NPC1088]
@@ -10089,10 +10021,6 @@ BodyIdle=4201
 Ataque1=4200
 HP=550
 NpcType=0
-NROITEMS=8
-Obj1=2826-1
-Obj2=195-1
-Obj3=1226-1
 MaxHIT=80
 MinHIT=60
 EXP=0
@@ -10103,10 +10031,6 @@ Name=Tiburón
 Body=4105
 HP=450
 NpcType=0
-NROITEMS=9
-Obj1=15-1
-Obj2=165-1
-Obj3=1094-1
 MaxHIT=70
 MinHIT=50
 EXP=0
@@ -10118,10 +10042,6 @@ Body=4451
 BodyIdle=4452
 HP=350
 NpcType=0
-NROITEMS=9
-Obj1=30-1
-Obj2=529-1
-Obj3=1004-1
 MaxHIT=60
 MinHIT=40
 EXP=0
@@ -10146,10 +10066,6 @@ Desc=Tengo una mision para ti, ciudadano de Nix.
 Body=474
 Head=0
 NpcType=17
-NROITEMS=8
-Obj1=198-1
-Obj2=127-1
-Obj3=361-1
 
 [NPC1111]
 Name=Zaldivar <Quest de la Cueva Glaciar>
@@ -10157,10 +10073,6 @@ Desc=¿Tienes la agilidad necesaria para ayudarme?
 Body=437
 Head=0
 NpcType=17
-NROITEMS=11
-Obj1=401-1
-Obj2=1792-1
-Obj3=3980-1
 
 [NPC1112]
 Name=Azhara <Quest de Nagas>
@@ -10170,10 +10082,6 @@ Head=0
 BodyIdle=6176
 Ataque1=6176
 NpcType=17
-NROITEMS=6
-Obj1=30-1
-Obj2=529-1
-Obj3=1004-1
 CollectibleCardIndex=324
 
 [NPC1114]
@@ -10194,10 +10102,6 @@ Head=0
 BodyIdle=6108
 Ataque1=6108
 NpcType=17
-NROITEMS=16
-Obj1=240-1
-Obj2=527-1
-Obj3=2843-1
 DisabledInBattleServer=1
 CollectibleCardIndex=325
 
@@ -10221,10 +10125,6 @@ Desc=Intenté acceder al Umbral de las Nagas pero esas bestias son demasiado pod
 Body=428
 Head=0
 NpcType=17
-NROITEMS=8
-Obj1=198-1
-Obj2=127-1
-Obj3=361-1
 
 [NPC1122]
 Name=Zalkor <Quest de Pirañas>
@@ -10232,10 +10132,6 @@ Desc=Esa maldita plaga carnívora está amenazando al puerto.
 Body=417
 Head=0
 NpcType=17
-NROITEMS=22
-Obj1=32-1
-Obj2=35-1
-Obj3=515-1
 
 [NPC1123]
 Name=Magnis <Quest de Leviatanes>
@@ -10243,10 +10139,6 @@ Desc=Fui atacado al Sur de esta ciudad, no tuve mas noticias sobre quienes viaja
 Body=489
 Head=0
 NpcType=17
-NROITEMS=20
-Obj1=1272-1
-Obj2=1274-1
-ObJ3=2927-1
 
 [NPC1124]
 Name=Dominic <Armaiolo>
@@ -10283,10 +10175,6 @@ Desc=Pocos han enfrentado tal furia y vivido para contarlo.
 Body=485
 Head=0
 NpcType=17
-NROITEMS=5
-Obj1=30-1
-Obj2=529-1
-Obj3=1004-1
 DisabledInBattleServer=1
 
 [NPC1127]
@@ -10374,10 +10262,6 @@ BodyIdle=5637
 Ataque1=5638
 HP=1700
 NpcType=0
-NROITEMS=9
-Obj1=2840-1
-Obj2=3388-1
-Obj3=524-1
 EXP=1020
 ORO=55
 MaxHIT=100
@@ -10391,10 +10275,6 @@ BodyIdle=5640
 Ataque1=5641
 HP=1800
 NpcType=0
-NROITEMS=10
-Obj1=159-1
-Obj2=3988-1
-Obj3=1867-1
 EXP=1080
 ORO=60
 MaxHIT=105
@@ -10426,10 +10306,6 @@ BodyIdle=4213
 Ataque1=4212
 HP=650
 NpcType=0
-NROITEMS=4
-Obj1=30-1
-Obj2=84-1
-Obj3=998-1
 MaxHIT=90
 MinHIT=75
 DisabledInBattleServer=1
@@ -11092,10 +10968,6 @@ BodyIdle=4838
 Ataque1=4839
 HP=2500
 NpcType=0
-NROITEMS=10
-Obj1=198-1
-Obj2=127-1
-Obj3=361-1
 EXP=1875
 MaxHIT=85
 MinHIT=35
@@ -11361,8 +11233,6 @@ Ataque1=4130
 HP=2500
 MaxHIT=85
 MinHIT=65
-NROITEMS=1
-OBJ1=408-1
 GiveEXPClan=100
 NpcType=0
 EXP=1500
@@ -11615,8 +11485,6 @@ EXP=1630
 ORO=70
 MaxHIT=50
 MinHIT=30
-NROITEMS=1
-Obj1=3832-1
 Nivel=30
 DropCount=1
 Drop1=5998-1-1-4
@@ -11632,8 +11500,6 @@ EXP=1400
 ORO=60
 MaxHIT=55
 MinHIT=25
-NROITEMS=1
-Obj1=3833-1
 NpcType=0
 Nivel=28
 DropCount=1
@@ -11757,10 +11623,6 @@ Head=0
 BodyIdle=5232
 Ataque1=5233
 HP=400
-NROITEMS=31
-Obj1=3771-1
-Obj2=3773-1
-Obj3=3774-1
 EXP=240
 ORO=8
 MaxHIT=38
@@ -11777,10 +11639,6 @@ Head=0
 BodyIdle=5247
 Ataque1=5248
 HP=1000
-NROITEMS=20
-Obj1=1272-1
-Obj2=1274-1
-ObJ3=2927-1
 EXP=600
 ORO=45
 MaxHIT=70
@@ -11797,10 +11655,6 @@ Head=0
 BodyIdle=5238
 Ataque1=5239
 HP=800
-NROITEMS=16
-Obj1=240-1
-Obj2=527-1
-Obj3=2843-1
 EXP=520
 ORO=28
 MaxHIT=60
@@ -11818,10 +11672,6 @@ Head=0
 BodyIdle=5241
 Ataque1=5242
 HP=600
-NROITEMS=21
-Obj1=32-1
-Obj2=35-1
-Obj3=515-1
 EXP=360
 ORO=18
 MaxHIT=50
@@ -11840,10 +11690,6 @@ Head=0
 BodyIdle=5244
 Ataque1=5245
 HP=8000
-NROITEMS=8
-Obj1=198-1
-Obj2=127-1
-Obj3=361-1
 EXP=8000
 GiveEXPClan=8
 ORO=575
@@ -11961,10 +11807,6 @@ Desc=Llegas en buen momento... Estoy en medio de una investigación crucial, per
 Body=794
 Head=402
 NpcType=17
-NROITEMS=11
-Obj1=401-1
-Obj2=1792-1
-Obj3=3980-1
 
 [NPC1349]
 Name=Josephelf <Eldoria Merchant>
@@ -11999,8 +11841,6 @@ EXP=125
 ORO=35
 MaxHIT=70
 MinHIT=40
-NROITEMS=1
-Obj1=2551-1
 NpcType=0
 DropCount=1
 Drop1=2551-5-1-1
@@ -12448,8 +12288,6 @@ Name=Araucaria de Semilla
 Body=4148
 HP=1
 NpcType=0
-NROITEMS=1
-Obj1=4320-20
 DropCount=1
 Drop1=4320-1-10-20
 
@@ -12482,8 +12320,6 @@ Name=Arbusto de Flores Rojas
 Body=4144
 HP=1
 NpcType=0
-NROITEMS=1
-Obj1=4316-20
 DropCount=1
 Drop1=4316-1-10-20
 
@@ -12492,8 +12328,6 @@ Name=Lobelia Oscura
 Body=4143
 HP=1
 Comercia=0
-NROITEMS=1
-Obj1=4315-20
 DropCount=1
 Drop1=4315-1-10-20
 
@@ -12502,8 +12336,6 @@ Name=Feather Marron
 Body=4141
 HP=1
 Comercia=0
-NROITEMS=1
-Obj1=4314-20
 DropCount=1
 Drop1=4314-1-10-20
 
@@ -12512,8 +12344,6 @@ Name=Cala de Triple Brote
 Body=4140
 HP=1
 NpcType=0
-NROITEMS=1
-Obj1=4313-1
 DropCount=1
 Drop1=4313-1-10-20
 
@@ -12522,8 +12352,6 @@ Name=Cactus de Flor
 Body=4139
 HP=1
 Comercia=0
-NROITEMS=1
-Obj1=4312-20
 DropCount=1
 Drop1=4312-1-10-20
 
@@ -12542,8 +12370,6 @@ Name=Hongo de la Luz
 Body=4137
 HP=1
 Comercia=0
-NROITEMS=1
-Obj1=4310-20
 DropCount=1
 Drop1=4310-1-10-20
 
@@ -16485,12 +16311,6 @@ ManaRequerido=30
 StaRequerido=5
 IconoIndex=32447
 
-[HECHIZO235]
-Nombre=Invocar Golem Capturado (NPCS)
-MinSkill=50
-ManaRequerido=220
-StaRequerido=60
-
 [HECHIZO236]
 Nombre=Implosión (NPCs)
 Desc=Causa de 120 a 130 puntos de daño a la víctima seleccionada.
@@ -16599,12 +16419,6 @@ ManaRequerido=0
 StaRequerido=5000
 IconoIndex=74708
 Cooldown=90
-
-[HECHIZO247]
-Nombre=Invocar Pequeño Lobo Gris(NPCS)
-MinSkill=50
-ManaRequerido=220
-StaRequerido=60
 
 [HECHIZO248]
 Nombre=Flecha Cargada
@@ -21066,7 +20880,7 @@ RopajeGnoma=2701
 ObjType=3
 MAXDEF=1
 MINDEF=1
-Valor=100000
+Valor=0
 Texto=Armadura de Dragón Rojo
 
 [OBJ482]
@@ -27837,6 +27651,7 @@ ObjType=3
 MAXDEF=10
 MINDEF=5
 Valor=0
+Texto=Túnica de Mago del Caos de 2ª Jerarquía (Bajos)
 
 [OBJ1526]
 Name=Armatura del Guerriero del Caos (2a Gerarchia)
@@ -30576,6 +30391,7 @@ RopajeGnoma=2543
 ObjType=3
 MAXDEF=20
 MINDEF=15
+Texto=Armadura Sombria
 
 [OBJ1906]
 Name=Coraza Mágica de Trevhn
@@ -31108,6 +30924,7 @@ RopajeGnoma=765
 ObjType=3
 MAXDEF=20
 MINDEF=15
+Texto=Armadura del Desfalco
 Valor=0
 
 [OBJ1947]
@@ -34506,8 +34323,8 @@ Texto=Antorcha Encendida
 [OBJ2679]
 Name=Rueda de Carro
 GrhIndex=55258
-valor=10
 Objtype=20
+valor=10
 Madera=100
 Texto=Rueda de Carro
 
@@ -43802,7 +43619,7 @@ Texto=Relicario
 Name=Relicario Sagrado
 GrhIndex=38374
 Objtype=53
-Texto=Permite revivir a un personaje.
+Texto=Objeto de un solo uso, permite revivir a un personaje muerto.
 CDType=6
 CD=5000
 
@@ -63309,27 +63126,6 @@ MAXDEF=25
 MINDEF=20
 Valor=10000
 Texto=Trampa Visual (M)
-
-[OBJ9219]
-Name=Vestimentas de Bajo (Newbie)
-GrhIndex=59361
-RopajeHumano=16
-RopajeElfo=16
-RopajeElfoOscuro=1546
-RopajeEnano=3105
-RopajeOrco=2560
-RopajeGnomo=3105
-RopajeHumana=2686
-RopajeElfa=2686
-RopajeElfaOscura=2734
-RopajeEnana=2702
-RopajeOrca=2718
-RopajeGnoma=2702
-ObjType=3
-MAXDEF=0
-MINDEF=0
-Valor=0
-Texto=Vestimentas de Bajo (Newbie)
 
 [OBJ9220]
 Name=Puerta abierta
