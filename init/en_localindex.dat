@@ -54324,7 +54324,7 @@ MinHit=0
 [OBJ6263]
 Name=Espada del Fénix
 Texto=Objeto consumible.
-GrhIndex=49141
+GrhIndex=30872
 ObjType=42
 Valor=0
 MaxHit=0
@@ -54420,7 +54420,7 @@ MinDef=0
 [OBJ6271]
 Name=Sable del Fénix
 Texto=Objeto consumible.
-GrhIndex=55490
+GrhIndex=19726
 ObjType=42
 Valor=0
 MaxHit=0
