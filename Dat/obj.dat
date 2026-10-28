@@ -64527,6 +64527,7 @@ ObjType=42
 Valor=0
 MaxHit=0
 MinHit=0
+Anim=184
 
 [OBJ6262] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Arco del Fénix
@@ -64548,6 +64549,7 @@ ObjType=42
 Valor=0
 MaxHit=0
 MinHit=0
+Anim=222
 
 [OBJ6264] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Hoja del Fénix
@@ -64656,6 +64658,7 @@ ObjType=42
 Valor=0
 MaxHit=0
 MinHit=0
+Anim=218
 
 [OBJ6272] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Invocar Lobo 1
