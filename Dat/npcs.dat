@@ -2050,7 +2050,7 @@ Testonly=1
 Name=Heather <Quest de Equipamiento Basico>
 En_Name=Heather <Quest>
 NpcType=17
-Desc=¡Bienvenido a Argentum Online, si ya has completado las misiónes del Newbie Dungeon, tengo un obsequio para tí!
+Desc=¡Bienvenido a Nueva Ética AO, si ya has completado las misiónes del Newbie Dungeon, tengo un obsequio para tí!
 ShowName=1
 Head=0
 Heading=3
@@ -17642,7 +17642,7 @@ CollectibleCardIndex=287
 
 [NPC123] 'cartas: plan 23.005
 Name=Borin <Minero>
-Desc=Todo lo relacionado a la extracción de minerales en Argentum Online se encuentra en la sección Minar de la Wiki Online. ¡Hecha un vistazo!
+Desc=Todo lo relacionado a la extracción de minerales en Nueva Ética AO se encuentra en la sección Minar de la Wiki Online. ¡Hecha un vistazo!
 Head=0
 Body=6154
 NpcType=0
