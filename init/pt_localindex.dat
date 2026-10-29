@@ -2361,7 +2361,7 @@ DescFinalAudio=1093
 
 [QUEST38]
 Nombre=A aventura começa!
-Desc=Você já chegou ao nível 13, parabéns! A partir de agora, a aventura para o mundo fantástico do Nueva Ética AO começa. Meu nome é Heather, a pessoa encarregada da ilha de Fortuna. Abordagem para receber equipamentos básicos. Tente não perder isso com tanta facilidade!
+Desc=Você já chegou ao nível 13, parabéns! A partir de agora, a aventura pelo mundo fantástico de Nueva Ética AO começa. Meu nome é Heather, a pessoa encarregada da ilha de Fortuna. Abordagem para receber equipamentos básicos. Tente não perder isso com tanta facilidade!
 DescFinal=Que a sorte o acompanhe! No manual, você encontrará todas as respostas que está procurando.
 Repetible=0
 RequiredLevel=13
@@ -2468,7 +2468,7 @@ DescFinalAudio=1237
 [QUEST58]
 Nombre=Lenda na chave
 Desc=Ouça com cuidado, nobre guerreiro: há um boato antigo de que as aranhas jogam uma chave misteriosa aqui. Você pode investigar isso para mim?
-DescFinal=Você conseguiu! Com esta chave, você pode acessar o próximo nível nessas catacumbas. Desejo -lhe o melhor sucesso em sua aventura no Nueva Ética AO, lembre -se de sempre ser uma boa pessoa!
+DescFinal=Você conseguiu! Com esta chave, você pode acessar o próximo nível nessas catacumbas. Desejo -lhe o melhor sucesso em sua aventura em Nueva Ética AO, lembre -se de sempre ser uma boa pessoa!
 Repetible=0
 RequiredLevel=15
 DescAudio=1098
