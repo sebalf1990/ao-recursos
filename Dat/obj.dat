@@ -36721,7 +36721,7 @@ CP7=PIRATA
 CP8=TRABAJADOR
 
 [OBJ3258]
-Name=Armadura de Gran Campeón AO20
+Name=Armadura de Gran Campeón de Nueva Ética
 GrhIndex=2930
 RopajeHumano=359
 RopajeElfo=359
@@ -36743,7 +36743,7 @@ Intirable=1
 Instransferible=1
 NoWiki=1
 Texto=Ganador del tercer torneo 1vs1
-en_Name=AO20 Grand Champion Robe
+en_Name=Nueva Ética Grand Champion Robe
 
 [OBJ3259]
 Name=Diamante Refinado

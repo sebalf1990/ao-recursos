@@ -266,7 +266,7 @@ it_DescFinal=Ottimo compito! Infine, i nostri maghi possono esplorare quel poter
 
 [QUEST38]
 Nombre=¡Comienza la Aventura!
-Desc=¡Ya has alcanzado el nivel 13, felicitaciones! A partir de ahora, comienza la aventura por el fantástico mundo de Argentum Online. Mi nombre es Heather, la encargada de la Isla de la Fortuna. Acércate para recibir un equipamiento básico.. ¡Procura no perder esto tan facilmente!
+Desc=¡Ya has alcanzado el nivel 13, felicitaciones! A partir de ahora, comienza la aventura por el fantástico mundo de Nueva Ética AO. Mi nombre es Heather, la encargada de la Isla de la Fortuna. Acércate para recibir un equipamiento básico.. ¡Procura no perder esto tan facilmente!
 DescFinal=¡Que la suerte te acompañe! En el Manual encontrarás todas las respuestas que andas buscando.
 Repetible=0
 RequiredLevel=13
@@ -283,16 +283,16 @@ RewardObj8=3791-3
 DescAudio=1167
 DescFinalAudio=1168
 en_Nombre=The adventure begins!
-en_Desc=You have now reached level 13, congratulations! From now on, the adventure through the fantastic world of Argentum Online begins. My name is Heather, the person in charge of Fortune Island. Come in to receive some basic equipment... Try not to lose this so easily!
+en_Desc=You have now reached level 13, congratulations! From now on, the adventure through the fantastic world of Nueva Ética AO begins. My name is Heather, the person in charge of Fortune Island. Come in to receive some basic equipment... Try not to lose this so easily!
 en_DescFinal=May luck be with you! In the Manual you will find all the answers you are looking for.
 pt_Nombre=A aventura começa!
-pt_Desc=Você já chegou ao nível 13, parabéns! A partir de agora, a aventura para o mundo fantástico do Argentum Online começa. Meu nome é Heather, a pessoa encarregada da ilha de Fortuna. Abordagem para receber equipamentos básicos. Tente não perder isso com tanta facilidade!
+pt_Desc=Você já chegou ao nível 13, parabéns! A partir de agora, a aventura pelo mundo fantástico de Nueva Ética AO começa. Meu nome é Heather, a pessoa encarregada da ilha de Fortuna. Abordagem para receber equipamentos básicos. Tente não perder isso com tanta facilidade!
 pt_DescFinal=Que a sorte o acompanhe! No manual, você encontrará todas as respostas que está procurando.
 fr_Nombre=L'aventure commence!
-fr_Desc=Vous avez déjà atteint le niveau 13, félicitations! Désormais, l'aventure pour le monde fantastique d'Argentum en ligne commence. Je m'appelle Heather, la personne en charge de l'île de Fortuna. Approche pour recevoir un équipement de base. Essayez de ne pas perdre cela si facilement!
+fr_Desc=Vous avez déjà atteint le niveau 13, félicitations! Désormais, l'aventure dans le monde fantastique de Nueva Ética AO commence. Je m'appelle Heather, la personne en charge de l'île de Fortuna. Approche pour recevoir un équipement de base. Essayez de ne pas perdre cela si facilement!
 fr_DescFinal=Que la chance vous accompagne! Dans le manuel, vous trouverez toutes les réponses que vous recherchez.
 it_Nombre=L'avventura inizia!
-it_Desc=Hai già raggiunto il livello 13, congratulazioni! D'ora in poi inizia l'avventura per il fantastico mondo di Argentum Online. Mi chiamo Heather, la persona responsabile dell'isola di Fortuna. Approccio per ricevere attrezzature di base. Cerca di non perderlo così facilmente!
+it_Desc=Hai già raggiunto il livello 13, congratulazioni! D'ora in poi inizia l'avventura per il fantastico mondo di Nueva Ética AO. Mi chiamo Heather, la persona responsabile dell'isola di Fortuna. Approccio per ricevere attrezzature di base. Cerca di non perderlo così facilmente!
 it_DescFinal=Possa la fortuna accompagnarti! Nel manuale troverai tutte le risposte che stai cercando.
 
 [QUEST39]
@@ -573,7 +573,7 @@ it_DescFinal=Prendi queste monete d'oro come ricompensa per il tuo coraggio!
 [QUEST58]
 Nombre=Leyenda sobre la Llave
 Desc=Escucha con atención, noble guerrero: Existe un antiguo rumor de que aquí las arañas arrojan al morir una misteriosa llave. ¿Puedes investigarlo por mí?
-DescFinal=¡Lo has logrado! Con esta llave podrás acceder al siguiente nivel dentro de estas Catacumbas. ¡Te deseo los mejores exitos en tu aventura dentro de Argentum Online, recuerda ser siempre una buena persona!
+DescFinal=¡Lo has logrado! Con esta llave podrás acceder al siguiente nivel dentro de estas Catacumbas. ¡Te deseo los mejores exitos en tu aventura dentro de Nueva Ética AO, recuerda ser siempre una buena persona!
 Repetible=0
 RequiredLevel=15
 RewardEXP=0
@@ -586,16 +586,16 @@ DescAudio=1098
 DescFinalAudio=1099
 en_Nombre=LEGEND ON THE KEY
 en_Desc=Listen carefully, noble warrior: There is an ancient rumor that spiders here drop a mysterious key when they die. Can you look into it for me?
-en_DescFinal=You've done it! With this key you can access the next level within these Catacombs. I wish you the best success in your adventure within Argentum Online, remember to always be a good person!
+en_DescFinal=You've done it! With this key you can access the next level within these Catacombs. I wish you the best success in your adventure within Nueva Ética AO, remember to always be a good person!
 pt_Nombre=Lenda na chave
 pt_Desc=Ouça com cuidado, nobre guerreiro: há um boato antigo de que as aranhas jogam uma chave misteriosa aqui. Você pode investigar isso para mim?
-pt_DescFinal=Você conseguiu! Com esta chave, você pode acessar o próximo nível nessas catacumbas. Desejo -lhe o melhor sucesso em sua aventura no Argentum online, lembre -se de sempre ser uma boa pessoa!
+pt_DescFinal=Você conseguiu! Com esta chave, você pode acessar o próximo nível nessas catacumbas. Desejo -lhe o melhor sucesso em sua aventura em Nueva Ética AO, lembre -se de sempre ser uma boa pessoa!
 fr_Nombre=Légende sur la clé
 fr_Desc=Écoutez attentivement, Noble Warrior: Il y a une ancienne rumeur selon laquelle les araignées jettent une clé mystérieuse ici. Pouvez-vous enquêter pour moi?
-fr_DescFinal=Vous avez réussi! Avec cette clé, vous pouvez accéder au niveau suivant dans ces catacombes. Je vous souhaite le meilleur succès dans votre aventure dans Argentum Online, n'oubliez pas d'être toujours une bonne personne!
+fr_DescFinal=Vous avez réussi! Avec cette clé, vous pouvez accéder au niveau suivant dans ces catacombes. Je vous souhaite le meilleur succès dans votre aventure dans Nueva Ética AO, n'oubliez pas d'être toujours une bonne personne!
 it_Nombre=Leggenda sulla chiave
 it_Desc=Ascolta attentamente, nobile guerriero: c'è un'antica voce che i ragni lanciano una chiave misteriosa qui. Puoi indagare per me?
-it_DescFinal=Sei riuscito! Con questa chiave puoi accedere al livello successivo all'interno di queste catacombe. Ti auguro il miglior successo nella tua avventura all'interno di Argentum online, ricorda di essere sempre una brava persona!
+it_DescFinal=Sei riuscito! Con questa chiave puoi accedere al livello successivo all'interno di queste catacombe. Ti auguro il miglior successo nella tua avventura all'interno di Nueva Ética AO, ricorda di essere sempre una brava persona!
 
 [QUEST63]
 Nombre=Plaga de Criaturas

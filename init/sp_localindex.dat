@@ -129,7 +129,7 @@ DescFinalAudio=1093
 
 [QUEST38]
 Nombre=¡Comienza la Aventura!
-Desc=¡Ya has alcanzado el nivel 13, felicitaciones! A partir de ahora, comienza la aventura por el fantástico mundo de Argentum Online. Mi nombre es Heather, la encargada de la Isla de la Fortuna. Acércate para recibir un equipamiento básico.. ¡Procura no perder esto tan facilmente!
+Desc=¡Ya has alcanzado el nivel 13, felicitaciones! A partir de ahora, comienza la aventura por el fantástico mundo de Nueva Ética AO. Mi nombre es Heather, la encargada de la Isla de la Fortuna. Acércate para recibir un equipamiento básico.. ¡Procura no perder esto tan facilmente!
 DescFinal=¡Que la suerte te acompañe! En el Manual encontrarás todas las respuestas que andas buscando.
 Repetible=0
 RequiredLevel=13
@@ -236,7 +236,7 @@ DescFinalAudio=1237
 [QUEST58]
 Nombre=Leyenda sobre la Llave
 Desc=Escucha con atención, noble guerrero: Existe un antiguo rumor de que aquí las arañas arrojan al morir una misteriosa llave. ¿Puedes investigarlo por mí?
-DescFinal=¡Lo has logrado! Con esta llave podrás acceder al siguiente nivel dentro de estas Catacumbas. ¡Te deseo los mejores exitos en tu aventura dentro de Argentum Online, recuerda ser siempre una buena persona!
+DescFinal=¡Lo has logrado! Con esta llave podrás acceder al siguiente nivel dentro de estas Catacumbas. ¡Te deseo los mejores exitos en tu aventura dentro de Nueva Ética AO, recuerda ser siempre una buena persona!
 Repetible=0
 RequiredLevel=15
 DescAudio=1098
@@ -2312,7 +2312,7 @@ CollectibleCardIndex=287
 
 [NPC123]
 Name=Borin <Minero>
-Desc=Todo lo relacionado a la extracción de minerales en Argentum Online se encuentra en la sección Minar de la Wiki Online. ¡Hecha un vistazo!
+Desc=Todo lo relacionado a la extracción de minerales en Nueva Ética AO se encuentra en la sección Minar de la Wiki Online. ¡Hecha un vistazo!
 Body=6154
 Head=0
 NpcType=0
@@ -2644,7 +2644,7 @@ NpcType=17
 
 [NPC415]
 Name=Heather <Quest de Equipamiento Basico>
-Desc=¡Bienvenido a Argentum Online, si ya has completado las misiónes del Newbie Dungeon, tengo un obsequio para tí!
+Desc=¡Bienvenido a Nueva Ética AO, si ya has completado las misiónes del Newbie Dungeon, tengo un obsequio para tí!
 Body=6179
 Head=0
 BodyIdle=6179
@@ -37632,7 +37632,7 @@ MaxDef=0
 MinDef=0
 
 [OBJ3258]
-Name=Armadura de Gran Campeón AO20
+Name=Armadura de Gran Campeón de Nueva Ética
 GrhIndex=2930
 RopajeHumano=359
 RopajeElfo=359
@@ -62605,7 +62605,7 @@ Msg14=Seguro activado
 Msg15=Seguro desactivado
 Msg16=Para fundar un clan debes de ser nivel ¬1 o superior
 Msg17=Para fundar un clan necesitas al menos ¬1 pts en liderazgo
-Msg18=¡Felicidades has creado el clan numero ¬1 de Argentum Online!
+Msg18=¡Felicidades has creado el clan numero ¬1 de Nueva Ética AO!
 Msg19=No puedes salir en este momento
 Msg20=No disponible navegando
 Msg21=No disponible cabalgando
@@ -63108,7 +63108,7 @@ Msg518=¡La magia perdió su efecto! Ya puedes atacar.
 Msg519=Has sanado.
 Msg520=Servidor >> Lo sentimos mucho pero el servidor se encuentra actualmente detenido. Intenta ingresar más tarde.
 Msg521=Tu estado no te permite entrar al clan.
-Msg522=¡Bienvenido a las tierras de Argentum Online! ¡¬1 que tengas buen viaje y mucha suerte!
+Msg522=¡Bienvenido a las tierras de Nueva Ética AO! ¡¬1 que tengas buen viaje y mucha suerte!
 Msg523=Tu nivel no te permite seguir en el mapa.
 Msg524=Escribe /HOGAR si deseas regresar rápido a tu hogar.
 Msg525=Ya tenés ese hechizo.
@@ -63165,7 +63165,7 @@ Msg575=Una fuerza divina que vigila esta zona te ha vuelto visible.
 Msg576=Se ha cancelado el viaje a casa
 Msg577=Has vuelto a ser visible
 Msg578=/salir cancelado.
-Msg579=Gracias por jugar Argentum Online.
+Msg579=Gracias por jugar Nueva Ética AO.
 Msg580=En este mapa no se admiten criminales.
 Msg581=En este mapa no se admiten ciudadanos.
 Msg582=Una fuerza superior impide que tus mascotas entren en este mapa. Estas te esperarán afuera.
@@ -63553,7 +63553,7 @@ Msg1016=No se pudo encontrar una sala activa.
 Msg1017=Has creado un lobby para el Deathmatch, recordá que tenes que anunciar el evento desde el mismo panel para que aparezca en consola y los usuarios puedan anotarse.
 Msg1018=Has sido liberado del silencio.
 Msg1019=>>> YA! <<<
-Msg1020=Gracias por jugar Argentum 20.
+Msg1020=Gracias por jugar Nueva Ética AO.
 Msg1021=Acércate a la costa para pescar.
 Msg1022=Para minar oro necesitás un Piquete de Minero Dorado.
 Msg1023=¡Has vuelto a ser visible!
@@ -64298,7 +64298,7 @@ Msg1767=Tu solicitud de ingreso al clan ha sido rechazada. El clan te explica qu
 Msg1768=El nombre no está permitido.
 Msg1769=Ya existe el personaje.
 Msg1770=El servidor se encuentra habilitado solo para administradores por el momento.
-Msg1771=Hay una actualización disponible. Abrí el AO20 Launcher para actualizar el juego.
+Msg1771=Hay una actualización disponible. Abrí el launcher de Nueva Ética AO para actualizar el juego.
 Msg1772=Email inválido.
 Msg1773=No se puede cargar el personaje.
 Msg1774=Has sido expulsado por el sistema anti cheats.
