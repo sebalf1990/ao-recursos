@@ -1175,7 +1175,7 @@ GrhIndex=509
 ObjType=9
 Clave=2
 Valor=0
-Texto=¡Con esta llave podrás abrir tu Casa Patreon!
+Texto=¡Con esta llave podrás abrir tu Casa Premium!
 NFT=0
 en_Name=Ullathorpe House Key 01
 
@@ -1401,7 +1401,7 @@ GrhIndex=509
 ObjType=9
 Clave=4
 Valor=0
-Texto=¡Con esta llave podrás abrir tu Casa Patreon!
+Texto=¡Con esta llave podrás abrir tu Casa Premium!
 NFT=0
 en_Name=Ullathorpe House Key 02
 
@@ -1462,7 +1462,7 @@ GrhIndex=509
 ObjType=9
 Clave=5
 Valor=0
-Texto=¡Con esta llave podrás abrir tu Casa Patreon!
+Texto=¡Con esta llave podrás abrir tu Casa Premium!
 NFT=0
 en_Name=Ullathorpe House Key 03
 
@@ -1524,7 +1524,7 @@ GrhIndex=509
 ObjType=9
 Clave=6
 Valor=
-Texto=¡Con esta llave podrás abrir tu Casa Patreon!
+Texto=¡Con esta llave podrás abrir tu Casa Premium!
 NFT=0
 en_Name=Ullathorpe House Key 04
 
@@ -18334,7 +18334,7 @@ GrhIndex=38354
 ObjType=44
 valor=1250
 Crucial=0
-Texto=Item Exclusivo del Shop Patreon
+Texto=Item Exclusivo del Shop Premium
 NoseCae=1
 SkillRequerido=Supervivencia-100
 Velocidad=1.13
@@ -18343,7 +18343,7 @@ SND1=56
 Instransferible=1
 Intirable=1
 NFT=1
-en_texto=Exclusive Item From the Patreon Shop
+en_texto=Exclusive Item From the Premium Shop
 en_Name=Reins of the Adult Golden Dragon
 
 [OBJ1737]
@@ -18353,7 +18353,7 @@ GrhIndex=38355
 ObjType=44
 valor=1250
 Crucial=0
-Texto=Item Exclusivo del Shop Patreon
+Texto=Item Exclusivo del Shop Premium
 NoseCae=1
 SkillRequerido=Supervivencia-100
 Velocidad=1.13
@@ -18362,7 +18362,7 @@ SND1=56
 Instransferible=1
 Intirable=1
 NFT=1
-en_texto=Exclusive Item From the Patreon Shop
+en_texto=Exclusive Item From the Premium Shop
 en_Name=Reins of the Adult Cardinal Dragon
 
 [OBJ1738]
@@ -18372,7 +18372,7 @@ GrhIndex=38353
 ObjType=44
 valor=1250
 Crucial=0
-Texto=Item Exclusivo del Shop Patreon
+Texto=Item Exclusivo del Shop Premium
 NoseCae=1
 SkillRequerido=Supervivencia-100
 Velocidad=1.13
@@ -18381,7 +18381,7 @@ SND1=56
 Instransferible=1
 Intirable=1
 NFT=1
-en_texto=Exclusive Item From the Patreon Shop
+en_texto=Exclusive Item From the Premium Shop
 en_Name=Reins of the Adult Red Dragon
 
 [OBJ1739]
@@ -40587,7 +40587,7 @@ GrhIndex=38355
 ObjType=44
 valor=1000
 Crucial=0
-Texto=Item Exclusivo del Shop Patreon
+Texto=Item Exclusivo del Shop Premium
 NoseCae=1
 SkillRequerido=Supervivencia-80
 Velocidad=1.1
@@ -40596,7 +40596,7 @@ SND1=56
 Instransferible=1
 Intirable=1
 NFT=1
-en_texto=Exclusive Item From the Patreon Shop
+en_texto=Exclusive Item From the Premium Shop
 en_name=Reins of the Young Cardinal Dragon
 
 [OBJ3528] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
@@ -47606,7 +47606,7 @@ GrhIndex=509
 ObjType=9
 Clave=324
 Valor=0
-Texto=¡Con esta llave podrás abrir tu Casa Patreon!
+Texto=¡Con esta llave podrás abrir tu Casa Premium!
 NFT=0
 
 [OBJ3995]
@@ -62016,7 +62016,7 @@ IT_texto=Ricompensa unica della Fazione Reale.
 [OBJ4954] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=87264
 Name=Mula Azteca
-Texto=Montura exclusiva por Patreon
+Texto=Montura exclusiva Premium
 ObjType=44
 Valor=6000
 NFT=1
@@ -62027,13 +62027,13 @@ RAZAALTOS=5220
 RAZABAJOS=5222
 VELOCIDAD=1
 en_Name=Aztec Mule
-en_texto=Exclusive mount available through Patreon
+en_texto=Exclusive Premium mount
 PT_Name=Mula Asteca
-PT_texto=Montaria exclusiva disponível através do Patreon.
+PT_texto=Montaria exclusiva Premium.
 FR_Name=Mule Aztèque
-FR_texto=Monture exclusive disponible via Patreon
+FR_texto=Monture exclusive Premium
 IT_Name=Mulo Azteco
-IT_texto=Cavalcatura esclusiva disponibile tramite Patreon
+IT_texto=Cavalcatura esclusiva Premium
 
 [OBJ4955] 'Realineado a oficial 2026-06-08 (punto ciego repo==nuestro)
 GrhIndex=24689
@@ -62391,7 +62391,7 @@ Texto=Casco Afilado
 
 [OBJ4977] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Cola de Rata Negra
-Texto=Item de quest Patreon
+Texto=Item de quest Premium
 GrhIndex=49080
 ObjType=29
 Valor=0
@@ -62449,7 +62449,7 @@ Texto=Mascara de Dragón Rojo
 GrhIndex=49081
 Name=Cola de Rata Gris
 ObjType=29
-Texto=Item de quest Patreon
+Texto=Item de quest Premium
 Valor=0
 Intirable=1
 NoseCae=1
@@ -62638,7 +62638,7 @@ MINELV=1
 SND1=56
 Instransferible=1
 Intirable=1
-en_texto=Exclusive Item From the Patreon Shop
+en_texto=Exclusive Item From the Premium Shop
 en_Name=Reins of the Adult Red Dragon
 
 [OBJ4996]
@@ -65192,18 +65192,18 @@ Intirable=1
 NoseCae=1
 
 [OBJ478] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
-Name=Galeón Patreon
+Name=Galeón Premium
 Texto=Requiere nivel 25. Exclusivo de Piratas.
 GrhIndex=4547
 ObjType=31
 Valor=0
-en_Name=Galleon Patreon
+en_Name=Galleon Premium
 en_Texto=Requires level 25. Exclusive to Pirates.
-fr_Name=Galeon Patreon
+fr_Name=Galeon Premium
 fr_Texto=Nécessite niveau 25. Exclusif aux Pirates.
-it_Name=Galeon Patreon
+it_Name=Galeon Premium
 it_Texto=Richiede livello 25. Esclusivo dei Pirati.
-pt_Name=Galeon Patreon
+pt_Name=Galeon Premium
 pt_Texto=Requer nível 25. Exclusivo de Piratas.
 Intirable=1
 MinSkill=0

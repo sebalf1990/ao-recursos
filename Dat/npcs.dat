@@ -5375,7 +5375,7 @@ DropCount=1
 Drop1=323-10000-1-1
 
 [NPC596] 'RESYNC desde sp_localindex.dat (fase B)
-Name=Cofre de Recompensa Patreon
+Name=Cofre de Recompensa Premium
 Body=3897
 Head=0
 NpcType=0
@@ -11317,10 +11317,10 @@ MagicDef=5
 TipoItems=1
 
 [NPC1091] 'RESYNC desde sp_localindex.dat (mapa34 collision fix) | cartas: plan 23.005
-Name=Pablo <Sotano Patreon>
+Name=Pablo <Sotano Premium>
 SoundOpen=2193
 SoundClose=2188
-Desc=¡Bienvenido! Si eres suscriptor Patreon, puedes acceder al Sotano de esta casa.
+Desc=¡Bienvenido! Si eres suscriptor Premium, puedes acceder al Sotano de esta casa.
 Body=6195
 Ataque1=6195
 BodyIdle=6195
@@ -13198,7 +13198,7 @@ PoderEvasion=125
 CollectibleCardIndex=146
 
 [NPC1191] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs) | cartas: plan 23.005
-Name=Banes <Quest de Galeon Patreon>
+Name=Banes <Quest de Galeon Premium>
 Desc=¿Tienes lo necesario para navegar?
 Body=6191
 Ataque1=6191
@@ -13380,7 +13380,7 @@ NoWiki=1
 
 [NPC1202] 'cartas: plan 23.005
 Name=April <Propiedades>
-Desc=Las propiedades nobles no se mantienen solas. Si eres dueño de una Casa Patreon, necesito tu ayuda con ciertos asuntos del sótano.
+Desc=Las propiedades nobles no se mantienen solas. Si eres dueño de una Casa Premium, necesito tu ayuda con ciertos asuntos del sótano.
 Head=0
 Body=6182
 Ataque1=6182
@@ -13676,10 +13676,10 @@ Sp1=15
 RangoSpell=16
 IntervaloLanzarHechizo=3500
 [NPC1217]
-Name=Landon <Shop Patreon>
-En_name=Merchant <Shop Patreon>
+Name=Landon <Shop Premium>
+En_name=Merchant <Shop Premium>
 NpcType=21
-Desc=Acepto creditos patreon por items muy convenientes
+Desc=Acepto créditos Premium por items muy convenientes
 Head=0
 Body=416
 Heading=3
@@ -13690,7 +13690,7 @@ Comercia=0
 Hostile=0
 ShowName=1
 Minimap=1
-en_desc=I have items and I am willing to exchange them for whatever Patreon credits you have
+en_desc=I have items and I am willing to exchange them for whatever Premium credits you have
 NPCLVL=42
 MagicResistance=100
 MagicDef=15

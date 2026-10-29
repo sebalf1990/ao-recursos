@@ -1572,7 +1572,7 @@ it_DescFinal=Ottimo lavoro, con questo flash avrai un potere incredibile!
 
 [QUEST174]
 Nombre=Control de Plaga Persistente
-Desc=En los últimos días hemos recibido informes sobre la presencia de ratas negras en los sótanos de varias Casas Patreon. Estos espacios amplios y poco transitados suelen convertirse en refugio ideal para plagas persistentes. No podemos permitir que una propiedad distinguida caiga en descuido. Desciende a tu sótano, elimina a las criaturas que encuentres y tráeme pruebas de que la situación ha sido controlada adecuadamente.
+Desc=En los últimos días hemos recibido informes sobre la presencia de ratas negras en los sótanos de varias Casas Premium. Estos espacios amplios y poco transitados suelen convertirse en refugio ideal para plagas persistentes. No podemos permitir que una propiedad distinguida caiga en descuido. Desciende a tu sótano, elimina a las criaturas que encuentres y tráeme pruebas de que la situación ha sido controlada adecuadamente.
 DescFinal=Veo que has cumplido con tu tarea. La infestación ha sido reducida y, por el momento, tu propiedad vuelve a estar en condiciones apropiadas.
 Repetible=1
 RequiredOBJs=1
@@ -1582,16 +1582,16 @@ RewardObj1=195-1
 DescAudio=1108
 DescFinalAudio=1109
 en_Nombre=Persistent Pest Control
-en_Desc=In recent days we have received reports of the presence of black rats in the basements of several Patreon Houses. These large, rarely traveled spaces often become ideal refuges for persistent pests. We cannot allow a distinguished property to fall into neglect. Descend into your basement, eliminate any creatures you find, and bring me proof that the situation has been properly controlled.
+en_Desc=In recent days we have received reports of the presence of black rats in the basements of several Premium Houses. These large, rarely traveled spaces often become ideal refuges for persistent pests. We cannot allow a distinguished property to fall into neglect. Descend into your basement, eliminate any creatures you find, and bring me proof that the situation has been properly controlled.
 en_DescFinal=I see that you have fulfilled your task. The infestation has been reduced and, for the time being, your property is back in proper condition.
 pt_Nombre=Controle persistente de pragas
-pt_Desc=Nos últimos dias recebemos relatos da presença de ratos pretos nos porões de diversas Casas Patreon. Estes espaços grandes e raramente percorridos tornam-se frequentemente refúgios ideais para pragas persistentes. Não podemos permitir que uma propriedade distinta caia no esquecimento. Desça ao seu porão, elimine todas as criaturas que encontrar e traga-me provas de que a situação foi devidamente controlada.
+pt_Desc=Nos últimos dias recebemos relatos da presença de ratos pretos nos porões de diversas Casas Premium. Estes espaços grandes e raramente percorridos tornam-se frequentemente refúgios ideais para pragas persistentes. Não podemos permitir que uma propriedade distinta caia no esquecimento. Desça ao seu porão, elimine todas as criaturas que encontrar e traga-me provas de que a situação foi devidamente controlada.
 pt_DescFinal=Vejo que você cumpriu sua tarefa. A infestação foi reduzida e, por enquanto, seu imóvel está de volta em boas condições.
 fr_Nombre=Lutte antiparasitaire persistante
-fr_Desc=Ces derniers jours, nous avons reçu des informations faisant état de la présence de rats noirs dans les sous-sols de plusieurs maisons Patreon. Ces grands espaces rarement parcourus deviennent souvent des refuges idéaux pour les ravageurs persistants. Nous ne pouvons pas laisser une propriété distinguée tomber à l’abandon. Descendez dans votre sous-sol, éliminez toutes les créatures que vous trouverez et apportez-moi la preuve que la situation a été correctement contrôlée.
+fr_Desc=Ces derniers jours, nous avons reçu des informations faisant état de la présence de rats noirs dans les sous-sols de plusieurs maisons Premium. Ces grands espaces rarement parcourus deviennent souvent des refuges idéaux pour les ravageurs persistants. Nous ne pouvons pas laisser une propriété distinguée tomber à l’abandon. Descendez dans votre sous-sol, éliminez toutes les créatures que vous trouverez et apportez-moi la preuve que la situation a été correctement contrôlée.
 fr_DescFinal=Je vois que vous avez rempli votre tâche. L’infestation a été réduite et, pour le moment, votre propriété est de nouveau en bon état.
 it_Nombre=Controllo persistente dei parassiti
-it_Desc=Negli ultimi giorni abbiamo ricevuto segnalazioni della presenza di ratti neri negli scantinati di diverse Patreon House. Questi ampi spazi raramente percorribili diventano spesso rifugi ideali per parassiti persistenti. Non possiamo permettere che un immobile illustre cada in abbandono. Scendi nel tuo seminterrato, elimina tutte le creature che trovi e portami la prova che la situazione è stata adeguatamente controllata.
+it_Desc=Negli ultimi giorni abbiamo ricevuto segnalazioni della presenza di ratti neri negli scantinati di diverse Case Premium. Questi ampi spazi raramente percorribili diventano spesso rifugi ideali per parassiti persistenti. Non possiamo permettere che un immobile illustre cada in abbandono. Scendi nel tuo seminterrato, elimina tutte le creature che trovi e portami la prova che la situazione è stata adeguatamente controllata.
 it_DescFinal=Vedo che hai adempiuto al tuo compito. L'infestazione si è ridotta e, per il momento, la tua proprietà è tornata in buone condizioni.
 
 [QUEST175]
