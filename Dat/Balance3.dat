@@ -312,6 +312,8 @@ AssistDamageValidTime=8000
 AssistHelpValidTime=8000
 HideAfterHitTime=500
 FactionReKillTime=600000
+' Plan 2026-10-29 E1b: muertes que cuentan por dia para una misma pareja asesino->victima (0 = sin tope).
+KillsMismaParejaPorDia=3
 AirHitReductParalisisTime=1
 
 [STUN]
